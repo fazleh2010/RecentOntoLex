@@ -28,24 +28,24 @@ public class ObjectWordResults {
     @JsonIgnore
     public static String PATTERN_CALCULATION = "PATTERN_CALCULATION";
 
+    
+    @JsonProperty("object")
+    private String object;
     @JsonProperty("objectIndex")
     private String objectIndex;
     @JsonProperty("numberOfEntitiesFoundInObject")
     private Integer numberOfEntitiesFoundInObject;
+    
     //@JsonProperty("property")
     @JsonIgnore
     private String property;
-    @JsonIgnore
-    private String KB;
-    //@JsonProperty("ListOfWords")
-    //private List<String> words;
     @JsonProperty("detail")
     private List<WordResult> distributions = new ArrayList<WordResult>();
     
 
     public ObjectWordResults(String property, String object, Integer numberOfEntitiesFoundInObject, List<WordResult> distributions, Integer topWordLimit) {
         this.property = property;
-        this.KB = object;
+        this.object =  this.shortForm(object);
         this.numberOfEntitiesFoundInObject = numberOfEntitiesFoundInObject;
         this.distributions = distributions;
         Collections.sort(this.distributions, new WordResult());
@@ -70,16 +70,16 @@ public class ObjectWordResults {
         return index;
     }
 
+    public String getObject() {
+        return object;
+    }
+
     public String getObjectIndex() {
         return objectIndex;
     }
 
     public String getProperty() {
         return property;
-    }
-
-    public String getKB() {
-        return KB;
     }
 
     public List<WordResult> getDistributions() {
@@ -89,10 +89,18 @@ public class ObjectWordResults {
     public Integer getNumberOfEntitiesFoundInObject() {
         return numberOfEntitiesFoundInObject;
     }
+  
+    private String shortForm(String url) {
+        String objectUrl = "http://dbpedia.org/resource/";
+        if (url.contains(objectUrl)) {
+            return url.replace(objectUrl, "");
+        }
+        return url;
+    }
 
     @Override
     public String toString() {
-        return "Results{" + "objectIndex=" + objectIndex + ", property=" + property + ", KB=" + KB + ", distributions=" + distributions + '}';
+        return "Results{" + "objectIndex=" + objectIndex + ", property=" + property + ", KB=" + object + ", distributions=" + distributions + '}';
     }
 
     private List<WordResult> getTopElements(List<WordResult> list, Integer topWordLimit) {

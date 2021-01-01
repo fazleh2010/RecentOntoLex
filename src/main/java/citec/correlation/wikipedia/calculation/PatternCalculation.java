@@ -324,7 +324,7 @@ public class PatternCalculation implements PatternThresold{
             String entityLine = null;
 
             if (objectString != null) {
-                entityLine = idString + entities.getObjectIndex() + "  " + propertyString + entities.getProperty() + "  " + objectString + entities.getKB() + "  ";
+                entityLine = idString + entities.getObjectIndex() + "  " + propertyString + entities.getProperty() + "  " + objectString + entities.getObject() + "  ";
             } else {
                 entityLine = idString + entities.getObjectIndex() + "  " + propertyString + entities.getProperty() + "  ";
             }
@@ -363,7 +363,7 @@ public class PatternCalculation implements PatternThresold{
                 } else {
                     propertyObjects = new ArrayList<WordObjectResults>();
                 }
-                WordObjectResults entityInfo = new WordObjectResults(wordResults.getPosTag(),entities.getProperty(), entities.getKB(), wordResults.getMultipleValue(), wordResults.getProbabilities());
+                WordObjectResults entityInfo = new WordObjectResults(wordResults.getPosTag(),entities.getProperty(), entities.getObject(), wordResults.getMultipleValue(), wordResults.getProbabilities());
                 propertyObjects.add(entityInfo);
                 patternEntities.put(key, propertyObjects);
 

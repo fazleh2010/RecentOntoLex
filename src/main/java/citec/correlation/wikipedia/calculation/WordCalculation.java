@@ -322,7 +322,7 @@ public class WordCalculation implements TextAnalyzer,WordThresold {
         String str = "";
             
         for (ObjectWordResults entities : entityResults) {
-            String entityLine = "id=" + entities.getObjectIndex() + "  " + "property=" + entities.getProperty() + "  " + "object=" + entities.getKB() + "  " + "NumberOfEntitiesFoundForObject=" + entities.getNumberOfEntitiesFoundInObject()+ "\n"; //+" "+"#the data within bracket is different way of counting confidence and lift"+ "\n";
+            String entityLine = "id=" + entities.getObjectIndex() + "  " + "property=" + entities.getProperty() + "  " + "object=" + entities.getObject()+ "  " + "NumberOfEntitiesFoundForObject=" + entities.getNumberOfEntitiesFoundInObject()+ "\n"; //+" "+"#the data within bracket is different way of counting confidence and lift"+ "\n";
             String wordSum = "";
             for (WordResult wordResults : entities.getDistributions()) {
                 String multiply = "multiply=" + wordResults.getMultiple();
@@ -351,7 +351,7 @@ public class WordCalculation implements TextAnalyzer,WordThresold {
       }
         String str = "";
         for (ObjectWordResults entities : entityResults) {
-            String entityLine = "id=" + entities.getObjectIndex() + "  " + "property=" + entities.getProperty() + "  " + "object=" + entities.getKB() + "  " + "NumberOfEntitiesFoundForObject=" + entities.getNumberOfEntitiesFoundInObject()+ "\n"; //+" "+"#the data within bracket is different way of counting confidence and lift"+ "\n";
+            String entityLine = "id=" + entities.getObjectIndex() + "  " + "property=" + entities.getProperty() + "  " + "object=" + entities.getObject() + "  " + "NumberOfEntitiesFoundForObject=" + entities.getNumberOfEntitiesFoundInObject()+ "\n"; //+" "+"#the data within bracket is different way of counting confidence and lift"+ "\n";
             String wordSum = "";
             for (WordResult wordResults : entities.getDistributions()) {
                 String multiply = "multiply=" + wordResults.getMultiple();
@@ -373,9 +373,9 @@ public class WordCalculation implements TextAnalyzer,WordThresold {
                  WordObjectResults entityInfo =null;
                 if (wordObjectResults.containsKey(key)) {
                     propertyObjects = wordObjectResults.get(key);
-                    entityInfo = new WordObjectResults(wordResults.getPosTag(), entities.getProperty(), entities.getKB(), wordResults.getMultipleValue(), wordResults.getProbabilities());
+                    entityInfo = new WordObjectResults(wordResults.getPosTag(), entities.getProperty(), entities.getObject(), wordResults.getMultipleValue(), wordResults.getProbabilities());
                 } else {
-                    entityInfo = new WordObjectResults(wordResults.getPosTag(), entities.getProperty(), entities.getKB(), wordResults.getMultipleValue(), wordResults.getProbabilities());
+                    entityInfo = new WordObjectResults(wordResults.getPosTag(), entities.getProperty(), entities.getObject(), wordResults.getMultipleValue(), wordResults.getProbabilities());
 
                 }
                 propertyObjects.add(entityInfo);

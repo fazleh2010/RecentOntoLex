@@ -47,15 +47,15 @@ public class Lexicon {
         return posEntitieInfos;
     }
 
-    public void prepareLexiconWord(String resultDir, Set<String> posTags) throws IOException {
+    public void prepareObjectLexicon(String resultDir, Set<String> posTags) throws IOException {
         Map<String, List<WordObjectResults>> wordEntities=this.getwordEntities(resultDir);
         for (String pos : posTags) {
             Map<String, List<WordObjectResults>> posEntitieInfos = entitiesSort(wordEntities, pos);
-            this.prepareLexiconForPattern(posEntitieInfos, pos,"word","fileName");
+            this.preparePropertyLexicon(posEntitieInfos, pos,"word","fileName");
         }
     }
 
-    public void prepareLexiconForPattern(Map<String, List<WordObjectResults>> nounEntitieInfos, String givenPartsOfSpeech, String type,String fileName) throws IOException {
+    public void preparePropertyLexicon(Map<String, List<WordObjectResults>> nounEntitieInfos, String givenPartsOfSpeech, String type,String fileName) throws IOException {
         if (nounEntitieInfos.isEmpty()) {
             return;
         }

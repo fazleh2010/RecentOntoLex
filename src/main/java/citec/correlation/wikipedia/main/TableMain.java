@@ -121,7 +121,7 @@ public class TableMain implements PropertyNotation,DirectoryLocation,MenuOptions
             PatternCalculation patternCalculation = new PatternCalculation(inputDir, inputFile, dbo_ClassName);
             Lexicon lexicon = new Lexicon(qald9Dir);
             String fileName = qald9Dir + File.separator + "lexicon-" + PATTERN + "-" + "JJ" + ".json";
-            lexicon.prepareLexiconForPattern(patternCalculation.getPatternEntities(), PATTERN, "JJ", fileName);
+            lexicon.preparePropertyLexicon(patternCalculation.getPatternEntities(), PATTERN, "JJ", fileName);
         }
 
     }
@@ -137,7 +137,7 @@ public class TableMain implements PropertyNotation,DirectoryLocation,MenuOptions
     
     public static void objectLexicon(String tableDir, String classDir, String dbo_ClassName,String selectedWordDir,String resultDir) throws IOException, Exception {
         Lexicon lexicon=new Lexicon(qald9Dir);
-        lexicon.prepareLexiconWord(resultDir,new HashSet<String>(TextAnalyzer.POSTAGS));
+        lexicon.prepareObjectLexicon(resultDir,new HashSet<String>(TextAnalyzer.POSTAGS));
         System.out.println("Lexicon Creation!!!");
     }
 

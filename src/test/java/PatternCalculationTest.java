@@ -47,7 +47,7 @@ public class PatternCalculationTest {
         Lexicon lexicon = new Lexicon(qald9Dir);
         for (String postag : TextAnalyzer.POSTAGS) {
             String fileName = this.getLexiconFile(qald9Dir, postag);
-            lexicon.prepareLexiconForPattern(patternCalculation.getPatternEntities(), postag, PATTERN, fileName);
+            lexicon.preparePropertyLexicon(patternCalculation.getPatternEntities(), postag, PATTERN, fileName);
         }
     }
 

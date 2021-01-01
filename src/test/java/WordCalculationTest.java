@@ -54,7 +54,7 @@ public class WordCalculationTest implements PropertyNotation, DirectoryLocation,
     @Ignore
     public void wordLexiconTest() throws IOException, Exception {
         Lexicon lexicon = new Lexicon(qald9Dir);
-        lexicon.prepareLexiconWord(resultDir, new HashSet<String>(TextAnalyzer.POSTAGS));
+        lexicon.prepareObjectLexicon(resultDir, new HashSet<String>(TextAnalyzer.POSTAGS));
         System.out.println("Lexicon Creation!!!");
     }
 }

@@ -1,0 +1,71 @@
+[ {
+  "pattern" : "achieve_cult",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:writer ", "multiplyValue=0.010753" ]
+  }
+}, {
+  "pattern" : "base_on",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:writer ", "multiplyValue=0.021505" ]
+  }
+}, {
+  "pattern" : "direct_by",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:director ", "multiplyValue=0.061404" ],
+    "2" : [ "pair=dbo:writer ", "multiplyValue=0.038402" ]
+  }
+}, {
+  "pattern" : "direct_produce",
+  "partsOfSpeech" : "VBN_VBN",
+  "index" : {
+    "1" : [ "pair=dbo:director ", "multiplyValue=0.017544" ],
+    "2" : [ "pair=dbo:producer ", "multiplyValue=0.021739" ]
+  }
+}, {
+  "pattern" : "produce_direct",
+  "partsOfSpeech" : "VBN_VBN",
+  "index" : {
+    "1" : [ "pair=dbo:producer ", "multiplyValue=0.01087" ]
+  }
+}, {
+  "pattern" : "release_deadline",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:producer ", "multiplyValue=0.01087" ],
+    "2" : [ "pair=dbo:starring ", "multiplyValue=0.01" ]
+  }
+}, {
+  "pattern" : "release_in",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:country ", "multiplyValue=0.055556" ],
+    "2" : [ "pair=dbp:country ", "multiplyValue=0.026144" ]
+  }
+}, {
+  "pattern" : "release_on",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:producer ", "multiplyValue=0.01087" ]
+  }
+}, {
+  "pattern" : "remain_high",
+  "partsOfSpeech" : "VBZ_JJS",
+  "index" : {
+    "1" : [ "pair=dbp:studio ", "multiplyValue=0.018182" ]
+  }
+}, {
+  "pattern" : "star",
+  "partsOfSpeech" : "VBD",
+  "index" : {
+    "1" : [ "pair=dbo:starring ", "multiplyValue=0.13" ]
+  }
+}, {
+  "pattern" : "write_by",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:director ", "multiplyValue=0.017544" ]
+  }
+} ]

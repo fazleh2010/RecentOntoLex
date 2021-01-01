@@ -1,0 +1,39 @@
+{
+  "MeanReciProcalRank" : 0.0,
+  "TotalPattern" : 6,
+  "NumberOfPatterrnFoundNonZeroRank" : 0,
+  "NumberOfPatterrnFoundZeroRank" : 6,
+  "PatterrnFoundNonZeroRank" : { },
+  "PatterrnFoundZeroRank" : {
+    "es_un" : {
+      "Predicate" : [ "dbo:producer", "dbo:writer" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "features_many" : {
+      "Predicate" : [ "dbp:studio" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "stars" : {
+      "Predicate" : [ "dbo:starring", "dbp:extra", "dbp:writer" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "today_regard" : {
+      "Predicate" : [ "dbo:producer", "dbo:writer" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "traducida_en" : {
+      "Predicate" : [ "dbo:editing", "dbo:producer", "dbo:writer" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "uk_title" : {
+      "Predicate" : [ "dbo:producer" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    }
+  }
+}

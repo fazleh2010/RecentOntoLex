@@ -1,0 +1,65 @@
+{
+  "MeanReciProcalRank" : 0.18181818181818182,
+  "TotalPattern" : 11,
+  "NumberOfPatterrnFoundNonZeroRank" : 2,
+  "NumberOfPatterrnFoundZeroRank" : 9,
+  "PatterrnFoundNonZeroRank" : {
+    "direct_by" : {
+      "Predicate" : [ "dbo:director" ],
+      "Rank" : 1,
+      "ReciprocalRank" : 1.0
+    },
+    "star" : {
+      "Predicate" : [ "dbo:starring" ],
+      "Rank" : 1,
+      "ReciprocalRank" : 1.0
+    }
+  },
+  "PatterrnFoundZeroRank" : {
+    "achieve_cult" : {
+      "Predicate" : [ "dbo:writer" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "base_on" : {
+      "Predicate" : [ "dbo:writer" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "direct_produce" : {
+      "Predicate" : [ "dbo:producer", "dbo:director" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "produce_direct" : {
+      "Predicate" : [ "dbo:producer" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "release_deadline" : {
+      "Predicate" : [ "dbo:producer", "dbo:starring" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "release_in" : {
+      "Predicate" : [ "dbo:country", "dbp:country" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "release_on" : {
+      "Predicate" : [ "dbo:producer" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "remain_high" : {
+      "Predicate" : [ "dbp:studio" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "write_by" : {
+      "Predicate" : [ "dbo:director" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    }
+  }
+}

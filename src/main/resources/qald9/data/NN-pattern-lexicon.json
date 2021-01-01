@@ -1,0 +1,43 @@
+[ {
+  "pattern" : "es_un",
+  "partsOfSpeech" : "NNS_VBP",
+  "index" : {
+    "1" : [ "pair=dbo:producer ", "multiplyValue=0.005435" ],
+    "2" : [ "pair=dbo:writer ", "multiplyValue=0.005376" ]
+  }
+}, {
+  "pattern" : "features_many",
+  "partsOfSpeech" : "NNS_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:studio ", "multiplyValue=0.036364" ]
+  }
+}, {
+  "pattern" : "stars",
+  "partsOfSpeech" : "NNS",
+  "index" : {
+    "1" : [ "pair=dbo:starring ", "multiplyValue=0.12" ],
+    "2" : [ "pair=dbp:extra ", "multiplyValue=0.047619" ],
+    "3" : [ "pair=dbp:writer ", "multiplyValue=0.019608" ]
+  }
+}, {
+  "pattern" : "today_regard",
+  "partsOfSpeech" : "NN_VBN",
+  "index" : {
+    "1" : [ "pair=dbo:producer ", "multiplyValue=0.01087" ],
+    "2" : [ "pair=dbo:writer ", "multiplyValue=0.010753" ]
+  }
+}, {
+  "pattern" : "traducida_en",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:editing ", "multiplyValue=0.018519" ],
+    "2" : [ "pair=dbo:producer ", "multiplyValue=0.01087" ],
+    "3" : [ "pair=dbo:writer ", "multiplyValue=0.010753" ]
+  }
+}, {
+  "pattern" : "uk_title",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:producer ", "multiplyValue=0.021739" ]
+  }
+} ]

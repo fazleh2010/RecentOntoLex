@@ -43,12 +43,8 @@ public class Comparision {
   
 
     public Comparision(String qald9Dir, String qaldFileName, String methodFileName,String outputFileName) throws IOException {
-        System.out.println(methodFileName);
         this.lexiconDic = getLexicon(methodFileName);
-        System.out.println("lexicon:"+lexiconDic.keySet());
-        System.out.println(qaldFileName);
         this.qaldDic = getQald(qaldFileName);
-        System.out.println("qald9:"+qaldDic.keySet());
         this.outputFileName=outputFileName;
     }
     

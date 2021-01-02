@@ -51,7 +51,6 @@ public class ComparisionTest {
     private String conditionalFilename = qald9Dir + "lexicon-conditional-pattern" + ".json";
     private String outputFileName = qald9Dir + "meanReciprocal" + ".json";
 
-    @Test
     public void main() throws IOException, Exception {
         Set<String> POSTAGS = new HashSet<String>(Arrays.asList(TextAnalyzer.NOUN));
         for (String postag : POSTAGS) {

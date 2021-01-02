@@ -367,7 +367,7 @@ public class WordCalculation implements TextAnalyzer,WordThresold {
                 //lift="";
                 String wordline = wordResults.getWord() + "  " + wordResults.getPosTag()+ "  "+multiply + "  " + probabilty + "  "+liftAndConfidence+"\n";
                 wordSum += wordline;
-                String key=wordResults.getWord();
+                String key=wordResults.getWord()+"-"+wordResults.getPosTag();
                 
                  List<WordObjectResults> propertyObjects =new ArrayList<WordObjectResults>();
                  WordObjectResults entityInfo =null;

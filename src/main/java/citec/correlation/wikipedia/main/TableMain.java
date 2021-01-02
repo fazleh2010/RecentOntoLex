@@ -135,11 +135,11 @@ public class TableMain implements PropertyNotation,DirectoryLocation,MenuOptions
         System.out.println("System execution ended!!!");
     }
     
-    public static void objectLexicon(String tableDir, String classDir, String dbo_ClassName,String selectedWordDir,String resultDir) throws IOException, Exception {
+    /*public static void objectLexicon(String tableDir, String classDir, String dbo_ClassName,String selectedWordDir,String resultDir) throws IOException, Exception {
         Lexicon lexicon=new Lexicon(qald9Dir);
         lexicon.prepareObjectLexicon(resultDir,new HashSet<String>(TextAnalyzer.POSTAGS));
         System.out.println("Lexicon Creation!!!");
-    }
+    }*/
 
     public static void generateClassPropertyTable(String rawFiles, String dbo_ClassName,String outputDir) throws Exception {
         Tables tables= new Tables();

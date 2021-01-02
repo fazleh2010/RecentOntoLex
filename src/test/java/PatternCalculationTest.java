@@ -38,7 +38,7 @@ public class PatternCalculationTest {
     private String ONTO_LEX = "lexicon";
     private String MEAN_RECIPROCAL = "meanReciprocal";
 
-    @Test
+    @Ignore
     public void PATTERN_CALCULATION_TEST() throws IOException, Exception {
         String classDir = FileFolderUtils.getClassDir(dbo_ClassName) + "/";
         String inputDir = dbpediaDir + classDir + patternDir;
@@ -47,7 +47,7 @@ public class PatternCalculationTest {
         Lexicon lexicon = new Lexicon(qald9Dir);
         for (String postag : TextAnalyzer.POSTAGS) {
             String fileName = this.getLexiconFile(qald9Dir, postag);
-            lexicon.preparePropertyLexicon(patternCalculation.getPatternEntities(), postag, PATTERN, fileName);
+            lexicon.preparePropertyLexicon(patternCalculation.getPatternEntities(), postag, PATTERN,fileName);
         }
     }
 

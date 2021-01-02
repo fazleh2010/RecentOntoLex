@@ -5,6 +5,7 @@
  */
 package citec.correlation.wikipedia.utils;
 
+import citec.correlation.core.analyzer.TextAnalyzer;
 import citec.correlation.wikipedia.results.PropertyDictionary;
 import citec.correlation.wikipedia.element.DBpediaEntity;
 import citec.correlation.wikipedia.element.DBpediaEntityPattern;
@@ -13,6 +14,7 @@ import citec.correlation.wikipedia.results.ObjectWordResults;
 import citec.correlation.wikipedia.calculation.InterestingPatterns;
 import citec.correlation.wikipedia.dic.lexicon.WordObjectResults;
 import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
+import static citec.correlation.wikipedia.parameters.DirectoryLocation.allPoliticianFile;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -65,11 +67,13 @@ import org.jsoup.nodes.TextNode;
  *
  * @author elahi
  */
-public class FileFolderUtils {
+public class FileFolderUtils implements TextAnalyzer{
 
     private static String anchors = "src/main/resources/dbpedia/anchors/";
      private static String input = "input/";
     private static String achorFileTsv = "anchors_sorted_by_frequency.tsv";
+    private String inputFile = allPoliticianFile;
+  
     //private static Set<String> alphabetSets = Stream.of("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z").collect(Collectors.toCollection(HashSet::new));
 
     public static void main(String a[]) throws IOException {
@@ -491,6 +495,20 @@ public class FileFolderUtils {
         });
         return dbpediaEntitys;
     }
+  
+    public static Map<String, List<WordObjectResults>> readWordObjectFromJsonFile(File file)  {
+        ObjectMapper mapper = new ObjectMapper();
+        Map<String, List<WordObjectResults>> wordObjectResults=new TreeMap<String, List<WordObjectResults>>();
+        try {
+            wordObjectResults = mapper.readValue(file, new TypeReference<Map<String, List<WordObjectResults>>>() {
+            });
+            return wordObjectResults;
+        } catch (IOException ex) {
+            Logger.getLogger(FileFolderUtils.class.getName()).log(Level.SEVERE, null, ex);
+            System.err.println("no files found to read data!!!");
+        }
+        return wordObjectResults;
+    }
 
     public static void writeDBpediaEntityToJsonFile(List<DBpediaEntity> units, String filename) throws IOException, Exception {
         if (units.isEmpty()) {
@@ -527,7 +545,6 @@ public class FileFolderUtils {
         mapper.writeValue(Paths.get(filename).toFile(), units);
     }
 
-
     
     public void writeDictionaryToJsonFile(List<InterestingPatterns.Property> units, String filename) throws IOException, Exception {
         if (units.isEmpty()) {
@@ -537,7 +554,9 @@ public class FileFolderUtils {
         mapper.writeValue(Paths.get(filename).toFile(), units);
     }
 
-    
+   
+
+
 
     /*public static void writeToTextFile(List<EntityResults> entityResults, String entityDir, String tableName) throws IOException {
         String filename = entityDir + "result/" + tableName.replaceAll(".json", "_probability.txt");
@@ -625,6 +644,18 @@ public class FileFolderUtils {
     
       public static String getClassDir(String dbo_Politician) {
         return dbo_Politician.split(":")[1];
+    }
+   
+    public static String getLexiconFile(String qald9Dir, String type,String postag) {
+        return qald9Dir + File.separator + postag + "-" + type + "-" + ONTO_LEX + ".json";
+    }
+
+    public static String getQaldFile(String qald9Dir,String type, String postag) {
+        return qald9Dir + File.separator + postag + "-" + type + "-" + QLAD9 + ".json";
+    }
+
+    public static String getMeanReciprocalFile(String qald9Dir, String type,String postag) {
+        return qald9Dir + File.separator + postag + "-" + type + "-" + MEAN_RECIPROCAL + ".json";
     }
 
     

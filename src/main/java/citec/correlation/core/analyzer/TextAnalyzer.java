@@ -31,6 +31,12 @@ public interface TextAnalyzer {
     public static final List<String> POSTAGS = new ArrayList<String>(Arrays.asList(ADJECTIVE,VERB,NOUN));
     public static final Set<String> PRONOUNS = new HashSet<String>(Arrays.asList("he",
             "she"));
+    
+    public static String PATTERN = "pattern";
+    public static String OBJECT = "object";
+    public static String QLAD9 = "qald9";
+    public static String ONTO_LEX = "lexicon";
+    public static String MEAN_RECIPROCAL = "reciprocalMean";
 
     public static final String WORD = "WORD";
     public static final String SENTENCE = "SENTENCE";

@@ -5,6 +5,8 @@
  */
 package citec.correlation.wikipedia.dic.lexicon;
 
+import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
+import citec.correlation.wikipedia.utils.FileFolderUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import java.io.File;
@@ -13,11 +15,14 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -25,35 +30,28 @@ import java.util.TreeMap;
  */
 public class Lexicon {
     private String lexiconDirectory=null;
-
     public Lexicon(String outputDir) throws IOException {
         this.lexiconDirectory=outputDir;
     }
 
-    private Map<String, List<WordObjectResults>> entitiesSort(Map<String, List<WordObjectResults>> wordEntities, String posTag) {
-        Map<String, List<WordObjectResults>> posEntitieInfos = new TreeMap<String, List<WordObjectResults>>();
-        for (String word : wordEntities.keySet()) {
-            List<WordObjectResults> entityInfos = wordEntities.get(word);
-            Collections.sort(entityInfos, new WordObjectResults());
-            Collections.reverse(entityInfos);
-            String[] info = word.split("-");
-            if (info[1].contains(posTag)) {
-                posEntitieInfos.put(info[0], entityInfos);
-            }
-            /*else if (info[1].contains(TextAnalyzer.ADJECTIVE)) {
-                this.adjectiveEntitieInfos.put(info[0], entityInfos);
-            }*/
-        }
-        return posEntitieInfos;
-    }
-
-    public void prepareObjectLexicon(String resultDir, Set<String> posTags) throws IOException {
-        Map<String, List<WordObjectResults>> wordEntities=this.getwordEntities(resultDir);
+    /*public void prepareObjectLexicon(String resultDir,String dboProperty, Set<String> posTags) throws IOException {
+       Map<String, List<WordObjectResults>> wordObjectResults =this.getWordObjectResults(resultDir,dboProperty+"_wordObject");
+       System.out.println(wordObjectResults.keySet());
         for (String pos : posTags) {
-            Map<String, List<WordObjectResults>> posEntitieInfos = entitiesSort(wordEntities, pos);
+            Map<String, List<WordObjectResults>> posEntitieInfos = entitiesSort(wordObjectResults, pos);
             this.preparePropertyLexicon(posEntitieInfos, pos,"word","fileName");
         }
+    }*/
+    
+    public void prepareObjectLexicon(String resultDir, String dboProperty, HashSet<String> posTags) throws IOException {
+        Map<String, List<WordObjectResults>> wordObjectResults = this.getWordObjectResults(resultDir, dboProperty + "_wordObject");
+        for (String postag : posTags) {
+            Map<String, List<WordObjectResults>> posEntitieInfos = entitiesSort(wordObjectResults, postag);
+             String conditionalFilename = FileFolderUtils.getLexiconFile(qald9Dir,FileFolderUtils.OBJECT, postag);
+             this.preparePropertyLexicon(posEntitieInfos, postag, FileFolderUtils.OBJECT,conditionalFilename);
+        }
     }
+
 
     public void preparePropertyLexicon(Map<String, List<WordObjectResults>> nounEntitieInfos, String givenPartsOfSpeech, String type,String fileName) throws IOException {
         if (nounEntitieInfos.isEmpty()) {
@@ -85,10 +83,28 @@ public class Lexicon {
             }
 
         }
+        System.out.println(lexiconUnts.toString());
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(fileName).toFile(), lexiconUnts);
     }
     
+    
+      private Map<String, List<WordObjectResults>> entitiesSort(Map<String, List<WordObjectResults>> wordEntities, String posTag) {
+        Map<String, List<WordObjectResults>> posEntitieInfos = new TreeMap<String, List<WordObjectResults>>();
+        for (String word : wordEntities.keySet()) {
+            List<WordObjectResults> entityInfos = wordEntities.get(word);
+            Collections.sort(entityInfos, new WordObjectResults());
+            Collections.reverse(entityInfos);
+            String[] info = word.split("-");
+            if (info[1].contains(posTag)) {
+                posEntitieInfos.put(info[0], entityInfos);
+            }
+            /*else if (info[1].contains(TextAnalyzer.ADJECTIVE)) {
+                this.adjectiveEntitieInfos.put(info[0], entityInfos);
+            }*/
+        }
+        return posEntitieInfos;
+    }
     /*public   Map<String, List<EntityInfo>> prepareSeperateLexicon(Map<String, List<EntityInfo>> nounEntitieInfos,String partsOfSpeech) throws IOException {
         if (nounEntitieInfos.isEmpty()) {
             return nounEntitieInfos;
@@ -145,8 +161,25 @@ public class Lexicon {
         return firstWord;
     }
 
-    private Map<String, List<WordObjectResults>> getwordEntities(String resultDir) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+   
+    /*private Map<String, List<WordObjectResults>> getWordObjectResults(String resultDir, String dbo_property) {
+        List<File> files = FileFolderUtils.getFiles(resultDir, dbo_property, resultDir);
+        Map<String, List<WordObjectResults>> wordObjectResults = new TreeMap<String, List<WordObjectResults>>();
+        for (File file : files) {
+            wordObjectResults = FileFolderUtils.readWordObjectFromJsonFile(file);
+        }
+        return wordObjectResults;
+    }*/
+
+    private Map<String, List<WordObjectResults>> getWordObjectResults(String resultDir, String dboProperty) {
+        List<File> files = FileFolderUtils.getFiles(resultDir,dboProperty , ".json");
+        Map<String, List<WordObjectResults>> wordObjectResults = new TreeMap<String, List<WordObjectResults>>();
+        for (File file : files) {
+            wordObjectResults = FileFolderUtils.readWordObjectFromJsonFile(file);
+        }
+        return wordObjectResults;
     }
 
+   
+    
 }

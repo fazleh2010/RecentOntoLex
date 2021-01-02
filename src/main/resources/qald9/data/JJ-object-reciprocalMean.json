@@ -1,0 +1,30 @@
+{
+  "MeanReciProcalRank" : 0.25,
+  "TotalPattern" : 4,
+  "NumberOfPatterrnFoundNonZeroRank" : 1,
+  "NumberOfPatterrnFoundZeroRank" : 3,
+  "PatterrnFoundNonZeroRank" : {
+    "australian" : {
+      "Predicate" : [ "Australia" ],
+      "Rank" : 1,
+      "ReciprocalRank" : 1.0
+    }
+  },
+  "PatterrnFoundZeroRank" : {
+    "american" : {
+      "Predicate" : [ "Democratic_Party_(United_States)" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "british" : {
+      "Predicate" : [ "Labor_Party_(UK)" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "english" : {
+      "Predicate" : [ "Liberal_Party_(UK)" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    }
+  }
+}

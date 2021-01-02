@@ -1,9 +1,12 @@
 
 import citec.correlation.core.analyzer.TextAnalyzer;
+import static citec.correlation.core.analyzer.TextAnalyzer.ADJECTIVE;
+import static citec.correlation.core.analyzer.TextAnalyzer.POSTAGS;
 import citec.correlation.wikipedia.calculation.InterestedWords;
 import citec.correlation.wikipedia.calculation.WordCalculation;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import citec.correlation.wikipedia.element.PropertyNotation;
+import citec.correlation.wikipedia.evalution.Comparision;
 import citec.correlation.wikipedia.main.TableMain;
 import citec.correlation.wikipedia.parameters.DirectoryLocation;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
@@ -12,7 +15,10 @@ import citec.correlation.wikipedia.parameters.MenuOptions;
 import citec.correlation.wikipedia.parameters.WordThresold;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
+import java.util.List;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -25,7 +31,7 @@ import org.junit.Test;
  *
  * @author elahi
  */
-public class WordCalculationTest implements PropertyNotation, DirectoryLocation, MenuOptions, WordThresold {
+public class WordCalculationTest implements PropertyNotation, DirectoryLocation, MenuOptions, WordThresold,TextAnalyzer {
 
     private static String dbo_ClassName = PropertyNotation.dbo_AAClass;
     private static String classDir = FileFolderUtils.getClassDir(dbo_ClassName) + "/";
@@ -45,16 +51,27 @@ public class WordCalculationTest implements PropertyNotation, DirectoryLocation,
         System.out.println("find interesting words!!!");
     }
 
-    @Test
-    public void wordCalculationTest() throws IOException, Exception {
-        WordCalculation wordCalculation = new WordCalculation(objectDir,dbo_ClassName, selectedWordDir,resultDir);
+    @Ignore
+    public void probabiltyCalculationTest() throws IOException, Exception {
+        WordCalculation wordCalculation = new WordCalculation(objectDir, dbo_ClassName, selectedWordDir, resultDir);
         System.out.println("calculate probabilty ended!!!");
     }
 
     @Ignore
-    public void wordLexiconTest() throws IOException, Exception {
+    public void lexiconCreationTest() throws IOException, Exception {
         Lexicon lexicon = new Lexicon(qald9Dir);
-        lexicon.prepareObjectLexicon(resultDir, new HashSet<String>(TextAnalyzer.POSTAGS));
+        lexicon.prepareObjectLexicon(resultDir, "dbo:party", new HashSet<String>(TextAnalyzer.POSTAGS));
         System.out.println("Lexicon Creation!!!");
+    }
+    @Test
+   public void MEAN_RECIPROCAL_OBJECT_LEX_TEST() throws IOException, Exception {
+        List<String> POSTAGS2 = new ArrayList<String>(Arrays.asList(ADJECTIVE,NOUN,VERB));
+        for (String postag : POSTAGS2) {
+            String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir,OBJECT, postag);
+            String conditionalFilename = FileFolderUtils.getLexiconFile(qald9Dir,OBJECT, postag);
+            String outputFileName =FileFolderUtils.getMeanReciprocalFile(qald9Dir, OBJECT,postag);
+            Comparision comparision = new Comparision(qald9Dir, qaldFileName, conditionalFilename, outputFileName);
+            comparision.compersionsPattern();
+        }
     }
 }

@@ -38,7 +38,7 @@ public class MeanReciprocalTest {
     private String ONTO_LEX = "lexicon";
     private String MEAN_RECIPROCAL = "meanReciprocal";
 
-    @Test
+    @Ignore
     public void MEAN_RECIPROCAL_PATTERN_TEST() throws IOException, Exception {
         List<String> POSTAGS2 = new ArrayList<String>(Arrays.asList(ADJECTIVE));
 

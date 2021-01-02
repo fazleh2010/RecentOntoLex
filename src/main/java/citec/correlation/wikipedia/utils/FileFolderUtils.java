@@ -646,16 +646,16 @@ public class FileFolderUtils implements TextAnalyzer{
         return dbo_Politician.split(":")[1];
     }
    
-    public static String getLexiconFile(String qald9Dir, String type,String postag) {
-        return qald9Dir + File.separator + postag + "-" + type + "-" + ONTO_LEX + ".json";
+    public static String getLexiconFile(String directory, String type,String postag) {
+        return directory + File.separator +type +"-"+ postag + "-" +   ONTO_LEX + ".json";
     }
 
-    public static String getQaldFile(String qald9Dir,String type, String postag) {
-        return qald9Dir + File.separator + postag + "-" + type + "-" + QLAD9 + ".json";
+    public static String getQaldFile(String directory,String type, String postag) {
+        return directory + File.separator + postag + "-" + type + "-" + QLAD9 + ".json";
     }
 
-    public static String getMeanReciprocalFile(String qald9Dir, String type,String postag) {
-        return qald9Dir + File.separator + postag + "-" + type + "-" + MEAN_RECIPROCAL + ".json";
+    public static String getMeanReciprocalFile(String directory, String type,String postag) {
+        return directory + File.separator +type +"-"+ postag + "-" + MEAN_RECIPROCAL + ".json";
     }
 
     

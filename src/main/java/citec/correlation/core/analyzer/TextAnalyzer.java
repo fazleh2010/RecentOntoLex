@@ -35,6 +35,7 @@ public interface TextAnalyzer {
     public static String PATTERN = "pattern";
     public static String OBJECT = "object";
     public static String QLAD9 = "qald9";
+    public static String GOLD = "gold/";
     public static String ONTO_LEX = "lexicon";
     public static String MEAN_RECIPROCAL = "reciprocalMean";
 

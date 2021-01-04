@@ -49,9 +49,9 @@ public class WordCalculation implements TextAnalyzer,WordThresold {
             if (dbpediaEntitys.size() < numberOfEntitiesrmSelected) {
                 continue;
             }
-            if (!tableName.contains("dbo:party")) {
+            /*if (!tableName.contains("dbo:party")) {
                 continue;
-            }
+            }*/
             System.out.println("tableName:" + tableName);
 
             String property = Tables.getProperty(tableName);

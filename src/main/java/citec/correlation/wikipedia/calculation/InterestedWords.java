@@ -57,9 +57,10 @@ public class InterestedWords implements WordThresold {
         }
 
         for (File file : allFiles) {
-               if (!file.getName().contains("dbo:party")) {
+            System.out.println(file.getName());
+              /* if (!file.getName().contains("dbo:party")) {
                 continue;
-            }
+            }*/
                System.out.println("file.getName():"+file.getName());
             String property = this.getProperty(file);
             ObjectMapper mapper = new ObjectMapper();
@@ -159,7 +160,7 @@ public class InterestedWords implements WordThresold {
                else
                    posTag=posTagCheck.getValue1();
 
-                System.out.println("word:"+word +" postag:"+posTag+" index:"+index+" total:"+entitySize+ " wordIndex:"+wordIndex+" wordSize"+wordSize);
+                //System.out.println("word:"+word +" postag:"+posTag+" index:"+index+" total:"+entitySize+ " wordIndex:"+wordIndex+" wordSize"+wordSize);
                 Integer count = 0;
                 if (mostCommonWords.containsKey(word)) {
                     count = mostCommonWords.get(word);

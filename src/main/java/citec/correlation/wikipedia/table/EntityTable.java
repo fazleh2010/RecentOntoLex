@@ -5,6 +5,7 @@
  */
 package citec.correlation.wikipedia.table;
 
+import static citec.correlation.core.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
 import citec.correlation.wikipedia.element.DBpediaEntity;
 import citec.correlation.wikipedia.element.CurlSparqlQuery;
 import citec.correlation.wikipedia.element.DBpediaProperty;
@@ -49,7 +50,7 @@ public class EntityTable {
         for (String entityString : entities) {
             String entityUrl = DBpediaEntity.getEntityUrl(entityString);
             CurlSparqlQuery curlSparqlQuery = new CurlSparqlQuery(entityUrl,freqProperty);
-            DBpediaEntity dbpediaEntity = new DBpediaEntity(freqClass,freqProperty,entityString, curlSparqlQuery.getProperties());
+            DBpediaEntity dbpediaEntity = new DBpediaEntity(freqClass,freqProperty,entityString, curlSparqlQuery.getProperties(),POS_TAGGER_WORDS);
             dbpediaEntities.add(dbpediaEntity);
             System.out.println("entity:" + dbpediaEntity.getEntityUrl()+" count"+index+ " total:"+total); 
             //if (entityString.startsWith("A")||entityString.startsWith("a")) {
@@ -67,9 +68,7 @@ public class EntityTable {
 
             index++;
 
-           if (index >5) {
-                break;
-            }
+          
         }
     }
 

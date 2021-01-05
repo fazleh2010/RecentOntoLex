@@ -6,6 +6,7 @@
 package citec.correlation.wikipedia.element;
 
 import citec.correlation.core.analyzer.Analyzer;
+import static citec.correlation.core.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
 import citec.correlation.wikipedia.utils.StringMatcherUtil;
 import citec.correlation.wikipedia.element.DBpediaProperty;
 import com.fasterxml.jackson.annotation.JsonIgnore;
@@ -37,13 +38,27 @@ public class DBpediaEntity {
     private String entityUrl;
     @JsonIgnore
     private String entityString;
-  
+    @JsonIgnore
+    private String inputFileName;
     @JsonProperty("dboClass")
     private String dboClass;
     @JsonProperty("properties")
     private Map<String, List<String>> properties = new TreeMap<String, List<String>>();
+   
+    @JsonProperty("words")
+    private Set<String> words = new  HashSet<String>();
+    @JsonProperty("adjectives")
+    private Set<String> adjectives = new  HashSet<String>();
+    @JsonProperty("nouns")
+    private Set<String> nouns = new  HashSet<String>();
     @JsonProperty("text")
     private String text = null;
+    @JsonIgnore
+    private Boolean democraticWord;
+    /*@JsonProperty("SentenceEntities")
+    private Map<Integer, String> annotatedSentences = new TreeMap<Integer, String>();*/
+    
+
 
     //this constructor is for searilization of json string to a Java class
     public DBpediaEntity() {
@@ -51,13 +66,19 @@ public class DBpediaEntity {
     }
  
 
-    public DBpediaEntity(String dboClass, String dboProperty, String entityString, Map<String, List<String>> properties) throws Exception {
+    public DBpediaEntity(String dboClass, String dboProperty, String entityString, Map<String, List<String>> properties, String POS_TAGGER_WORDS) throws Exception {
         this.dboClass = dboClass;
         this.entityString = entityString;
         this.entityUrl = this.getEntityUrl(this.entityString);
         index = index + 1;
         this.entityIndex = PREFIX +(index);
         this.text = this.getText(properties, DBpediaProperty.dbo_abstract);
+        if (this.text != null) {
+            Analyzer analyzer = new Analyzer(this.text, POS_TAGGER_WORDS, 5);
+            this.words = analyzer.getWords();
+            this.nouns=analyzer.getNouns();
+            this.adjectives=analyzer.getAdjectives();
+        }
         this.properties = properties;
         this.properties.remove(DBpediaProperty.dbo_abstract);
 
@@ -69,6 +90,9 @@ public class DBpediaEntity {
         this.entityUrl = dbpediaEntity.getEntityUrl();
         this.entityIndex = index.toString()+"_"+dbpediaEntity.getEntityIndex();
         this.text = dbpediaEntity.getText();
+        this.words = dbpediaEntity.getWords();
+        this.nouns=dbpediaEntity.getNouns();
+        this.adjectives=dbpediaEntity.getAdjectives();
         this.properties.put(property, values);
     }
 
@@ -124,8 +148,30 @@ public class DBpediaEntity {
         return dboClass;
     }
 
+    public Set<String> getWords() {
+        return words;
+    }
+
+    public Set<String> getAdjectives() {
+        return adjectives;
+    }
+
+    public Set<String> getNouns() {
+        return nouns;
+    }
+
+  
+
     public String getText() {
         return text;
+    }
+
+    public Boolean getDemocraticWord() {
+        return democraticWord;
+    }
+
+    public String getInputFileName() {
+        return inputFileName;
     }
 
     @Override

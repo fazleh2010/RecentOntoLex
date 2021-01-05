@@ -48,7 +48,7 @@ public class ObjectLexicaliation implements PropertyNotation, DirectoryLocation,
 
     @Ignore
     public void INTERESTING_WORD_TEST() throws IOException, Exception {
-        InterestedWords interestedWords = new InterestedWords(objectDir, dbo_ClassName);
+        InterestedWords interestedWords = new InterestedWords(propertyDir, dbo_ClassName);
         System.out.println("find interesting words!!!");
     }
 

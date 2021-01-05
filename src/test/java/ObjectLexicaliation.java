@@ -41,14 +41,14 @@ public class ObjectLexicaliation implements PropertyNotation, DirectoryLocation,
     private static String selectedWordDir = objectDir + SELTECTED_WORDS_DIR;
     private static String resultDir = objectDir + RESULT_DIR;
 
-    @Test
-    public void PROPRTY_GENERATION_TEST() throws IOException, Exception {
+    @Ignore
+    public void PROPRTY_TABLE_GENERATION_TEST() throws IOException, Exception {
         TableMain.generateClassPropertyTable(rawFiles, dbo_ClassName, propertyDir);
     }
 
-    @Ignore
+    @Test
     public void INTERESTING_WORD_TEST() throws IOException, Exception {
-        InterestedWords interestedWords = new InterestedWords(propertyDir, dbo_ClassName);
+        InterestedWords interestedWords = new InterestedWords(propertyDir, dbo_ClassName,objectDir + SELTECTED_WORDS_DIR);
         System.out.println("find interesting words!!!");
     }
 

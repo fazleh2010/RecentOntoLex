@@ -42,11 +42,11 @@ public class InterestedWords implements WordThresold {
     private String outputLocation = null;
     private Set<String> properties = new HashSet<String>();
 
-    public InterestedWords(String inputDir, String className) throws Exception {
-        this.tables = new Tables(inputDir);
-        this.className = className;
-        this.outputLocation = tables.getEntityTableDir() + SELTECTED_WORDS_DIR;
-        this.prepareInterestingWords(inputDir);
+    public InterestedWords(String propertyDir, String dbo_ClassName, String outputDir) throws IOException, Exception {
+        this.tables = new Tables(propertyDir);
+        this.className = dbo_ClassName;
+        this.outputLocation = outputDir;
+        this.prepareInterestingWords(propertyDir);
         this.getWords();
     }
 
@@ -58,10 +58,10 @@ public class InterestedWords implements WordThresold {
 
         for (File file : allFiles) {
             System.out.println(file.getName());
-              /* if (!file.getName().contains("dbo:party")) {
+            /*if (!file.getName().contains("dbo:almaMater")) {
                 continue;
-            }*/
-               System.out.println("file.getName():"+file.getName());
+              }*/
+            System.out.println("file.getName():" + file.getName());
             String property = this.getProperty(file);
             ObjectMapper mapper = new ObjectMapper();
             List<DBpediaEntity> dbpediaEntitys = mapper.readValue(file, new TypeReference<List<DBpediaEntity>>() {
@@ -94,7 +94,7 @@ public class InterestedWords implements WordThresold {
     }
 
     public void prepareInterestingWords(String property, List<DBpediaEntity> dbpediaEntitys) throws Exception {
-        String str = this.prepareForAllProperties(dbpediaEntitys, numberOfEntitiesrmSelected);
+        String str = this.prepareForAllProperties(dbpediaEntitys);
         if (str != null) {
             String sortFile = outputLocation + className + "_" + property + FILE_NOTATION;
             FileFolderUtils.stringToFiles(str, sortFile);
@@ -102,13 +102,17 @@ public class InterestedWords implements WordThresold {
         }
     }
 
-    /*private String prepareForAllProperties(List<DBpediaEntity> dbpediaEntities) throws Exception {
+    private String prepareForAllProperties(List<DBpediaEntity> dbpediaEntities) throws Exception {
         Map<String, Integer> mostCommonWords = new HashMap<String, Integer>();
+        posTagger = new HashMap<String, String>();
+
         for (DBpediaEntity dbpediaEntity : dbpediaEntities) {
-           
-            Set<String> words = this.wordHash(dbpediaEntity.getText());
+            System.out.println("res:" + dbpediaEntity.getEntityUrl());
+            Set<String> words = this.wordHash(dbpediaEntity);
             for (String word : words) {
                 word = word.toLowerCase().trim();
+                //System.out.println("word:"+word+" pos"+posTagger.get(word));
+
                 if (TextAnalyzer.ENGLISH_STOPWORDS.contains(word)) {
                     continue;
                 }
@@ -126,11 +130,12 @@ public class InterestedWords implements WordThresold {
                     mostCommonWords.put(word, count);
                 }
             }
-        }
-        return SortUtils.sort(mostCommonWords, new TreeMap<String, String>(), numberOfEntitiesToLimitInFile);
-    }*/
 
-    private String prepareForAllProperties(List<DBpediaEntity> dbpediaEntities, Integer numberEntitiesSelected) throws Exception {
+        }
+        return SortUtils.sort(mostCommonWords, posTagger, numberOfEntitiesToLimitInFile);
+    }
+
+    /*private String prepareForAllPropertiesWithPostagging(List<DBpediaEntity> dbpediaEntities, Integer numberEntitiesSelected) throws Exception {
         Map<String, Integer> mostCommonWords = new HashMap<String, Integer>();
         Integer index = 0;
         Integer total=dbpediaEntities.size(),entitySize=100;
@@ -180,9 +185,8 @@ public class InterestedWords implements WordThresold {
         }
 
         return SortUtils.sort(mostCommonWords, posTagger, numberOfEntitiesToLimitInFile);
-    }
-    
-     /*private Set< String> wordHash(String text) throws Exception {
+    }*/
+ /*private Set< String> wordHash(String text) throws Exception {
         Set<String> words = new HashSet<String>();
         Analyzer analyzer = new Analyzer(text, TextAnalyzer.POS_TAGGER_WORDS, numberOfSentencesOfAbstract);
         for (String word : analyzer.getAdjectives()) {
@@ -202,6 +206,27 @@ public class InterestedWords implements WordThresold {
         }
         return analyzer.g;
     }*/
+    private Set< String> wordHash(DBpediaEntity dbpediaEntity) {
+        Set<String> words = new HashSet<String>();
+        for (String word : dbpediaEntity.getAdjectives()) {
+            word = word.toLowerCase().trim();
+            words.add(word);
+            posTagger.put(word, TextAnalyzer.ADJECTIVE);
+        }
+        for (String word : dbpediaEntity.getNouns()) {
+            word = word.toLowerCase().trim();
+            words.add(word);
+            posTagger.put(word, TextAnalyzer.NOUN);
+        }
+        /* for (String word : dbpediaEntity.getVerbs()) {
+            word = word.toLowerCase().trim();
+            words.add(word);
+            posTagger.put(word, TextAnalyzer.VERB);
+        }*/
+        return words;
+
+    }
+
 
     /*private Set< String> wordHash(String text) throws Exception {
         Set<String> words = new HashSet<String>();
@@ -223,7 +248,6 @@ public class InterestedWords implements WordThresold {
         }
         return words;
     }*/
-
     private String getProperty(File file) {
         String property = file.getName().replace(className, "");
         property = property.replace("_", "");
@@ -233,7 +257,7 @@ public class InterestedWords implements WordThresold {
     private Boolean isvalid(String word) {
         /*if (TextAnalyzer.ENGLISH_STOPWORDS.contains(word)) {
             return false;
-        } else*/ 
+        } else*/
         if (TextAnalyzer.MONTH.contains(word)) {
             return false;
         }
@@ -244,14 +268,15 @@ public class InterestedWords implements WordThresold {
         return propertyInterestedWords;
     }
 
-    private Pair<Boolean,String> findPosTag(String word, Analyzer analyzer) {
-        if(analyzer.getNouns().contains(word))
-            return new Pair<Boolean,String>(Boolean.TRUE,TextAnalyzer.NOUN);
-        else if(analyzer.getAdjectives().contains(word))
-             return new Pair<Boolean,String>(Boolean.TRUE,TextAnalyzer.ADJECTIVE);
-        else if(analyzer.getVerbs().contains(word))
-             return new Pair<Boolean,String>(Boolean.TRUE,TextAnalyzer.VERB);
-        return  new Pair<Boolean,String>(Boolean.FALSE,word);
+    private Pair<Boolean, String> findPosTag(String word, Analyzer analyzer) {
+        if (analyzer.getNouns().contains(word)) {
+            return new Pair<Boolean, String>(Boolean.TRUE, TextAnalyzer.NOUN);
+        } else if (analyzer.getAdjectives().contains(word)) {
+            return new Pair<Boolean, String>(Boolean.TRUE, TextAnalyzer.ADJECTIVE);
+        } else if (analyzer.getVerbs().contains(word)) {
+            return new Pair<Boolean, String>(Boolean.TRUE, TextAnalyzer.VERB);
+        }
+        return new Pair<Boolean, String>(Boolean.FALSE, word);
     }
 
 }

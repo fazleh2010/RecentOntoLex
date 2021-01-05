@@ -126,10 +126,7 @@ public class TableMain implements PropertyNotation,DirectoryLocation,MenuOptions
 
     }
 
-    public static void interestingWordCal(String tableDir, String dbo_ClassName) throws IOException, Exception {
-        InterestedWords interestedWords = new InterestedWords(tableDir, dbo_ClassName);
-        System.out.println("interesting word calculation ended!!!");
-    }
+   
     public static void objectLexicalization(String tableDir, String dbo_ClassName,String selectedWordDir,String resultDir) throws IOException, Exception {
         WordCalculation wordCalculation = new WordCalculation(tableDir,dbo_ClassName, selectedWordDir,resultDir);
         System.out.println("System execution ended!!!");

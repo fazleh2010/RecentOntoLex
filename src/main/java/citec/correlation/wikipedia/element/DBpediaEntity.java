@@ -51,6 +51,8 @@ public class DBpediaEntity {
     private Set<String> adjectives = new  HashSet<String>();
     @JsonProperty("nouns")
     private Set<String> nouns = new  HashSet<String>();
+    @JsonProperty("verbs")
+    private Set<String> verbs = new  HashSet<String>();
     @JsonProperty("text")
     private String text = null;
     @JsonIgnore
@@ -158,6 +160,10 @@ public class DBpediaEntity {
 
     public Set<String> getNouns() {
         return nouns;
+    }
+
+    public Set<String> getVerbs() {
+        return verbs;
     }
 
   

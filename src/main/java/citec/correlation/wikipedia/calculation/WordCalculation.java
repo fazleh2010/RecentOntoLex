@@ -125,9 +125,9 @@ public class WordCalculation implements TextAnalyzer,WordThresold {
                         if(pairWord.getProbability_value()==1.0||pairObject.getProbability_value()==1.0){
                                //System.out.println("word:"+pairWord.getProbability_value()+" object"+pairObject.getProbability_value());
                         }
-                        else if(pairWord.getProbability_value()<0.045||pairObject.getProbability_value()<0.045){
+                        /*else if(pairWord.getProbability_value()<0.045||pairObject.getProbability_value()<0.045){
                                //System.out.println("word:"+pairWord.getProbability_value()+" object"+pairObject.getProbability_value());
-                        }
+                        }*/
                         else{
                         result = new WordResult(pairWord, pairObject, word, partsOfSpeech);
                         //System.out.println("result:"+result);

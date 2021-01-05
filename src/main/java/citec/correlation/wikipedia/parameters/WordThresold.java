@@ -20,8 +20,8 @@ public interface WordThresold {
     public static Integer objectMinimumEntities = 100;
     
 
-    public static Double wordGivenObjectThres = 0.1;
-    public static Double objectGivenWordThres = 0.1;
+    public static Double wordGivenObjectThres =0.045;
+    public static Double objectGivenWordThres = 0.045;
     public static Integer topWordLimitToConsiderThres = 5;
     public static Integer numberOfWordLimit=100;
 

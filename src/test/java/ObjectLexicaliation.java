@@ -46,15 +46,15 @@ public class ObjectLexicaliation implements PropertyNotation, DirectoryLocation,
         TableMain.generateClassPropertyTable(rawFiles, dbo_ClassName, propertyDir);
     }
 
-    @Test
+    @Ignore
     public void INTERESTING_WORD_TEST() throws IOException, Exception {
         InterestedWords interestedWords = new InterestedWords(propertyDir, dbo_ClassName,objectDir + SELTECTED_WORDS_DIR);
         System.out.println("find interesting words!!!");
     }
 
-    @Ignore
+    @Test
     public void PROBABILTY_CALCULATION_TEST() throws IOException, Exception {
-        WordCalculation wordCalculation = new WordCalculation(objectDir, dbo_ClassName, selectedWordDir, resultDir);
+        WordCalculation wordCalculation = new WordCalculation(propertyDir, dbo_ClassName, selectedWordDir, resultDir);
         System.out.println("calculate probabilty ended!!!");
     }
 

@@ -237,6 +237,10 @@ public class FormatAndMatch {
    }
 
     public static boolean isNumeric(String str) {
+        if(str.contains("-"))
+            str=str.replace("-", "");
+        if(str.contains("."))
+            str=str.replace(".", "");
         return str.matches("-?\\d+(\\.\\d+)?");
     }
 

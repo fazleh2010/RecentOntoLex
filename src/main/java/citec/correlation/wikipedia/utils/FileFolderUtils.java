@@ -531,7 +531,8 @@ public class FileFolderUtils implements TextAnalyzer{
 
     public static void writeResultDetail(Map<String, List<WordObjectResults>> units, String filename) throws Exception {
         if (units.isEmpty()) {
-            throw new Exception("no data found to write in the file!!");
+            return;
+            //throw new Exception("no data found to write in the file!!");
         }
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename).toFile(), units);
@@ -539,7 +540,8 @@ public class FileFolderUtils implements TextAnalyzer{
 
     public static void writeEntityResults(Map<String, List<ObjectWordResults>> units, String filename) throws Exception {
          if (units.isEmpty()) {
-            throw new Exception("no data found to write in the file!!");
+             return;
+            //throw new Exception("no data found to write in the file!!");
         }
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename).toFile(), units);

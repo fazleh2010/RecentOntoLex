@@ -14,6 +14,7 @@ import citec.correlation.wikipedia.results.ResultTriple;
 import citec.correlation.wikipedia.dic.lexicon.WordObjectResults;
 import citec.correlation.wikipedia.parameters.WordThresold;
 import citec.correlation.wikipedia.table.Tables;
+import citec.correlation.wikipedia.utils.FormatAndMatch;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
@@ -71,20 +72,25 @@ public class WordCalculation implements TextAnalyzer,WordThresold {
         List<ObjectWordResults> kbResults = new ArrayList<ObjectWordResults>();
         
         for (String objectOfProperty : entityCategories.keySet()) {
+            if(!this.isValid(objectOfProperty)){
+                continue;
+            }
             List<WordResult> results = new ArrayList<WordResult>();
             List<DBpediaEntity> dbpediaEntitiesGroup = entityCategories.get(objectOfProperty);
-            System.out.println(dbpediaEntitiesGroup);
+            
+            //System.out.println(dbpediaEntitiesGroup);
             Integer numberOfEntitiesFoundInObject = dbpediaEntitiesGroup.size();
             if (dbpediaEntitiesGroup.size() < objectMinimumEntities) {
                 continue;
             }
-                        System.out.println("objectOfProperty:" + objectOfProperty);
+          
+            //System.out.println("objectOfProperty:" + objectOfProperty);
 
 
-            /*if (!FormatAndMatch.isValidForObject(objectOfProperty)) {
-                continue;
-            }
-            objectOfProperty = this.shortForm(objectOfProperty);*/
+            //if (!FormatAndMatch.isValidForObject(objectOfProperty)) {
+            //    continue;
+            //}
+            //objectOfProperty = this.shortForm(objectOfProperty);
 
 
             //all words
@@ -101,29 +107,36 @@ public class WordCalculation implements TextAnalyzer,WordThresold {
                 index = index + 1;
 
                 String partsOfSpeech = selectedWordsHash.get(word);
-                /*if (this.interestedWords.getAdjectives().contains(word)) {
-                    partsOfSpeech = TextAnalyzer.ADJECTIVE;
-                } else if (this.interestedWords.getNouns().contains(word)) {
-                    partsOfSpeech = TextAnalyzer.NOUN;
-                }*/
+              
 
                 WordResult result = null;
                 ResultTriple pairWord = this.countConditionalProbabilities(tableName, dbpediaEntitiesGroup, property, objectOfProperty, word, WordResult.PROBABILITY_WORD_GIVEN_OBJECT);
                 ResultTriple pairObject = this.countConditionalProbabilities(tableName, dbpediaEntities, property, objectOfProperty, word, WordResult.PROBABILITY_OBJECT_GIVEN_WORD);
-
+                
                 
                 if (pairWord != null && pairObject != null) {
                     Double wordCount = (Double) pairWord.getProbability_value();
                     Double objectCount = (Double) pairObject.getProbability_value();
-                    System.out.println("objectOfProperty:" + objectOfProperty+" pairWord:"+pairWord+" pairObject:"+pairObject);
+                    //System.out.println("objectOfProperty:" + objectOfProperty+" pairWord:"+pairWord+" pairObject:"+pairObject);
 
 
                     // if ((wordCount * objectCount) > 0.01 && !(wordCount == 0 && objectCount == 0) && wordCount != 1.0 && objectCount != 1.0) {
-                    //if ((wordCount * objectCount) > 0.01 && !(wordCount == 0 && objectCount == 0)) {
-                    result = new WordResult(pairWord, pairObject, word, partsOfSpeech);
-                    results.add(result);
-                    System.out.println("result:" + result);
-                    //}
+                    if ((wordCount * objectCount) > 0.01 && !(wordCount == 0 && objectCount == 0)) {
+                        if(pairWord.getProbability_value()==1.0||pairObject.getProbability_value()==1.0){
+                               //System.out.println("word:"+pairWord.getProbability_value()+" object"+pairObject.getProbability_value());
+                        }
+                        else if(pairWord.getProbability_value()<0.045||pairObject.getProbability_value()<0.045){
+                               //System.out.println("word:"+pairWord.getProbability_value()+" object"+pairObject.getProbability_value());
+                        }
+                        else{
+                        result = new WordResult(pairWord, pairObject, word, partsOfSpeech);
+                        //System.out.println("result:"+result);
+                        results.add(result);       
+                        }
+                            
+                     
+                        //System.out.println("result:" + result);
+                    }
                 }
                 //}
             }//all words end
@@ -135,14 +148,23 @@ public class WordCalculation implements TextAnalyzer,WordThresold {
 
         }
 
+        if(kbResults.isEmpty())
+            return;
+        
         this.objectWordResults.put(tableName, kbResults);
         String str = entityResultToString(kbResults);
         String filenameDisplay = resultDir + tableName.replaceAll(".json", "_probability.txt");
-        FileFolderUtils.writeToTextFile(str, filenameDisplay);
-        String wordObjectsFileName = resultDir + tableName.replaceAll(".json", "_wordObject.json");
+        String wordObjectsFileName = resultDir + "wordObject_"+tableName;
+        String objectWordsFileName = resultDir + "objectWord_"+tableName;
+        
+         /*System.out.println(tableName+" size:"+dbpediaEntities.size());
+         System.out.println(tableName+" kbResults:"+kbResults);
+         System.out.println(tableName+" objectWordResults:"+objectWordResults);
+          System.out.println(tableName+" wordObjectResults:"+wordObjectResults.size());*/
+
         FileFolderUtils.writeResultDetail(this.wordObjectResults,wordObjectsFileName);
-        String objectWordsFileName = resultDir + tableName.replaceAll(".json", "_objectWord.json");
         FileFolderUtils.writeEntityResults(this.objectWordResults,objectWordsFileName);
+        FileFolderUtils.writeToTextFile(str, filenameDisplay);
 
     }
     
@@ -406,6 +428,10 @@ public class WordCalculation implements TextAnalyzer,WordThresold {
     
      public Map<String, List<WordObjectResults>> getWordEntities() {
         return wordObjectResults;
+    }
+
+    private boolean isValid(String objectOfProperty) {
+        return FormatAndMatch.isValidForObject(objectOfProperty);
     }
 
    

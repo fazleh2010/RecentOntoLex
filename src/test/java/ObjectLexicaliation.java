@@ -37,15 +37,16 @@ public class ObjectLexicaliation implements PropertyNotation, DirectoryLocation,
     private static String classDir = FileFolderUtils.getClassDir(dbo_ClassName) + "/";
     private static String rawFiles = dbpediaDir + classDir + "rawFiles/";
     private static String objectDir = dbpediaDir + classDir + "object/";
+    private static String propertyDir = objectDir + "propertyTables/";
     private static String selectedWordDir = objectDir + SELTECTED_WORDS_DIR;
     private static String resultDir = objectDir + RESULT_DIR;
 
-    @Ignore
+    @Test
     public void PROPRTY_GENERATION_TEST() throws IOException, Exception {
-        TableMain.generateClassPropertyTable(rawFiles, dbo_ClassName, objectDir);
+        TableMain.generateClassPropertyTable(rawFiles, dbo_ClassName, propertyDir);
     }
 
-    @Test
+    @Ignore
     public void INTERESTING_WORD_TEST() throws IOException, Exception {
         InterestedWords interestedWords = new InterestedWords(objectDir, dbo_ClassName);
         System.out.println("find interesting words!!!");

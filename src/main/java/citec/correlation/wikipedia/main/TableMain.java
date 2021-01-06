@@ -127,11 +127,7 @@ public class TableMain implements PropertyNotation,DirectoryLocation,MenuOptions
     }
 
    
-    public static void objectLexicalization(String tableDir, String dbo_ClassName,String selectedWordDir,String resultDir) throws IOException, Exception {
-        WordCalculation wordCalculation = new WordCalculation(tableDir,dbo_ClassName, selectedWordDir,resultDir);
-        System.out.println("System execution ended!!!");
-    }
-    
+   
     /*public static void objectLexicon(String tableDir, String classDir, String dbo_ClassName,String selectedWordDir,String resultDir) throws IOException, Exception {
         Lexicon lexicon=new Lexicon(qald9Dir);
         lexicon.prepareObjectLexicon(resultDir,new HashSet<String>(TextAnalyzer.POSTAGS));

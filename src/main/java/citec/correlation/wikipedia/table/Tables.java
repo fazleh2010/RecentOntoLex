@@ -84,6 +84,8 @@ public class Tables implements PropertyNotation,PatternThresold{
 
             this.allDBpediaEntitys.addAll(dbpediaEntitys);
         }
+        System.out.println("table reading end:!!!!!!");
+
         return allDBpediaEntitys;
     }
     
@@ -152,11 +154,16 @@ public class Tables implements PropertyNotation,PatternThresold{
 
     
     public void writeTable(String outputDir,String className) throws IOException, Exception {
-        Map<String, List<DBpediaEntity>> propertyEntities = new HashMap<String, List<DBpediaEntity>>();
+        Map<String, List<DBpediaEntity>> propertyEntities = new TreeMap<String, List<DBpediaEntity>>();
+            Integer index=0;
 
+        //this founction is ok..does not take very long
         for (DBpediaEntity DBpediaEntity : allDBpediaEntitys) {
             List<DBpediaEntity> entities = new ArrayList<DBpediaEntity>();
+            index=index+1;
+            System.out.println("count:"+index+"   size:"+allDBpediaEntitys.size());
             for (String property : DBpediaEntity.getProperties().keySet()) {
+                //System.out.println("property sorting!!:"+property+" "+index+" total"+entities.size());
                 //if (PropertyNotation.include.contains(property)) {
                     if (propertyEntities.containsKey(property)) {
                         entities = propertyEntities.get(property);
@@ -170,13 +177,18 @@ public class Tables implements PropertyNotation,PatternThresold{
 
             }
         }
-
+        System.out.println("property table sorting end!!!!!!!!");
+        index=0;
+       //this founction is taking long, but property is filltered than it will be quick. takes nearly a hour with 10,283 properties
+       //it make no sense to calculate for all properties.
+       Integer count=0;
         for (String property : propertyEntities.keySet()) {
+            count=count+1;
+            System.out.println(property+"  table creation!!!:"+count+" total:"+propertyEntities.size());
             String tableName = className + "_" + property;
             List<DBpediaEntity> dbpediaEntitys = propertyEntities.get(property);
             List<DBpediaEntity> correctedEntities = new ArrayList<DBpediaEntity>();
             Set<String> properties = new HashSet<String>();
-            Integer index=0;
             for (DBpediaEntity dbpediaEntity : dbpediaEntitys) {
                 if (!properties.contains(dbpediaEntity.getEntityUrl())) {
                     if (dbpediaEntity.getProperties().containsKey(property)) {
@@ -190,6 +202,7 @@ public class Tables implements PropertyNotation,PatternThresold{
 
             }
             EntityTable entityTable = new EntityTable(outputDir+tableName, correctedEntities);
+            System.out.println(property+"  table creation!!!:"+correctedEntities.size());
             entityTables.put(entityTable.getTableName(), entityTable);
            
         }

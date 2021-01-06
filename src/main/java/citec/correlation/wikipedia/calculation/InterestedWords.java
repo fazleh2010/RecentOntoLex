@@ -23,7 +23,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.TreeMap;
+import java.util.TreeSet;
 import org.javatuples.Pair;
 
 /**
@@ -51,22 +51,32 @@ public class InterestedWords implements WordThresold {
     }
 
     private void prepareInterestingWords(String inputDir) throws IOException, Exception {
-        List<File> allFiles = FileFolderUtils.getFiles(inputDir, ".json");
-        if (allFiles.isEmpty()) {
+        List<File> files = FileFolderUtils.getFiles(inputDir, ".json");
+        if (files.isEmpty()) {
             throw new Exception("There is no files in " + inputDir + " to generate properties!!");
         }
-
-        for (File file : allFiles) {
-            System.out.println(file.getName());
+        Set<File> filteredFiles=new TreeSet<File>(files);
+        filteredFiles=this.filter(files);     
+        Integer index=0;
+        for (File file : filteredFiles) {
+            index=index+1;
             /*if (!file.getName().contains("dbo:almaMater")) {
                 continue;
               }*/
-            System.out.println("file.getName():" + file.getName());
             String property = this.getProperty(file);
             ObjectMapper mapper = new ObjectMapper();
             List<DBpediaEntity> dbpediaEntitys = mapper.readValue(file, new TypeReference<List<DBpediaEntity>>() {
             });
+            /*if(property.contains("dbo:birthDate")||property.contains("dbo:deathDate")){
+                continue;
+            }
+            if(dbpediaEntitys.size()<numberOfEntitiesPerProperty)
+                continue;
+            */
+            
             posTagger = new HashMap<String, String>();
+            System.out.println(index+" fileSize:"+filteredFiles.size()+" property:"+property+" numberOfEntities:"+dbpediaEntitys.size()+" table:" +file.getName());
+
             this.prepareInterestingWords(property, dbpediaEntitys);
         }
     }
@@ -74,7 +84,7 @@ public class InterestedWords implements WordThresold {
     public void getWords() throws IOException {
         for (String sortFileName : sortFiles) {
             //System.out.println("sortFileName:"+sortFileName);
-            List<String> interestedWords = FileFolderUtils.getSortedList(sortFileName, wordFoundInNumberOfEntities, TopNwords);
+            List<String> interestedWords = FileFolderUtils.getSortedList(sortFileName, numberOfEntitiesPerWord, numberOfSelectedWordGenerated);
             List<String> alphabeticSorted = new ArrayList<String>();
             alphabeticSorted.addAll(interestedWords);
             Collections.sort(alphabeticSorted);
@@ -105,10 +115,11 @@ public class InterestedWords implements WordThresold {
     private String prepareForAllProperties(List<DBpediaEntity> dbpediaEntities) throws Exception {
         Map<String, Integer> mostCommonWords = new HashMap<String, Integer>();
         posTagger = new HashMap<String, String>();
-
+        Integer index=0;
         for (DBpediaEntity dbpediaEntity : dbpediaEntities) {
-            System.out.println("res:" + dbpediaEntity.getEntityUrl());
+            index=index+1;
             Set<String> words = this.wordHash(dbpediaEntity);
+            //System.out.println("running:"+index+" total Entities:"+dbpediaEntities.size()+ " totalWords:"+words.size());
             for (String word : words) {
                 word = word.toLowerCase().trim();
                 //System.out.println("word:"+word+" pos"+posTagger.get(word));
@@ -277,6 +288,35 @@ public class InterestedWords implements WordThresold {
             return new Pair<Boolean, String>(Boolean.TRUE, TextAnalyzer.VERB);
         }
         return new Pair<Boolean, String>(Boolean.FALSE, word);
+    }
+
+    private Set<File> filter(List<File> files) throws IOException {
+        Set<File> filterFiles = new TreeSet<File>();
+        for (File file : files) {
+            /*if (!file.getName().contains("dbo:almaMater")) {
+                continue;
+              }*/
+            String property = this.getProperty(file);
+            ObjectMapper mapper = new ObjectMapper();
+            List<DBpediaEntity> dbpediaEntitys = mapper.readValue(file, new TypeReference<List<DBpediaEntity>>() {
+            });
+            /*if (property.contains("dbo:birthDate") || property.contains("dbo:deathDate")) {
+                continue;
+            }*/
+            if (property.contains("dbo:")) {
+                continue;
+            }
+            /*if (!property.contains("dbp:t")
+                    ||!property.contains("dbp:u")||!property.contains("dbp:v")||property.contains("dbp:w")
+                    ||!property.contains("dbp:x")||!property.contains("dbp:y")||property.contains("dbp:z")) {
+                continue;
+            }*/
+            if (dbpediaEntitys.size() < numberOfEntitiesPerProperty) {
+                continue;
+            }
+            filterFiles.add(file);
+        }
+        return filterFiles;
     }
 
 }

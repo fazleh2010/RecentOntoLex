@@ -20,12 +20,6 @@ import static citec.correlation.wikipedia.parameters.MenuOptions.QALD;
 import static citec.correlation.wikipedia.parameters.MenuOptions.WORD_CALCULATION;
 import static citec.correlation.wikipedia.parameters.MenuOptions.WRITE;
 import static citec.correlation.wikipedia.parameters.MenuOptions.WRITE_PATTERNS;
-import static citec.correlation.wikipedia.parameters.WordThresold.TopNwords;
-import static citec.correlation.wikipedia.parameters.WordThresold.numberOfEntitiesrmSelected;
-import static citec.correlation.wikipedia.parameters.WordThresold.objectGivenWordThres;
-import static citec.correlation.wikipedia.parameters.WordThresold.topWordLimitToConsiderThres;
-import static citec.correlation.wikipedia.parameters.WordThresold.wordFoundInNumberOfEntities;
-import static citec.correlation.wikipedia.parameters.WordThresold.wordGivenObjectThres;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import java.io.IOException;
 import org.junit.Test;
@@ -33,7 +27,13 @@ import static citec.correlation.wikipedia.parameters.MenuOptions.POSTAGS;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-import static citec.correlation.wikipedia.parameters.WordThresold.objectMinimumEntities;
+import static citec.correlation.wikipedia.parameters.WordThresold.numberOfEntitiesPerProperty;
+import static citec.correlation.wikipedia.parameters.WordThresold.numberOfEntitiesPerWord;
+import static citec.correlation.wikipedia.parameters.WordThresold.numberOfSelectedWordGenerated;
+import static citec.correlation.wikipedia.parameters.WordThresold.numberOfEntitiesForObject;
+import static citec.correlation.wikipedia.parameters.WordThresold.probabiltyOfwordGivenObjectThresold;
+import static citec.correlation.wikipedia.parameters.WordThresold.probabiltyOfObjectGivenWordThresold;
+import static citec.correlation.wikipedia.parameters.WordThresold.probResultTopWordLimit;
 
 /*
  * To change this license header, choose License Headers in Project Properties.

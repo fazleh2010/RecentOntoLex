@@ -49,6 +49,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.StringTokenizer;
 import java.util.TreeMap;
+import java.util.TreeSet;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 import java.util.zip.ZipEntry;
@@ -232,6 +233,28 @@ public class FileFolderUtils implements TextAnalyzer{
             e.printStackTrace();
         }
         return hash;
+    }
+    
+    public static Set<String> fileToSet(String fileName) throws FileNotFoundException, IOException {
+        Set<String> set = new TreeSet<String>();
+        BufferedReader reader;
+        String line = "";
+        try {
+            reader = new BufferedReader(new FileReader(fileName));
+            line = reader.readLine();
+            while (line != null) {
+                line = reader.readLine();
+                if (line != null) {
+                    line = line.strip().trim();
+                    set.add(line);
+                }
+
+            }
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return set;
     }
 
     public static List<String> getList(String fileName) throws FileNotFoundException, IOException {

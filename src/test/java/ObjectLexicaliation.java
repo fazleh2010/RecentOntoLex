@@ -61,7 +61,7 @@ public class ObjectLexicaliation implements PropertyNotation, DirectoryLocation,
     @Test
     public void LEXICON_CREATION_TEST() throws IOException, Exception {
         Lexicon lexicon = new Lexicon(qald9Dir);
-        lexicon.prepareObjectLexicon(resultDir, "dbo:party", new HashSet<String>(TextAnalyzer.POSTAGS));
+        lexicon.prepareObjectLexicon(resultDir,  new HashSet<String>(TextAnalyzer.POSTAGS));
         System.out.println("Lexicon Creation!!!");
     }
 

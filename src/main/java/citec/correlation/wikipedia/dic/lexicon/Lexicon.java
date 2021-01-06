@@ -175,6 +175,7 @@ public class Lexicon {
     private Map<String, List<WordObjectResults>> getWordObjectResults(String resultDir, String dboProperty) {
         List<File> files = FileFolderUtils.getFiles(resultDir,dboProperty , ".json");
         Map<String, List<WordObjectResults>> wordObjectResults = new TreeMap<String, List<WordObjectResults>>();
+        List<WordObjectResults> propertyWordObjectResults=new ArrayList<WordObjectResults>();
         for (File file : files) {
             wordObjectResults = FileFolderUtils.readWordObjectFromJsonFile(file);
         }

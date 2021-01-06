@@ -43,8 +43,8 @@ public class Lexicon {
         }
     }*/
     
-    public void prepareObjectLexicon(String resultDir, String dboProperty, HashSet<String> posTags) throws IOException {
-        Map<String, List<WordObjectResults>> wordObjectResults = this.getWordObjectResults(resultDir, dboProperty + "_wordObject");
+    public void prepareObjectLexicon(String resultDir, HashSet<String> posTags) throws IOException {
+        Map<String, List<WordObjectResults>> wordObjectResults = this.getWordObjectResults(resultDir, "wordObject");
         System.out.println("wordObjectResults:"+wordObjectResults);
         /*for (String postag : posTags) {
             Map<String, List<WordObjectResults>> posEntitieInfos = entitiesSort(wordObjectResults, postag);

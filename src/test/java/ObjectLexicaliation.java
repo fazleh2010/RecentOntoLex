@@ -31,7 +31,7 @@ import org.junit.Test;
  *
  * @author elahi
  */
-public class ObjectLexicaliation implements PropertyNotation, DirectoryLocation, MenuOptions, WordThresold,TextAnalyzer {
+public class ObjectLexicaliation implements PropertyNotation, DirectoryLocation, MenuOptions, WordThresold, TextAnalyzer {
 
     private static String dbo_ClassName = PropertyNotation.dbo_AAClass;
     private static String classDir = FileFolderUtils.getClassDir(dbo_ClassName) + "/";
@@ -48,29 +48,30 @@ public class ObjectLexicaliation implements PropertyNotation, DirectoryLocation,
 
     @Ignore
     public void INTERESTING_WORD_TEST() throws IOException, Exception {
-        InterestedWords interestedWords = new InterestedWords(propertyDir, dbo_ClassName,objectDir + SELTECTED_WORDS_DIR);
+        InterestedWords interestedWords = new InterestedWords(propertyDir, dbo_ClassName, objectDir + SELTECTED_WORDS_DIR);
         System.out.println("find interesting words!!!");
     }
 
-    @Test
+    @Ignore
     public void PROBABILTY_CALCULATION_TEST() throws IOException, Exception {
         WordCalculation wordCalculation = new WordCalculation(propertyDir, dbo_ClassName, selectedWordDir, resultDir);
         System.out.println("calculate probabilty ended!!!");
     }
 
-    @Ignore
+    @Test
     public void LEXICON_CREATION_TEST() throws IOException, Exception {
         Lexicon lexicon = new Lexicon(qald9Dir);
         lexicon.prepareObjectLexicon(resultDir, "dbo:party", new HashSet<String>(TextAnalyzer.POSTAGS));
         System.out.println("Lexicon Creation!!!");
     }
+
     @Ignore
-   public void MEAN_RECIPROCAL_OBJECT_LEX_TEST() throws IOException, Exception {
-        List<String> POSTAGS2 = new ArrayList<String>(Arrays.asList(ADJECTIVE,NOUN));
+    public void MEAN_RECIPROCAL_OBJECT_LEX_TEST() throws IOException, Exception {
+        List<String> POSTAGS2 = new ArrayList<String>(Arrays.asList(ADJECTIVE, NOUN));
         for (String postag : POSTAGS2) {
-            String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir+GOLD,OBJECT, postag);
-            String conditionalFilename = FileFolderUtils.getLexiconFile(qald9Dir,OBJECT, postag);
-            String outputFileName =FileFolderUtils.getMeanReciprocalFile(qald9Dir, OBJECT,postag);
+            String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, postag);
+            String conditionalFilename = FileFolderUtils.getLexiconFile(qald9Dir, OBJECT, postag);
+            String outputFileName = FileFolderUtils.getMeanReciprocalFile(qald9Dir, OBJECT, postag);
             Comparision comparision = new Comparision(qald9Dir, qaldFileName, conditionalFilename, outputFileName);
             comparision.compersionsPattern();
         }

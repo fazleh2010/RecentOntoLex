@@ -1,0 +1,11 @@
+id=4  property=dbo:almaMater  
+serve_member  VBD_NN  multiply=0.00476  P(serve_member|dbo:almaMater)=0.035203  P(dbo:almaMater|serve_member)=0.135215    
+graduate_from  VBN_IN  multiply=0.003601  P(graduate_from|dbo:almaMater)=0.008511  P(dbo:almaMater|graduate_from)=0.423077    
+educate_at  VBN_IN  multiply=0.002369  P(educate_at|dbo:almaMater)=0.008124  P(dbo:almaMater|educate_at)=0.291667    
+attend  VBD  multiply=0.002352  P(attend|dbo:almaMater)=0.008897  P(dbo:almaMater|attend)=0.264368    
+graduate_of  NN_IN  multiply=0.001354  P(graduate_of|dbo:almaMater)=0.002708  P(dbo:almaMater|graduate_of)=0.5    
+earn_degree  VBN_NN  multiply=0.001238  P(earn_degree|dbo:almaMater)=0.001547  P(dbo:almaMater|earn_degree)=0.8    
+receive_his  VBD_PRP$  multiply=5.36E-4  P(receive_his|dbo:almaMater)=0.002321  P(dbo:almaMater|receive_his)=0.230769    
+alumnus_of  NN_IN  multiply=4.97E-4  P(alumnus_of|dbo:almaMater)=0.001161  P(dbo:almaMater|alumnus_of)=0.428571    
+study_at  VBN_IN  multiply=3.64E-4  P(study_at|dbo:almaMater)=0.001547  P(dbo:almaMater|study_at)=0.235294    
+

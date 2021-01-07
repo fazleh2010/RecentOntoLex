@@ -1,0 +1,5 @@
+id=56  property=dbo:president  
+nominate_by  VBN_IN  multiply=0.001087  P(nominate_by|dbo:president)=0.005435  P(dbo:president|nominate_by)=0.2    
+marry  VBN  multiply=1.75E-4  P(marry|dbo:president)=0.005435  P(dbo:president|marry)=0.032258    
+pronoun2_bear  NN_VBN  multiply=7.8E-5  P(pronoun2_bear|dbo:president)=0.002717  P(dbo:president|pronoun2_bear)=0.028571    
+

@@ -74,6 +74,7 @@ public class Lexicon {
                 }
                 index = index + 1;
                 List<String> pairs = new ArrayList<String>();
+                System.out.println("entityInfo.getPair():"+entityInfo.getPair());
                 pairs.add("pair=" + entityInfo.getPair());
                 pairs.add("multiplyValue=" + entityInfo.getMultiply().toString());
                 entityInfos.put(index, pairs);

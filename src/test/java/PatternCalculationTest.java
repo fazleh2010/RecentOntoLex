@@ -31,14 +31,14 @@ import org.junit.Test;
  */
 public class PatternCalculationTest {
 
-    private String dbo_ClassName = PropertyNotation.dbo_Politician;
-    private String inputFile = allPoliticianFile;
-    private String PATTERN = "pattern";
-    private String QLAD9 = "qald9";
-    private String ONTO_LEX = "lexicon";
-    private String MEAN_RECIPROCAL = "meanReciprocal";
+    private static String dbo_ClassName = PropertyNotation.dbo_AAClass;
+    private static String inputFile = allPoliticianFile;
+    private static String PATTERN = "pattern";
+    private static String QLAD9 = "qald9";
+    private static String ONTO_LEX = "lexicon";
+    private static String MEAN_RECIPROCAL = "meanReciprocal";
 
-    @Ignore
+    @Test
     public void PATTERN_CALCULATION_TEST() throws IOException, Exception {
         String classDir = FileFolderUtils.getClassDir(dbo_ClassName) + "/";
         String inputDir = dbpediaDir + classDir + patternDir;
@@ -50,16 +50,30 @@ public class PatternCalculationTest {
             lexicon.preparePropertyLexicon(patternCalculation.getPatternEntities(), postag, PATTERN,fileName);
         }
     }
+    
+    
+    
+    /*public static void main(String args[]) throws IOException, Exception {
+        String classDir = FileFolderUtils.getClassDir(dbo_ClassName) + "/";
+        String inputDir = dbpediaDir + classDir + patternDir;
+        System.out.println(inputDir);
+        PatternCalculation patternCalculation = new PatternCalculation(inputDir, inputFile, dbo_ClassName);
+        Lexicon lexicon = new Lexicon(qald9Dir);
+        for (String postag : TextAnalyzer.POSTAGS) {
+            String fileName = getLexiconFile(qald9Dir, postag);
+            lexicon.preparePropertyLexicon(patternCalculation.getPatternEntities(), postag, PATTERN,fileName);
+        }
+    }*/
 
-    private String getLexiconFile(String qald9Dir, String postag) {
+    private static String getLexiconFile(String qald9Dir, String postag) {
         return qald9Dir + File.separator + postag + "-" + PATTERN + "-" + ONTO_LEX + ".json";
     }
 
-    private String getQaldFile(String qald9Dir, String postag) {
+    private static String getQaldFile(String qald9Dir, String postag) {
         return qald9Dir + File.separator + postag + "-" + PATTERN + "-" + QLAD9 + ".json";
     }
 
-    private String getMeanReciprocalFile(String qald9Dir, String postag) {
+    private static String getMeanReciprocalFile(String qald9Dir, String postag) {
         return qald9Dir + File.separator + postag + "-" + PATTERN + "-" + MEAN_RECIPROCAL + ".json";
     }
 

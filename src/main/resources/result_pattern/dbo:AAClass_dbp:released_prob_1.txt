@@ -1,0 +1,11 @@
+id=165  property=dbp:released  
+release_in  VBN_IN  multiply=0.035223  P(release_in|dbp:released)=0.080103  P(dbp:released|release_in)=0.439716    
+originally_release  RB_VBN  multiply=0.008075  P(originally_release|dbp:released)=0.01615  P(dbp:released|originally_release)=0.5    
+arabic  JJ  multiply=0.005472  P(arabic|dbp:released)=0.007752  P(dbp:released|arabic)=0.705882    
+release_by  VBN_IN  multiply=0.004272  P(release_by|dbp:released)=0.014858  P(dbp:released|release_by)=0.2875    
+album_release  NN_VBD  multiply=0.003957  P(album_release|dbp:released)=0.009044  P(dbp:released|album_release)=0.4375    
+record_release  VBN_VBN  multiply=0.002953  P(record_release|dbp:released)=0.005168  P(dbp:released|record_release)=0.571429    
+pronoun_release  NN_VBD  multiply=0.002851  P(pronoun_release|dbp:released)=0.010336  P(dbp:released|pronoun_release)=0.275862    
+record_at  VBN_IN  multiply=0.001654  P(record_at|dbp:released)=0.005168  P(dbp:released|record_at)=0.32    
+release_on  VBN_IN  multiply=9.14E-4  P(release_on|dbp:released)=0.015504  P(dbp:released|release_on)=0.058968    
+

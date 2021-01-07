@@ -1,0 +1,8 @@
+id=57  property=dbo:previousWork  
+release_on  VBN_IN  multiply=0.064531  P(release_on|dbo:previousWork)=0.083644  P(dbo:previousWork|release_on)=0.771499    
+album_by  NN_IN  multiply=0.024041  P(album_by|dbo:previousWork)=0.030368  P(dbo:previousWork|album_by)=0.791667    
+album  JJ_NN  multiply=0.020475  P(album|dbo:previousWork)=0.022643  P(dbo:previousWork|album)=0.904255    
+release  JJ_NN  multiply=0.002302  P(release|dbo:previousWork)=0.00293  P(dbo:previousWork|release)=0.785714    
+followup_to  NN_TO  multiply=0.001962  P(followup_to|dbo:previousWork)=0.002397  P(dbo:previousWork|followup_to)=0.818182    
+sequel_to  NN_TO  multiply=0.001199  P(sequel_to|dbo:previousWork)=0.001598  P(dbo:previousWork|sequel_to)=0.75    
+

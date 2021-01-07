@@ -1,0 +1,6 @@
+id=14  property=dbo:countySeat  
+include_in  VBN_IN  multiply=0.172869  P(include_in|dbo:countySeat)=0.244898  P(dbo:countySeat|include_in)=0.705882    
+part_of  NN_IN  multiply=0.054422  P(part_of|dbo:countySeat)=0.163265  P(dbo:countySeat|part_of)=0.333333    
+central_county  JJ_NN  multiply=0.040816  P(central_county|dbo:countySeat)=0.040816  P(dbo:countySeat|central_county)=1.0    
+seat  NN  multiply=0.001601  P(seat|dbo:countySeat)=0.040816  P(dbo:countySeat|seat)=0.039216    
+

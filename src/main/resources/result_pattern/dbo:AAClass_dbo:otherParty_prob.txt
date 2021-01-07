@@ -1,0 +1,7 @@
+id=51  property=dbo:otherParty  
+lose_his  VBD_PRP$  multiply=0.002142  P(lose_his|dbo:otherParty)=0.016064  P(dbo:otherParty|lose_his)=0.133333    
+serve  VBD  multiply=0.001472  P(serve|dbo:otherParty)=0.096386  P(dbo:otherParty|serve)=0.015277    
+resign_from  VBN_IN  multiply=0.00119  P(resign_from|dbo:otherParty)=0.016064  P(dbo:otherParty|resign_from)=0.074074    
+member_of  NN_IN  multiply=0.001024  P(member_of|dbo:otherParty)=0.052209  P(dbo:otherParty|member_of)=0.019608    
+join  VBD  multiply=7.84E-4  P(join|dbo:otherParty)=0.02008  P(dbo:otherParty|join)=0.039062    
+

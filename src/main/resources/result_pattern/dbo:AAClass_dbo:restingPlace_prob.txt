@@ -1,0 +1,12 @@
+id=69  property=dbo:restingPlace  
+list_on  VBN_IN  multiply=0.015766  P(list_on|dbo:restingPlace)=0.027027  P(dbo:restingPlace|list_on)=0.583333    
+serve  VBD  multiply=0.005901  P(serve|dbo:restingPlace)=0.189189  P(dbo:restingPlace|serve)=0.03119    
+judge_of  NN_IN  multiply=0.005148  P(judge_of|dbo:restingPlace)=0.007722  P(dbo:restingPlace|judge_of)=0.666667    
+come_to  VBD_TO  multiply=0.005148  P(come_to|dbo:restingPlace)=0.023166  P(dbo:restingPlace|come_to)=0.222222    
+bear_in  VBN_IN  multiply=0.004686  P(bear_in|dbo:restingPlace)=0.096525  P(dbo:restingPlace|bear_in)=0.048544    
+move_to  VBN_TO  multiply=0.004492  P(move_to|dbo:restingPlace)=0.042471  P(dbo:restingPlace|move_to)=0.105769    
+member_of  NN_IN  multiply=0.002568  P(member_of|dbo:restingPlace)=0.081081  P(dbo:restingPlace|member_of)=0.031674    
+return_to  VBN_TO  multiply=0.001013  P(return_to|dbo:restingPlace)=0.015444  P(dbo:restingPlace|return_to)=0.065574    
+delegate_to  NN_TO  multiply=7.72E-4  P(delegate_to|dbo:restingPlace)=0.007722  P(dbo:restingPlace|delegate_to)=0.1    
+die_in  VBD_IN  multiply=7.43E-4  P(die_in|dbo:restingPlace)=0.019305  P(dbo:restingPlace|die_in)=0.038462    
+

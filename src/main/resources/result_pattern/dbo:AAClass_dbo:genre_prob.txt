@@ -1,0 +1,6 @@
+id=25  property=dbo:genre  
+debut_album  NN_NN  multiply=0.042431  P(debut_album|dbo:genre)=0.04571  P(dbo:genre|debut_album)=0.92827    
+album_by  NN_IN  multiply=0.02514  P(album_by|dbo:genre)=0.027426  P(dbo:genre|album_by)=0.916667    
+album  JJ_NN  multiply=0.017508  P(album|dbo:genre)=0.018492  P(dbo:genre|album)=0.946809    
+live_album  JJ_NN  multiply=0.009206  P(live_album|dbo:genre)=0.009973  P(dbo:genre|live_album)=0.923077    
+first_album  RB_NN  multiply=0.004919  P(first_album|dbo:genre)=0.006856  P(dbo:genre|first_album)=0.717391    

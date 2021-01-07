@@ -110,13 +110,19 @@ public class PatternCalculation implements PatternThresold{
             }
             if (!results.isEmpty()) {
                 //EntityResults kbResult = new EntityResults(triple.getPredicate(), triple.getObject(), 0, results, 2);
-                ObjectWordResults kbResult = new ObjectWordResults(predicate, "", 0, results, 10);
+                ObjectWordResults kbResult = new ObjectWordResults(predicate, predicate, 0, results, 10);
                 String str = this.entityResultToString(kbResult, ObjectWordResults.PATTERN_CALCULATION);
                 String outputFileName = inputDir + "result/" + dbo_ClassName + "_" + predicate + "_" + "prob.txt";
                 FileFolderUtils.writeToTextFile(str, outputFileName);
             }
 
         }
+        
+        if (this.patternEntities.isEmpty()) {
+            return;
+        }
+        String wordObjectsFileName = inputDir + "result/"  + "wordObject_" + ".json";
+        FileFolderUtils.writeResultDetail(this.patternEntities, wordObjectsFileName);
 
         System.out.println("end!!!!!!");
 
@@ -304,6 +310,8 @@ public class PatternCalculation implements PatternThresold{
                 return true;
             }*/
         }
+        
+        
 
         return false;
     }
@@ -364,6 +372,7 @@ public class PatternCalculation implements PatternThresold{
                     propertyObjects = new ArrayList<WordObjectResults>();
                 }
                 WordObjectResults entityInfo = new WordObjectResults(wordResults.getPosTag(),entities.getProperty(), entities.getObject(), wordResults.getMultipleValue(), wordResults.getProbabilities());
+                System.out.println(entityInfo);
                 propertyObjects.add(entityInfo);
                 patternEntities.put(key, propertyObjects);
 

@@ -1,87 +1,720 @@
 [ {
-  "pattern" : "albert",
-  "partsOfSpeech" : "NN",
+  "pattern" : "album_by",
+  "partsOfSpeech" : "NN_IN",
   "index" : {
-    "1" : [ "pair=Progressive_Conservative_Association_of_Alberta", "multiplyValue=0.281748" ]
+    "1" : [ "pair=dbo:artist", "multiplyValue=0.02881" ],
+    "2" : [ "pair=dbo:genre", "multiplyValue=0.02514" ],
+    "3" : [ "pair=dbo:previousWork", "multiplyValue=0.024041" ],
+    "4" : [ "pair=dbo:producer", "multiplyValue=0.014084" ],
+    "5" : [ "pair=dbp:allWriting", "multiplyValue=2.35E-4" ],
+    "6" : [ "pair=dbp:chronology", "multiplyValue=0.02439" ]
   }
 }, {
-  "pattern" : "australia",
-  "partsOfSpeech" : "NN",
+  "pattern" : "album_contain",
+  "partsOfSpeech" : "NN_VBZ",
   "index" : {
-    "1" : [ "pair=Australian_Labor_Party", "multiplyValue=0.644719" ],
-    "2" : [ "pair=Liberal_Party_of_Australia", "multiplyValue=0.135762" ]
+    "1" : [ "pair=dbo:recordLabel", "multiplyValue=0.003155" ]
   }
 }, {
-  "pattern" : "congress",
-  "partsOfSpeech" : "NN",
+  "pattern" : "album_make",
+  "partsOfSpeech" : "NN_VBD",
   "index" : {
-    "1" : [ "pair=Indian_National_Congress", "multiplyValue=0.509331" ]
+    "1" : [ "pair=dbp:chronology", "multiplyValue=7.74E-4" ]
   }
 }, {
-  "pattern" : "conservative",
-  "partsOfSpeech" : "NN",
+  "pattern" : "album_release",
+  "partsOfSpeech" : "NN_VBD",
   "index" : {
-    "1" : [ "pair=Progressive_Conservative_Party_of_Ontario", "multiplyValue=0.140845" ]
+    "1" : [ "pair=dbp:chronology", "multiplyValue=0.001355" ],
+    "2" : [ "pair=dbp:released", "multiplyValue=0.003957" ]
   }
 }, {
-  "pattern" : "democrat",
-  "partsOfSpeech" : "NN",
+  "pattern" : "album_rouvas",
+  "partsOfSpeech" : "NN_NNS",
   "index" : {
-    "1" : [ "pair=Democratic_Party_(United_States)", "multiplyValue=0.215831" ]
+    "1" : [ "pair=dbp:music", "multiplyValue=0.001812" ]
   }
 }, {
-  "pattern" : "france",
-  "partsOfSpeech" : "NN",
+  "pattern" : "alumnus_of",
+  "partsOfSpeech" : "NN_IN",
   "index" : {
-    "1" : [ "pair=Union_for_a_Popular_Movement", "multiplyValue=0.616891" ]
+    "1" : [ "pair=dbo:almaMater", "multiplyValue=4.97E-4" ]
   }
 }, {
-  "pattern" : "labour",
+  "pattern" : "american",
   "partsOfSpeech" : "NN",
   "index" : {
-    "1" : [ "pair=Labor_Party_(UK)", "multiplyValue=0.460711" ]
+    "1" : [ "pair=dbo:genre", "multiplyValue=0.002082" ]
   }
 }, {
-  "pattern" : "liberal",
-  "partsOfSpeech" : "NN",
+  "pattern" : "arein_order",
+  "partsOfSpeech" : "NN_NN",
   "index" : {
-    "1" : [ "pair=Liberal_Party_(UK)", "multiplyValue=0.188947" ]
+    "1" : [ "pair=dbp:largestmetro", "multiplyValue=1.0" ]
   }
 }, {
-  "pattern" : "national",
-  "partsOfSpeech" : "NN",
+  "pattern" : "bands",
+  "partsOfSpeech" : "NNS",
   "index" : {
-    "1" : [ "pair=Indian_National_Congress", "multiplyValue=0.210423" ]
+    "1" : [ "pair=dbp:type", "multiplyValue=0.008907" ]
   }
 }, {
-  "pattern" : "ontario",
-  "partsOfSpeech" : "NN",
+  "pattern" : "bands_first",
+  "partsOfSpeech" : "NNS_RB",
   "index" : {
-    "1" : [ "pair=Progressive_Conservative_Party_of_Ontario", "multiplyValue=0.336364" ],
-    "2" : [ "pair=Ontario_Liberal_Party", "multiplyValue=0.240844" ]
+    "1" : [ "pair=dbp:type", "multiplyValue=0.003311" ],
+    "2" : [ "pair=dbp:writer", "multiplyValue=0.001274" ]
   }
 }, {
-  "pattern" : "popular",
-  "partsOfSpeech" : "NN",
+  "pattern" : "bnin_bneen",
+  "partsOfSpeech" : "NN_NN",
   "index" : {
-    "1" : [ "pair=Union_for_a_Popular_Movement", "multiplyValue=0.669638" ]
+    "1" : [ "pair=dbo:language", "multiplyValue=0.009302" ],
+    "2" : [ "pair=dbo:officialLanguage", "multiplyValue=0.064516" ]
   }
 }, {
-  "pattern" : "progressive",
-  "partsOfSpeech" : "NN",
+  "pattern" : "chair_of",
+  "partsOfSpeech" : "NN_IN",
   "index" : {
-    "1" : [ "pair=Progressive_Conservative_Association_of_Alberta", "multiplyValue=0.098964" ]
+    "1" : [ "pair=dbp:stateAssembly", "multiplyValue=0.001563" ]
   }
 }, {
-  "pattern" : "republic",
-  "partsOfSpeech" : "NN",
+  "pattern" : "chinois_simplifi",
+  "partsOfSpeech" : "NN_NNS",
   "index" : {
-    "1" : [ "pair=Republican_Party_(United_States)", "multiplyValue=0.339067" ]
+    "1" : [ "pair=dbp:subdivisionType", "multiplyValue=0.010582" ]
   }
 }, {
-  "pattern" : "republican",
+  "pattern" : "claims_to",
+  "partsOfSpeech" : "NNS_TO",
+  "index" : {
+    "1" : [ "pair=dbo:governmentType", "multiplyValue=0.01039" ]
+  }
+}, {
+  "pattern" : "cluster_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:totalType", "multiplyValue=0.5" ]
+  }
+}, {
+  "pattern" : "collaboration_between",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:picture", "multiplyValue=0.022222" ],
+    "2" : [ "pair=dbp:writer", "multiplyValue=0.00361" ]
+  }
+}, {
+  "pattern" : "colleague_separate",
+  "partsOfSpeech" : "NN_JJ",
+  "index" : {
+    "1" : [ "pair=dbo:capital", "multiplyValue=0.027211" ],
+    "2" : [ "pair=dbp:event", "multiplyValue=0.102564" ]
+  }
+}, {
+  "pattern" : "collection_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:recorded", "multiplyValue=7.29E-4" ],
+    "2" : [ "pair=dbp:writer", "multiplyValue=6.77E-4" ]
+  }
+}, {
+  "pattern" : "combination_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:allWriting", "multiplyValue=0.001691" ]
+  }
+}, {
+  "pattern" : "compilation_dvd",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbp:genre", "multiplyValue=0.007407" ]
+  }
+}, {
+  "pattern" : "congressman_represent",
+  "partsOfSpeech" : "NN_VBG",
+  "index" : {
+    "1" : [ "pair=dbp:state", "multiplyValue=7.66E-4" ]
+  }
+}, {
+  "pattern" : "culture_strongly",
+  "partsOfSpeech" : "NN_RB",
+  "index" : {
+    "1" : [ "pair=dbo:language", "multiplyValue=0.009302" ]
+  }
+}, {
+  "pattern" : "currency_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:location", "multiplyValue=0.007194" ]
+  }
+}, {
+  "pattern" : "debut",
   "partsOfSpeech" : "NN",
   "index" : {
-    "1" : [ "pair=Republican_Party_(United_States)", "multiplyValue=0.398802" ]
+    "1" : [ "pair=dbo:type", "multiplyValue=6.25E-4" ],
+    "2" : [ "pair=dbp:type", "multiplyValue=0.076072" ]
+  }
+}, {
+  "pattern" : "debut_album",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:artist", "multiplyValue=0.045679" ],
+    "2" : [ "pair=dbo:genre", "multiplyValue=0.042431" ],
+    "3" : [ "pair=dbo:producer", "multiplyValue=0.028185" ],
+    "4" : [ "pair=dbo:recordedIn", "multiplyValue=0.009026" ],
+    "5" : [ "pair=dbp:allLyrics", "multiplyValue=0.002126" ],
+    "6" : [ "pair=dbp:allMusic", "multiplyValue=0.003337" ],
+    "7" : [ "pair=dbp:allWriting", "multiplyValue=0.010312" ],
+    "8" : [ "pair=dbp:chronology", "multiplyValue=9.26E-4" ],
+    "9" : [ "pair=dbp:writer", "multiplyValue=0.007723" ]
+  }
+}, {
+  "pattern" : "debut_extend",
+  "partsOfSpeech" : "NN_VBD",
+  "index" : {
+    "1" : [ "pair=dbp:writer", "multiplyValue=0.005305" ]
+  }
+}, {
+  "pattern" : "debut_solo",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:artist", "multiplyValue=0.02578" ],
+    "2" : [ "pair=dbo:producer", "multiplyValue=0.020976" ],
+    "3" : [ "pair=dbp:writer", "multiplyValue=0.005212" ]
+  }
+}, {
+  "pattern" : "degree_from",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:stateHouse", "multiplyValue=0.002304" ]
+  }
+}, {
+  "pattern" : "delegate_to",
+  "partsOfSpeech" : "NN_TO",
+  "index" : {
+    "1" : [ "pair=dbo:restingPlace", "multiplyValue=7.72E-4" ]
+  }
+}, {
+  "pattern" : "deputy_minister",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:primeMinister", "multiplyValue=4.46E-4" ]
+  }
+}, {
+  "pattern" : "deputy_speaker",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbp:stateDelegate", "multiplyValue=0.001266" ]
+  }
+}, {
+  "pattern" : "dli",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "1" : [ "pair=dbp:demographics1Info", "multiplyValue=0.5" ]
+  }
+}, {
+  "pattern" : "drummer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "1" : [ "pair=dbp:music", "multiplyValue=0.002717" ]
+  }
+}, {
+  "pattern" : "dvd_release",
+  "partsOfSpeech" : "NN_VBD",
+  "index" : {
+    "1" : [ "pair=dbp:relyear", "multiplyValue=9.11E-4" ]
+  }
+}, {
+  "pattern" : "ebrhm_lkn",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbp:vicePresidentDate", "multiplyValue=0.5" ]
+  }
+}, {
+  "pattern" : "eleventh",
+  "partsOfSpeech" : "NNS",
+  "index" : {
+    "1" : [ "pair=dbo:type", "multiplyValue=0.001734" ],
+    "2" : [ "pair=dbp:type", "multiplyValue=0.004119" ]
+  }
+}, {
+  "pattern" : "fainaru_fantaj",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbp:creator", "multiplyValue=0.054054" ]
+  }
+}, {
+  "pattern" : "father_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:child", "multiplyValue=0.022535" ]
+  }
+}, {
+  "pattern" : "features_music",
+  "partsOfSpeech" : "NNS_NN",
+  "index" : {
+    "1" : [ "pair=dbp:musicDirector", "multiplyValue=0.029412" ]
+  }
+}, {
+  "pattern" : "features_song",
+  "partsOfSpeech" : "NNS_NNS",
+  "index" : {
+    "1" : [ "pair=dbp:artist", "multiplyValue=0.001636" ]
+  }
+}, {
+  "pattern" : "followup_to",
+  "partsOfSpeech" : "NN_TO",
+  "index" : {
+    "1" : [ "pair=dbo:previousWork", "multiplyValue=0.001962" ]
+  }
+}, {
+  "pattern" : "forms",
+  "partsOfSpeech" : "NNS",
+  "index" : {
+    "1" : [ "pair=dbo:mouthPlace", "multiplyValue=0.001401" ]
+  }
+}, {
+  "pattern" : "fotalez_locally",
+  "partsOfSpeech" : "NN_RB",
+  "index" : {
+    "1" : [ "pair=dbp:pushpinMap", "multiplyValue=0.033898" ]
+  }
+}, {
+  "pattern" : "fourteenth",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "1" : [ "pair=dbp:type", "multiplyValue=0.001485" ]
+  }
+}, {
+  "pattern" : "functionary_catholic",
+  "partsOfSpeech" : "NNS_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:religion", "multiplyValue=0.004149" ]
+  }
+}, {
+  "pattern" : "gilbertese_ribaberiki",
+  "partsOfSpeech" : "NN_NNS",
+  "index" : {
+    "1" : [ "pair=dbo:language", "multiplyValue=0.009302" ],
+    "2" : [ "pair=dbo:officialLanguage", "multiplyValue=0.064516" ]
+  }
+}, {
+  "pattern" : "graduate_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:almaMater", "multiplyValue=0.001354" ]
+  }
+}, {
+  "pattern" : "grandmother_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:stateOfOrigin", "multiplyValue=0.007207" ]
+  }
+}, {
+  "pattern" : "growth_expand",
+  "partsOfSpeech" : "NN_VBD",
+  "index" : {
+    "1" : [ "pair=dbp:centre", "multiplyValue=0.013889" ]
+  }
+}, {
+  "pattern" : "hliwd_holeewuud",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:isPartOf", "multiplyValue=0.017094" ]
+  }
+}, {
+  "pattern" : "hrfrd_cathedral",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbp:civilParish", "multiplyValue=0.333333" ]
+  }
+}, {
+  "pattern" : "jazz_music",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbp:extra", "multiplyValue=0.002716" ]
+  }
+}, {
+  "pattern" : "judge_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:restingPlace", "multiplyValue=0.005148" ]
+  }
+}, {
+  "pattern" : "kristjnsn_historically",
+  "partsOfSpeech" : "NN_RB",
+  "index" : {
+    "1" : [ "pair=dbp:district", "multiplyValue=0.001652" ]
+  }
+}, {
+  "pattern" : "labour_member",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:country", "multiplyValue=0.002016" ]
+  }
+}, {
+  "pattern" : "lies_in",
+  "partsOfSpeech" : "NNS_IN",
+  "index" : {
+    "1" : [ "pair=dbo:lowestPlace", "multiplyValue=0.333333" ]
+  }
+}, {
+  "pattern" : "member_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:birthPlace", "multiplyValue=0.019961" ],
+    "2" : [ "pair=dbo:citizenship", "multiplyValue=1.26E-4" ],
+    "3" : [ "pair=dbo:country", "multiplyValue=0.003208" ],
+    "4" : [ "pair=dbo:deathPlace", "multiplyValue=0.006636" ],
+    "5" : [ "pair=dbo:language", "multiplyValue=1.12E-4" ],
+    "6" : [ "pair=dbo:nationality", "multiplyValue=0.003918" ],
+    "7" : [ "pair=dbo:officialLanguage", "multiplyValue=7.78E-4" ],
+    "8" : [ "pair=dbo:otherParty", "multiplyValue=0.001024" ],
+    "9" : [ "pair=dbo:party", "multiplyValue=0.049073" ],
+    "10" : [ "pair=dbo:region", "multiplyValue=0.012302" ],
+    "11" : [ "pair=dbo:religion", "multiplyValue=0.006021" ],
+    "12" : [ "pair=dbo:residence", "multiplyValue=0.024173" ],
+    "13" : [ "pair=dbo:restingPlace", "multiplyValue=0.002568" ],
+    "14" : [ "pair=dbo:stateOfOrigin", "multiplyValue=3.4E-4" ],
+    "15" : [ "pair=dbp:district", "multiplyValue=0.002843" ],
+    "16" : [ "pair=dbp:establishedEvent", "multiplyValue=6.35E-4" ],
+    "17" : [ "pair=dbp:nationality", "multiplyValue=8.09E-4" ],
+    "18" : [ "pair=dbp:origin", "multiplyValue=6.0E-5" ],
+    "19" : [ "pair=dbp:parliament", "multiplyValue=0.001229" ],
+    "20" : [ "pair=dbp:religion", "multiplyValue=0.010527" ],
+    "21" : [ "pair=dbp:stateDelegate", "multiplyValue=7.6E-5" ],
+    "22" : [ "pair=dbp:stateHouse", "multiplyValue=0.001564" ],
+    "23" : [ "pair=dbp:stateSenate", "multiplyValue=0.003216" ],
+    "24" : [ "pair=dbp:title", "multiplyValue=0.007565" ]
+  }
+}, {
+  "pattern" : "minister_for",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:parliament", "multiplyValue=0.001174" ]
+  }
+}, {
+  "pattern" : "minister_in",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:premier", "multiplyValue=5.07E-4" ]
+  }
+}, {
+  "pattern" : "minister_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:birthPlace", "multiplyValue=0.002149" ],
+    "2" : [ "pair=dbo:nationality", "multiplyValue=7.92E-4" ],
+    "3" : [ "pair=dbo:primeMinister", "multiplyValue=0.033197" ],
+    "4" : [ "pair=dbo:religion", "multiplyValue=0.009328" ]
+  }
+}, {
+  "pattern" : "mother_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:child", "multiplyValue=0.002817" ]
+  }
+}, {
+  "pattern" : "ndiz_ganjeez",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:sourceCountry", "multiplyValue=0.015625" ]
+  }
+}, {
+  "pattern" : "ndr",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "1" : [ "pair=dbo:language", "multiplyValue=0.003721" ],
+    "2" : [ "pair=dbo:officialLanguage", "multiplyValue=0.025806" ]
+  }
+}, {
+  "pattern" : "nt_dutch",
+  "partsOfSpeech" : "NNS_VBP",
+  "index" : {
+    "1" : [ "pair=dbp:centre", "multiplyValue=0.018519" ],
+    "2" : [ "pair=dbp:name", "multiplyValue=0.001135" ]
+  }
+}, {
+  "pattern" : "numbers_around",
+  "partsOfSpeech" : "NNS_IN",
+  "index" : {
+    "1" : [ "pair=dbp:city", "multiplyValue=0.041667" ],
+    "2" : [ "pair=dbp:div", "multiplyValue=0.5" ]
+  }
+}, {
+  "pattern" : "owner",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "1" : [ "pair=dbp:founders", "multiplyValue=0.006803" ]
+  }
+}, {
+  "pattern" : "part_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:countySeat", "multiplyValue=0.054422" ],
+    "2" : [ "pair=dbo:largestCity", "multiplyValue=0.067204" ],
+    "3" : [ "pair=dbo:mountainRange", "multiplyValue=0.001701" ],
+    "4" : [ "pair=dbo:state", "multiplyValue=0.022599" ],
+    "5" : [ "pair=dbp:countryAdminDivisions", "multiplyValue=0.055556" ],
+    "6" : [ "pair=dbp:establishedEvent", "multiplyValue=0.004386" ],
+    "7" : [ "pair=dbp:subdivisionType", "multiplyValue=0.001323" ]
+  }
+}, {
+  "pattern" : "person_declare",
+  "partsOfSpeech" : "NNS_VBD",
+  "index" : {
+    "1" : [ "pair=dbp:sovereigntyType", "multiplyValue=0.037037" ]
+  }
+}, {
+  "pattern" : "pjj_chosngl",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbp:translitLang1Type", "multiplyValue=1.0" ]
+  }
+}, {
+  "pattern" : "president_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:homeTown", "multiplyValue=0.002295" ]
+  }
+}, {
+  "pattern" : "pronoun",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "1" : [ "pair=dbo:language", "multiplyValue=0.002395" ]
+  }
+}, {
+  "pattern" : "pronoun2_bear",
+  "partsOfSpeech" : "NN_VBN",
+  "index" : {
+    "1" : [ "pair=dbo:president", "multiplyValue=7.8E-5" ],
+    "2" : [ "pair=dbo:spouse", "multiplyValue=5.4E-5" ]
+  }
+}, {
+  "pattern" : "pronoun_bidi",
+  "partsOfSpeech" : "NN_NNS",
+  "index" : {
+    "1" : [ "pair=dbp:artist", "multiplyValue=0.002356" ]
+  }
+}, {
+  "pattern" : "pronoun_on",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:voy", "multiplyValue=0.007958" ]
+  }
+}, {
+  "pattern" : "pronoun_originally",
+  "partsOfSpeech" : "NN_RB",
+  "index" : {
+    "1" : [ "pair=dbo:hometown", "multiplyValue=0.004963" ]
+  }
+}, {
+  "pattern" : "pronoun_release",
+  "partsOfSpeech" : "NN_VBD",
+  "index" : {
+    "1" : [ "pair=dbp:allLyrics", "multiplyValue=1.36E-4" ],
+    "2" : [ "pair=dbp:certyear", "multiplyValue=7.84E-4" ],
+    "3" : [ "pair=dbp:recorded", "multiplyValue=0.005439" ],
+    "4" : [ "pair=dbp:released", "multiplyValue=0.002851" ],
+    "5" : [ "pair=dbp:relyear", "multiplyValue=0.001767" ]
+  }
+}, {
+  "pattern" : "pronoun_song",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:musicalBand", "multiplyValue=0.138889" ]
+  }
+}, {
+  "pattern" : "pronounes_of",
+  "partsOfSpeech" : "NNS_IN",
+  "index" : {
+    "1" : [ "pair=dbp:taxon", "multiplyValue=0.037037" ]
+  }
+}, {
+  "pattern" : "pronouns_abstract",
+  "partsOfSpeech" : "NNS_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:allWriting", "multiplyValue=6.6E-5" ],
+    "2" : [ "pair=dbp:artist", "multiplyValue=0.001988" ]
+  }
+}, {
+  "pattern" : "pronouns_title",
+  "partsOfSpeech" : "NNS_NN",
+  "index" : {
+    "1" : [ "pair=dbp:artist", "multiplyValue=0.002052" ]
+  }
+}, {
+  "pattern" : "rb",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "1" : [ "pair=dbp:genre", "multiplyValue=0.00303" ]
+  }
+}, {
+  "pattern" : "rises_from",
+  "partsOfSpeech" : "NNS_IN",
+  "index" : {
+    "1" : [ "pair=dbp:sourceState", "multiplyValue=0.02381" ]
+  }
+}, {
+  "pattern" : "rnd_spanish",
+  "partsOfSpeech" : "NN_NNP",
+  "index" : {
+    "1" : [ "pair=dbo:isPartOf", "multiplyValue=0.017094" ]
+  }
+}, {
+  "pattern" : "seat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "1" : [ "pair=dbo:countySeat", "multiplyValue=0.001601" ]
+  }
+}, {
+  "pattern" : "sequel_to",
+  "partsOfSpeech" : "NN_TO",
+  "index" : {
+    "1" : [ "pair=dbo:previousWork", "multiplyValue=0.001199" ]
+  }
+}, {
+  "pattern" : "site_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:capital", "multiplyValue=0.006279" ]
+  }
+}, {
+  "pattern" : "slovki_sl",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:officialLanguage", "multiplyValue=0.064516" ]
+  }
+}, {
+  "pattern" : "son_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:child", "multiplyValue=0.001713" ],
+    "2" : [ "pair=dbo:relation", "multiplyValue=0.002892" ],
+    "3" : [ "pair=dbp:parents", "multiplyValue=0.003679" ],
+    "4" : [ "pair=dbp:predecessor", "multiplyValue=0.002357" ]
+  }
+}, {
+  "pattern" : "spanish_guinea",
+  "partsOfSpeech" : "NNP_NN",
+  "index" : {
+    "1" : [ "pair=dbo:officialLanguage", "multiplyValue=0.064516" ]
+  }
+}, {
+  "pattern" : "spanish_pronunciation",
+  "partsOfSpeech" : "NNP_NN",
+  "index" : {
+    "1" : [ "pair=dbp:subdivisionType", "multiplyValue=0.010582" ]
+  }
+}, {
+  "pattern" : "split_between",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:recordedIn", "multiplyValue=0.001473" ]
+  }
+}, {
+  "pattern" : "srbi",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "1" : [ "pair=dbo:officialLanguage", "multiplyValue=0.010753" ]
+  }
+}, {
+  "pattern" : "starts_in",
+  "partsOfSpeech" : "NNS_IN",
+  "index" : {
+    "1" : [ "pair=dbo:founder", "multiplyValue=0.333333" ]
+  }
+}, {
+  "pattern" : "state_minister",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:primeMinister", "multiplyValue=0.007445" ],
+    "2" : [ "pair=dbp:citizenship", "multiplyValue=3.77E-4" ]
+  }
+}, {
+  "pattern" : "student_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:citizenship", "multiplyValue=0.00641" ]
+  }
+}, {
+  "pattern" : "suburb_fill",
+  "partsOfSpeech" : "NNS_VBD",
+  "index" : {
+    "1" : [ "pair=dbp:location", "multiplyValue=0.007194" ],
+    "2" : [ "pair=dbp:officialName", "multiplyValue=0.333333" ]
+  }
+}, {
+  "pattern" : "tenth",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "1" : [ "pair=dbo:type", "multiplyValue=0.001028" ]
+  }
+}, {
+  "pattern" : "today_closely",
+  "partsOfSpeech" : "NN_RB",
+  "index" : {
+    "1" : [ "pair=dbp:east", "multiplyValue=0.008048" ]
+  }
+}, {
+  "pattern" : "track_use",
+  "partsOfSpeech" : "NN_VBD",
+  "index" : {
+    "1" : [ "pair=dbp:extra", "multiplyValue=0.002037" ]
+  }
+}, {
+  "pattern" : "valley",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "1" : [ "pair=dbp:sourceConfluenceCountry", "multiplyValue=0.0625" ]
+  }
+}, {
+  "pattern" : "veteran_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:battle", "multiplyValue=0.003587" ]
+  }
+}, {
+  "pattern" : "war_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:sovereigntyType", "multiplyValue=0.055556" ]
+  }
+}, {
+  "pattern" : "warik_wyreek",
+  "partsOfSpeech" : "NN_NN",
+  "index" : {
+    "1" : [ "pair=dbp:subdivisionType", "multiplyValue=0.015873" ]
+  }
+}, {
+  "pattern" : "widow_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:spouse", "multiplyValue=0.00381" ]
+  }
+}, {
+  "pattern" : "wife_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:predecessor", "multiplyValue=7.5E-4" ],
+    "2" : [ "pair=dbo:spouse", "multiplyValue=0.011429" ]
+  }
+}, {
+  "pattern" : "winner_of",
+  "partsOfSpeech" : "NN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:birthPlace", "multiplyValue=2.68E-4" ]
+  }
+}, {
+  "pattern" : "world_secondlargest",
+  "partsOfSpeech" : "NNS_JJ",
+  "index" : {
+    "1" : [ "pair=dbo:currency", "multiplyValue=0.022727" ]
+  }
+}, {
+  "pattern" : "zlts_german",
+  "partsOfSpeech" : "NNS_VBP",
+  "index" : {
+    "1" : [ "pair=dbp:pushpinMap", "multiplyValue=0.022599" ]
   }
 } ]

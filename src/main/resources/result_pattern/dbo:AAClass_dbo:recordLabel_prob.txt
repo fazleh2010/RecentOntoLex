@@ -1,0 +1,11 @@
+
+id=63  property=dbo:recordLabel  
+release_on  VBN_IN  multiply=0.081228  P(release_on|dbo:recordLabel)=0.08935  P(dbo:recordLabel|release_on)=0.909091    
+release_in  VBN_IN  multiply=0.045695  P(release_in|dbo:recordLabel)=0.055784  P(dbo:recordLabel|release_in)=0.819149    
+release_by  VBN_IN  multiply=0.015648  P(release_by|dbo:recordLabel)=0.017387  P(dbo:recordLabel|release_by)=0.9    
+originally_release  RB_VBN  multiply=0.00978  P(originally_release|dbo:recordLabel)=0.010867  P(dbo:recordLabel|originally_release)=0.9    
+record_in  VBN_IN  multiply=0.005564  P(record_in|dbo:recordLabel)=0.005796  P(dbo:recordLabel|record_in)=0.96    
+first_album  RB_NN  multiply=0.005376  P(first_album|dbo:recordLabel)=0.007728  P(dbo:recordLabel|first_album)=0.695652    
+first_release  RB_VBN  multiply=0.004321  P(first_release|dbo:recordLabel)=0.007003  P(dbo:recordLabel|first_release)=0.617021    
+release_through  VBN_IN  multiply=0.00426  P(release_through|dbo:recordLabel)=0.005071  P(dbo:recordLabel|release_through)=0.84    
+album_contain  NN_VBZ  multiply=0.003155  P(album_contain|dbo:recordLabel)=0.003381  P(dbo:recordLabel|album_contain)=0.933333    

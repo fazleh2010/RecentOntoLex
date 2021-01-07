@@ -1,0 +1,12 @@
+id=17  property=dbo:deathPlace  
+bear_in  VBN_IN  multiply=0.042096  P(bear_in|dbo:deathPlace)=0.069263  P(dbo:deathPlace|bear_in)=0.607767    
+serve  VBD  multiply=0.035214  P(serve|dbo:deathPlace)=0.110644  P(dbo:deathPlace|serve)=0.318269    
+die_in  VBD_IN  multiply=0.022122  P(die_in|dbo:deathPlace)=0.025227  P(dbo:deathPlace|die_in)=0.876923    
+serve_in  VBN_IN  multiply=0.020748  P(serve_in|dbo:deathPlace)=0.057535  P(dbo:deathPlace|serve_in)=0.36061    
+represent  VBN  multiply=0.020113  P(represent|dbo:deathPlace)=0.065059  P(dbo:deathPlace|represent)=0.309148    
+serve_member  VBD_NN  multiply=0.018158  P(serve_member|dbo:deathPlace)=0.052003  P(dbo:deathPlace|serve_member)=0.349183    
+die_at  VBD_IN  multiply=0.007934  P(die_at|dbo:deathPlace)=0.009737  P(dbo:deathPlace|die_at)=0.814815    
+member_of  NN_IN  multiply=0.006636  P(member_of|dbo:deathPlace)=0.031202  P(dbo:deathPlace|member_of)=0.21267    
+move_to  VBN_TO  multiply=0.005753  P(move_to|dbo:deathPlace)=0.011507  P(dbo:deathPlace|move_to)=0.5    
+elect_to  VBN_TO  multiply=0.003786  P(elect_to|dbo:deathPlace)=0.026997  P(dbo:deathPlace|elect_to)=0.14023    
+

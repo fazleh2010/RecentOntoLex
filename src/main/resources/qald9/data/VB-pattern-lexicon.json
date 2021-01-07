@@ -1,71 +1,1263 @@
 [ {
-  "pattern" : "achieve_cult",
-  "partsOfSpeech" : "VBN_NN",
+  "pattern" : "accompany_tour",
+  "partsOfSpeech" : "VBG_NN",
   "index" : {
-    "1" : [ "pair=dbo:writer ", "multiplyValue=0.010753" ]
+    "1" : [ "pair=dbp:relyear", "multiplyValue=8.2E-4" ]
   }
 }, {
-  "pattern" : "base_on",
+  "pattern" : "acquire_by",
   "partsOfSpeech" : "VBN_IN",
   "index" : {
-    "1" : [ "pair=dbo:writer ", "multiplyValue=0.021505" ]
+    "1" : [ "pair=dbo:owningCompany", "multiplyValue=0.005435" ]
   }
 }, {
-  "pattern" : "direct_by",
+  "pattern" : "appear_in",
+  "partsOfSpeech" : "VBD_IN",
+  "index" : {
+    "1" : [ "pair=dbo:country", "multiplyValue=0.00561" ],
+    "2" : [ "pair=dbo:employer", "multiplyValue=0.002841" ],
+    "3" : [ "pair=dbo:occupation", "multiplyValue=0.005348" ],
+    "4" : [ "pair=dbp:members", "multiplyValue=0.018182" ]
+  }
+}, {
+  "pattern" : "appear_on",
+  "partsOfSpeech" : "VBD_IN",
+  "index" : {
+    "1" : [ "pair=dbo:occupation", "multiplyValue=0.004447" ],
+    "2" : [ "pair=dbo:stateOfOrigin", "multiplyValue=0.006757" ]
+  }
+}, {
+  "pattern" : "appoint",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbp:honorificSuffix", "multiplyValue=0.009694" ],
+    "2" : [ "pair=dbp:title", "multiplyValue=0.007597" ]
+  }
+}, {
+  "pattern" : "appoint_by",
   "partsOfSpeech" : "VBN_IN",
   "index" : {
-    "1" : [ "pair=dbo:director ", "multiplyValue=0.061404" ],
-    "2" : [ "pair=dbo:writer ", "multiplyValue=0.038402" ]
+    "1" : [ "pair=dbp:appointed", "multiplyValue=1.96E-4" ]
   }
 }, {
-  "pattern" : "direct_produce",
-  "partsOfSpeech" : "VBN_VBN",
+  "pattern" : "appoint_first",
+  "partsOfSpeech" : "VBN_RB",
   "index" : {
-    "1" : [ "pair=dbo:director ", "multiplyValue=0.017544" ],
-    "2" : [ "pair=dbo:producer ", "multiplyValue=0.021739" ]
+    "1" : [ "pair=dbp:titleLeader", "multiplyValue=0.00626" ]
   }
 }, {
-  "pattern" : "produce_direct",
-  "partsOfSpeech" : "VBN_VBN",
-  "index" : {
-    "1" : [ "pair=dbo:producer ", "multiplyValue=0.01087" ]
-  }
-}, {
-  "pattern" : "release_deadline",
+  "pattern" : "appoint_minister",
   "partsOfSpeech" : "VBN_NN",
   "index" : {
-    "1" : [ "pair=dbo:producer ", "multiplyValue=0.01087" ],
-    "2" : [ "pair=dbo:starring ", "multiplyValue=0.01" ]
+    "1" : [ "pair=dbo:primeMinister", "multiplyValue=0.002334" ],
+    "2" : [ "pair=dbp:premier", "multiplyValue=0.003608" ]
+  }
+}, {
+  "pattern" : "appoint_to",
+  "partsOfSpeech" : "VBN_TO",
+  "index" : {
+    "1" : [ "pair=dbp:appointed", "multiplyValue=0.004326" ],
+    "2" : [ "pair=dbp:before", "multiplyValue=0.003048" ],
+    "3" : [ "pair=dbp:leader", "multiplyValue=0.001674" ]
+  }
+}, {
+  "pattern" : "associate_with",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:width", "multiplyValue=0.002116" ]
+  }
+}, {
+  "pattern" : "assume_office",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:predecessor", "multiplyValue=1.87E-4" ]
+  }
+}, {
+  "pattern" : "attend",
+  "partsOfSpeech" : "VBD",
+  "index" : {
+    "1" : [ "pair=dbo:almaMater", "multiplyValue=0.002352" ]
+  }
+}, {
+  "pattern" : "attend_dalhousie",
+  "partsOfSpeech" : "VBD_NN",
+  "index" : {
+    "1" : [ "pair=dbo:occupation", "multiplyValue=8.72E-4" ]
+  }
+}, {
+  "pattern" : "attest_in",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:nomen", "multiplyValue=0.25" ]
+  }
+}, {
+  "pattern" : "author_numerous",
+  "partsOfSpeech" : "VBN_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:stateAssembly", "multiplyValue=0.00625" ]
+  }
+}, {
+  "pattern" : "bear_at",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:birthPlace", "multiplyValue=0.00196" ]
+  }
+}, {
+  "pattern" : "bear_in",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:birthPlace", "multiplyValue=0.034735" ],
+    "2" : [ "pair=dbo:deathPlace", "multiplyValue=0.042096" ],
+    "3" : [ "pair=dbo:nationality", "multiplyValue=0.001378" ],
+    "4" : [ "pair=dbo:residence", "multiplyValue=0.003617" ],
+    "5" : [ "pair=dbo:restingPlace", "multiplyValue=0.004686" ],
+    "6" : [ "pair=dbp:birthPlace", "multiplyValue=2.16E-4" ],
+    "7" : [ "pair=dbp:education", "multiplyValue=1.73E-4" ],
+    "8" : [ "pair=dbp:origin", "multiplyValue=7.8E-5" ]
+  }
+}, {
+  "pattern" : "become",
+  "partsOfSpeech" : "VBD",
+  "index" : {
+    "1" : [ "pair=dbo:occupation", "multiplyValue=0.003203" ],
+    "2" : [ "pair=dbp:honorificPrefix", "multiplyValue=0.003528" ],
+    "3" : [ "pair=dbp:sovereigntyType", "multiplyValue=0.001443" ],
+    "4" : [ "pair=dbp:title", "multiplyValue=0.012931" ]
+  }
+}, {
+  "pattern" : "become_first",
+  "partsOfSpeech" : "VBD_RB",
+  "index" : {
+    "1" : [ "pair=dbp:birthPlace", "multiplyValue=1.91E-4" ]
+  }
+}, {
+  "pattern" : "become_formally",
+  "partsOfSpeech" : "VBD_RB",
+  "index" : {
+    "1" : [ "pair=dbo:governmentType", "multiplyValue=0.002968" ]
+  }
+}, {
+  "pattern" : "become_international",
+  "partsOfSpeech" : "VBD_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:relyear", "multiplyValue=5.42E-4" ]
+  }
+}, {
+  "pattern" : "become_one",
+  "partsOfSpeech" : "VBD_CD",
+  "index" : {
+    "1" : [ "pair=dbp:allMusic", "multiplyValue=8.6E-5" ]
+  }
+}, {
+  "pattern" : "become_subject",
+  "partsOfSpeech" : "VBD_JJ",
+  "index" : {
+    "1" : [ "pair=dbo:primeMinister", "multiplyValue=3.79E-4" ]
+  }
+}, {
+  "pattern" : "begin_at",
+  "partsOfSpeech" : "VBZ_IN",
+  "index" : {
+    "1" : [ "pair=dbo:sourcePlace", "multiplyValue=0.005882" ]
+  }
+}, {
+  "pattern" : "begin_near",
+  "partsOfSpeech" : "VBZ_IN",
+  "index" : {
+    "1" : [ "pair=dbo:sourcePlace", "multiplyValue=0.005882" ]
+  }
+}, {
+  "pattern" : "belong_to",
+  "partsOfSpeech" : "VBD_TO",
+  "index" : {
+    "1" : [ "pair=dbo:stateOfOrigin", "multiplyValue=3.11E-4" ]
+  }
+}, {
+  "pattern" : "certify",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbp:award", "multiplyValue=0.045977" ],
+    "2" : [ "pair=dbp:number", "multiplyValue=0.049342" ]
+  }
+}, {
+  "pattern" : "certify_8",
+  "partsOfSpeech" : "VBN_CD",
+  "index" : {
+    "1" : [ "pair=dbp:award", "multiplyValue=0.045057" ]
+  }
+}, {
+  "pattern" : "come_originally",
+  "partsOfSpeech" : "VBD_RB",
+  "index" : {
+    "1" : [ "pair=dbp:lyrics", "multiplyValue=0.003817" ]
+  }
+}, {
+  "pattern" : "come_to",
+  "partsOfSpeech" : "VBD_TO",
+  "index" : {
+    "1" : [ "pair=dbo:restingPlace", "multiplyValue=0.005148" ],
+    "2" : [ "pair=dbp:parliament", "multiplyValue=2.28E-4" ]
+  }
+}, {
+  "pattern" : "comprise",
+  "partsOfSpeech" : "VBZ",
+  "index" : {
+    "1" : [ "pair=dbo:largestCity", "multiplyValue=0.002688" ]
+  }
+}, {
+  "pattern" : "consider_one",
+  "partsOfSpeech" : "VBN_CD",
+  "index" : {
+    "1" : [ "pair=dbp:subdivisionType", "multiplyValue=0.002646" ]
+  }
+}, {
+  "pattern" : "contain_geographic",
+  "partsOfSpeech" : "VBZ_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:voy", "multiplyValue=0.004274" ]
+  }
+}, {
+  "pattern" : "contain_of",
+  "partsOfSpeech" : "VBZ_IN",
+  "index" : {
+    "1" : [ "pair=dbp:extra", "multiplyValue=0.001358" ]
+  }
+}, {
+  "pattern" : "contain_over",
+  "partsOfSpeech" : "VBZ_IN",
+  "index" : {
+    "1" : [ "pair=dbo:longName", "multiplyValue=0.015038" ]
+  }
+}, {
+  "pattern" : "contest",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbp:homeTown", "multiplyValue=8.21E-4" ]
+  }
+}, {
+  "pattern" : "continue_italian",
+  "partsOfSpeech" : "VBN_JJ",
+  "index" : {
+    "1" : [ "pair=dbo:longName", "multiplyValue=0.026316" ]
+  }
+}, {
+  "pattern" : "criticise",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbo:primeMinister", "multiplyValue=7.81E-4" ]
+  }
+}, {
+  "pattern" : "defeat_at",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:after", "multiplyValue=0.002464" ],
+    "2" : [ "pair=dbp:before", "multiplyValue=0.002451" ]
+  }
+}, {
+  "pattern" : "defeat_by",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:nationality", "multiplyValue=6.88E-4" ],
+    "2" : [ "pair=dbo:successor", "multiplyValue=0.00685" ],
+    "3" : [ "pair=dbp:after", "multiplyValue=6.96E-4" ],
+    "4" : [ "pair=dbp:predecessor", "multiplyValue=0.004728" ]
+  }
+}, {
+  "pattern" : "defeat_for",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:after", "multiplyValue=9.98E-4" ],
+    "2" : [ "pair=dbp:succeeded", "multiplyValue=0.002621" ]
+  }
+}, {
+  "pattern" : "defeat_in",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:successor", "multiplyValue=0.003394" ],
+    "2" : [ "pair=dbp:after", "multiplyValue=8.92E-4" ],
+    "3" : [ "pair=dbp:predecessor", "multiplyValue=0.00323" ],
+    "4" : [ "pair=dbp:stateAssembly", "multiplyValue=0.001852" ]
+  }
+}, {
+  "pattern" : "defeat_incumbent",
+  "partsOfSpeech" : "VBN_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:predecessor", "multiplyValue=0.002987" ]
+  }
+}, {
+  "pattern" : "die",
+  "partsOfSpeech" : "VBD",
+  "index" : {
+    "1" : [ "pair=dbp:years", "multiplyValue=0.006019" ]
+  }
+}, {
+  "pattern" : "die_at",
+  "partsOfSpeech" : "VBD_IN",
+  "index" : {
+    "1" : [ "pair=dbo:deathPlace", "multiplyValue=0.007934" ],
+    "2" : [ "pair=dbo:stateOfOrigin", "multiplyValue=1.67E-4" ]
+  }
+}, {
+  "pattern" : "die_in",
+  "partsOfSpeech" : "VBD_IN",
+  "index" : {
+    "1" : [ "pair=dbo:deathPlace", "multiplyValue=0.022122" ],
+    "2" : [ "pair=dbo:nationality", "multiplyValue=3.12E-4" ],
+    "3" : [ "pair=dbo:restingPlace", "multiplyValue=7.43E-4" ],
+    "4" : [ "pair=dbp:deathPlace", "multiplyValue=0.001011" ]
+  }
+}, {
+  "pattern" : "die_of",
+  "partsOfSpeech" : "VBD_IN",
+  "index" : {
+    "1" : [ "pair=dbo:deathCause", "multiplyValue=0.01023" ]
+  }
+}, {
+  "pattern" : "divide_roughly",
+  "partsOfSpeech" : "VBN_RB",
+  "index" : {
+    "1" : [ "pair=dbp:label", "multiplyValue=0.002401" ]
+  }
+}, {
+  "pattern" : "drive_force",
+  "partsOfSpeech" : "VBG_NN",
+  "index" : {
+    "1" : [ "pair=dbp:developer", "multiplyValue=0.181818" ]
+  }
+}, {
+  "pattern" : "earn_degree",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:almaMater", "multiplyValue=0.001238" ]
+  }
+}, {
+  "pattern" : "educate_at",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:almaMater", "multiplyValue=0.002369" ],
+    "2" : [ "pair=dbo:country", "multiplyValue=0.002412" ]
+  }
+}, {
+  "pattern" : "elect",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbo:party", "multiplyValue=0.126439" ],
+    "2" : [ "pair=dbo:profession", "multiplyValue=0.002051" ],
+    "3" : [ "pair=dbp:honorificSuffix", "multiplyValue=0.004416" ],
+    "4" : [ "pair=dbp:occupation", "multiplyValue=0.011317" ],
+    "5" : [ "pair=dbp:profession", "multiplyValue=0.004438" ],
+    "6" : [ "pair=dbp:title", "multiplyValue=0.025404" ]
+  }
+}, {
+  "pattern" : "elect_at",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:country", "multiplyValue=0.007603" ],
+    "2" : [ "pair=dbp:before", "multiplyValue=0.012695" ]
+  }
+}, {
+  "pattern" : "elect_by",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:stateHouse", "multiplyValue=3.4E-4" ]
+  }
+}, {
+  "pattern" : "elect_in",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:constituencyMp", "multiplyValue=3.51E-4" ],
+    "2" : [ "pair=dbp:predecessor", "multiplyValue=0.008895" ],
+    "3" : [ "pair=dbp:stateDelegate", "multiplyValue=2.71E-4" ]
+  }
+}, {
+  "pattern" : "elect_member",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:country", "multiplyValue=0.0135" ],
+    "2" : [ "pair=dbp:citizenship", "multiplyValue=5.85E-4" ],
+    "3" : [ "pair=dbp:with", "multiplyValue=0.005208" ]
+  }
+}, {
+  "pattern" : "elect_one",
+  "partsOfSpeech" : "VBN_CD",
+  "index" : {
+    "1" : [ "pair=dbp:birthPlace", "multiplyValue=2.17E-4" ]
+  }
+}, {
+  "pattern" : "elect_to",
+  "partsOfSpeech" : "VBN_TO",
+  "index" : {
+    "1" : [ "pair=dbo:birthPlace", "multiplyValue=0.014053" ],
+    "2" : [ "pair=dbo:country", "multiplyValue=7.38E-4" ],
+    "3" : [ "pair=dbo:deathPlace", "multiplyValue=0.003786" ],
+    "4" : [ "pair=dbo:nationality", "multiplyValue=0.082657" ],
+    "5" : [ "pair=dbo:party", "multiplyValue=0.068034" ],
+    "6" : [ "pair=dbo:predecessor", "multiplyValue=0.013984" ],
+    "7" : [ "pair=dbo:region", "multiplyValue=0.014306" ],
+    "8" : [ "pair=dbo:residence", "multiplyValue=0.006334" ],
+    "9" : [ "pair=dbo:stateOfOrigin", "multiplyValue=4.1E-5" ],
+    "10" : [ "pair=dbp:constituencyMp", "multiplyValue=6.8E-4" ],
+    "11" : [ "pair=dbp:electorate", "multiplyValue=4.77E-4" ],
+    "12" : [ "pair=dbp:honorificPrefix", "multiplyValue=0.002102" ],
+    "13" : [ "pair=dbp:honorificSuffix", "multiplyValue=0.00238" ],
+    "14" : [ "pair=dbp:parliament", "multiplyValue=0.001197" ],
+    "15" : [ "pair=dbp:riding", "multiplyValue=6.29E-4" ],
+    "16" : [ "pair=dbp:state", "multiplyValue=6.34E-4" ],
+    "17" : [ "pair=dbp:stateDelegate", "multiplyValue=0.003274" ],
+    "18" : [ "pair=dbp:stateHouse", "multiplyValue=4.29E-4" ],
+    "19" : [ "pair=dbp:stateSenate", "multiplyValue=0.001828" ],
+    "20" : [ "pair=dbp:title", "multiplyValue=0.008003" ]
+  }
+}, {
+  "pattern" : "elect_unopposed",
+  "partsOfSpeech" : "VBN_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:leader", "multiplyValue=2.31E-4" ]
+  }
+}, {
+  "pattern" : "employ_associate",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:profession", "multiplyValue=6.49E-4" ]
+  }
+}, {
+  "pattern" : "end_his",
+  "partsOfSpeech" : "VBD_PRP$",
+  "index" : {
+    "1" : [ "pair=dbo:stateOfOrigin", "multiplyValue=0.001287" ]
+  }
+}, {
+  "pattern" : "enter",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbp:birthPlace", "multiplyValue=2.03E-4" ],
+    "2" : [ "pair=dbp:deathPlace", "multiplyValue=2.39E-4" ]
+  }
+}, {
+  "pattern" : "enter_house",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbp:electorate", "multiplyValue=2.85E-4" ]
+  }
+}, {
+  "pattern" : "enter_provincial",
+  "partsOfSpeech" : "VBN_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:predecessor", "multiplyValue=8.3E-4" ]
+  }
+}, {
+  "pattern" : "evolve_into",
+  "partsOfSpeech" : "VBD_IN",
+  "index" : {
+    "1" : [ "pair=dbp:state", "multiplyValue=0.001078" ]
+  }
+}, {
+  "pattern" : "expand",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbp:allWriting", "multiplyValue=1.92E-4" ],
+    "2" : [ "pair=dbp:artist", "multiplyValue=2.31E-4" ]
+  }
+}, {
+  "pattern" : "explore_different",
+  "partsOfSpeech" : "VBZ_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:writer", "multiplyValue=6.02E-4" ]
+  }
+}, {
+  "pattern" : "find_himself",
+  "partsOfSpeech" : "VBN_PRP",
+  "index" : {
+    "1" : [ "pair=dbp:search", "multiplyValue=0.333333" ],
+    "2" : [ "pair=dbp:sortkey", "multiplyValue=0.333333" ]
+  }
+}, {
+  "pattern" : "focus_on",
+  "partsOfSpeech" : "VBZ_IN",
+  "index" : {
+    "1" : [ "pair=dbo:associatedMusicalArtist", "multiplyValue=0.0625" ]
+  }
+}, {
+  "pattern" : "found_by",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:founders", "multiplyValue=0.019048" ]
+  }
+}, {
+  "pattern" : "found_member",
+  "partsOfSpeech" : "VBG_NN",
+  "index" : {
+    "1" : [ "pair=dbo:ethnicGroup", "multiplyValue=0.00341" ]
+  }
+}, {
+  "pattern" : "found_on",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:west", "multiplyValue=0.007042" ]
+  }
+}, {
+  "pattern" : "give_eastern",
+  "partsOfSpeech" : "VBN_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:regent", "multiplyValue=0.019231" ]
+  }
+}, {
+  "pattern" : "govern_by",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:establishedEvent", "multiplyValue=0.035088" ]
+  }
+}, {
+  "pattern" : "graduate_from",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:almaMater", "multiplyValue=0.003601" ],
+    "2" : [ "pair=dbo:relation", "multiplyValue=7.56E-4" ]
+  }
+}, {
+  "pattern" : "graduate_with",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:almaMater", "multiplyValue=0.002321" ]
+  }
+}, {
+  "pattern" : "hold_position",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:religion", "multiplyValue=2.81E-4" ]
+  }
+}, {
+  "pattern" : "honor_along",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:stateOfOrigin", "multiplyValue=0.009009" ]
+  }
+}, {
+  "pattern" : "include_in",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:countySeat", "multiplyValue=0.172869" ],
+    "2" : [ "pair=dbo:isPartOf", "multiplyValue=0.002011" ],
+    "3" : [ "pair=dbo:largestCity", "multiplyValue=0.136622" ],
+    "4" : [ "pair=dbo:state", "multiplyValue=0.071785" ],
+    "5" : [ "pair=dbp:southwest", "multiplyValue=0.117647" ],
+    "6" : [ "pair=dbp:west", "multiplyValue=0.162386" ]
+  }
+}, {
+  "pattern" : "induct_into",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:state", "multiplyValue=5.39E-4" ]
+  }
+}, {
+  "pattern" : "inhabit_by",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:language", "multiplyValue=0.009302" ]
+  }
+}, {
+  "pattern" : "issue_on",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:recordLabel", "multiplyValue=0.002898" ],
+    "2" : [ "pair=dbp:multidisc", "multiplyValue=0.009259" ]
+  }
+}, {
+  "pattern" : "join",
+  "partsOfSpeech" : "VBD",
+  "index" : {
+    "1" : [ "pair=dbo:otherParty", "multiplyValue=7.84E-4" ],
+    "2" : [ "pair=dbo:party", "multiplyValue=0.007807" ]
+  }
+}, {
+  "pattern" : "join_by",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:significantother", "multiplyValue=0.031746" ]
+  }
+}, {
+  "pattern" : "koonying_august",
+  "partsOfSpeech" : "VBG_NNP",
+  "index" : {
+    "1" : [ "pair=dbp:deathPlace", "multiplyValue=0.00365" ]
+  }
+}, {
+  "pattern" : "list_on",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:restingPlace", "multiplyValue=0.015766" ]
+  }
+}, {
+  "pattern" : "lose_election",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbp:opponent", "multiplyValue=0.002801" ]
+  }
+}, {
+  "pattern" : "lose_his",
+  "partsOfSpeech" : "VBD_PRP$",
+  "index" : {
+    "1" : [ "pair=dbo:otherParty", "multiplyValue=0.002142" ],
+    "2" : [ "pair=dbo:successor", "multiplyValue=0.001818" ],
+    "3" : [ "pair=dbp:after", "multiplyValue=0.001862" ]
+  }
+}, {
+  "pattern" : "lose_to",
+  "partsOfSpeech" : "VBN_TO",
+  "index" : {
+    "1" : [ "pair=dbo:successor", "multiplyValue=7.18E-4" ],
+    "2" : [ "pair=dbp:after", "multiplyValue=4.75E-4" ]
+  }
+}, {
+  "pattern" : "make",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbp:honorificSuffix", "multiplyValue=0.001203" ]
+  }
+}, {
+  "pattern" : "make_his",
+  "partsOfSpeech" : "VBN_PRP$",
+  "index" : {
+    "1" : [ "pair=dbo:occupation", "multiplyValue=0.003074" ]
+  }
+}, {
+  "pattern" : "make_officer",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbp:parliament", "multiplyValue=9.1E-5" ]
+  }
+}, {
+  "pattern" : "marry",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbo:president", "multiplyValue=1.75E-4" ],
+    "2" : [ "pair=dbo:spouse", "multiplyValue=0.020768" ]
+  }
+}, {
+  "pattern" : "marry_to",
+  "partsOfSpeech" : "VBN_TO",
+  "index" : {
+    "1" : [ "pair=dbo:spouse", "multiplyValue=0.022894" ],
+    "2" : [ "pair=dbp:leader", "multiplyValue=5.87E-4" ],
+    "3" : [ "pair=dbp:spouse", "multiplyValue=6.5E-4" ]
+  }
+}, {
+  "pattern" : "mean_newly",
+  "partsOfSpeech" : "VBG_RB",
+  "index" : {
+    "1" : [ "pair=dbp:location", "multiplyValue=0.002398" ]
+  }
+}, {
+  "pattern" : "meet",
+  "partsOfSpeech" : "VBD",
+  "index" : {
+    "1" : [ "pair=dbo:spouse", "multiplyValue=6.35E-4" ]
+  }
+}, {
+  "pattern" : "migrate_to",
+  "partsOfSpeech" : "VBD_TO",
+  "index" : {
+    "1" : [ "pair=dbp:nationality", "multiplyValue=9.31E-4" ]
+  }
+}, {
+  "pattern" : "move_to",
+  "partsOfSpeech" : "VBN_TO",
+  "index" : {
+    "1" : [ "pair=dbo:country", "multiplyValue=0.001195" ],
+    "2" : [ "pair=dbo:deathPlace", "multiplyValue=0.005753" ],
+    "3" : [ "pair=dbo:residence", "multiplyValue=0.003467" ],
+    "4" : [ "pair=dbo:restingPlace", "multiplyValue=0.004492" ],
+    "5" : [ "pair=dbp:deathPlace", "multiplyValue=3.5E-5" ],
+    "6" : [ "pair=dbp:title", "multiplyValue=0.002723" ]
+  }
+}, {
+  "pattern" : "name_after",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:centre", "multiplyValue=0.003086" ]
+  }
+}, {
+  "pattern" : "nominate_by",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:president", "multiplyValue=0.001087" ]
+  }
+}, {
+  "pattern" : "nominate_for",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:genre", "multiplyValue=0.001948" ],
+    "2" : [ "pair=dbp:certyear", "multiplyValue=0.007576" ],
+    "3" : [ "pair=dbp:relyear", "multiplyValue=0.008367" ]
+  }
+}, {
+  "pattern" : "open_shanhai",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:capital", "multiplyValue=0.020408" ]
+  }
+}, {
+  "pattern" : "originate_in",
+  "partsOfSpeech" : "VBZ_IN",
+  "index" : {
+    "1" : [ "pair=dbo:sourcePlace", "multiplyValue=0.005882" ]
+  }
+}, {
+  "pattern" : "own_by",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:owningCompany", "multiplyValue=0.048913" ]
+  }
+}, {
+  "pattern" : "participate_in",
+  "partsOfSpeech" : "VBD_IN",
+  "index" : {
+    "1" : [ "pair=dbp:religion", "multiplyValue=8.3E-4" ]
+  }
+}, {
+  "pattern" : "peak_at",
+  "partsOfSpeech" : "VBD_IN",
+  "index" : {
+    "1" : [ "pair=dbo:language", "multiplyValue=0.002255" ],
+    "2" : [ "pair=dbo:type", "multiplyValue=0.001946" ],
+    "3" : [ "pair=dbp:number", "multiplyValue=0.009769" ],
+    "4" : [ "pair=dbp:region", "multiplyValue=0.010753" ]
+  }
+}, {
+  "pattern" : "place_2",
+  "partsOfSpeech" : "VBN_JJ",
+  "index" : {
+    "1" : [ "pair=dbo:predecessor", "multiplyValue=2.25E-4" ]
+  }
+}, {
+  "pattern" : "play_significant",
+  "partsOfSpeech" : "VBN_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:citizenship", "multiplyValue=0.001068" ]
+  }
+}, {
+  "pattern" : "produce",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbo:product", "multiplyValue=3.69E-4" ],
+    "2" : [ "pair=dbp:number", "multiplyValue=0.004432" ],
+    "3" : [ "pair=dbp:rev6score", "multiplyValue=0.001722" ]
+  }
+}, {
+  "pattern" : "produce_by",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:producer", "multiplyValue=0.01477" ],
+    "2" : [ "pair=dbp:extra", "multiplyValue=4.79E-4" ],
+    "3" : [ "pair=dbp:music", "multiplyValue=3.2E-4" ],
+    "4" : [ "pair=dbp:writer", "multiplyValue=0.003982" ]
+  }
+}, {
+  "pattern" : "publish_in",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:published", "multiplyValue=0.00939" ],
+    "2" : [ "pair=dbp:releaseDate", "multiplyValue=0.022989" ]
+  }
+}, {
+  "pattern" : "rank_7th",
+  "partsOfSpeech" : "VBD_JJ",
+  "index" : {
+    "1" : [ "pair=dbo:federalState", "multiplyValue=0.25" ]
+  }
+}, {
+  "pattern" : "reach_out",
+  "partsOfSpeech" : "VBN_RP",
+  "index" : {
+    "1" : [ "pair=dbp:postDate", "multiplyValue=0.25" ],
+    "2" : [ "pair=dbp:treasuryDate", "multiplyValue=0.25" ]
+  }
+}, {
+  "pattern" : "receive_critical",
+  "partsOfSpeech" : "VBN_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:artist", "multiplyValue=0.005725" ]
+  }
+}, {
+  "pattern" : "receive_distribution",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:distributingLabel", "multiplyValue=0.090909" ]
+  }
+}, {
+  "pattern" : "receive_highly",
+  "partsOfSpeech" : "VBN_RB",
+  "index" : {
+    "1" : [ "pair=dbp:number", "multiplyValue=0.004555" ]
+  }
+}, {
+  "pattern" : "receive_his",
+  "partsOfSpeech" : "VBD_PRP$",
+  "index" : {
+    "1" : [ "pair=dbo:almaMater", "multiplyValue=5.36E-4" ]
+  }
+}, {
+  "pattern" : "recognise",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbp:civilParish", "multiplyValue=0.2" ]
+  }
+}, {
+  "pattern" : "recognize_lead",
+  "partsOfSpeech" : "VBN_VBG",
+  "index" : {
+    "1" : [ "pair=dbp:restingPlace", "multiplyValue=9.67E-4" ]
+  }
+}, {
+  "pattern" : "record_at",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:recordedIn", "multiplyValue=0.00442" ],
+    "2" : [ "pair=dbp:released", "multiplyValue=0.001654" ],
+    "3" : [ "pair=dbp:studio", "multiplyValue=0.001108" ]
+  }
+}, {
+  "pattern" : "record_during",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:recordedIn", "multiplyValue=0.001473" ]
+  }
+}, {
+  "pattern" : "record_in",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:recordLabel", "multiplyValue=0.005564" ],
+    "2" : [ "pair=dbo:recordedIn", "multiplyValue=0.005348" ],
+    "3" : [ "pair=dbp:chronology", "multiplyValue=9.76E-4" ],
+    "4" : [ "pair=dbp:recorded", "multiplyValue=0.001512" ]
+  }
+}, {
+  "pattern" : "record_on",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:recordedIn", "multiplyValue=0.003315" ]
+  }
+}, {
+  "pattern" : "record_release",
+  "partsOfSpeech" : "VBN_VBN",
+  "index" : {
+    "1" : [ "pair=dbp:released", "multiplyValue=0.002953" ]
+  }
+}, {
+  "pattern" : "reelect",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbo:office", "multiplyValue=0.005938" ],
+    "2" : [ "pair=dbo:orderInOffice", "multiplyValue=0.006674" ]
+  }
+}, {
+  "pattern" : "reelect_in",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:after", "multiplyValue=0.007945" ]
+  }
+}, {
+  "pattern" : "reelect_to",
+  "partsOfSpeech" : "VBN_TO",
+  "index" : {
+    "1" : [ "pair=dbp:house", "multiplyValue=5.75E-4" ]
+  }
+}, {
+  "pattern" : "release_by",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:recordLabel", "multiplyValue=0.015648" ],
+    "2" : [ "pair=dbp:allMusic", "multiplyValue=8.2E-5" ],
+    "3" : [ "pair=dbp:released", "multiplyValue=0.004272" ]
   }
 }, {
   "pattern" : "release_in",
   "partsOfSpeech" : "VBN_IN",
   "index" : {
-    "1" : [ "pair=dbo:country ", "multiplyValue=0.055556" ],
-    "2" : [ "pair=dbp:country ", "multiplyValue=0.026144" ]
+    "1" : [ "pair=dbo:recordLabel", "multiplyValue=0.045695" ],
+    "2" : [ "pair=dbo:recordedIn", "multiplyValue=0.011007" ],
+    "3" : [ "pair=dbp:label", "multiplyValue=0.005215" ],
+    "4" : [ "pair=dbp:recorded", "multiplyValue=0.019301" ],
+    "5" : [ "pair=dbp:released", "multiplyValue=0.035223" ],
+    "6" : [ "pair=dbp:relyear", "multiplyValue=0.002849" ]
   }
 }, {
   "pattern" : "release_on",
   "partsOfSpeech" : "VBN_IN",
   "index" : {
-    "1" : [ "pair=dbo:producer ", "multiplyValue=0.01087" ]
+    "1" : [ "pair=dbo:previousWork", "multiplyValue=0.064531" ],
+    "2" : [ "pair=dbo:producer", "multiplyValue=0.050556" ],
+    "3" : [ "pair=dbo:recordLabel", "multiplyValue=0.081228" ],
+    "4" : [ "pair=dbo:type", "multiplyValue=0.01222" ],
+    "5" : [ "pair=dbp:certyear", "multiplyValue=0.011925" ],
+    "6" : [ "pair=dbp:recorded", "multiplyValue=0.047247" ],
+    "7" : [ "pair=dbp:relday", "multiplyValue=0.005528" ],
+    "8" : [ "pair=dbp:released", "multiplyValue=9.14E-4" ],
+    "9" : [ "pair=dbp:relmonth", "multiplyValue=0.004459" ],
+    "10" : [ "pair=dbp:relyear", "multiplyValue=0.01305" ],
+    "11" : [ "pair=dbp:rev7score", "multiplyValue=0.005136" ],
+    "12" : [ "pair=dbp:thisAlbum", "multiplyValue=0.078374" ],
+    "13" : [ "pair=dbp:type", "multiplyValue=0.066255" ]
   }
 }, {
-  "pattern" : "remain_high",
-  "partsOfSpeech" : "VBZ_JJS",
+  "pattern" : "release_through",
+  "partsOfSpeech" : "VBN_IN",
   "index" : {
-    "1" : [ "pair=dbp:studio ", "multiplyValue=0.018182" ]
+    "1" : [ "pair=dbo:recordLabel", "multiplyValue=0.00426" ]
   }
 }, {
-  "pattern" : "star",
+  "pattern" : "release_to",
+  "partsOfSpeech" : "VBN_TO",
+  "index" : {
+    "1" : [ "pair=dbp:recorded", "multiplyValue=0.003286" ]
+  }
+}, {
+  "pattern" : "release_worldwide",
+  "partsOfSpeech" : "VBN_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:rev5score", "multiplyValue=0.00108" ]
+  }
+}, {
+  "pattern" : "remain_on",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:premier", "multiplyValue=0.001826" ]
+  }
+}, {
+  "pattern" : "remix_remaster",
+  "partsOfSpeech" : "VBN_VBN",
+  "index" : {
+    "1" : [ "pair=dbp:headline", "multiplyValue=0.001954" ]
+  }
+}, {
+  "pattern" : "replace",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbp:predecessor", "multiplyValue=0.001414" ]
+  }
+}, {
+  "pattern" : "replace_by",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:successor", "multiplyValue=0.001616" ],
+    "2" : [ "pair=dbp:after", "multiplyValue=9.31E-4" ]
+  }
+}, {
+  "pattern" : "represent",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbo:birthPlace", "multiplyValue=0.033686" ],
+    "2" : [ "pair=dbo:deathPlace", "multiplyValue=0.020113" ],
+    "3" : [ "pair=dbo:hometown", "multiplyValue=6.47E-4" ],
+    "4" : [ "pair=dbo:office", "multiplyValue=0.028043" ],
+    "5" : [ "pair=dbo:region", "multiplyValue=0.01972" ],
+    "6" : [ "pair=dbo:residence", "multiplyValue=0.028281" ],
+    "7" : [ "pair=dbp:constituencyMp", "multiplyValue=0.001965" ],
+    "8" : [ "pair=dbp:district", "multiplyValue=0.002409" ],
+    "9" : [ "pair=dbp:electorate", "multiplyValue=0.033654" ],
+    "10" : [ "pair=dbp:state", "multiplyValue=6.55E-4" ],
+    "11" : [ "pair=dbp:title", "multiplyValue=0.005975" ]
+  }
+}, {
+  "pattern" : "represent_city",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbp:electorate", "multiplyValue=0.065318" ]
+  }
+}, {
+  "pattern" : "represent_district",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbo:region", "multiplyValue=0.019128" ]
+  }
+}, {
+  "pattern" : "represent_electoral",
+  "partsOfSpeech" : "VBZ_JJ",
+  "index" : {
+    "1" : [ "pair=dbo:birthPlace", "multiplyValue=0.021107" ],
+    "2" : [ "pair=dbo:party", "multiplyValue=0.035299" ],
+    "3" : [ "pair=dbo:region", "multiplyValue=0.018611" ],
+    "4" : [ "pair=dbo:residence", "multiplyValue=0.019392" ],
+    "5" : [ "pair=dbp:constituencyMp", "multiplyValue=0.001293" ],
+    "6" : [ "pair=dbp:riding", "multiplyValue=8.01E-4" ]
+  }
+}, {
+  "pattern" : "represent_electorate",
+  "partsOfSpeech" : "VBN_NN",
+  "index" : {
+    "1" : [ "pair=dbp:electorate", "multiplyValue=0.052656" ]
+  }
+}, {
+  "pattern" : "represent_his",
+  "partsOfSpeech" : "VBN_PRP$",
+  "index" : {
+    "1" : [ "pair=dbp:constituency", "multiplyValue=4.5E-5" ]
+  }
+}, {
+  "pattern" : "represent_ride",
+  "partsOfSpeech" : "VBZ_VBG",
+  "index" : {
+    "1" : [ "pair=dbp:riding", "multiplyValue=0.001284" ]
+  }
+}, {
+  "pattern" : "resign_from",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:otherParty", "multiplyValue=0.00119" ]
+  }
+}, {
+  "pattern" : "resign_newly",
+  "partsOfSpeech" : "VBD_RB",
+  "index" : {
+    "1" : [ "pair=dbp:succeeded", "multiplyValue=1.76E-4" ]
+  }
+}, {
+  "pattern" : "retire",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbp:honorificPrefix", "multiplyValue=4.76E-4" ]
+  }
+}, {
+  "pattern" : "retire_from",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:successor", "multiplyValue=9.48E-4" ]
+  }
+}, {
+  "pattern" : "return_to",
+  "partsOfSpeech" : "VBN_TO",
+  "index" : {
+    "1" : [ "pair=dbo:country", "multiplyValue=0.002632" ],
+    "2" : [ "pair=dbo:profession", "multiplyValue=1.28E-4" ],
+    "3" : [ "pair=dbo:restingPlace", "multiplyValue=0.001013" ]
+  }
+}, {
+  "pattern" : "run_for",
+  "partsOfSpeech" : "VB_IN",
+  "index" : {
+    "1" : [ "pair=dbo:successor", "multiplyValue=0.003366" ],
+    "2" : [ "pair=dbp:candidate", "multiplyValue=6.02E-4" ],
+    "3" : [ "pair=dbp:stateAssembly", "multiplyValue=0.00125" ],
+    "4" : [ "pair=dbp:stateHouse", "multiplyValue=0.002823" ],
+    "5" : [ "pair=dbp:stateSenate", "multiplyValue=0.001377" ]
+  }
+}, {
+  "pattern" : "selftitled",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbo:type", "multiplyValue=0.002261" ],
+    "2" : [ "pair=dbp:type", "multiplyValue=0.006148" ]
+  }
+}, {
+  "pattern" : "sell",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbp:certmonth", "multiplyValue=0.01118" ],
+    "2" : [ "pair=dbp:number", "multiplyValue=0.018797" ],
+    "3" : [ "pair=dbp:relmonth", "multiplyValue=0.004233" ]
+  }
+}, {
+  "pattern" : "serve",
   "partsOfSpeech" : "VBD",
   "index" : {
-    "1" : [ "pair=dbo:starring ", "multiplyValue=0.13" ]
+    "1" : [ "pair=dbo:birthPlace", "multiplyValue=0.066206" ],
+    "2" : [ "pair=dbo:deathPlace", "multiplyValue=0.035214" ],
+    "3" : [ "pair=dbo:nationality", "multiplyValue=0.002873" ],
+    "4" : [ "pair=dbo:occupation", "multiplyValue=0.00465" ],
+    "5" : [ "pair=dbo:orderInOffice", "multiplyValue=0.084345" ],
+    "6" : [ "pair=dbo:otherParty", "multiplyValue=0.001472" ],
+    "7" : [ "pair=dbo:party", "multiplyValue=0.086" ],
+    "8" : [ "pair=dbo:profession", "multiplyValue=0.003611" ],
+    "9" : [ "pair=dbo:region", "multiplyValue=0.073074" ],
+    "10" : [ "pair=dbo:residence", "multiplyValue=0.035086" ],
+    "11" : [ "pair=dbo:restingPlace", "multiplyValue=0.005901" ],
+    "12" : [ "pair=dbp:deathPlace", "multiplyValue=7.53E-4" ],
+    "13" : [ "pair=dbp:homeTown", "multiplyValue=4.85E-4" ],
+    "14" : [ "pair=dbp:honorificSuffix", "multiplyValue=0.005509" ],
+    "15" : [ "pair=dbp:occupation", "multiplyValue=0.052733" ],
+    "16" : [ "pair=dbp:rank", "multiplyValue=0.005619" ],
+    "17" : [ "pair=dbp:stateHouse", "multiplyValue=0.008554" ],
+    "18" : [ "pair=dbp:stateSenate", "multiplyValue=0.009761" ],
+    "19" : [ "pair=dbp:title", "multiplyValue=0.020914" ],
+    "20" : [ "pair=dbp:totalType", "multiplyValue=6.37E-4" ]
+  }
+}, {
+  "pattern" : "serve_alongside",
+  "partsOfSpeech" : "VBD_IN",
+  "index" : {
+    "1" : [ "pair=dbo:associate", "multiplyValue=0.003412" ],
+    "2" : [ "pair=dbo:spouse", "multiplyValue=9.46E-4" ],
+    "3" : [ "pair=dbo:successor", "multiplyValue=0.038526" ],
+    "4" : [ "pair=dbp:with", "multiplyValue=0.00129" ]
+  }
+}, {
+  "pattern" : "serve_cabinet",
+  "partsOfSpeech" : "VBD_NN",
+  "index" : {
+    "1" : [ "pair=dbp:premier", "multiplyValue=0.006164" ]
+  }
+}, {
+  "pattern" : "serve_commercial",
+  "partsOfSpeech" : "VBZ_JJ",
+  "index" : {
+    "1" : [ "pair=dbp:pushpinMap", "multiplyValue=1.5E-4" ]
+  }
+}, {
+  "pattern" : "serve_consul",
+  "partsOfSpeech" : "VBZ_NN",
+  "index" : {
+    "1" : [ "pair=dbp:citizenship", "multiplyValue=1.28E-4" ]
+  }
+}, {
+  "pattern" : "serve_counsel",
+  "partsOfSpeech" : "VBD_NN",
+  "index" : {
+    "1" : [ "pair=dbp:stateDelegate", "multiplyValue=1.12E-4" ]
+  }
+}, {
+  "pattern" : "serve_deputy",
+  "partsOfSpeech" : "VBD_NN",
+  "index" : {
+    "1" : [ "pair=dbp:title", "multiplyValue=0.008977" ]
+  }
+}, {
+  "pattern" : "serve_five",
+  "partsOfSpeech" : "VBD_CD",
+  "index" : {
+    "1" : [ "pair=dbp:stateAssembly", "multiplyValue=4.95E-4" ]
+  }
+}, {
+  "pattern" : "serve_in",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:battle", "multiplyValue=0.004204" ],
+    "2" : [ "pair=dbo:birthPlace", "multiplyValue=0.03049" ],
+    "3" : [ "pair=dbo:country", "multiplyValue=0.003015" ],
+    "4" : [ "pair=dbo:deathPlace", "multiplyValue=0.020748" ],
+    "5" : [ "pair=dbo:militaryBranch", "multiplyValue=0.00344" ],
+    "6" : [ "pair=dbo:nationality", "multiplyValue=0.001512" ],
+    "7" : [ "pair=dbo:party", "multiplyValue=0.036719" ],
+    "8" : [ "pair=dbo:primeMinister", "multiplyValue=0.00158" ],
+    "9" : [ "pair=dbo:region", "multiplyValue=0.037348" ],
+    "10" : [ "pair=dbp:occupation", "multiplyValue=0.031828" ],
+    "11" : [ "pair=dbp:parliament", "multiplyValue=0.001445" ],
+    "12" : [ "pair=dbp:post", "multiplyValue=0.007173" ],
+    "13" : [ "pair=dbp:premier", "multiplyValue=0.004965" ],
+    "14" : [ "pair=dbp:state", "multiplyValue=0.001196" ],
+    "15" : [ "pair=dbp:stateDelegate", "multiplyValue=8.6E-4" ],
+    "16" : [ "pair=dbp:stateHouse", "multiplyValue=0.006545" ],
+    "17" : [ "pair=dbp:stateSenate", "multiplyValue=0.003819" ],
+    "18" : [ "pair=dbp:title", "multiplyValue=0.010318" ]
+  }
+}, {
+  "pattern" : "serve_member",
+  "partsOfSpeech" : "VBD_NN",
+  "index" : {
+    "1" : [ "pair=dbo:almaMater", "multiplyValue=0.00476" ],
+    "2" : [ "pair=dbo:birthPlace", "multiplyValue=0.030014" ],
+    "3" : [ "pair=dbo:deathPlace", "multiplyValue=0.018158" ],
+    "4" : [ "pair=dbo:party", "multiplyValue=0.043646" ],
+    "5" : [ "pair=dbp:parliament", "multiplyValue=9.16E-4" ],
+    "6" : [ "pair=dbp:stateSenate", "multiplyValue=0.001283" ]
+  }
+}, {
+  "pattern" : "serve_minister",
+  "partsOfSpeech" : "VBD_NN",
+  "index" : {
+    "1" : [ "pair=dbo:primeMinister", "multiplyValue=0.004141" ],
+    "2" : [ "pair=dbp:birthDate", "multiplyValue=0.001592" ]
+  }
+}, {
+  "pattern" : "serve_on",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:residence", "multiplyValue=0.011856" ],
+    "2" : [ "pair=dbp:stateAssembly", "multiplyValue=4.42E-4" ],
+    "3" : [ "pair=dbp:stateSenate", "multiplyValue=0.001246" ]
+  }
+}, {
+  "pattern" : "serve_speaker",
+  "partsOfSpeech" : "VBD_NN",
+  "index" : {
+    "1" : [ "pair=dbp:stateHouse", "multiplyValue=9.89E-4" ]
+  }
+}, {
+  "pattern" : "sit",
+  "partsOfSpeech" : "VBD",
+  "index" : {
+    "1" : [ "pair=dbp:honorificSuffix", "multiplyValue=9.98E-4" ]
+  }
+}, {
+  "pattern" : "step_down",
+  "partsOfSpeech" : "VBD_RP",
+  "index" : {
+    "1" : [ "pair=dbp:portal", "multiplyValue=0.03125" ]
+  }
+}, {
+  "pattern" : "study_at",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:almaMater", "multiplyValue=3.64E-4" ],
+    "2" : [ "pair=dbo:nationality", "multiplyValue=0.001263" ]
+  }
+}, {
+  "pattern" : "succeed",
+  "partsOfSpeech" : "VBD",
+  "index" : {
+    "1" : [ "pair=dbo:predecessor", "multiplyValue=6.12E-4" ],
+    "2" : [ "pair=dbp:before", "multiplyValue=0.003643" ],
+    "3" : [ "pair=dbp:predecessor", "multiplyValue=0.003547" ]
+  }
+}, {
+  "pattern" : "succeed_by",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbo:successor", "multiplyValue=0.004582" ],
+    "2" : [ "pair=dbp:1namedata", "multiplyValue=3.0E-4" ],
+    "3" : [ "pair=dbp:before", "multiplyValue=6.3E-4" ]
+  }
+}, {
+  "pattern" : "succeed_in",
+  "partsOfSpeech" : "VBN_IN",
+  "index" : {
+    "1" : [ "pair=dbp:succeeded", "multiplyValue=9.6E-5" ]
+  }
+}, {
+  "pattern" : "win",
+  "partsOfSpeech" : "VBN",
+  "index" : {
+    "1" : [ "pair=dbp:electorate", "multiplyValue=0.002051" ]
+  }
+}, {
+  "pattern" : "win_miss",
+  "partsOfSpeech" : "VBN_VBP",
+  "index" : {
+    "1" : [ "pair=dbp:origin", "multiplyValue=0.001429" ]
+  }
+}, {
+  "pattern" : "win_seat",
+  "partsOfSpeech" : "VBD_NN",
+  "index" : {
+    "1" : [ "pair=dbp:before", "multiplyValue=9.72E-4" ]
+  }
+}, {
+  "pattern" : "win_title",
+  "partsOfSpeech" : "VBD_NN",
+  "index" : {
+    "1" : [ "pair=dbp:origin", "multiplyValue=0.001538" ]
+  }
+}, {
+  "pattern" : "work_primarily",
+  "partsOfSpeech" : "VBN_RB",
+  "index" : {
+    "1" : [ "pair=dbp:extra", "multiplyValue=9.3E-5" ],
+    "2" : [ "pair=dbp:music", "multiplyValue=2.47E-4" ]
   }
 }, {
   "pattern" : "write_by",
   "partsOfSpeech" : "VBN_IN",
   "index" : {
-    "1" : [ "pair=dbo:director ", "multiplyValue=0.017544" ]
+    "1" : [ "pair=dbo:writer", "multiplyValue=0.002186" ],
+    "2" : [ "pair=dbp:allWriting", "multiplyValue=8.46E-4" ]
   }
 } ]

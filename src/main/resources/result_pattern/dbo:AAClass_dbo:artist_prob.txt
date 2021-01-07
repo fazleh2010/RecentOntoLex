@@ -1,0 +1,6 @@
+id=5  property=dbo:artist  
+debut_album  NN_NN  multiply=0.045679  P(debut_album|dbo:artist)=0.046865  P(dbo:artist|debut_album)=0.974684    
+album_by  NN_IN  multiply=0.02881  P(album_by|dbo:artist)=0.029012  P(dbo:artist|album_by)=0.993056    
+debut_solo  NN_NN  multiply=0.02578  P(debut_solo|dbo:artist)=0.026375  P(dbo:artist|debut_solo)=0.977444    
+album  NN  multiply=0.017873  P(album|dbo:artist)=0.018462  P(dbo:artist|2_album)=0.968085    
+live_album  JJ_NN  multiply=0.010148  P(live_album|dbo:artist)=0.010347  P(dbo:artist|live_album)=0.980769    

@@ -1,0 +1,10 @@
+id=59  property=dbo:producer  
+release_on  VBN_IN  multiply=0.050556  P(release_on|dbo:producer)=0.079753  P(dbo:producer|release_on)=0.633907    
+debut_album  NN_NN  multiply=0.028185  P(debut_album|dbo:producer)=0.04544  P(dbo:producer|debut_album)=0.620253    
+debut_solo  NN_NN  multiply=0.020976  P(debut_solo|dbo:producer)=0.029366  P(dbo:producer|debut_solo)=0.714286    
+produce_by  VBN_IN  multiply=0.01477  P(produce_by|dbo:producer)=0.01762  P(dbo:producer|produce_by)=0.838235    
+album_by  NN_IN  multiply=0.014084  P(album_by|dbo:producer)=0.025039  P(dbo:producer|album_by)=0.5625    
+album  JJ_NN  multiply=0.011839  P(album|dbo:producer)=0.018547  P(dbo:producer|album)=0.638298    
+first_album  RB_NN  multiply=0.0042  P(first_album|dbo:producer)=0.007728  P(dbo:producer|first_album)=0.543478    
+live_album  JJ_NN  multiply=0.002622  P(live_album|dbo:producer)=0.006491  P(dbo:producer|live_album)=0.403846    
+

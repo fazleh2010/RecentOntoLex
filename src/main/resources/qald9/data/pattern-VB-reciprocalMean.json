@@ -1,0 +1,895 @@
+{
+  "MeanReciProcalRank" : 0.038606403013182675,
+  "TotalPattern" : 177,
+  "NumberOfPatterrnFoundNonZeroRank" : 8,
+  "NumberOfPatterrnFoundZeroRank" : 169,
+  "PatterrnFoundNonZeroRank" : {
+    "attend" : {
+      "Predicate" : [ "dbo:almaMater" ],
+      "Rank" : 1,
+      "ReciprocalRank" : 1.0
+    },
+    "bear_in" : {
+      "Predicate" : [ "dbo:birthPlace" ],
+      "Rank" : 2,
+      "ReciprocalRank" : 0.5
+    },
+    "die_in" : {
+      "Predicate" : [ "dbo:deathPlace" ],
+      "Rank" : 1,
+      "ReciprocalRank" : 1.0
+    },
+    "graduate_from" : {
+      "Predicate" : [ "dbo:almaMater" ],
+      "Rank" : 1,
+      "ReciprocalRank" : 1.0
+    },
+    "marry" : {
+      "Predicate" : [ "dbo:spouse" ],
+      "Rank" : 1,
+      "ReciprocalRank" : 1.0
+    },
+    "marry_to" : {
+      "Predicate" : [ "dbo:spouse" ],
+      "Rank" : 1,
+      "ReciprocalRank" : 1.0
+    },
+    "produce" : {
+      "Predicate" : [ "dbo:product" ],
+      "Rank" : 3,
+      "ReciprocalRank" : 0.3333333333333333
+    },
+    "produce_by" : {
+      "Predicate" : [ "dbo:producer" ],
+      "Rank" : 1,
+      "ReciprocalRank" : 1.0
+    }
+  },
+  "PatterrnFoundZeroRank" : {
+    "accompany_tour" : {
+      "Predicate" : [ "dbp:relyear" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "acquire_by" : {
+      "Predicate" : [ "dbo:owningCompany" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "appear_in" : {
+      "Predicate" : [ "dbp:members", "dbo:country", "dbo:occupation", "dbo:employer" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "appear_on" : {
+      "Predicate" : [ "dbo:stateOfOrigin", "dbo:occupation" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "appoint" : {
+      "Predicate" : [ "dbp:honorificSuffix", "dbp:title" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "appoint_by" : {
+      "Predicate" : [ "dbp:appointed" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "appoint_first" : {
+      "Predicate" : [ "dbp:titleLeader" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "appoint_minister" : {
+      "Predicate" : [ "dbp:premier", "dbo:primeMinister" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "appoint_to" : {
+      "Predicate" : [ "dbp:appointed", "dbp:before", "dbp:leader" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "associate_with" : {
+      "Predicate" : [ "dbp:width" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "assume_office" : {
+      "Predicate" : [ "dbo:predecessor" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "attend_dalhousie" : {
+      "Predicate" : [ "dbo:occupation" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "attest_in" : {
+      "Predicate" : [ "dbp:nomen" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "author_numerous" : {
+      "Predicate" : [ "dbp:stateAssembly" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "bear_at" : {
+      "Predicate" : [ "dbo:birthPlace" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "become" : {
+      "Predicate" : [ "dbp:title", "dbp:honorificPrefix", "dbo:occupation", "dbp:sovereigntyType" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "become_first" : {
+      "Predicate" : [ "dbp:birthPlace" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "become_formally" : {
+      "Predicate" : [ "dbo:governmentType" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "become_international" : {
+      "Predicate" : [ "dbp:relyear" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "become_one" : {
+      "Predicate" : [ "dbp:allMusic" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "become_subject" : {
+      "Predicate" : [ "dbo:primeMinister" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "begin_at" : {
+      "Predicate" : [ "dbo:sourcePlace" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "begin_near" : {
+      "Predicate" : [ "dbo:sourcePlace" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "belong_to" : {
+      "Predicate" : [ "dbo:stateOfOrigin" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "certify" : {
+      "Predicate" : [ "dbp:number", "dbp:award" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "certify_8" : {
+      "Predicate" : [ "dbp:award" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "come_originally" : {
+      "Predicate" : [ "dbp:lyrics" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "come_to" : {
+      "Predicate" : [ "dbo:restingPlace", "dbp:parliament" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "comprise" : {
+      "Predicate" : [ "dbo:largestCity" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "consider_one" : {
+      "Predicate" : [ "dbp:subdivisionType" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "contain_geographic" : {
+      "Predicate" : [ "dbp:voy" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "contain_of" : {
+      "Predicate" : [ "dbp:extra" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "contain_over" : {
+      "Predicate" : [ "dbo:longName" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "contest" : {
+      "Predicate" : [ "dbp:homeTown" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "continue_italian" : {
+      "Predicate" : [ "dbo:longName" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "criticise" : {
+      "Predicate" : [ "dbo:primeMinister" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "defeat_at" : {
+      "Predicate" : [ "dbp:after", "dbp:before" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "defeat_by" : {
+      "Predicate" : [ "dbo:successor", "dbp:predecessor", "dbp:after", "dbo:nationality" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "defeat_for" : {
+      "Predicate" : [ "dbp:succeeded", "dbp:after" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "defeat_in" : {
+      "Predicate" : [ "dbo:successor", "dbp:predecessor", "dbp:stateAssembly", "dbp:after" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "defeat_incumbent" : {
+      "Predicate" : [ "dbp:predecessor" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "die" : {
+      "Predicate" : [ "dbp:years" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "die_at" : {
+      "Predicate" : [ "dbo:deathPlace", "dbo:stateOfOrigin" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "die_of" : {
+      "Predicate" : [ "dbo:deathCause" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "divide_roughly" : {
+      "Predicate" : [ "dbp:label" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "drive_force" : {
+      "Predicate" : [ "dbp:developer" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "earn_degree" : {
+      "Predicate" : [ "dbo:almaMater" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "educate_at" : {
+      "Predicate" : [ "dbo:country", "dbo:almaMater" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "elect" : {
+      "Predicate" : [ "dbo:party", "dbp:title", "dbp:occupation", "dbp:profession", "dbp:honorificSuffix", "dbo:profession" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "elect_at" : {
+      "Predicate" : [ "dbp:before", "dbo:country" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "elect_by" : {
+      "Predicate" : [ "dbp:stateHouse" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "elect_in" : {
+      "Predicate" : [ "dbp:predecessor", "dbp:constituencyMp", "dbp:stateDelegate" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "elect_member" : {
+      "Predicate" : [ "dbo:country", "dbp:with", "dbp:citizenship" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "elect_one" : {
+      "Predicate" : [ "dbp:birthPlace" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "elect_to" : {
+      "Predicate" : [ "dbo:nationality", "dbo:party", "dbo:region", "dbo:birthPlace", "dbo:predecessor", "dbp:title", "dbo:residence", "dbo:deathPlace", "dbp:stateDelegate", "dbp:honorificSuffix", "dbp:honorificPrefix", "dbp:stateSenate", "dbp:parliament", "dbo:country", "dbp:constituencyMp", "dbp:state", "dbp:riding", "dbp:electorate", "dbp:stateHouse", "dbo:stateOfOrigin" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "elect_unopposed" : {
+      "Predicate" : [ "dbp:leader" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "employ_associate" : {
+      "Predicate" : [ "dbo:profession" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "end_his" : {
+      "Predicate" : [ "dbo:stateOfOrigin" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "enter" : {
+      "Predicate" : [ "dbp:deathPlace", "dbp:birthPlace" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "enter_house" : {
+      "Predicate" : [ "dbp:electorate" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "enter_provincial" : {
+      "Predicate" : [ "dbp:predecessor" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "evolve_into" : {
+      "Predicate" : [ "dbp:state" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "expand" : {
+      "Predicate" : [ "dbp:artist", "dbp:allWriting" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "explore_different" : {
+      "Predicate" : [ "dbp:writer" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "find_himself" : {
+      "Predicate" : [ "dbp:sortkey", "dbp:search" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "focus_on" : {
+      "Predicate" : [ "dbo:associatedMusicalArtist" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "found_by" : {
+      "Predicate" : [ "dbp:founders" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "found_member" : {
+      "Predicate" : [ "dbo:ethnicGroup" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "found_on" : {
+      "Predicate" : [ "dbp:west" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "give_eastern" : {
+      "Predicate" : [ "dbp:regent" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "govern_by" : {
+      "Predicate" : [ "dbp:establishedEvent" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "graduate_with" : {
+      "Predicate" : [ "dbo:almaMater" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "hold_position" : {
+      "Predicate" : [ "dbo:religion" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "honor_along" : {
+      "Predicate" : [ "dbo:stateOfOrigin" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "include_in" : {
+      "Predicate" : [ "dbo:countySeat", "dbp:west", "dbo:largestCity", "dbp:southwest", "dbo:state", "dbo:isPartOf" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "induct_into" : {
+      "Predicate" : [ "dbp:state" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "inhabit_by" : {
+      "Predicate" : [ "dbo:language" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "issue_on" : {
+      "Predicate" : [ "dbp:multidisc", "dbo:recordLabel" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "join" : {
+      "Predicate" : [ "dbo:party", "dbo:otherParty" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "join_by" : {
+      "Predicate" : [ "dbp:significantother" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "koonying_august" : {
+      "Predicate" : [ "dbp:deathPlace" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "list_on" : {
+      "Predicate" : [ "dbo:restingPlace" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "lose_election" : {
+      "Predicate" : [ "dbp:opponent" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "lose_his" : {
+      "Predicate" : [ "dbo:otherParty", "dbp:after", "dbo:successor" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "lose_to" : {
+      "Predicate" : [ "dbo:successor", "dbp:after" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "make" : {
+      "Predicate" : [ "dbp:honorificSuffix" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "make_his" : {
+      "Predicate" : [ "dbo:occupation" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "make_officer" : {
+      "Predicate" : [ "dbp:parliament" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "mean_newly" : {
+      "Predicate" : [ "dbp:location" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "meet" : {
+      "Predicate" : [ "dbo:spouse" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "migrate_to" : {
+      "Predicate" : [ "dbp:nationality" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "move_to" : {
+      "Predicate" : [ "dbo:deathPlace", "dbo:restingPlace", "dbo:residence", "dbp:title", "dbo:country", "dbp:deathPlace" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "name_after" : {
+      "Predicate" : [ "dbp:centre" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "nominate_by" : {
+      "Predicate" : [ "dbo:president" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "nominate_for" : {
+      "Predicate" : [ "dbp:relyear", "dbp:certyear", "dbo:genre" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "open_shanhai" : {
+      "Predicate" : [ "dbo:capital" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "originate_in" : {
+      "Predicate" : [ "dbo:sourcePlace" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "own_by" : {
+      "Predicate" : [ "dbo:owningCompany" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "participate_in" : {
+      "Predicate" : [ "dbp:religion" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "peak_at" : {
+      "Predicate" : [ "dbp:region", "dbp:number", "dbo:language", "dbo:type" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "place_2" : {
+      "Predicate" : [ "dbo:predecessor" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "play_significant" : {
+      "Predicate" : [ "dbp:citizenship" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "publish_in" : {
+      "Predicate" : [ "dbp:releaseDate", "dbp:published" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "rank_7th" : {
+      "Predicate" : [ "dbo:federalState" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "reach_out" : {
+      "Predicate" : [ "dbp:treasuryDate", "dbp:postDate" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "receive_critical" : {
+      "Predicate" : [ "dbp:artist" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "receive_distribution" : {
+      "Predicate" : [ "dbo:distributingLabel" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "receive_highly" : {
+      "Predicate" : [ "dbp:number" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "receive_his" : {
+      "Predicate" : [ "dbo:almaMater" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "recognise" : {
+      "Predicate" : [ "dbp:civilParish" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "recognize_lead" : {
+      "Predicate" : [ "dbp:restingPlace" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "record_at" : {
+      "Predicate" : [ "dbo:recordedIn", "dbp:released", "dbp:studio" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "record_during" : {
+      "Predicate" : [ "dbo:recordedIn" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "record_in" : {
+      "Predicate" : [ "dbo:recordLabel", "dbo:recordedIn", "dbp:recorded", "dbp:chronology" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "record_on" : {
+      "Predicate" : [ "dbo:recordedIn" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "record_release" : {
+      "Predicate" : [ "dbp:released" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "reelect" : {
+      "Predicate" : [ "dbo:orderInOffice", "dbo:office" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "reelect_in" : {
+      "Predicate" : [ "dbp:after" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "reelect_to" : {
+      "Predicate" : [ "dbp:house" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "release_by" : {
+      "Predicate" : [ "dbo:recordLabel", "dbp:released", "dbp:allMusic" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "release_in" : {
+      "Predicate" : [ "dbo:recordLabel", "dbp:released", "dbp:recorded", "dbo:recordedIn", "dbp:label", "dbp:relyear" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "release_on" : {
+      "Predicate" : [ "dbo:recordLabel", "dbp:thisAlbum", "dbp:type", "dbo:previousWork", "dbo:producer", "dbp:recorded", "dbp:relyear", "dbo:type", "dbp:certyear", "dbp:relday", "dbp:rev7score", "dbp:relmonth", "dbp:released" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "release_through" : {
+      "Predicate" : [ "dbo:recordLabel" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "release_to" : {
+      "Predicate" : [ "dbp:recorded" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "release_worldwide" : {
+      "Predicate" : [ "dbp:rev5score" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "remain_on" : {
+      "Predicate" : [ "dbp:premier" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "remix_remaster" : {
+      "Predicate" : [ "dbp:headline" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "replace" : {
+      "Predicate" : [ "dbp:predecessor" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "replace_by" : {
+      "Predicate" : [ "dbo:successor", "dbp:after" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "represent" : {
+      "Predicate" : [ "dbo:birthPlace", "dbp:electorate", "dbo:residence", "dbo:office", "dbo:deathPlace", "dbo:region", "dbp:title", "dbp:district", "dbp:constituencyMp", "dbp:state", "dbo:hometown" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "represent_city" : {
+      "Predicate" : [ "dbp:electorate" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "represent_district" : {
+      "Predicate" : [ "dbo:region" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "represent_electoral" : {
+      "Predicate" : [ "dbo:party", "dbo:birthPlace", "dbo:residence", "dbo:region", "dbp:constituencyMp", "dbp:riding" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "represent_electorate" : {
+      "Predicate" : [ "dbp:electorate" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "represent_his" : {
+      "Predicate" : [ "dbp:constituency" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "represent_ride" : {
+      "Predicate" : [ "dbp:riding" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "resign_from" : {
+      "Predicate" : [ "dbo:otherParty" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "resign_newly" : {
+      "Predicate" : [ "dbp:succeeded" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "retire" : {
+      "Predicate" : [ "dbp:honorificPrefix" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "retire_from" : {
+      "Predicate" : [ "dbo:successor" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "return_to" : {
+      "Predicate" : [ "dbo:country", "dbo:restingPlace", "dbo:profession" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "run_for" : {
+      "Predicate" : [ "dbo:successor", "dbp:stateHouse", "dbp:stateSenate", "dbp:stateAssembly", "dbp:candidate" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "selftitled" : {
+      "Predicate" : [ "dbp:type", "dbo:type" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "sell" : {
+      "Predicate" : [ "dbp:number", "dbp:certmonth", "dbp:relmonth" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "serve" : {
+      "Predicate" : [ "dbo:party", "dbo:orderInOffice", "dbo:region", "dbo:birthPlace", "dbp:occupation", "dbo:deathPlace", "dbo:residence", "dbp:title", "dbp:stateSenate", "dbp:stateHouse", "dbo:restingPlace", "dbp:rank", "dbp:honorificSuffix", "dbo:occupation", "dbo:profession", "dbo:nationality", "dbo:otherParty", "dbp:deathPlace", "dbp:totalType", "dbp:homeTown" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "serve_alongside" : {
+      "Predicate" : [ "dbo:successor", "dbo:associate", "dbp:with", "dbo:spouse" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "serve_cabinet" : {
+      "Predicate" : [ "dbp:premier" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "serve_commercial" : {
+      "Predicate" : [ "dbp:pushpinMap" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "serve_consul" : {
+      "Predicate" : [ "dbp:citizenship" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "serve_counsel" : {
+      "Predicate" : [ "dbp:stateDelegate" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "serve_deputy" : {
+      "Predicate" : [ "dbp:title" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "serve_five" : {
+      "Predicate" : [ "dbp:stateAssembly" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "serve_in" : {
+      "Predicate" : [ "dbo:region", "dbo:party", "dbp:occupation", "dbo:birthPlace", "dbo:deathPlace", "dbp:title", "dbp:post", "dbp:stateHouse", "dbp:premier", "dbo:battle", "dbp:stateSenate", "dbo:militaryBranch", "dbo:country", "dbo:primeMinister", "dbo:nationality", "dbp:parliament", "dbp:state", "dbp:stateDelegate" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "serve_member" : {
+      "Predicate" : [ "dbo:party", "dbo:birthPlace", "dbo:deathPlace", "dbo:almaMater", "dbp:stateSenate", "dbp:parliament" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "serve_minister" : {
+      "Predicate" : [ "dbo:primeMinister", "dbp:birthDate" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "serve_on" : {
+      "Predicate" : [ "dbo:residence", "dbp:stateSenate", "dbp:stateAssembly" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "serve_speaker" : {
+      "Predicate" : [ "dbp:stateHouse" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "sit" : {
+      "Predicate" : [ "dbp:honorificSuffix" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "step_down" : {
+      "Predicate" : [ "dbp:portal" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "study_at" : {
+      "Predicate" : [ "dbo:nationality", "dbo:almaMater" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "succeed" : {
+      "Predicate" : [ "dbp:before", "dbp:predecessor", "dbo:predecessor" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "succeed_by" : {
+      "Predicate" : [ "dbo:successor", "dbp:before", "dbp:1namedata" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "succeed_in" : {
+      "Predicate" : [ "dbp:succeeded" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "win" : {
+      "Predicate" : [ "dbp:electorate" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "win_miss" : {
+      "Predicate" : [ "dbp:origin" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "win_seat" : {
+      "Predicate" : [ "dbp:before" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "win_title" : {
+      "Predicate" : [ "dbp:origin" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "work_primarily" : {
+      "Predicate" : [ "dbp:music", "dbp:extra" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    },
+    "write_by" : {
+      "Predicate" : [ "dbo:writer", "dbp:allWriting" ],
+      "Rank" : 0,
+      "ReciprocalRank" : 0.0
+    }
+  }
+}

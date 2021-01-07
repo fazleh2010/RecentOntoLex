@@ -29,7 +29,7 @@ import org.junit.Test;
  *
  * @author elahi
  */
-public class PatternCalculationTest {
+public class PatternLexicalization {
 
     private static String dbo_ClassName = PropertyNotation.dbo_AAClass;
     private static String inputFile = allPoliticianFile;
@@ -38,7 +38,7 @@ public class PatternCalculationTest {
     private static String ONTO_LEX = "lexicon";
     private static String MEAN_RECIPROCAL = "meanReciprocal";
 
-    @Test
+    @Ignore
     public void PATTERN_CALCULATION_TEST() throws IOException, Exception {
         String classDir = FileFolderUtils.getClassDir(dbo_ClassName) + "/";
         String inputDir = dbpediaDir + classDir + patternDir;

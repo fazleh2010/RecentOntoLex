@@ -1,7 +1,9 @@
 
 import citec.correlation.core.analyzer.TextAnalyzer;
 import static citec.correlation.core.analyzer.TextAnalyzer.ADJECTIVE;
+import static citec.correlation.core.analyzer.TextAnalyzer.GOLD;
 import static citec.correlation.core.analyzer.TextAnalyzer.NOUN;
+import static citec.correlation.core.analyzer.TextAnalyzer.OBJECT;
 import static citec.correlation.core.analyzer.TextAnalyzer.POSTAGS;
 import citec.correlation.wikipedia.calculation.PatternCalculation;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
@@ -31,27 +33,26 @@ import org.junit.Test;
  */
 public class MeanReciprocalTest {
 
-    private String dbo_ClassName = PropertyNotation.dbo_Politician;
-    private String inputFile = allPoliticianFile;
-    private String PATTERN = "pattern";
-    private String QLAD9 = "qald9";
-    private String ONTO_LEX = "lexicon";
-    private String MEAN_RECIPROCAL = "meanReciprocal";
+    private static String dbo_ClassName = PropertyNotation.dbo_Politician;
+    private static String inputFile = allPoliticianFile;
+    private static String PATTERN = "pattern";
+    private static String QLAD9 = "qald9";
+    private static String ONTO_LEX = "lexicon";
+    private static String MEAN_RECIPROCAL = "meanReciprocal";
 
-    @Ignore
-    public void MEAN_RECIPROCAL_PATTERN_TEST() throws IOException, Exception {
-        List<String> POSTAGS2 = new ArrayList<String>(Arrays.asList(ADJECTIVE));
+    public static void main(String []args)  throws IOException, Exception {
+        List<String> POSTAGS2 = new ArrayList<String>(Arrays.asList(TextAnalyzer.ADJECTIVE));
 
         for (String postag : POSTAGS) {
-            String qaldFileName = getQaldFile(qald9Dir, postag);
-            String conditionalFilename = this.getLexiconFile(qald9Dir, postag);;
-            String outputFileName =getMeanReciprocalFile(qald9Dir, postag);
+            String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, PATTERN, postag);
+            String conditionalFilename = FileFolderUtils.getLexiconFile(qald9Dir, PATTERN, postag);
+            String outputFileName = FileFolderUtils.getMeanReciprocalFile(qald9Dir, PATTERN, postag);
             Comparision comparision = new Comparision(qald9Dir, qaldFileName, conditionalFilename, outputFileName);
             comparision.compersionsPattern();
         }
     }
 
-    private String getLexiconFile(String qald9Dir, String postag) {
+    /*private String getLexiconFile(String qald9Dir, String postag) {
         return qald9Dir + File.separator + postag + "-" + PATTERN + "-" + ONTO_LEX + ".json";
     }
 
@@ -61,6 +62,6 @@ public class MeanReciprocalTest {
 
     private String getMeanReciprocalFile(String qald9Dir, String postag) {
         return qald9Dir + File.separator + postag + "-" + PATTERN + "-" + MEAN_RECIPROCAL + ".json";
-    }
+    }*/
 
 }

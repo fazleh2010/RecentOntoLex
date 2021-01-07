@@ -1,0 +1,19 @@
+id=46  property=dbp:event  object=Freestyle_wrestling  NumberOfEntitiesFoundForObject=121
+free  NN  multiply=0.398503  P(free|object)=0.867769  P(object|free)=0.459227    
+period  NN  multiply=0.022857  P(period|object)=0.181818  P(object|period)=0.125714    
+europe  NN  multiply=0.021211  P(europe|object)=0.330579  P(object|europe)=0.064163    
+russian  NN  multiply=0.013168  P(russian|object)=0.190083  P(object|russian)=0.069277    
+
+id=47  property=dbp:event  object=Greco-Roman_wrestling  NumberOfEntitiesFoundForObject=113
+roman  JJ  multiply=0.396591  P(roman|object)=0.973451  P(object|roman)=0.407407    
+period  NN  multiply=0.085006  P(period|object)=0.362832  P(object|period)=0.234286    
+europe  NN  multiply=0.014181  P(europe|object)=0.283186  P(object|europe)=0.050078    
+
+id=48  property=dbp:event  object=Marathon  NumberOfEntitiesFoundForObject=157
+time  NN  multiply=0.03618  P(time|object)=0.484076  P(object|time)=0.07474    
+country  NN  multiply=0.012858  P(country|object)=0.159236  P(object|country)=0.080745    
+
+id=49  property=dbp:event  object=Sprint_(running)  NumberOfEntitiesFoundForObject=133
+italian  JJ  multiply=0.048212  P(italian|object)=0.300752  P(object|italian)=0.160305    
+former  JJ  multiply=0.026649  P(former|object)=0.300752  P(object|former)=0.088608    
+

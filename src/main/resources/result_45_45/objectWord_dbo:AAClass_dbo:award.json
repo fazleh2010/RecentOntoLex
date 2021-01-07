@@ -1,0 +1,53 @@
+{
+  "dbo:AAClass_dbo:award.json" : [ {
+    "object" : "Padma_Shri",
+    "objectIndex" : "1",
+    "numberOfEntitiesFoundInObject" : 157,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "shri",
+      "PosTag" : "NN",
+      "multiply" : 0.785252,
+      "probabilities" : {
+        "P(shri|object)" : 0.866242,
+        "P(object|shri)" : 0.906504
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "fourth",
+      "PosTag" : "JJ",
+      "multiply" : 0.687475,
+      "probabilities" : {
+        "P(fourth|object)" : 0.751592,
+        "P(object|fourth)" : 0.914692
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "padma",
+      "PosTag" : "NN",
+      "multiply" : 0.666251,
+      "probabilities" : {
+        "P(padma|object)" : 0.872611,
+        "P(object|padma)" : 0.763514
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "civilian",
+      "PosTag" : "JJ",
+      "multiply" : 0.635549,
+      "probabilities" : {
+        "P(civilian|object)" : 0.789809,
+        "P(object|civilian)" : 0.804688
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "highest",
+      "PosTag" : "JJ",
+      "multiply" : 0.55021,
+      "probabilities" : {
+        "P(highest|object)" : 0.764331,
+        "P(object|highest)" : 0.719858
+      }
+    } ]
+  } ]
+}

@@ -1,0 +1,47 @@
+{
+  "america-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.036047,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(america|object)" : 0.481481,
+      "P(object|america)" : 0.074866
+    }
+  } ],
+  "american-JJ" : [ {
+    "object" : "United States",
+    "multiply" : 0.02879,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(american|object)" : 0.37963,
+      "P(object|american)" : 0.075838
+    }
+  } ],
+  "chain-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.02094,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(chain|object)" : 0.194444,
+      "P(object|chain)" : 0.107692
+    }
+  } ],
+  "states-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.042906,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(states|object)" : 0.444444,
+      "P(object|states)" : 0.096539
+    }
+  } ],
+  "united-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.0263,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(united|object)" : 0.37963,
+      "P(object|united)" : 0.069277
+    }
+  } ]
+}

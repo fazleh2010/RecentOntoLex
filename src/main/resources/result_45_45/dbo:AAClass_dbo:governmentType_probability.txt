@@ -1,0 +1,42 @@
+id=40  property=dbo:governmentType  object=Council-manager_government  NumberOfEntitiesFoundForObject=350
+texas  NN  multiply=0.38218  P(texas|object)=0.48  P(object|texas)=0.796209    
+county  NN  multiply=0.216593  P(county|object)=0.948571  P(object|county)=0.228336    
+census  NN  multiply=0.189408  P(census|object)=0.888571  P(object|census)=0.21316    
+population  NN  multiply=0.176907  P(population|object)=0.971429  P(object|population)=0.18211    
+state  NN  multiply=0.150796  P(state|object)=0.908571  P(object|state)=0.165971    
+
+id=41  property=dbo:governmentType  object=Council–manager_government  NumberOfEntitiesFoundForObject=149
+california  NN  multiply=0.269769  P(california|object)=0.577181  P(object|california)=0.467391    
+county  NN  multiply=0.098391  P(county|object)=0.979866  P(object|county)=0.100413    
+san  NN  multiply=0.076027  P(san|object)=0.47651  P(object|san)=0.159551    
+population  NN  multiply=0.07558  P(population|object)=0.973154  P(object|population)=0.077665    
+census  NN  multiply=0.068466  P(census|object)=0.818792  P(object|census)=0.083619    
+
+id=42  property=dbo:governmentType  object=Mayor-council_government  NumberOfEntitiesFoundForObject=271
+county  NN  multiply=0.152335  P(county|object)=0.904059  P(object|county)=0.168501    
+census  NN  multiply=0.150576  P(census|object)=0.900369  P(object|census)=0.167238    
+population  NN  multiply=0.136709  P(population|object)=0.97048  P(object|population)=0.140868    
+state  NN  multiply=0.114661  P(state|object)=0.900369  P(object|state)=0.127349    
+states  NN  multiply=0.11392  P(states|object)=0.752768  P(object|states)=0.151335    
+
+id=43  property=dbo:governmentType  object=Mayor–council_government  NumberOfEntitiesFoundForObject=300
+kansas  NN  multiply=0.418144  P(kansas|object)=0.52  P(object|kansas)=0.804124    
+population  NN  multiply=0.129193  P(population|object)=0.896667  P(object|population)=0.144081    
+census  NN  multiply=0.12297  P(census|object)=0.773333  P(object|census)=0.159013    
+county  NN  multiply=0.117093  P(county|object)=0.753333  P(object|county)=0.155433    
+state  NN  multiply=0.114015  P(state|object)=0.853333  P(object|state)=0.133612    
+
+id=44  property=dbo:governmentType  object=Municipality  NumberOfEntitiesFoundForObject=176
+chile  NN  multiply=0.731856  P(chile|object)=0.789773  P(object|chile)=0.926667    
+commune  NN  multiply=0.706563  P(commune|object)=0.744318  P(object|commune)=0.949275    
+province  NN  multiply=0.350361  P(province|object)=0.806818  P(object|province)=0.434251    
+region  NN  multiply=0.173152  P(region|object)=0.789773  P(object|region)=0.219243    
+spanish  JJ  multiply=0.102135  P(spanish|object)=0.346591  P(object|spanish)=0.294686    
+
+id=45  property=dbo:governmentType  object=Unitary_state  NumberOfEntitiesFoundForObject=105
+republic  NN  multiply=0.265955  P(republic|object)=0.790476  P(object|republic)=0.336449    
+country  NN  multiply=0.265285  P(country|object)=0.847619  P(object|country)=0.312977    
+union  NN  multiply=0.145003  P(union|object)=0.447619  P(object|union)=0.323944    
+world  NN  multiply=0.143755  P(world|object)=0.638095  P(object|world)=0.225287    
+capital  NN  multiply=0.138776  P(capital|object)=0.742857  P(object|capital)=0.186813    
+

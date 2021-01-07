@@ -51,7 +51,9 @@ public class Comparision {
     public void compersionsPattern() throws IOException {
         List<Pair<String,Map<String, Double>>> lexicon = new ArrayList<Pair<String,Map<String, Double>>>();
         List<Pair<String,Map<String, Boolean>>> qald_gold = new ArrayList<Pair<String,Map<String, Boolean>>>();
-        List<String> commonWords = this.getCommonWords();
+         Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
+        List<String> commonWords = new ArrayList<String>(intersection);
+        System.out.print("commonWords:"+commonWords);
 
         for (String word : lexiconDic.keySet()) {
             System.out.println(" word:" + word);
@@ -67,7 +69,7 @@ public class Comparision {
         MeanReciprocalCalculation meanReciprocalResult =new MeanReciprocalCalculation(lexicon, qald_gold);
         //System.out.println("meanReciprocalRank:" + meanReciprocalResult.getMeanReciprocalElements());
         FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocalResult, outputFileName);
-
+        
     }
     
     

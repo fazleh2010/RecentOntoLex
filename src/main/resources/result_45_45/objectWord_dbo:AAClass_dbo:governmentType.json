@@ -1,0 +1,1626 @@
+{
+  "dbo:AAClass_dbo:genre.json" : [ {
+    "object" : "Alternative_rock",
+    "objectIndex" : "4",
+    "numberOfEntitiesFoundInObject" : 952,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "alternative",
+      "PosTag" : "JJ",
+      "multiply" : 0.140651,
+      "probabilities" : {
+        "P(alternative|object)" : 0.27521,
+        "P(object|alternative)" : 0.511066
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "rock",
+      "PosTag" : "NN",
+      "multiply" : 0.094334,
+      "probabilities" : {
+        "P(rock|object)" : 0.542017,
+        "P(object|rock)" : 0.174043
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "band",
+      "PosTag" : "NN",
+      "multiply" : 0.079199,
+      "probabilities" : {
+        "P(band|object)" : 0.671218,
+        "P(object|band)" : 0.117992
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "release",
+      "PosTag" : "NN",
+      "multiply" : 0.062684,
+      "probabilities" : {
+        "P(release|object)" : 0.885504,
+        "P(object|release)" : 0.070789
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "record",
+      "PosTag" : "NN",
+      "multiply" : 0.037037,
+      "probabilities" : {
+        "P(record|object)" : 0.55042,
+        "P(object|record)" : 0.067289
+      }
+    } ]
+  }, {
+    "object" : "Black_metal",
+    "objectIndex" : "5",
+    "numberOfEntitiesFoundInObject" : 198,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "metal",
+      "PosTag" : "NN",
+      "multiply" : 0.085629,
+      "probabilities" : {
+        "P(metal|object)" : 0.868687,
+        "P(object|metal)" : 0.098573
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "black",
+      "PosTag" : "JJ",
+      "multiply" : 0.083666,
+      "probabilities" : {
+        "P(black|object)" : 0.752525,
+        "P(object|black)" : 0.11118
+      }
+    } ]
+  }, {
+    "object" : "Children's_literature",
+    "objectIndex" : "6",
+    "numberOfEntitiesFoundInObject" : 329,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "books",
+      "PosTag" : "NN",
+      "multiply" : 0.079317,
+      "probabilities" : {
+        "P(books|object)" : 0.580547,
+        "P(object|books)" : 0.136624
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "book",
+      "PosTag" : "NN",
+      "multiply" : 0.062802,
+      "probabilities" : {
+        "P(book|object)" : 0.705167,
+        "P(object|book)" : 0.08906
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "author",
+      "PosTag" : "NN",
+      "multiply" : 0.037873,
+      "probabilities" : {
+        "P(author|object)" : 0.534954,
+        "P(object|author)" : 0.070796
+      }
+    } ]
+  }, {
+    "object" : "Contemporary_R&B",
+    "objectIndex" : "7",
+    "numberOfEntitiesFoundInObject" : 133,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "r&b",
+      "PosTag" : "NN",
+      "multiply" : 0.236754,
+      "probabilities" : {
+        "P(r&b|object)" : 0.691729,
+        "P(object|r&b)" : 0.342264
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "billboard",
+      "PosTag" : "NN",
+      "multiply" : 0.040573,
+      "probabilities" : {
+        "P(billboard|object)" : 0.466165,
+        "P(object|billboard)" : 0.087035
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "single",
+      "PosTag" : "JJ",
+      "multiply" : 0.034351,
+      "probabilities" : {
+        "P(single|object)" : 0.526316,
+        "P(object|single)" : 0.065267
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "chart",
+      "PosTag" : "NN",
+      "multiply" : 0.02724,
+      "probabilities" : {
+        "P(chart|object)" : 0.428571,
+        "P(object|chart)" : 0.06356
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "singles",
+      "PosTag" : "NN",
+      "multiply" : 0.026642,
+      "probabilities" : {
+        "P(singles|object)" : 0.330827,
+        "P(object|singles)" : 0.080531
+      }
+    } ]
+  }, {
+    "object" : "Country_music",
+    "objectIndex" : "8",
+    "numberOfEntitiesFoundInObject" : 1012,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "country",
+      "PosTag" : "NN",
+      "multiply" : 0.480329,
+      "probabilities" : {
+        "P(country|object)" : 0.831028,
+        "P(object|country)" : 0.577994
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "music",
+      "PosTag" : "NN",
+      "multiply" : 0.058152,
+      "probabilities" : {
+        "P(music|object)" : 0.683794,
+        "P(object|music)" : 0.085043
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "charts",
+      "PosTag" : "NN",
+      "multiply" : 0.054102,
+      "probabilities" : {
+        "P(charts|object)" : 0.296443,
+        "P(object|charts)" : 0.182503
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "chart",
+      "PosTag" : "NN",
+      "multiply" : 0.052268,
+      "probabilities" : {
+        "P(chart|object)" : 0.502964,
+        "P(object|chart)" : 0.103919
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "single",
+      "PosTag" : "JJ",
+      "multiply" : 0.052144,
+      "probabilities" : {
+        "P(single|object)" : 0.568182,
+        "P(object|single)" : 0.091773
+      }
+    } ]
+  }, {
+    "object" : "Crime_fiction",
+    "objectIndex" : "9",
+    "numberOfEntitiesFoundInObject" : 104,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "novels",
+      "PosTag" : "NN",
+      "multiply" : 0.036281,
+      "probabilities" : {
+        "P(novels|object)" : 0.519231,
+        "P(object|novels)" : 0.069875
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "fiction",
+      "PosTag" : "NN",
+      "multiply" : 0.023689,
+      "probabilities" : {
+        "P(fiction|object)" : 0.432692,
+        "P(object|fiction)" : 0.054749
+      }
+    } ]
+  }, {
+    "object" : "Death_metal",
+    "objectIndex" : "10",
+    "numberOfEntitiesFoundInObject" : 173,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "death",
+      "PosTag" : "NN",
+      "multiply" : 0.109202,
+      "probabilities" : {
+        "P(death|object)" : 0.786127,
+        "P(object|death)" : 0.138911
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "metal",
+      "PosTag" : "NN",
+      "multiply" : 0.06739,
+      "probabilities" : {
+        "P(metal|object)" : 0.803468,
+        "P(object|metal)" : 0.083874
+      }
+    } ]
+  }, {
+    "object" : "Fantasy",
+    "objectIndex" : "11",
+    "numberOfEntitiesFoundInObject" : 170,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "author",
+      "PosTag" : "NN",
+      "multiply" : 0.074287,
+      "probabilities" : {
+        "P(author|object)" : 0.617647,
+        "P(object|author)" : 0.120274
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "fiction",
+      "PosTag" : "NN",
+      "multiply" : 0.072001,
+      "probabilities" : {
+        "P(fiction|object)" : 0.411765,
+        "P(object|fiction)" : 0.17486
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "novels",
+      "PosTag" : "NN",
+      "multiply" : 0.036581,
+      "probabilities" : {
+        "P(novels|object)" : 0.311765,
+        "P(object|novels)" : 0.117337
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "writer",
+      "PosTag" : "NN",
+      "multiply" : 0.03351,
+      "probabilities" : {
+        "P(writer|object)" : 0.517647,
+        "P(object|writer)" : 0.064735
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "book",
+      "PosTag" : "NN",
+      "multiply" : 0.030638,
+      "probabilities" : {
+        "P(book|object)" : 0.376471,
+        "P(object|book)" : 0.081382
+      }
+    } ]
+  }, {
+    "object" : "Fiction",
+    "objectIndex" : "12",
+    "numberOfEntitiesFoundInObject" : 230,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "author",
+      "PosTag" : "NN",
+      "multiply" : 0.025237,
+      "probabilities" : {
+        "P(author|object)" : 0.482609,
+        "P(object|author)" : 0.052293
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "fiction",
+      "PosTag" : "NN",
+      "multiply" : 0.01512,
+      "probabilities" : {
+        "P(fiction|object)" : 0.326087,
+        "P(object|fiction)" : 0.046369
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "novels",
+      "PosTag" : "NN",
+      "multiply" : 0.013809,
+      "probabilities" : {
+        "P(novels|object)" : 0.286957,
+        "P(object|novels)" : 0.048121
+      }
+    } ]
+  }, {
+    "object" : "Folk_music",
+    "objectIndex" : "13",
+    "numberOfEntitiesFoundInObject" : 539,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "singer",
+      "PosTag" : "NN",
+      "multiply" : 0.031335,
+      "probabilities" : {
+        "P(singer|object)" : 0.404453,
+        "P(object|singer)" : 0.077474
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "singer-songwriter",
+      "PosTag" : "NN",
+      "multiply" : 0.027179,
+      "probabilities" : {
+        "P(singer-songwriter|object)" : 0.19666,
+        "P(object|singer-songwriter)" : 0.138204
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "song",
+      "PosTag" : "NN",
+      "multiply" : 0.025953,
+      "probabilities" : {
+        "P(song|object)" : 0.541744,
+        "P(object|song)" : 0.047907
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "writer",
+      "PosTag" : "NN",
+      "multiply" : 0.013752,
+      "probabilities" : {
+        "P(writer|object)" : 0.283859,
+        "P(object|writer)" : 0.048445
+      }
+    } ]
+  }, {
+    "object" : "Folk_rock",
+    "objectIndex" : "14",
+    "numberOfEntitiesFoundInObject" : 469,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "singer-songwriter",
+      "PosTag" : "NN",
+      "multiply" : 0.023698,
+      "probabilities" : {
+        "P(singer-songwriter|object)" : 0.228145,
+        "P(object|singer-songwriter)" : 0.103873
+      }
+    } ]
+  }, {
+    "object" : "Funk",
+    "objectIndex" : "15",
+    "numberOfEntitiesFoundInObject" : 201,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "r&b",
+      "PosTag" : "NN",
+      "multiply" : 0.01646,
+      "probabilities" : {
+        "P(r&b|object)" : 0.218905,
+        "P(object|r&b)" : 0.075194
+      }
+    } ]
+  }, {
+    "object" : "Hard_rock",
+    "objectIndex" : "16",
+    "numberOfEntitiesFoundInObject" : 908,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "rock",
+      "PosTag" : "NN",
+      "multiply" : 0.088742,
+      "probabilities" : {
+        "P(rock|object)" : 0.665198,
+        "P(object|rock)" : 0.133407
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "band",
+      "PosTag" : "NN",
+      "multiply" : 0.061392,
+      "probabilities" : {
+        "P(band|object)" : 0.753304,
+        "P(object|band)" : 0.081497
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "studio",
+      "PosTag" : "NN",
+      "multiply" : 0.032952,
+      "probabilities" : {
+        "P(studio|object)" : 0.535242,
+        "P(object|studio)" : 0.061565
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "first",
+      "PosTag" : "JJ",
+      "multiply" : 0.018085,
+      "probabilities" : {
+        "P(first|object)" : 0.371145,
+        "P(object|first)" : 0.048728
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "song",
+      "PosTag" : "NN",
+      "multiply" : 0.017809,
+      "probabilities" : {
+        "P(song|object)" : 0.355727,
+        "P(object|song)" : 0.050065
+      }
+    } ]
+  }, {
+    "object" : "Heavy_metal_music",
+    "objectIndex" : "17",
+    "numberOfEntitiesFoundInObject" : 375,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "metal",
+      "PosTag" : "NN",
+      "multiply" : 0.144482,
+      "probabilities" : {
+        "P(metal|object)" : 0.693333,
+        "P(object|metal)" : 0.208387
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "band",
+      "PosTag" : "NN",
+      "multiply" : 0.049425,
+      "probabilities" : {
+        "P(band|object)" : 0.816,
+        "P(object|band)" : 0.06057
+      }
+    } ]
+  }, {
+    "object" : "Hip_hop_music",
+    "objectIndex" : "18",
+    "numberOfEntitiesFoundInObject" : 808,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "release",
+      "PosTag" : "NN",
+      "multiply" : 0.045184,
+      "probabilities" : {
+        "P(release|object)" : 0.912129,
+        "P(object|release)" : 0.049537
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "r&b",
+      "PosTag" : "NN",
+      "multiply" : 0.035441,
+      "probabilities" : {
+        "P(r&b|object)" : 0.163366,
+        "P(object|r&b)" : 0.21694
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "records",
+      "PosTag" : "NN",
+      "multiply" : 0.027624,
+      "probabilities" : {
+        "P(records|object)" : 0.450495,
+        "P(object|records)" : 0.06132
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "billboard",
+      "PosTag" : "NN",
+      "multiply" : 0.027185,
+      "probabilities" : {
+        "P(billboard|object)" : 0.264851,
+        "P(object|billboard)" : 0.102641
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "record",
+      "PosTag" : "NN",
+      "multiply" : 0.025839,
+      "probabilities" : {
+        "P(record|object)" : 0.556931,
+        "P(object|record)" : 0.046396
+      }
+    } ]
+  }, {
+    "object" : "Historical_fiction",
+    "objectIndex" : "19",
+    "numberOfEntitiesFoundInObject" : 145,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "fiction",
+      "PosTag" : "NN",
+      "multiply" : 0.027486,
+      "probabilities" : {
+        "P(fiction|object)" : 0.565517,
+        "P(object|fiction)" : 0.048603
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "novels",
+      "PosTag" : "NN",
+      "multiply" : 0.025554,
+      "probabilities" : {
+        "P(novels|object)" : 0.503448,
+        "P(object|novels)" : 0.050758
+      }
+    } ]
+  }, {
+    "object" : "Horror_fiction",
+    "objectIndex" : "20",
+    "numberOfEntitiesFoundInObject" : 207,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "fiction",
+      "PosTag" : "NN",
+      "multiply" : 0.068772,
+      "probabilities" : {
+        "P(fiction|object)" : 0.661836,
+        "P(object|fiction)" : 0.103911
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "author",
+      "PosTag" : "NN",
+      "multiply" : 0.034256,
+      "probabilities" : {
+        "P(author|object)" : 0.545894,
+        "P(object|author)" : 0.062751
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "novels",
+      "PosTag" : "NN",
+      "multiply" : 0.022699,
+      "probabilities" : {
+        "P(novels|object)" : 0.347826,
+        "P(object|novels)" : 0.06526
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "books",
+      "PosTag" : "NN",
+      "multiply" : 0.020982,
+      "probabilities" : {
+        "P(books|object)" : 0.318841,
+        "P(object|books)" : 0.065808
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "book",
+      "PosTag" : "NN",
+      "multiply" : 0.017944,
+      "probabilities" : {
+        "P(book|object)" : 0.396135,
+        "P(object|book)" : 0.045298
+      }
+    } ]
+  }, {
+    "object" : "Indie_rock",
+    "objectIndex" : "21",
+    "numberOfEntitiesFoundInObject" : 509,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "band",
+      "PosTag" : "NN",
+      "multiply" : 0.045033,
+      "probabilities" : {
+        "P(band|object)" : 0.642436,
+        "P(object|band)" : 0.070098
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "rock",
+      "PosTag" : "NN",
+      "multiply" : 0.044708,
+      "probabilities" : {
+        "P(rock|object)" : 0.471513,
+        "P(object|rock)" : 0.094818
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "ep",
+      "PosTag" : "NN",
+      "multiply" : 0.022316,
+      "probabilities" : {
+        "P(ep|object)" : 0.447937,
+        "P(object|ep)" : 0.04982
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "records",
+      "PosTag" : "NN",
+      "multiply" : 0.01814,
+      "probabilities" : {
+        "P(records|object)" : 0.361493,
+        "P(object|records)" : 0.05018
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "second",
+      "PosTag" : "NN",
+      "multiply" : 0.013719,
+      "probabilities" : {
+        "P(second|object)" : 0.267191,
+        "P(object|second)" : 0.051345
+      }
+    } ]
+  }, {
+    "object" : "J-pop",
+    "objectIndex" : "22",
+    "numberOfEntitiesFoundInObject" : 101,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "japanese",
+      "PosTag" : "JJ",
+      "multiply" : 0.053578,
+      "probabilities" : {
+        "P(japanese|object)" : 0.524752,
+        "P(object|japanese)" : 0.102102
+      }
+    } ]
+  }, {
+    "object" : "Jazz",
+    "objectIndex" : "23",
+    "numberOfEntitiesFoundInObject" : 1975,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "jazz",
+      "PosTag" : "NN",
+      "multiply" : 0.36134,
+      "probabilities" : {
+        "P(jazz|object)" : 0.561013,
+        "P(object|jazz)" : 0.644085
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "label",
+      "PosTag" : "NN",
+      "multiply" : 0.199238,
+      "probabilities" : {
+        "P(label|object)" : 0.71443,
+        "P(object|label)" : 0.278877
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "record",
+      "PosTag" : "NN",
+      "multiply" : 0.087753,
+      "probabilities" : {
+        "P(record|object)" : 0.808608,
+        "P(object|record)" : 0.108523
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "release",
+      "PosTag" : "NN",
+      "multiply" : 0.062962,
+      "probabilities" : {
+        "P(release|object)" : 0.841013,
+        "P(object|release)" : 0.074864
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "american",
+      "PosTag" : "JJ",
+      "multiply" : 0.028797,
+      "probabilities" : {
+        "P(american|object)" : 0.342278,
+        "P(object|american)" : 0.084134
+      }
+    } ]
+  }, {
+    "object" : "Jazz_fusion",
+    "objectIndex" : "24",
+    "numberOfEntitiesFoundInObject" : 117,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "jazz",
+      "PosTag" : "NN",
+      "multiply" : 0.031534,
+      "probabilities" : {
+        "P(jazz|object)" : 0.504274,
+        "P(object|jazz)" : 0.062533
+      }
+    } ]
+  }, {
+    "object" : "Metalcore",
+    "objectIndex" : "25",
+    "numberOfEntitiesFoundInObject" : 217,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "metal",
+      "PosTag" : "NN",
+      "multiply" : 0.054768,
+      "probabilities" : {
+        "P(metal|object)" : 0.677419,
+        "P(object|metal)" : 0.080847
+      }
+    } ]
+  }, {
+    "object" : "Non-fiction",
+    "objectIndex" : "26",
+    "numberOfEntitiesFoundInObject" : 102,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "books",
+      "PosTag" : "NN",
+      "multiply" : 0.019355,
+      "probabilities" : {
+        "P(books|object)" : 0.392157,
+        "P(object|books)" : 0.049356
+      }
+    } ]
+  }, {
+    "object" : "Poetry",
+    "objectIndex" : "27",
+    "numberOfEntitiesFoundInObject" : 133,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "books",
+      "PosTag" : "NN",
+      "multiply" : 0.011359,
+      "probabilities" : {
+        "P(books|object)" : 0.240602,
+        "P(object|books)" : 0.04721
+      }
+    } ]
+  }, {
+    "object" : "Pop_music",
+    "objectIndex" : "28",
+    "numberOfEntitiesFoundInObject" : 1690,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "singer",
+      "PosTag" : "NN",
+      "multiply" : 0.09675,
+      "probabilities" : {
+        "P(singer|object)" : 0.426627,
+        "P(object|singer)" : 0.22678
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "release",
+      "PosTag" : "NN",
+      "multiply" : 0.08015,
+      "probabilities" : {
+        "P(release|object)" : 0.894083,
+        "P(object|release)" : 0.089645
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "pop",
+      "PosTag" : "NN",
+      "multiply" : 0.060488,
+      "probabilities" : {
+        "P(pop|object)" : 0.304734,
+        "P(object|pop)" : 0.198493
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "single",
+      "PosTag" : "JJ",
+      "multiply" : 0.059459,
+      "probabilities" : {
+        "P(single|object)" : 0.397633,
+        "P(object|single)" : 0.149533
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "song",
+      "PosTag" : "NN",
+      "multiply" : 0.054081,
+      "probabilities" : {
+        "P(song|object)" : 0.440828,
+        "P(object|song)" : 0.12268
+      }
+    } ]
+  }, {
+    "object" : "Pop_rock",
+    "objectIndex" : "29",
+    "numberOfEntitiesFoundInObject" : 244,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "pop",
+      "PosTag" : "NN",
+      "multiply" : 0.029736,
+      "probabilities" : {
+        "P(pop|object)" : 0.356557,
+        "P(object|pop)" : 0.083398
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "single",
+      "PosTag" : "JJ",
+      "multiply" : 0.026101,
+      "probabilities" : {
+        "P(single|object)" : 0.393443,
+        "P(object|single)" : 0.06634
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "singer",
+      "PosTag" : "NN",
+      "multiply" : 0.022663,
+      "probabilities" : {
+        "P(singer|object)" : 0.340164,
+        "P(object|singer)" : 0.066623
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "studio",
+      "PosTag" : "NN",
+      "multiply" : 0.022561,
+      "probabilities" : {
+        "P(studio|object)" : 0.487705,
+        "P(object|studio)" : 0.04626
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "song",
+      "PosTag" : "NN",
+      "multiply" : 0.021443,
+      "probabilities" : {
+        "P(song|object)" : 0.442623,
+        "P(object|song)" : 0.048446
+      }
+    } ]
+  }, {
+    "object" : "Power_metal",
+    "objectIndex" : "30",
+    "numberOfEntitiesFoundInObject" : 219,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "metal",
+      "PosTag" : "NN",
+      "multiply" : 0.070781,
+      "probabilities" : {
+        "P(metal|object)" : 0.83105,
+        "P(object|metal)" : 0.085171
+      }
+    } ]
+  }, {
+    "object" : "Progressive_rock",
+    "objectIndex" : "31",
+    "numberOfEntitiesFoundInObject" : 680,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "rock",
+      "PosTag" : "NN",
+      "multiply" : 0.050142,
+      "probabilities" : {
+        "P(rock|object)" : 0.647059,
+        "P(object|rock)" : 0.077493
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "band",
+      "PosTag" : "NN",
+      "multiply" : 0.033102,
+      "probabilities" : {
+        "P(band|object)" : 0.720588,
+        "P(object|band)" : 0.045938
+      }
+    } ]
+  }, {
+    "object" : "Punk_rock",
+    "objectIndex" : "32",
+    "numberOfEntitiesFoundInObject" : 556,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "band",
+      "PosTag" : "NN",
+      "multiply" : 0.037473,
+      "probabilities" : {
+        "P(band|object)" : 0.760791,
+        "P(object|band)" : 0.049256
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "rock",
+      "PosTag" : "NN",
+      "multiply" : 0.030037,
+      "probabilities" : {
+        "P(rock|object)" : 0.507194,
+        "P(object|rock)" : 0.059222
+      }
+    } ]
+  }, {
+    "object" : "R&B",
+    "objectIndex" : "33",
+    "numberOfEntitiesFoundInObject" : 370,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "r&b",
+      "PosTag" : "NN",
+      "multiply" : 0.058586,
+      "probabilities" : {
+        "P(r&b|object)" : 0.410811,
+        "P(object|r&b)" : 0.14261
+      }
+    } ]
+  }, {
+    "object" : "Rock_music",
+    "objectIndex" : "34",
+    "numberOfEntitiesFoundInObject" : 1238,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "release",
+      "PosTag" : "NN",
+      "multiply" : 0.068123,
+      "probabilities" : {
+        "P(release|object)" : 0.864297,
+        "P(object|release)" : 0.078819
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "rock",
+      "PosTag" : "NN",
+      "multiply" : 0.062244,
+      "probabilities" : {
+        "P(rock|object)" : 0.436187,
+        "P(object|rock)" : 0.1427
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "band",
+      "PosTag" : "NN",
+      "multiply" : 0.044458,
+      "probabilities" : {
+        "P(band|object)" : 0.496769,
+        "P(object|band)" : 0.089494
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "us",
+      "PosTag" : "NN",
+      "multiply" : 0.043971,
+      "probabilities" : {
+        "P(us|object)" : 0.61147,
+        "P(object|us)" : 0.071911
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "record",
+      "PosTag" : "NN",
+      "multiply" : 0.04379,
+      "probabilities" : {
+        "P(record|object)" : 0.559774,
+        "P(object|record)" : 0.078228
+      }
+    } ]
+  }, {
+    "object" : "Romance_novel",
+    "objectIndex" : "35",
+    "numberOfEntitiesFoundInObject" : 255,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "novels",
+      "PosTag" : "NN",
+      "multiply" : 0.166606,
+      "probabilities" : {
+        "P(novels|object)" : 0.85098,
+        "P(object|novels)" : 0.195781
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "writer",
+      "PosTag" : "NN",
+      "multiply" : 0.031658,
+      "probabilities" : {
+        "P(writer|object)" : 0.623529,
+        "P(object|writer)" : 0.050772
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "author",
+      "PosTag" : "NN",
+      "multiply" : 0.0292,
+      "probabilities" : {
+        "P(author|object)" : 0.419608,
+        "P(object|author)" : 0.06959
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "books",
+      "PosTag" : "NN",
+      "multiply" : 0.010098,
+      "probabilities" : {
+        "P(books|object)" : 0.176471,
+        "P(object|books)" : 0.057225
+      }
+    } ]
+  }, {
+    "object" : "Science_fiction",
+    "objectIndex" : "36",
+    "numberOfEntitiesFoundInObject" : 386,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "fiction",
+      "PosTag" : "NN",
+      "multiply" : 0.239999,
+      "probabilities" : {
+        "P(fiction|object)" : 0.867876,
+        "P(object|fiction)" : 0.276536
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "author",
+      "PosTag" : "NN",
+      "multiply" : 0.055277,
+      "probabilities" : {
+        "P(author|object)" : 0.46114,
+        "P(object|author)" : 0.119871
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "writer",
+      "PosTag" : "NN",
+      "multiply" : 0.052888,
+      "probabilities" : {
+        "P(writer|object)" : 0.647668,
+        "P(object|writer)" : 0.081659
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "novels",
+      "PosTag" : "NN",
+      "multiply" : 0.037482,
+      "probabilities" : {
+        "P(novels|object)" : 0.305699,
+        "P(object|novels)" : 0.12261
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "books",
+      "PosTag" : "NN",
+      "multiply" : 0.026937,
+      "probabilities" : {
+        "P(books|object)" : 0.238342,
+        "P(object|books)" : 0.113019
+      }
+    } ]
+  }, {
+    "object" : "Soul_music",
+    "objectIndex" : "37",
+    "numberOfEntitiesFoundInObject" : 220,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "r&b",
+      "PosTag" : "NN",
+      "multiply" : 0.092308,
+      "probabilities" : {
+        "P(r&b|object)" : 0.404545,
+        "P(object|r&b)" : 0.228176
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "singer",
+      "PosTag" : "NN",
+      "multiply" : 0.023295,
+      "probabilities" : {
+        "P(singer|object)" : 0.372727,
+        "P(object|singer)" : 0.0625
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "hit",
+      "PosTag" : "NN",
+      "multiply" : 0.01764,
+      "probabilities" : {
+        "P(hit|object)" : 0.309091,
+        "P(object|hit)" : 0.057072
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "love",
+      "PosTag" : "NN",
+      "multiply" : 0.016834,
+      "probabilities" : {
+        "P(love|object)" : 0.236364,
+        "P(object|love)" : 0.071223
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "group",
+      "PosTag" : "NN",
+      "multiply" : 0.015468,
+      "probabilities" : {
+        "P(group|object)" : 0.290909,
+        "P(object|group)" : 0.053173
+      }
+    } ]
+  }, {
+    "object" : "Synthpop",
+    "objectIndex" : "38",
+    "numberOfEntitiesFoundInObject" : 394,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "pop",
+      "PosTag" : "NN",
+      "multiply" : 0.017923,
+      "probabilities" : {
+        "P(pop|object)" : 0.383249,
+        "P(object|pop)" : 0.046765
+      }
+    } ]
+  }, {
+    "object" : "Thrash_metal",
+    "objectIndex" : "39",
+    "numberOfEntitiesFoundInObject" : 256,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "metal",
+      "PosTag" : "NN",
+      "multiply" : 0.101519,
+      "probabilities" : {
+        "P(metal|object)" : 0.863281,
+        "P(object|metal)" : 0.117596
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "death",
+      "PosTag" : "NN",
+      "multiply" : 0.01355,
+      "probabilities" : {
+        "P(death|object)" : 0.238281,
+        "P(object|death)" : 0.056864
+      }
+    } ]
+  } ],
+  "dbo:AAClass_dbo:award.json" : [ {
+    "object" : "Padma_Shri",
+    "objectIndex" : "1",
+    "numberOfEntitiesFoundInObject" : 157,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "shri",
+      "PosTag" : "NN",
+      "multiply" : 0.785252,
+      "probabilities" : {
+        "P(shri|object)" : 0.866242,
+        "P(object|shri)" : 0.906504
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "fourth",
+      "PosTag" : "JJ",
+      "multiply" : 0.687475,
+      "probabilities" : {
+        "P(fourth|object)" : 0.751592,
+        "P(object|fourth)" : 0.914692
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "padma",
+      "PosTag" : "NN",
+      "multiply" : 0.666251,
+      "probabilities" : {
+        "P(padma|object)" : 0.872611,
+        "P(object|padma)" : 0.763514
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "civilian",
+      "PosTag" : "JJ",
+      "multiply" : 0.635549,
+      "probabilities" : {
+        "P(civilian|object)" : 0.789809,
+        "P(object|civilian)" : 0.804688
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "highest",
+      "PosTag" : "JJ",
+      "multiply" : 0.55021,
+      "probabilities" : {
+        "P(highest|object)" : 0.764331,
+        "P(object|highest)" : 0.719858
+      }
+    } ]
+  } ],
+  "dbo:AAClass_dbo:governmentType.json" : [ {
+    "object" : "Council-manager_government",
+    "objectIndex" : "40",
+    "numberOfEntitiesFoundInObject" : 350,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "texas",
+      "PosTag" : "NN",
+      "multiply" : 0.38218,
+      "probabilities" : {
+        "P(texas|object)" : 0.48,
+        "P(object|texas)" : 0.796209
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "county",
+      "PosTag" : "NN",
+      "multiply" : 0.216593,
+      "probabilities" : {
+        "P(county|object)" : 0.948571,
+        "P(object|county)" : 0.228336
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "census",
+      "PosTag" : "NN",
+      "multiply" : 0.189408,
+      "probabilities" : {
+        "P(census|object)" : 0.888571,
+        "P(object|census)" : 0.21316
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "population",
+      "PosTag" : "NN",
+      "multiply" : 0.176907,
+      "probabilities" : {
+        "P(population|object)" : 0.971429,
+        "P(object|population)" : 0.18211
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "state",
+      "PosTag" : "NN",
+      "multiply" : 0.150796,
+      "probabilities" : {
+        "P(state|object)" : 0.908571,
+        "P(object|state)" : 0.165971
+      }
+    } ]
+  }, {
+    "object" : "Council–manager_government",
+    "objectIndex" : "41",
+    "numberOfEntitiesFoundInObject" : 149,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "california",
+      "PosTag" : "NN",
+      "multiply" : 0.269769,
+      "probabilities" : {
+        "P(california|object)" : 0.577181,
+        "P(object|california)" : 0.467391
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "county",
+      "PosTag" : "NN",
+      "multiply" : 0.098391,
+      "probabilities" : {
+        "P(county|object)" : 0.979866,
+        "P(object|county)" : 0.100413
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "san",
+      "PosTag" : "NN",
+      "multiply" : 0.076027,
+      "probabilities" : {
+        "P(san|object)" : 0.47651,
+        "P(object|san)" : 0.159551
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "population",
+      "PosTag" : "NN",
+      "multiply" : 0.07558,
+      "probabilities" : {
+        "P(population|object)" : 0.973154,
+        "P(object|population)" : 0.077665
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "census",
+      "PosTag" : "NN",
+      "multiply" : 0.068466,
+      "probabilities" : {
+        "P(census|object)" : 0.818792,
+        "P(object|census)" : 0.083619
+      }
+    } ]
+  }, {
+    "object" : "Mayor-council_government",
+    "objectIndex" : "42",
+    "numberOfEntitiesFoundInObject" : 271,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "county",
+      "PosTag" : "NN",
+      "multiply" : 0.152335,
+      "probabilities" : {
+        "P(county|object)" : 0.904059,
+        "P(object|county)" : 0.168501
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "census",
+      "PosTag" : "NN",
+      "multiply" : 0.150576,
+      "probabilities" : {
+        "P(census|object)" : 0.900369,
+        "P(object|census)" : 0.167238
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "population",
+      "PosTag" : "NN",
+      "multiply" : 0.136709,
+      "probabilities" : {
+        "P(population|object)" : 0.97048,
+        "P(object|population)" : 0.140868
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "state",
+      "PosTag" : "NN",
+      "multiply" : 0.114661,
+      "probabilities" : {
+        "P(state|object)" : 0.900369,
+        "P(object|state)" : 0.127349
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "states",
+      "PosTag" : "NN",
+      "multiply" : 0.11392,
+      "probabilities" : {
+        "P(states|object)" : 0.752768,
+        "P(object|states)" : 0.151335
+      }
+    } ]
+  }, {
+    "object" : "Mayor–council_government",
+    "objectIndex" : "43",
+    "numberOfEntitiesFoundInObject" : 300,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "kansas",
+      "PosTag" : "NN",
+      "multiply" : 0.418144,
+      "probabilities" : {
+        "P(kansas|object)" : 0.52,
+        "P(object|kansas)" : 0.804124
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "population",
+      "PosTag" : "NN",
+      "multiply" : 0.129193,
+      "probabilities" : {
+        "P(population|object)" : 0.896667,
+        "P(object|population)" : 0.144081
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "census",
+      "PosTag" : "NN",
+      "multiply" : 0.12297,
+      "probabilities" : {
+        "P(census|object)" : 0.773333,
+        "P(object|census)" : 0.159013
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "county",
+      "PosTag" : "NN",
+      "multiply" : 0.117093,
+      "probabilities" : {
+        "P(county|object)" : 0.753333,
+        "P(object|county)" : 0.155433
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "state",
+      "PosTag" : "NN",
+      "multiply" : 0.114015,
+      "probabilities" : {
+        "P(state|object)" : 0.853333,
+        "P(object|state)" : 0.133612
+      }
+    } ]
+  }, {
+    "object" : "Municipality",
+    "objectIndex" : "44",
+    "numberOfEntitiesFoundInObject" : 176,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "chile",
+      "PosTag" : "NN",
+      "multiply" : 0.731856,
+      "probabilities" : {
+        "P(chile|object)" : 0.789773,
+        "P(object|chile)" : 0.926667
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "commune",
+      "PosTag" : "NN",
+      "multiply" : 0.706563,
+      "probabilities" : {
+        "P(commune|object)" : 0.744318,
+        "P(object|commune)" : 0.949275
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "province",
+      "PosTag" : "NN",
+      "multiply" : 0.350361,
+      "probabilities" : {
+        "P(province|object)" : 0.806818,
+        "P(object|province)" : 0.434251
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "region",
+      "PosTag" : "NN",
+      "multiply" : 0.173152,
+      "probabilities" : {
+        "P(region|object)" : 0.789773,
+        "P(object|region)" : 0.219243
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "spanish",
+      "PosTag" : "JJ",
+      "multiply" : 0.102135,
+      "probabilities" : {
+        "P(spanish|object)" : 0.346591,
+        "P(object|spanish)" : 0.294686
+      }
+    } ]
+  }, {
+    "object" : "Unitary_state",
+    "objectIndex" : "45",
+    "numberOfEntitiesFoundInObject" : 105,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "republic",
+      "PosTag" : "NN",
+      "multiply" : 0.265955,
+      "probabilities" : {
+        "P(republic|object)" : 0.790476,
+        "P(object|republic)" : 0.336449
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "country",
+      "PosTag" : "NN",
+      "multiply" : 0.265285,
+      "probabilities" : {
+        "P(country|object)" : 0.847619,
+        "P(object|country)" : 0.312977
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "union",
+      "PosTag" : "NN",
+      "multiply" : 0.145003,
+      "probabilities" : {
+        "P(union|object)" : 0.447619,
+        "P(object|union)" : 0.323944
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "world",
+      "PosTag" : "NN",
+      "multiply" : 0.143755,
+      "probabilities" : {
+        "P(world|object)" : 0.638095,
+        "P(object|world)" : 0.225287
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "capital",
+      "PosTag" : "NN",
+      "multiply" : 0.138776,
+      "probabilities" : {
+        "P(capital|object)" : 0.742857,
+        "P(object|capital)" : 0.186813
+      }
+    } ]
+  } ],
+  "dbo:AAClass_dbo:ethnicity.json" : [ {
+    "object" : "Bengali_people",
+    "objectIndex" : "2",
+    "numberOfEntitiesFoundInObject" : 103,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "bengali",
+      "PosTag" : "NN",
+      "multiply" : 0.607318,
+      "probabilities" : {
+        "P(bengali|object)" : 0.84466,
+        "P(object|bengali)" : 0.719008
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "british",
+      "PosTag" : "JJ",
+      "multiply" : 0.089152,
+      "probabilities" : {
+        "P(british|object)" : 0.31068,
+        "P(object|british)" : 0.286957
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "english",
+      "PosTag" : "JJ",
+      "multiply" : 0.034808,
+      "probabilities" : {
+        "P(english|object)" : 0.213592,
+        "P(object|english)" : 0.162963
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "india",
+      "PosTag" : "NN",
+      "multiply" : 0.022898,
+      "probabilities" : {
+        "P(india|object)" : 0.242718,
+        "P(object|india)" : 0.09434
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "best",
+      "PosTag" : "JJ",
+      "multiply" : 0.022061,
+      "probabilities" : {
+        "P(best|object)" : 0.213592,
+        "P(object|best)" : 0.103286
+      }
+    } ]
+  }, {
+    "object" : "Mexican_people",
+    "objectIndex" : "3",
+    "numberOfEntitiesFoundInObject" : 191,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "legislature",
+      "PosTag" : "NN",
+      "multiply" : 0.95332,
+      "probabilities" : {
+        "P(legislature|object)" : 0.973822,
+        "P(object|legislature)" : 0.978947
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "congress",
+      "PosTag" : "NN",
+      "multiply" : 0.887897,
+      "probabilities" : {
+        "P(congress|object)" : 0.973822,
+        "P(object|congress)" : 0.911765
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "deputy",
+      "PosTag" : "NN",
+      "multiply" : 0.77985,
+      "probabilities" : {
+        "P(deputy|object)" : 0.86911,
+        "P(object|deputy)" : 0.897297
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "politician",
+      "PosTag" : "NN",
+      "multiply" : 0.646896,
+      "probabilities" : {
+        "P(politician|object)" : 0.973822,
+        "P(object|politician)" : 0.664286
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "senator",
+      "PosTag" : "NN",
+      "multiply" : 0.283084,
+      "probabilities" : {
+        "P(senator|object)" : 0.293194,
+        "P(object|senator)" : 0.965517
+      }
+    } ]
+  } ]
+}

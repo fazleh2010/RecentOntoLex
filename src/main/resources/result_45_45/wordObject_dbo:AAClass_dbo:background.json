@@ -1,0 +1,65 @@
+{
+  "age-NN" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.239852,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(age|object)" : 0.383178,
+      "P(object|age)" : 0.625954
+    }
+  } ],
+  "music-NN" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.223584,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(music|object)" : 0.46729,
+      "P(object|music)" : 0.478469
+    }
+  } ],
+  "name-NN" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.224724,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(name|object)" : 0.32243,
+      "P(object|name)" : 0.69697
+    }
+  } ],
+  "professor-NN" : [ {
+    "object" : "Harvard_University",
+    "multiply" : 0.010505,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(professor|object)" : 0.167742,
+      "P(object|professor)" : 0.062628
+    }
+  } ],
+  "song-NN" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.334537,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(song|object)" : 0.490654,
+      "P(object|song)" : 0.681818
+    }
+  } ],
+  "songwriter-NN" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.2886,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(songwriter|object)" : 0.359813,
+      "P(object|songwriter)" : 0.802083
+    }
+  } ],
+  "york-NN" : [ {
+    "object" : "Columbia_University",
+    "multiply" : 0.020112,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(york|object)" : 0.281915,
+      "P(object|york)" : 0.071342
+    }
+  } ]
+}

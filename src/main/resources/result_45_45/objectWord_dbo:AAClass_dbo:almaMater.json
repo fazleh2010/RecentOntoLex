@@ -1,0 +1,31 @@
+{
+  "dbo:AAClass_dbo:almaMater.json" : [ {
+    "object" : "Columbia_University",
+    "objectIndex" : "1",
+    "numberOfEntitiesFoundInObject" : 188,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "york",
+      "PosTag" : "NN",
+      "multiply" : 0.020112,
+      "probabilities" : {
+        "P(york|object)" : 0.281915,
+        "P(object|york)" : 0.071342
+      }
+    } ]
+  }, {
+    "object" : "Harvard_University",
+    "objectIndex" : "2",
+    "numberOfEntitiesFoundInObject" : 155,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "professor",
+      "PosTag" : "NN",
+      "multiply" : 0.010505,
+      "probabilities" : {
+        "P(professor|object)" : 0.167742,
+        "P(object|professor)" : 0.062628
+      }
+    } ]
+  } ]
+}

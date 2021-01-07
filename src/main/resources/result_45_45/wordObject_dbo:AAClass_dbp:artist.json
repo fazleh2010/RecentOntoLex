@@ -1,0 +1,136 @@
+{
+  "america-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.036047,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(america|object)" : 0.481481,
+      "P(object|america)" : 0.074866
+    }
+  } ],
+  "american-JJ" : [ {
+    "object" : "United States",
+    "multiply" : 0.02879,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(american|object)" : 0.37963,
+      "P(object|american)" : 0.075838
+    }
+  } ],
+  "artists-NN" : [ {
+    "object" : "Various Artists",
+    "multiply" : 0.125339,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(artists|object)" : 0.347368,
+      "P(object|artists)" : 0.360825
+    }
+  } ],
+  "chain-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.02094,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(chain|object)" : 0.194444,
+      "P(object|chain)" : 0.107692
+    }
+  } ],
+  "compilation-NN" : [ {
+    "object" : "Various Artists",
+    "multiply" : 0.14367,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(compilation|object)" : 0.526316,
+      "P(object|compilation)" : 0.272973
+    }
+  } ],
+  "film-NN" : [ {
+    "object" : "Various artists",
+    "multiply" : 0.124886,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(film|object)" : 0.376238,
+      "P(object|film)" : 0.331933
+    }
+  } ],
+  "release-NN" : [ {
+    "object" : "Various Artists",
+    "multiply" : 0.067832,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(release|object)" : 0.826316,
+      "P(object|release)" : 0.08209
+    }
+  }, {
+    "object" : "Various artists",
+    "multiply" : 0.077151,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(release|object)" : 0.866337,
+      "P(object|release)" : 0.089055
+    }
+  } ],
+  "series-NN" : [ {
+    "object" : "Various Artists",
+    "multiply" : 0.075074,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(series|object)" : 0.284211,
+      "P(object|series)" : 0.264151
+    }
+  } ],
+  "sound-JJ" : [ {
+    "object" : "Various artists",
+    "multiply" : 0.107778,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(sound|object)" : 0.480198,
+      "P(object|sound)" : 0.224444
+    }
+  } ],
+  "soundtrack-NN" : [ {
+    "object" : "Various artists",
+    "multiply" : 0.178218,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(soundtrack|object)" : 0.445545,
+      "P(object|soundtrack)" : 0.4
+    }
+  } ],
+  "states-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.042906,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(states|object)" : 0.444444,
+      "P(object|states)" : 0.096539
+    }
+  } ],
+  "track-NN" : [ {
+    "object" : "Various artists",
+    "multiply" : 0.094719,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(track|object)" : 0.589109,
+      "P(object|track)" : 0.160784
+    }
+  } ],
+  "united-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.0263,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(united|object)" : 0.37963,
+      "P(object|united)" : 0.069277
+    }
+  } ],
+  "us-NN" : [ {
+    "object" : "Various Artists",
+    "multiply" : 0.058842,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(us|object)" : 0.705263,
+      "P(object|us)" : 0.083433
+    }
+  } ]
+}

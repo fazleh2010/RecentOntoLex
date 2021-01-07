@@ -72,7 +72,7 @@ public class ObjectLexicaliation implements PropertyNotation, DirectoryLocation,
 
     @Ignore
     public void MEAN_RECIPROCAL_OBJECT_LEX_TEST() throws IOException, Exception {
-        List<String> POSTAGS2 = new ArrayList<String>(Arrays.asList(ADJECTIVE, NOUN));
+        List<String> POSTAGS2 = new ArrayList<String>(Arrays.asList( NOUN));
         for (String postag : POSTAGS2) {
             String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, postag);
             String conditionalFilename = FileFolderUtils.getLexiconFile(qald9Dir, OBJECT, postag);

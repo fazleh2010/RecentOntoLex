@@ -1,0 +1,154 @@
+{
+  "dbo:AAClass_dbo:award.json" : [ {
+    "object" : "Padma_Shri",
+    "objectIndex" : "1",
+    "numberOfEntitiesFoundInObject" : 157,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "shri",
+      "PosTag" : "NN",
+      "multiply" : 0.785252,
+      "probabilities" : {
+        "P(shri|object)" : 0.866242,
+        "P(object|shri)" : 0.906504
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "fourth",
+      "PosTag" : "JJ",
+      "multiply" : 0.687475,
+      "probabilities" : {
+        "P(fourth|object)" : 0.751592,
+        "P(object|fourth)" : 0.914692
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "padma",
+      "PosTag" : "NN",
+      "multiply" : 0.666251,
+      "probabilities" : {
+        "P(padma|object)" : 0.872611,
+        "P(object|padma)" : 0.763514
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "civilian",
+      "PosTag" : "JJ",
+      "multiply" : 0.635549,
+      "probabilities" : {
+        "P(civilian|object)" : 0.789809,
+        "P(object|civilian)" : 0.804688
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "highest",
+      "PosTag" : "JJ",
+      "multiply" : 0.55021,
+      "probabilities" : {
+        "P(highest|object)" : 0.764331,
+        "P(object|highest)" : 0.719858
+      }
+    } ]
+  } ],
+  "dbo:AAClass_dbo:ethnicity.json" : [ {
+    "object" : "Bengali_people",
+    "objectIndex" : "2",
+    "numberOfEntitiesFoundInObject" : 103,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "bengali",
+      "PosTag" : "NN",
+      "multiply" : 0.607318,
+      "probabilities" : {
+        "P(bengali|object)" : 0.84466,
+        "P(object|bengali)" : 0.719008
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "british",
+      "PosTag" : "JJ",
+      "multiply" : 0.089152,
+      "probabilities" : {
+        "P(british|object)" : 0.31068,
+        "P(object|british)" : 0.286957
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "english",
+      "PosTag" : "JJ",
+      "multiply" : 0.034808,
+      "probabilities" : {
+        "P(english|object)" : 0.213592,
+        "P(object|english)" : 0.162963
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "india",
+      "PosTag" : "NN",
+      "multiply" : 0.022898,
+      "probabilities" : {
+        "P(india|object)" : 0.242718,
+        "P(object|india)" : 0.09434
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "best",
+      "PosTag" : "JJ",
+      "multiply" : 0.022061,
+      "probabilities" : {
+        "P(best|object)" : 0.213592,
+        "P(object|best)" : 0.103286
+      }
+    } ]
+  }, {
+    "object" : "Mexican_people",
+    "objectIndex" : "3",
+    "numberOfEntitiesFoundInObject" : 191,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "legislature",
+      "PosTag" : "NN",
+      "multiply" : 0.95332,
+      "probabilities" : {
+        "P(legislature|object)" : 0.973822,
+        "P(object|legislature)" : 0.978947
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "congress",
+      "PosTag" : "NN",
+      "multiply" : 0.887897,
+      "probabilities" : {
+        "P(congress|object)" : 0.973822,
+        "P(object|congress)" : 0.911765
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "deputy",
+      "PosTag" : "NN",
+      "multiply" : 0.77985,
+      "probabilities" : {
+        "P(deputy|object)" : 0.86911,
+        "P(object|deputy)" : 0.897297
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "politician",
+      "PosTag" : "NN",
+      "multiply" : 0.646896,
+      "probabilities" : {
+        "P(politician|object)" : 0.973822,
+        "P(object|politician)" : 0.664286
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "senator",
+      "PosTag" : "NN",
+      "multiply" : 0.283084,
+      "probabilities" : {
+        "P(senator|object)" : 0.293194,
+        "P(object|senator)" : 0.965517
+      }
+    } ]
+  } ]
+}

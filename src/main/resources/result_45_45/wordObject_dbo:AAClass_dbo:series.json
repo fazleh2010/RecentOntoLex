@@ -1,0 +1,5841 @@
+{
+  "academy-NN" : [ {
+    "object" : "Special_effect",
+    "multiply" : 0.049519,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(academy|object)" : 0.816514,
+      "P(object|academy)" : 0.060647
+    }
+  } ],
+  "actor-NN" : [ {
+    "object" : "Actor",
+    "multiply" : 0.26477,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(actor|object)" : 0.884106,
+      "P(object|actor)" : 0.299477
+    }
+  }, {
+    "object" : "India",
+    "multiply" : 0.074153,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(actor|object)" : 0.315985,
+      "P(object|actor)" : 0.234672
+    }
+  } ],
+  "actress-NN" : [ {
+    "object" : "Actress",
+    "multiply" : 0.249544,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(actress|object)" : 0.994662,
+      "P(object|actress)" : 0.250883
+    }
+  }, {
+    "object" : "California",
+    "multiply" : 0.012928,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(actress|object)" : 0.136126,
+      "P(object|actress)" : 0.094972
+    }
+  } ],
+  "adult-NN" : [ {
+    "object" : "Young-adult_fiction",
+    "multiply" : 0.138195,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(adult|object)" : 0.617978,
+      "P(object|adult)" : 0.223624
+    }
+  }, {
+    "object" : "Young_adult_novel",
+    "multiply" : 0.08378,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(adult|object)" : 0.566327,
+      "P(object|adult)" : 0.147936
+    }
+  } ],
+  "affairs-NN" : [ {
+    "object" : "Islam",
+    "multiply" : 0.028419,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(affairs|object)" : 0.094574,
+      "P(object|affairs)" : 0.300493
+    }
+  } ],
+  "alberta-NN" : [ {
+    "object" : "Progressive_Conservative_Association_of_Alberta",
+    "multiply" : 0.354128,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(alberta|object)" : 0.992593,
+      "P(object|alberta)" : 0.356771
+    }
+  } ],
+  "album-NN" : [ {
+    "object" : "Japanese_language",
+    "multiply" : 0.053495,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(album|object)" : 0.418478,
+      "P(object|album)" : 0.127832
+    }
+  }, {
+    "object" : "Korean_language",
+    "multiply" : 0.085296,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(album|object)" : 0.620155,
+      "P(object|album)" : 0.13754
+    }
+  }, {
+    "object" : "Spanish_language",
+    "multiply" : 0.012799,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(album|object)" : 0.19774,
+      "P(object|album)" : 0.064725
+    }
+  } ],
+  "alps-NN" : [ {
+    "object" : "Bernese_Alps",
+    "multiply" : 0.121267,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(alps|object)" : 0.976077,
+      "P(object|alps)" : 0.124239
+    }
+  }, {
+    "object" : "Pennine_Alps",
+    "multiply" : 0.111037,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(alps|object)" : 0.959596,
+      "P(object|alps)" : 0.115713
+    }
+  } ],
+  "alternative-JJ" : [ {
+    "object" : "Alternative_rock",
+    "multiply" : 0.140651,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(alternative|object)" : 0.27521,
+      "P(object|alternative)" : 0.511066
+    }
+  } ],
+  "american-JJ" : [ {
+    "object" : "Jazz",
+    "multiply" : 0.028797,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(american|object)" : 0.342278,
+      "P(object|american)" : 0.084134
+    }
+  }, {
+    "object" : "Non-fiction",
+    "multiply" : 0.011175,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(american|object)" : 0.227926,
+      "P(object|american)" : 0.049028
+    }
+  }, {
+    "object" : "United_States_Army",
+    "multiply" : 0.150629,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(american|object)" : 0.459677,
+      "P(object|american)" : 0.327684
+    }
+  }, {
+    "object" : "Member of the",
+    "multiply" : 0.036898,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(american|object)" : 0.507353,
+      "P(object|american)" : 0.072727
+    }
+  }, {
+    "object" : "Democratic_Party_(United_States)",
+    "multiply" : 0.257071,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(american|object)" : 0.564263,
+      "P(object|american)" : 0.455587
+    }
+  }, {
+    "object" : "Lawyer",
+    "multiply" : 0.230565,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(american|object)" : 0.566474,
+      "P(object|american)" : 0.407018
+    }
+  }, {
+    "object" : "California",
+    "multiply" : 0.035086,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(american|object)" : 0.691099,
+      "P(object|american)" : 0.050768
+    }
+  }, {
+    "object" : "United_States",
+    "multiply" : 0.022594,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(american|object)" : 0.493776,
+      "P(object|american)" : 0.045758
+    }
+  } ],
+  "american-NN" : [ {
+    "object" : "California",
+    "multiply" : 0.034575,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(american|object)" : 0.444444,
+      "P(object|american)" : 0.077793
+    }
+  }, {
+    "object" : "New_York_City",
+    "multiply" : 0.036921,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(american|object)" : 0.35514,
+      "P(object|american)" : 0.10396
+    }
+  }, {
+    "object" : "Baptist",
+    "multiply" : 0.021004,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(american|object)" : 0.371212,
+      "P(object|american)" : 0.056582
+    }
+  }, {
+    "object" : "Catholic_Church",
+    "multiply" : 0.021684,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(american|object)" : 0.335329,
+      "P(object|american)" : 0.064665
+    }
+  }, {
+    "object" : "Christian",
+    "multiply" : 0.016247,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(american|object)" : 0.255814,
+      "P(object|american)" : 0.06351
+    }
+  }, {
+    "object" : "Judaism",
+    "multiply" : 0.015004,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(american|object)" : 0.295302,
+      "P(object|american)" : 0.050808
+    }
+  } ],
+  "andes-NN" : [ {
+    "object" : "Andes",
+    "multiply" : 0.833222,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(andes|object)" : 0.899094,
+      "P(object|andes)" : 0.926735
+    }
+  } ],
+  "arabic-NN" : [ {
+    "object" : "Islam",
+    "multiply" : 0.139161,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(arabic|object)" : 0.231008,
+      "P(object|arabic)" : 0.60241
+    }
+  } ],
+  "artist-NN" : [ {
+    "object" : "Special_effect",
+    "multiply" : 0.038087,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(artist|object)" : 0.816514,
+      "P(object|artist)" : 0.046646
+    }
+  }, {
+    "object" : "Nashville,_Tennessee",
+    "multiply" : 0.021757,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(artist|object)" : 0.277228,
+      "P(object|artist)" : 0.078481
+    }
+  } ],
+  "assembly-NN" : [ {
+    "object" : "Queensland Legislative",
+    "multiply" : 0.077919,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(assembly|object)" : 0.891892,
+      "P(object|assembly)" : 0.087363
+    }
+  }, {
+    "object" : "Member of the Legislative Assembly of Alberta",
+    "multiply" : 0.147487,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(assembly|object)" : 0.991031,
+      "P(object|assembly)" : 0.148822
+    }
+  }, {
+    "object" : "Australian_Labor_Party",
+    "multiply" : 0.070133,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(assembly|object)" : 0.700952,
+      "P(object|assembly)" : 0.100054
+    }
+  }, {
+    "object" : "Union_for_a_Popular_Movement",
+    "multiply" : 0.028857,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(assembly|object)" : 0.632812,
+      "P(object|assembly)" : 0.045601
+    }
+  }, {
+    "object" : "Hindu",
+    "multiply" : 0.100145,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(assembly|object)" : 0.471186,
+      "P(object|assembly)" : 0.212538
+    }
+  }, {
+    "object" : "Ontario",
+    "multiply" : 0.022335,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(assembly|object)" : 0.346369,
+      "P(object|assembly)" : 0.064483
+    }
+  } ],
+  "australian-JJ" : [ {
+    "object" : "Queensland Legislative",
+    "multiply" : 0.199228,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(australian|object)" : 0.681081,
+      "P(object|australian)" : 0.292517
+    }
+  } ],
+  "australian-NN" : [ {
+    "object" : "Australian_Labor_Party",
+    "multiply" : 0.617707,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(australian|object)" : 0.977143,
+      "P(object|australian)" : 0.632156
+    }
+  }, {
+    "object" : "Liberal_Party_of_Australia",
+    "multiply" : 0.141596,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(australian|object)" : 0.9375,
+      "P(object|australian)" : 0.151035
+    }
+  } ],
+  "author-NN" : [ {
+    "object" : "Children's_literature",
+    "multiply" : 0.037873,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.534954,
+      "P(object|author)" : 0.070796
+    }
+  }, {
+    "object" : "Fantasy",
+    "multiply" : 0.074287,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.617647,
+      "P(object|author)" : 0.120274
+    }
+  }, {
+    "object" : "Fiction",
+    "multiply" : 0.025237,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.482609,
+      "P(object|author)" : 0.052293
+    }
+  }, {
+    "object" : "Horror_fiction",
+    "multiply" : 0.034256,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.545894,
+      "P(object|author)" : 0.062751
+    }
+  }, {
+    "object" : "Romance_novel",
+    "multiply" : 0.0292,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.419608,
+      "P(object|author)" : 0.06959
+    }
+  }, {
+    "object" : "Science_fiction",
+    "multiply" : 0.055277,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.46114,
+      "P(object|author)" : 0.119871
+    }
+  }, {
+    "object" : "English_language",
+    "multiply" : 0.147971,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.288965,
+      "P(object|author)" : 0.512073
+    }
+  }, {
+    "object" : "Novel",
+    "multiply" : 0.022509,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.344353,
+      "P(object|author)" : 0.065367
+    }
+  }, {
+    "object" : "Hardcover",
+    "multiply" : 0.189799,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.282305,
+      "P(object|author)" : 0.672322
+    }
+  }, {
+    "object" : "Paperback",
+    "multiply" : 0.093392,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.270244,
+      "P(object|author)" : 0.345586
+    }
+  }, {
+    "object" : "Author",
+    "multiply" : 0.169332,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.838215,
+      "P(object|author)" : 0.202015
+    }
+  }, {
+    "object" : "Journalist",
+    "multiply" : 0.016447,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.289246,
+      "P(object|author)" : 0.056862
+    }
+  }, {
+    "object" : "Novelist",
+    "multiply" : 0.05352,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.421687,
+      "P(object|author)" : 0.126919
+    }
+  } ],
+  "awards-NN" : [ {
+    "object" : "Special_effect",
+    "multiply" : 0.030597,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(awards|object)" : 0.66055,
+      "P(object|awards)" : 0.04632
+    }
+  } ],
+  "aymara-NN" : [ {
+    "object" : "Andes",
+    "multiply" : 0.566691,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(aymara|object)" : 0.567917,
+      "P(object|aymara)" : 0.99784
+    }
+  } ],
+  "band-NN" : [ {
+    "object" : "Alternative_rock",
+    "multiply" : 0.079199,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(band|object)" : 0.671218,
+      "P(object|band)" : 0.117992
+    }
+  }, {
+    "object" : "Hard_rock",
+    "multiply" : 0.061392,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(band|object)" : 0.753304,
+      "P(object|band)" : 0.081497
+    }
+  }, {
+    "object" : "Heavy_metal_music",
+    "multiply" : 0.049425,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(band|object)" : 0.816,
+      "P(object|band)" : 0.06057
+    }
+  }, {
+    "object" : "Indie_rock",
+    "multiply" : 0.045033,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(band|object)" : 0.642436,
+      "P(object|band)" : 0.070098
+    }
+  }, {
+    "object" : "Progressive_rock",
+    "multiply" : 0.033102,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(band|object)" : 0.720588,
+      "P(object|band)" : 0.045938
+    }
+  }, {
+    "object" : "Punk_rock",
+    "multiply" : 0.037473,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(band|object)" : 0.760791,
+      "P(object|band)" : 0.049256
+    }
+  }, {
+    "object" : "Rock_music",
+    "multiply" : 0.044458,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(band|object)" : 0.496769,
+      "P(object|band)" : 0.089494
+    }
+  }, {
+    "object" : "German_language",
+    "multiply" : 0.010126,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(band|object)" : 0.154321,
+      "P(object|band)" : 0.065617
+    }
+  }, {
+    "object" : "Korean_language",
+    "multiply" : 0.019532,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(band|object)" : 0.232558,
+      "P(object|band)" : 0.08399
+    }
+  } ],
+  "bbc-NN" : [ {
+    "object" : "Doctor_Who",
+    "multiply" : 0.459153,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(bbc|object)" : 0.563291,
+      "P(object|bbc)" : 0.815126
+    }
+  } ],
+  "bengali-NN" : [ {
+    "object" : "Bengali_people",
+    "multiply" : 0.607318,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(bengali|object)" : 0.84466,
+      "P(object|bengali)" : 0.719008
+    }
+  } ],
+  "best-JJ" : [ {
+    "object" : "Bengali_people",
+    "multiply" : 0.022061,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(best|object)" : 0.213592,
+      "P(object|best)" : 0.103286
+    }
+  } ],
+  "billboard-NN" : [ {
+    "object" : "Contemporary_R&B",
+    "multiply" : 0.040573,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(billboard|object)" : 0.466165,
+      "P(object|billboard)" : 0.087035
+    }
+  }, {
+    "object" : "Hip_hop_music",
+    "multiply" : 0.027185,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(billboard|object)" : 0.264851,
+      "P(object|billboard)" : 0.102641
+    }
+  }, {
+    "object" : "Atlantic_Records",
+    "multiply" : 0.013073,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(billboard|object)" : 0.281659,
+      "P(object|billboard)" : 0.046414
+    }
+  }, {
+    "object" : "Warner_Bros._Records",
+    "multiply" : 0.014131,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(billboard|object)" : 0.261941,
+      "P(object|billboard)" : 0.053948
+    }
+  }, {
+    "object" : "California",
+    "multiply" : 0.025983,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(billboard|object)" : 0.262626,
+      "P(object|billboard)" : 0.098935
+    }
+  }, {
+    "object" : "Nashville,_Tennessee",
+    "multiply" : 0.012538,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(billboard|object)" : 0.257426,
+      "P(object|billboard)" : 0.048706
+    }
+  } ],
+  "bishop-NN" : [ {
+    "object" : "Anglicanism",
+    "multiply" : 0.448,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(bishop|object)" : 0.7,
+      "P(object|bishop)" : 0.64
+    }
+  } ],
+  "black-JJ" : [ {
+    "object" : "Black_metal",
+    "multiply" : 0.083666,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(black|object)" : 0.752525,
+      "P(object|black)" : 0.11118
+    }
+  } ],
+  "blue-NN" : [ {
+    "object" : "Alfred_Lion",
+    "multiply" : 0.125637,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(blue|object)" : 0.986667,
+      "P(object|blue)" : 0.127334
+    }
+  }, {
+    "object" : "Blue_Note_Records",
+    "multiply" : 0.165012,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(blue|object)" : 0.958491,
+      "P(object|blue)" : 0.172159
+    }
+  }, {
+    "object" : "Van_Gelder_Studio",
+    "multiply" : 0.193088,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(blue|object)" : 0.516729,
+      "P(object|blue)" : 0.373673
+    }
+  } ],
+  "book-NN" : [ {
+    "object" : "Children's_literature",
+    "multiply" : 0.062802,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.705167,
+      "P(object|book)" : 0.08906
+    }
+  }, {
+    "object" : "Fantasy",
+    "multiply" : 0.030638,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.376471,
+      "P(object|book)" : 0.081382
+    }
+  }, {
+    "object" : "Horror_fiction",
+    "multiply" : 0.017944,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.396135,
+      "P(object|book)" : 0.045298
+    }
+  }, {
+    "object" : "English_language",
+    "multiply" : 0.31889,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.504895,
+      "P(object|book)" : 0.631596
+    }
+  }, {
+    "object" : "Children's_literature",
+    "multiply" : 0.063381,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.800215,
+      "P(object|book)" : 0.079205
+    }
+  }, {
+    "object" : "Fantasy_novel",
+    "multiply" : 0.051732,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.641101,
+      "P(object|book)" : 0.080693
+    }
+  }, {
+    "object" : "Non-fiction",
+    "multiply" : 0.045021,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.895277,
+      "P(object|book)" : 0.050287
+    }
+  }, {
+    "object" : "Hardback",
+    "multiply" : 0.0407,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.563272,
+      "P(object|book)" : 0.072257
+    }
+  }, {
+    "object" : "Hardcover",
+    "multiply" : 0.373329,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.565926,
+      "P(object|book)" : 0.659679
+    }
+  }, {
+    "object" : "Paperback",
+    "multiply" : 0.220905,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.603987,
+      "P(object|book)" : 0.365745
+    }
+  }, {
+    "object" : "Author",
+    "multiply" : 0.061785,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.461646,
+      "P(object|book)" : 0.133837
+    }
+  }, {
+    "object" : "Journalist",
+    "multiply" : 0.011568,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.217553,
+      "P(object|book)" : 0.053172
+    }
+  }, {
+    "object" : "Novelist",
+    "multiply" : 0.039255,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.307898,
+      "P(object|book)" : 0.127492
+    }
+  }, {
+    "object" : "Poet",
+    "multiply" : 0.01004,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.175824,
+      "P(object|book)" : 0.0571
+    }
+  } ],
+  "books-NN" : [ {
+    "object" : "Children's_literature",
+    "multiply" : 0.079317,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(books|object)" : 0.580547,
+      "P(object|books)" : 0.136624
+    }
+  }, {
+    "object" : "Horror_fiction",
+    "multiply" : 0.020982,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(books|object)" : 0.318841,
+      "P(object|books)" : 0.065808
+    }
+  }, {
+    "object" : "Non-fiction",
+    "multiply" : 0.019355,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(books|object)" : 0.392157,
+      "P(object|books)" : 0.049356
+    }
+  }, {
+    "object" : "Poetry",
+    "multiply" : 0.011359,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(books|object)" : 0.240602,
+      "P(object|books)" : 0.04721
+    }
+  }, {
+    "object" : "Romance_novel",
+    "multiply" : 0.010098,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(books|object)" : 0.176471,
+      "P(object|books)" : 0.057225
+    }
+  }, {
+    "object" : "Science_fiction",
+    "multiply" : 0.026937,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(books|object)" : 0.238342,
+      "P(object|books)" : 0.113019
+    }
+  }, {
+    "object" : "Fantasy",
+    "multiply" : 0.017387,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(books|object)" : 0.299335,
+      "P(object|books)" : 0.058087
+    }
+  }, {
+    "object" : "Author",
+    "multiply" : 0.049581,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(books|object)" : 0.315202,
+      "P(object|books)" : 0.157298
+    }
+  } ],
+  "border-NN" : [ {
+    "object" : "Lepontine_Alps",
+    "multiply" : 0.021839,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(border|object)" : 0.426901,
+      "P(object|border)" : 0.051156
+    }
+  } ],
+  "brand-NN" : [ {
+    "object" : "Retail",
+    "multiply" : 0.024442,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(brand|object)" : 0.275087,
+      "P(object|brand)" : 0.088854
+    }
+  }, {
+    "object" : "Clothing",
+    "multiply" : 0.028839,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(brand|object)" : 0.464706,
+      "P(object|brand)" : 0.062058
+    }
+  } ],
+  "british-JJ" : [ {
+    "object" : "Bengali_people",
+    "multiply" : 0.089152,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(british|object)" : 0.31068,
+      "P(object|british)" : 0.286957
+    }
+  }, {
+    "object" : "London",
+    "multiply" : 0.054815,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(british|object)" : 0.24,
+      "P(object|british)" : 0.228395
+    }
+  }, {
+    "object" : "Doctor_Who",
+    "multiply" : 0.419001,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(british|object)" : 0.860759,
+      "P(object|british)" : 0.486781
+    }
+  } ],
+  "british-NN" : [ {
+    "object" : "Member of Parliament",
+    "multiply" : 0.049705,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(british|object)" : 0.316092,
+      "P(object|british)" : 0.157248
+    }
+  }, {
+    "object" : "Conservative_Party_(UK)",
+    "multiply" : 0.044218,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(british|object)" : 0.59434,
+      "P(object|british)" : 0.074398
+    }
+  }, {
+    "object" : "Labor_Party_(UK)",
+    "multiply" : 0.197887,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(british|object)" : 0.763158,
+      "P(object|british)" : 0.2593
+    }
+  }, {
+    "object" : "Liberal_Party_(UK)",
+    "multiply" : 0.078261,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(british|object)" : 0.489933,
+      "P(object|british)" : 0.159737
+    }
+  } ],
+  "businessman-NN" : [ {
+    "object" : "Business",
+    "multiply" : 0.037531,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(businessman|object)" : 0.547445,
+      "P(object|businessman)" : 0.068556
+    }
+  } ],
+  "california-NN" : [ {
+    "object" : "Council–manager_government",
+    "multiply" : 0.269769,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(california|object)" : 0.577181,
+      "P(object|california)" : 0.467391
+    }
+  }, {
+    "object" : "Sierra_Nevada_(U.S.)",
+    "multiply" : 0.337101,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(california|object)" : 0.8125,
+      "P(object|california)" : 0.414894
+    }
+  }, {
+    "object" : "California",
+    "multiply" : 0.134686,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(california|object)" : 0.439791,
+      "P(object|california)" : 0.30625
+    }
+  } ],
+  "canada-NN" : [ {
+    "object" : "Member of the Legislative Assembly of Alberta",
+    "multiply" : 0.262469,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(canada|object)" : 0.919283,
+      "P(object|canada)" : 0.285515
+    }
+  }, {
+    "object" : "Ontario MPP",
+    "multiply" : 0.079192,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(canada|object)" : 0.728972,
+      "P(object|canada)" : 0.108635
+    }
+  }, {
+    "object" : "Ontario_Liberal_Party",
+    "multiply" : 0.054794,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(canada|object)" : 0.700935,
+      "P(object|canada)" : 0.078173
+    }
+  }, {
+    "object" : "Progressive_Conservative_Association_of_Alberta",
+    "multiply" : 0.066441,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(canada|object)" : 0.688889,
+      "P(object|canada)" : 0.096447
+    }
+  }, {
+    "object" : "Progressive_Conservative_Party_of_Ontario",
+    "multiply" : 0.060678,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(canada|object)" : 0.629139,
+      "P(object|canada)" : 0.096447
+    }
+  }, {
+    "object" : "Ontario",
+    "multiply" : 0.123608,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(canada|object)" : 0.558659,
+      "P(object|canada)" : 0.221258
+    }
+  } ],
+  "canadian-JJ" : [ {
+    "object" : "Ontario",
+    "multiply" : 0.084352,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(canadian|object)" : 0.581006,
+      "P(object|canadian)" : 0.145183
+    }
+  } ],
+  "canton-NN" : [ {
+    "object" : "Bernese_Alps",
+    "multiply" : 0.106642,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(canton|object)" : 0.674641,
+      "P(object|canton)" : 0.158072
+    }
+  }, {
+    "object" : "Lepontine_Alps",
+    "multiply" : 0.126669,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(canton|object)" : 0.812865,
+      "P(object|canton)" : 0.15583
+    }
+  }, {
+    "object" : "Pennine_Alps",
+    "multiply" : 0.097166,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(canton|object)" : 0.661616,
+      "P(object|canton)" : 0.146861
+    }
+  } ],
+  "capital-NN" : [ {
+    "object" : "Unitary_state",
+    "multiply" : 0.138776,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(capital|object)" : 0.742857,
+      "P(object|capital)" : 0.186813
+    }
+  } ],
+  "caucus-NN" : [ {
+    "object" : "Member of the Legislative Assembly of Alberta",
+    "multiply" : 0.491615,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(caucus|object)" : 0.775785,
+      "P(object|caucus)" : 0.6337
+    }
+  } ],
+  "census-NN" : [ {
+    "object" : "Council-manager_government",
+    "multiply" : 0.189408,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(census|object)" : 0.888571,
+      "P(object|census)" : 0.21316
+    }
+  }, {
+    "object" : "Council–manager_government",
+    "multiply" : 0.068466,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(census|object)" : 0.818792,
+      "P(object|census)" : 0.083619
+    }
+  }, {
+    "object" : "Mayor-council_government",
+    "multiply" : 0.150576,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(census|object)" : 0.900369,
+      "P(object|census)" : 0.167238
+    }
+  }, {
+    "object" : "Mayor–council_government",
+    "multiply" : 0.12297,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(census|object)" : 0.773333,
+      "P(object|census)" : 0.159013
+    }
+  }, {
+    "object" : "City Council",
+    "multiply" : 0.053008,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(census|object)" : 0.812121,
+      "P(object|census)" : 0.065271
+    }
+  }, {
+    "object" : "City Manager",
+    "multiply" : 0.097286,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(census|object)" : 0.908127,
+      "P(object|census)" : 0.107128
+    }
+  } ],
+  "century-NN" : [ {
+    "object" : "Historical_novel",
+    "multiply" : 0.015975,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(century|object)" : 0.141304,
+      "P(object|century)" : 0.113055
+    }
+  } ],
+  "chain-NN" : [ {
+    "object" : "Restaurant",
+    "multiply" : 0.073457,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(chain|object)" : 0.791304,
+      "P(object|chain)" : 0.092831
+    }
+  }, {
+    "object" : "Retail",
+    "multiply" : 0.162819,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(chain|object)" : 0.548443,
+      "P(object|chain)" : 0.296875
+    }
+  }, {
+    "object" : "Clothing",
+    "multiply" : 0.013444,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(chain|object)" : 0.217647,
+      "P(object|chain)" : 0.06177
+    }
+  } ],
+  "chart-NN" : [ {
+    "object" : "Contemporary_R&B",
+    "multiply" : 0.02724,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(chart|object)" : 0.428571,
+      "P(object|chart)" : 0.06356
+    }
+  }, {
+    "object" : "Country_music",
+    "multiply" : 0.052268,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(chart|object)" : 0.502964,
+      "P(object|chart)" : 0.103919
+    }
+  } ],
+  "charts-NN" : [ {
+    "object" : "Country_music",
+    "multiply" : 0.054102,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(charts|object)" : 0.296443,
+      "P(object|charts)" : 0.182503
+    }
+  } ],
+  "children-NN" : [ {
+    "object" : "Swedish_language",
+    "multiply" : 0.021139,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(children|object)" : 0.243094,
+      "P(object|children)" : 0.086957
+    }
+  }, {
+    "object" : "Children's_literature",
+    "multiply" : 0.278416,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(children|object)" : 0.699248,
+      "P(object|children)" : 0.398165
+    }
+  }, {
+    "object" : "Picture_book",
+    "multiply" : 0.04405,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(children|object)" : 0.699248,
+      "P(object|children)" : 0.062997
+    }
+  } ],
+  "chile-NN" : [ {
+    "object" : "Municipality",
+    "multiply" : 0.731856,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(chile|object)" : 0.789773,
+      "P(object|chile)" : 0.926667
+    }
+  } ],
+  "china-NN" : [ {
+    "object" : "Automotive_industry",
+    "multiply" : 0.01261,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(china|object)" : 0.162712,
+      "P(object|china)" : 0.077496
+    }
+  }, {
+    "object" : "Automobile",
+    "multiply" : 0.016355,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(china|object)" : 0.229508,
+      "P(object|china)" : 0.071259
+    }
+  } ],
+  "chinese-JJ" : [ {
+    "object" : "Chinese_language",
+    "multiply" : 0.394355,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(chinese|object)" : 0.968254,
+      "P(object|chinese)" : 0.407285
+    }
+  } ],
+  "church-NN" : [ {
+    "object" : "Anglicanism",
+    "multiply" : 0.089286,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(church|object)" : 0.375,
+      "P(object|church)" : 0.238095
+    }
+  } ],
+  "civilian-JJ" : [ {
+    "object" : "Padma_Shri",
+    "multiply" : 0.635549,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(civilian|object)" : 0.789809,
+      "P(object|civilian)" : 0.804688
+    }
+  } ],
+  "collection-NN" : [ {
+    "object" : "Fantasy_fiction",
+    "multiply" : 0.099871,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(collection|object)" : 0.661808,
+      "P(object|collection)" : 0.150907
+    }
+  }, {
+    "object" : "Horror_fiction",
+    "multiply" : 0.025586,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(collection|object)" : 0.24537,
+      "P(object|collection)" : 0.104275
+    }
+  }, {
+    "object" : "Poetry",
+    "multiply" : 0.034099,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(collection|object)" : 0.65812,
+      "P(object|collection)" : 0.051813
+    }
+  } ],
+  "college-NN" : [ {
+    "object" : "Professor",
+    "multiply" : 0.014838,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(college|object)" : 0.312,
+      "P(object|college)" : 0.047558
+    }
+  }, {
+    "object" : "Anglicanism",
+    "multiply" : 0.070083,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(college|object)" : 0.3625,
+      "P(object|college)" : 0.193333
+    }
+  } ],
+  "commune-NN" : [ {
+    "object" : "Municipality",
+    "multiply" : 0.706563,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(commune|object)" : 0.744318,
+      "P(object|commune)" : 0.949275
+    }
+  } ],
+  "company-NN" : [ {
+    "object" : "Crime_novel",
+    "multiply" : 0.017505,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(company|object)" : 0.168317,
+      "P(object|company)" : 0.104
+    }
+  } ],
+  "congress-NN" : [ {
+    "object" : "Mexican_people",
+    "multiply" : 0.887897,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(congress|object)" : 0.973822,
+      "P(object|congress)" : 0.911765
+    }
+  }, {
+    "object" : "Indian_National_Congress",
+    "multiply" : 0.4096,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(congress|object)" : 0.853513,
+      "P(object|congress)" : 0.479899
+    }
+  }, {
+    "object" : "Catholic_Church",
+    "multiply" : 0.012727,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(congress|object)" : 0.161677,
+      "P(object|congress)" : 0.078717
+    }
+  } ],
+  "conservative-JJ" : [ {
+    "object" : "Conservative_Party_(UK)",
+    "multiply" : 0.06797,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(conservative|object)" : 0.820755,
+      "P(object|conservative)" : 0.082814
+    }
+  }, {
+    "object" : "Progressive_Conservative_Association_of_Alberta",
+    "multiply" : 0.062689,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(conservative|object)" : 0.711111,
+      "P(object|conservative)" : 0.088157
+    }
+  }, {
+    "object" : "Progressive_Conservative_Party_of_Ontario",
+    "multiply" : 0.125704,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(conservative|object)" : 0.966887,
+      "P(object|conservative)" : 0.130009
+    }
+  } ],
+  "conservative-NN" : [ {
+    "object" : "Ontario MPP",
+    "multiply" : 0.072508,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(conservative|object)" : 0.635514,
+      "P(object|conservative)" : 0.114094
+    }
+  } ],
+  "constituency-NN" : [ {
+    "object" : "Bharatiya_Janata_Party",
+    "multiply" : 0.042535,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(constituency|object)" : 0.625,
+      "P(object|constituency)" : 0.068056
+    }
+  }, {
+    "object" : "Hindu",
+    "multiply" : 0.198013,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(constituency|object)" : 0.522034,
+      "P(object|constituency)" : 0.37931
+    }
+  }, {
+    "object" : "Hinduism",
+    "multiply" : 0.069586,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(constituency|object)" : 0.344538,
+      "P(object|constituency)" : 0.20197
+    }
+  } ],
+  "copies-NN" : [ {
+    "object" : "Fantasy_fiction",
+    "multiply" : 0.067974,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(copies|object)" : 0.358601,
+      "P(object|copies)" : 0.189552
+    }
+  }, {
+    "object" : "Horror_fiction",
+    "multiply" : 0.017413,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(copies|object)" : 0.097222,
+      "P(object|copies)" : 0.179104
+    }
+  } ],
+  "country-NN" : [ {
+    "object" : "Country_music",
+    "multiply" : 0.480329,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(country|object)" : 0.831028,
+      "P(object|country)" : 0.577994
+    }
+  }, {
+    "object" : "Unitary_state",
+    "multiply" : 0.265285,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(country|object)" : 0.847619,
+      "P(object|country)" : 0.312977
+    }
+  }, {
+    "object" : "RCA_Records",
+    "multiply" : 0.010679,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(country|object)" : 0.1875,
+      "P(object|country)" : 0.056953
+    }
+  }, {
+    "object" : "Nashville,_Tennessee",
+    "multiply" : 0.141799,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(country|object)" : 0.534653,
+      "P(object|country)" : 0.265217
+    }
+  } ],
+  "county-NN" : [ {
+    "object" : "Council-manager_government",
+    "multiply" : 0.216593,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(county|object)" : 0.948571,
+      "P(object|county)" : 0.228336
+    }
+  }, {
+    "object" : "Council–manager_government",
+    "multiply" : 0.098391,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(county|object)" : 0.979866,
+      "P(object|county)" : 0.100413
+    }
+  }, {
+    "object" : "Mayor-council_government",
+    "multiply" : 0.152335,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(county|object)" : 0.904059,
+      "P(object|county)" : 0.168501
+    }
+  }, {
+    "object" : "Mayor–council_government",
+    "multiply" : 0.117093,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(county|object)" : 0.753333,
+      "P(object|county)" : 0.155433
+    }
+  }, {
+    "object" : "City Council",
+    "multiply" : 0.05962,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(county|object)" : 0.836364,
+      "P(object|county)" : 0.071285
+    }
+  }, {
+    "object" : "City Manager",
+    "multiply" : 0.114063,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(county|object)" : 0.946996,
+      "P(object|county)" : 0.120447
+    }
+  }, {
+    "object" : "Sierra_Nevada_(U.S.)",
+    "multiply" : 0.01909,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(county|object)" : 0.414062,
+      "P(object|county)" : 0.046105
+    }
+  } ],
+  "crime-NN" : [ {
+    "object" : "Crime_fiction",
+    "multiply" : 0.13313,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(crime|object)" : 0.679144,
+      "P(object|crime)" : 0.196026
+    }
+  }, {
+    "object" : "Crime_novel",
+    "multiply" : 0.172382,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(crime|object)" : 0.544554,
+      "P(object|crime)" : 0.316556
+    }
+  }, {
+    "object" : "Mystery_fiction",
+    "multiply" : 0.017071,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(crime|object)" : 0.214815,
+      "P(object|crime)" : 0.07947
+    }
+  }, {
+    "object" : "Mystery_novel",
+    "multiply" : 0.036699,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(crime|object)" : 0.271642,
+      "P(object|crime)" : 0.135099
+    }
+  } ],
+  "current-JJ" : [ {
+    "object" : "Christian",
+    "multiply" : 0.013605,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(current|object)" : 0.186047,
+      "P(object|current)" : 0.073126
+    }
+  } ],
+  "death-NN" : [ {
+    "object" : "Death_metal",
+    "multiply" : 0.109202,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(death|object)" : 0.786127,
+      "P(object|death)" : 0.138911
+    }
+  }, {
+    "object" : "Thrash_metal",
+    "multiply" : 0.01355,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(death|object)" : 0.238281,
+      "P(object|death)" : 0.056864
+    }
+  } ],
+  "debut-NN" : [ {
+    "object" : "Japanese_language",
+    "multiply" : 0.014941,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(debut|object)" : 0.146739,
+      "P(object|debut)" : 0.101818
+    }
+  } ],
+  "democrat-NN" : [ {
+    "object" : "Democratic_Party_(United_States)",
+    "multiply" : 0.370459,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(democrat|object)" : 0.690999,
+      "P(object|democrat)" : 0.536122
+    }
+  }, {
+    "object" : "Louisiana",
+    "multiply" : 0.034748,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(democrat|object)" : 0.513333,
+      "P(object|democrat)" : 0.06769
+    }
+  } ],
+  "democratic-JJ" : [ {
+    "object" : "Democratic_Party_(United_States)",
+    "multiply" : 0.329925,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(democratic|object)" : 0.591581,
+      "P(object|democratic)" : 0.5577
+    }
+  } ],
+  "democratic-NN" : [ {
+    "object" : "Catholic_Church",
+    "multiply" : 0.017325,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(democratic|object)" : 0.239521,
+      "P(object|democratic)" : 0.072333
+    }
+  } ],
+  "department-NN" : [ {
+    "object" : "Union_for_a_Popular_Movement",
+    "multiply" : 0.330309,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(department|object)" : 0.8125,
+      "P(object|department)" : 0.406534
+    }
+  } ],
+  "deputy-NN" : [ {
+    "object" : "Mexican_people",
+    "multiply" : 0.77985,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(deputy|object)" : 0.86911,
+      "P(object|deputy)" : 0.897297
+    }
+  } ],
+  "design-NN" : [ {
+    "object" : "Aerospace",
+    "multiply" : 0.048714,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(design|object)" : 0.524664,
+      "P(object|design)" : 0.092847
+    }
+  } ],
+  "detective-NN" : [ {
+    "object" : "Crime_fiction",
+    "multiply" : 0.020652,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(detective|object)" : 0.208556,
+      "P(object|detective)" : 0.099026
+    }
+  }, {
+    "object" : "Crime_novel",
+    "multiply" : 0.052929,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(detective|object)" : 0.293729,
+      "P(object|detective)" : 0.180195
+    }
+  }, {
+    "object" : "Detective_fiction",
+    "multiply" : 0.209681,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(detective|object)" : 0.564033,
+      "P(object|detective)" : 0.371753
+    }
+  }, {
+    "object" : "Mystery_fiction",
+    "multiply" : 0.025734,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(detective|object)" : 0.148148,
+      "P(object|detective)" : 0.173701
+    }
+  }, {
+    "object" : "Mystery_novel",
+    "multiply" : 0.018318,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(detective|object)" : 0.134328,
+      "P(object|detective)" : 0.136364
+    }
+  } ],
+  "developer-NN" : [ {
+    "object" : "Computer_and_video_game_industry",
+    "multiply" : 0.073615,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(developer|object)" : 0.59589,
+      "P(object|developer)" : 0.123537
+    }
+  }, {
+    "object" : "Video_game_industry",
+    "multiply" : 0.258744,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(developer|object)" : 0.672209,
+      "P(object|developer)" : 0.384915
+    }
+  } ],
+  "director-NN" : [ {
+    "object" : "Film_director",
+    "multiply" : 0.148104,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(director|object)" : 0.921429,
+      "P(object|director)" : 0.160733
+    }
+  }, {
+    "object" : "Screenwriter",
+    "multiply" : 0.058379,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(director|object)" : 0.529224,
+      "P(object|director)" : 0.110311
+    }
+  } ],
+  "district-NN" : [ {
+    "object" : "United_States_Army",
+    "multiply" : 0.145565,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(district|object)" : 0.459677,
+      "P(object|district)" : 0.316667
+    }
+  }, {
+    "object" : "Lake_District",
+    "multiply" : 0.219112,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(district|object)" : 0.995305,
+      "P(object|district)" : 0.220145
+    }
+  }, {
+    "object" : "Democratic_Party_(United_States)",
+    "multiply" : 0.171621,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(district|object)" : 0.564711,
+      "P(object|district)" : 0.30391
+    }
+  }, {
+    "object" : "Republican_Party_(United_States)",
+    "multiply" : 0.21984,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(district|object)" : 0.653717,
+      "P(object|district)" : 0.336292
+    }
+  }, {
+    "object" : "Lawyer",
+    "multiply" : 0.208563,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(district|object)" : 0.618497,
+      "P(object|district)" : 0.337209
+    }
+  }, {
+    "object" : "Baptist",
+    "multiply" : 0.033916,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(district|object)" : 0.5,
+      "P(object|district)" : 0.067831
+    }
+  }, {
+    "object" : "Catholic_Church",
+    "multiply" : 0.017287,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(district|object)" : 0.317365,
+      "P(object|district)" : 0.054471
+    }
+  }, {
+    "object" : "Christian",
+    "multiply" : 0.02871,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(district|object)" : 0.35814,
+      "P(object|district)" : 0.080164
+    }
+  }, {
+    "object" : "Roman_Catholic",
+    "multiply" : 0.025515,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(district|object)" : 0.255937,
+      "P(object|district)" : 0.099692
+    }
+  } ],
+  "dragons-NN" : [ {
+    "object" : "Role-playing_game",
+    "multiply" : 0.653475,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(dragons|object)" : 0.996241,
+      "P(object|dragons)" : 0.655941
+    }
+  } ],
+  "eastern-JJ" : [ {
+    "object" : "Lake_District",
+    "multiply" : 0.020074,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(eastern|object)" : 0.29108,
+      "P(object|eastern)" : 0.068966
+    }
+  } ],
+  "edition-NN" : [ {
+    "object" : "Role-playing_game",
+    "multiply" : 0.07223,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(edition|object)" : 0.766917,
+      "P(object|edition)" : 0.094183
+    }
+  } ],
+  "editor-NN" : [ {
+    "object" : "Journalist",
+    "multiply" : 0.021527,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(editor|object)" : 0.210136,
+      "P(object|editor)" : 0.102442
+    }
+  } ],
+  "english-JJ" : [ {
+    "object" : "Bengali_people",
+    "multiply" : 0.034808,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(english|object)" : 0.213592,
+      "P(object|english)" : 0.162963
+    }
+  } ],
+  "english-NN" : [ {
+    "object" : "French_language",
+    "multiply" : 0.0174,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(english|object)" : 0.284444,
+      "P(object|english)" : 0.061172
+    }
+  }, {
+    "object" : "Spanish_language",
+    "multiply" : 0.014199,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(english|object)" : 0.288136,
+      "P(object|english)" : 0.049278
+    }
+  }, {
+    "object" : "Swedish_language",
+    "multiply" : 0.012937,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(english|object)" : 0.287293,
+      "P(object|english)" : 0.04503
+    }
+  }, {
+    "object" : "Novel",
+    "multiply" : 0.019806,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(english|object)" : 0.180441,
+      "P(object|english)" : 0.109765
+    }
+  } ],
+  "entertainment-NN" : [ {
+    "object" : "Computer_and_video_game_industry",
+    "multiply" : 0.013995,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(entertainment|object)" : 0.253425,
+      "P(object|entertainment)" : 0.055224
+    }
+  }, {
+    "object" : "Entertainment",
+    "multiply" : 0.03376,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(entertainment|object)" : 0.396825,
+      "P(object|entertainment)" : 0.085075
+    }
+  }, {
+    "object" : "Video_game_industry",
+    "multiply" : 0.039387,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(entertainment|object)" : 0.239905,
+      "P(object|entertainment)" : 0.164179
+    }
+  } ],
+  "ep-NN" : [ {
+    "object" : "Indie_rock",
+    "multiply" : 0.022316,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(ep|object)" : 0.447937,
+      "P(object|ep)" : 0.04982
+    }
+  } ],
+  "equipment-NN" : [ {
+    "object" : "Electronics",
+    "multiply" : 0.011951,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(equipment|object)" : 0.241071,
+      "P(object|equipment)" : 0.049573
+    }
+  } ],
+  "family-NN" : [ {
+    "object" : "Sunni_Islam",
+    "multiply" : 0.098666,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(family|object)" : 0.461538,
+      "P(object|family)" : 0.213777
+    }
+  } ],
+  "fantasy-NN" : [ {
+    "object" : "Fantasy",
+    "multiply" : 0.08404,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(fantasy|object)" : 0.596452,
+      "P(object|fantasy)" : 0.140899
+    }
+  }, {
+    "object" : "Fantasy_fiction",
+    "multiply" : 0.083106,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(fantasy|object)" : 0.746356,
+      "P(object|fantasy)" : 0.111349
+    }
+  }, {
+    "object" : "Fantasy_novel",
+    "multiply" : 0.17061,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(fantasy|object)" : 0.591937,
+      "P(object|fantasy)" : 0.288223
+    }
+  }, {
+    "object" : "Role-playing_game",
+    "multiply" : 0.059972,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(fantasy|object)" : 0.725564,
+      "P(object|fantasy)" : 0.082655
+    }
+  }, {
+    "object" : "Hardback",
+    "multiply" : 0.015008,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(fantasy|object)" : 0.166667,
+      "P(object|fantasy)" : 0.09005
+    }
+  } ],
+  "feet-NN" : [ {
+    "object" : "Cascade_Range",
+    "multiply" : 0.028185,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(feet|object)" : 0.515873,
+      "P(object|feet)" : 0.054636
+    }
+  } ],
+  "fiction-NN" : [ {
+    "object" : "Crime_fiction",
+    "multiply" : 0.023689,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(fiction|object)" : 0.432692,
+      "P(object|fiction)" : 0.054749
+    }
+  }, {
+    "object" : "Fantasy",
+    "multiply" : 0.072001,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(fiction|object)" : 0.411765,
+      "P(object|fiction)" : 0.17486
+    }
+  }, {
+    "object" : "Fiction",
+    "multiply" : 0.01512,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(fiction|object)" : 0.326087,
+      "P(object|fiction)" : 0.046369
+    }
+  }, {
+    "object" : "Historical_fiction",
+    "multiply" : 0.027486,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(fiction|object)" : 0.565517,
+      "P(object|fiction)" : 0.048603
+    }
+  }, {
+    "object" : "Horror_fiction",
+    "multiply" : 0.068772,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(fiction|object)" : 0.661836,
+      "P(object|fiction)" : 0.103911
+    }
+  }, {
+    "object" : "Science_fiction",
+    "multiply" : 0.239999,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(fiction|object)" : 0.867876,
+      "P(object|fiction)" : 0.276536
+    }
+  }, {
+    "object" : "English_language",
+    "multiply" : 0.157168,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(fiction|object)" : 0.216724,
+      "P(object|fiction)" : 0.725198
+    }
+  }, {
+    "object" : "Science_fiction",
+    "multiply" : 0.33747,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(fiction|object)" : 0.794788,
+      "P(object|fiction)" : 0.424604
+    }
+  } ],
+  "figure-NN" : [ {
+    "object" : "Progressive_Conservative_Party_of_Ontario",
+    "multiply" : 0.042956,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(figure|object)" : 0.337748,
+      "P(object|figure)" : 0.127182
+    }
+  } ],
+  "film-NN" : [ {
+    "object" : "Actor",
+    "multiply" : 0.053511,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(film|object)" : 0.486755,
+      "P(object|film)" : 0.109933
+    }
+  }, {
+    "object" : "Actress",
+    "multiply" : 0.020889,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(film|object)" : 0.395018,
+      "P(object|film)" : 0.052882
+    }
+  }, {
+    "object" : "Film_director",
+    "multiply" : 0.085701,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(film|object)" : 0.914286,
+      "P(object|film)" : 0.093735
+    }
+  }, {
+    "object" : "Screenwriter",
+    "multiply" : 0.062788,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(film|object)" : 0.716259,
+      "P(object|film)" : 0.087661
+    }
+  }, {
+    "object" : "California",
+    "multiply" : 0.019225,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(film|object)" : 0.235602,
+      "P(object|film)" : 0.0816
+    }
+  }, {
+    "object" : "India",
+    "multiply" : 0.056458,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(film|object)" : 0.312268,
+      "P(object|film)" : 0.1808
+    }
+  } ],
+  "films-NN" : [ {
+    "object" : "Film_director",
+    "multiply" : 0.030642,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(films|object)" : 0.357143,
+      "P(object|films)" : 0.085797
+    }
+  } ],
+  "financial-NN" : [ {
+    "object" : "Finance",
+    "multiply" : 0.029665,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(financial|object)" : 0.428571,
+      "P(object|financial)" : 0.069219
+    }
+  }, {
+    "object" : "Financial_Services",
+    "multiply" : 0.050257,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(financial|object)" : 0.431373,
+      "P(object|financial)" : 0.116505
+    }
+  } ],
+  "first-JJ" : [ {
+    "object" : "Hard_rock",
+    "multiply" : 0.018085,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(first|object)" : 0.371145,
+      "P(object|first)" : 0.048728
+    }
+  }, {
+    "object" : "English_language",
+    "multiply" : 0.19879,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(first|object)" : 0.37285,
+      "P(object|first)" : 0.533164
+    }
+  }, {
+    "object" : "Children's_literature",
+    "multiply" : 0.021069,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(first|object)" : 0.387755,
+      "P(object|first)" : 0.054335
+    }
+  }, {
+    "object" : "Fantasy_novel",
+    "multiply" : 0.033597,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(first|object)" : 0.438545,
+      "P(object|first)" : 0.07661
+    }
+  }, {
+    "object" : "Novel",
+    "multiply" : 0.019127,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(first|object)" : 0.389807,
+      "P(object|first)" : 0.049067
+    }
+  }, {
+    "object" : "Hardback",
+    "multiply" : 0.016886,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(first|object)" : 0.283951,
+      "P(object|first)" : 0.059469
+    }
+  }, {
+    "object" : "Hardcover",
+    "multiply" : 0.285253,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(first|object)" : 0.415967,
+      "P(object|first)" : 0.685758
+    }
+  }, {
+    "object" : "Paperback",
+    "multiply" : 0.133638,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(first|object)" : 0.38666,
+      "P(object|first)" : 0.345622
+    }
+  } ],
+  "food-NN" : [ {
+    "object" : "Restaurant",
+    "multiply" : 0.018592,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(food|object)" : 0.313043,
+      "P(object|food)" : 0.059392
+    }
+  } ],
+  "former-JJ" : [ {
+    "object" : "United_States",
+    "multiply" : 0.011793,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(former|object)" : 0.257261,
+      "P(object|former)" : 0.045842
+    }
+  } ],
+  "fourth-JJ" : [ {
+    "object" : "Padma_Shri",
+    "multiply" : 0.687475,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(fourth|object)" : 0.751592,
+      "P(object|fourth)" : 0.914692
+    }
+  } ],
+  "french-JJ" : [ {
+    "object" : "French_language",
+    "multiply" : 0.383056,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(french|object)" : 0.777778,
+      "P(object|french)" : 0.4925
+    }
+  } ],
+  "french-NN" : [ {
+    "object" : "Adventure_novel",
+    "multiply" : 0.032164,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(french|object)" : 0.263636,
+      "P(object|french)" : 0.122
+    }
+  } ],
+  "game-NN" : [ {
+    "object" : "Computer_and_video_game_industry",
+    "multiply" : 0.142836,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(game|object)" : 0.958904,
+      "P(object|game)" : 0.148957
+    }
+  }, {
+    "object" : "Video_game_industry",
+    "multiply" : 0.41484,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(game|object)" : 0.971496,
+      "P(object|game)" : 0.427011
+    }
+  }, {
+    "object" : "Role-playing_game",
+    "multiply" : 0.417872,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(game|object)" : 0.958647,
+      "P(object|game)" : 0.435897
+    }
+  } ],
+  "games-NN" : [ {
+    "object" : "Computer_and_video_game_industry",
+    "multiply" : 0.094265,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(games|object)" : 0.664384,
+      "P(object|games)" : 0.141883
+    }
+  }, {
+    "object" : "Video_game_industry",
+    "multiply" : 0.31632,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(games|object)" : 0.726841,
+      "P(object|games)" : 0.435198
+    }
+  } ],
+  "general-NN" : [ {
+    "object" : "Labor_Party_(UK)",
+    "multiply" : 0.062989,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(general|object)" : 0.611842,
+      "P(object|general)" : 0.102949
+    }
+  } ],
+  "german-JJ" : [ {
+    "object" : "German_language",
+    "multiply" : 0.279605,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(german|object)" : 0.808642,
+      "P(object|german)" : 0.345771
+    }
+  } ],
+  "glacier-NN" : [ {
+    "object" : "Bernese_Alps",
+    "multiply" : 0.027361,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(glacier|object)" : 0.320574,
+      "P(object|glacier)" : 0.08535
+    }
+  }, {
+    "object" : "Cascade_Range",
+    "multiply" : 0.030583,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(glacier|object)" : 0.436508,
+      "P(object|glacier)" : 0.070064
+    }
+  } ],
+  "governor-NN" : [ {
+    "object" : "Louisiana",
+    "multiply" : 0.046294,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(governor|object)" : 0.32,
+      "P(object|governor)" : 0.14467
+    }
+  } ],
+  "graubünden-NN" : [ {
+    "object" : "Lepontine_Alps",
+    "multiply" : 0.117733,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(graubünden|object)" : 0.461988,
+      "P(object|graubünden)" : 0.254839
+    }
+  } ],
+  "group-NN" : [ {
+    "object" : "Soul_music",
+    "multiply" : 0.015468,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(group|object)" : 0.290909,
+      "P(object|group)" : 0.053173
+    }
+  }, {
+    "object" : "Korean_language",
+    "multiply" : 0.046594,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(group|object)" : 0.356589,
+      "P(object|group)" : 0.130667
+    }
+  } ],
+  "height-NN" : [ {
+    "object" : "Lake_District",
+    "multiply" : 0.020798,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(height|object)" : 0.230047,
+      "P(object|height)" : 0.090406
+    }
+  } ],
+  "highest-JJ" : [ {
+    "object" : "Padma_Shri",
+    "multiply" : 0.55021,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(highest|object)" : 0.764331,
+      "P(object|highest)" : 0.719858
+    }
+  } ],
+  "hill-NN" : [ {
+    "object" : "Lake_District",
+    "multiply" : 0.021443,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(hill|object)" : 0.295775,
+      "P(object|hill)" : 0.072497
+    }
+  } ],
+  "historical-JJ" : [ {
+    "object" : "Historical_fiction",
+    "multiply" : 0.075552,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(historical|object)" : 0.564655,
+      "P(object|historical)" : 0.133803
+    }
+  }, {
+    "object" : "Historical_novel",
+    "multiply" : 0.197152,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(historical|object)" : 0.595652,
+      "P(object|historical)" : 0.330986
+    }
+  } ],
+  "history-NN" : [ {
+    "object" : "Non-fiction",
+    "multiply" : 0.017152,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(history|object)" : 0.172485,
+      "P(object|history)" : 0.099441
+    }
+  }, {
+    "object" : "Historian",
+    "multiply" : 0.046248,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(history|object)" : 0.518797,
+      "P(object|history)" : 0.089144
+    }
+  } ],
+  "hit-NN" : [ {
+    "object" : "Soul_music",
+    "multiply" : 0.01764,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(hit|object)" : 0.309091,
+      "P(object|hit)" : 0.057072
+    }
+  }, {
+    "object" : "Nashville,_Tennessee",
+    "multiply" : 0.013346,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(hit|object)" : 0.267327,
+      "P(object|hit)" : 0.049924
+    }
+  } ],
+  "house-NN" : [ {
+    "object" : "United_States_Army",
+    "multiply" : 0.145032,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(house|object)" : 0.459677,
+      "P(object|house)" : 0.315508
+    }
+  }, {
+    "object" : "Lawyer",
+    "multiply" : 0.015419,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(house|object)" : 0.266187,
+      "P(object|house)" : 0.057925
+    }
+  }, {
+    "object" : "Member of the",
+    "multiply" : 0.036709,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(house|object)" : 0.617647,
+      "P(object|house)" : 0.059433
+    }
+  }, {
+    "object" : "Lawyer",
+    "multiply" : 0.169273,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(house|object)" : 0.50289,
+      "P(object|house)" : 0.336601
+    }
+  }, {
+    "object" : "Baptist",
+    "multiply" : 0.034403,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(house|object)" : 0.477273,
+      "P(object|house)" : 0.072082
+    }
+  }, {
+    "object" : "Christian",
+    "multiply" : 0.013038,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(house|object)" : 0.227907,
+      "P(object|house)" : 0.057208
+    }
+  }, {
+    "object" : "Roman_Catholic",
+    "multiply" : 0.025552,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(house|object)" : 0.242744,
+      "P(object|house)" : 0.105263
+    }
+  } ],
+  "india-NN" : [ {
+    "object" : "Bengali_people",
+    "multiply" : 0.022898,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(india|object)" : 0.242718,
+      "P(object|india)" : 0.09434
+    }
+  }, {
+    "object" : "Member of Parliament",
+    "multiply" : 0.023255,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(india|object)" : 0.356322,
+      "P(object|india)" : 0.065263
+    }
+  }, {
+    "object" : "Bharatiya_Janata_Party",
+    "multiply" : 0.0733,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(india|object)" : 0.809211,
+      "P(object|india)" : 0.090582
+    }
+  }, {
+    "object" : "Indian_National_Congress",
+    "multiply" : 0.444291,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(india|object)" : 0.959641,
+      "P(object|india)" : 0.462976
+    }
+  }, {
+    "object" : "Politician",
+    "multiply" : 0.145109,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(india|object)" : 0.316602,
+      "P(object|india)" : 0.458333
+    }
+  }, {
+    "object" : "Hindu",
+    "multiply" : 0.188905,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(india|object)" : 0.640678,
+      "P(object|india)" : 0.294852
+    }
+  }, {
+    "object" : "Hinduism",
+    "multiply" : 0.25958,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(india|object)" : 0.836134,
+      "P(object|india)" : 0.310452
+    }
+  }, {
+    "object" : "India",
+    "multiply" : 0.236262,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(india|object)" : 0.918216,
+      "P(object|india)" : 0.257305
+    }
+  } ],
+  "indian-JJ" : [ {
+    "object" : "Bharatiya_Janata_Party",
+    "multiply" : 0.054736,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(indian|object)" : 0.657895,
+      "P(object|indian)" : 0.083199
+    }
+  }, {
+    "object" : "Indian_National_Congress",
+    "multiply" : 0.467125,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(indian|object)" : 0.928251,
+      "P(object|indian)" : 0.503231
+    }
+  }, {
+    "object" : "Politician",
+    "multiply" : 0.137694,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(indian|object)" : 0.285714,
+      "P(object|indian)" : 0.481928
+    }
+  }, {
+    "object" : "Hindu",
+    "multiply" : 0.171225,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(indian|object)" : 0.552542,
+      "P(object|indian)" : 0.309886
+    }
+  }, {
+    "object" : "Hinduism",
+    "multiply" : 0.220117,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(indian|object)" : 0.697479,
+      "P(object|indian)" : 0.315589
+    }
+  }, {
+    "object" : "India",
+    "multiply" : 0.220212,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(indian|object)" : 0.821561,
+      "P(object|indian)" : 0.268041
+    }
+  } ],
+  "industries-NN" : [ {
+    "object" : "Conglomerate_(company)",
+    "multiply" : 0.012594,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(industries|object)" : 0.222222,
+      "P(object|industries)" : 0.056673
+    }
+  } ],
+  "japanese-JJ" : [ {
+    "object" : "J-pop",
+    "multiply" : 0.053578,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(japanese|object)" : 0.524752,
+      "P(object|japanese)" : 0.102102
+    }
+  }, {
+    "object" : "Japanese_language",
+    "multiply" : 0.486147,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(japanese|object)" : 0.777174,
+      "P(object|japanese)" : 0.625532
+    }
+  } ],
+  "jazz-NN" : [ {
+    "object" : "Jazz",
+    "multiply" : 0.36134,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(jazz|object)" : 0.561013,
+      "P(object|jazz)" : 0.644085
+    }
+  }, {
+    "object" : "Jazz_fusion",
+    "multiply" : 0.031534,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(jazz|object)" : 0.504274,
+      "P(object|jazz)" : 0.062533
+    }
+  }, {
+    "object" : "Alfred_Lion",
+    "multiply" : 0.048595,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(jazz|object)" : 0.626667,
+      "P(object|jazz)" : 0.077544
+    }
+  }, {
+    "object" : "Blue_Note_Records",
+    "multiply" : 0.057177,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(jazz|object)" : 0.607547,
+      "P(object|jazz)" : 0.094111
+    }
+  }, {
+    "object" : "New_York_City",
+    "multiply" : 0.059924,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(jazz|object)" : 0.364486,
+      "P(object|jazz)" : 0.164407
+    }
+  }, {
+    "object" : "Van_Gelder_Studio",
+    "multiply" : 0.212387,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(jazz|object)" : 0.591078,
+      "P(object|jazz)" : 0.359322
+    }
+  } ],
+  "john-NN" : [ {
+    "object" : "Detective_fiction",
+    "multiply" : 0.01048,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(john|object)" : 0.182561,
+      "P(object|john)" : 0.057404
+    }
+  }, {
+    "object" : "Anglicanism",
+    "multiply" : 0.017162,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(john|object)" : 0.2125,
+      "P(object|john)" : 0.08076
+    }
+  } ],
+  "journalist-NN" : [ {
+    "object" : "Journalist",
+    "multiply" : 0.250614,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(journalist|object)" : 0.796044,
+      "P(object|journalist)" : 0.314824
+    }
+  } ],
+  "kansas-NN" : [ {
+    "object" : "Mayor–council_government",
+    "multiply" : 0.418144,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(kansas|object)" : 0.52,
+      "P(object|kansas)" : 0.804124
+    }
+  } ],
+  "label-NN" : [ {
+    "object" : "Jazz",
+    "multiply" : 0.199238,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(label|object)" : 0.71443,
+      "P(object|label)" : 0.278877
+    }
+  }, {
+    "object" : "New_York_City",
+    "multiply" : 0.034216,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(label|object)" : 0.364486,
+      "P(object|label)" : 0.093874
+    }
+  }, {
+    "object" : "Van_Gelder_Studio",
+    "multiply" : 0.191818,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(label|object)" : 0.873606,
+      "P(object|label)" : 0.21957
+    }
+  } ],
+  "labor-NN" : [ {
+    "object" : "Australian_Labor_Party",
+    "multiply" : 0.65809,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(labor|object)" : 0.91619,
+      "P(object|labor)" : 0.718289
+    }
+  } ],
+  "labour-NN" : [ {
+    "object" : "Labor_Party_(UK)",
+    "multiply" : 0.402929,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(labour|object)" : 0.963816,
+      "P(object|labour)" : 0.418056
+    }
+  } ],
+  "lake-NN" : [ {
+    "object" : "Lake_District",
+    "multiply" : 0.158293,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(lake|object)" : 0.995305,
+      "P(object|lake)" : 0.15904
+    }
+  } ],
+  "legislative-JJ" : [ {
+    "object" : "Queensland Legislative",
+    "multiply" : 0.104344,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(legislative|object)" : 0.891892,
+      "P(object|legislative)" : 0.116992
+    }
+  }, {
+    "object" : "Member of the Legislative Assembly of Alberta",
+    "multiply" : 0.183279,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(legislative|object)" : 0.991031,
+      "P(object|legislative)" : 0.184937
+    }
+  }, {
+    "object" : "Ontario MPP",
+    "multiply" : 0.084589,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(legislative|object)" : 0.971963,
+      "P(object|legislative)" : 0.087029
+    }
+  }, {
+    "object" : "Australian_Labor_Party",
+    "multiply" : 0.084806,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(legislative|object)" : 0.668571,
+      "P(object|legislative)" : 0.126847
+    }
+  }, {
+    "object" : "Progressive_Conservative_Party_of_Ontario",
+    "multiply" : 0.049486,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(legislative|object)" : 0.953642,
+      "P(object|legislative)" : 0.051892
+    }
+  }, {
+    "object" : "Hindu",
+    "multiply" : 0.094968,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(legislative|object)" : 0.40678,
+      "P(object|legislative)" : 0.233463
+    }
+  }, {
+    "object" : "Ontario",
+    "multiply" : 0.029095,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(legislative|object)" : 0.346369,
+      "P(object|legislative)" : 0.084
+    }
+  } ],
+  "legislature-NN" : [ {
+    "object" : "Mexican_people",
+    "multiply" : 0.95332,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(legislature|object)" : 0.973822,
+      "P(object|legislature)" : 0.978947
+    }
+  } ],
+  "liberal-JJ" : [ {
+    "object" : "Ontario",
+    "multiply" : 0.039427,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(liberal|object)" : 0.26257,
+      "P(object|liberal)" : 0.15016
+    }
+  } ],
+  "liberal-NN" : [ {
+    "object" : "Liberal_Party_(UK)",
+    "multiply" : 0.171612,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(liberal|object)" : 0.912752,
+      "P(object|liberal)" : 0.188017
+    }
+  }, {
+    "object" : "Liberal_Party_of_Australia",
+    "multiply" : 0.076823,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(liberal|object)" : 0.921875,
+      "P(object|liberal)" : 0.083333
+    }
+  }, {
+    "object" : "Ontario_Liberal_Party",
+    "multiply" : 0.070274,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(liberal|object)" : 0.962617,
+      "P(object|liberal)" : 0.073003
+    }
+  } ],
+  "life-NN" : [ {
+    "object" : "Autobiography",
+    "multiply" : 0.020886,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(life|object)" : 0.45,
+      "P(object|life)" : 0.046414
+    }
+  }, {
+    "object" : "Biography",
+    "multiply" : 0.019652,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(life|object)" : 0.39759,
+      "P(object|life)" : 0.049427
+    }
+  } ],
+  "literary-JJ" : [ {
+    "object" : "Russian_language",
+    "multiply" : 0.010036,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(literary|object)" : 0.144385,
+      "P(object|literary)" : 0.069507
+    }
+  } ],
+  "literature-NN" : [ {
+    "object" : "Chinese_language",
+    "multiply" : 0.024435,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(literature|object)" : 0.325397,
+      "P(object|literature)" : 0.075092
+    }
+  } ],
+  "located-JJ" : [ {
+    "object" : "Beer",
+    "multiply" : 0.014956,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(located|object)" : 0.251163,
+      "P(object|located)" : 0.059548
+    }
+  } ],
+  "lok-NN" : [ {
+    "object" : "Member of Parliament",
+    "multiply" : 0.027851,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(lok|object)" : 0.241379,
+      "P(object|lok)" : 0.115385
+    }
+  }, {
+    "object" : "Bharatiya_Janata_Party",
+    "multiply" : 0.085093,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(lok|object)" : 0.526316,
+      "P(object|lok)" : 0.161677
+    }
+  }, {
+    "object" : "Indian_National_Congress",
+    "multiply" : 0.17257,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(lok|object)" : 0.358744,
+      "P(object|lok)" : 0.481038
+    }
+  } ],
+  "long-running-JJ" : [ {
+    "object" : "Doctor_Who",
+    "multiply" : 0.833488,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(long-running|object)" : 0.914557,
+      "P(object|long-running)" : 0.911357
+    }
+  } ],
+  "louisiana-NN" : [ {
+    "object" : "Roman_Catholicism",
+    "multiply" : 0.017364,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(louisiana|object)" : 0.137255,
+      "P(object|louisiana)" : 0.126506
+    }
+  } ],
+  "love-NN" : [ {
+    "object" : "Soul_music",
+    "multiply" : 0.016834,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(love|object)" : 0.236364,
+      "P(object|love)" : 0.071223
+    }
+  } ],
+  "ltd-NN" : [ {
+    "object" : "Automobile",
+    "multiply" : 0.013562,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(ltd|object)" : 0.270492,
+      "P(object|ltd)" : 0.050139
+    }
+  } ],
+  "ltd.-NN" : [ {
+    "object" : "Automotive_industry",
+    "multiply" : 0.012029,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(ltd.|object)" : 0.172881,
+      "P(object|ltd.)" : 0.069577
+    }
+  }, {
+    "object" : "Automobile",
+    "multiply" : 0.015367,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(ltd.|object)" : 0.229508,
+      "P(object|ltd.)" : 0.066955
+    }
+  } ],
+  "magazine-NN" : [ {
+    "object" : "Science_fiction",
+    "multiply" : 0.07061,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(magazine|object)" : 0.181945,
+      "P(object|magazine)" : 0.388087
+    }
+  } ],
+  "man-NN" : [ {
+    "object" : "German_language",
+    "multiply" : 0.049652,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(man|object)" : 0.876543,
+      "P(object|man)" : 0.056646
+    }
+  }, {
+    "object" : "Historical_novel",
+    "multiply" : 0.021141,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(man|object)" : 0.426087,
+      "P(object|man)" : 0.049616
+    }
+  }, {
+    "object" : "Novel",
+    "multiply" : 0.024147,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(man|object)" : 0.385675,
+      "P(object|man)" : 0.062611
+    }
+  }, {
+    "object" : "Hardback",
+    "multiply" : 0.017765,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(man|object)" : 0.271605,
+      "P(object|man)" : 0.065407
+    }
+  }, {
+    "object" : "Hardcover",
+    "multiply" : 0.224423,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(man|object)" : 0.323457,
+      "P(object|man)" : 0.693826
+    }
+  }, {
+    "object" : "Paperback",
+    "multiply" : 0.092006,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(man|object)" : 0.282796,
+      "P(object|man)" : 0.325345
+    }
+  } ],
+  "management-NN" : [ {
+    "object" : "Computer_software",
+    "multiply" : 0.018045,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(management|object)" : 0.378641,
+      "P(object|management)" : 0.047656
+    }
+  }, {
+    "object" : "Software",
+    "multiply" : 0.02612,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(management|object)" : 0.344681,
+      "P(object|management)" : 0.075781
+    }
+  } ],
+  "manufacturer-NN" : [ {
+    "object" : "Aerospace",
+    "multiply" : 0.087522,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(manufacturer|object)" : 0.775785,
+      "P(object|manufacturer)" : 0.112817
+    }
+  }, {
+    "object" : "Automotive_industry",
+    "multiply" : 0.045646,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(manufacturer|object)" : 0.505085,
+      "P(object|manufacturer)" : 0.090372
+    }
+  }, {
+    "object" : "Manufacturing",
+    "multiply" : 0.020132,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(manufacturer|object)" : 0.396313,
+      "P(object|manufacturer)" : 0.050797
+    }
+  } ],
+  "manufacturing-NN" : [ {
+    "object" : "Automotive_industry",
+    "multiply" : 0.0349,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(manufacturing|object)" : 0.338983,
+      "P(object|manufacturing)" : 0.102956
+    }
+  }, {
+    "object" : "Manufacturing",
+    "multiply" : 0.020773,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(manufacturing|object)" : 0.304147,
+      "P(object|manufacturing)" : 0.068298
+    }
+  }, {
+    "object" : "Automobile",
+    "multiply" : 0.017091,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(manufacturing|object)" : 0.311475,
+      "P(object|manufacturing)" : 0.05487
+    }
+  } ],
+  "many-JJ" : [ {
+    "object" : "German_language",
+    "multiply" : 0.012897,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(many|object)" : 0.222222,
+      "P(object|many)" : 0.058036
+    }
+  } ],
+  "mayor-NN" : [ {
+    "object" : "Judaism",
+    "multiply" : 0.013708,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(mayor|object)" : 0.161074,
+      "P(object|mayor)" : 0.085106
+    }
+  } ],
+  "media-NN" : [ {
+    "object" : "Mass_media",
+    "multiply" : 0.090117,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(media|object)" : 0.8,
+      "P(object|media)" : 0.112646
+    }
+  } ],
+  "member-NN" : [ {
+    "object" : "Politician",
+    "multiply" : 0.042744,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(member|object)" : 0.532075,
+      "P(object|member)" : 0.080335
+    }
+  }, {
+    "object" : "Politician",
+    "multiply" : 0.144084,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(member|object)" : 0.559846,
+      "P(object|member)" : 0.257364
+    }
+  }, {
+    "object" : "Roman_Catholic",
+    "multiply" : 0.037933,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(member|object)" : 0.459103,
+      "P(object|member)" : 0.082625
+    }
+  } ],
+  "metal-NN" : [ {
+    "object" : "Black_metal",
+    "multiply" : 0.085629,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(metal|object)" : 0.868687,
+      "P(object|metal)" : 0.098573
+    }
+  }, {
+    "object" : "Death_metal",
+    "multiply" : 0.06739,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(metal|object)" : 0.803468,
+      "P(object|metal)" : 0.083874
+    }
+  }, {
+    "object" : "Heavy_metal_music",
+    "multiply" : 0.144482,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(metal|object)" : 0.693333,
+      "P(object|metal)" : 0.208387
+    }
+  }, {
+    "object" : "Metalcore",
+    "multiply" : 0.054768,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(metal|object)" : 0.677419,
+      "P(object|metal)" : 0.080847
+    }
+  }, {
+    "object" : "Power_metal",
+    "multiply" : 0.070781,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(metal|object)" : 0.83105,
+      "P(object|metal)" : 0.085171
+    }
+  }, {
+    "object" : "Thrash_metal",
+    "multiply" : 0.101519,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(metal|object)" : 0.863281,
+      "P(object|metal)" : 0.117596
+    }
+  }, {
+    "object" : "Metal_Blade_Records",
+    "multiply" : 0.049591,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(metal|object)" : 0.889908,
+      "P(object|metal)" : 0.055726
+    }
+  }, {
+    "object" : "Nuclear_Blast",
+    "multiply" : 0.041828,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(metal|object)" : 0.87037,
+      "P(object|metal)" : 0.048057
+    }
+  }, {
+    "object" : "Roadrunner_Records",
+    "multiply" : 0.026146,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(metal|object)" : 0.574627,
+      "P(object|metal)" : 0.045501
+    }
+  } ],
+  "miles-NN" : [ {
+    "object" : "Cascade_Range",
+    "multiply" : 0.017787,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(miles|object)" : 0.34127,
+      "P(object|miles)" : 0.052121
+    }
+  } ],
+  "minister-NN" : [ {
+    "object" : "Islam",
+    "multiply" : 0.055328,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(minister|object)" : 0.266667,
+      "P(object|minister)" : 0.207479
+    }
+  } ],
+  "mobile-JJ" : [ {
+    "object" : "Automotive_industry",
+    "multiply" : 0.084687,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(mobile|object)" : 0.545763,
+      "P(object|mobile)" : 0.155172
+    }
+  }, {
+    "object" : "Telecommunication",
+    "multiply" : 0.036894,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(mobile|object)" : 0.409756,
+      "P(object|mobile)" : 0.090038
+    }
+  }, {
+    "object" : "Telecommunications",
+    "multiply" : 0.018891,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(mobile|object)" : 0.277778,
+      "P(object|mobile)" : 0.068008
+    }
+  } ],
+  "mobile-NN" : [ {
+    "object" : "Automobile",
+    "multiply" : 0.086967,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(mobile|object)" : 0.647541,
+      "P(object|mobile)" : 0.134304
+    }
+  } ],
+  "model-NN" : [ {
+    "object" : "Model_(person)",
+    "multiply" : 0.148944,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(model|object)" : 0.79646,
+      "P(object|model)" : 0.187008
+    }
+  } ],
+  "movement-NN" : [ {
+    "object" : "Union_for_a_Popular_Movement",
+    "multiply" : 0.389588,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(movement|object)" : 0.898438,
+      "P(object|movement)" : 0.433628
+    }
+  } ],
+  "mp-NN" : [ {
+    "object" : "Liberal_Party_(UK)",
+    "multiply" : 0.043209,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(mp|object)" : 0.684564,
+      "P(object|mp)" : 0.063119
+    }
+  } ],
+  "music-NN" : [ {
+    "object" : "Country_music",
+    "multiply" : 0.058152,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(music|object)" : 0.683794,
+      "P(object|music)" : 0.085043
+    }
+  }, {
+    "object" : "Japanese_language",
+    "multiply" : 0.016343,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(music|object)" : 0.190217,
+      "P(object|music)" : 0.085919
+    }
+  }, {
+    "object" : "Korean_language",
+    "multiply" : 0.020074,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(music|object)" : 0.24031,
+      "P(object|music)" : 0.083532
+    }
+  }, {
+    "object" : "Spanish_language",
+    "multiply" : 0.010868,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(music|object)" : 0.146893,
+      "P(object|music)" : 0.073986
+    }
+  } ],
+  "mystery-NN" : [ {
+    "object" : "Detective_fiction",
+    "multiply" : 0.084646,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(mystery|object)" : 0.427793,
+      "P(object|mystery)" : 0.197867
+    }
+  }, {
+    "object" : "Mystery_fiction",
+    "multiply" : 0.123398,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(mystery|object)" : 0.562963,
+      "P(object|mystery)" : 0.219194
+    }
+  }, {
+    "object" : "Mystery_novel",
+    "multiply" : 0.09792,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(mystery|object)" : 0.379104,
+      "P(object|mystery)" : 0.258294
+    }
+  } ],
+  "name-NN" : [ {
+    "object" : "Sunni_Islam",
+    "multiply" : 0.099325,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(name|object)" : 0.471795,
+      "P(object|name)" : 0.210526
+    }
+  } ],
+  "national-NN" : [ {
+    "object" : "Sierra_Nevada_(U.S.)",
+    "multiply" : 0.02821,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(national|object)" : 0.554688,
+      "P(object|national)" : 0.050857
+    }
+  }, {
+    "object" : "Union_for_a_Popular_Movement",
+    "multiply" : 0.047927,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(national|object)" : 0.644531,
+      "P(object|national)" : 0.074359
+    }
+  }, {
+    "object" : "Islam",
+    "multiply" : 0.034848,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(national|object)" : 0.210853,
+      "P(object|national)" : 0.165269
+    }
+  } ],
+  "network-NN" : [ {
+    "object" : "Telecommunication",
+    "multiply" : 0.029863,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(network|object)" : 0.385366,
+      "P(object|network)" : 0.077494
+    }
+  }, {
+    "object" : "Telecommunications",
+    "multiply" : 0.025327,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(network|object)" : 0.337607,
+      "P(object|network)" : 0.075021
+    }
+  } ],
+  "new-NN" : [ {
+    "object" : "Non-fiction",
+    "multiply" : 0.01385,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(new|object)" : 0.264887,
+      "P(object|new)" : 0.052288
+    }
+  }, {
+    "object" : "Author",
+    "multiply" : 0.013143,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(new|object)" : 0.259414,
+      "P(object|new)" : 0.050666
+    }
+  }, {
+    "object" : "Journalist",
+    "multiply" : 0.023846,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(new|object)" : 0.398022,
+      "P(object|new)" : 0.059911
+    }
+  } ],
+  "north-NN" : [ {
+    "object" : "Louisiana",
+    "multiply" : 0.029137,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(north|object)" : 0.32,
+      "P(object|north)" : 0.091054
+    }
+  } ],
+  "note-NN" : [ {
+    "object" : "Van_Gelder_Studio",
+    "multiply" : 0.212647,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(note|object)" : 0.486989,
+      "P(object|note)" : 0.436658
+    }
+  } ],
+  "novel-JJ" : [ {
+    "object" : "Star_Wars",
+    "multiply" : 0.093817,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(novel|object)" : 0.770642,
+      "P(object|novel)" : 0.121739
+    }
+  } ],
+  "novelist-NN" : [ {
+    "object" : "Chinese_language",
+    "multiply" : 0.029461,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(novelist|object)" : 0.277778,
+      "P(object|novelist)" : 0.106061
+    }
+  }, {
+    "object" : "Novelist",
+    "multiply" : 0.258249,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(novelist|object)" : 0.433735,
+      "P(object|novelist)" : 0.595406
+    }
+  }, {
+    "object" : "Playwright",
+    "multiply" : 0.016249,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(novelist|object)" : 0.211429,
+      "P(object|novelist)" : 0.076855
+    }
+  } ],
+  "novels-NN" : [ {
+    "object" : "Crime_fiction",
+    "multiply" : 0.036281,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(novels|object)" : 0.519231,
+      "P(object|novels)" : 0.069875
+    }
+  }, {
+    "object" : "Fantasy",
+    "multiply" : 0.036581,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(novels|object)" : 0.311765,
+      "P(object|novels)" : 0.117337
+    }
+  }, {
+    "object" : "Fiction",
+    "multiply" : 0.013809,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(novels|object)" : 0.286957,
+      "P(object|novels)" : 0.048121
+    }
+  }, {
+    "object" : "Historical_fiction",
+    "multiply" : 0.025554,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(novels|object)" : 0.503448,
+      "P(object|novels)" : 0.050758
+    }
+  }, {
+    "object" : "Horror_fiction",
+    "multiply" : 0.022699,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(novels|object)" : 0.347826,
+      "P(object|novels)" : 0.06526
+    }
+  }, {
+    "object" : "Romance_novel",
+    "multiply" : 0.166606,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(novels|object)" : 0.85098,
+      "P(object|novels)" : 0.195781
+    }
+  }, {
+    "object" : "Science_fiction",
+    "multiply" : 0.037482,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(novels|object)" : 0.305699,
+      "P(object|novels)" : 0.12261
+    }
+  }, {
+    "object" : "Author",
+    "multiply" : 0.010423,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(novels|object)" : 0.112971,
+      "P(object|novels)" : 0.092262
+    }
+  }, {
+    "object" : "Novelist",
+    "multiply" : 0.238866,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(novels|object)" : 0.455154,
+      "P(object|novels)" : 0.524802
+    }
+  } ],
+  "online-NN" : [ {
+    "object" : "Internet",
+    "multiply" : 0.029652,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(online|object)" : 0.409836,
+      "P(object|online)" : 0.072351
+    }
+  } ],
+  "ontario-NN" : [ {
+    "object" : "Ontario MPP",
+    "multiply" : 0.33126,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(ontario|object)" : 0.990654,
+      "P(object|ontario)" : 0.334385
+    }
+  }, {
+    "object" : "Ontario_Liberal_Party",
+    "multiply" : 0.235361,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(ontario|object)" : 0.990654,
+      "P(object|ontario)" : 0.237581
+    }
+  } ],
+  "original-JJ" : [ {
+    "object" : "Swedish_language",
+    "multiply" : 0.011706,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(original|object)" : 0.248619,
+      "P(object|original)" : 0.047083
+    }
+  }, {
+    "object" : "Science_fiction",
+    "multiply" : 0.07233,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(original|object)" : 0.26617,
+      "P(object|original)" : 0.271744
+    }
+  } ],
+  "padma-NN" : [ {
+    "object" : "Padma_Shri",
+    "multiply" : 0.666251,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(padma|object)" : 0.872611,
+      "P(object|padma)" : 0.763514
+    }
+  } ],
+  "park-NN" : [ {
+    "object" : "Sierra_Nevada_(U.S.)",
+    "multiply" : 0.017981,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(park|object)" : 0.398438,
+      "P(object|park)" : 0.045129
+    }
+  } ],
+  "parliament-NN" : [ {
+    "object" : "Member of Parliament",
+    "multiply" : 0.064784,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(parliament|object)" : 0.609195,
+      "P(object|parliament)" : 0.106343
+    }
+  }, {
+    "object" : "Labor_Party_(UK)",
+    "multiply" : 0.106441,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(parliament|object)" : 0.868421,
+      "P(object|parliament)" : 0.122569
+    }
+  }, {
+    "object" : "Liberal_Party_(UK)",
+    "multiply" : 0.07246,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(parliament|object)" : 0.731544,
+      "P(object|parliament)" : 0.09905
+    }
+  }, {
+    "object" : "Sunni_Islam",
+    "multiply" : 0.082498,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(parliament|object)" : 0.502564,
+      "P(object|parliament)" : 0.164154
+    }
+  } ],
+  "part-NN" : [ {
+    "object" : "Retail",
+    "multiply" : 0.023143,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(part|object)" : 0.32699,
+      "P(object|part)" : 0.070777
+    }
+  }, {
+    "object" : "French_language",
+    "multiply" : 0.010628,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(part|object)" : 0.204444,
+      "P(object|part)" : 0.051982
+    }
+  }, {
+    "object" : "Russian_language",
+    "multiply" : 0.012665,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(part|object)" : 0.256684,
+      "P(object|part)" : 0.049339
+    }
+  }, {
+    "object" : "Politician",
+    "multiply" : 0.149549,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(part|object)" : 0.478764,
+      "P(object|part)" : 0.312364
+    }
+  }, {
+    "object" : "Roman_Catholic",
+    "multiply" : 0.027982,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(part|object)" : 0.337731,
+      "P(object|part)" : 0.082852
+    }
+  } ],
+  "party-NN" : [ {
+    "object" : "Politician",
+    "multiply" : 0.059076,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(party|object)" : 0.403774,
+      "P(object|party)" : 0.14631
+    }
+  }, {
+    "object" : "Politician",
+    "multiply" : 0.144702,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(party|object)" : 0.405405,
+      "P(object|party)" : 0.356932
+    }
+  }, {
+    "object" : "Hinduism",
+    "multiply" : 0.038544,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(party|object)" : 0.42437,
+      "P(object|party)" : 0.090827
+    }
+  }, {
+    "object" : "Roman_Catholic",
+    "multiply" : 0.024686,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(party|object)" : 0.269129,
+      "P(object|party)" : 0.091727
+    }
+  } ],
+  "people-NN" : [ {
+    "object" : "Communist_Party_of_China",
+    "multiply" : 0.057672,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(people|object)" : 0.481203,
+      "P(object|people)" : 0.11985
+    }
+  } ],
+  "person-NN" : [ {
+    "object" : "Sunni_Islam",
+    "multiply" : 0.124764,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(person|object)" : 0.441026,
+      "P(object|person)" : 0.282895
+    }
+  } ],
+  "peru-NN" : [ {
+    "object" : "Andes",
+    "multiply" : 0.579,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(peru|object)" : 0.598965,
+      "P(object|peru)" : 0.966667
+    }
+  } ],
+  "piz-NN" : [ {
+    "object" : "Lepontine_Alps",
+    "multiply" : 0.183259,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(piz|object)" : 0.596491,
+      "P(object|piz)" : 0.307229
+    }
+  } ],
+  "poet-NN" : [ {
+    "object" : "Playwright",
+    "multiply" : 0.015578,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(poet|object)" : 0.277143,
+      "P(object|poet)" : 0.05621
+    }
+  }, {
+    "object" : "Poet",
+    "multiply" : 0.463877,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(poet|object)" : 0.972527,
+      "P(object|poet)" : 0.476981
+    }
+  } ],
+  "political-JJ" : [ {
+    "object" : "Politician",
+    "multiply" : 0.011354,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(political|object)" : 0.154717,
+      "P(object|political)" : 0.073387
+    }
+  } ],
+  "politician-NN" : [ {
+    "object" : "Mexican_people",
+    "multiply" : 0.646896,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(politician|object)" : 0.973822,
+      "P(object|politician)" : 0.664286
+    }
+  }, {
+    "object" : "Politician",
+    "multiply" : 0.145578,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(politician|object)" : 0.796226,
+      "P(object|politician)" : 0.182834
+    }
+  } ],
+  "pop-NN" : [ {
+    "object" : "Pop_music",
+    "multiply" : 0.060488,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(pop|object)" : 0.304734,
+      "P(object|pop)" : 0.198493
+    }
+  }, {
+    "object" : "Pop_rock",
+    "multiply" : 0.029736,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(pop|object)" : 0.356557,
+      "P(object|pop)" : 0.083398
+    }
+  }, {
+    "object" : "Synthpop",
+    "multiply" : 0.017923,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(pop|object)" : 0.383249,
+      "P(object|pop)" : 0.046765
+    }
+  } ],
+  "population-NN" : [ {
+    "object" : "Council-manager_government",
+    "multiply" : 0.176907,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(population|object)" : 0.971429,
+      "P(object|population)" : 0.18211
+    }
+  }, {
+    "object" : "Council–manager_government",
+    "multiply" : 0.07558,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(population|object)" : 0.973154,
+      "P(object|population)" : 0.077665
+    }
+  }, {
+    "object" : "Mayor-council_government",
+    "multiply" : 0.136709,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(population|object)" : 0.97048,
+      "P(object|population)" : 0.140868
+    }
+  }, {
+    "object" : "Mayor–council_government",
+    "multiply" : 0.129193,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(population|object)" : 0.896667,
+      "P(object|population)" : 0.144081
+    }
+  }, {
+    "object" : "City Council",
+    "multiply" : 0.055596,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(population|object)" : 0.945455,
+      "P(object|population)" : 0.058804
+    }
+  }, {
+    "object" : "City Manager",
+    "multiply" : 0.090405,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(population|object)" : 0.968198,
+      "P(object|population)" : 0.093374
+    }
+  } ],
+  "prime-NN" : [ {
+    "object" : "Islam",
+    "multiply" : 0.022289,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(prime|object)" : 0.088372,
+      "P(object|prime)" : 0.252212
+    }
+  } ],
+  "prize-NN" : [ {
+    "object" : "Chinese_language",
+    "multiply" : 0.017947,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(prize|object)" : 0.238095,
+      "P(object|prize)" : 0.075377
+    }
+  }, {
+    "object" : "Swedish_language",
+    "multiply" : 0.019517,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(prize|object)" : 0.20442,
+      "P(object|prize)" : 0.095477
+    }
+  } ],
+  "producer-NN" : [ {
+    "object" : "Film_director",
+    "multiply" : 0.029927,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(producer|object)" : 0.285714,
+      "P(object|producer)" : 0.104745
+    }
+  }, {
+    "object" : "Screenwriter",
+    "multiply" : 0.035675,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(producer|object)" : 0.281615,
+      "P(object|producer)" : 0.126679
+    }
+  } ],
+  "professor-NN" : [ {
+    "object" : "Professor",
+    "multiply" : 0.083088,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(professor|object)" : 0.688,
+      "P(object|professor)" : 0.120767
+    }
+  } ],
+  "progressive-NN" : [ {
+    "object" : "Ontario MPP",
+    "multiply" : 0.088307,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(progressive|object)" : 0.560748,
+      "P(object|progressive)" : 0.15748
+    }
+  }, {
+    "object" : "Progressive_Conservative_Association_of_Alberta",
+    "multiply" : 0.090392,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(progressive|object)" : 0.62963,
+      "P(object|progressive)" : 0.143564
+    }
+  }, {
+    "object" : "Progressive_Conservative_Party_of_Ontario",
+    "multiply" : 0.102824,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(progressive|object)" : 0.642384,
+      "P(object|progressive)" : 0.160066
+    }
+  } ],
+  "provider-NN" : [ {
+    "object" : "Telecommunication",
+    "multiply" : 0.042996,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(provider|object)" : 0.380488,
+      "P(object|provider)" : 0.113001
+    }
+  }, {
+    "object" : "Telecommunications",
+    "multiply" : 0.03774,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(provider|object)" : 0.337607,
+      "P(object|provider)" : 0.111786
+    }
+  } ],
+  "province-NN" : [ {
+    "object" : "Municipality",
+    "multiply" : 0.350361,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(province|object)" : 0.806818,
+      "P(object|province)" : 0.434251
+    }
+  }, {
+    "object" : "Andes",
+    "multiply" : 0.644174,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(province|object)" : 0.924968,
+      "P(object|province)" : 0.696429
+    }
+  } ],
+  "provincial-NN" : [ {
+    "object" : "Member of the Legislative Assembly of Alberta",
+    "multiply" : 0.266431,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(provincial|object)" : 0.874439,
+      "P(object|provincial)" : 0.304688
+    }
+  }, {
+    "object" : "Progressive_Conservative_Association_of_Alberta",
+    "multiply" : 0.077726,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(provincial|object)" : 0.696296,
+      "P(object|provincial)" : 0.111628
+    }
+  } ],
+  "public-JJ" : [ {
+    "object" : "Christian",
+    "multiply" : 0.013767,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(public|object)" : 0.255814,
+      "P(object|public)" : 0.053816
+    }
+  }, {
+    "object" : "Christianity",
+    "multiply" : 0.01687,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(public|object)" : 0.344828,
+      "P(object|public)" : 0.048924
+    }
+  }, {
+    "object" : "Roman_Catholicism",
+    "multiply" : 0.015355,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(public|object)" : 0.320261,
+      "P(object|public)" : 0.047945
+    }
+  } ],
+  "public-NN" : [ {
+    "object" : "Republican_Party_(United_States)",
+    "multiply" : 0.407773,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(public|object)" : 0.772662,
+      "P(object|public)" : 0.527751
+    }
+  } ],
+  "queensland-NN" : [ {
+    "object" : "Queensland Legislative",
+    "multiply" : 0.690505,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(queensland|object)" : 0.983784,
+      "P(object|queensland)" : 0.701887
+    }
+  } ],
+  "r&b-NN" : [ {
+    "object" : "Contemporary_R&B",
+    "multiply" : 0.236754,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(r&b|object)" : 0.691729,
+      "P(object|r&b)" : 0.342264
+    }
+  }, {
+    "object" : "Funk",
+    "multiply" : 0.01646,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(r&b|object)" : 0.218905,
+      "P(object|r&b)" : 0.075194
+    }
+  }, {
+    "object" : "Hip_hop_music",
+    "multiply" : 0.035441,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(r&b|object)" : 0.163366,
+      "P(object|r&b)" : 0.21694
+    }
+  }, {
+    "object" : "R&B",
+    "multiply" : 0.058586,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(r&b|object)" : 0.410811,
+      "P(object|r&b)" : 0.14261
+    }
+  }, {
+    "object" : "Soul_music",
+    "multiply" : 0.092308,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(r&b|object)" : 0.404545,
+      "P(object|r&b)" : 0.228176
+    }
+  } ],
+  "record-NN" : [ {
+    "object" : "Alternative_rock",
+    "multiply" : 0.037037,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(record|object)" : 0.55042,
+      "P(object|record)" : 0.067289
+    }
+  }, {
+    "object" : "Hip_hop_music",
+    "multiply" : 0.025839,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(record|object)" : 0.556931,
+      "P(object|record)" : 0.046396
+    }
+  }, {
+    "object" : "Jazz",
+    "multiply" : 0.087753,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(record|object)" : 0.808608,
+      "P(object|record)" : 0.108523
+    }
+  }, {
+    "object" : "Rock_music",
+    "multiply" : 0.04379,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(record|object)" : 0.559774,
+      "P(object|record)" : 0.078228
+    }
+  }, {
+    "object" : "Columbia_Records",
+    "multiply" : 0.032381,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(record|object)" : 0.658031,
+      "P(object|record)" : 0.049209
+    }
+  }, {
+    "object" : "London",
+    "multiply" : 0.034839,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(record|object)" : 0.665,
+      "P(object|record)" : 0.05239
+    }
+  }, {
+    "object" : "Los_Angeles",
+    "multiply" : 0.035798,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(record|object)" : 0.69403,
+      "P(object|record)" : 0.05158
+    }
+  }, {
+    "object" : "New_York_City",
+    "multiply" : 0.058619,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(record|object)" : 0.738318,
+      "P(object|record)" : 0.079395
+    }
+  } ],
+  "records-NN" : [ {
+    "object" : "Hip_hop_music",
+    "multiply" : 0.027624,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(records|object)" : 0.450495,
+      "P(object|records)" : 0.06132
+    }
+  }, {
+    "object" : "Indie_rock",
+    "multiply" : 0.01814,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(records|object)" : 0.361493,
+      "P(object|records)" : 0.05018
+    }
+  }, {
+    "object" : "Columbia_Records",
+    "multiply" : 0.027158,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(records|object)" : 0.468394,
+      "P(object|records)" : 0.057981
+    }
+  }, {
+    "object" : "California",
+    "multiply" : 0.025686,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(records|object)" : 0.459596,
+      "P(object|records)" : 0.055888
+    }
+  }, {
+    "object" : "Los_Angeles",
+    "multiply" : 0.024608,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(records|object)" : 0.41791,
+      "P(object|records)" : 0.058882
+    }
+  } ],
+  "region-NN" : [ {
+    "object" : "Municipality",
+    "multiply" : 0.173152,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(region|object)" : 0.789773,
+      "P(object|region)" : 0.219243
+    }
+  } ],
+  "release-NN" : [ {
+    "object" : "Alternative_rock",
+    "multiply" : 0.062684,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(release|object)" : 0.885504,
+      "P(object|release)" : 0.070789
+    }
+  }, {
+    "object" : "Hip_hop_music",
+    "multiply" : 0.045184,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(release|object)" : 0.912129,
+      "P(object|release)" : 0.049537
+    }
+  }, {
+    "object" : "Jazz",
+    "multiply" : 0.062962,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(release|object)" : 0.841013,
+      "P(object|release)" : 0.074864
+    }
+  }, {
+    "object" : "Pop_music",
+    "multiply" : 0.08015,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(release|object)" : 0.894083,
+      "P(object|release)" : 0.089645
+    }
+  }, {
+    "object" : "Rock_music",
+    "multiply" : 0.068123,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(release|object)" : 0.864297,
+      "P(object|release)" : 0.078819
+    }
+  }, {
+    "object" : "Columbia_Records",
+    "multiply" : 0.04094,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(release|object)" : 0.905699,
+      "P(object|release)" : 0.045203
+    }
+  }, {
+    "object" : "London",
+    "multiply" : 0.051719,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(release|object)" : 0.93,
+      "P(object|release)" : 0.055612
+    }
+  }, {
+    "object" : "Los_Angeles",
+    "multiply" : 0.04434,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(release|object)" : 0.88806,
+      "P(object|release)" : 0.049929
+    }
+  }, {
+    "object" : "New_York_City",
+    "multiply" : 0.060007,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(release|object)" : 0.864486,
+      "P(object|release)" : 0.069413
+    }
+  } ],
+  "representative-JJ" : [ {
+    "object" : "Member of the",
+    "multiply" : 0.046466,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(representative|object)" : 0.602941,
+      "P(object|representative)" : 0.077066
+    }
+  } ],
+  "representative-NN" : [ {
+    "object" : "United_States_Army",
+    "multiply" : 0.153358,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(representative|object)" : 0.467742,
+      "P(object|representative)" : 0.327869
+    }
+  }, {
+    "object" : "Democratic_Party_(United_States)",
+    "multiply" : 0.178976,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(representative|object)" : 0.476937,
+      "P(object|representative)" : 0.375262
+    }
+  }, {
+    "object" : "Republican_Party_(United_States)",
+    "multiply" : 0.237041,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(representative|object)" : 0.560671,
+      "P(object|representative)" : 0.422781
+    }
+  }, {
+    "object" : "Lawyer",
+    "multiply" : 0.153068,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(representative|object)" : 0.462428,
+      "P(object|representative)" : 0.33101
+    }
+  }, {
+    "object" : "Catholic_Church",
+    "multiply" : 0.01463,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(representative|object)" : 0.251497,
+      "P(object|representative)" : 0.058172
+    }
+  }, {
+    "object" : "Christianity",
+    "multiply" : 0.010402,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(representative|object)" : 0.227586,
+      "P(object|representative)" : 0.045706
+    }
+  }, {
+    "object" : "Roman_Catholicism",
+    "multiply" : 0.013769,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(representative|object)" : 0.254902,
+      "P(object|representative)" : 0.054017
+    }
+  } ],
+  "representatives-NN" : [ {
+    "object" : "Member of the",
+    "multiply" : 0.051651,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(representatives|object)" : 0.566176,
+      "P(object|representatives)" : 0.091228
+    }
+  }, {
+    "object" : "Republican_Party_(United_States)",
+    "multiply" : 0.222257,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(representatives|object)" : 0.508393,
+      "P(object|representatives)" : 0.437176
+    }
+  }, {
+    "object" : "Lawyer",
+    "multiply" : 0.152601,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(representatives|object)" : 0.433526,
+      "P(object|representatives)" : 0.352
+    }
+  }, {
+    "object" : "Baptist",
+    "multiply" : 0.023569,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(representatives|object)" : 0.318182,
+      "P(object|representatives)" : 0.074074
+    }
+  }, {
+    "object" : "Christianity",
+    "multiply" : 0.010947,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(representatives|object)" : 0.206897,
+      "P(object|representatives)" : 0.05291
+    }
+  } ],
+  "republic-NN" : [ {
+    "object" : "Unitary_state",
+    "multiply" : 0.265955,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(republic|object)" : 0.790476,
+      "P(object|republic)" : 0.336449
+    }
+  }, {
+    "object" : "French_language",
+    "multiply" : 0.010843,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(republic|object)" : 0.084444,
+      "P(object|republic)" : 0.128405
+    }
+  } ],
+  "republican-JJ" : [ {
+    "object" : "Republican_Party_(United_States)",
+    "multiply" : 0.571073,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(republican|object)" : 0.76259,
+      "P(object|republican)" : 0.748861
+    }
+  }, {
+    "object" : "Baptist",
+    "multiply" : 0.031628,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(republican|object)" : 0.386364,
+      "P(object|republican)" : 0.081862
+    }
+  }, {
+    "object" : "Christianity",
+    "multiply" : 0.014347,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(republican|object)" : 0.248276,
+      "P(object|republican)" : 0.057785
+    }
+  }, {
+    "object" : "Roman_Catholicism",
+    "multiply" : 0.012852,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(republican|object)" : 0.228758,
+      "P(object|republican)" : 0.05618
+    }
+  } ],
+  "research-NN" : [ {
+    "object" : "Biotechnology",
+    "multiply" : 0.036434,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(research|object)" : 0.412281,
+      "P(object|research)" : 0.088372
+    }
+  } ],
+  "retail-JJ" : [ {
+    "object" : "Retail",
+    "multiply" : 0.159608,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(retail|object)" : 0.543253,
+      "P(object|retail)" : 0.293801
+    }
+  }, {
+    "object" : "Clothing",
+    "multiply" : 0.046303,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(retail|object)" : 0.429412,
+      "P(object|retail)" : 0.107829
+    }
+  } ],
+  "rock-NN" : [ {
+    "object" : "Alternative_rock",
+    "multiply" : 0.094334,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(rock|object)" : 0.542017,
+      "P(object|rock)" : 0.174043
+    }
+  }, {
+    "object" : "Hard_rock",
+    "multiply" : 0.088742,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(rock|object)" : 0.665198,
+      "P(object|rock)" : 0.133407
+    }
+  }, {
+    "object" : "Indie_rock",
+    "multiply" : 0.044708,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(rock|object)" : 0.471513,
+      "P(object|rock)" : 0.094818
+    }
+  }, {
+    "object" : "Progressive_rock",
+    "multiply" : 0.050142,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(rock|object)" : 0.647059,
+      "P(object|rock)" : 0.077493
+    }
+  }, {
+    "object" : "Punk_rock",
+    "multiply" : 0.030037,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(rock|object)" : 0.507194,
+      "P(object|rock)" : 0.059222
+    }
+  }, {
+    "object" : "Rock_music",
+    "multiply" : 0.062244,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(rock|object)" : 0.436187,
+      "P(object|rock)" : 0.1427
+    }
+  }, {
+    "object" : "California",
+    "multiply" : 0.018643,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(rock|object)" : 0.343434,
+      "P(object|rock)" : 0.054284
+    }
+  } ],
+  "role-NN" : [ {
+    "object" : "Actor",
+    "multiply" : 0.056735,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(role|object)" : 0.350993,
+      "P(object|role)" : 0.161641
+    }
+  }, {
+    "object" : "Actress",
+    "multiply" : 0.031276,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(role|object)" : 0.350534,
+      "P(object|role)" : 0.089224
+    }
+  } ],
+  "roles-NN" : [ {
+    "object" : "Actor",
+    "multiply" : 0.033505,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(roles|object)" : 0.175497,
+      "P(object|roles)" : 0.190915
+    }
+  } ],
+  "russian-NN" : [ {
+    "object" : "Russian_language",
+    "multiply" : 0.548874,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(russian|object)" : 0.877005,
+      "P(object|russian)" : 0.62585
+    }
+  } ],
+  "sabha-NN" : [ {
+    "object" : "Member of Parliament",
+    "multiply" : 0.028817,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(sabha|object)" : 0.264368,
+      "P(object|sabha)" : 0.109005
+    }
+  }, {
+    "object" : "Bharatiya_Janata_Party",
+    "multiply" : 0.094475,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(sabha|object)" : 0.598684,
+      "P(object|sabha)" : 0.157804
+    }
+  }, {
+    "object" : "Indian_National_Congress",
+    "multiply" : 0.214139,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(sabha|object)" : 0.430493,
+      "P(object|sabha)" : 0.497427
+    }
+  }, {
+    "object" : "Hinduism",
+    "multiply" : 0.140822,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(sabha|object)" : 0.306723,
+      "P(object|sabha)" : 0.459119
+    }
+  } ],
+  "san-NN" : [ {
+    "object" : "Council–manager_government",
+    "multiply" : 0.076027,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(san|object)" : 0.47651,
+      "P(object|san)" : 0.159551
+    }
+  } ],
+  "saxophonist-NN" : [ {
+    "object" : "Van_Gelder_Studio",
+    "multiply" : 0.199039,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(saxophonist|object)" : 0.364312,
+      "P(object|saxophonist)" : 0.546341
+    }
+  } ],
+  "science-NN" : [ {
+    "object" : "Science_fiction",
+    "multiply" : 0.552161,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(science|object)" : 0.778502,
+      "P(object|science)" : 0.709261
+    }
+  }, {
+    "object" : "Doctor_Who",
+    "multiply" : 0.269834,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(science|object)" : 0.933544,
+      "P(object|science)" : 0.289042
+    }
+  } ],
+  "screenwriter-NN" : [ {
+    "object" : "Film_director",
+    "multiply" : 0.030507,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(screenwriter|object)" : 0.114286,
+      "P(object|screenwriter)" : 0.26694
+    }
+  }, {
+    "object" : "Screenwriter",
+    "multiply" : 0.422877,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(screenwriter|object)" : 0.769394,
+      "P(object|screenwriter)" : 0.549624
+    }
+  } ],
+  "seat-NN" : [ {
+    "object" : "Queensland Legislative",
+    "multiply" : 0.023874,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(seat|object)" : 0.286486,
+      "P(object|seat)" : 0.083333
+    }
+  }, {
+    "object" : "Labor_Party_(UK)",
+    "multiply" : 0.049681,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(seat|object)" : 0.526316,
+      "P(object|seat)" : 0.094394
+    }
+  }, {
+    "object" : "Liberal_Party_(UK)",
+    "multiply" : 0.040921,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(seat|object)" : 0.489933,
+      "P(object|seat)" : 0.083524
+    }
+  }, {
+    "object" : "Sunni_Islam",
+    "multiply" : 0.053512,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(seat|object)" : 0.307692,
+      "P(object|seat)" : 0.173913
+    }
+  } ],
+  "second-JJ" : [ {
+    "object" : "Fantasy",
+    "multiply" : 0.01611,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(second|object)" : 0.235033,
+      "P(object|second)" : 0.068544
+    }
+  } ],
+  "second-NN" : [ {
+    "object" : "Indie_rock",
+    "multiply" : 0.013719,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(second|object)" : 0.267191,
+      "P(object|second)" : 0.051345
+    }
+  } ],
+  "secretary-NN" : [ {
+    "object" : "Communist_Party_of_China",
+    "multiply" : 0.02834,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(secretary|object)" : 0.421053,
+      "P(object|secretary)" : 0.067308
+    }
+  } ],
+  "senate-NN" : [ {
+    "object" : "Member of the",
+    "multiply" : 0.02197,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(senate|object)" : 0.316176,
+      "P(object|senate)" : 0.069486
+    }
+  } ],
+  "senator-NN" : [ {
+    "object" : "Mexican_people",
+    "multiply" : 0.283084,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(senator|object)" : 0.293194,
+      "P(object|senator)" : 0.965517
+    }
+  } ],
+  "series-NN" : [ {
+    "object" : "English_language",
+    "multiply" : 0.218521,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(series|object)" : 0.28235,
+      "P(object|series)" : 0.773938
+    }
+  }, {
+    "object" : "Children's_literature",
+    "multiply" : 0.027761,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(series|object)" : 0.368421,
+      "P(object|series)" : 0.075351
+    }
+  }, {
+    "object" : "Fantasy",
+    "multiply" : 0.027434,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(series|object)" : 0.487805,
+      "P(object|series)" : 0.056239
+    }
+  }, {
+    "object" : "Fantasy_novel",
+    "multiply" : 0.069499,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(series|object)" : 0.515241,
+      "P(object|series)" : 0.134886
+    }
+  }, {
+    "object" : "Mystery_fiction",
+    "multiply" : 0.024487,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(series|object)" : 0.533333,
+      "P(object|series)" : 0.045914
+    }
+  }, {
+    "object" : "Mystery_novel",
+    "multiply" : 0.024582,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(series|object)" : 0.438806,
+      "P(object|series)" : 0.056019
+    }
+  }, {
+    "object" : "Paperback",
+    "multiply" : 0.129506,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(series|object)" : 0.316269,
+      "P(object|series)" : 0.409481
+    }
+  }, {
+    "object" : "California",
+    "multiply" : 0.020822,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(series|object)" : 0.162304,
+      "P(object|series)" : 0.128289
+    }
+  } ],
+  "service-NN" : [ {
+    "object" : "Telecommunication",
+    "multiply" : 0.031434,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(service|object)" : 0.639024,
+      "P(object|service)" : 0.049191
+    }
+  }, {
+    "object" : "Telecommunications",
+    "multiply" : 0.036657,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(service|object)" : 0.662393,
+      "P(object|service)" : 0.05534
+    }
+  } ],
+  "services-NN" : [ {
+    "object" : "Telecommunication",
+    "multiply" : 0.022323,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(services|object)" : 0.458537,
+      "P(object|services)" : 0.048682
+    }
+  }, {
+    "object" : "Telecommunications",
+    "multiply" : 0.027198,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(services|object)" : 0.487179,
+      "P(object|services)" : 0.055828
+    }
+  } ],
+  "short-JJ" : [ {
+    "object" : "Horror_fiction",
+    "multiply" : 0.013633,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(short|object)" : 0.236111,
+      "P(object|short)" : 0.057741
+    }
+  } ],
+  "shri-NN" : [ {
+    "object" : "Padma_Shri",
+    "multiply" : 0.785252,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(shri|object)" : 0.866242,
+      "P(object|shri)" : 0.906504
+    }
+  } ],
+  "singer-NN" : [ {
+    "object" : "Folk_music",
+    "multiply" : 0.031335,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(singer|object)" : 0.404453,
+      "P(object|singer)" : 0.077474
+    }
+  }, {
+    "object" : "Pop_music",
+    "multiply" : 0.09675,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(singer|object)" : 0.426627,
+      "P(object|singer)" : 0.22678
+    }
+  }, {
+    "object" : "Pop_rock",
+    "multiply" : 0.022663,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(singer|object)" : 0.340164,
+      "P(object|singer)" : 0.066623
+    }
+  }, {
+    "object" : "Soul_music",
+    "multiply" : 0.023295,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(singer|object)" : 0.372727,
+      "P(object|singer)" : 0.0625
+    }
+  }, {
+    "object" : "Singer",
+    "multiply" : 0.170681,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(singer|object)" : 0.846154,
+      "P(object|singer)" : 0.201713
+    }
+  }, {
+    "object" : "Nashville,_Tennessee",
+    "multiply" : 0.014214,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(singer|object)" : 0.29703,
+      "P(object|singer)" : 0.047853
+    }
+  } ],
+  "singer-songwriter-NN" : [ {
+    "object" : "Folk_music",
+    "multiply" : 0.027179,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(singer-songwriter|object)" : 0.19666,
+      "P(object|singer-songwriter)" : 0.138204
+    }
+  }, {
+    "object" : "Folk_rock",
+    "multiply" : 0.023698,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(singer-songwriter|object)" : 0.228145,
+      "P(object|singer-songwriter)" : 0.103873
+    }
+  } ],
+  "single-JJ" : [ {
+    "object" : "Contemporary_R&B",
+    "multiply" : 0.034351,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(single|object)" : 0.526316,
+      "P(object|single)" : 0.065267
+    }
+  }, {
+    "object" : "Country_music",
+    "multiply" : 0.052144,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(single|object)" : 0.568182,
+      "P(object|single)" : 0.091773
+    }
+  }, {
+    "object" : "Pop_music",
+    "multiply" : 0.059459,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(single|object)" : 0.397633,
+      "P(object|single)" : 0.149533
+    }
+  }, {
+    "object" : "Pop_rock",
+    "multiply" : 0.026101,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(single|object)" : 0.393443,
+      "P(object|single)" : 0.06634
+    }
+  } ],
+  "singles-NN" : [ {
+    "object" : "Contemporary_R&B",
+    "multiply" : 0.026642,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(singles|object)" : 0.330827,
+      "P(object|singles)" : 0.080531
+    }
+  }, {
+    "object" : "Warner_Bros._Records",
+    "multiply" : 0.011449,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(singles|object)" : 0.234206,
+      "P(object|singles)" : 0.048885
+    }
+  } ],
+  "software-NN" : [ {
+    "object" : "Computer_software",
+    "multiply" : 0.126238,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(software|object)" : 0.941748,
+      "P(object|software)" : 0.134046
+    }
+  }, {
+    "object" : "Software",
+    "multiply" : 0.144369,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(software|object)" : 0.787234,
+      "P(object|software)" : 0.183388
+    }
+  } ],
+  "song-NN" : [ {
+    "object" : "Folk_music",
+    "multiply" : 0.025953,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(song|object)" : 0.541744,
+      "P(object|song)" : 0.047907
+    }
+  }, {
+    "object" : "Hard_rock",
+    "multiply" : 0.017809,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(song|object)" : 0.355727,
+      "P(object|song)" : 0.050065
+    }
+  }, {
+    "object" : "Pop_music",
+    "multiply" : 0.054081,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(song|object)" : 0.440828,
+      "P(object|song)" : 0.12268
+    }
+  }, {
+    "object" : "Pop_rock",
+    "multiply" : 0.021443,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(song|object)" : 0.442623,
+      "P(object|song)" : 0.048446
+    }
+  }, {
+    "object" : "Columbia_Records",
+    "multiply" : 0.025023,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(song|object)" : 0.426943,
+      "P(object|song)" : 0.058609
+    }
+  } ],
+  "south-NN" : [ {
+    "object" : "Korean_language",
+    "multiply" : 0.136003,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(south|object)" : 0.751938,
+      "P(object|south)" : 0.18087
+    }
+  }, {
+    "object" : "Australian_Labor_Party",
+    "multiply" : 0.063403,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(south|object)" : 0.392381,
+      "P(object|south)" : 0.161585
+    }
+  }, {
+    "object" : "Liberal_Party_of_Australia",
+    "multiply" : 0.031726,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(south|object)" : 0.5625,
+      "P(object|south)" : 0.056402
+    }
+  }, {
+    "object" : "Christianity",
+    "multiply" : 0.012752,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(south|object)" : 0.193103,
+      "P(object|south)" : 0.066038
+    }
+  } ],
+  "spanish-JJ" : [ {
+    "object" : "Municipality",
+    "multiply" : 0.102135,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(spanish|object)" : 0.346591,
+      "P(object|spanish)" : 0.294686
+    }
+  } ],
+  "spelling-NN" : [ {
+    "object" : "Andes",
+    "multiply" : 0.581995,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(spelling|object)" : 0.600259,
+      "P(object|spelling)" : 0.969574
+    }
+  } ],
+  "star-NN" : [ {
+    "object" : "Star_Wars",
+    "multiply" : 0.257135,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(star|object)" : 0.825688,
+      "P(object|star)" : 0.311419
+    }
+  } ],
+  "state-NN" : [ {
+    "object" : "Council-manager_government",
+    "multiply" : 0.150796,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(state|object)" : 0.908571,
+      "P(object|state)" : 0.165971
+    }
+  }, {
+    "object" : "Mayor-council_government",
+    "multiply" : 0.114661,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(state|object)" : 0.900369,
+      "P(object|state)" : 0.127349
+    }
+  }, {
+    "object" : "Mayor–council_government",
+    "multiply" : 0.114015,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(state|object)" : 0.853333,
+      "P(object|state)" : 0.133612
+    }
+  }, {
+    "object" : "City Council",
+    "multiply" : 0.050535,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(state|object)" : 0.793939,
+      "P(object|state)" : 0.063651
+    }
+  }, {
+    "object" : "City Manager",
+    "multiply" : 0.099666,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(state|object)" : 0.925795,
+      "P(object|state)" : 0.107655
+    }
+  }, {
+    "object" : "United_States_Army",
+    "multiply" : 0.148444,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(state|object)" : 0.516129,
+      "P(object|state)" : 0.287611
+    }
+  }, {
+    "object" : "Cascade_Range",
+    "multiply" : 0.037675,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(state|object)" : 0.68254,
+      "P(object|state)" : 0.055199
+    }
+  }, {
+    "object" : "Louisiana",
+    "multiply" : 0.026054,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(state|object)" : 0.553333,
+      "P(object|state)" : 0.047086
+    }
+  } ],
+  "states-NN" : [ {
+    "object" : "Mayor-council_government",
+    "multiply" : 0.11392,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(states|object)" : 0.752768,
+      "P(object|states)" : 0.151335
+    }
+  }, {
+    "object" : "United_States",
+    "multiply" : 0.011688,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(states|object)" : 0.165975,
+      "P(object|states)" : 0.070423
+    }
+  } ],
+  "stores-NN" : [ {
+    "object" : "Retail",
+    "multiply" : 0.266451,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(stores|object)" : 0.603806,
+      "P(object|stores)" : 0.441286
+    }
+  }, {
+    "object" : "Clothing",
+    "multiply" : 0.055223,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(stores|object)" : 0.388235,
+      "P(object|stores)" : 0.142241
+    }
+  } ],
+  "stories-NN" : [ {
+    "object" : "Detective_fiction",
+    "multiply" : 0.016804,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(stories|object)" : 0.305177,
+      "P(object|stories)" : 0.055063
+    }
+  }, {
+    "object" : "Fantasy_fiction",
+    "multiply" : 0.126955,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(stories|object)" : 0.880466,
+      "P(object|stories)" : 0.14419
+    }
+  }, {
+    "object" : "Horror_fiction",
+    "multiply" : 0.023807,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(stories|object)" : 0.268519,
+      "P(object|stories)" : 0.088661
+    }
+  }, {
+    "object" : "Science_fiction",
+    "multiply" : 0.082452,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(stories|object)" : 0.265705,
+      "P(object|stories)" : 0.310313
+    }
+  } ],
+  "story-NN" : [ {
+    "object" : "Historical_novel",
+    "multiply" : 0.015647,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(story|object)" : 0.326087,
+      "P(object|story)" : 0.047985
+    }
+  }, {
+    "object" : "Hardcover",
+    "multiply" : 0.18027,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(story|object)" : 0.259753,
+      "P(object|story)" : 0.694006
+    }
+  } ],
+  "studio-NN" : [ {
+    "object" : "Hard_rock",
+    "multiply" : 0.032952,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(studio|object)" : 0.535242,
+      "P(object|studio)" : 0.061565
+    }
+  }, {
+    "object" : "Pop_rock",
+    "multiply" : 0.022561,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(studio|object)" : 0.487705,
+      "P(object|studio)" : 0.04626
+    }
+  }, {
+    "object" : "Japanese_language",
+    "multiply" : 0.025551,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(studio|object)" : 0.222826,
+      "P(object|studio)" : 0.114667
+    }
+  }, {
+    "object" : "Spanish_language",
+    "multiply" : 0.010169,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(studio|object)" : 0.141243,
+      "P(object|studio)" : 0.072
+    }
+  }, {
+    "object" : "California",
+    "multiply" : 0.027624,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(studio|object)" : 0.530303,
+      "P(object|studio)" : 0.052092
+    }
+  }, {
+    "object" : "Los_Angeles",
+    "multiply" : 0.030958,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(studio|object)" : 0.544776,
+      "P(object|studio)" : 0.056827
+    }
+  } ],
+  "swedish-NN" : [ {
+    "object" : "Swedish_language",
+    "multiply" : 0.706316,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(swedish|object)" : 0.883978,
+      "P(object|swedish)" : 0.79902
+    }
+  } ],
+  "swiss-JJ" : [ {
+    "object" : "Bernese_Alps",
+    "multiply" : 0.030722,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(swiss|object)" : 0.272727,
+      "P(object|swiss)" : 0.112648
+    }
+  }, {
+    "object" : "Lepontine_Alps",
+    "multiply" : 0.150198,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(swiss|object)" : 0.666667,
+      "P(object|swiss)" : 0.225296
+    }
+  }, {
+    "object" : "Pennine_Alps",
+    "multiply" : 0.141344,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(swiss|object)" : 0.60101,
+      "P(object|swiss)" : 0.235178
+    }
+  } ],
+  "switzerland-NN" : [ {
+    "object" : "Pennine_Alps",
+    "multiply" : 0.05204,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(switzerland|object)" : 0.272727,
+      "P(object|switzerland)" : 0.190813
+    }
+  } ],
+  "system-NN" : [ {
+    "object" : "Software",
+    "multiply" : 0.016259,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(system|object)" : 0.285106,
+      "P(object|system)" : 0.057026
+    }
+  } ],
+  "systems-NN" : [ {
+    "object" : "Computer_software",
+    "multiply" : 0.013259,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(systems|object)" : 0.262136,
+      "P(object|systems)" : 0.05058
+    }
+  }, {
+    "object" : "Software",
+    "multiply" : 0.012645,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(systems|object)" : 0.2,
+      "P(object|systems)" : 0.063224
+    }
+  } ],
+  "tales-NN" : [ {
+    "object" : "Fantasy_fiction",
+    "multiply" : 0.110872,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(tales|object)" : 0.41691,
+      "P(object|tales)" : 0.265938
+    }
+  }, {
+    "object" : "Horror_fiction",
+    "multiply" : 0.014521,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(tales|object)" : 0.097222,
+      "P(object|tales)" : 0.149362
+    }
+  } ],
+  "technology-NN" : [ {
+    "object" : "Biotechnology",
+    "multiply" : 0.039598,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(technology|object)" : 0.649123,
+      "P(object|technology)" : 0.061002
+    }
+  }, {
+    "object" : "Software",
+    "multiply" : 0.012633,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(technology|object)" : 0.238298,
+      "P(object|technology)" : 0.053014
+    }
+  } ],
+  "television-NN" : [ {
+    "object" : "Mass_media",
+    "multiply" : 0.048158,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(television|object)" : 0.458333,
+      "P(object|television)" : 0.105072
+    }
+  }, {
+    "object" : "Actor",
+    "multiply" : 0.037657,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(television|object)" : 0.294702,
+      "P(object|television)" : 0.12778
+    }
+  }, {
+    "object" : "Actress",
+    "multiply" : 0.024529,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(television|object)" : 0.323843,
+      "P(object|television)" : 0.075745
+    }
+  }, {
+    "object" : "India",
+    "multiply" : 0.053431,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(television|object)" : 0.27881,
+      "P(object|television)" : 0.191638
+    }
+  }, {
+    "object" : "Doctor_Who",
+    "multiply" : 0.585333,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(television|object)" : 0.946203,
+      "P(object|television)" : 0.618613
+    }
+  } ],
+  "texas-NN" : [ {
+    "object" : "Council-manager_government",
+    "multiply" : 0.38218,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(texas|object)" : 0.48,
+      "P(object|texas)" : 0.796209
+    }
+  }, {
+    "object" : "City Council",
+    "multiply" : 0.077198,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(texas|object)" : 0.157576,
+      "P(object|texas)" : 0.489914
+    }
+  }, {
+    "object" : "City Manager",
+    "multiply" : 0.175202,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(texas|object)" : 0.326855,
+      "P(object|texas)" : 0.536023
+    }
+  }, {
+    "object" : "Roman_Catholicism",
+    "multiply" : 0.015941,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(texas|object)" : 0.130719,
+      "P(object|texas)" : 0.121951
+    }
+  } ],
+  "theatre-NN" : [ {
+    "object" : "Playwright",
+    "multiply" : 0.016759,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(theatre|object)" : 0.228571,
+      "P(object|theatre)" : 0.073322
+    }
+  } ],
+  "translation-NN" : [ {
+    "object" : "Spanish_language",
+    "multiply" : 0.010956,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(translation|object)" : 0.146893,
+      "P(object|translation)" : 0.074586
+    }
+  } ],
+  "trilogy-NN" : [ {
+    "object" : "Fantasy_novel",
+    "multiply" : 0.062246,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(trilogy|object)" : 0.224189,
+      "P(object|trilogy)" : 0.27765
+    }
+  } ],
+  "tv-NN" : [ {
+    "object" : "Actress",
+    "multiply" : 0.016508,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(tv|object)" : 0.179715,
+      "P(object|tv)" : 0.091855
+    }
+  } ],
+  "u.s.-NN" : [ {
+    "object" : "Cascade_Range",
+    "multiply" : 0.032193,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(u.s.|object)" : 0.380952,
+      "P(object|u.s.)" : 0.084507
+    }
+  } ],
+  "uk-NN" : [ {
+    "object" : "Crime_novel",
+    "multiply" : 0.01889,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(uk|object)" : 0.211221,
+      "P(object|uk)" : 0.089431
+    }
+  }, {
+    "object" : "London",
+    "multiply" : 0.05717,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(uk|object)" : 0.33,
+      "P(object|uk)" : 0.173242
+    }
+  } ],
+  "union-NN" : [ {
+    "object" : "Unitary_state",
+    "multiply" : 0.145003,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(union|object)" : 0.447619,
+      "P(object|union)" : 0.323944
+    }
+  }, {
+    "object" : "Union_for_a_Popular_Movement",
+    "multiply" : 0.229064,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(union|object)" : 0.902344,
+      "P(object|union)" : 0.253854
+    }
+  } ],
+  "united-NN" : [ {
+    "object" : "Non-fiction",
+    "multiply" : 0.012953,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(united|object)" : 0.170431,
+      "P(object|united)" : 0.076003
+    }
+  }, {
+    "object" : "United_States",
+    "multiply" : 0.011888,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(united|object)" : 0.174274,
+      "P(object|united)" : 0.068215
+    }
+  } ],
+  "universe-NN" : [ {
+    "object" : "Star_Wars",
+    "multiply" : 0.182577,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(universe|object)" : 0.431193,
+      "P(object|universe)" : 0.423423
+    }
+  } ],
+  "university-NN" : [ {
+    "object" : "Professor",
+    "multiply" : 0.032282,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(university|object)" : 0.688,
+      "P(object|university)" : 0.046921
+    }
+  } ],
+  "us-NN" : [ {
+    "object" : "Rock_music",
+    "multiply" : 0.043971,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(us|object)" : 0.61147,
+      "P(object|us)" : 0.071911
+    }
+  }, {
+    "object" : "Columbia_Records",
+    "multiply" : 0.031301,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(us|object)" : 0.648705,
+      "P(object|us)" : 0.048252
+    }
+  }, {
+    "object" : "London",
+    "multiply" : 0.048377,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(us|object)" : 0.755,
+      "P(object|us)" : 0.064076
+    }
+  }, {
+    "object" : "Los_Angeles",
+    "multiply" : 0.029207,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(us|object)" : 0.589552,
+      "P(object|us)" : 0.04954
+    }
+  } ],
+  "valais-NN" : [ {
+    "object" : "Bernese_Alps",
+    "multiply" : 0.144905,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(valais|object)" : 0.454545,
+      "P(object|valais)" : 0.318792
+    }
+  }, {
+    "object" : "Pennine_Alps",
+    "multiply" : 0.356332,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(valais|object)" : 0.732323,
+      "P(object|valais)" : 0.486577
+    }
+  } ],
+  "video-NN" : [ {
+    "object" : "Computer_and_video_game_industry",
+    "multiply" : 0.07472,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(video|object)" : 0.684932,
+      "P(object|video)" : 0.109091
+    }
+  }, {
+    "object" : "Video_game_industry",
+    "multiply" : 0.26993,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(video|object)" : 0.779097,
+      "P(object|video)" : 0.346465
+    }
+  } ],
+  "volume-NN" : [ {
+    "object" : "Detective_fiction",
+    "multiply" : 0.013447,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(volume|object)" : 0.196185,
+      "P(object|volume)" : 0.068545
+    }
+  } ],
+  "war-NN" : [ {
+    "object" : "Children's_literature",
+    "multiply" : 0.021543,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(war|object)" : 0.3029,
+      "P(object|war)" : 0.071122
+    }
+  }, {
+    "object" : "Historical_novel",
+    "multiply" : 0.015522,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(war|object)" : 0.323913,
+      "P(object|war)" : 0.047919
+    }
+  }, {
+    "object" : "Hardback",
+    "multiply" : 0.018016,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(war|object)" : 0.239198,
+      "P(object|war)" : 0.075317
+    }
+  }, {
+    "object" : "Star_Wars",
+    "multiply" : 0.091644,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(war|object)" : 0.834862,
+      "P(object|war)" : 0.109771
+    }
+  } ],
+  "wars-NN" : [ {
+    "object" : "Star_Wars",
+    "multiply" : 0.622725,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(wars|object)" : 0.834862,
+      "P(object|wars)" : 0.745902
+    }
+  } ],
+  "west-NN" : [ {
+    "object" : "French_language",
+    "multiply" : 0.010815,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(west|object)" : 0.12,
+      "P(object|west)" : 0.090129
+    }
+  }, {
+    "object" : "Louisiana",
+    "multiply" : 0.02291,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(west|object)" : 0.293333,
+      "P(object|west)" : 0.078101
+    }
+  } ],
+  "wilderness-NN" : [ {
+    "object" : "Sierra_Nevada_(U.S.)",
+    "multiply" : 0.046604,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(wilderness|object)" : 0.390625,
+      "P(object|wilderness)" : 0.119306
+    }
+  } ],
+  "william-NN" : [ {
+    "object" : "Anglicanism",
+    "multiply" : 0.036458,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(william|object)" : 0.21875,
+      "P(object|william)" : 0.166667
+    }
+  } ],
+  "work-NN" : [ {
+    "object" : "Russian_language",
+    "multiply" : 0.01259,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(work|object)" : 0.262032,
+      "P(object|work)" : 0.048048
+    }
+  } ],
+  "works-NN" : [ {
+    "object" : "Chinese_language",
+    "multiply" : 0.016215,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(works|object)" : 0.261905,
+      "P(object|works)" : 0.061914
+    }
+  } ],
+  "world-NN" : [ {
+    "object" : "Unitary_state",
+    "multiply" : 0.143755,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(world|object)" : 0.638095,
+      "P(object|world)" : 0.225287
+    }
+  }, {
+    "object" : "Fantasy",
+    "multiply" : 0.01543,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(world|object)" : 0.248337,
+      "P(object|world)" : 0.062132
+    }
+  } ],
+  "writer-NN" : [ {
+    "object" : "Fantasy",
+    "multiply" : 0.03351,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(writer|object)" : 0.517647,
+      "P(object|writer)" : 0.064735
+    }
+  }, {
+    "object" : "Folk_music",
+    "multiply" : 0.013752,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(writer|object)" : 0.283859,
+      "P(object|writer)" : 0.048445
+    }
+  }, {
+    "object" : "Romance_novel",
+    "multiply" : 0.031658,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(writer|object)" : 0.623529,
+      "P(object|writer)" : 0.050772
+    }
+  }, {
+    "object" : "Science_fiction",
+    "multiply" : 0.052888,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(writer|object)" : 0.647668,
+      "P(object|writer)" : 0.081659
+    }
+  }, {
+    "object" : "Crime_novel",
+    "multiply" : 0.014964,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(writer|object)" : 0.207921,
+      "P(object|writer)" : 0.07197
+    }
+  }, {
+    "object" : "Mystery_novel",
+    "multiply" : 0.013069,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(writer|object)" : 0.259701,
+      "P(object|writer)" : 0.050325
+    }
+  }, {
+    "object" : "Novel",
+    "multiply" : 0.021347,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(writer|object)" : 0.220386,
+      "P(object|writer)" : 0.096861
+    }
+  }, {
+    "object" : "Novelist",
+    "multiply" : 0.060053,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(writer|object)" : 0.495315,
+      "P(object|writer)" : 0.121243
+    }
+  }, {
+    "object" : "Screenwriter",
+    "multiply" : 0.147879,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(writer|object)" : 0.916047,
+      "P(object|writer)" : 0.161432
+    }
+  } ],
+  "york-NN" : [ {
+    "object" : "Judaism",
+    "multiply" : 0.013179,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(york|object)" : 0.120805,
+      "P(object|york)" : 0.109091
+    }
+  } ],
+  "young-JJ" : [ {
+    "object" : "Young-adult_fiction",
+    "multiply" : 0.085324,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(young|object)" : 0.629213,
+      "P(object|young)" : 0.135605
+    }
+  }, {
+    "object" : "Young_adult_novel",
+    "multiply" : 0.050836,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(young|object)" : 0.576531,
+      "P(object|young)" : 0.088176
+    }
+  } ]
+}

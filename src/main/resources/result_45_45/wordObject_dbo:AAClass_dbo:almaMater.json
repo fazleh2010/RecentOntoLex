@@ -1,0 +1,20 @@
+{
+  "professor-NN" : [ {
+    "object" : "Harvard_University",
+    "multiply" : 0.010505,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(professor|object)" : 0.167742,
+      "P(object|professor)" : 0.062628
+    }
+  } ],
+  "york-NN" : [ {
+    "object" : "Columbia_University",
+    "multiply" : 0.020112,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(york|object)" : 0.281915,
+      "P(object|york)" : 0.071342
+    }
+  } ]
+}

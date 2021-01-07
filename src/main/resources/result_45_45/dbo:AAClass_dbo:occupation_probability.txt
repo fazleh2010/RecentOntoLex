@@ -1,0 +1,89 @@
+id=110  property=dbo:occupation  object=Actor  NumberOfEntitiesFoundForObject=302
+actor  NN  multiply=0.26477  P(actor|object)=0.884106  P(object|actor)=0.299477    
+role  NN  multiply=0.056735  P(role|object)=0.350993  P(object|role)=0.161641    
+film  NN  multiply=0.053511  P(film|object)=0.486755  P(object|film)=0.109933    
+television  NN  multiply=0.037657  P(television|object)=0.294702  P(object|television)=0.12778    
+roles  NN  multiply=0.033505  P(roles|object)=0.175497  P(object|roles)=0.190915    
+
+id=111  property=dbo:occupation  object=Actress  NumberOfEntitiesFoundForObject=562
+actress  NN  multiply=0.249544  P(actress|object)=0.994662  P(object|actress)=0.250883    
+role  NN  multiply=0.031276  P(role|object)=0.350534  P(object|role)=0.089224    
+television  NN  multiply=0.024529  P(television|object)=0.323843  P(object|television)=0.075745    
+film  NN  multiply=0.020889  P(film|object)=0.395018  P(object|film)=0.052882    
+tv  NN  multiply=0.016508  P(tv|object)=0.179715  P(object|tv)=0.091855    
+
+id=112  property=dbo:occupation  object=Author  NumberOfEntitiesFoundForObject=717
+author  NN  multiply=0.169332  P(author|object)=0.838215  P(object|author)=0.202015    
+book  NN  multiply=0.061785  P(book|object)=0.461646  P(object|book)=0.133837    
+books  NN  multiply=0.049581  P(books|object)=0.315202  P(object|books)=0.157298    
+new  NN  multiply=0.013143  P(new|object)=0.259414  P(object|new)=0.050666    
+novels  NN  multiply=0.010423  P(novels|object)=0.112971  P(object|novels)=0.092262    
+
+id=113  property=dbo:occupation  object=Business  NumberOfEntitiesFoundForObject=137
+businessman  NN  multiply=0.037531  P(businessman|object)=0.547445  P(object|businessman)=0.068556    
+
+id=114  property=dbo:occupation  object=Film_director  NumberOfEntitiesFoundForObject=140
+director  NN  multiply=0.148104  P(director|object)=0.921429  P(object|director)=0.160733    
+film  NN  multiply=0.085701  P(film|object)=0.914286  P(object|film)=0.093735    
+films  NN  multiply=0.030642  P(films|object)=0.357143  P(object|films)=0.085797    
+screenwriter  NN  multiply=0.030507  P(screenwriter|object)=0.114286  P(object|screenwriter)=0.26694    
+producer  NN  multiply=0.029927  P(producer|object)=0.285714  P(object|producer)=0.104745    
+
+id=115  property=dbo:occupation  object=Historian  NumberOfEntitiesFoundForObject=133
+history  NN  multiply=0.046248  P(history|object)=0.518797  P(object|history)=0.089144    
+
+id=116  property=dbo:occupation  object=Journalist  NumberOfEntitiesFoundForObject=809
+journalist  NN  multiply=0.250614  P(journalist|object)=0.796044  P(object|journalist)=0.314824    
+new  NN  multiply=0.023846  P(new|object)=0.398022  P(object|new)=0.059911    
+editor  NN  multiply=0.021527  P(editor|object)=0.210136  P(object|editor)=0.102442    
+author  NN  multiply=0.016447  P(author|object)=0.289246  P(object|author)=0.056862    
+book  NN  multiply=0.011568  P(book|object)=0.217553  P(object|book)=0.053172    
+
+id=117  property=dbo:occupation  object=Lawyer  NumberOfEntitiesFoundForObject=278
+house  NN  multiply=0.015419  P(house|object)=0.266187  P(object|house)=0.057925    
+
+id=118  property=dbo:occupation  object=Model_(person)  NumberOfEntitiesFoundForObject=226
+model  NN  multiply=0.148944  P(model|object)=0.79646  P(object|model)=0.187008    
+
+id=119  property=dbo:occupation  object=Novelist  NumberOfEntitiesFoundForObject=747
+novelist  NN  multiply=0.258249  P(novelist|object)=0.433735  P(object|novelist)=0.595406    
+novels  NN  multiply=0.238866  P(novels|object)=0.455154  P(object|novels)=0.524802    
+writer  NN  multiply=0.060053  P(writer|object)=0.495315  P(object|writer)=0.121243    
+author  NN  multiply=0.05352  P(author|object)=0.421687  P(object|author)=0.126919    
+book  NN  multiply=0.039255  P(book|object)=0.307898  P(object|book)=0.127492    
+
+id=120  property=dbo:occupation  object=Playwright  NumberOfEntitiesFoundForObject=350
+theatre  NN  multiply=0.016759  P(theatre|object)=0.228571  P(object|theatre)=0.073322    
+novelist  NN  multiply=0.016249  P(novelist|object)=0.211429  P(object|novelist)=0.076855    
+poet  NN  multiply=0.015578  P(poet|object)=0.277143  P(object|poet)=0.05621    
+
+id=121  property=dbo:occupation  object=Poet  NumberOfEntitiesFoundForObject=364
+poet  NN  multiply=0.463877  P(poet|object)=0.972527  P(object|poet)=0.476981    
+book  NN  multiply=0.01004  P(book|object)=0.175824  P(object|book)=0.0571    
+
+id=122  property=dbo:occupation  object=Politician  NumberOfEntitiesFoundForObject=530
+politician  NN  multiply=0.145578  P(politician|object)=0.796226  P(object|politician)=0.182834    
+party  NN  multiply=0.059076  P(party|object)=0.403774  P(object|party)=0.14631    
+member  NN  multiply=0.042744  P(member|object)=0.532075  P(object|member)=0.080335    
+political  JJ  multiply=0.011354  P(political|object)=0.154717  P(object|political)=0.073387    
+
+id=123  property=dbo:occupation  object=Professor  NumberOfEntitiesFoundForObject=125
+professor  NN  multiply=0.083088  P(professor|object)=0.688  P(object|professor)=0.120767    
+university  NN  multiply=0.032282  P(university|object)=0.688  P(object|university)=0.046921    
+college  NN  multiply=0.014838  P(college|object)=0.312  P(object|college)=0.047558    
+
+id=124  property=dbo:occupation  object=Screenwriter  NumberOfEntitiesFoundForObject=941
+screenwriter  NN  multiply=0.422877  P(screenwriter|object)=0.769394  P(object|screenwriter)=0.549624    
+writer  NN  multiply=0.147879  P(writer|object)=0.916047  P(object|writer)=0.161432    
+film  NN  multiply=0.062788  P(film|object)=0.716259  P(object|film)=0.087661    
+director  NN  multiply=0.058379  P(director|object)=0.529224  P(object|director)=0.110311    
+producer  NN  multiply=0.035675  P(producer|object)=0.281615  P(object|producer)=0.126679    
+
+id=125  property=dbo:occupation  object=Singer  NumberOfEntitiesFoundForObject=208
+singer  NN  multiply=0.170681  P(singer|object)=0.846154  P(object|singer)=0.201713    
+
+id=126  property=dbo:occupation  object=Special_effect  NumberOfEntitiesFoundForObject=109
+academy  NN  multiply=0.049519  P(academy|object)=0.816514  P(object|academy)=0.060647    
+artist  NN  multiply=0.038087  P(artist|object)=0.816514  P(object|artist)=0.046646    
+awards  NN  multiply=0.030597  P(awards|object)=0.66055  P(object|awards)=0.04632    
+

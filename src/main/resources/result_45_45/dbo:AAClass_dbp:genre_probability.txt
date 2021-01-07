@@ -1,0 +1,16 @@
+id=51  property=dbp:genre  object=Children's literature  NumberOfEntitiesFoundForObject=103
+children  NN  multiply=0.117369  P(children|object)=0.883495  P(object|children)=0.132847    
+books  NN  multiply=0.03034  P(books|object)=0.582524  P(object|books)=0.052083    
+
+id=52  property=dbp:genre  object=Non-fiction  NumberOfEntitiesFoundForObject=322
+non-fiction  JJ  multiply=0.044675  P(non-fiction|object)=0.173913  P(object|non-fiction)=0.256881    
+man  NN  multiply=0.020975  P(man|object)=0.388199  P(object|man)=0.054031    
+time  NN  multiply=0.016913  P(time|object)=0.245342  P(object|time)=0.068936    
+times  NN  multiply=0.016782  P(times|object)=0.161491  P(object|times)=0.103922    
+new  NN  multiply=0.016733  P(new|object)=0.257764  P(object|new)=0.064915    
+
+id=53  property=dbp:genre  object=Science fiction  NumberOfEntitiesFoundForObject=139
+science  NN  multiply=0.168741  P(science|object)=0.705036  P(object|science)=0.239336    
+fiction  NN  multiply=0.074093  P(fiction|object)=0.776978  P(object|fiction)=0.095361    
+series  NN  multiply=0.016512  P(series|object)=0.316547  P(object|series)=0.052164    
+

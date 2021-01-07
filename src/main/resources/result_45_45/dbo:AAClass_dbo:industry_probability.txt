@@ -1,0 +1,89 @@
+id=46  property=dbo:industry  object=Aerospace  NumberOfEntitiesFoundForObject=223
+manufacturer  NN  multiply=0.087522  P(manufacturer|object)=0.775785  P(object|manufacturer)=0.112817    
+design  NN  multiply=0.048714  P(design|object)=0.524664  P(object|design)=0.092847    
+
+id=47  property=dbo:industry  object=Automotive_industry  NumberOfEntitiesFoundForObject=295
+mobile  JJ  multiply=0.084687  P(mobile|object)=0.545763  P(object|mobile)=0.155172    
+manufacturer  NN  multiply=0.045646  P(manufacturer|object)=0.505085  P(object|manufacturer)=0.090372    
+manufacturing  NN  multiply=0.0349  P(manufacturing|object)=0.338983  P(object|manufacturing)=0.102956    
+china  NN  multiply=0.01261  P(china|object)=0.162712  P(object|china)=0.077496    
+ltd.  NN  multiply=0.012029  P(ltd.|object)=0.172881  P(object|ltd.)=0.069577    
+
+id=48  property=dbo:industry  object=Biotechnology  NumberOfEntitiesFoundForObject=114
+technology  NN  multiply=0.039598  P(technology|object)=0.649123  P(object|technology)=0.061002    
+research  NN  multiply=0.036434  P(research|object)=0.412281  P(object|research)=0.088372    
+
+id=49  property=dbo:industry  object=Computer_and_video_game_industry  NumberOfEntitiesFoundForObject=146
+game  NN  multiply=0.142836  P(game|object)=0.958904  P(object|game)=0.148957    
+games  NN  multiply=0.094265  P(games|object)=0.664384  P(object|games)=0.141883    
+video  NN  multiply=0.07472  P(video|object)=0.684932  P(object|video)=0.109091    
+developer  NN  multiply=0.073615  P(developer|object)=0.59589  P(object|developer)=0.123537    
+entertainment  NN  multiply=0.013995  P(entertainment|object)=0.253425  P(object|entertainment)=0.055224    
+
+id=50  property=dbo:industry  object=Computer_software  NumberOfEntitiesFoundForObject=103
+software  NN  multiply=0.126238  P(software|object)=0.941748  P(object|software)=0.134046    
+management  NN  multiply=0.018045  P(management|object)=0.378641  P(object|management)=0.047656    
+systems  NN  multiply=0.013259  P(systems|object)=0.262136  P(object|systems)=0.05058    
+
+id=51  property=dbo:industry  object=Conglomerate_(company)  NumberOfEntitiesFoundForObject=135
+industries  NN  multiply=0.012594  P(industries|object)=0.222222  P(object|industries)=0.056673    
+
+id=52  property=dbo:industry  object=Electronics  NumberOfEntitiesFoundForObject=112
+equipment  NN  multiply=0.011951  P(equipment|object)=0.241071  P(object|equipment)=0.049573    
+
+id=53  property=dbo:industry  object=Entertainment  NumberOfEntitiesFoundForObject=126
+entertainment  NN  multiply=0.03376  P(entertainment|object)=0.396825  P(object|entertainment)=0.085075    
+
+id=54  property=dbo:industry  object=Finance  NumberOfEntitiesFoundForObject=105
+financial  NN  multiply=0.029665  P(financial|object)=0.428571  P(object|financial)=0.069219    
+
+id=55  property=dbo:industry  object=Internet  NumberOfEntitiesFoundForObject=122
+online  NN  multiply=0.029652  P(online|object)=0.409836  P(object|online)=0.072351    
+
+id=56  property=dbo:industry  object=Manufacturing  NumberOfEntitiesFoundForObject=217
+manufacturing  NN  multiply=0.020773  P(manufacturing|object)=0.304147  P(object|manufacturing)=0.068298    
+manufacturer  NN  multiply=0.020132  P(manufacturer|object)=0.396313  P(object|manufacturer)=0.050797    
+
+id=57  property=dbo:industry  object=Mass_media  NumberOfEntitiesFoundForObject=120
+media  NN  multiply=0.090117  P(media|object)=0.8  P(object|media)=0.112646    
+television  NN  multiply=0.048158  P(television|object)=0.458333  P(object|television)=0.105072    
+
+id=58  property=dbo:industry  object=Restaurant  NumberOfEntitiesFoundForObject=115
+chain  NN  multiply=0.073457  P(chain|object)=0.791304  P(object|chain)=0.092831    
+food  NN  multiply=0.018592  P(food|object)=0.313043  P(object|food)=0.059392    
+
+id=59  property=dbo:industry  object=Retail  NumberOfEntitiesFoundForObject=578
+stores  NN  multiply=0.266451  P(stores|object)=0.603806  P(object|stores)=0.441286    
+chain  NN  multiply=0.162819  P(chain|object)=0.548443  P(object|chain)=0.296875    
+retail  JJ  multiply=0.159608  P(retail|object)=0.543253  P(object|retail)=0.293801    
+brand  NN  multiply=0.024442  P(brand|object)=0.275087  P(object|brand)=0.088854    
+part  NN  multiply=0.023143  P(part|object)=0.32699  P(object|part)=0.070777    
+
+id=60  property=dbo:industry  object=Software  NumberOfEntitiesFoundForObject=235
+software  NN  multiply=0.144369  P(software|object)=0.787234  P(object|software)=0.183388    
+management  NN  multiply=0.02612  P(management|object)=0.344681  P(object|management)=0.075781    
+system  NN  multiply=0.016259  P(system|object)=0.285106  P(object|system)=0.057026    
+systems  NN  multiply=0.012645  P(systems|object)=0.2  P(object|systems)=0.063224    
+technology  NN  multiply=0.012633  P(technology|object)=0.238298  P(object|technology)=0.053014    
+
+id=61  property=dbo:industry  object=Telecommunication  NumberOfEntitiesFoundForObject=205
+provider  NN  multiply=0.042996  P(provider|object)=0.380488  P(object|provider)=0.113001    
+mobile  JJ  multiply=0.036894  P(mobile|object)=0.409756  P(object|mobile)=0.090038    
+service  NN  multiply=0.031434  P(service|object)=0.639024  P(object|service)=0.049191    
+network  NN  multiply=0.029863  P(network|object)=0.385366  P(object|network)=0.077494    
+services  NN  multiply=0.022323  P(services|object)=0.458537  P(object|services)=0.048682    
+
+id=62  property=dbo:industry  object=Telecommunications  NumberOfEntitiesFoundForObject=234
+provider  NN  multiply=0.03774  P(provider|object)=0.337607  P(object|provider)=0.111786    
+service  NN  multiply=0.036657  P(service|object)=0.662393  P(object|service)=0.05534    
+services  NN  multiply=0.027198  P(services|object)=0.487179  P(object|services)=0.055828    
+network  NN  multiply=0.025327  P(network|object)=0.337607  P(object|network)=0.075021    
+mobile  JJ  multiply=0.018891  P(mobile|object)=0.277778  P(object|mobile)=0.068008    
+
+id=63  property=dbo:industry  object=Video_game_industry  NumberOfEntitiesFoundForObject=421
+game  NN  multiply=0.41484  P(game|object)=0.971496  P(object|game)=0.427011    
+games  NN  multiply=0.31632  P(games|object)=0.726841  P(object|games)=0.435198    
+video  NN  multiply=0.26993  P(video|object)=0.779097  P(object|video)=0.346465    
+developer  NN  multiply=0.258744  P(developer|object)=0.672209  P(object|developer)=0.384915    
+entertainment  NN  multiply=0.039387  P(entertainment|object)=0.239905  P(object|entertainment)=0.164179    
+

@@ -1,0 +1,154 @@
+{
+  "dbo:AAClass_dbp:areaServed.json" : [ {
+    "object" : "United States",
+    "objectIndex" : "1",
+    "numberOfEntitiesFoundInObject" : 108,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "states",
+      "PosTag" : "NN",
+      "multiply" : 0.042906,
+      "probabilities" : {
+        "P(states|object)" : 0.444444,
+        "P(object|states)" : 0.096539
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "america",
+      "PosTag" : "NN",
+      "multiply" : 0.036047,
+      "probabilities" : {
+        "P(america|object)" : 0.481481,
+        "P(object|america)" : 0.074866
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "american",
+      "PosTag" : "JJ",
+      "multiply" : 0.02879,
+      "probabilities" : {
+        "P(american|object)" : 0.37963,
+        "P(object|american)" : 0.075838
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "united",
+      "PosTag" : "NN",
+      "multiply" : 0.0263,
+      "probabilities" : {
+        "P(united|object)" : 0.37963,
+        "P(object|united)" : 0.069277
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "chain",
+      "PosTag" : "NN",
+      "multiply" : 0.02094,
+      "probabilities" : {
+        "P(chain|object)" : 0.194444,
+        "P(object|chain)" : 0.107692
+      }
+    } ]
+  } ],
+  "dbo:AAClass_dbp:artist.json" : [ {
+    "object" : "Various Artists",
+    "objectIndex" : "2",
+    "numberOfEntitiesFoundInObject" : 190,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "compilation",
+      "PosTag" : "NN",
+      "multiply" : 0.14367,
+      "probabilities" : {
+        "P(compilation|object)" : 0.526316,
+        "P(object|compilation)" : 0.272973
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "artists",
+      "PosTag" : "NN",
+      "multiply" : 0.125339,
+      "probabilities" : {
+        "P(artists|object)" : 0.347368,
+        "P(object|artists)" : 0.360825
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "series",
+      "PosTag" : "NN",
+      "multiply" : 0.075074,
+      "probabilities" : {
+        "P(series|object)" : 0.284211,
+        "P(object|series)" : 0.264151
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "release",
+      "PosTag" : "NN",
+      "multiply" : 0.067832,
+      "probabilities" : {
+        "P(release|object)" : 0.826316,
+        "P(object|release)" : 0.08209
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "us",
+      "PosTag" : "NN",
+      "multiply" : 0.058842,
+      "probabilities" : {
+        "P(us|object)" : 0.705263,
+        "P(object|us)" : 0.083433
+      }
+    } ]
+  }, {
+    "object" : "Various artists",
+    "objectIndex" : "3",
+    "numberOfEntitiesFoundInObject" : 202,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "soundtrack",
+      "PosTag" : "NN",
+      "multiply" : 0.178218,
+      "probabilities" : {
+        "P(soundtrack|object)" : 0.445545,
+        "P(object|soundtrack)" : 0.4
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "film",
+      "PosTag" : "NN",
+      "multiply" : 0.124886,
+      "probabilities" : {
+        "P(film|object)" : 0.376238,
+        "P(object|film)" : 0.331933
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "sound",
+      "PosTag" : "JJ",
+      "multiply" : 0.107778,
+      "probabilities" : {
+        "P(sound|object)" : 0.480198,
+        "P(object|sound)" : 0.224444
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "track",
+      "PosTag" : "NN",
+      "multiply" : 0.094719,
+      "probabilities" : {
+        "P(track|object)" : 0.589109,
+        "P(object|track)" : 0.160784
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "release",
+      "PosTag" : "NN",
+      "multiply" : 0.077151,
+      "probabilities" : {
+        "P(release|object)" : 0.866337,
+        "P(object|release)" : 0.089055
+      }
+    } ]
+  } ]
+}

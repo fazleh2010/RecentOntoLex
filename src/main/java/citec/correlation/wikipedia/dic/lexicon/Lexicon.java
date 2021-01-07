@@ -44,13 +44,13 @@ public class Lexicon {
     }*/
     
     public void prepareObjectLexicon(String resultDir, HashSet<String> posTags) throws IOException {
+        System.out.println(resultDir);
         Map<String, List<WordObjectResults>> wordObjectResults = this.getWordObjectResults(resultDir, "wordObject");
-        System.out.println("wordObjectResults:"+wordObjectResults);
-        /*for (String postag : posTags) {
+        for (String postag : posTags) {
             Map<String, List<WordObjectResults>> posEntitieInfos = entitiesSort(wordObjectResults, postag);
              String conditionalFilename = FileFolderUtils.getLexiconFile(qald9Dir,FileFolderUtils.OBJECT, postag);
              this.preparePropertyLexicon(posEntitieInfos, postag, FileFolderUtils.OBJECT,conditionalFilename);
-        }*/
+        }
     }
 
 
@@ -84,7 +84,7 @@ public class Lexicon {
             }
 
         }
-        System.out.println(lexiconUnts.toString());
+        System.out.println(fileName);
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(fileName).toFile(), lexiconUnts);
     }

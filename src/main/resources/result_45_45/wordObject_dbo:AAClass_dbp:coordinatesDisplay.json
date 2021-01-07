@@ -1,0 +1,629 @@
+{
+  "album-NN" : [ {
+    "object" : "#FFFFF0",
+    "multiply" : 0.208866,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(album|object)" : 0.304348,
+      "P(object|album)" : 0.686275
+    }
+  } ],
+  "america-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.036047,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(america|object)" : 0.481481,
+      "P(object|america)" : 0.074866
+    }
+  } ],
+  "american-JJ" : [ {
+    "object" : "United States",
+    "multiply" : 0.02879,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(american|object)" : 0.37963,
+      "P(object|american)" : 0.075838
+    }
+  }, {
+    "object" : "United States",
+    "multiply" : 0.306487,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(american|object)" : 0.726415,
+      "P(object|american)" : 0.421918
+    }
+  } ],
+  "artists-NN" : [ {
+    "object" : "Various Artists",
+    "multiply" : 0.125339,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(artists|object)" : 0.347368,
+      "P(object|artists)" : 0.360825
+    }
+  } ],
+  "author-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.0223,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.305,
+      "P(object|author)" : 0.073113
+    }
+  }, {
+    "object" : "United States",
+    "multiply" : 0.106576,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.410377,
+      "P(object|author)" : 0.259701
+    }
+  } ],
+  "book-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.015421,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.23,
+      "P(object|book)" : 0.067047
+    }
+  }, {
+    "object" : "United States",
+    "multiply" : 0.066344,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.268868,
+      "P(object|book)" : 0.246753
+    }
+  } ],
+  "british-JJ" : [ {
+    "object" : "London, England",
+    "multiply" : 0.045407,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(british|object)" : 0.418919,
+      "P(object|british)" : 0.108392
+    }
+  } ],
+  "capital-NN" : [ {
+    "object" : "%",
+    "multiply" : 0.184265,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(capital|object)" : 0.550587,
+      "P(object|capital)" : 0.33467
+    }
+  } ],
+  "census-NN" : [ {
+    "object" : "display=inline,title",
+    "multiply" : 0.053148,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(census|object)" : 0.926081,
+      "P(object|census)" : 0.05739
+    }
+  }, {
+    "object" : "inline,title",
+    "multiply" : 0.483802,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(census|object)" : 0.624243,
+      "P(object|census)" : 0.775022
+    }
+  } ],
+  "chain-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.02094,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(chain|object)" : 0.194444,
+      "P(object|chain)" : 0.107692
+    }
+  } ],
+  "compilation-NN" : [ {
+    "object" : "Various Artists",
+    "multiply" : 0.14367,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(compilation|object)" : 0.526316,
+      "P(object|compilation)" : 0.272973
+    }
+  } ],
+  "county-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.437335,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(county|object)" : 0.491492,
+      "P(object|county)" : 0.88981
+    }
+  }, {
+    "object" : "display=inline,title",
+    "multiply" : 0.056777,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(county|object)" : 0.919107,
+      "P(object|county)" : 0.061774
+    }
+  }, {
+    "object" : "inline,title",
+    "multiply" : 0.430471,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(county|object)" : 0.565411,
+      "P(object|county)" : 0.761342
+    }
+  } ],
+  "district-NN" : [ {
+    "object" : "Distribution of religions",
+    "multiply" : 0.157396,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(district|object)" : 0.969231,
+      "P(object|district)" : 0.162393
+    }
+  } ],
+  "end-NN" : [ {
+    "object" : "First edition",
+    "multiply" : 0.016545,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(end|object)" : 0.185525,
+      "P(object|end)" : 0.089179
+    }
+  } ],
+  "england-NN" : [ {
+    "object" : "United Kingdom",
+    "multiply" : 0.350495,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(england|object)" : 0.391429,
+      "P(object|england)" : 0.895425
+    }
+  }, {
+    "object" : "London, England",
+    "multiply" : 0.010316,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(england|object)" : 0.135135,
+      "P(object|england)" : 0.076336
+    }
+  } ],
+  "english-NN" : [ {
+    "object" : "London, England",
+    "multiply" : 0.047414,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(english|object)" : 0.385135,
+      "P(object|english)" : 0.12311
+    }
+  } ],
+  "families-NN" : [ {
+    "object" : "%",
+    "multiply" : 0.838262,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(families|object)" : 0.914223,
+      "P(object|families)" : 0.916912
+    }
+  } ],
+  "fiction-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.068356,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(fiction|object)" : 0.193396,
+      "P(object|fiction)" : 0.353448
+    }
+  } ],
+  "film-NN" : [ {
+    "object" : "Various artists",
+    "multiply" : 0.124886,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(film|object)" : 0.376238,
+      "P(object|film)" : 0.331933
+    }
+  } ],
+  "ha-NN" : [ {
+    "object" : "United Kingdom",
+    "multiply" : 0.106124,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(ha|object)" : 0.74,
+      "P(object|ha)" : 0.143411
+    }
+  }, {
+    "object" : "First edition",
+    "multiply" : 0.049283,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(ha|object)" : 0.624359,
+      "P(object|ha)" : 0.078934
+    }
+  } ],
+  "iran-NN" : [ {
+    "object" : "%",
+    "multiply" : 0.911141,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(iran|object)" : 0.967742,
+      "P(object|iran)" : 0.941512
+    }
+  } ],
+  "kim-NN" : [ {
+    "object" : "South Korean",
+    "multiply" : 0.189173,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(kim|object)" : 0.244094,
+      "P(object|kim)" : 0.775
+    }
+  } ],
+  "korean-JJ" : [ {
+    "object" : "South Korean",
+    "multiply" : 0.904643,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(korean|object)" : 0.984252,
+      "P(object|korean)" : 0.919118
+    }
+  } ],
+  "london-NN" : [ {
+    "object" : "London, England",
+    "multiply" : 0.046406,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(london|object)" : 0.337838,
+      "P(object|london)" : 0.137363
+    }
+  } ],
+  "m-NN" : [ {
+    "object" : "United Kingdom",
+    "multiply" : 0.128459,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(m|object)" : 0.982857,
+      "P(object|m)" : 0.130699
+    }
+  }, {
+    "object" : "United States",
+    "multiply" : 0.56695,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(m|object)" : 0.987565,
+      "P(object|m)" : 0.574088
+    }
+  }, {
+    "object" : "First edition",
+    "multiply" : 0.078893,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(m|object)" : 0.94707,
+      "P(object|m)" : 0.083302
+    }
+  } ],
+  "mi-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.442618,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(mi|object)" : 0.700262,
+      "P(object|mi)" : 0.632075
+    }
+  }, {
+    "object" : "First edition",
+    "multiply" : 0.03181,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(mi|object)" : 0.42317,
+      "P(object|mi)" : 0.075171
+    }
+  } ],
+  "modern-JJ" : [ {
+    "object" : "South Korean",
+    "multiply" : 0.058631,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(modern|object)" : 0.173228,
+      "P(object|modern)" : 0.338462
+    }
+  } ],
+  "new-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.059544,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(new|object)" : 0.254717,
+      "P(object|new)" : 0.233766
+    }
+  } ],
+  "novels-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.029412,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(novels|object)" : 0.2,
+      "P(object|novels)" : 0.147059
+    }
+  } ],
+  "persian-NN" : [ {
+    "object" : "%",
+    "multiply" : 0.916743,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(persian|object)" : 0.964809,
+      "P(object|persian)" : 0.950181
+    }
+  } ],
+  "poet-NN" : [ {
+    "object" : "#FFFFF0",
+    "multiply" : 0.334448,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(poet|object)" : 0.434783,
+      "P(object|poet)" : 0.769231
+    }
+  }, {
+    "object" : "South Korean",
+    "multiply" : 0.114721,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(poet|object)" : 0.448819,
+      "P(object|poet)" : 0.255605
+    }
+  } ],
+  "poetry-NN" : [ {
+    "object" : "#FFFFF0",
+    "multiply" : 0.186445,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(poetry|object)" : 0.234783,
+      "P(object|poetry)" : 0.794118
+    }
+  } ],
+  "population-NN" : [ {
+    "object" : "display=inline,title",
+    "multiply" : 0.054774,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(population|object)" : 0.963738,
+      "P(object|population)" : 0.056835
+    }
+  }, {
+    "object" : "inline,title",
+    "multiply" : 0.497582,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(population|object)" : 0.648959,
+      "P(object|population)" : 0.766738
+    }
+  } ],
+  "producer-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.022224,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(producer|object)" : 0.165,
+      "P(object|producer)" : 0.134694
+    }
+  } ],
+  "province-NN" : [ {
+    "object" : "%",
+    "multiply" : 0.460331,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(province|object)" : 0.967742,
+      "P(object|province)" : 0.475676
+    }
+  } ],
+  "release-NN" : [ {
+    "object" : "Various Artists",
+    "multiply" : 0.067832,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(release|object)" : 0.826316,
+      "P(object|release)" : 0.08209
+    }
+  }, {
+    "object" : "Various artists",
+    "multiply" : 0.077151,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(release|object)" : 0.866337,
+      "P(object|release)" : 0.089055
+    }
+  } ],
+  "reservoir-NN" : [ {
+    "object" : "United Kingdom",
+    "multiply" : 0.158467,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(reservoir|object)" : 0.608571,
+      "P(object|reservoir)" : 0.260391
+    }
+  } ],
+  "s.-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.471705,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(s.|object)" : 0.698953,
+      "P(object|s.)" : 0.674874
+    }
+  }, {
+    "object" : "First edition",
+    "multiply" : 0.037063,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(s.|object)" : 0.477721,
+      "P(object|s.)" : 0.077584
+    }
+  } ],
+  "series-NN" : [ {
+    "object" : "Various Artists",
+    "multiply" : 0.075074,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(series|object)" : 0.284211,
+      "P(object|series)" : 0.264151
+    }
+  } ],
+  "sound-JJ" : [ {
+    "object" : "Various artists",
+    "multiply" : 0.107778,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(sound|object)" : 0.480198,
+      "P(object|sound)" : 0.224444
+    }
+  } ],
+  "soundtrack-NN" : [ {
+    "object" : "Various artists",
+    "multiply" : 0.178218,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(soundtrack|object)" : 0.445545,
+      "P(object|soundtrack)" : 0.4
+    }
+  } ],
+  "south-JJ" : [ {
+    "object" : "South Korean",
+    "multiply" : 0.357736,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(south|object)" : 0.645669,
+      "P(object|south)" : 0.554054
+    }
+  } ],
+  "state-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.468397,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(state|object)" : 0.516361,
+      "P(object|state)" : 0.90711
+    }
+  }, {
+    "object" : "inline,title",
+    "multiply" : 0.684473,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(state|object)" : 0.764673,
+      "P(object|state)" : 0.895119
+    }
+  } ],
+  "states-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.042906,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(states|object)" : 0.444444,
+      "P(object|states)" : 0.096539
+    }
+  }, {
+    "object" : "display=inline,title",
+    "multiply" : 0.063302,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(states|object)" : 0.829847,
+      "P(object|states)" : 0.076282
+    }
+  }, {
+    "object" : "inline,title",
+    "multiply" : 0.405129,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(states|object)" : 0.469052,
+      "P(object|states)" : 0.863718
+    }
+  } ],
+  "studio-NN" : [ {
+    "object" : "#FFFFF0",
+    "multiply" : 0.217179,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(studio|object)" : 0.278261,
+      "P(object|studio)" : 0.780488
+    }
+  } ],
+  "town-NN" : [ {
+    "object" : "Distribution of religions",
+    "multiply" : 0.021072,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(town|object)" : 0.435897,
+      "P(object|town)" : 0.048342
+    }
+  } ],
+  "track-NN" : [ {
+    "object" : "Various artists",
+    "multiply" : 0.094719,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(track|object)" : 0.589109,
+      "P(object|track)" : 0.160784
+    }
+  } ],
+  "united-NN" : [ {
+    "object" : "United States",
+    "multiply" : 0.0263,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(united|object)" : 0.37963,
+      "P(object|united)" : 0.069277
+    }
+  }, {
+    "object" : "display=inline,title",
+    "multiply" : 0.06372,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(united|object)" : 0.831241,
+      "P(object|united)" : 0.076656
+    }
+  } ],
+  "us-NN" : [ {
+    "object" : "Various Artists",
+    "multiply" : 0.058842,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(us|object)" : 0.705263,
+      "P(object|us)" : 0.083433
+    }
+  } ],
+  "water-NN" : [ {
+    "object" : "United Kingdom",
+    "multiply" : 0.133375,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(water|object)" : 0.74,
+      "P(object|water)" : 0.180237
+    }
+  } ],
+  "writer-NN" : [ {
+    "object" : "#FFFFF0",
+    "multiply" : 0.202829,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(writer|object)" : 0.382609,
+      "P(object|writer)" : 0.53012
+    }
+  }, {
+    "object" : "London, England",
+    "multiply" : 0.020063,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(writer|object)" : 0.358108,
+      "P(object|writer)" : 0.056025
+    }
+  }, {
+    "object" : "United States",
+    "multiply" : 0.041395,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(writer|object)" : 0.44,
+      "P(object|writer)" : 0.09408
+    }
+  } ]
+}

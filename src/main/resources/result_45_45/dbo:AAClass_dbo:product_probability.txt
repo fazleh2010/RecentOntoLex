@@ -1,0 +1,19 @@
+id=147  property=dbo:product  object=Automobile  NumberOfEntitiesFoundForObject=122
+mobile  NN  multiply=0.086967  P(mobile|object)=0.647541  P(object|mobile)=0.134304    
+manufacturing  NN  multiply=0.017091  P(manufacturing|object)=0.311475  P(object|manufacturing)=0.05487    
+china  NN  multiply=0.016355  P(china|object)=0.229508  P(object|china)=0.071259    
+ltd.  NN  multiply=0.015367  P(ltd.|object)=0.229508  P(object|ltd.)=0.066955    
+ltd  NN  multiply=0.013562  P(ltd|object)=0.270492  P(object|ltd)=0.050139    
+
+id=148  property=dbo:product  object=Beer  NumberOfEntitiesFoundForObject=215
+located  JJ  multiply=0.014956  P(located|object)=0.251163  P(object|located)=0.059548    
+
+id=149  property=dbo:product  object=Clothing  NumberOfEntitiesFoundForObject=170
+stores  NN  multiply=0.055223  P(stores|object)=0.388235  P(object|stores)=0.142241    
+retail  JJ  multiply=0.046303  P(retail|object)=0.429412  P(object|retail)=0.107829    
+brand  NN  multiply=0.028839  P(brand|object)=0.464706  P(object|brand)=0.062058    
+chain  NN  multiply=0.013444  P(chain|object)=0.217647  P(object|chain)=0.06177    
+
+id=150  property=dbo:product  object=Financial_Services  NumberOfEntitiesFoundForObject=102
+financial  NN  multiply=0.050257  P(financial|object)=0.431373  P(object|financial)=0.116505    
+

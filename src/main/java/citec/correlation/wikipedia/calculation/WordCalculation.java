@@ -470,9 +470,9 @@ public class WordCalculation implements TextAnalyzer, WordThresold {
             }
 
             String property = getProperty(file.getName());
-            if (property.contains("dbp:")) {
+            /*if (property.contains("dbo:")) {
                 continue;
-            }
+            }*/
 
             ObjectMapper mapper = new ObjectMapper();
             List<DBpediaEntity> dbpediaEntitys = mapper.readValue(file, new TypeReference<List<DBpediaEntity>>() {

@@ -15,10 +15,10 @@ public interface WordThresold {
     public static Integer numberOfEntitiesPerWord = 20;
     public static Integer numberOfSelectedWordGenerated = 100;
     public static Integer numberOfEntitiesForObject = 100;
-    public static Double probabiltyOfwordGivenObjectThresold =0.045;
-    public static Double probabiltyOfObjectGivenWordThresold = 0.045;
+    public static Double probabiltyOfwordGivenObjectThresold =0.01;
+    public static Double probabiltyOfObjectGivenWordThresold = 0.01;
     public static Integer probResultTopWordLimit = 5;
-    public static Integer numberOfSelectedWordsForCalProbabilty=100;
+    public static Integer numberOfSelectedWordsForCalProbabilty=500;
 
     public static String ALL_WORDS = "all";
     public static String PROPRTY_WISE = "PROPRTY_WISE";

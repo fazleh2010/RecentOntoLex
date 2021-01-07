@@ -1,0 +1,82 @@
+{
+  "dbo:AAClass_dbo:almaMater.json" : [ {
+    "object" : "Columbia_University",
+    "objectIndex" : "1",
+    "numberOfEntitiesFoundInObject" : 188,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "york",
+      "PosTag" : "NN",
+      "multiply" : 0.020112,
+      "probabilities" : {
+        "P(york|object)" : 0.281915,
+        "P(object|york)" : 0.071342
+      }
+    } ]
+  }, {
+    "object" : "Harvard_University",
+    "objectIndex" : "2",
+    "numberOfEntitiesFoundInObject" : 155,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "professor",
+      "PosTag" : "NN",
+      "multiply" : 0.010505,
+      "probabilities" : {
+        "P(professor|object)" : 0.167742,
+        "P(object|professor)" : 0.062628
+      }
+    } ]
+  } ],
+  "dbo:AAClass_dbo:background.json" : [ {
+    "object" : "solo_singer",
+    "objectIndex" : "3",
+    "numberOfEntitiesFoundInObject" : 214,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "song",
+      "PosTag" : "NN",
+      "multiply" : 0.334537,
+      "probabilities" : {
+        "P(song|object)" : 0.490654,
+        "P(object|song)" : 0.681818
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "songwriter",
+      "PosTag" : "NN",
+      "multiply" : 0.2886,
+      "probabilities" : {
+        "P(songwriter|object)" : 0.359813,
+        "P(object|songwriter)" : 0.802083
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "age",
+      "PosTag" : "NN",
+      "multiply" : 0.239852,
+      "probabilities" : {
+        "P(age|object)" : 0.383178,
+        "P(object|age)" : 0.625954
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "name",
+      "PosTag" : "NN",
+      "multiply" : 0.224724,
+      "probabilities" : {
+        "P(name|object)" : 0.32243,
+        "P(object|name)" : 0.69697
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "music",
+      "PosTag" : "NN",
+      "multiply" : 0.223584,
+      "probabilities" : {
+        "P(music|object)" : 0.46729,
+        "P(object|music)" : 0.478469
+      }
+    } ]
+  } ]
+}

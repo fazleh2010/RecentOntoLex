@@ -1,26 +1,302 @@
 [ {
+  "pattern" : "administrative",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Voivodeships_of_Poland", "multiplyValue=0.656199" ]
+  }
+}, {
   "pattern" : "american",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "1" : [ "pair=Democratic_Party_(United_States)", "multiplyValue=0.267206" ]
+    "1" : [ "pair=S&P_500", "multiplyValue=0.524583" ],
+    "2" : [ "pair=United States", "multiplyValue=0.306487" ],
+    "3" : [ "pair=United States", "multiplyValue=0.208075" ],
+    "4" : [ "pair=United States", "multiplyValue=0.160739" ],
+    "5" : [ "pair=U.S.", "multiplyValue=0.060302" ],
+    "6" : [ "pair=United States", "multiplyValue=0.02879" ],
+    "7" : [ "pair=Roman Catholic", "multiplyValue=0.021494" ]
   }
 }, {
-  "pattern" : "australian",
+  "pattern" : "best",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "1" : [ "pair=Australian_Labor_Party", "multiplyValue=0.653533" ],
-    "2" : [ "pair=Liberal_Party_of_Australia", "multiplyValue=0.128783" ]
+    "1" : [ "pair=Speed_skating", "multiplyValue=0.02593" ]
   }
 }, {
   "pattern" : "british",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "1" : [ "pair=Labor_Party_(UK)", "multiplyValue=0.212195" ]
+    "1" : [ "pair=United Kingdom", "multiplyValue=0.144919" ],
+    "2" : [ "pair=United Kingdom", "multiplyValue=0.142989" ],
+    "3" : [ "pair=London, England", "multiplyValue=0.069564" ],
+    "4" : [ "pair=London, England", "multiplyValue=0.045407" ],
+    "5" : [ "pair=United Kingdom", "multiplyValue=0.02323" ]
+  }
+}, {
+  "pattern" : "central",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Location in Alaska", "multiplyValue=0.022253" ]
+  }
+}, {
+  "pattern" : "current",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Grass", "multiplyValue=0.04468" ]
+  }
+}, {
+  "pattern" : "democratic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Democratic Party", "multiplyValue=0.145682" ]
+  }
+}, {
+  "pattern" : "dutch",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Field_hockey", "multiplyValue=0.029939" ]
   }
 }, {
   "pattern" : "english",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "1" : [ "pair=Liberal_Party_(UK)", "multiplyValue=0.143514" ]
+    "1" : [ "pair=London, England", "multiplyValue=0.128695" ]
+  }
+}, {
+  "pattern" : "final",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Taekwondo", "multiplyValue=0.030707" ]
+  }
+}, {
+  "pattern" : "first",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=United States", "multiplyValue=0.22054" ],
+    "2" : [ "pair=United Kingdom", "multiplyValue=0.195012" ],
+    "3" : [ "pair=United States", "multiplyValue=0.172592" ],
+    "4" : [ "pair=United Kingdom", "multiplyValue=0.117866" ]
+  }
+}, {
+  "pattern" : "former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Sprint_(running)", "multiplyValue=0.026649" ]
+  }
+}, {
+  "pattern" : "greatest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Greatest Hits", "multiplyValue=0.222058" ]
+  }
+}, {
+  "pattern" : "holy",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Holy Roman Empire", "multiplyValue=0.368182" ]
+  }
+}, {
+  "pattern" : "indian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=States_and_territories_of_India", "multiplyValue=0.504907" ],
+    "2" : [ "pair=Location in Tamil Nadu, India", "multiplyValue=0.0917" ],
+    "3" : [ "pair=India Tamil Nadu", "multiplyValue=0.080861" ],
+    "4" : [ "pair=Location in Maharashtra, India", "multiplyValue=0.061041" ],
+    "5" : [ "pair=India Maharashtra", "multiplyValue=0.060271" ],
+    "6" : [ "pair=India Madhya Pradesh#India", "multiplyValue=0.044969" ],
+    "7" : [ "pair=Location in Gujarat, India", "multiplyValue=0.035445" ],
+    "8" : [ "pair=India Gujarat#India", "multiplyValue=0.032667" ],
+    "9" : [ "pair=India Uttar Pradesh#India", "multiplyValue=0.032138" ],
+    "10" : [ "pair=Location in Rajasthan, India", "multiplyValue=0.026764" ]
+  }
+}, {
+  "pattern" : "individual",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Fencing", "multiplyValue=0.32187" ]
+  }
+}, {
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Athletics_(sport)", "multiplyValue=0.093384" ],
+    "2" : [ "pair=Sprint_(running)", "multiplyValue=0.048212" ]
+  }
+}, {
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Nippon_Professional_Baseball", "multiplyValue=0.951201" ]
+  }
+}, {
+  "pattern" : "korean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=South Korean", "multiplyValue=0.904643" ]
+  }
+}, {
+  "pattern" : "largest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Public company", "multiplyValue=0.015704" ]
+  }
+}, {
+  "pattern" : "live",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Live album", "multiplyValue=0.040377" ],
+    "2" : [ "pair=Disc one", "multiplyValue=0.018658" ]
+  }
+}, {
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=List_of_sovereign_states", "multiplyValue=0.14764" ],
+    "2" : [ "pair=Natural lake", "multiplyValue=0.056562" ],
+    "3" : [ "pair=US-CA", "multiplyValue=0.051158" ],
+    "4" : [ "pair=Hiking", "multiplyValue=0.041487" ],
+    "5" : [ "pair=List_of_counties_in_California", "multiplyValue=0.028802" ]
+  }
+}, {
+  "pattern" : "long",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Period between", "multiplyValue=0.849243" ]
+  }
+}, {
+  "pattern" : "modern",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Modern_pentathlon", "multiplyValue=0.935091" ],
+    "2" : [ "pair=South Korean", "multiplyValue=0.058631" ]
+  }
+}, {
+  "pattern" : "municipal",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Adjacent Municipal Subdivisions", "multiplyValue=0.163073" ],
+    "2" : [ "pair=Location in Mexico", "multiplyValue=0.085903" ],
+    "3" : [ "pair=Administrative_divisions_of_Mexico", "multiplyValue=0.057671" ],
+    "4" : [ "pair=Provinces_and_territories_of_Canada", "multiplyValue=0.057392" ],
+    "5" : [ "pair=Gujarati_language", "multiplyValue=0.052909" ],
+    "6" : [ "pair=Punjabi_language", "multiplyValue=0.041956" ],
+    "7" : [ "pair=India Gujarat#India", "multiplyValue=0.023666" ]
+  }
+}, {
+  "pattern" : "nagar",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Hindi_language", "multiplyValue=0.367549" ],
+    "2" : [ "pair=Location in Uttar Pradesh, India", "multiplyValue=0.238932" ],
+    "3" : [ "pair=Location in Madhya Pradesh, India", "multiplyValue=0.1222" ],
+    "4" : [ "pair=India Uttar Pradesh", "multiplyValue=0.115501" ],
+    "5" : [ "pair=India Uttar Pradesh#India", "multiplyValue=0.104939" ],
+    "6" : [ "pair=India Madhya Pradesh#India", "multiplyValue=0.104716" ]
+  }
+}, {
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=United States", "multiplyValue=0.022539" ]
+  }
+}, {
+  "pattern" : "panchayat",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Location in Tamil Nadu, India", "multiplyValue=0.23134" ],
+    "2" : [ "pair=Tamil_language", "multiplyValue=0.228338" ],
+    "3" : [ "pair=India Tamil Nadu", "multiplyValue=0.215228" ],
+    "4" : [ "pair=Location in Uttar Pradesh, India", "multiplyValue=0.188285" ],
+    "5" : [ "pair=India Uttar Pradesh#India", "multiplyValue=0.090367" ],
+    "6" : [ "pair=India Uttar Pradesh", "multiplyValue=0.089057" ],
+    "7" : [ "pair=Location in Madhya Pradesh, India", "multiplyValue=0.08822" ],
+    "8" : [ "pair=India Madhya Pradesh#India", "multiplyValue=0.078612" ]
+  }
+}, {
+  "pattern" : "personal",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Speed_skating", "multiplyValue=0.032355" ],
+    "2" : [ "pair=Track_and_field_athletics", "multiplyValue=0.018537" ]
+  }
+}, {
+  "pattern" : "public",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Democratic Party", "multiplyValue=0.190265" ]
+  }
+}, {
+  "pattern" : "regional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=CA-QC", "multiplyValue=0.061197" ],
+    "2" : [ "pair=Provinces_and_territories_of_Canada", "multiplyValue=0.054492" ]
+  }
+}, {
+  "pattern" : "representative",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Democratic Party", "multiplyValue=0.154378" ]
+  }
+}, {
+  "pattern" : "republican",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Democratic Party", "multiplyValue=0.214095" ]
+  }
+}, {
+  "pattern" : "roman",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Greco-Roman_wrestling", "multiplyValue=0.396591" ],
+    "2" : [ "pair=Holy Roman Empire", "multiplyValue=0.364367" ]
+  }
+}, {
+  "pattern" : "rural",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Bakhsh", "multiplyValue=0.121448" ]
+  }
+}, {
+  "pattern" : "second",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=United Kingdom", "multiplyValue=0.179224" ],
+    "2" : [ "pair=United States", "multiplyValue=0.128679" ]
+  }
+}, {
+  "pattern" : "sound",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Various artists", "multiplyValue=0.107778" ]
+  }
+}, {
+  "pattern" : "south",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=South Korean", "multiplyValue=0.357736" ],
+    "2" : [ "pair=Welsh_language", "multiplyValue=0.063658" ],
+    "3" : [ "pair=Scottish_Gaelic_language", "multiplyValue=0.039692" ]
+  }
+}, {
+  "pattern" : "square",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=List_of_sovereign_states", "multiplyValue=0.102804" ]
+  }
+}, {
+  "pattern" : "total",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=List_of_sovereign_states", "multiplyValue=0.174073" ],
+    "2" : [ "pair=Administrative_divisions_of_Mexico", "multiplyValue=0.015141" ]
+  }
+}, {
+  "pattern" : "western",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "1" : [ "pair=Location in Mexico", "multiplyValue=0.05514" ],
+    "2" : [ "pair=Administrative_divisions_of_Mexico", "multiplyValue=0.028785" ]
   }
 } ]

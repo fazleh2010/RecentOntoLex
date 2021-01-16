@@ -38,17 +38,17 @@ public class PatternLexicalization {
     private static String ONTO_LEX = "lexicon";
     private static String MEAN_RECIPROCAL = "meanReciprocal";
 
-    @Ignore
+    @Test
     public void PATTERN_CALCULATION_TEST() throws IOException, Exception {
         String classDir = FileFolderUtils.getClassDir(dbo_ClassName) + "/";
         String inputDir = dbpediaDir + classDir + patternDir;
         System.out.println(inputDir);
         PatternCalculation patternCalculation = new PatternCalculation(inputDir, inputFile, dbo_ClassName);
-        Lexicon lexicon = new Lexicon(qald9Dir);
+        /*Lexicon lexicon = new Lexicon(qald9Dir);
         for (String postag : TextAnalyzer.POSTAGS) {
             String fileName = this.getLexiconFile(qald9Dir, postag);
             lexicon.preparePropertyLexicon(patternCalculation.getPatternEntities(), postag, PATTERN,fileName);
-        }
+        }*/
     }
     
     

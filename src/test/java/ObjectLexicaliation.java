@@ -57,13 +57,13 @@ public class ObjectLexicaliation implements PropertyNotation, DirectoryLocation,
         System.out.println("find interesting words!!!");
     }
 
-    @Ignore
+    @Test
     public void C_PROBABILTY_CALCULATION_TEST() throws IOException, Exception {
         WordCalculation wordCalculation = new WordCalculation(propertyDir, dbo_ClassName, selectedWordDir, resultDir,selectedPropertiesFile,proccessedPropertiesFile);
         System.out.println("calculate probabilty ended!!!");
     }
 
-    @Test
+    @Ignore
     public void LEXICON_CREATION_TEST() throws IOException, Exception {
         Lexicon lexicon = new Lexicon(qald9Dir);
         lexicon.prepareObjectLexicon(resultDir, new HashSet<String>(TextAnalyzer.POSTAGS));

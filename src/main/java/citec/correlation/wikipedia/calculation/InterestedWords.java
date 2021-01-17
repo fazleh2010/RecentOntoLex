@@ -5,10 +5,11 @@
  */
 package citec.correlation.wikipedia.calculation;
 
+import citec.correlation.wikipedia.parameters.Parameters;
 import citec.correlation.core.analyzer.Analyzer;
 import citec.correlation.core.analyzer.TextAnalyzer;
 import citec.correlation.wikipedia.element.DBpediaEntity;
-import citec.correlation.wikipedia.parameters.WordThresold;
+import citec.correlation.wikipedia.parameters.MenuOptions;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.SortUtils;
 import citec.correlation.wikipedia.table.Tables;
@@ -30,7 +31,7 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class InterestedWords implements WordThresold {
+public class InterestedWords implements MenuOptions {
 
     private Map<String, List<String>> propertyInterestedWords = new HashMap<String, List<String>>();
     private Map<String, String> posTagger = new HashMap<String, String>();
@@ -41,8 +42,10 @@ public class InterestedWords implements WordThresold {
     private String className = null;
     private String outputLocation = null;
     private Set<String> properties = new HashSet<String>();
+    private Parameters parameters = null;
 
-    public InterestedWords(String propertyDir, String dbo_ClassName, String outputDir) throws IOException, Exception {
+    public InterestedWords(Parameters parameters, String propertyDir, String dbo_ClassName, String outputDir) throws IOException, Exception {
+        this.parameters = parameters;
         this.tables = new Tables(propertyDir);
         this.className = dbo_ClassName;
         this.outputLocation = outputDir;
@@ -55,11 +58,11 @@ public class InterestedWords implements WordThresold {
         if (files.isEmpty()) {
             throw new Exception("There is no files in " + inputDir + " to generate properties!!");
         }
-        Set<File> filteredFiles=new TreeSet<File>(files);
-        filteredFiles=this.filter(files);     
-        Integer index=0;
+        Set<File> filteredFiles = new TreeSet<File>(files);
+        filteredFiles = this.filter(files);
+        Integer index = 0;
         for (File file : filteredFiles) {
-            index=index+1;
+            index = index + 1;
             /*if (!file.getName().contains("dbo:almaMater")) {
                 continue;
               }*/
@@ -72,10 +75,10 @@ public class InterestedWords implements WordThresold {
             }
             if(dbpediaEntitys.size()<numberOfEntitiesPerProperty)
                 continue;
-            */
-            
+             */
+
             posTagger = new HashMap<String, String>();
-            System.out.println(index+" fileSize:"+filteredFiles.size()+" property:"+property+" numberOfEntities:"+dbpediaEntitys.size()+" table:" +file.getName());
+            System.out.println(index + " fileSize:" + filteredFiles.size() + " property:" + property + " numberOfEntities:" + dbpediaEntitys.size() + " table:" + file.getName());
 
             this.prepareInterestingWords(property, dbpediaEntitys);
         }
@@ -84,7 +87,7 @@ public class InterestedWords implements WordThresold {
     public void getWords() throws IOException {
         for (String sortFileName : sortFiles) {
             //System.out.println("sortFileName:"+sortFileName);
-            List<String> interestedWords = FileFolderUtils.getSortedList(sortFileName, numberOfEntitiesPerWord, numberOfSelectedWordGenerated);
+            List<String> interestedWords = FileFolderUtils.getSortedList(sortFileName, this.parameters.getLingPattern().getNumberOfEntitiesPerWord(), this.parameters.getLingPattern().getNumberOfSelectedWordGenerated());
             List<String> alphabeticSorted = new ArrayList<String>();
             alphabeticSorted.addAll(interestedWords);
             Collections.sort(alphabeticSorted);
@@ -115,9 +118,9 @@ public class InterestedWords implements WordThresold {
     private String prepareForAllProperties(List<DBpediaEntity> dbpediaEntities) throws Exception {
         Map<String, Integer> mostCommonWords = new HashMap<String, Integer>();
         posTagger = new HashMap<String, String>();
-        Integer index=0;
+        Integer index = 0;
         for (DBpediaEntity dbpediaEntity : dbpediaEntities) {
-            index=index+1;
+            index = index + 1;
             Set<String> words = this.wordHash(dbpediaEntity);
             //System.out.println("running:"+index+" total Entities:"+dbpediaEntities.size()+ " totalWords:"+words.size());
             for (String word : words) {
@@ -311,7 +314,7 @@ public class InterestedWords implements WordThresold {
                     ||!property.contains("dbp:x")||!property.contains("dbp:y")||property.contains("dbp:z")) {
                 continue;
             }*/
-            if (dbpediaEntitys.size() < numberOfEntitiesPerProperty) {
+            if (dbpediaEntitys.size() < this.parameters.getLingPattern().getNumberOfEntitiesPerProperty()) {
                 continue;
             }
             filterFiles.add(file);

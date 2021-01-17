@@ -3,6 +3,9 @@ import citec.correlation.core.analyzer.TextAnalyzer;
 import static citec.correlation.core.analyzer.TextAnalyzer.ADJECTIVE;
 import static citec.correlation.core.analyzer.TextAnalyzer.POSTAGS;
 import citec.correlation.wikipedia.calculation.InterestedWords;
+import citec.correlation.wikipedia.parameters.LingPattern;
+import citec.correlation.wikipedia.parameters.Parameters;
+import citec.correlation.wikipedia.parameters.ProbabilityT;
 import citec.correlation.wikipedia.calculation.WordCalculation;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import citec.correlation.wikipedia.element.PropertyNotation;
@@ -12,7 +15,6 @@ import citec.correlation.wikipedia.parameters.DirectoryLocation;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import citec.correlation.wikipedia.parameters.MenuOptions;
-import citec.correlation.wikipedia.parameters.WordThresold;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -31,7 +33,7 @@ import org.junit.Test;
  *
  * @author elahi
  */
-public class ObjectLexicaliation implements PropertyNotation, DirectoryLocation, MenuOptions, WordThresold, TextAnalyzer {
+public class ObjectLexTest implements PropertyNotation, DirectoryLocation, MenuOptions, TextAnalyzer {
 
     private static String dbo_ClassName = PropertyNotation.dbo_AAClass;
     private static String classDir = FileFolderUtils.getClassDir(dbo_ClassName) + "/";
@@ -51,15 +53,34 @@ public class ObjectLexicaliation implements PropertyNotation, DirectoryLocation,
         TableMain.generateClassPropertyTable(rawFiles, dbo_ClassName, propertyDir);
     }
     //takes very long. minimum two hours. the properties needs to be filter before running it.
-    @Ignore
+    @Test
     public void B_INTERESTING_WORD_TEST() throws IOException, Exception {
-        InterestedWords interestedWords = new InterestedWords(propertyDir, dbo_ClassName, objectDir + SELTECTED_WORDS_DIR);
+        Integer numEnPerProp = 200;
+        Integer numSelectWordGen = 100;
+        Integer numEnPerWord = 20;
+        List<Integer> numClasses= Arrays.asList(10,50,100);
+        List<Integer> numSelectWordGens= Arrays.asList(20,100,500);
+ 
+        LingPattern lingPattern = new LingPattern(numEnPerProp, numSelectWordGen, numEnPerWord);
+        Parameters paramteter = new Parameters(lingPattern);
+        InterestedWords interestedWords = new InterestedWords(paramteter, propertyDir, dbo_ClassName, objectDir + SELTECTED_WORDS_DIR);
         System.out.println("find interesting words!!!");
     }
 
-    @Test
+    @Ignore
     public void C_PROBABILTY_CALCULATION_TEST() throws IOException, Exception {
-        WordCalculation wordCalculation = new WordCalculation(propertyDir, dbo_ClassName, selectedWordDir, resultDir,selectedPropertiesFile,proccessedPropertiesFile);
+        Integer numberEnPerProp = 200;
+        Integer numEnForObj = 100;
+        Integer numTopLingPat = 500;
+        Double probWordGivenObj = 0.01;
+        Double probObjGivenWord = 0.01;
+        Integer resultTopWord = 5;
+        ProbabilityT probabilityT=new ProbabilityT (numberEnPerProp, numEnForObj, numTopLingPat,
+                                                    probWordGivenObj, probObjGivenWord, resultTopWord);
+          //      = new Parameters.ProbabilityThresold(numberEnPerProp, numEnForObj, numTopLingPat,
+           //             probWordGivenObj, probObjGivenWord, resultTopWord);
+        Parameters parameters=new Parameters(probabilityT);
+        WordCalculation wordCalculation = new WordCalculation(parameters, propertyDir, dbo_ClassName, selectedWordDir, resultDir, selectedPropertiesFile, proccessedPropertiesFile);
         System.out.println("calculate probabilty ended!!!");
     }
 

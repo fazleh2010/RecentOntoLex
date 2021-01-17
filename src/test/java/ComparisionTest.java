@@ -27,13 +27,7 @@ import static citec.correlation.wikipedia.parameters.MenuOptions.POSTAGS;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
-import static citec.correlation.wikipedia.parameters.WordThresold.numberOfEntitiesPerProperty;
-import static citec.correlation.wikipedia.parameters.WordThresold.numberOfEntitiesPerWord;
-import static citec.correlation.wikipedia.parameters.WordThresold.numberOfSelectedWordGenerated;
-import static citec.correlation.wikipedia.parameters.WordThresold.numberOfEntitiesForObject;
-import static citec.correlation.wikipedia.parameters.WordThresold.probabiltyOfwordGivenObjectThresold;
-import static citec.correlation.wikipedia.parameters.WordThresold.probabiltyOfObjectGivenWordThresold;
-import static citec.correlation.wikipedia.parameters.WordThresold.probResultTopWordLimit;
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.

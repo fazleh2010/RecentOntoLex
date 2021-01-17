@@ -5,6 +5,8 @@
  */
 package citec.correlation.wikipedia.calculation;
 
+import citec.correlation.wikipedia.parameters.ProbabilityT;
+import citec.correlation.wikipedia.parameters.Parameters;
 import citec.correlation.wikipedia.results.WordResult;
 import citec.correlation.wikipedia.results.ObjectWordResults;
 import citec.correlation.core.analyzer.TextAnalyzer;
@@ -12,7 +14,6 @@ import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.element.DBpediaEntity;
 import citec.correlation.wikipedia.results.ResultTriple;
 import citec.correlation.wikipedia.dic.lexicon.WordObjectResults;
-import citec.correlation.wikipedia.parameters.WordThresold;
 import citec.correlation.wikipedia.table.Tables;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -35,15 +36,17 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class WordCalculation implements TextAnalyzer, WordThresold {
+public class WordCalculation implements TextAnalyzer {
 
     private Map<String, List<ObjectWordResults>> objectWordResults = new HashMap<String, List<ObjectWordResults>>();
     private Map<String, List<WordObjectResults>> wordObjectResults = new TreeMap<String, List<WordObjectResults>>();
     private String className = null;
     private String proccessedPropertiesFile = null;
     private Set<String> selectedProperties = new TreeSet<String>();
+    private ProbabilityT probabilityT;
 
-    public WordCalculation(String tableDir, String className, String selectWordDir, String resultDir, String selectedPropFileName,String proccessedPropertiesFile) throws IOException, Exception {
+    public WordCalculation(Parameters parameters,String tableDir, String className, String selectWordDir, String resultDir, String selectedPropFileName,String proccessedPropertiesFile) throws IOException, Exception {
+        this.probabilityT=parameters.getProbabiltyT();
         this.className = className;
         this.proccessedPropertiesFile=proccessedPropertiesFile;
         this.probabiltyCalculation(tableDir, selectWordDir, resultDir, selectedPropFileName,proccessedPropertiesFile);
@@ -89,6 +92,7 @@ public class WordCalculation implements TextAnalyzer, WordThresold {
     private void probabiltyCalculation(Integer fileCount, Integer fileSize, String tableName, String property, LinkedHashMap<String, String> selectedWordsHash, List<DBpediaEntity> dbpediaEntities, Map<String, List<DBpediaEntity>> entityCategories, String resultDir) throws IOException, Exception {
         //all KBs..........................
         Integer index = 0, count = 0;
+        Integer numberOfTopLinguisticPattern=this.probabilityT.getNumberOfTopLinguisticPattern();
         List<ObjectWordResults> kbResults = new ArrayList<ObjectWordResults>();
 
         Set<String> filterObjects = this.filterObjects(entityCategories);
@@ -115,9 +119,9 @@ public class WordCalculation implements TextAnalyzer, WordThresold {
             //objectOfProperty = this.shortForm(objectOfProperty);
             //all words
             List<String> selectedWords = new ArrayList<String>(selectedWordsHash.keySet());
-            if (numberOfSelectedWordsForCalProbabilty > -1 && !selectedWords.isEmpty()) {
-                if (selectedWords.size() > numberOfSelectedWordsForCalProbabilty) {
-                    selectedWords = selectedWords.subList(0, numberOfSelectedWordsForCalProbabilty);
+            if (numberOfTopLinguisticPattern > -1 && !selectedWords.isEmpty()) {
+                if (selectedWords.size() > numberOfTopLinguisticPattern) {
+                    selectedWords = selectedWords.subList(0, numberOfTopLinguisticPattern);
                 }
             }
 
@@ -155,7 +159,7 @@ public class WordCalculation implements TextAnalyzer, WordThresold {
             }//all words end
 
             if (!results.isEmpty()) {
-                ObjectWordResults kbResult = new ObjectWordResults(property, objectOfProperty, numberOfEntitiesFoundInObject, results, probResultTopWordLimit);
+                ObjectWordResults kbResult = new ObjectWordResults(property, objectOfProperty, numberOfEntitiesFoundInObject, results, this.probabilityT.getProbResultTopWordLimit());
                 kbResults.add(kbResult);
             }
 
@@ -257,7 +261,7 @@ public class WordCalculation implements TextAnalyzer, WordThresold {
         //if (WORD_FOUND > 10) {
         if (flag == WordResult.PROBABILITY_OBJECT_GIVEN_WORD) {
             Double probability_object_word = (OBJECT_AND_WORD_FOUND) / (WORD_FOUND);
-            if (probability_object_word < probabiltyOfObjectGivenWordThresold) {
+            if (probability_object_word <this.probabilityT.getProbabiltyOfObjectGivenWordThresold()) {
                 return null;
             }
 
@@ -271,7 +275,7 @@ public class WordCalculation implements TextAnalyzer, WordThresold {
 
         } else if (flag == WordResult.PROBABILITY_WORD_GIVEN_OBJECT) {
             Double probability_word_object = (OBJECT_AND_WORD_FOUND) / (OBJECT_FOUND);
-            if (probability_word_object < probabiltyOfwordGivenObjectThresold) {
+            if (probability_word_object < this.probabilityT.getProbabiltyOfwordGivenObjectThresold()) {
                 return null;
             }
             //pair = new Pair<Triple, Double>(probability_word_object_str, probability_word_object);
@@ -478,7 +482,7 @@ public class WordCalculation implements TextAnalyzer, WordThresold {
             List<DBpediaEntity> dbpediaEntitys = mapper.readValue(file, new TypeReference<List<DBpediaEntity>>() {
             });
 
-            if (dbpediaEntitys.size() < numberOfEntitiesPerProperty) {
+            if (dbpediaEntitys.size() < this.probabilityT.getNumberOfEntitiesPerProperty()) {
                 continue;
             }
 
@@ -501,7 +505,7 @@ public class WordCalculation implements TextAnalyzer, WordThresold {
             if (!this.isValid(objectOfProperty)) {
                 continue;
             }
-            if (entityCategories.get(objectOfProperty).size() < numberOfEntitiesForObject) {
+            if (entityCategories.get(objectOfProperty).size() < this.probabilityT.getNumberOfEntitiesForObject()) {
                 continue;
             }
             filterObjects.add(objectOfProperty);

@@ -52,13 +52,12 @@ import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.TreeMap;
 import org.apache.commons.io.FileUtils;
-import citec.correlation.wikipedia.parameters.WordThresold;
 
 /**
  *
  * @author elahi
  */
-public class TableMain implements PropertyNotation,DirectoryLocation,MenuOptions,WordThresold {
+public class TableMain implements PropertyNotation,DirectoryLocation,MenuOptions {
     //Horrible codes..just a play ground for all kinds of work
     private static Set<String> freqClasses = new HashSet<String>();    
     private static Map<String, TreeMap<String, List<String>>> alphabetInfo = new TreeMap<String, TreeMap<String, List<String>>>();

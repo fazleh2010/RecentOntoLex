@@ -35,13 +35,7 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import static citec.correlation.wikipedia.parameters.WordThresold.numberOfEntitiesPerProperty;
-import static citec.correlation.wikipedia.parameters.WordThresold.numberOfEntitiesPerWord;
-import static citec.correlation.wikipedia.parameters.WordThresold.numberOfSelectedWordGenerated;
-import static citec.correlation.wikipedia.parameters.WordThresold.numberOfEntitiesForObject;
-import static citec.correlation.wikipedia.parameters.WordThresold.probabiltyOfwordGivenObjectThresold;
-import static citec.correlation.wikipedia.parameters.WordThresold.probabiltyOfObjectGivenWordThresold;
-import static citec.correlation.wikipedia.parameters.WordThresold.probResultTopWordLimit;
+
 
 /*
  * To change this license header, choose License Headers in Project Properties.

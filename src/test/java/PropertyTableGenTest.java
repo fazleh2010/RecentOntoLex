@@ -33,7 +33,6 @@ import static citec.correlation.wikipedia.parameters.MenuOptions.QALD;
 import static citec.correlation.wikipedia.parameters.MenuOptions.WORD_CALCULATION;
 import static citec.correlation.wikipedia.parameters.MenuOptions.WRITE;
 import static citec.correlation.wikipedia.parameters.MenuOptions.WRITE_PATTERNS;
-import citec.correlation.wikipedia.parameters.WordThresold;
 import citec.correlation.wikipedia.table.Tables;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.NLPTools;
@@ -64,7 +63,7 @@ import org.apache.commons.io.FileUtils;
  *
  * @author elahi
  */
-public class PropertyTableGenTest implements PropertyNotation, DirectoryLocation, MenuOptions, WordThresold {
+public class PropertyTableGenTest implements PropertyNotation, DirectoryLocation, MenuOptions {
 
     public static void main(String[] args) throws IOException, Exception {
         String dbo_ClassName = PropertyNotation.dbo_AAClass;

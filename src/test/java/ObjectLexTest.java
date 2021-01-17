@@ -11,6 +11,7 @@ import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import citec.correlation.wikipedia.element.PropertyNotation;
 import citec.correlation.wikipedia.evalution.Comparision;
 import citec.correlation.wikipedia.main.TableMain;
+import citec.correlation.wikipedia.parameters.CommonParameter;
 import citec.correlation.wikipedia.parameters.DirectoryLocation;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
@@ -21,6 +22,10 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
+import java.util.TreeMap;
+import java.util.TreeSet;
 import org.junit.Ignore;
 import org.junit.Test;
 
@@ -44,6 +49,8 @@ public class ObjectLexTest implements PropertyNotation, DirectoryLocation, MenuO
     private static String resultDir = objectDir + RESULT_DIR;
     private static String selectedPropertiesFile = objectDir + "SelectedProperties.txt";
     private static String proccessedPropertiesFile = objectDir + "ProcessSelectedProperties.txt";
+    
+  
 
 
 
@@ -53,34 +60,49 @@ public class ObjectLexTest implements PropertyNotation, DirectoryLocation, MenuO
         TableMain.generateClassPropertyTable(rawFiles, dbo_ClassName, propertyDir);
     }
     //takes very long. minimum two hours. the properties needs to be filter before running it.
+   
     @Test
-    public void B_INTERESTING_WORD_TEST() throws IOException, Exception {
-        Integer numEnPerProp = 200;
-        Integer numSelectWordGen = 100;
-        Integer numEnPerWord = 20;
-        List<Integer> numClasses= Arrays.asList(10,50,100);
-        List<Integer> numSelectWordGens= Arrays.asList(20,100,500);
- 
-        LingPattern lingPattern = new LingPattern(numEnPerProp, numSelectWordGen, numEnPerWord);
-        Parameters paramteter = new Parameters(lingPattern);
-        InterestedWords interestedWords = new InterestedWords(paramteter, propertyDir, dbo_ClassName, objectDir + SELTECTED_WORDS_DIR);
+    public void PARAMETER_WISE_INTERESTING_() throws IOException, Exception {
+        Map<Integer, TreeSet<String>> classInformations = new TreeMap<Integer, TreeSet<String>>();
+
+        List<Integer> numClasses = Arrays.asList(5, 10, 15);
+        List<Integer> numEnPerProps = Arrays.asList(20, 100,200);
+        List<Integer> numEnPerLps = Arrays.asList(20, 100, 500);
+        for (Integer i = 0; i < numClasses.size(); i++) {
+            Integer numOfClass = numClasses.get(i);
+            Integer numEnPerProp = numEnPerProps.get(i);
+            for (Integer j = 0; j < numEnPerLps.size(); j++) {
+                Integer numEnPerLp = numEnPerLps.get(j);
+                LingPattern lingPattern = new LingPattern(true, numOfClass, numEnPerProp, numEnPerLp);
+                Parameters paramteter = new Parameters(lingPattern);
+                String outputFolderDir = objectDir + SELTECTED_WORDS_DIR+"_"+"Cl"+numOfClass+"_"+"Prop"+numEnPerProp+"_"+"Lp"+numEnPerLp+"/";
+                System.out.println("outputFolderDir:"+outputFolderDir);
+                FileFolderUtils.createDirectory(outputFolderDir);
+                InterestedWords interestedWords = new InterestedWords(paramteter, propertyDir, dbo_ClassName, outputFolderDir,-1);
+            }
+        }
+
         System.out.println("find interesting words!!!");
     }
 
     @Ignore
     public void C_PROBABILTY_CALCULATION_TEST() throws IOException, Exception {
+         Integer numberOfClasses = 20;
         Integer numberEnPerProp = 200;
         Integer numEnForObj = 100;
         Integer numTopLingPat = 500;
         Double probWordGivenObj = 0.01;
         Double probObjGivenWord = 0.01;
         Integer resultTopWord = 5;
-        ProbabilityT probabilityT=new ProbabilityT (numberEnPerProp, numEnForObj, numTopLingPat,
-                                                    probWordGivenObj, probObjGivenWord, resultTopWord);
+        List<Integer> numSelectWordGens = Arrays.asList(50, 100, 500);
+         Integer numSelectWordGen = numSelectWordGens.get(0);
+
+        //ProbabilityT probabilityT=new ProbabilityT (numberOfClasses,numberEnPerProp,numEnForObj,  numSelectWordGen,numTopLingPat,
+        //                                            probWordGivenObj, probObjGivenWord, resultTopWord);
           //      = new Parameters.ProbabilityThresold(numberEnPerProp, numEnForObj, numTopLingPat,
            //             probWordGivenObj, probObjGivenWord, resultTopWord);
-        Parameters parameters=new Parameters(probabilityT);
-        WordCalculation wordCalculation = new WordCalculation(parameters, propertyDir, dbo_ClassName, selectedWordDir, resultDir, selectedPropertiesFile, proccessedPropertiesFile);
+        //Parameters parameters=new Parameters(probabilityT);
+        //WordCalculation wordCalculation = new WordCalculation(parameters, propertyDir, dbo_ClassName, selectedWordDir, resultDir, selectedPropertiesFile, proccessedPropertiesFile);
         System.out.println("calculate probabilty ended!!!");
     }
 
@@ -102,4 +124,6 @@ public class ObjectLexTest implements PropertyNotation, DirectoryLocation, MenuO
             comparision.compersionsPattern();
         }
     }
+
+  
 }

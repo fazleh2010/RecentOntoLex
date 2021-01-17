@@ -5,27 +5,23 @@
  */
 package citec.correlation.wikipedia.parameters;
 
+import java.util.Set;
+
 /**
  *
  * @author elahi
  */
 public class LingPattern extends CommonParameter {
 
-        public Integer numSelectWordGen = 100;
-        public Integer numEnPerWord = 20;
+    public Integer numEnPerWord = 20;
 
-        public LingPattern(Integer numberOfEntitiesPerProperty, Integer numberOfSelectedWordGenerated, Integer numberOfEntitiesPerWord) {
-            super(numberOfEntitiesPerProperty);
-            this.numSelectWordGen = numberOfSelectedWordGenerated;
-            this.numEnPerWord = numberOfEntitiesPerWord;
-        }
-
-        public Integer getNumberOfSelectedWordGenerated() {
-            return numSelectWordGen;
-        }
-
-        public Integer getNumberOfEntitiesPerWord() {
-            return numEnPerWord;
-        }
-
+    public LingPattern(Boolean selectClassFlag,  Integer numberOfClasses, Integer numberOfEntitiesPerProperty, Integer numberOfEntitiesPerWord) {
+        super(selectClassFlag, numberOfClasses, numberOfEntitiesPerProperty);
+        this.numEnPerWord = numberOfEntitiesPerWord;
     }
+
+    public Integer getNumberOfEntitiesPerWord() {
+        return numEnPerWord;
+    }
+
+}

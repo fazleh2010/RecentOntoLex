@@ -482,7 +482,7 @@ public class WordCalculation implements TextAnalyzer {
             List<DBpediaEntity> dbpediaEntitys = mapper.readValue(file, new TypeReference<List<DBpediaEntity>>() {
             });
 
-            if (dbpediaEntitys.size() < this.probabilityT.getNumberOfEntitiesPerProperty()) {
+            if (dbpediaEntitys.size() < this.probabilityT.getLingPattern().getNumberOfEntitiesPerProperty()) {
                 continue;
             }
 

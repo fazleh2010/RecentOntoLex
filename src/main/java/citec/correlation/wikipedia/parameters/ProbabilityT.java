@@ -9,17 +9,21 @@ package citec.correlation.wikipedia.parameters;
  *
  * @author elahi
  */
-public class ProbabilityT extends CommonParameter{
+public class ProbabilityT  {
 
     private Integer numEnForObj = 100;
     private Integer numTopLingPat = 500;
     private Double probWordGivenObj = 0.01;
     private Double probObjGivenWord = 0.01;
     private Integer resultTopWord = 5;
+    private Integer numSelectWordGen = 100;
+    private LingPattern lingPattern = null;
 
-    public ProbabilityT(Integer numberEnPerProp, Integer numEnForObj, Integer numTopLingPat,
+    public ProbabilityT(LingPattern lingPattern, Integer numEnForObj,
+            Integer numTopLingPat, Integer numSelectWordGen,
             Double probWordGivenObj, Double probObjGivenWord, Integer resultTopWord) {
-        super(numberEnPerProp);
+        this.lingPattern = lingPattern;
+        this.numSelectWordGen = numSelectWordGen;
         this.numEnForObj = numEnForObj;
         this.numTopLingPat = numTopLingPat;
         this.probWordGivenObj = probWordGivenObj;
@@ -45,6 +49,14 @@ public class ProbabilityT extends CommonParameter{
 
     public Integer getProbResultTopWordLimit() {
         return resultTopWord;
+    }
+
+    public Integer getNumberOfSelectedWordGenerated() {
+        return numSelectWordGen;
+    }
+
+    public LingPattern getLingPattern() {
+        return lingPattern;
     }
 
 }

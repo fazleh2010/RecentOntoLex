@@ -5,17 +5,33 @@
  */
 package citec.correlation.wikipedia.parameters;
 
+import static citec.correlation.wikipedia.element.PropertyNotation.nameOfClasses;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
 /**
  *
  * @author elahi
  */
-public class CommonParameter{
+public class CommonParameter {
 
     public Integer numEnPerProp = 200;
     public Integer numOfClasses = 10;
+    public Boolean selectClassFlag = false;
+    public Set<String> selectedClasses = new TreeSet<String>();
 
-    public CommonParameter(Integer numEnPerProp) {
+    public CommonParameter(Boolean selectClassFlag, Integer numOfClasses, Integer numEnPerProp) {
+        if (selectClassFlag) {
+            this.selectedClasses = getClasses(nameOfClasses, numOfClasses);
+        }
+        this.numOfClasses = numOfClasses;
         this.numEnPerProp = numEnPerProp;
+
+    }
+
+    private static Set<String> getClasses(List<String> classes, Integer numOfClass) {
+        return new TreeSet<String>(classes.subList(0, numOfClass));
     }
 
     public Integer getNumberOfEntitiesPerProperty() {
@@ -24,6 +40,18 @@ public class CommonParameter{
 
     public Integer getNumOfClasses() {
         return numOfClasses;
+    }
+
+    public Integer getNumEnPerProp() {
+        return numEnPerProp;
+    }
+
+    public Set<String> getSelectedClasses() {
+        return selectedClasses;
+    }
+
+    public Boolean getSelectClassFlag() {
+        return selectClassFlag;
     }
 
 }

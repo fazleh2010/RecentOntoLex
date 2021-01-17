@@ -9,6 +9,7 @@ import citec.correlation.wikipedia.parameters.Parameters;
 import citec.correlation.core.analyzer.Analyzer;
 import citec.correlation.core.analyzer.TextAnalyzer;
 import citec.correlation.wikipedia.element.DBpediaEntity;
+import citec.correlation.wikipedia.parameters.LingPattern;
 import citec.correlation.wikipedia.parameters.MenuOptions;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.SortUtils;
@@ -33,7 +34,7 @@ import org.javatuples.Pair;
  */
 public class InterestedWords implements MenuOptions {
 
-    private Map<String, List<String>> propertyInterestedWords = new HashMap<String, List<String>>();
+    //private Map<String, List<String>> propertyInterestedWords = new HashMap<String, List<String>>();
     private Map<String, String> posTagger = new HashMap<String, String>();
     private Integer numberOfEntitiesToLimitInFile = -1;
     private Integer listSize = -1;
@@ -42,18 +43,19 @@ public class InterestedWords implements MenuOptions {
     private String className = null;
     private String outputLocation = null;
     private Set<String> properties = new HashSet<String>();
-    private Parameters parameters = null;
+    private LingPattern lingPattern = null;
 
-    public InterestedWords(Parameters parameters, String propertyDir, String dbo_ClassName, String outputDir) throws IOException, Exception {
-        this.parameters = parameters;
+    public InterestedWords(Parameters parameters, String propertyDir, String dbo_ClassName, String outputDir,Integer limit) throws IOException, Exception {
+        this.lingPattern = parameters.getLingPattern();
         this.tables = new Tables(propertyDir);
         this.className = dbo_ClassName;
         this.outputLocation = outputDir;
-        this.prepareInterestingWords(propertyDir);
-        this.getWords();
+        this.prepareInterestingWords(propertyDir,limit);
+        //this is for propertyInterestedWords 
+        //this.getWords();
     }
 
-    private void prepareInterestingWords(String inputDir) throws IOException, Exception {
+    private void prepareInterestingWords(String inputDir,Integer limit) throws IOException, Exception {
         List<File> files = FileFolderUtils.getFiles(inputDir, ".json");
         if (files.isEmpty()) {
             throw new Exception("There is no files in " + inputDir + " to generate properties!!");
@@ -63,6 +65,8 @@ public class InterestedWords implements MenuOptions {
         Integer index = 0;
         for (File file : filteredFiles) {
             index = index + 1;
+            if(index==limit)
+                break;
             /*if (!file.getName().contains("dbo:almaMater")) {
                 continue;
               }*/
@@ -84,27 +88,20 @@ public class InterestedWords implements MenuOptions {
         }
     }
 
-    public void getWords() throws IOException {
+    /*public void getWords() throws IOException {
         for (String sortFileName : sortFiles) {
-            //System.out.println("sortFileName:"+sortFileName);
             List<String> interestedWords = FileFolderUtils.getSortedList(sortFileName, this.parameters.getLingPattern().getNumberOfEntitiesPerWord(), this.parameters.getLingPattern().getNumberOfSelectedWordGenerated());
+            System.out.println("interestedWords size:"+interestedWords.size());
             List<String> alphabeticSorted = new ArrayList<String>();
             alphabeticSorted.addAll(interestedWords);
             Collections.sort(alphabeticSorted);
             String tableName = new File(sortFileName).getName().replace(FILE_NOTATION, "");
             if (!alphabeticSorted.isEmpty()) {
                 propertyInterestedWords.put(tableName, alphabeticSorted);
-                //System.out.println("property:"+tableName);
-                //System.out.println("words:"+alphabeticSorted);
             }
         }
-        /*for(String property:propertyInterestedWords.keySet()){
-            System.out.println("property:"+property);
-            System.out.println("words:"+propertyInterestedWords.get(property));
-
-        }*/
-
-    }
+     
+    }*/
 
     public void prepareInterestingWords(String property, List<DBpediaEntity> dbpediaEntitys) throws Exception {
         String str = this.prepareForAllProperties(dbpediaEntitys);
@@ -278,9 +275,9 @@ public class InterestedWords implements MenuOptions {
         return true;
     }
 
-    public Map<String, List<String>> getPropertyInterestedWords() {
+    /*public Map<String, List<String>> getPropertyInterestedWords() {
         return propertyInterestedWords;
-    }
+    }*/
 
     private Pair<Boolean, String> findPosTag(String word, Analyzer analyzer) {
         if (analyzer.getNouns().contains(word)) {
@@ -314,7 +311,7 @@ public class InterestedWords implements MenuOptions {
                     ||!property.contains("dbp:x")||!property.contains("dbp:y")||property.contains("dbp:z")) {
                 continue;
             }*/
-            if (dbpediaEntitys.size() < this.parameters.getLingPattern().getNumberOfEntitiesPerProperty()) {
+            if (dbpediaEntitys.size() < this.lingPattern.getNumberOfEntitiesPerProperty()) {
                 continue;
             }
             filterFiles.add(file);

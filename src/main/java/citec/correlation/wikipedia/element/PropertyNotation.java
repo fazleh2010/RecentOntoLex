@@ -41,9 +41,14 @@ public interface PropertyNotation {
     
     
     public static final String dbo_Person = "dbo:Person";
+    public static final String dbo_Athlete = "dbo:Athlete";
     public static final String dbo_Actor = "dbo:Actor";
     public static final String dbo_City = "dbo:City";
     public static final String dbo_Country = "dbo:Country";
+    public static final String dbo_Lake = "dbo:Lake";
+    public static final String dbo_Stadium = "dbo:Stadium";
+    
+    
     public static final String dbo_Mountain = "dbo:Mountain";
 
     public static final String dbo_River = "dbo:River";
@@ -98,4 +103,26 @@ public interface PropertyNotation {
                     "dbo:wikiPageWikiLink"));
     public static final List<String> include = new ArrayList<String>(
             Arrays.asList(dbo_party, dbo_country));
+    
+    
+    
+      public static List<String> nameOfClasses = new ArrayList<String>() {
+        {
+            add(PropertyNotation.dbo_Actor);
+            add(PropertyNotation.dbo_Album);
+            add(PropertyNotation.dbo_Athlete);
+            add(PropertyNotation.dbo_Book);
+            add(PropertyNotation.dbo_City);
+            add(PropertyNotation.dbo_Company);
+            add(PropertyNotation.dbo_Country);
+            add(PropertyNotation.dbo_Lake);
+            add(PropertyNotation.dbo_Location);
+            add(PropertyNotation.dbo_Mountain);
+            add(PropertyNotation.dbo_Person);
+            add(PropertyNotation.dbo_Politician);
+            add(PropertyNotation.dbo_Stadium);
+            add(PropertyNotation.dbo_Writer);
+            add(PropertyNotation.dbo_TelevisionShow);
+        }
+    };
 }

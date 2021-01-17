@@ -346,6 +346,9 @@ public class FileFolderUtils implements TextAnalyzer{
             }
             size = size + 1;
         }
+        System.out.println("finalWords:"+finalWords.size());
+        System.out.println("finalWords:"+finalWords);
+
         return finalWords;
     }
 

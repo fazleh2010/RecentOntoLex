@@ -39,31 +39,32 @@ public class InterestedWords implements MenuOptions {
     private Integer numberOfEntitiesToLimitInFile = -1;
     private Integer listSize = -1;
     private List<String> sortFiles = new ArrayList<String>();
-    private Tables tables = null;
+    //private Tables tables = null;
     private String className = null;
     private String outputLocation = null;
     private Set<String> properties = new HashSet<String>();
     private LingPattern lingPattern = null;
 
-    public InterestedWords(LingPattern lingPattern, String propertyDir, String dbo_ClassName, String outputDir,Integer limit) throws IOException, Exception {
+    public InterestedWords(LingPattern lingPattern, List<File>selectedPropertiesFiles, String dbo_ClassName, String outputDir,Integer limit) throws IOException, Exception {
         this.lingPattern = lingPattern;
-        this.tables = new Tables(propertyDir);
+        //this.tables = new Tables(propertyDir);
         this.className = dbo_ClassName;
         this.outputLocation = outputDir;
-        this.prepareInterestingWords(propertyDir,limit);
+        this.prepareInterestingWords(selectedPropertiesFiles,limit);
         //this is for propertyInterestedWords 
         //this.getWords();
     }
 
-    private void prepareInterestingWords(String inputDir,Integer limit) throws IOException, Exception {
-        List<File> files = FileFolderUtils.getFiles(inputDir, ".json");
+    private void prepareInterestingWords(List<File>selectedPropertiesFiles,Integer limit) throws IOException, Exception {
+        /*List<File> files = FileFolderUtils.getFiles(inputDir, ".json");
         if (files.isEmpty()) {
             throw new Exception("There is no files in " + inputDir + " to generate properties!!");
         }
         Set<File> filteredFiles = new TreeSet<File>(files);
-        filteredFiles = this.filter(files);
+        filteredFiles = this.filter(files);*/
+        
         Integer index = 0;
-        for (File file : filteredFiles) {
+        for (File file : selectedPropertiesFiles) {
             index = index + 1;
             if(index==limit)
                 break;
@@ -82,7 +83,7 @@ public class InterestedWords implements MenuOptions {
              */
 
             posTagger = new HashMap<String, String>();
-            System.out.println(index + " fileSize:" + filteredFiles.size() + " property:" + property + " numberOfEntities:" + dbpediaEntitys.size() + " table:" + file.getName());
+            System.out.println(index + " fileSize:" + selectedPropertiesFiles.size() + " property:" + property + " numberOfEntities:" + dbpediaEntitys.size() + " table:" + file.getName());
 
             this.prepareInterestingWords(property, dbpediaEntitys);
         }
@@ -303,9 +304,9 @@ public class InterestedWords implements MenuOptions {
             /*if (property.contains("dbo:birthDate") || property.contains("dbo:deathDate")) {
                 continue;
             }*/
-            if (property.contains("dbo:")) {
+            /*if (property.contains("dbo:")) {
                 continue;
-            }
+            }/
             /*if (!property.contains("dbp:t")
                     ||!property.contains("dbp:u")||!property.contains("dbp:v")||property.contains("dbp:w")
                     ||!property.contains("dbp:x")||!property.contains("dbp:y")||property.contains("dbp:z")) {

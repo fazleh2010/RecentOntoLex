@@ -59,10 +59,11 @@ public class ObjectLexTest implements PropertyNotation, DirectoryLocation, MenuO
     }
     //takes very long. minimum two hours. the properties needs to be filter before running it.
    
-    @Ignore
+    @Test
     public void B_PARAMETER_WISE_INTERESTING_() throws IOException, Exception {
         Map<Integer, TreeSet<String>> classInformations = new TreeMap<Integer, TreeSet<String>>();
-        Integer runLImit = 5;
+        Integer runLImit = -1;
+        List<File>selectedPropertiesFiles = experThresold.getSelectedFiles(propertyDir,selectedPropertiesFile);
 
         for (Integer i = 0; i < experThresold.getNumClasses().size(); i++) {
             Integer numOfClass = experThresold.getNumClasses().get(i);
@@ -72,14 +73,14 @@ public class ObjectLexTest implements PropertyNotation, DirectoryLocation, MenuO
                 LingPattern lingPattern = new LingPattern(true, numOfClass, numEnPerProp, numEnPerLp);
                 String outputFolderDir = objectDir + SELTECTED_WORDS_DIR + "_" + "Cl" + numOfClass + "_" + "Prop" + numEnPerProp + "_" + "Lp" + numEnPerLp + "/";
                 FileFolderUtils.createDirectory(outputFolderDir);
-                InterestedWords interestedWords = new InterestedWords(lingPattern, propertyDir, dbo_ClassName, outputFolderDir, runLImit);  
+                InterestedWords interestedWords = new InterestedWords(lingPattern, selectedPropertiesFiles, dbo_ClassName, outputFolderDir, runLImit);  
             }
         }
 
         System.out.println("find interesting words!!!");
     }
 
-    @Test
+    @Ignore
     public  void C_PARAMETER_WISE_PROBABILTY() throws IOException, Exception {
         experThresold.setInterestLingP();
         experThresold.setConstantProbabilityT(new ProbabilityT(0.01, 0.01, 0.01, 10));

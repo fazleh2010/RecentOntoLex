@@ -25,7 +25,7 @@ import java.util.logging.Logger;
 public class ExperimentThresold {
 
     private static List<Integer> numClasses = Arrays.asList(5, 10, 15);
-    private static List<Integer> numEnPerProps = Arrays.asList(100);
+    private static List<Integer> numEnPerProps = Arrays.asList(100,500,1000);
     private static List<Integer> numEnPerLps = Arrays.asList(20, 100, 500);
     private List<Integer> numEnForObjs = Arrays.asList(100, 200, 500);
     private List<Integer> numTopLingPats = Arrays.asList(100, 500);

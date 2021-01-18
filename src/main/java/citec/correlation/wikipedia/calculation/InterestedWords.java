@@ -56,13 +56,6 @@ public class InterestedWords implements MenuOptions {
     }
 
     private void prepareInterestingWords(List<File>selectedPropertiesFiles,Integer limit) throws IOException, Exception {
-        /*List<File> files = FileFolderUtils.getFiles(inputDir, ".json");
-        if (files.isEmpty()) {
-            throw new Exception("There is no files in " + inputDir + " to generate properties!!");
-        }
-        Set<File> filteredFiles = new TreeSet<File>(files);
-        filteredFiles = this.filter(files);*/
-        
         Integer index = 0;
         for (File file : selectedPropertiesFiles) {
             index = index + 1;
@@ -291,33 +284,6 @@ public class InterestedWords implements MenuOptions {
         return new Pair<Boolean, String>(Boolean.FALSE, word);
     }
 
-    private Set<File> filter(List<File> files) throws IOException {
-        Set<File> filterFiles = new TreeSet<File>();
-        for (File file : files) {
-            /*if (!file.getName().contains("dbo:almaMater")) {
-                continue;
-              }*/
-            String property = this.getProperty(file);
-            ObjectMapper mapper = new ObjectMapper();
-            List<DBpediaEntity> dbpediaEntitys = mapper.readValue(file, new TypeReference<List<DBpediaEntity>>() {
-            });
-            /*if (property.contains("dbo:birthDate") || property.contains("dbo:deathDate")) {
-                continue;
-            }*/
-            /*if (property.contains("dbo:")) {
-                continue;
-            }/
-            /*if (!property.contains("dbp:t")
-                    ||!property.contains("dbp:u")||!property.contains("dbp:v")||property.contains("dbp:w")
-                    ||!property.contains("dbp:x")||!property.contains("dbp:y")||property.contains("dbp:z")) {
-                continue;
-            }*/
-            if (dbpediaEntitys.size() < this.lingPattern.getNumberOfEntitiesPerProperty()) {
-                continue;
-            }
-            filterFiles.add(file);
-        }
-        return filterFiles;
-    }
+   
 
 }

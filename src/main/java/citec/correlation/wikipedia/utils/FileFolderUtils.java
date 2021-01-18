@@ -55,6 +55,7 @@ import java.util.stream.Stream;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 import org.apache.commons.lang3.StringUtils;
+import org.javatuples.Pair;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Attribute;
 import org.jsoup.nodes.Document;
@@ -165,7 +166,7 @@ public class FileFolderUtils implements TextAnalyzer{
         return selectedFiles;
     }
     
-    public static String getFile(String fileDir, String category, String extension) {
+    /*public static String getFile(String fileDir, String category, String extension) {
         String[] files = new File(fileDir).list();
         for (String fileName : files) {
             if (fileName.contains(category) && fileName.contains(extension)) {
@@ -173,6 +174,23 @@ public class FileFolderUtils implements TextAnalyzer{
             }
         }
         return null;
+    }*/
+    
+    public static Pair<Boolean, String> getSelectedFile(String fileDir, String category, String extension) {
+        Pair<Boolean, String> pair = new Pair<Boolean, String>(Boolean.FALSE, null);
+        try {
+            String[] files = new File(fileDir).list();
+            for (String fileName : files) {
+                if (fileName.contains(category) && fileName.contains(extension)) {
+                    return new Pair<Boolean, String>(Boolean.TRUE, fileName);
+                }
+            }
+        } catch (Exception exp) {
+            System.out.println("file not found!!");
+             return pair;
+        }
+
+        return pair;
     }
 
     public static List<String> getHash(String fileName) throws FileNotFoundException, IOException {
@@ -279,7 +297,7 @@ public class FileFolderUtils implements TextAnalyzer{
         return entities;
     }
     
-    public static LinkedHashMap<String,String> getListString(String fileName) throws FileNotFoundException, IOException {
+    public static LinkedHashMap<String,String> getListString(String fileName)  {
        LinkedHashMap<String,String> selectedWords= new LinkedHashMap<String,String>();
 
         BufferedReader reader;
@@ -297,6 +315,7 @@ public class FileFolderUtils implements TextAnalyzer{
             }
             reader.close();
         } catch (IOException e) {
+            System.out.println("the file "+fileName+" does not exist"+e.getMessage());
             e.printStackTrace();
         }
         return selectedWords;

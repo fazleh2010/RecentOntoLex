@@ -9,26 +9,30 @@ package citec.correlation.wikipedia.parameters;
  *
  * @author elahi
  */
-public class ProbabilityT  {
+public class ProbabilityT {
 
     private Integer numEnForObj = 100;
     private Integer numTopLingPat = 500;
     private Double probWordGivenObj = 0.01;
     private Double probObjGivenWord = 0.01;
+    private Double multiplyValue = 0.01;
     private Integer resultTopWord = 5;
-    private Integer numSelectWordGen = 100;
     private LingPattern lingPattern = null;
 
-    public ProbabilityT(LingPattern lingPattern, Integer numEnForObj,
-            Integer numTopLingPat, Integer numSelectWordGen,
-            Double probWordGivenObj, Double probObjGivenWord, Integer resultTopWord) {
-        this.lingPattern = lingPattern;
-        this.numSelectWordGen = numSelectWordGen;
-        this.numEnForObj = numEnForObj;
-        this.numTopLingPat = numTopLingPat;
+    public ProbabilityT(Double probWordGivenObj, Double probObjGivenWord, Double multiplyValue, Integer resultTopWord) {
         this.probWordGivenObj = probWordGivenObj;
         this.probObjGivenWord = probObjGivenWord;
+        this.multiplyValue = multiplyValue;
         this.resultTopWord = resultTopWord;
+    }
+
+    public ProbabilityT(LingPattern lingPattern, Integer numEnForObj, Integer numTopLingPat,ProbabilityT probabilityT) {
+        this.lingPattern = lingPattern;
+        this.numEnForObj = numEnForObj;
+        this.numTopLingPat = numTopLingPat;
+        this.probWordGivenObj = probabilityT.getProbabiltyOfwordGivenObjectThresold();
+        this.probObjGivenWord = probabilityT.getProbabiltyOfObjectGivenWordThresold();
+        this.resultTopWord = probabilityT.getProbResultTopWordLimit();
     }
 
     public Integer getNumberOfEntitiesForObject() {
@@ -51,12 +55,17 @@ public class ProbabilityT  {
         return resultTopWord;
     }
 
-    public Integer getNumberOfSelectedWordGenerated() {
-        return numSelectWordGen;
-    }
-
     public LingPattern getLingPattern() {
         return lingPattern;
+    }
+
+    public Double getMultiplyValue() {
+        return multiplyValue;
+    }
+
+    @Override
+    public String toString() {
+        return "ProbabilityT{" + "numEnForObj=" + numEnForObj + ", numTopLingPat=" + numTopLingPat + ", probWordGivenObj=" + probWordGivenObj + ", probObjGivenWord=" + probObjGivenWord + ", multiplyValue=" + multiplyValue + ", resultTopWord=" + resultTopWord + ", lingPattern=" + lingPattern + '}';
     }
 
 }

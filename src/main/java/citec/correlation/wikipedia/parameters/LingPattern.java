@@ -24,4 +24,9 @@ public class LingPattern extends CommonParameter {
         return numEnPerWord;
     }
 
+    @Override
+    public String toString() {
+        return "LingPattern{" + "numEnPerWord=" + numEnPerWord + '}';
+    }
+
 }

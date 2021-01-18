@@ -1,22 +1,21 @@
 
 import citec.correlation.core.analyzer.TextAnalyzer;
-import static citec.correlation.core.analyzer.TextAnalyzer.ADJECTIVE;
-import static citec.correlation.core.analyzer.TextAnalyzer.POSTAGS;
 import citec.correlation.wikipedia.calculation.InterestedWords;
 import citec.correlation.wikipedia.parameters.LingPattern;
-import citec.correlation.wikipedia.parameters.Parameters;
 import citec.correlation.wikipedia.parameters.ProbabilityT;
 import citec.correlation.wikipedia.calculation.WordCalculation;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import citec.correlation.wikipedia.element.PropertyNotation;
 import citec.correlation.wikipedia.evalution.Comparision;
 import citec.correlation.wikipedia.main.TableMain;
-import citec.correlation.wikipedia.parameters.CommonParameter;
 import citec.correlation.wikipedia.parameters.DirectoryLocation;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
+import citec.correlation.wikipedia.parameters.ExperimentThresold;
 import citec.correlation.wikipedia.parameters.MenuOptions;
+import citec.correlation.wikipedia.table.Tables;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -49,10 +48,9 @@ public class ObjectLexTest implements PropertyNotation, DirectoryLocation, MenuO
     private static String resultDir = objectDir + RESULT_DIR;
     private static String selectedPropertiesFile = objectDir + "SelectedProperties.txt";
     private static String proccessedPropertiesFile = objectDir + "ProcessSelectedProperties.txt";
-    
-  
+    private static ExperimentThresold experThresold=new ExperimentThresold();
 
-
+   
 
     //with taking all properties (10823) it takes almost an hour to finish
     @Ignore
@@ -61,50 +59,52 @@ public class ObjectLexTest implements PropertyNotation, DirectoryLocation, MenuO
     }
     //takes very long. minimum two hours. the properties needs to be filter before running it.
    
-    @Test
-    public void PARAMETER_WISE_INTERESTING_() throws IOException, Exception {
+    @Ignore
+    public void B_PARAMETER_WISE_INTERESTING_() throws IOException, Exception {
         Map<Integer, TreeSet<String>> classInformations = new TreeMap<Integer, TreeSet<String>>();
+        Integer runLImit = 5;
 
-        List<Integer> numClasses = Arrays.asList(5, 10, 15);
-        List<Integer> numEnPerProps = Arrays.asList(20, 100,200);
-        List<Integer> numEnPerLps = Arrays.asList(20, 100, 500);
-        for (Integer i = 0; i < numClasses.size(); i++) {
-            Integer numOfClass = numClasses.get(i);
-            Integer numEnPerProp = numEnPerProps.get(i);
-            for (Integer j = 0; j < numEnPerLps.size(); j++) {
-                Integer numEnPerLp = numEnPerLps.get(j);
+        for (Integer i = 0; i < experThresold.getNumClasses().size(); i++) {
+            Integer numOfClass = experThresold.getNumClasses().get(i);
+            Integer numEnPerProp = experThresold.getNumEnPerProps().get(i);
+            for (Integer j = 0; j < experThresold.getNumEnPerLps().size(); j++) {
+                Integer numEnPerLp = experThresold.getNumEnPerLps().get(j);
                 LingPattern lingPattern = new LingPattern(true, numOfClass, numEnPerProp, numEnPerLp);
-                Parameters paramteter = new Parameters(lingPattern);
-                String outputFolderDir = objectDir + SELTECTED_WORDS_DIR+"_"+"Cl"+numOfClass+"_"+"Prop"+numEnPerProp+"_"+"Lp"+numEnPerLp+"/";
-                System.out.println("outputFolderDir:"+outputFolderDir);
+                String outputFolderDir = objectDir + SELTECTED_WORDS_DIR + "_" + "Cl" + numOfClass + "_" + "Prop" + numEnPerProp + "_" + "Lp" + numEnPerLp + "/";
                 FileFolderUtils.createDirectory(outputFolderDir);
-                InterestedWords interestedWords = new InterestedWords(paramteter, propertyDir, dbo_ClassName, outputFolderDir,-1);
+                InterestedWords interestedWords = new InterestedWords(lingPattern, propertyDir, dbo_ClassName, outputFolderDir, runLImit);  
             }
         }
 
         System.out.println("find interesting words!!!");
     }
 
-    @Ignore
-    public void C_PROBABILTY_CALCULATION_TEST() throws IOException, Exception {
-         Integer numberOfClasses = 20;
-        Integer numberEnPerProp = 200;
-        Integer numEnForObj = 100;
-        Integer numTopLingPat = 500;
-        Double probWordGivenObj = 0.01;
-        Double probObjGivenWord = 0.01;
-        Integer resultTopWord = 5;
-        List<Integer> numSelectWordGens = Arrays.asList(50, 100, 500);
-         Integer numSelectWordGen = numSelectWordGens.get(0);
-
-        //ProbabilityT probabilityT=new ProbabilityT (numberOfClasses,numberEnPerProp,numEnForObj,  numSelectWordGen,numTopLingPat,
-        //                                            probWordGivenObj, probObjGivenWord, resultTopWord);
-          //      = new Parameters.ProbabilityThresold(numberEnPerProp, numEnForObj, numTopLingPat,
-           //             probWordGivenObj, probObjGivenWord, resultTopWord);
-        //Parameters parameters=new Parameters(probabilityT);
-        //WordCalculation wordCalculation = new WordCalculation(parameters, propertyDir, dbo_ClassName, selectedWordDir, resultDir, selectedPropertiesFile, proccessedPropertiesFile);
+    @Test
+    public  void C_PARAMETER_WISE_PROBABILTY() throws IOException, Exception {
+        experThresold.setInterestLingP();
+        experThresold.setConstantProbabilityT(new ProbabilityT(0.01, 0.01, 0.01, 10));
+        List<File>selectedPropertiesFiles = experThresold.getSelectedFiles(propertyDir,selectedPropertiesFile);
+        
+        for (String interestingResultDir : experThresold.getInterestLingP().keySet()) {
+            LingPattern lingPattern = experThresold.getInterestLingP().get(interestingResultDir);
+            for (Integer numEnForObj : experThresold.getNumEnForObjs()) {
+                for (Integer numTopLingPat : experThresold.getNumTopLingPats()) {
+                    ProbabilityT probabilityT = new ProbabilityT(lingPattern, numEnForObj, numTopLingPat,
+                            experThresold.getConstantProbabilityT());
+                    String selectedDirVariable = objectDir + SELTECTED_WORDS_DIR + "_" + interestingResultDir;
+                    String resultDirVariable = objectDir + RESULT_DIR + "_" + interestingResultDir;
+                    FileFolderUtils.createDirectory(resultDirVariable);
+                    WordCalculation wordCalculation = new WordCalculation(probabilityT, dbo_ClassName,
+                                 selectedDirVariable, resultDirVariable, selectedPropertiesFiles, proccessedPropertiesFile);
+                }
+               
+            }
+           
+        }
         System.out.println("calculate probabilty ended!!!");
     }
+    
+   
 
     @Ignore
     public void LEXICON_CREATION_TEST() throws IOException, Exception {
@@ -124,6 +124,7 @@ public class ObjectLexTest implements PropertyNotation, DirectoryLocation, MenuO
             comparision.compersionsPattern();
         }
     }
+
 
   
 }

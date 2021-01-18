@@ -6,7 +6,6 @@
 package citec.correlation.wikipedia.calculation;
 
 import citec.correlation.wikipedia.parameters.ProbabilityT;
-import citec.correlation.wikipedia.parameters.Parameters;
 import citec.correlation.wikipedia.results.WordResult;
 import citec.correlation.wikipedia.results.ObjectWordResults;
 import citec.correlation.core.analyzer.TextAnalyzer;
@@ -18,18 +17,10 @@ import citec.correlation.wikipedia.table.Tables;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import java.io.BufferedReader;
-import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.io.Reader;
-import java.io.StringReader;
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.javatuples.Pair;
 
 /**
@@ -45,26 +36,23 @@ public class WordCalculation implements TextAnalyzer {
     private Set<String> selectedProperties = new TreeSet<String>();
     private ProbabilityT probabilityT;
 
-    public WordCalculation(Parameters parameters,String tableDir, String className, String selectWordDir, String resultDir, String selectedPropFileName,String proccessedPropertiesFile) throws IOException, Exception {
-        this.probabilityT=parameters.getProbabiltyT();
+    public WordCalculation(ProbabilityT probabilityT,String className, String selectWordDir, String resultDir, List<File> selectedPropertiesFiles,String proccessedPropertiesFile) throws IOException, Exception {
+        this.probabilityT=probabilityT;
         this.className = className;
         this.proccessedPropertiesFile=proccessedPropertiesFile;
-        this.probabiltyCalculation(tableDir, selectWordDir, resultDir, selectedPropFileName,proccessedPropertiesFile);
+        this.probabiltyCalculation(selectWordDir, resultDir, selectedPropertiesFiles,proccessedPropertiesFile);
     }
 
-    private void probabiltyCalculation(String inputDir, String selectWordDir, String resultDir, String selectedPropFileName,String proccessedPropertiesFile) throws IOException, Exception {
-        List<File> allFiles = FileFolderUtils.getFiles(inputDir, ".json");
-        if (allFiles.isEmpty()) {
-            throw new Exception("There is no files in " + inputDir + " to generate properties!!");
-        }
-        Set<File> filterFiles = this.propertiyWiseFilter(allFiles);
-        List<File>selectedFiles = this.selectedPropertyFilter(filterFiles, selectedPropFileName);
-        System.out.print(selectedFiles.size());
+    private void probabiltyCalculation(String selectWordDir, String resultDir, List<File> selectedPropertiesFiles,String proccessedPropertiesFile) throws IOException, Exception {
+        Set<File> selectedFiles = this.propertiyWiseFilter(selectedPropertiesFiles); 
 
         Integer index = 0;
         for (File file : selectedFiles) {
+          
             String tableName = file.getName();
             String property = Tables.getProperty(tableName);
+                        
+           
 
             ObjectMapper mapper = new ObjectMapper();
             List<DBpediaEntity> dbpediaEntitys = mapper.readValue(file, new TypeReference<List<DBpediaEntity>>() {
@@ -73,19 +61,24 @@ public class WordCalculation implements TextAnalyzer {
             /*if (dbpediaEntitys.size() < numberOfEntitiesPerProperty) {
                 continue;
             }*/
-            index = index + 1;
+            
             /*if (!tableName.contains("dbo:party")) {
                 continue;
             }*/
 
             String classNameAndProperty = Tables.getClassAndProperty(tableName);
             LinkedHashMap<String, String> selectedWordsHash = this.selectedWords(selectWordDir, classNameAndProperty, ".txt");
-
+            /*if(selectedWordsHash.isEmpty())
+                continue;*/
+            
+             System.out.println("tableName:"+tableName+" selectedWords:"+selectedWordsHash.size()+" entities:"+dbpediaEntitys.size());
+            
+            
             Map<String, List<DBpediaEntity>> entityCategories = new TreeMap<String, List<DBpediaEntity>>();
             entityCategories = this.getObjectsOfproperties(property, dbpediaEntitys);
             FileFolderUtils.appendToFile(proccessedPropertiesFile, property);
             probabiltyCalculation(index, selectedFiles.size(), tableName, property, selectedWordsHash, dbpediaEntitys, entityCategories, resultDir);
-
+            index = index + 1;
         }
     }
 
@@ -141,7 +134,7 @@ public class WordCalculation implements TextAnalyzer {
                     //System.out.println("objectOfProperty:" + objectOfProperty+" pairWord:"+pairWord+" pairObject:"+pairObject);
 
                     // if ((wordCount * objectCount) > 0.01 && !(wordCount == 0 && objectCount == 0) && wordCount != 1.0 && objectCount != 1.0) {
-                    if ((wordCount * objectCount) > 0.01 && !(wordCount == 0 && objectCount == 0)) {
+                    if ((wordCount * objectCount) > this.probabilityT.getMultiplyValue() && !(wordCount == 0 && objectCount == 0)) {
                         if (pairWord.getProbability_value() == 1.0 || pairObject.getProbability_value() == 1.0) {
                             //System.out.println("word:"+pairWord.getProbability_value()+" object"+pairObject.getProbability_value());
                         } /*else if(pairWord.getProbability_value()<0.045||pairObject.getProbability_value()<0.045){
@@ -424,9 +417,13 @@ public class WordCalculation implements TextAnalyzer {
         return str;
     }
 
-    private LinkedHashMap<String, String> selectedWords(String selectWordDir, String classNameAndProperty, String txt) throws IOException {
-        String fileName = FileFolderUtils.getFile(selectWordDir, classNameAndProperty, txt);
-        LinkedHashMap<String, String> selectedWords = FileFolderUtils.getListString(selectWordDir + fileName);
+    private LinkedHashMap<String, String> selectedWords(String selectWordDir, String classNameAndProperty, String txt) {
+        LinkedHashMap<String, String> selectedWords = new LinkedHashMap<String, String>();
+        Pair<Boolean, String> pair = FileFolderUtils.getSelectedFile(selectWordDir, classNameAndProperty, txt);
+        if (pair.getValue0()) {
+            String fileName = pair.getValue1();
+            selectedWords = FileFolderUtils.getListString(selectWordDir + fileName);
+        }
         return selectedWords;
     }
 
@@ -437,10 +434,17 @@ public class WordCalculation implements TextAnalyzer {
         }
         return url;
     }
+    
+    public static Boolean checkExistFile(String fileName) {
+        return new File(fileName).exists();
+    }
+
 
     public Map<String, List<WordObjectResults>> getWordEntities() {
         return wordObjectResults;
     }
+    
+    
 
     private boolean isValid(String objectOfProperty) {
         return FormatAndMatch.isValidForObject(objectOfProperty);

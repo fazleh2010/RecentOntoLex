@@ -54,4 +54,9 @@ public class CommonParameter {
         return selectClassFlag;
     }
 
+    @Override
+    public String toString() {
+        return "CommonParameter{" + "numEnPerProp=" + numEnPerProp + ", numOfClasses=" + numOfClasses + ", selectClassFlag=" + selectClassFlag + ", selectedClasses=" + selectedClasses + '}';
+    }
+
 }

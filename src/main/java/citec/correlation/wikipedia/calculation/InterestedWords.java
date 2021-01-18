@@ -45,8 +45,8 @@ public class InterestedWords implements MenuOptions {
     private Set<String> properties = new HashSet<String>();
     private LingPattern lingPattern = null;
 
-    public InterestedWords(Parameters parameters, String propertyDir, String dbo_ClassName, String outputDir,Integer limit) throws IOException, Exception {
-        this.lingPattern = parameters.getLingPattern();
+    public InterestedWords(LingPattern lingPattern, String propertyDir, String dbo_ClassName, String outputDir,Integer limit) throws IOException, Exception {
+        this.lingPattern = lingPattern;
         this.tables = new Tables(propertyDir);
         this.className = dbo_ClassName;
         this.outputLocation = outputDir;

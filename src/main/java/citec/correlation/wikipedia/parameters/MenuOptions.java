@@ -33,5 +33,5 @@ public interface MenuOptions {
     public static String PROPRTY_WISE = "PROPRTY_WISE";
     public static String FILE_NOTATION = "_words.txt";
     public static String SELTECTED_WORDS_DIR = "selectedWords";
-    public static String RESULT_DIR = "result/";
+    public static String RESULT_DIR = "result";
 }

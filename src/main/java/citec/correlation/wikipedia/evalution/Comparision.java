@@ -29,6 +29,8 @@ import citec.correlation.wikipedia.utils.EvalutionUtil;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.LinkedList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  *
@@ -51,6 +53,11 @@ public class Comparision {
     public void compersionsPattern() throws IOException {
         List<Pair<String,Map<String, Double>>> lexicon = new ArrayList<Pair<String,Map<String, Double>>>();
         List<Pair<String,Map<String, Boolean>>> qald_gold = new ArrayList<Pair<String,Map<String, Boolean>>>();
+        if (lexiconDic.keySet().isEmpty()) {
+            System.out.println("No lexicon found for evalution!!");
+            return;
+        }
+            
          Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
         List<String> commonWords = new ArrayList<String>(intersection);
         System.out.print("commonWords:"+commonWords);
@@ -208,14 +215,22 @@ public class Comparision {
         }
         return  null;
     }
-    private Map<String, LexiconUnit> getLexicon(String methodFileName) throws IOException {
+    private Map<String, LexiconUnit> getLexicon(String methodFileName) {
         Map<String, LexiconUnit> lexicons = new TreeMap<String, LexiconUnit>();
         ObjectMapper mapper = new ObjectMapper();
-        List<LexiconUnit> lexiconUnits = mapper.readValue(Paths.get(methodFileName).toFile(), new TypeReference<List<LexiconUnit>>() {
-        });
-        for (LexiconUnit LexiconUnit : lexiconUnits) {
-            lexicons.put(LexiconUnit.getWord(), LexiconUnit);
+
+        List<LexiconUnit> lexiconUnits = new ArrayList<LexiconUnit>();
+        try {
+            lexiconUnits = mapper.readValue(Paths.get(methodFileName).toFile(), new TypeReference<List<LexiconUnit>>() {
+            });
+            for (LexiconUnit LexiconUnit : lexiconUnits) {
+                lexicons.put(LexiconUnit.getWord(), LexiconUnit);
+            }
+        } catch (IOException ex) {
+            System.out.println("no file is found for lexicon!!"+ex.getMessage());
+            return lexicons;
         }
+
         return lexicons;
     }
 

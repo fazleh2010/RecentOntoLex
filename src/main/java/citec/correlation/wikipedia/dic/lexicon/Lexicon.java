@@ -14,15 +14,12 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.TreeMap;
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import org.javatuples.Pair;
 
 /**
  *
@@ -43,18 +40,17 @@ public class Lexicon {
         }
     }*/
     
-    public void prepareObjectLexicon(String resultDir, HashSet<String> posTags) throws IOException {
-        System.out.println(resultDir);
+    public void prepareObjectLexicon(String resultDir, String lexiconDir,String fileType,HashSet<String> posTags) throws IOException {
         Map<String, List<WordObjectResults>> wordObjectResults = this.getWordObjectResults(resultDir, "wordObject");
         for (String postag : posTags) {
             Map<String, List<WordObjectResults>> posEntitieInfos = entitiesSort(wordObjectResults, postag);
-             String conditionalFilename = FileFolderUtils.getLexiconFile(qald9Dir,FileFolderUtils.OBJECT, postag);
-             this.preparePropertyLexicon(posEntitieInfos, postag, FileFolderUtils.OBJECT,conditionalFilename);
+             String conditionalFilename = FileFolderUtils.getLexiconFile(lexiconDir,fileType, postag);
+             this.preparePropertyLexicon(lexiconDir,posEntitieInfos, postag, fileType,conditionalFilename);
         }
     }
 
 
-    public void preparePropertyLexicon(Map<String, List<WordObjectResults>> nounEntitieInfos, String givenPartsOfSpeech, String type,String fileName) throws IOException {
+    public void preparePropertyLexicon(String lexiconDir,Map<String, List<WordObjectResults>> nounEntitieInfos, String givenPartsOfSpeech, String type,String fileName) throws IOException {
         if (nounEntitieInfos.isEmpty()) {
             return;
         }
@@ -74,7 +70,7 @@ public class Lexicon {
                 }
                 index = index + 1;
                 List<String> pairs = new ArrayList<String>();
-                System.out.println("entityInfo.getPair():"+entityInfo.getPair());
+                //System.out.println("entityInfo.getPair():"+entityInfo.getPair());
                 pairs.add("pair=" + entityInfo.getPair());
                 pairs.add("multiplyValue=" + entityInfo.getMultiply().toString());
                 entityInfos.put(index, pairs);
@@ -85,9 +81,12 @@ public class Lexicon {
             }
 
         }
-        System.out.println(fileName);
-        ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
-        mapper.writeValue(Paths.get(fileName).toFile(), lexiconUnts);
+        if (!lexiconUnts.isEmpty()) {
+            FileFolderUtils.createDirectory(lexiconDir);
+            ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
+            mapper.writeValue(Paths.get(fileName).toFile(), lexiconUnts);
+        }
+      
     }
     
     
@@ -174,9 +173,13 @@ public class Lexicon {
     }*/
 
     private Map<String, List<WordObjectResults>> getWordObjectResults(String resultDir, String dboProperty) {
-        List<File> files = FileFolderUtils.getFiles(resultDir,dboProperty , ".json");
+        List<File> files=new ArrayList<File>();
         Map<String, List<WordObjectResults>> wordObjectResults = new TreeMap<String, List<WordObjectResults>>();
-        List<WordObjectResults> propertyWordObjectResults=new ArrayList<WordObjectResults>();
+
+        Pair<Boolean, List<File>> pair = FileFolderUtils.getExistingFiles(resultDir,dboProperty , ".json");
+        if(pair.getValue0())
+            files=pair.getValue1();
+        
         for (File file : files) {
             wordObjectResults = FileFolderUtils.readWordObjectFromJsonFile(file);
         }

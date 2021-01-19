@@ -120,7 +120,8 @@ public class TableMain implements PropertyNotation,DirectoryLocation,MenuOptions
             PatternCalculation patternCalculation = new PatternCalculation(inputDir, inputFile, dbo_ClassName);
             Lexicon lexicon = new Lexicon(qald9Dir);
             String fileName = qald9Dir + File.separator + "lexicon-" + PATTERN + "-" + "JJ" + ".json";
-            lexicon.preparePropertyLexicon(patternCalculation.getPatternEntities(), PATTERN, "JJ", fileName);
+            String lexiconDir=qald9Dir;
+            lexicon.preparePropertyLexicon(lexiconDir,patternCalculation.getPatternEntities(), PATTERN, "JJ", fileName);
         }
 
     }

@@ -49,6 +49,8 @@ public class ObjectLexTest implements PropertyNotation, DirectoryLocation, MenuO
     private static String selectedPropertiesFile = objectDir + "SelectedProperties.txt";
     private static String proccessedPropertiesFile = objectDir + "ProcessSelectedProperties.txt";
     private static ExperimentThresold experThresold=new ExperimentThresold();
+    private static List<File>selectedPropertiesFiles =new ArrayList<File>();
+
 
    
 
@@ -59,11 +61,11 @@ public class ObjectLexTest implements PropertyNotation, DirectoryLocation, MenuO
     }
     //takes very long. minimum two hours. the properties needs to be filter before running it.
    
-    @Test
+    @Ignore
     public void B_PARAMETER_WISE_INTERESTING_() throws IOException, Exception {
         Map<Integer, TreeSet<String>> classInformations = new TreeMap<Integer, TreeSet<String>>();
         Integer runLImit = -1;
-        List<File>selectedPropertiesFiles = experThresold.getSelectedFiles(propertyDir,selectedPropertiesFile);
+        this.selectedPropertiesFiles = experThresold.getSelectedFiles(propertyDir,selectedPropertiesFile);
 
         for (Integer i = 0; i < experThresold.getNumClasses().size(); i++) {
             Integer numOfClass = experThresold.getNumClasses().get(i);
@@ -80,11 +82,11 @@ public class ObjectLexTest implements PropertyNotation, DirectoryLocation, MenuO
         System.out.println("find interesting words!!!");
     }
 
-    @Ignore
+    @Test
     public  void C_PARAMETER_WISE_PROBABILTY() throws IOException, Exception {
         experThresold.setInterestLingP();
         experThresold.setConstantProbabilityT(new ProbabilityT(0.01, 0.01, 0.01, 10));
-        List<File>selectedPropertiesFiles = experThresold.getSelectedFiles(propertyDir,selectedPropertiesFile);
+        this.selectedPropertiesFiles = experThresold.getSelectedFiles(propertyDir,selectedPropertiesFile);
         
         for (String interestingResultDir : experThresold.getInterestLingP().keySet()) {
             LingPattern lingPattern = experThresold.getInterestLingP().get(interestingResultDir);
@@ -107,13 +109,13 @@ public class ObjectLexTest implements PropertyNotation, DirectoryLocation, MenuO
     
    
 
-    @Ignore
+   /* @Ignore
     public void LEXICON_CREATION_TEST() throws IOException, Exception {
         Lexicon lexicon = new Lexicon(qald9Dir);
         lexicon.prepareObjectLexicon(resultDir, new HashSet<String>(TextAnalyzer.POSTAGS));
         System.out.println("Lexicon Creation!!!");
     }
-
+*/
     @Ignore
     public void MEAN_RECIPROCAL_OBJECT_LEX_TEST() throws IOException, Exception {
         List<String> POSTAGS2 = new ArrayList<String>(Arrays.asList( NOUN));

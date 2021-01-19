@@ -50,11 +50,7 @@ public class Tables implements PropertyNotation,PatternThresold{
     }
 
     public void readTable(String fileName) throws IOException, Exception {
-        List<File> list = FileFolderUtils.getFiles(entityTableDir,fileName, ".json");
-        if(list.isEmpty()){
-            throw new Exception("No property files to process!!");
-        }
-        //File[] list = FileFolderUtils.getFiles(dbpediaDir, ".json");
+        List<File> list = this.getFiles(entityTableDir, fileName, ".json");
         for (File file : list) {
             ObjectMapper mapper = new ObjectMapper();
             List<DBpediaEntity> dbpediaEntitys = mapper.readValue(file, new TypeReference<List<DBpediaEntity>>() {
@@ -63,7 +59,7 @@ public class Tables implements PropertyNotation,PatternThresold{
             entityTables.put(entityTable.getTableName(), entityTable);
         }
     }
-    
+
     
     public  List<DBpediaEntity> readSplitTables(String inputDir,String dbo_Class) throws IOException, Exception {
         List<File> allFiles = FileFolderUtils.getFiles(inputDir+"classes/", ".json");
@@ -109,12 +105,9 @@ public class Tables implements PropertyNotation,PatternThresold{
         return allDBpediaEntitys;
     }
     
-    public  Map<String,List<DBpediaEntity>> readAlphabetSplitTables(String inputDir,String fileType) throws IOException, Exception {
-       Map<String,List<DBpediaEntity>> fileDBpediaEntities=new   TreeMap<String,List<DBpediaEntity>>();
-        List<File> list = FileFolderUtils.getFiles(inputDir, fileType, ".json");
-        if(list.isEmpty()){
-            throw new Exception("There is no files in "+inputDir+" to generate properties!!");
-        }
+    public Map<String, List<DBpediaEntity>> readAlphabetSplitTables(String inputDir, String fileType) throws IOException, Exception {
+        Map<String, List<DBpediaEntity>> fileDBpediaEntities = new TreeMap<String, List<DBpediaEntity>>();
+        List<File> list = this.getFiles(inputDir, fileType, ".json");
         this.className = null;
         for (File file : list) {
             String[] info = file.getName().split("_");
@@ -134,7 +127,7 @@ public class Tables implements PropertyNotation,PatternThresold{
         if (PROCESS_TYPE.contains(ALL_CLASS)) {
             list = FileFolderUtils.getFiles(inputDir, ".json");
         } else if (PROCESS_TYPE.contains(SPECIFIC_CLASS)) {
-            list = FileFolderUtils.getFiles(inputDir, fileType, ".json");
+            list = this.getFiles(inputDir, fileType, ".json");
         }
 
         if (list.isEmpty()) {
@@ -334,6 +327,17 @@ public class Tables implements PropertyNotation,PatternThresold{
 
     public String getResultDir() {
         return resultDir;
+    }
+
+    private List<File> getFiles(String entityTableDir, String fileName, String json) throws Exception {
+        List<File> list = new ArrayList<File>();
+        Pair<Boolean, List<File>> pair = FileFolderUtils.getExistingFiles(entityTableDir, fileName, ".json");
+        if (!pair.getValue0()) {
+            throw new Exception("No property files to process!!");
+        } else {
+            list = pair.getValue1();
+        }
+        return list;
     }
 
 }

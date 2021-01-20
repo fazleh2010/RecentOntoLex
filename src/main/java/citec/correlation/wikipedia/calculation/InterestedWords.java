@@ -14,14 +14,17 @@ import citec.correlation.wikipedia.parameters.MenuOptions;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.SortUtils;
 import citec.correlation.wikipedia.table.Tables;
+import citec.correlation.wikipedia.utils.FindTopMostInterWords;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.common.collect.Sets;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -61,9 +64,9 @@ public class InterestedWords implements MenuOptions {
             index = index + 1;
             if(index==limit)
                 break;
-            /*if (!file.getName().contains("dbo:almaMater")) {
+            if (!file.getName().contains("dbo:almaMater")) {
                 continue;
-              }*/
+              }
             String property = this.getProperty(file);
             ObjectMapper mapper = new ObjectMapper();
             List<DBpediaEntity> dbpediaEntitys = mapper.readValue(file, new TypeReference<List<DBpediaEntity>>() {
@@ -98,15 +101,75 @@ public class InterestedWords implements MenuOptions {
     }*/
 
     public void prepareInterestingWords(String property, List<DBpediaEntity> dbpediaEntitys) throws Exception {
-        String str = this.prepareForAllProperties(dbpediaEntitys);
-        if (str != null) {
+        String str = this.prepareForAllProperties(property,dbpediaEntitys);
+        /*if (str != null) {
             String sortFile = outputLocation + className + "_" + property + FILE_NOTATION;
             FileFolderUtils.stringToFiles(str, sortFile);
             this.sortFiles.add(sortFile);
-        }
+        }*/
     }
 
-    private String prepareForAllProperties(List<DBpediaEntity> dbpediaEntities) throws Exception {
+    private String prepareForAllProperties(String property,List<DBpediaEntity> dbpediaEntities) throws Exception {
+        Map<String, Integer> interestingWords = new HashMap<String, Integer>();
+        Map<String, List<String>> interestingEntitities = new HashMap<String, List<String>>();
+
+        posTagger = new HashMap<String, String>();
+        Integer index = 0;
+        for (DBpediaEntity dbpediaEntity : dbpediaEntities) {
+            String url=dbpediaEntity.getEntityIndex();
+            List<String> entityList =new ArrayList<String>();
+            index = index + 1;
+            Set<String> words = this.wordHash(dbpediaEntity);
+            //System.out.println("running:"+index+" total Entities:"+dbpediaEntities.size()+ " totalWords:"+words.size());
+            for (String word : words) {
+                word = word.toLowerCase().trim();
+                //System.out.println("word:"+word+" pos"+posTagger.get(word));
+
+                if (TextAnalyzer.ENGLISH_STOPWORDS.contains(word)) {
+                    continue;
+                }
+                if (TextAnalyzer.MONTH.contains(word)) {
+                    continue;
+                }
+                //System.out.println("word"+word);
+                Integer count = 0;
+                if (interestingWords.containsKey(word)) {
+                    count = interestingWords.get(word);
+                    count = count + 1;
+                    interestingWords.put(word, count);
+                } else {
+                    count = count + 1;
+                    interestingWords.put(word, count);
+                }
+                
+                if (interestingEntitities.containsKey(word)) {
+                    entityList = interestingEntitities.get(word);
+                    entityList.add(url);
+                    interestingEntitities.put(word, entityList);
+                } else {
+                    entityList.add(url);
+                    interestingEntitities.put(word, entityList);
+                }
+            }
+
+        }
+        
+        String str = SortUtils.sort(interestingWords, posTagger, numberOfEntitiesToLimitInFile);
+        if (str != null) {
+            String sortFile = outputLocation + className + "_" + property + FILE_NOTATION;
+            FileFolderUtils.stringToFiles(str, sortFile);
+            LinkedHashMap<String, List<String>> selectWordsEntities=this.saveEntities(interestingEntitities,property,1000);
+            String jsonFile = outputLocation + className + "[" + property+"]" ;
+            FileFolderUtils.writeInterestingEntityEachToJsonFile(selectWordsEntities, jsonFile);
+             System.out.println(" property:" + property + " numberOfWord:" + selectWordsEntities.size());
+            this.sortFiles.add(sortFile);
+        }
+        
+       
+        return SortUtils.sort(interestingWords, posTagger, numberOfEntitiesToLimitInFile);
+    }
+    
+     /*private String prepareForAllProperties(List<DBpediaEntity> dbpediaEntities) throws Exception {
         Map<String, Integer> mostCommonWords = new HashMap<String, Integer>();
         posTagger = new HashMap<String, String>();
         Integer index = 0;
@@ -138,6 +201,80 @@ public class InterestedWords implements MenuOptions {
 
         }
         return SortUtils.sort(mostCommonWords, posTagger, numberOfEntitiesToLimitInFile);
+    }*/
+
+    
+    private Set< String> wordHash(DBpediaEntity dbpediaEntity) {
+        Set<String> words = new HashSet<String>();
+        for (String word : dbpediaEntity.getAdjectives()) {
+            word = word.toLowerCase().trim();
+            words.add(word);
+            posTagger.put(word, TextAnalyzer.ADJECTIVE);
+        }
+        for (String word : dbpediaEntity.getNouns()) {
+            word = word.toLowerCase().trim();
+            words.add(word);
+            posTagger.put(word, TextAnalyzer.NOUN);
+        }
+        for (String word : dbpediaEntity.getVerbs()) {
+            word = word.toLowerCase().trim();
+            words.add(word);
+            posTagger.put(word, TextAnalyzer.VERB);
+        }
+        return words;
+
+    }
+
+
+    /*private Set< String> wordHash(String text) throws Exception {
+        Set<String> words = new HashSet<String>();
+        Analyzer analyzer = new Analyzer(text, TextAnalyzer.POS_TAGGER_WORDS, numberOfSentencesOfAbstract);
+        for (String word : analyzer.getAdjectives()) {
+            word = word.toLowerCase().trim();
+            words.add(word);
+            posTagger.put(word, TextAnalyzer.ADJECTIVE);
+        }
+        for (String word : analyzer.getNouns()) {
+            word = word.toLowerCase().trim();
+            words.add(word);
+            posTagger.put(word, TextAnalyzer.NOUN);
+        }
+        for (String word : analyzer.getVerbs()) {
+            word = word.toLowerCase().trim();
+            words.add(word);
+            posTagger.put(word, TextAnalyzer.VERB);
+        }
+        return words;
+    }*/
+    private String getProperty(File file) {
+        String property = file.getName().replace(className, "");
+        property = property.replace("_", "");
+        return property;
+    }
+
+    private Boolean isvalid(String word) {
+        /*if (TextAnalyzer.ENGLISH_STOPWORDS.contains(word)) {
+            return false;
+        } else*/
+        if (TextAnalyzer.MONTH.contains(word)) {
+            return false;
+        }
+        return true;
+    }
+
+    /*public Map<String, List<String>> getPropertyInterestedWords() {
+        return propertyInterestedWords;
+    }*/
+
+    private Pair<Boolean, String> findPosTag(String word, Analyzer analyzer) {
+        if (analyzer.getNouns().contains(word)) {
+            return new Pair<Boolean, String>(Boolean.TRUE, TextAnalyzer.NOUN);
+        } else if (analyzer.getAdjectives().contains(word)) {
+            return new Pair<Boolean, String>(Boolean.TRUE, TextAnalyzer.ADJECTIVE);
+        } else if (analyzer.getVerbs().contains(word)) {
+            return new Pair<Boolean, String>(Boolean.TRUE, TextAnalyzer.VERB);
+        }
+        return new Pair<Boolean, String>(Boolean.FALSE, word);
     }
 
     /*private String prepareForAllPropertiesWithPostagging(List<DBpediaEntity> dbpediaEntities, Integer numberEntitiesSelected) throws Exception {
@@ -211,79 +348,27 @@ public class InterestedWords implements MenuOptions {
         }
         return analyzer.g;
     }*/
-    private Set< String> wordHash(DBpediaEntity dbpediaEntity) {
-        Set<String> words = new HashSet<String>();
-        for (String word : dbpediaEntity.getAdjectives()) {
-            word = word.toLowerCase().trim();
-            words.add(word);
-            posTagger.put(word, TextAnalyzer.ADJECTIVE);
-        }
-        for (String word : dbpediaEntity.getNouns()) {
-            word = word.toLowerCase().trim();
-            words.add(word);
-            posTagger.put(word, TextAnalyzer.NOUN);
-        }
-        /* for (String word : dbpediaEntity.getVerbs()) {
-            word = word.toLowerCase().trim();
-            words.add(word);
-            posTagger.put(word, TextAnalyzer.VERB);
-        }*/
-        return words;
 
+    private LinkedHashMap<String, List<String>> saveEntities(Map<String, List<String>> interestingEntitities, String property, Integer numberOfTopLinguisticPattern) {
+        LinkedHashMap<String, List<String>> selectedEntities = new LinkedHashMap<String, List<String>>();
+        List<String> words = FindTopMostInterWords.findTopMostWords(outputLocation, property, numberOfTopLinguisticPattern);
+        Set<String> tempWords=new HashSet<String>(words);
+         Set<String> common = Sets.intersection(interestingEntitities.keySet(), tempWords); 
+        
+        for (String word : words) {
+            if (interestingEntitities.containsKey(word)) {
+                List<String> entities = interestingEntitities.get(word);
+                selectedEntities.put(word, entities);
+                //System.out.println("word:" + word +" "+selectedEntities.size());
+
+            }
+        }
+        return selectedEntities;
+       // Set<String> 
+        //    answer = Sets.intersection(interestingEntitities.keySet(), tempWords); 
+
+        //FileFolderUtils.writeInterestingEntityToJsonFile(interestingEntitities, jsonFile);
     }
 
-
-    /*private Set< String> wordHash(String text) throws Exception {
-        Set<String> words = new HashSet<String>();
-        Analyzer analyzer = new Analyzer(text, TextAnalyzer.POS_TAGGER_WORDS, numberOfSentencesOfAbstract);
-        for (String word : analyzer.getAdjectives()) {
-            word = word.toLowerCase().trim();
-            words.add(word);
-            posTagger.put(word, TextAnalyzer.ADJECTIVE);
-        }
-        for (String word : analyzer.getNouns()) {
-            word = word.toLowerCase().trim();
-            words.add(word);
-            posTagger.put(word, TextAnalyzer.NOUN);
-        }
-        for (String word : analyzer.getVerbs()) {
-            word = word.toLowerCase().trim();
-            words.add(word);
-            posTagger.put(word, TextAnalyzer.VERB);
-        }
-        return words;
-    }*/
-    private String getProperty(File file) {
-        String property = file.getName().replace(className, "");
-        property = property.replace("_", "");
-        return property;
-    }
-
-    private Boolean isvalid(String word) {
-        /*if (TextAnalyzer.ENGLISH_STOPWORDS.contains(word)) {
-            return false;
-        } else*/
-        if (TextAnalyzer.MONTH.contains(word)) {
-            return false;
-        }
-        return true;
-    }
-
-    /*public Map<String, List<String>> getPropertyInterestedWords() {
-        return propertyInterestedWords;
-    }*/
-
-    private Pair<Boolean, String> findPosTag(String word, Analyzer analyzer) {
-        if (analyzer.getNouns().contains(word)) {
-            return new Pair<Boolean, String>(Boolean.TRUE, TextAnalyzer.NOUN);
-        } else if (analyzer.getAdjectives().contains(word)) {
-            return new Pair<Boolean, String>(Boolean.TRUE, TextAnalyzer.ADJECTIVE);
-        } else if (analyzer.getVerbs().contains(word)) {
-            return new Pair<Boolean, String>(Boolean.TRUE, TextAnalyzer.VERB);
-        }
-        return new Pair<Boolean, String>(Boolean.FALSE, word);
-    }
-
-   
 
 }

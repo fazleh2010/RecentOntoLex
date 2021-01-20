@@ -62,9 +62,9 @@ public class WordCalculation implements TextAnalyzer {
                 continue;
             }*/
             
-            /*if (!tableName.contains("dbo:party")) {
+            if (!tableName.contains("dbo:birthPlace")) {
                 continue;
-            }*/
+            }
 
             String classNameAndProperty = Tables.getClassAndProperty(tableName);
             LinkedHashMap<String, String> selectedWordsHash = this.selectedWords(selectWordDir, classNameAndProperty, ".txt");

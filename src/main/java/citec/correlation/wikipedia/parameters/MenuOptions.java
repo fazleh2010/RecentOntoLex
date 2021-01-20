@@ -35,4 +35,5 @@ public interface MenuOptions {
     public static String SELTECTED_WORDS_DIR = "selectedWords";
     public static String RESULT_DIR = "result";
     public static String LEXICON_DIR = "lexicon";
+    public static String FILE_ENTITY_NOTATION = "_words.json";
 }

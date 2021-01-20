@@ -15,6 +15,7 @@ import citec.correlation.wikipedia.calculation.InterestingPatterns;
 import citec.correlation.wikipedia.dic.lexicon.WordObjectResults;
 import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.allPoliticianFile;
+import static citec.correlation.wikipedia.parameters.MenuOptions.FILE_ENTITY_NOTATION;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -314,6 +315,7 @@ public class FileFolderUtils implements TextAnalyzer{
             line = reader.readLine();
             while (line != null) {
                 line = reader.readLine();
+                //System.out.println(line);
                 if (line != null) {
                     String url = line.trim();
                     String []info=url.split(" ");
@@ -497,6 +499,27 @@ public class FileFolderUtils implements TextAnalyzer{
         }
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename).toFile(), units);
+    }
+    
+    public static void writeInterestingEntityToJsonFile( Map<String, List<String>> interestingEntitities, String filename) throws IOException, Exception {
+        if (interestingEntitities.isEmpty()) {
+            throw new Exception("no data found to write in the file!!");
+        }
+        ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
+        mapper.writeValue(Paths.get(filename).toFile(), interestingEntitities);
+    }
+    public static void writeInterestingEntityEachToJsonFile(Map<String, List<String>> interestingEntitities, String filename) throws IOException, Exception {
+        if (interestingEntitities.isEmpty()) {
+            throw new Exception("no data found to write in the file!!");
+        }
+        for (String word : interestingEntitities.keySet()) {
+            String finalFileName=filename.replace(".json", "");
+            finalFileName=finalFileName+ "("+word+")"+".json";
+            System.out.println("finalFileName:"+finalFileName);
+            List<String> entityList=interestingEntitities.get(word);
+            ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
+            mapper.writeValue(Paths.get(finalFileName).toFile(), entityList);
+        }
     }
 
     public static void writeDictionaryToJsonFile(Map<String, Map<Integer, String>> units, String fileName) throws Exception {

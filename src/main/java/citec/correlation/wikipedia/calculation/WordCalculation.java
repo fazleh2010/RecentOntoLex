@@ -21,6 +21,8 @@ import java.io.File;
 import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.javatuples.Pair;
 
 /**
@@ -35,10 +37,12 @@ public class WordCalculation implements TextAnalyzer {
     private String proccessedPropertiesFile = null;
     private Set<String> selectedProperties = new TreeSet<String>();
     private ProbabilityT probabilityT;
+    private String selectWordDir=null;
 
     public WordCalculation(ProbabilityT probabilityT,String className, String selectWordDir, String resultDir, List<File> selectedPropertiesFiles,String proccessedPropertiesFile) throws IOException, Exception {
         this.probabilityT=probabilityT;
         this.className = className;
+        this.selectWordDir=selectWordDir;
         this.proccessedPropertiesFile=proccessedPropertiesFile;
         this.probabiltyCalculation(selectWordDir, resultDir, selectedPropertiesFiles,proccessedPropertiesFile);
     }
@@ -62,7 +66,7 @@ public class WordCalculation implements TextAnalyzer {
                 continue;
             }*/
             
-            if (!tableName.contains("dbo:birthPlace")) {
+            if (!tableName.contains("dbo:party")) {
                 continue;
             }
 
@@ -71,6 +75,9 @@ public class WordCalculation implements TextAnalyzer {
             /*if(selectedWordsHash.isEmpty())
                 continue;*/
             
+           /* if (!tableName.contains("dbo:party")) {
+                continue;
+              }*/
              System.out.println("tableName:"+tableName+" selectedWords:"+selectedWordsHash.size()+" entities:"+dbpediaEntitys.size());
             
             
@@ -213,11 +220,12 @@ public class WordCalculation implements TextAnalyzer {
         }
         return entityCategories;
     }
-
+    
     private ResultTriple countConditionalProbabilities(String tableName, List<DBpediaEntity> dbpediaEntities, String propertyName, String objectOfProperty, String word, Integer flag) throws IOException {
         Double OBJECT_AND_WORD_FOUND = 0.0, OBJECT_FOUND = 0.0, WORD_FOUND = 0.0;
         Integer transactionNumber = dbpediaEntities.size();
-
+        //Set<String> wordEntities=this.getEntities(tableName,word);
+        //System.out.println("word found from set:"+wordEntities.size());
         Pair<String, Double> pair = null;
         ResultTriple triple = null;
 
@@ -244,9 +252,10 @@ public class WordCalculation implements TextAnalyzer {
             }
 
         }
+        
+        System.out.println("WORD_FOUND:"+WORD_FOUND);
 
         objectOfProperty = objectOfProperty.replaceAll("http://dbpedia.org/resource/", "");
-        //objectOfProperty="object[res:"+objectOfProperty+"]";
         objectOfProperty = "object";
         String probability_object_word_str = "P(" + objectOfProperty + "|" + word + ")";
         String probability_word_object_str = "P(" + word + "|" + objectOfProperty + ")";
@@ -278,6 +287,70 @@ public class WordCalculation implements TextAnalyzer {
         return triple;
 
     }
+
+    /*private ResultTriple countConditionalProbabilities(String tableName, List<DBpediaEntity> dbpediaEntities, String propertyName, String objectOfProperty, String word, Integer flag) throws IOException {
+        Double OBJECT_AND_WORD_FOUND = 0.0, OBJECT_FOUND = 0.0, WORD_FOUND = 0.0;
+        Integer transactionNumber = dbpediaEntities.size();
+
+        Pair<String, Double> pair = null;
+        ResultTriple triple = null;
+
+        for (DBpediaEntity dbpediaEntity : dbpediaEntities) {
+            String text = dbpediaEntity.getText();
+            Boolean objectFlag = false, wordFlag = false;
+
+            if (dbpediaEntity.getProperties().containsKey(propertyName)) {
+
+                List<String> objects = dbpediaEntity.getProperties().get(propertyName);
+                if (objects.contains(objectOfProperty)) {
+                    OBJECT_FOUND++;
+                    objectFlag = true;
+                }
+            }
+
+            if (isWordContains(dbpediaEntity.getText(), word)) {
+                WORD_FOUND++;
+                wordFlag = true;
+            }
+
+            if (objectFlag && wordFlag) {
+                OBJECT_AND_WORD_FOUND++;
+            }
+
+        }
+
+        objectOfProperty = objectOfProperty.replaceAll("http://dbpedia.org/resource/", "");
+        objectOfProperty = "object";
+        String probability_object_word_str = "P(" + objectOfProperty + "|" + word + ")";
+        String probability_word_object_str = "P(" + word + "|" + objectOfProperty + ")";
+
+        //if (WORD_FOUND > 10) {
+        if (flag == WordResult.PROBABILITY_OBJECT_GIVEN_WORD) {
+            Double probability_object_word = (OBJECT_AND_WORD_FOUND) / (WORD_FOUND);
+            if (probability_object_word <this.probabilityT.getProbabiltyOfObjectGivenWordThresold()) {
+                return null;
+            }
+
+            Double confidenceWord = (WORD_FOUND / transactionNumber);
+            Double confidenceKB = (OBJECT_FOUND / transactionNumber);
+            Double confidenceKB_WORD = (OBJECT_AND_WORD_FOUND / transactionNumber);
+            Double lift = (confidenceKB_WORD / (confidenceWord * confidenceKB));
+
+            triple = new ResultTriple(probability_object_word_str, probability_object_word, confidenceWord, confidenceKB, confidenceKB_WORD, lift, OBJECT_AND_WORD_FOUND, WORD_FOUND, null);
+            //pair = new Pair<Triple, Double>(probability_object_word_str, probability_object_word);
+
+        } else if (flag == WordResult.PROBABILITY_WORD_GIVEN_OBJECT) {
+            Double probability_word_object = (OBJECT_AND_WORD_FOUND) / (OBJECT_FOUND);
+            if (probability_word_object < this.probabilityT.getProbabiltyOfwordGivenObjectThresold()) {
+                return null;
+            }
+            //pair = new Pair<Triple, Double>(probability_word_object_str, probability_word_object);
+            triple = new ResultTriple(probability_word_object_str, probability_word_object, WORD_FOUND, null, OBJECT_AND_WORD_FOUND, null, OBJECT_AND_WORD_FOUND, null, OBJECT_FOUND);
+        }
+
+        return triple;
+
+    }*/
 
     private boolean isWordContains(String text, String B) {
         if (text.toLowerCase().toString().contains(B)) {
@@ -540,5 +613,7 @@ public class WordCalculation implements TextAnalyzer {
         }
         return selectedFiles;
     }
+
+   
 
 }

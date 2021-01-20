@@ -144,6 +144,7 @@ public class FileFolderUtils implements TextAnalyzer{
     }
 
     public static List<File> getFiles(String fileDir, String ntriple) throws Exception {
+        System.out.println(fileDir);
         try {
             File dir = new File(fileDir);
             FileFilter fileFilter = new WildcardFileFilter("*" + ntriple);
@@ -249,6 +250,33 @@ public class FileFolderUtils implements TextAnalyzer{
                         }
                         values.add(value);
                         hash.put(key, values);
+                    }
+
+                }
+
+            }
+            reader.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return hash;
+    }
+    
+     public static LinkedHashMap<String, String> fileToHashOrg(String fileName) throws FileNotFoundException, IOException {
+        LinkedHashMap<String, String> hash = new LinkedHashMap<String, String>();
+        BufferedReader reader;
+        String line = "";
+        try {
+            reader = new BufferedReader(new FileReader(fileName));
+            line = reader.readLine();
+            while (line != null) {
+                line = reader.readLine();
+                if (line != null) {
+                    if (line.contains(" ")) {
+                        String[] info = line.split(" ");
+                        String key = info[0];
+                        String value = info[1];  
+                        hash.put(key, value);
                     }
 
                 }
@@ -508,18 +536,31 @@ public class FileFolderUtils implements TextAnalyzer{
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename).toFile(), interestingEntitities);
     }
-    public static void writeInterestingEntityEachToJsonFile(Map<String, List<String>> interestingEntitities, String filename) throws IOException, Exception {
+    public static void writeInterestingEntityEachToJsonFile(Map<String, List<String>> interestingEntitities, String location) throws IOException, Exception {
         if (interestingEntitities.isEmpty()) {
             throw new Exception("no data found to write in the file!!");
         }
+        location=location.replace(".json", "");
+        String str="";
+        FileFolderUtils.createDirectory(location);
         for (String word : interestingEntitities.keySet()) {
-            String finalFileName=filename.replace(".json", "");
-            finalFileName=finalFileName+ "("+word+")"+".json";
+            String finalFileName=location+ word+".json";
             System.out.println("finalFileName:"+finalFileName);
             List<String> entityList=interestingEntitities.get(word);
             ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
             mapper.writeValue(Paths.get(finalFileName).toFile(), entityList);
+            String line=word+" "+word+".json"+"\n";
+            str+=line;
         }
+         FileFolderUtils.stringToFiles(str, location+"AAClass.txt");
+
+    }
+    
+     public static List<String>  readInterestingEntityEachToJsonFile(File file) throws IOException, Exception {
+        ObjectMapper mapper = new ObjectMapper();
+        List<String> entityList = mapper.readValue(file, new TypeReference<List<String>>() {
+        });
+        return entityList;
     }
 
     public static void writeDictionaryToJsonFile(Map<String, Map<Integer, String>> units, String fileName) throws Exception {
@@ -570,6 +611,8 @@ public class FileFolderUtils implements TextAnalyzer{
         });
         return dbpediaEntitys;
     }
+    
+    
   
     public static Map<String, List<WordObjectResults>> readWordObjectFromJsonFile(File file)  {
         ObjectMapper mapper = new ObjectMapper();

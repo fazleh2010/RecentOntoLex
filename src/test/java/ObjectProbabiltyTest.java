@@ -61,7 +61,7 @@ public class ObjectProbabiltyTest implements PropertyNotation, DirectoryLocation
     }
     //takes very long. minimum two hours. the properties needs to be filter before running it.
    
-    public static void main(String [] args) throws IOException, Exception {
+   public static void main(String [] args) throws IOException, Exception {
         Map<Integer, TreeSet<String>> classInformations = new TreeMap<Integer, TreeSet<String>>();
         Integer runLImit = -1;
         selectedPropertiesFiles = experThresold.getSelectedFiles(propertyDir,selectedPropertiesFile);
@@ -84,11 +84,10 @@ public class ObjectProbabiltyTest implements PropertyNotation, DirectoryLocation
         System.out.println("find interesting words!!!");
     }
 
-    @Ignore
-    public  void C_PARAMETER_WISE_PROBABILTY() throws IOException, Exception {
+   /*public static void main(String [] args) throws IOException, Exception {
         experThresold.setInterestLingP();
         experThresold.setConstantProbabilityT(new ProbabilityT(0.01, 0.01, 0.01, 10));
-        this.selectedPropertiesFiles = experThresold.getSelectedFiles(propertyDir,selectedPropertiesFile);
+        selectedPropertiesFiles = experThresold.getSelectedFiles(propertyDir,selectedPropertiesFile);
         
         for (String interestingResultDir : experThresold.getInterestLingP().keySet()) {
             LingPattern lingPattern = experThresold.getInterestLingP().get(interestingResultDir);
@@ -107,7 +106,7 @@ public class ObjectProbabiltyTest implements PropertyNotation, DirectoryLocation
            
         }
         System.out.println("calculate probabilty ended!!!");
-    }
+    }*/
     
     
 /*    public static void main(String[] args) throws IOException, Exception {

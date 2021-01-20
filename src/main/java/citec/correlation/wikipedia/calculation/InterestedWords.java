@@ -64,7 +64,7 @@ public class InterestedWords implements MenuOptions {
             index = index + 1;
             if(index==limit)
                 break;
-            if (!file.getName().contains("dbo:almaMater")) {
+            if (!file.getName().contains("dbo:party")) {
                 continue;
               }
             String property = this.getProperty(file);
@@ -117,7 +117,7 @@ public class InterestedWords implements MenuOptions {
         Integer index = 0;
         for (DBpediaEntity dbpediaEntity : dbpediaEntities) {
             String url=dbpediaEntity.getEntityIndex();
-            List<String> entityList =new ArrayList<String>();
+           
             index = index + 1;
             Set<String> words = this.wordHash(dbpediaEntity);
             //System.out.println("running:"+index+" total Entities:"+dbpediaEntities.size()+ " totalWords:"+words.size());
@@ -143,10 +143,11 @@ public class InterestedWords implements MenuOptions {
                 }
                 
                 if (interestingEntitities.containsKey(word)) {
-                    entityList = interestingEntitities.get(word);
+                    List<String> entityList =entityList = interestingEntitities.get(word);
                     entityList.add(url);
                     interestingEntitities.put(word, entityList);
                 } else {
+                    List<String> entityList =new ArrayList<String>();
                     entityList.add(url);
                     interestingEntitities.put(word, entityList);
                 }
@@ -159,7 +160,7 @@ public class InterestedWords implements MenuOptions {
             String sortFile = outputLocation + className + "_" + property + FILE_NOTATION;
             FileFolderUtils.stringToFiles(str, sortFile);
             LinkedHashMap<String, List<String>> selectWordsEntities=this.saveEntities(interestingEntitities,property,1000);
-            String jsonFile = outputLocation + className + "[" + property+"]" ;
+            String jsonFile = outputLocation + "/"+className +"_" + property+ "/" ;
             FileFolderUtils.writeInterestingEntityEachToJsonFile(selectWordsEntities, jsonFile);
              System.out.println(" property:" + property + " numberOfWord:" + selectWordsEntities.size());
             this.sortFiles.add(sortFile);

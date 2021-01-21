@@ -1,0 +1,92 @@
+{
+  "american-JJ" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.127347,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(american|object)" : 0.257009,
+      "P(object|american)" : 0.495495
+    }
+  } ],
+  "artist-NN" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.128616,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(artist|object)" : 0.158879,
+      "P(object|artist)" : 0.809524
+    }
+  } ],
+  "career-NN" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.072705,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(career|object)" : 0.107477,
+      "P(object|career)" : 0.676471
+    }
+  } ],
+  "debut-NN" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.073598,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(debut|object)" : 0.098131,
+      "P(object|debut)" : 0.75
+    }
+  } ],
+  "music-NN" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.134356,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(music|object)" : 0.266355,
+      "P(object|music)" : 0.504425
+    }
+  } ],
+  "name-NN" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.18859,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(name|object)" : 0.242991,
+      "P(object|name)" : 0.776119
+    }
+  } ],
+  "rapper-NN" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.070368,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(rapper|object)" : 0.074766,
+      "P(object|rapper)" : 0.941176
+    }
+  } ],
+  "singer-songwriter-NN" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.107664,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(singer-songwriter|object)" : 0.11215,
+      "P(object|singer-songwriter)" : 0.96
+    }
+  } ],
+  "songwriter-NN" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.185432,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(songwriter|object)" : 0.233645,
+      "P(object|songwriter)" : 0.793651
+    }
+  } ],
+  "stage-NN" : [ {
+    "object" : "solo_singer",
+    "multiply" : 0.172048,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(stage|object)" : 0.21028,
+      "P(object|stage)" : 0.818182
+    }
+  } ]
+}

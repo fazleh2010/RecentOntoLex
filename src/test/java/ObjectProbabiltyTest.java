@@ -61,7 +61,7 @@ public class ObjectProbabiltyTest implements PropertyNotation, DirectoryLocation
     }
     //takes very long. minimum two hours. the properties needs to be filter before running it.
    
-   public static void main(String [] args) throws IOException, Exception {
+   /*public static void main(String [] args) throws IOException, Exception {
         Map<Integer, TreeSet<String>> classInformations = new TreeMap<Integer, TreeSet<String>>();
         Integer runLImit = -1;
         selectedPropertiesFiles = experThresold.getSelectedFiles(propertyDir,selectedPropertiesFile);
@@ -82,9 +82,41 @@ public class ObjectProbabiltyTest implements PropertyNotation, DirectoryLocation
         }
 
         System.out.println("find interesting words!!!");
-    }
+    }*/
 
-   /*public static void main(String [] args) throws IOException, Exception {
+   public static void main(String [] args) throws IOException, Exception {
+        experThresold.setInterestLingP();
+        experThresold.setConstantProbabilityT(new ProbabilityT(0.01, 0.01, 0.01, 10));
+        selectedPropertiesFiles = experThresold.getSelectedFiles(propertyDir,selectedPropertiesFile);
+        
+        for (String interestingResultDir : experThresold.getInterestLingP().keySet()) {
+            LingPattern lingPattern = experThresold.getInterestLingP().get(interestingResultDir);
+            if(interestingResultDir.contains("Lp500")||interestingResultDir.contains("Cl10_Prop500_Lp100")
+                    ||interestingResultDir.contains("Cl10_Prop500_Lp20")
+                    ||interestingResultDir.contains("Cl5_Prop100_Lp100")
+                    ||interestingResultDir.contains("Cl5_Prop100_Lp20")
+                    ||interestingResultDir.contains("Cl15_Prop1000_Lp100"))
+              continue;
+            System.out.println(interestingResultDir);
+            for (Integer numEnForObj : experThresold.getNumEnForObjs()) {
+                for (Integer numTopLingPat : experThresold.getNumTopLingPats()) {
+                    ProbabilityT probabilityT = new ProbabilityT(lingPattern, numEnForObj, numTopLingPat,
+                            experThresold.getConstantProbabilityT());
+                    String selectedDirVariable = objectDir + SELTECTED_WORDS_DIR + "_" + interestingResultDir;
+                    String resultDirVariable = objectDir + RESULT_DIR + "_" + interestingResultDir;
+                    FileFolderUtils.createDirectory(resultDirVariable);
+                    WordCalculation wordCalculation = new WordCalculation(probabilityT, dbo_ClassName,
+                                 selectedDirVariable, resultDirVariable, selectedPropertiesFiles, proccessedPropertiesFile);
+                }
+               
+            }
+           
+        }
+        System.out.println("calculate probabilty ended!!!");
+    }
+    
+    
+    public static void main3(String[] args) throws IOException, Exception {
         experThresold.setInterestLingP();
         experThresold.setConstantProbabilityT(new ProbabilityT(0.01, 0.01, 0.01, 10));
         selectedPropertiesFiles = experThresold.getSelectedFiles(propertyDir,selectedPropertiesFile);
@@ -106,32 +138,7 @@ public class ObjectProbabiltyTest implements PropertyNotation, DirectoryLocation
            
         }
         System.out.println("calculate probabilty ended!!!");
-    }*/
-    
-    
-/*    public static void main(String[] args) throws IOException, Exception {
-        experThresold.setInterestLingP();
-        experThresold.setConstantProbabilityT(new ProbabilityT(0.01, 0.01, 0.01, 10));
-        selectedPropertiesFiles = experThresold.getSelectedFiles(propertyDir,selectedPropertiesFile);
-        
-        for (String interestingResultDir : experThresold.getInterestLingP().keySet()) {
-            LingPattern lingPattern = experThresold.getInterestLingP().get(interestingResultDir);
-            for (Integer numEnForObj : experThresold.getNumEnForObjs()) {
-                for (Integer numTopLingPat : experThresold.getNumTopLingPats()) {
-                    ProbabilityT probabilityT = new ProbabilityT(lingPattern, numEnForObj, numTopLingPat,
-                            experThresold.getConstantProbabilityT());
-                    String selectedDirVariable = objectDir + SELTECTED_WORDS_DIR + "_" + interestingResultDir;
-                    String resultDirVariable = objectDir + RESULT_DIR + "_" + interestingResultDir;
-                    FileFolderUtils.createDirectory(resultDirVariable);
-                    WordCalculation wordCalculation = new WordCalculation(probabilityT, dbo_ClassName,
-                                 selectedDirVariable, resultDirVariable, selectedPropertiesFiles, proccessedPropertiesFile);
-                }
-               
-            }
-           
-        }
-        System.out.println("calculate probabilty ended!!!");
-    }*/
+    }
     
    
 

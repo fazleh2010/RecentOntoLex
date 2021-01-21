@@ -1,0 +1,1281 @@
+{
+  "dbo:AAClass_dbo:background.json" : [ {
+    "object" : "solo_singer",
+    "objectIndex" : "1",
+    "numberOfEntitiesFoundInObject" : 214,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "name",
+      "PosTag" : "NN",
+      "multiply" : 0.18859,
+      "probabilities" : {
+        "P(name|object)" : 0.242991,
+        "P(object|name)" : 0.776119
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "songwriter",
+      "PosTag" : "NN",
+      "multiply" : 0.185432,
+      "probabilities" : {
+        "P(songwriter|object)" : 0.233645,
+        "P(object|songwriter)" : 0.793651
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "stage",
+      "PosTag" : "NN",
+      "multiply" : 0.172048,
+      "probabilities" : {
+        "P(stage|object)" : 0.21028,
+        "P(object|stage)" : 0.818182
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "music",
+      "PosTag" : "NN",
+      "multiply" : 0.134356,
+      "probabilities" : {
+        "P(music|object)" : 0.266355,
+        "P(object|music)" : 0.504425
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "artist",
+      "PosTag" : "NN",
+      "multiply" : 0.128616,
+      "probabilities" : {
+        "P(artist|object)" : 0.158879,
+        "P(object|artist)" : 0.809524
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "american",
+      "PosTag" : "JJ",
+      "multiply" : 0.127347,
+      "probabilities" : {
+        "P(american|object)" : 0.257009,
+        "P(object|american)" : 0.495495
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "singer-songwriter",
+      "PosTag" : "NN",
+      "multiply" : 0.107664,
+      "probabilities" : {
+        "P(singer-songwriter|object)" : 0.11215,
+        "P(object|singer-songwriter)" : 0.96
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "debut",
+      "PosTag" : "NN",
+      "multiply" : 0.073598,
+      "probabilities" : {
+        "P(debut|object)" : 0.098131,
+        "P(object|debut)" : 0.75
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "career",
+      "PosTag" : "NN",
+      "multiply" : 0.072705,
+      "probabilities" : {
+        "P(career|object)" : 0.107477,
+        "P(object|career)" : 0.676471
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "rapper",
+      "PosTag" : "NN",
+      "multiply" : 0.070368,
+      "probabilities" : {
+        "P(rapper|object)" : 0.074766,
+        "P(object|rapper)" : 0.941176
+      }
+    } ]
+  } ],
+  "dbo:AAClass_dbo:birthPlace.json" : [ {
+    "object" : "Alberta",
+    "objectIndex" : "2",
+    "numberOfEntitiesFoundInObject" : 206,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "canadian",
+      "PosTag" : "JJ",
+      "multiply" : 0.028053,
+      "probabilities" : {
+        "P(canadian|object)" : 0.694175,
+        "P(object|canadian)" : 0.040412
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "legislative",
+      "PosTag" : "JJ",
+      "multiply" : 0.016952,
+      "probabilities" : {
+        "P(legislative|object)" : 0.398058,
+        "P(object|legislative)" : 0.042586
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "canada",
+      "PosTag" : "NN",
+      "multiply" : 0.014423,
+      "probabilities" : {
+        "P(canada|object)" : 0.378641,
+        "P(object|canada)" : 0.038091
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "conservative",
+      "PosTag" : "JJ",
+      "multiply" : 0.012386,
+      "probabilities" : {
+        "P(conservative|object)" : 0.213592,
+        "P(object|conservative)" : 0.05799
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "assembly",
+      "PosTag" : "NN",
+      "multiply" : 0.011576,
+      "probabilities" : {
+        "P(assembly|object)" : 0.398058,
+        "P(object|assembly)" : 0.029082
+      }
+    } ]
+  }, {
+    "object" : "Amsterdam",
+    "objectIndex" : "3",
+    "numberOfEntitiesFoundInObject" : 399,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "dutch",
+      "PosTag" : "JJ",
+      "multiply" : 0.122509,
+      "probabilities" : {
+        "P(dutch|object)" : 0.776942,
+        "P(object|dutch)" : 0.157681
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "netherlands",
+      "PosTag" : "NN",
+      "multiply" : 0.039477,
+      "probabilities" : {
+        "P(netherlands|object)" : 0.295739,
+        "P(object|netherlands)" : 0.133484
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "van",
+      "PosTag" : "NN",
+      "multiply" : 0.02028,
+      "probabilities" : {
+        "P(van|object)" : 0.225564,
+        "P(object|van)" : 0.08991
+      }
+    } ]
+  }, {
+    "object" : "Berlin",
+    "objectIndex" : "4",
+    "numberOfEntitiesFoundInObject" : 584,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "berlin",
+      "PosTag" : "NN",
+      "multiply" : 0.139579,
+      "probabilities" : {
+        "P(berlin|object)" : 0.489726,
+        "P(object|berlin)" : 0.285015
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "german",
+      "PosTag" : "JJ",
+      "multiply" : 0.071641,
+      "probabilities" : {
+        "P(german|object)" : 0.820205,
+        "P(object|german)" : 0.087346
+      }
+    } ]
+  }, {
+    "object" : "Brazil",
+    "objectIndex" : "5",
+    "numberOfEntitiesFoundInObject" : 353,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "brazilian",
+      "PosTag" : "JJ",
+      "multiply" : 0.441529,
+      "probabilities" : {
+        "P(brazilian|object)" : 0.866856,
+        "P(object|brazilian)" : 0.509346
+      }
+    } ]
+  }, {
+    "object" : "Brooklyn",
+    "objectIndex" : "6",
+    "numberOfEntitiesFoundInObject" : 408,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "york",
+      "PosTag" : "NN",
+      "multiply" : 0.015982,
+      "probabilities" : {
+        "P(york|object)" : 0.32598,
+        "P(object|york)" : 0.049026
+      }
+    } ]
+  }, {
+    "object" : "California",
+    "objectIndex" : "7",
+    "numberOfEntitiesFoundInObject" : 421,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "california",
+      "PosTag" : "NN",
+      "multiply" : 0.033629,
+      "probabilities" : {
+        "P(california|object)" : 0.31829,
+        "P(object|california)" : 0.105654
+      }
+    } ]
+  }, {
+    "object" : "Chicago",
+    "objectIndex" : "8",
+    "numberOfEntitiesFoundInObject" : 503,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "chicago",
+      "PosTag" : "NN",
+      "multiply" : 0.098969,
+      "probabilities" : {
+        "P(chicago|object)" : 0.359841,
+        "P(object|chicago)" : 0.275035
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "illinois",
+      "PosTag" : "NN",
+      "multiply" : 0.052348,
+      "probabilities" : {
+        "P(illinois|object)" : 0.236581,
+        "P(object|illinois)" : 0.221269
+      }
+    } ]
+  }, {
+    "object" : "Copenhagen",
+    "objectIndex" : "9",
+    "numberOfEntitiesFoundInObject" : 213,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "danish",
+      "PosTag" : "JJ",
+      "multiply" : 0.244521,
+      "probabilities" : {
+        "P(danish|object)" : 0.877934,
+        "P(object|danish)" : 0.278519
+      }
+    } ]
+  }, {
+    "object" : "Dublin",
+    "objectIndex" : "10",
+    "numberOfEntitiesFoundInObject" : 230,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "irish",
+      "PosTag" : "JJ",
+      "multiply" : 0.189225,
+      "probabilities" : {
+        "P(irish|object)" : 0.765217,
+        "P(object|irish)" : 0.247283
+      }
+    } ]
+  }, {
+    "object" : "England",
+    "objectIndex" : "11",
+    "numberOfEntitiesFoundInObject" : 1403,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "english",
+      "PosTag" : "JJ",
+      "multiply" : 0.05299,
+      "probabilities" : {
+        "P(english|object)" : 0.364932,
+        "P(object|english)" : 0.145204
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "british",
+      "PosTag" : "JJ",
+      "multiply" : 0.049076,
+      "probabilities" : {
+        "P(british|object)" : 0.384177,
+        "P(object|british)" : 0.127744
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "england",
+      "PosTag" : "NN",
+      "multiply" : 0.047414,
+      "probabilities" : {
+        "P(england|object)" : 0.22737,
+        "P(object|england)" : 0.208531
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "london",
+      "PosTag" : "NN",
+      "multiply" : 0.013501,
+      "probabilities" : {
+        "P(london|object)" : 0.14469,
+        "P(object|london)" : 0.093311
+      }
+    } ]
+  }, {
+    "object" : "Germany",
+    "objectIndex" : "12",
+    "numberOfEntitiesFoundInObject" : 535,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "german",
+      "PosTag" : "JJ",
+      "multiply" : 0.071632,
+      "probabilities" : {
+        "P(german|object)" : 0.728972,
+        "P(object|german)" : 0.098264
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "germany",
+      "PosTag" : "NN",
+      "multiply" : 0.031499,
+      "probabilities" : {
+        "P(germany|object)" : 0.293458,
+        "P(object|germany)" : 0.107338
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "fencer",
+      "PosTag" : "NN",
+      "multiply" : 0.010076,
+      "probabilities" : {
+        "P(fencer|object)" : 0.162617,
+        "P(object|fencer)" : 0.061961
+      }
+    } ]
+  }, {
+    "object" : "India",
+    "objectIndex" : "13",
+    "numberOfEntitiesFoundInObject" : 1254,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "indian",
+      "PosTag" : "JJ",
+      "multiply" : 0.227327,
+      "probabilities" : {
+        "P(indian|object)" : 0.69697,
+        "P(object|indian)" : 0.326165
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "india",
+      "PosTag" : "NN",
+      "multiply" : 0.084152,
+      "probabilities" : {
+        "P(india|object)" : 0.322169,
+        "P(object|india)" : 0.261206
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "film",
+      "PosTag" : "NN",
+      "multiply" : 0.015495,
+      "probabilities" : {
+        "P(film|object)" : 0.26236,
+        "P(object|film)" : 0.059061
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "films",
+      "PosTag" : "NN",
+      "multiply" : 0.011601,
+      "probabilities" : {
+        "P(films|object)" : 0.160287,
+        "P(object|films)" : 0.072379
+      }
+    } ]
+  }, {
+    "object" : "Iran",
+    "objectIndex" : "14",
+    "numberOfEntitiesFoundInObject" : 321,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "persian",
+      "PosTag" : "NN",
+      "multiply" : 0.351008,
+      "probabilities" : {
+        "P(persian|object)" : 0.775701,
+        "P(object|persian)" : 0.452504
+      }
+    } ]
+  }, {
+    "object" : "Italy",
+    "objectIndex" : "15",
+    "numberOfEntitiesFoundInObject" : 932,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "italian",
+      "PosTag" : "JJ",
+      "multiply" : 0.20117,
+      "probabilities" : {
+        "P(italian|object)" : 0.888412,
+        "P(object|italian)" : 0.226437
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "italy",
+      "PosTag" : "NN",
+      "multiply" : 0.027621,
+      "probabilities" : {
+        "P(italy|object)" : 0.169528,
+        "P(object|italy)" : 0.162931
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "fencer",
+      "PosTag" : "NN",
+      "multiply" : 0.011057,
+      "probabilities" : {
+        "P(fencer|object)" : 0.140558,
+        "P(object|fencer)" : 0.078664
+      }
+    } ]
+  }, {
+    "object" : "Japan",
+    "objectIndex" : "16",
+    "numberOfEntitiesFoundInObject" : 610,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "japanese",
+      "PosTag" : "JJ",
+      "multiply" : 0.238603,
+      "probabilities" : {
+        "P(japanese|object)" : 0.908197,
+        "P(object|japanese)" : 0.262722
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "japan",
+      "PosTag" : "NN",
+      "multiply" : 0.083625,
+      "probabilities" : {
+        "P(japan|object)" : 0.380328,
+        "P(object|japan)" : 0.219875
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "voice",
+      "PosTag" : "NN",
+      "multiply" : 0.016256,
+      "probabilities" : {
+        "P(voice|object)" : 0.152459,
+        "P(object|voice)" : 0.106625
+      }
+    } ]
+  }, {
+    "object" : "Kerala",
+    "objectIndex" : "17",
+    "numberOfEntitiesFoundInObject" : 251,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "indian",
+      "PosTag" : "JJ",
+      "multiply" : 0.035146,
+      "probabilities" : {
+        "P(indian|object)" : 0.657371,
+        "P(object|indian)" : 0.053465
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "india",
+      "PosTag" : "NN",
+      "multiply" : 0.014811,
+      "probabilities" : {
+        "P(india|object)" : 0.326693,
+        "P(object|india)" : 0.045337
+      }
+    } ]
+  }, {
+    "object" : "London",
+    "objectIndex" : "18",
+    "numberOfEntitiesFoundInObject" : 1257,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "british",
+      "PosTag" : "JJ",
+      "multiply" : 0.071265,
+      "probabilities" : {
+        "P(british|object)" : 0.460621,
+        "P(object|british)" : 0.154715
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "london",
+      "PosTag" : "NN",
+      "multiply" : 0.062775,
+      "probabilities" : {
+        "P(london|object)" : 0.304694,
+        "P(object|london)" : 0.206028
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "english",
+      "PosTag" : "JJ",
+      "multiply" : 0.048549,
+      "probabilities" : {
+        "P(english|object)" : 0.345267,
+        "P(object|english)" : 0.140614
+      }
+    } ]
+  }, {
+    "object" : "Los_Angeles",
+    "objectIndex" : "19",
+    "numberOfEntitiesFoundInObject" : 339,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "angeles",
+      "PosTag" : "NN",
+      "multiply" : 0.041213,
+      "probabilities" : {
+        "P(angeles|object)" : 0.297935,
+        "P(object|angeles)" : 0.138329
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "los",
+      "PosTag" : "NN",
+      "multiply" : 0.037938,
+      "probabilities" : {
+        "P(los|object)" : 0.300885,
+        "P(object|los)" : 0.126087
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "california",
+      "PosTag" : "NN",
+      "multiply" : 0.020091,
+      "probabilities" : {
+        "P(california|object)" : 0.262537,
+        "P(object|california)" : 0.076528
+      }
+    } ]
+  }, {
+    "object" : "Melbourne",
+    "objectIndex" : "20",
+    "numberOfEntitiesFoundInObject" : 244,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "australian",
+      "PosTag" : "JJ",
+      "multiply" : 0.084918,
+      "probabilities" : {
+        "P(australian|object)" : 0.811475,
+        "P(object|australian)" : 0.104647
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "australia",
+      "PosTag" : "NN",
+      "multiply" : 0.028969,
+      "probabilities" : {
+        "P(australia|object)" : 0.372951,
+        "P(object|australia)" : 0.077676
+      }
+    } ]
+  }, {
+    "object" : "Mexico_City",
+    "objectIndex" : "21",
+    "numberOfEntitiesFoundInObject" : 256,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "mexican",
+      "PosTag" : "JJ",
+      "multiply" : 0.16485,
+      "probabilities" : {
+        "P(mexican|object)" : 0.839844,
+        "P(object|mexican)" : 0.196286
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "mexico",
+      "PosTag" : "NN",
+      "multiply" : 0.071187,
+      "probabilities" : {
+        "P(mexico|object)" : 0.460938,
+        "P(object|mexico)" : 0.15444
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "federal",
+      "PosTag" : "NN",
+      "multiply" : 0.019793,
+      "probabilities" : {
+        "P(federal|object)" : 0.214844,
+        "P(object|federal)" : 0.092127
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "congress",
+      "PosTag" : "NN",
+      "multiply" : 0.014831,
+      "probabilities" : {
+        "P(congress|object)" : 0.269531,
+        "P(object|congress)" : 0.055024
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "legislature",
+      "PosTag" : "NN",
+      "multiply" : 0.013898,
+      "probabilities" : {
+        "P(legislature|object)" : 0.230469,
+        "P(object|legislature)" : 0.060302
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "deputy",
+      "PosTag" : "JJ",
+      "multiply" : 0.011872,
+      "probabilities" : {
+        "P(deputy|object)" : 0.261719,
+        "P(object|deputy)" : 0.045362
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "city",
+      "PosTag" : "NN",
+      "multiply" : 0.011122,
+      "probabilities" : {
+        "P(city|object)" : 0.375,
+        "P(object|city)" : 0.02966
+      }
+    } ]
+  }, {
+    "object" : "Milan",
+    "objectIndex" : "22",
+    "numberOfEntitiesFoundInObject" : 212,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "italian",
+      "PosTag" : "JJ",
+      "multiply" : 0.051816,
+      "probabilities" : {
+        "P(italian|object)" : 0.872642,
+        "P(object|italian)" : 0.059378
+      }
+    } ]
+  }, {
+    "object" : "Montreal",
+    "objectIndex" : "23",
+    "numberOfEntitiesFoundInObject" : 338,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "canadian",
+      "PosTag" : "JJ",
+      "multiply" : 0.052149,
+      "probabilities" : {
+        "P(canadian|object)" : 0.736686,
+        "P(object|canadian)" : 0.070789
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "canada",
+      "PosTag" : "NN",
+      "multiply" : 0.011294,
+      "probabilities" : {
+        "P(canada|object)" : 0.257396,
+        "P(object|canada)" : 0.043877
+      }
+    } ]
+  }, {
+    "object" : "Moscow",
+    "objectIndex" : "24",
+    "numberOfEntitiesFoundInObject" : 615,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "moscow",
+      "PosTag" : "NN",
+      "multiply" : 0.166363,
+      "probabilities" : {
+        "P(moscow|object)" : 0.484553,
+        "P(object|moscow)" : 0.343333
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "russian",
+      "PosTag" : "NN",
+      "multiply" : 0.151742,
+      "probabilities" : {
+        "P(russian|object)" : 0.913821,
+        "P(object|russian)" : 0.166053
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "soviet",
+      "PosTag" : "NN",
+      "multiply" : 0.043601,
+      "probabilities" : {
+        "P(soviet|object)" : 0.325203,
+        "P(object|soviet)" : 0.134075
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "russia",
+      "PosTag" : "NN",
+      "multiply" : 0.015071,
+      "probabilities" : {
+        "P(russia|object)" : 0.144715,
+        "P(object|russia)" : 0.104143
+      }
+    } ]
+  }, {
+    "object" : "Netherlands",
+    "objectIndex" : "25",
+    "numberOfEntitiesFoundInObject" : 416,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "dutch",
+      "PosTag" : "JJ",
+      "multiply" : 0.194682,
+      "probabilities" : {
+        "P(dutch|object)" : 0.858173,
+        "P(object|dutch)" : 0.226857
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "netherlands",
+      "PosTag" : "NN",
+      "multiply" : 0.047405,
+      "probabilities" : {
+        "P(netherlands|object)" : 0.28125,
+        "P(object|netherlands)" : 0.168552
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "van",
+      "PosTag" : "NN",
+      "multiply" : 0.03412,
+      "probabilities" : {
+        "P(van|object)" : 0.266827,
+        "P(object|van)" : 0.127872
+      }
+    } ]
+  }, {
+    "object" : "New_South_Wales",
+    "objectIndex" : "26",
+    "numberOfEntitiesFoundInObject" : 207,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "wales",
+      "PosTag" : "NN",
+      "multiply" : 0.079736,
+      "probabilities" : {
+        "P(wales|object)" : 0.497585,
+        "P(object|wales)" : 0.160247
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "australian",
+      "PosTag" : "JJ",
+      "multiply" : 0.056201,
+      "probabilities" : {
+        "P(australian|object)" : 0.835749,
+        "P(object|australian)" : 0.067246
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "sydney",
+      "PosTag" : "NN",
+      "multiply" : 0.026543,
+      "probabilities" : {
+        "P(sydney|object)" : 0.323671,
+        "P(object|sydney)" : 0.082007
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "south",
+      "PosTag" : "NN",
+      "multiply" : 0.0157,
+      "probabilities" : {
+        "P(south|object)" : 0.497585,
+        "P(object|south)" : 0.031553
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "australia",
+      "PosTag" : "NN",
+      "multiply" : 0.013736,
+      "probabilities" : {
+        "P(australia|object)" : 0.318841,
+        "P(object|australia)" : 0.043081
+      }
+    } ]
+  }, {
+    "object" : "New_York_City",
+    "objectIndex" : "27",
+    "numberOfEntitiesFoundInObject" : 1182,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "york",
+      "PosTag" : "NN",
+      "multiply" : 0.065535,
+      "probabilities" : {
+        "P(york|object)" : 0.366328,
+        "P(object|york)" : 0.178896
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "new",
+      "PosTag" : "NN",
+      "multiply" : 0.033621,
+      "probabilities" : {
+        "P(new|object)" : 0.399323,
+        "P(object|new)" : 0.084194
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "city",
+      "PosTag" : "NN",
+      "multiply" : 0.025065,
+      "probabilities" : {
+        "P(city|object)" : 0.242809,
+        "P(object|city)" : 0.103228
+      }
+    } ]
+  }, {
+    "object" : "New_Zealand",
+    "objectIndex" : "28",
+    "numberOfEntitiesFoundInObject" : 240,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "zealand",
+      "PosTag" : "NN",
+      "multiply" : 0.200521,
+      "probabilities" : {
+        "P(zealand|object)" : 0.870833,
+        "P(object|zealand)" : 0.230263
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "new",
+      "PosTag" : "NN",
+      "multiply" : 0.028286,
+      "probabilities" : {
+        "P(new|object)" : 0.916667,
+        "P(object|new)" : 0.030857
+      }
+    } ]
+  }, {
+    "object" : "Ontario",
+    "objectIndex" : "29",
+    "numberOfEntitiesFoundInObject" : 615,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "ontario",
+      "PosTag" : "NN",
+      "multiply" : 0.146823,
+      "probabilities" : {
+        "P(ontario|object)" : 0.461789,
+        "P(object|ontario)" : 0.317943
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "canadian",
+      "PosTag" : "JJ",
+      "multiply" : 0.086284,
+      "probabilities" : {
+        "P(canadian|object)" : 0.699187,
+        "P(object|canadian)" : 0.123407
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "toronto",
+      "PosTag" : "NN",
+      "multiply" : 0.067818,
+      "probabilities" : {
+        "P(toronto|object)" : 0.250407,
+        "P(object|toronto)" : 0.270833
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "canada",
+      "PosTag" : "NN",
+      "multiply" : 0.033398,
+      "probabilities" : {
+        "P(canada|object)" : 0.325203,
+        "P(object|canada)" : 0.1027
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "legislative",
+      "PosTag" : "JJ",
+      "multiply" : 0.013028,
+      "probabilities" : {
+        "P(legislative|object)" : 0.198374,
+        "P(object|legislative)" : 0.065675
+      }
+    } ]
+  }, {
+    "object" : "Paris",
+    "objectIndex" : "30",
+    "numberOfEntitiesFoundInObject" : 1060,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "french",
+      "PosTag" : "JJ",
+      "multiply" : 0.155136,
+      "probabilities" : {
+        "P(french|object)" : 0.837736,
+        "P(object|french)" : 0.185185
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "paris",
+      "PosTag" : "NN",
+      "multiply" : 0.137309,
+      "probabilities" : {
+        "P(paris|object)" : 0.462264,
+        "P(object|paris)" : 0.297036
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "france",
+      "PosTag" : "NN",
+      "multiply" : 0.013703,
+      "probabilities" : {
+        "P(france|object)" : 0.15283,
+        "P(object|france)" : 0.089659
+      }
+    } ]
+  }, {
+    "object" : "Poland",
+    "objectIndex" : "31",
+    "numberOfEntitiesFoundInObject" : 313,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "polish",
+      "PosTag" : "JJ",
+      "multiply" : 0.222758,
+      "probabilities" : {
+        "P(polish|object)" : 0.782748,
+        "P(object|polish)" : 0.284585
+      }
+    } ]
+  }, {
+    "object" : "Rome",
+    "objectIndex" : "32",
+    "numberOfEntitiesFoundInObject" : 424,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "rome",
+      "PosTag" : "NN",
+      "multiply" : 0.148023,
+      "probabilities" : {
+        "P(rome|object)" : 0.459906,
+        "P(object|rome)" : 0.321854
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "italian",
+      "PosTag" : "JJ",
+      "multiply" : 0.106074,
+      "probabilities" : {
+        "P(italian|object)" : 0.884434,
+        "P(object|italian)" : 0.119934
+      }
+    } ]
+  }, {
+    "object" : "Russia",
+    "objectIndex" : "33",
+    "numberOfEntitiesFoundInObject" : 327,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "russian",
+      "PosTag" : "NN",
+      "multiply" : 0.075776,
+      "probabilities" : {
+        "P(russian|object)" : 0.770642,
+        "P(object|russian)" : 0.098328
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "soviet",
+      "PosTag" : "NN",
+      "multiply" : 0.017821,
+      "probabilities" : {
+        "P(soviet|object)" : 0.247706,
+        "P(object|soviet)" : 0.071942
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "russia",
+      "PosTag" : "NN",
+      "multiply" : 0.017314,
+      "probabilities" : {
+        "P(russia|object)" : 0.195719,
+        "P(object|russia)" : 0.088466
+      }
+    } ]
+  }, {
+    "object" : "Saint_Petersburg",
+    "objectIndex" : "34",
+    "numberOfEntitiesFoundInObject" : 272,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "russian",
+      "PosTag" : "NN",
+      "multiply" : 0.076709,
+      "probabilities" : {
+        "P(russian|object)" : 0.867647,
+        "P(object|russian)" : 0.08841
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "soviet",
+      "PosTag" : "NN",
+      "multiply" : 0.01673,
+      "probabilities" : {
+        "P(soviet|object)" : 0.261029,
+        "P(object|soviet)" : 0.064094
+      }
+    } ]
+  }, {
+    "object" : "Scotland",
+    "objectIndex" : "35",
+    "numberOfEntitiesFoundInObject" : 285,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "scottish",
+      "PosTag" : "JJ",
+      "multiply" : 0.134026,
+      "probabilities" : {
+        "P(scottish|object)" : 0.501754,
+        "P(object|scottish)" : 0.267114
+      }
+    } ]
+  }, {
+    "object" : "South_Korea",
+    "objectIndex" : "36",
+    "numberOfEntitiesFoundInObject" : 547,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "korean",
+      "PosTag" : "JJ",
+      "multiply" : 0.517852,
+      "probabilities" : {
+        "P(korean|object)" : 0.93053,
+        "P(object|korean)" : 0.556512
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "south",
+      "PosTag" : "NN",
+      "multiply" : 0.148245,
+      "probabilities" : {
+        "P(south|object)" : 0.937843,
+        "P(object|south)" : 0.15807
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "lee",
+      "PosTag" : "NN",
+      "multiply" : 0.02711,
+      "probabilities" : {
+        "P(lee|object)" : 0.173675,
+        "P(object|lee)" : 0.156098
+      }
+    } ]
+  }, {
+    "object" : "Soviet_Union",
+    "objectIndex" : "37",
+    "numberOfEntitiesFoundInObject" : 312,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "russian",
+      "PosTag" : "NN",
+      "multiply" : 0.071975,
+      "probabilities" : {
+        "P(russian|object)" : 0.666667,
+        "P(object|russian)" : 0.107963
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "soviet",
+      "PosTag" : "NN",
+      "multiply" : 0.025809,
+      "probabilities" : {
+        "P(soviet|object)" : 0.259615,
+        "P(object|soviet)" : 0.099411
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "russia",
+      "PosTag" : "NN",
+      "multiply" : 0.019923,
+      "probabilities" : {
+        "P(russia|object)" : 0.195513,
+        "P(object|russia)" : 0.101904
+      }
+    }, {
+      "posTag" : "JJ",
+      "Word" : "ukrainian",
+      "PosTag" : "JJ",
+      "multiply" : 0.011025,
+      "probabilities" : {
+        "P(ukrainian|object)" : 0.099359,
+        "P(object|ukrainian)" : 0.110961
+      }
+    } ]
+  }, {
+    "object" : "Stockholm",
+    "objectIndex" : "38",
+    "numberOfEntitiesFoundInObject" : 365,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "swedish",
+      "PosTag" : "NN",
+      "multiply" : 0.224151,
+      "probabilities" : {
+        "P(swedish|object)" : 0.942466,
+        "P(object|swedish)" : 0.237834
+      }
+    } ]
+  }, {
+    "object" : "Sydney",
+    "objectIndex" : "39",
+    "numberOfEntitiesFoundInObject" : 321,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "australian",
+      "PosTag" : "JJ",
+      "multiply" : 0.110717,
+      "probabilities" : {
+        "P(australian|object)" : 0.825545,
+        "P(object|australian)" : 0.134114
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "sydney",
+      "PosTag" : "NN",
+      "multiply" : 0.099643,
+      "probabilities" : {
+        "P(sydney|object)" : 0.433022,
+        "P(object|sydney)" : 0.23011
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "australia",
+      "PosTag" : "NN",
+      "multiply" : 0.035073,
+      "probabilities" : {
+        "P(australia|object)" : 0.34891,
+        "P(object|australia)" : 0.100522
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "wales",
+      "PosTag" : "NN",
+      "multiply" : 0.027418,
+      "probabilities" : {
+        "P(wales|object)" : 0.174455,
+        "P(object|wales)" : 0.157165
+      }
+    } ]
+  }, {
+    "object" : "Tokyo",
+    "objectIndex" : "40",
+    "numberOfEntitiesFoundInObject" : 299,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "japanese",
+      "PosTag" : "JJ",
+      "multiply" : 0.147089,
+      "probabilities" : {
+        "P(japanese|object)" : 0.896321,
+        "P(object|japanese)" : 0.164103
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "japan",
+      "PosTag" : "NN",
+      "multiply" : 0.033413,
+      "probabilities" : {
+        "P(japan|object)" : 0.280936,
+        "P(object|japan)" : 0.118936
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "voice",
+      "PosTag" : "NN",
+      "multiply" : 0.024928,
+      "probabilities" : {
+        "P(voice|object)" : 0.240803,
+        "P(object|voice)" : 0.10352
+      }
+    } ]
+  }, {
+    "object" : "United_States",
+    "objectIndex" : "41",
+    "numberOfEntitiesFoundInObject" : 2509,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "states",
+      "PosTag" : "NN",
+      "multiply" : 0.014514,
+      "probabilities" : {
+        "P(states|object)" : 0.131527,
+        "P(object|states)" : 0.110351
+      }
+    }, {
+      "posTag" : "NN",
+      "Word" : "united",
+      "PosTag" : "NN",
+      "multiply" : 0.012253,
+      "probabilities" : {
+        "P(united|object)" : 0.132324,
+        "P(object|united)" : 0.092602
+      }
+    } ]
+  }, {
+    "object" : "Vienna",
+    "objectIndex" : "42",
+    "numberOfEntitiesFoundInObject" : 371,
+    "detail" : [ {
+      "posTag" : "JJ",
+      "Word" : "austrian",
+      "PosTag" : "JJ",
+      "multiply" : 0.245825,
+      "probabilities" : {
+        "P(austrian|object)" : 0.722372,
+        "P(object|austrian)" : 0.340302
+      }
+    } ]
+  }, {
+    "object" : "Washington,_D.C.",
+    "objectIndex" : "43",
+    "numberOfEntitiesFoundInObject" : 214,
+    "detail" : [ {
+      "posTag" : "NN",
+      "Word" : "washington",
+      "PosTag" : "NN",
+      "multiply" : 0.025312,
+      "probabilities" : {
+        "P(washington|object)" : 0.28972,
+        "P(object|washington)" : 0.087367
+      }
+    } ]
+  } ]
+}

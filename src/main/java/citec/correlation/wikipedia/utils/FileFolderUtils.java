@@ -562,6 +562,13 @@ public class FileFolderUtils implements TextAnalyzer{
         });
         return entityList;
     }
+     
+      public static LinkedHashMap<String, List<String>>  readInterestingFromJsonFile(File file) throws IOException, Exception {
+        ObjectMapper mapper = new ObjectMapper();
+        LinkedHashMap<String, List<String>> entityList = mapper.readValue(file, new TypeReference<List<String>>() {
+        });
+        return entityList;
+    }
 
     public static void writeDictionaryToJsonFile(Map<String, Map<Integer, String>> units, String fileName) throws Exception {
      if (units.isEmpty()) {

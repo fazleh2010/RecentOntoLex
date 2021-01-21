@@ -1,0 +1,915 @@
+{
+  "academic-JJ" : [ {
+    "object" : "Uganda",
+    "multiply" : 0.104499,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(academic|object)" : 0.230769,
+      "P(object|academic)" : 0.45283
+    }
+  } ],
+  "actor-NN" : [ {
+    "object" : "India",
+    "multiply" : 0.010457,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(actor|object)" : 0.224083,
+      "P(object|actor)" : 0.046668
+    }
+  } ],
+  "administrator-NN" : [ {
+    "object" : "Uganda",
+    "multiply" : 0.171703,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(administrator|object)" : 0.240385,
+      "P(object|administrator)" : 0.714286
+    }
+  } ],
+  "american-JJ" : [ {
+    "object" : "United_States",
+    "multiply" : 0.510549,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(american|object)" : 0.696203,
+      "P(object|american)" : 0.733333
+    }
+  } ],
+  "assembly-NN" : [ {
+    "object" : "Alberta",
+    "multiply" : 0.010341,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(assembly|object)" : 0.398058,
+      "P(object|assembly)" : 0.025978
+    }
+  }, {
+    "object" : "Nova_Scotia",
+    "multiply" : 0.013376,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(assembly|object)" : 0.601942,
+      "P(object|assembly)" : 0.022222
+    }
+  } ],
+  "australian-JJ" : [ {
+    "object" : "Adelaide",
+    "multiply" : 0.031312,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(australian|object)" : 0.877358,
+      "P(object|australian)" : 0.035689
+    }
+  }, {
+    "object" : "Melbourne",
+    "multiply" : 0.086635,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(australian|object)" : 0.848361,
+      "P(object|australian)" : 0.10212
+    }
+  }, {
+    "object" : "New_South_Wales",
+    "multiply" : 0.056844,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(australian|object)" : 0.869565,
+      "P(object|australian)" : 0.065371
+    }
+  }, {
+    "object" : "Perth",
+    "multiply" : 0.029672,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(australian|object)" : 0.902913,
+      "P(object|australian)" : 0.032862
+    }
+  }, {
+    "object" : "Queensland",
+    "multiply" : 0.039945,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(australian|object)" : 0.869565,
+      "P(object|australian)" : 0.045936
+    }
+  }, {
+    "object" : "Sydney",
+    "multiply" : 0.113126,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(australian|object)" : 0.862928,
+      "P(object|australian)" : 0.131095
+    }
+  }, {
+    "object" : "Victoria_(Australia)",
+    "multiply" : 0.038606,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(australian|object)" : 0.895522,
+      "P(object|australian)" : 0.04311
+    }
+  } ],
+  "author-NN" : [ {
+    "object" : "United_States",
+    "multiply" : 0.093081,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(author|object)" : 0.335443,
+      "P(object|author)" : 0.277487
+    }
+  } ],
+  "award-NN" : [ {
+    "object" : "India",
+    "multiply" : 0.043039,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(award|object)" : 0.202899,
+      "P(object|award)" : 0.212121
+    }
+  } ],
+  "book-NN" : [ {
+    "object" : "United_States",
+    "multiply" : 0.05024,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(book|object)" : 0.202532,
+      "P(object|book)" : 0.248062
+    }
+  } ],
+  "british-JJ" : [ {
+    "object" : "England",
+    "multiply" : 0.05089,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(british|object)" : 0.423378,
+      "P(object|british)" : 0.1202
+    }
+  }, {
+    "object" : "London",
+    "multiply" : 0.077381,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(british|object)" : 0.519491,
+      "P(object|british)" : 0.148955
+    }
+  }, {
+    "object" : "United_Kingdom",
+    "multiply" : 0.03169,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(british|object)" : 0.589474,
+      "P(object|british)" : 0.05376
+    }
+  } ],
+  "business-NN" : [ {
+    "object" : "Uganda",
+    "multiply" : 0.042308,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(business|object)" : 0.211538,
+      "P(object|business)" : 0.2
+    }
+  } ],
+  "canada-NN" : [ {
+    "object" : "Alberta",
+    "multiply" : 0.014828,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(canada|object)" : 0.427184,
+      "P(object|canada)" : 0.034711
+    }
+  }, {
+    "object" : "Canada",
+    "multiply" : 0.027398,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(canada|object)" : 0.326733,
+      "P(object|canada)" : 0.083853
+    }
+  }, {
+    "object" : "Montreal",
+    "multiply" : 0.014991,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(canada|object)" : 0.331361,
+      "P(object|canada)" : 0.045242
+    }
+  }, {
+    "object" : "Ontario",
+    "multiply" : 0.036027,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(canada|object)" : 0.373984,
+      "P(object|canada)" : 0.096334
+    }
+  }, {
+    "object" : "Toronto",
+    "multiply" : 0.015452,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(canada|object)" : 0.293478,
+      "P(object|canada)" : 0.052652
+    }
+  } ],
+  "canadian-JJ" : [ {
+    "object" : "Alberta",
+    "multiply" : 0.027005,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(canadian|object)" : 0.718447,
+      "P(object|canadian)" : 0.037588
+    }
+  }, {
+    "object" : "British_Columbia",
+    "multiply" : 0.03386,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(canadian|object)" : 0.851064,
+      "P(object|canadian)" : 0.039785
+    }
+  }, {
+    "object" : "Canada",
+    "multiply" : 0.093466,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(canadian|object)" : 0.653465,
+      "P(object|canadian)" : 0.143031
+    }
+  }, {
+    "object" : "Manitoba",
+    "multiply" : 0.02034,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(canadian|object)" : 0.833333,
+      "P(object|canadian)" : 0.024408
+    }
+  }, {
+    "object" : "Montreal",
+    "multiply" : 0.054382,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(canadian|object)" : 0.792899,
+      "P(object|canadian)" : 0.068587
+    }
+  }, {
+    "object" : "Nova_Scotia",
+    "multiply" : 0.015223,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(canadian|object)" : 0.708738,
+      "P(object|canadian)" : 0.021479
+    }
+  }, {
+    "object" : "Ontario",
+    "multiply" : 0.088148,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(canadian|object)" : 0.743089,
+      "P(object|canadian)" : 0.118623
+    }
+  }, {
+    "object" : "Saskatchewan",
+    "multiply" : 0.024501,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(canadian|object)" : 0.904348,
+      "P(object|canadian)" : 0.027093
+    }
+  }, {
+    "object" : "Toronto",
+    "multiply" : 0.070274,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(canadian|object)" : 0.836957,
+      "P(object|canadian)" : 0.083964
+    }
+  } ],
+  "city-NN" : [ {
+    "object" : "New_York_City",
+    "multiply" : 0.021235,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(city|object)" : 0.274112,
+      "P(object|city)" : 0.077469
+    }
+  } ],
+  "current-JJ" : [ {
+    "object" : "Uganda",
+    "multiply" : 0.114811,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(current|object)" : 0.384615,
+      "P(object|current)" : 0.298507
+    }
+  } ],
+  "district-NN" : [ {
+    "object" : "Uganda",
+    "multiply" : 0.177477,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(district|object)" : 0.317308,
+      "P(object|district)" : 0.559322
+    }
+  } ],
+  "english-JJ" : [ {
+    "object" : "England",
+    "multiply" : 0.051727,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(english|object)" : 0.404134,
+      "P(object|english)" : 0.127995
+    }
+  }, {
+    "object" : "London",
+    "multiply" : 0.044752,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(english|object)" : 0.367542,
+      "P(object|english)" : 0.121761
+    }
+  } ],
+  "film-NN" : [ {
+    "object" : "India",
+    "multiply" : 0.017126,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(film|object)" : 0.326954,
+      "P(object|film)" : 0.052381
+    }
+  } ],
+  "films-NN" : [ {
+    "object" : "India",
+    "multiply" : 0.012376,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(films|object)" : 0.179426,
+      "P(object|films)" : 0.068974
+    }
+  } ],
+  "french-JJ" : [ {
+    "object" : "France",
+    "multiply" : 0.102851,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(french|object)" : 0.836066,
+      "P(object|french)" : 0.123017
+    }
+  }, {
+    "object" : "Paris",
+    "multiply" : 0.14823,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(french|object)" : 0.869811,
+      "P(object|french)" : 0.170417
+    }
+  } ],
+  "german-JJ" : [ {
+    "object" : "Berlin",
+    "multiply" : 0.067844,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(german|object)" : 0.924658,
+      "P(object|german)" : 0.073372
+    }
+  }, {
+    "object" : "Frankfurt",
+    "multiply" : 0.010716,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(german|object)" : 0.854545,
+      "P(object|german)" : 0.01254
+    }
+  }, {
+    "object" : "German_Empire",
+    "multiply" : 0.026444,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(german|object)" : 0.966942,
+      "P(object|german)" : 0.027348
+    }
+  }, {
+    "object" : "Germany",
+    "multiply" : 0.077699,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(german|object)" : 0.88785,
+      "P(object|german)" : 0.087513
+    }
+  }, {
+    "object" : "Hamburg",
+    "multiply" : 0.020955,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(german|object)" : 0.89759,
+      "P(object|german)" : 0.023346
+    }
+  }, {
+    "object" : "Munich",
+    "multiply" : 0.020558,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(german|object)" : 0.906475,
+      "P(object|german)" : 0.022679
+    }
+  } ],
+  "government-NN" : [ {
+    "object" : "India",
+    "multiply" : 0.027555,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(government|object)" : 0.123188,
+      "P(object|government)" : 0.223684
+    }
+  } ],
+  "india-NN" : [ {
+    "object" : "India",
+    "multiply" : 0.441858,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(india|object)" : 0.637681,
+      "P(object|india)" : 0.692913
+    }
+  } ],
+  "indian-JJ" : [ {
+    "object" : "Andhra_Pradesh",
+    "multiply" : 0.031853,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(indian|object)" : 0.770833,
+      "P(object|indian)" : 0.041322
+    }
+  }, {
+    "object" : "India",
+    "multiply" : 0.201262,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(indian|object)" : 0.728868,
+      "P(object|indian)" : 0.27613
+    }
+  }, {
+    "object" : "Kerala",
+    "multiply" : 0.02961,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(indian|object)" : 0.669323,
+      "P(object|indian)" : 0.044239
+    }
+  }, {
+    "object" : "Maharashtra",
+    "multiply" : 0.023521,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(indian|object)" : 0.686275,
+      "P(object|indian)" : 0.034273
+    }
+  }, {
+    "object" : "Mumbai",
+    "multiply" : 0.047462,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(indian|object)" : 0.784173,
+      "P(object|indian)" : 0.060525
+    }
+  }, {
+    "object" : "India",
+    "multiply" : 0.2641,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(indian|object)" : 0.398551,
+      "P(object|indian)" : 0.662651
+    }
+  } ],
+  "italian-JJ" : [ {
+    "object" : "Bologna",
+    "multiply" : 0.022864,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(italian|object)" : 0.933333,
+      "P(object|italian)" : 0.024497
+    }
+  }, {
+    "object" : "Florence",
+    "multiply" : 0.029473,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(italian|object)" : 0.875,
+      "P(object|italian)" : 0.033683
+    }
+  }, {
+    "object" : "Italy",
+    "multiply" : 0.194307,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(italian|object)" : 0.905579,
+      "P(object|italian)" : 0.214567
+    }
+  }, {
+    "object" : "Milan",
+    "multiply" : 0.050378,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(italian|object)" : 0.896226,
+      "P(object|italian)" : 0.056212
+    }
+  }, {
+    "object" : "Naples",
+    "multiply" : 0.039163,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(italian|object)" : 0.890805,
+      "P(object|italian)" : 0.043963
+    }
+  }, {
+    "object" : "Rome",
+    "multiply" : 0.103473,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(italian|object)" : 0.908019,
+      "P(object|italian)" : 0.113955
+    }
+  } ],
+  "japanese-JJ" : [ {
+    "object" : "Japan",
+    "multiply" : 0.23108,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(japanese|object)" : 0.922951,
+      "P(object|japanese)" : 0.25037
+    }
+  }, {
+    "object" : "Tokyo",
+    "multiply" : 0.144773,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(japanese|object)" : 0.919732,
+      "P(object|japanese)" : 0.157407
+    }
+  } ],
+  "language-NN" : [ {
+    "object" : "India",
+    "multiply" : 0.034026,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(language|object)" : 0.130435,
+      "P(object|language)" : 0.26087
+    }
+  } ],
+  "literature-NN" : [ {
+    "object" : "India",
+    "multiply" : 0.043776,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(literature|object)" : 0.152174,
+      "P(object|literature)" : 0.287671
+    }
+  } ],
+  "london-NN" : [ {
+    "object" : "England",
+    "multiply" : 0.014609,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(london|object)" : 0.176051,
+      "P(object|london)" : 0.082983
+    }
+  }, {
+    "object" : "London",
+    "multiply" : 0.055152,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(london|object)" : 0.334129,
+      "P(object|london)" : 0.165063
+    }
+  } ],
+  "many-JJ" : [ {
+    "object" : "Germany",
+    "multiply" : 0.010849,
+    "posTag" : "JJ",
+    "probabilities" : {
+      "P(many|object)" : 0.321495,
+      "P(object|many)" : 0.033745
+    }
+  } ],
+  "member-NN" : [ {
+    "object" : "India",
+    "multiply" : 0.034081,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(member|object)" : 0.195652,
+      "P(object|member)" : 0.174194
+    }
+  }, {
+    "object" : "Uganda",
+    "multiply" : 0.055831,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(member|object)" : 0.288462,
+      "P(object|member)" : 0.193548
+    }
+  } ],
+  "minister-NN" : [ {
+    "object" : "Uganda",
+    "multiply" : 0.132257,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(minister|object)" : 0.259615,
+      "P(object|minister)" : 0.509434
+    }
+  } ],
+  "national-NN" : [ {
+    "object" : "Uganda",
+    "multiply" : 0.038073,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(national|object)" : 0.269231,
+      "P(object|national)" : 0.141414
+    }
+  } ],
+  "new-NN" : [ {
+    "object" : "Columbia_University",
+    "multiply" : 0.014324,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(new|object)" : 0.388298,
+      "P(object|new)" : 0.036889
+    }
+  }, {
+    "object" : "New_York_City",
+    "multiply" : 0.026586,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(new|object)" : 0.471235,
+      "P(object|new)" : 0.056418
+    }
+  }, {
+    "object" : "New_Zealand",
+    "multiply" : 0.016955,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(new|object)" : 0.9375,
+      "P(object|new)" : 0.018086
+    }
+  }, {
+    "object" : "United_States",
+    "multiply" : 0.102082,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(new|object)" : 0.316456,
+      "P(object|new)" : 0.322581
+    }
+  } ],
+  "painter-NN" : [ {
+    "object" : "Antwerp",
+    "multiply" : 0.018891,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(painter|object)" : 0.572368,
+      "P(object|painter)" : 0.033005
+    }
+  } ],
+  "part-NN" : [ {
+    "object" : "Mexico",
+    "multiply" : 0.011608,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(part|object)" : 0.45098,
+      "P(object|part)" : 0.025739
+    }
+  } ],
+  "party-NN" : [ {
+    "object" : "Mexico",
+    "multiply" : 0.027391,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(party|object)" : 0.411765,
+      "P(object|party)" : 0.066521
+    }
+  }, {
+    "object" : "India",
+    "multiply" : 0.045151,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(party|object)" : 0.130435,
+      "P(object|party)" : 0.346154
+    }
+  } ],
+  "poet-NN" : [ {
+    "object" : "India",
+    "multiply" : 0.026331,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(poet|object)" : 0.181159,
+      "P(object|poet)" : 0.145349
+    }
+  } ],
+  "politician-NN" : [ {
+    "object" : "Mexico",
+    "multiply" : 0.036879,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(politician|object)" : 0.696078,
+      "P(object|politician)" : 0.052981
+    }
+  }, {
+    "object" : "Uganda",
+    "multiply" : 0.133056,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(politician|object)" : 0.307692,
+      "P(object|politician)" : 0.432432
+    }
+  } ],
+  "position-NN" : [ {
+    "object" : "Uganda",
+    "multiply" : 0.13392,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(position|object)" : 0.326923,
+      "P(object|position)" : 0.409639
+    }
+  } ],
+  "professor-NN" : [ {
+    "object" : "Harvard_University",
+    "multiply" : 0.010505,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(professor|object)" : 0.167742,
+      "P(object|professor)" : 0.062628
+    }
+  } ],
+  "russian-NN" : [ {
+    "object" : "Moscow",
+    "multiply" : 0.1415,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(russian|object)" : 0.933333,
+      "P(object|russian)" : 0.151607
+    }
+  }, {
+    "object" : "Russia",
+    "multiply" : 0.075713,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(russian|object)" : 0.819572,
+      "P(object|russian)" : 0.092382
+    }
+  }, {
+    "object" : "Russian_SFSR",
+    "multiply" : 0.030085,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(russian|object)" : 0.966387,
+      "P(object|russian)" : 0.031131
+    }
+  }, {
+    "object" : "Saint_Petersburg",
+    "multiply" : 0.07531,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(russian|object)" : 0.904412,
+      "P(object|russian)" : 0.08327
+    }
+  }, {
+    "object" : "Soviet_Union",
+    "multiply" : 0.069213,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(russian|object)" : 0.692308,
+      "P(object|russian)" : 0.099975
+    }
+  } ],
+  "south-NN" : [ {
+    "object" : "New_South_Wales",
+    "multiply" : 0.010615,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(south|object)" : 0.516908,
+      "P(object|south)" : 0.020536
+    }
+  }, {
+    "object" : "South_Korea",
+    "multiply" : 0.093992,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(south|object)" : 0.943327,
+      "P(object|south)" : 0.099639
+    }
+  } ],
+  "state-NN" : [ {
+    "object" : "United_States",
+    "multiply" : 0.02011,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(state|object)" : 0.268633,
+      "P(object|state)" : 0.074861
+    }
+  }, {
+    "object" : "United_States",
+    "multiply" : 0.087523,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(state|object)" : 0.278481,
+      "P(object|state)" : 0.314286
+    }
+  } ],
+  "states-NN" : [ {
+    "object" : "United_States",
+    "multiply" : 0.013084,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(states|object)" : 0.147868,
+      "P(object|states)" : 0.088486
+    }
+  }, {
+    "object" : "United_States",
+    "multiply" : 0.106246,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(states|object)" : 0.202532,
+      "P(object|states)" : 0.52459
+    }
+  } ],
+  "united-NN" : [ {
+    "object" : "United_States",
+    "multiply" : 0.011985,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(united|object)" : 0.149462,
+      "P(object|united)" : 0.080188
+    }
+  }, {
+    "object" : "United_States",
+    "multiply" : 0.099708,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(united|object)" : 0.202532,
+      "P(object|united)" : 0.492308
+    }
+  } ],
+  "university-NN" : [ {
+    "object" : "Harvard_University",
+    "multiply" : 0.011693,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(university|object)" : 0.290323,
+      "P(object|university)" : 0.040276
+    }
+  }, {
+    "object" : "United_States",
+    "multiply" : 0.042786,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(university|object)" : 0.21519,
+      "P(object|university)" : 0.19883
+    }
+  } ],
+  "war-NN" : [ {
+    "object" : "India",
+    "multiply" : 0.058766,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(war|object)" : 0.311594,
+      "P(object|war)" : 0.188596
+    }
+  }, {
+    "object" : "United_States",
+    "multiply" : 0.044415,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(war|object)" : 0.253165,
+      "P(object|war)" : 0.175439
+    }
+  } ],
+  "york-NN" : [ {
+    "object" : "Columbia_University",
+    "multiply" : 0.020112,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(york|object)" : 0.281915,
+      "P(object|york)" : 0.071342
+    }
+  }, {
+    "object" : "Brooklyn",
+    "multiply" : 0.014403,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(york|object)" : 0.365196,
+      "P(object|york)" : 0.03944
+    }
+  }, {
+    "object" : "New_York_City",
+    "multiply" : 0.060324,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(york|object)" : 0.416244,
+      "P(object|york)" : 0.144924
+    }
+  }, {
+    "object" : "United_States",
+    "multiply" : 0.113251,
+    "posTag" : "NN",
+    "probabilities" : {
+      "P(york|object)" : 0.183544,
+      "P(object|york)" : 0.617021
+    }
+  } ]
+}

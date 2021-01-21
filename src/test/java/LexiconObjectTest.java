@@ -37,7 +37,7 @@ import org.junit.Test;
  *
  * @author elahi
  */
-public class ObjectLexiconTest implements PropertyNotation, DirectoryLocation, MenuOptions, TextAnalyzer {
+public class LexiconObjectTest implements PropertyNotation, DirectoryLocation, MenuOptions, TextAnalyzer {
 
     private static String dbo_ClassName = PropertyNotation.dbo_AAClass;
     private static String classDir = FileFolderUtils.getClassDir(dbo_ClassName) + "/";
@@ -48,9 +48,16 @@ public class ObjectLexiconTest implements PropertyNotation, DirectoryLocation, M
     public void LEXICON_CREATION_TEST() throws IOException, Exception {
         experThresold.setInterestLingP();
         for (String interestingResultDir : experThresold.getInterestLingP().keySet()) {
+
             String resultDirVariable = objectDir + RESULT_DIR + "_" + interestingResultDir;
+            if (!resultDirVariable.contains("Cl10_Prop500_Lp20")) {
+                continue;
+            }
+            
             String lexiconDir = objectDir + interestingResultDir;
+            FileFolderUtils.createDirectory(lexiconDir);
             Lexicon lexicon = new Lexicon(qald9Dir);
+            System.out.println("lexiconDir: "+lexiconDir);
             lexicon.prepareObjectLexicon(resultDirVariable, lexiconDir, FileFolderUtils.OBJECT, new HashSet<String>(TextAnalyzer.POSTAGS));
         }
         System.out.println("Lexicon Creation!!!");
@@ -60,24 +67,44 @@ public class ObjectLexiconTest implements PropertyNotation, DirectoryLocation, M
     public void MEAN_RECIPROCAL_OBJECT_LEX_TEST() throws IOException, Exception {
         experThresold.setInterestLingP();
         for (String interestingResultDir : experThresold.getInterestLingP().keySet()) {
-            System.out.println(interestingResultDir);
              interestingResultDir=objectDir + interestingResultDir;
             List<String> POSTAGS2 = new ArrayList<String>(Arrays.asList(NOUN,ADJECTIVE));
             /*if(!interestingResultDir.contains("Cl10_Prop500_Lp100"))
                 continue;
             */
-            for (String postag : POSTAGS2) {
-                String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, postag);
-                String conditionalFilename = FileFolderUtils.getLexiconFile(interestingResultDir, OBJECT, postag);
-                String outputFileName = FileFolderUtils.getMeanReciprocalFile(interestingResultDir, OBJECT, postag);
-                Comparision comparision = new Comparision(qald9Dir, qaldFileName, conditionalFilename, outputFileName);
-                comparision.compersionsPattern();    
-                
-                
+           
+            if (interestingResultDir.contains("Cl10_Prop500_Lp20")) {
+             System.out.println(interestingResultDir);
+               for (String postag : POSTAGS2) {
+                    String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, postag);
+                    String conditionalFilename = FileFolderUtils.getLexiconFile(interestingResultDir, OBJECT, postag);
+                    String outputFileName = FileFolderUtils.getMeanReciprocalFile(interestingResultDir, OBJECT, postag);
+                    Comparision comparision = new Comparision(qald9Dir, qaldFileName, conditionalFilename, outputFileName);
+                    comparision.compersionsPattern();
+
+                }
             }
+            
 
         }
     }
+    
+    /*
+    @Test
+    public void LEXICON_CREATION_TEST() throws IOException, Exception {
+        experThresold.setInterestLingP();
+        for (String interestingResultDir : experThresold.getInterestLingP().keySet()) {
+            String resultDirVariable = objectDir + RESULT_DIR + "_" + interestingResultDir;
+            String lexiconDir = objectDir + interestingResultDir;
+            if (resultDirVariable.contains("Cl10_Prop500_Lp20")) {
+                Lexicon lexicon = new Lexicon(qald9Dir);
+                lexicon.prepareObjectLexicon(resultDirVariable, lexiconDir, FileFolderUtils.OBJECT, new HashSet<String>(TextAnalyzer.POSTAGS));
+            }
+
+        }
+        System.out.println("Lexicon Creation!!!");
+    }
+    */
 
 
   

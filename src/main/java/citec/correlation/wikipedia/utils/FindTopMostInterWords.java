@@ -46,31 +46,57 @@ public class FindTopMostInterWords {
         return selectedWords;
     }
     
-    private static LinkedHashMap<String, File> getEntities(String selectWordDir) throws Exception {
-        LinkedHashMap<String,File> wordHash = new LinkedHashMap<String,File>();
+    public static LinkedHashMap<String, List<String>> getEntities(String selectWordDir) throws Exception {
+        LinkedHashMap<String, List<String>> wordHash = new LinkedHashMap<String, List<String>>();
         List<File> wordFiles = FileFolderUtils.getFiles(selectWordDir, ".json");
-        Integer index=0;
+        Integer index = 0;
         for (File file : wordFiles) {
             String word = file.getName().replace(".json", "");
-            word =format(word);
-            wordHash.put(word, file);
-             List<String> entities=FileFolderUtils.readInterestingEntityEachToJsonFile(file);
-              System.out.println(file.getName()+" size:"+entities.size());
-             index=index+1;
+            word = format(word);
+            List<String> entities = FileFolderUtils.readInterestingEntityEachToJsonFile(file);
+            wordHash.put(word, entities);
+            //System.out.println(index+" "+word + " size:" + entities.size());
+            /*if(index==limit)
+                break;*/
+            index = index + 1;
         }
+
+       
         return wordHash;
     }
+    
+     /*private static  LinkedHashMap<String, List<String>> getEntitiesFromAll(String selectWordDir) throws Exception {
+         File file=new File(selectWordDir);
+         LinkedHashMap<String, List<String>> wordHash=FileFolderUtils.readInterestingFromJsonFile(file);
+         LinkedHashMap<String, List<String>> selectedWordHash=FileFolderUtils.readInterestingFromJsonFile(file);
+         Integer index=0;
+         for (String word : wordHash.keySet()) {
+              List<String> entities=wordHash.get(word);
+              System.out.println(index+" "+word+" size:"+entities.size());
+              selectedWordHash.put(word, entities);
+             index=index+1;
+        }
+         
+        return selectedWordHash;
+    }*/
      
     public static void main(String[] args) throws Exception {
         String selectWordDir = "src/main/resources/dbpedia/AAClass/object/selectedWords_Cl5_Prop100_Lp20/";
         selectWordDir = selectWordDir + "dbo:AAClass_dbo:party";
+        String tableName="dbo:AAClass_dbo:party.json_words.json";
+        //getEntitiesFromAll(selectWordDir+tableName);
+
         // "academy"
-        LinkedHashMap<String, File> wordHash = getEntities(selectWordDir);
-        if (wordHash.containsKey("member")) {
-            File file = wordHash.get("member");
-            List<String> entities=FileFolderUtils.readInterestingEntityEachToJsonFile(file);
-            System.out.println(file.getName()+" size:"+entities.size());
+        LinkedHashMap<String, List<String>> selectedWordEntities = getEntities(selectWordDir);
+        System.out.println(selectedWordEntities.size());
+        
+        if (selectedWordEntities.containsKey("member")) {
+            List<String> entities = selectedWordEntities.get("member");
+            //List<String> entities=FileFolderUtils.readInterestingEntityEachToJsonFile(file);
+            System.out.println("member"+" size:"+entities.size());
         }
+        
+        
     }
      
      /*Set<String> list = new HashSet<String>();

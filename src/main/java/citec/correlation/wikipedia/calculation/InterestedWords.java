@@ -64,9 +64,9 @@ public class InterestedWords implements MenuOptions {
             index = index + 1;
             if(index==limit)
                 break;
-            if (!file.getName().contains("dbo:party")) {
+            /*if (!file.getName().contains("dbo:nationality")) {
                 continue;
-              }
+              }*/
             String property = this.getProperty(file);
             ObjectMapper mapper = new ObjectMapper();
             List<DBpediaEntity> dbpediaEntitys = mapper.readValue(file, new TypeReference<List<DBpediaEntity>>() {
@@ -124,6 +124,9 @@ public class InterestedWords implements MenuOptions {
             for (String word : words) {
                 word = word.toLowerCase().trim();
                 //System.out.println("word:"+word+" pos"+posTagger.get(word));
+                if(word.contains("/")){
+                    continue;
+                }
 
                 if (TextAnalyzer.ENGLISH_STOPWORDS.contains(word)) {
                     continue;
@@ -161,6 +164,7 @@ public class InterestedWords implements MenuOptions {
             FileFolderUtils.stringToFiles(str, sortFile);
             LinkedHashMap<String, List<String>> selectWordsEntities=this.saveEntities(interestingEntitities,property,1000);
             String jsonFile = outputLocation + "/"+className +"_" + property+ "/" ;
+            //String jsonFile =outputLocation + className + "_" + property + FILE_ENTITY_NOTATION;
             FileFolderUtils.writeInterestingEntityEachToJsonFile(selectWordsEntities, jsonFile);
              System.out.println(" property:" + property + " numberOfWord:" + selectWordsEntities.size());
             this.sortFiles.add(sortFile);

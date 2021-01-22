@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.table;
 
-import static citec.correlation.core.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
 import citec.correlation.wikipedia.element.DBpediaEntity;
 import citec.correlation.wikipedia.element.CurlSparqlQuery;
 import citec.correlation.wikipedia.element.DBpediaProperty;

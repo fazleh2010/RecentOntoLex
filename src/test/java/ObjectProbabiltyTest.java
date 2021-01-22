@@ -1,5 +1,5 @@
 
-import citec.correlation.core.analyzer.TextAnalyzer;
+import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import citec.correlation.wikipedia.calculation.InterestedWords;
 import citec.correlation.wikipedia.parameters.LingPattern;
 import citec.correlation.wikipedia.parameters.ProbabilityT;

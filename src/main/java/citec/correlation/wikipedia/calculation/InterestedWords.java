@@ -6,8 +6,8 @@
 package citec.correlation.wikipedia.calculation;
 
 import citec.correlation.wikipedia.parameters.Parameters;
-import citec.correlation.core.analyzer.Analyzer;
-import citec.correlation.core.analyzer.TextAnalyzer;
+import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import citec.correlation.wikipedia.element.DBpediaEntity;
 import citec.correlation.wikipedia.parameters.LingPattern;
 import citec.correlation.wikipedia.parameters.MenuOptions;

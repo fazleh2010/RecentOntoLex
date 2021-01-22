@@ -5,9 +5,9 @@
  */
 package citec.correlation.wikipedia.linking;
 
-import citec.correlation.core.analyzer.Analyzer;
-import citec.correlation.core.analyzer.LemmaAnalyzer;
-import static citec.correlation.core.analyzer.TextAnalyzer.POS_TAGGER_TEXT;
+import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.LemmaAnalyzer;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_TEXT;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
 import java.util.ArrayList;
 import java.util.Collection;

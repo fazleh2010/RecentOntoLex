@@ -5,8 +5,8 @@
  */
 package citec.correlation.wikipedia.calculation;
 
-import citec.correlation.core.analyzer.Analyzer;
-import citec.correlation.core.analyzer.LemmaAnalyzer;
+import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.LemmaAnalyzer;
 import citec.correlation.wikipedia.element.DBpediaEntityPattern;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
 import citec.correlation.wikipedia.utils.SortUtils;

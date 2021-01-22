@@ -1,6 +1,6 @@
 package citec.correlation.wikipedia.utils;
 
-import citec.correlation.core.analyzer.TextAnalyzer;
+import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;

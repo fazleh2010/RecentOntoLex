@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.dic.qald;
 
-import citec.correlation.core.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.Analyzer;
 import citec.correlation.wikipedia.dic.qald.DataUnit;
 import citec.correlation.wikipedia.dic.qald.JsonReader;
 import citec.correlation.wikipedia.dic.qald.Question;
@@ -23,7 +23,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
-import static citec.correlation.core.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
 
 /**
  *

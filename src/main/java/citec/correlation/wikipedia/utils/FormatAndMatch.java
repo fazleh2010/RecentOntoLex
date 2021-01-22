@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.utils;
 
-import static citec.correlation.core.analyzer.TextAnalyzer.PRONOUNS;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.PRONOUNS;
 import static citec.correlation.wikipedia.linking.EntityAnnotation.SUBJECT;
 import citec.correlation.wikipedia.linking.EntityPatternsOfAbstract;
 import java.text.DateFormat;

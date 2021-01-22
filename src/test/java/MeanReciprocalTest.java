@@ -1,10 +1,10 @@
 
-import citec.correlation.core.analyzer.TextAnalyzer;
-import static citec.correlation.core.analyzer.TextAnalyzer.ADJECTIVE;
-import static citec.correlation.core.analyzer.TextAnalyzer.GOLD;
-import static citec.correlation.core.analyzer.TextAnalyzer.NOUN;
-import static citec.correlation.core.analyzer.TextAnalyzer.OBJECT;
-import static citec.correlation.core.analyzer.TextAnalyzer.POSTAGS;
+import citec.correlation.wikipedia.analyzer.TextAnalyzer;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.ADJECTIVE;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.GOLD;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.NOUN;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POSTAGS;
 import citec.correlation.wikipedia.calculation.PatternCalculation;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import citec.correlation.wikipedia.element.PropertyNotation;

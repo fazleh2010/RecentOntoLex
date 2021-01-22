@@ -5,8 +5,8 @@
  */
 package citec.correlation.wikipedia.element;
 
-import citec.correlation.core.analyzer.Analyzer;
-import static citec.correlation.core.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
+import citec.correlation.wikipedia.analyzer.Analyzer;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
 import citec.correlation.wikipedia.utils.StringMatcherUtil;
 import citec.correlation.wikipedia.element.DBpediaProperty;
 import com.fasterxml.jackson.annotation.JsonIgnore;

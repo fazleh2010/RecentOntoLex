@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.parameters;
 
-import citec.correlation.core.analyzer.LemmaAnalyzer;
+import citec.correlation.wikipedia.analyzer.LemmaAnalyzer;
 
 /**
  *

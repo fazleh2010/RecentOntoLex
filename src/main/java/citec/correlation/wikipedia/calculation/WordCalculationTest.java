@@ -8,7 +8,7 @@ package citec.correlation.wikipedia.calculation;
 import citec.correlation.wikipedia.parameters.ProbabilityT;
 import citec.correlation.wikipedia.results.WordResult;
 import citec.correlation.wikipedia.results.ObjectWordResults;
-import citec.correlation.core.analyzer.TextAnalyzer;
+import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.element.DBpediaEntity;
 import citec.correlation.wikipedia.results.ResultTriple;

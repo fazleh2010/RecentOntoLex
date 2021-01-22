@@ -1,8 +1,8 @@
 
-import citec.correlation.core.analyzer.TextAnalyzer;
-import static citec.correlation.core.analyzer.TextAnalyzer.ADJECTIVE;
-import static citec.correlation.core.analyzer.TextAnalyzer.NOUN;
-import static citec.correlation.core.analyzer.TextAnalyzer.VERB;
+import citec.correlation.wikipedia.analyzer.TextAnalyzer;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.ADJECTIVE;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.NOUN;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.VERB;
 import citec.correlation.wikipedia.calculation.PatternCalculation;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import citec.correlation.wikipedia.element.PropertyNotation;

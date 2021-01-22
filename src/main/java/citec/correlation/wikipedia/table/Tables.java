@@ -6,7 +6,7 @@
 package citec.correlation.wikipedia.table;
 
 import citec.correlation.wikipedia.element.DBpediaEntity;
-import citec.correlation.core.analyzer.TextAnalyzer;
+import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import citec.correlation.wikipedia.element.DBpediaEntityPattern;
 import citec.correlation.wikipedia.element.DbpediaClass;
 import citec.correlation.wikipedia.element.DBpediaProperty;

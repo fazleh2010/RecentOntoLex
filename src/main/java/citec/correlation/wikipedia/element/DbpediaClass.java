@@ -5,7 +5,6 @@
  */
 package citec.correlation.wikipedia.element;
 
-import static citec.correlation.core.Constants.UNICODE;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.StringMatcherUtil;
 import com.fasterxml.jackson.core.JsonParser;
@@ -41,7 +40,7 @@ public class DbpediaClass {
         InputStream inputStream = new FileInputStream(democraticJSON);
         ObjectMapper mapper = new ObjectMapper();
         mapper.configure(JsonParser.Feature.ALLOW_UNQUOTED_FIELD_NAMES, true);
-        String jsonString = IOUtils.toString(inputStream, UNICODE);
+        String jsonString = IOUtils.toString(inputStream, "UTF-8");
         ArrayList<LinkedHashMap<String, Object>> list = mapper.readValue(jsonString, ArrayList.class);
 
         for (LinkedHashMap<String, Object> democraticDataUnit : list) {

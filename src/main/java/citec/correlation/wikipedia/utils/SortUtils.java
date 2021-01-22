@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.utils;
 
-import static citec.correlation.core.analyzer.TextAnalyzer.ENGLISH_STOPWORDS;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.ENGLISH_STOPWORDS;
 import citec.correlation.wikipedia.main.TableMain;
 import java.io.IOException;
 import java.math.BigDecimal;

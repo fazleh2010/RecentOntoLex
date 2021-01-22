@@ -1,5 +1,5 @@
 
-import citec.correlation.core.analyzer.TextAnalyzer;
+import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import citec.correlation.wikipedia.calculation.PatternCalculation;
 import citec.correlation.wikipedia.element.DbpediaClass;
 import citec.correlation.wikipedia.element.PropertyNotation;

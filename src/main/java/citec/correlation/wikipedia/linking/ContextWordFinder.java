@@ -1,6 +1,6 @@
 package citec.correlation.wikipedia.linking;
 
-import static citec.correlation.core.analyzer.TextAnalyzer.ENGLISH_SELECTED_STOPWORDS;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.ENGLISH_SELECTED_STOPWORDS;
 import static citec.correlation.wikipedia.linking.EntityAnnotation.SUBJECT;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
 import citec.correlation.wikipedia.utils.NLPTools;

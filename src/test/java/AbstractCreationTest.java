@@ -1,5 +1,5 @@
 
-import citec.correlation.core.analyzer.TextAnalyzer;
+import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import citec.correlation.wikipedia.calculation.PatternCalculation;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import citec.correlation.wikipedia.dic.qald.Qald;

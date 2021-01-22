@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.parameters;
 
-import citec.correlation.core.analyzer.TextAnalyzer;
+import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import citec.correlation.wikipedia.utils.NLPTools;
 import java.util.Arrays;
 import java.util.HashSet;

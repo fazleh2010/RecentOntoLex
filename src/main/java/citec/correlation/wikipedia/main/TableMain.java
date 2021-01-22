@@ -7,13 +7,12 @@ package citec.correlation.wikipedia.main;
 
 import citec.correlation.wikipedia.parameters.DirectoryLocation;
 import citec.correlation.wikipedia.parameters.MenuOptions;
-import citec.correlation.core.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.Analyzer;
 import citec.correlation.wikipedia.calculation.WordCalculation;
 import citec.correlation.wikipedia.element.DbpediaClass;
-import citec.correlation.core.analyzer.TextAnalyzer;
+import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import citec.correlation.wikipedia.element.DBpediaEntity;
 import citec.correlation.wikipedia.table.Tables;
-import citec.correlation.core.yaml.ParseYaml;
 import citec.correlation.wikipedia.element.DBpediaEntityPattern;
 import citec.correlation.wikipedia.element.DBpediaProperty;
 import citec.correlation.wikipedia.calculation.InterestedWords;
@@ -207,46 +206,6 @@ public class TableMain implements PropertyNotation,DirectoryLocation,MenuOptions
 
     }
     
-    private static void calculatePatternsProbability(String inputFile, String dbo_ClassName, String classDir) throws Exception {
-       
-    }
-
-    private Map<String, Boolean> checkWordPresence(String democraticWordFile) throws IOException {
-        ParseYaml parseYaml = new ParseYaml();
-        return parseYaml.yamlDemocratic(democraticWordFile);
-    }
-
-    /*private Map<String, DBpediaEntity> getEntityTable(Map<String, List<String>> propertyEntities, Map<String, Boolean> entityWordPresence) {
-        Map<String, DBpediaEntity> entityTable = new TreeMap<String, DBpediaEntity>();
-        for (String propertyString : propertyEntities.keySet()) {
-            List<String> entities = propertyEntities.get(propertyString);
-            Property property = new Property(propertyString);
-            for (String entity : entities) {
-                Boolean wordFound = false;
-                if (entityWordPresence.containsKey(entity)) {
-                    wordFound = entityWordPresence.get(entity);
-                }
-                Map<String, List<String>> properties = new HashMap<String, List<String>>();
-                if (entityTable.containsKey(entity)) {
-                    DBpediaEntity dbpediaEntity = entityTable.get(entity);
-                    properties = dbpediaEntity.getProperties();
-                    //old codes.........
-                    //properties.put(property.getPredicate(), property.getObject());
-                    properties.put(property.getPredicate(), property.getObjectList());
-                    dbpediaEntity.setProperties(properties);
-                    entityTable.put(entity, dbpediaEntity);
-
-                } else {
-                    // old codes.............
-                    //properties.put(property.getPredicate(), property.getObject());
-                    properties.put(property.getPredicate(), property.getObjectList());
-                    DBpediaEntity dbpediaEntity = new DBpediaEntity(entity, wordFound, properties);
-                    entityTable.put(entity, dbpediaEntity);
-                }
-            }
-        }
-        return entityTable;
-    }*/
     private void createTable(Map<String, List<DBpediaEntity>> propertyEntities) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
@@ -257,31 +216,7 @@ public class TableMain implements PropertyNotation,DirectoryLocation,MenuOptions
         }
     }
 
-    /*private Map<String,EntityTable>  writingTable(DbpediaClass dbpediaClass, Set<String> checkProperties) throws Exception {
-        Map<String,EntityTable> entityTables = new HashMap<String,EntityTable>();
-        for (String propertyString : dbpediaClass.getPropertyEntities().keySet()) {
-            Property property = new Property(propertyString);
-            Set<String> entities = dbpediaClass.getPropertyEntities().get(propertyString);
-            if (checkProperties.contains(property.getPredicate())) {
-                EntityTable entityTable = new EntityTable(dbpediaDir, dbpediaClass.getClassName(), property.getPredicate(), entities, TextAnalyzer.POS_TAGGER_WORDS);
-                entityTables.put(entityTable.getTableName(), entityTable);
-            }
-        }
-        return entityTables;
-    }
-
-    private Map<String, EntityTable> readTable(String fileName, String json) throws IOException, Exception {
-        Map<String, EntityTable> entityTables = new HashMap<String, EntityTable>();
-        File[] list = FileFolderUtils.getFiles(fileName,json);
-        for (File file : list) {
-            ObjectMapper mapper = new ObjectMapper();
-            List<DBpediaEntity> dbpediaEntitys = mapper.readValue(file, new TypeReference<List<DBpediaEntity>>() {
-            });
-            EntityTable entityTable = new EntityTable(file.getName(), dbpediaEntitys);
-            entityTables.put(entityTable.getTableName(), entityTable);
-        }
-        return entityTables;
-    }*/
+  
     private static  void write(String inputJsonFile, String outputDir, DbpediaClass dbpediaClass, Map<String, LinkedHashSet<String>> propertyEntities) {
         Tables tables = new Tables( outputDir);
         try {

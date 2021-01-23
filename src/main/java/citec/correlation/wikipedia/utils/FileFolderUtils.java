@@ -75,6 +75,9 @@ public class FileFolderUtils implements TextAnalyzer{
     private static String anchors = "src/main/resources/dbpedia/anchors/";
      private static String input = "input/";
     private static String achorFileTsv = "anchors_sorted_by_frequency.tsv";
+
+   
+  
     private String inputFile = allPoliticianFile;
   
     //private static Set<String> alphabetSets = Stream.of("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z").collect(Collectors.toCollection(HashSet::new));
@@ -156,13 +159,32 @@ public class FileFolderUtils implements TextAnalyzer{
 
     }
 
-    public static Pair<Boolean, List<File>> getExistingFiles(String fileDir, String category, String extension) {
+    public static Pair<Boolean, List<File>> getSpecificFiles(String fileDir, String category, String extension) {
         List<File> selectedFiles = new ArrayList<File>();
         Pair<Boolean, List<File>> pair = new Pair<Boolean, List<File>>(Boolean.FALSE, new ArrayList<File>());
         try {
             String[] files = new File(fileDir).list();
             for (String fileName : files) {
                 if (fileName.contains(category) && fileName.contains(extension)) {
+                    selectedFiles.add(new File(fileDir + fileName));
+                }
+            }
+
+        } catch (Exception exp) {
+            System.out.println("file not found!!");
+            return new Pair<Boolean, List<File>>(Boolean.FALSE, new ArrayList<File>());
+        }
+
+        return new Pair<Boolean, List<File>>(Boolean.TRUE, selectedFiles);
+    }
+    
+     public static Pair<Boolean, List<File>> getSpecificFiles(String fileDir, String className, String ruleName, String extension) {
+        List<File> selectedFiles = new ArrayList<File>();
+        Pair<Boolean, List<File>> pair = new Pair<Boolean, List<File>>(Boolean.FALSE, new ArrayList<File>());
+        try {
+            String[] files = new File(fileDir).list();
+            for (String fileName : files) {
+                if (fileName.contains(className) && fileName.contains(ruleName) && fileName.contains(extension)) {
                     selectedFiles.add(new File(fileDir + fileName));
                 }
             }

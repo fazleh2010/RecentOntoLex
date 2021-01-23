@@ -331,7 +331,7 @@ public class Tables implements PropertyNotation,PatternThresold{
 
     private List<File> getFiles(String entityTableDir, String fileName, String json) throws Exception {
         List<File> list = new ArrayList<File>();
-        Pair<Boolean, List<File>> pair = FileFolderUtils.getExistingFiles(entityTableDir, fileName, ".json");
+        Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(entityTableDir, fileName, ".json");
         if (!pair.getValue0()) {
             throw new Exception("No property files to process!!");
         } else {

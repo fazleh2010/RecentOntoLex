@@ -176,7 +176,7 @@ public class Lexicon {
         List<File> files=new ArrayList<File>();
         Map<String, List<WordObjectResults>> wordObjectResults = new TreeMap<String, List<WordObjectResults>>();
 
-        Pair<Boolean, List<File>> pair = FileFolderUtils.getExistingFiles(resultDir,dboProperty , ".json");
+        Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(resultDir,dboProperty , ".json");
         if(pair.getValue0())
             files=pair.getValue1();
         

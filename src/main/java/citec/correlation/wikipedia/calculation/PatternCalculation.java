@@ -189,7 +189,7 @@ public class PatternCalculation implements PatternThresold{
         //    return null;
         //}
 
-        ResultTriple triplePropertyGivenPattern = new ResultTriple(propertyGivenPatternStr, probPropertyGivenPattern, TRIPPLE_AND_PATTERN_FOUND, PATTERN_FOUND, new Double(TRIPLE_FOUND));
+        ResultTriple triplePropertyGivenPattern = new ResultTriple(propertyGivenPatternStr, probPropertyGivenPattern);
         //pair = new Pair<Triple, Double>(propertyGivenPatternStr, probPropertyGivenPattern);
 
         //} else if (flag == WordResult.PROBABILITY_WORD_GIVEN_OBJECT) {
@@ -198,7 +198,7 @@ public class PatternCalculation implements PatternThresold{
                 return null;
             }*/
         //pair = new Pair<Triple, Double>(patternGivenPropertyStr, probPatternGivenProperty);
-        triplePatternGivenProperty = new ResultTriple(patternGivenPropertyStr, probPatternGivenProperty, TRIPPLE_AND_PATTERN_FOUND, PATTERN_FOUND, TRIPLE_FOUND);
+        triplePatternGivenProperty = new ResultTriple(patternGivenPropertyStr, probPatternGivenProperty);
 
         return new Pair<ResultTriple, ResultTriple>(triplePatternGivenProperty, triplePropertyGivenPattern);
 

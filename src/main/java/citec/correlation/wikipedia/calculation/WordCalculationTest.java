@@ -219,7 +219,7 @@ public class WordCalculationTest implements TextAnalyzer {
         if (probability_word_object < this.probabilityT.getProbabiltyOfwordGivenObjectThresold()) {
             return null;
         }
-        triple = new ResultTriple(probability_word_object_str, probability_word_object, WORD_FOUND, null, OBJECT_AND_WORD_FOUND, null, OBJECT_AND_WORD_FOUND, null, OBJECT_FOUND);
+        triple = new ResultTriple(probability_word_object_str, probability_word_object);
 
         return triple;
 
@@ -276,7 +276,7 @@ public class WordCalculationTest implements TextAnalyzer {
         confidenceKB = (OBJECT_FOUND / transactionNumber);
         confidenceKB_WORD = (OBJECT_AND_WORD_FOUND / transactionNumber);
         lift = (confidenceKB_WORD / (confidenceWord * confidenceKB));*/
-        triple = new ResultTriple(probability_object_word_str, probability_object_word, confidenceWord, confidenceKB, confidenceKB_WORD, lift, OBJECT_AND_WORD_FOUND, WORD_FOUND, null);
+        triple = new ResultTriple(probability_object_word_str, probability_object_word);
 
         return triple;
 

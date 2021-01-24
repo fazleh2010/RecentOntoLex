@@ -33,7 +33,7 @@ public class WordResult implements Comparator<WordResult> {
     @JsonProperty("PosTag")
     public String PosTag = null;
     @JsonProperty("multiply")
-    public Double multipleValue = null;
+    public Double probabilityValue = null;
     @JsonProperty("probabilities")
     private LinkedHashMap<String, Double> probabilities = new LinkedHashMap<String, Double>();
 
@@ -60,12 +60,22 @@ public class WordResult implements Comparator<WordResult> {
         this.probabilities.put(word.getProbability_Str(), this.format(word.getProbability_value()));
         this.probabilities.put(object.getProbability_Str(), this.format(object.getProbability_value()));
         this.multiple = this.format(object.getProbability_value() * word.getProbability_value());        
-        this.multipleValue = Double.parseDouble(String.format("%.12f", multiple));
-        if(object.getSupportWord()!=null)
-          this.setMoreParameters(word,object);
+        this.probabilityValue = Double.parseDouble(String.format("%.12f", multiple));
+        /*if(object.getSupportWord()!=null)
+          this.setMoreParameters(word,object);*/
     }
     
-    private void setMoreParameters(ResultTriple word,ResultTriple object) {
+     public WordResult(ResultTriple word, String wordString, String partOfSfSpeech) throws IOException {
+        this.word = wordString ;
+        this.PosTag=partOfSfSpeech;
+        this.multiple = word.getProbability_value();        
+        this.probabilityValue = Double.parseDouble(String.format("%.12f", multiple));
+        /*if(object.getSupportWord()!=null)
+          this.setMoreParameters(word,object);*/
+    }
+
+    
+    /*private void setMoreParameters(ResultTriple word,ResultTriple object) {
         this.confidenceWord = this.format(object.getSupportWord());
         this.confidenceObject = this.format(object.getSupportKB());
         this.confidenceObjectAndKB = this.format(object.getKBAndWORD());
@@ -74,7 +84,7 @@ public class WordResult implements Comparator<WordResult> {
         lift=this.format(lift);
         this.lift= Double.parseDouble(String.format("%.12f", lift));
         
-    }
+    }*/
 
     public Map<String, Double> getProbabilities() {
         return probabilities;
@@ -107,7 +117,7 @@ public class WordResult implements Comparator<WordResult> {
     }
 
     public Double getMultipleValue() {
-        return multipleValue;
+        return probabilityValue;
     }
 
     public Double getConfidenceWord() {

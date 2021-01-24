@@ -6,6 +6,7 @@
 package citec.correlation.wikipedia.dic.lexicon;
 
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
+import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
@@ -26,9 +27,60 @@ import org.javatuples.Pair;
  * @author elahi
  */
 public class Lexicon {
-    private String lexiconDirectory=null;
+   
+    private String lexiconDirectory = null;
+    private String fileName = null;
+    private  Map<String, List<LexiconUnit>> lexicon = new TreeMap<String, List<LexiconUnit>>();
+   
+
     public Lexicon(String outputDir) throws IOException {
-        this.lexiconDirectory=outputDir;
+        this.lexiconDirectory = outputDir;
+    }
+    
+    public void preparePropertyLexicon(String fileName,String associationType, Map<String, List<LineInfo>> lineLexicon) throws IOException {
+        this.fileName = fileName;
+        for (String word : lineLexicon.keySet()) {
+            String postagOfWord = null;
+            LinkedHashMap<Integer, List<String>> kbList = new LinkedHashMap<Integer, List<String>>();
+            Integer index = 0;
+            /*System.out.println("word:"+word);
+            System.out.println("postagOfWord:"+postagOfWord);
+            System.out.println("associationType:"+associationType);*/
+            for (LineInfo lineInfo : lineLexicon.get(word)) {
+                postagOfWord = lineInfo.getPartOfSpeech();
+                List<String> pairs = new ArrayList<String>();
+                pairs.add("pair=" + lineInfo.getObject());
+                String value=lineInfo.getProbabilityValue(associationType).toString();
+                //System.out.println("pair="+lineInfo.getObject());
+                //System.out.println("associationType:"+associationType+" "+value);
+                //pairs.add("pair=" + lineInfo.getPredicate() + "_" + lineInfo.getObject());
+                pairs.add(associationType + "=" + value);
+                kbList.put(index, pairs);
+                index = index + 1;
+            }
+            LexiconUnit LexiconUnit = new LexiconUnit(word, postagOfWord, kbList);
+            lexicon = this.setPartsOfSpeech(postagOfWord, LexiconUnit, lexicon);
+        }
+
+        for (String postag : lexicon.keySet()) {
+            System.out.println("postag:"+postag);
+            List<LexiconUnit> lexiconUnts = lexicon.get(postag);
+            System.out.println("fileName:"+fileName);
+            //FileFolderUtils.createDirectory(this.lexiconDirectory);
+            ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
+            mapper.writeValue(Paths.get(fileName).toFile(), lexiconUnts);
+        }
+
+    }
+
+    private Map<String, List<LexiconUnit>> setPartsOfSpeech(String postagOfWord, LexiconUnit LexiconUnit, Map<String, List<LexiconUnit>> lexicon) {
+        List<LexiconUnit> temp = new ArrayList<LexiconUnit>();
+        if (lexicon.containsKey(postagOfWord)) {
+            temp = lexicon.get(postagOfWord);
+        }
+        temp.add(LexiconUnit);
+        lexicon.put(postagOfWord, temp);
+        return lexicon;
     }
 
     /*public void prepareObjectLexicon(String resultDir,String dboProperty, Set<String> posTags) throws IOException {
@@ -89,6 +141,7 @@ public class Lexicon {
       
     }
     
+   
     
       private Map<String, List<WordObjectResults>> entitiesSort(Map<String, List<WordObjectResults>> wordEntities, String posTag) {
         Map<String, List<WordObjectResults>> posEntitieInfos = new TreeMap<String, List<WordObjectResults>>();
@@ -186,6 +239,7 @@ public class Lexicon {
         return wordObjectResults;
     }
 
-   
-    
+  
+
+  
 }

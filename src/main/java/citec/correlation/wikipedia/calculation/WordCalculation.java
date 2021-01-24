@@ -270,7 +270,7 @@ public class WordCalculation implements TextAnalyzer {
             Double confidenceKB_WORD = (OBJECT_AND_WORD_FOUND / transactionNumber);
             Double lift = (confidenceKB_WORD / (confidenceWord * confidenceKB));
 
-            triple = new ResultTriple(probability_object_word_str, probability_object_word, confidenceWord, confidenceKB, confidenceKB_WORD, lift, OBJECT_AND_WORD_FOUND, WORD_FOUND, null);
+            triple = new ResultTriple(probability_object_word_str, probability_object_word);
             //pair = new Pair<Triple, Double>(probability_object_word_str, probability_object_word);
 
         } else if (flag == WordResult.PROBABILITY_WORD_GIVEN_OBJECT) {
@@ -279,7 +279,7 @@ public class WordCalculation implements TextAnalyzer {
                 return null;
             }
             //pair = new Pair<Triple, Double>(probability_word_object_str, probability_word_object);
-            triple = new ResultTriple(probability_word_object_str, probability_word_object, WORD_FOUND, null, OBJECT_AND_WORD_FOUND, null, OBJECT_AND_WORD_FOUND, null, OBJECT_FOUND);
+            triple = new ResultTriple(probability_word_object_str, probability_word_object);
         }
 
         return triple;

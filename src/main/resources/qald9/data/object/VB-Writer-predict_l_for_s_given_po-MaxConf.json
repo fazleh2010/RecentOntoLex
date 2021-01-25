@@ -1,0 +1,134 @@
+[ {
+  "id" : 14,
+  "pattern" : "awarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Norway", "MaxConf=1.0", "triple=e_dbo:country dbr:Norway", "class=Writer" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "best known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
+    "1" : [ "pair=dbr:Young_adult_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Young_adult_fiction", "class=Writer" ],
+    "2" : [ "pair=dbr:Horror_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Horror_fiction", "class=Writer" ],
+    "3" : [ "pair=dbr:Children's_literature", "MaxConf=1.0", "triple=e_dbo:genre dbr:Children's_literature", "class=Writer" ],
+    "4" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "5" : [ "pair=dbr:Poetry", "MaxConf=1.0", "triple=e_dbo:genre dbr:Poetry", "class=Writer" ],
+    "6" : [ "pair=dbr:Fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fiction", "class=Writer" ],
+    "7" : [ "pair=dbr:Romance_novel", "MaxConf=1.0", "triple=e_dbo:genre dbr:Romance_novel", "class=Writer" ],
+    "8" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
+    "9" : [ "pair=dbr:English_language", "MaxConf=1.0", "triple=e_dbp:language dbr:English_language", "class=Writer" ],
+    "10" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
+    "11" : [ "pair=dbr:Author", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Author", "class=Writer" ],
+    "12" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"\"@en", "class=Writer" ],
+    "13" : [ "pair=dbr:Poet", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Poet", "class=Writer" ],
+    "14" : [ "pair=\"Poet\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Poet\"@en", "class=Writer" ],
+    "15" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "16" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "17" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
+    "18" : [ "pair=dbr:United_Kingdom", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_Kingdom", "class=Writer" ],
+    "19" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
+    "20" : [ "pair=dbr:Canadians", "MaxConf=1.0", "triple=e_dbo:nationality dbr:Canadians", "class=Writer" ],
+    "21" : [ "pair=dbr:Norway", "MaxConf=1.0", "triple=e_dbo:country dbr:Norway", "class=Writer" ],
+    "22" : [ "pair=dbr:Australia", "MaxConf=1.0", "triple=e_dbo:country dbr:Australia", "class=Writer" ],
+    "23" : [ "pair=dbr:India", "MaxConf=1.0", "triple=e_dbo:country dbr:India", "class=Writer" ],
+    "24" : [ "pair=dbr:Canada", "MaxConf=1.0", "triple=e_dbo:country dbr:Canada", "class=Writer" ],
+    "25" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e_dbo:country dbr:France", "class=Writer" ],
+    "26" : [ "pair=dbr:Japan", "MaxConf=1.0", "triple=e_dbo:country dbr:Japan", "class=Writer" ],
+    "27" : [ "pair=dbr:Germany", "MaxConf=1.0", "triple=e_dbo:country dbr:Germany", "class=Writer" ],
+    "28" : [ "pair=\"Poetry\"@en", "MaxConf=1.0", "triple=e_dbp:genre \"Poetry\"@en", "class=Writer" ],
+    "29" : [ "pair=dbr:New_York_City", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:New_York_City", "class=Writer" ],
+    "30" : [ "pair=dbr:London", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:London", "class=Writer" ],
+    "31" : [ "pair=\"United States\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"United States\"@en", "class=Writer" ],
+    "32" : [ "pair=\"Canadian\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"Canadian\"@en", "class=Writer" ],
+    "33" : [ "pair=\"Norwegian\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"Norwegian\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "born\u001Cin",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Norway", "MaxConf=1.0", "triple=e_dbo:country dbr:Norway", "class=Writer" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "including",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
+    "1" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "2" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
+    "3" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
+    "4" : [ "pair=dbr:Author", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Author", "class=Writer" ],
+    "5" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "6" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "7" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
+    "8" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "made",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Norway", "MaxConf=1.0", "triple=e_dbo:country dbr:Norway", "class=Writer" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "1" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
+    "2" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
+    "3" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "4" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "5" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
+    "6" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
+    "7" : [ "pair=dbr:Canada", "MaxConf=1.0", "triple=e_dbo:country dbr:Canada", "class=Writer" ],
+    "8" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "won",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "1" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "writing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "wrote",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+  }
+} ]

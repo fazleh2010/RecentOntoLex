@@ -1,0 +1,173 @@
+[ {
+  "id" : 24,
+  "pattern" : "austrian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.975", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "census-designated",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.982", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "central",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.982", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "east",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.98", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 97,
+  "pattern" : "eastern",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.97", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 104,
+  "pattern" : "former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.979", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ],
+    "1" : [ "pair=dbr:France", "IR=0.972", "triple=e_dbo:country dbr:France", "class=Settlement" ],
+    "2" : [ "pair=dbr:Communes_of_France", "IR=0.97", "triple=e_dbp:communeStatus dbr:Communes_of_France", "class=Settlement" ]
+  }
+}, {
+  "id" : 113,
+  "pattern" : "historical",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.98", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 116,
+  "pattern" : "important",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.979", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 122,
+  "pattern" : "indian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.981", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 138,
+  "pattern" : "largest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.98", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ],
+    "1" : [ "pair=\"auto\"@en", "IR=0.968", "triple=e_dbp:populationDensityKm \"auto\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 140,
+  "pattern" : "local",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.983", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 147,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.983", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ],
+    "1" : [ "pair=dbr:France", "IR=0.972", "triple=e_dbo:country dbr:France", "class=Settlement" ]
+  }
+}, {
+  "id" : 148,
+  "pattern" : "located\u001Cin",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.974", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 149,
+  "pattern" : "located\u001Cin\u001Cthe",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.982", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 150,
+  "pattern" : "located in\u001Cthe",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.976", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 161,
+  "pattern" : "main",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.98", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 179,
+  "pattern" : "northeastern",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.981", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 180,
+  "pattern" : "northern",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.98", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 230,
+  "pattern" : "regional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.975", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 258,
+  "pattern" : "selo the\u001Cadministrative",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.974", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 271,
+  "pattern" : "slovene",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.982", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 292,
+  "pattern" : "southeastern",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.977", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 293,
+  "pattern" : "southern",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.982", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+}, {
+  "id" : 322,
+  "pattern" : "western",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Country\"@en", "IR=0.973", "triple=e_dbp:subdivisionType \"Country\"@en", "class=Settlement" ]
+  }
+} ]

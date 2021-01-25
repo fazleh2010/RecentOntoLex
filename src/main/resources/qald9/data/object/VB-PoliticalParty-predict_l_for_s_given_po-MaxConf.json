@@ -1,0 +1,57 @@
+[ {
+  "id" : 19,
+  "pattern" : "formed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Red\"@en", "MaxConf=1.0", "triple=e_dbo:colourName \"Red\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=\"red\"@en", "MaxConf=1.0", "triple=e_dbp:colorcode \"red\"@en", "class=PoliticalParty" ],
+    "2" : [ "pair=\"Italy\"@en", "MaxConf=1.0", "triple=e_dbp:country \"Italy\"@en", "class=PoliticalParty" ],
+    "3" : [ "pair=\"Spain\"@en", "MaxConf=1.0", "triple=e_dbp:country \"Spain\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "founded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leader1Title \"President\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=\"Leader\"@en", "MaxConf=1.0", "triple=e_dbp:leader1Title \"Leader\"@en", "class=PoliticalParty" ],
+    "2" : [ "pair=\"Green\"@en", "MaxConf=1.0", "triple=e_dbo:colourName \"Green\"@en", "class=PoliticalParty" ],
+    "3" : [ "pair=\"Blue\"@en", "MaxConf=1.0", "triple=e_dbo:colourName \"Blue\"@en", "class=PoliticalParty" ],
+    "4" : [ "pair=\"Red\"@en", "MaxConf=1.0", "triple=e_dbo:colourName \"Red\"@en", "class=PoliticalParty" ],
+    "5" : [ "pair=\"black\"@en", "MaxConf=1.0", "triple=e_dbp:colorcode \"black\"@en", "class=PoliticalParty" ],
+    "6" : [ "pair=\"#FF0000\"@en", "MaxConf=1.0", "triple=e_dbp:colorcode \"#FF0000\"@en", "class=PoliticalParty" ],
+    "7" : [ "pair=\"red\"@en", "MaxConf=1.0", "triple=e_dbp:colorcode \"red\"@en", "class=PoliticalParty" ],
+    "8" : [ "pair=\"Italy\"@en", "MaxConf=1.0", "triple=e_dbp:country \"Italy\"@en", "class=PoliticalParty" ],
+    "9" : [ "pair=\"Spain\"@en", "MaxConf=1.0", "triple=e_dbp:country \"Spain\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Red\"@en", "MaxConf=1.0", "triple=e_dbo:colourName \"Red\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "led",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Red\"@en", "MaxConf=1.0", "triple=e_dbo:colourName \"Red\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=\"Italy\"@en", "MaxConf=1.0", "triple=e_dbp:country \"Italy\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "left",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Red\"@en", "MaxConf=1.0", "triple=e_dbo:colourName \"Red\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=\"Spain\"@en", "MaxConf=1.0", "triple=e_dbp:country \"Spain\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "romanized",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Iran\"@en", "MaxConf=1.0", "triple=e_dbp:country \"Iran\"@en", "class=PoliticalParty" ]
+  }
+} ]

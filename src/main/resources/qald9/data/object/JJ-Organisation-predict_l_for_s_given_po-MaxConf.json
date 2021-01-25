@@ -1,0 +1,156 @@
+[ {
+  "id" : 6,
+  "pattern" : "annual",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "current",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "european",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "human",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Non-governmental_organization", "MaxConf=1.0", "triple=e_dbp:type dbr:Non-governmental_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "independent",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "largest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=\"Bengali\"@en", "MaxConf=1.0", "triple=e_dbp:language \"Bengali\"@en", "class=Organisation" ],
+    "2" : [ "pair=dbr:Dhaka", "MaxConf=1.0", "triple=e_dbp:headquarters dbr:Dhaka", "class=Organisation" ],
+    "3" : [ "pair=dbr:Bangladesh", "MaxConf=1.0", "triple=e_dbp:headquarters dbr:Bangladesh", "class=Organisation" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "located\u001Cin",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Bengali\"@en", "MaxConf=1.0", "triple=e_dbp:language \"Bengali\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Bangladesh", "MaxConf=1.0", "triple=e_dbp:headquarters dbr:Bangladesh", "class=Organisation" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "national",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:English_language", "MaxConf=1.0", "triple=e_dbo:language dbr:English_language", "class=Organisation" ],
+    "1" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "2" : [ "pair=dbr:Non-profit_organization", "MaxConf=1.0", "triple=e_dbo:type dbr:Non-profit_organization", "class=Organisation" ],
+    "3" : [ "pair=dbr:Beauty_pageant", "MaxConf=1.0", "triple=e_dbo:type dbr:Beauty_pageant", "class=Organisation" ],
+    "4" : [ "pair=dbr:Nonprofit_organization", "MaxConf=1.0", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "non-governmental",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Non-governmental_organization", "MaxConf=1.0", "triple=e_dbo:type dbr:Non-governmental_organization", "class=Organisation" ],
+    "2" : [ "pair=dbr:Nonprofit_organization", "MaxConf=1.0", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "non-profit",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Executive Director\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"Executive Director\"@en", "class=Organisation" ],
+    "1" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "2" : [ "pair=\"Worldwide\"@en", "MaxConf=1.0", "triple=e_dbp:areaServed \"Worldwide\"@en", "class=Organisation" ],
+    "3" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Organisation" ],
+    "4" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:headquarters dbr:United_States", "class=Organisation" ],
+    "5" : [ "pair=dbr:Nonprofit_organization", "MaxConf=1.0", "triple=e_dbo:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "6" : [ "pair=dbr:Non-profit_organization", "MaxConf=1.0", "triple=e_dbo:type dbr:Non-profit_organization", "class=Organisation" ],
+    "7" : [ "pair=dbr:Non-governmental_organization", "MaxConf=1.0", "triple=e_dbo:type dbr:Non-governmental_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "nonprofit",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "MaxConf=1.0", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "oldest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "political",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 95,
+  "pattern" : "private",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "professional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Organisation" ],
+    "2" : [ "pair=dbr:Professional_association", "MaxConf=1.0", "triple=e_dbp:type dbr:Professional_association", "class=Organisation" ]
+  }
+}, {
+  "id" : 108,
+  "pattern" : "responsible",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Bengali\"@en", "MaxConf=1.0", "triple=e_dbp:language \"Bengali\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Dhaka", "MaxConf=1.0", "triple=e_dbp:headquarters dbr:Dhaka", "class=Organisation" ],
+    "2" : [ "pair=dbr:Bangladesh", "MaxConf=1.0", "triple=e_dbp:headquarters dbr:Bangladesh", "class=Organisation" ]
+  }
+}, {
+  "id" : 118,
+  "pattern" : "social",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+} ]

@@ -121,6 +121,13 @@
     "0" : [ "pair=dbr:Indian_National_Congress", "Cosine=0.852", "triple=e_dbp:party dbr:Indian_National_Congress", "class=Politician" ]
   }
 }, {
+  "id" : 21,
+  "pattern" : "conservative",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Conservative_Party_(UK", "Cosine=0.954", "triple=e_dbp:party dbr:Conservative_Party_(UK", "class=Politician" ]
+  }
+}, {
   "id" : 22,
   "pattern" : "conservative party",
   "partsOfSpeech" : "NN",
@@ -133,14 +140,6 @@
   "partsOfSpeech" : "NN",
   "index" : {
     "0" : [ "pair=dbr:United_States", "Cosine=0.757", "triple=e_dbp:nationality dbr:United_States", "class=Politician" ]
-  }
-}, {
-  "id" : 25,
-  "pattern" : "german",
-  "partsOfSpeech" : "NN",
-  "index" : {
-    "0" : [ "pair=\"Member of the Bundestag\"@en", "Cosine=1.0", "triple=e_dbp:office \"Member of the Bundestag\"@en", "class=Politician" ],
-    "1" : [ "pair=\"German\"@en", "Cosine=0.978", "triple=e_dbp:nationality \"German\"@en", "class=Politician" ]
   }
 }, {
   "id" : 26,
@@ -208,6 +207,13 @@
   "partsOfSpeech" : "NN",
   "index" : {
     "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Cosine=0.746", "triple=e_dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "indian national",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Indian_National_Congress", "Cosine=0.825", "triple=e_dbp:party dbr:Indian_National_Congress", "class=Politician" ]
   }
 }, {
   "id" : 37,
@@ -403,6 +409,13 @@
     "0" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Cosine=0.771", "triple=e_dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ]
   }
 }, {
+  "id" : 64,
+  "pattern" : "national",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Indian_National_Congress", "Cosine=0.833", "triple=e_dbp:party dbr:Indian_National_Congress", "class=Politician" ]
+  }
+}, {
   "id" : 65,
   "pattern" : "national congress",
   "partsOfSpeech" : "NN",
@@ -422,13 +435,6 @@
   "partsOfSpeech" : "NN",
   "index" : {
     "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Cosine=0.993", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
-  }
-}, {
-  "id" : 68,
-  "pattern" : "pakistani",
-  "partsOfSpeech" : "NN",
-  "index" : {
-    "0" : [ "pair=\"Pakistani\"@en", "Cosine=0.984", "triple=e_dbp:nationality \"Pakistani\"@en", "class=Politician" ]
   }
 }, {
   "id" : 69,
@@ -543,13 +549,6 @@
     "0" : [ "pair=\"Pennsylvania\"@en", "Cosine=0.947", "triple=e_dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
   }
 }, {
-  "id" : 84,
-  "pattern" : "polish",
-  "partsOfSpeech" : "NN",
-  "index" : {
-    "0" : [ "pair=\"Polish\"@en", "Cosine=0.99", "triple=e_dbp:nationality \"Polish\"@en", "class=Politician" ]
-  }
-}, {
   "id" : 85,
   "pattern" : "politician",
   "partsOfSpeech" : "NN",
@@ -660,6 +659,14 @@
   "index" : {
     "0" : [ "pair=\"United States Senator\"@en", "Cosine=0.804", "triple=e_dbp:jr/sr \"United States Senator\"@en", "class=Politician" ],
     "1" : [ "pair=dbr:Harvard_University", "Cosine=0.753", "triple=e_dbo:education dbr:Harvard_University", "class=Politician" ]
+  }
+}, {
+  "id" : 98,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"United States Senator\"@en", "Cosine=0.782", "triple=e_dbp:jr/sr \"United States Senator\"@en", "class=Politician" ],
+    "1" : [ "pair=dbr:Harvard_University", "Cosine=0.768", "triple=e_dbo:education dbr:Harvard_University", "class=Politician" ]
   }
 }, {
   "id" : 99,

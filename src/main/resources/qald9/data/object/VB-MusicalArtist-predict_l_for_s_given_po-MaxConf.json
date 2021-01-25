@@ -1,0 +1,160 @@
+[ {
+  "id" : 19,
+  "pattern" : "best known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Musician", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Musician", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Songwriter", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Songwriter", "class=MusicalArtist" ],
+    "2" : [ "pair=dbr:Record_producer", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Record_producer", "class=MusicalArtist" ],
+    "3" : [ "pair=dbr:Bass_guitar", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Bass_guitar", "class=MusicalArtist" ],
+    "4" : [ "pair=dbr:Singing", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Singing", "class=MusicalArtist" ],
+    "5" : [ "pair=dbr:Vocals", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Vocals", "class=MusicalArtist" ],
+    "6" : [ "pair=dbr:Guitar", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Guitar", "class=MusicalArtist" ],
+    "7" : [ "pair=\"solo_singer\"@en", "MaxConf=1.0", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "better known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Rapping", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Rapping", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Songwriter", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Songwriter", "class=MusicalArtist" ],
+    "2" : [ "pair=dbr:Rapper", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Rapper", "class=MusicalArtist" ],
+    "3" : [ "pair=dbr:Record_producer", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Record_producer", "class=MusicalArtist" ],
+    "4" : [ "pair=\"solo_singer\"@en", "MaxConf=1.0", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "better known by\u001Chis",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Rapping", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Rapping", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Rapper", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Rapper", "class=MusicalArtist" ],
+    "2" : [ "pair=dbr:Record_producer", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Record_producer", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Columbia_Records", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:Columbia_Records", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Warner_Bros._Records", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:Warner_Bros._Records", "class=MusicalArtist" ],
+    "2" : [ "pair=dbr:Virgin_Records", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:Virgin_Records", "class=MusicalArtist" ],
+    "3" : [ "pair=dbr:Epic_Records", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:Epic_Records", "class=MusicalArtist" ],
+    "4" : [ "pair=dbr:EMI", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:EMI", "class=MusicalArtist" ],
+    "5" : [ "pair=dbr:Atlantic_Records", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:Atlantic_Records", "class=MusicalArtist" ],
+    "6" : [ "pair=dbr:Universal_Music_Group", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:Universal_Music_Group", "class=MusicalArtist" ],
+    "7" : [ "pair=dbr:Sony_Music", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:Sony_Music", "class=MusicalArtist" ],
+    "8" : [ "pair=dbr:Capitol_Records", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:Capitol_Records", "class=MusicalArtist" ],
+    "9" : [ "pair=dbr:RCA_Records", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:RCA_Records", "class=MusicalArtist" ],
+    "10" : [ "pair=dbr:Rapping", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Rapping", "class=MusicalArtist" ],
+    "11" : [ "pair=dbr:Musician", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Musician", "class=MusicalArtist" ],
+    "12" : [ "pair=dbr:Songwriter", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Songwriter", "class=MusicalArtist" ],
+    "13" : [ "pair=dbr:Rapper", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Rapper", "class=MusicalArtist" ],
+    "14" : [ "pair=dbr:Composer", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Composer", "class=MusicalArtist" ],
+    "15" : [ "pair=dbr:Record_producer", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Record_producer", "class=MusicalArtist" ],
+    "16" : [ "pair=dbr:Disc_jockey", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Disc_jockey", "class=MusicalArtist" ],
+    "17" : [ "pair=dbr:Singing", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Singing", "class=MusicalArtist" ],
+    "18" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:fixAttempted \"yes\"@en", "class=MusicalArtist" ],
+    "19" : [ "pair=dbr:Norway", "MaxConf=1.0", "triple=e_dbp:origin dbr:Norway", "class=MusicalArtist" ],
+    "20" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:origin dbr:United_States", "class=MusicalArtist" ],
+    "21" : [ "pair=dbr:Bass_guitar", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Bass_guitar", "class=MusicalArtist" ],
+    "22" : [ "pair=dbr:Piano", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Piano", "class=MusicalArtist" ],
+    "23" : [ "pair=dbr:Synthesizer", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Synthesizer", "class=MusicalArtist" ],
+    "24" : [ "pair=dbr:Percussion", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Percussion", "class=MusicalArtist" ],
+    "25" : [ "pair=dbr:Drum_kit", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Drum_kit", "class=MusicalArtist" ],
+    "26" : [ "pair=dbr:Keyboard_instrument", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Keyboard_instrument", "class=MusicalArtist" ],
+    "27" : [ "pair=dbr:Banjo", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Banjo", "class=MusicalArtist" ],
+    "28" : [ "pair=dbr:Violin", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Violin", "class=MusicalArtist" ],
+    "29" : [ "pair=dbr:Vocals", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Vocals", "class=MusicalArtist" ],
+    "30" : [ "pair=dbr:Guitar", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Guitar", "class=MusicalArtist" ],
+    "31" : [ "pair=dbr:Mandolin", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Mandolin", "class=MusicalArtist" ],
+    "32" : [ "pair=dbr:Drums", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Drums", "class=MusicalArtist" ],
+    "33" : [ "pair=\"ja\"@en", "MaxConf=1.0", "triple=e_dbp:nativeNameLang \"ja\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "grew",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "MaxConf=1.0", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "including",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Record_producer", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Record_producer", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Guitar", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Guitar", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Columbia_Records", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:Columbia_Records", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Warner_Bros._Records", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:Warner_Bros._Records", "class=MusicalArtist" ],
+    "2" : [ "pair=dbr:Atlantic_Records", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:Atlantic_Records", "class=MusicalArtist" ],
+    "3" : [ "pair=dbr:Universal_Music_Group", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:Universal_Music_Group", "class=MusicalArtist" ],
+    "4" : [ "pair=dbr:Capitol_Records", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:Capitol_Records", "class=MusicalArtist" ],
+    "5" : [ "pair=dbr:RCA_Records", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:RCA_Records", "class=MusicalArtist" ],
+    "6" : [ "pair=dbr:Rapping", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Rapping", "class=MusicalArtist" ],
+    "7" : [ "pair=dbr:Musician", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Musician", "class=MusicalArtist" ],
+    "8" : [ "pair=dbr:Songwriter", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Songwriter", "class=MusicalArtist" ],
+    "9" : [ "pair=dbr:Rapper", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Rapper", "class=MusicalArtist" ],
+    "10" : [ "pair=dbr:Composer", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Composer", "class=MusicalArtist" ],
+    "11" : [ "pair=dbr:Record_producer", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Record_producer", "class=MusicalArtist" ],
+    "12" : [ "pair=dbr:Disc_jockey", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Disc_jockey", "class=MusicalArtist" ],
+    "13" : [ "pair=dbr:Singing", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Singing", "class=MusicalArtist" ],
+    "14" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:origin dbr:United_States", "class=MusicalArtist" ],
+    "15" : [ "pair=dbr:Bass_guitar", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Bass_guitar", "class=MusicalArtist" ],
+    "16" : [ "pair=dbr:Piano", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Piano", "class=MusicalArtist" ],
+    "17" : [ "pair=dbr:Drum_kit", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Drum_kit", "class=MusicalArtist" ],
+    "18" : [ "pair=dbr:Keyboard_instrument", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Keyboard_instrument", "class=MusicalArtist" ],
+    "19" : [ "pair=dbr:Vocals", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Vocals", "class=MusicalArtist" ],
+    "20" : [ "pair=dbr:Guitar", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Guitar", "class=MusicalArtist" ],
+    "21" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:landscape \"yes\"@en", "class=MusicalArtist" ],
+    "22" : [ "pair=\"solo_singer\"@en", "MaxConf=1.0", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "played",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Guitar", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Guitar", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Record_producer", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Record_producer", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "recording",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Record_producer", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Record_producer", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "released",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Songwriter", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Songwriter", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Rapper", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Rapper", "class=MusicalArtist" ],
+    "2" : [ "pair=dbr:Record_producer", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Record_producer", "class=MusicalArtist" ],
+    "3" : [ "pair=dbr:Singing", "MaxConf=1.0", "triple=e_dbo:occupation dbr:Singing", "class=MusicalArtist" ],
+    "4" : [ "pair=dbr:Vocals", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Vocals", "class=MusicalArtist" ],
+    "5" : [ "pair=dbr:Guitar", "MaxConf=1.0", "triple=e_dbo:instrument dbr:Guitar", "class=MusicalArtist" ],
+    "6" : [ "pair=\"solo_singer\"@en", "MaxConf=1.0", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "released first",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "MaxConf=1.0", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+} ]

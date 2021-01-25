@@ -1,0 +1,106 @@
+[ {
+  "id" : 8,
+  "pattern" : "awarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Norway", "Cosine=0.508", "triple=e_dbo:country dbr:Norway", "class=Writer" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Norway", "Cosine=0.843", "triple=e_dbo:country dbr:Norway", "class=Writer" ],
+    "1" : [ "pair=\"Norwegian\"@en", "Cosine=0.835", "triple=e_dbp:nationality \"Norwegian\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:Young_adult_fiction", "Cosine=0.784", "triple=e_dbp:genre dbr:Young_adult_fiction", "class=Writer" ],
+    "3" : [ "pair=dbr:Novelist", "Cosine=0.777", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
+    "4" : [ "pair=dbr:Horror_fiction", "Cosine=0.766", "triple=e_dbp:genre dbr:Horror_fiction", "class=Writer" ],
+    "5" : [ "pair=dbr:Fantasy", "Cosine=0.757", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
+    "6" : [ "pair=dbr:Author", "Cosine=0.745", "triple=e_dbo:occupation dbr:Author", "class=Writer" ],
+    "7" : [ "pair=dbr:Fiction", "Cosine=0.743", "triple=e_dbp:genre dbr:Fiction", "class=Writer" ],
+    "8" : [ "pair=dbr:Australia", "Cosine=0.74", "triple=e_dbo:country dbr:Australia", "class=Writer" ],
+    "9" : [ "pair=\"\"@en", "Cosine=0.739", "triple=e_dbp:awards \"\"@en", "class=Writer" ],
+    "10" : [ "pair=\"Canadian\"@en", "Cosine=0.733", "triple=e_dbp:nationality \"Canadian\"@en", "class=Writer" ],
+    "11" : [ "pair=\"Novelist\"@en", "Cosine=0.73", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "12" : [ "pair=dbr:Canadians", "Cosine=0.729", "triple=e_dbo:nationality dbr:Canadians", "class=Writer" ],
+    "13" : [ "pair=dbr:United_States", "Cosine=0.729", "triple=e_dbp:birthPlace dbr:United_States", "class=Writer" ],
+    "14" : [ "pair=\"Author\"@en", "Cosine=0.728", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
+    "15" : [ "pair=dbr:New_York_City", "Cosine=0.727", "triple=e_dbo:birthPlace dbr:New_York_City", "class=Writer" ],
+    "16" : [ "pair=dbr:English_language", "Cosine=0.723", "triple=e_dbp:language dbr:English_language", "class=Writer" ],
+    "17" : [ "pair=dbr:Science_fiction", "Cosine=0.719", "triple=e_dbp:genre dbr:Science_fiction", "class=Writer" ],
+    "18" : [ "pair=\"United States\"@en", "Cosine=0.712", "triple=e_dbp:nationality \"United States\"@en", "class=Writer" ],
+    "19" : [ "pair=dbr:Romance_novel", "Cosine=0.71", "triple=e_dbo:genre dbr:Romance_novel", "class=Writer" ],
+    "20" : [ "pair=\"American\"@en", "Cosine=0.687", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ],
+    "21" : [ "pair=dbr:Japan", "Cosine=0.685", "triple=e_dbo:country dbr:Japan", "class=Writer" ],
+    "22" : [ "pair=dbr:Children's_literature", "Cosine=0.681", "triple=e_dbp:genre dbr:Children's_literature", "class=Writer" ],
+    "23" : [ "pair=dbr:Journalist", "Cosine=0.675", "triple=e_dbo:occupation dbr:Journalist", "class=Writer" ],
+    "24" : [ "pair=dbr:London", "Cosine=0.67", "triple=e_dbo:birthPlace dbr:London", "class=Writer" ],
+    "25" : [ "pair=\"Poetry\"@en", "Cosine=0.669", "triple=e_dbp:genre \"Poetry\"@en", "class=Writer" ],
+    "26" : [ "pair=dbr:Canada", "Cosine=0.667", "triple=e_dbo:country dbr:Canada", "class=Writer" ],
+    "27" : [ "pair=\"Writer\"@en", "Cosine=0.666", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "28" : [ "pair=dbr:Poetry", "Cosine=0.662", "triple=e_dbo:genre dbr:Poetry", "class=Writer" ],
+    "29" : [ "pair=\"Australian\"@en", "Cosine=0.662", "triple=e_dbp:nationality \"Australian\"@en", "class=Writer" ],
+    "30" : [ "pair=\"yes\"@en", "Cosine=0.651", "triple=e_dbp:fixAttempted \"yes\"@en", "class=Writer" ],
+    "31" : [ "pair=\"British\"@en", "Cosine=0.645", "triple=e_dbp:nationality \"British\"@en", "class=Writer" ],
+    "32" : [ "pair=\"InternetArchiveBot\"@en", "Cosine=0.644", "triple=e_dbp:bot \"InternetArchiveBot\"@en", "class=Writer" ],
+    "33" : [ "pair=dbr:Poet", "Cosine=0.632", "triple=e_dbo:occupation dbr:Poet", "class=Writer" ],
+    "34" : [ "pair=dbr:United_Kingdom", "Cosine=0.613", "triple=e_dbo:country dbr:United_Kingdom", "class=Writer" ],
+    "35" : [ "pair=\"Poet\"@en", "Cosine=0.61", "triple=e_dbp:occupation \"Poet\"@en", "class=Writer" ],
+    "36" : [ "pair=dbr:Playwright", "Cosine=0.608", "triple=e_dbo:occupation dbr:Playwright", "class=Writer" ],
+    "37" : [ "pair=dbr:Writer", "Cosine=0.605", "triple=e_dbo:occupation dbr:Writer", "class=Writer" ],
+    "38" : [ "pair=\"English\"@en", "Cosine=0.604", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
+    "39" : [ "pair=dbr:France", "Cosine=0.602", "triple=e_dbo:country dbr:France", "class=Writer" ],
+    "40" : [ "pair=\"Indian\"@en", "Cosine=0.601", "triple=e_dbp:nationality \"Indian\"@en", "class=Writer" ],
+    "41" : [ "pair=dbr:Germany", "Cosine=0.595", "triple=e_dbo:country dbr:Germany", "class=Writer" ],
+    "42" : [ "pair=dbr:India", "Cosine=0.585", "triple=e_dbo:country dbr:India", "class=Writer" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "born\u001Cin",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Norway", "Cosine=0.508", "triple=e_dbo:country dbr:Norway", "class=Writer" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "Cosine=0.574", "triple=e_dbp:notableworks \"\"@en", "class=Writer" ],
+    "1" : [ "pair=dbr:Playwright", "Cosine=0.569", "triple=e_dbo:occupation dbr:Playwright", "class=Writer" ],
+    "2" : [ "pair=dbr:Author", "Cosine=0.547", "triple=e_dbp:occupation dbr:Author", "class=Writer" ],
+    "3" : [ "pair=\"Indian\"@en", "Cosine=0.536", "triple=e_dbp:nationality \"Indian\"@en", "class=Writer" ],
+    "4" : [ "pair=dbr:Fantasy", "Cosine=0.515", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
+    "5" : [ "pair=\"British\"@en", "Cosine=0.507", "triple=e_dbp:nationality \"British\"@en", "class=Writer" ],
+    "6" : [ "pair=dbr:United_States", "Cosine=0.498", "triple=e_dbp:nationality dbr:United_States", "class=Writer" ],
+    "7" : [ "pair=dbr:Science_fiction", "Cosine=0.49", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "8" : [ "pair=\"Author\"@en", "Cosine=0.484", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
+    "9" : [ "pair=dbr:Novelist", "Cosine=0.483", "triple=e_dbo:occupation dbr:Novelist", "class=Writer" ],
+    "10" : [ "pair=\"Writer\"@en", "Cosine=0.481", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "11" : [ "pair=\"English\"@en", "Cosine=0.468", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
+    "12" : [ "pair=\"American\"@en", "Cosine=0.456", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ],
+    "13" : [ "pair=dbr:Poet", "Cosine=0.445", "triple=e_dbo:occupation dbr:Poet", "class=Writer" ],
+    "14" : [ "pair=\"Novelist\"@en", "Cosine=0.433", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "made",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Norway", "Cosine=0.518", "triple=e_dbo:country dbr:Norway", "class=Writer" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Canada", "Cosine=0.534", "triple=e_dbo:country dbr:Canada", "class=Writer" ],
+    "1" : [ "pair=dbr:Science_fiction", "Cosine=0.477", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "2" : [ "pair=\"Author\"@en", "Cosine=0.456", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
+    "3" : [ "pair=\"British\"@en", "Cosine=0.435", "triple=e_dbp:nationality \"British\"@en", "class=Writer" ],
+    "4" : [ "pair=dbr:Novelist", "Cosine=0.434", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
+    "5" : [ "pair=\"Writer\"@en", "Cosine=0.421", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "6" : [ "pair=\"Novelist\"@en", "Cosine=0.415", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "7" : [ "pair=\"American\"@en", "Cosine=0.406", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+  }
+} ]

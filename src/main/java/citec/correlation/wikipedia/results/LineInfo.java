@@ -11,6 +11,8 @@ import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_WORDS
 import java.util.Map;
 import java.util.StringTokenizer;
 import java.util.TreeMap;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.apache.commons.lang3.StringUtils;
 import org.javatuples.Pair;
 
@@ -27,23 +29,31 @@ public class LineInfo {
     private String word = null;
     private String wordOriginal = null;
     private String className = null;
+    private Boolean validFlag = false;
     private Integer nGramNumber=0;
     private Map<String, Double> probabilityValue = new TreeMap<String, Double>();
     private Analyzer analyzer=null;
-    //line:{ dbo:Politician in c_e and (e, dbp:state, "Ohio"@en) in G } => { occurs('Ohio', d_e) } | supA=64, supB=64, supAB=64, condBA=1, condAB=1, AllConf=1, Coherence=0.5, Cosine=1, Kulczynski=1, MaxConf=1, IR=0
 
-    public LineInfo(String className,String line,Integer wordIndex,Integer kbIndex) throws Exception {
-        this.line=line;
-        this.className=className;
+    public LineInfo(String className, String line, Integer wordIndex, Integer kbIndex) throws Exception {
+        this.line = line;
+        this.className = className;
         String[] rule = line.split("=>");
         String leftRule = StringUtils.substringBetween(rule[kbIndex], "(", ")");
         String rightRule = StringUtils.substringBetween(rule[wordIndex], "{", "}");
         this.setTriple(leftRule);
         this.setWord(rightRule);
-        this.processWords(this.wordOriginal);
-        this.getPosTag(this.word);
-        this.setRule();
-        this.setProbabilityValue(line);
+        //System.out.println("validFlag:"+validFlag);
+        if (this.validFlag) {
+            String str = this.processWords(this.wordOriginal);
+            String[] info = str.split(" ");
+            if (info.length > 1) {
+                this.nGramNumber = info.length;
+            }
+            //System.out.println("str:"+str);
+            this.getPosTag(str);
+            this.setRule();
+            this.setProbabilityValue(line);
+        }
     }
 
     private void setRule() {
@@ -53,9 +63,11 @@ public class LineInfo {
     }
 
     private void setProbabilityValue(String line) {
+        System.out.println("line:"+line);
         line = line.replace("AllConf", "[AllConf");
         line = line + "]";
-        String values = StringUtils.substringBetween(line, "[", "]").replace(",", "");
+        String values = StringUtils.substringBetween(line, "[AllConf", "]").replace(",", "");
+        System.out.println("line modified:"+line);
         String[] info = values.split(" ");
         for (Integer i = 0; i < info.length; i++) {
             Pair<String, String> pair = this.setValue(info[i]);
@@ -71,9 +83,13 @@ public class LineInfo {
         return new Pair<String, String>(key, info[1]);
     }
 
-    private void setWord(String rightRule) throws Exception {
+    private void setWord(String rightRule) {
         String word = StringUtils.substringBetween(rightRule, "(", ")");
         this.wordOriginal = StringUtils.substringBetween(word, "'", "'");
+        if(wordOriginal!=null)
+           this.validFlag = true;
+        else
+            this.validFlag = false;
     }
 
     private void setTriple(String leftRule) {
@@ -85,26 +101,21 @@ public class LineInfo {
         this.object = this.correct(info[2]);;
     }
     
-    private void processWords(String nGram) throws Exception {
+    private String processWords(String nGram) throws Exception {
         StringTokenizer st = new StringTokenizer(nGram);
-        nGram = nGram.toLowerCase().trim().strip();
         String str = "";
         while (st.hasMoreTokens()) {
             String tokenStr = st.nextToken();
-            if (TextAnalyzer.ENGLISH_STOPWORDS.contains(tokenStr)) {
+            if (this.isStopWord(tokenStr)) 
                 continue;
-            }
+
             String line = tokenStr + "_";
             str += line;
         }
         str = str.replace("_", " ");
-        str = str.toLowerCase().trim().stripTrailing();
+        str = str.trim().stripTrailing();
 
-        String[] info = str.split(" ");
-        this.word = str;
-        if (info.length > 1) {
-            this.nGramNumber = info.length;
-        }
+        return str;
     }
     
     private void getPosTag(String word) throws Exception {
@@ -115,7 +126,10 @@ public class LineInfo {
             this.posTag = Analyzer.ADJECTIVE;
         } else if (!analyzer.getVerbs().isEmpty()) {
             this.posTag = Analyzer.VERB;
+        } else {
+            this.posTag = Analyzer.NOUN;
         }
+        this.word = word.trim().strip();
     }
 
 
@@ -176,6 +190,10 @@ public class LineInfo {
         return className;
     }
 
+    public Boolean getValidFlag() {
+        return validFlag;
+    }
+
     @Override
     public String toString() {
         String line=this.line+"\n";
@@ -184,6 +202,14 @@ public class LineInfo {
 
     public String getPartOfSpeech() {
         return this.posTag;
+    }
+
+    private Boolean isStopWord(String tokenStr) {
+        tokenStr = tokenStr.toLowerCase().trim().strip();
+        if (TextAnalyzer.ENGLISH_STOPWORDS.contains(tokenStr)) {
+            return true;
+        }
+        return false;
     }
 
 }

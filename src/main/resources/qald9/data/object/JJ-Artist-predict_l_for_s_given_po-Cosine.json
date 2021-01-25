@@ -1,0 +1,98 @@
+[ {
+  "id" : 9,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Australian\"@en", "Cosine=0.911", "triple=e_dbp:nationality \"Australian\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"British\"@en", "Cosine=0.773", "triple=e_dbp:nationality \"British\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:United_Kingdom", "Cosine=0.745", "triple=e_dbo:country dbr:United_Kingdom", "class=Artist" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Canadian\"@en", "Cosine=0.924", "triple=e_dbp:nationality \"Canadian\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:Canadians", "Cosine=0.876", "triple=e_dbo:nationality dbr:Canadians", "class=Artist" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"French\"@en", "Cosine=0.962", "triple=e_dbp:nationality \"French\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:France", "Cosine=0.955", "triple=e_dbo:country dbr:France", "class=Artist" ],
+    "2" : [ "pair=dbr:Paris", "Cosine=0.93", "triple=e_dbo:birthPlace dbr:Paris", "class=Artist" ],
+    "3" : [ "pair=\"Paris", "Cosine=0.896", "triple=e_dbp:birthPlace \"Paris", "class=Artist" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"German\"@en", "Cosine=0.918", "triple=e_dbp:nationality \"German\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:Germany", "Cosine=0.887", "triple=e_dbo:nationality dbr:Germany", "class=Artist" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "irish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Irish\"@en", "Cosine=0.958", "triple=e_dbp:nationality \"Irish\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Italian\"@en", "Cosine=0.973", "triple=e_dbp:nationality \"Italian\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:Italy", "Cosine=0.928", "triple=e_dbo:nationality dbr:Italy", "class=Artist" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Japanese\"@en", "Cosine=0.949", "triple=e_dbp:nationality \"Japanese\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:Japan", "Cosine=0.92", "triple=e_dbo:birthPlace dbr:Japan", "class=Artist" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "polish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Polish\"@en", "Cosine=0.924", "triple=e_dbp:nationality \"Polish\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Saint_Petersburg", "Cosine=0.987", "triple=e_dbo:deathPlace dbr:Saint_Petersburg", "class=Artist" ],
+    "1" : [ "pair=dbr:Imperial_Academy_of_Arts", "Cosine=0.981", "triple=e_dbp:training dbr:Imperial_Academy_of_Arts", "class=Artist" ],
+    "2" : [ "pair=dbr:Russian_Empire", "Cosine=0.971", "triple=e_dbp:residence dbr:Russian_Empire", "class=Artist" ],
+    "3" : [ "pair=\"Russian\"@en", "Cosine=0.953", "triple=e_dbp:nationality \"Russian\"@en", "class=Artist" ],
+    "4" : [ "pair=dbr:Realism_(arts", "Cosine=0.682", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "soviet",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Saint_Petersburg", "Cosine=0.71", "triple=e_dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ],
+    "1" : [ "pair=dbr:Realism_(arts", "Cosine=0.63", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "spanish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Spanish\"@en", "Cosine=0.922", "triple=e_dbp:nationality \"Spanish\"@en", "class=Artist" ]
+  }
+} ]

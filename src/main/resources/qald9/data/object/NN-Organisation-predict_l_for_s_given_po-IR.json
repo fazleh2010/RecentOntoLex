@@ -1,0 +1,685 @@
+[ {
+  "id" : 1,
+  "pattern" : "academy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.959", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "across",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.961", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "also",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "IR=0.886", "triple=e_dbo:location dbr:United_States", "class=Organisation" ],
+    "1" : [ "pair=\"President\"@en", "IR=0.876", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "2" : [ "pair=dbr:English_language", "IR=0.87", "triple=e_dbp:language dbr:English_language", "class=Organisation" ],
+    "3" : [ "pair=dbr:Non-governmental_organization", "IR=0.868", "triple=e_dbp:type dbr:Non-governmental_organization", "class=Organisation" ],
+    "4" : [ "pair=dbr:Nonprofit_organization", "IR=0.862", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.96", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "IR=0.89", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "2" : [ "pair=\"English\"@en", "IR=0.837", "triple=e_dbp:language \"English\"@en", "class=Organisation" ],
+    "3" : [ "pair=dbr:United_States", "IR=0.758", "triple=e_dbo:location dbr:United_States", "class=Organisation" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "association",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.956", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Non-governmental_organization", "IR=0.879", "triple=e_dbp:type dbr:Non-governmental_organization", "class=Organisation" ],
+    "2" : [ "pair=dbr:Nonprofit_organization", "IR=0.877", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "3" : [ "pair=dbr:English_language", "IR=0.875", "triple=e_dbp:language dbr:English_language", "class=Organisation" ],
+    "4" : [ "pair=\"English\"@en", "IR=0.851", "triple=e_dbp:language \"English\"@en", "class=Organisation" ],
+    "5" : [ "pair=\"Executive Director\"@en", "IR=0.811", "triple=e_dbp:leaderTitle \"Executive Director\"@en", "class=Organisation" ],
+    "6" : [ "pair=dbr:United_States", "IR=0.808", "triple=e_dbo:location dbr:United_States", "class=Organisation" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "bangladesh",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Bangladesh", "IR=0.696", "triple=e_dbo:headquarter dbr:Bangladesh", "class=Organisation" ],
+    "1" : [ "pair=\"Bangladesh\"@en", "IR=0.689", "triple=e_dbp:regionServed \"Bangladesh\"@en", "class=Organisation" ],
+    "2" : [ "pair=\"Bengali\"@en", "IR=0.675", "triple=e_dbp:language \"Bengali\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "body",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.95", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:English_language", "IR=0.872", "triple=e_dbp:language dbr:English_language", "class=Organisation" ],
+    "2" : [ "pair=\"Chairman\"@en", "IR=0.819", "triple=e_dbp:leaderTitle \"Chairman\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.962", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:English_language", "IR=0.858", "triple=e_dbp:language dbr:English_language", "class=Organisation" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "club",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.962", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "community",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.96", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "competition",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:English_language", "IR=0.88", "triple=e_dbp:language dbr:English_language", "class=Organisation" ],
+    "1" : [ "pair=dbr:Beauty_pageant", "IR=0.766", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "competition the\u001Cpageant",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beauty_pageant", "IR=0.766", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "competition the\u001Cpageant\u001Cthat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beauty_pageant", "IR=0.77", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "council",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.924", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "countries",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.913", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "IR=0.905", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "development",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.94", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "dhaka",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Bangladesh", "IR=0.63", "triple=e_dbo:headquarter dbr:Bangladesh", "class=Organisation" ],
+    "1" : [ "pair=\"Bangladesh\"@en", "IR=0.621", "triple=e_dbp:regionServed \"Bangladesh\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "education",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.925", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "IR=0.905", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "2" : [ "pair=dbr:Non-governmental_organization", "IR=0.889", "triple=e_dbp:type dbr:Non-governmental_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "english",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.962", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "federation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.949", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "first",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.943", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Beauty_pageant", "IR=0.77", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "foundation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.955", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "IR=0.862", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "governing\u001Cbody",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.962", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "governing body",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.96", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "government",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.956", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "group",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.94", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:United_States", "IR=0.881", "triple=e_dbo:location dbr:United_States", "class=Organisation" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "headquarters",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.955", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "india",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.956", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "institute",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.932", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=\"Director\"@en", "IR=0.773", "triple=e_dbp:leaderTitle \"Director\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "interests",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.96", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "issues",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.96", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "member",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.96", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "member\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.962", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "member of\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.961", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "members",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "IR=0.883", "triple=e_dbo:location dbr:United_States", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "IR=0.88", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "2" : [ "pair=\"English\"@en", "IR=0.859", "triple=e_dbp:language \"English\"@en", "class=Organisation" ],
+    "3" : [ "pair=\"President\"@en", "IR=0.847", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "membership",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.938", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "miss",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.963", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:English_language", "IR=0.865", "triple=e_dbo:language dbr:English_language", "class=Organisation" ],
+    "2" : [ "pair=dbr:Beauty_pageant", "IR=0.678", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "mission",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.954", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "IR=0.91", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "name",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.957", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "non-governmental organization",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Non-governmental_organization", "IR=0.872", "triple=e_dbp:type dbr:Non-governmental_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "non-profit organization",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.935", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:United_States", "IR=0.885", "triple=e_dbo:location dbr:United_States", "class=Organisation" ],
+    "2" : [ "pair=dbr:Nonprofit_organization", "IR=0.796", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "3" : [ "pair=dbr:Non-profit_organization", "IR=0.699", "triple=e_dbo:type dbr:Non-profit_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "nonprofit organization",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nonprofit_organization", "IR=0.89", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "official",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.959", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "one",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.958", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "organisation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.9", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "IR=0.873", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "2" : [ "pair=dbr:Non-governmental_organization", "IR=0.825", "triple=e_dbo:type dbr:Non-governmental_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "organization",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.963", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:United_States", "IR=0.902", "triple=e_dbo:location dbr:United_States", "class=Organisation" ],
+    "2" : [ "pair=dbr:Nonprofit_organization", "IR=0.898", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "3" : [ "pair=dbr:English_language", "IR=0.783", "triple=e_dbo:language dbr:English_language", "class=Organisation" ],
+    "4" : [ "pair=\"Chairman\"@en", "IR=0.756", "triple=e_dbp:leaderTitle \"Chairman\"@en", "class=Organisation" ],
+    "5" : [ "pair=\"Active\"", "IR=0.736", "triple=e_dbo:status \"Active\"", "class=Organisation" ],
+    "6" : [ "pair=\"Active\"@en", "IR=0.733", "triple=e_dbp:status \"Active\"@en", "class=Organisation" ],
+    "7" : [ "pair=\"Worldwide\"@en", "IR=0.658", "triple=e_dbp:regionServed \"Worldwide\"@en", "class=Organisation" ],
+    "8" : [ "pair=\"English\"@en", "IR=0.653", "triple=e_dbp:language \"English\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "organizations",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.938", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "pageant",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.962", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:English_language", "IR=0.87", "triple=e_dbo:language dbr:English_language", "class=Organisation" ],
+    "2" : [ "pair=dbr:Beauty_pageant", "IR=0.761", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "pageant\u001Cthat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beauty_pageant", "IR=0.761", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "pageant\u001Cthat\u001Cselects",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beauty_pageant", "IR=0.761", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "pageant selects",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:English_language", "IR=0.879", "triple=e_dbo:language dbr:English_language", "class=Organisation" ],
+    "1" : [ "pair=dbr:Beauty_pageant", "IR=0.715", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "pageant selects\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:English_language", "IR=0.882", "triple=e_dbp:language dbr:English_language", "class=Organisation" ],
+    "1" : [ "pair=dbr:Beauty_pageant", "IR=0.743", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "pageant selects\u001Cthe\u001Crepresentative",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beauty_pageant", "IR=0.747", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "pageant that\u001Cselects",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beauty_pageant", "IR=0.761", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "pageant that\u001Cselects\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beauty_pageant", "IR=0.761", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "people",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.953", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "IR=0.915", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "2" : [ "pair=dbr:Non-governmental_organization", "IR=0.883", "triple=e_dbp:type dbr:Non-governmental_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "policy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.958", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "president",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.962", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "public",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.927", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "IR=0.898", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "representative",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:English_language", "IR=0.882", "triple=e_dbp:language dbr:English_language", "class=Organisation" ],
+    "1" : [ "pair=dbr:Beauty_pageant", "IR=0.747", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 97,
+  "pattern" : "representative for\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beauty_pageant", "IR=0.756", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 100,
+  "pattern" : "research",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nonprofit_organization", "IR=0.905", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "1" : [ "pair=\"President\"@en", "IR=0.9", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "2" : [ "pair=\"Director\"@en", "IR=0.81", "triple=e_dbp:leaderTitle \"Director\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 101,
+  "pattern" : "rights",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nonprofit_organization", "IR=0.902", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "1" : [ "pair=dbr:Non-governmental_organization", "IR=0.841", "triple=e_dbp:type dbr:Non-governmental_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 102,
+  "pattern" : "science",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.956", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 104,
+  "pattern" : "selects representative",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:English_language", "IR=0.88", "triple=e_dbp:language dbr:English_language", "class=Organisation" ],
+    "1" : [ "pair=dbr:Beauty_pageant", "IR=0.733", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "selects representative\u001Cfor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beauty_pageant", "IR=0.752", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 106,
+  "pattern" : "selects representative\u001Cfor\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beauty_pageant", "IR=0.761", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 107,
+  "pattern" : "selects the\u001Crepresentative",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:English_language", "IR=0.882", "triple=e_dbp:language dbr:English_language", "class=Organisation" ],
+    "1" : [ "pair=dbr:Beauty_pageant", "IR=0.738", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 108,
+  "pattern" : "selects the\u001Crepresentative\u001Cfor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beauty_pageant", "IR=0.756", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 109,
+  "pattern" : "since",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.956", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 111,
+  "pattern" : "society",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.953", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "IR=0.917", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "2" : [ "pair=dbr:United_States", "IR=0.865", "triple=e_dbo:location dbr:United_States", "class=Organisation" ],
+    "3" : [ "pair=\"English\"@en", "IR=0.857", "triple=e_dbp:language \"English\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 112,
+  "pattern" : "state",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.956", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:English_language", "IR=0.868", "triple=e_dbp:language dbr:English_language", "class=Organisation" ],
+    "2" : [ "pair=dbr:Beauty_pageant", "IR=0.761", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 113,
+  "pattern" : "states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.892", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "IR=0.867", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "2" : [ "pair=\"Executive Director\"@en", "IR=0.768", "triple=e_dbp:leaderTitle \"Executive Director\"@en", "class=Organisation" ],
+    "3" : [ "pair=dbr:United_States", "IR=0.69", "triple=e_dbp:location dbr:United_States", "class=Organisation" ]
+  }
+}, {
+  "id" : 114,
+  "pattern" : "students",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.955", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 115,
+  "pattern" : "support",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.958", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "IR=0.915", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "2" : [ "pair=dbr:Non-governmental_organization", "IR=0.885", "triple=e_dbp:type dbr:Non-governmental_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 116,
+  "pattern" : "union",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.924", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 117,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.924", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "IR=0.883", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "2" : [ "pair=\"English\"@en", "IR=0.862", "triple=e_dbp:language \"English\"@en", "class=Organisation" ],
+    "3" : [ "pair=dbr:Non-governmental_organization", "IR=0.862", "triple=e_dbp:type dbr:Non-governmental_organization", "class=Organisation" ],
+    "4" : [ "pair=\"Chairman\"@en", "IR=0.831", "triple=e_dbp:leaderTitle \"Chairman\"@en", "class=Organisation" ],
+    "5" : [ "pair=dbr:United_States", "IR=0.819", "triple=e_dbo:location dbr:United_States", "class=Organisation" ],
+    "6" : [ "pair=\"Executive Director\"@en", "IR=0.815", "triple=e_dbp:leaderTitle \"Executive Director\"@en", "class=Organisation" ],
+    "7" : [ "pair=\"Active\"", "IR=0.781", "triple=e_dbo:status \"Active\"", "class=Organisation" ],
+    "8" : [ "pair=\"Active\"@en", "IR=0.778", "triple=e_dbp:status \"Active\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 118,
+  "pattern" : "united\u001Cstates",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.941", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:United_States", "IR=0.821", "triple=e_dbo:location dbr:United_States", "class=Organisation" ]
+  }
+}, {
+  "id" : 119,
+  "pattern" : "united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.913", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "IR=0.903", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "2" : [ "pair=\"Executive Director\"@en", "IR=0.778", "triple=e_dbp:leaderTitle \"Executive Director\"@en", "class=Organisation" ],
+    "3" : [ "pair=dbr:United_States", "IR=0.756", "triple=e_dbo:location dbr:United_States", "class=Organisation" ]
+  }
+}, {
+  "id" : 120,
+  "pattern" : "university",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.952", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "1" : [ "pair=\"Director\"@en", "IR=0.795", "triple=e_dbp:leaderTitle \"Director\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 121,
+  "pattern" : "washington",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.961", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 122,
+  "pattern" : "well",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.95", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 123,
+  "pattern" : "within",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.962", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 124,
+  "pattern" : "works",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nonprofit_organization", "IR=0.917", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 125,
+  "pattern" : "world",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.947", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 126,
+  "pattern" : "worldwide",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.957", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ]
+  }
+} ]

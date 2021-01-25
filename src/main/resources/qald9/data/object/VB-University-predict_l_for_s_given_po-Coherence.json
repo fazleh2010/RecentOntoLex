@@ -1,0 +1,32 @@
+[ {
+  "id" : 1,
+  "pattern" : "affiliated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Undergraduate college Public college\"@en", "Coherence=0.478", "triple=e_dbp:type \"Undergraduate college Public college\"@en", "class=University" ],
+    "1" : [ "pair=\"Undergraduate college\"@en", "Coherence=0.474", "triple=e_dbp:type \"Undergraduate college\"@en", "class=University" ],
+    "2" : [ "pair=\"India West Bengal#India\"@en", "Coherence=0.46", "triple=e_dbp:pushpinMap \"India West Bengal#India\"@en", "class=University" ],
+    "3" : [ "pair=dbr:Assam", "Coherence=0.436", "triple=e_dbp:state dbr:Assam", "class=University" ],
+    "4" : [ "pair=dbr:West_Bengal", "Coherence=0.425", "triple=e_dbp:state dbr:West_Bengal", "class=University" ],
+    "5" : [ "pair=dbr:Public_college", "Coherence=0.394", "triple=e_dbo:type dbr:Public_college", "class=University" ],
+    "6" : [ "pair=dbr:Tamil_Nadu", "Coherence=0.38", "triple=e_dbo:state dbr:Tamil_Nadu", "class=University" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "affiliated\u001Cto",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Undergraduate college Public college\"@en", "Coherence=0.424", "triple=e_dbp:type \"Undergraduate college Public college\"@en", "class=University" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "established",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Undergraduate college Public college\"@en", "Coherence=0.45", "triple=e_dbp:type \"Undergraduate college Public college\"@en", "class=University" ],
+    "1" : [ "pair=\"Undergraduate college\"@en", "Coherence=0.437", "triple=e_dbp:type \"Undergraduate college\"@en", "class=University" ],
+    "2" : [ "pair=\"India West Bengal#India\"@en", "Coherence=0.43", "triple=e_dbp:pushpinMap \"India West Bengal#India\"@en", "class=University" ],
+    "3" : [ "pair=dbr:Assam", "Coherence=0.414", "triple=e_dbp:state dbr:Assam", "class=University" ],
+    "4" : [ "pair=dbr:West_Bengal", "Coherence=0.404", "triple=e_dbp:state dbr:West_Bengal", "class=University" ]
+  }
+} ]

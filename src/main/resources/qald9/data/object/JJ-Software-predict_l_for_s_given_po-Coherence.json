@@ -1,0 +1,38 @@
+[ {
+  "id" : 24,
+  "pattern" : "free",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:PHP", "Coherence=0.286", "triple=e_dbp:programmingLanguage dbr:PHP", "class=Software" ],
+    "1" : [ "pair=dbr:GNU_General_Public_License", "Coherence=0.28", "triple=e_dbp:license dbr:GNU_General_Public_License", "class=Software" ],
+    "2" : [ "pair=dbr:FreeBSD", "Coherence=0.266", "triple=e_dbo:operatingSystem dbr:FreeBSD", "class=Software" ],
+    "3" : [ "pair=dbr:GNU_Lesser_General_Public_License", "Coherence=0.261", "triple=e_dbo:license dbr:GNU_Lesser_General_Public_License", "class=Software" ],
+    "4" : [ "pair=dbr:C_Sharp_(programming_language", "Coherence=0.248", "triple=e_dbp:programmingLanguage dbr:C_Sharp_(programming_language", "class=Software" ],
+    "5" : [ "pair=dbr:C++", "Coherence=0.242", "triple=e_dbo:programmingLanguage dbr:C++", "class=Software" ],
+    "6" : [ "pair=dbr:Python_(programming_language", "Coherence=0.236", "triple=e_dbo:programmingLanguage dbr:Python_(programming_language", "class=Software" ],
+    "7" : [ "pair=dbr:C_(programming_language", "Coherence=0.233", "triple=e_dbo:programmingLanguage dbr:C_(programming_language", "class=Software" ],
+    "8" : [ "pair=dbr:Linux", "Coherence=0.227", "triple=e_dbo:operatingSystem dbr:Linux", "class=Software" ],
+    "9" : [ "pair=dbr:GPL", "Coherence=0.226", "triple=e_dbo:license dbr:GPL", "class=Software" ],
+    "10" : [ "pair=dbr:JavaScript", "Coherence=0.224", "triple=e_dbp:programmingLanguage dbr:JavaScript", "class=Software" ],
+    "11" : [ "pair=dbr:BSD_licenses", "Coherence=0.22", "triple=e_dbo:license dbr:BSD_licenses", "class=Software" ],
+    "12" : [ "pair=dbr:Unix-like", "Coherence=0.217", "triple=e_dbp:operatingSystem dbr:Unix-like", "class=Software" ],
+    "13" : [ "pair=dbr:OS_X", "Coherence=0.217", "triple=e_dbo:operatingSystem dbr:OS_X", "class=Software" ],
+    "14" : [ "pair=dbr:MacOS", "Coherence=0.213", "triple=e_dbo:operatingSystem dbr:MacOS", "class=Software" ],
+    "15" : [ "pair=dbr:Windows", "Coherence=0.213", "triple=e_dbo:operatingSystem dbr:Windows", "class=Software" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "mobile",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:IOS", "Coherence=0.216", "triple=e_dbp:operatingSystem dbr:IOS", "class=Software" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "unix-like",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Command_(computing", "Coherence=0.264", "triple=e_dbp:genre dbr:Command_(computing", "class=Software" ],
+    "1" : [ "pair=dbr:Unix", "Coherence=0.221", "triple=e_dbo:operatingSystem dbr:Unix", "class=Software" ]
+  }
+} ]

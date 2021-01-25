@@ -1,0 +1,88 @@
+[ {
+  "id" : 4,
+  "pattern" : "administrative",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Province of Quebec\"@en", "Kulczynski=0.958", "triple=e_dbp:mapCaption \"Province of Quebec\"@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:BC_Parks", "Kulczynski=0.954", "triple=e_dbp:governingBody dbr:BC_Parks", "class=ProtectedArea" ],
+    "1" : [ "pair=dbr:British_Columbia", "Kulczynski=0.947", "triple=e_dbp:location dbr:British_Columbia", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "ecological",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Ecological_station_(Brazil", "Kulczynski=1.0", "triple=e_dbp:designation dbr:Ecological_station_(Brazil", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "georgian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Agency of Protected Areas\"@en", "Kulczynski=0.966", "triple=e_dbp:governingBody \"Agency of Protected Areas\"@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 98,
+  "pattern" : "national",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Location of Park\"@en", "Kulczynski=0.981", "triple=e_dbp:mapCaption \"Location of Park\"@en", "class=ProtectedArea" ],
+    "1" : [ "pair=dbr:United_States_Fish_and_Wildlife_Service", "Kulczynski=0.978", "triple=e_dbp:governingBody dbr:United_States_Fish_and_Wildlife_Service", "class=ProtectedArea" ],
+    "2" : [ "pair=dbr:National_park_(Brazil", "Kulczynski=0.974", "triple=e_dbp:designation dbr:National_park_(Brazil", "class=ProtectedArea" ],
+    "3" : [ "pair=\"Map of the United States\"@en", "Kulczynski=0.97", "triple=e_dbp:mapCaption \"Map of the United States\"@en", "class=ProtectedArea" ],
+    "4" : [ "pair=dbr:United_States_Forest_Service", "Kulczynski=0.967", "triple=e_dbp:governingBody dbr:United_States_Forest_Service", "class=ProtectedArea" ],
+    "5" : [ "pair=dbr:National_Park_Service", "Kulczynski=0.953", "triple=e_dbp:governingBody dbr:National_Park_Service", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 156,
+  "pattern" : "provincial",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Ontario_Parks", "Kulczynski=0.972", "triple=e_dbp:governingBody dbr:Ontario_Parks", "class=ProtectedArea" ],
+    "1" : [ "pair=dbr:BC_Parks", "Kulczynski=0.946", "triple=e_dbp:governingBody dbr:BC_Parks", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 173,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"ia\"@en", "Kulczynski=1.0", "triple=e_dbp:iucnCategory \"ia\"@en", "class=ProtectedArea" ],
+    "1" : [ "pair=dbr:Ministry_of_Natural_Resources_and_Environment_(Russia", "Kulczynski=1.0", "triple=e_dbp:governingBody dbr:Ministry_of_Natural_Resources_and_Environment_(Russia", "class=ProtectedArea" ],
+    "2" : [ "pair=\"ia\"", "Kulczynski=1.0", "triple=e_dbo:iucnCategory \"ia\"", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 187,
+  "pattern" : "spanish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:National_System_of_Conservation_Areas", "Kulczynski=0.985", "triple=e_dbp:governingBody dbr:National_System_of_Conservation_Areas", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 188,
+  "pattern" : "special",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:North_East_England", "Kulczynski=0.993", "triple=e_dbo:location dbr:North_East_England", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 212,
+  "pattern" : "strict",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"ia\"@en", "Kulczynski=0.952", "triple=e_dbp:iucnCategory \"ia\"@en", "class=ProtectedArea" ],
+    "1" : [ "pair=\"ia\"", "Kulczynski=0.952", "triple=e_dbo:iucnCategory \"ia\"", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 219,
+  "pattern" : "turkish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Ministry_of_Agriculture_and_Forestry_(Turkey", "Kulczynski=0.982", "triple=e_dbp:governingBody dbr:Ministry_of_Agriculture_and_Forestry_(Turkey", "class=ProtectedArea" ]
+  }
+} ]

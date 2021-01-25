@@ -1,0 +1,586 @@
+[ {
+  "id" : 1,
+  "pattern" : "actor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.936", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actor\"@en", "IR=0.91", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Actor", "IR=0.842", "triple=e_dbo:occupation dbr:Actor", "class=Person" ],
+    "3" : [ "pair=dbr:Film_director", "IR=0.759", "triple=e_dbo:occupation dbr:Film_director", "class=Person" ],
+    "4" : [ "pair=dbr:United_States", "IR=0.75", "triple=e_dbo:birthPlace dbr:United_States", "class=Person" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "actor appeared",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.916", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "actor appeared\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.916", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "actress",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.942", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actress\"@en", "IR=0.877", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Actress", "IR=0.782", "triple=e_dbo:occupation dbr:Actress", "class=Person" ],
+    "3" : [ "pair=dbr:Actor", "IR=0.592", "triple=e_dbp:occupation dbr:Actor", "class=Person" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "also",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "IR=0.845", "triple=e_dbp:nationality \"American\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actress\"@en", "IR=0.823", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
+    "2" : [ "pair=\"Actor\"@en", "IR=0.822", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "3" : [ "pair=\"\"@en", "IR=0.816", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "4" : [ "pair=dbr:Actor", "IR=0.813", "triple=e_dbp:occupation dbr:Actor", "class=Person" ],
+    "5" : [ "pair=\"Indian\"@en", "IR=0.738", "triple=e_dbp:nationality \"Indian\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actress\"@en", "IR=0.905", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Actor", "IR=0.884", "triple=e_dbp:occupation dbr:Actor", "class=Person" ],
+    "2" : [ "pair=\"Actor\"@en", "IR=0.881", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "3" : [ "pair=\"\"@en", "IR=0.812", "triple=e_dbp:occupation \"\"@en", "class=Person" ],
+    "4" : [ "pair=dbr:United_States", "IR=0.772", "triple=e_dbo:nationality dbr:United_States", "class=Person" ],
+    "5" : [ "pair=dbr:Film_director", "IR=0.768", "triple=e_dbo:occupation dbr:Film_director", "class=Person" ],
+    "6" : [ "pair=dbr:Actress", "IR=0.765", "triple=e_dbo:occupation dbr:Actress", "class=Person" ],
+    "7" : [ "pair=\"American\"@en", "IR=0.681", "triple=e_dbp:nationality \"American\"@en", "class=Person" ],
+    "8" : [ "pair=dbr:New_York_City", "IR=0.648", "triple=e_dbo:birthPlace dbr:New_York_City", "class=Person" ],
+    "9" : [ "pair=dbr:California", "IR=0.377", "triple=e_dbo:birthPlace dbr:California", "class=Person" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "american\u001Cactor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.867", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "american\u001Cactress",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.932", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actress\"@en", "IR=0.815", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "american actor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.919", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Actor", "IR=0.857", "triple=e_dbo:occupation dbr:Actor", "class=Person" ],
+    "2" : [ "pair=\"Actor\"@en", "IR=0.827", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "american actress",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.908", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actress\"@en", "IR=0.775", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "april",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.903", "triple=e_dbp:occupation \"\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actor\"@en", "IR=0.894", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "2" : [ "pair=\"Actress\"@en", "IR=0.884", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
+    "3" : [ "pair=\"American\"@en", "IR=0.876", "triple=e_dbp:nationality \"American\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "august",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.897", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "1" : [ "pair=\"\"@en", "IR=0.894", "triple=e_dbp:spouse \"\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "author",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "IR=0.906", "triple=e_dbp:nationality \"American\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "award",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.912", "triple=e_dbp:spouse \"\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "best",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.918", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "1" : [ "pair=\"\"@en", "IR=0.912", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "2" : [ "pair=\"Actress\"@en", "IR=0.892", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
+    "3" : [ "pair=\"American\"@en", "IR=0.887", "triple=e_dbp:nationality \"American\"@en", "class=Person" ],
+    "4" : [ "pair=dbr:Actor", "IR=0.824", "triple=e_dbp:occupation dbr:Actor", "class=Person" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "career",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.907", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actor\"@en", "IR=0.905", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "2" : [ "pair=\"Actress\"@en", "IR=0.901", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "congress",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.443", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.363", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "congress representing",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.452", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.372", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "december",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.913", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "1" : [ "pair=\"\"@en", "IR=0.891", "triple=e_dbp:occupation \"\"@en", "class=Person" ],
+    "2" : [ "pair=\"American\"@en", "IR=0.876", "triple=e_dbp:nationality \"American\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "deputy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.471", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.427", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "deputy of\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.471", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.427", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "director",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.887", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Actor", "IR=0.882", "triple=e_dbp:occupation dbr:Actor", "class=Person" ],
+    "2" : [ "pair=dbr:Film_director", "IR=0.68", "triple=e_dbo:occupation dbr:Film_director", "class=Person" ],
+    "3" : [ "pair=dbr:Film_producer", "IR=0.41", "triple=e_dbo:occupation dbr:Film_producer", "class=Person" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "english",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.924", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actor\"@en", "IR=0.915", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "2" : [ "pair=\"British\"@en", "IR=0.773", "triple=e_dbp:nationality \"British\"@en", "class=Person" ],
+    "3" : [ "pair=dbr:London", "IR=0.551", "triple=e_dbo:birthPlace dbr:London", "class=Person" ],
+    "4" : [ "pair=dbr:England", "IR=0.516", "triple=e_dbo:birthPlace dbr:England", "class=Person" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "february",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.908", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actor\"@en", "IR=0.905", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "2" : [ "pair=\"Actress\"@en", "IR=0.901", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "film",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.913", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "1" : [ "pair=\"\"@en", "IR=0.8", "triple=e_dbp:occupation \"\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:United_States", "IR=0.776", "triple=e_dbp:birthPlace dbr:United_States", "class=Person" ],
+    "3" : [ "pair=dbr:Actress", "IR=0.689", "triple=e_dbo:occupation dbr:Actress", "class=Person" ],
+    "4" : [ "pair=\"Indian\"@en", "IR=0.654", "triple=e_dbp:nationality \"Indian\"@en", "class=Person" ],
+    "5" : [ "pair=dbr:India", "IR=0.639", "triple=e_dbo:birthPlace dbr:India", "class=Person" ],
+    "6" : [ "pair=dbr:Actor", "IR=0.63", "triple=e_dbo:occupation dbr:Actor", "class=Person" ],
+    "7" : [ "pair=\"Actress\"@en", "IR=0.594", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "film actor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.844", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "film actress",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actress\"@en", "IR=0.86", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "film director",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Film_director", "IR=0.763", "triple=e_dbo:occupation dbr:Film_director", "class=Person" ],
+    "1" : [ "pair=dbr:Screenwriter", "IR=0.478", "triple=e_dbo:occupation dbr:Screenwriter", "class=Person" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "films",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.893", "triple=e_dbp:occupation \"\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Actor", "IR=0.827", "triple=e_dbo:occupation dbr:Actor", "class=Person" ],
+    "2" : [ "pair=\"Actress\"@en", "IR=0.791", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
+    "3" : [ "pair=\"Indian\"@en", "IR=0.774", "triple=e_dbp:nationality \"Indian\"@en", "class=Person" ],
+    "4" : [ "pair=\"Actor\"@en", "IR=0.724", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "5" : [ "pair=dbr:Film_director", "IR=0.666", "triple=e_dbo:occupation dbr:Film_director", "class=Person" ],
+    "6" : [ "pair=dbr:Screenwriter", "IR=0.66", "triple=e_dbo:occupation dbr:Screenwriter", "class=Person" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "first",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.91", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=\"American\"@en", "IR=0.889", "triple=e_dbp:nationality \"American\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "january",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "IR=0.91", "triple=e_dbp:nationality \"American\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actor\"@en", "IR=0.908", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "2" : [ "pair=\"Actress\"@en", "IR=0.901", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
+    "3" : [ "pair=\"\"@en", "IR=0.893", "triple=e_dbp:spouse \"\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "john",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.935", "triple=e_dbp:spouse \"\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "july",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.904", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "1" : [ "pair=\"\"@en", "IR=0.889", "triple=e_dbp:spouse \"\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "june",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.913", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "1" : [ "pair=\"\"@en", "IR=0.899", "triple=e_dbp:occupation \"\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "known his\u001Crole",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.915", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "legislature",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.518", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.454", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ],
+    "2" : [ "pair=\"Mexican\"@en", "IR=0.357", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "legislature the\u001Cmexican",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.518", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.454", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ],
+    "2" : [ "pair=\"Mexican\"@en", "IR=0.357", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "legislature the\u001Cmexican\u001Ccongress",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.518", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.454", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ],
+    "2" : [ "pair=\"Mexican\"@en", "IR=0.357", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "march",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "IR=0.906", "triple=e_dbp:nationality \"American\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actor\"@en", "IR=0.897", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "2" : [ "pair=\"\"@en", "IR=0.89", "triple=e_dbp:spouse \"\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "mexican\u001Ccongress",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.443", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.363", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "mexican\u001Ccongress\u001Crepresenting",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.452", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.372", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "mexican\u001Cpolitician",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.471", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.372", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "mexican congress",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.443", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.363", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "mexican congress\u001Crepresenting",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.452", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.372", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "mexican congress representing",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.452", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.372", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "mexican politician",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.433", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.354", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "november",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.904", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "1" : [ "pair=\"\"@en", "IR=0.896", "triple=e_dbp:spouse \"\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "nã©e",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.928", "triple=e_dbp:spouse \"\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "october",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.918", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actress\"@en", "IR=0.895", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
+    "2" : [ "pair=\"American\"@en", "IR=0.892", "triple=e_dbp:nationality \"American\"@en", "class=Person" ],
+    "3" : [ "pair=\"\"@en", "IR=0.878", "triple=e_dbp:spouse \"\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "one",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.942", "triple=e_dbp:spouse \"\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "party",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Mexico", "IR=0.536", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ],
+    "1" : [ "pair=\"Politician\"@en", "IR=0.367", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "politician",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Mexico", "IR=0.345", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "producer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.901", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Film_director", "IR=0.68", "triple=e_dbo:occupation dbr:Film_director", "class=Person" ],
+    "2" : [ "pair=dbr:Screenwriter", "IR=0.648", "triple=e_dbo:occupation dbr:Screenwriter", "class=Person" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "role",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.929", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actor\"@en", "IR=0.918", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "2" : [ "pair=\"Actress\"@en", "IR=0.907", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
+    "3" : [ "pair=dbr:Actor", "IR=0.797", "triple=e_dbp:occupation dbr:Actor", "class=Person" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "roles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.908", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "1" : [ "pair=\"\"@en", "IR=0.889", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Actor", "IR=0.857", "triple=e_dbp:occupation dbr:Actor", "class=Person" ],
+    "3" : [ "pair=\"Actress\"@en", "IR=0.821", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "screenwriter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Screenwriter", "IR=0.642", "triple=e_dbo:occupation dbr:Screenwriter", "class=Person" ],
+    "1" : [ "pair=dbr:Film_director", "IR=0.579", "triple=e_dbp:occupation dbr:Film_director", "class=Person" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "september",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Actor\"@en", "IR=0.913", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "1" : [ "pair=\"\"@en", "IR=0.881", "triple=e_dbp:spouse \"\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "series",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.844", "triple=e_dbp:occupation \"\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Actor", "IR=0.824", "triple=e_dbp:occupation dbr:Actor", "class=Person" ],
+    "2" : [ "pair=\"Actor\"@en", "IR=0.779", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "3" : [ "pair=\"Actress\"@en", "IR=0.775", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "served deputy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.471", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.436", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "served deputy\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Politician\"@en", "IR=0.471", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.454", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "served deputy\u001Cof\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Mexico", "IR=0.472", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ],
+    "1" : [ "pair=\"Politician\"@en", "IR=0.471", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "singer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.907", "triple=e_dbp:spouse \"\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "stage",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.929", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actor\"@en", "IR=0.883", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "2" : [ "pair=\"Actress\"@en", "IR=0.86", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "television",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.921", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=\"American\"@en", "IR=0.904", "triple=e_dbp:nationality \"American\"@en", "class=Person" ],
+    "2" : [ "pair=\"Actress\"@en", "IR=0.882", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
+    "3" : [ "pair=\"Actor\"@en", "IR=0.88", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "4" : [ "pair=dbr:Actor", "IR=0.735", "triple=e_dbp:occupation dbr:Actor", "class=Person" ],
+    "5" : [ "pair=dbr:Actress", "IR=0.723", "triple=e_dbo:occupation dbr:Actress", "class=Person" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "television series",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.938", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actor\"@en", "IR=0.918", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
+    "2" : [ "pair=\"Actress\"@en", "IR=0.907", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "university",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "IR=0.903", "triple=e_dbp:nationality \"American\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:United_States", "IR=0.752", "triple=e_dbo:nationality dbr:United_States", "class=Person" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "writer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.932", "triple=e_dbp:spouse \"\"@en", "class=Person" ]
+  }
+} ]

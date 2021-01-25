@@ -1,0 +1,1060 @@
+[ {
+  "id" : 1,
+  "pattern" : "& tracks",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.948", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "\\\"the",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.99", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "album",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "also",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.962", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Music_download", "IR=0.96", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
+    "2" : [ "pair=dbr:CD_single", "IR=0.959", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
+    "3" : [ "pair=\"\"@en", "IR=0.945", "triple=e_dbp:format \"\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "american country",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.987", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "american country\u001Cmusic",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.988", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "american country\u001Cmusic\u001Cartist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.942", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "american country music",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.987", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "american country music\u001Cartist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.941", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "american singer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "april",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.982", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "august",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Music_download", "IR=0.974", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
+    "2" : [ "pair=dbr:CD_single", "IR=0.965", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
+    "3" : [ "pair=\"\"@en", "IR=0.965", "triple=e_dbp:writer \"\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "billboard",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.981", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:CD_single", "IR=0.969", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
+    "2" : [ "pair=dbr:Country_music", "IR=0.944", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "billboard\u001Chot",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.985", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.947", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "billboard\u001Chot\u001C100",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "billboard\u001Chot\u001Ccountry",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "billboard hot",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.983", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.944", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "billboard hot\u001C100",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "billboard hot\u001Ccountry",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.948", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "billboard hot 100",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.986", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "billboard hot country",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "billboard hot country\u001Csingles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.943", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "billboard hot country\u001Csingles\u001C&",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.949", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "chart",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:CD_single", "IR=0.968", "triple=e_dbp:format dbr:CD_single", "class=Song" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "charts",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.99", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "co-written",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "country",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.99", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "country music",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.985", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "country music artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "country singles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.941", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "country singles &",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.949", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "country singles &\u001Ctracks",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.949", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "debut",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Music_download", "IR=0.969", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
+    "2" : [ "pair=dbr:CD_single", "IR=0.965", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
+    "3" : [ "pair=\"\"@en", "IR=0.96", "triple=e_dbp:writer \"\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "debut album",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.986", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "debut single",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "debut studio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "debut studio album",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "december",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "download",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "english",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "features",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.986", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "february",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.99", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "film",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "first",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Music_download", "IR=0.972", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
+    "2" : [ "pair=\"\"@en", "IR=0.963", "triple=e_dbp:writer \"\"@en", "class=Song" ],
+    "3" : [ "pair=dbr:CD_single", "IR=0.962", "triple=e_dbp:format dbr:CD_single", "class=Song" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "group",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.984", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "hot country",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "hot country singles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.941", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "hot country singles\u001C&",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.949", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "hot country singles\u001C&\u001Ctracks",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.949", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "january",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "july",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "june",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "kingdom",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "label",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "later",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "lead",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "lyrics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "march",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.988", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "music",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Music_download", "IR=0.968", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
+    "2" : [ "pair=\"\"@en", "IR=0.967", "triple=e_dbp:writer \"\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "music artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "music video",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "name",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "november",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.99", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "number",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "IR=0.974", "triple=e_dbp:writer \"\"@en", "class=Song" ],
+    "2" : [ "pair=dbr:Music_download", "IR=0.965", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
+    "3" : [ "pair=dbr:CD_single", "IR=0.957", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
+    "4" : [ "pair=dbr:Country_music", "IR=0.942", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "number one",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "october",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.99", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "one",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 92,
+  "pattern" : "originally",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 94,
+  "pattern" : "peaked number",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.987", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 98,
+  "pattern" : "radio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 99,
+  "pattern" : "rapper",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 101,
+  "pattern" : "reached number",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.986", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 102,
+  "pattern" : "record",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "recorded american\u001Ccountry",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.989", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 106,
+  "pattern" : "recorded american\u001Ccountry\u001Cmusic",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.989", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 107,
+  "pattern" : "recorded by\u001Camerican",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.99", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 108,
+  "pattern" : "recorded by\u001Camerican\u001Ccountry",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 110,
+  "pattern" : "recording artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 111,
+  "pattern" : "records",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.984", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 112,
+  "pattern" : "release",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.986", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 122,
+  "pattern" : "rock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 123,
+  "pattern" : "rock band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.985", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 129,
+  "pattern" : "second studio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 130,
+  "pattern" : "second studio album",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 131,
+  "pattern" : "september",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 132,
+  "pattern" : "singer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.969", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:CD_single", "IR=0.964", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
+    "2" : [ "pair=\"\"@en", "IR=0.958", "triple=e_dbp:genre \"\"@en", "class=Song" ],
+    "3" : [ "pair=dbr:Music_download", "IR=0.952", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
+    "4" : [ "pair=dbr:Pop_music", "IR=0.952", "triple=e_dbo:genre dbr:Pop_music", "class=Song" ]
+  }
+}, {
+  "id" : 133,
+  "pattern" : "singer-songwriter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 136,
+  "pattern" : "single the\u001Calbum",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 137,
+  "pattern" : "singles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "IR=0.972", "triple=e_dbp:writer \"\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 138,
+  "pattern" : "singles &",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.948", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 139,
+  "pattern" : "singles & tracks",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.948", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 140,
+  "pattern" : "singles chart",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.982", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 141,
+  "pattern" : "song",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Music_download", "IR=0.967", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
+    "2" : [ "pair=dbr:CD_single", "IR=0.963", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
+    "3" : [ "pair=\"\"@en", "IR=0.961", "triple=e_dbp:writer \"\"@en", "class=Song" ],
+    "4" : [ "pair=dbr:Pop_music", "IR=0.958", "triple=e_dbo:genre dbr:Pop_music", "class=Song" ],
+    "5" : [ "pair=\"Gold\"@en", "IR=0.942", "triple=e_dbp:award \"Gold\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 142,
+  "pattern" : "song\u001Cby",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.952", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:CD_single", "IR=0.948", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
+    "2" : [ "pair=dbr:Music_download", "IR=0.94", "triple=e_dbp:format dbr:Music_download", "class=Song" ]
+  }
+}, {
+  "id" : 143,
+  "pattern" : "song\u001Cby\u001Camerican",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.985", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "IR=0.965", "triple=e_dbp:writer \"\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 144,
+  "pattern" : "song\u001Cby\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 145,
+  "pattern" : "song\u001Crecorded",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.986", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "IR=0.973", "triple=e_dbp:writer \"\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 146,
+  "pattern" : "song\u001Crecorded\u001Cby",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.987", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "IR=0.974", "triple=e_dbp:writer \"\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 147,
+  "pattern" : "song\u001Cwritten",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.981", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 148,
+  "pattern" : "song\u001Cwritten\u001Cby",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.986", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.944", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 149,
+  "pattern" : "song american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.984", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "IR=0.962", "triple=e_dbp:writer \"\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 150,
+  "pattern" : "song by\u001Camerican",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.985", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "IR=0.965", "triple=e_dbp:writer \"\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 151,
+  "pattern" : "song by\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 152,
+  "pattern" : "song reached",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.947", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 153,
+  "pattern" : "song recorded",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.986", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "IR=0.974", "triple=e_dbp:writer \"\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 154,
+  "pattern" : "song recorded\u001Cby",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.987", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "IR=0.974", "triple=e_dbp:writer \"\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 155,
+  "pattern" : "song released",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.987", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 156,
+  "pattern" : "song was\u001Creleased",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.989", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 157,
+  "pattern" : "song was\u001Cwritten",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.987", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 158,
+  "pattern" : "song was\u001Cwritten\u001Cby",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.988", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 159,
+  "pattern" : "song written",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.986", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 160,
+  "pattern" : "song written\u001Cby",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.988", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.944", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 161,
+  "pattern" : "songs",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 162,
+  "pattern" : "states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 163,
+  "pattern" : "studio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.961", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:CD_single", "IR=0.953", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
+    "2" : [ "pair=dbr:Music_download", "IR=0.941", "triple=e_dbp:format dbr:Music_download", "class=Song" ]
+  }
+}, {
+  "id" : 164,
+  "pattern" : "studio album",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.961", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:CD_single", "IR=0.954", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
+    "2" : [ "pair=dbr:Music_download", "IR=0.941", "triple=e_dbp:format dbr:Music_download", "class=Song" ]
+  }
+}, {
+  "id" : 169,
+  "pattern" : "third studio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 170,
+  "pattern" : "third studio album",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 171,
+  "pattern" : "three",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 172,
+  "pattern" : "title",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 173,
+  "pattern" : "top",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 174,
+  "pattern" : "track",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.978", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "IR=0.972", "triple=e_dbp:writer \"\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 176,
+  "pattern" : "tracks chart",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.991", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Country_music", "IR=0.945", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 177,
+  "pattern" : "u.s",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 178,
+  "pattern" : "uk",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 179,
+  "pattern" : "uk\u001Csingles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.99", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 180,
+  "pattern" : "uk\u001Csingles\u001Cchart",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.99", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 181,
+  "pattern" : "uk singles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.987", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 182,
+  "pattern" : "uk singles\u001Cchart",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.987", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 183,
+  "pattern" : "uk singles chart",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.987", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 184,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.99", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 185,
+  "pattern" : "united\u001Ckingdom",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 186,
+  "pattern" : "united kingdom",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 187,
+  "pattern" : "united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.993", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 188,
+  "pattern" : "us",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.994", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 190,
+  "pattern" : "version",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.992", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 191,
+  "pattern" : "video",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.988", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 192,
+  "pattern" : "vocals",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.99", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 193,
+  "pattern" : "weeks",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"single\"@en", "IR=0.99", "triple=e_dbp:type \"single\"@en", "class=Song" ]
+  }
+} ]

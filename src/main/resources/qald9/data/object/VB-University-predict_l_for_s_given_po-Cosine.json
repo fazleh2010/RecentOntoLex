@@ -1,0 +1,32 @@
+[ {
+  "id" : 1,
+  "pattern" : "affiliated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Undergraduate college Public college\"@en", "Cosine=0.958", "triple=e_dbp:type \"Undergraduate college Public college\"@en", "class=University" ],
+    "1" : [ "pair=\"Undergraduate college\"@en", "Cosine=0.95", "triple=e_dbp:type \"Undergraduate college\"@en", "class=University" ],
+    "2" : [ "pair=\"India West Bengal#India\"@en", "Cosine=0.923", "triple=e_dbp:pushpinMap \"India West Bengal#India\"@en", "class=University" ],
+    "3" : [ "pair=dbr:Assam", "Cosine=0.88", "triple=e_dbp:state dbr:Assam", "class=University" ],
+    "4" : [ "pair=dbr:West_Bengal", "Cosine=0.861", "triple=e_dbp:state dbr:West_Bengal", "class=University" ],
+    "5" : [ "pair=dbr:Public_college", "Cosine=0.807", "triple=e_dbo:type dbr:Public_college", "class=University" ],
+    "6" : [ "pair=dbr:Tamil_Nadu", "Cosine=0.783", "triple=e_dbo:state dbr:Tamil_Nadu", "class=University" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "affiliated\u001Cto",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Undergraduate college Public college\"@en", "Cosine=0.858", "triple=e_dbp:type \"Undergraduate college Public college\"@en", "class=University" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "established",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Undergraduate college Public college\"@en", "Cosine=0.904", "triple=e_dbp:type \"Undergraduate college Public college\"@en", "class=University" ],
+    "1" : [ "pair=\"Undergraduate college\"@en", "Cosine=0.882", "triple=e_dbp:type \"Undergraduate college\"@en", "class=University" ],
+    "2" : [ "pair=\"India West Bengal#India\"@en", "Cosine=0.869", "triple=e_dbp:pushpinMap \"India West Bengal#India\"@en", "class=University" ],
+    "3" : [ "pair=dbr:Assam", "Cosine=0.841", "triple=e_dbp:state dbr:Assam", "class=University" ],
+    "4" : [ "pair=dbr:West_Bengal", "Cosine=0.823", "triple=e_dbp:state dbr:West_Bengal", "class=University" ]
+  }
+} ]

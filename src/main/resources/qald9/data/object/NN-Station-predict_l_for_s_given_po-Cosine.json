@@ -1,0 +1,503 @@
+[ {
+  "id" : 1,
+  "pattern" : "aichi",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Japan Aichi Prefecture#Japan\"@en", "Cosine=1.0", "triple=e_dbp:mapType \"Japan Aichi Prefecture#Japan\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "beijing",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "Cosine=1.0", "triple=e_dbp:operator dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=Station" ],
+    "1" : [ "pair=\"beijing\"@en", "Cosine=0.993", "triple=e_dbp:symbolLocation \"beijing\"@en", "class=Station" ],
+    "2" : [ "pair=\"BJS\"@en", "Cosine=0.991", "triple=e_dbp:system \"BJS\"@en", "class=Station" ],
+    "3" : [ "pair=\"subway\"@en", "Cosine=0.986", "triple=e_dbp:symbol \"subway\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "beijing\u001Csubway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "Cosine=0.991", "triple=e_dbp:operator dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=Station" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "beijing subway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "Cosine=0.991", "triple=e_dbp:operator dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=Station" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "canton",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within Switzerland\"@en", "Cosine=0.99", "triple=e_dbp:mapCaption \"Location within Switzerland\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "code",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Auto stand\"@en", "Cosine=0.986", "triple=e_dbp:other \"Auto stand\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "japan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"for", "Cosine=1.0", "triple=e_dbp:dir \"for", "class=Station" ],
+    "1" : [ "pair=\"FY2014\"@en", "Cosine=1.0", "triple=e_dbp:passYear \"FY2014\"@en", "class=Station" ],
+    "2" : [ "pair=\"FY2011\"@en", "Cosine=1.0", "triple=e_dbp:passYear \"FY2011\"@en", "class=Station" ],
+    "3" : [ "pair=\"FY2016\"@en", "Cosine=1.0", "triple=e_dbp:passYear \"FY2016\"@en", "class=Station" ],
+    "4" : [ "pair=\"Japan Nagano Prefecture#Japan\"@en", "Cosine=1.0", "triple=e_dbp:mapType \"Japan Nagano Prefecture#Japan\"@en", "class=Station" ],
+    "5" : [ "pair=\"Japan Aichi Prefecture#Japan\"@en", "Cosine=1.0", "triple=e_dbp:mapType \"Japan Aichi Prefecture#Japan\"@en", "class=Station" ],
+    "6" : [ "pair=\"#0072bc\"@en", "Cosine=1.0", "triple=e_dbp:col \"#0072bc\"@en", "class=Station" ],
+    "7" : [ "pair=\"Red\"@en", "Cosine=1.0", "triple=e_dbp:col \"Red\"@en", "class=Station" ],
+    "8" : [ "pair=\"Japan\"@en", "Cosine=0.995", "triple=e_dbp:mapType \"Japan\"@en", "class=Station" ],
+    "9" : [ "pair=\"FY2017\"@en", "Cosine=0.995", "triple=e_dbp:passYear \"FY2017\"@en", "class=Station" ],
+    "10" : [ "pair=\"black\"@en", "Cosine=0.994", "triple=e_dbp:col \"black\"@en", "class=Station" ],
+    "11" : [ "pair=\"FY2015\"@en", "Cosine=0.992", "triple=e_dbp:passYear \"FY2015\"@en", "class=Station" ],
+    "12" : [ "pair=\"b\"@en", "Cosine=0.991", "triple=e_dbp:f \"b\"@en", "class=Station" ],
+    "13" : [ "pair=dbr:East_Japan_Railway_Company", "Cosine=0.99", "triple=e_dbp:operator dbr:East_Japan_Railway_Company", "class=Station" ],
+    "14" : [ "pair=\"Rapid\"@en", "Cosine=0.99", "triple=e_dbp:service \"Rapid\"@en", "class=Station" ],
+    "15" : [ "pair=\"blue\"@en", "Cosine=0.989", "triple=e_dbp:col \"blue\"@en", "class=Station" ],
+    "16" : [ "pair=\"-\"@en", "Cosine=0.988", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "17" : [ "pair=\"red\"@en", "Cosine=0.986", "triple=e_dbp:col \"red\"@en", "class=Station" ],
+    "18" : [ "pair=\"grey\"@en", "Cosine=0.984", "triple=e_dbp:col \"grey\"@en", "class=Station" ],
+    "19" : [ "pair=\"w\"@en", "Cosine=0.984", "triple=e_dbp:f \"w\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "korea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:North_Korea", "Cosine=0.992", "triple=e_dbp:country dbr:North_Korea", "class=Station" ],
+    "1" : [ "pair=dbr:Korean_State_Railway", "Cosine=0.992", "triple=e_dbo:owner dbr:Korean_State_Railway", "class=Station" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "line",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_Sydney_Trains_railway_stations", "Cosine=1.0", "triple=e_dbp:code dbr:List_of_Sydney_Trains_railway_stations", "class=Station" ],
+    "1" : [ "pair=\"Sydney Trains", "Cosine=0.99", "triple=e_dbo:passengersUsedSystem \"Sydney Trains", "class=Station" ],
+    "2" : [ "pair=\"shanghai\"@en", "Cosine=0.987", "triple=e_dbp:symbolLocation \"shanghai\"@en", "class=Station" ],
+    "3" : [ "pair=\"", "Cosine=0.987", "triple=e_dbo:address \"", "class=Station" ],
+    "4" : [ "pair=\"ko\"@en", "Cosine=0.986", "triple=e_dbp:nativeNameLang \"ko\"@en", "class=Station" ],
+    "5" : [ "pair=\"SHM\"@en", "Cosine=0.986", "triple=e_dbp:system \"SHM\"@en", "class=Station" ],
+    "6" : [ "pair=dbr:North_Korea", "Cosine=0.985", "triple=e_dbp:country dbr:North_Korea", "class=Station" ],
+    "7" : [ "pair=dbr:Korean_State_Railway", "Cosine=0.985", "triple=e_dbo:owner dbr:Korean_State_Railway", "class=Station" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "london",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "Cosine=1.0", "triple=e_dbp:access \"yes\"@en", "class=Station" ],
+    "1" : [ "pair=dbr:London_Underground", "Cosine=1.0", "triple=e_dbo:operator dbr:London_Underground", "class=Station" ],
+    "2" : [ "pair=\"underground\"@en", "Cosine=1.0", "triple=e_dbp:symbol \"underground\"@en", "class=Station" ],
+    "3" : [ "pair=\"y\"@en", "Cosine=1.0", "triple=e_dbp:snNone \"y\"@en", "class=Station" ],
+    "4" : [ "pair=dbr:Greater_London", "Cosine=0.993", "triple=e_dbo:location dbr:Greater_London", "class=Station" ],
+    "5" : [ "pair=dbr:United_Kingdom", "Cosine=0.993", "triple=e_dbo:country dbr:United_Kingdom", "class=Station" ],
+    "6" : [ "pair=\"LUL\"@en", "Cosine=0.993", "triple=e_dbp:system \"LUL\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "london underground",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:London_Underground", "Cosine=0.99", "triple=e_dbo:operator dbr:London_Underground", "class=Station" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "metro",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"shanghai\"@en", "Cosine=1.0", "triple=e_dbp:symbolLocation \"shanghai\"@en", "class=Station" ],
+    "1" : [ "pair=\"SHM\"@en", "Cosine=1.0", "triple=e_dbp:system \"SHM\"@en", "class=Station" ],
+    "2" : [ "pair=\"madrid\"@en", "Cosine=0.99", "triple=e_dbp:symbolLocation \"madrid\"@en", "class=Station" ],
+    "3" : [ "pair=dbr:Consorcio_Regional_de_Transportes_de_Madrid", "Cosine=0.99", "triple=e_dbo:owner dbr:Consorcio_Regional_de_Transportes_de_Madrid", "class=Station" ],
+    "4" : [ "pair=\"Madrid Metro station\"@en", "Cosine=0.99", "triple=e_dbp:type \"Madrid Metro station\"@en", "class=Station" ],
+    "5" : [ "pair=dbr:Madrid_Metro", "Cosine=0.99", "triple=e_dbo:type dbr:Madrid_Metro", "class=Station" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "mã©tro",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"France Paris\"@en", "Cosine=0.993", "triple=e_dbp:mapType \"France Paris\"@en", "class=Station" ],
+    "1" : [ "pair=\"m\"@en", "Cosine=0.987", "triple=e_dbp:symbol \"m\"@en", "class=Station" ],
+    "2" : [ "pair=dbr:Paris_MÃ©tro", "Cosine=0.987", "triple=e_dbo:type dbr:Paris_MÃ©tro", "class=Station" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "nagano",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Japan Nagano Prefecture#Japan\"@en", "Cosine=0.991", "triple=e_dbp:mapType \"Japan Nagano Prefecture#Japan\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "netherlands",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Netherlands Dutch railway station\"@en", "Cosine=1.0", "triple=e_dbp:mapType \"Netherlands Dutch railway station\"@en", "class=Station" ],
+    "1" : [ "pair=\"NS\"@en", "Cosine=0.993", "triple=e_dbp:style \"NS\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "north",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:North_Korea", "Cosine=1.0", "triple=e_dbp:country dbr:North_Korea", "class=Station" ],
+    "1" : [ "pair=dbr:Korean_State_Railway", "Cosine=1.0", "triple=e_dbo:owner dbr:Korean_State_Railway", "class=Station" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "north korea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:North_Korea", "Cosine=0.992", "triple=e_dbp:country dbr:North_Korea", "class=Station" ],
+    "1" : [ "pair=dbr:Korean_State_Railway", "Cosine=0.992", "triple=e_dbo:owner dbr:Korean_State_Railway", "class=Station" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "pakistan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ministry_of_Railways_(Pakistan", "Cosine=0.991", "triple=e_dbo:owner dbr:Ministry_of_Railways_(Pakistan", "class=Station" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "paris",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ãle-de-France", "Cosine=1.0", "triple=e_dbp:borough dbr:Ãle-de-France", "class=Station" ],
+    "1" : [ "pair=dbr:RATP_Group", "Cosine=1.0", "triple=e_dbo:owner dbr:RATP_Group", "class=Station" ],
+    "2" : [ "pair=\"France Paris\"@en", "Cosine=1.0", "triple=e_dbp:mapType \"France Paris\"@en", "class=Station" ],
+    "3" : [ "pair=\"m\"@en", "Cosine=1.0", "triple=e_dbp:symbol \"m\"@en", "class=Station" ],
+    "4" : [ "pair=dbr:Paris_MÃ©tro", "Cosine=1.0", "triple=e_dbo:type dbr:Paris_MÃ©tro", "class=Station" ],
+    "5" : [ "pair=\"paris\"@en", "Cosine=0.988", "triple=e_dbp:symbolLocation \"paris\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "paris mã©tro",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"France Paris\"@en", "Cosine=0.993", "triple=e_dbp:mapType \"France Paris\"@en", "class=Station" ],
+    "1" : [ "pair=\"m\"@en", "Cosine=0.987", "triple=e_dbp:symbol \"m\"@en", "class=Station" ],
+    "2" : [ "pair=dbr:Paris_MÃ©tro", "Cosine=0.987", "triple=e_dbo:type dbr:Paris_MÃ©tro", "class=Station" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "pinyin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"SHM\"@en", "Cosine=1.0", "triple=e_dbp:system \"SHM\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "railway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_Sydney_Trains_railway_stations", "Cosine=1.0", "triple=e_dbp:code dbr:List_of_Sydney_Trains_railway_stations", "class=Station" ],
+    "1" : [ "pair=dbr:North_Eastern_Railway_(United_Kingdom", "Cosine=1.0", "triple=e_dbp:route dbr:North_Eastern_Railway_(United_Kingdom", "class=Station" ],
+    "2" : [ "pair=dbr:London_and_North_Western_Railway", "Cosine=1.0", "triple=e_dbp:route dbr:London_and_North_Western_Railway", "class=Station" ],
+    "3" : [ "pair=dbr:Transport_for_Wales_Rail_Services", "Cosine=1.0", "triple=e_dbp:route dbr:Transport_for_Wales_Rail_Services", "class=Station" ],
+    "4" : [ "pair=dbr:Great_Western_Railway_(train_operating_company", "Cosine=1.0", "triple=e_dbp:route dbr:Great_Western_Railway_(train_operating_company", "class=Station" ],
+    "5" : [ "pair=\"Auto stand\"@en", "Cosine=1.0", "triple=e_dbp:other \"Auto stand\"@en", "class=Station" ],
+    "6" : [ "pair=dbr:North_Korea", "Cosine=1.0", "triple=e_dbp:country dbr:North_Korea", "class=Station" ],
+    "7" : [ "pair=\"Sydney Trains", "Cosine=1.0", "triple=e_dbo:passengersUsedSystem \"Sydney Trains", "class=Station" ],
+    "8" : [ "pair=\"Auto stand\"", "Cosine=1.0", "triple=e_dbo:otherServingLines \"Auto stand\"", "class=Station" ],
+    "9" : [ "pair=dbr:State_Railway_of_Thailand", "Cosine=1.0", "triple=e_dbo:owner dbr:State_Railway_of_Thailand", "class=Station" ],
+    "10" : [ "pair=dbr:Rete_Ferroviaria_Italiana", "Cosine=1.0", "triple=e_dbo:owner dbr:Rete_Ferroviaria_Italiana", "class=Station" ],
+    "11" : [ "pair=dbr:Korean_State_Railway", "Cosine=1.0", "triple=e_dbo:owner dbr:Korean_State_Railway", "class=Station" ],
+    "12" : [ "pair=\"Station opens\"@en", "Cosine=1.0", "triple=e_dbp:events \"Station opens\"@en", "class=Station" ],
+    "13" : [ "pair=\"closed\"@en", "Cosine=1.0", "triple=e_dbp:events \"closed\"@en", "class=Station" ],
+    "14" : [ "pair=\"F1\"@en", "Cosine=1.0", "triple=e_dbp:dftCategory \"F1\"@en", "class=Station" ],
+    "15" : [ "pair=dbr:VicTrack", "Cosine=1.0", "triple=e_dbp:owned dbr:VicTrack", "class=Station" ],
+    "16" : [ "pair=\"Location within Switzerland\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within Switzerland\"@en", "class=Station" ],
+    "17" : [ "pair=\"Switzerland\"@en", "Cosine=1.0", "triple=e_dbp:mapType \"Switzerland\"@en", "class=Station" ],
+    "18" : [ "pair=\"Netherlands Dutch railway station\"@en", "Cosine=1.0", "triple=e_dbp:mapType \"Netherlands Dutch railway station\"@en", "class=Station" ],
+    "19" : [ "pair=dbr:Abellio_ScotRail", "Cosine=0.994", "triple=e_dbp:route dbr:Abellio_ScotRail", "class=Station" ],
+    "20" : [ "pair=dbr:Transport_Asset_Holding_Entity", "Cosine=0.993", "triple=e_dbo:owner dbr:Transport_Asset_Holding_Entity", "class=Station" ],
+    "21" : [ "pair=\"Station closes\"@en", "Cosine=0.992", "triple=e_dbp:events \"Station closes\"@en", "class=Station" ],
+    "22" : [ "pair=\"Japan Aichi Prefecture#Japan\"@en", "Cosine=0.992", "triple=e_dbp:mapType \"Japan Aichi Prefecture#Japan\"@en", "class=Station" ],
+    "23" : [ "pair=\"y\"@en", "Cosine=0.991", "triple=e_dbp:seNone \"y\"@en", "class=Station" ],
+    "24" : [ "pair=\"5\"", "Cosine=0.991", "triple=e_dbo:railwayPlatforms \"5\"", "class=Station" ],
+    "25" : [ "pair=\"Ground\"@en", "Cosine=0.99", "triple=e_dbp:structure \"Ground\"@en", "class=Station" ],
+    "26" : [ "pair=dbr:List_of_railway_stations_in_India", "Cosine=0.99", "triple=e_dbo:type dbr:List_of_railway_stations_in_India", "class=Station" ],
+    "27" : [ "pair=\"Closed completely\"@en", "Cosine=0.99", "triple=e_dbp:events \"Closed completely\"@en", "class=Station" ],
+    "28" : [ "pair=dbr:Great_Western_Railway", "Cosine=0.99", "triple=e_dbp:pregroup dbr:Great_Western_Railway", "class=Station" ],
+    "29" : [ "pair=\"F2\"@en", "Cosine=0.989", "triple=e_dbp:dftCategory \"F2\"@en", "class=Station" ],
+    "30" : [ "pair=dbr:Ministry_of_Railways_(Pakistan", "Cosine=0.989", "triple=e_dbo:owner dbr:Ministry_of_Railways_(Pakistan", "class=Station" ],
+    "31" : [ "pair=\"Ground\"", "Cosine=0.988", "triple=e_dbo:stationStructure \"Ground\"", "class=Station" ],
+    "32" : [ "pair=\"Great Indian Peninsula Railway\"@en", "Cosine=0.987", "triple=e_dbo:formerName \"Great Indian Peninsula Railway\"@en", "class=Station" ],
+    "33" : [ "pair=dbr:Great_Indian_Peninsula_Railway", "Cosine=0.987", "triple=e_dbp:former dbr:Great_Indian_Peninsula_Railway", "class=Station" ],
+    "34" : [ "pair=\"Red\"@en", "Cosine=0.986", "triple=e_dbp:col \"Red\"@en", "class=Station" ],
+    "35" : [ "pair=\"Staffed\"@en", "Cosine=0.985", "triple=e_dbp:status \"Staffed\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "railway\u001Cstation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Switzerland\"@en", "Cosine=0.99", "triple=e_dbp:mapType \"Switzerland\"@en", "class=Station" ],
+    "1" : [ "pair=\"Location within Switzerland\"@en", "Cosine=0.99", "triple=e_dbp:mapCaption \"Location within Switzerland\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "railway station",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_Sydney_Trains_railway_stations", "Cosine=1.0", "triple=e_dbp:code dbr:List_of_Sydney_Trains_railway_stations", "class=Station" ],
+    "1" : [ "pair=dbr:North_Eastern_Railway_(United_Kingdom", "Cosine=1.0", "triple=e_dbp:route dbr:North_Eastern_Railway_(United_Kingdom", "class=Station" ],
+    "2" : [ "pair=dbr:Transport_for_Wales_Rail_Services", "Cosine=1.0", "triple=e_dbp:route dbr:Transport_for_Wales_Rail_Services", "class=Station" ],
+    "3" : [ "pair=dbr:Rete_Ferroviaria_Italiana", "Cosine=1.0", "triple=e_dbo:owner dbr:Rete_Ferroviaria_Italiana", "class=Station" ],
+    "4" : [ "pair=\"F1\"@en", "Cosine=1.0", "triple=e_dbp:dftCategory \"F1\"@en", "class=Station" ],
+    "5" : [ "pair=dbr:VicTrack", "Cosine=1.0", "triple=e_dbp:owned dbr:VicTrack", "class=Station" ],
+    "6" : [ "pair=\"Location within Switzerland\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within Switzerland\"@en", "class=Station" ],
+    "7" : [ "pair=\"Switzerland\"@en", "Cosine=1.0", "triple=e_dbp:mapType \"Switzerland\"@en", "class=Station" ],
+    "8" : [ "pair=\"Station opens\"@en", "Cosine=0.993", "triple=e_dbp:events \"Station opens\"@en", "class=Station" ],
+    "9" : [ "pair=\"Station closes\"@en", "Cosine=0.992", "triple=e_dbp:events \"Station closes\"@en", "class=Station" ],
+    "10" : [ "pair=\"Japan Aichi Prefecture#Japan\"@en", "Cosine=0.992", "triple=e_dbp:mapType \"Japan Aichi Prefecture#Japan\"@en", "class=Station" ],
+    "11" : [ "pair=\"y\"@en", "Cosine=0.991", "triple=e_dbp:seNone \"y\"@en", "class=Station" ],
+    "12" : [ "pair=dbr:List_of_railway_stations_in_India", "Cosine=0.99", "triple=e_dbo:type dbr:List_of_railway_stations_in_India", "class=Station" ],
+    "13" : [ "pair=\"Sydney Trains", "Cosine=0.99", "triple=e_dbo:passengersUsedSystem \"Sydney Trains", "class=Station" ],
+    "14" : [ "pair=\"Netherlands Dutch railway station\"@en", "Cosine=0.99", "triple=e_dbp:mapType \"Netherlands Dutch railway station\"@en", "class=Station" ],
+    "15" : [ "pair=\"Closed completely\"@en", "Cosine=0.99", "triple=e_dbp:events \"Closed completely\"@en", "class=Station" ],
+    "16" : [ "pair=dbr:Great_Western_Railway_(train_operating_company", "Cosine=0.99", "triple=e_dbp:route dbr:Great_Western_Railway_(train_operating_company", "class=Station" ],
+    "17" : [ "pair=\"Ground\"@en", "Cosine=0.988", "triple=e_dbp:structure \"Ground\"@en", "class=Station" ],
+    "18" : [ "pair=dbr:Abellio_ScotRail", "Cosine=0.988", "triple=e_dbp:route dbr:Abellio_ScotRail", "class=Station" ],
+    "19" : [ "pair=dbr:Transport_Asset_Holding_Entity", "Cosine=0.987", "triple=e_dbo:owner dbr:Transport_Asset_Holding_Entity", "class=Station" ],
+    "20" : [ "pair=\"Red\"@en", "Cosine=0.986", "triple=e_dbp:col \"Red\"@en", "class=Station" ],
+    "21" : [ "pair=\"Auto stand\"@en", "Cosine=0.986", "triple=e_dbp:other \"Auto stand\"@en", "class=Station" ],
+    "22" : [ "pair=\"Auto stand\"", "Cosine=0.986", "triple=e_dbo:otherServingLines \"Auto stand\"", "class=Station" ],
+    "23" : [ "pair=\"Ground\"", "Cosine=0.986", "triple=e_dbo:stationStructure \"Ground\"", "class=Station" ],
+    "24" : [ "pair=\"F2\"@en", "Cosine=0.986", "triple=e_dbp:dftCategory \"F2\"@en", "class=Station" ],
+    "25" : [ "pair=dbr:North_Korea", "Cosine=0.985", "triple=e_dbp:country dbr:North_Korea", "class=Station" ],
+    "26" : [ "pair=dbr:Korean_State_Railway", "Cosine=0.985", "triple=e_dbo:owner dbr:Korean_State_Railway", "class=Station" ],
+    "27" : [ "pair=dbr:Great_Western_Railway", "Cosine=0.985", "triple=e_dbp:pregroup dbr:Great_Western_Railway", "class=Station" ],
+    "28" : [ "pair=dbr:Ministry_of_Railways_(Pakistan", "Cosine=0.984", "triple=e_dbo:owner dbr:Ministry_of_Railways_(Pakistan", "class=Station" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "scotland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Abellio_ScotRail", "Cosine=0.993", "triple=e_dbp:manager dbr:Abellio_ScotRail", "class=Station" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "shanghai",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"shanghai\"@en", "Cosine=1.0", "triple=e_dbp:symbolLocation \"shanghai\"@en", "class=Station" ],
+    "1" : [ "pair=\"SHM\"@en", "Cosine=1.0", "triple=e_dbp:system \"SHM\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "shanghai metro",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"shanghai\"@en", "Cosine=1.0", "triple=e_dbp:symbolLocation \"shanghai\"@en", "class=Station" ],
+    "1" : [ "pair=\"SHM\"@en", "Cosine=1.0", "triple=e_dbp:system \"SHM\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "station",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "Cosine=1.0", "triple=e_dbp:access \"yes\"@en", "class=Station" ],
+    "1" : [ "pair=dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "Cosine=1.0", "triple=e_dbp:operator dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=Station" ],
+    "2" : [ "pair=dbr:East_Japan_Railway_Company", "Cosine=1.0", "triple=e_dbp:operator dbr:East_Japan_Railway_Company", "class=Station" ],
+    "3" : [ "pair=dbr:RATP_Group", "Cosine=1.0", "triple=e_dbp:operator dbr:RATP_Group", "class=Station" ],
+    "4" : [ "pair=dbr:DB_Station&Service", "Cosine=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ],
+    "5" : [ "pair=dbr:West_Japan_Railway_Company", "Cosine=1.0", "triple=e_dbp:operator dbr:West_Japan_Railway_Company", "class=Station" ],
+    "6" : [ "pair=dbr:DB_Netz", "Cosine=1.0", "triple=e_dbp:operator dbr:DB_Netz", "class=Station" ],
+    "7" : [ "pair=\"Rapid\"@en", "Cosine=1.0", "triple=e_dbp:service \"Rapid\"@en", "class=Station" ],
+    "8" : [ "pair=dbr:List_of_Sydney_Trains_railway_stations", "Cosine=1.0", "triple=e_dbp:code dbr:List_of_Sydney_Trains_railway_stations", "class=Station" ],
+    "9" : [ "pair=dbr:North_Eastern_Railway_(United_Kingdom", "Cosine=1.0", "triple=e_dbp:route dbr:North_Eastern_Railway_(United_Kingdom", "class=Station" ],
+    "10" : [ "pair=dbr:London_and_North_Western_Railway", "Cosine=1.0", "triple=e_dbp:route dbr:London_and_North_Western_Railway", "class=Station" ],
+    "11" : [ "pair=dbr:Midland_Railway", "Cosine=1.0", "triple=e_dbp:route dbr:Midland_Railway", "class=Station" ],
+    "12" : [ "pair=dbr:Transport_for_Wales_Rail_Services", "Cosine=1.0", "triple=e_dbp:route dbr:Transport_for_Wales_Rail_Services", "class=Station" ],
+    "13" : [ "pair=\"\"@en", "Cosine=1.0", "triple=e_dbp:route \"\"@en", "class=Station" ],
+    "14" : [ "pair=dbr:Abellio_ScotRail", "Cosine=1.0", "triple=e_dbp:route dbr:Abellio_ScotRail", "class=Station" ],
+    "15" : [ "pair=dbr:Great_Western_Railway_(train_operating_company", "Cosine=1.0", "triple=e_dbp:route dbr:Great_Western_Railway_(train_operating_company", "class=Station" ],
+    "16" : [ "pair=dbr:DB_Regio", "Cosine=1.0", "triple=e_dbp:trainOperators dbr:DB_Regio", "class=Station" ],
+    "17" : [ "pair=\"Station platform\"@en", "Cosine=1.0", "triple=e_dbp:caption \"Station platform\"@en", "class=Station" ],
+    "18" : [ "pair=\"Station entrance\"@en", "Cosine=1.0", "triple=e_dbp:caption \"Station entrance\"@en", "class=Station" ],
+    "19" : [ "pair=\"Bus\"@en", "Cosine=1.0", "triple=e_dbp:other \"Bus\"@en", "class=Station" ],
+    "20" : [ "pair=\"Auto stand\"@en", "Cosine=1.0", "triple=e_dbp:other \"Auto stand\"@en", "class=Station" ],
+    "21" : [ "pair=dbr:Greater_London", "Cosine=1.0", "triple=e_dbo:location dbr:Greater_London", "class=Station" ],
+    "22" : [ "pair=dbr:London_Underground", "Cosine=1.0", "triple=e_dbo:operator dbr:London_Underground", "class=Station" ],
+    "23" : [ "pair=\"1934\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=1.0", "triple=e_dbo:openingYear \"1934\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "24" : [ "pair=\"1923\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=1.0", "triple=e_dbo:openingYear \"1923\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "25" : [ "pair=\"1912\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=1.0", "triple=e_dbo:openingYear \"1912\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "26" : [ "pair=\"A\"@en", "Cosine=1.0", "triple=e_dbp:zone \"A\"@en", "class=Station" ],
+    "27" : [ "pair=\"for", "Cosine=1.0", "triple=e_dbp:dir \"for", "class=Station" ],
+    "28" : [ "pair=dbr:Germany", "Cosine=1.0", "triple=e_dbp:country dbr:Germany", "class=Station" ],
+    "29" : [ "pair=dbr:North_Korea", "Cosine=1.0", "triple=e_dbp:country dbr:North_Korea", "class=Station" ],
+    "30" : [ "pair=\"Italy\"@en", "Cosine=1.0", "triple=e_dbp:country \"Italy\"@en", "class=Station" ],
+    "31" : [ "pair=\"Spain\"@en", "Cosine=1.0", "triple=e_dbp:country \"Spain\"@en", "class=Station" ],
+    "32" : [ "pair=\"Sydney Trains", "Cosine=1.0", "triple=e_dbo:passengersUsedSystem \"Sydney Trains", "class=Station" ],
+    "33" : [ "pair=\"A\"", "Cosine=1.0", "triple=e_dbo:fareZone \"A\"", "class=Station" ],
+    "34" : [ "pair=\"b\"@en", "Cosine=1.0", "triple=e_dbp:f \"b\"@en", "class=Station" ],
+    "35" : [ "pair=\"yes\"", "Cosine=1.0", "triple=e_dbo:bicycleInformation \"yes\"", "class=Station" ],
+    "36" : [ "pair=\"2009\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=1.0", "triple=e_dbo:visitorStatisticsAsOf \"2009\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "37" : [ "pair=\"2013\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=1.0", "triple=e_dbo:visitorStatisticsAsOf \"2013\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "38" : [ "pair=dbr:Ãle-de-France", "Cosine=1.0", "triple=e_dbp:borough dbr:Ãle-de-France", "class=Station" ],
+    "39" : [ "pair=\"2 side\"", "Cosine=1.0", "triple=e_dbo:railwayPlatforms \"2 side\"", "class=Station" ],
+    "40" : [ "pair=\"Auto stand\"", "Cosine=1.0", "triple=e_dbo:otherServingLines \"Auto stand\"", "class=Station" ],
+    "41" : [ "pair=\"Bus\"", "Cosine=1.0", "triple=e_dbo:otherServingLines \"Bus\"", "class=Station" ],
+    "42" : [ "pair=dbr:Rete_Ferroviaria_Italiana", "Cosine=1.0", "triple=e_dbo:owner dbr:Rete_Ferroviaria_Italiana", "class=Station" ],
+    "43" : [ "pair=dbr:Korean_State_Railway", "Cosine=1.0", "triple=e_dbo:owner dbr:Korean_State_Railway", "class=Station" ],
+    "44" : [ "pair=dbr:Deutsche_Bahn", "Cosine=1.0", "triple=e_dbo:owner dbr:Deutsche_Bahn", "class=Station" ],
+    "45" : [ "pair=dbr:Consorcio_Regional_de_Transportes_de_Madrid", "Cosine=1.0", "triple=e_dbo:owner dbr:Consorcio_Regional_de_Transportes_de_Madrid", "class=Station" ],
+    "46" : [ "pair=\"y\"@en", "Cosine=1.0", "triple=e_dbp:seNone \"y\"@en", "class=Station" ],
+    "47" : [ "pair=\"Station closes\"@en", "Cosine=1.0", "triple=e_dbp:events \"Station closes\"@en", "class=Station" ],
+    "48" : [ "pair=\"Station opens\"@en", "Cosine=1.0", "triple=e_dbp:events \"Station opens\"@en", "class=Station" ],
+    "49" : [ "pair=\"FY2014\"@en", "Cosine=1.0", "triple=e_dbp:passYear \"FY2014\"@en", "class=Station" ],
+    "50" : [ "pair=\"FY2017\"@en", "Cosine=1.0", "triple=e_dbp:passYear \"FY2017\"@en", "class=Station" ],
+    "51" : [ "pair=\"FY2011\"@en", "Cosine=1.0", "triple=e_dbp:passYear \"FY2011\"@en", "class=Station" ],
+    "52" : [ "pair=\"FY2018\"@en", "Cosine=1.0", "triple=e_dbp:passYear \"FY2018\"@en", "class=Station" ],
+    "53" : [ "pair=\"FY2015\"@en", "Cosine=1.0", "triple=e_dbp:passYear \"FY2015\"@en", "class=Station" ],
+    "54" : [ "pair=\"Bus terminal\"@en", "Cosine=1.0", "triple=e_dbp:connections \"Bus terminal\"@en", "class=Station" ],
+    "55" : [ "pair=\"E\"@en", "Cosine=1.0", "triple=e_dbp:dftCategory \"E\"@en", "class=Station" ],
+    "56" : [ "pair=\"F1\"@en", "Cosine=1.0", "triple=e_dbp:dftCategory \"F1\"@en", "class=Station" ],
+    "57" : [ "pair=\"F2\"@en", "Cosine=1.0", "triple=e_dbp:dftCategory \"F2\"@en", "class=Station" ],
+    "58" : [ "pair=\"Metra\"@en", "Cosine=1.0", "triple=e_dbp:style \"Metra\"@en", "class=Station" ],
+    "59" : [ "pair=\"NS\"@en", "Cosine=1.0", "triple=e_dbp:style \"NS\"@en", "class=Station" ],
+    "60" : [ "pair=\"Via Rail\"@en", "Cosine=1.0", "triple=e_dbp:style \"Via Rail\"@en", "class=Station" ],
+    "61" : [ "pair=\"d\"@en", "Cosine=1.0", "triple=e_dbp:b \"d\"@en", "class=Station" ],
+    "62" : [ "pair=dbr:VicTrack", "Cosine=1.0", "triple=e_dbp:owned dbr:VicTrack", "class=Station" ],
+    "63" : [ "pair=\"Location within Switzerland\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within Switzerland\"@en", "class=Station" ],
+    "64" : [ "pair=\"Switzerland\"@en", "Cosine=1.0", "triple=e_dbp:mapType \"Switzerland\"@en", "class=Station" ],
+    "65" : [ "pair=\"Bavaria#Germany#Europe\"@en", "Cosine=1.0", "triple=e_dbp:mapType \"Bavaria#Germany#Europe\"@en", "class=Station" ],
+    "66" : [ "pair=\"Japan Aichi Prefecture#Japan\"@en", "Cosine=1.0", "triple=e_dbp:mapType \"Japan Aichi Prefecture#Japan\"@en", "class=Station" ],
+    "67" : [ "pair=\"France Paris\"@en", "Cosine=1.0", "triple=e_dbp:mapType \"France Paris\"@en", "class=Station" ],
+    "68" : [ "pair=\"Madrid Metro station\"@en", "Cosine=1.0", "triple=e_dbp:type \"Madrid Metro station\"@en", "class=Station" ],
+    "69" : [ "pair=dbr:Railway_station_types_in_Germany", "Cosine=1.0", "triple=e_dbp:type dbr:Railway_station_types_in_Germany", "class=Station" ],
+    "70" : [ "pair=dbr:Island_platform", "Cosine=1.0", "triple=e_dbp:platform dbr:Island_platform", "class=Station" ],
+    "71" : [ "pair=\"#0072bc\"@en", "Cosine=1.0", "triple=e_dbp:col \"#0072bc\"@en", "class=Station" ],
+    "72" : [ "pair=\"blue\"@en", "Cosine=1.0", "triple=e_dbp:col \"blue\"@en", "class=Station" ],
+    "73" : [ "pair=\"black\"@en", "Cosine=1.0", "triple=e_dbp:col \"black\"@en", "class=Station" ],
+    "74" : [ "pair=\"grey\"@en", "Cosine=1.0", "triple=e_dbp:col \"grey\"@en", "class=Station" ],
+    "75" : [ "pair=\"Red\"@en", "Cosine=1.0", "triple=e_dbp:col \"Red\"@en", "class=Station" ],
+    "76" : [ "pair=dbr:United_Kingdom", "Cosine=1.0", "triple=e_dbo:country dbr:United_Kingdom", "class=Station" ],
+    "77" : [ "pair=\"ko\"@en", "Cosine=1.0", "triple=e_dbp:nativeNameLang \"ko\"@en", "class=Station" ],
+    "78" : [ "pair=\"underground\"@en", "Cosine=1.0", "triple=e_dbp:symbol \"underground\"@en", "class=Station" ],
+    "79" : [ "pair=\"m\"@en", "Cosine=1.0", "triple=e_dbp:symbol \"m\"@en", "class=Station" ],
+    "80" : [ "pair=\"s\"@en", "Cosine=1.0", "triple=e_dbp:symbol \"s\"@en", "class=Station" ],
+    "81" : [ "pair=\"Aboveground\"@en", "Cosine=1.0", "triple=e_dbp:structure \"Aboveground\"@en", "class=Station" ],
+    "82" : [ "pair=\"Aboveground\"", "Cosine=1.0", "triple=e_dbo:stationStructure \"Aboveground\"", "class=Station" ],
+    "83" : [ "pair=\"madrid\"@en", "Cosine=1.0", "triple=e_dbp:symbolLocation \"madrid\"@en", "class=Station" ],
+    "84" : [ "pair=\"paris\"@en", "Cosine=1.0", "triple=e_dbp:symbolLocation \"paris\"@en", "class=Station" ],
+    "85" : [ "pair=\"shanghai\"@en", "Cosine=1.0", "triple=e_dbp:symbolLocation \"shanghai\"@en", "class=Station" ],
+    "86" : [ "pair=dbr:Madrid", "Cosine=1.0", "triple=e_dbp:address dbr:Madrid", "class=Station" ],
+    "87" : [ "pair=dbr:Jiangsu", "Cosine=1.0", "triple=e_dbp:address dbr:Jiangsu", "class=Station" ],
+    "88" : [ "pair=dbr:Paris_MÃ©tro", "Cosine=1.0", "triple=e_dbo:type dbr:Paris_MÃ©tro", "class=Station" ],
+    "89" : [ "pair=dbr:Madrid_Metro", "Cosine=1.0", "triple=e_dbo:type dbr:Madrid_Metro", "class=Station" ],
+    "90" : [ "pair=\"SHM\"@en", "Cosine=1.0", "triple=e_dbp:system \"SHM\"@en", "class=Station" ],
+    "91" : [ "pair=\"LUL\"@en", "Cosine=1.0", "triple=e_dbp:system \"LUL\"@en", "class=Station" ],
+    "92" : [ "pair=\"for  and\"@en", "Cosine=0.998", "triple=e_dbp:dir \"for  and\"@en", "class=Station" ],
+    "93" : [ "pair=\"Local\"@en", "Cosine=0.998", "triple=e_dbp:service \"Local\"@en", "class=Station" ],
+    "94" : [ "pair=\"Staffed\"@en", "Cosine=0.998", "triple=e_dbp:status \"Staffed\"@en", "class=Station" ],
+    "95" : [ "pair=\"de\"@en", "Cosine=0.998", "triple=e_dbp:nativeNameLang \"de\"@en", "class=Station" ],
+    "96" : [ "pair=\"gray\"@en", "Cosine=0.997", "triple=e_dbp:col \"gray\"@en", "class=Station" ],
+    "97" : [ "pair=\"w\"@en", "Cosine=0.997", "triple=e_dbp:f \"w\"@en", "class=Station" ],
+    "98" : [ "pair=\"Ground\"@en", "Cosine=0.997", "triple=e_dbp:structure \"Ground\"@en", "class=Station" ],
+    "99" : [ "pair=\"Japan\"@en", "Cosine=0.997", "triple=e_dbp:mapType \"Japan\"@en", "class=Station" ],
+    "100" : [ "pair=\"ja\"@en", "Cosine=0.997", "triple=e_dbp:nativeNameLang \"ja\"@en", "class=Station" ],
+    "101" : [ "pair=\"Through station\"@en", "Cosine=0.996", "triple=e_dbp:type \"Through station\"@en", "class=Station" ],
+    "102" : [ "pair=\"1\"", "Cosine=0.996", "triple=e_dbo:fareZone \"1\"", "class=Station" ],
+    "103" : [ "pair=\"red\"@en", "Cosine=0.996", "triple=e_dbp:col \"red\"@en", "class=Station" ],
+    "104" : [ "pair=\"Germany\"@en", "Cosine=0.996", "triple=e_dbp:country \"Germany\"@en", "class=Station" ],
+    "105" : [ "pair=\"orange\"@en", "Cosine=0.996", "triple=e_dbp:col \"orange\"@en", "class=Station" ],
+    "106" : [ "pair=\"rail\"@en", "Cosine=0.996", "triple=e_dbp:symbol \"rail\"@en", "class=Station" ],
+    "107" : [ "pair=\"FY2016\"@en", "Cosine=0.995", "triple=e_dbp:passYear \"FY2016\"@en", "class=Station" ],
+    "108" : [ "pair=\"2017\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.995", "triple=e_dbo:visitorStatisticsAsOf \"2017\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "109" : [ "pair=\"Express\"@en", "Cosine=0.995", "triple=e_dbp:service \"Express\"@en", "class=Station" ],
+    "110" : [ "pair=\"for\"@en", "Cosine=0.995", "triple=e_dbp:dir \"for\"@en", "class=Station" ],
+    "111" : [ "pair=\"Ground\"", "Cosine=0.995", "triple=e_dbo:stationStructure \"Ground\"", "class=Station" ],
+    "112" : [ "pair=\"France\"@en", "Cosine=0.995", "triple=e_dbp:country \"France\"@en", "class=Station" ],
+    "113" : [ "pair=\"Bus stop\"@en", "Cosine=0.995", "triple=e_dbp:connections \"Bus stop\"@en", "class=Station" ],
+    "114" : [ "pair=dbr:Northern_Trains", "Cosine=0.994", "triple=e_dbp:manager dbr:Northern_Trains", "class=Station" ],
+    "115" : [ "pair=dbr:Netherlands", "Cosine=0.994", "triple=e_dbp:country dbr:Netherlands", "class=Station" ],
+    "116" : [ "pair=dbr:Transport_Asset_Holding_Entity", "Cosine=0.993", "triple=e_dbo:owner dbr:Transport_Asset_Holding_Entity", "class=Station" ],
+    "117" : [ "pair=\"", "Cosine=0.993", "triple=e_dbo:address \"", "class=Station" ],
+    "118" : [ "pair=\"-\"@en", "Cosine=0.993", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "119" : [ "pair=dbr:Great_Western_Railway", "Cosine=0.993", "triple=e_dbp:original dbr:Great_Western_Railway", "class=Station" ],
+    "120" : [ "pair=\"1913\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.993", "triple=e_dbo:openingYear \"1913\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "121" : [ "pair=\"Island platform\"", "Cosine=0.993", "triple=e_dbo:railwayPlatforms \"Island platform\"", "class=Station" ],
+    "122" : [ "pair=\"subway\"@en", "Cosine=0.993", "triple=e_dbp:symbol \"subway\"@en", "class=Station" ],
+    "123" : [ "pair=\"beijing\"@en", "Cosine=0.993", "triple=e_dbp:symbolLocation \"beijing\"@en", "class=Station" ],
+    "124" : [ "pair=\"SEPTA\"@en", "Cosine=0.992", "triple=e_dbp:style \"SEPTA\"@en", "class=Station" ],
+    "125" : [ "pair=\"green\"@en", "Cosine=0.992", "triple=e_dbp:col \"green\"@en", "class=Station" ],
+    "126" : [ "pair=\"\"", "Cosine=0.992", "triple=e_dbo:fareZone \"\"", "class=Station" ],
+    "127" : [ "pair=\"1927\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.992", "triple=e_dbo:openingYear \"1927\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "128" : [ "pair=\"1914\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.992", "triple=e_dbo:openingYear \"1914\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "129" : [ "pair=\"Unstaffed\"@en", "Cosine=0.992", "triple=e_dbp:status \"Unstaffed\"@en", "class=Station" ],
+    "130" : [ "pair=\"Platform\"@en", "Cosine=0.992", "triple=e_dbp:caption \"Platform\"@en", "class=Station" ],
+    "131" : [ "pair=\"closed\"@en", "Cosine=0.991", "triple=e_dbp:events \"closed\"@en", "class=Station" ],
+    "132" : [ "pair=\"Japan Nagano Prefecture#Japan\"@en", "Cosine=0.991", "triple=e_dbp:mapType \"Japan Nagano Prefecture#Japan\"@en", "class=Station" ],
+    "133" : [ "pair=\"0750\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.991", "triple=e_dbo:yearOfElectrification \"0750\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "134" : [ "pair=\"septa\"@en", "Cosine=0.991", "triple=e_dbp:symbol \"septa\"@en", "class=Station" ],
+    "135" : [ "pair=\"1929\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.991", "triple=e_dbo:openingYear \"1929\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "136" : [ "pair=\"BJS\"@en", "Cosine=0.991", "triple=e_dbp:system \"BJS\"@en", "class=Station" ],
+    "137" : [ "pair=\"1897\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.99", "triple=e_dbo:openingYear \"1897\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "138" : [ "pair=\"(Line and station open", "Cosine=0.99", "triple=e_dbp:next \"(Line and station open", "class=Station" ],
+    "139" : [ "pair=dbr:East_Indian_Railway_Company", "Cosine=0.99", "triple=e_dbp:former dbr:East_Indian_Railway_Company", "class=Station" ],
+    "140" : [ "pair=dbr:List_of_railway_stations_in_India", "Cosine=0.99", "triple=e_dbo:type dbr:List_of_railway_stations_in_India", "class=Station" ],
+    "141" : [ "pair=\"1915\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.99", "triple=e_dbo:openingYear \"1915\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "142" : [ "pair=\"1930\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.99", "triple=e_dbo:openingYear \"1930\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "143" : [ "pair=\"Netherlands Dutch railway station\"@en", "Cosine=0.99", "triple=e_dbp:mapType \"Netherlands Dutch railway station\"@en", "class=Station" ],
+    "144" : [ "pair=dbr:London_and_North_Eastern_Railway", "Cosine=0.99", "triple=e_dbp:postgroup dbr:London_and_North_Eastern_Railway", "class=Station" ],
+    "145" : [ "pair=\"Closed completely\"@en", "Cosine=0.99", "triple=e_dbp:events \"Closed completely\"@en", "class=Station" ],
+    "146" : [ "pair=\"1side platform\"", "Cosine=0.989", "triple=e_dbo:railwayPlatforms \"1side platform\"", "class=Station" ],
+    "147" : [ "pair=\"opened\"@en", "Cosine=0.989", "triple=e_dbp:events \"opened\"@en", "class=Station" ],
+    "148" : [ "pair=\"6\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Cosine=0.988", "triple=e_dbo:numberOfTracks \"6\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Station" ],
+    "149" : [ "pair=\"tw\"@en", "Cosine=0.988", "triple=e_dbp:symbolLocation \"tw\"@en", "class=Station" ],
+    "150" : [ "pair=\"Great Indian Peninsula Railway\"@en", "Cosine=0.987", "triple=e_dbo:formerName \"Great Indian Peninsula Railway\"@en", "class=Station" ],
+    "151" : [ "pair=dbr:Great_Indian_Peninsula_Railway", "Cosine=0.987", "triple=e_dbp:former dbr:Great_Indian_Peninsula_Railway", "class=Station" ],
+    "152" : [ "pair=\"Great Western Railway\"@en", "Cosine=0.987", "triple=e_dbp:postgroup \"Great Western Railway\"@en", "class=Station" ],
+    "153" : [ "pair=\"1island platform\"", "Cosine=0.986", "triple=e_dbo:railwayPlatforms \"1island platform\"", "class=Station" ],
+    "154" : [ "pair=\"(Line open", "Cosine=0.986", "triple=e_dbp:next \"(Line open", "class=Station" ],
+    "155" : [ "pair=\"collapsed\"@en", "Cosine=0.986", "triple=e_dbp:state \"collapsed\"@en", "class=Station" ],
+    "156" : [ "pair=\"2007\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.985", "triple=e_dbo:openingYear \"2007\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Station" ],
+    "157" : [ "pair=dbr:Ministry_of_Railways_(Pakistan", "Cosine=0.984", "triple=e_dbo:owner dbr:Ministry_of_Railways_(Pakistan", "class=Station" ],
+    "158" : [ "pair=\"Station opened\"@en", "Cosine=0.984", "triple=e_dbp:events \"Station opened\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "subway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "Cosine=0.991", "triple=e_dbp:operator dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=Station" ],
+    "1" : [ "pair=\"subway\"@en", "Cosine=0.986", "triple=e_dbp:symbol \"subway\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "taiwan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"tw\"@en", "Cosine=0.994", "triple=e_dbp:symbolLocation \"tw\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "urdu",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ministry_of_Railways_(Pakistan", "Cosine=0.987", "triple=e_dbo:owner dbr:Ministry_of_Railways_(Pakistan", "class=Station" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "victoria",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:VicTrack", "Cosine=0.986", "triple=e_dbp:owned dbr:VicTrack", "class=Station" ]
+  }
+} ]

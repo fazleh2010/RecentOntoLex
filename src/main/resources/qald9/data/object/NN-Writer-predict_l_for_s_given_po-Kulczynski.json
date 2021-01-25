@@ -1,0 +1,392 @@
+[ {
+  "id" : 1,
+  "pattern" : "also",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Fantasy", "Kulczynski=0.635", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
+    "1" : [ "pair=dbr:Science_fiction", "Kulczynski=0.632", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "2" : [ "pair=\"British\"@en", "Kulczynski=0.614", "triple=e_dbp:nationality \"British\"@en", "class=Writer" ],
+    "3" : [ "pair=\"Indian\"@en", "Kulczynski=0.611", "triple=e_dbp:nationality \"Indian\"@en", "class=Writer" ],
+    "4" : [ "pair=dbr:Author", "Kulczynski=0.602", "triple=e_dbo:occupation dbr:Author", "class=Writer" ],
+    "5" : [ "pair=dbr:United_States", "Kulczynski=0.599", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
+    "6" : [ "pair=dbr:Novelist", "Kulczynski=0.593", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
+    "7" : [ "pair=\"\"@en", "Kulczynski=0.592", "triple=e_dbp:spouse \"\"@en", "class=Writer" ],
+    "8" : [ "pair=dbr:Poet", "Kulczynski=0.585", "triple=e_dbo:occupation dbr:Poet", "class=Writer" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=0.947", "triple=e_dbo:birthPlace dbr:New_York_(state", "class=Writer" ],
+    "1" : [ "pair=dbr:New_York_City", "Kulczynski=0.945", "triple=e_dbo:birthPlace dbr:New_York_City", "class=Writer" ],
+    "2" : [ "pair=dbr:Americans", "Kulczynski=0.932", "triple=e_dbo:nationality dbr:Americans", "class=Writer" ],
+    "3" : [ "pair=\"American\"@en", "Kulczynski=0.928", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ],
+    "4" : [ "pair=\"United States\"@en", "Kulczynski=0.921", "triple=e_dbp:nationality \"United States\"@en", "class=Writer" ],
+    "5" : [ "pair=dbr:United_States", "Kulczynski=0.91", "triple=e_dbo:birthPlace dbr:United_States", "class=Writer" ],
+    "6" : [ "pair=dbr:Horror_fiction", "Kulczynski=0.836", "triple=e_dbo:genre dbr:Horror_fiction", "class=Writer" ],
+    "7" : [ "pair=dbr:Young_adult_fiction", "Kulczynski=0.802", "triple=e_dbp:genre dbr:Young_adult_fiction", "class=Writer" ],
+    "8" : [ "pair=dbr:Nonfiction", "Kulczynski=0.801", "triple=e_dbp:genre dbr:Nonfiction", "class=Writer" ],
+    "9" : [ "pair=dbr:Screenwriter", "Kulczynski=0.797", "triple=e_dbo:occupation dbr:Screenwriter", "class=Writer" ],
+    "10" : [ "pair=dbr:Science_fiction", "Kulczynski=0.778", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "11" : [ "pair=dbr:Romance_novel", "Kulczynski=0.761", "triple=e_dbo:genre dbr:Romance_novel", "class=Writer" ],
+    "12" : [ "pair=\"\"@en", "Kulczynski=0.751", "triple=e_dbp:spouse \"\"@en", "class=Writer" ],
+    "13" : [ "pair=dbr:Fantasy", "Kulczynski=0.75", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
+    "14" : [ "pair=\"English\"@en", "Kulczynski=0.748", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
+    "15" : [ "pair=dbr:Author", "Kulczynski=0.744", "triple=e_dbo:occupation dbr:Author", "class=Writer" ],
+    "16" : [ "pair=dbr:Fiction", "Kulczynski=0.736", "triple=e_dbp:genre dbr:Fiction", "class=Writer" ],
+    "17" : [ "pair=\"Poetry\"@en", "Kulczynski=0.728", "triple=e_dbp:genre \"Poetry\"@en", "class=Writer" ],
+    "18" : [ "pair=\"Author\"@en", "Kulczynski=0.719", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
+    "19" : [ "pair=dbr:Novelist", "Kulczynski=0.713", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
+    "20" : [ "pair=dbr:Children's_literature", "Kulczynski=0.702", "triple=e_dbo:genre dbr:Children's_literature", "class=Writer" ],
+    "21" : [ "pair=\"yes\"@en", "Kulczynski=0.679", "triple=e_dbp:author \"yes\"@en", "class=Writer" ],
+    "22" : [ "pair=\"InternetArchiveBot\"@en", "Kulczynski=0.665", "triple=e_dbp:bot \"InternetArchiveBot\"@en", "class=Writer" ],
+    "23" : [ "pair=\"Novelist\"@en", "Kulczynski=0.658", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "24" : [ "pair=\"Writer\"@en", "Kulczynski=0.658", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "25" : [ "pair=dbr:Poet", "Kulczynski=0.624", "triple=e_dbo:occupation dbr:Poet", "class=Writer" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "american author",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Author", "Kulczynski=0.607", "triple=e_dbo:occupation dbr:Author", "class=Writer" ],
+    "1" : [ "pair=\"Author\"@en", "Kulczynski=0.591", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
+    "2" : [ "pair=\"American\"@en", "Kulczynski=0.586", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "american poet",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Poet", "Kulczynski=0.596", "triple=e_dbo:occupation dbr:Poet", "class=Writer" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "author",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Author", "Kulczynski=0.885", "triple=e_dbo:occupation dbr:Author", "class=Writer" ],
+    "1" : [ "pair=\"Author\"@en", "Kulczynski=0.849", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:Young_adult_fiction", "Kulczynski=0.846", "triple=e_dbp:genre dbr:Young_adult_fiction", "class=Writer" ],
+    "3" : [ "pair=dbr:Nonfiction", "Kulczynski=0.825", "triple=e_dbp:genre dbr:Nonfiction", "class=Writer" ],
+    "4" : [ "pair=dbr:Fantasy", "Kulczynski=0.763", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
+    "5" : [ "pair=dbr:Science_fiction", "Kulczynski=0.761", "triple=e_dbp:genre dbr:Science_fiction", "class=Writer" ],
+    "6" : [ "pair=dbr:Children's_literature", "Kulczynski=0.76", "triple=e_dbp:genre dbr:Children's_literature", "class=Writer" ],
+    "7" : [ "pair=dbr:Romance_novel", "Kulczynski=0.73", "triple=e_dbo:genre dbr:Romance_novel", "class=Writer" ],
+    "8" : [ "pair=dbr:United_States", "Kulczynski=0.721", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
+    "9" : [ "pair=dbr:Fiction", "Kulczynski=0.719", "triple=e_dbo:genre dbr:Fiction", "class=Writer" ],
+    "10" : [ "pair=\"American\"@en", "Kulczynski=0.71", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ],
+    "11" : [ "pair=dbr:Journalist", "Kulczynski=0.697", "triple=e_dbo:occupation dbr:Journalist", "class=Writer" ],
+    "12" : [ "pair=\"English\"@en", "Kulczynski=0.69", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
+    "13" : [ "pair=dbr:Novelist", "Kulczynski=0.686", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
+    "14" : [ "pair=\"Novelist\"@en", "Kulczynski=0.683", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "15" : [ "pair=dbr:United_Kingdom", "Kulczynski=0.676", "triple=e_dbo:nationality dbr:United_Kingdom", "class=Writer" ],
+    "16" : [ "pair=\"British\"@en", "Kulczynski=0.658", "triple=e_dbp:nationality \"British\"@en", "class=Writer" ],
+    "17" : [ "pair=\"\"@en", "Kulczynski=0.656", "triple=e_dbp:notableworks \"\"@en", "class=Writer" ],
+    "18" : [ "pair=\"Australian\"@en", "Kulczynski=0.654", "triple=e_dbp:nationality \"Australian\"@en", "class=Writer" ],
+    "19" : [ "pair=\"Writer\"@en", "Kulczynski=0.653", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "20" : [ "pair=\"Indian\"@en", "Kulczynski=0.602", "triple=e_dbp:nationality \"Indian\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "award",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Canada", "Kulczynski=0.685", "triple=e_dbo:country dbr:Canada", "class=Writer" ],
+    "1" : [ "pair=\"Indian\"@en", "Kulczynski=0.598", "triple=e_dbp:nationality \"Indian\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "book",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "Kulczynski=0.587", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "books",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Children's_literature", "Kulczynski=0.739", "triple=e_dbp:genre dbr:Children's_literature", "class=Writer" ],
+    "1" : [ "pair=\"Author\"@en", "Kulczynski=0.622", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:Author", "Kulczynski=0.618", "triple=e_dbo:occupation dbr:Author", "class=Writer" ],
+    "3" : [ "pair=\"British\"@en", "Kulczynski=0.596", "triple=e_dbp:nationality \"British\"@en", "class=Writer" ],
+    "4" : [ "pair=\"Novelist\"@en", "Kulczynski=0.589", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "5" : [ "pair=dbr:United_States", "Kulczynski=0.587", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
+    "6" : [ "pair=\"Writer\"@en", "Kulczynski=0.584", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "7" : [ "pair=\"American\"@en", "Kulczynski=0.583", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "children",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Children's_literature", "Kulczynski=0.816", "triple=e_dbp:genre dbr:Children's_literature", "class=Writer" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "english",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"English\"@en", "Kulczynski=0.87", "triple=e_dbp:nationality \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=dbr:England", "Kulczynski=0.824", "triple=e_dbo:country dbr:England", "class=Writer" ],
+    "2" : [ "pair=\"British\"@en", "Kulczynski=0.672", "triple=e_dbp:nationality \"British\"@en", "class=Writer" ],
+    "3" : [ "pair=dbr:United_Kingdom", "Kulczynski=0.609", "triple=e_dbo:nationality dbr:United_Kingdom", "class=Writer" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "fantasy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Fantasy", "Kulczynski=0.832", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
+    "1" : [ "pair=dbr:Science_fiction", "Kulczynski=0.66", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Science_fiction", "Kulczynski=0.902", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "1" : [ "pair=dbr:Fantasy", "Kulczynski=0.773", "triple=e_dbp:genre dbr:Fantasy", "class=Writer" ],
+    "2" : [ "pair=dbr:Horror_fiction", "Kulczynski=0.764", "triple=e_dbo:genre dbr:Horror_fiction", "class=Writer" ],
+    "3" : [ "pair=\"Author\"@en", "Kulczynski=0.619", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
+    "4" : [ "pair=\"Novelist\"@en", "Kulczynski=0.611", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "5" : [ "pair=\"American\"@en", "Kulczynski=0.587", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ],
+    "6" : [ "pair=\"Writer\"@en", "Kulczynski=0.586", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "7" : [ "pair=dbr:Novelist", "Kulczynski=0.584", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "first",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "Kulczynski=0.586", "triple=e_dbp:spouse \"\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "french writer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:France", "Kulczynski=0.63", "triple=e_dbo:country dbr:France", "class=Writer" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "horror",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Horror_fiction", "Kulczynski=0.788", "triple=e_dbo:genre dbr:Horror_fiction", "class=Writer" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "india",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Indian\"@en", "Kulczynski=0.684", "triple=e_dbp:nationality \"Indian\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "journalist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Journalist\"@en", "Kulczynski=0.938", "triple=e_dbp:occupation \"Journalist\"@en", "class=Writer" ],
+    "1" : [ "pair=dbr:Journalist", "Kulczynski=0.913", "triple=e_dbo:occupation dbr:Journalist", "class=Writer" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "language",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Indian\"@en", "Kulczynski=0.595", "triple=e_dbp:nationality \"Indian\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "literature",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Indian\"@en", "Kulczynski=0.61", "triple=e_dbp:nationality \"Indian\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "london",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_Kingdom", "Kulczynski=0.599", "triple=e_dbo:nationality dbr:United_Kingdom", "class=Writer" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "novelist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Novelist", "Kulczynski=0.766", "triple=e_dbo:occupation dbr:Novelist", "class=Writer" ],
+    "1" : [ "pair=\"Novelist\"@en", "Kulczynski=0.674", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:Norway", "Kulczynski=0.641", "triple=e_dbo:country dbr:Norway", "class=Writer" ],
+    "3" : [ "pair=\"Writer\"@en", "Kulczynski=0.587", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "4" : [ "pair=\"British\"@en", "Kulczynski=0.583", "triple=e_dbp:nationality \"British\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "novels",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romance_novel", "Kulczynski=0.882", "triple=e_dbp:genre dbr:Romance_novel", "class=Writer" ],
+    "1" : [ "pair=\"Novelist\"@en", "Kulczynski=0.717", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:Novelist", "Kulczynski=0.686", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
+    "3" : [ "pair=dbr:Fantasy", "Kulczynski=0.67", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
+    "4" : [ "pair=dbr:Science_fiction", "Kulczynski=0.649", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "5" : [ "pair=\"British\"@en", "Kulczynski=0.633", "triple=e_dbp:nationality \"British\"@en", "class=Writer" ],
+    "6" : [ "pair=\"Author\"@en", "Kulczynski=0.597", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
+    "7" : [ "pair=\"Writer\"@en", "Kulczynski=0.594", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "8" : [ "pair=\"American\"@en", "Kulczynski=0.587", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "paris",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:France", "Kulczynski=0.644", "triple=e_dbo:country dbr:France", "class=Writer" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "playwright",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Playwright", "Kulczynski=0.925", "triple=e_dbo:occupation dbr:Playwright", "class=Writer" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "poet",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Poet\"@en", "Kulczynski=0.968", "triple=e_dbp:occupation \"Poet\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Poetry\"@en", "Kulczynski=0.952", "triple=e_dbp:genre \"Poetry\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:Poet", "Kulczynski=0.949", "triple=e_dbo:occupation dbr:Poet", "class=Writer" ],
+    "3" : [ "pair=dbr:Poetry", "Kulczynski=0.886", "triple=e_dbp:genre dbr:Poetry", "class=Writer" ],
+    "4" : [ "pair=dbr:Russian_Empire", "Kulczynski=0.725", "triple=e_dbo:birthPlace dbr:Russian_Empire", "class=Writer" ],
+    "5" : [ "pair=\"Indian\"@en", "Kulczynski=0.664", "triple=e_dbp:nationality \"Indian\"@en", "class=Writer" ],
+    "6" : [ "pair=\"\"@en", "Kulczynski=0.606", "triple=e_dbp:spouse \"\"@en", "class=Writer" ],
+    "7" : [ "pair=\"English\"@en", "Kulczynski=0.589", "triple=e_dbp:language \"English\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "poetry",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Poet\"@en", "Kulczynski=0.634", "triple=e_dbp:occupation \"Poet\"@en", "class=Writer" ],
+    "1" : [ "pair=dbr:Poet", "Kulczynski=0.633", "triple=e_dbo:occupation dbr:Poet", "class=Writer" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "romance",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romance_novel", "Kulczynski=0.875", "triple=e_dbp:genre dbr:Romance_novel", "class=Writer" ],
+    "1" : [ "pair=\"Novelist\"@en", "Kulczynski=0.589", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "romance novels",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romance_novel", "Kulczynski=0.8", "triple=e_dbp:genre dbr:Romance_novel", "class=Writer" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "sahitya",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Indian\"@en", "Kulczynski=0.6", "triple=e_dbp:nationality \"Indian\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "science",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Science_fiction", "Kulczynski=0.871", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "1" : [ "pair=dbr:Fantasy", "Kulczynski=0.702", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "science fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Science_fiction", "Kulczynski=0.864", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "1" : [ "pair=dbr:Fantasy", "Kulczynski=0.696", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "screenwriter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Screenwriter", "Kulczynski=0.86", "triple=e_dbo:occupation dbr:Screenwriter", "class=Writer" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "series",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Science_fiction", "Kulczynski=0.609", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "short",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Science_fiction", "Kulczynski=0.613", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "1" : [ "pair=dbr:Novelist", "Kulczynski=0.584", "triple=e_dbo:occupation dbr:Novelist", "class=Writer" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "university",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "Kulczynski=0.602", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "writer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Writer", "Kulczynski=0.813", "triple=e_dbo:occupation dbr:Writer", "class=Writer" ],
+    "1" : [ "pair=\"writer\"@en", "Kulczynski=0.8", "triple=e_dbp:occupation \"writer\"@en", "class=Writer" ],
+    "2" : [ "pair=\"Writer\"@en", "Kulczynski=0.797", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "3" : [ "pair=\"Norwegian\"@en", "Kulczynski=0.797", "triple=e_dbp:nationality \"Norwegian\"@en", "class=Writer" ],
+    "4" : [ "pair=dbr:Romance_novel", "Kulczynski=0.775", "triple=e_dbp:genre dbr:Romance_novel", "class=Writer" ],
+    "5" : [ "pair=\"\"@en", "Kulczynski=0.765", "triple=e_dbp:awards \"\"@en", "class=Writer" ],
+    "6" : [ "pair=dbr:India", "Kulczynski=0.76", "triple=e_dbo:country dbr:India", "class=Writer" ],
+    "7" : [ "pair=dbr:Science_fiction", "Kulczynski=0.748", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "8" : [ "pair=dbr:British_India", "Kulczynski=0.745", "triple=e_dbo:birthPlace dbr:British_India", "class=Writer" ],
+    "9" : [ "pair=dbr:Canada", "Kulczynski=0.742", "triple=e_dbo:country dbr:Canada", "class=Writer" ],
+    "10" : [ "pair=dbr:Fantasy", "Kulczynski=0.741", "triple=e_dbp:genre dbr:Fantasy", "class=Writer" ],
+    "11" : [ "pair=dbr:Horror_fiction", "Kulczynski=0.74", "triple=e_dbo:genre dbr:Horror_fiction", "class=Writer" ],
+    "12" : [ "pair=\"yes\"@en", "Kulczynski=0.74", "triple=e_dbp:author \"yes\"@en", "class=Writer" ],
+    "13" : [ "pair=dbr:Children's_literature", "Kulczynski=0.739", "triple=e_dbp:genre dbr:Children's_literature", "class=Writer" ],
+    "14" : [ "pair=dbr:Norway", "Kulczynski=0.736", "triple=e_dbo:country dbr:Norway", "class=Writer" ],
+    "15" : [ "pair=\"Novelist\"@en", "Kulczynski=0.736", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "16" : [ "pair=dbr:Russian_Empire", "Kulczynski=0.733", "triple=e_dbo:birthPlace dbr:Russian_Empire", "class=Writer" ],
+    "17" : [ "pair=\"Indian\"@en", "Kulczynski=0.729", "triple=e_dbp:nationality \"Indian\"@en", "class=Writer" ],
+    "18" : [ "pair=\"Canadian\"@en", "Kulczynski=0.727", "triple=e_dbp:nationality \"Canadian\"@en", "class=Writer" ],
+    "19" : [ "pair=\"British\"@en", "Kulczynski=0.719", "triple=e_dbp:nationality \"British\"@en", "class=Writer" ],
+    "20" : [ "pair=dbr:Fiction", "Kulczynski=0.719", "triple=e_dbp:genre dbr:Fiction", "class=Writer" ],
+    "21" : [ "pair=\"Australian\"@en", "Kulczynski=0.706", "triple=e_dbp:nationality \"Australian\"@en", "class=Writer" ],
+    "22" : [ "pair=dbr:France", "Kulczynski=0.706", "triple=e_dbo:country dbr:France", "class=Writer" ],
+    "23" : [ "pair=\"United States\"@en", "Kulczynski=0.7", "triple=e_dbp:nationality \"United States\"@en", "class=Writer" ],
+    "24" : [ "pair=dbr:Germany", "Kulczynski=0.698", "triple=e_dbo:country dbr:Germany", "class=Writer" ],
+    "25" : [ "pair=dbr:United_Kingdom", "Kulczynski=0.695", "triple=e_dbo:nationality dbr:United_Kingdom", "class=Writer" ],
+    "26" : [ "pair=dbr:Novelist", "Kulczynski=0.691", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
+    "27" : [ "pair=\"English\"@en", "Kulczynski=0.688", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
+    "28" : [ "pair=\"American\"@en", "Kulczynski=0.687", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ],
+    "29" : [ "pair=\"InternetArchiveBot\"@en", "Kulczynski=0.685", "triple=e_dbp:bot \"InternetArchiveBot\"@en", "class=Writer" ],
+    "30" : [ "pair=dbr:United_States", "Kulczynski=0.669", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
+    "31" : [ "pair=\"Author\"@en", "Kulczynski=0.652", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
+    "32" : [ "pair=dbr:Author", "Kulczynski=0.605", "triple=e_dbo:occupation dbr:Author", "class=Writer" ],
+    "33" : [ "pair=dbr:Poet", "Kulczynski=0.596", "triple=e_dbo:occupation dbr:Poet", "class=Writer" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "Kulczynski=0.581", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+  }
+} ]

@@ -1,0 +1,50 @@
+[ {
+  "id" : 6,
+  "pattern" : "brazilian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Brazil", "Coherence=0.495", "triple=e_dbp:ground dbr:Brazil", "class=SoccerClub" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "greek",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Gamma_Ethniki", "Coherence=0.5", "triple=e_dbp:league dbr:Gamma_Ethniki", "class=SoccerClub" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Serie_D", "Coherence=0.5", "triple=e_dbp:league dbr:Serie_D", "class=SoccerClub" ],
+    "1" : [ "pair=dbr:Italy", "Coherence=0.493", "triple=e_dbp:ground dbr:Italy", "class=SoccerClub" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Swedish_football_Division_4", "Coherence=0.491", "triple=e_dbo:league dbr:Swedish_football_Division_4", "class=SoccerClub" ],
+    "1" : [ "pair=\"Sweden\"@en", "Coherence=0.486", "triple=e_dbp:ground \"Sweden\"@en", "class=SoccerClub" ],
+    "2" : [ "pair=dbr:Sweden", "Coherence=0.482", "triple=e_dbo:ground dbr:Sweden", "class=SoccerClub" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "national",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Confederation_of_African_Football", "Coherence=0.5", "triple=e_dbp:confederation dbr:Confederation_of_African_Football", "class=SoccerClub" ],
+    "1" : [ "pair=\"women\"@en", "Coherence=0.5", "triple=e_dbp:type \"women\"@en", "class=SoccerClub" ],
+    "2" : [ "pair=dbr:UEFA", "Coherence=0.496", "triple=e_dbp:confederation dbr:UEFA", "class=SoccerClub" ],
+    "3" : [ "pair=\"GER\"@en", "Coherence=0.494", "triple=e_dbp:clubnat \"GER\"@en", "class=SoccerClub" ],
+    "4" : [ "pair=dbr:Asian_Football_Confederation", "Coherence=0.494", "triple=e_dbp:confederation dbr:Asian_Football_Confederation", "class=SoccerClub" ],
+    "5" : [ "pair=\"ITA\"@en", "Coherence=0.493", "triple=e_dbp:clubnat \"ITA\"@en", "class=SoccerClub" ],
+    "6" : [ "pair=\"FRA\"@en", "Coherence=0.49", "triple=e_dbp:clubnat \"FRA\"@en", "class=SoccerClub" ],
+    "7" : [ "pair=dbr:Exhibition_game", "Coherence=0.486", "triple=e_dbp:round dbr:Exhibition_game", "class=SoccerClub" ],
+    "8" : [ "pair=dbr:CONCACAF", "Coherence=0.485", "triple=e_dbp:confederation dbr:CONCACAF", "class=SoccerClub" ],
+    "9" : [ "pair=\"\"@en", "Coherence=0.485", "triple=e_dbp:association \"\"@en", "class=SoccerClub" ],
+    "10" : [ "pair=\"ENG\"@en", "Coherence=0.482", "triple=e_dbp:clubnat \"ENG\"@en", "class=SoccerClub" ],
+    "11" : [ "pair=\"ESP\"@en", "Coherence=0.481", "triple=e_dbp:clubnat \"ESP\"@en", "class=SoccerClub" ]
+  }
+} ]

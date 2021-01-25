@@ -60,6 +60,7 @@ public class Analyzer implements TextAnalyzer,PropertyNotation {
     private String inputText = null;
 
     public Analyzer(String inputText, String analysisType, Integer numberOfSentences) throws Exception {
+        System.out.println("inputText:"+inputText);
         this.numberOfSentences = numberOfSentences;
         this.inputText = inputText;
         BufferedReader reader = new BufferedReader(new StringReader(inputText));

@@ -1,0 +1,982 @@
+[ {
+  "id" : 1,
+  "pattern" : "dog",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "dog whelks",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "family",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ovulidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ovulidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "7" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "8" : [ "pair=dbr:Turritellidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "family\u001Cmarginellidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "family\u001Cmarginellidae\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "family\u001Cmuricidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "family\u001Cmuricidae\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "family\u001Cnassariidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "family\u001Cnassariidae\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "family\u001Covulidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ovulidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ovulidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "family\u001Cturridae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "family\u001Cturridae\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "family\u001Cvolutidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "family\u001Cvolutidae\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "family marginellidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "family marginellidae\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "family marginellidae\u001Cthe\u001Cmargin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "family marginellidae the\u001Cmargin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "family marginellidae the\u001Cmargin\u001Csnails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "family muricidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "family muricidae\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "family muricidae\u001Cthe\u001Cmurex",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "family muricidae the\u001Cmurex",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "family muricidae the\u001Cmurex\u001Csnails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "family nassariidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "family nassariidae\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "family ovulidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ovulidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ovulidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "family turridae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "family turridae\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "family turridae\u001Cthe\u001Cturrids",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "family turridae the\u001Cturrids",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "family turritellidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turritellidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "family volutidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "family volutidae\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "family volutidae\u001Cthe\u001Cvolutes",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "family volutidae the\u001Cvolutes",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "gastropod",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ovulidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ovulidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "7" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "gastropod mollusk",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "7" : [ "pair=dbr:Turritellidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "gastropod mollusk in\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "gastropod mollusk in\u001Cthe\u001Cfamily",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "margin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "margin snails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "marginella",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "marginellidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "marginellidae margin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "marginellidae margin\u001Csnails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "marine gastropod",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ovulidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ovulidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "7" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "8" : [ "pair=dbr:Turritellidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "marine gastropod\u001Cmollusk",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "marine gastropod\u001Cmollusk\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "marine gastropod mollusk",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "marine gastropod mollusk\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "7" : [ "pair=dbr:Turritellidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "marine gastropod mollusk\u001Cin\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "mollusk",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "7" : [ "pair=dbr:Turritellidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "mollusk the\u001Cfamily",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "mollusk the\u001Cfamily\u001Cmarginellidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "mollusk the\u001Cfamily\u001Cmuricidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "mollusk the\u001Cfamily\u001Cnassariidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "mollusk the\u001Cfamily\u001Cturridae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "mollusk the\u001Cfamily\u001Cvolutidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "mud snails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "mud snails or\u001Cdog",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "mud snails or\u001Cdog\u001Cwhelks",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "murex",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "murex snails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "murex snails\u001Cor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "murex snails\u001Cor\u001Crock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "murex snails or\u001Crock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "murex snails or\u001Crock\u001Csnails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "muricidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "muricidae murex",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "muricidae murex\u001Csnails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "muricidae murex\u001Csnails\u001Cor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "nassariidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "ovulidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ovulidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ovulidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "rock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "rock snails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "sea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ovulidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ovulidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "7" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "8" : [ "pair=dbr:Turritellidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "sea snail",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "7" : [ "pair=dbr:Turritellidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "sea snail\u001Ca",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "sea snail\u001Ca\u001Cmarine",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "sea snail a\u001Cmarine",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "sea snail a\u001Cmarine\u001Cgastropod",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "snail",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "7" : [ "pair=dbr:Turritellidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "snail marine",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "snail marine\u001Cgastropod",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "snail marine\u001Cgastropod\u001Cmollusk",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "snails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "snails dog",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "snails dog\u001Cwhelks",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "snails rock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 92,
+  "pattern" : "snails rock\u001Csnails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "species",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "7" : [ "pair=dbr:Turritellidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 94,
+  "pattern" : "species\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 95,
+  "pattern" : "species\u001Cof\u001Csea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "species of\u001Csea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 97,
+  "pattern" : "species of\u001Csea\u001Csnail",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 98,
+  "pattern" : "species sea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 99,
+  "pattern" : "species sea\u001Csnail",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 100,
+  "pattern" : "species sea\u001Csnail\u001Ca",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Ocenebrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Ocenebrinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Rapaninae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Marginellinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Marginellinae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Muricinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 101,
+  "pattern" : "turridae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 102,
+  "pattern" : "turridae turrids",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 103,
+  "pattern" : "turrids",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 104,
+  "pattern" : "volutes",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "volutidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 106,
+  "pattern" : "volutidae volutes",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volutidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Volutidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 107,
+  "pattern" : "whelks",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "MaxConf=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ]
+  }
+} ]

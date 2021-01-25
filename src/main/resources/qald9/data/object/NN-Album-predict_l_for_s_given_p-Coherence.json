@@ -1,0 +1,57 @@
+[ {
+  "id" : 1,
+  "pattern" : "album",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.495", "triple=e_dbp:rev10score o", "class=Album" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.318", "triple=e_dbp:rev9score o", "class=Album" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.393", "triple=e_dbp:allLyrics o", "class=Album" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "label",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.348", "triple=e_dbp:chronology o", "class=Album" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "live album",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.374", "triple=e_dbp:venue o", "class=Album" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "records",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.351", "triple=e_dbp:master o", "class=Album" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "studio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.447", "triple=e_dbp:adm o", "class=Album" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "studio album",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.444", "triple=e_dbp:adm o", "class=Album" ]
+  }
+} ]

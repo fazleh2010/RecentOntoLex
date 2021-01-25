@@ -1,0 +1,607 @@
+[ {
+  "id" : 2,
+  "pattern" : "arizona",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Arizona", "Kulczynski=0.988", "triple=e_dbp:state dbr:Arizona", "class=School" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "arkansas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Arkansas", "Kulczynski=1.0", "triple=e_dbp:state dbr:Arkansas", "class=School" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "australia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:New_South_Wales", "Kulczynski=0.991", "triple=e_dbp:location dbr:New_South_Wales", "class=School" ],
+    "1" : [ "pair=dbr:Catholic_Church_in_Australia", "Kulczynski=0.986", "triple=e_dbp:denomination dbr:Catholic_Church_in_Australia", "class=School" ],
+    "2" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Kulczynski=0.984", "triple=e_dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=School" ],
+    "3" : [ "pair=dbr:Department_of_Education_(New_South_Wales", "Kulczynski=0.982", "triple=e_dbo:localAuthority dbr:Department_of_Education_(New_South_Wales", "class=School" ],
+    "4" : [ "pair=dbr:Roman_Catholicism_in_Australia", "Kulczynski=0.98", "triple=e_dbo:denomination dbr:Roman_Catholicism_in_Australia", "class=School" ],
+    "5" : [ "pair=\"Australia Sydney\"@en", "Kulczynski=0.973", "triple=e_dbp:pushpinMap \"Australia Sydney\"@en", "class=School" ],
+    "6" : [ "pair=dbr:Education_in_Australia", "Kulczynski=0.972", "triple=e_dbp:type dbr:Education_in_Australia", "class=School" ],
+    "7" : [ "pair=dbr:Year_7", "Kulczynski=0.971", "triple=e_dbo:grades dbr:Year_7", "class=School" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "california",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:California", "Kulczynski=0.978", "triple=e_dbp:state dbr:California", "class=School" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "carolina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:North_Carolina", "Kulczynski=0.976", "triple=e_dbp:state dbr:North_Carolina", "class=School" ],
+    "1" : [ "pair=\"North Carolina#USA\"@en", "Kulczynski=0.973", "triple=e_dbp:pushpinMap \"North Carolina#USA\"@en", "class=School" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "catholic",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Roman_Catholicism_in_Australia", "Kulczynski=1.0", "triple=e_dbo:denomination dbr:Roman_Catholicism_in_Australia", "class=School" ],
+    "1" : [ "pair=dbr:Catholic_Church_in_Australia", "Kulczynski=0.993", "triple=e_dbp:denomination dbr:Catholic_Church_in_Australia", "class=School" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "connecticut",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Connecticut", "Kulczynski=0.983", "triple=e_dbo:state dbr:Connecticut", "class=School" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "district",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"6.627096E8\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=1.0", "triple=e_dbp:upperAge \"6.627096E8\"^^<http://dbpedia.org/datatype/second>", "class=School" ],
+    "1" : [ "pair=\"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.99", "triple=e_dbp:lowerAge \"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "class=School" ],
+    "2" : [ "pair=\"21\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Kulczynski=0.981", "triple=e_dbo:upperAge \"21\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=School" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "georgia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Georgia_(U.S._state", "Kulczynski=0.995", "triple=e_dbp:state dbr:Georgia_(U.S._state", "class=School" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "high school",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Secondary_education_in_the_United_States", "Kulczynski=0.969", "triple=e_dbp:type dbr:Secondary_education_in_the_United_States", "class=School" ],
+    "1" : [ "pair=dbr:Public_high_school", "Kulczynski=0.964", "triple=e_dbo:type dbr:Public_high_school", "class=School" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "illinois",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Illinois", "Kulczynski=0.968", "triple=e_dbo:state dbr:Illinois", "class=School" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "indiana",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Indiana", "Kulczynski=0.978", "triple=e_dbo:state dbr:Indiana", "class=School" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "jersey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:New_Jersey", "Kulczynski=0.993", "triple=e_dbo:state dbr:New_Jersey", "class=School" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "louisiana",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Louisiana", "Kulczynski=0.976", "triple=e_dbo:state dbr:Louisiana", "class=School" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "manchester",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Greater_Manchester", "Kulczynski=0.98", "triple=e_dbp:county dbr:Greater_Manchester", "class=School" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "maryland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Maryland", "Kulczynski=0.965", "triple=e_dbo:state dbr:Maryland", "class=School" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "massachusetts",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Massachusetts", "Kulczynski=0.979", "triple=e_dbo:state dbr:Massachusetts", "class=School" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "michigan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Michigan", "Kulczynski=0.976", "triple=e_dbp:state dbr:Michigan", "class=School" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "miles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.963", "triple=e_dbp:lowerAge \"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "class=School" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "new jersey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:New_Jersey", "Kulczynski=0.993", "triple=e_dbo:state dbr:New_Jersey", "class=School" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "new south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Kulczynski=0.992", "triple=e_dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=School" ],
+    "1" : [ "pair=dbr:New_South_Wales", "Kulczynski=0.991", "triple=e_dbp:location dbr:New_South_Wales", "class=School" ],
+    "2" : [ "pair=dbr:Department_of_Education_(New_South_Wales", "Kulczynski=0.988", "triple=e_dbo:localAuthority dbr:Department_of_Education_(New_South_Wales", "class=School" ],
+    "3" : [ "pair=\"Australia Sydney\"@en", "Kulczynski=0.973", "triple=e_dbp:pushpinMap \"Australia Sydney\"@en", "class=School" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "new south wales",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Kulczynski=0.992", "triple=e_dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=School" ],
+    "1" : [ "pair=dbr:New_South_Wales", "Kulczynski=0.991", "triple=e_dbp:location dbr:New_South_Wales", "class=School" ],
+    "2" : [ "pair=dbr:Department_of_Education_(New_South_Wales", "Kulczynski=0.988", "triple=e_dbo:localAuthority dbr:Department_of_Education_(New_South_Wales", "class=School" ],
+    "3" : [ "pair=\"Australia Sydney\"@en", "Kulczynski=0.973", "triple=e_dbp:pushpinMap \"Australia Sydney\"@en", "class=School" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "new south wales\u001Caustralia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:New_South_Wales", "Kulczynski=0.991", "triple=e_dbp:location dbr:New_South_Wales", "class=School" ],
+    "1" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Kulczynski=0.984", "triple=e_dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=School" ],
+    "2" : [ "pair=dbr:Department_of_Education_(New_South_Wales", "Kulczynski=0.982", "triple=e_dbo:localAuthority dbr:Department_of_Education_(New_South_Wales", "class=School" ],
+    "3" : [ "pair=\"Australia Sydney\"@en", "Kulczynski=0.964", "triple=e_dbp:pushpinMap \"Australia Sydney\"@en", "class=School" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "new york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=0.973", "triple=e_dbo:state dbr:New_York_(state", "class=School" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "north",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:North_Carolina", "Kulczynski=0.976", "triple=e_dbp:state dbr:North_Carolina", "class=School" ],
+    "1" : [ "pair=\"North Carolina#USA\"@en", "Kulczynski=0.973", "triple=e_dbp:pushpinMap \"North Carolina#USA\"@en", "class=School" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "north carolina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:North_Carolina", "Kulczynski=0.976", "triple=e_dbp:state dbr:North_Carolina", "class=School" ],
+    "1" : [ "pair=\"North Carolina#USA\"@en", "Kulczynski=0.973", "triple=e_dbp:pushpinMap \"North Carolina#USA\"@en", "class=School" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "ohio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=0.995", "triple=e_dbp:state dbr:Ohio", "class=School" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "ontario",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ontario", "Kulczynski=0.973", "triple=e_dbp:province dbr:Ontario", "class=School" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "oregon",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Oregon", "Kulczynski=1.0", "triple=e_dbp:state dbr:Oregon", "class=School" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "oregon united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Oregon", "Kulczynski=0.965", "triple=e_dbp:state dbr:Oregon", "class=School" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "oregon united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Oregon", "Kulczynski=0.965", "triple=e_dbp:state dbr:Oregon", "class=School" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "pennsylvania",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=1.0", "triple=e_dbp:lowerAge \"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "class=School" ],
+    "1" : [ "pair=\"6.627096E8\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.987", "triple=e_dbp:upperAge \"6.627096E8\"^^<http://dbpedia.org/datatype/second>", "class=School" ],
+    "2" : [ "pair=dbr:Pennsylvania", "Kulczynski=0.982", "triple=e_dbp:state dbr:Pennsylvania", "class=School" ],
+    "3" : [ "pair=\"21\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Kulczynski=0.969", "triple=e_dbo:upperAge \"21\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=School" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "public",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.99", "triple=e_dbp:lowerAge \"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "class=School" ],
+    "1" : [ "pair=\"6.627096E8\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.987", "triple=e_dbp:upperAge \"6.627096E8\"^^<http://dbpedia.org/datatype/second>", "class=School" ],
+    "2" : [ "pair=dbr:Secondary_education_in_the_United_States", "Kulczynski=0.977", "triple=e_dbp:type dbr:Secondary_education_in_the_United_States", "class=School" ],
+    "3" : [ "pair=\"21\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Kulczynski=0.969", "triple=e_dbo:upperAge \"21\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=School" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "public school",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.972", "triple=e_dbp:lowerAge \"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "class=School" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "queensland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Queensland", "Kulczynski=0.966", "triple=e_dbo:state dbr:Queensland", "class=School" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "school",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"21\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Kulczynski=1.0", "triple=e_dbo:upperAge \"21\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=School" ],
+    "1" : [ "pair=dbr:High_school_(North_America", "Kulczynski=1.0", "triple=e_dbp:type dbr:High_school_(North_America", "class=School" ],
+    "2" : [ "pair=dbr:New_England_Association_of_Schools_and_Colleges", "Kulczynski=1.0", "triple=e_dbp:accreditation dbr:New_England_Association_of_Schools_and_Colleges", "class=School" ],
+    "3" : [ "pair=\"\"@en", "Kulczynski=1.0", "triple=e_dbp:houses \"\"@en", "class=School" ],
+    "4" : [ "pair=dbr:Department_of_Education_(New_South_Wales", "Kulczynski=1.0", "triple=e_dbo:localAuthority dbr:Department_of_Education_(New_South_Wales", "class=School" ],
+    "5" : [ "pair=\"6.627096E8\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=1.0", "triple=e_dbp:upperAge \"6.627096E8\"^^<http://dbpedia.org/datatype/second>", "class=School" ],
+    "6" : [ "pair=\"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=1.0", "triple=e_dbp:lowerAge \"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "class=School" ],
+    "7" : [ "pair=dbr:Independent_school_(UK", "Kulczynski=1.0", "triple=e_dbo:type dbr:Independent_school_(UK", "class=School" ],
+    "8" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Kulczynski=1.0", "triple=e_dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=School" ],
+    "9" : [ "pair=\"top\"@en", "Kulczynski=1.0", "triple=e_dbp:pushpinLabelPosition \"top\"@en", "class=School" ],
+    "10" : [ "pair=\"Panther\"", "Kulczynski=1.0", "triple=e_dbo:mascot \"Panther\"", "class=School" ],
+    "11" : [ "pair=dbr:New_South_Wales", "Kulczynski=1.0", "triple=e_dbp:location dbr:New_South_Wales", "class=School" ],
+    "12" : [ "pair=\"Public\"@en", "Kulczynski=1.0", "triple=e_dbp:schooltype \"Public\"@en", "class=School" ],
+    "13" : [ "pair=\"Australia Sydney\"@en", "Kulczynski=1.0", "triple=e_dbp:pushpinMap \"Australia Sydney\"@en", "class=School" ],
+    "14" : [ "pair=dbr:Arkansas", "Kulczynski=1.0", "triple=e_dbp:state dbr:Arkansas", "class=School" ],
+    "15" : [ "pair=dbr:Massachusetts", "Kulczynski=1.0", "triple=e_dbp:state dbr:Massachusetts", "class=School" ],
+    "16" : [ "pair=dbr:Kâ12", "Kulczynski=1.0", "triple=e_dbp:grades dbr:Kâ12", "class=School" ],
+    "17" : [ "pair=dbr:Sixth_grade", "Kulczynski=1.0", "triple=e_dbo:grades dbr:Sixth_grade", "class=School" ],
+    "18" : [ "pair=dbr:Secondary_education_in_the_United_States", "Kulczynski=0.996", "triple=e_dbp:type dbr:Secondary_education_in_the_United_States", "class=School" ],
+    "19" : [ "pair=dbr:Southern_Association_of_Colleges_and_Schools", "Kulczynski=0.994", "triple=e_dbp:accreditation dbr:Southern_Association_of_Colleges_and_Schools", "class=School" ],
+    "20" : [ "pair=dbr:Seventh_grade", "Kulczynski=0.994", "triple=e_dbo:grades dbr:Seventh_grade", "class=School" ],
+    "21" : [ "pair=\"5\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Kulczynski=0.993", "triple=e_dbo:lowerAge \"5\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=School" ],
+    "22" : [ "pair=\"Gold\"@en", "Kulczynski=0.993", "triple=e_dbp:colors \"Gold\"@en", "class=School" ],
+    "23" : [ "pair=dbr:Gold_(color", "Kulczynski=0.992", "triple=e_dbo:colour dbr:Gold_(color", "class=School" ],
+    "24" : [ "pair=dbr:Ohio", "Kulczynski=0.992", "triple=e_dbp:state dbr:Ohio", "class=School" ],
+    "25" : [ "pair=\"600\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Kulczynski=0.992", "triple=e_dbo:numberOfStudents \"600\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=School" ],
+    "26" : [ "pair=dbr:Connecticut", "Kulczynski=0.991", "triple=e_dbo:state dbr:Connecticut", "class=School" ],
+    "27" : [ "pair=\"\"", "Kulczynski=0.991", "triple=e_dbo:ceeb \"\"", "class=School" ],
+    "28" : [ "pair=dbr:Western_Association_of_Schools_and_Colleges", "Kulczynski=0.991", "triple=e_dbp:accreditation dbr:Western_Association_of_Schools_and_Colleges", "class=School" ],
+    "29" : [ "pair=dbr:Tennessee", "Kulczynski=0.991", "triple=e_dbp:state dbr:Tennessee", "class=School" ],
+    "30" : [ "pair=dbr:Grammar_school", "Kulczynski=0.99", "triple=e_dbp:type dbr:Grammar_school", "class=School" ],
+    "31" : [ "pair=\"Black\"", "Kulczynski=0.99", "triple=e_dbo:officialSchoolColour \"Black\"", "class=School" ],
+    "32" : [ "pair=dbr:Georgia_(U.S._state", "Kulczynski=0.99", "triple=e_dbp:state dbr:Georgia_(U.S._state", "class=School" ],
+    "33" : [ "pair=dbr:Comprehensive_school", "Kulczynski=0.99", "triple=e_dbo:type dbr:Comprehensive_school", "class=School" ],
+    "34" : [ "pair=dbr:Roman_Catholicism_in_Australia", "Kulczynski=0.99", "triple=e_dbo:denomination dbr:Roman_Catholicism_in_Australia", "class=School" ],
+    "35" : [ "pair=\"High school\"@en", "Kulczynski=0.99", "triple=e_dbp:type \"High school\"@en", "class=School" ],
+    "36" : [ "pair=dbr:Oregon", "Kulczynski=0.99", "triple=e_dbo:state dbr:Oregon", "class=School" ],
+    "37" : [ "pair=\"Gold\"", "Kulczynski=0.989", "triple=e_dbo:officialSchoolColour \"Gold\"", "class=School" ],
+    "38" : [ "pair=dbr:Independent_school", "Kulczynski=0.989", "triple=e_dbo:type dbr:Independent_school", "class=School" ],
+    "39" : [ "pair=dbr:Texas", "Kulczynski=0.988", "triple=e_dbo:state dbr:Texas", "class=School" ],
+    "40" : [ "pair=dbr:Arizona", "Kulczynski=0.988", "triple=e_dbo:state dbr:Arizona", "class=School" ],
+    "41" : [ "pair=\"Years\"@en", "Kulczynski=0.988", "triple=e_dbp:gradesLabel \"Years\"@en", "class=School" ],
+    "42" : [ "pair=\"Black\"@en", "Kulczynski=0.987", "triple=e_dbp:colors \"Black\"@en", "class=School" ],
+    "43" : [ "pair=\"Suburban\"@en", "Kulczynski=0.987", "triple=e_dbp:campusType \"Suburban\"@en", "class=School" ],
+    "44" : [ "pair=\"Scotland\"@en", "Kulczynski=0.987", "triple=e_dbp:country \"Scotland\"@en", "class=School" ],
+    "45" : [ "pair=\"Athletic Director\"@en", "Kulczynski=0.987", "triple=e_dbp:freeLabel \"Athletic Director\"@en", "class=School" ],
+    "46" : [ "pair=\"1969\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.986", "triple=e_dbo:foundingYear \"1969\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "47" : [ "pair=\"Former pupils\"@en", "Kulczynski=0.986", "triple=e_dbp:freeLabel \"Former pupils\"@en", "class=School" ],
+    "48" : [ "pair=dbr:North_Central_Association_of_Colleges_and_Schools", "Kulczynski=0.986", "triple=e_dbp:accreditation dbr:North_Central_Association_of_Colleges_and_Schools", "class=School" ],
+    "49" : [ "pair=dbr:New_Jersey", "Kulczynski=0.986", "triple=e_dbo:state dbr:New_Jersey", "class=School" ],
+    "50" : [ "pair=dbr:Catholic_Church_in_Australia", "Kulczynski=0.986", "triple=e_dbp:denomination dbr:Catholic_Church_in_Australia", "class=School" ],
+    "51" : [ "pair=dbr:White", "Kulczynski=0.986", "triple=e_dbo:colour dbr:White", "class=School" ],
+    "52" : [ "pair=\"Blue and white\"", "Kulczynski=0.985", "triple=e_dbo:officialSchoolColour \"Blue and white\"", "class=School" ],
+    "53" : [ "pair=dbr:Michigan", "Kulczynski=0.985", "triple=e_dbp:state dbr:Michigan", "class=School" ],
+    "54" : [ "pair=dbr:Year_7", "Kulczynski=0.985", "triple=e_dbo:grades dbr:Year_7", "class=School" ],
+    "55" : [ "pair=dbr:Navy_blue", "Kulczynski=0.985", "triple=e_dbo:colour dbr:Navy_blue", "class=School" ],
+    "56" : [ "pair=dbr:Single-sex_education", "Kulczynski=0.985", "triple=e_dbo:type dbr:Single-sex_education", "class=School" ],
+    "57" : [ "pair=\"1200\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Kulczynski=0.985", "triple=e_dbo:numberOfStudents \"1200\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=School" ],
+    "58" : [ "pair=dbr:Education_in_Australia", "Kulczynski=0.985", "triple=e_dbo:type dbr:Education_in_Australia", "class=School" ],
+    "59" : [ "pair=\"Bulldog\"", "Kulczynski=0.985", "triple=e_dbo:mascot \"Bulldog\"", "class=School" ],
+    "60" : [ "pair=dbr:Pennsylvania", "Kulczynski=0.984", "triple=e_dbp:state dbr:Pennsylvania", "class=School" ],
+    "61" : [ "pair=\"Blue and gold\"", "Kulczynski=0.984", "triple=e_dbo:officialSchoolColour \"Blue and gold\"", "class=School" ],
+    "62" : [ "pair=dbr:Canadian_English", "Kulczynski=0.984", "triple=e_dbp:language dbr:Canadian_English", "class=School" ],
+    "63" : [ "pair=\"Blue and gold\"@en", "Kulczynski=0.984", "triple=e_dbp:colors \"Blue and gold\"@en", "class=School" ],
+    "64" : [ "pair=dbr:British_Columbia", "Kulczynski=0.984", "triple=e_dbp:province dbr:British_Columbia", "class=School" ],
+    "65" : [ "pair=\"Eagle\"", "Kulczynski=0.984", "triple=e_dbo:mascot \"Eagle\"", "class=School" ],
+    "66" : [ "pair=dbr:High_school", "Kulczynski=0.983", "triple=e_dbo:type dbr:High_school", "class=School" ],
+    "67" : [ "pair=\"3\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Kulczynski=0.983", "triple=e_dbo:lowerAge \"3\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=School" ],
+    "68" : [ "pair=dbr:Missouri", "Kulczynski=0.983", "triple=e_dbo:state dbr:Missouri", "class=School" ],
+    "69" : [ "pair=dbr:Louisiana", "Kulczynski=0.983", "triple=e_dbp:state dbr:Louisiana", "class=School" ],
+    "70" : [ "pair=dbr:Mixed-sex_education", "Kulczynski=0.983", "triple=e_dbp:type dbr:Mixed-sex_education", "class=School" ],
+    "71" : [ "pair=dbr:Ninth_grade", "Kulczynski=0.983", "triple=e_dbo:grades dbr:Ninth_grade", "class=School" ],
+    "72" : [ "pair=dbr:Comprehensive_high_school", "Kulczynski=0.983", "triple=e_dbo:type dbr:Comprehensive_high_school", "class=School" ],
+    "73" : [ "pair=\"100\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Kulczynski=0.982", "triple=e_dbo:staff \"100\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=School" ],
+    "74" : [ "pair=dbr:Coeducational", "Kulczynski=0.982", "triple=e_dbo:type dbr:Coeducational", "class=School" ],
+    "75" : [ "pair=dbr:State_school", "Kulczynski=0.982", "triple=e_dbo:type dbr:State_school", "class=School" ],
+    "76" : [ "pair=dbr:Secondary_school", "Kulczynski=0.982", "triple=e_dbp:type dbr:Secondary_school", "class=School" ],
+    "77" : [ "pair=dbr:Purple", "Kulczynski=0.982", "triple=e_dbo:colour dbr:Purple", "class=School" ],
+    "78" : [ "pair=\"white\"", "Kulczynski=0.982", "triple=e_dbo:officialSchoolColour \"white\"", "class=School" ],
+    "79" : [ "pair=dbr:Community_school_(England_and_Wales", "Kulczynski=0.981", "triple=e_dbp:type dbr:Community_school_(England_and_Wales", "class=School" ],
+    "80" : [ "pair=dbr:Ontario", "Kulczynski=0.981", "triple=e_dbp:province dbr:Ontario", "class=School" ],
+    "81" : [ "pair=\"2011\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.981", "triple=e_dbo:foundingYear \"2011\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "82" : [ "pair=dbr:Public_high_school", "Kulczynski=0.981", "triple=e_dbo:type dbr:Public_high_school", "class=School" ],
+    "83" : [ "pair=\"white\"@en", "Kulczynski=0.981", "triple=e_dbp:colors \"white\"@en", "class=School" ],
+    "84" : [ "pair=dbr:Washington_(state", "Kulczynski=0.981", "triple=e_dbp:state dbr:Washington_(state", "class=School" ],
+    "85" : [ "pair=dbr:Independent_school_(United_Kingdom", "Kulczynski=0.981", "triple=e_dbo:type dbr:Independent_school_(United_Kingdom", "class=School" ],
+    "86" : [ "pair=dbr:Kindergarten", "Kulczynski=0.981", "triple=e_dbp:grades dbr:Kindergarten", "class=School" ],
+    "87" : [ "pair=\"Green and Gold\"@en", "Kulczynski=0.98", "triple=e_dbp:colors \"Green and Gold\"@en", "class=School" ],
+    "88" : [ "pair=\"U.S.\"@en", "Kulczynski=0.98", "triple=e_dbp:country \"U.S.\"@en", "class=School" ],
+    "89" : [ "pair=\"Texas#USA\"@en", "Kulczynski=0.98", "triple=e_dbp:pushpinMap \"Texas#USA\"@en", "class=School" ],
+    "90" : [ "pair=\"USA\"@en", "Kulczynski=0.98", "triple=e_dbp:country \"USA\"@en", "class=School" ],
+    "91" : [ "pair=dbr:Day_school", "Kulczynski=0.98", "triple=e_dbp:type dbr:Day_school", "class=School" ],
+    "92" : [ "pair=\"K-12\"@en", "Kulczynski=0.98", "triple=e_dbp:grades \"K-12\"@en", "class=School" ],
+    "93" : [ "pair=\"Blue and Gold\"", "Kulczynski=0.98", "triple=e_dbo:officialSchoolColour \"Blue and Gold\"", "class=School" ],
+    "94" : [ "pair=dbr:Middle_States_Association_of_Colleges_and_Schools", "Kulczynski=0.98", "triple=e_dbp:accreditation dbr:Middle_States_Association_of_Colleges_and_Schools", "class=School" ],
+    "95" : [ "pair=\"Blue and White\"@en", "Kulczynski=0.98", "triple=e_dbp:colors \"Blue and White\"@en", "class=School" ],
+    "96" : [ "pair=\"1953\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.979", "triple=e_dbo:foundingYear \"1953\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "97" : [ "pair=\"Eagle\"@en", "Kulczynski=0.979", "triple=e_dbp:mascot \"Eagle\"@en", "class=School" ],
+    "98" : [ "pair=dbr:Red", "Kulczynski=0.979", "triple=e_dbo:colour dbr:Red", "class=School" ],
+    "99" : [ "pair=\"Australia\"@en", "Kulczynski=0.979", "triple=e_dbp:country \"Australia\"@en", "class=School" ],
+    "100" : [ "pair=\"Canada\"@en", "Kulczynski=0.979", "triple=e_dbp:country \"Canada\"@en", "class=School" ],
+    "101" : [ "pair=\"US\"@en", "Kulczynski=0.979", "triple=e_dbp:country \"US\"@en", "class=School" ],
+    "102" : [ "pair=dbr:Suburb", "Kulczynski=0.979", "triple=e_dbp:campusType dbr:Suburb", "class=School" ],
+    "103" : [ "pair=\"Blue and White\"", "Kulczynski=0.978", "triple=e_dbo:officialSchoolColour \"Blue and White\"", "class=School" ],
+    "104" : [ "pair=dbr:Boarding_school", "Kulczynski=0.978", "triple=e_dbo:type dbr:Boarding_school", "class=School" ],
+    "105" : [ "pair=dbr:United_States", "Kulczynski=0.978", "triple=e_dbp:country dbr:United_States", "class=School" ],
+    "106" : [ "pair=\"Blue\"@en", "Kulczynski=0.978", "triple=e_dbp:colors \"Blue\"@en", "class=School" ],
+    "107" : [ "pair=dbr:Black", "Kulczynski=0.978", "triple=e_dbo:colour dbr:Black", "class=School" ],
+    "108" : [ "pair=\"1997\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.977", "triple=e_dbo:foundingYear \"1997\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "109" : [ "pair=dbr:New_York_(state", "Kulczynski=0.977", "triple=e_dbo:state dbr:New_York_(state", "class=School" ],
+    "110" : [ "pair=\"Headmaster\"@en", "Kulczynski=0.977", "triple=e_dbp:headLabel \"Headmaster\"@en", "class=School" ],
+    "111" : [ "pair=\"United States\"@en", "Kulczynski=0.977", "triple=e_dbp:country \"United States\"@en", "class=School" ],
+    "112" : [ "pair=dbr:Christianity", "Kulczynski=0.977", "triple=e_dbo:religion dbr:Christianity", "class=School" ],
+    "113" : [ "pair=\"White\"", "Kulczynski=0.976", "triple=e_dbo:officialSchoolColour \"White\"", "class=School" ],
+    "114" : [ "pair=\"1975\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.976", "triple=e_dbo:foundingYear \"1975\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "115" : [ "pair=\"1984\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.976", "triple=e_dbo:foundingYear \"1984\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "116" : [ "pair=dbr:Blue", "Kulczynski=0.976", "triple=e_dbo:colour dbr:Blue", "class=School" ],
+    "117" : [ "pair=dbr:Postal_codes_in_Canada", "Kulczynski=0.976", "triple=e_dbp:postcode dbr:Postal_codes_in_Canada", "class=School" ],
+    "118" : [ "pair=dbr:Maryland", "Kulczynski=0.976", "triple=e_dbp:state dbr:Maryland", "class=School" ],
+    "119" : [ "pair=dbr:Public_school_(government_funded", "Kulczynski=0.976", "triple=e_dbo:type dbr:Public_school_(government_funded", "class=School" ],
+    "120" : [ "pair=dbr:Illinois", "Kulczynski=0.976", "triple=e_dbp:state dbr:Illinois", "class=School" ],
+    "121" : [ "pair=dbr:Twelfth_grade", "Kulczynski=0.975", "triple=e_dbp:grades dbr:Twelfth_grade", "class=School" ],
+    "122" : [ "pair=\"Red\"", "Kulczynski=0.975", "triple=e_dbo:officialSchoolColour \"Red\"", "class=School" ],
+    "123" : [ "pair=dbr:Church_of_England", "Kulczynski=0.975", "triple=e_dbp:religiousAffiliation dbr:Church_of_England", "class=School" ],
+    "124" : [ "pair=\"11\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Kulczynski=0.975", "triple=e_dbo:ageRange \"11\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=School" ],
+    "125" : [ "pair=\"1957\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.974", "triple=e_dbo:foundingYear \"1957\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "126" : [ "pair=dbr:Education_in_the_United_States", "Kulczynski=0.974", "triple=e_dbo:grades dbr:Education_in_the_United_States", "class=School" ],
+    "127" : [ "pair=dbr:Private_school", "Kulczynski=0.974", "triple=e_dbo:type dbr:Private_school", "class=School" ],
+    "128" : [ "pair=dbr:California", "Kulczynski=0.974", "triple=e_dbp:state dbr:California", "class=School" ],
+    "129" : [ "pair=dbr:Queensland", "Kulczynski=0.974", "triple=e_dbo:state dbr:Queensland", "class=School" ],
+    "130" : [ "pair=\"Chair of Governors\"@en", "Kulczynski=0.974", "triple=e_dbp:chairLabel \"Chair of Governors\"@en", "class=School" ],
+    "131" : [ "pair=dbr:American_English", "Kulczynski=0.974", "triple=e_dbp:language dbr:American_English", "class=School" ],
+    "132" : [ "pair=\"Black and Gold\"@en", "Kulczynski=0.974", "triple=e_dbp:colors \"Black and Gold\"@en", "class=School" ],
+    "133" : [ "pair=\"2003\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.973", "triple=e_dbo:foundingYear \"2003\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "134" : [ "pair=dbr:Education_in_Canada", "Kulczynski=0.973", "triple=e_dbp:gradesLabel dbr:Education_in_Canada", "class=School" ],
+    "135" : [ "pair=dbr:Catholic_Church", "Kulczynski=0.973", "triple=e_dbp:religiousAffiliation dbr:Catholic_Church", "class=School" ],
+    "136" : [ "pair=\"Boys\"@en", "Kulczynski=0.973", "triple=e_dbp:gender \"Boys\"@en", "class=School" ],
+    "137" : [ "pair=\"Blue\"", "Kulczynski=0.973", "triple=e_dbo:officialSchoolColour \"Blue\"", "class=School" ],
+    "138" : [ "pair=\"18\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Kulczynski=0.973", "triple=e_dbo:upperAge \"18\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=School" ],
+    "139" : [ "pair=\"2004\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.972", "triple=e_dbo:foundingYear \"2004\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "140" : [ "pair=dbr:Australia", "Kulczynski=0.972", "triple=e_dbp:country dbr:Australia", "class=School" ],
+    "141" : [ "pair=dbr:Pre-kindergarten", "Kulczynski=0.972", "triple=e_dbp:grades dbr:Pre-kindergarten", "class=School" ],
+    "142" : [ "pair=\"1956\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.972", "triple=e_dbo:foundingYear \"1956\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "143" : [ "pair=dbr:Sri_Lanka", "Kulczynski=0.972", "triple=e_dbp:country dbr:Sri_Lanka", "class=School" ],
+    "144" : [ "pair=dbr:Urban_area", "Kulczynski=0.971", "triple=e_dbp:campusType dbr:Urban_area", "class=School" ],
+    "145" : [ "pair=\"Blue and Gold\"@en", "Kulczynski=0.971", "triple=e_dbp:colors \"Blue and Gold\"@en", "class=School" ],
+    "146" : [ "pair=\"2006\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.971", "triple=e_dbo:foundingYear \"2006\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "147" : [ "pair=dbr:Roman_Catholic", "Kulczynski=0.971", "triple=e_dbo:religion dbr:Roman_Catholic", "class=School" ],
+    "148" : [ "pair=\"1955\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.971", "triple=e_dbo:foundingYear \"1955\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "149" : [ "pair=\"1961\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.97", "triple=e_dbo:foundingYear \"1961\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "150" : [ "pair=dbr:College-preparatory_school", "Kulczynski=0.97", "triple=e_dbp:type dbr:College-preparatory_school", "class=School" ],
+    "151" : [ "pair=\"Principal\"@en", "Kulczynski=0.97", "triple=e_dbp:principalLabel \"Principal\"@en", "class=School" ],
+    "152" : [ "pair=\"Girls\"@en", "Kulczynski=0.97", "triple=e_dbp:gender \"Girls\"@en", "class=School" ],
+    "153" : [ "pair=\"Rural\"@en", "Kulczynski=0.968", "triple=e_dbp:campus \"Rural\"@en", "class=School" ],
+    "154" : [ "pair=\"English\"@en", "Kulczynski=0.967", "triple=e_dbp:language \"English\"@en", "class=School" ],
+    "155" : [ "pair=dbr:North_Carolina", "Kulczynski=0.966", "triple=e_dbp:state dbr:North_Carolina", "class=School" ],
+    "156" : [ "pair=\"Red\"@en", "Kulczynski=0.966", "triple=e_dbp:colors \"Red\"@en", "class=School" ],
+    "157" : [ "pair=dbr:Academy_(English_school", "Kulczynski=0.966", "triple=e_dbp:type dbr:Academy_(English_school", "class=School" ],
+    "158" : [ "pair=\"1976\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.966", "triple=e_dbo:foundingYear \"1976\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "159" : [ "pair=\"Co-educational\"@en", "Kulczynski=0.966", "triple=e_dbp:gender \"Co-educational\"@en", "class=School" ],
+    "160" : [ "pair=dbr:Voluntary_aided_school", "Kulczynski=0.966", "triple=e_dbp:type dbr:Voluntary_aided_school", "class=School" ],
+    "161" : [ "pair=dbr:Maroon_(color", "Kulczynski=0.966", "triple=e_dbo:colour dbr:Maroon_(color", "class=School" ],
+    "162" : [ "pair=\"White\"@en", "Kulczynski=0.966", "triple=e_dbp:colors \"White\"@en", "class=School" ],
+    "163" : [ "pair=dbr:Green", "Kulczynski=0.966", "triple=e_dbo:colour dbr:Green", "class=School" ],
+    "164" : [ "pair=\"2005\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.965", "triple=e_dbo:foundingYear \"2005\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "165" : [ "pair=\"right\"@en", "Kulczynski=0.965", "triple=e_dbp:pushpinLabelPosition \"right\"@en", "class=School" ],
+    "166" : [ "pair=dbr:West_Bengal", "Kulczynski=0.965", "triple=e_dbo:state dbr:West_Bengal", "class=School" ],
+    "167" : [ "pair=\"Tiger\"", "Kulczynski=0.965", "triple=e_dbo:mascot \"Tiger\"", "class=School" ],
+    "168" : [ "pair=\"1959\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.964", "triple=e_dbo:foundingYear \"1959\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "169" : [ "pair=\"Tiger\"@en", "Kulczynski=0.964", "triple=e_dbp:mascot \"Tiger\"@en", "class=School" ],
+    "170" : [ "pair=dbr:Indiana", "Kulczynski=0.964", "triple=e_dbo:state dbr:Indiana", "class=School" ],
+    "171" : [ "pair=\"1978\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.964", "triple=e_dbo:foundingYear \"1978\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "172" : [ "pair=\"Second Master\"@en", "Kulczynski=0.963", "triple=e_dbp:headName \"Second Master\"@en", "class=School" ],
+    "173" : [ "pair=\"1958\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.963", "triple=e_dbo:foundingYear \"1958\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=School" ],
+    "174" : [ "pair=\"Urban\"@en", "Kulczynski=0.963", "triple=e_dbp:campus \"Urban\"@en", "class=School" ],
+    "175" : [ "pair=\"North Carolina#USA\"@en", "Kulczynski=0.963", "triple=e_dbp:pushpinMap \"North Carolina#USA\"@en", "class=School" ],
+    "176" : [ "pair=\"Red and White\"@en", "Kulczynski=0.963", "triple=e_dbp:colors \"Red and White\"@en", "class=School" ],
+    "177" : [ "pair=\"Headteacher\"@en", "Kulczynski=0.963", "triple=e_dbp:headLabel \"Headteacher\"@en", "class=School" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "school district",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"6.627096E8\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=1.0", "triple=e_dbp:upperAge \"6.627096E8\"^^<http://dbpedia.org/datatype/second>", "class=School" ],
+    "1" : [ "pair=\"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.99", "triple=e_dbp:lowerAge \"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "class=School" ],
+    "2" : [ "pair=\"21\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Kulczynski=0.981", "triple=e_dbo:upperAge \"21\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=School" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "secondary day",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Kulczynski=0.976", "triple=e_dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=School" ],
+    "1" : [ "pair=dbr:New_South_Wales", "Kulczynski=0.975", "triple=e_dbp:location dbr:New_South_Wales", "class=School" ],
+    "2" : [ "pair=dbr:Department_of_Education_(New_South_Wales", "Kulczynski=0.971", "triple=e_dbo:localAuthority dbr:Department_of_Education_(New_South_Wales", "class=School" ],
+    "3" : [ "pair=\"Australia Sydney\"@en", "Kulczynski=0.964", "triple=e_dbp:pushpinMap \"Australia Sydney\"@en", "class=School" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Kulczynski=0.992", "triple=e_dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=School" ],
+    "1" : [ "pair=dbr:New_South_Wales", "Kulczynski=0.991", "triple=e_dbp:location dbr:New_South_Wales", "class=School" ],
+    "2" : [ "pair=dbr:Department_of_Education_(New_South_Wales", "Kulczynski=0.988", "triple=e_dbo:localAuthority dbr:Department_of_Education_(New_South_Wales", "class=School" ],
+    "3" : [ "pair=\"Australia Sydney\"@en", "Kulczynski=0.973", "triple=e_dbp:pushpinMap \"Australia Sydney\"@en", "class=School" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "south wales",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Kulczynski=0.992", "triple=e_dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=School" ],
+    "1" : [ "pair=dbr:New_South_Wales", "Kulczynski=0.991", "triple=e_dbp:location dbr:New_South_Wales", "class=School" ],
+    "2" : [ "pair=dbr:Department_of_Education_(New_South_Wales", "Kulczynski=0.988", "triple=e_dbo:localAuthority dbr:Department_of_Education_(New_South_Wales", "class=School" ],
+    "3" : [ "pair=\"Australia Sydney\"@en", "Kulczynski=0.973", "triple=e_dbp:pushpinMap \"Australia Sydney\"@en", "class=School" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "south wales australia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:New_South_Wales", "Kulczynski=0.991", "triple=e_dbp:location dbr:New_South_Wales", "class=School" ],
+    "1" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Kulczynski=0.984", "triple=e_dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=School" ],
+    "2" : [ "pair=dbr:Department_of_Education_(New_South_Wales", "Kulczynski=0.982", "triple=e_dbo:localAuthority dbr:Department_of_Education_(New_South_Wales", "class=School" ],
+    "3" : [ "pair=\"Australia Sydney\"@en", "Kulczynski=0.964", "triple=e_dbp:pushpinMap \"Australia Sydney\"@en", "class=School" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "square",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.972", "triple=e_dbp:lowerAge \"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "class=School" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "square miles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.963", "triple=e_dbp:lowerAge \"1.57788E8\"^^<http://dbpedia.org/datatype/second>", "class=School" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Oregon", "Kulczynski=0.97", "triple=e_dbp:state dbr:Oregon", "class=School" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "sydney",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Kulczynski=0.992", "triple=e_dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=School" ],
+    "1" : [ "pair=\"Australia Sydney\"@en", "Kulczynski=0.991", "triple=e_dbp:pushpinMap \"Australia Sydney\"@en", "class=School" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "tennessee",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Tennessee", "Kulczynski=0.973", "triple=e_dbp:state dbr:Tennessee", "class=School" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "texas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Texas#USA\"@en", "Kulczynski=0.99", "triple=e_dbp:pushpinMap \"Texas#USA\"@en", "class=School" ],
+    "1" : [ "pair=dbr:Texas", "Kulczynski=0.988", "triple=e_dbo:state dbr:Texas", "class=School" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Oregon", "Kulczynski=0.97", "triple=e_dbp:state dbr:Oregon", "class=School" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Oregon", "Kulczynski=0.97", "triple=e_dbp:state dbr:Oregon", "class=School" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "virginia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Virginia", "Kulczynski=0.971", "triple=e_dbp:state dbr:Virginia", "class=School" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "wales",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Kulczynski=0.992", "triple=e_dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=School" ],
+    "1" : [ "pair=dbr:New_South_Wales", "Kulczynski=0.991", "triple=e_dbp:location dbr:New_South_Wales", "class=School" ],
+    "2" : [ "pair=dbr:Department_of_Education_(New_South_Wales", "Kulczynski=0.988", "triple=e_dbo:localAuthority dbr:Department_of_Education_(New_South_Wales", "class=School" ],
+    "3" : [ "pair=\"Australia Sydney\"@en", "Kulczynski=0.973", "triple=e_dbp:pushpinMap \"Australia Sydney\"@en", "class=School" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "wales australia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:New_South_Wales", "Kulczynski=0.991", "triple=e_dbp:location dbr:New_South_Wales", "class=School" ],
+    "1" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Kulczynski=0.984", "triple=e_dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=School" ],
+    "2" : [ "pair=dbr:Department_of_Education_(New_South_Wales", "Kulczynski=0.982", "triple=e_dbo:localAuthority dbr:Department_of_Education_(New_South_Wales", "class=School" ],
+    "3" : [ "pair=\"Australia Sydney\"@en", "Kulczynski=0.964", "triple=e_dbp:pushpinMap \"Australia Sydney\"@en", "class=School" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "washington",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Washington_(state", "Kulczynski=0.971", "triple=e_dbp:state dbr:Washington_(state", "class=School" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=0.973", "triple=e_dbo:state dbr:New_York_(state", "class=School" ]
+  }
+} ]

@@ -1,0 +1,454 @@
+[ {
+  "id" : 1,
+  "pattern" : "also",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "Kulczynski=0.578", "triple=e_dbo:country dbr:United_States", "class=Artist" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:New_York_City", "Kulczynski=0.926", "triple=e_dbo:birthPlace dbr:New_York_City", "class=Artist" ],
+    "1" : [ "pair=\"American\"@en", "Kulczynski=0.914", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
+    "2" : [ "pair=dbr:Americans", "Kulczynski=0.888", "triple=e_dbo:nationality dbr:Americans", "class=Artist" ],
+    "3" : [ "pair=dbr:New_York_(state", "Kulczynski=0.887", "triple=e_dbo:birthPlace dbr:New_York_(state", "class=Artist" ],
+    "4" : [ "pair=dbr:United_States", "Kulczynski=0.883", "triple=e_dbo:nationality dbr:United_States", "class=Artist" ],
+    "5" : [ "pair=dbr:Abstract_expressionism", "Kulczynski=0.835", "triple=e_dbp:movement dbr:Abstract_expressionism", "class=Artist" ],
+    "6" : [ "pair=dbr:Photography", "Kulczynski=0.69", "triple=e_dbp:field dbr:Photography", "class=Artist" ],
+    "7" : [ "pair=dbr:Sculpture", "Kulczynski=0.669", "triple=e_dbo:field dbr:Sculpture", "class=Artist" ],
+    "8" : [ "pair=dbr:Printmaking", "Kulczynski=0.668", "triple=e_dbo:field dbr:Printmaking", "class=Artist" ],
+    "9" : [ "pair=\"#6495ED\"@en", "Kulczynski=0.667", "triple=e_dbp:bgcolour \"#6495ED\"@en", "class=Artist" ],
+    "10" : [ "pair=\"\"@en", "Kulczynski=0.667", "triple=e_dbp:spouse \"\"@en", "class=Artist" ],
+    "11" : [ "pair=dbr:Drawing", "Kulczynski=0.632", "triple=e_dbp:field dbr:Drawing", "class=Artist" ],
+    "12" : [ "pair=dbr:Painting", "Kulczynski=0.624", "triple=e_dbp:field dbr:Painting", "class=Artist" ],
+    "13" : [ "pair=\"Painting\"@en", "Kulczynski=0.592", "triple=e_dbp:field \"Painting\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "american\u001Cartist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "Kulczynski=0.599", "triple=e_dbo:country dbr:United_States", "class=Artist" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "american artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "Kulczynski=0.667", "triple=e_dbo:country dbr:United_States", "class=Artist" ],
+    "1" : [ "pair=\"American\"@en", "Kulczynski=0.62", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "american painter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "Kulczynski=0.586", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:United_States", "Kulczynski=0.582", "triple=e_dbo:nationality dbr:United_States", "class=Artist" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Performance_art", "Kulczynski=0.979", "triple=e_dbo:field dbr:Performance_art", "class=Artist" ],
+    "1" : [ "pair=dbr:Conceptual_art", "Kulczynski=0.965", "triple=e_dbo:field dbr:Conceptual_art", "class=Artist" ],
+    "2" : [ "pair=dbr:Installation_art", "Kulczynski=0.959", "triple=e_dbo:field dbr:Installation_art", "class=Artist" ],
+    "3" : [ "pair=dbr:Video_art", "Kulczynski=0.952", "triple=e_dbp:field dbr:Video_art", "class=Artist" ],
+    "4" : [ "pair=dbr:United_States", "Kulczynski=0.865", "triple=e_dbo:country dbr:United_States", "class=Artist" ],
+    "5" : [ "pair=dbr:Contemporary_art", "Kulczynski=0.839", "triple=e_dbp:movement dbr:Contemporary_art", "class=Artist" ],
+    "6" : [ "pair=\"Australian\"@en", "Kulczynski=0.81", "triple=e_dbp:nationality \"Australian\"@en", "class=Artist" ],
+    "7" : [ "pair=\"Canadian\"@en", "Kulczynski=0.804", "triple=e_dbp:nationality \"Canadian\"@en", "class=Artist" ],
+    "8" : [ "pair=dbr:New_York_City", "Kulczynski=0.8", "triple=e_dbo:birthPlace dbr:New_York_City", "class=Artist" ],
+    "9" : [ "pair=dbr:Canadians", "Kulczynski=0.795", "triple=e_dbp:nationality dbr:Canadians", "class=Artist" ],
+    "10" : [ "pair=dbr:Drawing", "Kulczynski=0.789", "triple=e_dbo:field dbr:Drawing", "class=Artist" ],
+    "11" : [ "pair=dbr:United_Kingdom", "Kulczynski=0.786", "triple=e_dbo:country dbr:United_Kingdom", "class=Artist" ],
+    "12" : [ "pair=dbr:Printmaking", "Kulczynski=0.78", "triple=e_dbp:field dbr:Printmaking", "class=Artist" ],
+    "13" : [ "pair=\"Japanese\"@en", "Kulczynski=0.777", "triple=e_dbp:nationality \"Japanese\"@en", "class=Artist" ],
+    "14" : [ "pair=dbr:Americans", "Kulczynski=0.776", "triple=e_dbp:nationality dbr:Americans", "class=Artist" ],
+    "15" : [ "pair=dbr:England", "Kulczynski=0.764", "triple=e_dbp:birthPlace dbr:England", "class=Artist" ],
+    "16" : [ "pair=\"American\"@en", "Kulczynski=0.756", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
+    "17" : [ "pair=\"British\"@en", "Kulczynski=0.745", "triple=e_dbp:nationality \"British\"@en", "class=Artist" ],
+    "18" : [ "pair=dbr:London", "Kulczynski=0.742", "triple=e_dbo:birthPlace dbr:London", "class=Artist" ],
+    "19" : [ "pair=\"English\"@en", "Kulczynski=0.738", "triple=e_dbp:nationality \"English\"@en", "class=Artist" ],
+    "20" : [ "pair=dbr:Sculpture", "Kulczynski=0.734", "triple=e_dbo:field dbr:Sculpture", "class=Artist" ],
+    "21" : [ "pair=\"yes\"@en", "Kulczynski=0.721", "triple=e_dbp:fixAttempted \"yes\"@en", "class=Artist" ],
+    "22" : [ "pair=\"InternetArchiveBot\"@en", "Kulczynski=0.72", "triple=e_dbp:bot \"InternetArchiveBot\"@en", "class=Artist" ],
+    "23" : [ "pair=dbr:Photography", "Kulczynski=0.72", "triple=e_dbo:field dbr:Photography", "class=Artist" ],
+    "24" : [ "pair=\"#6495ED\"@en", "Kulczynski=0.711", "triple=e_dbp:bgcolour \"#6495ED\"@en", "class=Artist" ],
+    "25" : [ "pair=\"Painting\"@en", "Kulczynski=0.71", "triple=e_dbp:knownFor \"Painting\"@en", "class=Artist" ],
+    "26" : [ "pair=dbr:Illustration", "Kulczynski=0.709", "triple=e_dbo:field dbr:Illustration", "class=Artist" ],
+    "27" : [ "pair=\"German\"@en", "Kulczynski=0.706", "triple=e_dbp:nationality \"German\"@en", "class=Artist" ],
+    "28" : [ "pair=dbr:Painting", "Kulczynski=0.688", "triple=e_dbo:field dbr:Painting", "class=Artist" ],
+    "29" : [ "pair=\"\"@en", "Kulczynski=0.685", "triple=e_dbp:spouse \"\"@en", "class=Artist" ],
+    "30" : [ "pair=\"French\"@en", "Kulczynski=0.623", "triple=e_dbp:nationality \"French\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "artists",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.655", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "australia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Australian\"@en", "Kulczynski=0.663", "triple=e_dbp:nationality \"Australian\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "australian artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Australian\"@en", "Kulczynski=0.681", "triple=e_dbp:nationality \"Australian\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "british\u001Cartist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"British\"@en", "Kulczynski=0.579", "triple=e_dbp:nationality \"British\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "british artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"British\"@en", "Kulczynski=0.604", "triple=e_dbp:nationality \"British\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "canadian artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.664", "triple=e_dbp:nationality \"Canadian\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "dutch",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Dutch\"@en", "Kulczynski=0.941", "triple=e_dbp:nationality \"Dutch\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:Netherlands", "Kulczynski=0.93", "triple=e_dbp:nationality dbr:Netherlands", "class=Artist" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "english",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"English\"@en", "Kulczynski=0.863", "triple=e_dbp:nationality \"English\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:England", "Kulczynski=0.68", "triple=e_dbo:birthPlace dbr:England", "class=Artist" ],
+    "2" : [ "pair=\"British\"@en", "Kulczynski=0.628", "triple=e_dbp:nationality \"British\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "french\u001Cpainter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"French\"@en", "Kulczynski=0.64", "triple=e_dbp:nationality \"French\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "french painter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"French\"@en", "Kulczynski=0.671", "triple=e_dbp:nationality \"French\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "illustrator",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Illustration", "Kulczynski=0.84", "triple=e_dbp:field dbr:Illustration", "class=Artist" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "installation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Installation_art", "Kulczynski=0.712", "triple=e_dbo:field dbr:Installation_art", "class=Artist" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "italian\u001Cpainter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Italy", "Kulczynski=0.703", "triple=e_dbo:nationality dbr:Italy", "class=Artist" ],
+    "1" : [ "pair=\"Italian\"@en", "Kulczynski=0.687", "triple=e_dbp:nationality \"Italian\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "italian painter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Italy", "Kulczynski=0.738", "triple=e_dbo:nationality dbr:Italy", "class=Artist" ],
+    "1" : [ "pair=\"Italian\"@en", "Kulczynski=0.731", "triple=e_dbp:nationality \"Italian\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "leningrad",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Saint_Petersburg", "Kulczynski=0.757", "triple=e_dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ],
+    "1" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.692", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "leningrad\u001Cschool",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.667", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "leningrad\u001Cschool\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.667", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "leningrad school",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.67", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "leningrad school\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.67", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "leningrad school\u001Cof\u001Cpainting",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.67", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "leningrad school of\u001Cpainting",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.67", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "member",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.67", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "museum",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "Kulczynski=0.628", "triple=e_dbo:country dbr:United_States", "class=Artist" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "new york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:New_York_City", "Kulczynski=0.723", "triple=e_dbo:birthPlace dbr:New_York_City", "class=Artist" ],
+    "1" : [ "pair=dbr:United_States", "Kulczynski=0.608", "triple=e_dbo:country dbr:United_States", "class=Artist" ],
+    "2" : [ "pair=\"American\"@en", "Kulczynski=0.599", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "one",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.68", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "painter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Self-portrait\"@en", "Kulczynski=0.941", "triple=e_dbp:caption \"Self-portrait\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:Baroque", "Kulczynski=0.927", "triple=e_dbp:movement dbr:Baroque", "class=Artist" ],
+    "2" : [ "pair=dbr:Orientalism", "Kulczynski=0.92", "triple=e_dbo:movement dbr:Orientalism", "class=Artist" ],
+    "3" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.916", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ],
+    "4" : [ "pair=dbr:Saint_Petersburg", "Kulczynski=0.915", "triple=e_dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ],
+    "5" : [ "pair=dbr:Impressionism", "Kulczynski=0.892", "triple=e_dbp:movement dbr:Impressionism", "class=Artist" ],
+    "6" : [ "pair=dbr:Expressionism", "Kulczynski=0.869", "triple=e_dbo:movement dbr:Expressionism", "class=Artist" ],
+    "7" : [ "pair=dbr:Italy", "Kulczynski=0.861", "triple=e_dbo:nationality dbr:Italy", "class=Artist" ],
+    "8" : [ "pair=dbr:Paris", "Kulczynski=0.852", "triple=e_dbp:deathPlace dbr:Paris", "class=Artist" ],
+    "9" : [ "pair=dbr:Painting", "Kulczynski=0.852", "triple=e_dbp:field dbr:Painting", "class=Artist" ],
+    "10" : [ "pair=dbr:Netherlands", "Kulczynski=0.849", "triple=e_dbp:nationality dbr:Netherlands", "class=Artist" ],
+    "11" : [ "pair=dbr:Abstract_expressionism", "Kulczynski=0.847", "triple=e_dbp:movement dbr:Abstract_expressionism", "class=Artist" ],
+    "12" : [ "pair=dbr:France", "Kulczynski=0.828", "triple=e_dbp:deathPlace dbr:France", "class=Artist" ],
+    "13" : [ "pair=dbr:Russian_Empire", "Kulczynski=0.828", "triple=e_dbo:birthPlace dbr:Russian_Empire", "class=Artist" ],
+    "14" : [ "pair=\"Painting\"@en", "Kulczynski=0.827", "triple=e_dbp:knownFor \"Painting\"@en", "class=Artist" ],
+    "15" : [ "pair=\"Paris", "Kulczynski=0.812", "triple=e_dbp:deathPlace \"Paris", "class=Artist" ],
+    "16" : [ "pair=\"Italian\"@en", "Kulczynski=0.801", "triple=e_dbp:nationality \"Italian\"@en", "class=Artist" ],
+    "17" : [ "pair=\"#EEDD82\"@en", "Kulczynski=0.792", "triple=e_dbp:bgcolour \"#EEDD82\"@en", "class=Artist" ],
+    "18" : [ "pair=\"French\"@en", "Kulczynski=0.791", "triple=e_dbp:nationality \"French\"@en", "class=Artist" ],
+    "19" : [ "pair=dbr:Drawing", "Kulczynski=0.735", "triple=e_dbp:field dbr:Drawing", "class=Artist" ],
+    "20" : [ "pair=dbr:Printmaking", "Kulczynski=0.731", "triple=e_dbo:field dbr:Printmaking", "class=Artist" ],
+    "21" : [ "pair=\"English\"@en", "Kulczynski=0.718", "triple=e_dbp:nationality \"English\"@en", "class=Artist" ],
+    "22" : [ "pair=\"\"@en", "Kulczynski=0.714", "triple=e_dbp:spouse \"\"@en", "class=Artist" ],
+    "23" : [ "pair=\"German\"@en", "Kulczynski=0.703", "triple=e_dbp:nationality \"German\"@en", "class=Artist" ],
+    "24" : [ "pair=\"#6495ED\"@en", "Kulczynski=0.699", "triple=e_dbp:bgcolour \"#6495ED\"@en", "class=Artist" ],
+    "25" : [ "pair=\"InternetArchiveBot\"@en", "Kulczynski=0.679", "triple=e_dbp:bot \"InternetArchiveBot\"@en", "class=Artist" ],
+    "26" : [ "pair=\"yes\"@en", "Kulczynski=0.676", "triple=e_dbp:fixAttempted \"yes\"@en", "class=Artist" ],
+    "27" : [ "pair=dbr:Canadians", "Kulczynski=0.675", "triple=e_dbo:nationality dbr:Canadians", "class=Artist" ],
+    "28" : [ "pair=dbr:United_States", "Kulczynski=0.668", "triple=e_dbo:nationality dbr:United_States", "class=Artist" ],
+    "29" : [ "pair=\"British\"@en", "Kulczynski=0.652", "triple=e_dbp:nationality \"British\"@en", "class=Artist" ],
+    "30" : [ "pair=\"American\"@en", "Kulczynski=0.651", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
+    "31" : [ "pair=dbr:Sculpture", "Kulczynski=0.608", "triple=e_dbo:field dbr:Sculpture", "class=Artist" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "painting",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Saint_Petersburg", "Kulczynski=0.747", "triple=e_dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ],
+    "1" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.698", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ],
+    "2" : [ "pair=dbr:Painting", "Kulczynski=0.583", "triple=e_dbp:field dbr:Painting", "class=Artist" ],
+    "3" : [ "pair=\"Painting\"@en", "Kulczynski=0.574", "triple=e_dbp:field \"Painting\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "paintings",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Painting\"@en", "Kulczynski=0.597", "triple=e_dbp:field \"Painting\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:Painting", "Kulczynski=0.589", "triple=e_dbp:field dbr:Painting", "class=Artist" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "paris",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Paris", "Kulczynski=0.711", "triple=e_dbo:deathPlace dbr:Paris", "class=Artist" ],
+    "1" : [ "pair=dbr:France", "Kulczynski=0.709", "triple=e_dbo:country dbr:France", "class=Artist" ],
+    "2" : [ "pair=\"Paris", "Kulczynski=0.701", "triple=e_dbp:deathPlace \"Paris", "class=Artist" ],
+    "3" : [ "pair=\"French\"@en", "Kulczynski=0.638", "triple=e_dbp:nationality \"French\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "petersburg",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Saint_Petersburg", "Kulczynski=0.762", "triple=e_dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "photographer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Photography\"@en", "Kulczynski=0.946", "triple=e_dbp:field \"Photography\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:Photography", "Kulczynski=0.828", "triple=e_dbp:field dbr:Photography", "class=Artist" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "photography",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Photography", "Kulczynski=0.668", "triple=e_dbo:field dbr:Photography", "class=Artist" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "printmaker",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Printmaking", "Kulczynski=0.671", "triple=e_dbo:field dbr:Printmaking", "class=Artist" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "saint",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Saint_Petersburg", "Kulczynski=0.762", "triple=e_dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "saint petersburg",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Saint_Petersburg", "Kulczynski=0.757", "triple=e_dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "school",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.673", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "school painting",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.67", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "sculptor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Sculpture\"@en", "Kulczynski=0.89", "triple=e_dbp:field \"Sculpture\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:Sculpture", "Kulczynski=0.818", "triple=e_dbp:field dbr:Sculpture", "class=Artist" ],
+    "2" : [ "pair=\"French\"@en", "Kulczynski=0.597", "triple=e_dbp:nationality \"French\"@en", "class=Artist" ],
+    "3" : [ "pair=\"\"@en", "Kulczynski=0.592", "triple=e_dbp:spouse \"\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "sculpture",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Sculpture", "Kulczynski=0.605", "triple=e_dbo:field dbr:Sculpture", "class=Artist" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "union",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Realism_(arts", "Kulczynski=0.658", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "work",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "Kulczynski=0.684", "triple=e_dbo:country dbr:United_States", "class=Artist" ],
+    "1" : [ "pair=dbr:Installation_art", "Kulczynski=0.681", "triple=e_dbo:field dbr:Installation_art", "class=Artist" ],
+    "2" : [ "pair=\"Canadian\"@en", "Kulczynski=0.635", "triple=e_dbp:nationality \"Canadian\"@en", "class=Artist" ],
+    "3" : [ "pair=\"American\"@en", "Kulczynski=0.632", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
+    "4" : [ "pair=dbr:Photography", "Kulczynski=0.62", "triple=e_dbo:field dbr:Photography", "class=Artist" ],
+    "5" : [ "pair=dbr:Sculpture", "Kulczynski=0.611", "triple=e_dbo:field dbr:Sculpture", "class=Artist" ],
+    "6" : [ "pair=\"#6495ED\"@en", "Kulczynski=0.598", "triple=e_dbp:bgcolour \"#6495ED\"@en", "class=Artist" ],
+    "7" : [ "pair=\"British\"@en", "Kulczynski=0.595", "triple=e_dbp:nationality \"British\"@en", "class=Artist" ],
+    "8" : [ "pair=\"French\"@en", "Kulczynski=0.586", "triple=e_dbp:nationality \"French\"@en", "class=Artist" ],
+    "9" : [ "pair=\"Painting\"@en", "Kulczynski=0.585", "triple=e_dbp:field \"Painting\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "works",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Installation_art", "Kulczynski=0.703", "triple=e_dbp:field dbr:Installation_art", "class=Artist" ],
+    "1" : [ "pair=dbr:Sculpture", "Kulczynski=0.619", "triple=e_dbo:field dbr:Sculpture", "class=Artist" ],
+    "2" : [ "pair=dbr:United_States", "Kulczynski=0.591", "triple=e_dbp:nationality dbr:United_States", "class=Artist" ],
+    "3" : [ "pair=\"#6495ED\"@en", "Kulczynski=0.577", "triple=e_dbp:bgcolour \"#6495ED\"@en", "class=Artist" ],
+    "4" : [ "pair=\"American\"@en", "Kulczynski=0.576", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:New_York_City", "Kulczynski=0.723", "triple=e_dbo:birthPlace dbr:New_York_City", "class=Artist" ],
+    "1" : [ "pair=dbr:United_States", "Kulczynski=0.608", "triple=e_dbo:country dbr:United_States", "class=Artist" ],
+    "2" : [ "pair=\"American\"@en", "Kulczynski=0.6", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+  }
+} ]

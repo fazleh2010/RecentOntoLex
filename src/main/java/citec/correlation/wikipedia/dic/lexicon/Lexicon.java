@@ -47,9 +47,9 @@ public class Lexicon {
             String postagOfWord = null;
             LinkedHashMap<Integer, List<String>> kbList = new LinkedHashMap<Integer, List<String>>();
             Integer index = 0;
-            //System.out.println("word:"+word);
+            System.out.println("word:"+word);
             
-            //System.out.println("postagOfWord:"+postagOfWord);
+            System.out.println("postagOfWord:"+postagOfWord);
             //System.out.println("associationType:"+associationType);
              Set<String>duplicateCheck=new HashSet<String>();
              

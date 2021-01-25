@@ -58,11 +58,11 @@ public class Comparision {
             return;
         }
             
-         Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
+        Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
         List<String> commonWords = new ArrayList<String>(intersection);
         System.out.print("commonWords:"+commonWords);
 
-        for (String word : lexiconDic.keySet()) {
+        /*for (String word : lexiconDic.keySet()) {
             System.out.println(" word:" + word);
             LexiconUnit lexiconElement = lexiconDic.get(word);
             Map<String, Double> predict = this.getPredictMap(lexiconElement);
@@ -75,7 +75,7 @@ public class Comparision {
         }
         MeanReciprocalCalculation meanReciprocalResult =new MeanReciprocalCalculation(lexicon, qald_gold);
         //System.out.println("meanReciprocalRank:" + meanReciprocalResult.getMeanReciprocalElements());
-        FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocalResult, outputFileName);
+        FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocalResult, outputFileName);*/
         
     }
     

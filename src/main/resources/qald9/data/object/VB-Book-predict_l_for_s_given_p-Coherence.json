@@ -1,0 +1,64 @@
+[ {
+  "id" : 5,
+  "pattern" : "based",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.439", "triple=e_dbp:releaseNumber o", "class=Book" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "based on\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.405", "triple=e_dbp:releaseNumber o", "class=Book" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "edited",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.405", "triple=e_dbp:editor o", "class=Book" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "first\u001Cpublished",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.245", "triple=e_dbp:editor o", "class=Book" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "first published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.283", "triple=e_dbp:editor o", "class=Book" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.425", "triple=e_dbp:editor o", "class=Book" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "translated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.222", "triple=e_dbo:translator o", "class=Book" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "won",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.236", "triple=e_dbp:awards o", "class=Book" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "written",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.423", "triple=e_dbp:releaseNumber o", "class=Book" ]
+  }
+} ]

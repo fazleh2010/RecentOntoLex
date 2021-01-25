@@ -1,0 +1,40 @@
+[ {
+  "id" : 3,
+  "pattern" : "chose",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "4" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "elect",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Colours on map indicate winning party for each constituency.\"@en", "Kulczynski=1.0", "triple=e_dbp:mapCaption \"Colours on map indicate winning party for each constituency.\"@en", "class=Election" ],
+    "1" : [ "pair=\"DPHK\"@en", "Kulczynski=1.0", "triple=e_dbp:party \"DPHK\"@en", "class=Election" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "held",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Â± 0\"@en", "Kulczynski=1.0", "triple=e_dbp:seatsChg \"Â± 0\"@en", "class=Election" ],
+    "1" : [ "pair=\"Colours on map indicate winning party for each constituency.\"@en", "Kulczynski=1.0", "triple=e_dbp:mapCaption \"Colours on map indicate winning party for each constituency.\"@en", "class=Election" ],
+    "2" : [ "pair=\"DABHK\"@en", "Kulczynski=1.0", "triple=e_dbp:party \"DABHK\"@en", "class=Election" ],
+    "3" : [ "pair=\"DPHK\"@en", "Kulczynski=1.0", "triple=e_dbp:party \"DPHK\"@en", "class=Election" ],
+    "4" : [ "pair=\"Verdana\"@en", "Kulczynski=0.995", "triple=e_dbp:font \"Verdana\"@en", "class=Election" ],
+    "5" : [ "pair=\"75.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.995", "triple=e_dbp:size \"75.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "6" : [ "pair=\"Independent\"@en", "Kulczynski=0.995", "triple=e_dbp:partyId \"Independent\"@en", "class=Election" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "voted",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ]
+  }
+} ]

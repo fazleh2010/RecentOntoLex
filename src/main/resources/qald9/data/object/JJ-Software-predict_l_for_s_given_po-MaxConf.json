@@ -1,0 +1,109 @@
+[ {
+  "id" : 12,
+  "pattern" : "available",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:discontinued \"yes\"@en", "class=Software" ],
+    "1" : [ "pair=dbr:Microsoft", "MaxConf=1.0", "triple=e_dbp:developer dbr:Microsoft", "class=Software" ],
+    "2" : [ "pair=dbr:C_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C_(programming_language", "class=Software" ],
+    "3" : [ "pair=dbr:Java_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:Java_(programming_language", "class=Software" ],
+    "4" : [ "pair=dbr:C++", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C++", "class=Software" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "different",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:C++", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C++", "class=Software" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "free",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:discontinued \"yes\"@en", "class=Software" ],
+    "1" : [ "pair=dbr:C_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C_(programming_language", "class=Software" ],
+    "2" : [ "pair=dbr:Java_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:Java_(programming_language", "class=Software" ],
+    "3" : [ "pair=dbr:JavaScript", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:JavaScript", "class=Software" ],
+    "4" : [ "pair=dbr:C_Sharp_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C_Sharp_(programming_language", "class=Software" ],
+    "5" : [ "pair=dbr:C++", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C++", "class=Software" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "free\u001Cand",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:C_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C_(programming_language", "class=Software" ],
+    "1" : [ "pair=dbr:C++", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C++", "class=Software" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "graphical",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:C_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C_(programming_language", "class=Software" ],
+    "1" : [ "pair=dbr:C++", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C++", "class=Software" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "licensed",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:C_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C_(programming_language", "class=Software" ],
+    "1" : [ "pair=dbr:C++", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C++", "class=Software" ]
+  }
+}, {
+  "id" : 95,
+  "pattern" : "many",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:C_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C_(programming_language", "class=Software" ],
+    "1" : [ "pair=dbr:C++", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C++", "class=Software" ]
+  }
+}, {
+  "id" : 99,
+  "pattern" : "multiple",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:C_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C_(programming_language", "class=Software" ]
+  }
+}, {
+  "id" : 102,
+  "pattern" : "open",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:C_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C_(programming_language", "class=Software" ],
+    "1" : [ "pair=dbr:Java_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:Java_(programming_language", "class=Software" ],
+    "2" : [ "pair=dbr:JavaScript", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:JavaScript", "class=Software" ],
+    "3" : [ "pair=dbr:C++", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C++", "class=Software" ]
+  }
+}, {
+  "id" : 132,
+  "pattern" : "several",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:C_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C_(programming_language", "class=Software" ]
+  }
+}, {
+  "id" : 133,
+  "pattern" : "similar",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:C_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C_(programming_language", "class=Software" ]
+  }
+}, {
+  "id" : 148,
+  "pattern" : "unix-like",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Command_(computing", "MaxConf=1.0", "triple=e_dbp:genre dbr:Command_(computing", "class=Software" ],
+    "1" : [ "pair=dbr:C_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C_(programming_language", "class=Software" ]
+  }
+}, {
+  "id" : 157,
+  "pattern" : "various",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:C_(programming_language", "MaxConf=1.0", "triple=e_dbo:programmingLanguage dbr:C_(programming_language", "class=Software" ]
+  }
+} ]

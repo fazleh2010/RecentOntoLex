@@ -1,0 +1,239 @@
+[ {
+  "id" : 1,
+  "pattern" : "actor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"actor\"@en", "Kulczynski=0.871", "triple=e_dbp:occupation \"actor\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Illinois", "Kulczynski=0.981", "triple=e_dbo:birthPlace dbr:Illinois", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Chicago", "Kulczynski=0.967", "triple=e_dbo:birthPlace dbr:Chicago", "class=MusicalArtist" ],
+    "2" : [ "pair=dbr:Los_Angeles", "Kulczynski=0.939", "triple=e_dbo:birthPlace dbr:Los_Angeles", "class=MusicalArtist" ],
+    "3" : [ "pair=dbr:Epic_Records", "Kulczynski=0.937", "triple=e_dbp:label dbr:Epic_Records", "class=MusicalArtist" ],
+    "4" : [ "pair=dbr:United_States", "Kulczynski=0.935", "triple=e_dbo:birthPlace dbr:United_States", "class=MusicalArtist" ],
+    "5" : [ "pair=dbr:California", "Kulczynski=0.933", "triple=e_dbo:hometown dbr:California", "class=MusicalArtist" ],
+    "6" : [ "pair=dbr:New_York_(state", "Kulczynski=0.915", "triple=e_dbo:birthPlace dbr:New_York_(state", "class=MusicalArtist" ],
+    "7" : [ "pair=dbr:Bluegrass_music", "Kulczynski=0.909", "triple=e_dbo:genre dbr:Bluegrass_music", "class=MusicalArtist" ],
+    "8" : [ "pair=dbr:New_York_City", "Kulczynski=0.886", "triple=e_dbo:birthPlace dbr:New_York_City", "class=MusicalArtist" ],
+    "9" : [ "pair=dbr:Rhythm_and_blues", "Kulczynski=0.865", "triple=e_dbo:genre dbr:Rhythm_and_blues", "class=MusicalArtist" ],
+    "10" : [ "pair=dbr:Human_voice", "Kulczynski=0.864", "triple=e_dbo:instrument dbr:Human_voice", "class=MusicalArtist" ],
+    "11" : [ "pair=dbr:Country_music", "Kulczynski=0.863", "triple=e_dbp:genre dbr:Country_music", "class=MusicalArtist" ],
+    "12" : [ "pair=dbr:Capitol_Records", "Kulczynski=0.856", "triple=e_dbo:recordLabel dbr:Capitol_Records", "class=MusicalArtist" ],
+    "13" : [ "pair=dbr:Atlantic_Records", "Kulczynski=0.852", "triple=e_dbp:label dbr:Atlantic_Records", "class=MusicalArtist" ],
+    "14" : [ "pair=dbr:Americana_(music", "Kulczynski=0.841", "triple=e_dbo:genre dbr:Americana_(music", "class=MusicalArtist" ],
+    "15" : [ "pair=dbr:Contemporary_Christian_music", "Kulczynski=0.84", "triple=e_dbo:genre dbr:Contemporary_Christian_music", "class=MusicalArtist" ],
+    "16" : [ "pair=dbr:Warner_Bros._Records", "Kulczynski=0.837", "triple=e_dbo:recordLabel dbr:Warner_Bros._Records", "class=MusicalArtist" ],
+    "17" : [ "pair=dbr:Gospel_music", "Kulczynski=0.835", "triple=e_dbo:genre dbr:Gospel_music", "class=MusicalArtist" ],
+    "18" : [ "pair=dbr:Blues", "Kulczynski=0.822", "triple=e_dbp:genre dbr:Blues", "class=MusicalArtist" ],
+    "19" : [ "pair=dbr:Funk", "Kulczynski=0.82", "triple=e_dbp:genre dbr:Funk", "class=MusicalArtist" ],
+    "20" : [ "pair=dbr:Rapping", "Kulczynski=0.815", "triple=e_dbo:occupation dbr:Rapping", "class=MusicalArtist" ],
+    "21" : [ "pair=dbr:RCA_Records", "Kulczynski=0.81", "triple=e_dbp:label dbr:RCA_Records", "class=MusicalArtist" ],
+    "22" : [ "pair=dbr:Warner_Records", "Kulczynski=0.804", "triple=e_dbp:label dbr:Warner_Records", "class=MusicalArtist" ],
+    "23" : [ "pair=dbr:Singing", "Kulczynski=0.803", "triple=e_dbo:occupation dbr:Singing", "class=MusicalArtist" ],
+    "24" : [ "pair=\"Rapper\"@en", "Kulczynski=0.802", "triple=e_dbp:occupation \"Rapper\"@en", "class=MusicalArtist" ],
+    "25" : [ "pair=\"1950\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.797", "triple=e_dbo:activeYearsStartYear \"1950\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MusicalArtist" ],
+    "26" : [ "pair=\"artist\"@en", "Kulczynski=0.796", "triple=e_dbp:class \"artist\"@en", "class=MusicalArtist" ],
+    "27" : [ "pair=dbr:Blues_rock", "Kulczynski=0.796", "triple=e_dbo:genre dbr:Blues_rock", "class=MusicalArtist" ],
+    "28" : [ "pair=dbr:Guitarist", "Kulczynski=0.783", "triple=e_dbo:occupation dbr:Guitarist", "class=MusicalArtist" ],
+    "29" : [ "pair=\"\"@en", "Kulczynski=0.78", "triple=e_dbp:alias \"\"@en", "class=MusicalArtist" ],
+    "30" : [ "pair=dbr:Banjo", "Kulczynski=0.779", "triple=e_dbo:instrument dbr:Banjo", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Alternative_metal", "Kulczynski=0.923", "triple=e_dbo:genre dbr:Alternative_metal", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Progressive_metal", "Kulczynski=0.9", "triple=e_dbo:genre dbr:Progressive_metal", "class=MusicalArtist" ],
+    "2" : [ "pair=dbr:Heavy_metal_music", "Kulczynski=0.837", "triple=e_dbo:genre dbr:Heavy_metal_music", "class=MusicalArtist" ],
+    "3" : [ "pair=dbr:Hard_rock", "Kulczynski=0.815", "triple=e_dbo:genre dbr:Hard_rock", "class=MusicalArtist" ],
+    "4" : [ "pair=dbr:Progressive_rock", "Kulczynski=0.796", "triple=e_dbo:genre dbr:Progressive_rock", "class=MusicalArtist" ],
+    "5" : [ "pair=dbr:New_wave_music", "Kulczynski=0.795", "triple=e_dbp:genre dbr:New_wave_music", "class=MusicalArtist" ],
+    "6" : [ "pair=dbr:Punk_rock", "Kulczynski=0.795", "triple=e_dbo:genre dbr:Punk_rock", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "better",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Rapping", "Kulczynski=0.836", "triple=e_dbo:occupation dbr:Rapping", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "christian",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Contemporary_Christian_music", "Kulczynski=0.848", "triple=e_dbp:genre dbr:Contemporary_Christian_music", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "composer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Italy", "Kulczynski=0.97", "triple=e_dbo:nationality dbr:Italy", "class=MusicalArtist" ],
+    "1" : [ "pair=\"Composer\"@en", "Kulczynski=0.947", "triple=e_dbp:occupation \"Composer\"@en", "class=MusicalArtist" ],
+    "2" : [ "pair=dbr:Film_score", "Kulczynski=0.917", "triple=e_dbo:genre dbr:Film_score", "class=MusicalArtist" ],
+    "3" : [ "pair=dbr:Composer", "Kulczynski=0.893", "triple=e_dbo:occupation dbr:Composer", "class=MusicalArtist" ],
+    "4" : [ "pair=\"Musician", "Kulczynski=0.812", "triple=e_dbp:occupation \"Musician", "class=MusicalArtist" ],
+    "5" : [ "pair=\"composer\"@en", "Kulczynski=0.797", "triple=e_dbp:occupation \"composer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "country",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Country_music", "Kulczynski=0.796", "triple=e_dbp:genre dbr:Country_music", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "drummer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Drums\"@en", "Kulczynski=0.94", "triple=e_dbp:instrument \"Drums\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Drum_kit", "Kulczynski=0.819", "triple=e_dbo:instrument dbr:Drum_kit", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "english",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:England", "Kulczynski=0.81", "triple=e_dbo:birthPlace dbr:England", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "guitarist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Guitarist", "Kulczynski=0.922", "triple=e_dbo:occupation dbr:Guitarist", "class=MusicalArtist" ],
+    "1" : [ "pair=\"Guitar\"@en", "Kulczynski=0.816", "triple=e_dbp:instrument \"Guitar\"@en", "class=MusicalArtist" ],
+    "2" : [ "pair=\"Guitar", "Kulczynski=0.791", "triple=e_dbp:instrument \"Guitar", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "jazz",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Jazz\"@en", "Kulczynski=0.9", "triple=e_dbp:genre \"Jazz\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Jazz", "Kulczynski=0.81", "triple=e_dbp:genre dbr:Jazz", "class=MusicalArtist" ],
+    "2" : [ "pair=\"Musician", "Kulczynski=0.797", "triple=e_dbp:occupation \"Musician", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "music",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Contemporary_Christian_music", "Kulczynski=0.802", "triple=e_dbo:genre dbr:Contemporary_Christian_music", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Film_score", "Kulczynski=0.801", "triple=e_dbp:genre dbr:Film_score", "class=MusicalArtist" ],
+    "2" : [ "pair=dbr:Country_music", "Kulczynski=0.787", "triple=e_dbp:genre dbr:Country_music", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "musician",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"musician\"@en", "Kulczynski=0.805", "triple=e_dbp:occupation \"musician\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "name",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Rapping", "Kulczynski=0.823", "triple=e_dbo:occupation dbr:Rapping", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "pianist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Pianist", "Kulczynski=0.933", "triple=e_dbo:occupation dbr:Pianist", "class=MusicalArtist" ],
+    "1" : [ "pair=\"Piano\"@en", "Kulczynski=0.831", "triple=e_dbp:instrument \"Piano\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "producer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"record producer\"@en", "Kulczynski=0.918", "triple=e_dbp:occupation \"record producer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"DJ\"@en", "Kulczynski=0.893", "triple=e_dbp:occupation \"DJ\"@en", "class=MusicalArtist" ],
+    "2" : [ "pair=dbr:Record_producer", "Kulczynski=0.884", "triple=e_dbo:occupation dbr:Record_producer", "class=MusicalArtist" ],
+    "3" : [ "pair=dbr:Disc_jockey", "Kulczynski=0.871", "triple=e_dbp:occupation dbr:Disc_jockey", "class=MusicalArtist" ],
+    "4" : [ "pair=dbr:DJ", "Kulczynski=0.869", "triple=e_dbo:occupation dbr:DJ", "class=MusicalArtist" ],
+    "5" : [ "pair=dbr:House_music", "Kulczynski=0.84", "triple=e_dbp:genre dbr:House_music", "class=MusicalArtist" ],
+    "6" : [ "pair=\"producer\"@en", "Kulczynski=0.802", "triple=e_dbp:occupation \"producer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "rapper",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Rapper\"@en", "Kulczynski=0.946", "triple=e_dbp:occupation \"Rapper\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Rapping", "Kulczynski=0.889", "triple=e_dbo:occupation dbr:Rapping", "class=MusicalArtist" ],
+    "2" : [ "pair=dbr:Rapper", "Kulczynski=0.855", "triple=e_dbo:occupation dbr:Rapper", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "record",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"record producer\"@en", "Kulczynski=0.885", "triple=e_dbp:occupation \"record producer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "record producer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"record producer\"@en", "Kulczynski=0.873", "triple=e_dbp:occupation \"record producer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "rock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Hard_rock", "Kulczynski=0.784", "triple=e_dbp:genre dbr:Hard_rock", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "singer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Singer\"@en", "Kulczynski=0.914", "triple=e_dbp:occupation \"Singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Human_voice", "Kulczynski=0.895", "triple=e_dbo:instrument dbr:Human_voice", "class=MusicalArtist" ],
+    "2" : [ "pair=dbr:Singing", "Kulczynski=0.888", "triple=e_dbo:occupation dbr:Singing", "class=MusicalArtist" ],
+    "3" : [ "pair=\"singer\"@en", "Kulczynski=0.852", "triple=e_dbp:occupation \"singer\"@en", "class=MusicalArtist" ],
+    "4" : [ "pair=\"actor\"@en", "Kulczynski=0.829", "triple=e_dbp:occupation \"actor\"@en", "class=MusicalArtist" ],
+    "5" : [ "pair=\"Vocals\"@en", "Kulczynski=0.819", "triple=e_dbp:instrument \"Vocals\"@en", "class=MusicalArtist" ],
+    "6" : [ "pair=dbr:J-pop", "Kulczynski=0.804", "triple=e_dbp:genre dbr:J-pop", "class=MusicalArtist" ],
+    "7" : [ "pair=dbr:Soul_music", "Kulczynski=0.792", "triple=e_dbp:genre dbr:Soul_music", "class=MusicalArtist" ],
+    "8" : [ "pair=\"songwriter\"@en", "Kulczynski=0.79", "triple=e_dbp:occupation \"songwriter\"@en", "class=MusicalArtist" ],
+    "9" : [ "pair=dbr:Capitol_Records", "Kulczynski=0.787", "triple=e_dbo:recordLabel dbr:Capitol_Records", "class=MusicalArtist" ],
+    "10" : [ "pair=dbr:Contemporary_R&B", "Kulczynski=0.786", "triple=e_dbo:genre dbr:Contemporary_R&B", "class=MusicalArtist" ],
+    "11" : [ "pair=\"Pop\"@en", "Kulczynski=0.785", "triple=e_dbp:genre \"Pop\"@en", "class=MusicalArtist" ],
+    "12" : [ "pair=dbr:Rhythm_and_blues", "Kulczynski=0.785", "triple=e_dbo:genre dbr:Rhythm_and_blues", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "songwriter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"songwriter\"@en", "Kulczynski=0.841", "triple=e_dbp:occupation \"songwriter\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:Songwriter", "Kulczynski=0.786", "triple=e_dbo:occupation dbr:Songwriter", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "stage",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Rapping", "Kulczynski=0.831", "triple=e_dbo:occupation dbr:Rapping", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "stage name",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Rapping", "Kulczynski=0.815", "triple=e_dbo:occupation dbr:Rapping", "class=MusicalArtist" ]
+  }
+} ]

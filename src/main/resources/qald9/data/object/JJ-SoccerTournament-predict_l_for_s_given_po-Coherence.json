@@ -1,0 +1,104 @@
+[ {
+  "id" : 2,
+  "pattern" : "albanian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Kupa e ShqipÃ«risÃ«\"@en", "Coherence=0.495", "triple=e_dbp:otherTitle \"Kupa e ShqipÃ«risÃ«\"@en", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "annual",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"DFB-Pokal\"@en", "Coherence=0.5", "triple=e_dbp:title \"DFB-Pokal\"@en", "class=SoccerTournament" ],
+    "1" : [ "pair=\"Torneo Mondiale di Calcio Coppa Carnevale\"@en", "Coherence=0.5", "triple=e_dbp:tourneyName \"Torneo Mondiale di Calcio Coppa Carnevale\"@en", "class=SoccerTournament" ],
+    "2" : [ "pair=\"Kupa e ShqipÃ«risÃ«\"@en", "Coherence=0.5", "triple=e_dbp:otherTitle \"Kupa e ShqipÃ«risÃ«\"@en", "class=SoccerTournament" ],
+    "3" : [ "pair=\"Viareggio\"@en", "Coherence=0.5", "triple=e_dbp:city \"Viareggio\"@en", "class=SoccerTournament" ],
+    "4" : [ "pair=\"Albanian Cup\"@en", "Coherence=0.496", "triple=e_dbp:title \"Albanian Cup\"@en", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "annual\u001Cgerman",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"DFB-Pokal\"@en", "Coherence=0.5", "triple=e_dbp:title \"DFB-Pokal\"@en", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "annual german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"DFB-Pokal\"@en", "Coherence=0.5", "triple=e_dbp:title \"DFB-Pokal\"@en", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "dfb-pokal",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"DFB-Pokal\"@en", "Coherence=0.5", "triple=e_dbp:title \"DFB-Pokal\"@en", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 92,
+  "pattern" : "final",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Cypriot_Cup", "Coherence=0.5", "triple=e_dbp:title dbr:Cypriot_Cup", "class=SoccerTournament" ],
+    "1" : [ "pair=\"DFB-Pokal\"@en", "Coherence=0.496", "triple=e_dbp:title \"DFB-Pokal\"@en", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 109,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Deutsche FuÃballmeisterschaft\"@en", "Coherence=0.5", "triple=e_dbp:otherTitles \"Deutsche FuÃballmeisterschaft\"@en", "class=SoccerTournament" ],
+    "1" : [ "pair=\"DFB-Pokal\"@en", "Coherence=0.5", "triple=e_dbp:title \"DFB-Pokal\"@en", "class=SoccerTournament" ],
+    "2" : [ "pair=\"German championship\"@en", "Coherence=0.5", "triple=e_dbp:title \"German championship\"@en", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 114,
+  "pattern" : "greek",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Greek Cup\"@en", "Coherence=0.5", "triple=e_dbp:title \"Greek Cup\"@en", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 120,
+  "pattern" : "hebrew",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Israel State Cup\"@en", "Coherence=0.496", "triple=e_dbp:title \"Israel State Cup\"@en", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 135,
+  "pattern" : "israeli",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Israel State Cup\"@en", "Coherence=0.5", "triple=e_dbp:title \"Israel State Cup\"@en", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 151,
+  "pattern" : "nationwide",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Israel State Cup\"@en", "Coherence=0.5", "triple=e_dbp:title \"Israel State Cup\"@en", "class=SoccerTournament" ],
+    "1" : [ "pair=dbr:Wellington", "Coherence=0.5", "triple=e_dbp:venue dbr:Wellington", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 162,
+  "pattern" : "scottish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Rangers_F.C.", "Coherence=0.5", "triple=e_dbp:champions dbr:Rangers_F.C.", "class=SoccerTournament" ],
+    "1" : [ "pair=dbr:Celtic_F.C.", "Coherence=0.5", "triple=e_dbp:champions dbr:Celtic_F.C.", "class=SoccerTournament" ],
+    "2" : [ "pair=dbr:Motherwell_F.C.", "Coherence=0.5", "triple=e_dbp:team dbr:Motherwell_F.C.", "class=SoccerTournament" ],
+    "3" : [ "pair=dbr:Falkirk_F.C.", "Coherence=0.5", "triple=e_dbp:team dbr:Falkirk_F.C.", "class=SoccerTournament" ],
+    "4" : [ "pair=dbr:Dundee_F.C.", "Coherence=0.5", "triple=e_dbp:team dbr:Dundee_F.C.", "class=SoccerTournament" ],
+    "5" : [ "pair=dbr:Dundee_United_F.C.", "Coherence=0.5", "triple=e_dbp:team dbr:Dundee_United_F.C.", "class=SoccerTournament" ],
+    "6" : [ "pair=dbr:Partick_Thistle_F.C.", "Coherence=0.5", "triple=e_dbp:team dbr:Partick_Thistle_F.C.", "class=SoccerTournament" ],
+    "7" : [ "pair=dbr:Hibernian_F.C.", "Coherence=0.5", "triple=e_dbp:team dbr:Hibernian_F.C.", "class=SoccerTournament" ],
+    "8" : [ "pair=dbr:Aberdeen_F.C.", "Coherence=0.5", "triple=e_dbp:team dbr:Aberdeen_F.C.", "class=SoccerTournament" ],
+    "9" : [ "pair=\"Hampden Park", "Coherence=0.5", "triple=e_dbp:stadium \"Hampden Park", "class=SoccerTournament" ],
+    "10" : [ "pair=dbr:Heart_of_Midlothian_F.C.", "Coherence=0.496", "triple=e_dbp:team dbr:Heart_of_Midlothian_F.C.", "class=SoccerTournament" ],
+    "11" : [ "pair=dbr:St_Mirren_F.C.", "Coherence=0.495", "triple=e_dbp:team dbr:St_Mirren_F.C.", "class=SoccerTournament" ]
+  }
+} ]

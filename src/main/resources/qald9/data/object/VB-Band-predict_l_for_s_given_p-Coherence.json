@@ -1,0 +1,29 @@
+[ {
+  "id" : 7,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.381", "triple=e_dbo:birthDate o", "class=Band" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "formed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.388", "triple=e_dbp:width o", "class=Band" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.206", "triple=e_dbp:alias o", "class=Band" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "released",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.236", "triple=e_dbo:recordLabel o", "class=Band" ]
+  }
+} ]

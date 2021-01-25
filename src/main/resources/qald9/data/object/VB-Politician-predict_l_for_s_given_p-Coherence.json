@@ -1,0 +1,29 @@
+[ {
+  "id" : 5,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.495", "triple=e_dbp:congress o", "class=Politician" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "represented",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.327", "triple=e_dbo:region o", "class=Politician" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "representing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.31", "triple=e_dbp:votesmart o", "class=Politician" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "served",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.364", "triple=e_dbp:jr/sr o", "class=Politician" ]
+  }
+} ]

@@ -1,0 +1,1295 @@
+[ {
+  "id" : 1,
+  "pattern" : "2000 census",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "2000 census\u001Cit",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "1" : [ "pair=dbr:U.S._state", "IR=0.989", "triple=e_dbp:subdivisionType dbr:U.S._state", "class=City" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "2000 census\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "2010\u001Ccensus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "2010\u001Ccensus\u001Cand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "2010\u001Ccensus\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "2010\u001Cunited",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "2" : [ "pair=dbr:U.S._state", "IR=0.989", "triple=e_dbp:subdivisionType dbr:U.S._state", "class=City" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "2010\u001Cunited\u001Cstates",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "2" : [ "pair=dbr:U.S._state", "IR=0.989", "triple=e_dbp:subdivisionType dbr:U.S._state", "class=City" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "2010 census",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "2010 census\u001Cand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "2010 census the\u001Cpopulation\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "2010 u.s",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.991", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "2010 u.s census",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.99", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "2010 united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "2010 united\u001Cstates",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "2010 united\u001Cstates\u001Ccensus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "2010 united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "2010 united states\u001Ccensus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "2019 city",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "2019 city\u001Chad",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "2019 city\u001Chad\u001Can",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "[indec]",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "\\\"the",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "a\u001Ccity\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "a\u001Cpopulation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "a\u001Cpopulation\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "across",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "alabama united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "alabama united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "also",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "2" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "area",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "area population",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "area population\u001Cwas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "1" : [ "pair=dbr:U.S._state", "IR=0.989", "triple=e_dbp:subdivisionType dbr:U.S._state", "class=City" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "areas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.99", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "azerbaijan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "bank",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "border",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "borders",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "bureau",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "census",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "census [indec]",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "census bureau",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "center",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "chicago",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "chile",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "city",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.991", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.99", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "2" : [ "pair=dbr:U.S._state", "IR=0.989", "triple=e_dbp:subdivisionType dbr:U.S._state", "class=City" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "city jefferson\u001Ccounty",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "city located in\u001Cthe\u001Cprovince",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "coast",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "college",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.991", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "commune",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "community",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "confluence",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "1" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "country",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.991", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "2" : [ "pair=dbr:U.S._state", "IR=0.989", "triple=e_dbp:subdivisionType dbr:U.S._state", "class=City" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "county alabama",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "county alabama united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "county alabama united\u001Cstates",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "county idaho united\u001Cstates\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "county nebraska",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "county nebraska united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "county nebraska united\u001Cstates",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "county oklahoma united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "county oklahoma united\u001Cstates",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "county population\u001Cwas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "county south dakota",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "county south dakota\u001Cunited",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "county south dakota\u001Cunited\u001Cstates",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "county tennessee united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "county tennessee united\u001Cstates",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "county washington",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "county wisconsin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "creek",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "decline",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.99", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "downtown",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "estimate",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "estimated population\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "falls",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "franklin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "1" : [ "pair=dbr:U.S._state", "IR=0.989", "triple=e_dbp:subdivisionType dbr:U.S._state", "class=City" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "government",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "home",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "idaho united states\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 92,
+  "pattern" : "idaho united states\u001Cthe\u001Cpopulation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 97,
+  "pattern" : "increase",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 99,
+  "pattern" : "island",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 100,
+  "pattern" : "january",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 101,
+  "pattern" : "jefferson county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 102,
+  "pattern" : "july",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 103,
+  "pattern" : "kansas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "1" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 104,
+  "pattern" : "kansas city",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "khorasan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 106,
+  "pattern" : "khorasan province",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 107,
+  "pattern" : "khorasan province iran",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 108,
+  "pattern" : "khorasan province iran\u001Cat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 109,
+  "pattern" : "khorasan province iran\u001Cat\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 110,
+  "pattern" : "km",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 111,
+  "pattern" : "km east",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 112,
+  "pattern" : "km north",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 113,
+  "pattern" : "km south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 114,
+  "pattern" : "km west",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.991", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 115,
+  "pattern" : "kmâ² total\u001Carea\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 117,
+  "pattern" : "lake",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 118,
+  "pattern" : "largest city",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.991", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 119,
+  "pattern" : "lebanon",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 120,
+  "pattern" : "lies",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 121,
+  "pattern" : "line",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.991", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 126,
+  "pattern" : "march",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 128,
+  "pattern" : "means",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 129,
+  "pattern" : "mexico",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 130,
+  "pattern" : "mississippi",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "1" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 131,
+  "pattern" : "mountains",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 132,
+  "pattern" : "municipality",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 133,
+  "pattern" : "name",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 135,
+  "pattern" : "nebraska united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 136,
+  "pattern" : "nebraska united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 137,
+  "pattern" : "nebraska united states\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 138,
+  "pattern" : "nebraska united states\u001Cthe\u001Cpopulation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 139,
+  "pattern" : "north",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.991", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 141,
+  "pattern" : "official",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 142,
+  "pattern" : "officially",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 143,
+  "pattern" : "park",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "1" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 144,
+  "pattern" : "part",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 145,
+  "pattern" : "part\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 146,
+  "pattern" : "part\u001Cof\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 147,
+  "pattern" : "part of\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 148,
+  "pattern" : "percent",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 149,
+  "pattern" : "population",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.991", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "2" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 150,
+  "pattern" : "population\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 151,
+  "pattern" : "population of\u001Cthe\u001Ccity",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 152,
+  "pattern" : "populous city",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 153,
+  "pattern" : "port",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 154,
+  "pattern" : "principal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 155,
+  "pattern" : "principal city",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.991", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 157,
+  "pattern" : "provincial capital",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 158,
+  "pattern" : "railroad",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.99", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 159,
+  "pattern" : "river",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 160,
+  "pattern" : "road",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.991", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 161,
+  "pattern" : "san",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.99", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 165,
+  "pattern" : "site",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 167,
+  "pattern" : "small city",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 168,
+  "pattern" : "south dakota",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 169,
+  "pattern" : "south dakota united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 170,
+  "pattern" : "south dakota united\u001Cstates",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 171,
+  "pattern" : "south dakota united\u001Cstates\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 172,
+  "pattern" : "southern",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.99", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 173,
+  "pattern" : "southwest",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 175,
+  "pattern" : "st louis",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 176,
+  "pattern" : "state",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 177,
+  "pattern" : "state\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 178,
+  "pattern" : "state highway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 179,
+  "pattern" : "state texas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 180,
+  "pattern" : "states along",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 181,
+  "pattern" : "states located",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 183,
+  "pattern" : "suburb",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 184,
+  "pattern" : "suburb\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 186,
+  "pattern" : "tennessee united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 187,
+  "pattern" : "tennessee united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 188,
+  "pattern" : "the\u001Cprincipal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "1" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 189,
+  "pattern" : "the\u001Cprincipal\u001Ccity",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.99", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 190,
+  "pattern" : "three",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 191,
+  "pattern" : "total",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "1" : [ "pair=dbr:U.S._state", "IR=0.989", "triple=e_dbp:subdivisionType dbr:U.S._state", "class=City" ]
+  }
+}, {
+  "id" : 192,
+  "pattern" : "total\u001Cpopulation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 193,
+  "pattern" : "total\u001Cpopulation\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 194,
+  "pattern" : "total population",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 195,
+  "pattern" : "town",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ],
+    "1" : [ "pair=\"Imperial\"@en", "IR=0.99", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 196,
+  "pattern" : "u.s\u001Cstate",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "1" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 197,
+  "pattern" : "u.s\u001Cstate\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "1" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 198,
+  "pattern" : "united states along\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 199,
+  "pattern" : "united states located",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.989", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 200,
+  "pattern" : "utah",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 201,
+  "pattern" : "village",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.99", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 202,
+  "pattern" : "washington county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ]
+  }
+}, {
+  "id" : 203,
+  "pattern" : "washington united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.991", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 204,
+  "pattern" : "washington united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.991", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 205,
+  "pattern" : "washington united states\u001Cthe\u001Cpopulation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "1" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ],
+    "2" : [ "pair=dbr:U.S._state", "IR=0.989", "triple=e_dbp:subdivisionType dbr:U.S._state", "class=City" ]
+  }
+}, {
+  "id" : 206,
+  "pattern" : "west",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.99", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+}, {
+  "id" : 208,
+  "pattern" : "wisconsin united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "1" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 209,
+  "pattern" : "wisconsin united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Imperial\"@en", "IR=0.989", "triple=e_dbp:unitPref \"Imperial\"@en", "class=City" ],
+    "1" : [ "pair=dbr:Federal_Information_Processing_Standards", "IR=0.989", "triple=e_dbp:blankName dbr:Federal_Information_Processing_Standards", "class=City" ]
+  }
+}, {
+  "id" : 210,
+  "pattern" : "years",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_sovereign_states", "IR=0.991", "triple=e_dbp:subdivisionType dbr:List_of_sovereign_states", "class=City" ]
+  }
+} ]

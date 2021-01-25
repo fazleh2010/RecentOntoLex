@@ -1,0 +1,830 @@
+[ {
+  "id" : 2,
+  "pattern" : "assimineidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Assimineidae", "Cosine=1.0", "triple=e_dbo:family dbr:Assimineidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "calliostomatidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Calliostomatinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Calliostomatinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "charopidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Charopidae", "Cosine=1.0", "triple=e_dbo:family dbr:Charopidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "columbellidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Columbellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Columbellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "dorid",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Euthyneura", "Cosine=1.0", "triple=e_dbo:order dbr:Euthyneura", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Discodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Discodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "dwarf",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Olivellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Olivellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "dwarf olives",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Olivellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Olivellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "family",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ovulidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ovulidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Turrinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Rapaninae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Rapaninae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Muricinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Nassariidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Turritellidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Calliostomatinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Calliostomatinae", "class=Mollusca" ],
+    "7" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "8" : [ "pair=dbr:Fasciolariidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Fasciolariidae", "class=Mollusca" ],
+    "9" : [ "pair=dbr:Coralliophilinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Coralliophilinae", "class=Mollusca" ],
+    "10" : [ "pair=dbr:Trophoninae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Trophoninae", "class=Mollusca" ],
+    "11" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ],
+    "12" : [ "pair=dbr:Heterobranchia", "Cosine=1.0", "triple=e_dbo:order dbr:Heterobranchia", "class=Mollusca" ],
+    "13" : [ "pair=dbr:Euthyneura", "Cosine=1.0", "triple=e_dbo:order dbr:Euthyneura", "class=Mollusca" ],
+    "14" : [ "pair=dbr:Punctoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Punctoidea", "class=Mollusca" ],
+    "15" : [ "pair=dbr:Gastrodontoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Gastrodontoidea", "class=Mollusca" ],
+    "16" : [ "pair=dbr:Littorinoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Littorinoidea", "class=Mollusca" ],
+    "17" : [ "pair=dbr:Truncatelloidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Truncatelloidea", "class=Mollusca" ],
+    "18" : [ "pair=dbr:Vanikoroidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Vanikoroidea", "class=Mollusca" ],
+    "19" : [ "pair=dbr:Neritoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Neritoidea", "class=Mollusca" ],
+    "20" : [ "pair=dbr:Polyceroidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Polyceroidea", "class=Mollusca" ],
+    "21" : [ "pair=dbr:Rissooidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Rissooidea", "class=Mollusca" ],
+    "22" : [ "pair=dbr:Lottioidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Lottioidea", "class=Mollusca" ],
+    "23" : [ "pair=dbr:Aeolidioidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Aeolidioidea", "class=Mollusca" ],
+    "24" : [ "pair=dbr:Planorboidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Planorboidea", "class=Mollusca" ],
+    "25" : [ "pair=dbr:Doridoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Doridoidea", "class=Mollusca" ],
+    "26" : [ "pair=dbr:Streptaxoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Streptaxoidea", "class=Mollusca" ],
+    "27" : [ "pair=dbr:Terebridae", "Cosine=1.0", "triple=e_dbo:family dbr:Terebridae", "class=Mollusca" ],
+    "28" : [ "pair=dbr:Eucyclidae", "Cosine=1.0", "triple=e_dbo:family dbr:Eucyclidae", "class=Mollusca" ],
+    "29" : [ "pair=dbr:Prionovolvinae", "Cosine=1.0", "triple=e_dbo:family dbr:Prionovolvinae", "class=Mollusca" ],
+    "30" : [ "pair=dbr:Nassariinae", "Cosine=1.0", "triple=e_dbo:family dbr:Nassariinae", "class=Mollusca" ],
+    "31" : [ "pair=dbr:Rissoidae", "Cosine=1.0", "triple=e_dbo:family dbr:Rissoidae", "class=Mollusca" ],
+    "32" : [ "pair=dbr:Turritellinae", "Cosine=1.0", "triple=e_dbo:family dbr:Turritellinae", "class=Mollusca" ],
+    "33" : [ "pair=dbr:Columbellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Columbellidae", "class=Mollusca" ],
+    "34" : [ "pair=dbr:Peristerniinae", "Cosine=1.0", "triple=e_dbo:family dbr:Peristerniinae", "class=Mollusca" ],
+    "35" : [ "pair=dbr:Calliostomatidae", "Cosine=1.0", "triple=e_dbo:family dbr:Calliostomatidae", "class=Mollusca" ],
+    "36" : [ "pair=dbr:Neritidae", "Cosine=1.0", "triple=e_dbo:family dbr:Neritidae", "class=Mollusca" ],
+    "37" : [ "pair=dbr:Assimineidae", "Cosine=1.0", "triple=e_dbo:family dbr:Assimineidae", "class=Mollusca" ],
+    "38" : [ "pair=dbr:Facelinidae", "Cosine=1.0", "triple=e_dbo:family dbr:Facelinidae", "class=Mollusca" ],
+    "39" : [ "pair=dbr:Costellariidae", "Cosine=1.0", "triple=e_dbo:family dbr:Costellariidae", "class=Mollusca" ],
+    "40" : [ "pair=dbr:Planorbidae", "Cosine=1.0", "triple=e_dbo:family dbr:Planorbidae", "class=Mollusca" ],
+    "41" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ],
+    "42" : [ "pair=dbr:Charopidae", "Cosine=1.0", "triple=e_dbo:family dbr:Charopidae", "class=Mollusca" ],
+    "43" : [ "pair=dbr:Lottiidae", "Cosine=1.0", "triple=e_dbo:family dbr:Lottiidae", "class=Mollusca" ],
+    "44" : [ "pair=dbr:Littorinidae", "Cosine=1.0", "triple=e_dbo:family dbr:Littorinidae", "class=Mollusca" ],
+    "45" : [ "pair=dbr:Streptaxidae", "Cosine=1.0", "triple=e_dbo:family dbr:Streptaxidae", "class=Mollusca" ],
+    "46" : [ "pair=dbr:Olivellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Olivellidae", "class=Mollusca" ],
+    "47" : [ "pair=dbr:Hydrobiidae", "Cosine=1.0", "triple=e_dbo:family dbr:Hydrobiidae", "class=Mollusca" ],
+    "48" : [ "pair=dbr:Discodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Discodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "family\u001Cassimineidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Assimineidae", "Cosine=1.0", "triple=e_dbo:family dbr:Assimineidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "family\u001Ccalliostomatidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Calliostomatinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Calliostomatinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "family\u001Ccolumbellidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Columbellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Columbellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "family\u001Clottiidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Lottiidae", "Cosine=1.0", "triple=e_dbo:family dbr:Lottiidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "family\u001Cmuricidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Muricinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Trophoninae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Trophoninae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "family\u001Cmuricidae\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "family\u001Cnassariidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Nassariinae", "Cosine=1.0", "triple=e_dbo:family dbr:Nassariinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "family\u001Cnassariidae\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Nassariinae", "Cosine=1.0", "triple=e_dbo:family dbr:Nassariinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "family\u001Cneritidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neritidae", "Cosine=1.0", "triple=e_dbo:family dbr:Neritidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "family\u001Colivellidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Olivellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Olivellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "family\u001Covulidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ovulidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ovulidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Prionovolvinae", "Cosine=1.0", "triple=e_dbo:family dbr:Prionovolvinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "family\u001Cterebridae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Terebridae", "Cosine=1.0", "triple=e_dbo:family dbr:Terebridae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "family\u001Cturridae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "family\u001Cturritellidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turritellidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Turritellinae", "Cosine=1.0", "triple=e_dbo:family dbr:Turritellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "family assimineidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Assimineidae", "Cosine=1.0", "triple=e_dbo:family dbr:Assimineidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "family calliostomatidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Calliostomatinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Calliostomatinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "family columbellidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Columbellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Columbellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "family littorinidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Littorinidae", "Cosine=1.0", "triple=e_dbo:family dbr:Littorinidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "family lottiidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Lottiidae", "Cosine=1.0", "triple=e_dbo:family dbr:Lottiidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "family muricidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Muricinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Coralliophilinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Coralliophilinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Trophoninae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Trophoninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "family muricidae\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "family muricidae\u001Cthe\u001Cmurex",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "family muricidae the\u001Cmurex",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "family muricidae the\u001Cmurex\u001Csnails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "family nassariidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Nassariinae", "Cosine=1.0", "triple=e_dbo:family dbr:Nassariinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "family nassariidae\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Nassariinae", "Cosine=1.0", "triple=e_dbo:family dbr:Nassariinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "family neritidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neritidae", "Cosine=1.0", "triple=e_dbo:family dbr:Neritidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "family olivellidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Olivellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Olivellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "family ovulidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ovulidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ovulidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Prionovolvinae", "Cosine=1.0", "triple=e_dbo:family dbr:Prionovolvinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "family terebridae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Terebridae", "Cosine=1.0", "triple=e_dbo:family dbr:Terebridae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "family turridae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "family turritellidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turritellidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Turritellinae", "Cosine=1.0", "triple=e_dbo:family dbr:Turritellinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "freshwater",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Planorboidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Planorboidea", "class=Mollusca" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "gastropod",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ovulidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ovulidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Turrinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Nassariidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Turritellidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Calliostomatinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Calliostomatinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "7" : [ "pair=dbr:Turbonillinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turbonillinae", "class=Mollusca" ],
+    "8" : [ "pair=dbr:Fasciolariidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Fasciolariidae", "class=Mollusca" ],
+    "9" : [ "pair=dbr:Coralliophilinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Coralliophilinae", "class=Mollusca" ],
+    "10" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ],
+    "11" : [ "pair=dbr:Heterobranchia", "Cosine=1.0", "triple=e_dbo:order dbr:Heterobranchia", "class=Mollusca" ],
+    "12" : [ "pair=dbr:Euthyneura", "Cosine=1.0", "triple=e_dbo:order dbr:Euthyneura", "class=Mollusca" ],
+    "13" : [ "pair=dbr:Gastrodontoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Gastrodontoidea", "class=Mollusca" ],
+    "14" : [ "pair=dbr:Littorinoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Littorinoidea", "class=Mollusca" ],
+    "15" : [ "pair=dbr:Seguenzioidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Seguenzioidea", "class=Mollusca" ],
+    "16" : [ "pair=dbr:Neritoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Neritoidea", "class=Mollusca" ],
+    "17" : [ "pair=dbr:Polyceroidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Polyceroidea", "class=Mollusca" ],
+    "18" : [ "pair=dbr:Tonnoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Tonnoidea", "class=Mollusca" ],
+    "19" : [ "pair=dbr:Pyramidelloidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Pyramidelloidea", "class=Mollusca" ],
+    "20" : [ "pair=dbr:Doridoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Doridoidea", "class=Mollusca" ],
+    "21" : [ "pair=dbr:Streptaxoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Streptaxoidea", "class=Mollusca" ],
+    "22" : [ "pair=dbr:Olivoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Olivoidea", "class=Mollusca" ],
+    "23" : [ "pair=dbr:Eucyclidae", "Cosine=1.0", "triple=e_dbo:family dbr:Eucyclidae", "class=Mollusca" ],
+    "24" : [ "pair=dbr:Prionovolvinae", "Cosine=1.0", "triple=e_dbo:family dbr:Prionovolvinae", "class=Mollusca" ],
+    "25" : [ "pair=dbr:Nassariinae", "Cosine=1.0", "triple=e_dbo:family dbr:Nassariinae", "class=Mollusca" ],
+    "26" : [ "pair=dbr:Pyramidellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Pyramidellidae", "class=Mollusca" ],
+    "27" : [ "pair=dbr:Rissoidae", "Cosine=1.0", "triple=e_dbo:family dbr:Rissoidae", "class=Mollusca" ],
+    "28" : [ "pair=dbr:Turritellinae", "Cosine=1.0", "triple=e_dbo:family dbr:Turritellinae", "class=Mollusca" ],
+    "29" : [ "pair=dbr:Peristerniinae", "Cosine=1.0", "triple=e_dbo:family dbr:Peristerniinae", "class=Mollusca" ],
+    "30" : [ "pair=dbr:Calliostomatidae", "Cosine=1.0", "triple=e_dbo:family dbr:Calliostomatidae", "class=Mollusca" ],
+    "31" : [ "pair=dbr:Neritidae", "Cosine=1.0", "triple=e_dbo:family dbr:Neritidae", "class=Mollusca" ],
+    "32" : [ "pair=dbr:Olividae", "Cosine=1.0", "triple=e_dbo:family dbr:Olividae", "class=Mollusca" ],
+    "33" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ],
+    "34" : [ "pair=dbr:Partuloidea", "Cosine=1.0", "triple=e_dbo:family dbr:Partuloidea", "class=Mollusca" ],
+    "35" : [ "pair=dbr:Littorinidae", "Cosine=1.0", "triple=e_dbo:family dbr:Littorinidae", "class=Mollusca" ],
+    "36" : [ "pair=dbr:Streptaxidae", "Cosine=1.0", "triple=e_dbo:family dbr:Streptaxidae", "class=Mollusca" ],
+    "37" : [ "pair=dbr:Olivellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Olivellidae", "class=Mollusca" ],
+    "38" : [ "pair=dbr:Cerithiopsidae", "Cosine=1.0", "triple=e_dbo:family dbr:Cerithiopsidae", "class=Mollusca" ],
+    "39" : [ "pair=dbr:Discodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Discodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "gastropod mollusc",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "gastropod mollusc in\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "gastropod mollusc in\u001Cthe\u001Cfamily",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "hydrobiidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Hydrobiidae", "Cosine=1.0", "triple=e_dbo:family dbr:Hydrobiidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "land",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Punctoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Punctoidea", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Gastrodontoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Gastrodontoidea", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Achatinoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Achatinoidea", "class=Mollusca" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "littorinidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Littorinidae", "Cosine=1.0", "triple=e_dbo:family dbr:Littorinidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "lottiidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Lottiidae", "Cosine=1.0", "triple=e_dbo:family dbr:Lottiidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "marine gastropod",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ovulidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ovulidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Turrinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Muricinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Nassariidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Turritellidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Calliostomatinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Calliostomatinae", "class=Mollusca" ],
+    "6" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "7" : [ "pair=dbr:Fasciolariidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Fasciolariidae", "class=Mollusca" ],
+    "8" : [ "pair=dbr:Coralliophilinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Coralliophilinae", "class=Mollusca" ],
+    "9" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ],
+    "10" : [ "pair=dbr:Euthyneura", "Cosine=1.0", "triple=e_dbo:order dbr:Euthyneura", "class=Mollusca" ],
+    "11" : [ "pair=dbr:Seguenzioidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Seguenzioidea", "class=Mollusca" ],
+    "12" : [ "pair=dbr:Tonnoidea", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Tonnoidea", "class=Mollusca" ],
+    "13" : [ "pair=dbr:Eucyclidae", "Cosine=1.0", "triple=e_dbo:family dbr:Eucyclidae", "class=Mollusca" ],
+    "14" : [ "pair=dbr:Prionovolvinae", "Cosine=1.0", "triple=e_dbo:family dbr:Prionovolvinae", "class=Mollusca" ],
+    "15" : [ "pair=dbr:Nassariinae", "Cosine=1.0", "triple=e_dbo:family dbr:Nassariinae", "class=Mollusca" ],
+    "16" : [ "pair=dbr:Rissoidae", "Cosine=1.0", "triple=e_dbo:family dbr:Rissoidae", "class=Mollusca" ],
+    "17" : [ "pair=dbr:Turritellinae", "Cosine=1.0", "triple=e_dbo:family dbr:Turritellinae", "class=Mollusca" ],
+    "18" : [ "pair=dbr:Peristerniinae", "Cosine=1.0", "triple=e_dbo:family dbr:Peristerniinae", "class=Mollusca" ],
+    "19" : [ "pair=dbr:Calliostomatidae", "Cosine=1.0", "triple=e_dbo:family dbr:Calliostomatidae", "class=Mollusca" ],
+    "20" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ],
+    "21" : [ "pair=dbr:Olivellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Olivellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "marine gastropod\u001Cmollusc",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "marine gastropod\u001Cmollusc\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "marine gastropod mollusc",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "marine gastropod mollusc\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "marine gastropod mollusc\u001Cin\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "mollusc",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "mollusc the\u001Cfamily",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "mud snails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariinae", "Cosine=1.0", "triple=e_dbo:family dbr:Nassariinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "murex",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "murex snails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "murex snails\u001Cor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "murex snails\u001Cor\u001Crock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "murex snails or\u001Crock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "murex snails or\u001Crock\u001Csnails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "muricidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Muricinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Coralliophilinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Coralliophilinae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Trophoninae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Trophoninae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "muricidae murex",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "muricidae murex\u001Csnails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "muricidae murex\u001Csnails\u001Cor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "nassariidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Nassariidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Nassariidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Nassariinae", "Cosine=1.0", "triple=e_dbo:family dbr:Nassariinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "naticidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Naticidae", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Naticidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "neritidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neritidae", "Cosine=1.0", "triple=e_dbo:family dbr:Neritidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "nudibranch",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "nudibranch marine",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "nudibranch marine\u001Cgastropod",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "nudibranch marine\u001Cgastropod\u001Cmollusc",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "olives",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Olivellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Olivellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "ovulidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ovulidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ovulidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Prionovolvinae", "Cosine=1.0", "triple=e_dbo:family dbr:Prionovolvinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "rock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "rock snails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "sea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Trophoninae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Trophoninae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Terebridae", "Cosine=1.0", "triple=e_dbo:family dbr:Terebridae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "sea snail",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Terebridae", "Cosine=1.0", "triple=e_dbo:family dbr:Terebridae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Olivellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Olivellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "snail",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Terebridae", "Cosine=1.0", "triple=e_dbo:family dbr:Terebridae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Olivellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Olivellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "snails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Cancellariidae", "Cosine=1.0", "triple=e_dbp:superfamilia dbr:Cancellariidae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Nassariinae", "Cosine=1.0", "triple=e_dbo:family dbr:Nassariinae", "class=Mollusca" ],
+    "4" : [ "pair=dbr:Cancellarioidea", "Cosine=1.0", "triple=e_dbo:family dbr:Cancellarioidea", "class=Mollusca" ],
+    "5" : [ "pair=dbr:Peristerniinae", "Cosine=1.0", "triple=e_dbo:family dbr:Peristerniinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "snails rock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "snails rock\u001Csnails",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Muricopsinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Muricopsinae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Ergalataxinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Ergalataxinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "species",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Terebridae", "Cosine=1.0", "triple=e_dbo:family dbr:Terebridae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Neritidae", "Cosine=1.0", "triple=e_dbo:family dbr:Neritidae", "class=Mollusca" ],
+    "2" : [ "pair=dbr:Goniodorididae", "Cosine=1.0", "triple=e_dbo:family dbr:Goniodorididae", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Olivellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Olivellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "species\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Terebridae", "Cosine=1.0", "triple=e_dbo:family dbr:Terebridae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Olivellidae", "Cosine=1.0", "triple=e_dbo:family dbr:Olivellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 92,
+  "pattern" : "species\u001Cof\u001Csea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Terebridae", "Cosine=1.0", "triple=e_dbo:family dbr:Terebridae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "species of\u001Csea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Terebridae", "Cosine=1.0", "triple=e_dbo:family dbr:Terebridae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 94,
+  "pattern" : "species of\u001Csea\u001Csnail",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Terebridae", "Cosine=1.0", "triple=e_dbo:family dbr:Terebridae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 95,
+  "pattern" : "species sea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Terebridae", "Cosine=1.0", "triple=e_dbo:family dbr:Terebridae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "species sea\u001Csnail",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Terebridae", "Cosine=1.0", "triple=e_dbo:family dbr:Terebridae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 97,
+  "pattern" : "terebridae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Terebridae", "Cosine=1.0", "triple=e_dbo:family dbr:Terebridae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 98,
+  "pattern" : "turridae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 99,
+  "pattern" : "turrids",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turrinae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turrinae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 100,
+  "pattern" : "turritellidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turritellidae", "Cosine=1.0", "triple=e_dbp:subfamilia dbr:Turritellidae", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Turritellinae", "Cosine=1.0", "triple=e_dbo:family dbr:Turritellinae", "class=Mollusca" ]
+  }
+} ]

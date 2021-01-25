@@ -1,0 +1,103 @@
+[ {
+  "id" : 2,
+  "pattern" : "according the\u001Ctraditional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Emperor_of_Japan", "Cosine=0.993", "triple=e_dbp:succession dbr:Emperor_of_Japan", "class=Royalty" ],
+    "1" : [ "pair=dbr:List_of_emperors_of_Japan", "Cosine=0.992", "triple=e_dbp:title dbr:List_of_emperors_of_Japan", "class=Royalty" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "arabic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Islam", "Cosine=0.55", "triple=e_dbp:religion dbr:Islam", "class=Royalty" ],
+    "1" : [ "pair=dbr:Sunni_Islam", "Cosine=0.427", "triple=e_dbp:religion dbr:Sunni_Islam", "class=Royalty" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "byzantine",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_Byzantine_emperors", "Cosine=0.921", "triple=e_dbp:title dbr:List_of_Byzantine_emperors", "class=Royalty" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Emperor_of_China", "Cosine=0.816", "triple=e_dbp:title dbr:Emperor_of_China", "class=Royalty" ],
+    "1" : [ "pair=\"Consorts\"@en", "Cosine=0.644", "triple=e_dbp:spouseType \"Consorts\"@en", "class=Royalty" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "georgian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Bagrationi_dynasty", "Cosine=0.994", "triple=e_dbp:house dbr:Bagrationi_dynasty", "class=Royalty" ],
+    "1" : [ "pair=dbr:Georgian_Orthodox_Church", "Cosine=0.986", "triple=e_dbp:religion dbr:Georgian_Orthodox_Church", "class=Royalty" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "Cosine=0.585", "triple=e_dbp:fullName \"\"@en", "class=Royalty" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "greek",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_Byzantine_emperors", "Cosine=0.953", "triple=e_dbp:title dbr:List_of_Byzantine_emperors", "class=Royalty" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "mughal",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Timurid_dynasty", "Cosine=0.898", "triple=e_dbp:house dbr:Timurid_dynasty", "class=Royalty" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "pronounced",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_Burmese_consorts", "Cosine=0.918", "triple=e_dbp:title dbr:List_of_Burmese_consorts", "class=Royalty" ],
+    "1" : [ "pair=dbr:Theravada", "Cosine=0.778", "triple=e_dbp:religion dbr:Theravada", "class=Royalty" ],
+    "2" : [ "pair=\"Successor\"@en", "Cosine=0.702", "triple=e_dbp:sucType \"Successor\"@en", "class=Royalty" ],
+    "3" : [ "pair=\"monarch\"@en", "Cosine=0.434", "triple=e_dbp:type \"monarch\"@en", "class=Royalty" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:House_of_Romanov", "Cosine=0.881", "triple=e_dbp:house dbr:House_of_Romanov", "class=Royalty" ],
+    "1" : [ "pair=dbr:Russian_Empire", "Cosine=0.838", "triple=e_dbp:birthPlace dbr:Russian_Empire", "class=Royalty" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "second",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "Cosine=0.423", "triple=e_dbp:consort \"yes\"@en", "class=Royalty" ]
+  }
+}, {
+  "id" : 102,
+  "pattern" : "traditional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Emperor_of_Japan", "Cosine=1.0", "triple=e_dbp:succession dbr:Emperor_of_Japan", "class=Royalty" ],
+    "1" : [ "pair=dbr:List_of_emperors_of_Japan", "Cosine=0.992", "triple=e_dbp:title dbr:List_of_emperors_of_Japan", "class=Royalty" ]
+  }
+}, {
+  "id" : 109,
+  "pattern" : "turkish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Ottoman_dynasty", "Cosine=0.952", "triple=e_dbp:house dbr:Ottoman_dynasty", "class=Royalty" ],
+    "1" : [ "pair=dbr:Ottoman_Empire", "Cosine=0.877", "triple=e_dbp:birthPlace dbr:Ottoman_Empire", "class=Royalty" ],
+    "2" : [ "pair=dbr:Sunni_Islam", "Cosine=0.554", "triple=e_dbp:religion dbr:Sunni_Islam", "class=Royalty" ]
+  }
+} ]

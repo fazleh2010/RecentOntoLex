@@ -1,0 +1,211 @@
+[ {
+  "id" : 5,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Australia\"@en", "Coherence=0.401", "triple=e_dbp:country \"Australia\"@en", "class=Book" ],
+    "1" : [ "pair=dbr:Australia", "Coherence=0.364", "triple=e_dbp:country dbr:Australia", "class=Book" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "based on\u001Cthe\u001Clong-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Coherence=0.45", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Coherence=0.449", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Coherence=0.372", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "based the\u001Clong-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Featuring:\"@en", "Coherence=0.471", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Coherence=0.47", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Coherence=0.391", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "based the\u001Clong-running\u001Cbritish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Coherence=0.45", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Coherence=0.449", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Coherence=0.372", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Coherence=0.456", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Coherence=0.456", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Coherence=0.38", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Canada\"@en", "Coherence=0.37", "triple=e_dbp:country \"Canada\"@en", "class=Book" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"French\"@en", "Coherence=0.464", "triple=e_dbp:language \"French\"@en", "class=Book" ],
+    "1" : [ "pair=\"France\"@en", "Coherence=0.459", "triple=e_dbp:country \"France\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:French_language", "Coherence=0.4", "triple=e_dbo:language dbr:French_language", "class=Book" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Germany\"@en", "Coherence=0.466", "triple=e_dbp:country \"Germany\"@en", "class=Book" ],
+    "1" : [ "pair=\"German\"@en", "Coherence=0.445", "triple=e_dbp:language \"German\"@en", "class=Book" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "historical",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Historical_novel", "Coherence=0.36", "triple=e_dbo:literaryGenre dbr:Historical_novel", "class=Book" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "long-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Featuring:\"@en", "Coherence=0.48", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Coherence=0.479", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Coherence=0.467", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Coherence=0.401", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "long-running\u001Cbritish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Coherence=0.45", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Coherence=0.449", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Coherence=0.372", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "long-running british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Coherence=0.456", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Coherence=0.456", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Coherence=0.38", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Science fiction novel\"@en", "Coherence=0.487", "triple=e_dbp:genre \"Science fiction novel\"@en", "class=Book" ],
+    "1" : [ "pair=dbr:Historical_novel", "Coherence=0.479", "triple=e_dbo:literaryGenre dbr:Historical_novel", "class=Book" ],
+    "2" : [ "pair=dbr:Novel", "Coherence=0.478", "triple=e_dbo:literaryGenre dbr:Novel", "class=Book" ],
+    "3" : [ "pair=dbr:Crime_fiction", "Coherence=0.475", "triple=e_dbo:literaryGenre dbr:Crime_fiction", "class=Book" ],
+    "4" : [ "pair=dbr:Crime_novel", "Coherence=0.474", "triple=e_dbo:literaryGenre dbr:Crime_novel", "class=Book" ],
+    "5" : [ "pair=\"Novel\"@en", "Coherence=0.472", "triple=e_dbp:genre \"Novel\"@en", "class=Book" ],
+    "6" : [ "pair=\"813/.54 19\"", "Coherence=0.472", "triple=e_dbo:dcc \"813/.54 19\"", "class=Book" ],
+    "7" : [ "pair=dbr:Thriller_(genre", "Coherence=0.472", "triple=e_dbo:literaryGenre dbr:Thriller_(genre", "class=Book" ],
+    "8" : [ "pair=dbr:Historical_fiction", "Coherence=0.47", "triple=e_dbp:genre dbr:Historical_fiction", "class=Book" ],
+    "9" : [ "pair=dbr:Horror_novel", "Coherence=0.469", "triple=e_dbo:literaryGenre dbr:Horror_novel", "class=Book" ],
+    "10" : [ "pair=dbr:BBC_Books", "Coherence=0.467", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "11" : [ "pair=\"Fiction\"@en", "Coherence=0.467", "triple=e_dbp:genre \"Fiction\"@en", "class=Book" ],
+    "12" : [ "pair=dbr:Romance_novel", "Coherence=0.465", "triple=e_dbp:genre dbr:Romance_novel", "class=Book" ],
+    "13" : [ "pair=dbr:Young_adult_novel", "Coherence=0.462", "triple=e_dbo:literaryGenre dbr:Young_adult_novel", "class=Book" ],
+    "14" : [ "pair=dbr:Spy_fiction", "Coherence=0.46", "triple=e_dbp:genre dbr:Spy_fiction", "class=Book" ],
+    "15" : [ "pair=\"813/.54 20\"", "Coherence=0.459", "triple=e_dbo:dcc \"813/.54 20\"", "class=Book" ],
+    "16" : [ "pair=dbr:Young_adult_fiction", "Coherence=0.457", "triple=e_dbo:literaryGenre dbr:Young_adult_fiction", "class=Book" ],
+    "17" : [ "pair=\"First US edition\"@en", "Coherence=0.456", "triple=e_dbp:caption \"First US edition\"@en", "class=Book" ],
+    "18" : [ "pair=\"Featuring:\"@en", "Coherence=0.456", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "19" : [ "pair=dbr:G._P._Putnam's_Sons", "Coherence=0.455", "triple=e_dbo:publisher dbr:G._P._Putnam's_Sons", "class=Book" ],
+    "20" : [ "pair=\"813/.54 22\"", "Coherence=0.455", "triple=e_dbo:dcc \"813/.54 22\"", "class=Book" ],
+    "21" : [ "pair=dbr:Fiction", "Coherence=0.453", "triple=e_dbp:genre dbr:Fiction", "class=Book" ],
+    "22" : [ "pair=dbr:Fantasy_novel", "Coherence=0.453", "triple=e_dbo:literaryGenre dbr:Fantasy_novel", "class=Book" ],
+    "23" : [ "pair=dbr:Fantasy_literature", "Coherence=0.45", "triple=e_dbp:genre dbr:Fantasy_literature", "class=Book" ],
+    "24" : [ "pair=dbr:Del_Rey_Books", "Coherence=0.45", "triple=e_dbo:publisher dbr:Del_Rey_Books", "class=Book" ],
+    "25" : [ "pair=dbr:Adventure_novel", "Coherence=0.443", "triple=e_dbo:literaryGenre dbr:Adventure_novel", "class=Book" ],
+    "26" : [ "pair=dbr:Heinemann_(publisher", "Coherence=0.442", "triple=e_dbp:publisher dbr:Heinemann_(publisher", "class=Book" ],
+    "27" : [ "pair=dbr:Hodder_&_Stoughton", "Coherence=0.439", "triple=e_dbo:publisher dbr:Hodder_&_Stoughton", "class=Book" ],
+    "28" : [ "pair=\"813/.54 21\"", "Coherence=0.435", "triple=e_dbo:dcc \"813/.54 21\"", "class=Book" ],
+    "29" : [ "pair=dbr:Tor_Books", "Coherence=0.435", "triple=e_dbo:publisher dbr:Tor_Books", "class=Book" ],
+    "30" : [ "pair=dbr:Mystery_novel", "Coherence=0.432", "triple=e_dbo:literaryGenre dbr:Mystery_novel", "class=Book" ],
+    "31" : [ "pair=\"Doctor Who book:\"@en", "Coherence=0.431", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "32" : [ "pair=\"Science fiction\"@en", "Coherence=0.429", "triple=e_dbp:genre \"Science fiction\"@en", "class=Book" ],
+    "33" : [ "pair=dbr:Macmillan_Publishers", "Coherence=0.427", "triple=e_dbp:publisher dbr:Macmillan_Publishers", "class=Book" ],
+    "34" : [ "pair=dbr:Adventure_fiction", "Coherence=0.425", "triple=e_dbp:genre dbr:Adventure_fiction", "class=Book" ],
+    "35" : [ "pair=\"First UK edition\"@en", "Coherence=0.425", "triple=e_dbp:caption \"First UK edition\"@en", "class=Book" ],
+    "36" : [ "pair=dbr:United_Kingdom", "Coherence=0.422", "triple=e_dbp:country dbr:United_Kingdom", "class=Book" ],
+    "37" : [ "pair=dbr:Mystery_fiction", "Coherence=0.417", "triple=e_dbp:genre dbr:Mystery_fiction", "class=Book" ],
+    "38" : [ "pair=\"First edition cover\"@en", "Coherence=0.416", "triple=e_dbp:caption \"First edition cover\"@en", "class=Book" ],
+    "39" : [ "pair=dbr:Viking_Press", "Coherence=0.411", "triple=e_dbo:publisher dbr:Viking_Press", "class=Book" ],
+    "40" : [ "pair=dbr:Australia", "Coherence=0.411", "triple=e_dbp:country dbr:Australia", "class=Book" ],
+    "41" : [ "pair=\"First edition\"@en", "Coherence=0.409", "triple=e_dbp:caption \"First edition\"@en", "class=Book" ],
+    "42" : [ "pair=dbr:Ace_Books", "Coherence=0.408", "triple=e_dbo:publisher dbr:Ace_Books", "class=Book" ],
+    "43" : [ "pair=dbr:E-book", "Coherence=0.403", "triple=e_dbo:mediaType dbr:E-book", "class=Book" ],
+    "44" : [ "pair=dbr:Little", "Coherence=0.398", "triple=e_dbp:publisher dbr:Little", "class=Book" ],
+    "45" : [ "pair=dbr:Doubleday_(publisher", "Coherence=0.397", "triple=e_dbo:publisher dbr:Doubleday_(publisher", "class=Book" ],
+    "46" : [ "pair=\"\"@en", "Coherence=0.393", "triple=e_dbp:isbnNote \"\"@en", "class=Book" ],
+    "47" : [ "pair=dbr:English_language", "Coherence=0.39", "triple=e_dbp:language dbr:English_language", "class=Book" ],
+    "48" : [ "pair=\"384\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "Coherence=0.389", "triple=e_dbo:numberOfPages \"384\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "class=Book" ],
+    "49" : [ "pair=dbr:Science_fiction", "Coherence=0.383", "triple=e_dbo:literaryGenre dbr:Science_fiction", "class=Book" ],
+    "50" : [ "pair=dbr:HarperCollins", "Coherence=0.382", "triple=e_dbo:publisher dbr:HarperCollins", "class=Book" ],
+    "51" : [ "pair=\"320\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "Coherence=0.381", "triple=e_dbo:numberOfPages \"320\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "class=Book" ],
+    "52" : [ "pair=dbr:Detective_fiction", "Coherence=0.381", "triple=e_dbp:genre dbr:Detective_fiction", "class=Book" ],
+    "53" : [ "pair=\"400\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "Coherence=0.379", "triple=e_dbo:numberOfPages \"400\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "class=Book" ],
+    "54" : [ "pair=\"416\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "Coherence=0.379", "triple=e_dbo:numberOfPages \"416\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "class=Book" ],
+    "55" : [ "pair=dbr:Hardcover", "Coherence=0.374", "triple=e_dbo:mediaType dbr:Hardcover", "class=Book" ],
+    "56" : [ "pair=dbr:Horror_fiction", "Coherence=0.374", "triple=e_dbp:genre dbr:Horror_fiction", "class=Book" ],
+    "57" : [ "pair=dbr:Alfred_A._Knopf", "Coherence=0.373", "triple=e_dbo:publisher dbr:Alfred_A._Knopf", "class=Book" ],
+    "58" : [ "pair=dbr:Fantasy", "Coherence=0.372", "triple=e_dbo:literaryGenre dbr:Fantasy", "class=Book" ],
+    "59" : [ "pair=\"France\"@en", "Coherence=0.372", "triple=e_dbp:country \"France\"@en", "class=Book" ],
+    "60" : [ "pair=dbr:United_States", "Coherence=0.371", "triple=e_dbp:country dbr:United_States", "class=Book" ],
+    "61" : [ "pair=dbr:Harper_(publisher", "Coherence=0.371", "triple=e_dbp:publisher dbr:Harper_(publisher", "class=Book" ],
+    "62" : [ "pair=\"United Kingdom\"@en", "Coherence=0.371", "triple=e_dbp:country \"United Kingdom\"@en", "class=Book" ],
+    "63" : [ "pair=\"Australia\"@en", "Coherence=0.367", "triple=e_dbp:country \"Australia\"@en", "class=Book" ],
+    "64" : [ "pair=\"352\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "Coherence=0.366", "triple=e_dbo:numberOfPages \"352\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "class=Book" ],
+    "65" : [ "pair=\"French\"@en", "Coherence=0.364", "triple=e_dbp:language \"French\"@en", "class=Book" ],
+    "66" : [ "pair=\"Print\"@en", "Coherence=0.364", "triple=e_dbp:mediaType \"Print\"@en", "class=Book" ],
+    "67" : [ "pair=dbr:India", "Coherence=0.363", "triple=e_dbp:country dbr:India", "class=Book" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "novel written",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Featuring:\"@en", "Coherence=0.422", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Coherence=0.401", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "original",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Featuring:\"@en", "Coherence=0.465", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Coherence=0.462", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Coherence=0.385", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "original novel written",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Featuring:\"@en", "Coherence=0.418", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Coherence=0.397", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "original novel written\u001Cby",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Featuring:\"@en", "Coherence=0.418", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Coherence=0.397", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ]
+  }
+} ]

@@ -1,0 +1,79 @@
+[ {
+  "id" : 5,
+  "pattern" : "administrative",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Quebec", "MaxConf=1.0", "triple=e_dbp:location dbr:Quebec", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "ecological",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Quebec", "MaxConf=1.0", "triple=e_dbp:location dbr:Quebec", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:altName \"\"@en", "class=ProtectedArea" ],
+    "1" : [ "pair=dbr:Canada", "MaxConf=1.0", "triple=e_dbp:location dbr:Canada", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "natural",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Japan", "MaxConf=1.0", "triple=e_dbp:location dbr:Japan", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "prefectural",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Japan", "MaxConf=1.0", "triple=e_dbp:location dbr:Japan", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "prefectural\u001Cnatural",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Japan", "MaxConf=1.0", "triple=e_dbp:location dbr:Japan", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "prefectural natural",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Japan", "MaxConf=1.0", "triple=e_dbp:location dbr:Japan", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 99,
+  "pattern" : "provincial",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Canada", "MaxConf=1.0", "triple=e_dbp:location dbr:Canada", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 124,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:altName \"\"@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 132,
+  "pattern" : "spanish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:altName \"\"@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 138,
+  "pattern" : "strict",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:altName \"\"@en", "class=ProtectedArea" ]
+  }
+} ]

@@ -1,0 +1,59 @@
+[ {
+  "id" : 5,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Australia Victoria\"@en", "Kulczynski=0.947", "triple=e_dbp:pushpinMap \"Australia Victoria\"@en", "class=River" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Great_Dividing_Range", "Kulczynski=1.0", "triple=e_dbp:source dbr:Great_Dividing_Range", "class=River" ],
+    "1" : [ "pair=\"Australia Victoria\"@en", "Kulczynski=1.0", "triple=e_dbp:pushpinMap \"Australia Victoria\"@en", "class=River" ],
+    "2" : [ "pair=dbr:Local_government_in_Australia", "Kulczynski=0.99", "triple=e_dbp:subdivisionType dbr:Local_government_in_Australia", "class=River" ],
+    "3" : [ "pair=dbr:New_South_Wales", "Kulczynski=0.98", "triple=e_dbp:subdivisionName dbr:New_South_Wales", "class=River" ],
+    "4" : [ "pair=dbr:Confluence", "Kulczynski=0.966", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
+    "5" : [ "pair=dbr:National_park", "Kulczynski=0.963", "triple=e_dbp:customLabel dbr:National_park", "class=River" ],
+    "6" : [ "pair=dbr:States_and_territories_of_Australia", "Kulczynski=0.952", "triple=e_dbp:subdivisionType dbr:States_and_territories_of_Australia", "class=River" ],
+    "7" : [ "pair=dbr:Victoria_(Australia", "Kulczynski=0.95", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ],
+    "8" : [ "pair=dbr:MurrayâDarling_basin", "Kulczynski=0.945", "triple=e_dbp:riverSystem dbr:MurrayâDarling_basin", "class=River" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "lower",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Lower_Saxony", "Kulczynski=0.984", "triple=e_dbp:subdivisionName dbr:Lower_Saxony", "class=River" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "perennial",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Australia Victoria\"@en", "Kulczynski=1.0", "triple=e_dbp:pushpinMap \"Australia Victoria\"@en", "class=River" ],
+    "1" : [ "pair=dbr:Victoria_(Australia", "Kulczynski=0.938", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Russia", "Kulczynski=0.976", "triple=e_dbp:subdivisionName dbr:Russia", "class=River" ]
+  }
+}, {
+  "id" : 120,
+  "pattern" : "southeastern",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Santa Catarina state\"@en", "Kulczynski=0.991", "triple=e_dbp:source1Location \"Santa Catarina state\"@en", "class=River" ]
+  }
+}, {
+  "id" : 122,
+  "pattern" : "southern",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"ParanÃ¡ state\"@en", "Kulczynski=0.968", "triple=e_dbp:source1Location \"ParanÃ¡ state\"@en", "class=River" ]
+  }
+} ]

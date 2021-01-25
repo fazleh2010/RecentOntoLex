@@ -1,0 +1,482 @@
+[ {
+  "id" : 1,
+  "pattern" : "acer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Acer\"@en", "Kulczynski=1.0", "triple=e_dbp:genus \"Acer\"@en", "class=Plant" ],
+    "1" : [ "pair=dbr:Sapindaceae", "Kulczynski=0.938", "triple=e_dbp:familia dbr:Sapindaceae", "class=Plant" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "banksia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Banksia", "Kulczynski=1.0", "triple=e_dbo:genus dbr:Banksia", "class=Plant" ],
+    "1" : [ "pair=\"Banksia\"@en", "Kulczynski=1.0", "triple=e_dbp:genus \"Banksia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "brazil",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neoregelia", "Kulczynski=0.98", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "1" : [ "pair=\"Neoregelia\"@en", "Kulczynski=0.98", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "brickellia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Brickellia", "Kulczynski=1.0", "triple=e_dbo:genus dbr:Brickellia", "class=Plant" ],
+    "1" : [ "pair=\"Brickellia\"@en", "Kulczynski=1.0", "triple=e_dbp:genus \"Brickellia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "carex",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Carex", "Kulczynski=1.0", "triple=e_dbo:genus dbr:Carex", "class=Plant" ],
+    "1" : [ "pair=\"Carex\"@en", "Kulczynski=1.0", "triple=e_dbp:genus \"Carex\"@en", "class=Plant" ],
+    "2" : [ "pair=dbr:Cyperaceae", "Kulczynski=0.99", "triple=e_dbp:familia dbr:Cyperaceae", "class=Plant" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "daisy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Brickellia", "Kulczynski=0.98", "triple=e_dbo:genus dbr:Brickellia", "class=Plant" ],
+    "1" : [ "pair=\"Brickellia\"@en", "Kulczynski=0.974", "triple=e_dbp:genus \"Brickellia\"@en", "class=Plant" ],
+    "2" : [ "pair=dbr:Erigeron", "Kulczynski=0.972", "triple=e_dbo:genus dbr:Erigeron", "class=Plant" ],
+    "3" : [ "pair=\"Erigeron\"@en", "Kulczynski=0.972", "triple=e_dbp:genus \"Erigeron\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "daisy\u001Cfamily",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Brickellia", "Kulczynski=0.98", "triple=e_dbo:genus dbr:Brickellia", "class=Plant" ],
+    "1" : [ "pair=\"Brickellia\"@en", "Kulczynski=0.974", "triple=e_dbp:genus \"Brickellia\"@en", "class=Plant" ],
+    "2" : [ "pair=dbr:Erigeron", "Kulczynski=0.957", "triple=e_dbo:genus dbr:Erigeron", "class=Plant" ],
+    "3" : [ "pair=\"Erigeron\"@en", "Kulczynski=0.957", "triple=e_dbp:genus \"Erigeron\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "daisy family",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Brickellia", "Kulczynski=0.98", "triple=e_dbo:genus dbr:Brickellia", "class=Plant" ],
+    "1" : [ "pair=\"Brickellia\"@en", "Kulczynski=0.974", "triple=e_dbp:genus \"Brickellia\"@en", "class=Plant" ],
+    "2" : [ "pair=dbr:Erigeron", "Kulczynski=0.957", "triple=e_dbo:genus dbr:Erigeron", "class=Plant" ],
+    "3" : [ "pair=\"Erigeron\"@en", "Kulczynski=0.957", "triple=e_dbp:genus \"Erigeron\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "erigeron",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Erigeron", "Kulczynski=1.0", "triple=e_dbo:genus dbr:Erigeron", "class=Plant" ],
+    "1" : [ "pair=\"Erigeron\"@en", "Kulczynski=1.0", "triple=e_dbp:genus \"Erigeron\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "family",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Brickellia", "Kulczynski=1.0", "triple=e_dbo:genus dbr:Brickellia", "class=Plant" ],
+    "1" : [ "pair=dbr:Helianthodae", "Kulczynski=1.0", "triple=e_dbo:family dbr:Helianthodae", "class=Plant" ],
+    "2" : [ "pair=dbr:Henri_Cassini", "Kulczynski=1.0", "triple=e_dbp:genusAuthority dbr:Henri_Cassini", "class=Plant" ],
+    "3" : [ "pair=\"Brickellia\"@en", "Kulczynski=1.0", "triple=e_dbp:genus \"Brickellia\"@en", "class=Plant" ],
+    "4" : [ "pair=dbr:Erigeron", "Kulczynski=0.993", "triple=e_dbo:genus dbr:Erigeron", "class=Plant" ],
+    "5" : [ "pair=\"Erigeron\"@en", "Kulczynski=0.993", "triple=e_dbp:genus \"Erigeron\"@en", "class=Plant" ],
+    "6" : [ "pair=dbr:Augustin_Pyramus_de_Candolle", "Kulczynski=0.993", "triple=e_dbp:genusAuthority dbr:Augustin_Pyramus_de_Candolle", "class=Plant" ],
+    "7" : [ "pair=dbr:Vernonieae", "Kulczynski=0.992", "triple=e_dbo:family dbr:Vernonieae", "class=Plant" ],
+    "8" : [ "pair=dbr:Inuleae", "Kulczynski=0.99", "triple=e_dbo:family dbr:Inuleae", "class=Plant" ],
+    "9" : [ "pair=dbr:Eupatorieae", "Kulczynski=0.987", "triple=e_dbo:family dbr:Eupatorieae", "class=Plant" ],
+    "10" : [ "pair=dbr:Anthemideae", "Kulczynski=0.985", "triple=e_dbo:family dbr:Anthemideae", "class=Plant" ],
+    "11" : [ "pair=dbr:Asteroideae", "Kulczynski=0.984", "triple=e_dbo:family dbr:Asteroideae", "class=Plant" ],
+    "12" : [ "pair=dbr:A.Gray", "Kulczynski=0.982", "triple=e_dbo:binomialAuthority dbr:A.Gray", "class=Plant" ],
+    "13" : [ "pair=\"IUCN2.3\"", "Kulczynski=0.981", "triple=e_dbo:conservationStatusSystem \"IUCN2.3\"", "class=Plant" ],
+    "14" : [ "pair=\"LR/nt\"@en", "Kulczynski=0.981", "triple=e_dbp:status \"LR/nt\"@en", "class=Plant" ],
+    "15" : [ "pair=\"LR/nt\"", "Kulczynski=0.981", "triple=e_dbo:conservationStatus \"LR/nt\"", "class=Plant" ],
+    "16" : [ "pair=dbr:Heliantheae", "Kulczynski=0.977", "triple=e_dbo:family dbr:Heliantheae", "class=Plant" ],
+    "17" : [ "pair=dbr:Psychotria", "Kulczynski=0.976", "triple=e_dbo:genus dbr:Psychotria", "class=Plant" ],
+    "18" : [ "pair=\"Psychotria\"@en", "Kulczynski=0.976", "triple=e_dbp:genus \"Psychotria\"@en", "class=Plant" ],
+    "19" : [ "pair=\"VU\"", "Kulczynski=0.976", "triple=e_dbo:conservationStatus \"VU\"", "class=Plant" ],
+    "20" : [ "pair=dbr:Cichorieae", "Kulczynski=0.974", "triple=e_dbo:family dbr:Cichorieae", "class=Plant" ],
+    "21" : [ "pair=\"IUCN2.3\"@en", "Kulczynski=0.973", "triple=e_dbp:statusSystem \"IUCN2.3\"@en", "class=Plant" ],
+    "22" : [ "pair=dbr:Astereae", "Kulczynski=0.97", "triple=e_dbo:family dbr:Astereae", "class=Plant" ],
+    "23" : [ "pair=\"VU\"@en", "Kulczynski=0.968", "triple=e_dbp:status \"VU\"@en", "class=Plant" ],
+    "24" : [ "pair=\"EN\"", "Kulczynski=0.961", "triple=e_dbo:conservationStatus \"EN\"", "class=Plant" ],
+    "25" : [ "pair=\"NT\"", "Kulczynski=0.957", "triple=e_dbo:conservationStatus \"NT\"", "class=Plant" ],
+    "26" : [ "pair=dbr:Selineae", "Kulczynski=0.957", "triple=e_dbo:family dbr:Selineae", "class=Plant" ],
+    "27" : [ "pair=dbr:Senecioneae", "Kulczynski=0.955", "triple=e_dbo:family dbr:Senecioneae", "class=Plant" ],
+    "28" : [ "pair=dbr:Detarioideae", "Kulczynski=0.954", "triple=e_dbo:family dbr:Detarioideae", "class=Plant" ],
+    "29" : [ "pair=dbr:Magnoliids", "Kulczynski=0.954", "triple=e_dbo:class dbr:Magnoliids", "class=Plant" ],
+    "30" : [ "pair=\"NT\"@en", "Kulczynski=0.952", "triple=e_dbp:status \"NT\"@en", "class=Plant" ],
+    "31" : [ "pair=dbr:Asteraceae", "Kulczynski=0.951", "triple=e_dbp:familia dbr:Asteraceae", "class=Plant" ],
+    "32" : [ "pair=dbr:Gnaphalieae", "Kulczynski=0.951", "triple=e_dbo:family dbr:Gnaphalieae", "class=Plant" ],
+    "33" : [ "pair=dbr:Asterales", "Kulczynski=0.95", "triple=e_dbp:ordo dbr:Asterales", "class=Plant" ],
+    "34" : [ "pair=\"DD\"", "Kulczynski=0.945", "triple=e_dbo:conservationStatus \"DD\"", "class=Plant" ],
+    "35" : [ "pair=dbr:Carl_Linnaeus", "Kulczynski=0.945", "triple=e_dbp:genusAuthority dbr:Carl_Linnaeus", "class=Plant" ],
+    "36" : [ "pair=\"EN\"@en", "Kulczynski=0.943", "triple=e_dbp:status \"EN\"@en", "class=Plant" ],
+    "37" : [ "pair=dbr:Salicaceae", "Kulczynski=0.943", "triple=e_dbp:familia dbr:Salicaceae", "class=Plant" ],
+    "38" : [ "pair=dbr:Rubiaceae", "Kulczynski=0.942", "triple=e_dbp:familia dbr:Rubiaceae", "class=Plant" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "family\u001Crubiaceae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Psychotria", "Kulczynski=0.937", "triple=e_dbo:genus dbr:Psychotria", "class=Plant" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "family rubiaceae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Psychotria", "Kulczynski=0.96", "triple=e_dbo:genus dbr:Psychotria", "class=Plant" ],
+    "1" : [ "pair=\"Psychotria\"@en", "Kulczynski=0.96", "triple=e_dbp:genus \"Psychotria\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "flowering",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Brickellia", "Kulczynski=0.973", "triple=e_dbo:genus dbr:Brickellia", "class=Plant" ],
+    "1" : [ "pair=\"Brickellia\"@en", "Kulczynski=0.967", "triple=e_dbp:genus \"Brickellia\"@en", "class=Plant" ],
+    "2" : [ "pair=dbr:Erigeron", "Kulczynski=0.96", "triple=e_dbo:genus dbr:Erigeron", "class=Plant" ],
+    "3" : [ "pair=\"Erigeron\"@en", "Kulczynski=0.96", "triple=e_dbp:genus \"Erigeron\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "genus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Helianthodae", "Kulczynski=1.0", "triple=e_dbo:family dbr:Helianthodae", "class=Plant" ],
+    "1" : [ "pair=dbr:Augustin_Pyramus_de_Candolle", "Kulczynski=1.0", "triple=e_dbp:genusAuthority dbr:Augustin_Pyramus_de_Candolle", "class=Plant" ],
+    "2" : [ "pair=dbr:Henri_Cassini", "Kulczynski=0.992", "triple=e_dbp:genusAuthority dbr:Henri_Cassini", "class=Plant" ],
+    "3" : [ "pair=\"L.B. Smith\"@en", "Kulczynski=0.992", "triple=e_dbp:binomialAuthority \"L.B. Smith\"@en", "class=Plant" ],
+    "4" : [ "pair=dbr:Detarioideae", "Kulczynski=0.99", "triple=e_dbo:family dbr:Detarioideae", "class=Plant" ],
+    "5" : [ "pair=dbr:Carl_Linnaeus", "Kulczynski=0.987", "triple=e_dbp:genusAuthority dbr:Carl_Linnaeus", "class=Plant" ],
+    "6" : [ "pair=\"Species\"@en", "Kulczynski=0.987", "triple=e_dbp:subdivisionRanks \"Species\"@en", "class=Plant" ],
+    "7" : [ "pair=dbr:Species", "Kulczynski=0.985", "triple=e_dbp:subdivisionRanks dbr:Species", "class=Plant" ],
+    "8" : [ "pair=dbr:Vernonieae", "Kulczynski=0.984", "triple=e_dbo:family dbr:Vernonieae", "class=Plant" ],
+    "9" : [ "pair=dbr:Neoregelia", "Kulczynski=0.98", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "10" : [ "pair=\"Neoregelia\"@en", "Kulczynski=0.98", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ],
+    "11" : [ "pair=dbr:Bromelioideae", "Kulczynski=0.97", "triple=e_dbo:family dbr:Bromelioideae", "class=Plant" ],
+    "12" : [ "pair=\"See text.\"@en", "Kulczynski=0.967", "triple=e_dbp:subdivision \"See text.\"@en", "class=Plant" ],
+    "13" : [ "pair=\"See text\"@en", "Kulczynski=0.957", "triple=e_dbp:subdivision \"See text\"@en", "class=Plant" ],
+    "14" : [ "pair=dbr:Anthemideae", "Kulczynski=0.941", "triple=e_dbo:family dbr:Anthemideae", "class=Plant" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "genus\u001Cneoregelia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neoregelia", "Kulczynski=0.974", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "1" : [ "pair=\"Neoregelia\"@en", "Kulczynski=0.974", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "genus\u001Cneoregelia\u001Cthis",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neoregelia", "Kulczynski=0.948", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "1" : [ "pair=\"Neoregelia\"@en", "Kulczynski=0.948", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "genus\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Helianthodae", "Kulczynski=0.991", "triple=e_dbo:family dbr:Helianthodae", "class=Plant" ],
+    "1" : [ "pair=dbr:Augustin_Pyramus_de_Candolle", "Kulczynski=0.98", "triple=e_dbp:genusAuthority dbr:Augustin_Pyramus_de_Candolle", "class=Plant" ],
+    "2" : [ "pair=dbr:Henri_Cassini", "Kulczynski=0.977", "triple=e_dbp:genusAuthority dbr:Henri_Cassini", "class=Plant" ],
+    "3" : [ "pair=dbr:Vernonieae", "Kulczynski=0.962", "triple=e_dbo:family dbr:Vernonieae", "class=Plant" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "genus neoregelia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neoregelia", "Kulczynski=0.974", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "1" : [ "pair=\"Neoregelia\"@en", "Kulczynski=0.974", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "genus neoregelia\u001Cthis",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neoregelia", "Kulczynski=0.948", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "1" : [ "pair=\"Neoregelia\"@en", "Kulczynski=0.948", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "genus neoregelia\u001Cthis\u001Cspecies",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neoregelia", "Kulczynski=0.948", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "1" : [ "pair=\"Neoregelia\"@en", "Kulczynski=0.948", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "genus neoregelia this\u001Cspecies",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neoregelia", "Kulczynski=0.948", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "1" : [ "pair=\"Neoregelia\"@en", "Kulczynski=0.948", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "genus neoregelia this\u001Cspecies\u001Cis",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neoregelia", "Kulczynski=0.948", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "1" : [ "pair=\"Neoregelia\"@en", "Kulczynski=0.948", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "grass",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Poaceae", "Kulczynski=0.957", "triple=e_dbp:familia dbr:Poaceae", "class=Plant" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "maple",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Acer\"@en", "Kulczynski=1.0", "triple=e_dbp:genus \"Acer\"@en", "class=Plant" ],
+    "1" : [ "pair=dbr:Sapindaceae", "Kulczynski=0.938", "triple=e_dbp:familia dbr:Sapindaceae", "class=Plant" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "neoregelia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neoregelia", "Kulczynski=1.0", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "1" : [ "pair=\"Neoregelia\"@en", "Kulczynski=1.0", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "neoregelia species",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neoregelia", "Kulczynski=0.948", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "1" : [ "pair=\"Neoregelia\"@en", "Kulczynski=0.948", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "neoregelia species\u001Cis",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neoregelia", "Kulczynski=0.948", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "1" : [ "pair=\"Neoregelia\"@en", "Kulczynski=0.948", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "plant",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Psychotria", "Kulczynski=0.953", "triple=e_dbo:genus dbr:Psychotria", "class=Plant" ],
+    "1" : [ "pair=\"Psychotria\"@en", "Kulczynski=0.953", "triple=e_dbp:genus \"Psychotria\"@en", "class=Plant" ],
+    "2" : [ "pair=\"G1\"", "Kulczynski=0.945", "triple=e_dbo:conservationStatus \"G1\"", "class=Plant" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "plants",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Helianthodae", "Kulczynski=0.995", "triple=e_dbo:family dbr:Helianthodae", "class=Plant" ],
+    "1" : [ "pair=dbr:Vernonieae", "Kulczynski=0.977", "triple=e_dbo:family dbr:Vernonieae", "class=Plant" ],
+    "2" : [ "pair=dbr:Henri_Cassini", "Kulczynski=0.954", "triple=e_dbp:genusAuthority dbr:Henri_Cassini", "class=Plant" ],
+    "3" : [ "pair=dbr:Augustin_Pyramus_de_Candolle", "Kulczynski=0.948", "triple=e_dbp:genusAuthority dbr:Augustin_Pyramus_de_Candolle", "class=Plant" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "prunus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Prunus\"@en", "Kulczynski=0.993", "triple=e_dbp:genus \"Prunus\"@en", "class=Plant" ],
+    "1" : [ "pair=dbr:Prunus", "Kulczynski=0.993", "triple=e_dbo:genus dbr:Prunus", "class=Plant" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "psychotria",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Psychotria", "Kulczynski=1.0", "triple=e_dbo:genus dbr:Psychotria", "class=Plant" ],
+    "1" : [ "pair=\"Psychotria\"@en", "Kulczynski=1.0", "triple=e_dbp:genus \"Psychotria\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "rhododendron",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Rhododendron", "Kulczynski=1.0", "triple=e_dbo:genus dbr:Rhododendron", "class=Plant" ],
+    "1" : [ "pair=\"Rhododendron\"@en", "Kulczynski=1.0", "triple=e_dbp:genus \"Rhododendron\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "rubiaceae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Psychotria", "Kulczynski=0.968", "triple=e_dbo:genus dbr:Psychotria", "class=Plant" ],
+    "1" : [ "pair=\"Psychotria\"@en", "Kulczynski=0.968", "triple=e_dbp:genus \"Psychotria\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "sedge",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Carex\"@en", "Kulczynski=0.98", "triple=e_dbp:genus \"Carex\"@en", "class=Plant" ],
+    "1" : [ "pair=dbr:Carex", "Kulczynski=0.975", "triple=e_dbo:genus dbr:Carex", "class=Plant" ],
+    "2" : [ "pair=dbr:Cyperaceae", "Kulczynski=0.97", "triple=e_dbp:familia dbr:Cyperaceae", "class=Plant" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "solidago",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Solidago", "Kulczynski=1.0", "triple=e_dbo:genus dbr:Solidago", "class=Plant" ],
+    "1" : [ "pair=\"Solidago\"@en", "Kulczynski=1.0", "triple=e_dbp:genus \"Solidago\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "species",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Allardtia\"@en", "Kulczynski=1.0", "triple=e_dbp:subgenus \"Allardtia\"@en", "class=Plant" ],
+    "1" : [ "pair=dbr:Neoregelia", "Kulczynski=1.0", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "2" : [ "pair=dbr:Brickellia", "Kulczynski=1.0", "triple=e_dbo:genus dbr:Brickellia", "class=Plant" ],
+    "3" : [ "pair=dbr:Allardtia", "Kulczynski=1.0", "triple=e_dbo:genus dbr:Allardtia", "class=Plant" ],
+    "4" : [ "pair=\"Neoregelia\"@en", "Kulczynski=1.0", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ],
+    "5" : [ "pair=\"Brickellia\"@en", "Kulczynski=1.0", "triple=e_dbp:genus \"Brickellia\"@en", "class=Plant" ],
+    "6" : [ "pair=\"G1\"@en", "Kulczynski=0.994", "triple=e_dbp:status \"G1\"@en", "class=Plant" ],
+    "7" : [ "pair=\"G1\"", "Kulczynski=0.993", "triple=e_dbo:conservationStatus \"G1\"", "class=Plant" ],
+    "8" : [ "pair=\"LR/nt\"@en", "Kulczynski=0.993", "triple=e_dbp:status \"LR/nt\"@en", "class=Plant" ],
+    "9" : [ "pair=\"LR/nt\"", "Kulczynski=0.993", "triple=e_dbo:conservationStatus \"LR/nt\"", "class=Plant" ],
+    "10" : [ "pair=dbr:Tillandsioideae", "Kulczynski=0.992", "triple=e_dbo:family dbr:Tillandsioideae", "class=Plant" ],
+    "11" : [ "pair=dbr:Thomas_Nuttall", "Kulczynski=0.992", "triple=e_dbo:binomialAuthority dbr:Thomas_Nuttall", "class=Plant" ],
+    "12" : [ "pair=dbr:Erigeron", "Kulczynski=0.99", "triple=e_dbo:genus dbr:Erigeron", "class=Plant" ],
+    "13" : [ "pair=\"Erigeron\"@en", "Kulczynski=0.99", "triple=e_dbp:genus \"Erigeron\"@en", "class=Plant" ],
+    "14" : [ "pair=dbr:Tillandsia", "Kulczynski=0.99", "triple=e_dbo:genus dbr:Tillandsia", "class=Plant" ],
+    "15" : [ "pair=\"Tillandsia\"@en", "Kulczynski=0.99", "triple=e_dbp:genus \"Tillandsia\"@en", "class=Plant" ],
+    "16" : [ "pair=\"Lindl.\"@en", "Kulczynski=0.99", "triple=e_dbp:binomialAuthority \"Lindl.\"@en", "class=Plant" ],
+    "17" : [ "pair=\"VU\"", "Kulczynski=0.988", "triple=e_dbo:conservationStatus \"VU\"", "class=Plant" ],
+    "18" : [ "pair=dbr:Bromelioideae", "Kulczynski=0.988", "triple=e_dbo:family dbr:Bromelioideae", "class=Plant" ],
+    "19" : [ "pair=\"VU\"@en", "Kulczynski=0.988", "triple=e_dbp:status \"VU\"@en", "class=Plant" ],
+    "20" : [ "pair=dbr:Stanhopeinae", "Kulczynski=0.987", "triple=e_dbp:subtribus dbr:Stanhopeinae", "class=Plant" ],
+    "21" : [ "pair=dbr:Bromeliaceae", "Kulczynski=0.987", "triple=e_dbp:familia dbr:Bromeliaceae", "class=Plant" ],
+    "22" : [ "pair=dbr:Edward_Lee_Greene", "Kulczynski=0.985", "triple=e_dbo:binomialAuthority dbr:Edward_Lee_Greene", "class=Plant" ],
+    "23" : [ "pair=\"L.B. Smith\"@en", "Kulczynski=0.984", "triple=e_dbp:binomialAuthority \"L.B. Smith\"@en", "class=Plant" ],
+    "24" : [ "pair=\"Solidago\"@en", "Kulczynski=0.984", "triple=e_dbp:genus \"Solidago\"@en", "class=Plant" ],
+    "25" : [ "pair=\"IUCN2.3\"@en", "Kulczynski=0.984", "triple=e_dbp:statusSystem \"IUCN2.3\"@en", "class=Plant" ],
+    "26" : [ "pair=\"IUCN2.3\"", "Kulczynski=0.983", "triple=e_dbo:conservationStatusSystem \"IUCN2.3\"", "class=Plant" ],
+    "27" : [ "pair=dbr:Rchb.f.", "Kulczynski=0.983", "triple=e_dbo:binomialAuthority dbr:Rchb.f.", "class=Plant" ],
+    "28" : [ "pair=\"DD\"@en", "Kulczynski=0.982", "triple=e_dbp:status \"DD\"@en", "class=Plant" ],
+    "29" : [ "pair=\"EN\"@en", "Kulczynski=0.982", "triple=e_dbp:status \"EN\"@en", "class=Plant" ],
+    "30" : [ "pair=\"DD\"", "Kulczynski=0.981", "triple=e_dbo:conservationStatus \"DD\"", "class=Plant" ],
+    "31" : [ "pair=\"LR/lc\"@en", "Kulczynski=0.981", "triple=e_dbp:status \"LR/lc\"@en", "class=Plant" ],
+    "32" : [ "pair=dbr:Solidago", "Kulczynski=0.981", "triple=e_dbo:genus dbr:Solidago", "class=Plant" ],
+    "33" : [ "pair=\"LR/lc\"", "Kulczynski=0.981", "triple=e_dbo:conservationStatus \"LR/lc\"", "class=Plant" ],
+    "34" : [ "pair=\"EN\"", "Kulczynski=0.98", "triple=e_dbo:conservationStatus \"EN\"", "class=Plant" ],
+    "35" : [ "pair=dbr:Pleurothallidinae", "Kulczynski=0.978", "triple=e_dbp:subtribus dbr:Pleurothallidinae", "class=Plant" ],
+    "36" : [ "pair=dbr:Rhododendron", "Kulczynski=0.975", "triple=e_dbo:genus dbr:Rhododendron", "class=Plant" ],
+    "37" : [ "pair=\"Rhododendron\"@en", "Kulczynski=0.975", "triple=e_dbp:genus \"Rhododendron\"@en", "class=Plant" ],
+    "38" : [ "pair=dbr:Maxillarieae", "Kulczynski=0.974", "triple=e_dbo:family dbr:Maxillarieae", "class=Plant" ],
+    "39" : [ "pair=dbr:Maxillariinae", "Kulczynski=0.974", "triple=e_dbp:tribus dbr:Maxillariinae", "class=Plant" ],
+    "40" : [ "pair=\"IUCN3.1\"", "Kulczynski=0.972", "triple=e_dbo:conservationStatusSystem \"IUCN3.1\"", "class=Plant" ],
+    "41" : [ "pair=\"IUCN3.1\"@en", "Kulczynski=0.972", "triple=e_dbp:statusSystem \"IUCN3.1\"@en", "class=Plant" ],
+    "42" : [ "pair=\"CR\"", "Kulczynski=0.965", "triple=e_dbo:conservationStatus \"CR\"", "class=Plant" ],
+    "43" : [ "pair=dbr:Carex", "Kulczynski=0.965", "triple=e_dbo:genus dbr:Carex", "class=Plant" ],
+    "44" : [ "pair=dbr:A.Gray", "Kulczynski=0.965", "triple=e_dbo:binomialAuthority dbr:A.Gray", "class=Plant" ],
+    "45" : [ "pair=\"Carex\"@en", "Kulczynski=0.965", "triple=e_dbp:genus \"Carex\"@en", "class=Plant" ],
+    "46" : [ "pair=\"CR\"@en", "Kulczynski=0.963", "triple=e_dbp:status \"CR\"@en", "class=Plant" ],
+    "47" : [ "pair=\"TNC\"@en", "Kulczynski=0.963", "triple=e_dbp:statusSystem \"TNC\"@en", "class=Plant" ],
+    "48" : [ "pair=\"TNC\"", "Kulczynski=0.961", "triple=e_dbo:conservationStatusSystem \"TNC\"", "class=Plant" ],
+    "49" : [ "pair=dbr:Ericaceae", "Kulczynski=0.959", "triple=e_dbp:familia dbr:Ericaceae", "class=Plant" ],
+    "50" : [ "pair=\"NT\"@en", "Kulczynski=0.959", "triple=e_dbp:status \"NT\"@en", "class=Plant" ],
+    "51" : [ "pair=\"NT\"", "Kulczynski=0.957", "triple=e_dbo:conservationStatus \"NT\"", "class=Plant" ],
+    "52" : [ "pair=\"Subspecies\"@en", "Kulczynski=0.957", "triple=e_dbp:subdivisionRanks \"Subspecies\"@en", "class=Plant" ],
+    "53" : [ "pair=dbr:Poales", "Kulczynski=0.956", "triple=e_dbp:ordo dbr:Poales", "class=Plant" ],
+    "54" : [ "pair=dbr:Cyperaceae", "Kulczynski=0.956", "triple=e_dbp:familia dbr:Cyperaceae", "class=Plant" ],
+    "55" : [ "pair=dbr:Sapindaceae", "Kulczynski=0.956", "triple=e_dbp:familia dbr:Sapindaceae", "class=Plant" ],
+    "56" : [ "pair=\"G5\"@en", "Kulczynski=0.954", "triple=e_dbp:status \"G5\"@en", "class=Plant" ],
+    "57" : [ "pair=\"G5\"", "Kulczynski=0.953", "triple=e_dbo:conservationStatus \"G5\"", "class=Plant" ],
+    "58" : [ "pair=dbr:Orchidoideae", "Kulczynski=0.95", "triple=e_dbp:subfamilia dbr:Orchidoideae", "class=Plant" ],
+    "59" : [ "pair=dbr:Commelinids", "Kulczynski=0.948", "triple=e_dbp:unrankedOrdo dbr:Commelinids", "class=Plant" ],
+    "60" : [ "pair=dbr:Psychotria", "Kulczynski=0.945", "triple=e_dbo:genus dbr:Psychotria", "class=Plant" ],
+    "61" : [ "pair=\"Psychotria\"@en", "Kulczynski=0.945", "triple=e_dbp:genus \"Psychotria\"@en", "class=Plant" ],
+    "62" : [ "pair=dbr:Asa_Gray", "Kulczynski=0.943", "triple=e_dbo:binomialAuthority dbr:Asa_Gray", "class=Plant" ],
+    "63" : [ "pair=\"LC\"", "Kulczynski=0.941", "triple=e_dbo:conservationStatus \"LC\"", "class=Plant" ],
+    "64" : [ "pair=dbr:Epidendreae", "Kulczynski=0.938", "triple=e_dbo:family dbr:Epidendreae", "class=Plant" ],
+    "65" : [ "pair=dbr:Lindl.", "Kulczynski=0.937", "triple=e_dbo:binomialAuthority dbr:Lindl.", "class=Plant" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "species\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"LR/nt\"@en", "Kulczynski=0.968", "triple=e_dbp:status \"LR/nt\"@en", "class=Plant" ],
+    "1" : [ "pair=\"LR/nt\"", "Kulczynski=0.968", "triple=e_dbo:conservationStatus \"LR/nt\"", "class=Plant" ],
+    "2" : [ "pair=\"DD\"@en", "Kulczynski=0.965", "triple=e_dbp:status \"DD\"@en", "class=Plant" ],
+    "3" : [ "pair=\"VU\"", "Kulczynski=0.964", "triple=e_dbo:conservationStatus \"VU\"", "class=Plant" ],
+    "4" : [ "pair=\"DD\"", "Kulczynski=0.963", "triple=e_dbo:conservationStatus \"DD\"", "class=Plant" ],
+    "5" : [ "pair=\"VU\"@en", "Kulczynski=0.963", "triple=e_dbp:status \"VU\"@en", "class=Plant" ],
+    "6" : [ "pair=dbr:Rchb.f.", "Kulczynski=0.959", "triple=e_dbo:binomialAuthority dbr:Rchb.f.", "class=Plant" ],
+    "7" : [ "pair=\"EN\"@en", "Kulczynski=0.957", "triple=e_dbp:status \"EN\"@en", "class=Plant" ],
+    "8" : [ "pair=\"EN\"", "Kulczynski=0.956", "triple=e_dbo:conservationStatus \"EN\"", "class=Plant" ],
+    "9" : [ "pair=\"IUCN2.3\"", "Kulczynski=0.952", "triple=e_dbo:conservationStatusSystem \"IUCN2.3\"", "class=Plant" ],
+    "10" : [ "pair=\"NT\"", "Kulczynski=0.95", "triple=e_dbo:conservationStatus \"NT\"", "class=Plant" ],
+    "11" : [ "pair=dbr:Stanhopeinae", "Kulczynski=0.949", "triple=e_dbp:subtribus dbr:Stanhopeinae", "class=Plant" ],
+    "12" : [ "pair=\"IUCN2.3\"@en", "Kulczynski=0.948", "triple=e_dbp:statusSystem \"IUCN2.3\"@en", "class=Plant" ],
+    "13" : [ "pair=\"NT\"@en", "Kulczynski=0.945", "triple=e_dbp:status \"NT\"@en", "class=Plant" ],
+    "14" : [ "pair=\"IUCN3.1\"@en", "Kulczynski=0.942", "triple=e_dbp:statusSystem \"IUCN3.1\"@en", "class=Plant" ],
+    "15" : [ "pair=\"IUCN3.1\"", "Kulczynski=0.938", "triple=e_dbo:conservationStatusSystem \"IUCN3.1\"", "class=Plant" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "species flowering",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Brickellia", "Kulczynski=0.973", "triple=e_dbo:genus dbr:Brickellia", "class=Plant" ],
+    "1" : [ "pair=\"Brickellia\"@en", "Kulczynski=0.967", "triple=e_dbp:genus \"Brickellia\"@en", "class=Plant" ],
+    "2" : [ "pair=dbr:Erigeron", "Kulczynski=0.953", "triple=e_dbo:genus dbr:Erigeron", "class=Plant" ],
+    "3" : [ "pair=\"Erigeron\"@en", "Kulczynski=0.953", "triple=e_dbp:genus \"Erigeron\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "species orchid",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Rchb.f.", "Kulczynski=0.942", "triple=e_dbo:binomialAuthority dbr:Rchb.f.", "class=Plant" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "species the\u001Cgenus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neoregelia", "Kulczynski=0.941", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "1" : [ "pair=\"Neoregelia\"@en", "Kulczynski=0.941", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "species the\u001Cgenus\u001Cneoregelia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Neoregelia", "Kulczynski=0.941", "triple=e_dbo:genus dbr:Neoregelia", "class=Plant" ],
+    "1" : [ "pair=\"Neoregelia\"@en", "Kulczynski=0.941", "triple=e_dbp:genus \"Neoregelia\"@en", "class=Plant" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "tillandsia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Allardtia\"@en", "Kulczynski=1.0", "triple=e_dbp:subgenus \"Allardtia\"@en", "class=Plant" ],
+    "1" : [ "pair=dbr:Tillandsia", "Kulczynski=1.0", "triple=e_dbo:genus dbr:Tillandsia", "class=Plant" ],
+    "2" : [ "pair=dbr:Allardtia", "Kulczynski=1.0", "triple=e_dbo:genus dbr:Allardtia", "class=Plant" ],
+    "3" : [ "pair=\"Tillandsia\"@en", "Kulczynski=1.0", "triple=e_dbp:genus \"Tillandsia\"@en", "class=Plant" ],
+    "4" : [ "pair=dbr:Tillandsioideae", "Kulczynski=0.996", "triple=e_dbo:family dbr:Tillandsioideae", "class=Plant" ]
+  }
+} ]

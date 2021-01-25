@@ -1,0 +1,61 @@
+[ {
+  "id" : 60,
+  "pattern" : "former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"2018-06-02\"^^<http://www.w3.org/2001/XMLSchema#date>", "MaxConf=1.0", "triple=e_dbp:accessdate \"2018-06-02\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=HistoricPlace" ],
+    "1" : [ "pair=\"New South Wales State Heritage Register\"@en", "MaxConf=1.0", "triple=e_dbp:designation \"New South Wales State Heritage Register\"@en", "class=HistoricPlace" ],
+    "2" : [ "pair=\"Queensland Heritage Register\"@en", "MaxConf=1.0", "triple=e_dbp:designation \"Queensland Heritage Register\"@en", "class=HistoricPlace" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "heritage-listed",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"2018-06-02\"^^<http://www.w3.org/2001/XMLSchema#date>", "MaxConf=1.0", "triple=e_dbp:accessdate \"2018-06-02\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=HistoricPlace" ],
+    "1" : [ "pair=\"2018-06-01\"^^<http://www.w3.org/2001/XMLSchema#date>", "MaxConf=1.0", "triple=e_dbp:accessdate \"2018-06-01\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=HistoricPlace" ],
+    "2" : [ "pair=\"2018-10-13\"^^<http://www.w3.org/2001/XMLSchema#date>", "MaxConf=1.0", "triple=e_dbp:accessdate \"2018-10-13\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=HistoricPlace" ],
+    "3" : [ "pair=\"New South Wales State Heritage Register\"@en", "MaxConf=1.0", "triple=e_dbp:designation \"New South Wales State Heritage Register\"@en", "class=HistoricPlace" ],
+    "4" : [ "pair=\"Queensland Heritage Register\"@en", "MaxConf=1.0", "triple=e_dbp:designation \"Queensland Heritage Register\"@en", "class=HistoricPlace" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "heritage-listed\u001Cformer",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"2018-06-02\"^^<http://www.w3.org/2001/XMLSchema#date>", "MaxConf=1.0", "triple=e_dbp:accessdate \"2018-06-02\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=HistoricPlace" ],
+    "1" : [ "pair=\"New South Wales State Heritage Register\"@en", "MaxConf=1.0", "triple=e_dbp:designation \"New South Wales State Heritage Register\"@en", "class=HistoricPlace" ],
+    "2" : [ "pair=\"Queensland Heritage Register\"@en", "MaxConf=1.0", "triple=e_dbp:designation \"Queensland Heritage Register\"@en", "class=HistoricPlace" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "heritage-listed former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"2018-06-02\"^^<http://www.w3.org/2001/XMLSchema#date>", "MaxConf=1.0", "triple=e_dbp:accessdate \"2018-06-02\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=HistoricPlace" ],
+    "1" : [ "pair=\"New South Wales State Heritage Register\"@en", "MaxConf=1.0", "triple=e_dbp:designation \"New South Wales State Heritage Register\"@en", "class=HistoricPlace" ],
+    "2" : [ "pair=\"Queensland Heritage Register\"@en", "MaxConf=1.0", "triple=e_dbp:designation \"Queensland Heritage Register\"@en", "class=HistoricPlace" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "inner",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"New South Wales State Heritage Register\"@en", "MaxConf=1.0", "triple=e_dbp:designation \"New South Wales State Heritage Register\"@en", "class=HistoricPlace" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "local",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"New South Wales State Heritage Register\"@en", "MaxConf=1.0", "triple=e_dbp:designation \"New South Wales State Heritage Register\"@en", "class=HistoricPlace" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"National Monument of Ireland\"@en", "MaxConf=1.0", "triple=e_dbp:designation \"National Monument of Ireland\"@en", "class=HistoricPlace" ],
+    "1" : [ "pair=\"New South Wales State Heritage Register\"@en", "MaxConf=1.0", "triple=e_dbp:designation \"New South Wales State Heritage Register\"@en", "class=HistoricPlace" ]
+  }
+} ]

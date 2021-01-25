@@ -1,0 +1,38 @@
+[ {
+  "id" : 24,
+  "pattern" : "began",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Cypriot_Cup", "Cosine=0.993", "triple=e_dbp:title dbr:Cypriot_Cup", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "concluded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Cypriot_Cup", "Cosine=0.993", "triple=e_dbp:title dbr:Cypriot_Cup", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 125,
+  "pattern" : "held",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Cypriot_Cup", "Cosine=1.0", "triple=e_dbp:title dbr:Cypriot_Cup", "class=SoccerTournament" ],
+    "1" : [ "pair=\"Torneo Mondiale di Calcio Coppa Carnevale\"@en", "Cosine=1.0", "triple=e_dbp:tourneyName \"Torneo Mondiale di Calcio Coppa Carnevale\"@en", "class=SoccerTournament" ],
+    "2" : [ "pair=\"Viareggio\"@en", "Cosine=1.0", "triple=e_dbp:city \"Viareggio\"@en", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 148,
+  "pattern" : "listed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Torneo Mondiale di Calcio Coppa Carnevale\"@en", "Cosine=1.0", "triple=e_dbp:tourneyName \"Torneo Mondiale di Calcio Coppa Carnevale\"@en", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 224,
+  "pattern" : "won",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"--08-23\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Cosine=0.991", "triple=e_dbp:stadium \"--08-23\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=SoccerTournament" ]
+  }
+} ]

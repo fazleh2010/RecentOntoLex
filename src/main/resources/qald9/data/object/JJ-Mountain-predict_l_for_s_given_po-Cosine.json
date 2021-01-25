@@ -1,0 +1,25 @@
+[ {
+  "id" : 14,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:British_Columbia", "Cosine=1.0", "triple=e_dbo:region dbr:British_Columbia", "class=Mountain" ],
+    "1" : [ "pair=\"Location in Alberta and British Columbia\"@en", "Cosine=0.992", "triple=e_dbp:mapCaption \"Location in Alberta and British Columbia\"@en", "class=Mountain" ],
+    "2" : [ "pair=\"British Columbia\"@en", "Cosine=0.99", "triple=e_dbp:region \"British Columbia\"@en", "class=Mountain" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "highest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_elevation_extremes_by_country", "Cosine=0.982", "triple=e_dbp:listing dbr:List_of_elevation_extremes_by_country", "class=Mountain" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Location in Alberta and British Columbia\"@en", "Cosine=0.992", "triple=e_dbp:mapCaption \"Location in Alberta and British Columbia\"@en", "class=Mountain" ],
+    "1" : [ "pair=dbr:New_York_(state", "Cosine=0.984", "triple=e_dbo:locatedInArea dbr:New_York_(state", "class=Mountain" ]
+  }
+} ]

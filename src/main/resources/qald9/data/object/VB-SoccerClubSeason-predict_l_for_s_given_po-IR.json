@@ -1,0 +1,30 @@
+[ {
+  "id" : 16,
+  "pattern" : "competed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"W\"@en", "IR=0.991", "triple=e_dbp:result \"W\"@en", "class=SoccerClubSeason" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "participated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"L\"@en", "IR=0.991", "triple=e_dbp:result \"L\"@en", "class=SoccerClubSeason" ],
+    "1" : [ "pair=\"W\"@en", "IR=0.991", "triple=e_dbp:result \"W\"@en", "class=SoccerClubSeason" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "played",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"L\"@en", "IR=0.991", "triple=e_dbp:result \"L\"@en", "class=SoccerClubSeason" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "relegated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"W\"@en", "IR=0.991", "triple=e_dbp:result \"W\"@en", "class=SoccerClubSeason" ]
+  }
+} ]

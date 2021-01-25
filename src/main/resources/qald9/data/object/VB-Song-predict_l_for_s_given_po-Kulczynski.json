@@ -1,0 +1,70 @@
+[ {
+  "id" : 34,
+  "pattern" : "reached",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Country_music", "Kulczynski=0.533", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "recorded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Country_music", "Kulczynski=0.556", "triple=e_dbo:genre dbr:Country_music", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "Kulczynski=0.523", "triple=e_dbp:producer \"\"@en", "class=Song" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "released",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"true\"@en", "Kulczynski=0.574", "triple=e_dbp:streaming \"true\"@en", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "Kulczynski=0.568", "triple=e_dbp:producer \"\"@en", "class=Song" ],
+    "2" : [ "pair=\"United Kingdom\"@en", "Kulczynski=0.567", "triple=e_dbp:region \"United Kingdom\"@en", "class=Song" ],
+    "3" : [ "pair=\"Gold\"@en", "Kulczynski=0.566", "triple=e_dbp:award \"Gold\"@en", "class=Song" ],
+    "4" : [ "pair=\"Australia\"@en", "Kulczynski=0.566", "triple=e_dbp:region \"Australia\"@en", "class=Song" ],
+    "5" : [ "pair=dbr:Pop_rock", "Kulczynski=0.564", "triple=e_dbp:genre dbr:Pop_rock", "class=Song" ],
+    "6" : [ "pair=dbr:CD_single", "Kulczynski=0.561", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
+    "7" : [ "pair=\"United States\"@en", "Kulczynski=0.56", "triple=e_dbp:region \"United States\"@en", "class=Song" ],
+    "8" : [ "pair=\"yes\"@en", "Kulczynski=0.559", "triple=e_dbp:border \"yes\"@en", "class=Song" ],
+    "9" : [ "pair=dbr:Country_music", "Kulczynski=0.558", "triple=e_dbo:genre dbr:Country_music", "class=Song" ],
+    "10" : [ "pair=dbr:Music_download", "Kulczynski=0.558", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
+    "11" : [ "pair=\"Platinum\"@en", "Kulczynski=0.556", "triple=e_dbp:award \"Platinum\"@en", "class=Song" ],
+    "12" : [ "pair=dbr:Contemporary_R&B", "Kulczynski=0.555", "triple=e_dbo:genre dbr:Contemporary_R&B", "class=Song" ],
+    "13" : [ "pair=\"single\"@en", "Kulczynski=0.555", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "14" : [ "pair=dbr:Alternative_rock", "Kulczynski=0.554", "triple=e_dbo:genre dbr:Alternative_rock", "class=Song" ],
+    "15" : [ "pair=\"12.0\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.552", "triple=e_dbp:format \"12.0\"^^<http://dbpedia.org/datatype/second>", "class=Song" ],
+    "16" : [ "pair=dbr:Single_(music", "Kulczynski=0.551", "triple=e_dbo:type dbr:Single_(music", "class=Song" ],
+    "17" : [ "pair=\"7.0\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.551", "triple=e_dbp:format \"7.0\"^^<http://dbpedia.org/datatype/second>", "class=Song" ],
+    "18" : [ "pair=dbr:Pop_music", "Kulczynski=0.55", "triple=e_dbp:genre dbr:Pop_music", "class=Song" ],
+    "19" : [ "pair=dbr:Columbia_Records", "Kulczynski=0.549", "triple=e_dbo:recordLabel dbr:Columbia_Records", "class=Song" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "released\u001Cin",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Country_music", "Kulczynski=0.543", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "tracks",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Country_music", "Kulczynski=0.531", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "written",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Country_music", "Kulczynski=0.554", "triple=e_dbo:genre dbr:Country_music", "class=Song" ],
+    "1" : [ "pair=\"Gold\"@en", "Kulczynski=0.532", "triple=e_dbp:award \"Gold\"@en", "class=Song" ],
+    "2" : [ "pair=\"\"@en", "Kulczynski=0.532", "triple=e_dbp:producer \"\"@en", "class=Song" ],
+    "3" : [ "pair=\"yes\"@en", "Kulczynski=0.531", "triple=e_dbp:border \"yes\"@en", "class=Song" ],
+    "4" : [ "pair=dbr:Pop_music", "Kulczynski=0.531", "triple=e_dbp:genre dbr:Pop_music", "class=Song" ],
+    "5" : [ "pair=\"single\"@en", "Kulczynski=0.527", "triple=e_dbp:type \"single\"@en", "class=Song" ],
+    "6" : [ "pair=dbr:CD_single", "Kulczynski=0.525", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
+    "7" : [ "pair=dbr:Music_download", "Kulczynski=0.525", "triple=e_dbp:format dbr:Music_download", "class=Song" ]
+  }
+} ]

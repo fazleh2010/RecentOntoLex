@@ -1,0 +1,23 @@
+[ {
+  "id" : 13,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Italy", "Kulczynski=0.953", "triple=e_dbo:nationality dbr:Italy", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"ja\"@en", "Kulczynski=0.974", "triple=e_dbp:nativeNameLang \"ja\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:J-pop", "Kulczynski=0.932", "triple=e_dbp:genre dbr:J-pop", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "norwegian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Norway", "Kulczynski=0.965", "triple=e_dbo:hometown dbr:Norway", "class=MusicalArtist" ]
+  }
+} ]

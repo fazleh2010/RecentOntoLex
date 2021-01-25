@@ -1,0 +1,121 @@
+[ {
+  "id" : 5,
+  "pattern" : "amateur",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"AeroCrafter\"@en", "Coherence=0.493", "triple=e_dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ],
+    "1" : [ "pair=dbr:Amateur-built_aircraft", "Coherence=0.484", "triple=e_dbo:type dbr:Amateur-built_aircraft", "class=Aircraft" ],
+    "2" : [ "pair=\"four cylinder", "Coherence=0.45", "triple=e_dbp:eng1Type \"four cylinder", "class=Aircraft" ],
+    "3" : [ "pair=\"Plans available\"@en", "Coherence=0.435", "triple=e_dbp:status \"Plans available\"@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "available",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"AeroCrafter\"@en", "Coherence=0.451", "triple=e_dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ],
+    "1" : [ "pair=dbr:Paramotor", "Coherence=0.431", "triple=e_dbo:type dbr:Paramotor", "class=Aircraft" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "available\u001Cthe",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"AeroCrafter\"@en", "Coherence=0.434", "triple=e_dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Royal_Air_Force", "Coherence=0.443", "triple=e_dbp:primaryUser dbr:Royal_Air_Force", "class=Aircraft" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Canada", "Coherence=0.44", "triple=e_dbp:nationalOrigin dbr:Canada", "class=Aircraft" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:China", "Coherence=0.494", "triple=e_dbp:primaryUser dbr:China", "class=Aircraft" ],
+    "1" : [ "pair=dbr:UAV", "Coherence=0.485", "triple=e_dbo:type dbr:UAV", "class=Aircraft" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "complete",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Paramotor", "Coherence=0.453", "triple=e_dbo:type dbr:Paramotor", "class=Aircraft" ],
+    "1" : [ "pair=\"four cylinder", "Coherence=0.447", "triple=e_dbp:eng1Type \"four cylinder", "class=Aircraft" ],
+    "2" : [ "pair=\"472.5\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.446", "triple=e_dbp:grossWeightKg \"472.5\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Aircraft" ],
+    "3" : [ "pair=\"Bayerl\"@en", "Coherence=0.43", "triple=e_dbp:ref \"Bayerl\"@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:French_Air_and_Space_Force", "Coherence=0.446", "triple=e_dbp:primaryUser dbr:French_Air_and_Space_Force", "class=Aircraft" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "high-wing",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Hang_gliding", "Coherence=0.496", "triple=e_dbp:type dbr:Hang_gliding", "class=Aircraft" ],
+    "1" : [ "pair=dbr:Hang_glider", "Coherence=0.495", "triple=e_dbo:type dbr:Hang_glider", "class=Aircraft" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Russia", "Coherence=0.428", "triple=e_dbo:origin dbr:Russia", "class=Aircraft" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "short",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Short_Brothers", "Coherence=0.49", "triple=e_dbp:manufacturer dbr:Short_Brothers", "class=Aircraft" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "single-place",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"-2000.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.461", "triple=e_dbp:produced \"-2000.0\"^^<http://dbpedia.org/datatype/second>", "class=Aircraft" ],
+    "1" : [ "pair=dbr:Paragliding", "Coherence=0.457", "triple=e_dbp:type dbr:Paragliding", "class=Aircraft" ],
+    "2" : [ "pair=dbr:Paraglider", "Coherence=0.457", "triple=e_dbo:type dbr:Paraglider", "class=Aircraft" ],
+    "3" : [ "pair=dbr:Hang_gliding", "Coherence=0.452", "triple=e_dbp:type dbr:Hang_gliding", "class=Aircraft" ],
+    "4" : [ "pair=dbr:Hang_glider", "Coherence=0.451", "triple=e_dbo:type dbr:Hang_glider", "class=Aircraft" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "soviet",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Soviet_Air_Forces", "Coherence=0.474", "triple=e_dbp:primaryUser dbr:Soviet_Air_Forces", "class=Aircraft" ],
+    "1" : [ "pair=dbr:Soviet_Union", "Coherence=0.458", "triple=e_dbo:origin dbr:Soviet_Union", "class=Aircraft" ],
+    "2" : [ "pair=\"Soviet Union\"@en", "Coherence=0.452", "triple=e_dbp:nationalOrigin \"Soviet Union\"@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "supplied complete",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Paramotor", "Coherence=0.446", "triple=e_dbo:type dbr:Paramotor", "class=Aircraft" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "supplied complete and\u001Cready-to-fly",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Paramotor", "Coherence=0.446", "triple=e_dbo:type dbr:Paramotor", "class=Aircraft" ]
+  }
+} ]

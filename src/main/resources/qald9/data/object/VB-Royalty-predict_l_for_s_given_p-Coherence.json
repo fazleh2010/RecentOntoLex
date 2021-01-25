@@ -1,0 +1,36 @@
+[ {
+  "id" : 3,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.341", "triple=e_dbp:royalName o", "class=Royalty" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "died",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.255", "triple=e_dbp:c o", "class=Royalty" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.271", "triple=e_dbp:align o", "class=Royalty" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "reigned",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.216", "triple=e_dbp:eraDates o", "class=Royalty" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "simplified",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.229", "triple=e_dbp:s o", "class=Royalty" ]
+  }
+} ]

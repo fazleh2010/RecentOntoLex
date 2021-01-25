@@ -1,0 +1,78 @@
+[ {
+  "id" : 1,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.319", "triple=e_dbo:budget o", "class=Film" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "cartoon",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.412", "triple=e_dbp:animator o", "class=Film" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "documentary",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.305", "triple=e_dbo:narrator o", "class=Film" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "film",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.5", "triple=e_dbp:allMusic o", "class=Film" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "film directed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.431", "triple=e_dbp:nativeName o", "class=Film" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "lead",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.369", "triple=e_dbp:lyrics o", "class=Film" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "lead roles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.327", "triple=e_dbp:lyrics o", "class=Film" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "pinyin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.471", "triple=e_dbp:p o", "class=Film" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "roles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.389", "triple=e_dbp:lyrics o", "class=Film" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "short",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.456", "triple=e_dbp:animator o", "class=Film" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "stars",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.322", "triple=e_dbp:prevYear o", "class=Film" ]
+  }
+} ]

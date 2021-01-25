@@ -1,0 +1,61 @@
+[ {
+  "id" : 6,
+  "pattern" : "chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Taiwan", "Cosine=1.0", "triple=e_dbp:location dbr:Taiwan", "class=Building" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "historic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Utah\"@en", "Cosine=1.0", "triple=e_dbp:locmapin \"Utah\"@en", "class=Building" ],
+    "1" : [ "pair=\"c.\"@en", "Cosine=0.984", "triple=e_dbp:built \"c.\"@en", "class=Building" ],
+    "2" : [ "pair=\"Maine#USA\"@en", "Cosine=0.982", "triple=e_dbp:locmapin \"Maine#USA\"@en", "class=Building" ],
+    "3" : [ "pair=\"North Dakota#USA\"@en", "Cosine=0.979", "triple=e_dbp:locmapin \"North Dakota#USA\"@en", "class=Building" ],
+    "4" : [ "pair=\"Delaware#USA\"@en", "Cosine=0.973", "triple=e_dbp:locmapin \"Delaware#USA\"@en", "class=Building" ],
+    "5" : [ "pair=\"North Carolina#USA\"@en", "Cosine=0.97", "triple=e_dbp:locmapin \"North Carolina#USA\"@en", "class=Building" ],
+    "6" : [ "pair=\"lightgreen\"@en", "Cosine=0.96", "triple=e_dbp:designatedOther1Color \"lightgreen\"@en", "class=Building" ],
+    "7" : [ "pair=\"Portland Historic Landmark\"@en", "Cosine=0.959", "triple=e_dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=Building" ],
+    "8" : [ "pair=\"Indiana#USA\"@en", "Cosine=0.951", "triple=e_dbp:locmapin \"Indiana#USA\"@en", "class=Building" ],
+    "9" : [ "pair=\"Pennsylvania#USA\"@en", "Cosine=0.942", "triple=e_dbp:locmapin \"Pennsylvania#USA\"@en", "class=Building" ],
+    "10" : [ "pair=\"Georgian\"@en", "Cosine=0.939", "triple=e_dbp:architecture \"Georgian\"@en", "class=Building" ],
+    "11" : [ "pair=\"Florida#USA\"@en", "Cosine=0.939", "triple=e_dbp:locmapin \"Florida#USA\"@en", "class=Building" ],
+    "12" : [ "pair=dbr:Portland", "Cosine=0.937", "triple=e_dbo:location dbr:Portland", "class=Building" ],
+    "13" : [ "pair=\"Connecticut#USA\"@en", "Cosine=0.937", "triple=e_dbp:locmapin \"Connecticut#USA\"@en", "class=Building" ],
+    "14" : [ "pair=\"Virginia#USA\"@en", "Cosine=0.933", "triple=e_dbp:locmapin \"Virginia#USA\"@en", "class=Building" ],
+    "15" : [ "pair=\"New York#USA\"@en", "Cosine=0.928", "triple=e_dbp:locmapin \"New York#USA\"@en", "class=Building" ],
+    "16" : [ "pair=\"Massachusetts#USA\"@en", "Cosine=0.928", "triple=e_dbp:locmapin \"Massachusetts#USA\"@en", "class=Building" ],
+    "17" : [ "pair=\"Missouri#USA\"@en", "Cosine=0.927", "triple=e_dbp:locmapin \"Missouri#USA\"@en", "class=Building" ],
+    "18" : [ "pair=\"Federal\"@en", "Cosine=0.926", "triple=e_dbp:architecture \"Federal\"@en", "class=Building" ],
+    "19" : [ "pair=dbr:Federal_architecture", "Cosine=0.921", "triple=e_dbo:architecturalStyle dbr:Federal_architecture", "class=Building" ],
+    "20" : [ "pair=dbr:Classical_Revival_architecture", "Cosine=0.917", "triple=e_dbo:architecturalStyle dbr:Classical_Revival_architecture", "class=Building" ],
+    "21" : [ "pair=\"Wisconsin#USA\"@en", "Cosine=0.917", "triple=e_dbp:locmapin \"Wisconsin#USA\"@en", "class=Building" ],
+    "22" : [ "pair=\"Alabama#USA\"@en", "Cosine=0.916", "triple=e_dbp:locmapin \"Alabama#USA\"@en", "class=Building" ],
+    "23" : [ "pair=\"Virginia Landmarks Register\"@en", "Cosine=0.916", "triple=e_dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=Building" ],
+    "24" : [ "pair=\"West Virginia#USA\"@en", "Cosine=0.915", "triple=e_dbp:locmapin \"West Virginia#USA\"@en", "class=Building" ],
+    "25" : [ "pair=\"New Jersey Register of Historic Places\"@en", "Cosine=0.914", "triple=e_dbp:designatedOther1Link \"New Jersey Register of Historic Places\"@en", "class=Building" ],
+    "26" : [ "pair=\"#ffc94b\"@en", "Cosine=0.912", "triple=e_dbp:designatedOther1Color \"#ffc94b\"@en", "class=Building" ],
+    "27" : [ "pair=\"Late Gothic Revival\"@en", "Cosine=0.911", "triple=e_dbp:architecture \"Late Gothic Revival\"@en", "class=Building" ],
+    "28" : [ "pair=\"NJRHP\"@en", "Cosine=0.91", "triple=e_dbp:designatedOther1Abbr \"NJRHP\"@en", "class=Building" ],
+    "29" : [ "pair=\"Iowa#USA\"@en", "Cosine=0.91", "triple=e_dbp:locmapin \"Iowa#USA\"@en", "class=Building" ],
+    "30" : [ "pair=\"Greek Revival\"@en", "Cosine=0.909", "triple=e_dbp:architecture \"Greek Revival\"@en", "class=Building" ],
+    "31" : [ "pair=\"1840\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.904", "triple=e_dbo:yearOfConstruction \"1840\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Building" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Iowa#USA\"@en", "Cosine=0.97", "triple=e_dbp:locmapin \"Iowa#USA\"@en", "class=Building" ],
+    "1" : [ "pair=\"North Carolina#USA\"@en", "Cosine=0.957", "triple=e_dbp:locmapin \"North Carolina#USA\"@en", "class=Building" ],
+    "2" : [ "pair=\"Indiana#USA\"@en", "Cosine=0.943", "triple=e_dbp:locmapin \"Indiana#USA\"@en", "class=Building" ],
+    "3" : [ "pair=\"West Virginia#USA\"@en", "Cosine=0.924", "triple=e_dbp:locmapin \"West Virginia#USA\"@en", "class=Building" ],
+    "4" : [ "pair=\"c.\"@en", "Cosine=0.924", "triple=e_dbp:built \"c.\"@en", "class=Building" ],
+    "5" : [ "pair=\"New York#USA\"@en", "Cosine=0.921", "triple=e_dbp:locmapin \"New York#USA\"@en", "class=Building" ],
+    "6" : [ "pair=dbr:Florida", "Cosine=0.914", "triple=e_dbo:location dbr:Florida", "class=Building" ],
+    "7" : [ "pair=\"Virginia Landmarks Register\"@en", "Cosine=0.903", "triple=e_dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=Building" ],
+    "8" : [ "pair=\"Missouri#USA\"@en", "Cosine=0.902", "triple=e_dbp:locmapin \"Missouri#USA\"@en", "class=Building" ]
+  }
+} ]

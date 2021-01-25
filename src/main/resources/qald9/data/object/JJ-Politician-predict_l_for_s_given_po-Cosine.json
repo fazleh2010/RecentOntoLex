@@ -35,18 +35,19 @@
     "1" : [ "pair=dbr:Communist_Party_of_China", "Cosine=0.983", "triple=e_dbo:party dbr:Communist_Party_of_China", "class=Politician" ]
   }
 }, {
-  "id" : 21,
-  "pattern" : "conservative",
-  "partsOfSpeech" : "JJ",
-  "index" : {
-    "0" : [ "pair=dbr:Conservative_Party_(UK", "Cosine=0.954", "triple=e_dbp:party dbr:Conservative_Party_(UK", "class=Politician" ]
-  }
-}, {
   "id" : 24,
   "pattern" : "french",
   "partsOfSpeech" : "JJ",
   "index" : {
     "0" : [ "pair=dbr:France", "Cosine=0.872", "triple=e_dbo:birthPlace dbr:France", "class=Politician" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Member of the Bundestag\"@en", "Cosine=1.0", "triple=e_dbp:office \"Member of the Bundestag\"@en", "class=Politician" ],
+    "1" : [ "pair=\"German\"@en", "Cosine=0.978", "triple=e_dbp:nationality \"German\"@en", "class=Politician" ]
   }
 }, {
   "id" : 34,
@@ -60,13 +61,6 @@
     "4" : [ "pair=dbr:Bharatiya_Janata_Party", "Cosine=0.86", "triple=e_dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ],
     "5" : [ "pair=dbr:British_India", "Cosine=0.823", "triple=e_dbo:birthPlace dbr:British_India", "class=Politician" ],
     "6" : [ "pair=dbr:Member_of_parliament", "Cosine=0.814", "triple=e_dbp:office dbr:Member_of_parliament", "class=Politician" ]
-  }
-}, {
-  "id" : 36,
-  "pattern" : "indian national",
-  "partsOfSpeech" : "JJ",
-  "index" : {
-    "0" : [ "pair=dbr:Indian_National_Congress", "Cosine=0.825", "triple=e_dbp:party dbr:Indian_National_Congress", "class=Politician" ]
   }
 }, {
   "id" : 39,
@@ -93,11 +87,18 @@
     "0" : [ "pair=dbr:Malay_styles_and_titles", "Cosine=0.863", "triple=e_dbp:honorificPrefix dbr:Malay_styles_and_titles", "class=Politician" ]
   }
 }, {
-  "id" : 64,
-  "pattern" : "national",
+  "id" : 68,
+  "pattern" : "pakistani",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Indian_National_Congress", "Cosine=0.833", "triple=e_dbp:party dbr:Indian_National_Congress", "class=Politician" ]
+    "0" : [ "pair=\"Pakistani\"@en", "Cosine=0.984", "triple=e_dbp:nationality \"Pakistani\"@en", "class=Politician" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "polish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Polish\"@en", "Cosine=0.99", "triple=e_dbp:nationality \"Polish\"@en", "class=Politician" ]
   }
 }, {
   "id" : 86,

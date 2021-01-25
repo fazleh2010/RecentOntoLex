@@ -1,0 +1,50 @@
+[ {
+  "id" : 6,
+  "pattern" : "based",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Featuring:\"@en", "Cosine=0.967", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Cosine=0.964", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Cosine=0.955", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Cosine=0.819", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "based on\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Cosine=0.911", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Cosine=0.909", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Cosine=0.774", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Short_story", "Cosine=0.884", "triple=e_dbp:genre dbr:Short_story", "class=Book" ],
+    "1" : [ "pair=\"Cover of first edition\"@en", "Cosine=0.868", "triple=e_dbp:caption \"Cover of first edition\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Fantasy_fiction", "Cosine=0.855", "triple=e_dbo:literaryGenre dbr:Fantasy_fiction", "class=Book" ],
+    "3" : [ "pair=\"Dust-jacket from the first edition\"@en", "Cosine=0.849", "triple=e_dbp:caption \"Dust-jacket from the first edition\"@en", "class=Book" ],
+    "4" : [ "pair=\"Canada\"@en", "Cosine=0.808", "triple=e_dbp:country \"Canada\"@en", "class=Book" ],
+    "5" : [ "pair=dbr:Mystery_fiction", "Cosine=0.787", "triple=e_dbo:literaryGenre dbr:Mystery_fiction", "class=Book" ],
+    "6" : [ "pair=dbr:Ace_Books", "Cosine=0.786", "triple=e_dbo:publisher dbr:Ace_Books", "class=Book" ],
+    "7" : [ "pair=dbr:Fantasy", "Cosine=0.777", "triple=e_dbp:genre dbr:Fantasy", "class=Book" ],
+    "8" : [ "pair=dbr:Detective_fiction", "Cosine=0.776", "triple=e_dbo:literaryGenre dbr:Detective_fiction", "class=Book" ],
+    "9" : [ "pair=dbr:Science_fiction", "Cosine=0.763", "triple=e_dbp:genre dbr:Science_fiction", "class=Book" ],
+    "10" : [ "pair=dbr:E-book", "Cosine=0.76", "triple=e_dbo:mediaType dbr:E-book", "class=Book" ],
+    "11" : [ "pair=\"German\"@en", "Cosine=0.758", "triple=e_dbp:language \"German\"@en", "class=Book" ],
+    "12" : [ "pair=dbr:Horror_fiction", "Cosine=0.754", "triple=e_dbo:literaryGenre dbr:Horror_fiction", "class=Book" ],
+    "13" : [ "pair=\"United Kingdom\"@en", "Cosine=0.754", "triple=e_dbp:country \"United Kingdom\"@en", "class=Book" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "written",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:BBC_Books", "Cosine=0.945", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Cosine=0.933", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=\"Doctor Who book:\"@en", "Cosine=0.905", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Cosine=0.769", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+  }
+} ]

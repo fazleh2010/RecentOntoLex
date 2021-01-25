@@ -1,0 +1,39 @@
+[ {
+  "id" : 13,
+  "pattern" : "awarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Victoria_Cross", "Kulczynski=0.969", "triple=e_dbo:award dbr:Victoria_Cross", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "awarded\u001Cto",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Victoria_Cross", "Kulczynski=0.934", "triple=e_dbo:award dbr:Victoria_Cross", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "be\u001Cawarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Victoria_Cross", "Kulczynski=0.933", "triple=e_dbo:award dbr:Victoria_Cross", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "credited",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Aviation\"@en", "Kulczynski=0.963", "triple=e_dbp:branch \"Aviation\"@en", "class=MilitaryPerson" ],
+    "1" : [ "pair=\"Royal Air Force\"@en", "Kulczynski=0.938", "triple=e_dbp:branch \"Royal Air Force\"@en", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "flying",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Aviation\"@en", "Kulczynski=0.981", "triple=e_dbp:branch \"Aviation\"@en", "class=MilitaryPerson" ],
+    "1" : [ "pair=\"Western Front\"@en", "Kulczynski=0.94", "triple=e_dbp:battles \"Western Front\"@en", "class=MilitaryPerson" ],
+    "2" : [ "pair=\"Royal Air Force\"@en", "Kulczynski=0.938", "triple=e_dbp:branch \"Royal Air Force\"@en", "class=MilitaryPerson" ]
+  }
+} ]

@@ -1,0 +1,91 @@
+[ {
+  "id" : 3,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Melbourne", "Cosine=0.937", "triple=e_dbp:origin \"Melbourne", "class=Band" ],
+    "1" : [ "pair=dbr:Melbourne", "Cosine=0.818", "triple=e_dbo:hometown dbr:Melbourne", "class=Band" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "black",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Black_metal", "Cosine=0.816", "triple=e_dbo:genre dbr:Black_metal", "class=Band" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Toronto", "Cosine=0.928", "triple=e_dbp:origin \"Toronto", "class=Band" ],
+    "1" : [ "pair=dbr:Ontario", "Cosine=0.91", "triple=e_dbo:hometown dbr:Ontario", "class=Band" ],
+    "2" : [ "pair=dbr:Toronto", "Cosine=0.898", "triple=e_dbo:hometown dbr:Toronto", "class=Band" ],
+    "3" : [ "pair=dbr:Quebec", "Cosine=0.877", "triple=e_dbo:hometown dbr:Quebec", "class=Band" ],
+    "4" : [ "pair=dbr:Canada", "Cosine=0.863", "triple=e_dbp:origin dbr:Canada", "class=Band" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "finnish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Finland", "Cosine=0.876", "triple=e_dbp:origin dbr:Finland", "class=Band" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:France", "Cosine=0.882", "triple=e_dbp:origin dbr:France", "class=Band" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Germany", "Cosine=0.839", "triple=e_dbp:origin dbr:Germany", "class=Band" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Italy", "Cosine=0.939", "triple=e_dbp:origin dbr:Italy", "class=Band" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Japan\"@en", "Cosine=0.948", "triple=e_dbp:origin \"Japan\"@en", "class=Band" ],
+    "1" : [ "pair=dbr:Tokyo", "Cosine=0.928", "triple=e_dbo:hometown dbr:Tokyo", "class=Band" ],
+    "2" : [ "pair=dbr:Japan", "Cosine=0.924", "triple=e_dbo:hometown dbr:Japan", "class=Band" ],
+    "3" : [ "pair=dbr:J-pop", "Cosine=0.886", "triple=e_dbo:genre dbr:J-pop", "class=Band" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "korean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:South_Korea", "Cosine=0.974", "triple=e_dbp:origin dbr:South_Korea", "class=Band" ],
+    "1" : [ "pair=dbr:K-pop", "Cosine=0.952", "triple=e_dbp:genre dbr:K-pop", "class=Band" ],
+    "2" : [ "pair=dbr:Seoul", "Cosine=0.942", "triple=e_dbo:hometown dbr:Seoul", "class=Band" ],
+    "3" : [ "pair=\"Seoul", "Cosine=0.939", "triple=e_dbp:origin \"Seoul", "class=Band" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "norwegian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Norway", "Cosine=0.867", "triple=e_dbp:origin dbr:Norway", "class=Band" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "south korean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Seoul", "Cosine=0.893", "triple=e_dbo:hometown dbr:Seoul", "class=Band" ],
+    "1" : [ "pair=dbr:K-pop", "Cosine=0.889", "triple=e_dbp:genre dbr:K-pop", "class=Band" ],
+    "2" : [ "pair=dbr:South_Korea", "Cosine=0.874", "triple=e_dbo:hometown dbr:South_Korea", "class=Band" ]
+  }
+} ]

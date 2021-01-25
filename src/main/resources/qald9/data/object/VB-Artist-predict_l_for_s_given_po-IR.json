@@ -1,0 +1,186 @@
+[ {
+  "id" : 4,
+  "pattern" : "also known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.971", "triple=e_dbp:field dbr:Painting", "class=Artist" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "associated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.964", "triple=e_dbo:field dbr:Painting", "class=Artist" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "based",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.974", "triple=e_dbo:field dbr:Painting", "class=Artist" ],
+    "1" : [ "pair=\"American\"@en", "IR=0.936", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "became",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "IR=0.964", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:Painting", "IR=0.96", "triple=e_dbp:field dbr:Painting", "class=Artist" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "best known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.972", "triple=e_dbp:field dbr:Painting", "class=Artist" ],
+    "1" : [ "pair=\"American\"@en", "IR=0.953", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
+    "2" : [ "pair=\"#6495ED\"@en", "IR=0.926", "triple=e_dbp:bgcolour \"#6495ED\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "best known\u001Cfor",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "IR=0.957", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "best known for\u001Cher",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "IR=0.963", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "best known for\u001Chis",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.966", "triple=e_dbp:field dbr:Painting", "class=Artist" ],
+    "1" : [ "pair=\"American\"@en", "IR=0.951", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "IR=0.958", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:Painting", "IR=0.95", "triple=e_dbp:field dbr:Painting", "class=Artist" ],
+    "2" : [ "pair=\"#6495ED\"@en", "IR=0.935", "triple=e_dbp:bgcolour \"#6495ED\"@en", "class=Artist" ],
+    "3" : [ "pair=dbr:United_States", "IR=0.918", "triple=e_dbo:nationality dbr:United_States", "class=Artist" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "considered",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.967", "triple=e_dbo:field dbr:Painting", "class=Artist" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "created",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "IR=0.956", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "died",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.964", "triple=e_dbo:field dbr:Painting", "class=Artist" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "exhibited",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.956", "triple=e_dbp:field dbr:Painting", "class=Artist" ],
+    "1" : [ "pair=\"American\"@en", "IR=0.953", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "including",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.952", "triple=e_dbp:field dbr:Painting", "class=Artist" ],
+    "1" : [ "pair=\"#6495ED\"@en", "IR=0.926", "triple=e_dbp:bgcolour \"#6495ED\"@en", "class=Artist" ],
+    "2" : [ "pair=dbr:United_States", "IR=0.92", "triple=e_dbo:nationality dbr:United_States", "class=Artist" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.971", "triple=e_dbp:field dbr:Painting", "class=Artist" ],
+    "1" : [ "pair=\"American\"@en", "IR=0.96", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
+    "2" : [ "pair=dbr:United_States", "IR=0.929", "triple=e_dbo:nationality dbr:United_States", "class=Artist" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "lived",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.972", "triple=e_dbo:field dbr:Painting", "class=Artist" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "lived worked",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.963", "triple=e_dbo:field dbr:Painting", "class=Artist" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "lived worked\u001Cin",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.966", "triple=e_dbo:field dbr:Painting", "class=Artist" ]
+  }
+}, {
+  "id" : 110,
+  "pattern" : "painted",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.951", "triple=e_dbp:field dbr:Painting", "class=Artist" ]
+  }
+}, {
+  "id" : 123,
+  "pattern" : "received",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "IR=0.955", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+  }
+}, {
+  "id" : 124,
+  "pattern" : "regarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.969", "triple=e_dbo:field dbr:Painting", "class=Artist" ]
+  }
+}, {
+  "id" : 139,
+  "pattern" : "studied",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "IR=0.953", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:Painting", "IR=0.943", "triple=e_dbo:field dbr:Painting", "class=Artist" ]
+  }
+}, {
+  "id" : 152,
+  "pattern" : "worked",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.965", "triple=e_dbo:field dbr:Painting", "class=Artist" ],
+    "1" : [ "pair=\"American\"@en", "IR=0.963", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
+    "2" : [ "pair=dbr:United_States", "IR=0.922", "triple=e_dbo:nationality dbr:United_States", "class=Artist" ]
+  }
+}, {
+  "id" : 153,
+  "pattern" : "working",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Painting", "IR=0.968", "triple=e_dbp:field dbr:Painting", "class=Artist" ],
+    "1" : [ "pair=\"American\"@en", "IR=0.96", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+  }
+} ]

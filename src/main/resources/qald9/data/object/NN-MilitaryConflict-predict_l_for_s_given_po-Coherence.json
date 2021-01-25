@@ -1,0 +1,480 @@
+[ {
+  "id" : 1,
+  "pattern" : "afghanistan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:War_in_Afghanistan_(2001âpresent", "Coherence=0.416", "triple=e_dbo:isPartOfMilitaryConflict dbr:War_in_Afghanistan_(2001âpresent", "class=MilitaryConflict" ],
+    "1" : [ "pair=dbr:Afghanistan", "Coherence=0.395", "triple=e_dbo:place dbr:Afghanistan", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"United States(Union", "Coherence=0.482", "triple=e_dbo:combatant \"United States(Union", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Confederatevictory\"", "Coherence=0.478", "triple=e_dbo:result \"Confederatevictory\"", "class=MilitaryConflict" ],
+    "2" : [ "pair=\"CSA (Confederacy", "Coherence=0.478", "triple=e_dbp:combatant \"CSA (Confederacy", "class=MilitaryConflict" ],
+    "3" : [ "pair=\"the Trans-Mississippi Theater of the\"@en", "Coherence=0.475", "triple=e_dbp:partof \"the Trans-Mississippi Theater of the\"@en", "class=MilitaryConflict" ],
+    "4" : [ "pair=\"the American Civil War\"@en", "Coherence=0.472", "triple=e_dbp:partof \"the American Civil War\"@en", "class=MilitaryConflict" ],
+    "5" : [ "pair=\"Confederate victory\"@en", "Coherence=0.471", "triple=e_dbp:result \"Confederate victory\"@en", "class=MilitaryConflict" ],
+    "6" : [ "pair=\"Union victory\"@en", "Coherence=0.469", "triple=e_dbp:result \"Union victory\"@en", "class=MilitaryConflict" ],
+    "7" : [ "pair=dbr:Trans-Mississippi_Theater_of_the_American_Civil_War", "Coherence=0.468", "triple=e_dbo:isPartOfMilitaryConflict dbr:Trans-Mississippi_Theater_of_the_American_Civil_War", "class=MilitaryConflict" ],
+    "8" : [ "pair=dbr:American_Civil_War", "Coherence=0.467", "triple=e_dbp:partof dbr:American_Civil_War", "class=MilitaryConflict" ],
+    "9" : [ "pair=\"Unionvictory\"", "Coherence=0.465", "triple=e_dbo:result \"Unionvictory\"", "class=MilitaryConflict" ],
+    "10" : [ "pair=\"the American Revolutionary War\"@en", "Coherence=0.462", "triple=e_dbp:partof \"the American Revolutionary War\"@en", "class=MilitaryConflict" ],
+    "11" : [ "pair=dbr:American_Revolutionary_War", "Coherence=0.459", "triple=e_dbo:isPartOfMilitaryConflict dbr:American_Revolutionary_War", "class=MilitaryConflict" ],
+    "12" : [ "pair=\"United States\"@en", "Coherence=0.407", "triple=e_dbp:combatant \"United States\"@en", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "american civil",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"United States(Union", "Coherence=0.482", "triple=e_dbo:combatant \"United States(Union", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Confederatevictory\"", "Coherence=0.478", "triple=e_dbo:result \"Confederatevictory\"", "class=MilitaryConflict" ],
+    "2" : [ "pair=\"CSA (Confederacy", "Coherence=0.478", "triple=e_dbp:combatant \"CSA (Confederacy", "class=MilitaryConflict" ],
+    "3" : [ "pair=\"the Trans-Mississippi Theater of the\"@en", "Coherence=0.475", "triple=e_dbp:partof \"the Trans-Mississippi Theater of the\"@en", "class=MilitaryConflict" ],
+    "4" : [ "pair=\"the American Civil War\"@en", "Coherence=0.472", "triple=e_dbp:partof \"the American Civil War\"@en", "class=MilitaryConflict" ],
+    "5" : [ "pair=\"Confederate victory\"@en", "Coherence=0.471", "triple=e_dbp:result \"Confederate victory\"@en", "class=MilitaryConflict" ],
+    "6" : [ "pair=\"Union victory\"@en", "Coherence=0.469", "triple=e_dbp:result \"Union victory\"@en", "class=MilitaryConflict" ],
+    "7" : [ "pair=dbr:Trans-Mississippi_Theater_of_the_American_Civil_War", "Coherence=0.468", "triple=e_dbo:isPartOfMilitaryConflict dbr:Trans-Mississippi_Theater_of_the_American_Civil_War", "class=MilitaryConflict" ],
+    "8" : [ "pair=dbr:American_Civil_War", "Coherence=0.465", "triple=e_dbo:isPartOfMilitaryConflict dbr:American_Civil_War", "class=MilitaryConflict" ],
+    "9" : [ "pair=\"Unionvictory\"", "Coherence=0.465", "triple=e_dbo:result \"Unionvictory\"", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "american civil\u001Cwar",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"United States(Union", "Coherence=0.468", "triple=e_dbo:combatant \"United States(Union", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Confederatevictory\"", "Coherence=0.467", "triple=e_dbo:result \"Confederatevictory\"", "class=MilitaryConflict" ],
+    "2" : [ "pair=\"CSA (Confederacy", "Coherence=0.463", "triple=e_dbp:combatant \"CSA (Confederacy", "class=MilitaryConflict" ],
+    "3" : [ "pair=\"Confederate victory\"@en", "Coherence=0.459", "triple=e_dbp:result \"Confederate victory\"@en", "class=MilitaryConflict" ],
+    "4" : [ "pair=\"the Trans-Mississippi Theater of the\"@en", "Coherence=0.457", "triple=e_dbp:partof \"the Trans-Mississippi Theater of the\"@en", "class=MilitaryConflict" ],
+    "5" : [ "pair=\"the American Civil War\"@en", "Coherence=0.455", "triple=e_dbp:partof \"the American Civil War\"@en", "class=MilitaryConflict" ],
+    "6" : [ "pair=\"Union victory\"@en", "Coherence=0.455", "triple=e_dbp:result \"Union victory\"@en", "class=MilitaryConflict" ],
+    "7" : [ "pair=dbr:American_Civil_War", "Coherence=0.451", "triple=e_dbp:partof dbr:American_Civil_War", "class=MilitaryConflict" ],
+    "8" : [ "pair=dbr:Trans-Mississippi_Theater_of_the_American_Civil_War", "Coherence=0.45", "triple=e_dbo:isPartOfMilitaryConflict dbr:Trans-Mississippi_Theater_of_the_American_Civil_War", "class=MilitaryConflict" ],
+    "9" : [ "pair=\"Unionvictory\"", "Coherence=0.448", "triple=e_dbo:result \"Unionvictory\"", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "american civil war",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"United States(Union", "Coherence=0.481", "triple=e_dbo:combatant \"United States(Union", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Confederatevictory\"", "Coherence=0.478", "triple=e_dbo:result \"Confederatevictory\"", "class=MilitaryConflict" ],
+    "2" : [ "pair=\"CSA (Confederacy", "Coherence=0.476", "triple=e_dbp:combatant \"CSA (Confederacy", "class=MilitaryConflict" ],
+    "3" : [ "pair=\"the Trans-Mississippi Theater of the\"@en", "Coherence=0.475", "triple=e_dbp:partof \"the Trans-Mississippi Theater of the\"@en", "class=MilitaryConflict" ],
+    "4" : [ "pair=\"Confederate victory\"@en", "Coherence=0.471", "triple=e_dbp:result \"Confederate victory\"@en", "class=MilitaryConflict" ],
+    "5" : [ "pair=\"the American Civil War\"@en", "Coherence=0.471", "triple=e_dbp:partof \"the American Civil War\"@en", "class=MilitaryConflict" ],
+    "6" : [ "pair=\"Union victory\"@en", "Coherence=0.469", "triple=e_dbp:result \"Union victory\"@en", "class=MilitaryConflict" ],
+    "7" : [ "pair=dbr:Trans-Mississippi_Theater_of_the_American_Civil_War", "Coherence=0.468", "triple=e_dbo:isPartOfMilitaryConflict dbr:Trans-Mississippi_Theater_of_the_American_Civil_War", "class=MilitaryConflict" ],
+    "8" : [ "pair=\"Unionvictory\"", "Coherence=0.465", "triple=e_dbo:result \"Unionvictory\"", "class=MilitaryConflict" ],
+    "9" : [ "pair=dbr:American_Civil_War", "Coherence=0.464", "triple=e_dbo:isPartOfMilitaryConflict dbr:American_Civil_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "american revolutionary",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"the American Revolutionary War\"@en", "Coherence=0.42", "triple=e_dbp:partof \"the American Revolutionary War\"@en", "class=MilitaryConflict" ],
+    "1" : [ "pair=dbr:American_Revolutionary_War", "Coherence=0.418", "triple=e_dbo:isPartOfMilitaryConflict dbr:American_Revolutionary_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "american revolutionary\u001Cwar",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"the American Revolutionary War\"@en", "Coherence=0.403", "triple=e_dbp:partof \"the American Revolutionary War\"@en", "class=MilitaryConflict" ],
+    "1" : [ "pair=dbr:American_Revolutionary_War", "Coherence=0.402", "triple=e_dbo:isPartOfMilitaryConflict dbr:American_Revolutionary_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "american revolutionary war",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"the American Revolutionary War\"@en", "Coherence=0.416", "triple=e_dbp:partof \"the American Revolutionary War\"@en", "class=MilitaryConflict" ],
+    "1" : [ "pair=dbr:American_Revolutionary_War", "Coherence=0.414", "triple=e_dbo:isPartOfMilitaryConflict dbr:American_Revolutionary_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "battle",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"CSA (Confederacy", "Coherence=0.476", "triple=e_dbp:combatant \"CSA (Confederacy", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"United States(Union", "Coherence=0.472", "triple=e_dbo:combatant \"United States(Union", "class=MilitaryConflict" ],
+    "2" : [ "pair=\"Confederatevictory\"", "Coherence=0.471", "triple=e_dbo:result \"Confederatevictory\"", "class=MilitaryConflict" ],
+    "3" : [ "pair=dbr:American_Civil_War", "Coherence=0.467", "triple=e_dbp:partof dbr:American_Civil_War", "class=MilitaryConflict" ],
+    "4" : [ "pair=\"the Trans-Mississippi Theater of the\"@en", "Coherence=0.466", "triple=e_dbp:partof \"the Trans-Mississippi Theater of the\"@en", "class=MilitaryConflict" ],
+    "5" : [ "pair=\"Unionvictory\"", "Coherence=0.463", "triple=e_dbo:result \"Unionvictory\"", "class=MilitaryConflict" ],
+    "6" : [ "pair=\"Union victory\"@en", "Coherence=0.461", "triple=e_dbp:result \"Union victory\"@en", "class=MilitaryConflict" ],
+    "7" : [ "pair=dbr:Trans-Mississippi_Theater_of_the_American_Civil_War", "Coherence=0.459", "triple=e_dbo:isPartOfMilitaryConflict dbr:Trans-Mississippi_Theater_of_the_American_Civil_War", "class=MilitaryConflict" ],
+    "8" : [ "pair=\"Confederate victory\"@en", "Coherence=0.456", "triple=e_dbp:result \"Confederate victory\"@en", "class=MilitaryConflict" ],
+    "9" : [ "pair=\"the American Civil War\"@en", "Coherence=0.45", "triple=e_dbp:partof \"the American Civil War\"@en", "class=MilitaryConflict" ],
+    "10" : [ "pair=dbr:Belgium", "Coherence=0.446", "triple=e_dbo:place dbr:Belgium", "class=MilitaryConflict" ],
+    "11" : [ "pair=\"Swedish victory\"@en", "Coherence=0.441", "triple=e_dbp:result \"Swedish victory\"@en", "class=MilitaryConflict" ],
+    "12" : [ "pair=dbr:Poland", "Coherence=0.44", "triple=e_dbo:place dbr:Poland", "class=MilitaryConflict" ],
+    "13" : [ "pair=dbr:Peninsular_War", "Coherence=0.418", "triple=e_dbo:isPartOfMilitaryConflict dbr:Peninsular_War", "class=MilitaryConflict" ],
+    "14" : [ "pair=dbr:Italy", "Coherence=0.416", "triple=e_dbo:place dbr:Italy", "class=MilitaryConflict" ],
+    "15" : [ "pair=dbr:France", "Coherence=0.414", "triple=e_dbp:place dbr:France", "class=MilitaryConflict" ],
+    "16" : [ "pair=\"4", "Coherence=0.411", "triple=e_dbo:strength \"4", "class=MilitaryConflict" ],
+    "17" : [ "pair=\"American victory\"@en", "Coherence=0.407", "triple=e_dbp:result \"American victory\"@en", "class=MilitaryConflict" ],
+    "18" : [ "pair=\"United States\"@en", "Coherence=0.403", "triple=e_dbp:combatant \"United States\"@en", "class=MilitaryConflict" ],
+    "19" : [ "pair=dbr:Spain", "Coherence=0.4", "triple=e_dbo:place dbr:Spain", "class=MilitaryConflict" ],
+    "20" : [ "pair=\"3", "Coherence=0.4", "triple=e_dbo:strength \"3", "class=MilitaryConflict" ],
+    "21" : [ "pair=\"30", "Coherence=0.398", "triple=e_dbo:strength \"30", "class=MilitaryConflict" ],
+    "22" : [ "pair=\"Heavy\"@en", "Coherence=0.396", "triple=e_dbp:casualties \"Heavy\"@en", "class=MilitaryConflict" ],
+    "23" : [ "pair=\"2", "Coherence=0.396", "triple=e_dbo:strength \"2", "class=MilitaryConflict" ],
+    "24" : [ "pair=\"Russian Empire\"@en", "Coherence=0.395", "triple=e_dbp:combatant \"Russian Empire\"@en", "class=MilitaryConflict" ],
+    "25" : [ "pair=\"French Empire\"@en", "Coherence=0.394", "triple=e_dbp:combatant \"French Empire\"@en", "class=MilitaryConflict" ],
+    "26" : [ "pair=\"5", "Coherence=0.394", "triple=e_dbo:strength \"5", "class=MilitaryConflict" ],
+    "27" : [ "pair=\"Inconclusive\"@en", "Coherence=0.392", "triple=e_dbp:result \"Inconclusive\"@en", "class=MilitaryConflict" ],
+    "28" : [ "pair=\"Roman victory\"", "Coherence=0.39", "triple=e_dbo:result \"Roman victory\"", "class=MilitaryConflict" ],
+    "29" : [ "pair=\"Roman victory\"@en", "Coherence=0.39", "triple=e_dbp:result \"Roman victory\"@en", "class=MilitaryConflict" ],
+    "30" : [ "pair=\"Russian Empire\"", "Coherence=0.39", "triple=e_dbo:combatant \"Russian Empire\"", "class=MilitaryConflict" ],
+    "31" : [ "pair=\"French Empire\"", "Coherence=0.388", "triple=e_dbo:combatant \"French Empire\"", "class=MilitaryConflict" ],
+    "32" : [ "pair=\"Royalists\"@en", "Coherence=0.388", "triple=e_dbp:combatant \"Royalists\"@en", "class=MilitaryConflict" ],
+    "33" : [ "pair=\"Inconclusive\"", "Coherence=0.387", "triple=e_dbo:result \"Inconclusive\"", "class=MilitaryConflict" ],
+    "34" : [ "pair=\"French victory\"", "Coherence=0.387", "triple=e_dbo:result \"French victory\"", "class=MilitaryConflict" ],
+    "35" : [ "pair=\"German victory\"@en", "Coherence=0.386", "triple=e_dbp:result \"German victory\"@en", "class=MilitaryConflict" ],
+    "36" : [ "pair=\"Royalists\"", "Coherence=0.385", "triple=e_dbo:combatant \"Royalists\"", "class=MilitaryConflict" ],
+    "37" : [ "pair=dbr:Germany", "Coherence=0.385", "triple=e_dbo:place dbr:Germany", "class=MilitaryConflict" ],
+    "38" : [ "pair=\"American victory\"", "Coherence=0.384", "triple=e_dbo:result \"American victory\"", "class=MilitaryConflict" ],
+    "39" : [ "pair=\"12", "Coherence=0.384", "triple=e_dbo:strength \"12", "class=MilitaryConflict" ],
+    "40" : [ "pair=\"French victory\"@en", "Coherence=0.384", "triple=e_dbp:result \"French victory\"@en", "class=MilitaryConflict" ],
+    "41" : [ "pair=\"Russian victory\"@en", "Coherence=0.383", "triple=e_dbp:result \"Russian victory\"@en", "class=MilitaryConflict" ],
+    "42" : [ "pair=\"yes\"@en", "Coherence=0.382", "triple=e_dbp:fixAttempted \"yes\"@en", "class=MilitaryConflict" ],
+    "43" : [ "pair=\"Light\"@en", "Coherence=0.382", "triple=e_dbp:casualties \"Light\"@en", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "chinese civil\u001Cwar",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Communistvictory\"", "Coherence=0.423", "triple=e_dbo:result \"Communistvictory\"", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Communist victory\"@en", "Coherence=0.416", "triple=e_dbp:result \"Communist victory\"@en", "class=MilitaryConflict" ],
+    "2" : [ "pair=dbr:Chinese_Civil_War", "Coherence=0.388", "triple=e_dbo:isPartOfMilitaryConflict dbr:Chinese_Civil_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "chinese civil war",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Communistvictory\"", "Coherence=0.451", "triple=e_dbo:result \"Communistvictory\"", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Communist victory\"@en", "Coherence=0.444", "triple=e_dbp:result \"Communist victory\"@en", "class=MilitaryConflict" ],
+    "2" : [ "pair=dbr:Chinese_Civil_War", "Coherence=0.411", "triple=e_dbo:isPartOfMilitaryConflict dbr:Chinese_Civil_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "civil war",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"United States(Union", "Coherence=0.481", "triple=e_dbo:combatant \"United States(Union", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Confederatevictory\"", "Coherence=0.478", "triple=e_dbo:result \"Confederatevictory\"", "class=MilitaryConflict" ],
+    "2" : [ "pair=\"CSA (Confederacy", "Coherence=0.476", "triple=e_dbp:combatant \"CSA (Confederacy", "class=MilitaryConflict" ],
+    "3" : [ "pair=\"the Trans-Mississippi Theater of the\"@en", "Coherence=0.475", "triple=e_dbp:partof \"the Trans-Mississippi Theater of the\"@en", "class=MilitaryConflict" ],
+    "4" : [ "pair=\"the American Civil War\"@en", "Coherence=0.472", "triple=e_dbp:partof \"the American Civil War\"@en", "class=MilitaryConflict" ],
+    "5" : [ "pair=\"Confederate victory\"@en", "Coherence=0.471", "triple=e_dbp:result \"Confederate victory\"@en", "class=MilitaryConflict" ],
+    "6" : [ "pair=\"Union victory\"@en", "Coherence=0.469", "triple=e_dbp:result \"Union victory\"@en", "class=MilitaryConflict" ],
+    "7" : [ "pair=dbr:Trans-Mississippi_Theater_of_the_American_Civil_War", "Coherence=0.468", "triple=e_dbo:isPartOfMilitaryConflict dbr:Trans-Mississippi_Theater_of_the_American_Civil_War", "class=MilitaryConflict" ],
+    "8" : [ "pair=dbr:American_Civil_War", "Coherence=0.465", "triple=e_dbo:isPartOfMilitaryConflict dbr:American_Civil_War", "class=MilitaryConflict" ],
+    "9" : [ "pair=\"Unionvictory\"", "Coherence=0.465", "triple=e_dbo:result \"Unionvictory\"", "class=MilitaryConflict" ],
+    "10" : [ "pair=\"Communistvictory\"", "Coherence=0.451", "triple=e_dbo:result \"Communistvictory\"", "class=MilitaryConflict" ],
+    "11" : [ "pair=\"Communist victory\"@en", "Coherence=0.444", "triple=e_dbp:result \"Communist victory\"@en", "class=MilitaryConflict" ],
+    "12" : [ "pair=dbr:Chinese_Civil_War", "Coherence=0.411", "triple=e_dbo:isPartOfMilitaryConflict dbr:Chinese_Civil_War", "class=MilitaryConflict" ],
+    "13" : [ "pair=\"Royalists\"@en", "Coherence=0.392", "triple=e_dbp:combatant \"Royalists\"@en", "class=MilitaryConflict" ],
+    "14" : [ "pair=\"Royalists\"", "Coherence=0.39", "triple=e_dbo:combatant \"Royalists\"", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "communist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Communistvictory\"", "Coherence=0.442", "triple=e_dbo:result \"Communistvictory\"", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Communist victory\"@en", "Coherence=0.435", "triple=e_dbp:result \"Communist victory\"@en", "class=MilitaryConflict" ],
+    "2" : [ "pair=dbr:Chinese_Civil_War", "Coherence=0.392", "triple=e_dbo:isPartOfMilitaryConflict dbr:Chinese_Civil_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "communists",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Communistvictory\"", "Coherence=0.451", "triple=e_dbo:result \"Communistvictory\"", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Communist victory\"@en", "Coherence=0.444", "triple=e_dbp:result \"Communist victory\"@en", "class=MilitaryConflict" ],
+    "2" : [ "pair=dbr:Chinese_Civil_War", "Coherence=0.407", "triple=e_dbo:isPartOfMilitaryConflict dbr:Chinese_Civil_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "dutch",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eighty_Years'_War", "Coherence=0.39", "triple=e_dbo:isPartOfMilitaryConflict dbr:Eighty_Years'_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "eighty",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eighty_Years'_War", "Coherence=0.465", "triple=e_dbo:isPartOfMilitaryConflict dbr:Eighty_Years'_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "eighty\u001Cyears",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eighty_Years'_War", "Coherence=0.395", "triple=e_dbo:isPartOfMilitaryConflict dbr:Eighty_Years'_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "eighty years",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eighty_Years'_War", "Coherence=0.458", "triple=e_dbo:isPartOfMilitaryConflict dbr:Eighty_Years'_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "english",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"English victory\"", "Coherence=0.454", "triple=e_dbo:result \"English victory\"", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Royalists\"@en", "Coherence=0.413", "triple=e_dbp:combatant \"Royalists\"@en", "class=MilitaryConflict" ],
+    "2" : [ "pair=\"Royalists\"", "Coherence=0.41", "triple=e_dbo:combatant \"Royalists\"", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "english civil",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Royalists\"@en", "Coherence=0.392", "triple=e_dbp:combatant \"Royalists\"@en", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Royalists\"", "Coherence=0.39", "triple=e_dbo:combatant \"Royalists\"", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "english civil war",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Royalists\"@en", "Coherence=0.388", "triple=e_dbp:combatant \"Royalists\"@en", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Royalists\"", "Coherence=0.385", "triple=e_dbo:combatant \"Royalists\"", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "french revolutionary",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:French_Revolutionary_Wars", "Coherence=0.414", "triple=e_dbo:isPartOfMilitaryConflict dbr:French_Revolutionary_Wars", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "french revolutionary\u001Cwars",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:French_Revolutionary_Wars", "Coherence=0.41", "triple=e_dbo:isPartOfMilitaryConflict dbr:French_Revolutionary_Wars", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "french revolutionary wars",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:French_Revolutionary_Wars", "Coherence=0.41", "triple=e_dbo:isPartOfMilitaryConflict dbr:French_Revolutionary_Wars", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "korean war",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Korean_War", "Coherence=0.475", "triple=e_dbo:isPartOfMilitaryConflict dbr:Korean_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "offensive",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Syrian Armed Forces\"", "Coherence=0.391", "triple=e_dbo:combatant \"*Syrian Armed Forces\"", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "operation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Vietnam_War", "Coherence=0.464", "triple=e_dbp:partof dbr:Vietnam_War", "class=MilitaryConflict" ],
+    "1" : [ "pair=dbr:South_Vietnam", "Coherence=0.393", "triple=e_dbp:place dbr:South_Vietnam", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "ottoman",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Ottoman victory\"@en", "Coherence=0.448", "triple=e_dbp:result \"Ottoman victory\"@en", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Ottoman Empire\"@en", "Coherence=0.447", "triple=e_dbp:combatant \"Ottoman Empire\"@en", "class=MilitaryConflict" ],
+    "2" : [ "pair=\"Ottoman victory\"", "Coherence=0.447", "triple=e_dbo:result \"Ottoman victory\"", "class=MilitaryConflict" ],
+    "3" : [ "pair=\"Ottoman Empire\"", "Coherence=0.438", "triple=e_dbo:combatant \"Ottoman Empire\"", "class=MilitaryConflict" ],
+    "4" : [ "pair=dbr:Ottoman_Empire", "Coherence=0.412", "triple=e_dbo:place dbr:Ottoman_Empire", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "peninsular war",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Peninsular_War", "Coherence=0.405", "triple=e_dbo:isPartOfMilitaryConflict dbr:Peninsular_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "revolutionary",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"the American Revolutionary War\"@en", "Coherence=0.426", "triple=e_dbp:partof \"the American Revolutionary War\"@en", "class=MilitaryConflict" ],
+    "1" : [ "pair=dbr:American_Revolutionary_War", "Coherence=0.423", "triple=e_dbo:isPartOfMilitaryConflict dbr:American_Revolutionary_War", "class=MilitaryConflict" ],
+    "2" : [ "pair=dbr:French_Revolutionary_Wars", "Coherence=0.414", "triple=e_dbo:isPartOfMilitaryConflict dbr:French_Revolutionary_Wars", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "revolutionary war",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"the American Revolutionary War\"@en", "Coherence=0.424", "triple=e_dbp:partof \"the American Revolutionary War\"@en", "class=MilitaryConflict" ],
+    "1" : [ "pair=dbr:American_Revolutionary_War", "Coherence=0.421", "triple=e_dbo:isPartOfMilitaryConflict dbr:American_Revolutionary_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "revolutionary wars",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:French_Revolutionary_Wars", "Coherence=0.41", "triple=e_dbo:isPartOfMilitaryConflict dbr:French_Revolutionary_Wars", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "roman",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Roman victory\"@en", "Coherence=0.475", "triple=e_dbp:result \"Roman victory\"@en", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Roman victory\"", "Coherence=0.473", "triple=e_dbo:result \"Roman victory\"", "class=MilitaryConflict" ],
+    "2" : [ "pair=\"Roman Republic\"", "Coherence=0.454", "triple=e_dbo:combatant \"Roman Republic\"", "class=MilitaryConflict" ],
+    "3" : [ "pair=dbr:Roman_Republic", "Coherence=0.443", "triple=e_dbp:combatant dbr:Roman_Republic", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "swedish",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Swedish victory\"@en", "Coherence=0.427", "triple=e_dbp:result \"Swedish victory\"@en", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "taliban",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:War_in_Afghanistan_(2001âpresent", "Coherence=0.411", "triple=e_dbo:isPartOfMilitaryConflict dbr:War_in_Afghanistan_(2001âpresent", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "union",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Unionvictory\"", "Coherence=0.441", "triple=e_dbo:result \"Unionvictory\"", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Union victory\"@en", "Coherence=0.436", "triple=e_dbp:result \"Union victory\"@en", "class=MilitaryConflict" ],
+    "2" : [ "pair=\"the American Civil War\"@en", "Coherence=0.435", "triple=e_dbp:partof \"the American Civil War\"@en", "class=MilitaryConflict" ],
+    "3" : [ "pair=\"CSA (Confederacy", "Coherence=0.428", "triple=e_dbp:combatant \"CSA (Confederacy", "class=MilitaryConflict" ],
+    "4" : [ "pair=\"United States(Union", "Coherence=0.424", "triple=e_dbo:combatant \"United States(Union", "class=MilitaryConflict" ],
+    "5" : [ "pair=dbr:American_Civil_War", "Coherence=0.412", "triple=e_dbo:isPartOfMilitaryConflict dbr:American_Civil_War", "class=MilitaryConflict" ],
+    "6" : [ "pair=\"Confederatevictory\"", "Coherence=0.403", "triple=e_dbo:result \"Confederatevictory\"", "class=MilitaryConflict" ],
+    "7" : [ "pair=\"Confederate victory\"@en", "Coherence=0.396", "triple=e_dbp:result \"Confederate victory\"@en", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "vietnam",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"the Vietnam War\"@en", "Coherence=0.457", "triple=e_dbp:partof \"the Vietnam War\"@en", "class=MilitaryConflict" ],
+    "1" : [ "pair=dbr:South_Vietnam", "Coherence=0.43", "triple=e_dbo:place dbr:South_Vietnam", "class=MilitaryConflict" ],
+    "2" : [ "pair=dbr:Vietnam_War", "Coherence=0.423", "triple=e_dbo:isPartOfMilitaryConflict dbr:Vietnam_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "vietnam war",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"the Vietnam War\"@en", "Coherence=0.417", "triple=e_dbp:partof \"the Vietnam War\"@en", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "war",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"the War of 1812\"@en", "Coherence=0.485", "triple=e_dbp:partof \"the War of 1812\"@en", "class=MilitaryConflict" ],
+    "1" : [ "pair=dbr:War_of_1812", "Coherence=0.458", "triple=e_dbo:isPartOfMilitaryConflict dbr:War_of_1812", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "war 1812",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"the War of 1812\"@en", "Coherence=0.485", "triple=e_dbp:partof \"the War of 1812\"@en", "class=MilitaryConflict" ],
+    "1" : [ "pair=dbr:War_of_1812", "Coherence=0.458", "triple=e_dbo:isPartOfMilitaryConflict dbr:War_of_1812", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "war ii",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Pacific_War", "Coherence=0.382", "triple=e_dbo:isPartOfMilitaryConflict dbr:Pacific_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "war of\u001C1812",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:War_of_1812", "Coherence=0.428", "triple=e_dbo:isPartOfMilitaryConflict dbr:War_of_1812", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "wars",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:French_Revolutionary_Wars", "Coherence=0.423", "triple=e_dbo:isPartOfMilitaryConflict dbr:French_Revolutionary_Wars", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "world",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:World_War_I", "Coherence=0.451", "triple=e_dbo:isPartOfMilitaryConflict dbr:World_War_I", "class=MilitaryConflict" ],
+    "1" : [ "pair=dbr:World_War_II", "Coherence=0.444", "triple=e_dbp:partof dbr:World_War_II", "class=MilitaryConflict" ],
+    "2" : [ "pair=dbr:Pacific_War", "Coherence=0.412", "triple=e_dbo:isPartOfMilitaryConflict dbr:Pacific_War", "class=MilitaryConflict" ],
+    "3" : [ "pair=\"Germany\"@en", "Coherence=0.409", "triple=e_dbp:combatant \"Germany\"@en", "class=MilitaryConflict" ],
+    "4" : [ "pair=\"Germany\"", "Coherence=0.407", "triple=e_dbo:combatant \"Germany\"", "class=MilitaryConflict" ],
+    "5" : [ "pair=\"Allied victory\"@en", "Coherence=0.404", "triple=e_dbp:result \"Allied victory\"@en", "class=MilitaryConflict" ],
+    "6" : [ "pair=\"Allied victory\"", "Coherence=0.391", "triple=e_dbo:result \"Allied victory\"", "class=MilitaryConflict" ],
+    "7" : [ "pair=\"German victory\"@en", "Coherence=0.389", "triple=e_dbp:result \"German victory\"@en", "class=MilitaryConflict" ],
+    "8" : [ "pair=\"German victory\"", "Coherence=0.385", "triple=e_dbo:result \"German victory\"", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "world war",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:World_War_I", "Coherence=0.451", "triple=e_dbo:isPartOfMilitaryConflict dbr:World_War_I", "class=MilitaryConflict" ],
+    "1" : [ "pair=dbr:World_War_II", "Coherence=0.444", "triple=e_dbp:partof dbr:World_War_II", "class=MilitaryConflict" ],
+    "2" : [ "pair=dbr:Pacific_War", "Coherence=0.412", "triple=e_dbo:isPartOfMilitaryConflict dbr:Pacific_War", "class=MilitaryConflict" ],
+    "3" : [ "pair=\"Germany\"@en", "Coherence=0.409", "triple=e_dbp:combatant \"Germany\"@en", "class=MilitaryConflict" ],
+    "4" : [ "pair=\"Germany\"", "Coherence=0.407", "triple=e_dbo:combatant \"Germany\"", "class=MilitaryConflict" ],
+    "5" : [ "pair=\"Allied victory\"@en", "Coherence=0.404", "triple=e_dbp:result \"Allied victory\"@en", "class=MilitaryConflict" ],
+    "6" : [ "pair=\"Allied victory\"", "Coherence=0.391", "triple=e_dbo:result \"Allied victory\"", "class=MilitaryConflict" ],
+    "7" : [ "pair=\"German victory\"@en", "Coherence=0.389", "triple=e_dbp:result \"German victory\"@en", "class=MilitaryConflict" ],
+    "8" : [ "pair=\"German victory\"", "Coherence=0.385", "triple=e_dbo:result \"German victory\"", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "world war ii",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Pacific_War", "Coherence=0.382", "triple=e_dbo:isPartOfMilitaryConflict dbr:Pacific_War", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "years",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eighty_Years'_War", "Coherence=0.458", "triple=e_dbo:isPartOfMilitaryConflict dbr:Eighty_Years'_War", "class=MilitaryConflict" ]
+  }
+} ]

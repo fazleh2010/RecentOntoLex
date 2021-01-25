@@ -1,0 +1,165 @@
+[ {
+  "id" : 7,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Australia", "MaxConf=1.0", "triple=e_dbp:birthPlace dbr:Australia", "class=Cyclist" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "belgian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "belgian\u001Cformer",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "belgian former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ],
+    "1" : [ "pair=\"70000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:weight \"70000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Cyclist" ],
+    "2" : [ "pair=\"Climber\"@en", "MaxConf=1.0", "triple=e_dbp:ridertype \"Climber\"@en", "class=Cyclist" ],
+    "3" : [ "pair=\"All-rounder\"@en", "MaxConf=1.0", "triple=e_dbp:ridertype \"All-rounder\"@en", "class=Cyclist" ],
+    "4" : [ "pair=\"Sprinter\"@en", "MaxConf=1.0", "triple=e_dbp:ridertype \"Sprinter\"@en", "class=Cyclist" ],
+    "5" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e_dbp:birthPlace dbr:France", "class=Cyclist" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "former professional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ],
+    "1" : [ "pair=\"All-rounder\"@en", "MaxConf=1.0", "triple=e_dbp:ridertype \"All-rounder\"@en", "class=Cyclist" ],
+    "2" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e_dbp:birthPlace dbr:France", "class=Cyclist" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ],
+    "1" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e_dbp:birthPlace dbr:France", "class=Cyclist" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "french\u001Cformer",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "french former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ],
+    "1" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e_dbp:birthPlace dbr:France", "class=Cyclist" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "individual",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "italian\u001Cformer",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "italian former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "last",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 99,
+  "pattern" : "national",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 104,
+  "pattern" : "polish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e_dbp:birthPlace dbr:Poland", "class=Cyclist" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "professional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ],
+    "1" : [ "pair=\"69000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:weight \"69000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Cyclist" ],
+    "2" : [ "pair=\"65000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:weight \"65000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Cyclist" ],
+    "3" : [ "pair=\"70000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:weight \"70000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Cyclist" ],
+    "4" : [ "pair=\"68000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:weight \"68000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Cyclist" ],
+    "5" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:majorwins \"\"@en", "class=Cyclist" ],
+    "6" : [ "pair=\"Climber\"@en", "MaxConf=1.0", "triple=e_dbp:ridertype \"Climber\"@en", "class=Cyclist" ],
+    "7" : [ "pair=\"All-rounder\"@en", "MaxConf=1.0", "triple=e_dbp:ridertype \"All-rounder\"@en", "class=Cyclist" ],
+    "8" : [ "pair=\"Sprinter\"@en", "MaxConf=1.0", "triple=e_dbp:ridertype \"Sprinter\"@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 145,
+  "pattern" : "spanish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 146,
+  "pattern" : "spanish\u001Cformer",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 148,
+  "pattern" : "spanish former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e_dbp:currentteam \"Retired\"@en", "class=Cyclist" ]
+  }
+} ]

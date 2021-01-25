@@ -1,0 +1,36 @@
+[ {
+  "id" : 4,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.482", "triple=e_dbp:id o", "class=Athlete" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "competed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.443", "triple=e_dbp:nationality o", "class=Athlete" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "competed in\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.322", "triple=e_dbp:nationality o", "class=Athlete" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "retired",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.182", "triple=e_dbp:imageSize o", "class=Athlete" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "won",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.268", "triple=e_dbo:country o", "class=Athlete" ]
+  }
+} ]

@@ -1,0 +1,39 @@
+[ {
+  "id" : 13,
+  "pattern" : "awarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Victoria_Cross", "Coherence=0.484", "triple=e_dbo:award dbr:Victoria_Cross", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "awarded\u001Cto",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Victoria_Cross", "Coherence=0.465", "triple=e_dbo:award dbr:Victoria_Cross", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "be\u001Cawarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Victoria_Cross", "Coherence=0.464", "triple=e_dbo:award dbr:Victoria_Cross", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "credited",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Aviation\"@en", "Coherence=0.481", "triple=e_dbp:branch \"Aviation\"@en", "class=MilitaryPerson" ],
+    "1" : [ "pair=\"Royal Air Force\"@en", "Coherence=0.467", "triple=e_dbp:branch \"Royal Air Force\"@en", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "flying",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Aviation\"@en", "Coherence=0.49", "triple=e_dbp:branch \"Aviation\"@en", "class=MilitaryPerson" ],
+    "1" : [ "pair=\"Western Front\"@en", "Coherence=0.468", "triple=e_dbp:battles \"Western Front\"@en", "class=MilitaryPerson" ],
+    "2" : [ "pair=\"Royal Air Force\"@en", "Coherence=0.467", "triple=e_dbp:branch \"Royal Air Force\"@en", "class=MilitaryPerson" ]
+  }
+} ]

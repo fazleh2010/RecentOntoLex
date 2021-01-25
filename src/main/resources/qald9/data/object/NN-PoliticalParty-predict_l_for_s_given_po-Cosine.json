@@ -1,0 +1,356 @@
+[ {
+  "id" : 2,
+  "pattern" : "burmese",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Myanmar\"@en", "Cosine=0.964", "triple=e_dbp:country \"Myanmar\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Myanmar", "Cosine=0.954", "triple=e_dbo:country dbr:Myanmar", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Canada", "Cosine=0.979", "triple=e_dbo:country dbr:Canada", "class=PoliticalParty" ],
+    "1" : [ "pair=\"Fiscal policy\"@en", "Cosine=0.921", "triple=e_dbp:blank1Title \"Fiscal policy\"@en", "class=PoliticalParty" ],
+    "2" : [ "pair=\"Social policy\"@en", "Cosine=0.92", "triple=e_dbp:blank2Title \"Social policy\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "croatia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Croatia", "Cosine=0.947", "triple=e_dbo:country dbr:Croatia", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "czech",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"the Czech Republic\"@en", "Cosine=0.991", "triple=e_dbp:country \"the Czech Republic\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "democratic party",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Democratic_Party_(United_States", "Cosine=0.962", "triple=e_dbp:national dbr:Democratic_Party_(United_States", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "egypt",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Egypt", "Cosine=0.939", "triple=e_dbo:country dbr:Egypt", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "greece",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Greece", "Cosine=0.972", "triple=e_dbo:country dbr:Greece", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "hungary",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Hungary", "Cosine=0.991", "triple=e_dbo:country dbr:Hungary", "class=PoliticalParty" ],
+    "1" : [ "pair=\"Hungary\"@en", "Cosine=0.955", "triple=e_dbp:country \"Hungary\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "israel",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Fewest MKs\"@en", "Cosine=0.993", "triple=e_dbp:seats2Title \"Fewest MKs\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Israel", "Cosine=0.974", "triple=e_dbo:country dbr:Israel", "class=PoliticalParty" ],
+    "2" : [ "pair=\"Most MKs\"@en", "Cosine=0.97", "triple=e_dbp:seats1Title \"Most MKs\"@en", "class=PoliticalParty" ],
+    "3" : [ "pair=\"Israel\"@en", "Cosine=0.964", "triple=e_dbp:country \"Israel\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "italy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Italy", "Cosine=0.969", "triple=e_dbo:country dbr:Italy", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Rome", "Cosine=0.959", "triple=e_dbo:headquarter dbr:Rome", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Senate_of_the_Republic_(Italy", "Cosine=0.927", "triple=e_dbp:seats2Title dbr:Senate_of_the_Republic_(Italy", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Chamber_of_Deputies_(Italy", "Cosine=0.927", "triple=e_dbp:seats1Title dbr:Chamber_of_Deputies_(Italy", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "japan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Japan", "Cosine=0.962", "triple=e_dbo:country dbr:Japan", "class=PoliticalParty" ],
+    "1" : [ "pair=\"Japan\"@en", "Cosine=0.956", "triple=e_dbp:country \"Japan\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "korea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:South_Korea", "Cosine=0.947", "triple=e_dbo:country dbr:South_Korea", "class=PoliticalParty" ],
+    "1" : [ "pair=\"South Korea\"@en", "Cosine=0.942", "triple=e_dbp:country \"South Korea\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "malaysia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Malaysia", "Cosine=0.949", "triple=e_dbo:country dbr:Malaysia", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "myanmar",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Myanmar\"@en", "Cosine=0.964", "triple=e_dbp:country \"Myanmar\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Myanmar", "Cosine=0.954", "triple=e_dbo:country dbr:Myanmar", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "new zealand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Zealand\"@en", "Cosine=0.945", "triple=e_dbp:country \"New Zealand\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "pakistan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Pakistan\"@en", "Cosine=0.974", "triple=e_dbp:country \"Pakistan\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "party",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Global_Greens", "Cosine=0.993", "triple=e_dbp:international dbr:Global_Greens", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Alliance_of_Liberals_and_Democrats_for_Europe_Party", "Cosine=0.99", "triple=e_dbp:european dbr:Alliance_of_Liberals_and_Democrats_for_Europe_Party", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Centrist_Democrat_International", "Cosine=0.989", "triple=e_dbo:internationalAffiliation dbr:Centrist_Democrat_International", "class=PoliticalParty" ],
+    "3" : [ "pair=\"President\"@en", "Cosine=0.986", "triple=e_dbp:leader2Title \"President\"@en", "class=PoliticalParty" ],
+    "4" : [ "pair=dbr:Progressive_Alliance", "Cosine=0.981", "triple=e_dbo:internationalAffiliation dbr:Progressive_Alliance", "class=PoliticalParty" ],
+    "5" : [ "pair=\"Secretary\"@en", "Cosine=0.977", "triple=e_dbp:leader1Title \"Secretary\"@en", "class=PoliticalParty" ],
+    "6" : [ "pair=dbr:Liberal_International", "Cosine=0.977", "triple=e_dbp:international dbr:Liberal_International", "class=PoliticalParty" ],
+    "7" : [ "pair=dbr:Party_of_European_Socialists", "Cosine=0.976", "triple=e_dbp:european dbr:Party_of_European_Socialists", "class=PoliticalParty" ],
+    "8" : [ "pair=dbr:European_People's_Party", "Cosine=0.976", "triple=e_dbo:europeanAffiliation dbr:European_People's_Party", "class=PoliticalParty" ],
+    "9" : [ "pair=dbr:International_Meeting_of_Communist_and_Workers'_Parties", "Cosine=0.974", "triple=e_dbo:internationalAffiliation dbr:International_Meeting_of_Communist_and_Workers'_Parties", "class=PoliticalParty" ],
+    "10" : [ "pair=\"Thailand\"@en", "Cosine=0.974", "triple=e_dbp:country \"Thailand\"@en", "class=PoliticalParty" ],
+    "11" : [ "pair=dbr:Democratic_Party_(United_States", "Cosine=0.971", "triple=e_dbp:national dbr:Democratic_Party_(United_States", "class=PoliticalParty" ],
+    "12" : [ "pair=\"Japan\"@en", "Cosine=0.971", "triple=e_dbp:country \"Japan\"@en", "class=PoliticalParty" ],
+    "13" : [ "pair=dbr:Ankara", "Cosine=0.97", "triple=e_dbo:headquarter dbr:Ankara", "class=PoliticalParty" ],
+    "14" : [ "pair=dbr:South_Korea", "Cosine=0.97", "triple=e_dbo:country dbr:South_Korea", "class=PoliticalParty" ],
+    "15" : [ "pair=\"Yellow\"@en", "Cosine=0.968", "triple=e_dbo:colourName \"Yellow\"@en", "class=PoliticalParty" ],
+    "16" : [ "pair=\"Active provincial party\"@en", "Cosine=0.964", "triple=e_dbp:Subheader \"Active provincial party\"@en", "class=PoliticalParty" ],
+    "17" : [ "pair=\"Denmark\"@en", "Cosine=0.963", "triple=e_dbp:country \"Denmark\"@en", "class=PoliticalParty" ],
+    "18" : [ "pair=\"Seats in the House of Commons\"@en", "Cosine=0.962", "triple=e_dbp:seats1Title \"Seats in the House of Commons\"@en", "class=PoliticalParty" ],
+    "19" : [ "pair=dbr:Japan", "Cosine=0.962", "triple=e_dbo:country dbr:Japan", "class=PoliticalParty" ],
+    "20" : [ "pair=\"South Korea\"@en", "Cosine=0.961", "triple=e_dbp:country \"South Korea\"@en", "class=PoliticalParty" ],
+    "21" : [ "pair=dbr:Progressive_Alliance_of_Socialists_and_Democrats", "Cosine=0.96", "triple=e_dbo:europeanParliamentGroup dbr:Progressive_Alliance_of_Socialists_and_Democrats", "class=PoliticalParty" ],
+    "22" : [ "pair=\"\"@en", "Cosine=0.96", "triple=e_dbp:national \"\"@en", "class=PoliticalParty" ],
+    "23" : [ "pair=\"Fiscal policy\"@en", "Cosine=0.959", "triple=e_dbp:blank1Title \"Fiscal policy\"@en", "class=PoliticalParty" ],
+    "24" : [ "pair=\"Seats in Legislature\"@en", "Cosine=0.959", "triple=e_dbp:seats3Title \"Seats in Legislature\"@en", "class=PoliticalParty" ],
+    "25" : [ "pair=\"Social policy\"@en", "Cosine=0.959", "triple=e_dbp:blank2Title \"Social policy\"@en", "class=PoliticalParty" ],
+    "26" : [ "pair=\"South Africa\"@en", "Cosine=0.959", "triple=e_dbp:country \"South Africa\"@en", "class=PoliticalParty" ],
+    "27" : [ "pair=dbr:Socialist_International", "Cosine=0.957", "triple=e_dbo:internationalAffiliation dbr:Socialist_International", "class=PoliticalParty" ],
+    "28" : [ "pair=\"the Czech Republic\"@en", "Cosine=0.956", "triple=e_dbp:country \"the Czech Republic\"@en", "class=PoliticalParty" ],
+    "29" : [ "pair=\"1997\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.955", "triple=e_dbo:formationYear \"1997\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "30" : [ "pair=dbr:Conservatism_in_the_United_States", "Cosine=0.955", "triple=e_dbo:ideology dbr:Conservatism_in_the_United_States", "class=PoliticalParty" ],
+    "31" : [ "pair=\"Founder\"@en", "Cosine=0.954", "triple=e_dbp:leader2Title \"Founder\"@en", "class=PoliticalParty" ],
+    "32" : [ "pair=\"December 2009\"@en", "Cosine=0.952", "triple=e_dbp:date \"December 2009\"@en", "class=PoliticalParty" ],
+    "33" : [ "pair=\"yes\"@en", "Cosine=0.952", "triple=e_dbp:auto \"yes\"@en", "class=PoliticalParty" ],
+    "34" : [ "pair=dbr:Parliament_of_Egypt", "Cosine=0.952", "triple=e_dbp:seats1Title dbr:Parliament_of_Egypt", "class=PoliticalParty" ],
+    "35" : [ "pair=\"2014\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.951", "triple=e_dbo:dissolutionYear \"2014\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "36" : [ "pair=dbr:International_Democrat_Union", "Cosine=0.95", "triple=e_dbo:internationalAffiliation dbr:International_Democrat_Union", "class=PoliticalParty" ],
+    "37" : [ "pair=dbr:South_Africa", "Cosine=0.95", "triple=e_dbo:country dbr:South_Africa", "class=PoliticalParty" ],
+    "38" : [ "pair=dbr:European_Parliament", "Cosine=0.95", "triple=e_dbp:seats2Title dbr:European_Parliament", "class=PoliticalParty" ],
+    "39" : [ "pair=\"Right-wing to far-right\"@en", "Cosine=0.949", "triple=e_dbp:position \"Right-wing to far-right\"@en", "class=PoliticalParty" ],
+    "40" : [ "pair=\"Seats in the Senate\"@en", "Cosine=0.949", "triple=e_dbp:seats2Title \"Seats in the Senate\"@en", "class=PoliticalParty" ],
+    "41" : [ "pair=dbr:Euroscepticism", "Cosine=0.949", "triple=e_dbp:ideology dbr:Euroscepticism", "class=PoliticalParty" ],
+    "42" : [ "pair=dbr:Orange_(colour", "Cosine=0.949", "triple=e_dbo:colour dbr:Orange_(colour", "class=PoliticalParty" ],
+    "43" : [ "pair=\"1998\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.947", "triple=e_dbo:formationYear \"1998\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "44" : [ "pair=\"1991\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.947", "triple=e_dbo:formationYear \"1991\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "45" : [ "pair=\"None\"@en", "Cosine=0.947", "triple=e_dbp:european \"None\"@en", "class=PoliticalParty" ],
+    "46" : [ "pair=dbr:Senate_of_the_Republic_(Italy", "Cosine=0.946", "triple=e_dbp:seats2Title dbr:Senate_of_the_Republic_(Italy", "class=PoliticalParty" ],
+    "47" : [ "pair=dbr:European_Green_Party", "Cosine=0.945", "triple=e_dbo:europeanAffiliation dbr:European_Green_Party", "class=PoliticalParty" ],
+    "48" : [ "pair=dbr:Political_parties_of_minorities", "Cosine=0.945", "triple=e_dbp:ideology dbr:Political_parties_of_minorities", "class=PoliticalParty" ],
+    "49" : [ "pair=dbr:Chamber_of_Deputies_(Italy", "Cosine=0.945", "triple=e_dbp:seats1Title dbr:Chamber_of_Deputies_(Italy", "class=PoliticalParty" ],
+    "50" : [ "pair=dbr:European_People's_Party_group", "Cosine=0.944", "triple=e_dbo:europeanParliamentGroup dbr:European_People's_Party_group", "class=PoliticalParty" ],
+    "51" : [ "pair=\"Centre to centre-left\"@en", "Cosine=0.944", "triple=e_dbp:position \"Centre to centre-left\"@en", "class=PoliticalParty" ],
+    "52" : [ "pair=\"Green\"@en", "Cosine=0.943", "triple=e_dbp:colorcode \"Green\"@en", "class=PoliticalParty" ],
+    "53" : [ "pair=dbr:Yellow", "Cosine=0.943", "triple=e_dbp:colours dbr:Yellow", "class=PoliticalParty" ],
+    "54" : [ "pair=\"Germany\"@en", "Cosine=0.942", "triple=e_dbp:country \"Germany\"@en", "class=PoliticalParty" ],
+    "55" : [ "pair=dbr:National_conservatism", "Cosine=0.942", "triple=e_dbp:ideology dbr:National_conservatism", "class=PoliticalParty" ],
+    "56" : [ "pair=dbr:Decentralization", "Cosine=0.941", "triple=e_dbp:ideology dbr:Decentralization", "class=PoliticalParty" ],
+    "57" : [ "pair=\"Turkey\"@en", "Cosine=0.94", "triple=e_dbp:country \"Turkey\"@en", "class=PoliticalParty" ],
+    "58" : [ "pair=\"Hungary\"@en", "Cosine=0.939", "triple=e_dbp:country \"Hungary\"@en", "class=PoliticalParty" ],
+    "59" : [ "pair=dbr:White", "Cosine=0.939", "triple=e_dbp:colours dbr:White", "class=PoliticalParty" ],
+    "60" : [ "pair=dbr:Egypt", "Cosine=0.939", "triple=e_dbo:country dbr:Egypt", "class=PoliticalParty" ],
+    "61" : [ "pair=dbr:Right-wing_populism", "Cosine=0.939", "triple=e_dbp:ideology dbr:Right-wing_populism", "class=PoliticalParty" ],
+    "62" : [ "pair=\"1993\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.939", "triple=e_dbo:formationYear \"1993\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "63" : [ "pair=\"Australia\"@en", "Cosine=0.938", "triple=e_dbp:country \"Australia\"@en", "class=PoliticalParty" ],
+    "64" : [ "pair=dbr:Green", "Cosine=0.938", "triple=e_dbp:colours dbr:Green", "class=PoliticalParty" ],
+    "65" : [ "pair=dbr:Third_Way", "Cosine=0.937", "triple=e_dbo:ideology dbr:Third_Way", "class=PoliticalParty" ],
+    "66" : [ "pair=\"Canada\"@en", "Cosine=0.937", "triple=e_dbp:country \"Canada\"@en", "class=PoliticalParty" ],
+    "67" : [ "pair=\"Romania\"@en", "Cosine=0.936", "triple=e_dbp:country \"Romania\"@en", "class=PoliticalParty" ],
+    "68" : [ "pair=\"Seats in the National Assembly\"@en", "Cosine=0.935", "triple=e_dbp:seats1Title \"Seats in the National Assembly\"@en", "class=PoliticalParty" ],
+    "69" : [ "pair=dbr:Blue", "Cosine=0.935", "triple=e_dbp:colours dbr:Blue", "class=PoliticalParty" ],
+    "70" : [ "pair=dbr:Social_conservatism", "Cosine=0.935", "triple=e_dbp:ideology dbr:Social_conservatism", "class=PoliticalParty" ],
+    "71" : [ "pair=dbr:Environmentalism", "Cosine=0.935", "triple=e_dbo:ideology dbr:Environmentalism", "class=PoliticalParty" ],
+    "72" : [ "pair=dbr:Turkey", "Cosine=0.934", "triple=e_dbo:country dbr:Turkey", "class=PoliticalParty" ],
+    "73" : [ "pair=dbr:Conservative_liberalism", "Cosine=0.934", "triple=e_dbp:ideology dbr:Conservative_liberalism", "class=PoliticalParty" ],
+    "74" : [ "pair=\"1990\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.933", "triple=e_dbo:formationYear \"1990\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "75" : [ "pair=\"2002\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.933", "triple=e_dbo:formationYear \"2002\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "76" : [ "pair=dbr:Hungary", "Cosine=0.933", "triple=e_dbo:country dbr:Hungary", "class=PoliticalParty" ],
+    "77" : [ "pair=dbr:National_liberalism", "Cosine=0.933", "triple=e_dbo:ideology dbr:National_liberalism", "class=PoliticalParty" ],
+    "78" : [ "pair=dbr:Agrarianism", "Cosine=0.932", "triple=e_dbp:ideology dbr:Agrarianism", "class=PoliticalParty" ],
+    "79" : [ "pair=\"Sweden\"@en", "Cosine=0.932", "triple=e_dbp:country \"Sweden\"@en", "class=PoliticalParty" ],
+    "80" : [ "pair=dbr:Romania", "Cosine=0.931", "triple=e_dbo:country dbr:Romania", "class=PoliticalParty" ],
+    "81" : [ "pair=dbr:Croatia", "Cosine=0.931", "triple=e_dbo:country dbr:Croatia", "class=PoliticalParty" ],
+    "82" : [ "pair=dbr:Canada", "Cosine=0.93", "triple=e_dbo:country dbr:Canada", "class=PoliticalParty" ],
+    "83" : [ "pair=dbr:Economic_liberalism", "Cosine=0.93", "triple=e_dbp:ideology dbr:Economic_liberalism", "class=PoliticalParty" ],
+    "84" : [ "pair=\"2012\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.93", "triple=e_dbo:dissolutionYear \"2012\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "85" : [ "pair=\"2000\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.929", "triple=e_dbo:formationYear \"2000\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "86" : [ "pair=dbr:Centre-left_politics", "Cosine=0.928", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "87" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.928", "triple=e_dbo:formationYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "88" : [ "pair=dbr:Rome", "Cosine=0.928", "triple=e_dbo:headquarter dbr:Rome", "class=PoliticalParty" ],
+    "89" : [ "pair=dbr:Classical_liberalism", "Cosine=0.927", "triple=e_dbo:ideology dbr:Classical_liberalism", "class=PoliticalParty" ],
+    "90" : [ "pair=\"1992\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.927", "triple=e_dbo:formationYear \"1992\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "91" : [ "pair=\"Orange\"@en", "Cosine=0.927", "triple=e_dbo:colourName \"Orange\"@en", "class=PoliticalParty" ],
+    "92" : [ "pair=\"yellow\"@en", "Cosine=0.927", "triple=e_dbp:colorcode \"yellow\"@en", "class=PoliticalParty" ],
+    "93" : [ "pair=\"Chairperson\"@en", "Cosine=0.926", "triple=e_dbp:leader1Title \"Chairperson\"@en", "class=PoliticalParty" ],
+    "94" : [ "pair=dbr:Regionalism_(politics", "Cosine=0.926", "triple=e_dbp:ideology dbr:Regionalism_(politics", "class=PoliticalParty" ],
+    "95" : [ "pair=\"the Republic of Ireland\"@en", "Cosine=0.925", "triple=e_dbp:country \"the Republic of Ireland\"@en", "class=PoliticalParty" ],
+    "96" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.925", "triple=e_dbo:formationYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "97" : [ "pair=\"blue\"@en", "Cosine=0.925", "triple=e_dbp:colorcode \"blue\"@en", "class=PoliticalParty" ],
+    "98" : [ "pair=dbr:Kyiv", "Cosine=0.924", "triple=e_dbp:headquarters dbr:Kyiv", "class=PoliticalParty" ],
+    "99" : [ "pair=\"Centre-right to right-wing\"@en", "Cosine=0.924", "triple=e_dbp:position \"Centre-right to right-wing\"@en", "class=PoliticalParty" ],
+    "100" : [ "pair=dbr:Centrism", "Cosine=0.924", "triple=e_dbp:position dbr:Centrism", "class=PoliticalParty" ],
+    "101" : [ "pair=dbr:Conservatism", "Cosine=0.924", "triple=e_dbp:ideology dbr:Conservatism", "class=PoliticalParty" ],
+    "102" : [ "pair=\"2001\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.922", "triple=e_dbo:formationYear \"2001\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "103" : [ "pair=dbr:Christian_democracy", "Cosine=0.922", "triple=e_dbp:ideology dbr:Christian_democracy", "class=PoliticalParty" ],
+    "104" : [ "pair=\"2007\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.922", "triple=e_dbo:formationYear \"2007\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "105" : [ "pair=\"1994\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.921", "triple=e_dbo:formationYear \"1994\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ],
+    "106" : [ "pair=\"2010\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.92", "triple=e_dbo:dissolutionYear \"2010\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "persian",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Iran", "Cosine=0.965", "triple=e_dbo:country dbr:Iran", "class=PoliticalParty" ],
+    "1" : [ "pair=\"Iran\"@en", "Cosine=0.963", "triple=e_dbp:country \"Iran\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "political party",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:European_People's_Party", "Cosine=0.962", "triple=e_dbo:europeanAffiliation dbr:European_People's_Party", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Centrist_Democrat_International", "Cosine=0.961", "triple=e_dbp:international dbr:Centrist_Democrat_International", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Alliance_of_Liberals_and_Democrats_for_Europe_Party", "Cosine=0.956", "triple=e_dbo:europeanAffiliation dbr:Alliance_of_Liberals_and_Democrats_for_Europe_Party", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:South_Korea", "Cosine=0.954", "triple=e_dbo:country dbr:South_Korea", "class=PoliticalParty" ],
+    "4" : [ "pair=\"President\"@en", "Cosine=0.953", "triple=e_dbp:leader2Title \"President\"@en", "class=PoliticalParty" ],
+    "5" : [ "pair=dbr:Party_of_European_Socialists", "Cosine=0.952", "triple=e_dbp:european dbr:Party_of_European_Socialists", "class=PoliticalParty" ],
+    "6" : [ "pair=\"Thailand\"@en", "Cosine=0.947", "triple=e_dbp:country \"Thailand\"@en", "class=PoliticalParty" ],
+    "7" : [ "pair=\"Secretary\"@en", "Cosine=0.944", "triple=e_dbp:leader1Title \"Secretary\"@en", "class=PoliticalParty" ],
+    "8" : [ "pair=\"Denmark\"@en", "Cosine=0.94", "triple=e_dbp:country \"Denmark\"@en", "class=PoliticalParty" ],
+    "9" : [ "pair=dbr:Senate_of_the_Republic_(Italy", "Cosine=0.937", "triple=e_dbp:seats2Title dbr:Senate_of_the_Republic_(Italy", "class=PoliticalParty" ],
+    "10" : [ "pair=dbr:Progressive_Alliance", "Cosine=0.937", "triple=e_dbo:internationalAffiliation dbr:Progressive_Alliance", "class=PoliticalParty" ],
+    "11" : [ "pair=dbr:Chamber_of_Deputies_(Italy", "Cosine=0.936", "triple=e_dbp:seats1Title dbr:Chamber_of_Deputies_(Italy", "class=PoliticalParty" ],
+    "12" : [ "pair=\"Active provincial party\"@en", "Cosine=0.935", "triple=e_dbp:Subheader \"Active provincial party\"@en", "class=PoliticalParty" ],
+    "13" : [ "pair=\"Seats in the House of Commons\"@en", "Cosine=0.934", "triple=e_dbp:seats1Title \"Seats in the House of Commons\"@en", "class=PoliticalParty" ],
+    "14" : [ "pair=dbr:Decentralization", "Cosine=0.933", "triple=e_dbp:ideology dbr:Decentralization", "class=PoliticalParty" ],
+    "15" : [ "pair=\"None\"@en", "Cosine=0.929", "triple=e_dbp:european \"None\"@en", "class=PoliticalParty" ],
+    "16" : [ "pair=\"South Korea\"@en", "Cosine=0.928", "triple=e_dbp:country \"South Korea\"@en", "class=PoliticalParty" ],
+    "17" : [ "pair=\"December 2009\"@en", "Cosine=0.928", "triple=e_dbp:date \"December 2009\"@en", "class=PoliticalParty" ],
+    "18" : [ "pair=\"yes\"@en", "Cosine=0.928", "triple=e_dbp:auto \"yes\"@en", "class=PoliticalParty" ],
+    "19" : [ "pair=dbr:Political_parties_of_minorities", "Cosine=0.928", "triple=e_dbp:ideology dbr:Political_parties_of_minorities", "class=PoliticalParty" ],
+    "20" : [ "pair=dbr:Progressive_Alliance_of_Socialists_and_Democrats", "Cosine=0.928", "triple=e_dbo:europeanParliamentGroup dbr:Progressive_Alliance_of_Socialists_and_Democrats", "class=PoliticalParty" ],
+    "21" : [ "pair=dbr:South_Africa", "Cosine=0.927", "triple=e_dbo:country dbr:South_Africa", "class=PoliticalParty" ],
+    "22" : [ "pair=\"Fiscal policy\"@en", "Cosine=0.927", "triple=e_dbp:blank1Title \"Fiscal policy\"@en", "class=PoliticalParty" ],
+    "23" : [ "pair=\"South Africa\"@en", "Cosine=0.927", "triple=e_dbp:country \"South Africa\"@en", "class=PoliticalParty" ],
+    "24" : [ "pair=\"Social policy\"@en", "Cosine=0.927", "triple=e_dbp:blank2Title \"Social policy\"@en", "class=PoliticalParty" ],
+    "25" : [ "pair=\"Seats in Legislature\"@en", "Cosine=0.925", "triple=e_dbp:seats3Title \"Seats in Legislature\"@en", "class=PoliticalParty" ],
+    "26" : [ "pair=dbr:Canada", "Cosine=0.923", "triple=e_dbo:country dbr:Canada", "class=PoliticalParty" ],
+    "27" : [ "pair=dbr:Global_Greens", "Cosine=0.922", "triple=e_dbp:international dbr:Global_Greens", "class=PoliticalParty" ],
+    "28" : [ "pair=dbr:European_Parliament", "Cosine=0.922", "triple=e_dbp:seats2Title dbr:European_Parliament", "class=PoliticalParty" ],
+    "29" : [ "pair=dbr:Orange_(colour", "Cosine=0.921", "triple=e_dbo:colour dbr:Orange_(colour", "class=PoliticalParty" ],
+    "30" : [ "pair=\"the Czech Republic\"@en", "Cosine=0.92", "triple=e_dbp:country \"the Czech Republic\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "portuguese",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Portugal\"@en", "Cosine=0.963", "triple=e_dbp:country \"Portugal\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "romania",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "Cosine=0.973", "triple=e_dbo:country dbr:Romania", "class=PoliticalParty" ],
+    "1" : [ "pair=\"Romania\"@en", "Cosine=0.966", "triple=e_dbp:country \"Romania\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "serbia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:National_Assembly_(Serbia", "Cosine=0.945", "triple=e_dbp:seats1Title dbr:National_Assembly_(Serbia", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Serbia", "Cosine=0.93", "triple=e_dbo:country dbr:Serbia", "class=PoliticalParty" ],
+    "2" : [ "pair=\"Serbia\"@en", "Cosine=0.929", "triple=e_dbp:country \"Serbia\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:South_Africa", "Cosine=0.986", "triple=e_dbo:country dbr:South_Africa", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:South_Korea", "Cosine=0.985", "triple=e_dbo:country dbr:South_Korea", "class=PoliticalParty" ],
+    "2" : [ "pair=\"South Africa\"@en", "Cosine=0.979", "triple=e_dbp:country \"South Africa\"@en", "class=PoliticalParty" ],
+    "3" : [ "pair=\"South Korea\"@en", "Cosine=0.968", "triple=e_dbp:country \"South Korea\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "south korea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:South_Korea", "Cosine=0.947", "triple=e_dbo:country dbr:South_Korea", "class=PoliticalParty" ],
+    "1" : [ "pair=\"South Korea\"@en", "Cosine=0.921", "triple=e_dbp:country \"South Korea\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "thai",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Thailand\"@en", "Cosine=0.938", "triple=e_dbp:country \"Thailand\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "turkey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turkey", "Cosine=0.967", "triple=e_dbo:country dbr:Turkey", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Ankara", "Cosine=0.954", "triple=e_dbo:headquarter dbr:Ankara", "class=PoliticalParty" ],
+    "2" : [ "pair=\"Turkey\"@en", "Cosine=0.935", "triple=e_dbp:country \"Turkey\"@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "ukraine",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ukraine", "Cosine=0.96", "triple=e_dbo:country dbr:Ukraine", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "zealand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Zealand\"@en", "Cosine=0.952", "triple=e_dbp:country \"New Zealand\"@en", "class=PoliticalParty" ]
+  }
+} ]

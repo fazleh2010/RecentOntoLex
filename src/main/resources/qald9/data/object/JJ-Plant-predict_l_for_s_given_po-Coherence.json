@@ -1,0 +1,33 @@
+[ {
+  "id" : 6,
+  "pattern" : "common",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"G1\"@en", "Coherence=0.479", "triple=e_dbp:status \"G1\"@en", "class=Plant" ],
+    "1" : [ "pair=\"G1\"", "Coherence=0.477", "triple=e_dbo:conservationStatus \"G1\"", "class=Plant" ],
+    "2" : [ "pair=dbr:Thomas_Nuttall", "Coherence=0.466", "triple=e_dbo:binomialAuthority dbr:Thomas_Nuttall", "class=Plant" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "known the\u001Ccommon",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"G1\"@en", "Coherence=0.472", "triple=e_dbp:status \"G1\"@en", "class=Plant" ],
+    "1" : [ "pair=\"G1\"", "Coherence=0.471", "triple=e_dbo:conservationStatus \"G1\"", "class=Plant" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "orchid",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Rchb.f.", "Coherence=0.495", "triple=e_dbo:binomialAuthority dbr:Rchb.f.", "class=Plant" ],
+    "1" : [ "pair=\"Lindl.\"@en", "Coherence=0.485", "triple=e_dbp:binomialAuthority \"Lindl.\"@en", "class=Plant" ],
+    "2" : [ "pair=dbr:Cymbidieae", "Coherence=0.482", "triple=e_dbo:family dbr:Cymbidieae", "class=Plant" ],
+    "3" : [ "pair=dbr:Stanhopeinae", "Coherence=0.476", "triple=e_dbp:subtribus dbr:Stanhopeinae", "class=Plant" ],
+    "4" : [ "pair=dbr:Aeridinae", "Coherence=0.476", "triple=e_dbp:subtribus dbr:Aeridinae", "class=Plant" ],
+    "5" : [ "pair=dbr:Pleurothallidinae", "Coherence=0.474", "triple=e_dbp:subtribus dbr:Pleurothallidinae", "class=Plant" ],
+    "6" : [ "pair=dbr:Oncidiinae", "Coherence=0.469", "triple=e_dbp:subtribus dbr:Oncidiinae", "class=Plant" ],
+    "7" : [ "pair=dbr:Epidendreae", "Coherence=0.468", "triple=e_dbo:family dbr:Epidendreae", "class=Plant" ],
+    "8" : [ "pair=dbr:Laeliinae", "Coherence=0.467", "triple=e_dbp:subtribus dbr:Laeliinae", "class=Plant" ]
+  }
+} ]

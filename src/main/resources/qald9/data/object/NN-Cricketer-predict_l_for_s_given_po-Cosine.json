@@ -1,0 +1,223 @@
+[ {
+  "id" : 2,
+  "pattern" : "batsman",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Minor_Counties_of_English_and_Welsh_cricket", "Cosine=0.966", "triple=e_dbp:club dbr:Minor_Counties_of_English_and_Welsh_cricket", "class=Cricketer" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "cricketer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Staffordshire_County_Cricket_Club", "Cosine=1.0", "triple=e_dbp:club dbr:Staffordshire_County_Cricket_Club", "class=Cricketer" ],
+    "1" : [ "pair=dbr:Delhi_Capitals", "Cosine=1.0", "triple=e_dbp:club dbr:Delhi_Capitals", "class=Cricketer" ],
+    "2" : [ "pair=\"New Zealand\"@en", "Cosine=1.0", "triple=e_dbp:t20idebutagainst \"New Zealand\"@en", "class=Cricketer" ],
+    "3" : [ "pair=\"Delhi", "Cosine=1.0", "triple=e_dbp:birthPlace \"Delhi", "class=Cricketer" ],
+    "4" : [ "pair=dbr:Hampshire", "Cosine=1.0", "triple=e_dbp:birthPlace dbr:Hampshire", "class=Cricketer" ],
+    "5" : [ "pair=\"England\"@en", "Cosine=1.0", "triple=e_dbp:deathPlace \"England\"@en", "class=Cricketer" ],
+    "6" : [ "pair=dbr:Minor_Counties_of_English_and_Welsh_cricket", "Cosine=0.995", "triple=e_dbp:club dbr:Minor_Counties_of_English_and_Welsh_cricket", "class=Cricketer" ],
+    "7" : [ "pair=dbr:Worcestershire_County_Cricket_Club", "Cosine=0.995", "triple=e_dbp:club dbr:Worcestershire_County_Cricket_Club", "class=Cricketer" ],
+    "8" : [ "pair=dbr:Northamptonshire_County_Cricket_Club", "Cosine=0.994", "triple=e_dbp:club dbr:Northamptonshire_County_Cricket_Club", "class=Cricketer" ],
+    "9" : [ "pair=\"Pakistan\"@en", "Cosine=0.994", "triple=e_dbp:lastodiagainst \"Pakistan\"@en", "class=Cricketer" ],
+    "10" : [ "pair=dbr:England", "Cosine=0.994", "triple=e_dbp:country dbr:England", "class=Cricketer" ],
+    "11" : [ "pair=dbr:Durham_County_Cricket_Club", "Cosine=0.994", "triple=e_dbp:club dbr:Durham_County_Cricket_Club", "class=Cricketer" ],
+    "12" : [ "pair=dbr:Pakistan", "Cosine=0.994", "triple=e_dbp:birthPlace dbr:Pakistan", "class=Cricketer" ],
+    "13" : [ "pair=\"West Indies\"@en", "Cosine=0.993", "triple=e_dbp:odidebutagainst \"West Indies\"@en", "class=Cricketer" ],
+    "14" : [ "pair=dbr:Women's_Twenty20_International", "Cosine=0.993", "triple=e_dbp:column dbr:Women's_Twenty20_International", "class=Cricketer" ],
+    "15" : [ "pair=dbr:Punjab", "Cosine=0.992", "triple=e_dbo:birthPlace dbr:Punjab", "class=Cricketer" ],
+    "16" : [ "pair=\"South Africa\"@en", "Cosine=0.991", "triple=e_dbp:odidebutagainst \"South Africa\"@en", "class=Cricketer" ],
+    "17" : [ "pair=dbr:Derbyshire_County_Cricket_Club", "Cosine=0.991", "triple=e_dbp:club dbr:Derbyshire_County_Cricket_Club", "class=Cricketer" ],
+    "18" : [ "pair=dbr:Essex_County_Cricket_Club", "Cosine=0.991", "triple=e_dbp:club dbr:Essex_County_Cricket_Club", "class=Cricketer" ],
+    "19" : [ "pair=dbr:Hampshire_County_Cricket_Club", "Cosine=0.991", "triple=e_dbp:club dbr:Hampshire_County_Cricket_Club", "class=Cricketer" ],
+    "20" : [ "pair=dbr:Berkshire_County_Cricket_Club", "Cosine=0.991", "triple=e_dbp:club dbr:Berkshire_County_Cricket_Club", "class=Cricketer" ],
+    "21" : [ "pair=dbr:Norfolk_County_Cricket_Club", "Cosine=0.991", "triple=e_dbp:club dbr:Norfolk_County_Cricket_Club", "class=Cricketer" ],
+    "22" : [ "pair=dbr:South_Australia_cricket_team", "Cosine=0.991", "triple=e_dbp:club dbr:South_Australia_cricket_team", "class=Cricketer" ],
+    "23" : [ "pair=dbr:Nottinghamshire_County_Cricket_Club", "Cosine=0.99", "triple=e_dbp:club dbr:Nottinghamshire_County_Cricket_Club", "class=Cricketer" ],
+    "24" : [ "pair=dbr:Royal_Challengers_Bangalore", "Cosine=0.99", "triple=e_dbp:club dbr:Royal_Challengers_Bangalore", "class=Cricketer" ],
+    "25" : [ "pair=\"Zimbabwe\"@en", "Cosine=0.99", "triple=e_dbp:lastodiagainst \"Zimbabwe\"@en", "class=Cricketer" ],
+    "26" : [ "pair=\"Australia\"@en", "Cosine=0.99", "triple=e_dbp:lastodiagainst \"Australia\"@en", "class=Cricketer" ],
+    "27" : [ "pair=dbr:Dorset_County_Cricket_Club", "Cosine=0.99", "triple=e_dbp:club dbr:Dorset_County_Cricket_Club", "class=Cricketer" ],
+    "28" : [ "pair=dbr:Glamorgan_County_Cricket_Club", "Cosine=0.989", "triple=e_dbp:club dbr:Glamorgan_County_Cricket_Club", "class=Cricketer" ],
+    "29" : [ "pair=dbr:Twenty20_International", "Cosine=0.989", "triple=e_dbp:column dbr:Twenty20_International", "class=Cricketer" ],
+    "30" : [ "pair=\"&ndash;\"@en", "Cosine=0.989", "triple=e_dbp:batAvg \"&ndash;\"@en", "class=Cricketer" ],
+    "31" : [ "pair=\"Sri Lanka\"@en", "Cosine=0.988", "triple=e_dbp:odidebutagainst \"Sri Lanka\"@en", "class=Cricketer" ],
+    "32" : [ "pair=\"India\"@en", "Cosine=0.988", "triple=e_dbp:lasttestagainst \"India\"@en", "class=Cricketer" ],
+    "33" : [ "pair=dbr:Leicestershire_County_Cricket_Club", "Cosine=0.988", "triple=e_dbp:club dbr:Leicestershire_County_Cricket_Club", "class=Cricketer" ],
+    "34" : [ "pair=\"Right-arm offbreak\"@en", "Cosine=0.986", "triple=e_dbp:bowling \"Right-arm offbreak\"@en", "class=Cricketer" ],
+    "35" : [ "pair=dbr:Twenty20", "Cosine=0.985", "triple=e_dbp:column dbr:Twenty20", "class=Cricketer" ],
+    "36" : [ "pair=dbr:Delhi", "Cosine=0.985", "triple=e_dbo:birthPlace dbr:Delhi", "class=Cricketer" ],
+    "37" : [ "pair=\"&ndash;/&ndash;\"@en", "Cosine=0.984", "triple=e_dbp:catches/stumpings \"&ndash;/&ndash;\"@en", "class=Cricketer" ],
+    "38" : [ "pair=dbr:List_A_cricket", "Cosine=0.984", "triple=e_dbp:column dbr:List_A_cricket", "class=Cricketer" ],
+    "39" : [ "pair=dbr:Harare", "Cosine=0.984", "triple=e_dbo:birthPlace dbr:Harare", "class=Cricketer" ],
+    "40" : [ "pair=dbr:Lancashire", "Cosine=0.983", "triple=e_dbp:birthPlace dbr:Lancashire", "class=Cricketer" ],
+    "41" : [ "pair=dbr:Colombo", "Cosine=0.983", "triple=e_dbo:birthPlace dbr:Colombo", "class=Cricketer" ],
+    "42" : [ "pair=dbr:Sussex", "Cosine=0.982", "triple=e_dbp:birthPlace dbr:Sussex", "class=Cricketer" ],
+    "43" : [ "pair=\"N/A\"@en", "Cosine=0.982", "triple=e_dbp:tenfor \"N/A\"@en", "class=Cricketer" ],
+    "44" : [ "pair=\"/\"@en", "Cosine=0.982", "triple=e_dbp:100s/50s \"/\"@en", "class=Cricketer" ],
+    "45" : [ "pair=\"Sydney", "Cosine=0.982", "triple=e_dbp:birthPlace \"Sydney", "class=Cricketer" ],
+    "46" : [ "pair=dbr:Cambridgeshire_County_Cricket_Club", "Cosine=0.982", "triple=e_dbp:club dbr:Cambridgeshire_County_Cricket_Club", "class=Cricketer" ],
+    "47" : [ "pair=\"n/a\"@en", "Cosine=0.982", "triple=e_dbp:tenfor \"n/a\"@en", "class=Cricketer" ],
+    "48" : [ "pair=\"â/2\"@en", "Cosine=0.981", "triple=e_dbp:100s/50s \"â/2\"@en", "class=Cricketer" ],
+    "49" : [ "pair=\"Colombo", "Cosine=0.981", "triple=e_dbp:birthPlace \"Colombo", "class=Cricketer" ],
+    "50" : [ "pair=dbr:Wales", "Cosine=0.981", "triple=e_dbp:birthPlace dbr:Wales", "class=Cricketer" ],
+    "51" : [ "pair=dbr:Staffordshire", "Cosine=0.981", "triple=e_dbo:birthPlace dbr:Staffordshire", "class=Cricketer" ],
+    "52" : [ "pair=\"Right arm medium\"@en", "Cosine=0.981", "triple=e_dbp:bowling \"Right arm medium\"@en", "class=Cricketer" ],
+    "53" : [ "pair=dbr:Transvaal_Province", "Cosine=0.98", "triple=e_dbo:birthPlace dbr:Transvaal_Province", "class=Cricketer" ],
+    "54" : [ "pair=\"â\"@en", "Cosine=0.98", "triple=e_dbp:deliveries \"â\"@en", "class=Cricketer" ],
+    "55" : [ "pair=dbr:Sussex_County_Cricket_Club", "Cosine=0.98", "triple=e_dbp:club dbr:Sussex_County_Cricket_Club", "class=Cricketer" ],
+    "56" : [ "pair=dbr:Middlesex_County_Cricket_Club", "Cosine=0.979", "triple=e_dbp:club dbr:Middlesex_County_Cricket_Club", "class=Cricketer" ],
+    "57" : [ "pair=dbr:Kent", "Cosine=0.978", "triple=e_dbp:birthPlace dbr:Kent", "class=Cricketer" ],
+    "58" : [ "pair=dbr:Bowling_(cricket", "Cosine=0.977", "triple=e_dbp:role dbr:Bowling_(cricket", "class=Cricketer" ],
+    "59" : [ "pair=dbr:Buckinghamshire_County_Cricket_Club", "Cosine=0.977", "triple=e_dbp:club dbr:Buckinghamshire_County_Cricket_Club", "class=Cricketer" ],
+    "60" : [ "pair=dbr:Warwickshire", "Cosine=0.977", "triple=e_dbo:birthPlace dbr:Warwickshire", "class=Cricketer" ],
+    "61" : [ "pair=\"&ndash;/1\"@en", "Cosine=0.977", "triple=e_dbp:100s/50s \"&ndash;/1\"@en", "class=Cricketer" ],
+    "62" : [ "pair=dbr:Left-arm_orthodox_spin", "Cosine=0.976", "triple=e_dbp:bowling dbr:Left-arm_orthodox_spin", "class=Cricketer" ],
+    "63" : [ "pair=dbr:Warwickshire_County_Cricket_Club", "Cosine=0.976", "triple=e_dbp:club dbr:Warwickshire_County_Cricket_Club", "class=Cricketer" ],
+    "64" : [ "pair=dbr:Derbyshire", "Cosine=0.975", "triple=e_dbo:birthPlace dbr:Derbyshire", "class=Cricketer" ],
+    "65" : [ "pair=\"Right-armfast-medium\"", "Cosine=0.975", "triple=e_dbo:bowlingSide \"Right-armfast-medium\"", "class=Cricketer" ],
+    "66" : [ "pair=dbr:Lancashire_County_Cricket_Club", "Cosine=0.975", "triple=e_dbp:club dbr:Lancashire_County_Cricket_Club", "class=Cricketer" ],
+    "67" : [ "pair=dbr:Leicestershire", "Cosine=0.975", "triple=e_dbo:birthPlace dbr:Leicestershire", "class=Cricketer" ],
+    "68" : [ "pair=dbr:Queensland_cricket_team", "Cosine=0.974", "triple=e_dbp:club dbr:Queensland_cricket_team", "class=Cricketer" ],
+    "69" : [ "pair=dbr:One_Day_International", "Cosine=0.974", "triple=e_dbp:column dbr:One_Day_International", "class=Cricketer" ],
+    "70" : [ "pair=\"Left-arm medium\"@en", "Cosine=0.974", "triple=e_dbp:bowling \"Left-arm medium\"@en", "class=Cricketer" ],
+    "71" : [ "pair=\"Ireland\"@en", "Cosine=0.974", "triple=e_dbp:odidebutagainst \"Ireland\"@en", "class=Cricketer" ],
+    "72" : [ "pair=dbr:New_South_Wales_cricket_team", "Cosine=0.974", "triple=e_dbp:club dbr:New_South_Wales_cricket_team", "class=Cricketer" ],
+    "73" : [ "pair=dbr:Batting_(cricket", "Cosine=0.973", "triple=e_dbp:role dbr:Batting_(cricket", "class=Cricketer" ],
+    "74" : [ "pair=\"white\"@en", "Cosine=0.973", "triple=e_dbp:fg \"white\"@en", "class=Cricketer" ],
+    "75" : [ "pair=\"Canada\"@en", "Cosine=0.973", "triple=e_dbp:country \"Canada\"@en", "class=Cricketer" ],
+    "76" : [ "pair=dbr:Marylebone_Cricket_Club", "Cosine=0.973", "triple=e_dbp:club dbr:Marylebone_Cricket_Club", "class=Cricketer" ],
+    "77" : [ "pair=\"Right-arm offbreak\"", "Cosine=0.972", "triple=e_dbo:bowlingSide \"Right-arm offbreak\"", "class=Cricketer" ],
+    "78" : [ "pair=\"Slow left-arm orthodox\"@en", "Cosine=0.972", "triple=e_dbp:bowling \"Slow left-arm orthodox\"@en", "class=Cricketer" ],
+    "79" : [ "pair=\"\"@en", "Cosine=0.972", "triple=e_dbp:year \"\"@en", "class=Cricketer" ],
+    "80" : [ "pair=dbr:Nottinghamshire", "Cosine=0.972", "triple=e_dbp:birthPlace dbr:Nottinghamshire", "class=Cricketer" ],
+    "81" : [ "pair=dbr:Batting_order_(cricket", "Cosine=0.972", "triple=e_dbp:role dbr:Batting_order_(cricket", "class=Cricketer" ],
+    "82" : [ "pair=dbr:Yorkshire_County_Cricket_Club", "Cosine=0.972", "triple=e_dbp:club dbr:Yorkshire_County_Cricket_Club", "class=Cricketer" ],
+    "83" : [ "pair=dbr:Gloucestershire_County_Cricket_Club", "Cosine=0.972", "triple=e_dbp:club dbr:Gloucestershire_County_Cricket_Club", "class=Cricketer" ],
+    "84" : [ "pair=\"-\"@en", "Cosine=0.972", "triple=e_dbp:batAvg \"-\"@en", "class=Cricketer" ],
+    "85" : [ "pair=dbr:Karachi", "Cosine=0.971", "triple=e_dbo:birthPlace dbr:Karachi", "class=Cricketer" ],
+    "86" : [ "pair=\"Right-arm medium\"@en", "Cosine=0.97", "triple=e_dbp:bowling \"Right-arm medium\"@en", "class=Cricketer" ],
+    "87" : [ "pair=\"Left-handed\"@en", "Cosine=0.97", "triple=e_dbp:batting \"Left-handed\"@en", "class=Cricketer" ],
+    "88" : [ "pair=dbr:Leg_spin", "Cosine=0.97", "triple=e_dbp:bowling dbr:Leg_spin", "class=Cricketer" ],
+    "89" : [ "pair=dbr:Victoria_cricket_team", "Cosine=0.969", "triple=e_dbp:club dbr:Victoria_cricket_team", "class=Cricketer" ],
+    "90" : [ "pair=dbr:Lahore", "Cosine=0.969", "triple=e_dbo:birthPlace dbr:Lahore", "class=Cricketer" ],
+    "91" : [ "pair=dbr:Bangladesh", "Cosine=0.969", "triple=e_dbo:country dbr:Bangladesh", "class=Cricketer" ],
+    "92" : [ "pair=\"Netherlands\"@en", "Cosine=0.969", "triple=e_dbp:country \"Netherlands\"@en", "class=Cricketer" ],
+    "93" : [ "pair=\"Left-hand bat\"@en", "Cosine=0.969", "triple=e_dbp:batting \"Left-hand bat\"@en", "class=Cricketer" ],
+    "94" : [ "pair=\"-/-\"@en", "Cosine=0.969", "triple=e_dbp:catches/stumpings \"-/-\"@en", "class=Cricketer" ],
+    "95" : [ "pair=\"Slow left-arm orthodox\"", "Cosine=0.969", "triple=e_dbo:bowlingSide \"Slow left-arm orthodox\"", "class=Cricketer" ],
+    "96" : [ "pair=\"Right-arm fast\"@en", "Cosine=0.969", "triple=e_dbp:bowling \"Right-arm fast\"@en", "class=Cricketer" ],
+    "97" : [ "pair=dbr:Auckland", "Cosine=0.968", "triple=e_dbo:deathPlace dbr:Auckland", "class=Cricketer" ],
+    "98" : [ "pair=\"Left-hand bat\"", "Cosine=0.968", "triple=e_dbo:battingSide \"Left-hand bat\"", "class=Cricketer" ],
+    "99" : [ "pair=dbr:Essex", "Cosine=0.968", "triple=e_dbo:birthPlace dbr:Essex", "class=Cricketer" ],
+    "100" : [ "pair=\"true\"@en", "Cosine=0.968", "triple=e_dbp:international \"true\"@en", "class=Cricketer" ],
+    "101" : [ "pair=\"Right-armfast\"", "Cosine=0.967", "triple=e_dbo:bowlingSide \"Right-armfast\"", "class=Cricketer" ],
+    "102" : [ "pair=\"Scotland\"@en", "Cosine=0.967", "triple=e_dbp:country \"Scotland\"@en", "class=Cricketer" ],
+    "103" : [ "pair=dbr:Calcutta", "Cosine=0.967", "triple=e_dbo:birthPlace dbr:Calcutta", "class=Cricketer" ],
+    "104" : [ "pair=\"Right-handed\"@en", "Cosine=0.966", "triple=e_dbp:batting \"Right-handed\"@en", "class=Cricketer" ],
+    "105" : [ "pair=\"Unknown\"@en", "Cosine=0.966", "triple=e_dbp:bowling \"Unknown\"@en", "class=Cricketer" ],
+    "106" : [ "pair=\"Right-arm off-break\"@en", "Cosine=0.966", "triple=e_dbp:bowling \"Right-arm off-break\"@en", "class=Cricketer" ],
+    "107" : [ "pair=dbr:Auckland_cricket_team", "Cosine=0.966", "triple=e_dbp:club dbr:Auckland_cricket_team", "class=Cricketer" ],
+    "108" : [ "pair=dbr:Yorkshire", "Cosine=0.966", "triple=e_dbp:birthPlace dbr:Yorkshire", "class=Cricketer" ],
+    "109" : [ "pair=\"\"", "Cosine=0.966", "triple=e_dbo:battingSide \"\"", "class=Cricketer" ],
+    "110" : [ "pair=dbr:Test_cricket", "Cosine=0.965", "triple=e_dbp:column dbr:Test_cricket", "class=Cricketer" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "derbyshire",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Derbyshire_County_Cricket_Club", "Cosine=0.994", "triple=e_dbp:lastfor dbr:Derbyshire_County_Cricket_Club", "class=Cricketer" ],
+    "1" : [ "pair=\"/\"@en", "Cosine=0.974", "triple=e_dbp:100s/50s \"/\"@en", "class=Cricketer" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "dutch",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Netherlands\"@en", "Cosine=0.977", "triple=e_dbp:country \"Netherlands\"@en", "class=Cricketer" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "english",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Derbyshire", "Cosine=1.0", "triple=e_dbp:birthPlace dbr:Derbyshire", "class=Cricketer" ],
+    "1" : [ "pair=dbr:England", "Cosine=0.994", "triple=e_dbp:country dbr:England", "class=Cricketer" ],
+    "2" : [ "pair=dbr:Hampshire", "Cosine=0.992", "triple=e_dbp:birthPlace dbr:Hampshire", "class=Cricketer" ],
+    "3" : [ "pair=dbr:Nottinghamshire", "Cosine=0.981", "triple=e_dbp:birthPlace dbr:Nottinghamshire", "class=Cricketer" ],
+    "4" : [ "pair=dbr:Derbyshire_County_Cricket_Club", "Cosine=0.981", "triple=e_dbp:debutfor dbr:Derbyshire_County_Cricket_Club", "class=Cricketer" ],
+    "5" : [ "pair=dbr:Staffordshire", "Cosine=0.981", "triple=e_dbo:birthPlace dbr:Staffordshire", "class=Cricketer" ],
+    "6" : [ "pair=dbr:Kent", "Cosine=0.978", "triple=e_dbp:birthPlace dbr:Kent", "class=Cricketer" ],
+    "7" : [ "pair=\"/\"@en", "Cosine=0.974", "triple=e_dbp:100s/50s \"/\"@en", "class=Cricketer" ],
+    "8" : [ "pair=dbr:Berkshire_County_Cricket_Club", "Cosine=0.973", "triple=e_dbp:club dbr:Berkshire_County_Cricket_Club", "class=Cricketer" ],
+    "9" : [ "pair=dbr:Essex", "Cosine=0.968", "triple=e_dbo:birthPlace dbr:Essex", "class=Cricketer" ],
+    "10" : [ "pair=dbr:Leicestershire", "Cosine=0.967", "triple=e_dbo:birthPlace dbr:Leicestershire", "class=Cricketer" ],
+    "11" : [ "pair=\"England\"@en", "Cosine=0.966", "triple=e_dbp:deathPlace \"England\"@en", "class=Cricketer" ],
+    "12" : [ "pair=dbr:Sussex", "Cosine=0.965", "triple=e_dbp:birthPlace dbr:Sussex", "class=Cricketer" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "lankan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Sri_Lanka", "Cosine=0.979", "triple=e_dbo:country dbr:Sri_Lanka", "class=Cricketer" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "new zealand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:New_Zealand_cricket_team", "Cosine=1.0", "triple=e_dbo:country dbr:New_Zealand_cricket_team", "class=Cricketer" ],
+    "1" : [ "pair=\"New Zealand\"@en", "Cosine=0.988", "triple=e_dbp:country \"New Zealand\"@en", "class=Cricketer" ],
+    "2" : [ "pair=dbr:New_Zealand", "Cosine=0.986", "triple=e_dbo:country dbr:New_Zealand", "class=Cricketer" ],
+    "3" : [ "pair=dbr:Auckland", "Cosine=0.968", "triple=e_dbo:deathPlace dbr:Auckland", "class=Cricketer" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "somerset",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Somerset_County_Cricket_Club", "Cosine=1.0", "triple=e_dbp:lastfor dbr:Somerset_County_Cricket_Club", "class=Cricketer" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South African\"@en", "Cosine=1.0", "triple=e_dbp:country \"South African\"@en", "class=Cricketer" ],
+    "1" : [ "pair=dbr:South_Africa", "Cosine=0.989", "triple=e_dbo:country dbr:South_Africa", "class=Cricketer" ],
+    "2" : [ "pair=\"South Africa\"@en", "Cosine=0.984", "triple=e_dbp:country \"South Africa\"@en", "class=Cricketer" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "sri lankan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Sri_Lanka", "Cosine=0.979", "triple=e_dbo:country dbr:Sri_Lanka", "class=Cricketer" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "sussex",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Sussex", "Cosine=0.965", "triple=e_dbp:birthPlace dbr:Sussex", "class=Cricketer" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "umpire",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"true\"@en", "Cosine=0.971", "triple=e_dbp:umpire \"true\"@en", "class=Cricketer" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "zealand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:New_Zealand_cricket_team", "Cosine=1.0", "triple=e_dbo:country dbr:New_Zealand_cricket_team", "class=Cricketer" ],
+    "1" : [ "pair=dbr:New_Zealand", "Cosine=0.991", "triple=e_dbo:country dbr:New_Zealand", "class=Cricketer" ],
+    "2" : [ "pair=\"New Zealand\"@en", "Cosine=0.99", "triple=e_dbp:country \"New Zealand\"@en", "class=Cricketer" ],
+    "3" : [ "pair=dbr:Auckland", "Cosine=0.968", "triple=e_dbo:deathPlace dbr:Auckland", "class=Cricketer" ]
+  }
+} ]

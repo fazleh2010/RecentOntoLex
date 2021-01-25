@@ -1,0 +1,29 @@
+[ {
+  "id" : 5,
+  "pattern" : "developed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "Kulczynski=0.98", "triple=e_dbp:producer \"\"@en", "class=VideoGame" ],
+    "1" : [ "pair=\"yes\"@en", "Kulczynski=0.976", "triple=e_dbp:collapsed \"yes\"@en", "class=VideoGame" ],
+    "2" : [ "pair=dbr:Sony_Interactive_Entertainment", "Kulczynski=0.935", "triple=e_dbo:publisher dbr:Sony_Interactive_Entertainment", "class=VideoGame" ],
+    "3" : [ "pair=\"8.5\"^^<http://www.w3.org/2001/XMLSchema#double>", "Kulczynski=0.933", "triple=e_dbp:destruct \"8.5\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=VideoGame" ],
+    "4" : [ "pair=dbr:Windows_Phone", "Kulczynski=0.927", "triple=e_dbo:computingPlatform dbr:Windows_Phone", "class=VideoGame" ],
+    "5" : [ "pair=dbr:Stealth_game", "Kulczynski=0.925", "triple=e_dbo:genre dbr:Stealth_game", "class=VideoGame" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "Kulczynski=0.95", "triple=e_dbp:producer \"\"@en", "class=VideoGame" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "released",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Virtual_Console", "Kulczynski=0.934", "triple=e_dbo:computingPlatform dbr:Virtual_Console", "class=VideoGame" ],
+    "1" : [ "pair=dbr:EA_Canada", "Kulczynski=0.932", "triple=e_dbo:developer dbr:EA_Canada", "class=VideoGame" ],
+    "2" : [ "pair=\"Hardcore Gamer\"@en", "Kulczynski=0.931", "triple=e_dbp:rev \"Hardcore Gamer\"@en", "class=VideoGame" ]
+  }
+} ]

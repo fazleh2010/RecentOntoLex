@@ -1,0 +1,699 @@
+[ {
+  "id" : 1,
+  "pattern" : "100 metres",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/metre>", "Cosine=0.925", "triple=e_dbp:event \"100.0\"^^<http://dbpedia.org/datatype/metre>", "class=Athlete" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "400 metres",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"400.0\"^^<http://dbpedia.org/datatype/metre>", "Cosine=0.913", "triple=e_dbp:event \"400.0\"^^<http://dbpedia.org/datatype/metre>", "class=Athlete" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "800 metres",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"800.0\"^^<http://dbpedia.org/datatype/metre>", "Cosine=0.944", "triple=e_dbp:event \"800.0\"^^<http://dbpedia.org/datatype/metre>", "class=Athlete" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "alpine",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Alpine_skiing", "Cosine=0.996", "triple=e_dbp:sport dbr:Alpine_skiing", "class=Athlete" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "alpine skier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Alpine_skiing", "Cosine=0.962", "triple=e_dbp:sport dbr:Alpine_skiing", "class=Athlete" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "Cosine=0.961", "triple=e_dbp:nationality \"American\"@en", "class=Athlete" ],
+    "1" : [ "pair=dbr:United_States", "Cosine=0.905", "triple=e_dbo:nationality dbr:United_States", "class=Athlete" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "archer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Archery", "Cosine=0.966", "triple=e_dbp:sport dbr:Archery", "class=Athlete" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "basketball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Basketball", "Cosine=1.0", "triple=e_dbp:sport dbr:Basketball", "class=Athlete" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "basketball player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Basketball", "Cosine=0.982", "triple=e_dbp:sport dbr:Basketball", "class=Athlete" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "biathlete",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Biathlon", "Cosine=0.981", "triple=e_dbp:sport dbr:Biathlon", "class=Athlete" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "bobsledder",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Bobsleigh", "Cosine=1.0", "triple=e_dbp:sport dbr:Bobsleigh", "class=Athlete" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "bobsledder competed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Bobsleigh", "Cosine=0.891", "triple=e_dbp:sport dbr:Bobsleigh", "class=Athlete" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "boxer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Boxing", "Cosine=1.0", "triple=e_dbp:sport dbr:Boxing", "class=Athlete" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "boxer competed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Boxing", "Cosine=0.969", "triple=e_dbp:sport dbr:Boxing", "class=Athlete" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "boxer competed\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Boxing", "Cosine=0.926", "triple=e_dbp:sport dbr:Boxing", "class=Athlete" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "boxer competed\u001Cin\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Boxing", "Cosine=0.926", "triple=e_dbp:sport dbr:Boxing", "class=Athlete" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "competed in\u001Cthe\u001Cmen",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Boxing", "Cosine=0.931", "triple=e_dbp:sport dbr:Boxing", "class=Athlete" ],
+    "1" : [ "pair=dbr:Ice_hockey", "Cosine=0.896", "triple=e_dbp:sport dbr:Ice_hockey", "class=Athlete" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "competed the\u001Cmen",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Boxing", "Cosine=0.933", "triple=e_dbp:sport dbr:Boxing", "class=Athlete" ],
+    "1" : [ "pair=dbr:Ice_hockey", "Cosine=0.903", "triple=e_dbp:sport dbr:Ice_hockey", "class=Athlete" ],
+    "2" : [ "pair=dbr:Basketball", "Cosine=0.889", "triple=e_dbp:sport dbr:Basketball", "class=Athlete" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "cross-country",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Cross-country_skiing_(sport", "Cosine=0.984", "triple=e_dbp:sport dbr:Cross-country_skiing_(sport", "class=Athlete" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "cross-country skier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Cross-country_skiing_(sport", "Cosine=0.974", "triple=e_dbp:sport dbr:Cross-country_skiing_(sport", "class=Athlete" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "cross-country skier he\u001Ccompeted",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Cross-country_skiing_(sport", "Cosine=0.952", "triple=e_dbp:sport dbr:Cross-country_skiing_(sport", "class=Athlete" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "czech",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Czech\"@en", "Cosine=0.994", "triple=e_dbp:nationality \"Czech\"@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "diver",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Diving_(sport", "Cosine=1.0", "triple=e_dbp:sport dbr:Diving_(sport", "class=Athlete" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "dutch",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Dutch\"@en", "Cosine=0.981", "triple=e_dbp:nationality \"Dutch\"@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "equestrian",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Equestrianism", "Cosine=0.991", "triple=e_dbp:sport dbr:Equestrianism", "class=Athlete" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "event",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Boxing", "Cosine=0.931", "triple=e_dbp:sport dbr:Boxing", "class=Athlete" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "fencer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Fencing", "Cosine=0.978", "triple=e_dbp:sport dbr:Fencing", "class=Athlete" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "field",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Field_hockey", "Cosine=0.991", "triple=e_dbp:sport dbr:Field_hockey", "class=Athlete" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "field hockey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Field_hockey", "Cosine=0.991", "triple=e_dbp:sport dbr:Field_hockey", "class=Athlete" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "field hockey player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Field_hockey", "Cosine=0.973", "triple=e_dbp:sport dbr:Field_hockey", "class=Athlete" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "gymnast",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Gymnastics", "Cosine=0.997", "triple=e_dbp:sport dbr:Gymnastics", "class=Athlete" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "handball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Handball", "Cosine=1.0", "triple=e_dbp:sport dbr:Handball", "class=Athlete" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "handball player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Handball", "Cosine=0.992", "triple=e_dbp:sport dbr:Handball", "class=Athlete" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "hockey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ice_hockey", "Cosine=1.0", "triple=e_dbp:sport dbr:Ice_hockey", "class=Athlete" ],
+    "1" : [ "pair=dbr:Field_hockey", "Cosine=0.994", "triple=e_dbp:sport dbr:Field_hockey", "class=Athlete" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "hockey player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ice_hockey", "Cosine=0.988", "triple=e_dbp:sport dbr:Ice_hockey", "class=Athlete" ],
+    "1" : [ "pair=dbr:Field_hockey", "Cosine=0.979", "triple=e_dbp:sport dbr:Field_hockey", "class=Athlete" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "ice hockey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ice_hockey", "Cosine=1.0", "triple=e_dbp:sport dbr:Ice_hockey", "class=Athlete" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "ice hockey player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ice_hockey", "Cosine=0.988", "triple=e_dbp:sport dbr:Ice_hockey", "class=Athlete" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "ice hockey player\u001Che",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ice_hockey", "Cosine=0.89", "triple=e_dbp:sport dbr:Ice_hockey", "class=Athlete" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "judoka",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Judo", "Cosine=0.992", "triple=e_dbp:sport dbr:Judo", "class=Athlete" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "long-distance",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "Cosine=0.965", "triple=e_dbp:sport \"Long-distance running\"@en", "class=Athlete" ],
+    "1" : [ "pair=\"Marathon\"@en", "Cosine=0.932", "triple=e_dbp:event \"Marathon\"@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "long-distance runner",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "Cosine=0.965", "triple=e_dbp:sport \"Long-distance running\"@en", "class=Athlete" ],
+    "1" : [ "pair=\"Marathon\"@en", "Cosine=0.932", "triple=e_dbp:event \"Marathon\"@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "long-distance runner he\u001Ccompeted",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "Cosine=0.899", "triple=e_dbp:sport \"Long-distance running\"@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "long-distance runner he\u001Ccompeted\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "Cosine=0.895", "triple=e_dbp:sport \"Long-distance running\"@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "marathon",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Marathon\"@en", "Cosine=0.995", "triple=e_dbp:event \"Marathon\"@en", "class=Athlete" ],
+    "1" : [ "pair=dbr:Marathon", "Cosine=0.93", "triple=e_dbp:event dbr:Marathon", "class=Athlete" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "men",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Boxing", "Cosine=0.935", "triple=e_dbp:sport dbr:Boxing", "class=Athlete" ],
+    "1" : [ "pair=dbr:Ice_hockey", "Cosine=0.903", "triple=e_dbp:sport dbr:Ice_hockey", "class=Athlete" ],
+    "2" : [ "pair=dbr:Basketball", "Cosine=0.889", "triple=e_dbp:sport dbr:Basketball", "class=Athlete" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "metres",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Middle-distance running\"@en", "Cosine=0.99", "triple=e_dbp:sport \"Middle-distance running\"@en", "class=Athlete" ],
+    "1" : [ "pair=\"Sprinting\"@en", "Cosine=0.989", "triple=e_dbp:sport \"Sprinting\"@en", "class=Athlete" ],
+    "2" : [ "pair=\"800.0\"^^<http://dbpedia.org/datatype/metre>", "Cosine=0.949", "triple=e_dbp:event \"800.0\"^^<http://dbpedia.org/datatype/metre>", "class=Athlete" ],
+    "3" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/metre>", "Cosine=0.935", "triple=e_dbp:event \"100.0\"^^<http://dbpedia.org/datatype/metre>", "class=Athlete" ],
+    "4" : [ "pair=\"Track and field\"@en", "Cosine=0.934", "triple=e_dbp:sport \"Track and field\"@en", "class=Athlete" ],
+    "5" : [ "pair=\"400.0\"^^<http://dbpedia.org/datatype/metre>", "Cosine=0.923", "triple=e_dbp:event \"400.0\"^^<http://dbpedia.org/datatype/metre>", "class=Athlete" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "middle-distance runner",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Middle-distance running\"@en", "Cosine=1.0", "triple=e_dbp:sport \"Middle-distance running\"@en", "class=Athlete" ],
+    "1" : [ "pair=\"800.0\"^^<http://dbpedia.org/datatype/metre>", "Cosine=0.926", "triple=e_dbp:event \"800.0\"^^<http://dbpedia.org/datatype/metre>", "class=Athlete" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "modern pentathlete",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Modern_pentathlon", "Cosine=0.95", "triple=e_dbp:sport dbr:Modern_pentathlon", "class=Athlete" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "olympics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volleyball", "Cosine=1.0", "triple=e_dbp:sport dbr:Volleyball", "class=Athlete" ],
+    "1" : [ "pair=dbr:Sailing_(sport", "Cosine=0.994", "triple=e_dbp:sport dbr:Sailing_(sport", "class=Athlete" ],
+    "2" : [ "pair=dbr:Boxing", "Cosine=0.992", "triple=e_dbp:sport dbr:Boxing", "class=Athlete" ],
+    "3" : [ "pair=\"Egyptian\"@en", "Cosine=0.992", "triple=e_dbp:nationality \"Egyptian\"@en", "class=Athlete" ],
+    "4" : [ "pair=dbr:Equestrianism", "Cosine=0.991", "triple=e_dbp:sport dbr:Equestrianism", "class=Athlete" ],
+    "5" : [ "pair=dbr:Ice_hockey", "Cosine=0.988", "triple=e_dbp:sport dbr:Ice_hockey", "class=Athlete" ],
+    "6" : [ "pair=dbr:Biathlon", "Cosine=0.988", "triple=e_dbp:sport dbr:Biathlon", "class=Athlete" ],
+    "7" : [ "pair=\"Romanian\"@en", "Cosine=0.986", "triple=e_dbp:nationality \"Romanian\"@en", "class=Athlete" ],
+    "8" : [ "pair=dbr:Basketball", "Cosine=0.986", "triple=e_dbp:sport dbr:Basketball", "class=Athlete" ],
+    "9" : [ "pair=\"Belgian\"@en", "Cosine=0.986", "triple=e_dbp:nationality \"Belgian\"@en", "class=Athlete" ],
+    "10" : [ "pair=\"Middle-distance running\"@en", "Cosine=0.985", "triple=e_dbp:sport \"Middle-distance running\"@en", "class=Athlete" ],
+    "11" : [ "pair=dbr:Gymnastics", "Cosine=0.985", "triple=e_dbp:sport dbr:Gymnastics", "class=Athlete" ],
+    "12" : [ "pair=dbr:Handball", "Cosine=0.984", "triple=e_dbp:sport dbr:Handball", "class=Athlete" ],
+    "13" : [ "pair=dbr:Cross-country_skiing_(sport", "Cosine=0.984", "triple=e_dbp:sport dbr:Cross-country_skiing_(sport", "class=Athlete" ],
+    "14" : [ "pair=\"Danish\"@en", "Cosine=0.983", "triple=e_dbp:nationality \"Danish\"@en", "class=Athlete" ],
+    "15" : [ "pair=\"Sprinting\"@en", "Cosine=0.983", "triple=e_dbp:sport \"Sprinting\"@en", "class=Athlete" ],
+    "16" : [ "pair=\"Soviet\"@en", "Cosine=0.981", "triple=e_dbp:nationality \"Soviet\"@en", "class=Athlete" ],
+    "17" : [ "pair=\"Argentine\"@en", "Cosine=0.978", "triple=e_dbp:nationality \"Argentine\"@en", "class=Athlete" ],
+    "18" : [ "pair=\"Bulgarian\"@en", "Cosine=0.978", "triple=e_dbp:nationality \"Bulgarian\"@en", "class=Athlete" ],
+    "19" : [ "pair=\"Swiss\"@en", "Cosine=0.977", "triple=e_dbp:nationality \"Swiss\"@en", "class=Athlete" ],
+    "20" : [ "pair=dbr:Field_hockey", "Cosine=0.973", "triple=e_dbp:sport dbr:Field_hockey", "class=Athlete" ],
+    "21" : [ "pair=\"Long-distance running\"@en", "Cosine=0.972", "triple=e_dbp:sport \"Long-distance running\"@en", "class=Athlete" ],
+    "22" : [ "pair=\"Hungarian\"@en", "Cosine=0.97", "triple=e_dbp:nationality \"Hungarian\"@en", "class=Athlete" ],
+    "23" : [ "pair=\"Swedish\"@en", "Cosine=0.969", "triple=e_dbp:nationality \"Swedish\"@en", "class=Athlete" ],
+    "24" : [ "pair=\"Austrian\"@en", "Cosine=0.968", "triple=e_dbp:nationality \"Austrian\"@en", "class=Athlete" ],
+    "25" : [ "pair=\"Mexican\"@en", "Cosine=0.967", "triple=e_dbp:nationality \"Mexican\"@en", "class=Athlete" ],
+    "26" : [ "pair=\"Finnish\"@en", "Cosine=0.965", "triple=e_dbp:nationality \"Finnish\"@en", "class=Athlete" ],
+    "27" : [ "pair=dbr:Rowing_(sport", "Cosine=0.964", "triple=e_dbp:sport dbr:Rowing_(sport", "class=Athlete" ],
+    "28" : [ "pair=dbr:Bobsleigh", "Cosine=0.959", "triple=e_dbp:sport dbr:Bobsleigh", "class=Athlete" ],
+    "29" : [ "pair=dbr:Water_polo", "Cosine=0.957", "triple=e_dbp:sport dbr:Water_polo", "class=Athlete" ],
+    "30" : [ "pair=dbr:Budapest", "Cosine=0.956", "triple=e_dbo:birthPlace dbr:Budapest", "class=Athlete" ],
+    "31" : [ "pair=dbr:Alpine_skiing", "Cosine=0.952", "triple=e_dbp:sport dbr:Alpine_skiing", "class=Athlete" ],
+    "32" : [ "pair=\"Czech\"@en", "Cosine=0.948", "triple=e_dbp:nationality \"Czech\"@en", "class=Athlete" ],
+    "33" : [ "pair=dbr:Shooting_sports", "Cosine=0.944", "triple=e_dbp:sport dbr:Shooting_sports", "class=Athlete" ],
+    "34" : [ "pair=\"Polish\"@en", "Cosine=0.943", "triple=e_dbp:nationality \"Polish\"@en", "class=Athlete" ],
+    "35" : [ "pair=\"Marathon\"@en", "Cosine=0.942", "triple=e_dbp:event \"Marathon\"@en", "class=Athlete" ],
+    "36" : [ "pair=\"German\"@en", "Cosine=0.939", "triple=e_dbp:nationality \"German\"@en", "class=Athlete" ],
+    "37" : [ "pair=\"Canadian\"@en", "Cosine=0.935", "triple=e_dbp:nationality \"Canadian\"@en", "class=Athlete" ],
+    "38" : [ "pair=dbr:Fencing", "Cosine=0.935", "triple=e_dbp:sport dbr:Fencing", "class=Athlete" ],
+    "39" : [ "pair=\"South Korean\"@en", "Cosine=0.934", "triple=e_dbp:nationality \"South Korean\"@en", "class=Athlete" ],
+    "40" : [ "pair=\"Japanese\"@en", "Cosine=0.933", "triple=e_dbp:nationality \"Japanese\"@en", "class=Athlete" ],
+    "41" : [ "pair=dbr:Soviet_Union", "Cosine=0.929", "triple=e_dbo:nationality dbr:Soviet_Union", "class=Athlete" ],
+    "42" : [ "pair=\"Brazilian\"@en", "Cosine=0.927", "triple=e_dbp:nationality \"Brazilian\"@en", "class=Athlete" ],
+    "43" : [ "pair=dbr:Diving_(sport", "Cosine=0.924", "triple=e_dbp:sport dbr:Diving_(sport", "class=Athlete" ],
+    "44" : [ "pair=\"Track and field\"@en", "Cosine=0.922", "triple=e_dbp:sport \"Track and field\"@en", "class=Athlete" ],
+    "45" : [ "pair=dbr:Wrestling", "Cosine=0.92", "triple=e_dbp:sport dbr:Wrestling", "class=Athlete" ],
+    "46" : [ "pair=\"French\"@en", "Cosine=0.915", "triple=e_dbp:nationality \"French\"@en", "class=Athlete" ],
+    "47" : [ "pair=\"Spanish\"@en", "Cosine=0.915", "triple=e_dbp:nationality \"Spanish\"@en", "class=Athlete" ],
+    "48" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/metre>", "Cosine=0.898", "triple=e_dbp:event \"100.0\"^^<http://dbpedia.org/datatype/metre>", "class=Athlete" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "pentathlete",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Modern_pentathlon", "Cosine=0.956", "triple=e_dbp:sport dbr:Modern_pentathlon", "class=Athlete" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volleyball", "Cosine=1.0", "triple=e_dbp:sport dbr:Volleyball", "class=Athlete" ],
+    "1" : [ "pair=dbr:Handball", "Cosine=0.992", "triple=e_dbp:sport dbr:Handball", "class=Athlete" ],
+    "2" : [ "pair=dbr:Water_polo", "Cosine=0.99", "triple=e_dbp:sport dbr:Water_polo", "class=Athlete" ],
+    "3" : [ "pair=dbr:Basketball", "Cosine=0.989", "triple=e_dbp:sport dbr:Basketball", "class=Athlete" ],
+    "4" : [ "pair=dbr:Ice_hockey", "Cosine=0.988", "triple=e_dbp:sport dbr:Ice_hockey", "class=Athlete" ],
+    "5" : [ "pair=dbr:Field_hockey", "Cosine=0.982", "triple=e_dbp:sport dbr:Field_hockey", "class=Athlete" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "polo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Water_polo", "Cosine=1.0", "triple=e_dbp:sport dbr:Water_polo", "class=Athlete" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "polo player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Water_polo", "Cosine=0.99", "triple=e_dbp:sport dbr:Water_polo", "class=Athlete" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "rower",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Rowing_(sport", "Cosine=0.972", "triple=e_dbp:sport dbr:Rowing_(sport", "class=Athlete" ],
+    "1" : [ "pair=\"Rowing\"@en", "Cosine=0.952", "triple=e_dbp:sport \"Rowing\"@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "runner",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Middle-distance running\"@en", "Cosine=1.0", "triple=e_dbp:sport \"Middle-distance running\"@en", "class=Athlete" ],
+    "1" : [ "pair=\"Long-distance running\"@en", "Cosine=0.993", "triple=e_dbp:sport \"Long-distance running\"@en", "class=Athlete" ],
+    "2" : [ "pair=\"Marathon\"@en", "Cosine=0.976", "triple=e_dbp:event \"Marathon\"@en", "class=Athlete" ],
+    "3" : [ "pair=\"800.0\"^^<http://dbpedia.org/datatype/metre>", "Cosine=0.955", "triple=e_dbp:event \"800.0\"^^<http://dbpedia.org/datatype/metre>", "class=Athlete" ],
+    "4" : [ "pair=dbr:Marathon", "Cosine=0.93", "triple=e_dbp:event dbr:Marathon", "class=Athlete" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "runner competed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "Cosine=0.899", "triple=e_dbp:sport \"Long-distance running\"@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "runner competed\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "Cosine=0.895", "triple=e_dbp:sport \"Long-distance running\"@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "runner competed\u001Cin\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "Cosine=0.895", "triple=e_dbp:sport \"Long-distance running\"@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "sailor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Sailing_(sport", "Cosine=0.989", "triple=e_dbp:sport dbr:Sailing_(sport", "class=Athlete" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "sailor competed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Sailing_(sport", "Cosine=0.925", "triple=e_dbp:sport dbr:Sailing_(sport", "class=Athlete" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "shooter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Shooting_sports", "Cosine=0.996", "triple=e_dbp:sport dbr:Shooting_sports", "class=Athlete" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "skier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Alpine_skiing", "Cosine=0.987", "triple=e_dbp:sport dbr:Alpine_skiing", "class=Athlete" ],
+    "1" : [ "pair=dbr:Cross-country_skiing_(sport", "Cosine=0.984", "triple=e_dbp:sport dbr:Cross-country_skiing_(sport", "class=Athlete" ]
+  }
+}, {
+  "id" : 92,
+  "pattern" : "skier competed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Cross-country_skiing_(sport", "Cosine=0.952", "triple=e_dbp:sport dbr:Cross-country_skiing_(sport", "class=Athlete" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South Korean\"@en", "Cosine=0.99", "triple=e_dbp:nationality \"South Korean\"@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 98,
+  "pattern" : "sprinter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Sprinting\"@en", "Cosine=0.996", "triple=e_dbp:sport \"Sprinting\"@en", "class=Athlete" ],
+    "1" : [ "pair=\"400.0\"^^<http://dbpedia.org/datatype/metre>", "Cosine=0.953", "triple=e_dbp:event \"400.0\"^^<http://dbpedia.org/datatype/metre>", "class=Athlete" ],
+    "2" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/metre>", "Cosine=0.95", "triple=e_dbp:event \"100.0\"^^<http://dbpedia.org/datatype/metre>", "class=Athlete" ]
+  }
+}, {
+  "id" : 99,
+  "pattern" : "summer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volleyball", "Cosine=1.0", "triple=e_dbp:sport dbr:Volleyball", "class=Athlete" ],
+    "1" : [ "pair=\"Egyptian\"@en", "Cosine=1.0", "triple=e_dbp:nationality \"Egyptian\"@en", "class=Athlete" ],
+    "2" : [ "pair=dbr:Sailing_(sport", "Cosine=0.992", "triple=e_dbp:sport dbr:Sailing_(sport", "class=Athlete" ],
+    "3" : [ "pair=dbr:Equestrianism", "Cosine=0.991", "triple=e_dbp:sport dbr:Equestrianism", "class=Athlete" ],
+    "4" : [ "pair=dbr:Boxing", "Cosine=0.991", "triple=e_dbp:sport dbr:Boxing", "class=Athlete" ],
+    "5" : [ "pair=dbr:Gymnastics", "Cosine=0.985", "triple=e_dbp:sport dbr:Gymnastics", "class=Athlete" ],
+    "6" : [ "pair=dbr:Handball", "Cosine=0.984", "triple=e_dbp:sport dbr:Handball", "class=Athlete" ],
+    "7" : [ "pair=dbr:Basketball", "Cosine=0.982", "triple=e_dbp:sport dbr:Basketball", "class=Athlete" ],
+    "8" : [ "pair=\"Sprinting\"@en", "Cosine=0.981", "triple=e_dbp:sport \"Sprinting\"@en", "class=Athlete" ],
+    "9" : [ "pair=\"Middle-distance running\"@en", "Cosine=0.981", "triple=e_dbp:sport \"Middle-distance running\"@en", "class=Athlete" ],
+    "10" : [ "pair=\"Long-distance running\"@en", "Cosine=0.972", "triple=e_dbp:sport \"Long-distance running\"@en", "class=Athlete" ],
+    "11" : [ "pair=dbr:Field_hockey", "Cosine=0.97", "triple=e_dbp:sport dbr:Field_hockey", "class=Athlete" ],
+    "12" : [ "pair=\"Danish\"@en", "Cosine=0.967", "triple=e_dbp:nationality \"Danish\"@en", "class=Athlete" ],
+    "13" : [ "pair=\"Belgian\"@en", "Cosine=0.964", "triple=e_dbp:nationality \"Belgian\"@en", "class=Athlete" ],
+    "14" : [ "pair=\"Mexican\"@en", "Cosine=0.961", "triple=e_dbp:nationality \"Mexican\"@en", "class=Athlete" ],
+    "15" : [ "pair=dbr:Rowing_(sport", "Cosine=0.958", "triple=e_dbp:sport dbr:Rowing_(sport", "class=Athlete" ],
+    "16" : [ "pair=dbr:Water_polo", "Cosine=0.95", "triple=e_dbp:sport dbr:Water_polo", "class=Athlete" ],
+    "17" : [ "pair=\"Marathon\"@en", "Cosine=0.947", "triple=e_dbp:event \"Marathon\"@en", "class=Athlete" ],
+    "18" : [ "pair=dbr:Shooting_sports", "Cosine=0.937", "triple=e_dbp:sport dbr:Shooting_sports", "class=Athlete" ],
+    "19" : [ "pair=dbr:Budapest", "Cosine=0.926", "triple=e_dbo:birthPlace dbr:Budapest", "class=Athlete" ],
+    "20" : [ "pair=dbr:Fencing", "Cosine=0.926", "triple=e_dbp:sport dbr:Fencing", "class=Athlete" ],
+    "21" : [ "pair=\"Hungarian\"@en", "Cosine=0.924", "triple=e_dbp:nationality \"Hungarian\"@en", "class=Athlete" ],
+    "22" : [ "pair=\"Brazilian\"@en", "Cosine=0.914", "triple=e_dbp:nationality \"Brazilian\"@en", "class=Athlete" ],
+    "23" : [ "pair=dbr:Wrestling", "Cosine=0.911", "triple=e_dbp:sport dbr:Wrestling", "class=Athlete" ],
+    "24" : [ "pair=\"Spanish\"@en", "Cosine=0.91", "triple=e_dbp:nationality \"Spanish\"@en", "class=Athlete" ],
+    "25" : [ "pair=\"Track and field\"@en", "Cosine=0.909", "triple=e_dbp:sport \"Track and field\"@en", "class=Athlete" ],
+    "26" : [ "pair=dbr:Diving_(sport", "Cosine=0.907", "triple=e_dbp:sport dbr:Diving_(sport", "class=Athlete" ],
+    "27" : [ "pair=\"Bulgarian\"@en", "Cosine=0.902", "triple=e_dbp:nationality \"Bulgarian\"@en", "class=Athlete" ],
+    "28" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/metre>", "Cosine=0.898", "triple=e_dbp:event \"100.0\"^^<http://dbpedia.org/datatype/metre>", "class=Athlete" ],
+    "29" : [ "pair=dbr:Soviet_Union", "Cosine=0.896", "triple=e_dbo:nationality dbr:Soviet_Union", "class=Athlete" ],
+    "30" : [ "pair=dbr:Archery", "Cosine=0.895", "triple=e_dbp:sport dbr:Archery", "class=Athlete" ]
+  }
+}, {
+  "id" : 100,
+  "pattern" : "summer olympics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volleyball", "Cosine=1.0", "triple=e_dbp:sport dbr:Volleyball", "class=Athlete" ],
+    "1" : [ "pair=\"Egyptian\"@en", "Cosine=0.992", "triple=e_dbp:nationality \"Egyptian\"@en", "class=Athlete" ],
+    "2" : [ "pair=dbr:Sailing_(sport", "Cosine=0.992", "triple=e_dbp:sport dbr:Sailing_(sport", "class=Athlete" ],
+    "3" : [ "pair=dbr:Equestrianism", "Cosine=0.991", "triple=e_dbp:sport dbr:Equestrianism", "class=Athlete" ],
+    "4" : [ "pair=dbr:Boxing", "Cosine=0.991", "triple=e_dbp:sport dbr:Boxing", "class=Athlete" ],
+    "5" : [ "pair=dbr:Gymnastics", "Cosine=0.985", "triple=e_dbp:sport dbr:Gymnastics", "class=Athlete" ],
+    "6" : [ "pair=dbr:Handball", "Cosine=0.984", "triple=e_dbp:sport dbr:Handball", "class=Athlete" ],
+    "7" : [ "pair=dbr:Basketball", "Cosine=0.982", "triple=e_dbp:sport dbr:Basketball", "class=Athlete" ],
+    "8" : [ "pair=\"Sprinting\"@en", "Cosine=0.981", "triple=e_dbp:sport \"Sprinting\"@en", "class=Athlete" ],
+    "9" : [ "pair=\"Middle-distance running\"@en", "Cosine=0.981", "triple=e_dbp:sport \"Middle-distance running\"@en", "class=Athlete" ],
+    "10" : [ "pair=\"Long-distance running\"@en", "Cosine=0.972", "triple=e_dbp:sport \"Long-distance running\"@en", "class=Athlete" ],
+    "11" : [ "pair=\"Danish\"@en", "Cosine=0.967", "triple=e_dbp:nationality \"Danish\"@en", "class=Athlete" ],
+    "12" : [ "pair=dbr:Field_hockey", "Cosine=0.967", "triple=e_dbp:sport dbr:Field_hockey", "class=Athlete" ],
+    "13" : [ "pair=\"Belgian\"@en", "Cosine=0.964", "triple=e_dbp:nationality \"Belgian\"@en", "class=Athlete" ],
+    "14" : [ "pair=dbr:Rowing_(sport", "Cosine=0.957", "triple=e_dbp:sport dbr:Rowing_(sport", "class=Athlete" ],
+    "15" : [ "pair=\"Mexican\"@en", "Cosine=0.954", "triple=e_dbp:nationality \"Mexican\"@en", "class=Athlete" ],
+    "16" : [ "pair=dbr:Water_polo", "Cosine=0.946", "triple=e_dbp:sport dbr:Water_polo", "class=Athlete" ],
+    "17" : [ "pair=\"Marathon\"@en", "Cosine=0.942", "triple=e_dbp:event \"Marathon\"@en", "class=Athlete" ],
+    "18" : [ "pair=dbr:Shooting_sports", "Cosine=0.935", "triple=e_dbp:sport dbr:Shooting_sports", "class=Athlete" ],
+    "19" : [ "pair=dbr:Budapest", "Cosine=0.926", "triple=e_dbo:birthPlace dbr:Budapest", "class=Athlete" ],
+    "20" : [ "pair=dbr:Fencing", "Cosine=0.926", "triple=e_dbp:sport dbr:Fencing", "class=Athlete" ],
+    "21" : [ "pair=\"Hungarian\"@en", "Cosine=0.924", "triple=e_dbp:nationality \"Hungarian\"@en", "class=Athlete" ],
+    "22" : [ "pair=dbr:Wrestling", "Cosine=0.911", "triple=e_dbp:sport dbr:Wrestling", "class=Athlete" ],
+    "23" : [ "pair=dbr:Diving_(sport", "Cosine=0.907", "triple=e_dbp:sport dbr:Diving_(sport", "class=Athlete" ],
+    "24" : [ "pair=\"Bulgarian\"@en", "Cosine=0.902", "triple=e_dbp:nationality \"Bulgarian\"@en", "class=Athlete" ],
+    "25" : [ "pair=\"Track and field\"@en", "Cosine=0.896", "triple=e_dbp:sport \"Track and field\"@en", "class=Athlete" ],
+    "26" : [ "pair=dbr:Soviet_Union", "Cosine=0.896", "triple=e_dbo:nationality dbr:Soviet_Union", "class=Athlete" ],
+    "27" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/metre>", "Cosine=0.893", "triple=e_dbp:event \"100.0\"^^<http://dbpedia.org/datatype/metre>", "class=Athlete" ],
+    "28" : [ "pair=\"Brazilian\"@en", "Cosine=0.893", "triple=e_dbp:nationality \"Brazilian\"@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 101,
+  "pattern" : "swedish",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Swedish\"@en", "Cosine=0.975", "triple=e_dbp:nationality \"Swedish\"@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 102,
+  "pattern" : "swimmer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Swimming\"@en", "Cosine=0.991", "triple=e_dbp:sport \"Swimming\"@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 104,
+  "pattern" : "tournament",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Basketball", "Cosine=0.961", "triple=e_dbp:sport dbr:Basketball", "class=Athlete" ],
+    "1" : [ "pair=dbr:Volleyball", "Cosine=0.938", "triple=e_dbp:sport dbr:Volleyball", "class=Athlete" ]
+  }
+}, {
+  "id" : 106,
+  "pattern" : "volleyball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volleyball", "Cosine=1.0", "triple=e_dbp:sport dbr:Volleyball", "class=Athlete" ]
+  }
+}, {
+  "id" : 107,
+  "pattern" : "volleyball player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Volleyball", "Cosine=1.0", "triple=e_dbp:sport dbr:Volleyball", "class=Athlete" ]
+  }
+}, {
+  "id" : 108,
+  "pattern" : "water",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Water_polo", "Cosine=1.0", "triple=e_dbp:sport dbr:Water_polo", "class=Athlete" ]
+  }
+}, {
+  "id" : 109,
+  "pattern" : "water polo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Water_polo", "Cosine=1.0", "triple=e_dbp:sport dbr:Water_polo", "class=Athlete" ]
+  }
+}, {
+  "id" : 110,
+  "pattern" : "water polo player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Water_polo", "Cosine=0.99", "triple=e_dbp:sport dbr:Water_polo", "class=Athlete" ]
+  }
+}, {
+  "id" : 111,
+  "pattern" : "weightlifter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Olympic_weightlifting", "Cosine=0.988", "triple=e_dbp:sport dbr:Olympic_weightlifting", "class=Athlete" ]
+  }
+}, {
+  "id" : 112,
+  "pattern" : "winter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Biathlon", "Cosine=0.994", "triple=e_dbp:sport dbr:Biathlon", "class=Athlete" ],
+    "1" : [ "pair=dbr:Ice_hockey", "Cosine=0.988", "triple=e_dbp:sport dbr:Ice_hockey", "class=Athlete" ],
+    "2" : [ "pair=dbr:Cross-country_skiing_(sport", "Cosine=0.984", "triple=e_dbp:sport dbr:Cross-country_skiing_(sport", "class=Athlete" ],
+    "3" : [ "pair=dbr:Alpine_skiing", "Cosine=0.984", "triple=e_dbp:sport dbr:Alpine_skiing", "class=Athlete" ],
+    "4" : [ "pair=dbr:Bobsleigh", "Cosine=0.959", "triple=e_dbp:sport dbr:Bobsleigh", "class=Athlete" ]
+  }
+}, {
+  "id" : 113,
+  "pattern" : "winter olympics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ice_hockey", "Cosine=0.988", "triple=e_dbp:sport dbr:Ice_hockey", "class=Athlete" ],
+    "1" : [ "pair=dbr:Biathlon", "Cosine=0.988", "triple=e_dbp:sport dbr:Biathlon", "class=Athlete" ],
+    "2" : [ "pair=dbr:Cross-country_skiing_(sport", "Cosine=0.974", "triple=e_dbp:sport dbr:Cross-country_skiing_(sport", "class=Athlete" ],
+    "3" : [ "pair=dbr:Bobsleigh", "Cosine=0.959", "triple=e_dbp:sport dbr:Bobsleigh", "class=Athlete" ],
+    "4" : [ "pair=dbr:Alpine_skiing", "Cosine=0.952", "triple=e_dbp:sport dbr:Alpine_skiing", "class=Athlete" ]
+  }
+}, {
+  "id" : 114,
+  "pattern" : "wrestler",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Wrestling", "Cosine=0.994", "triple=e_dbp:sport dbr:Wrestling", "class=Athlete" ]
+  }
+} ]

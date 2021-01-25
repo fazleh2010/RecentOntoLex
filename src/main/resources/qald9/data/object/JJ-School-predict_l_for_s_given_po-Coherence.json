@@ -1,0 +1,32 @@
+[ {
+  "id" : 11,
+  "pattern" : "high",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Secondary_education_in_the_United_States", "Coherence=0.49", "triple=e_dbp:type dbr:Secondary_education_in_the_United_States", "class=School" ],
+    "1" : [ "pair=dbr:Public_high_school", "Coherence=0.485", "triple=e_dbo:type dbr:Public_high_school", "class=School" ],
+    "2" : [ "pair=dbr:Comprehensive_high_school", "Coherence=0.482", "triple=e_dbo:type dbr:Comprehensive_high_school", "class=School" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Coherence=0.496", "triple=e_dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=School" ],
+    "1" : [ "pair=dbr:New_South_Wales", "Coherence=0.495", "triple=e_dbp:location dbr:New_South_Wales", "class=School" ],
+    "2" : [ "pair=dbr:Education_in_Australia", "Coherence=0.492", "triple=e_dbo:type dbr:Education_in_Australia", "class=School" ],
+    "3" : [ "pair=dbr:Department_of_Education_(New_South_Wales", "Coherence=0.491", "triple=e_dbo:localAuthority dbr:Department_of_Education_(New_South_Wales", "class=School" ],
+    "4" : [ "pair=\"Australia Sydney\"@en", "Coherence=0.491", "triple=e_dbp:pushpinMap \"Australia Sydney\"@en", "class=School" ],
+    "5" : [ "pair=dbr:Year_7", "Coherence=0.482", "triple=e_dbo:grades dbr:Year_7", "class=School" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "secondary",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Coherence=0.492", "triple=e_dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=School" ],
+    "1" : [ "pair=dbr:New_South_Wales", "Coherence=0.491", "triple=e_dbp:location dbr:New_South_Wales", "class=School" ],
+    "2" : [ "pair=\"Australia Sydney\"@en", "Coherence=0.486", "triple=e_dbp:pushpinMap \"Australia Sydney\"@en", "class=School" ],
+    "3" : [ "pair=dbr:Department_of_Education_(New_South_Wales", "Coherence=0.485", "triple=e_dbo:localAuthority dbr:Department_of_Education_(New_South_Wales", "class=School" ]
+  }
+} ]

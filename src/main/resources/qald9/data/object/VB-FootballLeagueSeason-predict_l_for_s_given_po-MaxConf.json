@@ -1,0 +1,58 @@
+[ {
+  "id" : 13,
+  "pattern" : "began",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:longestWins \"\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "contested",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Eredivisie", "MaxConf=1.0", "triple=e_dbp:competition dbr:Eredivisie", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "defending",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:longestWins \"\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "ended",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:longestWins \"\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "kicked",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 112,
+  "pattern" : "organized",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 134,
+  "pattern" : "relegated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 192,
+  "pattern" : "won",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ]
+  }
+} ]

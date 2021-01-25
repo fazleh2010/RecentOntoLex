@@ -1,0 +1,40 @@
+[ {
+  "id" : 4,
+  "pattern" : "automotive",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Automotive_industry", "Coherence=0.192", "triple=e_dbp:industry dbr:Automotive_industry", "class=Company" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "indian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:India", "Coherence=0.378", "triple=e_dbp:locationCountry dbr:India", "class=Company" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Japan", "Coherence=0.401", "triple=e_dbo:location dbr:Japan", "class=Company" ],
+    "1" : [ "pair=dbr:Kabushiki_gaisha", "Coherence=0.396", "triple=e_dbp:type dbr:Kabushiki_gaisha", "class=Company" ],
+    "2" : [ "pair=\"ja\"@en", "Coherence=0.396", "triple=e_dbp:nativeNameLang \"ja\"@en", "class=Company" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "largest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Chairman", "Coherence=0.165", "triple=e_dbo:keyPerson dbr:Chairman", "class=Company" ],
+    "1" : [ "pair=dbr:Public_company", "Coherence=0.163", "triple=e_dbo:type dbr:Public_company", "class=Company" ],
+    "2" : [ "pair=dbr:CEO", "Coherence=0.154", "triple=e_dbo:keyPerson dbr:CEO", "class=Company" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "retail",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Retail", "Coherence=0.213", "triple=e_dbo:industry dbr:Retail", "class=Company" ]
+  }
+} ]

@@ -1,0 +1,572 @@
+[ {
+  "id" : 1,
+  "pattern" : "administration",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "administration local",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "administration local\u001Cgovernment",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "administration local\u001Cgovernment\u001Cpowiat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "asturias",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Asturias", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Asturias", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "australia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"600.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=1.0", "triple=e_dbp:utc \"600.0\"^^<http://dbpedia.org/datatype/second>", "class=AdministrativeRegion" ],
+    "1" : [ "pair=\"yes\"@en", "Cosine=1.0", "triple=e_dbp:Noautocat \"yes\"@en", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Brisbane", "Cosine=1.0", "triple=e_dbp:location dbr:Brisbane", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Location in Victoria\"@en", "Cosine=1.0", "triple=e_dbp:caption \"Location in Victoria\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "burkina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"GMT 0\"@en", "Cosine=1.0", "triple=e_dbp:timezone \"GMT 0\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Departments_of_Burkina_Faso", "Cosine=1.0", "triple=e_dbo:type dbr:Departments_of_Burkina_Faso", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Burkina_Faso", "Cosine=1.0", "triple=e_dbo:country dbr:Burkina_Faso", "class=AdministrativeRegion" ],
+    "3" : [ "pair=dbr:Provinces_of_Burkina_Faso", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Provinces_of_Burkina_Faso", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "burkina faso",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Departments_of_Burkina_Faso", "Cosine=1.0", "triple=e_dbo:type dbr:Departments_of_Burkina_Faso", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Provinces_of_Burkina_Faso", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Provinces_of_Burkina_Faso", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "china",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Hebei", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Hebei", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Counties_of_Iran", "Cosine=1.0", "triple=e_dbo:type dbr:Counties_of_Iran", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "3" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "4" : [ "pair=dbr:Fars_Province", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Fars_Province", "class=AdministrativeRegion" ],
+    "5" : [ "pair=\"2018\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=1.0", "triple=e_dbo:censusYear \"2018\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=AdministrativeRegion" ],
+    "6" : [ "pair=dbr:Bakhsh", "Cosine=1.0", "triple=e_dbp:partsType dbr:Bakhsh", "class=AdministrativeRegion" ],
+    "7" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "8" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "county polish",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "county polish powiat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "department",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Departments_of_Burkina_Faso", "Cosine=1.0", "triple=e_dbo:type dbr:Departments_of_Burkina_Faso", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Provinces_of_Burkina_Faso", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Provinces_of_Burkina_Faso", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "district",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Yemen Standard Time\"@en", "Cosine=1.0", "triple=e_dbp:timezone \"Yemen Standard Time\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=\"Indochina Time\"@en", "Cosine=1.0", "triple=e_dbp:timezone \"Indochina Time\"@en", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Districts_of_Yemen", "Cosine=1.0", "triple=e_dbo:type dbr:Districts_of_Yemen", "class=AdministrativeRegion" ],
+    "3" : [ "pair=dbr:Huyá»n", "Cosine=1.0", "triple=e_dbo:type dbr:Huyá»n", "class=AdministrativeRegion" ],
+    "4" : [ "pair=dbr:Vietnam", "Cosine=1.0", "triple=e_dbo:country dbr:Vietnam", "class=AdministrativeRegion" ],
+    "5" : [ "pair=\"Tambon\"@en", "Cosine=1.0", "triple=e_dbp:subdivisionType \"Tambon\"@en", "class=AdministrativeRegion" ],
+    "6" : [ "pair=dbr:Provinces_of_Vietnam", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Provinces_of_Vietnam", "class=AdministrativeRegion" ],
+    "7" : [ "pair=dbr:Subdistrict", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Subdistrict", "class=AdministrativeRegion" ],
+    "8" : [ "pair=dbr:Counties_of_Iran", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Counties_of_Iran", "class=AdministrativeRegion" ],
+    "9" : [ "pair=dbr:List_of_regions_of_Vietnam", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_regions_of_Vietnam", "class=AdministrativeRegion" ],
+    "10" : [ "pair=\"Muban\"@en", "Cosine=1.0", "triple=e_dbp:subdivisionType \"Muban\"@en", "class=AdministrativeRegion" ],
+    "11" : [ "pair=dbr:Bakhsh", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Bakhsh", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "fars",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Fars_Province", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Fars_Province", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "fars province",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Fars_Province", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Fars_Province", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "faso",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Departments_of_Burkina_Faso", "Cosine=1.0", "triple=e_dbo:type dbr:Departments_of_Burkina_Faso", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Provinces_of_Burkina_Faso", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Provinces_of_Burkina_Faso", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "government",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "government powiat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "governorate",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Yemen Standard Time\"@en", "Cosine=1.0", "triple=e_dbp:timezone \"Yemen Standard Time\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Districts_of_Yemen", "Cosine=1.0", "triple=e_dbo:type dbr:Districts_of_Yemen", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Yemen", "Cosine=1.0", "triple=e_dbo:country dbr:Yemen", "class=AdministrativeRegion" ],
+    "3" : [ "pair=dbr:Governorates_of_Yemen", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Governorates_of_Yemen", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "hebei",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Hebei", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Hebei", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "iran",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Counties_of_Iran", "Cosine=1.0", "triple=e_dbo:type dbr:Counties_of_Iran", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Iran_Standard_Time", "Cosine=1.0", "triple=e_dbp:timezoneDst dbr:Iran_Standard_Time", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Fars_Province", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Fars_Province", "class=AdministrativeRegion" ],
+    "3" : [ "pair=dbr:Bakhsh", "Cosine=1.0", "triple=e_dbp:partsType dbr:Bakhsh", "class=AdministrativeRegion" ],
+    "4" : [ "pair=dbr:Provinces_of_Iran", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Provinces_of_Iran", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "local government",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "local government\u001Cpowiat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "local government\u001Cpowiat\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "local government powiat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "local government powiat\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "municipality",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"32.0\"^^<http://dbpedia.org/datatype/volt>", "Cosine=1.0", "triple=e_dbp:utmZone \"32.0\"^^<http://dbpedia.org/datatype/volt>", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"32.0\"^^<http://dbpedia.org/datatype/volt>", "Cosine=1.0", "triple=e_dbp:utmZone \"32.0\"^^<http://dbpedia.org/datatype/volt>", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "persian",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Iran_Standard_Time", "Cosine=1.0", "triple=e_dbp:timezone dbr:Iran_Standard_Time", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Counties_of_Iran", "Cosine=1.0", "triple=e_dbo:type dbr:Counties_of_Iran", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Fars_Province", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Fars_Province", "class=AdministrativeRegion" ],
+    "3" : [ "pair=dbr:Bakhsh", "Cosine=1.0", "triple=e_dbp:partsType dbr:Bakhsh", "class=AdministrativeRegion" ],
+    "4" : [ "pair=dbr:Provinces_of_Iran", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Provinces_of_Iran", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "poland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "polish powiat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "population",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"2018\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=1.0", "triple=e_dbo:censusYear \"2018\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=AdministrativeRegion" ],
+    "1" : [ "pair=\"2019\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Cosine=1.0", "triple=e_dbo:censusYear \"2019\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "powiat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "province",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Departments_of_Burkina_Faso", "Cosine=1.0", "triple=e_dbo:type dbr:Departments_of_Burkina_Faso", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Fars_Province", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Fars_Province", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Subdistrict", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Subdistrict", "class=AdministrativeRegion" ],
+    "3" : [ "pair=dbr:Counties_of_Iran", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Counties_of_Iran", "class=AdministrativeRegion" ],
+    "4" : [ "pair=dbr:Bakhsh", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Bakhsh", "class=AdministrativeRegion" ],
+    "5" : [ "pair=dbr:Provinces_of_Burkina_Faso", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Provinces_of_Burkina_Faso", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "province iran",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Counties_of_Iran", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Counties_of_Iran", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Bakhsh", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Bakhsh", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "queensland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"600.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=1.0", "triple=e_dbp:utc \"600.0\"^^<http://dbpedia.org/datatype/second>", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "queensland australia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"600.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=1.0", "triple=e_dbp:utc \"600.0\"^^<http://dbpedia.org/datatype/second>", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "spain",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Asturias", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Asturias", "class=AdministrativeRegion" ],
+    "1" : [ "pair=\"Spain\"@en", "Cosine=1.0", "triple=e_dbp:pushpinMap \"Spain\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "territorial administration",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "territorial administration\u001Cand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "territorial administration\u001Cand\u001Clocal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "territorial administration and\u001Clocal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "territorial administration and\u001Clocal\u001Cgovernment",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "thai",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Tambon\"@en", "Cosine=1.0", "triple=e_dbp:subdivisionType \"Tambon\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Subdistrict", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Subdistrict", "class=AdministrativeRegion" ],
+    "2" : [ "pair=\"Muban\"@en", "Cosine=1.0", "triple=e_dbp:subdivisionType \"Muban\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "thailand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Subdistrict", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Subdistrict", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "unit",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "unit\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "unit\u001Cof\u001Cterritorial",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "unit of\u001Cterritorial",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "unit of\u001Cterritorial\u001Cadministration",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "unit territorial",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "unit territorial\u001Cadministration",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "unit territorial\u001Cadministration\u001Cand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "victoria",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in Victoria\"@en", "Cosine=1.0", "triple=e_dbp:caption \"Location in Victoria\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "voivodeship",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Cosine=1.0", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Cosine=1.0", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Cosine=1.0", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Cosine=1.0", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "yemen",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Yemen Standard Time\"@en", "Cosine=1.0", "triple=e_dbp:timezone \"Yemen Standard Time\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Districts_of_Yemen", "Cosine=1.0", "triple=e_dbo:type dbr:Districts_of_Yemen", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Yemen", "Cosine=1.0", "triple=e_dbo:country dbr:Yemen", "class=AdministrativeRegion" ],
+    "3" : [ "pair=dbr:Governorates_of_Yemen", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Governorates_of_Yemen", "class=AdministrativeRegion" ]
+  }
+} ]

@@ -1,0 +1,1308 @@
+[ {
+  "id" : 1,
+  "pattern" : "allsvenskan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Allsvenskan", "MaxConf=1.0", "triple=e_dbp:competition dbr:Allsvenskan", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "argentina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "argentina season",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "argentina the\u001Cseason",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "argentine primera divisiã³n",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "argentine primera divisiã³n\u001Cwas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "argentine primera divisiã³n\u001Cwas\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "bajnoksã¡g",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "bajnoksã¡g men",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "campeonato",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "campeonato carioca",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "campeonato paulista",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "carioca",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "champions",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:longestWins \"\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "championship",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Eredivisie", "MaxConf=1.0", "triple=e_dbp:competition dbr:Eredivisie", "class=FootballLeagueSeason" ],
+    "2" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "championship hungary",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "championship hungary\u001Cthere",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "championship hungary\u001Cthere\u001Cwere",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "club",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "club gaelic",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "club gaelic football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "club gaelic football\u001Ctournament",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "club gaelic football\u001Ctournament\u001Cfor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "competition",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ],
+    "2" : [ "pair=\"Isthmian League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Isthmian League\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "competition england",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "counties",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "county meath",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "county meath\u001Cireland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "county meath ireland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "de futebol",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "defending champions",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:longestWins \"\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "division",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Scottish_Football_League_Second_Division", "MaxConf=1.0", "triple=e_dbp:competition dbr:Scottish_Football_League_Second_Division", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ],
+    "2" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "divisiã³n",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Liga_MX", "MaxConf=1.0", "triple=e_dbp:competition dbr:Liga_MX", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "divisã£o",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "east",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "edition",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "edition the\u001Cmeath",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "edition the\u001Cmeath\u001Cgaa",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "england",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "english",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Isthmian League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Isthmian League\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "english football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "english football\u001Ccompetition",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "english football competition",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Isthmian League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Isthmian League\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "establishment",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:longestWins \"\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:longestWins \"\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "2" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ],
+    "3" : [ "pair=dbr:Peruvian_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Peruvian_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ],
+    "4" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ],
+    "5" : [ "pair=dbr:A_Lyga", "MaxConf=1.0", "triple=e_dbp:competition dbr:A_Lyga", "class=FootballLeagueSeason" ],
+    "6" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ],
+    "7" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ],
+    "8" : [ "pair=dbr:English_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:English_Football_League", "class=FootballLeagueSeason" ],
+    "9" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ],
+    "10" : [ "pair=\"Isthmian League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Isthmian League\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "football\u001Cleague",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:English_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:English_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "football argentina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "football argentina\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "football argentina\u001Cthe\u001Cseason",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "football championship",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "football competition",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "football competition\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "football competition\u001Cin\u001Cengland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "football competition in\u001Cengland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "football league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:longestWins \"\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "2" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ],
+    "3" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ],
+    "4" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ],
+    "5" : [ "pair=dbr:English_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:English_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "football league a\u001Cfootball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "football league a\u001Cfootball\u001Ccompetition",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "football league season",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "football league season\u001Cwas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "football league season\u001Cwas\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "football tournament",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "football tournament for\u001Csenior",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "futebol",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "gaa",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "gaelic football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "gaelic football tournament",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "gaelic football tournament\u001Cfor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "gaelic football tournament\u001Cfor\u001Csenior",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "history",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ],
+    "2" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "history\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ],
+    "2" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "history\u001Cof\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "history of\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "history of\u001Cthe\u001Cwestern",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "history the\u001Cwestern",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "history the\u001Cwestern\u001Cfootball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "hungary",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "hungary there\u001Cwere",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "ireland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "isthmian",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Isthmian League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Isthmian League\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "isthmian league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Isthmian League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Isthmian League\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "italy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Serie_B", "MaxConf=1.0", "triple=e_dbp:competition dbr:Serie_B", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 92,
+  "pattern" : "league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:longestWins \"\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "2" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ],
+    "3" : [ "pair=dbr:Swiss_Super_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Swiss_Super_League", "class=FootballLeagueSeason" ],
+    "4" : [ "pair=\"First Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"First Division\"@en", "class=FootballLeagueSeason" ],
+    "5" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ],
+    "6" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ],
+    "7" : [ "pair=dbr:English_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:English_Football_League", "class=FootballLeagueSeason" ],
+    "8" : [ "pair=\"Second Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Second Division\"@en", "class=FootballLeagueSeason" ],
+    "9" : [ "pair=\"Isthmian League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Isthmian League\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "league english",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Isthmian League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Isthmian League\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 94,
+  "pattern" : "league football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 95,
+  "pattern" : "league football\u001Ccompetition",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "league football\u001Ccompetition\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 97,
+  "pattern" : "league season",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 98,
+  "pattern" : "league season was\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 99,
+  "pattern" : "lithuania",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:A_Lyga", "MaxConf=1.0", "triple=e_dbp:competition dbr:A_Lyga", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 100,
+  "pattern" : "lyga",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:A_Lyga", "MaxConf=1.0", "triple=e_dbp:competition dbr:A_Lyga", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 101,
+  "pattern" : "match",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 102,
+  "pattern" : "meath",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 103,
+  "pattern" : "meath\u001Cgaa",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 104,
+  "pattern" : "meath gaa",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "meath ireland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 106,
+  "pattern" : "meath senior",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 107,
+  "pattern" : "meath senior football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 108,
+  "pattern" : "meath senior football\u001Cchampionship",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 109,
+  "pattern" : "men",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 110,
+  "pattern" : "midlands",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 111,
+  "pattern" : "netherlands",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eredivisie", "MaxConf=1.0", "triple=e_dbp:competition dbr:Eredivisie", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 113,
+  "pattern" : "orszã¡gos",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 114,
+  "pattern" : "orszã¡gos bajnoksã¡g",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 115,
+  "pattern" : "orszã¡gos bajnoksã¡g i\u001Cmen",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 116,
+  "pattern" : "paulista",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 117,
+  "pattern" : "paulo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 119,
+  "pattern" : "peruvian football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Peruvian_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Peruvian_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 120,
+  "pattern" : "polo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 121,
+  "pattern" : "polo championship",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 122,
+  "pattern" : "polo championship in\u001Chungary",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 123,
+  "pattern" : "premier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 124,
+  "pattern" : "premier club",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 125,
+  "pattern" : "premier club gaelic",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 126,
+  "pattern" : "premier club gaelic\u001Cfootball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 127,
+  "pattern" : "premier club gaelic\u001Cfootball\u001Ctournament",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 128,
+  "pattern" : "primera",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Liga_MX", "MaxConf=1.0", "triple=e_dbp:competition dbr:Liga_MX", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 129,
+  "pattern" : "primera divisiã³n",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Liga_MX", "MaxConf=1.0", "triple=e_dbp:competition dbr:Liga_MX", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 130,
+  "pattern" : "primera divisiã³n was\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 132,
+  "pattern" : "professional football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 133,
+  "pattern" : "professional football league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 136,
+  "pattern" : "season",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:longestWins \"\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Liga_MX", "MaxConf=1.0", "triple=e_dbp:competition dbr:Liga_MX", "class=FootballLeagueSeason" ],
+    "2" : [ "pair=\"Football League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Football League\"@en", "class=FootballLeagueSeason" ],
+    "3" : [ "pair=dbr:Serie_A", "MaxConf=1.0", "triple=e_dbp:competition dbr:Serie_A", "class=FootballLeagueSeason" ],
+    "4" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ],
+    "5" : [ "pair=dbr:Swiss_Super_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Swiss_Super_League", "class=FootballLeagueSeason" ],
+    "6" : [ "pair=dbr:Peruvian_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Peruvian_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ],
+    "7" : [ "pair=\"First Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"First Division\"@en", "class=FootballLeagueSeason" ],
+    "8" : [ "pair=dbr:Eredivisie", "MaxConf=1.0", "triple=e_dbp:competition dbr:Eredivisie", "class=FootballLeagueSeason" ],
+    "9" : [ "pair=dbr:Kategoria_Superiore", "MaxConf=1.0", "triple=e_dbp:competition dbr:Kategoria_Superiore", "class=FootballLeagueSeason" ],
+    "10" : [ "pair=dbr:A_Lyga", "MaxConf=1.0", "triple=e_dbp:competition dbr:A_Lyga", "class=FootballLeagueSeason" ],
+    "11" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ],
+    "12" : [ "pair=dbr:Allsvenskan", "MaxConf=1.0", "triple=e_dbp:competition dbr:Allsvenskan", "class=FootballLeagueSeason" ],
+    "13" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ],
+    "14" : [ "pair=dbr:English_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:English_Football_League", "class=FootballLeagueSeason" ],
+    "15" : [ "pair=\"Second Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Second Division\"@en", "class=FootballLeagueSeason" ],
+    "16" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ],
+    "17" : [ "pair=\"Isthmian League\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Isthmian League\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 137,
+  "pattern" : "season began",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:longestWins \"\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 138,
+  "pattern" : "season sã£o",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 139,
+  "pattern" : "season sã£o\u001Cpaulo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 140,
+  "pattern" : "season the\u001Cfootball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:English_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:English_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 141,
+  "pattern" : "season the\u001Cfootball\u001Cleague",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:English_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:English_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 142,
+  "pattern" : "season top-flight",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 143,
+  "pattern" : "season top-flight\u001Cfootball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 144,
+  "pattern" : "season top-flight\u001Cfootball\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 146,
+  "pattern" : "second division",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Scottish_Football_League_Second_Division", "MaxConf=1.0", "triple=e_dbp:competition dbr:Scottish_Football_League_Second_Division", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 150,
+  "pattern" : "senior football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 151,
+  "pattern" : "senior football championship",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 152,
+  "pattern" : "serie",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Serie_A", "MaxConf=1.0", "triple=e_dbp:competition dbr:Serie_A", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Serie_B", "MaxConf=1.0", "triple=e_dbp:competition dbr:Serie_B", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 153,
+  "pattern" : "serie b",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Serie_B", "MaxConf=1.0", "triple=e_dbp:competition dbr:Serie_B", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 154,
+  "pattern" : "since",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:longestWins \"\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Serie_B", "MaxConf=1.0", "triple=e_dbp:competition dbr:Serie_B", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 155,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Premier Division\"@en", "MaxConf=1.0", "triple=e_dbp:competition \"Premier Division\"@en", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 156,
+  "pattern" : "statistics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Swiss_Super_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Swiss_Super_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 157,
+  "pattern" : "statistics swiss",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Swiss_Super_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Swiss_Super_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 158,
+  "pattern" : "super",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Swiss_Super_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Swiss_Super_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 159,
+  "pattern" : "super league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Swiss_Super_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Swiss_Super_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 161,
+  "pattern" : "swiss super",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Swiss_Super_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Swiss_Super_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 162,
+  "pattern" : "swiss super league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Swiss_Super_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Swiss_Super_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 163,
+  "pattern" : "sã£o",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 164,
+  "pattern" : "sã£o paulo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 165,
+  "pattern" : "teams",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:longestWins \"\"@en", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ],
+    "2" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ],
+    "3" : [ "pair=dbr:Peruvian_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Peruvian_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ],
+    "4" : [ "pair=dbr:Eredivisie", "MaxConf=1.0", "triple=e_dbp:competition dbr:Eredivisie", "class=FootballLeagueSeason" ],
+    "5" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 166,
+  "pattern" : "time",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ],
+    "2" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 167,
+  "pattern" : "title",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 168,
+  "pattern" : "title for\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 169,
+  "pattern" : "top professional",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 170,
+  "pattern" : "top professional football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 171,
+  "pattern" : "top professional football\u001Cleague",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Paulista", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Paulista", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 173,
+  "pattern" : "top-flight football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 174,
+  "pattern" : "top-flight football\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 175,
+  "pattern" : "top-flight football\u001Cin\u001Cargentina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 176,
+  "pattern" : "top-flight football in\u001Cargentina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 177,
+  "pattern" : "top-flight football in\u001Cargentina\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Argentine_Primera_DivisiÃ³n", "MaxConf=1.0", "triple=e_dbp:competition dbr:Argentine_Primera_DivisiÃ³n", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 178,
+  "pattern" : "tournament",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 179,
+  "pattern" : "tournament senior",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Meath_Senior_Football_Championship", "MaxConf=1.0", "triple=e_dbp:competition dbr:Meath_Senior_Football_Championship", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 180,
+  "pattern" : "water",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 181,
+  "pattern" : "water polo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 182,
+  "pattern" : "water polo championship",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 183,
+  "pattern" : "water polo championship\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 184,
+  "pattern" : "water polo championship\u001Cin\u001Chungary",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 185,
+  "pattern" : "water polo was\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "MaxConf=1.0", "triple=e_dbp:competition dbr:OrszÃ¡gos_BajnoksÃ¡g_I_(men's_water_polo", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 186,
+  "pattern" : "western",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 187,
+  "pattern" : "western\u001Cfootball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 188,
+  "pattern" : "western\u001Cfootball\u001Cleague",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 189,
+  "pattern" : "western football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 190,
+  "pattern" : "western football\u001Cleague",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 191,
+  "pattern" : "western football league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Western_Football_League", "MaxConf=1.0", "triple=e_dbp:competition dbr:Western_Football_League", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 193,
+  "pattern" : "won title",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 194,
+  "pattern" : "won title\u001Cfor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 195,
+  "pattern" : "won title\u001Cfor\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Campeonato_Carioca", "MaxConf=1.0", "triple=e_dbp:competition dbr:Campeonato_Carioca", "class=FootballLeagueSeason" ]
+  }
+} ]

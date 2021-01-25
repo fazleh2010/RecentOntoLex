@@ -1,0 +1,23 @@
+[ {
+  "id" : 13,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Italy", "Coherence=0.475", "triple=e_dbo:nationality dbr:Italy", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"ja\"@en", "Coherence=0.486", "triple=e_dbp:nativeNameLang \"ja\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=dbr:J-pop", "Coherence=0.464", "triple=e_dbp:genre dbr:J-pop", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "norwegian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Norway", "Coherence=0.482", "triple=e_dbo:hometown dbr:Norway", "class=MusicalArtist" ]
+  }
+} ]

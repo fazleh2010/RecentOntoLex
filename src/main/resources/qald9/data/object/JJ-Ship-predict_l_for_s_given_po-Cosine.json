@@ -1,0 +1,77 @@
+[ {
+  "id" : 10,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Timber\"@en", "Cosine=0.979", "triple=e_dbp:shipArmour \"Timber\"@en", "class=Ship" ],
+    "1" : [ "pair=\"France\"@en", "Cosine=0.954", "triple=e_dbp:shipCountry \"France\"@en", "class=Ship" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"No patrols\"@en", "Cosine=1.0", "triple=e_dbp:operations \"No patrols\"@en", "class=Ship" ],
+    "1" : [ "pair=\"Service record\"@en", "Cosine=0.997", "triple=e_dbp:label \"Service record\"@en", "class=Ship" ],
+    "2" : [ "pair=\"None\"@en", "Cosine=0.997", "triple=e_dbp:victories \"None\"@en", "class=Ship" ],
+    "3" : [ "pair=\"*\\n*Crush depth:\"@en", "Cosine=0.996", "triple=e_dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ],
+    "4" : [ "pair=\"*2 shafts\\n*2 Ã diesel engines\\n*2 Ã electric motors\"@en", "Cosine=0.995", "triple=e_dbp:shipPropulsion \"*2 shafts\\n*2 Ã diesel engines\\n*2 Ã electric motors\"@en", "class=Ship" ],
+    "5" : [ "pair=dbr:Type_VII_submarine", "Cosine=0.994", "triple=e_dbp:shipClass dbr:Type_VII_submarine", "class=Ship" ],
+    "6" : [ "pair=dbr:German_Type_VII_submarine", "Cosine=0.994", "triple=e_dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
+    "7" : [ "pair=\"7.69E8\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.993", "triple=e_dbo:shipDisplacement \"7.69E8\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
+    "8" : [ "pair=\"* o/a\\n* pressure hull\"@en", "Cosine=0.99", "triple=e_dbp:shipBeam \"* o/a\\n* pressure hull\"@en", "class=Ship" ],
+    "9" : [ "pair=\"Military of Germany\"@en", "Cosine=0.99", "triple=e_dbp:portal \"Military of Germany\"@en", "class=Ship" ],
+    "10" : [ "pair=dbr:Type_IX_submarine", "Cosine=0.99", "triple=e_dbp:shipClass dbr:Type_IX_submarine", "class=Ship" ],
+    "11" : [ "pair=dbr:German_Type_IX_submarine", "Cosine=0.99", "triple=e_dbo:class dbr:German_Type_IX_submarine", "class=Ship" ],
+    "12" : [ "pair=\"8.71E8\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.989", "triple=e_dbo:shipDisplacement \"8.71E8\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
+    "13" : [ "pair=\"9.6\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.981", "triple=e_dbo:height \"9.6\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
+    "14" : [ "pair=dbr:AG_Weser", "Cosine=0.979", "triple=e_dbp:shipBuilder dbr:AG_Weser", "class=Ship" ],
+    "15" : [ "pair=\"4.7\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.978", "triple=e_dbo:shipBeam \"4.7\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
+    "16" : [ "pair=\"32.7804\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.978", "triple=e_dbo:topSpeed \"32.7804\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
+    "17" : [ "pair=\"World War II\"@en", "Cosine=0.977", "triple=e_dbp:portal \"World War II\"@en", "class=Ship" ],
+    "18" : [ "pair=dbr:Germaniawerft", "Cosine=0.977", "triple=e_dbo:builder dbr:Germaniawerft", "class=Ship" ],
+    "19" : [ "pair=\"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.976", "triple=e_dbo:length \"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
+    "20" : [ "pair=dbr:Bremen", "Cosine=0.975", "triple=e_dbp:shipBuilder dbr:Bremen", "class=Ship" ],
+    "21" : [ "pair=dbr:Nazi_Germany", "Cosine=0.974", "triple=e_dbp:shipCountry dbr:Nazi_Germany", "class=Ship" ],
+    "22" : [ "pair=dbr:Blohm_&_Voss", "Cosine=0.973", "triple=e_dbo:builder dbr:Blohm_&_Voss", "class=Ship" ],
+    "23" : [ "pair=dbr:Hamburg", "Cosine=0.972", "triple=e_dbp:shipBuilder dbr:Hamburg", "class=Ship" ],
+    "24" : [ "pair=dbr:German_Empire", "Cosine=0.963", "triple=e_dbp:shipCountry dbr:German_Empire", "class=Ship" ],
+    "25" : [ "pair=dbr:Friedrich_Krupp_Germaniawerft", "Cosine=0.96", "triple=e_dbp:shipBuilder dbr:Friedrich_Krupp_Germaniawerft", "class=Ship" ],
+    "26" : [ "pair=dbr:Blohm+Voss", "Cosine=0.959", "triple=e_dbp:shipBuilder dbr:Blohm+Voss", "class=Ship" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Kingdom_of_Italy", "Cosine=0.976", "triple=e_dbo:country dbr:Kingdom_of_Italy", "class=Ship" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Empire_of_Japan", "Cosine=0.952", "triple=e_dbp:shipCountry dbr:Empire_of_Japan", "class=Ship" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "nazi",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"*2 shafts\\n*2 Ã diesel engines\\n*2 Ã electric motors\"@en", "Cosine=0.982", "triple=e_dbp:shipPropulsion \"*2 shafts\\n*2 Ã diesel engines\\n*2 Ã electric motors\"@en", "class=Ship" ],
+    "1" : [ "pair=\"Military of Germany\"@en", "Cosine=0.981", "triple=e_dbp:portal \"Military of Germany\"@en", "class=Ship" ],
+    "2" : [ "pair=\"*\\n*Crush depth:\"@en", "Cosine=0.981", "triple=e_dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ],
+    "3" : [ "pair=dbr:Type_IX_submarine", "Cosine=0.98", "triple=e_dbp:shipClass dbr:Type_IX_submarine", "class=Ship" ],
+    "4" : [ "pair=dbr:Type_VII_submarine", "Cosine=0.98", "triple=e_dbp:shipClass dbr:Type_VII_submarine", "class=Ship" ],
+    "5" : [ "pair=dbr:German_Type_VII_submarine", "Cosine=0.979", "triple=e_dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
+    "6" : [ "pair=\"9.6\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.973", "triple=e_dbo:height \"9.6\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
+    "7" : [ "pair=\"7.69E8\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.972", "triple=e_dbo:shipDisplacement \"7.69E8\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
+    "8" : [ "pair=\"8.71E8\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.969", "triple=e_dbo:shipDisplacement \"8.71E8\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
+    "9" : [ "pair=\"32.7804\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.968", "triple=e_dbo:topSpeed \"32.7804\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
+    "10" : [ "pair=\"Service record\"@en", "Cosine=0.967", "triple=e_dbp:label \"Service record\"@en", "class=Ship" ],
+    "11" : [ "pair=\"World War II\"@en", "Cosine=0.965", "triple=e_dbp:portal \"World War II\"@en", "class=Ship" ],
+    "12" : [ "pair=\"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.961", "triple=e_dbo:length \"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
+    "13" : [ "pair=\"No patrols\"@en", "Cosine=0.96", "triple=e_dbp:operations \"No patrols\"@en", "class=Ship" ],
+    "14" : [ "pair=\"4.7\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.959", "triple=e_dbo:shipBeam \"4.7\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ]
+  }
+} ]

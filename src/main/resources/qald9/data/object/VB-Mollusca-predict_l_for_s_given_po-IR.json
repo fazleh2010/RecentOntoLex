@@ -1,0 +1,63 @@
+[ {
+  "id" : 4,
+  "pattern" : "also known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Mollusca", "IR=0.994", "triple=e_dbp:phylum dbr:Mollusca", "class=Mollusca" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "become",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Mollusca", "IR=0.993", "triple=e_dbp:phylum dbr:Mollusca", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Animal", "IR=0.993", "triple=e_dbo:kingdom dbr:Animal", "class=Mollusca" ],
+    "2" : [ "pair=\"Animalia\"@en", "IR=0.993", "triple=e_dbp:regnum \"Animalia\"@en", "class=Mollusca" ],
+    "3" : [ "pair=dbr:Gastropoda", "IR=0.993", "triple=e_dbo:class dbr:Gastropoda", "class=Mollusca" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "commonly known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Animal", "IR=0.993", "triple=e_dbo:kingdom dbr:Animal", "class=Mollusca" ],
+    "1" : [ "pair=\"Animalia\"@en", "IR=0.993", "triple=e_dbp:regnum \"Animalia\"@en", "class=Mollusca" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "considered",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Gastropoda", "IR=0.993", "triple=e_dbp:classis dbr:Gastropoda", "class=Mollusca" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "included",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Mollusca", "IR=0.994", "triple=e_dbp:phylum dbr:Mollusca", "class=Mollusca" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "lived",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Mollusca", "IR=0.993", "triple=e_dbp:phylum dbr:Mollusca", "class=Mollusca" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "named",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Gastropoda", "IR=0.994", "triple=e_dbp:classis dbr:Gastropoda", "class=Mollusca" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "placed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Mollusca", "IR=0.994", "triple=e_dbo:phylum dbr:Mollusca", "class=Mollusca" ],
+    "1" : [ "pair=dbr:Animal", "IR=0.993", "triple=e_dbo:kingdom dbr:Animal", "class=Mollusca" ],
+    "2" : [ "pair=\"Animalia\"@en", "IR=0.993", "triple=e_dbp:regnum \"Animalia\"@en", "class=Mollusca" ]
+  }
+} ]

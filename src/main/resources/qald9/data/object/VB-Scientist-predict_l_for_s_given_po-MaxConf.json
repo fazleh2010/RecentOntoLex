@@ -1,0 +1,77 @@
+[ {
+  "id" : 18,
+  "pattern" : "awarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Indian_nationality", "MaxConf=1.0", "triple=e_dbo:nationality dbr:Indian_nationality", "class=Scientist" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "best known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Scientist" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Germany", "MaxConf=1.0", "triple=e_dbo:nationality dbr:Germany", "class=Scientist" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Scientist" ],
+    "2" : [ "pair=dbr:United_Kingdom", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_Kingdom", "class=Scientist" ],
+    "3" : [ "pair=dbr:Indian_nationality", "MaxConf=1.0", "triple=e_dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
+    "4" : [ "pair=dbr:Massachusetts_Institute_of_Technology", "MaxConf=1.0", "triple=e_dbo:institution dbr:Massachusetts_Institute_of_Technology", "class=Scientist" ],
+    "5" : [ "pair=dbr:Stanford_University", "MaxConf=1.0", "triple=e_dbo:institution dbr:Stanford_University", "class=Scientist" ],
+    "6" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:knownFor \"\"@en", "class=Scientist" ],
+    "7" : [ "pair=dbr:Harvard_University", "MaxConf=1.0", "triple=e_dbp:almaMater dbr:Harvard_University", "class=Scientist" ],
+    "8" : [ "pair=dbr:University_of_California", "MaxConf=1.0", "triple=e_dbp:almaMater dbr:University_of_California", "class=Scientist" ],
+    "9" : [ "pair=dbr:Princeton_University", "MaxConf=1.0", "triple=e_dbp:almaMater dbr:Princeton_University", "class=Scientist" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "elected",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Indian_nationality", "MaxConf=1.0", "triple=e_dbo:nationality dbr:Indian_nationality", "class=Scientist" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "including",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Scientist" ]
+  }
+}, {
+  "id" : 108,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Scientist" ],
+    "1" : [ "pair=dbr:Indian_nationality", "MaxConf=1.0", "triple=e_dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
+    "2" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:knownFor \"\"@en", "class=Scientist" ],
+    "3" : [ "pair=dbr:Massachusetts_Institute_of_Technology", "MaxConf=1.0", "triple=e_dbp:almaMater dbr:Massachusetts_Institute_of_Technology", "class=Scientist" ],
+    "4" : [ "pair=dbr:Harvard_University", "MaxConf=1.0", "triple=e_dbp:almaMater dbr:Harvard_University", "class=Scientist" ]
+  }
+}, {
+  "id" : 129,
+  "pattern" : "received",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Scientist" ]
+  }
+}, {
+  "id" : 164,
+  "pattern" : "served",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Scientist" ]
+  }
+}, {
+  "id" : 202,
+  "pattern" : "worked",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Scientist" ]
+  }
+} ]

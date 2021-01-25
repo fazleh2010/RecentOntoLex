@@ -1,0 +1,17 @@
+[ {
+  "id" : 26,
+  "pattern" : "national",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"64800.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:patternLa \"64800.0\"^^<http://dbpedia.org/datatype/second>", "class=SoccerClub" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "professional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"5000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "MaxConf=1.0", "triple=e_dbo:capacity \"5000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=SoccerClub" ],
+    "1" : [ "pair=\"_whiteborder\"@en", "MaxConf=1.0", "triple=e_dbp:patternLa \"_whiteborder\"@en", "class=SoccerClub" ],
+    "2" : [ "pair=\"7275600.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:patternLa \"7275600.0\"^^<http://dbpedia.org/datatype/second>", "class=SoccerClub" ]
+  }
+} ]

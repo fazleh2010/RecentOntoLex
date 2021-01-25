@@ -1,0 +1,39 @@
+[ {
+  "id" : 16,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.889", "triple=e_dbp:spouse \"\"@en", "class=Politician" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "congressional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Democratic_Party_(United_States", "IR=0.944", "triple=e_dbp:party dbr:Democratic_Party_(United_States", "class=Politician" ],
+    "1" : [ "pair=dbr:Republican_Party_(United_States", "IR=0.941", "triple=e_dbo:party dbr:Republican_Party_(United_States", "class=Politician" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "democratic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Democratic_Party_(United_States", "IR=0.95", "triple=e_dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Democratic_Party_(United_States", "IR=0.917", "triple=e_dbp:party dbr:Democratic_Party_(United_States", "class=Politician" ],
+    "1" : [ "pair=dbr:Republican_Party_(United_States", "IR=0.914", "triple=e_dbo:party dbr:Republican_Party_(United_States", "class=Politician" ],
+    "2" : [ "pair=\"\"@en", "IR=0.902", "triple=e_dbp:spouse \"\"@en", "class=Politician" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "political",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.91", "triple=e_dbp:spouse \"\"@en", "class=Politician" ]
+  }
+} ]

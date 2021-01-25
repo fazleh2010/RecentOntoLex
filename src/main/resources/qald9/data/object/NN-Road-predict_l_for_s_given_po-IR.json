@@ -1,0 +1,531 @@
+[ {
+  "id" : 1,
+  "pattern" : "1930s",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ],
+    "2" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "arkansas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "canadian province\u001Cof\u001Contario",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "canadian province of\u001Contario",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "carolina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.984", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "2" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "cities",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "concurrency",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "connecticut",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.983", "triple=e_dbp:directionA \"South\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "connector",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.984", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "dakota",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "early",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "eastâwest",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "entirely",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.983", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "expressway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "2" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "hamlet",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.984", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "highway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.984", "triple=e_dbp:directionB \"North\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "highway connects",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "highways",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "1" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "indiana",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "intersection",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "2" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "intersection\u001Cwith",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.984", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "intersection with\u001Cu.s\u001Croute",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "2" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "interstate",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ],
+    "2" : [ "pair=\"South\"@en", "IR=0.983", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "3" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "km highway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "2" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "locally",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.984", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "2" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "maryland known",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.983", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "massachusetts",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.983", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "michigan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "mississippi",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "2" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "name",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "nevada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.984", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "2" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "north",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "northern\u001Cterminus\u001Cat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "2" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "northwest",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "northâsouth state highway\u001Clocated",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.984", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "2" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "originally",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "1" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ],
+    "2" : [ "pair=\"South\"@en", "IR=0.983", "triple=e_dbp:directionA \"South\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "part",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "pennsylvania southern\u001Cterminus\u001Cis",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "2" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "province ontario",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "quebec",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.983", "triple=e_dbp:directionA \"South\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "road",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.984", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "2" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "runs",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "2" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "saskatchewan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "2" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "segment",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.983", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "2" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "south carolina highway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "spur",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "starts",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.983", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "2" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "state highway located\u001Centirely",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "2" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "state maryland\u001Cknown",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.983", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "state michigan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "state park",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.984", "triple=e_dbp:directionB \"North\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "state route",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "2" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "state texas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "2" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "suburbs",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "terminus at\u001Cpa",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.983", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "2" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "towns",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "trunk highway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.984", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "u.s state of\u001Cmaryland\u001Cknown",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.983", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "united\u001Cstates\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.984", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.984", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "2" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "united states\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.983", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "2" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ],
+    "3" : [ "pair=\"North\"", "IR=0.983", "triple=e_dbo:routeEndDirection \"North\"", "class=Road" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "us",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "virginia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South\"@en", "IR=0.983", "triple=e_dbp:directionA \"South\"@en", "class=Road" ],
+    "1" : [ "pair=\"North\"@en", "IR=0.983", "triple=e_dbp:directionB \"North\"@en", "class=Road" ],
+    "2" : [ "pair=\"South\"", "IR=0.983", "triple=e_dbo:routeStartDirection \"South\"", "class=Road" ]
+  }
+} ]

@@ -1,0 +1,130 @@
+[ {
+  "id" : 1,
+  "pattern" : "abbreviated",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "academic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "different",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "educational",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "general",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "higher",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "indian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "largest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+  }
+}, {
+  "id" : 94,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Rural_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Rural_area", "class=University" ],
+    "1" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
+    "2" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ],
+    "3" : [ "pair=dbr:Suburb", "MaxConf=1.0", "triple=e_dbp:campus dbr:Suburb", "class=University" ],
+    "4" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:nativeName \"\"@en", "class=University" ],
+    "5" : [ "pair=dbr:Private_university", "MaxConf=1.0", "triple=e_dbp:type dbr:Private_university", "class=University" ]
+  }
+}, {
+  "id" : 95,
+  "pattern" : "main",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ]
+  }
+}, {
+  "id" : 97,
+  "pattern" : "medical",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ],
+    "2" : [ "pair=dbr:Medical_school", "MaxConf=1.0", "triple=e_dbp:type dbr:Medical_school", "class=University" ]
+  }
+}, {
+  "id" : 114,
+  "pattern" : "oldest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+  }
+}, {
+  "id" : 120,
+  "pattern" : "private",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ],
+    "2" : [ "pair=dbr:Suburb", "MaxConf=1.0", "triple=e_dbp:campus dbr:Suburb", "class=University" ],
+    "3" : [ "pair=dbr:NCAA_Division_III", "MaxConf=1.0", "triple=e_dbp:athletics dbr:NCAA_Division_III", "class=University" ]
+  }
+}, {
+  "id" : 124,
+  "pattern" : "professional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ]
+  }
+}, {
+  "id" : 147,
+  "pattern" : "undergraduate",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Rural\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Rural\"@en", "class=University" ],
+    "2" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+  }
+} ]

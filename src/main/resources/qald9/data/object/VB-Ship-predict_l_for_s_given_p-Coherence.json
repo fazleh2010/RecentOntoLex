@@ -1,0 +1,57 @@
+[ {
+  "id" : 1,
+  "pattern" : "built",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.449", "triple=e_dbp:totalShipsScrapped o", "class=Ship" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "captured",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.413", "triple=e_dbo:captureDate o", "class=Ship" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "commissioned",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.446", "triple=e_dbp:label o", "class=Ship" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "laid",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.431", "triple=e_dbp:label o", "class=Ship" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "laid down\u001Con",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.412", "triple=e_dbp:label o", "class=Ship" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "launched",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.436", "triple=e_dbp:label o", "class=Ship" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "named",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.415", "triple=e_dbp:shipAwarded o", "class=Ship" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "named\u001Cafter",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.37", "triple=e_dbp:shipWayNumber o", "class=Ship" ]
+  }
+} ]

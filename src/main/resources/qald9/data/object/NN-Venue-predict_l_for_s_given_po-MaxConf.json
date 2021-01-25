@@ -1,0 +1,710 @@
+[ {
+  "id" : 1,
+  "pattern" : "also",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "arena",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Japan", "MaxConf=1.0", "triple=e_dbp:location dbr:Japan", "class=Venue" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "arena\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Japan", "MaxConf=1.0", "triple=e_dbp:location dbr:Japan", "class=Venue" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "baseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:location dbr:United_States", "class=Venue" ],
+    "1" : [ "pair=\"Right Field:\"@en", "MaxConf=1.0", "triple=e_dbp:dimensions \"Right Field:\"@en", "class=Venue" ],
+    "2" : [ "pair=\"Left Field:\"@en", "MaxConf=1.0", "triple=e_dbp:dimensions \"Left Field:\"@en", "class=Venue" ],
+    "3" : [ "pair=\"Left field:\"@en", "MaxConf=1.0", "triple=e_dbp:dimensions \"Left field:\"@en", "class=Venue" ],
+    "4" : [ "pair=\"Center field:\"@en", "MaxConf=1.0", "triple=e_dbp:dimensions \"Center field:\"@en", "class=Venue" ],
+    "5" : [ "pair=\"Right field:\"@en", "MaxConf=1.0", "triple=e_dbp:dimensions \"Right field:\"@en", "class=Venue" ],
+    "6" : [ "pair=\"Center Field:\"@en", "MaxConf=1.0", "triple=e_dbp:dimensions \"Center Field:\"@en", "class=Venue" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "brazil",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Brazil", "MaxConf=1.0", "triple=e_dbp:location dbr:Brazil", "class=Venue" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "california",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:California", "MaxConf=1.0", "triple=e_dbo:location dbr:California", "class=Venue" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ontario", "MaxConf=1.0", "triple=e_dbo:location dbr:Ontario", "class=Venue" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "capacity",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Brazil", "MaxConf=1.0", "triple=e_dbp:location dbr:Brazil", "class=Venue" ],
+    "1" : [ "pair=dbr:Japan", "MaxConf=1.0", "triple=e_dbo:location dbr:Japan", "class=Venue" ],
+    "2" : [ "pair=dbr:Germany", "MaxConf=1.0", "triple=e_dbo:location dbr:Germany", "class=Venue" ],
+    "3" : [ "pair=dbr:Turkey", "MaxConf=1.0", "triple=e_dbo:location dbr:Turkey", "class=Venue" ],
+    "4" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "china",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:China", "MaxConf=1.0", "triple=e_dbp:location dbr:China", "class=Venue" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "club",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "currently",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "1" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbo:location dbr:Romania", "class=Venue" ],
+    "2" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "currently used mostly\u001Cfor\u001Cfootball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "1" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "england",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:England", "MaxConf=1.0", "triple=e_dbp:location dbr:England", "class=Venue" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "estadio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Spain", "MaxConf=1.0", "triple=e_dbp:location dbr:Spain", "class=Venue" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "estã¡dio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Brazil", "MaxConf=1.0", "triple=e_dbp:location dbr:Brazil", "class=Venue" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "field",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:location dbr:United_States", "class=Venue" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:England", "MaxConf=1.0", "triple=e_dbp:location dbr:England", "class=Venue" ],
+    "1" : [ "pair=dbr:Scotland", "MaxConf=1.0", "triple=e_dbp:location dbr:Scotland", "class=Venue" ],
+    "2" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "3" : [ "pair=dbr:Spain", "MaxConf=1.0", "triple=e_dbp:location dbr:Spain", "class=Venue" ],
+    "4" : [ "pair=dbr:Brazil", "MaxConf=1.0", "triple=e_dbp:location dbr:Brazil", "class=Venue" ],
+    "5" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "6" : [ "pair=dbr:Indonesia", "MaxConf=1.0", "triple=e_dbp:location dbr:Indonesia", "class=Venue" ],
+    "7" : [ "pair=dbr:Germany", "MaxConf=1.0", "triple=e_dbp:location dbr:Germany", "class=Venue" ],
+    "8" : [ "pair=dbr:Japan", "MaxConf=1.0", "triple=e_dbo:location dbr:Japan", "class=Venue" ],
+    "9" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "football\u001Cstadium",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "football\u001Cstadium\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "football matches",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "2" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "football matches\u001Cand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "football matches\u001Cand\u001Cis",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "football matches and\u001Cis",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "football matches and\u001Cis\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "football stadium",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "football stadium\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "france",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e_dbp:location dbr:France", "class=Venue" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "germany",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Germany", "MaxConf=1.0", "triple=e_dbp:location dbr:Germany", "class=Venue" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "ground",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Scotland", "MaxConf=1.0", "triple=e_dbp:location dbr:Scotland", "class=Venue" ],
+    "1" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "2" : [ "pair=dbr:England", "MaxConf=1.0", "triple=e_dbo:location dbr:England", "class=Venue" ],
+    "3" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "home",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:England", "MaxConf=1.0", "triple=e_dbp:location dbr:England", "class=Venue" ],
+    "1" : [ "pair=dbr:Scotland", "MaxConf=1.0", "triple=e_dbp:location dbr:Scotland", "class=Venue" ],
+    "2" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "3" : [ "pair=dbr:Spain", "MaxConf=1.0", "triple=e_dbp:location dbr:Spain", "class=Venue" ],
+    "4" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "5" : [ "pair=dbr:Germany", "MaxConf=1.0", "triple=e_dbp:location dbr:Germany", "class=Venue" ],
+    "6" : [ "pair=dbr:Japan", "MaxConf=1.0", "triple=e_dbo:location dbr:Japan", "class=Venue" ],
+    "7" : [ "pair=dbr:Turkey", "MaxConf=1.0", "triple=e_dbo:location dbr:Turkey", "class=Venue" ],
+    "8" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:location dbr:United_States", "class=Venue" ],
+    "9" : [ "pair=dbr:Italy", "MaxConf=1.0", "triple=e_dbo:location dbr:Italy", "class=Venue" ],
+    "10" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e_dbo:location dbr:France", "class=Venue" ],
+    "11" : [ "pair=dbr:Populous_(company", "MaxConf=1.0", "triple=e_dbp:architect dbr:Populous_(company", "class=Venue" ],
+    "12" : [ "pair=\"Right Field:\"@en", "MaxConf=1.0", "triple=e_dbp:dimensions \"Right Field:\"@en", "class=Venue" ],
+    "13" : [ "pair=\"Left Field:\"@en", "MaxConf=1.0", "triple=e_dbp:dimensions \"Left Field:\"@en", "class=Venue" ],
+    "14" : [ "pair=\"Left field:\"@en", "MaxConf=1.0", "triple=e_dbp:dimensions \"Left field:\"@en", "class=Venue" ],
+    "15" : [ "pair=\"Center field:\"@en", "MaxConf=1.0", "triple=e_dbp:dimensions \"Center field:\"@en", "class=Venue" ],
+    "16" : [ "pair=\"Right field:\"@en", "MaxConf=1.0", "triple=e_dbp:dimensions \"Right field:\"@en", "class=Venue" ],
+    "17" : [ "pair=\"Center Field:\"@en", "MaxConf=1.0", "triple=e_dbp:dimensions \"Center Field:\"@en", "class=Venue" ],
+    "18" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "home\u001Cground",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "home\u001Cground\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "home\u001Cstadium",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "home\u001Cstadium\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "home ground",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=dbr:Scotland", "MaxConf=1.0", "triple=e_dbo:location dbr:Scotland", "class=Venue" ],
+    "2" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "home ground\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=dbr:Scotland", "MaxConf=1.0", "triple=e_dbo:location dbr:Scotland", "class=Venue" ],
+    "2" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "home stadium",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "home stadium\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "indonesia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Indonesia", "MaxConf=1.0", "triple=e_dbp:location dbr:Indonesia", "class=Venue" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "italy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Italy", "MaxConf=1.0", "triple=e_dbo:location dbr:Italy", "class=Venue" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "japan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Japan", "MaxConf=1.0", "triple=e_dbp:location dbr:Japan", "class=Venue" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Populous_(company", "MaxConf=1.0", "triple=e_dbp:architect dbr:Populous_(company", "class=Venue" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "london",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:London", "MaxConf=1.0", "triple=e_dbo:location dbr:London", "class=Venue" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "matches",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "2" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "matches is\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "matches is\u001Cthe\u001Chome",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "mostly",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "2" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "mostly football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "2" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "mostly football\u001Cmatches",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "2" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "mostly football\u001Cmatches\u001Cand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "multi-purpose\u001Cstadium",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "1" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "multi-purpose\u001Cstadium\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "multi-purpose stadium",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "1" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "multi-purpose stadium\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "multi-use\u001Cstadium",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "multi-use\u001Cstadium\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "multi-use stadium",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "multi-use stadium\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "ontario",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ontario", "MaxConf=1.0", "triple=e_dbo:location dbr:Ontario", "class=Venue" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "ontario canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Ontario", "MaxConf=1.0", "triple=e_dbo:location dbr:Ontario", "class=Venue" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "park",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Scotland", "MaxConf=1.0", "triple=e_dbp:location dbr:Scotland", "class=Venue" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "people",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "province",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbo:location dbr:Thailand", "class=Venue" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "romania",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "russia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Russia", "MaxConf=1.0", "triple=e_dbp:location dbr:Russia", "class=Venue" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "scotland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Scotland", "MaxConf=1.0", "triple=e_dbp:location dbr:Scotland", "class=Venue" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "spain",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Spain", "MaxConf=1.0", "triple=e_dbp:location dbr:Spain", "class=Venue" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "stade",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e_dbo:location dbr:France", "class=Venue" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "stadio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Italy", "MaxConf=1.0", "triple=e_dbo:location dbr:Italy", "class=Venue" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "stadionul",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "stadium",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"UEFA\"@en", "MaxConf=1.0", "triple=e_dbp:caption \"UEFA\"@en", "class=Venue" ],
+    "1" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e_dbp:location dbr:France", "class=Venue" ],
+    "2" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "3" : [ "pair=dbr:Spain", "MaxConf=1.0", "triple=e_dbp:location dbr:Spain", "class=Venue" ],
+    "4" : [ "pair=dbr:Brazil", "MaxConf=1.0", "triple=e_dbp:location dbr:Brazil", "class=Venue" ],
+    "5" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "6" : [ "pair=dbr:Indonesia", "MaxConf=1.0", "triple=e_dbp:location dbr:Indonesia", "class=Venue" ],
+    "7" : [ "pair=dbr:Germany", "MaxConf=1.0", "triple=e_dbp:location dbr:Germany", "class=Venue" ],
+    "8" : [ "pair=dbr:Japan", "MaxConf=1.0", "triple=e_dbo:location dbr:Japan", "class=Venue" ],
+    "9" : [ "pair=dbr:England", "MaxConf=1.0", "triple=e_dbo:location dbr:England", "class=Venue" ],
+    "10" : [ "pair=dbr:Turkey", "MaxConf=1.0", "triple=e_dbo:location dbr:Turkey", "class=Venue" ],
+    "11" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:location dbr:United_States", "class=Venue" ],
+    "12" : [ "pair=dbr:Italy", "MaxConf=1.0", "triple=e_dbo:location dbr:Italy", "class=Venue" ],
+    "13" : [ "pair=dbr:Populous_(company", "MaxConf=1.0", "triple=e_dbp:architect dbr:Populous_(company", "class=Venue" ],
+    "14" : [ "pair=\"4200.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4200.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ],
+    "15" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "stadium holds",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "2" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "stadium thai",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:location dbr:United_States", "class=Venue" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "sweden",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Sweden", "MaxConf=1.0", "triple=e_dbo:location dbr:Sweden", "class=Venue" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "team",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:location dbr:United_States", "class=Venue" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "thai",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+  }
+}, {
+  "id" : 92,
+  "pattern" : "thailand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "thailand is\u001Ccurrently",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+  }
+}, {
+  "id" : 94,
+  "pattern" : "thailand is\u001Ccurrently\u001Cused",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+  }
+}, {
+  "id" : 95,
+  "pattern" : "the\u001Chome",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "the\u001Chome\u001Cground",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+  }
+}, {
+  "id" : 97,
+  "pattern" : "turkey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Turkey", "MaxConf=1.0", "triple=e_dbp:location dbr:Turkey", "class=Venue" ]
+  }
+}, {
+  "id" : 99,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:location dbr:United_States", "class=Venue" ]
+  }
+}, {
+  "id" : 100,
+  "pattern" : "united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:location dbr:United_States", "class=Venue" ]
+  }
+}, {
+  "id" : 101,
+  "pattern" : "university",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:location dbr:United_States", "class=Venue" ]
+  }
+}, {
+  "id" : 104,
+  "pattern" : "used mostly for\u001Cfootball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "2" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "used mostly for\u001Cfootball\u001Cmatches",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Romania", "MaxConf=1.0", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=dbr:Thailand", "MaxConf=1.0", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
+    "2" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ]
+  }
+}, {
+  "id" : 106,
+  "pattern" : "venue",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:location dbr:United_States", "class=Venue" ]
+  }
+} ]

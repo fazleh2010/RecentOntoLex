@@ -1,0 +1,19 @@
+[ {
+  "id" : 59,
+  "pattern" : "operated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ],
+    "1" : [ "pair=\"Express\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Express\"@en", "class=Station" ],
+    "2" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "3" : [ "pair=\"Rapid\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Rapid\"@en", "class=Station" ],
+    "4" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 95,
+  "pattern" : "situated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+} ]

@@ -1,0 +1,1197 @@
+[ {
+  "id" : 1,
+  "pattern" : "1990s",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "academy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.989", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "actor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "actress",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "addition",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "african",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.989", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.989", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "album",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "also",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "america",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "american\u001Csinger",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "american\u001Csinger-songwriter\u001Cand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "american rapper",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "american rapper\u001Cand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "american rapper\u001Cfrom",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "american singer\u001Cand\u001Csongwriter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "american singer and\u001Csongwriter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "around",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "attention",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "bands",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "best known for\u001Chis\u001Cwork",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "better known by\u001Cher\u001Cstage",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "billboard\u001Chot",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "billboard hot 100",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "blues",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "brown",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "co-founder",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "collaboration",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "collaborations",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "company",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "contest",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "cover",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "daughter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "deal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "death",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.989", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "debut album",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "debut studio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "debut studio album",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "descent",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "dutch",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "english\u001Cmusician",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "english\u001Csinger",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "english musician",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "english singer-songwriter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "entertainment",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "factor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "festival",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.989", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.989", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "first",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "former member",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "founding member\u001Cof\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "george",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "girl",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "guitarist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "half",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "heavy metal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "host",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "india",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.989", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "influences",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "international",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 94,
+  "pattern" : "jimmy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 95,
+  "pattern" : "joseph",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "jr born",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 97,
+  "pattern" : "keyboardist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 100,
+  "pattern" : "known the\u001Cstage",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 101,
+  "pattern" : "known the\u001Cstage\u001Cname",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 103,
+  "pattern" : "latin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 104,
+  "pattern" : "lead",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "lead\u001Csinger",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 106,
+  "pattern" : "lead singer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 107,
+  "pattern" : "lead singer of\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 108,
+  "pattern" : "life",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 109,
+  "pattern" : "lives",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 112,
+  "pattern" : "mark",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 113,
+  "pattern" : "material",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 114,
+  "pattern" : "member\u001Cof\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 116,
+  "pattern" : "mostly",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 118,
+  "pattern" : "music",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 119,
+  "pattern" : "music artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.989", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.989", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 120,
+  "pattern" : "music awards",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 121,
+  "pattern" : "musical career",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 122,
+  "pattern" : "musician",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 123,
+  "pattern" : "musician best known\u001Cas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 124,
+  "pattern" : "name",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 125,
+  "pattern" : "national",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 126,
+  "pattern" : "new york\u001Ccity",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 128,
+  "pattern" : "number one",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 129,
+  "pattern" : "one",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 130,
+  "pattern" : "opera",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 132,
+  "pattern" : "personality",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 133,
+  "pattern" : "peter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 135,
+  "pattern" : "poet",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 136,
+  "pattern" : "pop",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 137,
+  "pattern" : "pop music",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 138,
+  "pattern" : "popularity",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 139,
+  "pattern" : "previously",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 140,
+  "pattern" : "producer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 142,
+  "pattern" : "projects",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 145,
+  "pattern" : "radio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.989", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 146,
+  "pattern" : "range",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 147,
+  "pattern" : "rapper singer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 148,
+  "pattern" : "recently",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 150,
+  "pattern" : "release",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 152,
+  "pattern" : "released debut",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.989", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.989", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 155,
+  "pattern" : "richard",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 156,
+  "pattern" : "rock band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 157,
+  "pattern" : "rock musician",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 158,
+  "pattern" : "rose fame",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 160,
+  "pattern" : "school",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.989", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 161,
+  "pattern" : "scott",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 163,
+  "pattern" : "seven",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 165,
+  "pattern" : "singer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 166,
+  "pattern" : "singer composer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 167,
+  "pattern" : "singer guitarist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 168,
+  "pattern" : "singer songwriter\u001Cshe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 169,
+  "pattern" : "singer songwriter and\u001Crecord",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 170,
+  "pattern" : "singer songwriter and\u001Crecord\u001Cproducer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 171,
+  "pattern" : "singer-songwriter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 172,
+  "pattern" : "singer-songwriter musician",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 174,
+  "pattern" : "singles chart",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 175,
+  "pattern" : "solo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 176,
+  "pattern" : "sometimes",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 177,
+  "pattern" : "song",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 178,
+  "pattern" : "songs",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 179,
+  "pattern" : "songwriter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 180,
+  "pattern" : "songwriter producer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 183,
+  "pattern" : "sweden",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 184,
+  "pattern" : "television",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 185,
+  "pattern" : "theme",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 186,
+  "pattern" : "throughout",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 187,
+  "pattern" : "times",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 188,
+  "pattern" : "title",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.989", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.989", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 189,
+  "pattern" : "track",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 190,
+  "pattern" : "tracks",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 191,
+  "pattern" : "uk",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 192,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 193,
+  "pattern" : "variety",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 194,
+  "pattern" : "vocalist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 195,
+  "pattern" : "washington",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 197,
+  "pattern" : "wife",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 198,
+  "pattern" : "william",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 199,
+  "pattern" : "williams",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 200,
+  "pattern" : "winner",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 201,
+  "pattern" : "work",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 202,
+  "pattern" : "work\u001Cwith",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 203,
+  "pattern" : "worldwide",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 204,
+  "pattern" : "would",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.989", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.989", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 207,
+  "pattern" : "young",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.99", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.99", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 208,
+  "pattern" : "youtube",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 209,
+  "pattern" : "â january",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"solo_singer\"", "IR=0.991", "triple=e_dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "1" : [ "pair=\"solo_singer\"@en", "IR=0.991", "triple=e_dbp:background \"solo_singer\"@en", "class=MusicalArtist" ]
+  }
+} ]

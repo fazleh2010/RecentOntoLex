@@ -1,0 +1,67 @@
+[ {
+  "id" : 1,
+  "pattern" : "according",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Emperor_of_Japan", "Kulczynski=1.0", "triple=e_dbp:succession dbr:Emperor_of_Japan", "class=Royalty" ],
+    "1" : [ "pair=dbr:List_of_emperors_of_Japan", "Kulczynski=0.992", "triple=e_dbp:title dbr:List_of_emperors_of_Japan", "class=Royalty" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "Kulczynski=0.617", "triple=e_dbp:spouse \"\"@en", "class=Royalty" ],
+    "1" : [ "pair=\"Tenure\"@en", "Kulczynski=0.596", "triple=e_dbp:reignType \"Tenure\"@en", "class=Royalty" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "died",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Unknown\"@en", "Kulczynski=0.75", "triple=e_dbp:birthDate \"Unknown\"@en", "class=Royalty" ],
+    "1" : [ "pair=\"unknown\"@en", "Kulczynski=0.73", "triple=e_dbp:birthDate \"unknown\"@en", "class=Royalty" ],
+    "2" : [ "pair=dbr:Georgian_Orthodox_Church", "Kulczynski=0.725", "triple=e_dbp:religion dbr:Georgian_Orthodox_Church", "class=Royalty" ],
+    "3" : [ "pair=dbr:Islam", "Kulczynski=0.61", "triple=e_dbp:religion dbr:Islam", "class=Royalty" ],
+    "4" : [ "pair=\"Dynasty\"@en", "Kulczynski=0.607", "triple=e_dbp:houseType \"Dynasty\"@en", "class=Royalty" ],
+    "5" : [ "pair=dbr:Sunni_Islam", "Kulczynski=0.591", "triple=e_dbp:religion dbr:Sunni_Islam", "class=Royalty" ],
+    "6" : [ "pair=\"monarch\"@en", "Kulczynski=0.59", "triple=e_dbp:type \"monarch\"@en", "class=Royalty" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Islam", "Kulczynski=0.633", "triple=e_dbp:religion dbr:Islam", "class=Royalty" ],
+    "1" : [ "pair=\"Successor\"@en", "Kulczynski=0.628", "triple=e_dbp:sucType \"Successor\"@en", "class=Royalty" ],
+    "2" : [ "pair=dbr:Theravada", "Kulczynski=0.623", "triple=e_dbp:religion dbr:Theravada", "class=Royalty" ],
+    "3" : [ "pair=\"Tenure\"@en", "Kulczynski=0.622", "triple=e_dbp:reignType \"Tenure\"@en", "class=Royalty" ],
+    "4" : [ "pair=\"\"@en", "Kulczynski=0.611", "triple=e_dbp:reign \"\"@en", "class=Royalty" ],
+    "5" : [ "pair=dbr:Hinduism", "Kulczynski=0.61", "triple=e_dbp:religion dbr:Hinduism", "class=Royalty" ],
+    "6" : [ "pair=\"monarch\"@en", "Kulczynski=0.601", "triple=e_dbp:type \"monarch\"@en", "class=Royalty" ],
+    "7" : [ "pair=\"Dynasty\"@en", "Kulczynski=0.599", "triple=e_dbp:houseType \"Dynasty\"@en", "class=Royalty" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "ruled",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Hinduism", "Kulczynski=0.61", "triple=e_dbp:religion dbr:Hinduism", "class=Royalty" ]
+  }
+}, {
+  "id" : 95,
+  "pattern" : "succeeded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_Anuradhapura_monarchs", "Kulczynski=1.0", "triple=e_dbp:title dbr:List_of_Anuradhapura_monarchs", "class=Royalty" ],
+    "1" : [ "pair=\"King of Anuradhapura\"@en", "Kulczynski=0.895", "triple=e_dbo:title \"King of Anuradhapura\"@en", "class=Royalty" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "succeeded\u001Cby",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:List_of_Anuradhapura_monarchs", "Kulczynski=0.98", "triple=e_dbp:title dbr:List_of_Anuradhapura_monarchs", "class=Royalty" ],
+    "1" : [ "pair=\"King of Anuradhapura\"@en", "Kulczynski=0.873", "triple=e_dbo:title \"King of Anuradhapura\"@en", "class=Royalty" ]
+  }
+} ]

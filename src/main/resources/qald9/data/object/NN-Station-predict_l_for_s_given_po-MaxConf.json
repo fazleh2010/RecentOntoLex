@@ -1,0 +1,824 @@
+[ {
+  "id" : 1,
+  "pattern" : "bahn",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "beijing",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "MaxConf=1.0", "triple=e_dbp:operator dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=Station" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "beijing\u001Csubway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "MaxConf=1.0", "triple=e_dbp:operator dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=Station" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "beijing subway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "MaxConf=1.0", "triple=e_dbp:operator dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=Station" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "bengal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "central",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "central japan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "central japan railway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "city",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ],
+    "1" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "2" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "city\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "company",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ],
+    "1" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "2" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "company jr",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "company jr east",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "company jr west",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "deutsche",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "deutsche bahn",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "district",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ],
+    "1" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ],
+    "2" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "district the\u001Cindian",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "district the\u001Cindian\u001Cstate",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "division",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "east",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "east japan railway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "eastern",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "eastern railway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "eastern railway zone",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "electric",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "german\u001Cstate",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "german\u001Cstate\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "german state",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "german state\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "germany",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "indian\u001Cstate",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "indian\u001Cstate\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "indian state",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "indian state\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "indian state\u001Cof\u001Cwest",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "indian state of\u001Cwest",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "indian state of\u001Cwest\u001Cbengal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "japan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:East_Japan_Railway_Company", "MaxConf=1.0", "triple=e_dbp:operator dbr:East_Japan_Railway_Company", "class=Station" ],
+    "1" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ],
+    "2" : [ "pair=dbr:West_Japan_Railway_Company", "MaxConf=1.0", "triple=e_dbp:operator dbr:West_Japan_Railway_Company", "class=Station" ],
+    "3" : [ "pair=\"Express\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Express\"@en", "class=Station" ],
+    "4" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "5" : [ "pair=\"Rapid\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Rapid\"@en", "class=Station" ],
+    "6" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "japan operated",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Express\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Express\"@en", "class=Station" ],
+    "1" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "2" : [ "pair=\"Rapid\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Rapid\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "japan operated by\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "japan railway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "japan railway company",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ],
+    "1" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "japan railway company\u001Cjr",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "jr kyushu",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "kilometers",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "kyushu",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "line",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "MaxConf=1.0", "triple=e_dbp:operator dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=Station" ],
+    "1" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ],
+    "2" : [ "pair=dbr:RATP_Group", "MaxConf=1.0", "triple=e_dbp:operator dbr:RATP_Group", "class=Station" ],
+    "3" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ],
+    "4" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ],
+    "5" : [ "pair=\"Express\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Express\"@en", "class=Station" ],
+    "6" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "7" : [ "pair=\"Rapid\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Rapid\"@en", "class=Station" ],
+    "8" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "london",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:access \"yes\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "main",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "municipality",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "municipality\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "mã©tro",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:RATP_Group", "MaxConf=1.0", "triple=e_dbp:operator dbr:RATP_Group", "class=Station" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "number",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "operated central",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "operated west",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "operator",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "1" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "osaka",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "paris",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:RATP_Group", "MaxConf=1.0", "triple=e_dbp:operator dbr:RATP_Group", "class=Station" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "paris\u001Cmã©tro",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:RATP_Group", "MaxConf=1.0", "triple=e_dbp:operator dbr:RATP_Group", "class=Station" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "paris mã©tro",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:RATP_Group", "MaxConf=1.0", "triple=e_dbp:operator dbr:RATP_Group", "class=Station" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "pinyin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "MaxConf=1.0", "triple=e_dbp:operator dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=Station" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "prefecture",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:West_Japan_Railway_Company", "MaxConf=1.0", "triple=e_dbp:operator dbr:West_Japan_Railway_Company", "class=Station" ],
+    "1" : [ "pair=\"Express\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Express\"@en", "class=Station" ],
+    "2" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "3" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "prefecture japan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:West_Japan_Railway_Company", "MaxConf=1.0", "triple=e_dbp:operator dbr:West_Japan_Railway_Company", "class=Station" ],
+    "1" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "prefecture japan operated",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "prefecture japan operated\u001Cby",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "prefecture japan operated\u001Cby\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "private railway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "1" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "private railway operator",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "rail",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "railway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:East_Japan_Railway_Company", "MaxConf=1.0", "triple=e_dbp:operator dbr:East_Japan_Railway_Company", "class=Station" ],
+    "1" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ],
+    "2" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ],
+    "3" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ],
+    "4" : [ "pair=dbr:Rete_Ferroviaria_Italiana", "MaxConf=1.0", "triple=e_dbp:operator dbr:Rete_Ferroviaria_Italiana", "class=Station" ],
+    "5" : [ "pair=dbr:DB_Netz", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Netz", "class=Station" ],
+    "6" : [ "pair=\"Express\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Express\"@en", "class=Station" ],
+    "7" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "8" : [ "pair=\"Rapid\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Rapid\"@en", "class=Station" ],
+    "9" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "railway\u001Cstation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ],
+    "1" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ],
+    "2" : [ "pair=\"Express\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Express\"@en", "class=Station" ],
+    "3" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "4" : [ "pair=\"Rapid\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Rapid\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "railway\u001Cstation\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ],
+    "1" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ],
+    "2" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "railway\u001Cstation\u001Con",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "railway company",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ],
+    "1" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "railway company jr",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ],
+    "1" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "railway operator",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "railway station",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:East_Japan_Railway_Company", "MaxConf=1.0", "triple=e_dbp:operator dbr:East_Japan_Railway_Company", "class=Station" ],
+    "1" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ],
+    "2" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ],
+    "3" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ],
+    "4" : [ "pair=dbr:Rete_Ferroviaria_Italiana", "MaxConf=1.0", "triple=e_dbp:operator dbr:Rete_Ferroviaria_Italiana", "class=Station" ],
+    "5" : [ "pair=\"Express\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Express\"@en", "class=Station" ],
+    "6" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "7" : [ "pair=\"Rapid\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Rapid\"@en", "class=Station" ],
+    "8" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "railway station\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ],
+    "1" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ],
+    "2" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "railway station\u001Cin\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "railway station\u001Con",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "railway station\u001Con\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "railway station in\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "railway station in\u001Cthe\u001Cmunicipality",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "railway station is\u001Ca",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 92,
+  "pattern" : "railway station located",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "railway station on\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 94,
+  "pattern" : "railway zone",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "state",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ],
+    "1" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 97,
+  "pattern" : "state west",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 98,
+  "pattern" : "state west\u001Cbengal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 99,
+  "pattern" : "station",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:access \"yes\"@en", "class=Station" ],
+    "1" : [ "pair=dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "MaxConf=1.0", "triple=e_dbp:operator dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=Station" ],
+    "2" : [ "pair=dbr:East_Japan_Railway_Company", "MaxConf=1.0", "triple=e_dbp:operator dbr:East_Japan_Railway_Company", "class=Station" ],
+    "3" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ],
+    "4" : [ "pair=dbr:RATP_Group", "MaxConf=1.0", "triple=e_dbp:operator dbr:RATP_Group", "class=Station" ],
+    "5" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ],
+    "6" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:operator \"\"@en", "class=Station" ],
+    "7" : [ "pair=dbr:MTR_Corporation", "MaxConf=1.0", "triple=e_dbp:operator dbr:MTR_Corporation", "class=Station" ],
+    "8" : [ "pair=dbr:West_Japan_Railway_Company", "MaxConf=1.0", "triple=e_dbp:operator dbr:West_Japan_Railway_Company", "class=Station" ],
+    "9" : [ "pair=dbr:Rete_Ferroviaria_Italiana", "MaxConf=1.0", "triple=e_dbp:operator dbr:Rete_Ferroviaria_Italiana", "class=Station" ],
+    "10" : [ "pair=dbr:DB_Netz", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Netz", "class=Station" ],
+    "11" : [ "pair=\"Express\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Express\"@en", "class=Station" ],
+    "12" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "13" : [ "pair=\"Rapid\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Rapid\"@en", "class=Station" ],
+    "14" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 100,
+  "pattern" : "station a\u001Crailway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 101,
+  "pattern" : "station a\u001Crailway\u001Cstation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 102,
+  "pattern" : "station located",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 103,
+  "pattern" : "station the\u001Cmunicipality",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 104,
+  "pattern" : "station the\u001Cmunicipality\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:DB_Station&Service", "MaxConf=1.0", "triple=e_dbp:operator dbr:DB_Station&Service", "class=Station" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "subway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "MaxConf=1.0", "triple=e_dbp:operator dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=Station" ]
+  }
+}, {
+  "id" : 106,
+  "pattern" : "terminus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 107,
+  "pattern" : "tokyo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 108,
+  "pattern" : "train",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "1" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 109,
+  "pattern" : "train\u001Cstation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 110,
+  "pattern" : "train station",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-\"@en", "MaxConf=1.0", "triple=e_dbp:service \"-\"@en", "class=Station" ],
+    "1" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 111,
+  "pattern" : "west",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ],
+    "1" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 112,
+  "pattern" : "west bengal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+}, {
+  "id" : 113,
+  "pattern" : "west japan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Local\"@en", "MaxConf=1.0", "triple=e_dbp:service \"Local\"@en", "class=Station" ]
+  }
+}, {
+  "id" : 114,
+  "pattern" : "zone",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=dbr:Eastern_Railway_zone", "MaxConf=1.0", "triple=e_dbp:operator dbr:Eastern_Railway_zone", "class=Station" ]
+  }
+} ]

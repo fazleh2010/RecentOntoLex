@@ -74,21 +74,28 @@ public class NewResultEvalutionTest {
     private static final String predict_o_for_s_given_l = "predict_o_for_s_given_l";
     private static final String predict_p_for_o_given_l = "predict_p_for_o_given_l";
     private static final String predict_po_for_s_given_l = "predict_po_for_s_given_l";
-    
+
     private static Set<String> classFileNames = new HashSet<String>();
     private static String resources = "src/main/resources/";
     private static String stanfordModelFile = resources + "stanford-postagger-2015-12-09/models/english-left3words-distsim.tagger";
     private static MaxentTagger taggerModel = new MaxentTagger(stanfordModelFile);
 
     private static File getFile(String posTag, List<File> fileList) {
-        for(File file:fileList){
-            if(file.getName().contains(posTag)){
-               return file;
+        for (File file : fileList) {
+            if (file.getName().contains(posTag)) {
+                return file;
             }
         }
         return null;
     }
-   
+
+    private static boolean isValidFile(String fileName, String predict_l_for_s_given_po, String Cosine) {
+         if (!fileName.contains(Cosine)
+                || !fileName.contains(predict_l_for_s_given_po)) {
+            return true;
+        }
+        return false;
+    }
 
     public NewResultEvalutionTest() {
         predicateRules = new ArrayList<String>(Arrays.asList(
@@ -115,24 +122,93 @@ public class NewResultEvalutionTest {
         associationRules = new TreeSet(new ArrayList<String>(Arrays.asList(MaxConf, IR, Kulczynski, Cosine, Coherence)));
 
     }
+    
+    public static void main(String[] args) throws Exception {
+        NewResultEvalutionTest newResultEvalutionTest = new NewResultEvalutionTest();
+        List<ObjectWordResults> entityResults = new ArrayList<ObjectWordResults>();
+        Map<String, Map<String, Lexicon>> classRuleMap = new TreeMap<String, Map<String, Lexicon>>();
 
-    private static Lexicon createLexicon(String dbo_className,String dbo_prediction, String dbo_associationRule, File file) throws Exception {
+        //for (String className : classNames) {
+        for (String prediction : predicateRules) {
+             prediction = predict_l_for_s_given_po;
+            for (String associationRule : associationRules) {
+                //associationRule=Cosine;
+                Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(inputDir, prediction,associationRule, "json");
+                Map<String, Lexicon> preditcionRuleClassMap = new TreeMap<String, Lexicon>();
+                for (File file : pair.getValue1()) {
+                    String dbo_className = null, dbo_prediction = null, dbo_associationRule = null;
+                    String fileName = file.getName().replace("HR_", "");
+                    String[] info = fileName.split("-");
+                    for (Integer index = 0; index < info.length; index++) {
+                        if (index == 0) {
+                            dbo_className = info[index];
+                        }
+                        if (index == 1) {
+                            dbo_prediction = info[index];
+                        } else if (index == 2) {
+                            dbo_associationRule = info[index];
+                        }
+                    }
+                    String key = dbo_className + "-" + dbo_prediction + "-" + dbo_associationRule;
+                    System.out.println("file:" + file.getName());
+                    System.out.println("key:" + key);
+                    Lexicon lexicon = createLexicon(dbo_className, dbo_prediction, dbo_associationRule, file);
+                    preditcionRuleClassMap.put(key, lexicon);
+                }
+                //break;
+            }
+
+            break;
+
+            /*for (String key : ruleMap.keySet()) {
+                Lexicon lexicon = ruleMap.get(key);
+                String directory = qald9Dir + OBJECT + "/";
+                System.out.println("directory:" + directory);
+                List<File> fileList = FileFolderUtils.getSpecificFiles(directory, key, ".json").getValue1();
+                System.out.println(fileList);
+                for (String posTag : Analyzer.POSTAGS) {
+                    List<LexiconUnit> list = lexicon.getLexiconPosTaggged().get(posTag);
+                    File file = getFile(posTag, fileList);
+                    String fileName = file.getName().replace(".json", "");
+                    String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, posTag);
+                    String conditionalFilename = directory + fileName + ".json";
+                    String outputFileName = directory + fileName + "-Mean" + ".json";
+                    System.out.println("qaldFileName:" + qaldFileName);
+                    System.out.println("conditionalFilename:" + conditionalFilename);
+                    System.out.println("outputFileName:" + outputFileName);
+                    Comparision comparision = new Comparision(qald9Dir, qaldFileName, conditionalFilename, outputFileName);
+                    comparision.compersionsPattern();
+                }
+
+            }*/
+        }
+
+        //}
+        //String str = entityResultToString(entityResults);
+    }
+
+    private static Lexicon createLexicon(String dbo_className, String dbo_prediction, String dbo_associationRule, File file) throws Exception {
         String key = dbo_className + "-" + dbo_prediction + "-" + dbo_associationRule;
         Analyzer analyzer = null;
         Lexicon lexicon = null;
         NewResults result = readFromJsonFile(new File(inputDir + file.getName()));
         Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
         for (String line : result.getDistributions()) {
-            LineInfo lineInfo = new LineInfo(dbo_className,line, 1, 0);
-            String word=lineInfo.getWord();
-            if(FormatAndMatch.isNumeric(lineInfo.getWord()))
-               continue;
-            if(isKBValid(lineInfo.getObject())){
+            LineInfo lineInfo = new LineInfo(dbo_className, line, 1, 0);
+            if(!lineInfo.getValidFlag()){
                 continue;
             }
-            String nGram = lineInfo.getWord().toLowerCase().trim().strip(); 
-            System.out.println("word:"+nGram);
-            System.out.println("parts-of-sppech:"+lineInfo.getPartOfSpeech());
+            String word = lineInfo.getWord();
+            System.out.println("word:" + word);
+
+            if (FormatAndMatch.isNumeric(lineInfo.getWord())) {
+                continue;
+            }
+            if (isKBValid(lineInfo.getObject())) {
+                continue;
+            }
+            String nGram = lineInfo.getWord().toLowerCase().trim().strip();
+            System.out.println("parts-of-sppech:" + lineInfo.getPartOfSpeech());
             List<LineInfo> results = new ArrayList<LineInfo>();
             if (lineLexicon.containsKey(nGram)) {
                 results = lineLexicon.get(nGram);
@@ -143,22 +219,18 @@ public class NewResultEvalutionTest {
                 lineLexicon.put(nGram, results);
             }
         }
-       
+
         lexicon = new Lexicon(qald9Dir);
         lexicon.preparePropertyLexicon(key, dbo_associationRule, lineLexicon);
         return lexicon;
     }
-    
-    
+
     public static boolean isKBValid(String word) {
-        if(word.contains("#integer")) {
+        if (word.contains("#integer")) {
             return true;
         }
         return false;
     }
-
-    
-    
 
     private static Set<String> getClassNames(String inputDir) {
         Set<String> classNames = new TreeSet<String>();
@@ -186,87 +258,15 @@ public class NewResultEvalutionTest {
         NewResults result = mapper.readValue(file, NewResults.class);
         return result;
     }
-    
-    public static void main2(String [] args){
-        String type="\"2014\"^^<http://www.w3.org/2001/XMLSchema#integer>";
-        if(!isKBValid(type))
+
+    public static void main2(String[] args) {
+        String type = "\"2014\"^^<http://www.w3.org/2001/XMLSchema#integer>";
+        if (!isKBValid(type)) {
             System.out.print(type);
-    }
-    
-     public static void main(String[] args) throws Exception {
-        NewResultEvalutionTest newResultEvalutionTest = new NewResultEvalutionTest();
-        List<ObjectWordResults> entityResults = new ArrayList<ObjectWordResults>();
-        Map<String,Map<String, Lexicon>> classRuleMap = new TreeMap<String,Map<String, Lexicon>>();
-
-    
-        for (String className : classNames) {
-            for (String associationRule : associationRules) {
-                Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(inputDir, className, associationRule, "json");
-                Map<String, Lexicon> ruleMap = new TreeMap<String, Lexicon>();
-                for (File file : pair.getValue1()) {
-                    String dbo_className = null, dbo_prediction = null, dbo_associationRule = null;
-                    String fileName = file.getName().replace("HR_", "");
-
-                    if (!fileName.contains("Politician")
-                            || !fileName.contains(Cosine)
-                            || !fileName.contains(predict_l_for_s_given_po)) {
-                        continue;
-                    }
-                    String[] info = fileName.split("-");
-                    for (Integer index = 0; index < info.length; index++) {
-                        if (index == 0) {
-                            dbo_className = info[index];
-                        }
-                        if (index == 1) {
-                            dbo_prediction = info[index];
-                        } else if (index == 2) {
-                            dbo_associationRule = info[index];
-                        }
-                    }
-                    String key = dbo_className + "-" + dbo_prediction + "-" + dbo_associationRule;
-                    Lexicon lexicon = createLexicon(dbo_className, dbo_prediction, dbo_associationRule, file);
-                    ruleMap.put(key, lexicon);
-                    System.out.println("key:" + key);
-                    
-                   
-
-                }
-                classRuleMap.put(className, ruleMap);
-                
-                for (String key : ruleMap.keySet()) {
-                    Lexicon lexicon = ruleMap.get(key);
-                    String directory = qald9Dir + OBJECT + "/";
-                    System.out.println("directory:" + directory);
-                    List<File> fileList = FileFolderUtils.getSpecificFiles(directory, key, ".json").getValue1();
-                    System.out.println(fileList);
-                    for (String posTag : Analyzer.POSTAGS) {
-                        List<LexiconUnit> list = lexicon.getLexiconPosTaggged().get(posTag);
-                        File file = getFile(posTag, fileList);
-                        String fileName = file.getName().replace(".json", "");
-                        String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, posTag);
-                        String conditionalFilename = directory + fileName + ".json";
-                        String outputFileName = directory + fileName + "-Mean" + ".json";
-                        System.out.println("qaldFileName:" + qaldFileName);
-                        System.out.println("conditionalFilename:" + conditionalFilename);
-                        System.out.println("outputFileName:" + outputFileName);
-                        Comparision comparision = new Comparision(qald9Dir, qaldFileName, conditionalFilename, outputFileName);
-                        comparision.compersionsPattern();
-                    }
-
-                }
-
-            }
-
         }
-        
-       
-
-        //String str = entityResultToString(entityResults);
     }
+
     
-     
     //ResultTriple pairWord=new ResultTriple(LineInfo.getRule(), LineInfo.getProbabilityValue(ruleName));      
     //WordResult wordResult = new WordResult(pairWord, LineInfo.getWord(), "NN");
-
-   
 }

@@ -1,0 +1,117 @@
+[ {
+  "id" : 5,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Australian\"@en", "Kulczynski=0.959", "triple=e_dbp:nationality \"Australian\"@en", "class=Writer" ],
+    "1" : [ "pair=dbr:Australia", "Kulczynski=0.932", "triple=e_dbo:country dbr:Australia", "class=Writer" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:United_Kingdom", "Kulczynski=0.804", "triple=e_dbo:nationality dbr:United_Kingdom", "class=Writer" ],
+    "1" : [ "pair=\"British\"@en", "Kulczynski=0.783", "triple=e_dbp:nationality \"British\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:London", "Kulczynski=0.716", "triple=e_dbo:birthPlace dbr:London", "class=Writer" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.958", "triple=e_dbp:nationality \"Canadian\"@en", "class=Writer" ],
+    "1" : [ "pair=dbr:Canadians", "Kulczynski=0.93", "triple=e_dbo:nationality dbr:Canadians", "class=Writer" ],
+    "2" : [ "pair=dbr:Canada", "Kulczynski=0.9", "triple=e_dbo:country dbr:Canada", "class=Writer" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"French\"@en", "Kulczynski=0.948", "triple=e_dbp:nationality \"French\"@en", "class=Writer" ],
+    "1" : [ "pair=dbr:France", "Kulczynski=0.942", "triple=e_dbo:country dbr:France", "class=Writer" ],
+    "2" : [ "pair=dbr:Paris", "Kulczynski=0.848", "triple=e_dbo:deathPlace dbr:Paris", "class=Writer" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Germany", "Kulczynski=0.909", "triple=e_dbo:country dbr:Germany", "class=Writer" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "indian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Indian\"@en", "Kulczynski=0.753", "triple=e_dbp:nationality \"Indian\"@en", "class=Writer" ],
+    "1" : [ "pair=dbr:India", "Kulczynski=0.742", "triple=e_dbo:country dbr:India", "class=Writer" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "irish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Ireland", "Kulczynski=0.902", "triple=e_dbo:country dbr:Ireland", "class=Writer" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Italy", "Kulczynski=0.903", "triple=e_dbo:country dbr:Italy", "class=Writer" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.928", "triple=e_dbo:country dbr:Japan", "class=Writer" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "korean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"South Korean\"@en", "Kulczynski=0.99", "triple=e_dbp:nationality \"South Korean\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "literary",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Norway", "Kulczynski=0.654", "triple=e_dbo:country dbr:Norway", "class=Writer" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "norwegian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Norway", "Kulczynski=0.992", "triple=e_dbo:country dbr:Norway", "class=Writer" ],
+    "1" : [ "pair=\"Norwegian\"@en", "Kulczynski=0.99", "triple=e_dbp:nationality \"Norwegian\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Novelist", "Kulczynski=0.627", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
+    "1" : [ "pair=\"Novelist\"@en", "Kulczynski=0.615", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "2" : [ "pair=\"Writer\"@en", "Kulczynski=0.584", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Russian_Empire", "Kulczynski=0.831", "triple=e_dbp:birthPlace dbr:Russian_Empire", "class=Writer" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "young",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=dbr:Young_adult_fiction", "Kulczynski=0.806", "triple=e_dbo:genre dbr:Young_adult_fiction", "class=Writer" ]
+  }
+} ]

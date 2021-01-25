@@ -5,28 +5,32 @@
  */
 package citec.correlation.wikipedia.dic.lexicon;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.LinkedHashMap;
 import java.util.List;
+
 /**
  *
  * @author elahi
  */
 public class LexiconUnit {
+
+    @JsonProperty("id")
+    private Integer id;
     @JsonProperty("pattern")
     private String word;
     @JsonProperty("partsOfSpeech")
     private String partsOfSpeech;
     @JsonProperty("index")
-    private LinkedHashMap<Integer, List<String> > entityInfos = new LinkedHashMap<Integer, List<String>>();
-    
+    private LinkedHashMap<Integer, List<String>> entityInfos = new LinkedHashMap<Integer, List<String>>();
+
     public LexiconUnit() {
-        
+
     }
 
-    public LexiconUnit(String word,String  partsOfSpeech,LinkedHashMap<Integer, List<String> > entityInfos) {
-        this.partsOfSpeech=partsOfSpeech;
+    public LexiconUnit(Integer id,String word, String partsOfSpeech, LinkedHashMap<Integer, List<String>> entityInfos) {
+        this.id=id;
+        this.partsOfSpeech = partsOfSpeech;
         this.word = word;
         this.entityInfos = entityInfos;
     }
@@ -43,9 +47,15 @@ public class LexiconUnit {
         return partsOfSpeech;
     }
 
+    public Integer getId() {
+        return id;
+    }
+
+  
+
     @Override
     public String toString() {
-        return "LexiconUnit{" + "word=" + word + ", partsOfSpeech=" + partsOfSpeech + ", entityInfos=" + entityInfos + '}';
+        return "LexiconUnit{" + "Integer=" + id + ", word=" + word + ", partsOfSpeech=" + partsOfSpeech + ", entityInfos=" + entityInfos + '}';
     }
 
 }

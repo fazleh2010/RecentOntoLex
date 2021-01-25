@@ -1,0 +1,50 @@
+[ {
+  "id" : 11,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Barack_Obama", "Cosine=0.872", "triple=e_dbp:president dbr:Barack_Obama", "class=Politician" ],
+    "1" : [ "pair=\"Republican Party\"@en", "Cosine=0.862", "triple=e_dbp:party \"Republican Party\"@en", "class=Politician" ],
+    "2" : [ "pair=dbr:Member_of_parliament", "Cosine=0.858", "triple=e_dbp:honorificSuffix dbr:Member_of_parliament", "class=Politician" ],
+    "3" : [ "pair=\"Democratic Party\"@en", "Cosine=0.858", "triple=e_dbp:party \"Democratic Party\"@en", "class=Politician" ],
+    "4" : [ "pair=dbr:France", "Cosine=0.843", "triple=e_dbo:nationality dbr:France", "class=Politician" ],
+    "5" : [ "pair=\"Independent\"@en", "Cosine=0.822", "triple=e_dbp:party \"Independent\"@en", "class=Politician" ],
+    "6" : [ "pair=dbr:Soviet_Union", "Cosine=0.811", "triple=e_dbo:birthPlace dbr:Soviet_Union", "class=Politician" ],
+    "7" : [ "pair=dbr:India", "Cosine=0.792", "triple=e_dbo:birthPlace dbr:India", "class=Politician" ],
+    "8" : [ "pair=dbr:Labour_Party_(UK", "Cosine=0.787", "triple=e_dbo:party dbr:Labour_Party_(UK", "class=Politician" ],
+    "9" : [ "pair=dbr:Independent_politician", "Cosine=0.779", "triple=e_dbo:party dbr:Independent_politician", "class=Politician" ],
+    "10" : [ "pair=dbr:United_States", "Cosine=0.772", "triple=e_dbp:birthPlace dbr:United_States", "class=Politician" ],
+    "11" : [ "pair=dbr:Harvard_University", "Cosine=0.761", "triple=e_dbo:education dbr:Harvard_University", "class=Politician" ],
+    "12" : [ "pair=dbr:Elizabeth_II", "Cosine=0.751", "triple=e_dbp:monarch dbr:Elizabeth_II", "class=Politician" ],
+    "13" : [ "pair=dbr:The_Honourable", "Cosine=0.749", "triple=e_dbp:honorificPrefix dbr:The_Honourable", "class=Politician" ],
+    "14" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Cosine=0.734", "triple=e_dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ],
+    "15" : [ "pair=dbr:Australian_Labor_Party", "Cosine=0.731", "triple=e_dbo:party dbr:Australian_Labor_Party", "class=Politician" ],
+    "16" : [ "pair=dbr:Australia", "Cosine=0.723", "triple=e_dbo:nationality dbr:Australia", "class=Politician" ],
+    "17" : [ "pair=dbr:Politician", "Cosine=0.723", "triple=e_dbo:occupation dbr:Politician", "class=Politician" ],
+    "18" : [ "pair=\"Australian\"@en", "Cosine=0.717", "triple=e_dbp:nationality \"Australian\"@en", "class=Politician" ],
+    "19" : [ "pair=dbr:Republican_Party_(United_States", "Cosine=0.711", "triple=e_dbp:party dbr:Republican_Party_(United_States", "class=Politician" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "represented",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Cosine=0.869", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "served",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Member of the\"@en", "Cosine=0.735", "triple=e_dbp:office \"Member of the\"@en", "class=Politician" ],
+    "1" : [ "pair=\"American\"@en", "Cosine=0.717", "triple=e_dbp:nationality \"American\"@en", "class=Politician" ]
+  }
+}, {
+  "id" : 98,
+  "pattern" : "united",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"United States Senator\"@en", "Cosine=0.782", "triple=e_dbp:jr/sr \"United States Senator\"@en", "class=Politician" ],
+    "1" : [ "pair=dbr:Harvard_University", "Cosine=0.768", "triple=e_dbo:education dbr:Harvard_University", "class=Politician" ]
+  }
+} ]

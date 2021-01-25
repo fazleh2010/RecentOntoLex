@@ -25,18 +25,23 @@ public class LineInfo {
     private String posTag = null;
     private String object = null;    private String rule = null;
     private String word = null;
+    private String wordOriginal = null;
+    private String className = null;
     private Integer nGramNumber=0;
     private Map<String, Double> probabilityValue = new TreeMap<String, Double>();
     private Analyzer analyzer=null;
     //line:{ dbo:Politician in c_e and (e, dbp:state, "Ohio"@en) in G } => { occurs('Ohio', d_e) } | supA=64, supB=64, supAB=64, condBA=1, condAB=1, AllConf=1, Coherence=0.5, Cosine=1, Kulczynski=1, MaxConf=1, IR=0
 
-    public LineInfo(String line,Integer wordIndex,Integer kbIndex) throws Exception {
+    public LineInfo(String className,String line,Integer wordIndex,Integer kbIndex) throws Exception {
         this.line=line;
+        this.className=className;
         String[] rule = line.split("=>");
         String leftRule = StringUtils.substringBetween(rule[kbIndex], "(", ")");
         String rightRule = StringUtils.substringBetween(rule[wordIndex], "{", "}");
         this.setTriple(leftRule);
         this.setWord(rightRule);
+        this.processWords(this.wordOriginal);
+        this.getPosTag(this.word);
         this.setRule();
         this.setProbabilityValue(line);
     }
@@ -68,8 +73,7 @@ public class LineInfo {
 
     private void setWord(String rightRule) throws Exception {
         String word = StringUtils.substringBetween(rightRule, "(", ")");
-        this.word = StringUtils.substringBetween(word, "'", "'");
-        this.processWords(this.word);
+        this.wordOriginal = StringUtils.substringBetween(word, "'", "'");
     }
 
     private void setTriple(String leftRule) {
@@ -82,7 +86,7 @@ public class LineInfo {
     }
     
     private void processWords(String nGram) throws Exception {
-        StringTokenizer st =new StringTokenizer(nGram);
+        StringTokenizer st = new StringTokenizer(nGram);
         nGram = nGram.toLowerCase().trim().strip();
         String str = "";
         while (st.hasMoreTokens()) {
@@ -94,25 +98,23 @@ public class LineInfo {
             str += line;
         }
         str = str.replace("_", " ");
-        str =str.toLowerCase().trim().stripTrailing();
-        String []info=str.split(" ");
-        this.nGramNumber=info.length;
-        this.getPosTag(str);        
+        str = str.toLowerCase().trim().stripTrailing();
+
+        String[] info = str.split(" ");
+        this.word = str;
+        if (info.length > 1) {
+            this.nGramNumber = info.length;
+        }
     }
     
-     private void getPosTag(String nGram) throws Exception {
-        analyzer = new Analyzer(nGram, POS_TAGGER_WORDS, 5);
-        System.out.println("noun:"+analyzer.getNouns());
-        System.out.println("adjective:"+analyzer.getAdjectives());
-        System.out.println("verb:"+analyzer.getVerbs());
-
-        
+    private void getPosTag(String word) throws Exception {
+        analyzer = new Analyzer(word, POS_TAGGER_WORDS, 5);
         if (!analyzer.getNouns().isEmpty()) {
-            this.posTag = "NN";
+            this.posTag = Analyzer.NOUN;
         } else if (!analyzer.getAdjectives().isEmpty()) {
-            this.posTag = "JJ";
+            this.posTag = Analyzer.ADJECTIVE;
         } else if (!analyzer.getVerbs().isEmpty()) {
-            this.posTag = "VB";
+            this.posTag = Analyzer.VERB;
         }
     }
 
@@ -164,6 +166,14 @@ public class LineInfo {
 
     public Map<String, Double> getProbabilityValue() {
         return probabilityValue;
+    }
+
+    public String getWordOriginal() {
+        return wordOriginal;
+    }
+
+    public String getClassName() {
+        return className;
     }
 
     @Override

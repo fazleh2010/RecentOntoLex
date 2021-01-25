@@ -5,6 +5,8 @@
  */
 package citec.correlation.wikipedia.dic.lexicon;
 
+import citec.correlation.wikipedia.analyzer.Analyzer;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
@@ -20,6 +22,7 @@ import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
 import org.javatuples.Pair;
 
@@ -30,46 +33,64 @@ import org.javatuples.Pair;
 public class Lexicon {
    
     private String lexiconDirectory = null;
-    private String fileName = null;
-    private  Map<String, List<LexiconUnit>> lexicon = new TreeMap<String, List<LexiconUnit>>();
+    private  Map<String, List<LexiconUnit>>lexiconPosTaggged = new TreeMap<String, List<LexiconUnit>>();
    
 
     public Lexicon(String outputDir) throws IOException {
         this.lexiconDirectory = outputDir;
     }
     
-    public void preparePropertyLexicon(String fileName,String associationType, Map<String, List<LineInfo>> lineLexicon) throws IOException {
-        this.fileName = fileName;
+    public void preparePropertyLexicon(String key,String associationType, Map<String, List<LineInfo>> lineLexicon) throws IOException {
+        Map<String, List<LexiconUnit>> posTaggedLex = new TreeMap<String, List<LexiconUnit>>();
+        Integer count=0,countJJ=0,countVB=0;
         for (String word : lineLexicon.keySet()) {
             String postagOfWord = null;
             LinkedHashMap<Integer, List<String>> kbList = new LinkedHashMap<Integer, List<String>>();
             Integer index = 0;
-            System.out.println("word:"+word);
-            if(FormatAndMatch.isNumeric(word))
-               continue;
+            //System.out.println("word:"+word);
+            
             //System.out.println("postagOfWord:"+postagOfWord);
             //System.out.println("associationType:"+associationType);
+             Set<String>duplicateCheck=new HashSet<String>();
+             
+             /*if(postagOfWord.contains(Analyzer.NOUN))
+                    countNN=countNN+1;
+                else if (postagOfWord.contains(Analyzer.ADJECTIVE)){
+                     countJJ=countJJ+1;
+                }
+                else if (postagOfWord.contains(Analyzer.VERB)){
+                     countVB=countVB+1;
+                }*/
+           count=count+1;
             for (LineInfo lineInfo : lineLexicon.get(word)) {
                 postagOfWord = lineInfo.getPartOfSpeech();
+                
+                String object=lineInfo.getObject();
                 List<String> pairs = new ArrayList<String>();
-                pairs.add("pair=" + lineInfo.getObject());
+                if(duplicateCheck.contains(object)){
+                   continue; 
+                }
                 String value=lineInfo.getProbabilityValue(associationType).toString();
+
                 //System.out.println("pair="+lineInfo.getObject());
                 //System.out.println("associationType:"+associationType+" "+value);
                 //pairs.add("pair=" + lineInfo.getPredicate() + "_" + lineInfo.getObject());
+                pairs.add("pair=" + object);
                 pairs.add(associationType + "=" + value);
+                pairs.add("triple" + "=" + lineInfo.getSubject()+"_"+lineInfo.getPredicate()+" "+lineInfo.getObject());
+                pairs.add("class" + "=" + lineInfo.getClassName());
                 kbList.put(index, pairs);
                 index = index + 1;
+                duplicateCheck.add(object);
             }
-            LexiconUnit LexiconUnit = new LexiconUnit(word, postagOfWord, kbList);
-            lexicon = this.setPartsOfSpeech(postagOfWord, LexiconUnit, lexicon);
+            LexiconUnit LexiconUnit  = new LexiconUnit(count, word, postagOfWord, kbList);          
+            posTaggedLex = this.setPartsOfSpeech(postagOfWord, LexiconUnit, posTaggedLex);
         }
 
-        for (String postag : lexicon.keySet()) {
-            System.out.println("postag:"+postag);
-            List<LexiconUnit> lexiconUnts = lexicon.get(postag);
-            System.out.println("fileName:"+fileName);
-            //FileFolderUtils.createDirectory(this.lexiconDirectory);
+        for (String postag : posTaggedLex.keySet()) {
+            String fileName = qald9Dir+ OBJECT + "/"+postag + "-" + key  + ".json";
+            List<LexiconUnit> lexiconUnts = posTaggedLex.get(postag);
+            this.lexiconPosTaggged.put(postag, lexiconUnts);
             ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
             mapper.writeValue(Paths.get(fileName).toFile(), lexiconUnts);
         }
@@ -110,6 +131,7 @@ public class Lexicon {
             return;
         }
         List<LexiconUnit> lexiconUnts = new ArrayList<LexiconUnit>();
+        Integer count=0;
         for (String word : nounEntitieInfos.keySet()) {
             List<WordObjectResults> list = nounEntitieInfos.get(word);
             LinkedHashMap<Integer, List<String>> entityInfos = new LinkedHashMap<Integer, List<String>>();
@@ -117,6 +139,7 @@ public class Lexicon {
             String firstTag = null;
             Boolean flag = false;
              String postagOfWord =null;
+             count=count+1;
             for (WordObjectResults entityInfo : list) {
                 postagOfWord = entityInfo.getPosTag();
                 firstTag = this.getFirstTag(entityInfo.getPosTag());
@@ -124,6 +147,7 @@ public class Lexicon {
                     flag = true;
                 }
                 index = index + 1;
+       
                 List<String> pairs = new ArrayList<String>();
                 //System.out.println("entityInfo.getPair():"+entityInfo.getPair());
                 pairs.add("pair=" + entityInfo.getPair());
@@ -131,7 +155,7 @@ public class Lexicon {
                 entityInfos.put(index, pairs);
             }
             if (flag) {
-                LexiconUnit LexiconUnit = new LexiconUnit(word, postagOfWord, entityInfos);
+                LexiconUnit LexiconUnit = new LexiconUnit(count,word, postagOfWord, entityInfos);
                 lexiconUnts.add(LexiconUnit);
             }
 
@@ -242,7 +266,14 @@ public class Lexicon {
         return wordObjectResults;
     }
 
-  
+    public String getLexiconDirectory() {
+        return lexiconDirectory;
+    }
 
+    public Map<String, List<LexiconUnit>> getLexiconPosTaggged() {
+        return lexiconPosTaggged;
+    }
+
+  
   
 }

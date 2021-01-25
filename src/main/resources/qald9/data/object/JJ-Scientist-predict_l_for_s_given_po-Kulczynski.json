@@ -3,108 +3,108 @@
   "pattern" : "australian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Australian\"@en", "Kulczynski=0.9", "triple=e_dbp:nationality \"Australian\"@en", "class=Scientist" ]
+    "0" : [ "pair=\"Australian\"@en", "Kulczynski=0.9", "triple=e dbp:nationality \"Australian\"@en", "class=Scientist" ]
   }
 }, {
   "id" : 27,
   "pattern" : "british",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"British\"@en", "Kulczynski=0.799", "triple=e_dbp:nationality \"British\"@en", "class=Scientist" ]
+    "0" : [ "pair=\"British\"@en", "Kulczynski=0.799", "triple=e dbp:nationality \"British\"@en", "class=Scientist" ]
   }
 }, {
   "id" : 46,
   "pattern" : "french",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"French\"@en", "Kulczynski=0.968", "triple=e_dbp:nationality \"French\"@en", "class=Scientist" ],
-    "1" : [ "pair=dbr:France", "Kulczynski=0.965", "triple=e_dbo:nationality dbr:France", "class=Scientist" ]
+    "0" : [ "pair=\"French\"@en", "Kulczynski=0.968", "triple=e dbp:nationality \"French\"@en", "class=Scientist" ],
+    "1" : [ "pair=dbr:France", "Kulczynski=0.965", "triple=e dbo:nationality dbr:France", "class=Scientist" ]
   }
 }, {
   "id" : 49,
   "pattern" : "german",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Germany", "Kulczynski=0.938", "triple=e_dbp:nationality dbr:Germany", "class=Scientist" ],
-    "1" : [ "pair=\"German\"@en", "Kulczynski=0.929", "triple=e_dbp:nationality \"German\"@en", "class=Scientist" ],
-    "2" : [ "pair=dbr:Humboldt_University_of_Berlin", "Kulczynski=0.829", "triple=e_dbp:almaMater dbr:Humboldt_University_of_Berlin", "class=Scientist" ]
+    "0" : [ "pair=dbr:Germany", "Kulczynski=0.938", "triple=e dbp:nationality dbr:Germany", "class=Scientist" ],
+    "1" : [ "pair=\"German\"@en", "Kulczynski=0.929", "triple=e dbp:nationality \"German\"@en", "class=Scientist" ],
+    "2" : [ "pair=dbr:Humboldt_University_of_Berlin", "Kulczynski=0.829", "triple=e dbp:almaMater dbr:Humboldt_University_of_Berlin", "class=Scientist" ]
   }
 }, {
   "id" : 58,
   "pattern" : "highest",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Indian_nationality", "Kulczynski=0.851", "triple=e_dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
-    "1" : [ "pair=dbr:Indian_nationality_law", "Kulczynski=0.851", "triple=e_dbp:nationality dbr:Indian_nationality_law", "class=Scientist" ]
+    "0" : [ "pair=dbr:Indian_nationality", "Kulczynski=0.851", "triple=e dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
+    "1" : [ "pair=dbr:Indian_nationality_law", "Kulczynski=0.851", "triple=e dbp:nationality dbr:Indian_nationality_law", "class=Scientist" ]
   }
 }, {
   "id" : 59,
   "pattern" : "highest\u001Cindian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Indian_nationality", "Kulczynski=0.851", "triple=e_dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
-    "1" : [ "pair=dbr:Indian_nationality_law", "Kulczynski=0.851", "triple=e_dbp:nationality dbr:Indian_nationality_law", "class=Scientist" ]
+    "0" : [ "pair=dbr:Indian_nationality", "Kulczynski=0.851", "triple=e dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
+    "1" : [ "pair=dbr:Indian_nationality_law", "Kulczynski=0.851", "triple=e dbp:nationality dbr:Indian_nationality_law", "class=Scientist" ]
   }
 }, {
   "id" : 61,
   "pattern" : "highest indian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Indian_nationality", "Kulczynski=0.851", "triple=e_dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
-    "1" : [ "pair=dbr:Indian_nationality_law", "Kulczynski=0.851", "triple=e_dbp:nationality dbr:Indian_nationality_law", "class=Scientist" ]
+    "0" : [ "pair=dbr:Indian_nationality", "Kulczynski=0.851", "triple=e dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
+    "1" : [ "pair=dbr:Indian_nationality_law", "Kulczynski=0.851", "triple=e dbp:nationality dbr:Indian_nationality_law", "class=Scientist" ]
   }
 }, {
   "id" : 72,
   "pattern" : "indian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Indian_nationality", "Kulczynski=0.995", "triple=e_dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
-    "1" : [ "pair=dbr:Indian_nationality_law", "Kulczynski=0.995", "triple=e_dbp:nationality dbr:Indian_nationality_law", "class=Scientist" ],
-    "2" : [ "pair=\"Indian\"@en", "Kulczynski=0.941", "triple=e_dbp:nationality \"Indian\"@en", "class=Scientist" ],
-    "3" : [ "pair=dbr:India", "Kulczynski=0.897", "triple=e_dbo:nationality dbr:India", "class=Scientist" ]
+    "0" : [ "pair=dbr:Indian_nationality", "Kulczynski=0.995", "triple=e dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
+    "1" : [ "pair=dbr:Indian_nationality_law", "Kulczynski=0.995", "triple=e dbp:nationality dbr:Indian_nationality_law", "class=Scientist" ],
+    "2" : [ "pair=\"Indian\"@en", "Kulczynski=0.941", "triple=e dbp:nationality \"Indian\"@en", "class=Scientist" ],
+    "3" : [ "pair=dbr:India", "Kulczynski=0.897", "triple=e dbo:nationality dbr:India", "class=Scientist" ]
   }
 }, {
   "id" : 82,
   "pattern" : "italian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Italian\"@en", "Kulczynski=0.958", "triple=e_dbp:nationality \"Italian\"@en", "class=Scientist" ],
-    "1" : [ "pair=dbr:Italy", "Kulczynski=0.934", "triple=e_dbo:nationality dbr:Italy", "class=Scientist" ]
+    "0" : [ "pair=\"Italian\"@en", "Kulczynski=0.958", "triple=e dbp:nationality \"Italian\"@en", "class=Scientist" ],
+    "1" : [ "pair=dbr:Italy", "Kulczynski=0.934", "triple=e dbo:nationality dbr:Italy", "class=Scientist" ]
   }
 }, {
   "id" : 87,
   "pattern" : "one the\u001Chighest",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Indian_nationality", "Kulczynski=0.851", "triple=e_dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
-    "1" : [ "pair=dbr:Indian_nationality_law", "Kulczynski=0.851", "triple=e_dbp:nationality dbr:Indian_nationality_law", "class=Scientist" ]
+    "0" : [ "pair=dbr:Indian_nationality", "Kulczynski=0.851", "triple=e dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
+    "1" : [ "pair=dbr:Indian_nationality_law", "Kulczynski=0.851", "triple=e dbp:nationality dbr:Indian_nationality_law", "class=Scientist" ]
   }
 }, {
   "id" : 88,
   "pattern" : "one the\u001Chighest\u001Cindian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Indian_nationality", "Kulczynski=0.851", "triple=e_dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
-    "1" : [ "pair=dbr:Indian_nationality_law", "Kulczynski=0.851", "triple=e_dbp:nationality dbr:Indian_nationality_law", "class=Scientist" ]
+    "0" : [ "pair=dbr:Indian_nationality", "Kulczynski=0.851", "triple=e dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
+    "1" : [ "pair=dbr:Indian_nationality_law", "Kulczynski=0.851", "triple=e dbp:nationality dbr:Indian_nationality_law", "class=Scientist" ]
   }
 }, {
   "id" : 99,
   "pattern" : "russian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Moscow", "Kulczynski=0.982", "triple=e_dbp:deathPlace dbr:Moscow", "class=Scientist" ],
-    "1" : [ "pair=dbr:Russia", "Kulczynski=0.95", "triple=e_dbo:nationality dbr:Russia", "class=Scientist" ],
-    "2" : [ "pair=\"Russian\"@en", "Kulczynski=0.936", "triple=e_dbp:nationality \"Russian\"@en", "class=Scientist" ],
-    "3" : [ "pair=dbr:Moscow_State_University", "Kulczynski=0.904", "triple=e_dbp:almaMater dbr:Moscow_State_University", "class=Scientist" ],
-    "4" : [ "pair=dbr:Soviet_Union", "Kulczynski=0.886", "triple=e_dbo:birthPlace dbr:Soviet_Union", "class=Scientist" ],
-    "5" : [ "pair=dbr:Russian_Empire", "Kulczynski=0.84", "triple=e_dbo:birthPlace dbr:Russian_Empire", "class=Scientist" ]
+    "0" : [ "pair=dbr:Moscow", "Kulczynski=0.982", "triple=e dbp:deathPlace dbr:Moscow", "class=Scientist" ],
+    "1" : [ "pair=dbr:Russia", "Kulczynski=0.95", "triple=e dbo:nationality dbr:Russia", "class=Scientist" ],
+    "2" : [ "pair=\"Russian\"@en", "Kulczynski=0.936", "triple=e dbp:nationality \"Russian\"@en", "class=Scientist" ],
+    "3" : [ "pair=dbr:Moscow_State_University", "Kulczynski=0.904", "triple=e dbp:almaMater dbr:Moscow_State_University", "class=Scientist" ],
+    "4" : [ "pair=dbr:Soviet_Union", "Kulczynski=0.886", "triple=e dbo:birthPlace dbr:Soviet_Union", "class=Scientist" ],
+    "5" : [ "pair=dbr:Russian_Empire", "Kulczynski=0.84", "triple=e dbo:birthPlace dbr:Russian_Empire", "class=Scientist" ]
   }
 }, {
   "id" : 104,
   "pattern" : "scientific",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Indian_nationality", "Kulczynski=0.805", "triple=e_dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
-    "1" : [ "pair=dbr:Indian_nationality_law", "Kulczynski=0.805", "triple=e_dbp:nationality dbr:Indian_nationality_law", "class=Scientist" ]
+    "0" : [ "pair=dbr:Indian_nationality", "Kulczynski=0.805", "triple=e dbo:nationality dbr:Indian_nationality", "class=Scientist" ],
+    "1" : [ "pair=dbr:Indian_nationality_law", "Kulczynski=0.805", "triple=e dbp:nationality dbr:Indian_nationality_law", "class=Scientist" ]
   }
 } ]

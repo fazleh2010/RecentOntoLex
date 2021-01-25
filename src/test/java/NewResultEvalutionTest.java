@@ -80,21 +80,19 @@ public class NewResultEvalutionTest {
     private static String stanfordModelFile = resources + "stanford-postagger-2015-12-09/models/english-left3words-distsim.tagger";
     private static MaxentTagger taggerModel = new MaxentTagger(stanfordModelFile);
 
-    private static File getFile(String posTag, List<File> fileList) {
-        for (File file : fileList) {
-            if (file.getName().contains(posTag)) {
-                return file;
+    private static String[] findParameter(String[] info) {
+        String[] parameters = new String[3];
+        for (Integer index = 0; index < info.length; index++) {
+            if (index == 0) {
+                parameters[index] = info[index];
+            }
+            if (index == 1) {
+                parameters[index] = info[index];
+            } else if (index == 2) {
+                parameters[index] = info[index];
             }
         }
-        return null;
-    }
-
-    private static boolean isValidFile(String fileName, String predict_l_for_s_given_po, String Cosine) {
-         if (!fileName.contains(Cosine)
-                || !fileName.contains(predict_l_for_s_given_po)) {
-            return true;
-        }
-        return false;
+        return parameters;
     }
 
     public NewResultEvalutionTest() {
@@ -122,7 +120,7 @@ public class NewResultEvalutionTest {
         associationRules = new TreeSet(new ArrayList<String>(Arrays.asList(MaxConf, IR, Kulczynski, Cosine, Coherence)));
 
     }
-    
+
     public static void main(String[] args) throws Exception {
         NewResultEvalutionTest newResultEvalutionTest = new NewResultEvalutionTest();
         List<ObjectWordResults> entityResults = new ArrayList<ObjectWordResults>();
@@ -130,35 +128,21 @@ public class NewResultEvalutionTest {
 
         //for (String className : classNames) {
         for (String prediction : predicateRules) {
-             prediction = predict_l_for_s_given_po;
+            prediction = predict_l_for_s_given_po;
             for (String associationRule : associationRules) {
-                //associationRule=Cosine;
-                Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(inputDir, prediction,associationRule, "json");
+                Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(inputDir, prediction, associationRule, "json");
                 Map<String, Lexicon> preditcionRuleClassMap = new TreeMap<String, Lexicon>();
                 for (File file : pair.getValue1()) {
-                    String dbo_className = null, dbo_prediction = null, dbo_associationRule = null;
                     String fileName = file.getName().replace("HR_", "");
                     String[] info = fileName.split("-");
-                    for (Integer index = 0; index < info.length; index++) {
-                        if (index == 0) {
-                            dbo_className = info[index];
-                        }
-                        if (index == 1) {
-                            dbo_prediction = info[index];
-                        } else if (index == 2) {
-                            dbo_associationRule = info[index];
-                        }
-                    }
-                    String key = dbo_className + "-" + dbo_prediction + "-" + dbo_associationRule;
-                    System.out.println("file:" + file.getName());
-                    System.out.println("key:" + key);
-                    Lexicon lexicon = createLexicon(dbo_className, dbo_prediction, dbo_associationRule, file);
+                    String[] parameters =findParameter(info);
+                    String key = parameters[0] + "-" + parameters[1] + "-" + parameters[2];
+                    Lexicon lexicon = createLexicon( parameters[0], parameters[1], parameters[2], file);
                     preditcionRuleClassMap.put(key, lexicon);
+                    System.out.println(key+" "+lexicon);
                 }
                 //break;
             }
-
-            break;
 
             /*for (String key : ruleMap.keySet()) {
                 Lexicon lexicon = ruleMap.get(key);
@@ -181,6 +165,7 @@ public class NewResultEvalutionTest {
                 }
 
             }*/
+            break;
         }
 
         //}
@@ -195,11 +180,11 @@ public class NewResultEvalutionTest {
         Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
         for (String line : result.getDistributions()) {
             LineInfo lineInfo = new LineInfo(dbo_className, line, 1, 0);
-            if(!lineInfo.getValidFlag()){
+            if (!lineInfo.getValidFlag()) {
                 continue;
             }
             String word = lineInfo.getWord();
-            System.out.println("word:" + word);
+            //System.out.println("word:" + word);
 
             if (FormatAndMatch.isNumeric(lineInfo.getWord())) {
                 continue;
@@ -208,7 +193,7 @@ public class NewResultEvalutionTest {
                 continue;
             }
             String nGram = lineInfo.getWord().toLowerCase().trim().strip();
-            System.out.println("parts-of-sppech:" + lineInfo.getPartOfSpeech());
+            //System.out.println("parts-of-sppech:" + lineInfo.getPartOfSpeech());
             List<LineInfo> results = new ArrayList<LineInfo>();
             if (lineLexicon.containsKey(nGram)) {
                 results = lineLexicon.get(nGram);
@@ -226,7 +211,8 @@ public class NewResultEvalutionTest {
     }
 
     public static boolean isKBValid(String word) {
-        if (word.contains("#integer")) {
+        
+        if (word.contains("#integer")||word.contains("#double")) {
             return true;
         }
         return false;
@@ -266,7 +252,20 @@ public class NewResultEvalutionTest {
         }
     }
 
-    
-    //ResultTriple pairWord=new ResultTriple(LineInfo.getRule(), LineInfo.getProbabilityValue(ruleName));      
-    //WordResult wordResult = new WordResult(pairWord, LineInfo.getWord(), "NN");
+    private static File getFile(String posTag, List<File> fileList) {
+        for (File file : fileList) {
+            if (file.getName().contains(posTag)) {
+                return file;
+            }
+        }
+        return null;
+    }
+
+    private static boolean isValidFile(String fileName, String predict_l_for_s_given_po, String Cosine) {
+        if (!fileName.contains(Cosine)
+                || !fileName.contains(predict_l_for_s_given_po)) {
+            return true;
+        }
+        return false;
+    }
 }

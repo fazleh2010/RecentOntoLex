@@ -3,47 +3,47 @@
   "pattern" : "breuning 1939",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Animalia\"@en", "IR=0.993", "triple=e_dbp:regnum \"Animalia\"@en", "class=Insect" ],
-    "1" : [ "pair=dbr:Animal", "IR=0.993", "triple=e_dbo:kingdom dbr:Animal", "class=Insect" ],
-    "2" : [ "pair=\"Arthropoda\"@en", "IR=0.993", "triple=e_dbp:phylum \"Arthropoda\"@en", "class=Insect" ],
-    "3" : [ "pair=\"Insecta\"@en", "IR=0.993", "triple=e_dbp:classis \"Insecta\"@en", "class=Insect" ],
-    "4" : [ "pair=dbr:Arthropod", "IR=0.993", "triple=e_dbo:phylum dbr:Arthropod", "class=Insect" ],
-    "5" : [ "pair=dbr:Insect", "IR=0.993", "triple=e_dbo:class dbr:Insect", "class=Insect" ]
+    "0" : [ "pair=\"Animalia\"@en", "IR=0.993", "triple=e dbp:regnum \"Animalia\"@en", "class=Insect" ],
+    "1" : [ "pair=dbr:Animal", "IR=0.993", "triple=e dbo:kingdom dbr:Animal", "class=Insect" ],
+    "2" : [ "pair=\"Arthropoda\"@en", "IR=0.993", "triple=e dbp:phylum \"Arthropoda\"@en", "class=Insect" ],
+    "3" : [ "pair=\"Insecta\"@en", "IR=0.993", "triple=e dbp:classis \"Insecta\"@en", "class=Insect" ],
+    "4" : [ "pair=dbr:Arthropod", "IR=0.993", "triple=e dbo:phylum dbr:Arthropod", "class=Insect" ],
+    "5" : [ "pair=dbr:Insect", "IR=0.993", "triple=e dbo:class dbr:Insect", "class=Insect" ]
   }
 }, {
   "id" : 15,
   "pattern" : "contains",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Animal", "IR=0.993", "triple=e_dbo:kingdom dbr:Animal", "class=Insect" ],
-    "1" : [ "pair=dbr:Arthropod", "IR=0.993", "triple=e_dbo:phylum dbr:Arthropod", "class=Insect" ],
-    "2" : [ "pair=dbr:Insect", "IR=0.993", "triple=e_dbo:class dbr:Insect", "class=Insect" ],
-    "3" : [ "pair=\"Animalia\"@en", "IR=0.993", "triple=e_dbp:regnum \"Animalia\"@en", "class=Insect" ],
-    "4" : [ "pair=\"Arthropoda\"@en", "IR=0.993", "triple=e_dbp:phylum \"Arthropoda\"@en", "class=Insect" ],
-    "5" : [ "pair=\"Insecta\"@en", "IR=0.993", "triple=e_dbp:classis \"Insecta\"@en", "class=Insect" ]
+    "0" : [ "pair=dbr:Animal", "IR=0.993", "triple=e dbo:kingdom dbr:Animal", "class=Insect" ],
+    "1" : [ "pair=dbr:Arthropod", "IR=0.993", "triple=e dbo:phylum dbr:Arthropod", "class=Insect" ],
+    "2" : [ "pair=dbr:Insect", "IR=0.993", "triple=e dbo:class dbr:Insect", "class=Insect" ],
+    "3" : [ "pair=\"Animalia\"@en", "IR=0.993", "triple=e dbp:regnum \"Animalia\"@en", "class=Insect" ],
+    "4" : [ "pair=\"Arthropoda\"@en", "IR=0.993", "triple=e dbp:phylum \"Arthropoda\"@en", "class=Insect" ],
+    "5" : [ "pair=\"Insecta\"@en", "IR=0.993", "triple=e dbp:classis \"Insecta\"@en", "class=Insect" ]
   }
 }, {
   "id" : 18,
   "pattern" : "described",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Animalia\"@en", "IR=0.993", "triple=e_dbp:regnum \"Animalia\"@en", "class=Insect" ],
-    "1" : [ "pair=dbr:Animal", "IR=0.993", "triple=e_dbo:kingdom dbr:Animal", "class=Insect" ],
-    "2" : [ "pair=\"Arthropoda\"@en", "IR=0.993", "triple=e_dbp:phylum \"Arthropoda\"@en", "class=Insect" ],
-    "3" : [ "pair=\"Insecta\"@en", "IR=0.993", "triple=e_dbp:classis \"Insecta\"@en", "class=Insect" ],
-    "4" : [ "pair=dbr:Arthropod", "IR=0.993", "triple=e_dbo:phylum dbr:Arthropod", "class=Insect" ],
-    "5" : [ "pair=dbr:Insect", "IR=0.993", "triple=e_dbo:class dbr:Insect", "class=Insect" ]
+    "0" : [ "pair=\"Animalia\"@en", "IR=0.993", "triple=e dbp:regnum \"Animalia\"@en", "class=Insect" ],
+    "1" : [ "pair=dbr:Animal", "IR=0.993", "triple=e dbo:kingdom dbr:Animal", "class=Insect" ],
+    "2" : [ "pair=\"Arthropoda\"@en", "IR=0.993", "triple=e dbp:phylum \"Arthropoda\"@en", "class=Insect" ],
+    "3" : [ "pair=\"Insecta\"@en", "IR=0.993", "triple=e dbp:classis \"Insecta\"@en", "class=Insect" ],
+    "4" : [ "pair=dbr:Arthropod", "IR=0.993", "triple=e dbo:phylum dbr:Arthropod", "class=Insect" ],
+    "5" : [ "pair=dbr:Insect", "IR=0.993", "triple=e dbo:class dbr:Insect", "class=Insect" ]
   }
 }, {
   "id" : 24,
   "pattern" : "erected",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Animalia\"@en", "IR=0.993", "triple=e_dbp:regnum \"Animalia\"@en", "class=Insect" ],
-    "1" : [ "pair=dbr:Animal", "IR=0.993", "triple=e_dbo:kingdom dbr:Animal", "class=Insect" ],
-    "2" : [ "pair=\"Arthropoda\"@en", "IR=0.993", "triple=e_dbp:phylum \"Arthropoda\"@en", "class=Insect" ],
-    "3" : [ "pair=\"Insecta\"@en", "IR=0.993", "triple=e_dbp:classis \"Insecta\"@en", "class=Insect" ],
-    "4" : [ "pair=dbr:Arthropod", "IR=0.993", "triple=e_dbo:phylum dbr:Arthropod", "class=Insect" ],
-    "5" : [ "pair=dbr:Insect", "IR=0.993", "triple=e_dbo:class dbr:Insect", "class=Insect" ]
+    "0" : [ "pair=\"Animalia\"@en", "IR=0.993", "triple=e dbp:regnum \"Animalia\"@en", "class=Insect" ],
+    "1" : [ "pair=dbr:Animal", "IR=0.993", "triple=e dbo:kingdom dbr:Animal", "class=Insect" ],
+    "2" : [ "pair=\"Arthropoda\"@en", "IR=0.993", "triple=e dbp:phylum \"Arthropoda\"@en", "class=Insect" ],
+    "3" : [ "pair=\"Insecta\"@en", "IR=0.993", "triple=e dbp:classis \"Insecta\"@en", "class=Insect" ],
+    "4" : [ "pair=dbr:Arthropod", "IR=0.993", "triple=e dbo:phylum dbr:Arthropod", "class=Insect" ],
+    "5" : [ "pair=dbr:Insect", "IR=0.993", "triple=e dbo:class dbr:Insect", "class=Insect" ]
   }
 } ]

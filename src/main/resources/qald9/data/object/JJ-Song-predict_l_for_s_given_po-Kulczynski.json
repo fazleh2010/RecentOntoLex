@@ -3,41 +3,41 @@
   "pattern" : "recorded american",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Country_music", "Kulczynski=0.545", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+    "0" : [ "pair=dbr:Country_music", "Kulczynski=0.545", "triple=e dbo:genre dbr:Country_music", "class=Song" ]
   }
 }, {
   "id" : 43,
   "pattern" : "second",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"\"@en", "Kulczynski=0.531", "triple=e_dbp:format \"\"@en", "class=Song" ],
-    "1" : [ "pair=dbr:CD_single", "Kulczynski=0.529", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
-    "2" : [ "pair=dbr:Music_download", "Kulczynski=0.522", "triple=e_dbp:format dbr:Music_download", "class=Song" ]
+    "0" : [ "pair=\"\"@en", "Kulczynski=0.531", "triple=e dbp:format \"\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:CD_single", "Kulczynski=0.529", "triple=e dbp:format dbr:CD_single", "class=Song" ],
+    "2" : [ "pair=dbr:Music_download", "Kulczynski=0.522", "triple=e dbp:format dbr:Music_download", "class=Song" ]
   }
 }, {
   "id" : 45,
   "pattern" : "single",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Pop_rock", "Kulczynski=0.575", "triple=e_dbp:genre dbr:Pop_rock", "class=Song" ],
-    "1" : [ "pair=\"\"@en", "Kulczynski=0.57", "triple=e_dbp:format \"\"@en", "class=Song" ],
-    "2" : [ "pair=dbr:CD_single", "Kulczynski=0.568", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
-    "3" : [ "pair=dbr:Alternative_rock", "Kulczynski=0.564", "triple=e_dbo:genre dbr:Alternative_rock", "class=Song" ],
-    "4" : [ "pair=\"Gold\"@en", "Kulczynski=0.564", "triple=e_dbp:award \"Gold\"@en", "class=Song" ],
-    "5" : [ "pair=\"Australia\"@en", "Kulczynski=0.564", "triple=e_dbp:region \"Australia\"@en", "class=Song" ],
-    "6" : [ "pair=\"United Kingdom\"@en", "Kulczynski=0.563", "triple=e_dbp:region \"United Kingdom\"@en", "class=Song" ],
-    "7" : [ "pair=dbr:Contemporary_R&B", "Kulczynski=0.562", "triple=e_dbo:genre dbr:Contemporary_R&B", "class=Song" ],
-    "8" : [ "pair=\"United States\"@en", "Kulczynski=0.561", "triple=e_dbp:region \"United States\"@en", "class=Song" ],
-    "9" : [ "pair=\"12.0\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.56", "triple=e_dbp:format \"12.0\"^^<http://dbpedia.org/datatype/second>", "class=Song" ],
-    "10" : [ "pair=\"7\\\"\"@en", "Kulczynski=0.56", "triple=e_dbp:format \"7\\\"\"@en", "class=Song" ],
-    "11" : [ "pair=dbr:Single_(music", "Kulczynski=0.56", "triple=e_dbo:type dbr:Single_(music", "class=Song" ],
-    "12" : [ "pair=dbr:Country_music", "Kulczynski=0.559", "triple=e_dbo:genre dbr:Country_music", "class=Song" ],
-    "13" : [ "pair=\"single\"@en", "Kulczynski=0.558", "triple=e_dbp:type \"single\"@en", "class=Song" ],
-    "14" : [ "pair=\"7.0\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.558", "triple=e_dbp:format \"7.0\"^^<http://dbpedia.org/datatype/second>", "class=Song" ],
-    "15" : [ "pair=\"Platinum\"@en", "Kulczynski=0.556", "triple=e_dbp:award \"Platinum\"@en", "class=Song" ],
-    "16" : [ "pair=\"yes\"@en", "Kulczynski=0.556", "triple=e_dbp:border \"yes\"@en", "class=Song" ],
-    "17" : [ "pair=dbr:Music_download", "Kulczynski=0.556", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
-    "18" : [ "pair=dbr:Hip_hop_music", "Kulczynski=0.554", "triple=e_dbo:genre dbr:Hip_hop_music", "class=Song" ],
-    "19" : [ "pair=dbr:Pop_music", "Kulczynski=0.551", "triple=e_dbp:genre dbr:Pop_music", "class=Song" ]
+    "0" : [ "pair=dbr:Pop_rock", "Kulczynski=0.575", "triple=e dbp:genre dbr:Pop_rock", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "Kulczynski=0.57", "triple=e dbp:format \"\"@en", "class=Song" ],
+    "2" : [ "pair=dbr:CD_single", "Kulczynski=0.568", "triple=e dbp:format dbr:CD_single", "class=Song" ],
+    "3" : [ "pair=dbr:Alternative_rock", "Kulczynski=0.564", "triple=e dbo:genre dbr:Alternative_rock", "class=Song" ],
+    "4" : [ "pair=\"Gold\"@en", "Kulczynski=0.564", "triple=e dbp:award \"Gold\"@en", "class=Song" ],
+    "5" : [ "pair=\"Australia\"@en", "Kulczynski=0.564", "triple=e dbp:region \"Australia\"@en", "class=Song" ],
+    "6" : [ "pair=\"United Kingdom\"@en", "Kulczynski=0.563", "triple=e dbp:region \"United Kingdom\"@en", "class=Song" ],
+    "7" : [ "pair=dbr:Contemporary_R&B", "Kulczynski=0.562", "triple=e dbo:genre dbr:Contemporary_R&B", "class=Song" ],
+    "8" : [ "pair=\"United States\"@en", "Kulczynski=0.561", "triple=e dbp:region \"United States\"@en", "class=Song" ],
+    "9" : [ "pair=\"12.0\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.56", "triple=e dbp:format \"12.0\"^^<http://dbpedia.org/datatype/second>", "class=Song" ],
+    "10" : [ "pair=\"7\\\"\"@en", "Kulczynski=0.56", "triple=e dbp:format \"7\\\"\"@en", "class=Song" ],
+    "11" : [ "pair=dbr:Single_(music", "Kulczynski=0.56", "triple=e dbo:type dbr:Single_(music", "class=Song" ],
+    "12" : [ "pair=dbr:Country_music", "Kulczynski=0.559", "triple=e dbo:genre dbr:Country_music", "class=Song" ],
+    "13" : [ "pair=\"single\"@en", "Kulczynski=0.558", "triple=e dbp:type \"single\"@en", "class=Song" ],
+    "14" : [ "pair=\"7.0\"^^<http://dbpedia.org/datatype/second>", "Kulczynski=0.558", "triple=e dbp:format \"7.0\"^^<http://dbpedia.org/datatype/second>", "class=Song" ],
+    "15" : [ "pair=\"Platinum\"@en", "Kulczynski=0.556", "triple=e dbp:award \"Platinum\"@en", "class=Song" ],
+    "16" : [ "pair=\"yes\"@en", "Kulczynski=0.556", "triple=e dbp:border \"yes\"@en", "class=Song" ],
+    "17" : [ "pair=dbr:Music_download", "Kulczynski=0.556", "triple=e dbp:format dbr:Music_download", "class=Song" ],
+    "18" : [ "pair=dbr:Hip_hop_music", "Kulczynski=0.554", "triple=e dbo:genre dbr:Hip_hop_music", "class=Song" ],
+    "19" : [ "pair=dbr:Pop_music", "Kulczynski=0.551", "triple=e dbp:genre dbr:Pop_music", "class=Song" ]
   }
 } ]

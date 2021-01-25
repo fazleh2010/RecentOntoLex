@@ -3,1416 +3,1416 @@
   "pattern" : "along",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 2,
   "pattern" : "also",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 3,
   "pattern" : "approximately",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 4,
   "pattern" : "area",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 5,
   "pattern" : "area\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 6,
   "pattern" : "australia",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ]
   }
 }, {
   "id" : 8,
   "pattern" : "australian\u001Cstate",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
   }
 }, {
   "id" : 9,
   "pattern" : "australian\u001Cstate\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
   }
 }, {
   "id" : 10,
   "pattern" : "australian state",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
   }
 }, {
   "id" : 11,
   "pattern" : "australian state\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
   }
 }, {
   "id" : 12,
   "pattern" : "australian state\u001Cof\u001Cvictoria",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
   }
 }, {
   "id" : 13,
   "pattern" : "australian state of\u001Cvictoria",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
   }
 }, {
   "id" : 14,
   "pattern" : "basin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ],
-    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 15,
   "pattern" : "basin\u001Csize",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 16,
   "pattern" : "basin\u001Csize\u001Cis",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 17,
   "pattern" : "basin size",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 18,
   "pattern" : "basin size\u001Cis",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 20,
   "pattern" : "border",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 21,
   "pattern" : "branch",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 22,
   "pattern" : "brook",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 23,
   "pattern" : "california",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 24,
   "pattern" : "carolina",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 25,
   "pattern" : "catchment",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ],
-    "2" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ],
+    "2" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
   }
 }, {
   "id" : 26,
   "pattern" : "catchment located",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ]
   }
 }, {
   "id" : 27,
   "pattern" : "catchment located\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ]
   }
 }, {
   "id" : 28,
   "pattern" : "catchment located\u001Cin\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ]
   }
 }, {
   "id" : 30,
   "pattern" : "city",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 31,
   "pattern" : "confluence",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 32,
   "pattern" : "counties",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 33,
   "pattern" : "county",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"unnamed tributaries\"@en", "MaxConf=1.0", "triple=e_dbp:tributariesLeft \"unnamed tributaries\"@en", "class=River" ],
-    "1" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"unnamed tributaries\"@en", "MaxConf=1.0", "triple=e dbp:tributariesLeft \"unnamed tributaries\"@en", "class=River" ],
+    "1" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 34,
   "pattern" : "county california",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 35,
   "pattern" : "county north",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 36,
   "pattern" : "county pennsylvania",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 37,
   "pattern" : "county pennsylvania in\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 38,
   "pattern" : "county pennsylvania in\u001Cthe\u001Cunited",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 39,
   "pattern" : "course",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 40,
   "pattern" : "creek",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=\"unnamed tributaries\"@en", "MaxConf=1.0", "triple=e_dbp:tributariesLeft \"unnamed tributaries\"@en", "class=River" ],
-    "2" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "3" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=\"unnamed tributaries\"@en", "MaxConf=1.0", "triple=e dbp:tributariesLeft \"unnamed tributaries\"@en", "class=River" ],
+    "2" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "3" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 41,
   "pattern" : "delaware",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 42,
   "pattern" : "drainage",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 47,
   "pattern" : "empties",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 49,
   "pattern" : "flow",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 51,
   "pattern" : "flows",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"References\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"References\"@en", "class=River" ],
-    "1" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ],
-    "2" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "3" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"References\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"References\"@en", "class=River" ],
+    "1" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ],
+    "2" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "3" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 52,
   "pattern" : "flows generally",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 53,
   "pattern" : "flows into\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 54,
   "pattern" : "flows south",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 55,
   "pattern" : "forest",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 56,
   "pattern" : "fork",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 57,
   "pattern" : "form",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 58,
   "pattern" : "forms",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 59,
   "pattern" : "generally",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 60,
   "pattern" : "germany",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"References\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"References\"@en", "class=River" ]
+    "0" : [ "pair=\"References\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"References\"@en", "class=River" ]
   }
 }, {
   "id" : 61,
   "pattern" : "headwaters",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 63,
   "pattern" : "km long",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"unnamed tributaries\"@en", "MaxConf=1.0", "triple=e_dbp:tributariesLeft \"unnamed tributaries\"@en", "class=River" ],
-    "1" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"unnamed tributaries\"@en", "MaxConf=1.0", "triple=e dbp:tributariesLeft \"unnamed tributaries\"@en", "class=River" ],
+    "1" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 64,
   "pattern" : "km long and\u001Cflows",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 65,
   "pattern" : "km long and\u001Cflows\u001Cthrough",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 66,
   "pattern" : "km river",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 67,
   "pattern" : "km stream",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 68,
   "pattern" : "km tributary",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 70,
   "pattern" : "lake",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 71,
   "pattern" : "length",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 75,
   "pattern" : "long",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"References\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"References\"@en", "class=River" ],
-    "1" : [ "pair=\"unnamed tributaries\"@en", "MaxConf=1.0", "triple=e_dbp:tributariesLeft \"unnamed tributaries\"@en", "class=River" ],
-    "2" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "3" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"References\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"References\"@en", "class=River" ],
+    "1" : [ "pair=\"unnamed tributaries\"@en", "MaxConf=1.0", "triple=e dbp:tributariesLeft \"unnamed tributaries\"@en", "class=River" ],
+    "2" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "3" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 79,
   "pattern" : "maine",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 81,
   "pattern" : "mi",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 82,
   "pattern" : "mi its\u001Cbasin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 83,
   "pattern" : "mi its\u001Cbasin\u001Csize",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 84,
   "pattern" : "michigan",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 85,
   "pattern" : "miles",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 86,
   "pattern" : "minnesota",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 87,
   "pattern" : "mississippi",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 88,
   "pattern" : "mountain",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 89,
   "pattern" : "mountains",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 90,
   "pattern" : "mouth",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 91,
   "pattern" : "name",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 93,
   "pattern" : "national",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 94,
   "pattern" : "national forest",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 95,
   "pattern" : "near",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ],
-    "1" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Poland", "class=River" ],
-    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ],
+    "1" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Poland", "class=River" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 96,
   "pattern" : "new",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ]
   }
 }, {
   "id" : 97,
   "pattern" : "new south",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ]
   }
 }, {
   "id" : 98,
   "pattern" : "new south\u001Cwales",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ]
   }
 }, {
   "id" : 99,
   "pattern" : "new south\u001Cwales\u001Caustralia",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ]
   }
 }, {
   "id" : 100,
   "pattern" : "new south wales",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ]
   }
 }, {
   "id" : 101,
   "pattern" : "new south wales\u001Caustralia",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ]
   }
 }, {
   "id" : 102,
   "pattern" : "new york",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 103,
   "pattern" : "north",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 104,
   "pattern" : "north fork",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 105,
   "pattern" : "northeast",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 107,
   "pattern" : "northwest",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 109,
   "pattern" : "ocean",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 110,
   "pattern" : "ohio",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 111,
   "pattern" : "one",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 112,
   "pattern" : "order",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"unnamed tributaries\"@en", "MaxConf=1.0", "triple=e_dbp:tributariesLeft \"unnamed tributaries\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"unnamed tributaries\"@en", "MaxConf=1.0", "triple=e dbp:tributariesLeft \"unnamed tributaries\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 113,
   "pattern" : "order tributary",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"unnamed tributaries\"@en", "MaxConf=1.0", "triple=e_dbp:tributariesLeft \"unnamed tributaries\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"unnamed tributaries\"@en", "MaxConf=1.0", "triple=e dbp:tributariesLeft \"unnamed tributaries\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 114,
   "pattern" : "oregon",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 115,
   "pattern" : "park",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 116,
   "pattern" : "part",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 117,
   "pattern" : "peninsula",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 118,
   "pattern" : "pennsylvania",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 119,
   "pattern" : "pennsylvania the\u001Cunited",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 120,
   "pattern" : "pennsylvania the\u001Cunited\u001Cstates",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 122,
   "pattern" : "perennial river",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ],
-    "2" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ],
+    "2" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
   }
 }, {
   "id" : 123,
   "pattern" : "perennial river\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ],
-    "2" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ],
+    "2" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
   }
 }, {
   "id" : 124,
   "pattern" : "perennial river\u001Cof\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ],
-    "2" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ],
+    "2" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
   }
 }, {
   "id" : 125,
   "pattern" : "perennial river of\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ],
-    "2" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ],
+    "2" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
   }
 }, {
   "id" : 126,
   "pattern" : "poland",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Poland", "class=River" ]
+    "0" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Poland", "class=River" ]
   }
 }, {
   "id" : 127,
   "pattern" : "poland tributary",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Poland", "class=River" ]
+    "0" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Poland", "class=River" ]
   }
 }, {
   "id" : 128,
   "pattern" : "poland tributary\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Poland", "class=River" ]
+    "0" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Poland", "class=River" ]
   }
 }, {
   "id" : 129,
   "pattern" : "poland tributary\u001Cof\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Poland", "class=River" ]
+    "0" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Poland", "class=River" ]
   }
 }, {
   "id" : 130,
   "pattern" : "portion",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 131,
   "pattern" : "puerto",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Puerto_Rico", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Puerto_Rico", "class=River" ]
+    "0" : [ "pair=dbr:Puerto_Rico", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Puerto_Rico", "class=River" ]
   }
 }, {
   "id" : 132,
   "pattern" : "puerto rico",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Puerto_Rico", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Puerto_Rico", "class=River" ]
+    "0" : [ "pair=dbr:Puerto_Rico", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Puerto_Rico", "class=River" ]
   }
 }, {
   "id" : 133,
   "pattern" : "range",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 134,
   "pattern" : "region",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ],
-    "2" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ],
-    "3" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ],
+    "2" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ],
+    "3" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 135,
   "pattern" : "region new",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ]
   }
 }, {
   "id" : 136,
   "pattern" : "region new\u001Csouth",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ]
   }
 }, {
   "id" : 137,
   "pattern" : "region new\u001Csouth\u001Cwales",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ]
   }
 }, {
   "id" : 138,
   "pattern" : "region the\u001Caustralian",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
   }
 }, {
   "id" : 139,
   "pattern" : "rico",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Puerto_Rico", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Puerto_Rico", "class=River" ]
+    "0" : [ "pair=dbr:Puerto_Rico", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Puerto_Rico", "class=River" ]
   }
 }, {
   "id" : 140,
   "pattern" : "right",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 142,
   "pattern" : "right\u001Ctributary\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 144,
   "pattern" : "right tributary\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 145,
   "pattern" : "right tributary\u001Cof\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 146,
   "pattern" : "right tributary of\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 147,
   "pattern" : "right tributary of\u001Cthe\u001Criver",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 148,
   "pattern" : "rises",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 149,
   "pattern" : "river",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:Atlantic_Ocean", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Atlantic_Ocean", "class=River" ],
-    "2" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ],
-    "3" : [ "pair=\"References\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"References\"@en", "class=River" ],
-    "4" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ],
-    "5" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:fixAttempted \"yes\"@en", "class=River" ],
-    "6" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:nameNative \"\"@en", "class=River" ],
-    "7" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Poland", "class=River" ],
-    "8" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ],
-    "9" : [ "pair=dbr:Puerto_Rico", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Puerto_Rico", "class=River" ],
-    "10" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:Atlantic_Ocean", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Atlantic_Ocean", "class=River" ],
+    "2" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ],
+    "3" : [ "pair=\"References\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"References\"@en", "class=River" ],
+    "4" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ],
+    "5" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:fixAttempted \"yes\"@en", "class=River" ],
+    "6" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:nameNative \"\"@en", "class=River" ],
+    "7" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Poland", "class=River" ],
+    "8" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ],
+    "9" : [ "pair=dbr:Puerto_Rico", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Puerto_Rico", "class=River" ],
+    "10" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 150,
   "pattern" : "river\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:fixAttempted \"yes\"@en", "class=River" ],
-    "1" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Poland", "class=River" ],
-    "2" : [ "pair=dbr:Puerto_Rico", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Puerto_Rico", "class=River" ]
+    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:fixAttempted \"yes\"@en", "class=River" ],
+    "1" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Poland", "class=River" ],
+    "2" : [ "pair=dbr:Puerto_Rico", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Puerto_Rico", "class=River" ]
   }
 }, {
   "id" : 151,
   "pattern" : "river a\u001Criver",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:fixAttempted \"yes\"@en", "class=River" ]
+    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:fixAttempted \"yes\"@en", "class=River" ]
   }
 }, {
   "id" : 152,
   "pattern" : "river a\u001Criver\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:fixAttempted \"yes\"@en", "class=River" ]
+    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:fixAttempted \"yes\"@en", "class=River" ]
   }
 }, {
   "id" : 153,
   "pattern" : "river catchment",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ]
   }
 }, {
   "id" : 154,
   "pattern" : "river perennial",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ]
   }
 }, {
   "id" : 155,
   "pattern" : "river poland",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Poland", "class=River" ]
+    "0" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Poland", "class=River" ]
   }
 }, {
   "id" : 156,
   "pattern" : "river watershed",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 157,
   "pattern" : "rivers",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 158,
   "pattern" : "romania",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 159,
   "pattern" : "romania flows",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 160,
   "pattern" : "romania flows\u001Cinto",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 161,
   "pattern" : "romania flows\u001Cinto\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 162,
   "pattern" : "romania it\u001Cflows",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 163,
   "pattern" : "romania it\u001Cflows\u001Cinto",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 164,
   "pattern" : "route",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 165,
   "pattern" : "run",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 166,
   "pattern" : "runs",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 167,
   "pattern" : "rã­o",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Puerto_Rico", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Puerto_Rico", "class=River" ]
+    "0" : [ "pair=dbr:Puerto_Rico", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Puerto_Rico", "class=River" ]
   }
 }, {
   "id" : 168,
   "pattern" : "short",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 169,
   "pattern" : "size",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 171,
   "pattern" : "source",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 172,
   "pattern" : "south",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ],
-    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 173,
   "pattern" : "south wales",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ]
   }
 }, {
   "id" : 174,
   "pattern" : "south wales australia",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ]
   }
 }, {
   "id" : 175,
   "pattern" : "southeast",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 177,
   "pattern" : "southwest",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 178,
   "pattern" : "sq mi",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 179,
   "pattern" : "square",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 180,
   "pattern" : "square miles",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 181,
   "pattern" : "state",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 182,
   "pattern" : "state victoria",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+    "0" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
   }
 }, {
   "id" : 183,
   "pattern" : "states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 184,
   "pattern" : "states is\u001Capproximately",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 185,
   "pattern" : "states via",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 186,
   "pattern" : "stream",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 187,
   "pattern" : "texas",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 189,
   "pattern" : "town",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 190,
   "pattern" : "township",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 191,
   "pattern" : "tributaries",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 192,
   "pattern" : "tributary",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"References\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"References\"@en", "class=River" ],
-    "1" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ],
-    "2" : [ "pair=\"unnamed tributaries\"@en", "MaxConf=1.0", "triple=e_dbp:tributariesLeft \"unnamed tributaries\"@en", "class=River" ],
-    "3" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "4" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Poland", "class=River" ],
-    "5" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"References\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"References\"@en", "class=River" ],
+    "1" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ],
+    "2" : [ "pair=\"unnamed tributaries\"@en", "MaxConf=1.0", "triple=e dbp:tributariesLeft \"unnamed tributaries\"@en", "class=River" ],
+    "3" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "4" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Poland", "class=River" ],
+    "5" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 193,
   "pattern" : "tributary\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 194,
   "pattern" : "tributary of\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Poland", "class=River" ]
+    "0" : [ "pair=dbr:Poland", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Poland", "class=River" ]
   }
 }, {
   "id" : 195,
   "pattern" : "tributary the\u001Criver",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e_dbp:customLabel \"River code\"@en", "class=River" ]
+    "0" : [ "pair=\"River code\"@en", "MaxConf=1.0", "triple=e dbp:customLabel \"River code\"@en", "class=River" ]
   }
 }, {
   "id" : 196,
   "pattern" : "u.s",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 197,
   "pattern" : "u.s state",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 198,
   "pattern" : "united",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 199,
   "pattern" : "united\u001Cstates",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 200,
   "pattern" : "united\u001Cstates\u001Cit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 201,
   "pattern" : "united states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 202,
   "pattern" : "united states\u001Cit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 203,
   "pattern" : "united states\u001Cit\u001Cis",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 204,
   "pattern" : "united states it\u001Cis",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 205,
   "pattern" : "united states it\u001Cis\u001Capproximately",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 206,
   "pattern" : "upper",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 207,
   "pattern" : "valley",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 208,
   "pattern" : "via",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 209,
   "pattern" : "victoria",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ],
-    "2" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ],
+    "2" : [ "pair=dbr:Victoria_(Australia", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:Victoria_(Australia", "class=River" ]
   }
 }, {
   "id" : 210,
   "pattern" : "virginia",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 211,
   "pattern" : "wales",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ],
-    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e_dbp:customLabel dbr:National_park", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ],
+    "1" : [ "pair=dbr:National_park", "MaxConf=1.0", "triple=e dbp:customLabel dbr:National_park", "class=River" ]
   }
 }, {
   "id" : 212,
   "pattern" : "wales australia",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e_dbo:riverMouth dbr:Confluence", "class=River" ]
+    "0" : [ "pair=dbr:Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth dbr:Confluence", "class=River" ]
   }
 }, {
   "id" : 213,
   "pattern" : "washington",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 214,
   "pattern" : "water",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 215,
   "pattern" : "watershed",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 216,
   "pattern" : "watershed of\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e_dbp:source1Elevation \"between\"@en", "class=River" ]
+    "0" : [ "pair=\"between\"@en", "MaxConf=1.0", "triple=e dbp:source1Elevation \"between\"@en", "class=River" ]
   }
 }, {
   "id" : 217,
   "pattern" : "west",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 219,
   "pattern" : "within",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 }, {
   "id" : 220,
   "pattern" : "york",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:subdivisionName dbr:United_States", "class=River" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:subdivisionName dbr:United_States", "class=River" ]
   }
 } ]

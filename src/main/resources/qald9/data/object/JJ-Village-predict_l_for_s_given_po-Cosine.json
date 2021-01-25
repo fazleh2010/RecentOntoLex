@@ -3,77 +3,77 @@
   "pattern" : "administrative",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Lublin_Voivodeship", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Lublin_Voivodeship", "class=Village" ],
-    "1" : [ "pair=dbr:Lesser_Poland_Voivodeship", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Lesser_Poland_Voivodeship", "class=Village" ],
-    "2" : [ "pair=dbr:Kuyavian-Pomeranian_Voivodeship", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Kuyavian-Pomeranian_Voivodeship", "class=Village" ],
-    "3" : [ "pair=dbr:ÅwiÄtokrzyskie_Voivodeship", "Cosine=1.0", "triple=e_dbo:subdivision dbr:ÅwiÄtokrzyskie_Voivodeship", "class=Village" ],
-    "4" : [ "pair=dbr:ÅÃ³dÅº_Voivodeship", "Cosine=1.0", "triple=e_dbo:subdivision dbr:ÅÃ³dÅº_Voivodeship", "class=Village" ]
+    "0" : [ "pair=dbr:Lublin_Voivodeship", "Cosine=1.0", "triple=e dbo:subdivision dbr:Lublin_Voivodeship", "class=Village" ],
+    "1" : [ "pair=dbr:Lesser_Poland_Voivodeship", "Cosine=1.0", "triple=e dbo:subdivision dbr:Lesser_Poland_Voivodeship", "class=Village" ],
+    "2" : [ "pair=dbr:Kuyavian-Pomeranian_Voivodeship", "Cosine=1.0", "triple=e dbo:subdivision dbr:Kuyavian-Pomeranian_Voivodeship", "class=Village" ],
+    "3" : [ "pair=dbr:ÅwiÄtokrzyskie_Voivodeship", "Cosine=1.0", "triple=e dbo:subdivision dbr:ÅwiÄtokrzyskie_Voivodeship", "class=Village" ],
+    "4" : [ "pair=dbr:ÅÃ³dÅº_Voivodeship", "Cosine=1.0", "triple=e dbo:subdivision dbr:ÅÃ³dÅº_Voivodeship", "class=Village" ]
   }
 }, {
   "id" : 15,
   "pattern" : "central",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:ÅÃ³dÅº_Voivodeship", "Cosine=1.0", "triple=e_dbo:subdivision dbr:ÅÃ³dÅº_Voivodeship", "class=Village" ]
+    "0" : [ "pair=dbr:ÅÃ³dÅº_Voivodeship", "Cosine=1.0", "triple=e dbo:subdivision dbr:ÅÃ³dÅº_Voivodeship", "class=Village" ]
   }
 }, {
   "id" : 68,
   "pattern" : "eastern",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Lublin_Voivodeship", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Lublin_Voivodeship", "class=Village" ]
+    "0" : [ "pair=dbr:Lublin_Voivodeship", "Cosine=1.0", "triple=e dbo:subdivision dbr:Lublin_Voivodeship", "class=Village" ]
   }
 }, {
   "id" : 93,
   "pattern" : "kuyavian-pomeranian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Kuyavian-Pomeranian_Voivodeship", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Kuyavian-Pomeranian_Voivodeship", "class=Village" ]
+    "0" : [ "pair=dbr:Kuyavian-Pomeranian_Voivodeship", "Cosine=1.0", "triple=e dbo:subdivision dbr:Kuyavian-Pomeranian_Voivodeship", "class=Village" ]
   }
 }, {
   "id" : 109,
   "pattern" : "north-central",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Kuyavian-Pomeranian_Voivodeship", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Kuyavian-Pomeranian_Voivodeship", "class=Village" ]
+    "0" : [ "pair=dbr:Kuyavian-Pomeranian_Voivodeship", "Cosine=1.0", "triple=e dbo:subdivision dbr:Kuyavian-Pomeranian_Voivodeship", "class=Village" ]
   }
 }, {
   "id" : 111,
   "pattern" : "northern",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Pomeranian_Voivodeship", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Pomeranian_Voivodeship", "class=Village" ]
+    "0" : [ "pair=dbr:Pomeranian_Voivodeship", "Cosine=1.0", "triple=e dbo:subdivision dbr:Pomeranian_Voivodeship", "class=Village" ]
   }
 }, {
   "id" : 145,
   "pattern" : "russian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"180.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=1.0", "triple=e_dbp:utcOffset \"180.0\"^^<http://dbpedia.org/datatype/second>", "class=Village" ],
-    "1" : [ "pair=dbr:Vladimir_Oblast", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Vladimir_Oblast", "class=Village" ],
-    "2" : [ "pair=dbr:Vologda_Oblast", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Vologda_Oblast", "class=Village" ],
-    "3" : [ "pair=dbr:Bashkortostan", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Bashkortostan", "class=Village" ]
+    "0" : [ "pair=\"180.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=1.0", "triple=e dbp:utcOffset \"180.0\"^^<http://dbpedia.org/datatype/second>", "class=Village" ],
+    "1" : [ "pair=dbr:Vladimir_Oblast", "Cosine=1.0", "triple=e dbo:subdivision dbr:Vladimir_Oblast", "class=Village" ],
+    "2" : [ "pair=dbr:Vologda_Oblast", "Cosine=1.0", "triple=e dbo:subdivision dbr:Vologda_Oblast", "class=Village" ],
+    "3" : [ "pair=dbr:Bashkortostan", "Cosine=1.0", "triple=e dbo:subdivision dbr:Bashkortostan", "class=Village" ]
   }
 }, {
   "id" : 151,
   "pattern" : "south-central",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:ÅwiÄtokrzyskie_Voivodeship", "Cosine=1.0", "triple=e_dbo:subdivision dbr:ÅwiÄtokrzyskie_Voivodeship", "class=Village" ]
+    "0" : [ "pair=dbr:ÅwiÄtokrzyskie_Voivodeship", "Cosine=1.0", "triple=e dbo:subdivision dbr:ÅwiÄtokrzyskie_Voivodeship", "class=Village" ]
   }
 }, {
   "id" : 153,
   "pattern" : "southern",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Lesser_Poland_Voivodeship", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Lesser_Poland_Voivodeship", "class=Village" ]
+    "0" : [ "pair=dbr:Lesser_Poland_Voivodeship", "Cosine=1.0", "triple=e dbo:subdivision dbr:Lesser_Poland_Voivodeship", "class=Village" ]
   }
 }, {
   "id" : 154,
   "pattern" : "unincorporated",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Virginia", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Virginia", "class=Village" ],
-    "1" : [ "pair=dbr:Indiana", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Indiana", "class=Village" ]
+    "0" : [ "pair=dbr:Virginia", "Cosine=1.0", "triple=e dbo:subdivision dbr:Virginia", "class=Village" ],
+    "1" : [ "pair=dbr:Indiana", "Cosine=1.0", "triple=e dbo:subdivision dbr:Indiana", "class=Village" ]
   }
 } ]

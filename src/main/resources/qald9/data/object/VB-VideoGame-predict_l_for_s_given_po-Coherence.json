@@ -3,27 +3,26 @@
   "pattern" : "developed",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"\"@en", "Coherence=0.489", "triple=e_dbp:producer \"\"@en", "class=VideoGame" ],
-    "1" : [ "pair=\"yes\"@en", "Coherence=0.487", "triple=e_dbp:collapsed \"yes\"@en", "class=VideoGame" ],
-    "2" : [ "pair=dbr:Sony_Interactive_Entertainment", "Coherence=0.465", "triple=e_dbo:publisher dbr:Sony_Interactive_Entertainment", "class=VideoGame" ],
-    "3" : [ "pair=\"8.5\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.464", "triple=e_dbp:destruct \"8.5\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=VideoGame" ],
-    "4" : [ "pair=dbr:Windows_Phone", "Coherence=0.46", "triple=e_dbo:computingPlatform dbr:Windows_Phone", "class=VideoGame" ],
-    "5" : [ "pair=dbr:Stealth_game", "Coherence=0.46", "triple=e_dbo:genre dbr:Stealth_game", "class=VideoGame" ]
+    "0" : [ "pair=\"\"@en", "Coherence=0.489", "triple=e dbp:producer \"\"@en", "class=VideoGame" ],
+    "1" : [ "pair=\"yes\"@en", "Coherence=0.487", "triple=e dbp:collapsed \"yes\"@en", "class=VideoGame" ],
+    "2" : [ "pair=dbr:Sony_Interactive_Entertainment", "Coherence=0.465", "triple=e dbo:publisher dbr:Sony_Interactive_Entertainment", "class=VideoGame" ],
+    "3" : [ "pair=dbr:Windows_Phone", "Coherence=0.46", "triple=e dbo:computingPlatform dbr:Windows_Phone", "class=VideoGame" ],
+    "4" : [ "pair=dbr:Stealth_game", "Coherence=0.46", "triple=e dbo:genre dbr:Stealth_game", "class=VideoGame" ]
   }
 }, {
   "id" : 12,
   "pattern" : "published",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"\"@en", "Coherence=0.473", "triple=e_dbp:producer \"\"@en", "class=VideoGame" ]
+    "0" : [ "pair=\"\"@en", "Coherence=0.473", "triple=e dbp:producer \"\"@en", "class=VideoGame" ]
   }
 }, {
   "id" : 13,
   "pattern" : "released",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Virtual_Console", "Coherence=0.464", "triple=e_dbo:computingPlatform dbr:Virtual_Console", "class=VideoGame" ],
-    "1" : [ "pair=dbr:EA_Canada", "Coherence=0.463", "triple=e_dbo:developer dbr:EA_Canada", "class=VideoGame" ],
-    "2" : [ "pair=\"Hardcore Gamer\"@en", "Coherence=0.463", "triple=e_dbp:rev \"Hardcore Gamer\"@en", "class=VideoGame" ]
+    "0" : [ "pair=dbr:Virtual_Console", "Coherence=0.464", "triple=e dbo:computingPlatform dbr:Virtual_Console", "class=VideoGame" ],
+    "1" : [ "pair=dbr:EA_Canada", "Coherence=0.463", "triple=e dbo:developer dbr:EA_Canada", "class=VideoGame" ],
+    "2" : [ "pair=\"Hardcore Gamer\"@en", "Coherence=0.463", "triple=e dbp:rev \"Hardcore Gamer\"@en", "class=VideoGame" ]
   }
 } ]

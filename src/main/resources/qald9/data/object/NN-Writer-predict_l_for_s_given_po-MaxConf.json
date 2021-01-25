@@ -3,600 +3,600 @@
   "pattern" : "also",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
-    "1" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
-    "2" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "3" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
-    "4" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "5" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
-    "6" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e dbo:genre dbr:Fantasy", "class=Writer" ],
+    "1" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "2" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "3" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "4" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "5" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e dbp:occupation dbr:Novelist", "class=Writer" ],
+    "6" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ]
   }
 }, {
   "id" : 2,
   "pattern" : "american",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
-    "1" : [ "pair=dbr:Young_adult_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Young_adult_fiction", "class=Writer" ],
-    "2" : [ "pair=dbr:Horror_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Horror_fiction", "class=Writer" ],
-    "3" : [ "pair=dbr:Children's_literature", "MaxConf=1.0", "triple=e_dbo:genre dbr:Children's_literature", "class=Writer" ],
-    "4" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
-    "5" : [ "pair=dbr:Fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fiction", "class=Writer" ],
-    "6" : [ "pair=dbr:Romance_novel", "MaxConf=1.0", "triple=e_dbo:genre dbr:Romance_novel", "class=Writer" ],
-    "7" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "8" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
-    "9" : [ "pair=dbr:Author", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Author", "class=Writer" ],
-    "10" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"\"@en", "class=Writer" ],
-    "11" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
-    "12" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "13" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
-    "14" : [ "pair=dbr:Americans", "MaxConf=1.0", "triple=e_dbo:nationality dbr:Americans", "class=Writer" ],
-    "15" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
-    "16" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:author \"yes\"@en", "class=Writer" ],
-    "17" : [ "pair=\"Poetry\"@en", "MaxConf=1.0", "triple=e_dbp:genre \"Poetry\"@en", "class=Writer" ],
-    "18" : [ "pair=dbr:Nonfiction", "MaxConf=1.0", "triple=e_dbp:genre dbr:Nonfiction", "class=Writer" ],
-    "19" : [ "pair=dbr:New_York_City", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:New_York_City", "class=Writer" ],
-    "20" : [ "pair=dbr:New_York_(state", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:New_York_(state", "class=Writer" ],
-    "21" : [ "pair=\"United States\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"United States\"@en", "class=Writer" ]
+    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e dbo:genre dbr:Fantasy", "class=Writer" ],
+    "1" : [ "pair=dbr:Young_adult_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Young_adult_fiction", "class=Writer" ],
+    "2" : [ "pair=dbr:Horror_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Horror_fiction", "class=Writer" ],
+    "3" : [ "pair=dbr:Children's_literature", "MaxConf=1.0", "triple=e dbo:genre dbr:Children's_literature", "class=Writer" ],
+    "4" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "5" : [ "pair=dbr:Fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Fiction", "class=Writer" ],
+    "6" : [ "pair=dbr:Romance_novel", "MaxConf=1.0", "triple=e dbo:genre dbr:Romance_novel", "class=Writer" ],
+    "7" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "8" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Author\"@en", "class=Writer" ],
+    "9" : [ "pair=dbr:Author", "MaxConf=1.0", "triple=e dbp:occupation dbr:Author", "class=Writer" ],
+    "10" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"\"@en", "class=Writer" ],
+    "11" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "12" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "13" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e dbp:occupation dbr:Novelist", "class=Writer" ],
+    "14" : [ "pair=dbr:Americans", "MaxConf=1.0", "triple=e dbo:nationality dbr:Americans", "class=Writer" ],
+    "15" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ],
+    "16" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:author \"yes\"@en", "class=Writer" ],
+    "17" : [ "pair=\"Poetry\"@en", "MaxConf=1.0", "triple=e dbp:genre \"Poetry\"@en", "class=Writer" ],
+    "18" : [ "pair=dbr:Nonfiction", "MaxConf=1.0", "triple=e dbp:genre dbr:Nonfiction", "class=Writer" ],
+    "19" : [ "pair=dbr:New_York_City", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:New_York_City", "class=Writer" ],
+    "20" : [ "pair=dbr:New_York_(state", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:New_York_(state", "class=Writer" ],
+    "21" : [ "pair=\"United States\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"United States\"@en", "class=Writer" ]
   }
 }, {
   "id" : 3,
   "pattern" : "american\u001Cauthor",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ]
   }
 }, {
   "id" : 4,
   "pattern" : "american\u001Cwriter",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ]
   }
 }, {
   "id" : 5,
   "pattern" : "american author",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
-    "2" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "3" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
-    "4" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Author\"@en", "class=Writer" ],
+    "2" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "3" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ],
+    "4" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Writer" ]
   }
 }, {
   "id" : 6,
   "pattern" : "american journalist",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Writer" ]
   }
 }, {
   "id" : 7,
   "pattern" : "american novelist",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Writer" ]
   }
 }, {
   "id" : 8,
   "pattern" : "american writer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
-    "3" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ],
+    "3" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Writer" ]
   }
 }, {
   "id" : 9,
   "pattern" : "april",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 10,
   "pattern" : "august",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 12,
   "pattern" : "author",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
-    "1" : [ "pair=dbr:Young_adult_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Young_adult_fiction", "class=Writer" ],
-    "2" : [ "pair=dbr:Children's_literature", "MaxConf=1.0", "triple=e_dbo:genre dbr:Children's_literature", "class=Writer" ],
-    "3" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
-    "4" : [ "pair=dbr:Fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fiction", "class=Writer" ],
-    "5" : [ "pair=dbr:Romance_novel", "MaxConf=1.0", "triple=e_dbo:genre dbr:Romance_novel", "class=Writer" ],
-    "6" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "7" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
-    "8" : [ "pair=dbr:Author", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Author", "class=Writer" ],
-    "9" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
-    "10" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "11" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
-    "12" : [ "pair=dbr:United_Kingdom", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_Kingdom", "class=Writer" ],
-    "13" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
-    "14" : [ "pair=dbr:Nonfiction", "MaxConf=1.0", "triple=e_dbp:genre dbr:Nonfiction", "class=Writer" ],
-    "15" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e dbo:genre dbr:Fantasy", "class=Writer" ],
+    "1" : [ "pair=dbr:Young_adult_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Young_adult_fiction", "class=Writer" ],
+    "2" : [ "pair=dbr:Children's_literature", "MaxConf=1.0", "triple=e dbo:genre dbr:Children's_literature", "class=Writer" ],
+    "3" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "4" : [ "pair=dbr:Fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Fiction", "class=Writer" ],
+    "5" : [ "pair=dbr:Romance_novel", "MaxConf=1.0", "triple=e dbo:genre dbr:Romance_novel", "class=Writer" ],
+    "6" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "7" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Author\"@en", "class=Writer" ],
+    "8" : [ "pair=dbr:Author", "MaxConf=1.0", "triple=e dbp:occupation dbr:Author", "class=Writer" ],
+    "9" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "10" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "11" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e dbp:occupation dbr:Novelist", "class=Writer" ],
+    "12" : [ "pair=dbr:United_Kingdom", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_Kingdom", "class=Writer" ],
+    "13" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ],
+    "14" : [ "pair=dbr:Nonfiction", "MaxConf=1.0", "triple=e dbp:genre dbr:Nonfiction", "class=Writer" ],
+    "15" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Writer" ]
   }
 }, {
   "id" : 13,
   "pattern" : "award",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "2" : [ "pair=dbr:Canada", "MaxConf=1.0", "triple=e_dbo:country dbr:Canada", "class=Writer" ],
-    "3" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:Canada", "MaxConf=1.0", "triple=e dbo:country dbr:Canada", "class=Writer" ],
+    "3" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Writer" ]
   }
 }, {
   "id" : 15,
   "pattern" : "best",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
-    "3" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ],
+    "3" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Writer" ]
   }
 }, {
   "id" : 17,
   "pattern" : "book",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ]
   }
 }, {
   "id" : 18,
   "pattern" : "books",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Children's_literature", "MaxConf=1.0", "triple=e_dbo:genre dbr:Children's_literature", "class=Writer" ],
-    "1" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "2" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
-    "3" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
-    "4" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "5" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+    "0" : [ "pair=dbr:Children's_literature", "MaxConf=1.0", "triple=e dbo:genre dbr:Children's_literature", "class=Writer" ],
+    "1" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "2" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Author\"@en", "class=Writer" ],
+    "3" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "4" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "5" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ]
   }
 }, {
   "id" : 23,
   "pattern" : "children",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Children's_literature", "MaxConf=1.0", "triple=e_dbo:genre dbr:Children's_literature", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=dbr:Children's_literature", "MaxConf=1.0", "triple=e dbo:genre dbr:Children's_literature", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 24,
   "pattern" : "december",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 25,
   "pattern" : "editor",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ]
   }
 }, {
   "id" : 26,
   "pattern" : "english",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "2" : [ "pair=dbr:United_Kingdom", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_Kingdom", "class=Writer" ],
-    "3" : [ "pair=dbr:England", "MaxConf=1.0", "triple=e_dbo:country dbr:England", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:United_Kingdom", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_Kingdom", "class=Writer" ],
+    "3" : [ "pair=dbr:England", "MaxConf=1.0", "triple=e dbo:country dbr:England", "class=Writer" ]
   }
 }, {
   "id" : 27,
   "pattern" : "fantasy",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
-    "1" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ]
+    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e dbo:genre dbr:Fantasy", "class=Writer" ],
+    "1" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Science_fiction", "class=Writer" ]
   }
 }, {
   "id" : 28,
   "pattern" : "february",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 29,
   "pattern" : "fiction",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
-    "1" : [ "pair=dbr:Horror_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Horror_fiction", "class=Writer" ],
-    "2" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
-    "3" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "4" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
-    "5" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
-    "6" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "7" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ]
+    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e dbo:genre dbr:Fantasy", "class=Writer" ],
+    "1" : [ "pair=dbr:Horror_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Horror_fiction", "class=Writer" ],
+    "2" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "3" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "4" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Author\"@en", "class=Writer" ],
+    "5" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "6" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "7" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e dbp:occupation dbr:Novelist", "class=Writer" ]
   }
 }, {
   "id" : 30,
   "pattern" : "first",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
-    "3" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ],
+    "3" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Writer" ]
   }
 }, {
   "id" : 32,
   "pattern" : "french writer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e_dbo:country dbr:France", "class=Writer" ]
+    "0" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e dbo:country dbr:France", "class=Writer" ]
   }
 }, {
   "id" : 34,
   "pattern" : "horror",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Horror_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Horror_fiction", "class=Writer" ]
+    "0" : [ "pair=dbr:Horror_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Horror_fiction", "class=Writer" ]
   }
 }, {
   "id" : 39,
   "pattern" : "january",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 41,
   "pattern" : "journalist",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Journalist\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Journalist\"@en", "class=Writer" ],
-    "2" : [ "pair=dbr:Journalist", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Journalist", "class=Writer" ],
-    "3" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Journalist\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Journalist\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:Journalist", "MaxConf=1.0", "triple=e dbp:occupation dbr:Journalist", "class=Writer" ],
+    "3" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 42,
   "pattern" : "july",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 43,
   "pattern" : "june",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 46,
   "pattern" : "literature",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 47,
   "pattern" : "london",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_Kingdom", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_Kingdom", "class=Writer" ]
+    "0" : [ "pair=dbr:United_Kingdom", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_Kingdom", "class=Writer" ]
   }
 }, {
   "id" : 49,
   "pattern" : "march",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 50,
   "pattern" : "name",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 51,
   "pattern" : "new york",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
-    "2" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ],
+    "2" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Writer" ]
   }
 }, {
   "id" : 54,
   "pattern" : "novelist",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
-    "2" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "3" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
-    "4" : [ "pair=dbr:Norway", "MaxConf=1.0", "triple=e_dbo:country dbr:Norway", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "2" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "3" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e dbp:occupation dbr:Novelist", "class=Writer" ],
+    "4" : [ "pair=dbr:Norway", "MaxConf=1.0", "triple=e dbo:country dbr:Norway", "class=Writer" ]
   }
 }, {
   "id" : 55,
   "pattern" : "novels",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
-    "1" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
-    "2" : [ "pair=dbr:Romance_novel", "MaxConf=1.0", "triple=e_dbo:genre dbr:Romance_novel", "class=Writer" ],
-    "3" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "4" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
-    "5" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
-    "6" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "7" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ]
+    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e dbo:genre dbr:Fantasy", "class=Writer" ],
+    "1" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "2" : [ "pair=dbr:Romance_novel", "MaxConf=1.0", "triple=e dbo:genre dbr:Romance_novel", "class=Writer" ],
+    "3" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "4" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Author\"@en", "class=Writer" ],
+    "5" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "6" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "7" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e dbp:occupation dbr:Novelist", "class=Writer" ]
   }
 }, {
   "id" : 56,
   "pattern" : "november",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 57,
   "pattern" : "october",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 58,
   "pattern" : "one",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 59,
   "pattern" : "paris",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e_dbo:country dbr:France", "class=Writer" ]
+    "0" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e dbo:country dbr:France", "class=Writer" ]
   }
 }, {
   "id" : 60,
   "pattern" : "playwright",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Playwright", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Playwright", "class=Writer" ]
+    "0" : [ "pair=dbr:Playwright", "MaxConf=1.0", "triple=e dbp:occupation dbr:Playwright", "class=Writer" ]
   }
 }, {
   "id" : 61,
   "pattern" : "poet",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Poetry", "MaxConf=1.0", "triple=e_dbo:genre dbr:Poetry", "class=Writer" ],
-    "1" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "2" : [ "pair=dbr:Poet", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Poet", "class=Writer" ],
-    "3" : [ "pair=\"Poet\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Poet\"@en", "class=Writer" ],
-    "4" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "5" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
-    "6" : [ "pair=\"Poetry\"@en", "MaxConf=1.0", "triple=e_dbp:genre \"Poetry\"@en", "class=Writer" ],
-    "7" : [ "pair=dbr:Russian_Empire", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Russian_Empire", "class=Writer" ],
-    "8" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+    "0" : [ "pair=dbr:Poetry", "MaxConf=1.0", "triple=e dbo:genre dbr:Poetry", "class=Writer" ],
+    "1" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:Poet", "MaxConf=1.0", "triple=e dbp:occupation dbr:Poet", "class=Writer" ],
+    "3" : [ "pair=\"Poet\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Poet\"@en", "class=Writer" ],
+    "4" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "5" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ],
+    "6" : [ "pair=\"Poetry\"@en", "MaxConf=1.0", "triple=e dbp:genre \"Poetry\"@en", "class=Writer" ],
+    "7" : [ "pair=dbr:Russian_Empire", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Russian_Empire", "class=Writer" ],
+    "8" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Writer" ]
   }
 }, {
   "id" : 62,
   "pattern" : "poetry",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Poet", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Poet", "class=Writer" ],
-    "1" : [ "pair=\"Poet\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Poet\"@en", "class=Writer" ]
+    "0" : [ "pair=dbr:Poet", "MaxConf=1.0", "triple=e dbp:occupation dbr:Poet", "class=Writer" ],
+    "1" : [ "pair=\"Poet\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Poet\"@en", "class=Writer" ]
   }
 }, {
   "id" : 63,
   "pattern" : "prize",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 65,
   "pattern" : "romance",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Romance_novel", "MaxConf=1.0", "triple=e_dbo:genre dbr:Romance_novel", "class=Writer" ],
-    "1" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
-    "2" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ]
+    "0" : [ "pair=dbr:Romance_novel", "MaxConf=1.0", "triple=e dbo:genre dbr:Romance_novel", "class=Writer" ],
+    "1" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e dbp:occupation dbr:Novelist", "class=Writer" ]
   }
 }, {
   "id" : 66,
   "pattern" : "romance novels",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Romance_novel", "MaxConf=1.0", "triple=e_dbo:genre dbr:Romance_novel", "class=Writer" ],
-    "1" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ]
+    "0" : [ "pair=dbr:Romance_novel", "MaxConf=1.0", "triple=e dbo:genre dbr:Romance_novel", "class=Writer" ],
+    "1" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Novelist\"@en", "class=Writer" ]
   }
 }, {
   "id" : 68,
   "pattern" : "science",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
-    "1" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
-    "2" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e dbo:genre dbr:Fantasy", "class=Writer" ],
+    "1" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "2" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 69,
   "pattern" : "science fiction",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
-    "1" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ]
+    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e dbo:genre dbr:Fantasy", "class=Writer" ],
+    "1" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Science_fiction", "class=Writer" ]
   }
 }, {
   "id" : 70,
   "pattern" : "september",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 71,
   "pattern" : "series",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
-    "1" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "2" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "1" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "2" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 72,
   "pattern" : "short",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
-    "1" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "2" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "3" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ]
+    "0" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "1" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "2" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "3" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e dbp:occupation dbr:Novelist", "class=Writer" ]
   }
 }, {
   "id" : 73,
   "pattern" : "short stories",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 74,
   "pattern" : "short story",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 75,
   "pattern" : "stories",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 76,
   "pattern" : "story",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 77,
   "pattern" : "united states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Writer" ]
   }
 }, {
   "id" : 78,
   "pattern" : "university",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ]
   }
 }, {
   "id" : 79,
   "pattern" : "well",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Writer" ]
   }
 }, {
   "id" : 81,
   "pattern" : "work",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ]
   }
 }, {
   "id" : 82,
   "pattern" : "works",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ]
   }
 }, {
   "id" : 83,
   "pattern" : "writer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fantasy", "class=Writer" ],
-    "1" : [ "pair=dbr:Horror_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Horror_fiction", "class=Writer" ],
-    "2" : [ "pair=dbr:Children's_literature", "MaxConf=1.0", "triple=e_dbo:genre dbr:Children's_literature", "class=Writer" ],
-    "3" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Science_fiction", "class=Writer" ],
-    "4" : [ "pair=dbr:Fiction", "MaxConf=1.0", "triple=e_dbo:genre dbr:Fiction", "class=Writer" ],
-    "5" : [ "pair=dbr:Romance_novel", "MaxConf=1.0", "triple=e_dbo:genre dbr:Romance_novel", "class=Writer" ],
-    "6" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "7" : [ "pair=dbr:Writer", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Writer", "class=Writer" ],
-    "8" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Author\"@en", "class=Writer" ],
-    "9" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"\"@en", "class=Writer" ],
-    "10" : [ "pair=\"writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"writer\"@en", "class=Writer" ],
-    "11" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Novelist\"@en", "class=Writer" ],
-    "12" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Writer\"@en", "class=Writer" ],
-    "13" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Novelist", "class=Writer" ],
-    "14" : [ "pair=dbr:United_Kingdom", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_Kingdom", "class=Writer" ],
-    "15" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ],
-    "16" : [ "pair=dbr:Norway", "MaxConf=1.0", "triple=e_dbo:country dbr:Norway", "class=Writer" ],
-    "17" : [ "pair=dbr:India", "MaxConf=1.0", "triple=e_dbo:country dbr:India", "class=Writer" ],
-    "18" : [ "pair=dbr:Canada", "MaxConf=1.0", "triple=e_dbo:country dbr:Canada", "class=Writer" ],
-    "19" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e_dbo:country dbr:France", "class=Writer" ],
-    "20" : [ "pair=dbr:Germany", "MaxConf=1.0", "triple=e_dbo:country dbr:Germany", "class=Writer" ],
-    "21" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:author \"yes\"@en", "class=Writer" ],
-    "22" : [ "pair=dbr:British_India", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:British_India", "class=Writer" ],
-    "23" : [ "pair=dbr:Russian_Empire", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Russian_Empire", "class=Writer" ],
-    "24" : [ "pair=\"United States\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"United States\"@en", "class=Writer" ],
-    "25" : [ "pair=\"Canadian\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"Canadian\"@en", "class=Writer" ],
-    "26" : [ "pair=\"Norwegian\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"Norwegian\"@en", "class=Writer" ],
-    "27" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+    "0" : [ "pair=dbr:Fantasy", "MaxConf=1.0", "triple=e dbo:genre dbr:Fantasy", "class=Writer" ],
+    "1" : [ "pair=dbr:Horror_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Horror_fiction", "class=Writer" ],
+    "2" : [ "pair=dbr:Children's_literature", "MaxConf=1.0", "triple=e dbo:genre dbr:Children's_literature", "class=Writer" ],
+    "3" : [ "pair=dbr:Science_fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Science_fiction", "class=Writer" ],
+    "4" : [ "pair=dbr:Fiction", "MaxConf=1.0", "triple=e dbo:genre dbr:Fiction", "class=Writer" ],
+    "5" : [ "pair=dbr:Romance_novel", "MaxConf=1.0", "triple=e dbo:genre dbr:Romance_novel", "class=Writer" ],
+    "6" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "7" : [ "pair=dbr:Writer", "MaxConf=1.0", "triple=e dbp:occupation dbr:Writer", "class=Writer" ],
+    "8" : [ "pair=\"Author\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Author\"@en", "class=Writer" ],
+    "9" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"\"@en", "class=Writer" ],
+    "10" : [ "pair=\"writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"writer\"@en", "class=Writer" ],
+    "11" : [ "pair=\"Novelist\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Novelist\"@en", "class=Writer" ],
+    "12" : [ "pair=\"Writer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Writer\"@en", "class=Writer" ],
+    "13" : [ "pair=dbr:Novelist", "MaxConf=1.0", "triple=e dbp:occupation dbr:Novelist", "class=Writer" ],
+    "14" : [ "pair=dbr:United_Kingdom", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_Kingdom", "class=Writer" ],
+    "15" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ],
+    "16" : [ "pair=dbr:Norway", "MaxConf=1.0", "triple=e dbo:country dbr:Norway", "class=Writer" ],
+    "17" : [ "pair=dbr:India", "MaxConf=1.0", "triple=e dbo:country dbr:India", "class=Writer" ],
+    "18" : [ "pair=dbr:Canada", "MaxConf=1.0", "triple=e dbo:country dbr:Canada", "class=Writer" ],
+    "19" : [ "pair=dbr:France", "MaxConf=1.0", "triple=e dbo:country dbr:France", "class=Writer" ],
+    "20" : [ "pair=dbr:Germany", "MaxConf=1.0", "triple=e dbo:country dbr:Germany", "class=Writer" ],
+    "21" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:author \"yes\"@en", "class=Writer" ],
+    "22" : [ "pair=dbr:British_India", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:British_India", "class=Writer" ],
+    "23" : [ "pair=dbr:Russian_Empire", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Russian_Empire", "class=Writer" ],
+    "24" : [ "pair=\"United States\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"United States\"@en", "class=Writer" ],
+    "25" : [ "pair=\"Canadian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Canadian\"@en", "class=Writer" ],
+    "26" : [ "pair=\"Norwegian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Norwegian\"@en", "class=Writer" ],
+    "27" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Writer" ]
   }
 }, {
   "id" : 86,
   "pattern" : "york",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e_dbp:language \"English\"@en", "class=Writer" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:nationality dbr:United_States", "class=Writer" ]
+    "0" : [ "pair=\"English\"@en", "MaxConf=1.0", "triple=e dbp:language \"English\"@en", "class=Writer" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:nationality dbr:United_States", "class=Writer" ]
   }
 }, {
   "id" : 87,
   "pattern" : "york times",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Writer" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Writer" ]
   }
 } ]

@@ -3,99 +3,99 @@
   "pattern" : "born",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Installation_art", "Cosine=0.854", "triple=e_dbo:field dbr:Installation_art", "class=Artist" ],
-    "1" : [ "pair=dbr:Video_art", "Cosine=0.838", "triple=e_dbp:field dbr:Video_art", "class=Artist" ],
-    "2" : [ "pair=dbr:Contemporary_art", "Cosine=0.824", "triple=e_dbp:movement dbr:Contemporary_art", "class=Artist" ],
-    "3" : [ "pair=\"Photography\"@en", "Cosine=0.747", "triple=e_dbp:field \"Photography\"@en", "class=Artist" ],
-    "4" : [ "pair=dbr:New_York_City", "Cosine=0.732", "triple=e_dbo:birthPlace dbr:New_York_City", "class=Artist" ],
-    "5" : [ "pair=dbr:Americans", "Cosine=0.726", "triple=e_dbp:nationality dbr:Americans", "class=Artist" ],
-    "6" : [ "pair=dbr:United_States", "Cosine=0.717", "triple=e_dbp:birthPlace dbr:United_States", "class=Artist" ],
-    "7" : [ "pair=\"InternetArchiveBot\"@en", "Cosine=0.716", "triple=e_dbp:bot \"InternetArchiveBot\"@en", "class=Artist" ],
-    "8" : [ "pair=dbr:Photography", "Cosine=0.715", "triple=e_dbo:field dbr:Photography", "class=Artist" ],
-    "9" : [ "pair=dbr:Sculpture", "Cosine=0.71", "triple=e_dbo:field dbr:Sculpture", "class=Artist" ],
-    "10" : [ "pair=dbr:United_Kingdom", "Cosine=0.71", "triple=e_dbo:country dbr:United_Kingdom", "class=Artist" ],
-    "11" : [ "pair=\"yes\"@en", "Cosine=0.707", "triple=e_dbp:fixAttempted \"yes\"@en", "class=Artist" ],
-    "12" : [ "pair=dbr:Printmaking", "Cosine=0.692", "triple=e_dbo:field dbr:Printmaking", "class=Artist" ],
-    "13" : [ "pair=\"Australian\"@en", "Cosine=0.684", "triple=e_dbp:nationality \"Australian\"@en", "class=Artist" ],
-    "14" : [ "pair=\"Canadian\"@en", "Cosine=0.657", "triple=e_dbp:nationality \"Canadian\"@en", "class=Artist" ],
-    "15" : [ "pair=dbr:Canadians", "Cosine=0.65", "triple=e_dbo:nationality dbr:Canadians", "class=Artist" ],
-    "16" : [ "pair=dbr:Drawing", "Cosine=0.648", "triple=e_dbo:field dbr:Drawing", "class=Artist" ],
-    "17" : [ "pair=\"#6495ED\"@en", "Cosine=0.638", "triple=e_dbp:bgcolour \"#6495ED\"@en", "class=Artist" ],
-    "18" : [ "pair=\"American\"@en", "Cosine=0.638", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
-    "19" : [ "pair=dbr:England", "Cosine=0.622", "triple=e_dbo:birthPlace dbr:England", "class=Artist" ],
-    "20" : [ "pair=\"German\"@en", "Cosine=0.612", "triple=e_dbp:nationality \"German\"@en", "class=Artist" ],
-    "21" : [ "pair=dbr:France", "Cosine=0.612", "triple=e_dbo:country dbr:France", "class=Artist" ],
-    "22" : [ "pair=\"Painting\"@en", "Cosine=0.587", "triple=e_dbp:field \"Painting\"@en", "class=Artist" ],
-    "23" : [ "pair=dbr:Painting", "Cosine=0.556", "triple=e_dbo:field dbr:Painting", "class=Artist" ],
-    "24" : [ "pair=\"French\"@en", "Cosine=0.546", "triple=e_dbp:nationality \"French\"@en", "class=Artist" ],
-    "25" : [ "pair=\"British\"@en", "Cosine=0.541", "triple=e_dbp:nationality \"British\"@en", "class=Artist" ],
-    "26" : [ "pair=\"\"@en", "Cosine=0.495", "triple=e_dbp:spouse \"\"@en", "class=Artist" ]
+    "0" : [ "pair=dbr:Installation_art", "Cosine=0.854", "triple=e dbo:field dbr:Installation_art", "class=Artist" ],
+    "1" : [ "pair=dbr:Video_art", "Cosine=0.838", "triple=e dbp:field dbr:Video_art", "class=Artist" ],
+    "2" : [ "pair=dbr:Contemporary_art", "Cosine=0.824", "triple=e dbp:movement dbr:Contemporary_art", "class=Artist" ],
+    "3" : [ "pair=\"Photography\"@en", "Cosine=0.747", "triple=e dbp:field \"Photography\"@en", "class=Artist" ],
+    "4" : [ "pair=dbr:New_York_City", "Cosine=0.732", "triple=e dbo:birthPlace dbr:New_York_City", "class=Artist" ],
+    "5" : [ "pair=dbr:Americans", "Cosine=0.726", "triple=e dbp:nationality dbr:Americans", "class=Artist" ],
+    "6" : [ "pair=dbr:United_States", "Cosine=0.717", "triple=e dbp:birthPlace dbr:United_States", "class=Artist" ],
+    "7" : [ "pair=\"InternetArchiveBot\"@en", "Cosine=0.716", "triple=e dbp:bot \"InternetArchiveBot\"@en", "class=Artist" ],
+    "8" : [ "pair=dbr:Photography", "Cosine=0.715", "triple=e dbo:field dbr:Photography", "class=Artist" ],
+    "9" : [ "pair=dbr:Sculpture", "Cosine=0.71", "triple=e dbo:field dbr:Sculpture", "class=Artist" ],
+    "10" : [ "pair=dbr:United_Kingdom", "Cosine=0.71", "triple=e dbo:country dbr:United_Kingdom", "class=Artist" ],
+    "11" : [ "pair=\"yes\"@en", "Cosine=0.707", "triple=e dbp:fixAttempted \"yes\"@en", "class=Artist" ],
+    "12" : [ "pair=dbr:Printmaking", "Cosine=0.692", "triple=e dbo:field dbr:Printmaking", "class=Artist" ],
+    "13" : [ "pair=\"Australian\"@en", "Cosine=0.684", "triple=e dbp:nationality \"Australian\"@en", "class=Artist" ],
+    "14" : [ "pair=\"Canadian\"@en", "Cosine=0.657", "triple=e dbp:nationality \"Canadian\"@en", "class=Artist" ],
+    "15" : [ "pair=dbr:Canadians", "Cosine=0.65", "triple=e dbo:nationality dbr:Canadians", "class=Artist" ],
+    "16" : [ "pair=dbr:Drawing", "Cosine=0.648", "triple=e dbo:field dbr:Drawing", "class=Artist" ],
+    "17" : [ "pair=\"#6495ED\"@en", "Cosine=0.638", "triple=e dbp:bgcolour \"#6495ED\"@en", "class=Artist" ],
+    "18" : [ "pair=\"American\"@en", "Cosine=0.638", "triple=e dbp:nationality \"American\"@en", "class=Artist" ],
+    "19" : [ "pair=dbr:England", "Cosine=0.622", "triple=e dbo:birthPlace dbr:England", "class=Artist" ],
+    "20" : [ "pair=\"German\"@en", "Cosine=0.612", "triple=e dbp:nationality \"German\"@en", "class=Artist" ],
+    "21" : [ "pair=dbr:France", "Cosine=0.612", "triple=e dbo:country dbr:France", "class=Artist" ],
+    "22" : [ "pair=\"Painting\"@en", "Cosine=0.587", "triple=e dbp:field \"Painting\"@en", "class=Artist" ],
+    "23" : [ "pair=dbr:Painting", "Cosine=0.556", "triple=e dbo:field dbr:Painting", "class=Artist" ],
+    "24" : [ "pair=\"French\"@en", "Cosine=0.546", "triple=e dbp:nationality \"French\"@en", "class=Artist" ],
+    "25" : [ "pair=\"British\"@en", "Cosine=0.541", "triple=e dbp:nationality \"British\"@en", "class=Artist" ],
+    "26" : [ "pair=\"\"@en", "Cosine=0.495", "triple=e dbp:spouse \"\"@en", "class=Artist" ]
   }
 }, {
   "id" : 24,
   "pattern" : "included",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "Cosine=0.407", "triple=e_dbo:country dbr:United_States", "class=Artist" ]
+    "0" : [ "pair=dbr:United_States", "Cosine=0.407", "triple=e dbo:country dbr:United_States", "class=Artist" ]
   }
 }, {
   "id" : 31,
   "pattern" : "known",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Americans", "Cosine=0.643", "triple=e_dbp:nationality dbr:Americans", "class=Artist" ],
-    "1" : [ "pair=dbr:Illustration", "Cosine=0.617", "triple=e_dbo:field dbr:Illustration", "class=Artist" ],
-    "2" : [ "pair=dbr:England", "Cosine=0.589", "triple=e_dbo:birthPlace dbr:England", "class=Artist" ],
-    "3" : [ "pair=\"American\"@en", "Cosine=0.585", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
-    "4" : [ "pair=dbr:United_States", "Cosine=0.576", "triple=e_dbp:nationality dbr:United_States", "class=Artist" ],
-    "5" : [ "pair=\"Canadian\"@en", "Cosine=0.568", "triple=e_dbp:nationality \"Canadian\"@en", "class=Artist" ],
-    "6" : [ "pair=\"Australian\"@en", "Cosine=0.566", "triple=e_dbp:nationality \"Australian\"@en", "class=Artist" ],
-    "7" : [ "pair=dbr:Photography", "Cosine=0.55", "triple=e_dbp:field dbr:Photography", "class=Artist" ],
-    "8" : [ "pair=dbr:Drawing", "Cosine=0.546", "triple=e_dbp:field dbr:Drawing", "class=Artist" ],
-    "9" : [ "pair=\"\"@en", "Cosine=0.545", "triple=e_dbp:spouse \"\"@en", "class=Artist" ],
-    "10" : [ "pair=dbr:Sculpture", "Cosine=0.545", "triple=e_dbo:field dbr:Sculpture", "class=Artist" ],
-    "11" : [ "pair=\"British\"@en", "Cosine=0.538", "triple=e_dbp:nationality \"British\"@en", "class=Artist" ],
-    "12" : [ "pair=dbr:Printmaking", "Cosine=0.528", "triple=e_dbo:field dbr:Printmaking", "class=Artist" ],
-    "13" : [ "pair=dbr:Painting", "Cosine=0.526", "triple=e_dbo:field dbr:Painting", "class=Artist" ],
-    "14" : [ "pair=\"#6495ED\"@en", "Cosine=0.512", "triple=e_dbp:bgcolour \"#6495ED\"@en", "class=Artist" ],
-    "15" : [ "pair=\"Painting\"@en", "Cosine=0.49", "triple=e_dbp:field \"Painting\"@en", "class=Artist" ],
-    "16" : [ "pair=\"French\"@en", "Cosine=0.46", "triple=e_dbp:nationality \"French\"@en", "class=Artist" ]
+    "0" : [ "pair=dbr:Americans", "Cosine=0.643", "triple=e dbp:nationality dbr:Americans", "class=Artist" ],
+    "1" : [ "pair=dbr:Illustration", "Cosine=0.617", "triple=e dbo:field dbr:Illustration", "class=Artist" ],
+    "2" : [ "pair=dbr:England", "Cosine=0.589", "triple=e dbo:birthPlace dbr:England", "class=Artist" ],
+    "3" : [ "pair=\"American\"@en", "Cosine=0.585", "triple=e dbp:nationality \"American\"@en", "class=Artist" ],
+    "4" : [ "pair=dbr:United_States", "Cosine=0.576", "triple=e dbp:nationality dbr:United_States", "class=Artist" ],
+    "5" : [ "pair=\"Canadian\"@en", "Cosine=0.568", "triple=e dbp:nationality \"Canadian\"@en", "class=Artist" ],
+    "6" : [ "pair=\"Australian\"@en", "Cosine=0.566", "triple=e dbp:nationality \"Australian\"@en", "class=Artist" ],
+    "7" : [ "pair=dbr:Photography", "Cosine=0.55", "triple=e dbp:field dbr:Photography", "class=Artist" ],
+    "8" : [ "pair=dbr:Drawing", "Cosine=0.546", "triple=e dbp:field dbr:Drawing", "class=Artist" ],
+    "9" : [ "pair=\"\"@en", "Cosine=0.545", "triple=e dbp:spouse \"\"@en", "class=Artist" ],
+    "10" : [ "pair=dbr:Sculpture", "Cosine=0.545", "triple=e dbo:field dbr:Sculpture", "class=Artist" ],
+    "11" : [ "pair=\"British\"@en", "Cosine=0.538", "triple=e dbp:nationality \"British\"@en", "class=Artist" ],
+    "12" : [ "pair=dbr:Printmaking", "Cosine=0.528", "triple=e dbo:field dbr:Printmaking", "class=Artist" ],
+    "13" : [ "pair=dbr:Painting", "Cosine=0.526", "triple=e dbo:field dbr:Painting", "class=Artist" ],
+    "14" : [ "pair=\"#6495ED\"@en", "Cosine=0.512", "triple=e dbp:bgcolour \"#6495ED\"@en", "class=Artist" ],
+    "15" : [ "pair=\"Painting\"@en", "Cosine=0.49", "triple=e dbp:field \"Painting\"@en", "class=Artist" ],
+    "16" : [ "pair=\"French\"@en", "Cosine=0.46", "triple=e dbp:nationality \"French\"@en", "class=Artist" ]
   }
 }, {
   "id" : 39,
   "pattern" : "lived",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Saint_Petersburg", "Cosine=0.71", "triple=e_dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ],
-    "1" : [ "pair=dbr:Realism_(arts", "Cosine=0.605", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+    "0" : [ "pair=dbr:Saint_Petersburg", "Cosine=0.71", "triple=e dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ],
+    "1" : [ "pair=dbr:Realism_(arts", "Cosine=0.605", "triple=e dbp:movement dbr:Realism_(arts", "class=Artist" ]
   }
 }, {
   "id" : 40,
   "pattern" : "lived worked",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Realism_(arts", "Cosine=0.584", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+    "0" : [ "pair=dbr:Realism_(arts", "Cosine=0.584", "triple=e dbp:movement dbr:Realism_(arts", "class=Artist" ]
   }
 }, {
   "id" : 41,
   "pattern" : "lived worked\u001Cin",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Realism_(arts", "Cosine=0.579", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+    "0" : [ "pair=dbr:Realism_(arts", "Cosine=0.579", "triple=e dbp:movement dbr:Realism_(arts", "class=Artist" ]
   }
 }, {
   "id" : 55,
   "pattern" : "regarded",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Realism_(arts", "Cosine=0.584", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+    "0" : [ "pair=dbr:Realism_(arts", "Cosine=0.584", "triple=e dbp:movement dbr:Realism_(arts", "class=Artist" ]
   }
 }, {
   "id" : 67,
   "pattern" : "worked",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Saint_Petersburg", "Cosine=0.724", "triple=e_dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ],
-    "1" : [ "pair=dbr:Realism_(arts", "Cosine=0.615", "triple=e_dbp:movement dbr:Realism_(arts", "class=Artist" ]
+    "0" : [ "pair=dbr:Saint_Petersburg", "Cosine=0.724", "triple=e dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ],
+    "1" : [ "pair=dbr:Realism_(arts", "Cosine=0.615", "triple=e dbp:movement dbr:Realism_(arts", "class=Artist" ]
   }
 } ]

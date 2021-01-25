@@ -3,38 +3,38 @@
   "pattern" : "automotive",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Automotive_industry", "Cosine=0.487", "triple=e_dbp:industry dbr:Automotive_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Automotive_industry", "Cosine=0.487", "triple=e dbp:industry dbr:Automotive_industry", "class=Company" ]
   }
 }, {
   "id" : 22,
   "pattern" : "indian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:India", "Cosine=0.78", "triple=e_dbp:locationCountry dbr:India", "class=Company" ]
+    "0" : [ "pair=dbr:India", "Cosine=0.78", "triple=e dbp:locationCountry dbr:India", "class=Company" ]
   }
 }, {
   "id" : 24,
   "pattern" : "japanese",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Cosine=0.819", "triple=e_dbo:location dbr:Japan", "class=Company" ],
-    "1" : [ "pair=dbr:Kabushiki_gaisha", "Cosine=0.81", "triple=e_dbp:type dbr:Kabushiki_gaisha", "class=Company" ],
-    "2" : [ "pair=\"ja\"@en", "Cosine=0.81", "triple=e_dbp:nativeNameLang \"ja\"@en", "class=Company" ]
+    "0" : [ "pair=dbr:Japan", "Cosine=0.819", "triple=e dbo:location dbr:Japan", "class=Company" ],
+    "1" : [ "pair=dbr:Kabushiki_gaisha", "Cosine=0.81", "triple=e dbp:type dbr:Kabushiki_gaisha", "class=Company" ],
+    "2" : [ "pair=\"ja\"@en", "Cosine=0.81", "triple=e dbp:nativeNameLang \"ja\"@en", "class=Company" ]
   }
 }, {
   "id" : 26,
   "pattern" : "largest",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Chairman", "Cosine=0.445", "triple=e_dbo:keyPerson dbr:Chairman", "class=Company" ],
-    "1" : [ "pair=dbr:Public_company", "Cosine=0.442", "triple=e_dbo:type dbr:Public_company", "class=Company" ],
-    "2" : [ "pair=dbr:CEO", "Cosine=0.427", "triple=e_dbo:keyPerson dbr:CEO", "class=Company" ]
+    "0" : [ "pair=dbr:Chairman", "Cosine=0.445", "triple=e dbo:keyPerson dbr:Chairman", "class=Company" ],
+    "1" : [ "pair=dbr:Public_company", "Cosine=0.442", "triple=e dbo:type dbr:Public_company", "class=Company" ],
+    "2" : [ "pair=dbr:CEO", "Cosine=0.427", "triple=e dbo:keyPerson dbr:CEO", "class=Company" ]
   }
 }, {
   "id" : 34,
   "pattern" : "retail",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Retail", "Cosine=0.52", "triple=e_dbo:industry dbr:Retail", "class=Company" ]
+    "0" : [ "pair=dbr:Retail", "Cosine=0.52", "triple=e dbo:industry dbr:Retail", "class=Company" ]
   }
 } ]

@@ -3,30 +3,30 @@
   "pattern" : "affiliated",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Undergraduate college Public college\"@en", "Kulczynski=0.959", "triple=e_dbp:type \"Undergraduate college Public college\"@en", "class=University" ],
-    "1" : [ "pair=\"Undergraduate college\"@en", "Kulczynski=0.951", "triple=e_dbp:type \"Undergraduate college\"@en", "class=University" ],
-    "2" : [ "pair=\"India West Bengal#India\"@en", "Kulczynski=0.926", "triple=e_dbp:pushpinMap \"India West Bengal#India\"@en", "class=University" ],
-    "3" : [ "pair=dbr:Assam", "Kulczynski=0.887", "triple=e_dbp:state dbr:Assam", "class=University" ],
-    "4" : [ "pair=dbr:West_Bengal", "Kulczynski=0.871", "triple=e_dbp:state dbr:West_Bengal", "class=University" ],
-    "5" : [ "pair=dbr:Public_college", "Kulczynski=0.826", "triple=e_dbo:type dbr:Public_college", "class=University" ],
-    "6" : [ "pair=dbr:Tamil_Nadu", "Kulczynski=0.806", "triple=e_dbo:state dbr:Tamil_Nadu", "class=University" ]
+    "0" : [ "pair=\"Undergraduate college Public college\"@en", "Kulczynski=0.959", "triple=e dbp:type \"Undergraduate college Public college\"@en", "class=University" ],
+    "1" : [ "pair=\"Undergraduate college\"@en", "Kulczynski=0.951", "triple=e dbp:type \"Undergraduate college\"@en", "class=University" ],
+    "2" : [ "pair=\"India West Bengal#India\"@en", "Kulczynski=0.926", "triple=e dbp:pushpinMap \"India West Bengal#India\"@en", "class=University" ],
+    "3" : [ "pair=dbr:Assam", "Kulczynski=0.887", "triple=e dbp:state dbr:Assam", "class=University" ],
+    "4" : [ "pair=dbr:West_Bengal", "Kulczynski=0.871", "triple=e dbp:state dbr:West_Bengal", "class=University" ],
+    "5" : [ "pair=dbr:Public_college", "Kulczynski=0.826", "triple=e dbo:type dbr:Public_college", "class=University" ],
+    "6" : [ "pair=dbr:Tamil_Nadu", "Kulczynski=0.806", "triple=e dbo:state dbr:Tamil_Nadu", "class=University" ]
   }
 }, {
   "id" : 2,
   "pattern" : "affiliated\u001Cto",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Undergraduate college Public college\"@en", "Kulczynski=0.868", "triple=e_dbp:type \"Undergraduate college Public college\"@en", "class=University" ]
+    "0" : [ "pair=\"Undergraduate college Public college\"@en", "Kulczynski=0.868", "triple=e dbp:type \"Undergraduate college Public college\"@en", "class=University" ]
   }
 }, {
   "id" : 26,
   "pattern" : "established",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Undergraduate college Public college\"@en", "Kulczynski=0.909", "triple=e_dbp:type \"Undergraduate college Public college\"@en", "class=University" ],
-    "1" : [ "pair=\"Undergraduate college\"@en", "Kulczynski=0.889", "triple=e_dbp:type \"Undergraduate college\"@en", "class=University" ],
-    "2" : [ "pair=\"India West Bengal#India\"@en", "Kulczynski=0.878", "triple=e_dbp:pushpinMap \"India West Bengal#India\"@en", "class=University" ],
-    "3" : [ "pair=dbr:Assam", "Kulczynski=0.853", "triple=e_dbp:state dbr:Assam", "class=University" ],
-    "4" : [ "pair=dbr:West_Bengal", "Kulczynski=0.839", "triple=e_dbp:state dbr:West_Bengal", "class=University" ]
+    "0" : [ "pair=\"Undergraduate college Public college\"@en", "Kulczynski=0.909", "triple=e dbp:type \"Undergraduate college Public college\"@en", "class=University" ],
+    "1" : [ "pair=\"Undergraduate college\"@en", "Kulczynski=0.889", "triple=e dbp:type \"Undergraduate college\"@en", "class=University" ],
+    "2" : [ "pair=\"India West Bengal#India\"@en", "Kulczynski=0.878", "triple=e dbp:pushpinMap \"India West Bengal#India\"@en", "class=University" ],
+    "3" : [ "pair=dbr:Assam", "Kulczynski=0.853", "triple=e dbp:state dbr:Assam", "class=University" ],
+    "4" : [ "pair=dbr:West_Bengal", "Kulczynski=0.839", "triple=e dbp:state dbr:West_Bengal", "class=University" ]
   }
 } ]

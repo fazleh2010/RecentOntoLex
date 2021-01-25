@@ -1,39 +1,35 @@
 [ {
-  "id" : 10,
+  "id" : 7,
   "pattern" : "german",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:German_Type_IX_submarine", "MaxConf=1.0", "triple=e_dbo:class dbr:German_Type_IX_submarine", "class=Ship" ],
-    "1" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e_dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
-    "2" : [ "pair=\"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
-    "3" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:isMulti \"yes\"@en", "class=Ship" ],
-    "4" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e_dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
+    "0" : [ "pair=dbr:German_Type_IX_submarine", "MaxConf=1.0", "triple=e dbo:class dbr:German_Type_IX_submarine", "class=Ship" ],
+    "1" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
+    "2" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:isMulti \"yes\"@en", "class=Ship" ],
+    "3" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
   }
 }, {
-  "id" : 71,
+  "id" : 64,
   "pattern" : "nazi",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e_dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
-    "1" : [ "pair=\"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
-    "2" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e_dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
+    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
+    "1" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
   }
 }, {
-  "id" : 74,
+  "id" : 67,
   "pattern" : "oberleutnant",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e_dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
-    "1" : [ "pair=\"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
-    "2" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e_dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
+    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
+    "1" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
   }
 }, {
-  "id" : 110,
+  "id" : 97,
   "pattern" : "u-boat nazi",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e_dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
-    "1" : [ "pair=\"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
-    "2" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e_dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
+    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
+    "1" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
   }
 } ]

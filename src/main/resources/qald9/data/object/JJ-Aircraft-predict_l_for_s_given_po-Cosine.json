@@ -3,119 +3,118 @@
   "pattern" : "amateur",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"AeroCrafter\"@en", "Cosine=0.986", "triple=e_dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ],
-    "1" : [ "pair=dbr:Amateur-built_aircraft", "Cosine=0.968", "triple=e_dbo:type dbr:Amateur-built_aircraft", "class=Aircraft" ],
-    "2" : [ "pair=\"four cylinder", "Cosine=0.906", "triple=e_dbp:eng1Type \"four cylinder", "class=Aircraft" ],
-    "3" : [ "pair=\"Plans available\"@en", "Cosine=0.879", "triple=e_dbp:status \"Plans available\"@en", "class=Aircraft" ]
+    "0" : [ "pair=\"AeroCrafter\"@en", "Cosine=0.986", "triple=e dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ],
+    "1" : [ "pair=dbr:Amateur-built_aircraft", "Cosine=0.968", "triple=e dbo:type dbr:Amateur-built_aircraft", "class=Aircraft" ],
+    "2" : [ "pair=\"four cylinder", "Cosine=0.906", "triple=e dbp:eng1Type \"four cylinder", "class=Aircraft" ],
+    "3" : [ "pair=\"Plans available\"@en", "Cosine=0.879", "triple=e dbp:status \"Plans available\"@en", "class=Aircraft" ]
   }
 }, {
   "id" : 11,
   "pattern" : "available",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"AeroCrafter\"@en", "Cosine=0.906", "triple=e_dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ],
-    "1" : [ "pair=dbr:Paramotor", "Cosine=0.871", "triple=e_dbo:type dbr:Paramotor", "class=Aircraft" ]
+    "0" : [ "pair=\"AeroCrafter\"@en", "Cosine=0.906", "triple=e dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ],
+    "1" : [ "pair=dbr:Paramotor", "Cosine=0.871", "triple=e dbo:type dbr:Paramotor", "class=Aircraft" ]
   }
 }, {
   "id" : 12,
   "pattern" : "available\u001Cthe",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"AeroCrafter\"@en", "Cosine=0.875", "triple=e_dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ]
+    "0" : [ "pair=\"AeroCrafter\"@en", "Cosine=0.875", "triple=e dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ]
   }
 }, {
   "id" : 25,
   "pattern" : "british",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Royal_Air_Force", "Cosine=0.893", "triple=e_dbp:primaryUser dbr:Royal_Air_Force", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Royal_Air_Force", "Cosine=0.893", "triple=e dbp:primaryUser dbr:Royal_Air_Force", "class=Aircraft" ]
   }
 }, {
   "id" : 26,
   "pattern" : "canadian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Canada", "Cosine=0.886", "triple=e_dbp:nationalOrigin dbr:Canada", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Canada", "Cosine=0.886", "triple=e dbp:nationalOrigin dbr:Canada", "class=Aircraft" ]
   }
 }, {
   "id" : 30,
   "pattern" : "chinese",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:China", "Cosine=0.988", "triple=e_dbp:primaryUser dbr:China", "class=Aircraft" ],
-    "1" : [ "pair=dbr:UAV", "Cosine=0.971", "triple=e_dbo:type dbr:UAV", "class=Aircraft" ]
+    "0" : [ "pair=dbr:China", "Cosine=0.988", "triple=e dbp:primaryUser dbr:China", "class=Aircraft" ],
+    "1" : [ "pair=dbr:UAV", "Cosine=0.971", "triple=e dbo:type dbr:UAV", "class=Aircraft" ]
   }
 }, {
   "id" : 31,
   "pattern" : "complete",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Paramotor", "Cosine=0.911", "triple=e_dbo:type dbr:Paramotor", "class=Aircraft" ],
-    "1" : [ "pair=\"four cylinder", "Cosine=0.9", "triple=e_dbp:eng1Type \"four cylinder", "class=Aircraft" ],
-    "2" : [ "pair=\"472.5\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.898", "triple=e_dbp:grossWeightKg \"472.5\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Aircraft" ],
-    "3" : [ "pair=\"Bayerl\"@en", "Cosine=0.868", "triple=e_dbp:ref \"Bayerl\"@en", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Paramotor", "Cosine=0.911", "triple=e dbo:type dbr:Paramotor", "class=Aircraft" ],
+    "1" : [ "pair=\"four cylinder", "Cosine=0.9", "triple=e dbp:eng1Type \"four cylinder", "class=Aircraft" ],
+    "2" : [ "pair=\"Bayerl\"@en", "Cosine=0.868", "triple=e dbp:ref \"Bayerl\"@en", "class=Aircraft" ]
   }
 }, {
   "id" : 45,
   "pattern" : "french",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:French_Air_and_Space_Force", "Cosine=0.898", "triple=e_dbp:primaryUser dbr:French_Air_and_Space_Force", "class=Aircraft" ]
+    "0" : [ "pair=dbr:French_Air_and_Space_Force", "Cosine=0.898", "triple=e dbp:primaryUser dbr:French_Air_and_Space_Force", "class=Aircraft" ]
   }
 }, {
   "id" : 50,
   "pattern" : "high-wing",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Hang_gliding", "Cosine=0.992", "triple=e_dbp:type dbr:Hang_gliding", "class=Aircraft" ],
-    "1" : [ "pair=dbr:Hang_glider", "Cosine=0.991", "triple=e_dbo:type dbr:Hang_glider", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Hang_gliding", "Cosine=0.992", "triple=e dbp:type dbr:Hang_gliding", "class=Aircraft" ],
+    "1" : [ "pair=dbr:Hang_glider", "Cosine=0.991", "triple=e dbo:type dbr:Hang_glider", "class=Aircraft" ]
   }
 }, {
   "id" : 84,
   "pattern" : "russian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Russia", "Cosine=0.866", "triple=e_dbo:origin dbr:Russia", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Russia", "Cosine=0.866", "triple=e dbo:origin dbr:Russia", "class=Aircraft" ]
   }
 }, {
   "id" : 85,
   "pattern" : "short",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Short_Brothers", "Cosine=0.98", "triple=e_dbp:manufacturer dbr:Short_Brothers", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Short_Brothers", "Cosine=0.98", "triple=e dbp:manufacturer dbr:Short_Brothers", "class=Aircraft" ]
   }
 }, {
   "id" : 86,
   "pattern" : "single-place",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"-2000.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=0.925", "triple=e_dbp:produced \"-2000.0\"^^<http://dbpedia.org/datatype/second>", "class=Aircraft" ],
-    "1" : [ "pair=dbr:Paragliding", "Cosine=0.918", "triple=e_dbp:type dbr:Paragliding", "class=Aircraft" ],
-    "2" : [ "pair=dbr:Paraglider", "Cosine=0.918", "triple=e_dbo:type dbr:Paraglider", "class=Aircraft" ],
-    "3" : [ "pair=dbr:Hang_gliding", "Cosine=0.908", "triple=e_dbp:type dbr:Hang_gliding", "class=Aircraft" ],
-    "4" : [ "pair=dbr:Hang_glider", "Cosine=0.906", "triple=e_dbo:type dbr:Hang_glider", "class=Aircraft" ]
+    "0" : [ "pair=\"-2000.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=0.925", "triple=e dbp:produced \"-2000.0\"^^<http://dbpedia.org/datatype/second>", "class=Aircraft" ],
+    "1" : [ "pair=dbr:Paragliding", "Cosine=0.918", "triple=e dbp:type dbr:Paragliding", "class=Aircraft" ],
+    "2" : [ "pair=dbr:Paraglider", "Cosine=0.918", "triple=e dbo:type dbr:Paraglider", "class=Aircraft" ],
+    "3" : [ "pair=dbr:Hang_gliding", "Cosine=0.908", "triple=e dbp:type dbr:Hang_gliding", "class=Aircraft" ],
+    "4" : [ "pair=dbr:Hang_glider", "Cosine=0.906", "triple=e dbo:type dbr:Hang_glider", "class=Aircraft" ]
   }
 }, {
   "id" : 88,
   "pattern" : "soviet",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Soviet_Air_Forces", "Cosine=0.95", "triple=e_dbp:primaryUser dbr:Soviet_Air_Forces", "class=Aircraft" ],
-    "1" : [ "pair=dbr:Soviet_Union", "Cosine=0.92", "triple=e_dbo:origin dbr:Soviet_Union", "class=Aircraft" ],
-    "2" : [ "pair=\"Soviet Union\"@en", "Cosine=0.909", "triple=e_dbp:nationalOrigin \"Soviet Union\"@en", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Soviet_Air_Forces", "Cosine=0.95", "triple=e dbp:primaryUser dbr:Soviet_Air_Forces", "class=Aircraft" ],
+    "1" : [ "pair=dbr:Soviet_Union", "Cosine=0.92", "triple=e dbo:origin dbr:Soviet_Union", "class=Aircraft" ],
+    "2" : [ "pair=\"Soviet Union\"@en", "Cosine=0.909", "triple=e dbp:nationalOrigin \"Soviet Union\"@en", "class=Aircraft" ]
   }
 }, {
   "id" : 90,
   "pattern" : "supplied complete",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Paramotor", "Cosine=0.898", "triple=e_dbo:type dbr:Paramotor", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Paramotor", "Cosine=0.898", "triple=e dbo:type dbr:Paramotor", "class=Aircraft" ]
   }
 }, {
   "id" : 91,
   "pattern" : "supplied complete and\u001Cready-to-fly",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Paramotor", "Cosine=0.898", "triple=e_dbo:type dbr:Paramotor", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Paramotor", "Cosine=0.898", "triple=e dbo:type dbr:Paramotor", "class=Aircraft" ]
   }
 } ]

@@ -3,25 +3,25 @@
   "pattern" : "recorded",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Country_music", "Coherence=0.101", "triple=e_dbo:genre dbr:Country_music", "class=Song" ]
+    "0" : [ "pair=dbr:Country_music", "Coherence=0.101", "triple=e dbo:genre dbr:Country_music", "class=Song" ]
   }
 }, {
   "id" : 6,
   "pattern" : "released",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"true\"@en", "Coherence=0.13", "triple=e_dbp:streaming \"true\"@en", "class=Song" ],
-    "1" : [ "pair=\"\"@en", "Coherence=0.119", "triple=e_dbp:producer \"\"@en", "class=Song" ],
-    "2" : [ "pair=\"United Kingdom\"@en", "Coherence=0.118", "triple=e_dbp:region \"United Kingdom\"@en", "class=Song" ],
-    "3" : [ "pair=\"Gold\"@en", "Coherence=0.117", "triple=e_dbp:award \"Gold\"@en", "class=Song" ],
-    "4" : [ "pair=\"Australia\"@en", "Coherence=0.117", "triple=e_dbp:region \"Australia\"@en", "class=Song" ],
-    "5" : [ "pair=dbr:Pop_rock", "Coherence=0.113", "triple=e_dbp:genre dbr:Pop_rock", "class=Song" ],
-    "6" : [ "pair=dbr:CD_single", "Coherence=0.109", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
-    "7" : [ "pair=\"United States\"@en", "Coherence=0.107", "triple=e_dbp:region \"United States\"@en", "class=Song" ],
-    "8" : [ "pair=\"yes\"@en", "Coherence=0.106", "triple=e_dbp:border \"yes\"@en", "class=Song" ],
-    "9" : [ "pair=dbr:Country_music", "Coherence=0.105", "triple=e_dbo:genre dbr:Country_music", "class=Song" ],
-    "10" : [ "pair=dbr:Music_download", "Coherence=0.104", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
-    "11" : [ "pair=\"Platinum\"@en", "Coherence=0.1", "triple=e_dbp:award \"Platinum\"@en", "class=Song" ],
-    "12" : [ "pair=dbr:Contemporary_R&B", "Coherence=0.1", "triple=e_dbo:genre dbr:Contemporary_R&B", "class=Song" ]
+    "0" : [ "pair=\"true\"@en", "Coherence=0.13", "triple=e dbp:streaming \"true\"@en", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "Coherence=0.119", "triple=e dbp:producer \"\"@en", "class=Song" ],
+    "2" : [ "pair=\"United Kingdom\"@en", "Coherence=0.118", "triple=e dbp:region \"United Kingdom\"@en", "class=Song" ],
+    "3" : [ "pair=\"Gold\"@en", "Coherence=0.117", "triple=e dbp:award \"Gold\"@en", "class=Song" ],
+    "4" : [ "pair=\"Australia\"@en", "Coherence=0.117", "triple=e dbp:region \"Australia\"@en", "class=Song" ],
+    "5" : [ "pair=dbr:Pop_rock", "Coherence=0.113", "triple=e dbp:genre dbr:Pop_rock", "class=Song" ],
+    "6" : [ "pair=dbr:CD_single", "Coherence=0.109", "triple=e dbp:format dbr:CD_single", "class=Song" ],
+    "7" : [ "pair=\"United States\"@en", "Coherence=0.107", "triple=e dbp:region \"United States\"@en", "class=Song" ],
+    "8" : [ "pair=\"yes\"@en", "Coherence=0.106", "triple=e dbp:border \"yes\"@en", "class=Song" ],
+    "9" : [ "pair=dbr:Country_music", "Coherence=0.105", "triple=e dbo:genre dbr:Country_music", "class=Song" ],
+    "10" : [ "pair=dbr:Music_download", "Coherence=0.104", "triple=e dbp:format dbr:Music_download", "class=Song" ],
+    "11" : [ "pair=\"Platinum\"@en", "Coherence=0.1", "triple=e dbp:award \"Platinum\"@en", "class=Song" ],
+    "12" : [ "pair=dbr:Contemporary_R&B", "Coherence=0.1", "triple=e dbo:genre dbr:Contemporary_R&B", "class=Song" ]
   }
 } ]

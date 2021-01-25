@@ -3,110 +3,110 @@
   "pattern" : "accredited",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
-    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ],
-    "2" : [ "pair=dbr:Private_university", "MaxConf=1.0", "triple=e_dbp:type dbr:Private_university", "class=University" ]
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e dbp:campus \"Urban\"@en", "class=University" ],
+    "2" : [ "pair=dbr:Private_university", "MaxConf=1.0", "triple=e dbp:type dbr:Private_university", "class=University" ]
   }
 }, {
   "id" : 4,
   "pattern" : "affiliated",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
-    "1" : [ "pair=\"Rural\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Rural\"@en", "class=University" ],
-    "2" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ],
-    "3" : [ "pair=dbr:Private_university", "MaxConf=1.0", "triple=e_dbp:type dbr:Private_university", "class=University" ]
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Rural\"@en", "MaxConf=1.0", "triple=e dbp:campus \"Rural\"@en", "class=University" ],
+    "2" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e dbp:campus \"Urban\"@en", "class=University" ],
+    "3" : [ "pair=dbr:Private_university", "MaxConf=1.0", "triple=e dbp:type dbr:Private_university", "class=University" ]
   }
 }, {
   "id" : 5,
   "pattern" : "affiliated\u001Cto",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+    "0" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e dbp:campus \"Urban\"@en", "class=University" ]
   }
 }, {
   "id" : 6,
   "pattern" : "affiliated\u001Cwith",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+    "0" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e dbp:campus \"Urban\"@en", "class=University" ]
   }
 }, {
   "id" : 8,
   "pattern" : "also known",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ]
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e dbp:campus dbr:Urban_area", "class=University" ]
   }
 }, {
   "id" : 60,
   "pattern" : "established",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
-    "1" : [ "pair=\"Rural\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Rural\"@en", "class=University" ],
-    "2" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ],
-    "3" : [ "pair=dbr:Private_university", "MaxConf=1.0", "triple=e_dbp:type dbr:Private_university", "class=University" ]
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Rural\"@en", "MaxConf=1.0", "triple=e dbp:campus \"Rural\"@en", "class=University" ],
+    "2" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e dbp:campus \"Urban\"@en", "class=University" ],
+    "3" : [ "pair=dbr:Private_university", "MaxConf=1.0", "triple=e dbp:type dbr:Private_university", "class=University" ]
   }
 }, {
   "id" : 61,
   "pattern" : "established\u001Cin",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
-    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e dbp:campus \"Urban\"@en", "class=University" ]
   }
 }, {
   "id" : 62,
   "pattern" : "established\u001Cin\u001Cthe",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+    "0" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e dbp:campus \"Urban\"@en", "class=University" ]
   }
 }, {
   "id" : 63,
   "pattern" : "established in\u001Cthe",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+    "0" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e dbp:campus \"Urban\"@en", "class=University" ]
   }
 }, {
   "id" : 69,
   "pattern" : "founded",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
-    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ],
-    "2" : [ "pair=dbr:Private_university", "MaxConf=1.0", "triple=e_dbp:type dbr:Private_university", "class=University" ]
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e dbp:campus \"Urban\"@en", "class=University" ],
+    "2" : [ "pair=dbr:Private_university", "MaxConf=1.0", "triple=e dbp:type dbr:Private_university", "class=University" ]
   }
 }, {
   "id" : 91,
   "pattern" : "known",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
-    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e dbp:campus \"Urban\"@en", "class=University" ]
   }
 }, {
   "id" : 101,
   "pattern" : "named",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ],
-    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e_dbp:campus \"Urban\"@en", "class=University" ]
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e dbp:campus dbr:Urban_area", "class=University" ],
+    "1" : [ "pair=\"Urban\"@en", "MaxConf=1.0", "triple=e dbp:campus \"Urban\"@en", "class=University" ]
   }
 }, {
   "id" : 129,
   "pattern" : "ranked",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ]
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e dbp:campus dbr:Urban_area", "class=University" ]
   }
 }, {
   "id" : 136,
   "pattern" : "situated",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e_dbp:campus dbr:Urban_area", "class=University" ]
+    "0" : [ "pair=dbr:Urban_area", "MaxConf=1.0", "triple=e dbp:campus dbr:Urban_area", "class=University" ]
   }
 } ]

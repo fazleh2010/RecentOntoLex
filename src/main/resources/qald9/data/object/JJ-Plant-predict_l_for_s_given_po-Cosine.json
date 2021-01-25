@@ -3,31 +3,31 @@
   "pattern" : "common",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"G1\"@en", "Cosine=0.958", "triple=e_dbp:status \"G1\"@en", "class=Plant" ],
-    "1" : [ "pair=\"G1\"", "Cosine=0.956", "triple=e_dbo:conservationStatus \"G1\"", "class=Plant" ],
-    "2" : [ "pair=dbr:Thomas_Nuttall", "Cosine=0.935", "triple=e_dbo:binomialAuthority dbr:Thomas_Nuttall", "class=Plant" ]
+    "0" : [ "pair=\"G1\"@en", "Cosine=0.958", "triple=e dbp:status \"G1\"@en", "class=Plant" ],
+    "1" : [ "pair=\"G1\"", "Cosine=0.956", "triple=e dbo:conservationStatus \"G1\"", "class=Plant" ],
+    "2" : [ "pair=dbr:Thomas_Nuttall", "Cosine=0.935", "triple=e dbo:binomialAuthority dbr:Thomas_Nuttall", "class=Plant" ]
   }
 }, {
   "id" : 26,
   "pattern" : "known the\u001Ccommon",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"G1\"@en", "Cosine=0.946", "triple=e_dbp:status \"G1\"@en", "class=Plant" ],
-    "1" : [ "pair=\"G1\"", "Cosine=0.944", "triple=e_dbo:conservationStatus \"G1\"", "class=Plant" ]
+    "0" : [ "pair=\"G1\"@en", "Cosine=0.946", "triple=e dbp:status \"G1\"@en", "class=Plant" ],
+    "1" : [ "pair=\"G1\"", "Cosine=0.944", "triple=e dbo:conservationStatus \"G1\"", "class=Plant" ]
   }
 }, {
   "id" : 31,
   "pattern" : "orchid",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Rchb.f.", "Cosine=0.991", "triple=e_dbo:binomialAuthority dbr:Rchb.f.", "class=Plant" ],
-    "1" : [ "pair=\"Lindl.\"@en", "Cosine=0.971", "triple=e_dbp:binomialAuthority \"Lindl.\"@en", "class=Plant" ],
-    "2" : [ "pair=dbr:Cymbidieae", "Cosine=0.965", "triple=e_dbo:family dbr:Cymbidieae", "class=Plant" ],
-    "3" : [ "pair=dbr:Stanhopeinae", "Cosine=0.954", "triple=e_dbp:subtribus dbr:Stanhopeinae", "class=Plant" ],
-    "4" : [ "pair=dbr:Aeridinae", "Cosine=0.953", "triple=e_dbp:subtribus dbr:Aeridinae", "class=Plant" ],
-    "5" : [ "pair=dbr:Pleurothallidinae", "Cosine=0.95", "triple=e_dbp:subtribus dbr:Pleurothallidinae", "class=Plant" ],
-    "6" : [ "pair=dbr:Oncidiinae", "Cosine=0.94", "triple=e_dbp:subtribus dbr:Oncidiinae", "class=Plant" ],
-    "7" : [ "pair=dbr:Epidendreae", "Cosine=0.938", "triple=e_dbo:family dbr:Epidendreae", "class=Plant" ],
-    "8" : [ "pair=dbr:Laeliinae", "Cosine=0.937", "triple=e_dbp:subtribus dbr:Laeliinae", "class=Plant" ]
+    "0" : [ "pair=dbr:Rchb.f.", "Cosine=0.991", "triple=e dbo:binomialAuthority dbr:Rchb.f.", "class=Plant" ],
+    "1" : [ "pair=\"Lindl.\"@en", "Cosine=0.971", "triple=e dbp:binomialAuthority \"Lindl.\"@en", "class=Plant" ],
+    "2" : [ "pair=dbr:Cymbidieae", "Cosine=0.965", "triple=e dbo:family dbr:Cymbidieae", "class=Plant" ],
+    "3" : [ "pair=dbr:Stanhopeinae", "Cosine=0.954", "triple=e dbp:subtribus dbr:Stanhopeinae", "class=Plant" ],
+    "4" : [ "pair=dbr:Aeridinae", "Cosine=0.953", "triple=e dbp:subtribus dbr:Aeridinae", "class=Plant" ],
+    "5" : [ "pair=dbr:Pleurothallidinae", "Cosine=0.95", "triple=e dbp:subtribus dbr:Pleurothallidinae", "class=Plant" ],
+    "6" : [ "pair=dbr:Oncidiinae", "Cosine=0.94", "triple=e dbp:subtribus dbr:Oncidiinae", "class=Plant" ],
+    "7" : [ "pair=dbr:Epidendreae", "Cosine=0.938", "triple=e dbo:family dbr:Epidendreae", "class=Plant" ],
+    "8" : [ "pair=dbr:Laeliinae", "Cosine=0.937", "triple=e dbp:subtribus dbr:Laeliinae", "class=Plant" ]
   }
 } ]

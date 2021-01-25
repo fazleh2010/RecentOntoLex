@@ -3,65 +3,65 @@
   "pattern" : "according",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Korea", "Coherence=0.464", "triple=e_dbp:country dbr:Korea", "class=Organisation" ]
+    "0" : [ "pair=dbr:Korea", "Coherence=0.464", "triple=e dbp:country dbr:Korea", "class=Organisation" ]
   }
 }, {
   "id" : 7,
   "pattern" : "based",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Executive Director\"@en", "Coherence=0.155", "triple=e_dbp:leaderTitle \"Executive Director\"@en", "class=Organisation" ],
-    "1" : [ "pair=dbr:Nonprofit_organization", "Coherence=0.15", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
-    "2" : [ "pair=dbr:Non-governmental_organization", "Coherence=0.147", "triple=e_dbp:type dbr:Non-governmental_organization", "class=Organisation" ],
-    "3" : [ "pair=dbr:United_States", "Coherence=0.128", "triple=e_dbo:location dbr:United_States", "class=Organisation" ],
-    "4" : [ "pair=dbr:English_language", "Coherence=0.116", "triple=e_dbo:language dbr:English_language", "class=Organisation" ]
+    "0" : [ "pair=\"Executive Director\"@en", "Coherence=0.155", "triple=e dbp:leaderTitle \"Executive Director\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:Nonprofit_organization", "Coherence=0.15", "triple=e dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "2" : [ "pair=dbr:Non-governmental_organization", "Coherence=0.147", "triple=e dbp:type dbr:Non-governmental_organization", "class=Organisation" ],
+    "3" : [ "pair=dbr:United_States", "Coherence=0.128", "triple=e dbo:location dbr:United_States", "class=Organisation" ],
+    "4" : [ "pair=dbr:English_language", "Coherence=0.116", "triple=e dbo:language dbr:English_language", "class=Organisation" ]
   }
 }, {
   "id" : 24,
   "pattern" : "established",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Chairman\"@en", "Coherence=0.139", "triple=e_dbp:leaderTitle \"Chairman\"@en", "class=Organisation" ]
+    "0" : [ "pair=\"Chairman\"@en", "Coherence=0.139", "triple=e dbp:leaderTitle \"Chairman\"@en", "class=Organisation" ]
   }
 }, {
   "id" : 27,
   "pattern" : "founded",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Director\"@en", "Coherence=0.219", "triple=e_dbp:leaderTitle \"Director\"@en", "class=Organisation" ],
-    "1" : [ "pair=dbr:United_States", "Coherence=0.215", "triple=e_dbp:location dbr:United_States", "class=Organisation" ],
-    "2" : [ "pair=dbr:Nonprofit_organization", "Coherence=0.207", "triple=e_dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
-    "3" : [ "pair=\"Worldwide\"@en", "Coherence=0.206", "triple=e_dbp:areaServed \"Worldwide\"@en", "class=Organisation" ],
-    "4" : [ "pair=\"President\"@en", "Coherence=0.205", "triple=e_dbp:leaderTitle \"President\"@en", "class=Organisation" ],
-    "5" : [ "pair=dbr:Non-profit_organization", "Coherence=0.204", "triple=e_dbo:type dbr:Non-profit_organization", "class=Organisation" ],
-    "6" : [ "pair=\"English\"@en", "Coherence=0.194", "triple=e_dbp:language \"English\"@en", "class=Organisation" ],
-    "7" : [ "pair=dbr:Non-governmental_organization", "Coherence=0.194", "triple=e_dbp:type dbr:Non-governmental_organization", "class=Organisation" ],
-    "8" : [ "pair=\"Executive Director\"@en", "Coherence=0.185", "triple=e_dbp:leaderTitle \"Executive Director\"@en", "class=Organisation" ],
-    "9" : [ "pair=\"Active\"", "Coherence=0.17", "triple=e_dbo:status \"Active\"", "class=Organisation" ],
-    "10" : [ "pair=\"Active\"@en", "Coherence=0.17", "triple=e_dbp:status \"Active\"@en", "class=Organisation" ],
-    "11" : [ "pair=\"Chairman\"@en", "Coherence=0.143", "triple=e_dbp:leaderTitle \"Chairman\"@en", "class=Organisation" ],
-    "12" : [ "pair=dbr:English_language", "Coherence=0.139", "triple=e_dbp:language dbr:English_language", "class=Organisation" ]
+    "0" : [ "pair=\"Director\"@en", "Coherence=0.219", "triple=e dbp:leaderTitle \"Director\"@en", "class=Organisation" ],
+    "1" : [ "pair=dbr:United_States", "Coherence=0.215", "triple=e dbp:location dbr:United_States", "class=Organisation" ],
+    "2" : [ "pair=dbr:Nonprofit_organization", "Coherence=0.207", "triple=e dbp:type dbr:Nonprofit_organization", "class=Organisation" ],
+    "3" : [ "pair=\"Worldwide\"@en", "Coherence=0.206", "triple=e dbp:areaServed \"Worldwide\"@en", "class=Organisation" ],
+    "4" : [ "pair=\"President\"@en", "Coherence=0.205", "triple=e dbp:leaderTitle \"President\"@en", "class=Organisation" ],
+    "5" : [ "pair=dbr:Non-profit_organization", "Coherence=0.204", "triple=e dbo:type dbr:Non-profit_organization", "class=Organisation" ],
+    "6" : [ "pair=\"English\"@en", "Coherence=0.194", "triple=e dbp:language \"English\"@en", "class=Organisation" ],
+    "7" : [ "pair=dbr:Non-governmental_organization", "Coherence=0.194", "triple=e dbp:type dbr:Non-governmental_organization", "class=Organisation" ],
+    "8" : [ "pair=\"Executive Director\"@en", "Coherence=0.185", "triple=e dbp:leaderTitle \"Executive Director\"@en", "class=Organisation" ],
+    "9" : [ "pair=\"Active\"", "Coherence=0.17", "triple=e dbo:status \"Active\"", "class=Organisation" ],
+    "10" : [ "pair=\"Active\"@en", "Coherence=0.17", "triple=e dbp:status \"Active\"@en", "class=Organisation" ],
+    "11" : [ "pair=\"Chairman\"@en", "Coherence=0.143", "triple=e dbp:leaderTitle \"Chairman\"@en", "class=Organisation" ],
+    "12" : [ "pair=dbr:English_language", "Coherence=0.139", "triple=e dbp:language dbr:English_language", "class=Organisation" ]
   }
 }, {
   "id" : 31,
   "pattern" : "held",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Beauty_pageant", "Coherence=0.201", "triple=e_dbp:type dbr:Beauty_pageant", "class=Organisation" ]
+    "0" : [ "pair=dbr:Beauty_pageant", "Coherence=0.201", "triple=e dbp:type dbr:Beauty_pageant", "class=Organisation" ]
   }
 }, {
   "id" : 78,
   "pattern" : "selects",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Beauty_pageant", "Coherence=0.287", "triple=e_dbo:type dbr:Beauty_pageant", "class=Organisation" ],
-    "1" : [ "pair=dbr:English_language", "Coherence=0.116", "triple=e_dbp:language dbr:English_language", "class=Organisation" ]
+    "0" : [ "pair=dbr:Beauty_pageant", "Coherence=0.287", "triple=e dbo:type dbr:Beauty_pageant", "class=Organisation" ],
+    "1" : [ "pair=dbr:English_language", "Coherence=0.116", "triple=e dbp:language dbr:English_language", "class=Organisation" ]
   }
 }, {
   "id" : 88,
   "pattern" : "think",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Think_tank", "Coherence=0.392", "triple=e_dbp:type dbr:Think_tank", "class=Organisation" ]
+    "0" : [ "pair=dbr:Think_tank", "Coherence=0.392", "triple=e dbp:type dbr:Think_tank", "class=Organisation" ]
   }
 } ]

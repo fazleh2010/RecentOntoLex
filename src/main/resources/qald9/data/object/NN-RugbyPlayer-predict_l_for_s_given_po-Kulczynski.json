@@ -3,177 +3,177 @@
   "pattern" : "african",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:South_Africa_national_under-18_rugby_union_team", "Kulczynski=1.0", "triple=e_dbp:repteam dbr:South_Africa_national_under-18_rugby_union_team", "class=RugbyPlayer" ],
-    "1" : [ "pair=dbr:University_of_the_Free_State", "Kulczynski=1.0", "triple=e_dbo:university dbr:University_of_the_Free_State", "class=RugbyPlayer" ]
+    "0" : [ "pair=dbr:South_Africa_national_under-18_rugby_union_team", "Kulczynski=1.0", "triple=e dbp:repteam dbr:South_Africa_national_under-18_rugby_union_team", "class=RugbyPlayer" ],
+    "1" : [ "pair=dbr:University_of_the_Free_State", "Kulczynski=1.0", "triple=e dbo:university dbr:University_of_the_Free_State", "class=RugbyPlayer" ]
   }
 }, {
   "id" : 3,
   "pattern" : "footballer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"present\"@en", "Kulczynski=1.0", "triple=e_dbp:year4end \"present\"@en", "class=RugbyPlayer" ],
-    "1" : [ "pair=dbr:Scotland_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teama dbr:Scotland_national_rugby_league_team", "class=RugbyPlayer" ],
-    "2" : [ "pair=dbr:England_national_rugby_league_team", "Kulczynski=0.997", "triple=e_dbp:teama dbr:England_national_rugby_league_team", "class=RugbyPlayer" ]
+    "0" : [ "pair=\"present\"@en", "Kulczynski=1.0", "triple=e dbp:year4end \"present\"@en", "class=RugbyPlayer" ],
+    "1" : [ "pair=dbr:Scotland_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teama dbr:Scotland_national_rugby_league_team", "class=RugbyPlayer" ],
+    "2" : [ "pair=dbr:England_national_rugby_league_team", "Kulczynski=0.997", "triple=e dbp:teama dbr:England_national_rugby_league_team", "class=RugbyPlayer" ]
   }
 }, {
   "id" : 4,
   "pattern" : "league",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:England_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teamb dbr:England_national_rugby_league_team", "class=RugbyPlayer" ],
-    "1" : [ "pair=dbr:Great_Britain_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teamc dbr:Great_Britain_national_rugby_league_team", "class=RugbyPlayer" ],
-    "2" : [ "pair=dbr:New_Zealand_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teamc dbr:New_Zealand_national_rugby_league_team", "class=RugbyPlayer" ],
-    "3" : [ "pair=\"present\"@en", "Kulczynski=1.0", "triple=e_dbp:yearbend \"present\"@en", "class=RugbyPlayer" ],
-    "4" : [ "pair=dbr:Dewsbury_Rams", "Kulczynski=1.0", "triple=e_dbp:club dbr:Dewsbury_Rams", "class=RugbyPlayer" ],
-    "5" : [ "pair=dbr:Halifax_R.L.F.C.", "Kulczynski=1.0", "triple=e_dbp:club dbr:Halifax_R.L.F.C.", "class=RugbyPlayer" ],
-    "6" : [ "pair=dbr:Batley_Bulldogs", "Kulczynski=1.0", "triple=e_dbp:club dbr:Batley_Bulldogs", "class=RugbyPlayer" ],
-    "7" : [ "pair=dbr:Hunslet_R.L.F.C.", "Kulczynski=1.0", "triple=e_dbp:club dbr:Hunslet_R.L.F.C.", "class=RugbyPlayer" ],
-    "8" : [ "pair=dbr:Swinton_Lions", "Kulczynski=1.0", "triple=e_dbp:club dbr:Swinton_Lions", "class=RugbyPlayer" ],
-    "9" : [ "pair=dbr:Newcastle_Knights", "Kulczynski=1.0", "triple=e_dbp:club dbr:Newcastle_Knights", "class=RugbyPlayer" ],
-    "10" : [ "pair=dbr:Doncaster_R.L.F.C.", "Kulczynski=1.0", "triple=e_dbp:club dbr:Doncaster_R.L.F.C.", "class=RugbyPlayer" ],
-    "11" : [ "pair=dbr:North_Queensland_Cowboys", "Kulczynski=1.0", "triple=e_dbp:club dbr:North_Queensland_Cowboys", "class=RugbyPlayer" ],
-    "12" : [ "pair=dbr:Salford_Red_Devils", "Kulczynski=1.0", "triple=e_dbp:club dbr:Salford_Red_Devils", "class=RugbyPlayer" ],
-    "13" : [ "pair=dbr:York_City_Knights", "Kulczynski=1.0", "triple=e_dbo:formerTeam dbr:York_City_Knights", "class=RugbyPlayer" ],
-    "14" : [ "pair=dbr:Barrow_Raiders", "Kulczynski=1.0", "triple=e_dbo:formerTeam dbr:Barrow_Raiders", "class=RugbyPlayer" ],
-    "15" : [ "pair=dbr:Samoa_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teama dbr:Samoa_national_rugby_league_team", "class=RugbyPlayer" ],
-    "16" : [ "pair=dbr:France_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teama dbr:France_national_rugby_league_team", "class=RugbyPlayer" ],
-    "17" : [ "pair=dbr:Rugby_League_War_of_the_Roses", "Kulczynski=1.0", "triple=e_dbp:teama dbr:Rugby_League_War_of_the_Roses", "class=RugbyPlayer" ],
-    "18" : [ "pair=dbr:Ireland_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teama dbr:Ireland_national_rugby_league_team", "class=RugbyPlayer" ],
-    "19" : [ "pair=dbr:Tonga_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teama dbr:Tonga_national_rugby_league_team", "class=RugbyPlayer" ],
-    "20" : [ "pair=dbr:Country_New_South_Wales_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teama dbr:Country_New_South_Wales_rugby_league_team", "class=RugbyPlayer" ],
-    "21" : [ "pair=dbr:Castleford_Tigers", "Kulczynski=0.997", "triple=e_dbo:formerTeam dbr:Castleford_Tigers", "class=RugbyPlayer" ],
-    "22" : [ "pair=dbr:Featherstone_Rovers", "Kulczynski=0.997", "triple=e_dbo:formerTeam dbr:Featherstone_Rovers", "class=RugbyPlayer" ],
-    "23" : [ "pair=dbr:Wales_national_rugby_league_team", "Kulczynski=0.997", "triple=e_dbp:teama dbr:Wales_national_rugby_league_team", "class=RugbyPlayer" ],
-    "24" : [ "pair=dbr:St_Helens_R.F.C.", "Kulczynski=0.997", "triple=e_dbo:formerTeam dbr:St_Helens_R.F.C.", "class=RugbyPlayer" ],
-    "25" : [ "pair=dbr:Hull_F.C.", "Kulczynski=0.996", "triple=e_dbp:club dbr:Hull_F.C.", "class=RugbyPlayer" ],
-    "26" : [ "pair=dbr:Bradford_Bulls", "Kulczynski=0.996", "triple=e_dbp:club dbr:Bradford_Bulls", "class=RugbyPlayer" ],
-    "27" : [ "pair=dbr:Widnes_Vikings", "Kulczynski=0.996", "triple=e_dbo:formerTeam dbr:Widnes_Vikings", "class=RugbyPlayer" ],
-    "28" : [ "pair=dbr:Hull_Kingston_Rovers", "Kulczynski=0.996", "triple=e_dbo:formerTeam dbr:Hull_Kingston_Rovers", "class=RugbyPlayer" ],
-    "29" : [ "pair=dbr:Oldham_R.L.F.C.", "Kulczynski=0.996", "triple=e_dbo:formerTeam dbr:Oldham_R.L.F.C.", "class=RugbyPlayer" ],
-    "30" : [ "pair=dbr:New_South_Wales", "Kulczynski=0.996", "triple=e_dbp:deathPlace dbr:New_South_Wales", "class=RugbyPlayer" ],
-    "31" : [ "pair=dbr:London_Broncos", "Kulczynski=0.996", "triple=e_dbp:club dbr:London_Broncos", "class=RugbyPlayer" ],
-    "32" : [ "pair=\"no\"@en", "Kulczynski=0.995", "triple=e_dbp:retired \"no\"@en", "class=RugbyPlayer" ],
-    "33" : [ "pair=\"medic\"@en", "Kulczynski=0.995", "triple=e_dbp:bot \"medic\"@en", "class=RugbyPlayer" ],
-    "34" : [ "pair=dbr:Rochdale_Hornets", "Kulczynski=0.995", "triple=e_dbo:formerTeam dbr:Rochdale_Hornets", "class=RugbyPlayer" ],
-    "35" : [ "pair=dbr:Queensland_rugby_league_team", "Kulczynski=0.995", "triple=e_dbp:teama dbr:Queensland_rugby_league_team", "class=RugbyPlayer" ],
-    "36" : [ "pair=dbr:New_South_Wales_rugby_league_team", "Kulczynski=0.994", "triple=e_dbp:teamb dbr:New_South_Wales_rugby_league_team", "class=RugbyPlayer" ]
+    "0" : [ "pair=dbr:England_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teamb dbr:England_national_rugby_league_team", "class=RugbyPlayer" ],
+    "1" : [ "pair=dbr:Great_Britain_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teamc dbr:Great_Britain_national_rugby_league_team", "class=RugbyPlayer" ],
+    "2" : [ "pair=dbr:New_Zealand_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teamc dbr:New_Zealand_national_rugby_league_team", "class=RugbyPlayer" ],
+    "3" : [ "pair=\"present\"@en", "Kulczynski=1.0", "triple=e dbp:yearbend \"present\"@en", "class=RugbyPlayer" ],
+    "4" : [ "pair=dbr:Dewsbury_Rams", "Kulczynski=1.0", "triple=e dbp:club dbr:Dewsbury_Rams", "class=RugbyPlayer" ],
+    "5" : [ "pair=dbr:Halifax_R.L.F.C.", "Kulczynski=1.0", "triple=e dbp:club dbr:Halifax_R.L.F.C.", "class=RugbyPlayer" ],
+    "6" : [ "pair=dbr:Batley_Bulldogs", "Kulczynski=1.0", "triple=e dbp:club dbr:Batley_Bulldogs", "class=RugbyPlayer" ],
+    "7" : [ "pair=dbr:Hunslet_R.L.F.C.", "Kulczynski=1.0", "triple=e dbp:club dbr:Hunslet_R.L.F.C.", "class=RugbyPlayer" ],
+    "8" : [ "pair=dbr:Swinton_Lions", "Kulczynski=1.0", "triple=e dbp:club dbr:Swinton_Lions", "class=RugbyPlayer" ],
+    "9" : [ "pair=dbr:Newcastle_Knights", "Kulczynski=1.0", "triple=e dbp:club dbr:Newcastle_Knights", "class=RugbyPlayer" ],
+    "10" : [ "pair=dbr:Doncaster_R.L.F.C.", "Kulczynski=1.0", "triple=e dbp:club dbr:Doncaster_R.L.F.C.", "class=RugbyPlayer" ],
+    "11" : [ "pair=dbr:North_Queensland_Cowboys", "Kulczynski=1.0", "triple=e dbp:club dbr:North_Queensland_Cowboys", "class=RugbyPlayer" ],
+    "12" : [ "pair=dbr:Salford_Red_Devils", "Kulczynski=1.0", "triple=e dbp:club dbr:Salford_Red_Devils", "class=RugbyPlayer" ],
+    "13" : [ "pair=dbr:York_City_Knights", "Kulczynski=1.0", "triple=e dbo:formerTeam dbr:York_City_Knights", "class=RugbyPlayer" ],
+    "14" : [ "pair=dbr:Barrow_Raiders", "Kulczynski=1.0", "triple=e dbo:formerTeam dbr:Barrow_Raiders", "class=RugbyPlayer" ],
+    "15" : [ "pair=dbr:Samoa_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teama dbr:Samoa_national_rugby_league_team", "class=RugbyPlayer" ],
+    "16" : [ "pair=dbr:France_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teama dbr:France_national_rugby_league_team", "class=RugbyPlayer" ],
+    "17" : [ "pair=dbr:Rugby_League_War_of_the_Roses", "Kulczynski=1.0", "triple=e dbp:teama dbr:Rugby_League_War_of_the_Roses", "class=RugbyPlayer" ],
+    "18" : [ "pair=dbr:Ireland_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teama dbr:Ireland_national_rugby_league_team", "class=RugbyPlayer" ],
+    "19" : [ "pair=dbr:Tonga_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teama dbr:Tonga_national_rugby_league_team", "class=RugbyPlayer" ],
+    "20" : [ "pair=dbr:Country_New_South_Wales_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teama dbr:Country_New_South_Wales_rugby_league_team", "class=RugbyPlayer" ],
+    "21" : [ "pair=dbr:Castleford_Tigers", "Kulczynski=0.997", "triple=e dbo:formerTeam dbr:Castleford_Tigers", "class=RugbyPlayer" ],
+    "22" : [ "pair=dbr:Featherstone_Rovers", "Kulczynski=0.997", "triple=e dbo:formerTeam dbr:Featherstone_Rovers", "class=RugbyPlayer" ],
+    "23" : [ "pair=dbr:Wales_national_rugby_league_team", "Kulczynski=0.997", "triple=e dbp:teama dbr:Wales_national_rugby_league_team", "class=RugbyPlayer" ],
+    "24" : [ "pair=dbr:St_Helens_R.F.C.", "Kulczynski=0.997", "triple=e dbo:formerTeam dbr:St_Helens_R.F.C.", "class=RugbyPlayer" ],
+    "25" : [ "pair=dbr:Hull_F.C.", "Kulczynski=0.996", "triple=e dbp:club dbr:Hull_F.C.", "class=RugbyPlayer" ],
+    "26" : [ "pair=dbr:Bradford_Bulls", "Kulczynski=0.996", "triple=e dbp:club dbr:Bradford_Bulls", "class=RugbyPlayer" ],
+    "27" : [ "pair=dbr:Widnes_Vikings", "Kulczynski=0.996", "triple=e dbo:formerTeam dbr:Widnes_Vikings", "class=RugbyPlayer" ],
+    "28" : [ "pair=dbr:Hull_Kingston_Rovers", "Kulczynski=0.996", "triple=e dbo:formerTeam dbr:Hull_Kingston_Rovers", "class=RugbyPlayer" ],
+    "29" : [ "pair=dbr:Oldham_R.L.F.C.", "Kulczynski=0.996", "triple=e dbo:formerTeam dbr:Oldham_R.L.F.C.", "class=RugbyPlayer" ],
+    "30" : [ "pair=dbr:New_South_Wales", "Kulczynski=0.996", "triple=e dbp:deathPlace dbr:New_South_Wales", "class=RugbyPlayer" ],
+    "31" : [ "pair=dbr:London_Broncos", "Kulczynski=0.996", "triple=e dbp:club dbr:London_Broncos", "class=RugbyPlayer" ],
+    "32" : [ "pair=\"no\"@en", "Kulczynski=0.995", "triple=e dbp:retired \"no\"@en", "class=RugbyPlayer" ],
+    "33" : [ "pair=\"medic\"@en", "Kulczynski=0.995", "triple=e dbp:bot \"medic\"@en", "class=RugbyPlayer" ],
+    "34" : [ "pair=dbr:Rochdale_Hornets", "Kulczynski=0.995", "triple=e dbo:formerTeam dbr:Rochdale_Hornets", "class=RugbyPlayer" ],
+    "35" : [ "pair=dbr:Queensland_rugby_league_team", "Kulczynski=0.995", "triple=e dbp:teama dbr:Queensland_rugby_league_team", "class=RugbyPlayer" ],
+    "36" : [ "pair=dbr:New_South_Wales_rugby_league_team", "Kulczynski=0.994", "triple=e dbp:teamb dbr:New_South_Wales_rugby_league_team", "class=RugbyPlayer" ]
   }
 }, {
   "id" : 5,
   "pattern" : "league footballer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"present\"@en", "Kulczynski=1.0", "triple=e_dbp:year4end \"present\"@en", "class=RugbyPlayer" ]
+    "0" : [ "pair=\"present\"@en", "Kulczynski=1.0", "triple=e dbp:year4end \"present\"@en", "class=RugbyPlayer" ]
   }
 }, {
   "id" : 6,
   "pattern" : "new zealand",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_Zealand_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teamc dbr:New_Zealand_national_rugby_league_team", "class=RugbyPlayer" ]
+    "0" : [ "pair=dbr:New_Zealand_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teamc dbr:New_Zealand_national_rugby_league_team", "class=RugbyPlayer" ]
   }
 }, {
   "id" : 7,
   "pattern" : "papua",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Papua_New_Guinea_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teama dbr:Papua_New_Guinea_national_rugby_league_team", "class=RugbyPlayer" ]
+    "0" : [ "pair=dbr:Papua_New_Guinea_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teama dbr:Papua_New_Guinea_national_rugby_league_team", "class=RugbyPlayer" ]
   }
 }, {
   "id" : 8,
   "pattern" : "papua new",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Papua_New_Guinea_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teama dbr:Papua_New_Guinea_national_rugby_league_team", "class=RugbyPlayer" ]
+    "0" : [ "pair=dbr:Papua_New_Guinea_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teama dbr:Papua_New_Guinea_national_rugby_league_team", "class=RugbyPlayer" ]
   }
 }, {
   "id" : 10,
   "pattern" : "player",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Tbilisi", "Kulczynski=1.0", "triple=e_dbp:birthPlace dbr:Tbilisi", "class=RugbyPlayer" ],
-    "1" : [ "pair=dbr:Georgia_(country", "Kulczynski=1.0", "triple=e_dbp:birthPlace dbr:Georgia_(country", "class=RugbyPlayer" ]
+    "0" : [ "pair=dbr:Tbilisi", "Kulczynski=1.0", "triple=e dbp:birthPlace dbr:Tbilisi", "class=RugbyPlayer" ],
+    "1" : [ "pair=dbr:Georgia_(country", "Kulczynski=1.0", "triple=e dbp:birthPlace dbr:Georgia_(country", "class=RugbyPlayer" ]
   }
 }, {
   "id" : 12,
   "pattern" : "rugby league",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:England_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teamb dbr:England_national_rugby_league_team", "class=RugbyPlayer" ],
-    "1" : [ "pair=dbr:Great_Britain_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teamc dbr:Great_Britain_national_rugby_league_team", "class=RugbyPlayer" ],
-    "2" : [ "pair=dbr:New_Zealand_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teamc dbr:New_Zealand_national_rugby_league_team", "class=RugbyPlayer" ],
-    "3" : [ "pair=\"present\"@en", "Kulczynski=1.0", "triple=e_dbp:yearbend \"present\"@en", "class=RugbyPlayer" ],
-    "4" : [ "pair=dbr:Dewsbury_Rams", "Kulczynski=1.0", "triple=e_dbp:club dbr:Dewsbury_Rams", "class=RugbyPlayer" ],
-    "5" : [ "pair=dbr:Halifax_R.L.F.C.", "Kulczynski=1.0", "triple=e_dbp:club dbr:Halifax_R.L.F.C.", "class=RugbyPlayer" ],
-    "6" : [ "pair=dbr:Batley_Bulldogs", "Kulczynski=1.0", "triple=e_dbp:club dbr:Batley_Bulldogs", "class=RugbyPlayer" ],
-    "7" : [ "pair=dbr:Hunslet_R.L.F.C.", "Kulczynski=1.0", "triple=e_dbp:club dbr:Hunslet_R.L.F.C.", "class=RugbyPlayer" ],
-    "8" : [ "pair=dbr:Swinton_Lions", "Kulczynski=1.0", "triple=e_dbp:club dbr:Swinton_Lions", "class=RugbyPlayer" ],
-    "9" : [ "pair=dbr:Newcastle_Knights", "Kulczynski=1.0", "triple=e_dbp:club dbr:Newcastle_Knights", "class=RugbyPlayer" ],
-    "10" : [ "pair=dbr:Doncaster_R.L.F.C.", "Kulczynski=1.0", "triple=e_dbp:club dbr:Doncaster_R.L.F.C.", "class=RugbyPlayer" ],
-    "11" : [ "pair=dbr:Salford_Red_Devils", "Kulczynski=1.0", "triple=e_dbp:club dbr:Salford_Red_Devils", "class=RugbyPlayer" ],
-    "12" : [ "pair=dbr:York_City_Knights", "Kulczynski=1.0", "triple=e_dbo:formerTeam dbr:York_City_Knights", "class=RugbyPlayer" ],
-    "13" : [ "pair=dbr:Samoa_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teama dbr:Samoa_national_rugby_league_team", "class=RugbyPlayer" ],
-    "14" : [ "pair=dbr:France_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teama dbr:France_national_rugby_league_team", "class=RugbyPlayer" ],
-    "15" : [ "pair=dbr:Rugby_League_War_of_the_Roses", "Kulczynski=1.0", "triple=e_dbp:teama dbr:Rugby_League_War_of_the_Roses", "class=RugbyPlayer" ],
-    "16" : [ "pair=dbr:Ireland_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teama dbr:Ireland_national_rugby_league_team", "class=RugbyPlayer" ],
-    "17" : [ "pair=dbr:Tonga_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teama dbr:Tonga_national_rugby_league_team", "class=RugbyPlayer" ],
-    "18" : [ "pair=dbr:Country_New_South_Wales_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teama dbr:Country_New_South_Wales_rugby_league_team", "class=RugbyPlayer" ],
-    "19" : [ "pair=dbr:Castleford_Tigers", "Kulczynski=0.997", "triple=e_dbo:formerTeam dbr:Castleford_Tigers", "class=RugbyPlayer" ],
-    "20" : [ "pair=dbr:Featherstone_Rovers", "Kulczynski=0.997", "triple=e_dbo:formerTeam dbr:Featherstone_Rovers", "class=RugbyPlayer" ],
-    "21" : [ "pair=dbr:Wales_national_rugby_league_team", "Kulczynski=0.997", "triple=e_dbp:teama dbr:Wales_national_rugby_league_team", "class=RugbyPlayer" ],
-    "22" : [ "pair=dbr:St_Helens_R.F.C.", "Kulczynski=0.997", "triple=e_dbo:formerTeam dbr:St_Helens_R.F.C.", "class=RugbyPlayer" ],
-    "23" : [ "pair=dbr:Hull_F.C.", "Kulczynski=0.996", "triple=e_dbp:club dbr:Hull_F.C.", "class=RugbyPlayer" ],
-    "24" : [ "pair=dbr:Bradford_Bulls", "Kulczynski=0.996", "triple=e_dbp:club dbr:Bradford_Bulls", "class=RugbyPlayer" ],
-    "25" : [ "pair=dbr:Widnes_Vikings", "Kulczynski=0.996", "triple=e_dbo:formerTeam dbr:Widnes_Vikings", "class=RugbyPlayer" ],
-    "26" : [ "pair=dbr:Hull_Kingston_Rovers", "Kulczynski=0.996", "triple=e_dbo:formerTeam dbr:Hull_Kingston_Rovers", "class=RugbyPlayer" ],
-    "27" : [ "pair=dbr:Oldham_R.L.F.C.", "Kulczynski=0.996", "triple=e_dbo:formerTeam dbr:Oldham_R.L.F.C.", "class=RugbyPlayer" ],
-    "28" : [ "pair=dbr:North_Queensland_Cowboys", "Kulczynski=0.996", "triple=e_dbo:formerTeam dbr:North_Queensland_Cowboys", "class=RugbyPlayer" ],
-    "29" : [ "pair=dbr:London_Broncos", "Kulczynski=0.996", "triple=e_dbp:club dbr:London_Broncos", "class=RugbyPlayer" ],
-    "30" : [ "pair=\"medic\"@en", "Kulczynski=0.995", "triple=e_dbp:bot \"medic\"@en", "class=RugbyPlayer" ],
-    "31" : [ "pair=dbr:Rochdale_Hornets", "Kulczynski=0.995", "triple=e_dbo:formerTeam dbr:Rochdale_Hornets", "class=RugbyPlayer" ],
-    "32" : [ "pair=dbr:Queensland_rugby_league_team", "Kulczynski=0.995", "triple=e_dbp:teama dbr:Queensland_rugby_league_team", "class=RugbyPlayer" ],
-    "33" : [ "pair=dbr:New_South_Wales_rugby_league_team", "Kulczynski=0.994", "triple=e_dbp:teamb dbr:New_South_Wales_rugby_league_team", "class=RugbyPlayer" ]
+    "0" : [ "pair=dbr:England_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teamb dbr:England_national_rugby_league_team", "class=RugbyPlayer" ],
+    "1" : [ "pair=dbr:Great_Britain_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teamc dbr:Great_Britain_national_rugby_league_team", "class=RugbyPlayer" ],
+    "2" : [ "pair=dbr:New_Zealand_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teamc dbr:New_Zealand_national_rugby_league_team", "class=RugbyPlayer" ],
+    "3" : [ "pair=\"present\"@en", "Kulczynski=1.0", "triple=e dbp:yearbend \"present\"@en", "class=RugbyPlayer" ],
+    "4" : [ "pair=dbr:Dewsbury_Rams", "Kulczynski=1.0", "triple=e dbp:club dbr:Dewsbury_Rams", "class=RugbyPlayer" ],
+    "5" : [ "pair=dbr:Halifax_R.L.F.C.", "Kulczynski=1.0", "triple=e dbp:club dbr:Halifax_R.L.F.C.", "class=RugbyPlayer" ],
+    "6" : [ "pair=dbr:Batley_Bulldogs", "Kulczynski=1.0", "triple=e dbp:club dbr:Batley_Bulldogs", "class=RugbyPlayer" ],
+    "7" : [ "pair=dbr:Hunslet_R.L.F.C.", "Kulczynski=1.0", "triple=e dbp:club dbr:Hunslet_R.L.F.C.", "class=RugbyPlayer" ],
+    "8" : [ "pair=dbr:Swinton_Lions", "Kulczynski=1.0", "triple=e dbp:club dbr:Swinton_Lions", "class=RugbyPlayer" ],
+    "9" : [ "pair=dbr:Newcastle_Knights", "Kulczynski=1.0", "triple=e dbp:club dbr:Newcastle_Knights", "class=RugbyPlayer" ],
+    "10" : [ "pair=dbr:Doncaster_R.L.F.C.", "Kulczynski=1.0", "triple=e dbp:club dbr:Doncaster_R.L.F.C.", "class=RugbyPlayer" ],
+    "11" : [ "pair=dbr:Salford_Red_Devils", "Kulczynski=1.0", "triple=e dbp:club dbr:Salford_Red_Devils", "class=RugbyPlayer" ],
+    "12" : [ "pair=dbr:York_City_Knights", "Kulczynski=1.0", "triple=e dbo:formerTeam dbr:York_City_Knights", "class=RugbyPlayer" ],
+    "13" : [ "pair=dbr:Samoa_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teama dbr:Samoa_national_rugby_league_team", "class=RugbyPlayer" ],
+    "14" : [ "pair=dbr:France_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teama dbr:France_national_rugby_league_team", "class=RugbyPlayer" ],
+    "15" : [ "pair=dbr:Rugby_League_War_of_the_Roses", "Kulczynski=1.0", "triple=e dbp:teama dbr:Rugby_League_War_of_the_Roses", "class=RugbyPlayer" ],
+    "16" : [ "pair=dbr:Ireland_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teama dbr:Ireland_national_rugby_league_team", "class=RugbyPlayer" ],
+    "17" : [ "pair=dbr:Tonga_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teama dbr:Tonga_national_rugby_league_team", "class=RugbyPlayer" ],
+    "18" : [ "pair=dbr:Country_New_South_Wales_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teama dbr:Country_New_South_Wales_rugby_league_team", "class=RugbyPlayer" ],
+    "19" : [ "pair=dbr:Castleford_Tigers", "Kulczynski=0.997", "triple=e dbo:formerTeam dbr:Castleford_Tigers", "class=RugbyPlayer" ],
+    "20" : [ "pair=dbr:Featherstone_Rovers", "Kulczynski=0.997", "triple=e dbo:formerTeam dbr:Featherstone_Rovers", "class=RugbyPlayer" ],
+    "21" : [ "pair=dbr:Wales_national_rugby_league_team", "Kulczynski=0.997", "triple=e dbp:teama dbr:Wales_national_rugby_league_team", "class=RugbyPlayer" ],
+    "22" : [ "pair=dbr:St_Helens_R.F.C.", "Kulczynski=0.997", "triple=e dbo:formerTeam dbr:St_Helens_R.F.C.", "class=RugbyPlayer" ],
+    "23" : [ "pair=dbr:Hull_F.C.", "Kulczynski=0.996", "triple=e dbp:club dbr:Hull_F.C.", "class=RugbyPlayer" ],
+    "24" : [ "pair=dbr:Bradford_Bulls", "Kulczynski=0.996", "triple=e dbp:club dbr:Bradford_Bulls", "class=RugbyPlayer" ],
+    "25" : [ "pair=dbr:Widnes_Vikings", "Kulczynski=0.996", "triple=e dbo:formerTeam dbr:Widnes_Vikings", "class=RugbyPlayer" ],
+    "26" : [ "pair=dbr:Hull_Kingston_Rovers", "Kulczynski=0.996", "triple=e dbo:formerTeam dbr:Hull_Kingston_Rovers", "class=RugbyPlayer" ],
+    "27" : [ "pair=dbr:Oldham_R.L.F.C.", "Kulczynski=0.996", "triple=e dbo:formerTeam dbr:Oldham_R.L.F.C.", "class=RugbyPlayer" ],
+    "28" : [ "pair=dbr:North_Queensland_Cowboys", "Kulczynski=0.996", "triple=e dbo:formerTeam dbr:North_Queensland_Cowboys", "class=RugbyPlayer" ],
+    "29" : [ "pair=dbr:London_Broncos", "Kulczynski=0.996", "triple=e dbp:club dbr:London_Broncos", "class=RugbyPlayer" ],
+    "30" : [ "pair=\"medic\"@en", "Kulczynski=0.995", "triple=e dbp:bot \"medic\"@en", "class=RugbyPlayer" ],
+    "31" : [ "pair=dbr:Rochdale_Hornets", "Kulczynski=0.995", "triple=e dbo:formerTeam dbr:Rochdale_Hornets", "class=RugbyPlayer" ],
+    "32" : [ "pair=dbr:Queensland_rugby_league_team", "Kulczynski=0.995", "triple=e dbp:teama dbr:Queensland_rugby_league_team", "class=RugbyPlayer" ],
+    "33" : [ "pair=dbr:New_South_Wales_rugby_league_team", "Kulczynski=0.994", "triple=e dbp:teamb dbr:New_South_Wales_rugby_league_team", "class=RugbyPlayer" ]
   }
 }, {
   "id" : 13,
   "pattern" : "rugby league footballer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"present\"@en", "Kulczynski=1.0", "triple=e_dbp:year4end \"present\"@en", "class=RugbyPlayer" ]
+    "0" : [ "pair=\"present\"@en", "Kulczynski=1.0", "triple=e dbp:year4end \"present\"@en", "class=RugbyPlayer" ]
   }
 }, {
   "id" : 14,
   "pattern" : "rugby union",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Grey_College", "Kulczynski=1.0", "triple=e_dbo:school dbr:Grey_College", "class=RugbyPlayer" ],
-    "1" : [ "pair=\"/\"@en", "Kulczynski=1.0", "triple=e_dbp:currentclub \"/\"@en", "class=RugbyPlayer" ]
+    "0" : [ "pair=dbr:Grey_College", "Kulczynski=1.0", "triple=e dbo:school dbr:Grey_College", "class=RugbyPlayer" ],
+    "1" : [ "pair=\"/\"@en", "Kulczynski=1.0", "triple=e dbp:currentclub \"/\"@en", "class=RugbyPlayer" ]
   }
 }, {
   "id" : 15,
   "pattern" : "south",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:South_Africa_national_under-20_rugby_union_team", "Kulczynski=1.0", "triple=e_dbp:repteam dbr:South_Africa_national_under-20_rugby_union_team", "class=RugbyPlayer" ],
-    "1" : [ "pair=dbr:South_Africa_national_under-18_rugby_union_team", "Kulczynski=1.0", "triple=e_dbp:repteam dbr:South_Africa_national_under-18_rugby_union_team", "class=RugbyPlayer" ],
-    "2" : [ "pair=dbr:University_of_the_Free_State", "Kulczynski=1.0", "triple=e_dbo:university dbr:University_of_the_Free_State", "class=RugbyPlayer" ],
-    "3" : [ "pair=dbr:Grey_College", "Kulczynski=1.0", "triple=e_dbo:school dbr:Grey_College", "class=RugbyPlayer" ]
+    "0" : [ "pair=dbr:South_Africa_national_under-20_rugby_union_team", "Kulczynski=1.0", "triple=e dbp:repteam dbr:South_Africa_national_under-20_rugby_union_team", "class=RugbyPlayer" ],
+    "1" : [ "pair=dbr:South_Africa_national_under-18_rugby_union_team", "Kulczynski=1.0", "triple=e dbp:repteam dbr:South_Africa_national_under-18_rugby_union_team", "class=RugbyPlayer" ],
+    "2" : [ "pair=dbr:University_of_the_Free_State", "Kulczynski=1.0", "triple=e dbo:university dbr:University_of_the_Free_State", "class=RugbyPlayer" ],
+    "3" : [ "pair=dbr:Grey_College", "Kulczynski=1.0", "triple=e dbo:school dbr:Grey_College", "class=RugbyPlayer" ]
   }
 }, {
   "id" : 17,
   "pattern" : "union",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Grey_College", "Kulczynski=1.0", "triple=e_dbo:school dbr:Grey_College", "class=RugbyPlayer" ],
-    "1" : [ "pair=dbr:England_Saxons", "Kulczynski=1.0", "triple=e_dbp:ruNationalteam dbr:England_Saxons", "class=RugbyPlayer" ],
-    "2" : [ "pair=\"/\"@en", "Kulczynski=1.0", "triple=e_dbp:currentclub \"/\"@en", "class=RugbyPlayer" ],
-    "3" : [ "pair=dbr:South_Africa", "Kulczynski=0.997", "triple=e_dbo:birthPlace dbr:South_Africa", "class=RugbyPlayer" ]
+    "0" : [ "pair=dbr:Grey_College", "Kulczynski=1.0", "triple=e dbo:school dbr:Grey_College", "class=RugbyPlayer" ],
+    "1" : [ "pair=dbr:England_Saxons", "Kulczynski=1.0", "triple=e dbp:ruNationalteam dbr:England_Saxons", "class=RugbyPlayer" ],
+    "2" : [ "pair=\"/\"@en", "Kulczynski=1.0", "triple=e dbp:currentclub \"/\"@en", "class=RugbyPlayer" ],
+    "3" : [ "pair=dbr:South_Africa", "Kulczynski=0.997", "triple=e dbo:birthPlace dbr:South_Africa", "class=RugbyPlayer" ]
   }
 }, {
   "id" : 18,
   "pattern" : "zealand",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_Zealand_national_rugby_league_team", "Kulczynski=1.0", "triple=e_dbp:teamc dbr:New_Zealand_national_rugby_league_team", "class=RugbyPlayer" ]
+    "0" : [ "pair=dbr:New_Zealand_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teamc dbr:New_Zealand_national_rugby_league_team", "class=RugbyPlayer" ]
   }
 } ]

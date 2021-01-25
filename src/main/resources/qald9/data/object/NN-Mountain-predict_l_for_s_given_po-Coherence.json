@@ -1,792 +1,769 @@
 [ {
   "id" : 1,
-  "pattern" : "4,600",
-  "partsOfSpeech" : "NN",
-  "index" : {
-    "0" : [ "pair=\"4600.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.495", "triple=e_dbo:elevation \"4600.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Mountain" ]
-  }
-}, {
-  "id" : 2,
-  "pattern" : "4,800",
-  "partsOfSpeech" : "NN",
-  "index" : {
-    "0" : [ "pair=\"4800.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.5", "triple=e_dbo:elevation \"4800.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Mountain" ]
-  }
-}, {
-  "id" : 3,
   "pattern" : "alberta",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Location in Alberta and British Columbia\"@en", "Coherence=0.492", "triple=e_dbp:mapCaption \"Location in Alberta and British Columbia\"@en", "class=Mountain" ]
+    "0" : [ "pair=\"Location in Alberta and British Columbia\"@en", "Coherence=0.492", "triple=e dbp:mapCaption \"Location in Alberta and British Columbia\"@en", "class=Mountain" ]
   }
 }, {
-  "id" : 4,
+  "id" : 2,
   "pattern" : "alps",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Lepontine_Alps", "Coherence=0.5", "triple=e_dbp:range dbr:Lepontine_Alps", "class=Mountain" ],
-    "1" : [ "pair=dbr:Bernese_Alps", "Coherence=0.492", "triple=e_dbo:mountainRange dbr:Bernese_Alps", "class=Mountain" ],
-    "2" : [ "pair=dbr:Pennine_Alps", "Coherence=0.492", "triple=e_dbo:mountainRange dbr:Pennine_Alps", "class=Mountain" ]
+    "0" : [ "pair=dbr:Lepontine_Alps", "Coherence=0.5", "triple=e dbp:range dbr:Lepontine_Alps", "class=Mountain" ],
+    "1" : [ "pair=dbr:Bernese_Alps", "Coherence=0.492", "triple=e dbo:mountainRange dbr:Bernese_Alps", "class=Mountain" ],
+    "2" : [ "pair=dbr:Pennine_Alps", "Coherence=0.492", "triple=e dbo:mountainRange dbr:Pennine_Alps", "class=Mountain" ]
   }
 }, {
-  "id" : 5,
+  "id" : 3,
   "pattern" : "andes",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
-    "1" : [ "pair=dbr:Cochabamba_Department", "Coherence=0.5", "triple=e_dbp:location dbr:Cochabamba_Department", "class=Mountain" ],
-    "2" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Lima", "class=Mountain" ],
-    "3" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
-    "4" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "5" : [ "pair=\"Location within Bolivia\"@en", "Coherence=0.5", "triple=e_dbp:mapCaption \"Location within Bolivia\"@en", "class=Mountain" ],
-    "6" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "7" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
-    "8" : [ "pair=dbr:Lima_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
-    "9" : [ "pair=\"5000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.5", "triple=e_dbo:elevation \"5000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Mountain" ],
-    "10" : [ "pair=\"4800.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.497", "triple=e_dbo:elevation \"4800.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Mountain" ],
-    "11" : [ "pair=dbr:Department_of_Ancash", "Coherence=0.496", "triple=e_dbp:location dbr:Department_of_Ancash", "class=Mountain" ],
-    "12" : [ "pair=dbr:Ancash_Region", "Coherence=0.496", "triple=e_dbo:locatedInArea dbr:Ancash_Region", "class=Mountain" ],
-    "13" : [ "pair=dbr:Department_of_Puno", "Coherence=0.49", "triple=e_dbp:location dbr:Department_of_Puno", "class=Mountain" ],
-    "14" : [ "pair=dbr:Puno_Region", "Coherence=0.49", "triple=e_dbo:locatedInArea dbr:Puno_Region", "class=Mountain" ],
-    "15" : [ "pair=\"Peru\"@en", "Coherence=0.489", "triple=e_dbp:mapCaption \"Peru\"@en", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
+    "1" : [ "pair=dbr:Cochabamba_Department", "Coherence=0.5", "triple=e dbp:location dbr:Cochabamba_Department", "class=Mountain" ],
+    "2" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Lima", "class=Mountain" ],
+    "3" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
+    "4" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "5" : [ "pair=\"Location within Bolivia\"@en", "Coherence=0.5", "triple=e dbp:mapCaption \"Location within Bolivia\"@en", "class=Mountain" ],
+    "6" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "7" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
+    "8" : [ "pair=dbr:Lima_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
+    "9" : [ "pair=dbr:Department_of_Ancash", "Coherence=0.496", "triple=e dbp:location dbr:Department_of_Ancash", "class=Mountain" ],
+    "10" : [ "pair=dbr:Ancash_Region", "Coherence=0.496", "triple=e dbo:locatedInArea dbr:Ancash_Region", "class=Mountain" ],
+    "11" : [ "pair=dbr:Department_of_Puno", "Coherence=0.49", "triple=e dbp:location dbr:Department_of_Puno", "class=Mountain" ],
+    "12" : [ "pair=dbr:Puno_Region", "Coherence=0.49", "triple=e dbo:locatedInArea dbr:Puno_Region", "class=Mountain" ],
+    "13" : [ "pair=\"Peru\"@en", "Coherence=0.489", "triple=e dbp:mapCaption \"Peru\"@en", "class=Mountain" ]
   }
 }, {
-  "id" : 6,
+  "id" : 4,
   "pattern" : "andes\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
-    "1" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Lima", "class=Mountain" ],
-    "2" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "3" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "4" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
-    "5" : [ "pair=dbr:Lima_Region", "Coherence=0.496", "triple=e_dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
-    "6" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.496", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
-    "7" : [ "pair=\"5000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.495", "triple=e_dbo:elevation \"5000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
+    "1" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Lima", "class=Mountain" ],
+    "2" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "3" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "4" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
+    "5" : [ "pair=dbr:Lima_Region", "Coherence=0.496", "triple=e dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
+    "6" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.496", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
   }
 }, {
-  "id" : 7,
+  "id" : 5,
   "pattern" : "andes\u001Cof\u001Cperu",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
-    "1" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Lima", "class=Mountain" ],
-    "2" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "3" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "4" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
-    "5" : [ "pair=dbr:Lima_Region", "Coherence=0.496", "triple=e_dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
-    "6" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.496", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
+    "1" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Lima", "class=Mountain" ],
+    "2" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "3" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "4" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
+    "5" : [ "pair=dbr:Lima_Region", "Coherence=0.496", "triple=e dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
+    "6" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.496", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
   }
 }, {
-  "id" : 8,
+  "id" : 6,
   "pattern" : "andes of\u001Cperu",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
-    "1" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Lima", "class=Mountain" ],
-    "2" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "3" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "4" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
-    "5" : [ "pair=dbr:Lima_Region", "Coherence=0.496", "triple=e_dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
-    "6" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.496", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
+    "1" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Lima", "class=Mountain" ],
+    "2" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "3" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "4" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
+    "5" : [ "pair=dbr:Lima_Region", "Coherence=0.496", "triple=e dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
+    "6" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.496", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
   }
 }, {
-  "id" : 9,
+  "id" : 7,
   "pattern" : "andes peru",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
-    "1" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Lima", "class=Mountain" ],
-    "2" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "3" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "4" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
-    "5" : [ "pair=dbr:Lima_Region", "Coherence=0.496", "triple=e_dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
-    "6" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.496", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
+    "1" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Lima", "class=Mountain" ],
+    "2" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "3" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "4" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
+    "5" : [ "pair=dbr:Lima_Region", "Coherence=0.496", "triple=e dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
+    "6" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.496", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
   }
 }, {
-  "id" : 10,
+  "id" : 8,
   "pattern" : "arequipa",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
-    "1" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
+    "1" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ]
   }
 }, {
-  "id" : 11,
+  "id" : 9,
   "pattern" : "arequipa\u001Cregion",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
-    "1" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
+    "1" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ]
   }
 }, {
-  "id" : 12,
+  "id" : 10,
   "pattern" : "arequipa region",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
-    "1" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
+    "1" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ]
   }
 }, {
-  "id" : 13,
+  "id" : 11,
   "pattern" : "aymara",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.496", "triple=e_dbp:location dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
+    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.496", "triple=e dbp:location dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
   }
 }, {
-  "id" : 15,
+  "id" : 13,
   "pattern" : "british columbia",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:British_Columbia", "Coherence=0.5", "triple=e_dbo:region dbr:British_Columbia", "class=Mountain" ],
-    "1" : [ "pair=\"British Columbia\"@en", "Coherence=0.495", "triple=e_dbp:region \"British Columbia\"@en", "class=Mountain" ]
+    "0" : [ "pair=dbr:British_Columbia", "Coherence=0.5", "triple=e dbo:region dbr:British_Columbia", "class=Mountain" ],
+    "1" : [ "pair=\"British Columbia\"@en", "Coherence=0.495", "triple=e dbp:region \"British Columbia\"@en", "class=Mountain" ]
   }
 }, {
-  "id" : 16,
+  "id" : 14,
   "pattern" : "california",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"California\"@en", "Coherence=0.493", "triple=e_dbp:state \"California\"@en", "class=Mountain" ]
+    "0" : [ "pair=\"California\"@en", "Coherence=0.493", "triple=e dbp:state \"California\"@en", "class=Mountain" ]
   }
 }, {
-  "id" : 17,
+  "id" : 15,
   "pattern" : "canada",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Sedimentary_rock", "Coherence=0.495", "triple=e_dbp:rock dbr:Sedimentary_rock", "class=Mountain" ]
+    "0" : [ "pair=dbr:Sedimentary_rock", "Coherence=0.495", "triple=e dbp:rock dbr:Sedimentary_rock", "class=Mountain" ]
   }
 }, {
-  "id" : 18,
+  "id" : 16,
   "pattern" : "cochabamba",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Cochabamba_Department", "Coherence=0.5", "triple=e_dbp:location dbr:Cochabamba_Department", "class=Mountain" ]
+    "0" : [ "pair=dbr:Cochabamba_Department", "Coherence=0.5", "triple=e dbp:location dbr:Cochabamba_Department", "class=Mountain" ]
   }
 }, {
-  "id" : 19,
+  "id" : 17,
   "pattern" : "cochabamba\u001Cdepartment",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Cochabamba_Department", "Coherence=0.5", "triple=e_dbp:location dbr:Cochabamba_Department", "class=Mountain" ]
+    "0" : [ "pair=dbr:Cochabamba_Department", "Coherence=0.5", "triple=e dbp:location dbr:Cochabamba_Department", "class=Mountain" ]
   }
 }, {
-  "id" : 20,
+  "id" : 18,
   "pattern" : "cochabamba department",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Cochabamba_Department", "Coherence=0.5", "triple=e_dbp:location dbr:Cochabamba_Department", "class=Mountain" ]
+    "0" : [ "pair=dbr:Cochabamba_Department", "Coherence=0.5", "triple=e dbp:location dbr:Cochabamba_Department", "class=Mountain" ]
   }
 }, {
-  "id" : 21,
+  "id" : 19,
   "pattern" : "colorado",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Colorado", "Coherence=0.492", "triple=e_dbp:location dbr:Colorado", "class=Mountain" ],
-    "1" : [ "pair=\"Colorado\"@en", "Coherence=0.492", "triple=e_dbp:mapCaption \"Colorado\"@en", "class=Mountain" ],
-    "2" : [ "pair=\"USGS 7.5' topographic map\"", "Coherence=0.489", "triple=e_dbo:nationalTopographicSystemMapNumber \"USGS 7.5' topographic map\"", "class=Mountain" ]
+    "0" : [ "pair=dbr:Colorado", "Coherence=0.492", "triple=e dbp:location dbr:Colorado", "class=Mountain" ],
+    "1" : [ "pair=\"Colorado\"@en", "Coherence=0.492", "triple=e dbp:mapCaption \"Colorado\"@en", "class=Mountain" ],
+    "2" : [ "pair=\"USGS 7.5' topographic map\"", "Coherence=0.489", "triple=e dbo:nationalTopographicSystemMapNumber \"USGS 7.5' topographic map\"", "class=Mountain" ]
   }
 }, {
-  "id" : 22,
+  "id" : 20,
   "pattern" : "columbia",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:British_Columbia", "Coherence=0.5", "triple=e_dbo:region dbr:British_Columbia", "class=Mountain" ],
-    "1" : [ "pair=\"British Columbia\"@en", "Coherence=0.495", "triple=e_dbp:region \"British Columbia\"@en", "class=Mountain" ],
-    "2" : [ "pair=\"Location in Alberta and British Columbia\"@en", "Coherence=0.492", "triple=e_dbp:mapCaption \"Location in Alberta and British Columbia\"@en", "class=Mountain" ]
+    "0" : [ "pair=dbr:British_Columbia", "Coherence=0.5", "triple=e dbo:region dbr:British_Columbia", "class=Mountain" ],
+    "1" : [ "pair=\"British Columbia\"@en", "Coherence=0.495", "triple=e dbp:region \"British Columbia\"@en", "class=Mountain" ],
+    "2" : [ "pair=\"Location in Alberta and British Columbia\"@en", "Coherence=0.492", "triple=e dbp:mapCaption \"Location in Alberta and British Columbia\"@en", "class=Mountain" ]
   }
 }, {
-  "id" : 23,
+  "id" : 21,
   "pattern" : "cusco",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Cusco_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Cusco_Region", "class=Mountain" ],
-    "1" : [ "pair=dbr:Department_of_Cuzco", "Coherence=0.497", "triple=e_dbp:location dbr:Department_of_Cuzco", "class=Mountain" ]
+    "0" : [ "pair=dbr:Cusco_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Cusco_Region", "class=Mountain" ],
+    "1" : [ "pair=dbr:Department_of_Cuzco", "Coherence=0.497", "triple=e dbp:location dbr:Department_of_Cuzco", "class=Mountain" ]
   }
 }, {
-  "id" : 24,
+  "id" : 22,
   "pattern" : "cusco\u001Cregion",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Cusco_Region", "Coherence=0.491", "triple=e_dbo:locatedInArea dbr:Cusco_Region", "class=Mountain" ],
-    "1" : [ "pair=dbr:Department_of_Cuzco", "Coherence=0.489", "triple=e_dbp:location dbr:Department_of_Cuzco", "class=Mountain" ]
+    "0" : [ "pair=dbr:Cusco_Region", "Coherence=0.491", "triple=e dbo:locatedInArea dbr:Cusco_Region", "class=Mountain" ],
+    "1" : [ "pair=dbr:Department_of_Cuzco", "Coherence=0.489", "triple=e dbp:location dbr:Department_of_Cuzco", "class=Mountain" ]
   }
 }, {
-  "id" : 25,
+  "id" : 23,
   "pattern" : "cusco region",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Cusco_Region", "Coherence=0.491", "triple=e_dbo:locatedInArea dbr:Cusco_Region", "class=Mountain" ],
-    "1" : [ "pair=dbr:Department_of_Cuzco", "Coherence=0.489", "triple=e_dbp:location dbr:Department_of_Cuzco", "class=Mountain" ]
+    "0" : [ "pair=dbr:Cusco_Region", "Coherence=0.491", "triple=e dbo:locatedInArea dbr:Cusco_Region", "class=Mountain" ],
+    "1" : [ "pair=dbr:Department_of_Cuzco", "Coherence=0.489", "triple=e dbp:location dbr:Department_of_Cuzco", "class=Mountain" ]
   }
 }, {
-  "id" : 26,
+  "id" : 24,
   "pattern" : "department",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Oruro_Department", "Coherence=0.5", "triple=e_dbp:location dbr:Oruro_Department", "class=Mountain" ],
-    "1" : [ "pair=dbr:Cochabamba_Department", "Coherence=0.5", "triple=e_dbp:location dbr:Cochabamba_Department", "class=Mountain" ],
-    "2" : [ "pair=\"Location within Bolivia\"@en", "Coherence=0.498", "triple=e_dbp:mapCaption \"Location within Bolivia\"@en", "class=Mountain" ],
-    "3" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e_dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ],
-    "4" : [ "pair=\"Location in Bolivia\"@en", "Coherence=0.496", "triple=e_dbp:mapCaption \"Location in Bolivia\"@en", "class=Mountain" ],
-    "5" : [ "pair=dbr:Bolivia", "Coherence=0.494", "triple=e_dbo:locatedInArea dbr:Bolivia", "class=Mountain" ],
-    "6" : [ "pair=dbr:PotosÃ­_Department", "Coherence=0.489", "triple=e_dbp:location dbr:PotosÃ­_Department", "class=Mountain" ]
+    "0" : [ "pair=dbr:Oruro_Department", "Coherence=0.5", "triple=e dbp:location dbr:Oruro_Department", "class=Mountain" ],
+    "1" : [ "pair=dbr:Cochabamba_Department", "Coherence=0.5", "triple=e dbp:location dbr:Cochabamba_Department", "class=Mountain" ],
+    "2" : [ "pair=\"Location within Bolivia\"@en", "Coherence=0.498", "triple=e dbp:mapCaption \"Location within Bolivia\"@en", "class=Mountain" ],
+    "3" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ],
+    "4" : [ "pair=\"Location in Bolivia\"@en", "Coherence=0.496", "triple=e dbp:mapCaption \"Location in Bolivia\"@en", "class=Mountain" ],
+    "5" : [ "pair=dbr:Bolivia", "Coherence=0.494", "triple=e dbo:locatedInArea dbr:Bolivia", "class=Mountain" ],
+    "6" : [ "pair=dbr:PotosÃ­_Department", "Coherence=0.489", "triple=e dbp:location dbr:PotosÃ­_Department", "class=Mountain" ]
   }
 }, {
-  "id" : 27,
+  "id" : 25,
   "pattern" : "district",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:List_of_Wainwrights", "Coherence=0.5", "triple=e_dbp:listing dbr:List_of_Wainwrights", "class=Mountain" ],
-    "1" : [ "pair=dbr:Lake_District", "Coherence=0.497", "triple=e_dbo:mountainRange dbr:Lake_District", "class=Mountain" ],
-    "2" : [ "pair=\"Location in Lake District", "Coherence=0.492", "triple=e_dbp:mapCaption \"Location in Lake District", "class=Mountain" ]
+    "0" : [ "pair=dbr:List_of_Wainwrights", "Coherence=0.5", "triple=e dbp:listing dbr:List_of_Wainwrights", "class=Mountain" ],
+    "1" : [ "pair=dbr:Lake_District", "Coherence=0.497", "triple=e dbo:mountainRange dbr:Lake_District", "class=Mountain" ],
+    "2" : [ "pair=\"Location in Lake District", "Coherence=0.492", "triple=e dbp:mapCaption \"Location in Lake District", "class=Mountain" ]
   }
 }, {
-  "id" : 28,
+  "id" : 26,
   "pattern" : "germany",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Hesse", "Coherence=0.493", "triple=e_dbp:location dbr:Hesse", "class=Mountain" ]
+    "0" : [ "pair=dbr:Hesse", "Coherence=0.493", "triple=e dbp:location dbr:Hesse", "class=Mountain" ]
   }
 }, {
-  "id" : 29,
+  "id" : 27,
   "pattern" : "hesse",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Hesse", "Coherence=0.495", "triple=e_dbo:locatedInArea dbr:Hesse", "class=Mountain" ]
+    "0" : [ "pair=dbr:Hesse", "Coherence=0.495", "triple=e dbo:locatedInArea dbr:Hesse", "class=Mountain" ]
   }
 }, {
-  "id" : 31,
+  "id" : 29,
   "pattern" : "hokkaidå",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:HokkaidÅ", "Coherence=0.491", "triple=e_dbo:locatedInArea dbr:HokkaidÅ", "class=Mountain" ]
+    "0" : [ "pair=dbr:HokkaidÅ", "Coherence=0.491", "triple=e dbo:locatedInArea dbr:HokkaidÅ", "class=Mountain" ]
   }
 }, {
-  "id" : 32,
+  "id" : 30,
   "pattern" : "hong",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Hong_Kong", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Hong_Kong", "class=Mountain" ]
+    "0" : [ "pair=dbr:Hong_Kong", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Hong_Kong", "class=Mountain" ]
   }
 }, {
-  "id" : 33,
+  "id" : 31,
   "pattern" : "idaho",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Idaho", "Coherence=0.495", "triple=e_dbo:locatedInArea dbr:Idaho", "class=Mountain" ]
+    "0" : [ "pair=dbr:Idaho", "Coherence=0.495", "triple=e dbo:locatedInArea dbr:Idaho", "class=Mountain" ]
   }
 }, {
-  "id" : 34,
+  "id" : 32,
   "pattern" : "innlandet",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Innlandet", "Coherence=0.491", "triple=e_dbp:location dbr:Innlandet", "class=Mountain" ]
+    "0" : [ "pair=dbr:Innlandet", "Coherence=0.491", "triple=e dbp:location dbr:Innlandet", "class=Mountain" ]
   }
 }, {
-  "id" : 35,
+  "id" : 33,
   "pattern" : "japan",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Hokkaido", "Coherence=0.491", "triple=e_dbp:location dbr:Hokkaido", "class=Mountain" ],
-    "1" : [ "pair=dbr:HokkaidÅ", "Coherence=0.491", "triple=e_dbo:locatedInArea dbr:HokkaidÅ", "class=Mountain" ]
+    "0" : [ "pair=dbr:Hokkaido", "Coherence=0.491", "triple=e dbp:location dbr:Hokkaido", "class=Mountain" ],
+    "1" : [ "pair=dbr:HokkaidÅ", "Coherence=0.491", "triple=e dbo:locatedInArea dbr:HokkaidÅ", "class=Mountain" ]
   }
 }, {
-  "id" : 36,
+  "id" : 34,
   "pattern" : "junã­n",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_JunÃ­n", "Coherence=0.491", "triple=e_dbp:location dbr:Department_of_JunÃ­n", "class=Mountain" ],
-    "1" : [ "pair=dbr:JunÃ­n_Region", "Coherence=0.491", "triple=e_dbo:locatedInArea dbr:JunÃ­n_Region", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_JunÃ­n", "Coherence=0.491", "triple=e dbp:location dbr:Department_of_JunÃ­n", "class=Mountain" ],
+    "1" : [ "pair=dbr:JunÃ­n_Region", "Coherence=0.491", "triple=e dbo:locatedInArea dbr:JunÃ­n_Region", "class=Mountain" ]
   }
 }, {
-  "id" : 37,
+  "id" : 35,
   "pattern" : "korea",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:South_Korea", "Coherence=0.491", "triple=e_dbo:locatedInArea dbr:South_Korea", "class=Mountain" ]
+    "0" : [ "pair=dbr:South_Korea", "Coherence=0.491", "triple=e dbo:locatedInArea dbr:South_Korea", "class=Mountain" ]
   }
 }, {
-  "id" : 38,
+  "id" : 36,
   "pattern" : "la",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e_dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
+    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
   }
 }, {
-  "id" : 39,
+  "id" : 37,
   "pattern" : "la\u001Cpaz",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e_dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
+    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
   }
 }, {
-  "id" : 40,
+  "id" : 38,
   "pattern" : "la\u001Cpaz\u001Cdepartment",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e_dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
+    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
   }
 }, {
-  "id" : 41,
+  "id" : 39,
   "pattern" : "la paz",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
+    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
   }
 }, {
-  "id" : 42,
+  "id" : 40,
   "pattern" : "la paz\u001Cdepartment",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e_dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
+    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
   }
 }, {
-  "id" : 43,
+  "id" : 41,
   "pattern" : "la paz department",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e_dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
+    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
   }
 }, {
-  "id" : 44,
+  "id" : 42,
   "pattern" : "lake",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:List_of_Wainwrights", "Coherence=0.5", "triple=e_dbp:listing dbr:List_of_Wainwrights", "class=Mountain" ],
-    "1" : [ "pair=dbr:Lake_District", "Coherence=0.497", "triple=e_dbo:mountainRange dbr:Lake_District", "class=Mountain" ],
-    "2" : [ "pair=\"Location in Lake District", "Coherence=0.492", "triple=e_dbp:mapCaption \"Location in Lake District", "class=Mountain" ]
+    "0" : [ "pair=dbr:List_of_Wainwrights", "Coherence=0.5", "triple=e dbp:listing dbr:List_of_Wainwrights", "class=Mountain" ],
+    "1" : [ "pair=dbr:Lake_District", "Coherence=0.497", "triple=e dbo:mountainRange dbr:Lake_District", "class=Mountain" ],
+    "2" : [ "pair=\"Location in Lake District", "Coherence=0.492", "triple=e dbp:mapCaption \"Location in Lake District", "class=Mountain" ]
   }
 }, {
-  "id" : 45,
+  "id" : 43,
   "pattern" : "lake district",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:List_of_Wainwrights", "Coherence=0.5", "triple=e_dbp:listing dbr:List_of_Wainwrights", "class=Mountain" ],
-    "1" : [ "pair=dbr:Lake_District", "Coherence=0.497", "triple=e_dbo:mountainRange dbr:Lake_District", "class=Mountain" ],
-    "2" : [ "pair=\"Location in Lake District", "Coherence=0.492", "triple=e_dbp:mapCaption \"Location in Lake District", "class=Mountain" ]
+    "0" : [ "pair=dbr:List_of_Wainwrights", "Coherence=0.5", "triple=e dbp:listing dbr:List_of_Wainwrights", "class=Mountain" ],
+    "1" : [ "pair=dbr:Lake_District", "Coherence=0.497", "triple=e dbo:mountainRange dbr:Lake_District", "class=Mountain" ],
+    "2" : [ "pair=\"Location in Lake District", "Coherence=0.492", "triple=e dbp:mapCaption \"Location in Lake District", "class=Mountain" ]
   }
 }, {
-  "id" : 46,
+  "id" : 44,
   "pattern" : "lepontine",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Lepontine_Alps", "Coherence=0.5", "triple=e_dbp:range dbr:Lepontine_Alps", "class=Mountain" ]
+    "0" : [ "pair=dbr:Lepontine_Alps", "Coherence=0.5", "triple=e dbp:range dbr:Lepontine_Alps", "class=Mountain" ]
   }
 }, {
-  "id" : 47,
+  "id" : 45,
   "pattern" : "lepontine alps",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Lepontine_Alps", "Coherence=0.5", "triple=e_dbp:range dbr:Lepontine_Alps", "class=Mountain" ]
+    "0" : [ "pair=dbr:Lepontine_Alps", "Coherence=0.5", "triple=e dbp:range dbr:Lepontine_Alps", "class=Mountain" ]
   }
 }, {
-  "id" : 48,
+  "id" : 46,
   "pattern" : "lima",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Lima", "class=Mountain" ],
-    "1" : [ "pair=dbr:Lima_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Lima", "class=Mountain" ],
+    "1" : [ "pair=dbr:Lima_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ]
   }
 }, {
-  "id" : 49,
+  "id" : 47,
   "pattern" : "lima\u001Cregion",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Lima", "Coherence=0.489", "triple=e_dbp:location dbr:Department_of_Lima", "class=Mountain" ],
-    "1" : [ "pair=dbr:Lima_Region", "Coherence=0.489", "triple=e_dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Lima", "Coherence=0.489", "triple=e dbp:location dbr:Department_of_Lima", "class=Mountain" ],
+    "1" : [ "pair=dbr:Lima_Region", "Coherence=0.489", "triple=e dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ]
   }
 }, {
-  "id" : 50,
+  "id" : 48,
   "pattern" : "lima region",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Lima", "Coherence=0.492", "triple=e_dbp:location dbr:Department_of_Lima", "class=Mountain" ],
-    "1" : [ "pair=dbr:Lima_Region", "Coherence=0.489", "triple=e_dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Lima", "Coherence=0.492", "triple=e dbp:location dbr:Department_of_Lima", "class=Mountain" ],
+    "1" : [ "pair=dbr:Lima_Region", "Coherence=0.489", "triple=e dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ]
   }
 }, {
-  "id" : 52,
+  "id" : 50,
   "pattern" : "mountain",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Ancash", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Ancash", "class=Mountain" ],
-    "1" : [ "pair=dbr:Department_of_JunÃ­n", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_JunÃ­n", "class=Mountain" ],
-    "2" : [ "pair=dbr:Lombardy", "Coherence=0.5", "triple=e_dbp:location dbr:Lombardy", "class=Mountain" ],
-    "3" : [ "pair=dbr:Innlandet", "Coherence=0.5", "triple=e_dbp:location dbr:Innlandet", "class=Mountain" ],
-    "4" : [ "pair=dbr:Canton_of_Ticino", "Coherence=0.5", "triple=e_dbp:location dbr:Canton_of_Ticino", "class=Mountain" ],
-    "5" : [ "pair=dbr:Department_of_Cuzco", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Cuzco", "class=Mountain" ],
-    "6" : [ "pair=dbr:Department_of_Puno", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Puno", "class=Mountain" ],
-    "7" : [ "pair=dbr:Cochabamba_Department", "Coherence=0.5", "triple=e_dbp:location dbr:Cochabamba_Department", "class=Mountain" ],
-    "8" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Lima", "class=Mountain" ],
-    "9" : [ "pair=dbr:Quechuan_languages", "Coherence=0.5", "triple=e_dbp:language dbr:Quechuan_languages", "class=Mountain" ],
-    "10" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
-    "11" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "12" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "13" : [ "pair=dbr:Ticino", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Ticino", "class=Mountain" ],
-    "14" : [ "pair=dbr:Puno_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Puno_Region", "class=Mountain" ],
-    "15" : [ "pair=dbr:Ancash_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Ancash_Region", "class=Mountain" ],
-    "16" : [ "pair=dbr:Cusco_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Cusco_Region", "class=Mountain" ],
-    "17" : [ "pair=dbr:Lima_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
-    "18" : [ "pair=dbr:JunÃ­n_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:JunÃ­n_Region", "class=Mountain" ],
-    "19" : [ "pair=\"5000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.5", "triple=e_dbo:elevation \"5000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Mountain" ],
-    "20" : [ "pair=\"4600.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.5", "triple=e_dbo:elevation \"4600.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Mountain" ],
-    "21" : [ "pair=\"4800.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.5", "triple=e_dbo:elevation \"4800.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Mountain" ],
-    "22" : [ "pair=\"Location within Bolivia\"@en", "Coherence=0.498", "triple=e_dbp:mapCaption \"Location within Bolivia\"@en", "class=Mountain" ],
-    "23" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e_dbp:location dbr:La_Paz_Department_(Bolivia", "class=Mountain" ],
-    "24" : [ "pair=\"Peru\"@en", "Coherence=0.498", "triple=e_dbp:mapCaption \"Peru\"@en", "class=Mountain" ],
-    "25" : [ "pair=dbr:Peru", "Coherence=0.497", "triple=e_dbp:location dbr:Peru", "class=Mountain" ],
-    "26" : [ "pair=dbr:Lepontine_Alps", "Coherence=0.497", "triple=e_dbp:range dbr:Lepontine_Alps", "class=Mountain" ],
-    "27" : [ "pair=dbr:PotosÃ­_Department", "Coherence=0.496", "triple=e_dbp:location dbr:PotosÃ­_Department", "class=Mountain" ],
-    "28" : [ "pair=dbr:South_Korea", "Coherence=0.495", "triple=e_dbo:locatedInArea dbr:South_Korea", "class=Mountain" ],
-    "29" : [ "pair=dbr:Bolivia", "Coherence=0.493", "triple=e_dbo:locatedInArea dbr:Bolivia", "class=Mountain" ],
-    "30" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.493", "triple=e_dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
-    "31" : [ "pair=dbr:Arequipa_Region", "Coherence=0.493", "triple=e_dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
-    "32" : [ "pair=dbr:Catalonia", "Coherence=0.493", "triple=e_dbo:locatedInArea dbr:Catalonia", "class=Mountain" ],
-    "33" : [ "pair=\"Location in Bolivia\"@en", "Coherence=0.493", "triple=e_dbp:mapCaption \"Location in Bolivia\"@en", "class=Mountain" ],
-    "34" : [ "pair=dbr:GraubÃ¼nden", "Coherence=0.492", "triple=e_dbo:locatedInArea dbr:GraubÃ¼nden", "class=Mountain" ],
-    "35" : [ "pair=dbr:Canton_of_Grisons", "Coherence=0.492", "triple=e_dbp:location dbr:Canton_of_Grisons", "class=Mountain" ],
-    "36" : [ "pair=\"180000.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.491", "triple=e_dbp:listing \"180000.0\"^^<http://dbpedia.org/datatype/second>", "class=Mountain" ],
-    "37" : [ "pair=dbr:Andes", "Coherence=0.491", "triple=e_dbp:range dbr:Andes", "class=Mountain" ],
-    "38" : [ "pair=\"Nevada\"@en", "Coherence=0.489", "triple=e_dbp:state \"Nevada\"@en", "class=Mountain" ],
-    "39" : [ "pair=\"Map of the location\"@en", "Coherence=0.489", "triple=e_dbp:mapAlt \"Map of the location\"@en", "class=Mountain" ],
-    "40" : [ "pair=dbr:Norway", "Coherence=0.489", "triple=e_dbp:location dbr:Norway", "class=Mountain" ],
-    "41" : [ "pair=dbr:Canton_of_Valais", "Coherence=0.488", "triple=e_dbp:location dbr:Canton_of_Valais", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Ancash", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Ancash", "class=Mountain" ],
+    "1" : [ "pair=dbr:Department_of_JunÃ­n", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_JunÃ­n", "class=Mountain" ],
+    "2" : [ "pair=dbr:Lombardy", "Coherence=0.5", "triple=e dbp:location dbr:Lombardy", "class=Mountain" ],
+    "3" : [ "pair=dbr:Innlandet", "Coherence=0.5", "triple=e dbp:location dbr:Innlandet", "class=Mountain" ],
+    "4" : [ "pair=dbr:Canton_of_Ticino", "Coherence=0.5", "triple=e dbp:location dbr:Canton_of_Ticino", "class=Mountain" ],
+    "5" : [ "pair=dbr:Department_of_Cuzco", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Cuzco", "class=Mountain" ],
+    "6" : [ "pair=dbr:Department_of_Puno", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Puno", "class=Mountain" ],
+    "7" : [ "pair=dbr:Cochabamba_Department", "Coherence=0.5", "triple=e dbp:location dbr:Cochabamba_Department", "class=Mountain" ],
+    "8" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Lima", "class=Mountain" ],
+    "9" : [ "pair=dbr:Quechuan_languages", "Coherence=0.5", "triple=e dbp:language dbr:Quechuan_languages", "class=Mountain" ],
+    "10" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
+    "11" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "12" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "13" : [ "pair=dbr:Ticino", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Ticino", "class=Mountain" ],
+    "14" : [ "pair=dbr:Puno_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Puno_Region", "class=Mountain" ],
+    "15" : [ "pair=dbr:Ancash_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Ancash_Region", "class=Mountain" ],
+    "16" : [ "pair=dbr:Cusco_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Cusco_Region", "class=Mountain" ],
+    "17" : [ "pair=dbr:Lima_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
+    "18" : [ "pair=dbr:JunÃ­n_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:JunÃ­n_Region", "class=Mountain" ],
+    "19" : [ "pair=\"Location within Bolivia\"@en", "Coherence=0.498", "triple=e dbp:mapCaption \"Location within Bolivia\"@en", "class=Mountain" ],
+    "20" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e dbp:location dbr:La_Paz_Department_(Bolivia", "class=Mountain" ],
+    "21" : [ "pair=\"Peru\"@en", "Coherence=0.498", "triple=e dbp:mapCaption \"Peru\"@en", "class=Mountain" ],
+    "22" : [ "pair=dbr:Peru", "Coherence=0.497", "triple=e dbp:location dbr:Peru", "class=Mountain" ],
+    "23" : [ "pair=dbr:Lepontine_Alps", "Coherence=0.497", "triple=e dbp:range dbr:Lepontine_Alps", "class=Mountain" ],
+    "24" : [ "pair=dbr:PotosÃ­_Department", "Coherence=0.496", "triple=e dbp:location dbr:PotosÃ­_Department", "class=Mountain" ],
+    "25" : [ "pair=dbr:South_Korea", "Coherence=0.495", "triple=e dbo:locatedInArea dbr:South_Korea", "class=Mountain" ],
+    "26" : [ "pair=dbr:Bolivia", "Coherence=0.493", "triple=e dbo:locatedInArea dbr:Bolivia", "class=Mountain" ],
+    "27" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.493", "triple=e dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
+    "28" : [ "pair=dbr:Arequipa_Region", "Coherence=0.493", "triple=e dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
+    "29" : [ "pair=dbr:Catalonia", "Coherence=0.493", "triple=e dbo:locatedInArea dbr:Catalonia", "class=Mountain" ],
+    "30" : [ "pair=\"Location in Bolivia\"@en", "Coherence=0.493", "triple=e dbp:mapCaption \"Location in Bolivia\"@en", "class=Mountain" ],
+    "31" : [ "pair=dbr:GraubÃ¼nden", "Coherence=0.492", "triple=e dbo:locatedInArea dbr:GraubÃ¼nden", "class=Mountain" ],
+    "32" : [ "pair=dbr:Canton_of_Grisons", "Coherence=0.492", "triple=e dbp:location dbr:Canton_of_Grisons", "class=Mountain" ],
+    "33" : [ "pair=\"180000.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.491", "triple=e dbp:listing \"180000.0\"^^<http://dbpedia.org/datatype/second>", "class=Mountain" ],
+    "34" : [ "pair=dbr:Andes", "Coherence=0.491", "triple=e dbp:range dbr:Andes", "class=Mountain" ],
+    "35" : [ "pair=\"Nevada\"@en", "Coherence=0.489", "triple=e dbp:state \"Nevada\"@en", "class=Mountain" ],
+    "36" : [ "pair=\"Map of the location\"@en", "Coherence=0.489", "triple=e dbp:mapAlt \"Map of the location\"@en", "class=Mountain" ],
+    "37" : [ "pair=dbr:Norway", "Coherence=0.489", "triple=e dbp:location dbr:Norway", "class=Mountain" ],
+    "38" : [ "pair=dbr:Canton_of_Valais", "Coherence=0.488", "triple=e dbp:location dbr:Canton_of_Valais", "class=Mountain" ]
   }
 }, {
-  "id" : 53,
+  "id" : 51,
   "pattern" : "mountain range",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
-    "1" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "2" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ]
+    "0" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
+    "1" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "2" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ]
   }
 }, {
-  "id" : 54,
+  "id" : 52,
   "pattern" : "mountain range in\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.496", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "2" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.492", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
+    "0" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.496", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "2" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.492", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
   }
 }, {
-  "id" : 55,
+  "id" : 53,
   "pattern" : "mountain range in\u001Cthe\u001Candes",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.492", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "2" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.488", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
+    "0" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.492", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "2" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.488", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
   }
 }, {
-  "id" : 56,
+  "id" : 54,
   "pattern" : "municipality",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.495", "triple=e_dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
+    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.495", "triple=e dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
   }
 }, {
-  "id" : 58,
+  "id" : 56,
   "pattern" : "nevada",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Nevada\"@en", "Coherence=0.5", "triple=e_dbp:state \"Nevada\"@en", "class=Mountain" ]
+    "0" : [ "pair=\"Nevada\"@en", "Coherence=0.5", "triple=e dbp:state \"Nevada\"@en", "class=Mountain" ]
   }
 }, {
-  "id" : 59,
+  "id" : 57,
   "pattern" : "new york",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Coherence=0.497", "triple=e_dbo:locatedInArea dbr:New_York_(state", "class=Mountain" ]
+    "0" : [ "pair=dbr:New_York_(state", "Coherence=0.497", "triple=e dbo:locatedInArea dbr:New_York_(state", "class=Mountain" ]
   }
 }, {
-  "id" : 60,
+  "id" : 58,
   "pattern" : "norway",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Map of the location\"@en", "Coherence=0.5", "triple=e_dbp:mapAlt \"Map of the location\"@en", "class=Mountain" ],
-    "1" : [ "pair=dbr:Norway", "Coherence=0.495", "triple=e_dbp:location dbr:Norway", "class=Mountain" ],
-    "2" : [ "pair=dbr:Oppland", "Coherence=0.495", "triple=e_dbo:locatedInArea dbr:Oppland", "class=Mountain" ],
-    "3" : [ "pair=dbr:Innlandet", "Coherence=0.491", "triple=e_dbp:location dbr:Innlandet", "class=Mountain" ]
+    "0" : [ "pair=\"Map of the location\"@en", "Coherence=0.5", "triple=e dbp:mapAlt \"Map of the location\"@en", "class=Mountain" ],
+    "1" : [ "pair=dbr:Norway", "Coherence=0.495", "triple=e dbp:location dbr:Norway", "class=Mountain" ],
+    "2" : [ "pair=dbr:Oppland", "Coherence=0.495", "triple=e dbo:locatedInArea dbr:Oppland", "class=Mountain" ],
+    "3" : [ "pair=dbr:Innlandet", "Coherence=0.491", "triple=e dbp:location dbr:Innlandet", "class=Mountain" ]
   }
 }, {
-  "id" : 61,
+  "id" : 59,
   "pattern" : "oruro",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Oruro_Department", "Coherence=0.5", "triple=e_dbp:location dbr:Oruro_Department", "class=Mountain" ]
+    "0" : [ "pair=dbr:Oruro_Department", "Coherence=0.5", "triple=e dbp:location dbr:Oruro_Department", "class=Mountain" ]
   }
 }, {
-  "id" : 62,
+  "id" : 60,
   "pattern" : "oruro\u001Cdepartment",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Oruro_Department", "Coherence=0.5", "triple=e_dbp:location dbr:Oruro_Department", "class=Mountain" ]
+    "0" : [ "pair=dbr:Oruro_Department", "Coherence=0.5", "triple=e dbp:location dbr:Oruro_Department", "class=Mountain" ]
   }
 }, {
-  "id" : 63,
+  "id" : 61,
   "pattern" : "oruro department",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Oruro_Department", "Coherence=0.5", "triple=e_dbp:location dbr:Oruro_Department", "class=Mountain" ]
+    "0" : [ "pair=dbr:Oruro_Department", "Coherence=0.5", "triple=e dbp:location dbr:Oruro_Department", "class=Mountain" ]
   }
 }, {
-  "id" : 64,
+  "id" : 62,
   "pattern" : "paz department",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e_dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
+    "0" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ]
   }
 }, {
-  "id" : 65,
+  "id" : 63,
   "pattern" : "pennine",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Pennine_Alps", "Coherence=0.489", "triple=e_dbo:mountainRange dbr:Pennine_Alps", "class=Mountain" ]
+    "0" : [ "pair=dbr:Pennine_Alps", "Coherence=0.489", "triple=e dbo:mountainRange dbr:Pennine_Alps", "class=Mountain" ]
   }
 }, {
-  "id" : 66,
+  "id" : 64,
   "pattern" : "pennine alps",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Pennine_Alps", "Coherence=0.489", "triple=e_dbo:mountainRange dbr:Pennine_Alps", "class=Mountain" ]
+    "0" : [ "pair=dbr:Pennine_Alps", "Coherence=0.489", "triple=e dbo:mountainRange dbr:Pennine_Alps", "class=Mountain" ]
   }
 }, {
-  "id" : 67,
+  "id" : 65,
   "pattern" : "peru",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_JunÃ­n", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_JunÃ­n", "class=Mountain" ],
-    "1" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
-    "2" : [ "pair=dbr:Department_of_Cuzco", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Cuzco", "class=Mountain" ],
-    "3" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Lima", "class=Mountain" ],
-    "4" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
-    "5" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "6" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "7" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
-    "8" : [ "pair=dbr:Cusco_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Cusco_Region", "class=Mountain" ],
-    "9" : [ "pair=dbr:Lima_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
-    "10" : [ "pair=dbr:JunÃ­n_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:JunÃ­n_Region", "class=Mountain" ],
-    "11" : [ "pair=dbr:Quechuan_languages", "Coherence=0.495", "triple=e_dbp:language dbr:Quechuan_languages", "class=Mountain" ],
-    "12" : [ "pair=\"Peru\"@en", "Coherence=0.493", "triple=e_dbp:mapCaption \"Peru\"@en", "class=Mountain" ],
-    "13" : [ "pair=dbr:Peru", "Coherence=0.492", "triple=e_dbo:locatedInArea dbr:Peru", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_JunÃ­n", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_JunÃ­n", "class=Mountain" ],
+    "1" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
+    "2" : [ "pair=dbr:Department_of_Cuzco", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Cuzco", "class=Mountain" ],
+    "3" : [ "pair=dbr:Department_of_Lima", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Lima", "class=Mountain" ],
+    "4" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
+    "5" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "6" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "7" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
+    "8" : [ "pair=dbr:Cusco_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Cusco_Region", "class=Mountain" ],
+    "9" : [ "pair=dbr:Lima_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
+    "10" : [ "pair=dbr:JunÃ­n_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:JunÃ­n_Region", "class=Mountain" ],
+    "11" : [ "pair=dbr:Quechuan_languages", "Coherence=0.495", "triple=e dbp:language dbr:Quechuan_languages", "class=Mountain" ],
+    "12" : [ "pair=\"Peru\"@en", "Coherence=0.493", "triple=e dbp:mapCaption \"Peru\"@en", "class=Mountain" ],
+    "13" : [ "pair=dbr:Peru", "Coherence=0.492", "triple=e dbo:locatedInArea dbr:Peru", "class=Mountain" ]
   }
 }, {
-  "id" : 68,
+  "id" : 66,
   "pattern" : "potosã­",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:PotosÃ­_Department", "Coherence=0.493", "triple=e_dbp:location dbr:PotosÃ­_Department", "class=Mountain" ]
+    "0" : [ "pair=dbr:PotosÃ­_Department", "Coherence=0.493", "triple=e dbp:location dbr:PotosÃ­_Department", "class=Mountain" ]
   }
 }, {
-  "id" : 69,
+  "id" : 67,
   "pattern" : "potosã­ department",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:PotosÃ­_Department", "Coherence=0.489", "triple=e_dbp:location dbr:PotosÃ­_Department", "class=Mountain" ]
+    "0" : [ "pair=dbr:PotosÃ­_Department", "Coherence=0.489", "triple=e dbp:location dbr:PotosÃ­_Department", "class=Mountain" ]
   }
 }, {
-  "id" : 70,
+  "id" : 68,
   "pattern" : "province",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
-    "1" : [ "pair=dbr:Oruro_Department", "Coherence=0.5", "triple=e_dbp:location dbr:Oruro_Department", "class=Mountain" ],
-    "2" : [ "pair=dbr:Cochabamba_Department", "Coherence=0.5", "triple=e_dbp:location dbr:Cochabamba_Department", "class=Mountain" ],
-    "3" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "4" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
-    "5" : [ "pair=\"4600.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.5", "triple=e_dbo:elevation \"4600.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Mountain" ],
-    "6" : [ "pair=\"4800.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.5", "triple=e_dbo:elevation \"4800.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Mountain" ],
-    "7" : [ "pair=\"Location within Bolivia\"@en", "Coherence=0.498", "triple=e_dbp:mapCaption \"Location within Bolivia\"@en", "class=Mountain" ],
-    "8" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e_dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ],
-    "9" : [ "pair=\"5000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.497", "triple=e_dbo:elevation \"5000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Mountain" ],
-    "10" : [ "pair=dbr:Department_of_Puno", "Coherence=0.496", "triple=e_dbp:location dbr:Department_of_Puno", "class=Mountain" ],
-    "11" : [ "pair=dbr:Puno_Region", "Coherence=0.496", "triple=e_dbo:locatedInArea dbr:Puno_Region", "class=Mountain" ],
-    "12" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.496", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
-    "13" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.496", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "14" : [ "pair=dbr:Department_of_JunÃ­n", "Coherence=0.495", "triple=e_dbp:location dbr:Department_of_JunÃ­n", "class=Mountain" ],
-    "15" : [ "pair=dbr:JunÃ­n_Region", "Coherence=0.495", "triple=e_dbo:locatedInArea dbr:JunÃ­n_Region", "class=Mountain" ],
-    "16" : [ "pair=dbr:Quechuan_languages", "Coherence=0.495", "triple=e_dbp:language dbr:Quechuan_languages", "class=Mountain" ],
-    "17" : [ "pair=\"Location in Bolivia\"@en", "Coherence=0.494", "triple=e_dbp:mapCaption \"Location in Bolivia\"@en", "class=Mountain" ],
-    "18" : [ "pair=\"Peru\"@en", "Coherence=0.493", "triple=e_dbp:mapCaption \"Peru\"@en", "class=Mountain" ],
-    "19" : [ "pair=dbr:Department_of_Lima", "Coherence=0.492", "triple=e_dbp:location dbr:Department_of_Lima", "class=Mountain" ],
-    "20" : [ "pair=dbr:Peru", "Coherence=0.492", "triple=e_dbp:location dbr:Peru", "class=Mountain" ],
-    "21" : [ "pair=dbr:Bolivia", "Coherence=0.491", "triple=e_dbo:locatedInArea dbr:Bolivia", "class=Mountain" ],
-    "22" : [ "pair=dbr:Department_of_Cuzco", "Coherence=0.491", "triple=e_dbp:location dbr:Department_of_Cuzco", "class=Mountain" ],
-    "23" : [ "pair=dbr:Cusco_Region", "Coherence=0.491", "triple=e_dbo:locatedInArea dbr:Cusco_Region", "class=Mountain" ],
-    "24" : [ "pair=dbr:Lima_Region", "Coherence=0.489", "triple=e_dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
+    "1" : [ "pair=dbr:Oruro_Department", "Coherence=0.5", "triple=e dbp:location dbr:Oruro_Department", "class=Mountain" ],
+    "2" : [ "pair=dbr:Cochabamba_Department", "Coherence=0.5", "triple=e dbp:location dbr:Cochabamba_Department", "class=Mountain" ],
+    "3" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "4" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
+    "5" : [ "pair=\"Location within Bolivia\"@en", "Coherence=0.498", "triple=e dbp:mapCaption \"Location within Bolivia\"@en", "class=Mountain" ],
+    "6" : [ "pair=dbr:La_Paz_Department_(Bolivia", "Coherence=0.498", "triple=e dbo:locatedInArea dbr:La_Paz_Department_(Bolivia", "class=Mountain" ],
+    "7" : [ "pair=dbr:Department_of_Puno", "Coherence=0.496", "triple=e dbp:location dbr:Department_of_Puno", "class=Mountain" ],
+    "8" : [ "pair=dbr:Puno_Region", "Coherence=0.496", "triple=e dbo:locatedInArea dbr:Puno_Region", "class=Mountain" ],
+    "9" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.496", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
+    "10" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.496", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "11" : [ "pair=dbr:Department_of_JunÃ­n", "Coherence=0.495", "triple=e dbp:location dbr:Department_of_JunÃ­n", "class=Mountain" ],
+    "12" : [ "pair=dbr:JunÃ­n_Region", "Coherence=0.495", "triple=e dbo:locatedInArea dbr:JunÃ­n_Region", "class=Mountain" ],
+    "13" : [ "pair=dbr:Quechuan_languages", "Coherence=0.495", "triple=e dbp:language dbr:Quechuan_languages", "class=Mountain" ],
+    "14" : [ "pair=\"Location in Bolivia\"@en", "Coherence=0.494", "triple=e dbp:mapCaption \"Location in Bolivia\"@en", "class=Mountain" ],
+    "15" : [ "pair=\"Peru\"@en", "Coherence=0.493", "triple=e dbp:mapCaption \"Peru\"@en", "class=Mountain" ],
+    "16" : [ "pair=dbr:Department_of_Lima", "Coherence=0.492", "triple=e dbp:location dbr:Department_of_Lima", "class=Mountain" ],
+    "17" : [ "pair=dbr:Peru", "Coherence=0.492", "triple=e dbp:location dbr:Peru", "class=Mountain" ],
+    "18" : [ "pair=dbr:Bolivia", "Coherence=0.491", "triple=e dbo:locatedInArea dbr:Bolivia", "class=Mountain" ],
+    "19" : [ "pair=dbr:Department_of_Cuzco", "Coherence=0.491", "triple=e dbp:location dbr:Department_of_Cuzco", "class=Mountain" ],
+    "20" : [ "pair=dbr:Cusco_Region", "Coherence=0.491", "triple=e dbo:locatedInArea dbr:Cusco_Region", "class=Mountain" ],
+    "21" : [ "pair=dbr:Lima_Region", "Coherence=0.489", "triple=e dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ]
   }
 }, {
-  "id" : 71,
+  "id" : 69,
   "pattern" : "puno",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Puno", "Coherence=0.493", "triple=e_dbp:location dbr:Department_of_Puno", "class=Mountain" ],
-    "1" : [ "pair=dbr:Puno_Region", "Coherence=0.493", "triple=e_dbo:locatedInArea dbr:Puno_Region", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Puno", "Coherence=0.493", "triple=e dbp:location dbr:Department_of_Puno", "class=Mountain" ],
+    "1" : [ "pair=dbr:Puno_Region", "Coherence=0.493", "triple=e dbo:locatedInArea dbr:Puno_Region", "class=Mountain" ]
   }
 }, {
-  "id" : 72,
+  "id" : 70,
   "pattern" : "puno region",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Puno", "Coherence=0.49", "triple=e_dbp:location dbr:Department_of_Puno", "class=Mountain" ],
-    "1" : [ "pair=dbr:Puno_Region", "Coherence=0.49", "triple=e_dbo:locatedInArea dbr:Puno_Region", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Puno", "Coherence=0.49", "triple=e dbp:location dbr:Department_of_Puno", "class=Mountain" ],
+    "1" : [ "pair=dbr:Puno_Region", "Coherence=0.49", "triple=e dbo:locatedInArea dbr:Puno_Region", "class=Mountain" ]
   }
 }, {
-  "id" : 73,
+  "id" : 71,
   "pattern" : "quechua",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_JunÃ­n", "Coherence=0.495", "triple=e_dbp:location dbr:Department_of_JunÃ­n", "class=Mountain" ],
-    "1" : [ "pair=dbr:JunÃ­n_Region", "Coherence=0.495", "triple=e_dbo:locatedInArea dbr:JunÃ­n_Region", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_JunÃ­n", "Coherence=0.495", "triple=e dbp:location dbr:Department_of_JunÃ­n", "class=Mountain" ],
+    "1" : [ "pair=dbr:JunÃ­n_Region", "Coherence=0.495", "triple=e dbo:locatedInArea dbr:JunÃ­n_Region", "class=Mountain" ]
   }
 }, {
-  "id" : 74,
+  "id" : 72,
   "pattern" : "range",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
-    "1" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "2" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "3" : [ "pair=\"Nevada\"@en", "Coherence=0.494", "triple=e_dbp:state \"Nevada\"@en", "class=Mountain" ]
+    "0" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
+    "1" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "2" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "3" : [ "pair=\"Nevada\"@en", "Coherence=0.494", "triple=e dbp:state \"Nevada\"@en", "class=Mountain" ]
   }
 }, {
-  "id" : 75,
+  "id" : 73,
   "pattern" : "range the\u001Candes",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.492", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "2" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.488", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
+    "0" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.492", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "2" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.488", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
   }
 }, {
-  "id" : 76,
+  "id" : 74,
   "pattern" : "range the\u001Candes\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.492", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "2" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.488", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
+    "0" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.492", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "2" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.488", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
   }
 }, {
-  "id" : 77,
+  "id" : 75,
   "pattern" : "region",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e_dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
-    "1" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e_dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
-    "2" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e_dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
-    "3" : [ "pair=dbr:Department_of_Puno", "Coherence=0.496", "triple=e_dbp:location dbr:Department_of_Puno", "class=Mountain" ],
-    "4" : [ "pair=dbr:Puno_Region", "Coherence=0.496", "triple=e_dbo:locatedInArea dbr:Puno_Region", "class=Mountain" ],
-    "5" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.496", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
-    "6" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.496", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "7" : [ "pair=dbr:Department_of_JunÃ­n", "Coherence=0.495", "triple=e_dbp:location dbr:Department_of_JunÃ­n", "class=Mountain" ],
-    "8" : [ "pair=dbr:JunÃ­n_Region", "Coherence=0.495", "triple=e_dbo:locatedInArea dbr:JunÃ­n_Region", "class=Mountain" ],
-    "9" : [ "pair=dbr:Quechuan_languages", "Coherence=0.495", "triple=e_dbp:language dbr:Quechuan_languages", "class=Mountain" ],
-    "10" : [ "pair=dbr:Department_of_Lima", "Coherence=0.492", "triple=e_dbp:location dbr:Department_of_Lima", "class=Mountain" ],
-    "11" : [ "pair=dbr:Cusco_Region", "Coherence=0.491", "triple=e_dbo:locatedInArea dbr:Cusco_Region", "class=Mountain" ],
-    "12" : [ "pair=\"Peru\"@en", "Coherence=0.49", "triple=e_dbp:mapCaption \"Peru\"@en", "class=Mountain" ],
-    "13" : [ "pair=dbr:Lima_Region", "Coherence=0.489", "triple=e_dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
-    "14" : [ "pair=dbr:Department_of_Cuzco", "Coherence=0.489", "triple=e_dbp:location dbr:Department_of_Cuzco", "class=Mountain" ]
+    "0" : [ "pair=dbr:Department_of_Arequipa", "Coherence=0.5", "triple=e dbp:location dbr:Department_of_Arequipa", "class=Mountain" ],
+    "1" : [ "pair=dbr:Huanzo_mountain_range", "Coherence=0.5", "triple=e dbp:range dbr:Huanzo_mountain_range", "class=Mountain" ],
+    "2" : [ "pair=dbr:Arequipa_Region", "Coherence=0.5", "triple=e dbo:locatedInArea dbr:Arequipa_Region", "class=Mountain" ],
+    "3" : [ "pair=dbr:Department_of_Puno", "Coherence=0.496", "triple=e dbp:location dbr:Department_of_Puno", "class=Mountain" ],
+    "4" : [ "pair=dbr:Puno_Region", "Coherence=0.496", "triple=e dbo:locatedInArea dbr:Puno_Region", "class=Mountain" ],
+    "5" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.496", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
+    "6" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.496", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "7" : [ "pair=dbr:Department_of_JunÃ­n", "Coherence=0.495", "triple=e dbp:location dbr:Department_of_JunÃ­n", "class=Mountain" ],
+    "8" : [ "pair=dbr:JunÃ­n_Region", "Coherence=0.495", "triple=e dbo:locatedInArea dbr:JunÃ­n_Region", "class=Mountain" ],
+    "9" : [ "pair=dbr:Quechuan_languages", "Coherence=0.495", "triple=e dbp:language dbr:Quechuan_languages", "class=Mountain" ],
+    "10" : [ "pair=dbr:Department_of_Lima", "Coherence=0.492", "triple=e dbp:location dbr:Department_of_Lima", "class=Mountain" ],
+    "11" : [ "pair=dbr:Cusco_Region", "Coherence=0.491", "triple=e dbo:locatedInArea dbr:Cusco_Region", "class=Mountain" ],
+    "12" : [ "pair=\"Peru\"@en", "Coherence=0.49", "triple=e dbp:mapCaption \"Peru\"@en", "class=Mountain" ],
+    "13" : [ "pair=dbr:Lima_Region", "Coherence=0.489", "triple=e dbo:locatedInArea dbr:Lima_Region", "class=Mountain" ],
+    "14" : [ "pair=dbr:Department_of_Cuzco", "Coherence=0.489", "triple=e dbp:location dbr:Department_of_Cuzco", "class=Mountain" ]
   }
 }, {
-  "id" : 78,
+  "id" : 76,
   "pattern" : "serbia",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Serbia", "Coherence=0.496", "triple=e_dbo:locatedInArea dbr:Serbia", "class=Mountain" ],
-    "1" : [ "pair=\"Location in Serbia\"@en", "Coherence=0.495", "triple=e_dbp:mapCaption \"Location in Serbia\"@en", "class=Mountain" ]
+    "0" : [ "pair=dbr:Serbia", "Coherence=0.496", "triple=e dbo:locatedInArea dbr:Serbia", "class=Mountain" ],
+    "1" : [ "pair=\"Location in Serbia\"@en", "Coherence=0.495", "triple=e dbp:mapCaption \"Location in Serbia\"@en", "class=Mountain" ]
   }
 }, {
-  "id" : 79,
+  "id" : 77,
   "pattern" : "south",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:South_Korea", "Coherence=0.497", "triple=e_dbo:locatedInArea dbr:South_Korea", "class=Mountain" ]
+    "0" : [ "pair=dbr:South_Korea", "Coherence=0.497", "triple=e dbo:locatedInArea dbr:South_Korea", "class=Mountain" ]
   }
 }, {
-  "id" : 80,
+  "id" : 78,
   "pattern" : "south korea",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:South_Korea", "Coherence=0.49", "triple=e_dbo:locatedInArea dbr:South_Korea", "class=Mountain" ]
+    "0" : [ "pair=dbr:South_Korea", "Coherence=0.49", "triple=e dbo:locatedInArea dbr:South_Korea", "class=Mountain" ]
   }
 }, {
-  "id" : 81,
+  "id" : 79,
   "pattern" : "spain",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Catalonia", "Coherence=0.489", "triple=e_dbp:location dbr:Catalonia", "class=Mountain" ]
+    "0" : [ "pair=dbr:Catalonia", "Coherence=0.489", "triple=e dbp:location dbr:Catalonia", "class=Mountain" ]
   }
 }, {
-  "id" : 82,
+  "id" : 80,
   "pattern" : "vilcanota",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
-    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ]
+    "0" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
+    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ]
   }
 }, {
-  "id" : 83,
+  "id" : 81,
   "pattern" : "vilcanota mountain",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
-    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ]
+    "0" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
+    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ]
   }
 }, {
-  "id" : 84,
+  "id" : 82,
   "pattern" : "vilcanota mountain\u001Crange",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
-    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ]
+    "0" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
+    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ]
   }
 }, {
-  "id" : 85,
+  "id" : 83,
   "pattern" : "vilcanota mountain\u001Crange\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.496", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "1" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.492", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
+    "0" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.496", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "1" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.492", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
   }
 }, {
-  "id" : 86,
+  "id" : 84,
   "pattern" : "vilcanota mountain range",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
-    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ]
+    "0" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.5", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ],
+    "1" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.5", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ]
   }
 }, {
-  "id" : 87,
+  "id" : 85,
   "pattern" : "vilcanota mountain range\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.496", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "1" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.492", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
+    "0" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.496", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "1" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.492", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
   }
 }, {
-  "id" : 88,
+  "id" : 86,
   "pattern" : "vilcanota mountain range\u001Cin\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.496", "triple=e_dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
-    "1" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.492", "triple=e_dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
+    "0" : [ "pair=dbr:Vilcanota_mountain_range", "Coherence=0.496", "triple=e dbo:mountainRange dbr:Vilcanota_mountain_range", "class=Mountain" ],
+    "1" : [ "pair=dbr:Cordillera_Vilcanota", "Coherence=0.492", "triple=e dbp:range dbr:Cordillera_Vilcanota", "class=Mountain" ]
   }
 }, {
-  "id" : 89,
+  "id" : 87,
   "pattern" : "wyoming",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Location in Wyoming##Location in the United States\"@en", "Coherence=0.5", "triple=e_dbp:mapCaption \"Location in Wyoming##Location in the United States\"@en", "class=Mountain" ]
+    "0" : [ "pair=\"Location in Wyoming##Location in the United States\"@en", "Coherence=0.5", "triple=e dbp:mapCaption \"Location in Wyoming##Location in the United States\"@en", "class=Mountain" ]
   }
 }, {
-  "id" : 90,
+  "id" : 88,
   "pattern" : "york",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Coherence=0.497", "triple=e_dbo:locatedInArea dbr:New_York_(state", "class=Mountain" ]
+    "0" : [ "pair=dbr:New_York_(state", "Coherence=0.497", "triple=e dbo:locatedInArea dbr:New_York_(state", "class=Mountain" ]
   }
 } ]

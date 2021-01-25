@@ -3,668 +3,668 @@
   "pattern" : "25,000",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"25000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.358", "triple=e_dbo:seatingCapacity \"25000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ]
+    "0" : [ "pair=\"25000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.358", "triple=e dbo:seatingCapacity \"25000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ]
   }
 }, {
   "id" : 2,
   "pattern" : "arena",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Parquetry", "Coherence=0.5", "triple=e_dbp:surface dbr:Parquetry", "class=Venue" ],
-    "1" : [ "pair=\"Multi-surface\"@en", "Coherence=0.476", "triple=e_dbp:surface \"Multi-surface\"@en", "class=Venue" ],
-    "2" : [ "pair=\"Hardwood\"@en", "Coherence=0.455", "triple=e_dbp:surface \"Hardwood\"@en", "class=Venue" ],
-    "3" : [ "pair=dbr:Japan", "Coherence=0.381", "triple=e_dbp:location dbr:Japan", "class=Venue" ],
-    "4" : [ "pair=\"Venue\"@en", "Coherence=0.357", "triple=e_dbp:title \"Venue\"@en", "class=Venue" ]
+    "0" : [ "pair=dbr:Parquetry", "Coherence=0.5", "triple=e dbp:surface dbr:Parquetry", "class=Venue" ],
+    "1" : [ "pair=\"Multi-surface\"@en", "Coherence=0.476", "triple=e dbp:surface \"Multi-surface\"@en", "class=Venue" ],
+    "2" : [ "pair=\"Hardwood\"@en", "Coherence=0.455", "triple=e dbp:surface \"Hardwood\"@en", "class=Venue" ],
+    "3" : [ "pair=dbr:Japan", "Coherence=0.381", "triple=e dbp:location dbr:Japan", "class=Venue" ],
+    "4" : [ "pair=\"Venue\"@en", "Coherence=0.357", "triple=e dbp:title \"Venue\"@en", "class=Venue" ]
   }
 }, {
   "id" : 3,
   "pattern" : "baseball",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Center Field:\"@en", "Coherence=0.484", "triple=e_dbp:dimensions \"Center Field:\"@en", "class=Venue" ],
-    "1" : [ "pair=\"Right Field:\"@en", "Coherence=0.481", "triple=e_dbp:dimensions \"Right Field:\"@en", "class=Venue" ],
-    "2" : [ "pair=\"Left Field:\"@en", "Coherence=0.477", "triple=e_dbp:dimensions \"Left Field:\"@en", "class=Venue" ],
-    "3" : [ "pair=\"Left field:\"@en", "Coherence=0.47", "triple=e_dbp:dimensions \"Left field:\"@en", "class=Venue" ],
-    "4" : [ "pair=\"Center field:\"@en", "Coherence=0.47", "triple=e_dbp:dimensions \"Center field:\"@en", "class=Venue" ],
-    "5" : [ "pair=\"Right field:\"@en", "Coherence=0.468", "triple=e_dbp:dimensions \"Right field:\"@en", "class=Venue" ],
-    "6" : [ "pair=\"Electronic\"@en", "Coherence=0.439", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Center Field:\"@en", "Coherence=0.484", "triple=e dbp:dimensions \"Center Field:\"@en", "class=Venue" ],
+    "1" : [ "pair=\"Right Field:\"@en", "Coherence=0.481", "triple=e dbp:dimensions \"Right Field:\"@en", "class=Venue" ],
+    "2" : [ "pair=\"Left Field:\"@en", "Coherence=0.477", "triple=e dbp:dimensions \"Left Field:\"@en", "class=Venue" ],
+    "3" : [ "pair=\"Left field:\"@en", "Coherence=0.47", "triple=e dbp:dimensions \"Left field:\"@en", "class=Venue" ],
+    "4" : [ "pair=\"Center field:\"@en", "Coherence=0.47", "triple=e dbp:dimensions \"Center field:\"@en", "class=Venue" ],
+    "5" : [ "pair=\"Right field:\"@en", "Coherence=0.468", "triple=e dbp:dimensions \"Right field:\"@en", "class=Venue" ],
+    "6" : [ "pair=\"Electronic\"@en", "Coherence=0.439", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
   }
 }, {
   "id" : 4,
   "pattern" : "baseball\u001Cvenue",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.385", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.385", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
   }
 }, {
   "id" : 5,
   "pattern" : "baseball team",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.412", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.412", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
   }
 }, {
   "id" : 6,
   "pattern" : "baseball venue",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.392", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.392", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
   }
 }, {
   "id" : 7,
   "pattern" : "basketball",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Hardwood\"@en", "Coherence=0.445", "triple=e_dbp:surface \"Hardwood\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Hardwood\"@en", "Coherence=0.445", "triple=e dbp:surface \"Hardwood\"@en", "class=Venue" ]
   }
 }, {
   "id" : 8,
   "pattern" : "brazil",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Brazil", "Coherence=0.461", "triple=e_dbp:location dbr:Brazil", "class=Venue" ]
+    "0" : [ "pair=dbr:Brazil", "Coherence=0.461", "triple=e dbp:location dbr:Brazil", "class=Venue" ]
   }
 }, {
   "id" : 9,
   "pattern" : "california",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:California", "Coherence=0.465", "triple=e_dbo:location dbr:California", "class=Venue" ]
+    "0" : [ "pair=dbr:California", "Coherence=0.465", "triple=e dbo:location dbr:California", "class=Venue" ]
   }
 }, {
   "id" : 10,
   "pattern" : "canada",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ontario", "Coherence=0.426", "triple=e_dbo:location dbr:Ontario", "class=Venue" ]
+    "0" : [ "pair=dbr:Ontario", "Coherence=0.426", "triple=e dbo:location dbr:Ontario", "class=Venue" ]
   }
 }, {
   "id" : 11,
   "pattern" : "capacity",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Parquetry", "Coherence=0.477", "triple=e_dbp:surface dbr:Parquetry", "class=Venue" ],
-    "1" : [ "pair=dbr:Brazil", "Coherence=0.416", "triple=e_dbp:location dbr:Brazil", "class=Venue" ],
-    "2" : [ "pair=dbr:Turkey", "Coherence=0.41", "triple=e_dbo:location dbr:Turkey", "class=Venue" ],
-    "3" : [ "pair=\"Electronic\"@en", "Coherence=0.395", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
+    "0" : [ "pair=dbr:Parquetry", "Coherence=0.477", "triple=e dbp:surface dbr:Parquetry", "class=Venue" ],
+    "1" : [ "pair=dbr:Brazil", "Coherence=0.416", "triple=e dbp:location dbr:Brazil", "class=Venue" ],
+    "2" : [ "pair=dbr:Turkey", "Coherence=0.41", "triple=e dbo:location dbr:Turkey", "class=Venue" ],
+    "3" : [ "pair=\"Electronic\"@en", "Coherence=0.395", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
   }
 }, {
   "id" : 12,
   "pattern" : "china",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:China", "Coherence=0.493", "triple=e_dbp:location dbr:China", "class=Venue" ]
+    "0" : [ "pair=dbr:China", "Coherence=0.493", "triple=e dbp:location dbr:China", "class=Venue" ]
   }
 }, {
   "id" : 13,
   "pattern" : "club",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Nightclub", "Coherence=0.355", "triple=e_dbp:type dbr:Nightclub", "class=Venue" ]
+    "0" : [ "pair=dbr:Nightclub", "Coherence=0.355", "triple=e dbp:type dbr:Nightclub", "class=Venue" ]
   }
 }, {
   "id" : 14,
   "pattern" : "currently",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.431", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.431", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 22,
   "pattern" : "currently used mostly\u001Cfor\u001Cfootball",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.395", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.395", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 23,
   "pattern" : "division",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.398", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.398", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
   }
 }, {
   "id" : 24,
   "pattern" : "england",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:England", "Coherence=0.429", "triple=e_dbo:location dbr:England", "class=Venue" ]
+    "0" : [ "pair=dbr:England", "Coherence=0.429", "triple=e dbo:location dbr:England", "class=Venue" ]
   }
 }, {
   "id" : 25,
   "pattern" : "estã¡dio",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Brazil", "Coherence=0.448", "triple=e_dbp:location dbr:Brazil", "class=Venue" ]
+    "0" : [ "pair=dbr:Brazil", "Coherence=0.448", "triple=e dbp:location dbr:Brazil", "class=Venue" ]
   }
 }, {
   "id" : 26,
   "pattern" : "football",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.466", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
-    "1" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.459", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ],
-    "2" : [ "pair=dbr:Indonesia", "Coherence=0.456", "triple=e_dbp:location dbr:Indonesia", "class=Venue" ],
-    "3" : [ "pair=dbr:Scotland", "Coherence=0.441", "triple=e_dbp:location dbr:Scotland", "class=Venue" ],
-    "4" : [ "pair=dbr:Artificial_turf", "Coherence=0.438", "triple=e_dbp:surface dbr:Artificial_turf", "class=Venue" ],
-    "5" : [ "pair=dbr:Poaceae", "Coherence=0.438", "triple=e_dbp:surface dbr:Poaceae", "class=Venue" ],
-    "6" : [ "pair=dbr:Lawn", "Coherence=0.432", "triple=e_dbp:surface dbr:Lawn", "class=Venue" ],
-    "7" : [ "pair=dbr:Romania", "Coherence=0.414", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
-    "8" : [ "pair=\"25000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.406", "triple=e_dbo:seatingCapacity \"25000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "9" : [ "pair=\"grass\"@en", "Coherence=0.405", "triple=e_dbp:surface \"grass\"@en", "class=Venue" ],
-    "10" : [ "pair=dbr:FieldTurf", "Coherence=0.398", "triple=e_dbp:surface dbr:FieldTurf", "class=Venue" ],
-    "11" : [ "pair=dbr:Brazil", "Coherence=0.393", "triple=e_dbp:location dbr:Brazil", "class=Venue" ],
-    "12" : [ "pair=\"Grass\"@en", "Coherence=0.388", "triple=e_dbp:surface \"Grass\"@en", "class=Venue" ],
-    "13" : [ "pair=\"20000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.383", "triple=e_dbo:seatingCapacity \"20000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "14" : [ "pair=dbr:England", "Coherence=0.374", "triple=e_dbp:location dbr:England", "class=Venue" ],
-    "15" : [ "pair=dbr:Spain", "Coherence=0.373", "triple=e_dbp:location dbr:Spain", "class=Venue" ],
-    "16" : [ "pair=\"15000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.368", "triple=e_dbo:seatingCapacity \"15000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "17" : [ "pair=\"Yes\"@en", "Coherence=0.362", "triple=e_dbp:scoreboard \"Yes\"@en", "class=Venue" ],
-    "18" : [ "pair=\"12000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.359", "triple=e_dbo:seatingCapacity \"12000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "19" : [ "pair=\"30000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.359", "triple=e_dbo:seatingCapacity \"30000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.466", "triple=e dbp:location dbr:Thailand", "class=Venue" ],
+    "1" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.459", "triple=e dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ],
+    "2" : [ "pair=dbr:Indonesia", "Coherence=0.456", "triple=e dbp:location dbr:Indonesia", "class=Venue" ],
+    "3" : [ "pair=dbr:Scotland", "Coherence=0.441", "triple=e dbp:location dbr:Scotland", "class=Venue" ],
+    "4" : [ "pair=dbr:Artificial_turf", "Coherence=0.438", "triple=e dbp:surface dbr:Artificial_turf", "class=Venue" ],
+    "5" : [ "pair=dbr:Poaceae", "Coherence=0.438", "triple=e dbp:surface dbr:Poaceae", "class=Venue" ],
+    "6" : [ "pair=dbr:Lawn", "Coherence=0.432", "triple=e dbp:surface dbr:Lawn", "class=Venue" ],
+    "7" : [ "pair=dbr:Romania", "Coherence=0.414", "triple=e dbp:location dbr:Romania", "class=Venue" ],
+    "8" : [ "pair=\"25000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.406", "triple=e dbo:seatingCapacity \"25000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "9" : [ "pair=\"grass\"@en", "Coherence=0.405", "triple=e dbp:surface \"grass\"@en", "class=Venue" ],
+    "10" : [ "pair=dbr:FieldTurf", "Coherence=0.398", "triple=e dbp:surface dbr:FieldTurf", "class=Venue" ],
+    "11" : [ "pair=dbr:Brazil", "Coherence=0.393", "triple=e dbp:location dbr:Brazil", "class=Venue" ],
+    "12" : [ "pair=\"Grass\"@en", "Coherence=0.388", "triple=e dbp:surface \"Grass\"@en", "class=Venue" ],
+    "13" : [ "pair=\"20000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.383", "triple=e dbo:seatingCapacity \"20000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "14" : [ "pair=dbr:England", "Coherence=0.374", "triple=e dbp:location dbr:England", "class=Venue" ],
+    "15" : [ "pair=dbr:Spain", "Coherence=0.373", "triple=e dbp:location dbr:Spain", "class=Venue" ],
+    "16" : [ "pair=\"15000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.368", "triple=e dbo:seatingCapacity \"15000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "17" : [ "pair=\"Yes\"@en", "Coherence=0.362", "triple=e dbp:scoreboard \"Yes\"@en", "class=Venue" ],
+    "18" : [ "pair=\"12000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.359", "triple=e dbo:seatingCapacity \"12000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "19" : [ "pair=\"30000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.359", "triple=e dbo:seatingCapacity \"30000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ]
   }
 }, {
   "id" : 27,
   "pattern" : "football matches",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.435", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
-    "1" : [ "pair=dbr:Romania", "Coherence=0.365", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.435", "triple=e dbp:location dbr:Thailand", "class=Venue" ],
+    "1" : [ "pair=dbr:Romania", "Coherence=0.365", "triple=e dbp:location dbr:Romania", "class=Venue" ]
   }
 }, {
   "id" : 28,
   "pattern" : "france",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:France", "Coherence=0.475", "triple=e_dbo:location dbr:France", "class=Venue" ]
+    "0" : [ "pair=dbr:France", "Coherence=0.475", "triple=e dbo:location dbr:France", "class=Venue" ]
   }
 }, {
   "id" : 29,
   "pattern" : "germany",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Germany", "Coherence=0.458", "triple=e_dbo:location dbr:Germany", "class=Venue" ]
+    "0" : [ "pair=dbr:Germany", "Coherence=0.458", "triple=e dbo:location dbr:Germany", "class=Venue" ]
   }
 }, {
   "id" : 30,
   "pattern" : "ground",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Romania", "Coherence=0.445", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
-    "1" : [ "pair=dbr:Scotland", "Coherence=0.419", "triple=e_dbp:location dbr:Scotland", "class=Venue" ]
+    "0" : [ "pair=dbr:Romania", "Coherence=0.445", "triple=e dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=dbr:Scotland", "Coherence=0.419", "triple=e dbp:location dbr:Scotland", "class=Venue" ]
   }
 }, {
   "id" : 32,
   "pattern" : "home",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Center Field:\"@en", "Coherence=0.48", "triple=e_dbp:dimensions \"Center Field:\"@en", "class=Venue" ],
-    "1" : [ "pair=\"Left Field:\"@en", "Coherence=0.477", "triple=e_dbp:dimensions \"Left Field:\"@en", "class=Venue" ],
-    "2" : [ "pair=\"Right field:\"@en", "Coherence=0.477", "triple=e_dbp:dimensions \"Right field:\"@en", "class=Venue" ],
-    "3" : [ "pair=\"Right Field:\"@en", "Coherence=0.477", "triple=e_dbp:dimensions \"Right Field:\"@en", "class=Venue" ],
-    "4" : [ "pair=\"Left field:\"@en", "Coherence=0.474", "triple=e_dbp:dimensions \"Left field:\"@en", "class=Venue" ],
-    "5" : [ "pair=\"Center field:\"@en", "Coherence=0.474", "triple=e_dbp:dimensions \"Center field:\"@en", "class=Venue" ],
-    "6" : [ "pair=\"Electronic\"@en", "Coherence=0.47", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ],
-    "7" : [ "pair=dbr:Scotland", "Coherence=0.453", "triple=e_dbp:location dbr:Scotland", "class=Venue" ],
-    "8" : [ "pair=dbr:Romania", "Coherence=0.45", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
-    "9" : [ "pair=dbr:FieldTurf", "Coherence=0.443", "triple=e_dbp:surface dbr:FieldTurf", "class=Venue" ],
-    "10" : [ "pair=\"Natural grass\"@en", "Coherence=0.441", "triple=e_dbp:surface \"Natural grass\"@en", "class=Venue" ],
-    "11" : [ "pair=dbr:AstroTurf", "Coherence=0.438", "triple=e_dbp:surface dbr:AstroTurf", "class=Venue" ],
-    "12" : [ "pair=dbr:Artificial_turf", "Coherence=0.431", "triple=e_dbp:surface dbr:Artificial_turf", "class=Venue" ],
-    "13" : [ "pair=\"grass\"@en", "Coherence=0.43", "triple=e_dbp:surface \"grass\"@en", "class=Venue" ],
-    "14" : [ "pair=dbr:Populous_(company", "Coherence=0.427", "triple=e_dbo:architect dbr:Populous_(company", "class=Venue" ],
-    "15" : [ "pair=\"\"@en", "Coherence=0.426", "triple=e_dbp:constructionCost \"\"@en", "class=Venue" ],
-    "16" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.424", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ],
-    "17" : [ "pair=dbr:Poaceae", "Coherence=0.421", "triple=e_dbp:surface dbr:Poaceae", "class=Venue" ],
-    "18" : [ "pair=\"Yes\"@en", "Coherence=0.42", "triple=e_dbp:scoreboard \"Yes\"@en", "class=Venue" ],
-    "19" : [ "pair=\"Grass\"@en", "Coherence=0.415", "triple=e_dbp:surface \"Grass\"@en", "class=Venue" ],
-    "20" : [ "pair=\"Hardwood\"@en", "Coherence=0.406", "triple=e_dbp:surface \"Hardwood\"@en", "class=Venue" ],
-    "21" : [ "pair=\"current\"@en", "Coherence=0.403", "triple=e_dbp:after \"current\"@en", "class=Venue" ],
-    "22" : [ "pair=dbr:Thailand", "Coherence=0.4", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
-    "23" : [ "pair=\"5500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.4", "triple=e_dbo:seatingCapacity \"5500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "24" : [ "pair=\"4500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.398", "triple=e_dbo:seatingCapacity \"4500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "25" : [ "pair=dbr:Italy", "Coherence=0.397", "triple=e_dbo:location dbr:Italy", "class=Venue" ],
-    "26" : [ "pair=dbr:United_States", "Coherence=0.396", "triple=e_dbo:location dbr:United_States", "class=Venue" ],
-    "27" : [ "pair=dbr:England", "Coherence=0.394", "triple=e_dbp:location dbr:England", "class=Venue" ],
-    "28" : [ "pair=\"Home of the\"@en", "Coherence=0.392", "triple=e_dbp:title \"Home of the\"@en", "class=Venue" ],
-    "29" : [ "pair=dbr:Lawn", "Coherence=0.391", "triple=e_dbp:surface dbr:Lawn", "class=Venue" ],
-    "30" : [ "pair=\"3500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.389", "triple=e_dbo:seatingCapacity \"3500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "31" : [ "pair=\"7000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.387", "triple=e_dbo:seatingCapacity \"7000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "32" : [ "pair=dbr:France", "Coherence=0.383", "triple=e_dbo:location dbr:France", "class=Venue" ],
-    "33" : [ "pair=\"Multi-surface\"@en", "Coherence=0.381", "triple=e_dbp:surface \"Multi-surface\"@en", "class=Venue" ],
-    "34" : [ "pair=\"8000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.377", "triple=e_dbo:seatingCapacity \"8000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "35" : [ "pair=\"4000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.374", "triple=e_dbo:seatingCapacity \"4000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "36" : [ "pair=\"12000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.367", "triple=e_dbo:seatingCapacity \"12000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "37" : [ "pair=dbr:Spain", "Coherence=0.367", "triple=e_dbp:location dbr:Spain", "class=Venue" ],
-    "38" : [ "pair=dbr:Turkey", "Coherence=0.365", "triple=e_dbo:location dbr:Turkey", "class=Venue" ],
-    "39" : [ "pair=\"10000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.363", "triple=e_dbo:seatingCapacity \"10000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "40" : [ "pair=\"1500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.362", "triple=e_dbo:seatingCapacity \"1500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "41" : [ "pair=\"2000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.36", "triple=e_dbo:seatingCapacity \"2000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "42" : [ "pair=\"1000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.359", "triple=e_dbo:seatingCapacity \"1000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "43" : [ "pair=\"2500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.357", "triple=e_dbo:seatingCapacity \"2500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "44" : [ "pair=\"5000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.357", "triple=e_dbo:seatingCapacity \"5000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ]
+    "0" : [ "pair=\"Center Field:\"@en", "Coherence=0.48", "triple=e dbp:dimensions \"Center Field:\"@en", "class=Venue" ],
+    "1" : [ "pair=\"Left Field:\"@en", "Coherence=0.477", "triple=e dbp:dimensions \"Left Field:\"@en", "class=Venue" ],
+    "2" : [ "pair=\"Right field:\"@en", "Coherence=0.477", "triple=e dbp:dimensions \"Right field:\"@en", "class=Venue" ],
+    "3" : [ "pair=\"Right Field:\"@en", "Coherence=0.477", "triple=e dbp:dimensions \"Right Field:\"@en", "class=Venue" ],
+    "4" : [ "pair=\"Left field:\"@en", "Coherence=0.474", "triple=e dbp:dimensions \"Left field:\"@en", "class=Venue" ],
+    "5" : [ "pair=\"Center field:\"@en", "Coherence=0.474", "triple=e dbp:dimensions \"Center field:\"@en", "class=Venue" ],
+    "6" : [ "pair=\"Electronic\"@en", "Coherence=0.47", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ],
+    "7" : [ "pair=dbr:Scotland", "Coherence=0.453", "triple=e dbp:location dbr:Scotland", "class=Venue" ],
+    "8" : [ "pair=dbr:Romania", "Coherence=0.45", "triple=e dbp:location dbr:Romania", "class=Venue" ],
+    "9" : [ "pair=dbr:FieldTurf", "Coherence=0.443", "triple=e dbp:surface dbr:FieldTurf", "class=Venue" ],
+    "10" : [ "pair=\"Natural grass\"@en", "Coherence=0.441", "triple=e dbp:surface \"Natural grass\"@en", "class=Venue" ],
+    "11" : [ "pair=dbr:AstroTurf", "Coherence=0.438", "triple=e dbp:surface dbr:AstroTurf", "class=Venue" ],
+    "12" : [ "pair=dbr:Artificial_turf", "Coherence=0.431", "triple=e dbp:surface dbr:Artificial_turf", "class=Venue" ],
+    "13" : [ "pair=\"grass\"@en", "Coherence=0.43", "triple=e dbp:surface \"grass\"@en", "class=Venue" ],
+    "14" : [ "pair=dbr:Populous_(company", "Coherence=0.427", "triple=e dbo:architect dbr:Populous_(company", "class=Venue" ],
+    "15" : [ "pair=\"\"@en", "Coherence=0.426", "triple=e dbp:constructionCost \"\"@en", "class=Venue" ],
+    "16" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.424", "triple=e dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ],
+    "17" : [ "pair=dbr:Poaceae", "Coherence=0.421", "triple=e dbp:surface dbr:Poaceae", "class=Venue" ],
+    "18" : [ "pair=\"Yes\"@en", "Coherence=0.42", "triple=e dbp:scoreboard \"Yes\"@en", "class=Venue" ],
+    "19" : [ "pair=\"Grass\"@en", "Coherence=0.415", "triple=e dbp:surface \"Grass\"@en", "class=Venue" ],
+    "20" : [ "pair=\"Hardwood\"@en", "Coherence=0.406", "triple=e dbp:surface \"Hardwood\"@en", "class=Venue" ],
+    "21" : [ "pair=\"current\"@en", "Coherence=0.403", "triple=e dbp:after \"current\"@en", "class=Venue" ],
+    "22" : [ "pair=dbr:Thailand", "Coherence=0.4", "triple=e dbp:location dbr:Thailand", "class=Venue" ],
+    "23" : [ "pair=\"5500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.4", "triple=e dbo:seatingCapacity \"5500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "24" : [ "pair=\"4500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.398", "triple=e dbo:seatingCapacity \"4500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "25" : [ "pair=dbr:Italy", "Coherence=0.397", "triple=e dbo:location dbr:Italy", "class=Venue" ],
+    "26" : [ "pair=dbr:United_States", "Coherence=0.396", "triple=e dbo:location dbr:United_States", "class=Venue" ],
+    "27" : [ "pair=dbr:England", "Coherence=0.394", "triple=e dbp:location dbr:England", "class=Venue" ],
+    "28" : [ "pair=\"Home of the\"@en", "Coherence=0.392", "triple=e dbp:title \"Home of the\"@en", "class=Venue" ],
+    "29" : [ "pair=dbr:Lawn", "Coherence=0.391", "triple=e dbp:surface dbr:Lawn", "class=Venue" ],
+    "30" : [ "pair=\"3500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.389", "triple=e dbo:seatingCapacity \"3500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "31" : [ "pair=\"7000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.387", "triple=e dbo:seatingCapacity \"7000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "32" : [ "pair=dbr:France", "Coherence=0.383", "triple=e dbo:location dbr:France", "class=Venue" ],
+    "33" : [ "pair=\"Multi-surface\"@en", "Coherence=0.381", "triple=e dbp:surface \"Multi-surface\"@en", "class=Venue" ],
+    "34" : [ "pair=\"8000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.377", "triple=e dbo:seatingCapacity \"8000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "35" : [ "pair=\"4000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.374", "triple=e dbo:seatingCapacity \"4000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "36" : [ "pair=\"12000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.367", "triple=e dbo:seatingCapacity \"12000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "37" : [ "pair=dbr:Spain", "Coherence=0.367", "triple=e dbp:location dbr:Spain", "class=Venue" ],
+    "38" : [ "pair=dbr:Turkey", "Coherence=0.365", "triple=e dbo:location dbr:Turkey", "class=Venue" ],
+    "39" : [ "pair=\"10000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.363", "triple=e dbo:seatingCapacity \"10000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "40" : [ "pair=\"1500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.362", "triple=e dbo:seatingCapacity \"1500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "41" : [ "pair=\"2000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.36", "triple=e dbo:seatingCapacity \"2000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "42" : [ "pair=\"1000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.359", "triple=e dbo:seatingCapacity \"1000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "43" : [ "pair=\"2500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.357", "triple=e dbo:seatingCapacity \"2500\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "44" : [ "pair=\"5000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.357", "triple=e dbo:seatingCapacity \"5000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ]
   }
 }, {
   "id" : 33,
   "pattern" : "home\u001Cground",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Romania", "Coherence=0.388", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+    "0" : [ "pair=dbr:Romania", "Coherence=0.388", "triple=e dbp:location dbr:Romania", "class=Venue" ]
   }
 }, {
   "id" : 34,
   "pattern" : "home\u001Cground\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Romania", "Coherence=0.388", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+    "0" : [ "pair=dbr:Romania", "Coherence=0.388", "triple=e dbp:location dbr:Romania", "class=Venue" ]
   }
 }, {
   "id" : 35,
   "pattern" : "home\u001Cstadium",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.369", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.369", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 36,
   "pattern" : "home\u001Cstadium\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.369", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.369", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 37,
   "pattern" : "home\u001Cto",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.359", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.359", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
   }
 }, {
   "id" : 38,
   "pattern" : "home\u001Cto\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.359", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.359", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
   }
 }, {
   "id" : 39,
   "pattern" : "home ground",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Romania", "Coherence=0.435", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
-    "1" : [ "pair=dbr:Scotland", "Coherence=0.358", "triple=e_dbo:location dbr:Scotland", "class=Venue" ]
+    "0" : [ "pair=dbr:Romania", "Coherence=0.435", "triple=e dbp:location dbr:Romania", "class=Venue" ],
+    "1" : [ "pair=dbr:Scotland", "Coherence=0.358", "triple=e dbo:location dbr:Scotland", "class=Venue" ]
   }
 }, {
   "id" : 40,
   "pattern" : "home ground\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Romania", "Coherence=0.43", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+    "0" : [ "pair=dbr:Romania", "Coherence=0.43", "triple=e dbp:location dbr:Romania", "class=Venue" ]
   }
 }, {
   "id" : 41,
   "pattern" : "home stadium",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.382", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.382", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 42,
   "pattern" : "home stadium\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.374", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.374", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 43,
   "pattern" : "home to\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.37", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.37", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
   }
 }, {
   "id" : 44,
   "pattern" : "indonesia",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Indonesia", "Coherence=0.495", "triple=e_dbp:location dbr:Indonesia", "class=Venue" ]
+    "0" : [ "pair=dbr:Indonesia", "Coherence=0.495", "triple=e dbp:location dbr:Indonesia", "class=Venue" ]
   }
 }, {
   "id" : 46,
   "pattern" : "italy",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Italy", "Coherence=0.482", "triple=e_dbo:location dbr:Italy", "class=Venue" ]
+    "0" : [ "pair=dbr:Italy", "Coherence=0.482", "triple=e dbo:location dbr:Italy", "class=Venue" ]
   }
 }, {
   "id" : 47,
   "pattern" : "japan",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Coherence=0.484", "triple=e_dbo:location dbr:Japan", "class=Venue" ]
+    "0" : [ "pair=dbr:Japan", "Coherence=0.484", "triple=e dbo:location dbr:Japan", "class=Venue" ]
   }
 }, {
   "id" : 49,
   "pattern" : "london",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:London", "Coherence=0.496", "triple=e_dbo:location dbr:London", "class=Venue" ]
+    "0" : [ "pair=dbr:London", "Coherence=0.496", "triple=e dbo:location dbr:London", "class=Venue" ]
   }
 }, {
   "id" : 50,
   "pattern" : "matches",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.435", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
-    "1" : [ "pair=dbr:Romania", "Coherence=0.388", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.435", "triple=e dbp:location dbr:Thailand", "class=Venue" ],
+    "1" : [ "pair=dbr:Romania", "Coherence=0.388", "triple=e dbp:location dbr:Romania", "class=Venue" ]
   }
 }, {
   "id" : 51,
   "pattern" : "mostly",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.408", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
-    "1" : [ "pair=dbr:Romania", "Coherence=0.372", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.408", "triple=e dbp:location dbr:Thailand", "class=Venue" ],
+    "1" : [ "pair=dbr:Romania", "Coherence=0.372", "triple=e dbp:location dbr:Romania", "class=Venue" ]
   }
 }, {
   "id" : 52,
   "pattern" : "mostly football",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.4", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
-    "1" : [ "pair=dbr:Romania", "Coherence=0.362", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.4", "triple=e dbp:location dbr:Thailand", "class=Venue" ],
+    "1" : [ "pair=dbr:Romania", "Coherence=0.362", "triple=e dbp:location dbr:Romania", "class=Venue" ]
   }
 }, {
   "id" : 53,
   "pattern" : "mostly football\u001Cmatches",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.4", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
-    "1" : [ "pair=dbr:Romania", "Coherence=0.362", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.4", "triple=e dbp:location dbr:Thailand", "class=Venue" ],
+    "1" : [ "pair=dbr:Romania", "Coherence=0.362", "triple=e dbp:location dbr:Romania", "class=Venue" ]
   }
 }, {
   "id" : 55,
   "pattern" : "multi-purpose\u001Cstadium",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.404", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.404", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 56,
   "pattern" : "multi-purpose\u001Cstadium\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.387", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.387", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 57,
   "pattern" : "multi-purpose arena",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Multi-surface\"@en", "Coherence=0.365", "triple=e_dbp:surface \"Multi-surface\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Multi-surface\"@en", "Coherence=0.365", "triple=e dbp:surface \"Multi-surface\"@en", "class=Venue" ]
   }
 }, {
   "id" : 58,
   "pattern" : "multi-purpose stadium",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.404", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.404", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 59,
   "pattern" : "multi-purpose stadium\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.387", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.387", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 60,
   "pattern" : "nightclub",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Nightclub", "Coherence=0.396", "triple=e_dbo:type dbr:Nightclub", "class=Venue" ]
+    "0" : [ "pair=dbr:Nightclub", "Coherence=0.396", "triple=e dbo:type dbr:Nightclub", "class=Venue" ]
   }
 }, {
   "id" : 61,
   "pattern" : "ontario",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ontario", "Coherence=0.474", "triple=e_dbo:location dbr:Ontario", "class=Venue" ]
+    "0" : [ "pair=dbr:Ontario", "Coherence=0.474", "triple=e dbo:location dbr:Ontario", "class=Venue" ]
   }
 }, {
   "id" : 62,
   "pattern" : "ontario canada",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ontario", "Coherence=0.414", "triple=e_dbo:location dbr:Ontario", "class=Venue" ]
+    "0" : [ "pair=dbr:Ontario", "Coherence=0.414", "triple=e dbo:location dbr:Ontario", "class=Venue" ]
   }
 }, {
   "id" : 63,
   "pattern" : "park",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Scotland", "Coherence=0.401", "triple=e_dbp:location dbr:Scotland", "class=Venue" ]
+    "0" : [ "pair=dbr:Scotland", "Coherence=0.401", "triple=e dbp:location dbr:Scotland", "class=Venue" ]
   }
 }, {
   "id" : 64,
   "pattern" : "people",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Romania", "Coherence=0.4", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+    "0" : [ "pair=dbr:Romania", "Coherence=0.4", "triple=e dbp:location dbr:Romania", "class=Venue" ]
   }
 }, {
   "id" : 65,
   "pattern" : "romania",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Romania", "Coherence=0.46", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+    "0" : [ "pair=dbr:Romania", "Coherence=0.46", "triple=e dbp:location dbr:Romania", "class=Venue" ]
   }
 }, {
   "id" : 66,
   "pattern" : "russia",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Russia", "Coherence=0.491", "triple=e_dbp:location dbr:Russia", "class=Venue" ]
+    "0" : [ "pair=dbr:Russia", "Coherence=0.491", "triple=e dbp:location dbr:Russia", "class=Venue" ]
   }
 }, {
   "id" : 68,
   "pattern" : "scotland",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Scotland", "Coherence=0.472", "triple=e_dbp:location dbr:Scotland", "class=Venue" ]
+    "0" : [ "pair=dbr:Scotland", "Coherence=0.472", "triple=e dbp:location dbr:Scotland", "class=Venue" ]
   }
 }, {
   "id" : 69,
   "pattern" : "spain",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Spain", "Coherence=0.431", "triple=e_dbp:location dbr:Spain", "class=Venue" ]
+    "0" : [ "pair=dbr:Spain", "Coherence=0.431", "triple=e dbp:location dbr:Spain", "class=Venue" ]
   }
 }, {
   "id" : 70,
   "pattern" : "stade",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:France", "Coherence=0.406", "triple=e_dbo:location dbr:France", "class=Venue" ]
+    "0" : [ "pair=dbr:France", "Coherence=0.406", "triple=e dbo:location dbr:France", "class=Venue" ]
   }
 }, {
   "id" : 71,
   "pattern" : "stadio",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Italy", "Coherence=0.375", "triple=e_dbo:location dbr:Italy", "class=Venue" ]
+    "0" : [ "pair=dbr:Italy", "Coherence=0.375", "triple=e dbo:location dbr:Italy", "class=Venue" ]
   }
 }, {
   "id" : 72,
   "pattern" : "stadionul",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Romania", "Coherence=0.375", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+    "0" : [ "pair=dbr:Romania", "Coherence=0.375", "triple=e dbp:location dbr:Romania", "class=Venue" ]
   }
 }, {
   "id" : 73,
   "pattern" : "stadium",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Indonesia", "Coherence=0.491", "triple=e_dbp:location dbr:Indonesia", "class=Venue" ],
-    "1" : [ "pair=\"UEFA\"@en", "Coherence=0.49", "triple=e_dbp:caption \"UEFA\"@en", "class=Venue" ],
-    "2" : [ "pair=\"4200.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.486", "triple=e_dbp:dimensions \"4200.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ],
-    "3" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.486", "triple=e_dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ],
-    "4" : [ "pair=dbr:AstroTurf", "Coherence=0.485", "triple=e_dbp:surface dbr:AstroTurf", "class=Venue" ],
-    "5" : [ "pair=dbr:Thailand", "Coherence=0.482", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
-    "6" : [ "pair=dbr:Lawn", "Coherence=0.481", "triple=e_dbp:surface dbr:Lawn", "class=Venue" ],
-    "7" : [ "pair=\"30000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.477", "triple=e_dbo:seatingCapacity \"30000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "8" : [ "pair=\"40000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.476", "triple=e_dbo:seatingCapacity \"40000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "9" : [ "pair=dbr:Poaceae", "Coherence=0.472", "triple=e_dbp:surface dbr:Poaceae", "class=Venue" ],
-    "10" : [ "pair=dbr:FieldTurf", "Coherence=0.47", "triple=e_dbp:surface dbr:FieldTurf", "class=Venue" ],
-    "11" : [ "pair=\"25000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.466", "triple=e_dbo:seatingCapacity \"25000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "12" : [ "pair=dbr:Romania", "Coherence=0.465", "triple=e_dbp:location dbr:Romania", "class=Venue" ],
-    "13" : [ "pair=dbr:Artificial_turf", "Coherence=0.465", "triple=e_dbp:surface dbr:Artificial_turf", "class=Venue" ],
-    "14" : [ "pair=\"grass\"@en", "Coherence=0.464", "triple=e_dbp:surface \"grass\"@en", "class=Venue" ],
-    "15" : [ "pair=\"Natural Grass\"@en", "Coherence=0.459", "triple=e_dbp:surface \"Natural Grass\"@en", "class=Venue" ],
-    "16" : [ "pair=\"Artificial turf\"@en", "Coherence=0.458", "triple=e_dbp:surface \"Artificial turf\"@en", "class=Venue" ],
-    "17" : [ "pair=\"20000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.454", "triple=e_dbo:seatingCapacity \"20000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "18" : [ "pair=dbr:Brazil", "Coherence=0.451", "triple=e_dbp:location dbr:Brazil", "class=Venue" ],
-    "19" : [ "pair=\"Grass\"@en", "Coherence=0.446", "triple=e_dbp:surface \"Grass\"@en", "class=Venue" ],
-    "20" : [ "pair=\"15000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.435", "triple=e_dbo:seatingCapacity \"15000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "21" : [ "pair=\"18000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.428", "triple=e_dbo:seatingCapacity \"18000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "22" : [ "pair=dbr:France", "Coherence=0.426", "triple=e_dbo:location dbr:France", "class=Venue" ],
-    "23" : [ "pair=\"Yes\"@en", "Coherence=0.425", "triple=e_dbp:scoreboard \"Yes\"@en", "class=Venue" ],
-    "24" : [ "pair=\"12000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.424", "triple=e_dbo:seatingCapacity \"12000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "25" : [ "pair=dbr:Spain", "Coherence=0.406", "triple=e_dbp:location dbr:Spain", "class=Venue" ],
-    "26" : [ "pair=\"Natural grass\"@en", "Coherence=0.403", "triple=e_dbp:surface \"Natural grass\"@en", "class=Venue" ],
-    "27" : [ "pair=\"10000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.402", "triple=e_dbo:seatingCapacity \"10000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "28" : [ "pair=dbr:Germany", "Coherence=0.402", "triple=e_dbp:location dbr:Germany", "class=Venue" ],
-    "29" : [ "pair=\"7000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.4", "triple=e_dbo:seatingCapacity \"7000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "30" : [ "pair=dbr:Populous_(company", "Coherence=0.395", "triple=e_dbp:architect dbr:Populous_(company", "class=Venue" ],
-    "31" : [ "pair=\"5000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.387", "triple=e_dbo:seatingCapacity \"5000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "32" : [ "pair=\"8000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.386", "triple=e_dbo:seatingCapacity \"8000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "33" : [ "pair=\"InternetArchiveBot\"@en", "Coherence=0.371", "triple=e_dbp:bot \"InternetArchiveBot\"@en", "class=Venue" ],
-    "34" : [ "pair=\"yes\"@en", "Coherence=0.37", "triple=e_dbp:fixAttempted \"yes\"@en", "class=Venue" ],
-    "35" : [ "pair=dbr:Italy", "Coherence=0.366", "triple=e_dbo:location dbr:Italy", "class=Venue" ],
-    "36" : [ "pair=\"6000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.365", "triple=e_dbo:seatingCapacity \"6000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
-    "37" : [ "pair=\"\"@en", "Coherence=0.364", "triple=e_dbp:formerNames \"\"@en", "class=Venue" ],
-    "38" : [ "pair=dbr:Turkey", "Coherence=0.357", "triple=e_dbo:location dbr:Turkey", "class=Venue" ]
+    "0" : [ "pair=dbr:Indonesia", "Coherence=0.491", "triple=e dbp:location dbr:Indonesia", "class=Venue" ],
+    "1" : [ "pair=\"UEFA\"@en", "Coherence=0.49", "triple=e dbp:caption \"UEFA\"@en", "class=Venue" ],
+    "2" : [ "pair=\"4200.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.486", "triple=e dbp:dimensions \"4200.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ],
+    "3" : [ "pair=\"4080.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.486", "triple=e dbp:dimensions \"4080.0\"^^<http://dbpedia.org/datatype/second>", "class=Venue" ],
+    "4" : [ "pair=dbr:AstroTurf", "Coherence=0.485", "triple=e dbp:surface dbr:AstroTurf", "class=Venue" ],
+    "5" : [ "pair=dbr:Thailand", "Coherence=0.482", "triple=e dbp:location dbr:Thailand", "class=Venue" ],
+    "6" : [ "pair=dbr:Lawn", "Coherence=0.481", "triple=e dbp:surface dbr:Lawn", "class=Venue" ],
+    "7" : [ "pair=\"30000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.477", "triple=e dbo:seatingCapacity \"30000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "8" : [ "pair=\"40000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.476", "triple=e dbo:seatingCapacity \"40000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "9" : [ "pair=dbr:Poaceae", "Coherence=0.472", "triple=e dbp:surface dbr:Poaceae", "class=Venue" ],
+    "10" : [ "pair=dbr:FieldTurf", "Coherence=0.47", "triple=e dbp:surface dbr:FieldTurf", "class=Venue" ],
+    "11" : [ "pair=\"25000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.466", "triple=e dbo:seatingCapacity \"25000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "12" : [ "pair=dbr:Romania", "Coherence=0.465", "triple=e dbp:location dbr:Romania", "class=Venue" ],
+    "13" : [ "pair=dbr:Artificial_turf", "Coherence=0.465", "triple=e dbp:surface dbr:Artificial_turf", "class=Venue" ],
+    "14" : [ "pair=\"grass\"@en", "Coherence=0.464", "triple=e dbp:surface \"grass\"@en", "class=Venue" ],
+    "15" : [ "pair=\"Natural Grass\"@en", "Coherence=0.459", "triple=e dbp:surface \"Natural Grass\"@en", "class=Venue" ],
+    "16" : [ "pair=\"Artificial turf\"@en", "Coherence=0.458", "triple=e dbp:surface \"Artificial turf\"@en", "class=Venue" ],
+    "17" : [ "pair=\"20000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.454", "triple=e dbo:seatingCapacity \"20000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "18" : [ "pair=dbr:Brazil", "Coherence=0.451", "triple=e dbp:location dbr:Brazil", "class=Venue" ],
+    "19" : [ "pair=\"Grass\"@en", "Coherence=0.446", "triple=e dbp:surface \"Grass\"@en", "class=Venue" ],
+    "20" : [ "pair=\"15000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.435", "triple=e dbo:seatingCapacity \"15000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "21" : [ "pair=\"18000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.428", "triple=e dbo:seatingCapacity \"18000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "22" : [ "pair=dbr:France", "Coherence=0.426", "triple=e dbo:location dbr:France", "class=Venue" ],
+    "23" : [ "pair=\"Yes\"@en", "Coherence=0.425", "triple=e dbp:scoreboard \"Yes\"@en", "class=Venue" ],
+    "24" : [ "pair=\"12000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.424", "triple=e dbo:seatingCapacity \"12000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "25" : [ "pair=dbr:Spain", "Coherence=0.406", "triple=e dbp:location dbr:Spain", "class=Venue" ],
+    "26" : [ "pair=\"Natural grass\"@en", "Coherence=0.403", "triple=e dbp:surface \"Natural grass\"@en", "class=Venue" ],
+    "27" : [ "pair=\"10000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.402", "triple=e dbo:seatingCapacity \"10000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "28" : [ "pair=dbr:Germany", "Coherence=0.402", "triple=e dbp:location dbr:Germany", "class=Venue" ],
+    "29" : [ "pair=\"7000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.4", "triple=e dbo:seatingCapacity \"7000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "30" : [ "pair=dbr:Populous_(company", "Coherence=0.395", "triple=e dbp:architect dbr:Populous_(company", "class=Venue" ],
+    "31" : [ "pair=\"5000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.387", "triple=e dbo:seatingCapacity \"5000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "32" : [ "pair=\"8000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.386", "triple=e dbo:seatingCapacity \"8000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "33" : [ "pair=\"InternetArchiveBot\"@en", "Coherence=0.371", "triple=e dbp:bot \"InternetArchiveBot\"@en", "class=Venue" ],
+    "34" : [ "pair=\"yes\"@en", "Coherence=0.37", "triple=e dbp:fixAttempted \"yes\"@en", "class=Venue" ],
+    "35" : [ "pair=dbr:Italy", "Coherence=0.366", "triple=e dbo:location dbr:Italy", "class=Venue" ],
+    "36" : [ "pair=\"6000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.365", "triple=e dbo:seatingCapacity \"6000\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=Venue" ],
+    "37" : [ "pair=\"\"@en", "Coherence=0.364", "triple=e dbp:formerNames \"\"@en", "class=Venue" ],
+    "38" : [ "pair=dbr:Turkey", "Coherence=0.357", "triple=e dbo:location dbr:Turkey", "class=Venue" ]
   }
 }, {
   "id" : 74,
   "pattern" : "stadium holds",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.387", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.387", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 75,
   "pattern" : "stadium thai",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.456", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.456", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 76,
   "pattern" : "states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.374", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.374", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
   }
 }, {
   "id" : 77,
   "pattern" : "sweden",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Sweden", "Coherence=0.47", "triple=e_dbo:location dbr:Sweden", "class=Venue" ]
+    "0" : [ "pair=dbr:Sweden", "Coherence=0.47", "triple=e dbo:location dbr:Sweden", "class=Venue" ]
   }
 }, {
   "id" : 78,
   "pattern" : "team",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.445", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.445", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
   }
 }, {
   "id" : 79,
   "pattern" : "thai",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.491", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.491", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 80,
   "pattern" : "thailand",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.497", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.497", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 81,
   "pattern" : "thailand is\u001Ccurrently",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.404", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.404", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 82,
   "pattern" : "thailand is\u001Ccurrently\u001Cused",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.4", "triple=e_dbp:location dbr:Thailand", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.4", "triple=e dbp:location dbr:Thailand", "class=Venue" ]
   }
 }, {
   "id" : 83,
   "pattern" : "theatre",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"United States\"@en", "Coherence=0.358", "triple=e_dbp:country \"United States\"@en", "class=Venue" ]
+    "0" : [ "pair=\"United States\"@en", "Coherence=0.358", "triple=e dbp:country \"United States\"@en", "class=Venue" ]
   }
 }, {
   "id" : 84,
   "pattern" : "turkey",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Turkey", "Coherence=0.484", "triple=e_dbo:location dbr:Turkey", "class=Venue" ]
+    "0" : [ "pair=dbr:Turkey", "Coherence=0.484", "triple=e dbo:location dbr:Turkey", "class=Venue" ]
   }
 }, {
   "id" : 86,
   "pattern" : "united",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.374", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.374", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
   }
 }, {
   "id" : 87,
   "pattern" : "united states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.374", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.374", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
   }
 }, {
   "id" : 88,
   "pattern" : "university",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Hardwood\"@en", "Coherence=0.398", "triple=e_dbp:surface \"Hardwood\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Hardwood\"@en", "Coherence=0.398", "triple=e dbp:surface \"Hardwood\"@en", "class=Venue" ]
   }
 }, {
   "id" : 91,
   "pattern" : "used mostly for\u001Cfootball",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.4", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
-    "1" : [ "pair=dbr:Romania", "Coherence=0.362", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.4", "triple=e dbp:location dbr:Thailand", "class=Venue" ],
+    "1" : [ "pair=dbr:Romania", "Coherence=0.362", "triple=e dbp:location dbr:Romania", "class=Venue" ]
   }
 }, {
   "id" : 92,
   "pattern" : "used mostly for\u001Cfootball\u001Cmatches",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Coherence=0.4", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
-    "1" : [ "pair=dbr:Romania", "Coherence=0.362", "triple=e_dbp:location dbr:Romania", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Coherence=0.4", "triple=e dbp:location dbr:Thailand", "class=Venue" ],
+    "1" : [ "pair=dbr:Romania", "Coherence=0.362", "triple=e dbp:location dbr:Romania", "class=Venue" ]
   }
 }, {
   "id" : 93,
   "pattern" : "venue",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.408", "triple=e_dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
+    "0" : [ "pair=\"Electronic\"@en", "Coherence=0.408", "triple=e dbp:scoreboard \"Electronic\"@en", "class=Venue" ]
   }
 } ]

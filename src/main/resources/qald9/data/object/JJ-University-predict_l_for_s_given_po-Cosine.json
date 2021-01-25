@@ -3,73 +3,73 @@
   "pattern" : "chinese",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"China\"@en", "Cosine=0.983", "triple=e_dbp:country \"China\"@en", "class=University" ],
-    "1" : [ "pair=dbr:China", "Cosine=0.944", "triple=e_dbo:country dbr:China", "class=University" ]
+    "0" : [ "pair=\"China\"@en", "Cosine=0.983", "triple=e dbp:country \"China\"@en", "class=University" ],
+    "1" : [ "pair=dbr:China", "Cosine=0.944", "triple=e dbo:country dbr:China", "class=University" ]
   }
 }, {
   "id" : 28,
   "pattern" : "french",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:France", "Cosine=0.855", "triple=e_dbp:country dbr:France", "class=University" ]
+    "0" : [ "pair=dbr:France", "Cosine=0.855", "triple=e dbp:country dbr:France", "class=University" ]
   }
 }, {
   "id" : 30,
   "pattern" : "german",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Germany", "Cosine=0.816", "triple=e_dbp:country dbr:Germany", "class=University" ]
+    "0" : [ "pair=dbr:Germany", "Cosine=0.816", "triple=e dbp:country dbr:Germany", "class=University" ]
   }
 }, {
   "id" : 41,
   "pattern" : "located",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Higher_Education_Commission_(Pakistan", "Cosine=0.821", "triple=e_dbo:affiliation dbr:Higher_Education_Commission_(Pakistan", "class=University" ],
-    "1" : [ "pair=dbr:Pakistan", "Cosine=0.814", "triple=e_dbp:country dbr:Pakistan", "class=University" ],
-    "2" : [ "pair=dbr:Tamil_Nadu", "Cosine=0.795", "triple=e_dbp:state dbr:Tamil_Nadu", "class=University" ]
+    "0" : [ "pair=dbr:Higher_Education_Commission_(Pakistan", "Cosine=0.821", "triple=e dbo:affiliation dbr:Higher_Education_Commission_(Pakistan", "class=University" ],
+    "1" : [ "pair=dbr:Pakistan", "Cosine=0.814", "triple=e dbp:country dbr:Pakistan", "class=University" ],
+    "2" : [ "pair=dbr:Tamil_Nadu", "Cosine=0.795", "triple=e dbp:state dbr:Tamil_Nadu", "class=University" ]
   }
 }, {
   "id" : 65,
   "pattern" : "private",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:National_Association_of_Independent_Colleges_and_Universities", "Cosine=0.941", "triple=e_dbp:affiliations dbr:National_Association_of_Independent_Colleges_and_Universities", "class=University" ],
-    "1" : [ "pair=dbr:NCAA_Division_III", "Cosine=0.872", "triple=e_dbp:athletics dbr:NCAA_Division_III", "class=University" ],
-    "2" : [ "pair=\"Japan\"@en", "Cosine=0.845", "triple=e_dbp:country \"Japan\"@en", "class=University" ],
-    "3" : [ "pair=dbr:Private_University", "Cosine=0.834", "triple=e_dbo:type dbr:Private_University", "class=University" ],
-    "4" : [ "pair=dbr:Private_university", "Cosine=0.819", "triple=e_dbp:type dbr:Private_university", "class=University" ],
-    "5" : [ "pair=dbr:Japan", "Cosine=0.818", "triple=e_dbo:country dbr:Japan", "class=University" ]
+    "0" : [ "pair=dbr:National_Association_of_Independent_Colleges_and_Universities", "Cosine=0.941", "triple=e dbp:affiliations dbr:National_Association_of_Independent_Colleges_and_Universities", "class=University" ],
+    "1" : [ "pair=dbr:NCAA_Division_III", "Cosine=0.872", "triple=e dbp:athletics dbr:NCAA_Division_III", "class=University" ],
+    "2" : [ "pair=\"Japan\"@en", "Cosine=0.845", "triple=e dbp:country \"Japan\"@en", "class=University" ],
+    "3" : [ "pair=dbr:Private_University", "Cosine=0.834", "triple=e dbo:type dbr:Private_University", "class=University" ],
+    "4" : [ "pair=dbr:Private_university", "Cosine=0.819", "triple=e dbp:type dbr:Private_university", "class=University" ],
+    "5" : [ "pair=dbr:Japan", "Cosine=0.818", "triple=e dbo:country dbr:Japan", "class=University" ]
   }
 }, {
   "id" : 76,
   "pattern" : "russian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Russia", "Cosine=0.823", "triple=e_dbp:country dbr:Russia", "class=University" ]
+    "0" : [ "pair=dbr:Russia", "Cosine=0.823", "triple=e dbp:country dbr:Russia", "class=University" ]
   }
 }, {
   "id" : 78,
   "pattern" : "seminary",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Seminary", "Cosine=0.902", "triple=e_dbp:type dbr:Seminary", "class=University" ]
+    "0" : [ "pair=dbr:Seminary", "Cosine=0.902", "triple=e dbp:type dbr:Seminary", "class=University" ]
   }
 }, {
   "id" : 86,
   "pattern" : "turkish",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Turkey", "Cosine=0.813", "triple=e_dbp:country dbr:Turkey", "class=University" ]
+    "0" : [ "pair=dbr:Turkey", "Cosine=0.813", "triple=e dbp:country dbr:Turkey", "class=University" ]
   }
 }, {
   "id" : 87,
   "pattern" : "undergraduate",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Undergraduate college\"@en", "Cosine=0.95", "triple=e_dbp:type \"Undergraduate college\"@en", "class=University" ],
-    "1" : [ "pair=\"Undergraduate college Public college\"@en", "Cosine=0.904", "triple=e_dbp:type \"Undergraduate college Public college\"@en", "class=University" ],
-    "2" : [ "pair=\"India West Bengal#India\"@en", "Cosine=0.866", "triple=e_dbp:pushpinMap \"India West Bengal#India\"@en", "class=University" ],
-    "3" : [ "pair=dbr:West_Bengal", "Cosine=0.786", "triple=e_dbp:state dbr:West_Bengal", "class=University" ]
+    "0" : [ "pair=\"Undergraduate college\"@en", "Cosine=0.95", "triple=e dbp:type \"Undergraduate college\"@en", "class=University" ],
+    "1" : [ "pair=\"Undergraduate college Public college\"@en", "Cosine=0.904", "triple=e dbp:type \"Undergraduate college Public college\"@en", "class=University" ],
+    "2" : [ "pair=\"India West Bengal#India\"@en", "Cosine=0.866", "triple=e dbp:pushpinMap \"India West Bengal#India\"@en", "class=University" ],
+    "3" : [ "pair=dbr:West_Bengal", "Cosine=0.786", "triple=e dbp:state dbr:West_Bengal", "class=University" ]
   }
 } ]

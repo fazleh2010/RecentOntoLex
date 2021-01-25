@@ -3,22 +3,22 @@
   "pattern" : "a\u001Csub-prefecture",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Regions_of_Ivory_Coast", "Kulczynski=1.0", "triple=e_dbp:subdivisionType dbr:Regions_of_Ivory_Coast", "class=Town" ],
-    "1" : [ "pair=dbr:Departments_of_Ivory_Coast", "Kulczynski=1.0", "triple=e_dbp:subdivisionType dbr:Departments_of_Ivory_Coast", "class=Town" ],
-    "2" : [ "pair=dbr:Sub-prefectures_of_Ivory_Coast", "Kulczynski=1.0", "triple=e_dbo:type dbr:Sub-prefectures_of_Ivory_Coast", "class=Town" ]
+    "0" : [ "pair=dbr:Regions_of_Ivory_Coast", "Kulczynski=1.0", "triple=e dbp:subdivisionType dbr:Regions_of_Ivory_Coast", "class=Town" ],
+    "1" : [ "pair=dbr:Departments_of_Ivory_Coast", "Kulczynski=1.0", "triple=e dbp:subdivisionType dbr:Departments_of_Ivory_Coast", "class=Town" ],
+    "2" : [ "pair=dbr:Sub-prefectures_of_Ivory_Coast", "Kulczynski=1.0", "triple=e dbo:type dbr:Sub-prefectures_of_Ivory_Coast", "class=Town" ]
   }
 }, {
   "id" : 9,
   "pattern" : "bohemian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:South_Bohemian_Region", "Kulczynski=1.0", "triple=e_dbp:subdivisionName dbr:South_Bohemian_Region", "class=Town" ]
+    "0" : [ "pair=dbr:South_Bohemian_Region", "Kulczynski=1.0", "triple=e dbp:subdivisionName dbr:South_Bohemian_Region", "class=Town" ]
   }
 }, {
   "id" : 42,
   "pattern" : "located",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Spain Castile and LeÃ³n#Spain\"@en", "Kulczynski=1.0", "triple=e_dbp:pushpinMap \"Spain Castile and LeÃ³n#Spain\"@en", "class=Town" ]
+    "0" : [ "pair=\"Spain Castile and LeÃ³n#Spain\"@en", "Kulczynski=1.0", "triple=e dbp:pushpinMap \"Spain Castile and LeÃ³n#Spain\"@en", "class=Town" ]
   }
 } ]

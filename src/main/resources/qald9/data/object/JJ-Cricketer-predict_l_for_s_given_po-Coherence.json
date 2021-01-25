@@ -3,30 +3,30 @@
   "pattern" : "australian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Western_Australia", "Coherence=0.49", "triple=e_dbo:birthPlace dbr:Western_Australia", "class=Cricketer" ],
-    "1" : [ "pair=dbr:Victoria_cricket_team", "Coherence=0.485", "triple=e_dbp:club dbr:Victoria_cricket_team", "class=Cricketer" ],
-    "2" : [ "pair=dbr:New_South_Wales_cricket_team", "Coherence=0.483", "triple=e_dbp:club dbr:New_South_Wales_cricket_team", "class=Cricketer" ]
+    "0" : [ "pair=dbr:Western_Australia", "Coherence=0.49", "triple=e dbo:birthPlace dbr:Western_Australia", "class=Cricketer" ],
+    "1" : [ "pair=dbr:Victoria_cricket_team", "Coherence=0.485", "triple=e dbp:club dbr:Victoria_cricket_team", "class=Cricketer" ],
+    "2" : [ "pair=dbr:New_South_Wales_cricket_team", "Coherence=0.483", "triple=e dbp:club dbr:New_South_Wales_cricket_team", "class=Cricketer" ]
   }
 }, {
   "id" : 8,
   "pattern" : "first-class",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Somerset_County_Cricket_Club", "Coherence=0.487", "triple=e_dbp:lastfor dbr:Somerset_County_Cricket_Club", "class=Cricketer" ],
-    "1" : [ "pair=\"Sydney", "Coherence=0.485", "triple=e_dbp:birthPlace \"Sydney", "class=Cricketer" ]
+    "0" : [ "pair=dbr:Somerset_County_Cricket_Club", "Coherence=0.487", "triple=e dbp:lastfor dbr:Somerset_County_Cricket_Club", "class=Cricketer" ],
+    "1" : [ "pair=\"Sydney", "Coherence=0.485", "triple=e dbp:birthPlace \"Sydney", "class=Cricketer" ]
   }
 }, {
   "id" : 9,
   "pattern" : "indian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Delhi", "Coherence=0.5", "triple=e_dbp:birthPlace \"Delhi", "class=Cricketer" ]
+    "0" : [ "pair=\"Delhi", "Coherence=0.5", "triple=e dbp:birthPlace \"Delhi", "class=Cricketer" ]
   }
 }, {
   "id" : 10,
   "pattern" : "irish",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Ireland\"@en", "Coherence=0.484", "triple=e_dbp:country \"Ireland\"@en", "class=Cricketer" ]
+    "0" : [ "pair=\"Ireland\"@en", "Coherence=0.484", "triple=e dbp:country \"Ireland\"@en", "class=Cricketer" ]
   }
 } ]

@@ -3,70 +3,70 @@
   "pattern" : "produced",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Music_download", "MaxConf=1.0", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
-    "1" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:writer \"\"@en", "class=Song" ]
+    "0" : [ "pair=dbr:Music_download", "MaxConf=1.0", "triple=e dbp:format dbr:Music_download", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:writer \"\"@en", "class=Song" ]
   }
 }, {
   "id" : 36,
   "pattern" : "reached",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Country_music", "MaxConf=1.0", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+    "0" : [ "pair=dbr:Country_music", "MaxConf=1.0", "triple=e dbp:genre dbr:Country_music", "class=Song" ]
   }
 }, {
   "id" : 37,
   "pattern" : "recorded",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Music_download", "MaxConf=1.0", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
-    "1" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:writer \"\"@en", "class=Song" ],
-    "2" : [ "pair=dbr:Country_music", "MaxConf=1.0", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+    "0" : [ "pair=dbr:Music_download", "MaxConf=1.0", "triple=e dbp:format dbr:Music_download", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:writer \"\"@en", "class=Song" ],
+    "2" : [ "pair=dbr:Country_music", "MaxConf=1.0", "triple=e dbp:genre dbr:Country_music", "class=Song" ]
   }
 }, {
   "id" : 43,
   "pattern" : "released",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Gold\"@en", "MaxConf=1.0", "triple=e_dbp:award \"Gold\"@en", "class=Song" ],
-    "1" : [ "pair=\"Platinum\"@en", "MaxConf=1.0", "triple=e_dbp:award \"Platinum\"@en", "class=Song" ],
-    "2" : [ "pair=\"12.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:format \"12.0\"^^<http://dbpedia.org/datatype/second>", "class=Song" ],
-    "3" : [ "pair=dbr:Music_download", "MaxConf=1.0", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
-    "4" : [ "pair=\"7.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e_dbp:format \"7.0\"^^<http://dbpedia.org/datatype/second>", "class=Song" ],
-    "5" : [ "pair=dbr:CD_single", "MaxConf=1.0", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
-    "6" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:format \"\"@en", "class=Song" ],
-    "7" : [ "pair=dbr:Columbia_Records", "MaxConf=1.0", "triple=e_dbo:recordLabel dbr:Columbia_Records", "class=Song" ],
-    "8" : [ "pair=\"true\"@en", "MaxConf=1.0", "triple=e_dbp:streaming \"true\"@en", "class=Song" ],
-    "9" : [ "pair=dbr:Contemporary_R&B", "MaxConf=1.0", "triple=e_dbp:genre dbr:Contemporary_R&B", "class=Song" ],
-    "10" : [ "pair=dbr:Pop_music", "MaxConf=1.0", "triple=e_dbp:genre dbr:Pop_music", "class=Song" ],
-    "11" : [ "pair=dbr:Country_music", "MaxConf=1.0", "triple=e_dbp:genre dbr:Country_music", "class=Song" ],
-    "12" : [ "pair=dbr:Pop_rock", "MaxConf=1.0", "triple=e_dbp:genre dbr:Pop_rock", "class=Song" ],
-    "13" : [ "pair=dbr:Alternative_rock", "MaxConf=1.0", "triple=e_dbo:genre dbr:Alternative_rock", "class=Song" ],
-    "14" : [ "pair=dbr:Single_(music", "MaxConf=1.0", "triple=e_dbo:type dbr:Single_(music", "class=Song" ]
+    "0" : [ "pair=\"Gold\"@en", "MaxConf=1.0", "triple=e dbp:award \"Gold\"@en", "class=Song" ],
+    "1" : [ "pair=\"Platinum\"@en", "MaxConf=1.0", "triple=e dbp:award \"Platinum\"@en", "class=Song" ],
+    "2" : [ "pair=\"12.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e dbp:format \"12.0\"^^<http://dbpedia.org/datatype/second>", "class=Song" ],
+    "3" : [ "pair=dbr:Music_download", "MaxConf=1.0", "triple=e dbp:format dbr:Music_download", "class=Song" ],
+    "4" : [ "pair=\"7.0\"^^<http://dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e dbp:format \"7.0\"^^<http://dbpedia.org/datatype/second>", "class=Song" ],
+    "5" : [ "pair=dbr:CD_single", "MaxConf=1.0", "triple=e dbp:format dbr:CD_single", "class=Song" ],
+    "6" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:format \"\"@en", "class=Song" ],
+    "7" : [ "pair=dbr:Columbia_Records", "MaxConf=1.0", "triple=e dbo:recordLabel dbr:Columbia_Records", "class=Song" ],
+    "8" : [ "pair=\"true\"@en", "MaxConf=1.0", "triple=e dbp:streaming \"true\"@en", "class=Song" ],
+    "9" : [ "pair=dbr:Contemporary_R&B", "MaxConf=1.0", "triple=e dbp:genre dbr:Contemporary_R&B", "class=Song" ],
+    "10" : [ "pair=dbr:Pop_music", "MaxConf=1.0", "triple=e dbp:genre dbr:Pop_music", "class=Song" ],
+    "11" : [ "pair=dbr:Country_music", "MaxConf=1.0", "triple=e dbp:genre dbr:Country_music", "class=Song" ],
+    "12" : [ "pair=dbr:Pop_rock", "MaxConf=1.0", "triple=e dbp:genre dbr:Pop_rock", "class=Song" ],
+    "13" : [ "pair=dbr:Alternative_rock", "MaxConf=1.0", "triple=e dbo:genre dbr:Alternative_rock", "class=Song" ],
+    "14" : [ "pair=dbr:Single_(music", "MaxConf=1.0", "triple=e dbo:type dbr:Single_(music", "class=Song" ]
   }
 }, {
   "id" : 44,
   "pattern" : "released\u001Cin",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Country_music", "MaxConf=1.0", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+    "0" : [ "pair=dbr:Country_music", "MaxConf=1.0", "triple=e dbp:genre dbr:Country_music", "class=Song" ]
   }
 }, {
   "id" : 70,
   "pattern" : "tracks",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Country_music", "MaxConf=1.0", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+    "0" : [ "pair=dbr:Country_music", "MaxConf=1.0", "triple=e dbp:genre dbr:Country_music", "class=Song" ]
   }
 }, {
   "id" : 72,
   "pattern" : "written",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Gold\"@en", "MaxConf=1.0", "triple=e_dbp:award \"Gold\"@en", "class=Song" ],
-    "1" : [ "pair=dbr:Music_download", "MaxConf=1.0", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
-    "2" : [ "pair=dbr:CD_single", "MaxConf=1.0", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
-    "3" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:format \"\"@en", "class=Song" ],
-    "4" : [ "pair=dbr:Pop_music", "MaxConf=1.0", "triple=e_dbp:genre dbr:Pop_music", "class=Song" ],
-    "5" : [ "pair=dbr:Country_music", "MaxConf=1.0", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+    "0" : [ "pair=\"Gold\"@en", "MaxConf=1.0", "triple=e dbp:award \"Gold\"@en", "class=Song" ],
+    "1" : [ "pair=dbr:Music_download", "MaxConf=1.0", "triple=e dbp:format dbr:Music_download", "class=Song" ],
+    "2" : [ "pair=dbr:CD_single", "MaxConf=1.0", "triple=e dbp:format dbr:CD_single", "class=Song" ],
+    "3" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:format \"\"@en", "class=Song" ],
+    "4" : [ "pair=dbr:Pop_music", "MaxConf=1.0", "triple=e dbp:genre dbr:Pop_music", "class=Song" ],
+    "5" : [ "pair=dbr:Country_music", "MaxConf=1.0", "triple=e dbp:genre dbr:Country_music", "class=Song" ]
   }
 } ]

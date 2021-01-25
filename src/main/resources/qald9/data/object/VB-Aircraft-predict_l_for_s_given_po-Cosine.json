@@ -3,134 +3,131 @@
   "pattern" : "designed",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Paramotor", "Cosine=1.0", "triple=e_dbo:type dbr:Paramotor", "class=Aircraft" ],
-    "1" : [ "pair=\"Bertrand\"@en", "Cosine=0.998", "triple=e_dbp:ref \"Bertrand\"@en", "class=Aircraft" ],
-    "2" : [ "pair=\"-2000.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=0.994", "triple=e_dbp:produced \"-2000.0\"^^<http://dbpedia.org/datatype/second>", "class=Aircraft" ],
-    "3" : [ "pair=dbr:Paragliding", "Cosine=0.994", "triple=e_dbp:type dbr:Paragliding", "class=Aircraft" ],
-    "4" : [ "pair=dbr:Paraglider", "Cosine=0.994", "triple=e_dbo:type dbr:Paraglider", "class=Aircraft" ],
-    "5" : [ "pair=dbr:Hang_gliding", "Cosine=0.992", "triple=e_dbp:type dbr:Hang_gliding", "class=Aircraft" ],
-    "6" : [ "pair=dbr:Hang_glider", "Cosine=0.991", "triple=e_dbo:type dbr:Hang_glider", "class=Aircraft" ],
-    "7" : [ "pair=\"Sailplane Directory and Soaring\"@en", "Cosine=0.99", "triple=e_dbp:ref \"Sailplane Directory and Soaring\"@en", "class=Aircraft" ],
-    "8" : [ "pair=dbr:Powered_parachute", "Cosine=0.986", "triple=e_dbo:type dbr:Powered_parachute", "class=Aircraft" ],
-    "9" : [ "pair=\"AeroCrafter\"@en", "Cosine=0.965", "triple=e_dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ],
-    "10" : [ "pair=\"Production completed\"@en", "Cosine=0.957", "triple=e_dbp:status \"Production completed\"@en", "class=Aircraft" ],
-    "11" : [ "pair=dbr:Ultralight_trike", "Cosine=0.956", "triple=e_dbo:type dbr:Ultralight_trike", "class=Aircraft" ],
-    "12" : [ "pair=\"* List of gliders\"@en", "Cosine=0.946", "triple=e_dbp:seeAlso \"* List of gliders\"@en", "class=Aircraft" ],
-    "13" : [ "pair=\"four cylinder", "Cosine=0.944", "triple=e_dbp:eng1Type \"four cylinder", "class=Aircraft" ],
-    "14" : [ "pair=\"Bayerl\"@en", "Cosine=0.94", "triple=e_dbp:ref \"Bayerl\"@en", "class=Aircraft" ],
-    "15" : [ "pair=\"Plans available\"@en", "Cosine=0.937", "triple=e_dbp:status \"Plans available\"@en", "class=Aircraft" ],
-    "16" : [ "pair=\"composite\"@en", "Cosine=0.932", "triple=e_dbp:propName \"composite\"@en", "class=Aircraft" ],
-    "17" : [ "pair=dbr:Glider_(sailplane", "Cosine=0.928", "triple=e_dbp:type dbr:Glider_(sailplane", "class=Aircraft" ],
-    "18" : [ "pair=dbr:Autogyro", "Cosine=0.918", "triple=e_dbp:type dbr:Autogyro", "class=Aircraft" ],
-    "19" : [ "pair=\"472.5\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.915", "triple=e_dbp:grossWeightKg \"472.5\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Aircraft" ],
-    "20" : [ "pair=\"Cliche\"@en", "Cosine=0.908", "triple=e_dbp:ref \"Cliche\"@en", "class=Aircraft" ],
-    "21" : [ "pair=\"wooden\"@en", "Cosine=0.906", "triple=e_dbp:propName \"wooden\"@en", "class=Aircraft" ],
-    "22" : [ "pair=dbr:Czech_Republic", "Cosine=0.903", "triple=e_dbp:nationalOrigin dbr:Czech_Republic", "class=Aircraft" ],
-    "23" : [ "pair=dbr:Rotax_582", "Cosine=0.901", "triple=e_dbp:eng1Name dbr:Rotax_582", "class=Aircraft" ],
-    "24" : [ "pair=dbr:Amateur-built_aircraft", "Cosine=0.892", "triple=e_dbo:type dbr:Amateur-built_aircraft", "class=Aircraft" ],
-    "25" : [ "pair=\"In production\"@en", "Cosine=0.881", "triple=e_dbp:status \"In production\"@en", "class=Aircraft" ],
-    "26" : [ "pair=\"One\"@en", "Cosine=0.872", "triple=e_dbp:numberBuilt \"One\"@en", "class=Aircraft" ],
-    "27" : [ "pair=dbr:Rotax_503", "Cosine=0.871", "triple=e_dbp:eng1Name dbr:Rotax_503", "class=Aircraft" ],
-    "28" : [ "pair=dbr:Ultralight_aviation", "Cosine=0.864", "triple=e_dbp:type dbr:Ultralight_aviation", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Paramotor", "Cosine=1.0", "triple=e dbo:type dbr:Paramotor", "class=Aircraft" ],
+    "1" : [ "pair=\"Bertrand\"@en", "Cosine=0.998", "triple=e dbp:ref \"Bertrand\"@en", "class=Aircraft" ],
+    "2" : [ "pair=\"-2000.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=0.994", "triple=e dbp:produced \"-2000.0\"^^<http://dbpedia.org/datatype/second>", "class=Aircraft" ],
+    "3" : [ "pair=dbr:Paragliding", "Cosine=0.994", "triple=e dbp:type dbr:Paragliding", "class=Aircraft" ],
+    "4" : [ "pair=dbr:Paraglider", "Cosine=0.994", "triple=e dbo:type dbr:Paraglider", "class=Aircraft" ],
+    "5" : [ "pair=dbr:Hang_gliding", "Cosine=0.992", "triple=e dbp:type dbr:Hang_gliding", "class=Aircraft" ],
+    "6" : [ "pair=dbr:Hang_glider", "Cosine=0.991", "triple=e dbo:type dbr:Hang_glider", "class=Aircraft" ],
+    "7" : [ "pair=\"Sailplane Directory and Soaring\"@en", "Cosine=0.99", "triple=e dbp:ref \"Sailplane Directory and Soaring\"@en", "class=Aircraft" ],
+    "8" : [ "pair=dbr:Powered_parachute", "Cosine=0.986", "triple=e dbo:type dbr:Powered_parachute", "class=Aircraft" ],
+    "9" : [ "pair=\"AeroCrafter\"@en", "Cosine=0.965", "triple=e dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ],
+    "10" : [ "pair=\"Production completed\"@en", "Cosine=0.957", "triple=e dbp:status \"Production completed\"@en", "class=Aircraft" ],
+    "11" : [ "pair=dbr:Ultralight_trike", "Cosine=0.956", "triple=e dbo:type dbr:Ultralight_trike", "class=Aircraft" ],
+    "12" : [ "pair=\"* List of gliders\"@en", "Cosine=0.946", "triple=e dbp:seeAlso \"* List of gliders\"@en", "class=Aircraft" ],
+    "13" : [ "pair=\"four cylinder", "Cosine=0.944", "triple=e dbp:eng1Type \"four cylinder", "class=Aircraft" ],
+    "14" : [ "pair=\"Bayerl\"@en", "Cosine=0.94", "triple=e dbp:ref \"Bayerl\"@en", "class=Aircraft" ],
+    "15" : [ "pair=\"Plans available\"@en", "Cosine=0.937", "triple=e dbp:status \"Plans available\"@en", "class=Aircraft" ],
+    "16" : [ "pair=\"composite\"@en", "Cosine=0.932", "triple=e dbp:propName \"composite\"@en", "class=Aircraft" ],
+    "17" : [ "pair=dbr:Glider_(sailplane", "Cosine=0.928", "triple=e dbp:type dbr:Glider_(sailplane", "class=Aircraft" ],
+    "18" : [ "pair=dbr:Autogyro", "Cosine=0.918", "triple=e dbp:type dbr:Autogyro", "class=Aircraft" ],
+    "19" : [ "pair=\"Cliche\"@en", "Cosine=0.908", "triple=e dbp:ref \"Cliche\"@en", "class=Aircraft" ],
+    "20" : [ "pair=\"wooden\"@en", "Cosine=0.906", "triple=e dbp:propName \"wooden\"@en", "class=Aircraft" ],
+    "21" : [ "pair=dbr:Czech_Republic", "Cosine=0.903", "triple=e dbp:nationalOrigin dbr:Czech_Republic", "class=Aircraft" ],
+    "22" : [ "pair=dbr:Rotax_582", "Cosine=0.901", "triple=e dbp:eng1Name dbr:Rotax_582", "class=Aircraft" ],
+    "23" : [ "pair=dbr:Amateur-built_aircraft", "Cosine=0.892", "triple=e dbo:type dbr:Amateur-built_aircraft", "class=Aircraft" ],
+    "24" : [ "pair=\"In production\"@en", "Cosine=0.881", "triple=e dbp:status \"In production\"@en", "class=Aircraft" ],
+    "25" : [ "pair=\"One\"@en", "Cosine=0.872", "triple=e dbp:numberBuilt \"One\"@en", "class=Aircraft" ],
+    "26" : [ "pair=dbr:Rotax_503", "Cosine=0.871", "triple=e dbp:eng1Name dbr:Rotax_503", "class=Aircraft" ],
+    "27" : [ "pair=dbr:Ultralight_aviation", "Cosine=0.864", "triple=e dbp:type dbr:Ultralight_aviation", "class=Aircraft" ]
   }
 }, {
   "id" : 37,
   "pattern" : "designed produced",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Powered_parachute", "Cosine=0.917", "triple=e_dbo:type dbr:Powered_parachute", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Powered_parachute", "Cosine=0.917", "triple=e dbo:type dbr:Powered_parachute", "class=Aircraft" ]
   }
 }, {
   "id" : 38,
   "pattern" : "designed produced\u001Cby",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Powered_parachute", "Cosine=0.917", "triple=e_dbo:type dbr:Powered_parachute", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Powered_parachute", "Cosine=0.917", "triple=e dbo:type dbr:Powered_parachute", "class=Aircraft" ]
   }
 }, {
   "id" : 39,
   "pattern" : "developed",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:China", "Cosine=0.974", "triple=e_dbp:primaryUser dbr:China", "class=Aircraft" ],
-    "1" : [ "pair=dbr:UAV", "Cosine=0.962", "triple=e_dbo:type dbr:UAV", "class=Aircraft" ]
+    "0" : [ "pair=dbr:China", "Cosine=0.974", "triple=e dbp:primaryUser dbr:China", "class=Aircraft" ],
+    "1" : [ "pair=dbr:UAV", "Cosine=0.962", "triple=e dbo:type dbr:UAV", "class=Aircraft" ]
   }
 }, {
   "id" : 42,
   "pattern" : "flying",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Flying_boat", "Cosine=0.968", "triple=e_dbo:type dbr:Flying_boat", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Flying_boat", "Cosine=0.968", "triple=e dbo:type dbr:Flying_boat", "class=Aircraft" ]
   }
 }, {
   "id" : 47,
   "pattern" : "hang",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Hang_glider", "Cosine=1.0", "triple=e_dbo:type dbr:Hang_glider", "class=Aircraft" ],
-    "1" : [ "pair=dbr:Hang_gliding", "Cosine=1.0", "triple=e_dbp:type dbr:Hang_gliding", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Hang_glider", "Cosine=1.0", "triple=e dbo:type dbr:Hang_glider", "class=Aircraft" ],
+    "1" : [ "pair=dbr:Hang_gliding", "Cosine=1.0", "triple=e dbp:type dbr:Hang_gliding", "class=Aircraft" ]
   }
 }, {
   "id" : 67,
   "pattern" : "paragliding out\u001Cof",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Paramotor", "Cosine=0.864", "triple=e_dbo:type dbr:Paramotor", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Paramotor", "Cosine=0.864", "triple=e dbo:type dbr:Paramotor", "class=Aircraft" ]
   }
 }, {
   "id" : 71,
   "pattern" : "powered",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Paramotor", "Cosine=0.993", "triple=e_dbo:type dbr:Paramotor", "class=Aircraft" ],
-    "1" : [ "pair=dbr:Powered_parachute", "Cosine=0.992", "triple=e_dbp:type dbr:Powered_parachute", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Paramotor", "Cosine=0.993", "triple=e dbo:type dbr:Paramotor", "class=Aircraft" ],
+    "1" : [ "pair=dbr:Powered_parachute", "Cosine=0.992", "triple=e dbp:type dbr:Powered_parachute", "class=Aircraft" ]
   }
 }, {
   "id" : 79,
   "pattern" : "produced",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Paramotor", "Cosine=1.0", "triple=e_dbo:type dbr:Paramotor", "class=Aircraft" ],
-    "1" : [ "pair=\"Bertrand\"@en", "Cosine=0.998", "triple=e_dbp:ref \"Bertrand\"@en", "class=Aircraft" ],
-    "2" : [ "pair=\"-2000.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=0.994", "triple=e_dbp:produced \"-2000.0\"^^<http://dbpedia.org/datatype/second>", "class=Aircraft" ],
-    "3" : [ "pair=dbr:Paragliding", "Cosine=0.994", "triple=e_dbp:type dbr:Paragliding", "class=Aircraft" ],
-    "4" : [ "pair=dbr:Paraglider", "Cosine=0.994", "triple=e_dbo:type dbr:Paraglider", "class=Aircraft" ],
-    "5" : [ "pair=dbr:Powered_parachute", "Cosine=0.986", "triple=e_dbo:type dbr:Powered_parachute", "class=Aircraft" ],
-    "6" : [ "pair=dbr:Hang_gliding", "Cosine=0.983", "triple=e_dbp:type dbr:Hang_gliding", "class=Aircraft" ],
-    "7" : [ "pair=dbr:Hang_glider", "Cosine=0.983", "triple=e_dbo:type dbr:Hang_glider", "class=Aircraft" ],
-    "8" : [ "pair=dbr:Ultralight_trike", "Cosine=0.963", "triple=e_dbo:type dbr:Ultralight_trike", "class=Aircraft" ],
-    "9" : [ "pair=\"Production completed\"@en", "Cosine=0.945", "triple=e_dbp:status \"Production completed\"@en", "class=Aircraft" ],
-    "10" : [ "pair=\"Bayerl\"@en", "Cosine=0.944", "triple=e_dbp:ref \"Bayerl\"@en", "class=Aircraft" ],
-    "11" : [ "pair=\"Cliche\"@en", "Cosine=0.94", "triple=e_dbp:ref \"Cliche\"@en", "class=Aircraft" ],
-    "12" : [ "pair=\"472.5\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.933", "triple=e_dbp:grossWeightKg \"472.5\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Aircraft" ],
-    "13" : [ "pair=\"AeroCrafter\"@en", "Cosine=0.928", "triple=e_dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ],
-    "14" : [ "pair=dbr:Rotax_582", "Cosine=0.916", "triple=e_dbp:eng1Name dbr:Rotax_582", "class=Aircraft" ],
-    "15" : [ "pair=\"four cylinder", "Cosine=0.915", "triple=e_dbp:eng1Type \"four cylinder", "class=Aircraft" ],
-    "16" : [ "pair=\"composite\"@en", "Cosine=0.909", "triple=e_dbp:propName \"composite\"@en", "class=Aircraft" ],
-    "17" : [ "pair=\"In production\"@en", "Cosine=0.904", "triple=e_dbp:status \"In production\"@en", "class=Aircraft" ],
-    "18" : [ "pair=dbr:Autogyro", "Cosine=0.867", "triple=e_dbp:type dbr:Autogyro", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Paramotor", "Cosine=1.0", "triple=e dbo:type dbr:Paramotor", "class=Aircraft" ],
+    "1" : [ "pair=\"Bertrand\"@en", "Cosine=0.998", "triple=e dbp:ref \"Bertrand\"@en", "class=Aircraft" ],
+    "2" : [ "pair=\"-2000.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=0.994", "triple=e dbp:produced \"-2000.0\"^^<http://dbpedia.org/datatype/second>", "class=Aircraft" ],
+    "3" : [ "pair=dbr:Paragliding", "Cosine=0.994", "triple=e dbp:type dbr:Paragliding", "class=Aircraft" ],
+    "4" : [ "pair=dbr:Paraglider", "Cosine=0.994", "triple=e dbo:type dbr:Paraglider", "class=Aircraft" ],
+    "5" : [ "pair=dbr:Powered_parachute", "Cosine=0.986", "triple=e dbo:type dbr:Powered_parachute", "class=Aircraft" ],
+    "6" : [ "pair=dbr:Hang_gliding", "Cosine=0.983", "triple=e dbp:type dbr:Hang_gliding", "class=Aircraft" ],
+    "7" : [ "pair=dbr:Hang_glider", "Cosine=0.983", "triple=e dbo:type dbr:Hang_glider", "class=Aircraft" ],
+    "8" : [ "pair=dbr:Ultralight_trike", "Cosine=0.963", "triple=e dbo:type dbr:Ultralight_trike", "class=Aircraft" ],
+    "9" : [ "pair=\"Production completed\"@en", "Cosine=0.945", "triple=e dbp:status \"Production completed\"@en", "class=Aircraft" ],
+    "10" : [ "pair=\"Bayerl\"@en", "Cosine=0.944", "triple=e dbp:ref \"Bayerl\"@en", "class=Aircraft" ],
+    "11" : [ "pair=\"Cliche\"@en", "Cosine=0.94", "triple=e dbp:ref \"Cliche\"@en", "class=Aircraft" ],
+    "12" : [ "pair=\"AeroCrafter\"@en", "Cosine=0.928", "triple=e dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ],
+    "13" : [ "pair=dbr:Rotax_582", "Cosine=0.916", "triple=e dbp:eng1Name dbr:Rotax_582", "class=Aircraft" ],
+    "14" : [ "pair=\"four cylinder", "Cosine=0.915", "triple=e dbp:eng1Type \"four cylinder", "class=Aircraft" ],
+    "15" : [ "pair=\"composite\"@en", "Cosine=0.909", "triple=e dbp:propName \"composite\"@en", "class=Aircraft" ],
+    "16" : [ "pair=\"In production\"@en", "Cosine=0.904", "triple=e dbp:status \"In production\"@en", "class=Aircraft" ],
+    "17" : [ "pair=dbr:Autogyro", "Cosine=0.867", "triple=e dbp:type dbr:Autogyro", "class=Aircraft" ]
   }
 }, {
   "id" : 89,
   "pattern" : "supplied",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"AeroCrafter\"@en", "Cosine=1.0", "triple=e_dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ],
-    "1" : [ "pair=\"four cylinder", "Cosine=0.963", "triple=e_dbp:eng1Type \"four cylinder", "class=Aircraft" ],
-    "2" : [ "pair=\"composite\"@en", "Cosine=0.938", "triple=e_dbp:propName \"composite\"@en", "class=Aircraft" ],
-    "3" : [ "pair=dbr:Amateur-built_aircraft", "Cosine=0.936", "triple=e_dbo:type dbr:Amateur-built_aircraft", "class=Aircraft" ],
-    "4" : [ "pair=\"Bayerl\"@en", "Cosine=0.936", "triple=e_dbp:ref \"Bayerl\"@en", "class=Aircraft" ],
-    "5" : [ "pair=\"472.5\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.924", "triple=e_dbp:grossWeightKg \"472.5\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Aircraft" ],
-    "6" : [ "pair=dbr:Paramotor", "Cosine=0.918", "triple=e_dbo:type dbr:Paramotor", "class=Aircraft" ],
-    "7" : [ "pair=dbr:Ultralight_trike", "Cosine=0.903", "triple=e_dbp:type dbr:Ultralight_trike", "class=Aircraft" ],
-    "8" : [ "pair=dbr:Autogyro", "Cosine=0.897", "triple=e_dbp:type dbr:Autogyro", "class=Aircraft" ],
-    "9" : [ "pair=dbr:Light-sport_aircraft", "Cosine=0.891", "triple=e_dbo:type dbr:Light-sport_aircraft", "class=Aircraft" ]
+    "0" : [ "pair=\"AeroCrafter\"@en", "Cosine=1.0", "triple=e dbp:ref \"AeroCrafter\"@en", "class=Aircraft" ],
+    "1" : [ "pair=\"four cylinder", "Cosine=0.963", "triple=e dbp:eng1Type \"four cylinder", "class=Aircraft" ],
+    "2" : [ "pair=\"composite\"@en", "Cosine=0.938", "triple=e dbp:propName \"composite\"@en", "class=Aircraft" ],
+    "3" : [ "pair=dbr:Amateur-built_aircraft", "Cosine=0.936", "triple=e dbo:type dbr:Amateur-built_aircraft", "class=Aircraft" ],
+    "4" : [ "pair=\"Bayerl\"@en", "Cosine=0.936", "triple=e dbp:ref \"Bayerl\"@en", "class=Aircraft" ],
+    "5" : [ "pair=dbr:Paramotor", "Cosine=0.918", "triple=e dbo:type dbr:Paramotor", "class=Aircraft" ],
+    "6" : [ "pair=dbr:Ultralight_trike", "Cosine=0.903", "triple=e dbp:type dbr:Ultralight_trike", "class=Aircraft" ],
+    "7" : [ "pair=dbr:Autogyro", "Cosine=0.897", "triple=e dbp:type dbr:Autogyro", "class=Aircraft" ],
+    "8" : [ "pair=dbr:Light-sport_aircraft", "Cosine=0.891", "triple=e dbo:type dbr:Light-sport_aircraft", "class=Aircraft" ]
   }
 }, {
   "id" : 92,
   "pattern" : "torpedo",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Torpedo_bomber", "Cosine=0.912", "triple=e_dbo:type dbr:Torpedo_bomber", "class=Aircraft" ]
+    "0" : [ "pair=dbr:Torpedo_bomber", "Cosine=0.912", "triple=e dbo:type dbr:Torpedo_bomber", "class=Aircraft" ]
   }
 } ]

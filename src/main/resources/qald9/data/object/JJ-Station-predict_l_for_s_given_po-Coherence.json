@@ -3,19 +3,19 @@
   "pattern" : "chinese",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "Coherence=0.5", "triple=e_dbp:operator dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=Station" ],
-    "1" : [ "pair=\"shanghai\"@en", "Coherence=0.5", "triple=e_dbp:symbolLocation \"shanghai\"@en", "class=Station" ],
-    "2" : [ "pair=\"SHM\"@en", "Coherence=0.5", "triple=e_dbp:system \"SHM\"@en", "class=Station" ],
-    "3" : [ "pair=\"BJS\"@en", "Coherence=0.495", "triple=e_dbp:system \"BJS\"@en", "class=Station" ],
-    "4" : [ "pair=\"", "Coherence=0.493", "triple=e_dbo:address \"", "class=Station" ],
-    "5" : [ "pair=\"subway\"@en", "Coherence=0.493", "triple=e_dbp:symbol \"subway\"@en", "class=Station" ],
-    "6" : [ "pair=\"beijing\"@en", "Coherence=0.493", "triple=e_dbp:symbolLocation \"beijing\"@en", "class=Station" ]
+    "0" : [ "pair=dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "Coherence=0.5", "triple=e dbp:operator dbr:Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=Station" ],
+    "1" : [ "pair=\"shanghai\"@en", "Coherence=0.5", "triple=e dbp:symbolLocation \"shanghai\"@en", "class=Station" ],
+    "2" : [ "pair=\"SHM\"@en", "Coherence=0.5", "triple=e dbp:system \"SHM\"@en", "class=Station" ],
+    "3" : [ "pair=\"BJS\"@en", "Coherence=0.495", "triple=e dbp:system \"BJS\"@en", "class=Station" ],
+    "4" : [ "pair=\"", "Coherence=0.493", "triple=e dbo:address \"", "class=Station" ],
+    "5" : [ "pair=\"subway\"@en", "Coherence=0.493", "triple=e dbp:symbol \"subway\"@en", "class=Station" ],
+    "6" : [ "pair=\"beijing\"@en", "Coherence=0.493", "triple=e dbp:symbolLocation \"beijing\"@en", "class=Station" ]
   }
 }, {
   "id" : 33,
   "pattern" : "underground",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:London_Underground", "Coherence=0.495", "triple=e_dbo:operator dbr:London_Underground", "class=Station" ]
+    "0" : [ "pair=dbr:London_Underground", "Coherence=0.495", "triple=e dbo:operator dbr:London_Underground", "class=Station" ]
   }
 } ]

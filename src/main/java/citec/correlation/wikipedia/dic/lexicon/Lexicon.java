@@ -47,9 +47,9 @@ public class Lexicon {
             String postagOfWord = null;
             LinkedHashMap<Integer, List<String>> kbList = new LinkedHashMap<Integer, List<String>>();
             Integer index = 0;
-            System.out.println("word:"+word);
+            //System.out.println("word:"+word);
             
-            System.out.println("postagOfWord:"+postagOfWord);
+            //System.out.println("postagOfWord:"+postagOfWord);
             //System.out.println("associationType:"+associationType);
              Set<String>duplicateCheck=new HashSet<String>();
              
@@ -77,7 +77,7 @@ public class Lexicon {
                 //pairs.add("pair=" + lineInfo.getPredicate() + "_" + lineInfo.getObject());
                 pairs.add("pair=" + object);
                 pairs.add(associationType + "=" + value);
-                pairs.add("triple" + "=" + lineInfo.getSubject()+"_"+lineInfo.getPredicate()+" "+lineInfo.getObject());
+                pairs.add("triple" + "=" + lineInfo.getSubject()+" "+lineInfo.getPredicate()+" "+lineInfo.getObject());
                 pairs.add("class" + "=" + lineInfo.getClassName());
                 kbList.put(index, pairs);
                 index = index + 1;

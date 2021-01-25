@@ -3,46 +3,46 @@
   "pattern" : "aired",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:CBC_Television", "Kulczynski=0.974", "triple=e_dbo:channel dbr:CBC_Television", "class=TelevisionShow" ],
-    "1" : [ "pair=\"Inst.\"@en", "Kulczynski=0.952", "triple=e_dbp:note \"Inst.\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:CBC_Television", "Kulczynski=0.974", "triple=e dbo:channel dbr:CBC_Television", "class=TelevisionShow" ],
+    "1" : [ "pair=\"Inst.\"@en", "Kulczynski=0.952", "triple=e dbp:note \"Inst.\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 18,
   "pattern" : "concluded",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Kulczynski=0.98", "triple=e_dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:GMA_Network", "Kulczynski=0.944", "triple=e_dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
-    "2" : [ "pair=\"Tagalog\"@en", "Kulczynski=0.913", "triple=e_dbp:language \"Tagalog\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Kulczynski=0.98", "triple=e dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:GMA_Network", "Kulczynski=0.944", "triple=e dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
+    "2" : [ "pair=\"Tagalog\"@en", "Kulczynski=0.913", "triple=e dbp:language \"Tagalog\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 51,
   "pattern" : "premiered",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Kulczynski=0.98", "triple=e_dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:GMA_Network", "Kulczynski=0.972", "triple=e_dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
-    "2" : [ "pair=\"Tagalog\"@en", "Kulczynski=0.954", "triple=e_dbp:language \"Tagalog\"@en", "class=TelevisionShow" ],
-    "3" : [ "pair=\"vertical\"@en", "Kulczynski=0.941", "triple=e_dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Kulczynski=0.98", "triple=e dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:GMA_Network", "Kulczynski=0.972", "triple=e dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
+    "2" : [ "pair=\"Tagalog\"@en", "Kulczynski=0.954", "triple=e dbp:language \"Tagalog\"@en", "class=TelevisionShow" ],
+    "3" : [ "pair=\"vertical\"@en", "Kulczynski=0.941", "triple=e dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 52,
   "pattern" : "produced",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Telesistema_Mexicano", "Kulczynski=0.991", "triple=e_dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:Canal_de_las_Estrellas", "Kulczynski=0.979", "triple=e_dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:Televisa", "Kulczynski=0.975", "triple=e_dbo:distributor dbr:Televisa", "class=TelevisionShow" ],
-    "3" : [ "pair=dbr:Las_Estrellas", "Kulczynski=0.975", "triple=e_dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ],
-    "4" : [ "pair=\"Mexico\"@en", "Kulczynski=0.952", "triple=e_dbp:country \"Mexico\"@en", "class=TelevisionShow" ],
-    "5" : [ "pair=dbr:Telenovela", "Kulczynski=0.932", "triple=e_dbp:genre dbr:Telenovela", "class=TelevisionShow" ],
-    "6" : [ "pair=dbr:Mexico", "Kulczynski=0.904", "triple=e_dbo:country dbr:Mexico", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Telesistema_Mexicano", "Kulczynski=0.991", "triple=e dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:Canal_de_las_Estrellas", "Kulczynski=0.979", "triple=e dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:Televisa", "Kulczynski=0.975", "triple=e dbo:distributor dbr:Televisa", "class=TelevisionShow" ],
+    "3" : [ "pair=dbr:Las_Estrellas", "Kulczynski=0.975", "triple=e dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ],
+    "4" : [ "pair=\"Mexico\"@en", "Kulczynski=0.952", "triple=e dbp:country \"Mexico\"@en", "class=TelevisionShow" ],
+    "5" : [ "pair=dbr:Telenovela", "Kulczynski=0.932", "triple=e dbp:genre dbr:Telenovela", "class=TelevisionShow" ],
+    "6" : [ "pair=dbr:Mexico", "Kulczynski=0.904", "triple=e dbo:country dbr:Mexico", "class=TelevisionShow" ]
   }
 }, {
   "id" : 63,
   "pattern" : "starring",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Inst.\"@en", "Kulczynski=0.928", "triple=e_dbp:note \"Inst.\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"Inst.\"@en", "Kulczynski=0.928", "triple=e dbp:note \"Inst.\"@en", "class=TelevisionShow" ]
   }
 } ]

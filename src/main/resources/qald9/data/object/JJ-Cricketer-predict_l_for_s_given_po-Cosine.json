@@ -3,30 +3,30 @@
   "pattern" : "australian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Western_Australia", "Cosine=0.98", "triple=e_dbo:birthPlace dbr:Western_Australia", "class=Cricketer" ],
-    "1" : [ "pair=dbr:Victoria_cricket_team", "Cosine=0.971", "triple=e_dbp:club dbr:Victoria_cricket_team", "class=Cricketer" ],
-    "2" : [ "pair=dbr:New_South_Wales_cricket_team", "Cosine=0.967", "triple=e_dbp:club dbr:New_South_Wales_cricket_team", "class=Cricketer" ]
+    "0" : [ "pair=dbr:Western_Australia", "Cosine=0.98", "triple=e dbo:birthPlace dbr:Western_Australia", "class=Cricketer" ],
+    "1" : [ "pair=dbr:Victoria_cricket_team", "Cosine=0.971", "triple=e dbp:club dbr:Victoria_cricket_team", "class=Cricketer" ],
+    "2" : [ "pair=dbr:New_South_Wales_cricket_team", "Cosine=0.967", "triple=e dbp:club dbr:New_South_Wales_cricket_team", "class=Cricketer" ]
   }
 }, {
   "id" : 8,
   "pattern" : "first-class",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Somerset_County_Cricket_Club", "Cosine=0.974", "triple=e_dbp:lastfor dbr:Somerset_County_Cricket_Club", "class=Cricketer" ],
-    "1" : [ "pair=\"Sydney", "Cosine=0.971", "triple=e_dbp:birthPlace \"Sydney", "class=Cricketer" ]
+    "0" : [ "pair=dbr:Somerset_County_Cricket_Club", "Cosine=0.974", "triple=e dbp:lastfor dbr:Somerset_County_Cricket_Club", "class=Cricketer" ],
+    "1" : [ "pair=\"Sydney", "Cosine=0.971", "triple=e dbp:birthPlace \"Sydney", "class=Cricketer" ]
   }
 }, {
   "id" : 9,
   "pattern" : "indian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Delhi", "Cosine=1.0", "triple=e_dbp:birthPlace \"Delhi", "class=Cricketer" ]
+    "0" : [ "pair=\"Delhi", "Cosine=1.0", "triple=e dbp:birthPlace \"Delhi", "class=Cricketer" ]
   }
 }, {
   "id" : 10,
   "pattern" : "irish",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Ireland\"@en", "Cosine=0.969", "triple=e_dbp:country \"Ireland\"@en", "class=Cricketer" ]
+    "0" : [ "pair=\"Ireland\"@en", "Cosine=0.969", "triple=e dbp:country \"Ireland\"@en", "class=Cricketer" ]
   }
 } ]

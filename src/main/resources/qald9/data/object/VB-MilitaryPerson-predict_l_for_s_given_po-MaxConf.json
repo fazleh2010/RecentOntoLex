@@ -3,67 +3,67 @@
   "pattern" : "awarded",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Second_World_War", "MaxConf=1.0", "triple=e_dbo:battle dbr:Second_World_War", "class=MilitaryPerson" ],
-    "1" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e_dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
+    "0" : [ "pair=dbr:Second_World_War", "MaxConf=1.0", "triple=e dbo:battle dbr:Second_World_War", "class=MilitaryPerson" ],
+    "1" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 19,
   "pattern" : "awarded\u001Cto",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e_dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
+    "0" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 26,
   "pattern" : "be\u001Cawarded",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e_dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
+    "0" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 27,
   "pattern" : "be\u001Cawarded\u001Cto",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e_dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
+    "0" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 41,
   "pattern" : "commanded",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:commands \"\"@en", "class=MilitaryPerson" ],
-    "1" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e_dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:commands \"\"@en", "class=MilitaryPerson" ],
+    "1" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 45,
   "pattern" : "credited",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e_dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
+    "0" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 82,
   "pattern" : "flying",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Second_World_War", "MaxConf=1.0", "triple=e_dbo:battle dbr:Second_World_War", "class=MilitaryPerson" ],
-    "1" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e_dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
+    "0" : [ "pair=dbr:Second_World_War", "MaxConf=1.0", "triple=e dbo:battle dbr:Second_World_War", "class=MilitaryPerson" ],
+    "1" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 87,
   "pattern" : "fought",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e_dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
+    "0" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 169,
   "pattern" : "served",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:commands \"\"@en", "class=MilitaryPerson" ],
-    "1" : [ "pair=dbr:Second_World_War", "MaxConf=1.0", "triple=e_dbo:battle dbr:Second_World_War", "class=MilitaryPerson" ],
-    "2" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e_dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:commands \"\"@en", "class=MilitaryPerson" ],
+    "1" : [ "pair=dbr:Second_World_War", "MaxConf=1.0", "triple=e dbo:battle dbr:Second_World_War", "class=MilitaryPerson" ],
+    "2" : [ "pair=dbr:World_War_I", "MaxConf=1.0", "triple=e dbo:battle dbr:World_War_I", "class=MilitaryPerson" ]
   }
 } ]

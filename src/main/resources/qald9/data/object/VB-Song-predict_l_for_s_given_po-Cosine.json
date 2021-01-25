@@ -3,68 +3,68 @@
   "pattern" : "reached",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Country_music", "Cosine=0.26", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+    "0" : [ "pair=dbr:Country_music", "Cosine=0.26", "triple=e dbp:genre dbr:Country_music", "class=Song" ]
   }
 }, {
   "id" : 35,
   "pattern" : "recorded",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Country_music", "Cosine=0.336", "triple=e_dbo:genre dbr:Country_music", "class=Song" ],
-    "1" : [ "pair=\"\"@en", "Cosine=0.217", "triple=e_dbp:producer \"\"@en", "class=Song" ]
+    "0" : [ "pair=dbr:Country_music", "Cosine=0.336", "triple=e dbo:genre dbr:Country_music", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "Cosine=0.217", "triple=e dbp:producer \"\"@en", "class=Song" ]
   }
 }, {
   "id" : 41,
   "pattern" : "released",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"true\"@en", "Cosine=0.386", "triple=e_dbp:streaming \"true\"@en", "class=Song" ],
-    "1" : [ "pair=\"\"@en", "Cosine=0.369", "triple=e_dbp:producer \"\"@en", "class=Song" ],
-    "2" : [ "pair=\"United Kingdom\"@en", "Cosine=0.367", "triple=e_dbp:region \"United Kingdom\"@en", "class=Song" ],
-    "3" : [ "pair=\"Gold\"@en", "Cosine=0.365", "triple=e_dbp:award \"Gold\"@en", "class=Song" ],
-    "4" : [ "pair=\"Australia\"@en", "Cosine=0.364", "triple=e_dbp:region \"Australia\"@en", "class=Song" ],
-    "5" : [ "pair=dbr:Pop_rock", "Cosine=0.358", "triple=e_dbp:genre dbr:Pop_rock", "class=Song" ],
-    "6" : [ "pair=dbr:CD_single", "Cosine=0.35", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
-    "7" : [ "pair=\"United States\"@en", "Cosine=0.347", "triple=e_dbp:region \"United States\"@en", "class=Song" ],
-    "8" : [ "pair=\"yes\"@en", "Cosine=0.345", "triple=e_dbp:border \"yes\"@en", "class=Song" ],
-    "9" : [ "pair=dbr:Country_music", "Cosine=0.343", "triple=e_dbo:genre dbr:Country_music", "class=Song" ],
-    "10" : [ "pair=dbr:Music_download", "Cosine=0.341", "triple=e_dbp:format dbr:Music_download", "class=Song" ],
-    "11" : [ "pair=\"Platinum\"@en", "Cosine=0.334", "triple=e_dbp:award \"Platinum\"@en", "class=Song" ],
-    "12" : [ "pair=dbr:Contemporary_R&B", "Cosine=0.333", "triple=e_dbo:genre dbr:Contemporary_R&B", "class=Song" ],
-    "13" : [ "pair=\"single\"@en", "Cosine=0.332", "triple=e_dbp:type \"single\"@en", "class=Song" ],
-    "14" : [ "pair=dbr:Alternative_rock", "Cosine=0.33", "triple=e_dbo:genre dbr:Alternative_rock", "class=Song" ],
-    "15" : [ "pair=\"12.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=0.325", "triple=e_dbp:format \"12.0\"^^<http://dbpedia.org/datatype/second>", "class=Song" ],
-    "16" : [ "pair=dbr:Single_(music", "Cosine=0.322", "triple=e_dbo:type dbr:Single_(music", "class=Song" ],
-    "17" : [ "pair=\"7.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=0.321", "triple=e_dbp:format \"7.0\"^^<http://dbpedia.org/datatype/second>", "class=Song" ],
-    "18" : [ "pair=dbr:Pop_music", "Cosine=0.316", "triple=e_dbp:genre dbr:Pop_music", "class=Song" ],
-    "19" : [ "pair=dbr:Columbia_Records", "Cosine=0.314", "triple=e_dbo:recordLabel dbr:Columbia_Records", "class=Song" ]
+    "0" : [ "pair=\"true\"@en", "Cosine=0.386", "triple=e dbp:streaming \"true\"@en", "class=Song" ],
+    "1" : [ "pair=\"\"@en", "Cosine=0.369", "triple=e dbp:producer \"\"@en", "class=Song" ],
+    "2" : [ "pair=\"United Kingdom\"@en", "Cosine=0.367", "triple=e dbp:region \"United Kingdom\"@en", "class=Song" ],
+    "3" : [ "pair=\"Gold\"@en", "Cosine=0.365", "triple=e dbp:award \"Gold\"@en", "class=Song" ],
+    "4" : [ "pair=\"Australia\"@en", "Cosine=0.364", "triple=e dbp:region \"Australia\"@en", "class=Song" ],
+    "5" : [ "pair=dbr:Pop_rock", "Cosine=0.358", "triple=e dbp:genre dbr:Pop_rock", "class=Song" ],
+    "6" : [ "pair=dbr:CD_single", "Cosine=0.35", "triple=e dbp:format dbr:CD_single", "class=Song" ],
+    "7" : [ "pair=\"United States\"@en", "Cosine=0.347", "triple=e dbp:region \"United States\"@en", "class=Song" ],
+    "8" : [ "pair=\"yes\"@en", "Cosine=0.345", "triple=e dbp:border \"yes\"@en", "class=Song" ],
+    "9" : [ "pair=dbr:Country_music", "Cosine=0.343", "triple=e dbo:genre dbr:Country_music", "class=Song" ],
+    "10" : [ "pair=dbr:Music_download", "Cosine=0.341", "triple=e dbp:format dbr:Music_download", "class=Song" ],
+    "11" : [ "pair=\"Platinum\"@en", "Cosine=0.334", "triple=e dbp:award \"Platinum\"@en", "class=Song" ],
+    "12" : [ "pair=dbr:Contemporary_R&B", "Cosine=0.333", "triple=e dbo:genre dbr:Contemporary_R&B", "class=Song" ],
+    "13" : [ "pair=\"single\"@en", "Cosine=0.332", "triple=e dbp:type \"single\"@en", "class=Song" ],
+    "14" : [ "pair=dbr:Alternative_rock", "Cosine=0.33", "triple=e dbo:genre dbr:Alternative_rock", "class=Song" ],
+    "15" : [ "pair=\"12.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=0.325", "triple=e dbp:format \"12.0\"^^<http://dbpedia.org/datatype/second>", "class=Song" ],
+    "16" : [ "pair=dbr:Single_(music", "Cosine=0.322", "triple=e dbo:type dbr:Single_(music", "class=Song" ],
+    "17" : [ "pair=\"7.0\"^^<http://dbpedia.org/datatype/second>", "Cosine=0.321", "triple=e dbp:format \"7.0\"^^<http://dbpedia.org/datatype/second>", "class=Song" ],
+    "18" : [ "pair=dbr:Pop_music", "Cosine=0.316", "triple=e dbp:genre dbr:Pop_music", "class=Song" ],
+    "19" : [ "pair=dbr:Columbia_Records", "Cosine=0.314", "triple=e dbo:recordLabel dbr:Columbia_Records", "class=Song" ]
   }
 }, {
   "id" : 42,
   "pattern" : "released\u001Cin",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Country_music", "Cosine=0.293", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+    "0" : [ "pair=dbr:Country_music", "Cosine=0.293", "triple=e dbp:genre dbr:Country_music", "class=Song" ]
   }
 }, {
   "id" : 58,
   "pattern" : "tracks",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Country_music", "Cosine=0.25", "triple=e_dbp:genre dbr:Country_music", "class=Song" ]
+    "0" : [ "pair=dbr:Country_music", "Cosine=0.25", "triple=e dbp:genre dbr:Country_music", "class=Song" ]
   }
 }, {
   "id" : 60,
   "pattern" : "written",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Country_music", "Cosine=0.328", "triple=e_dbo:genre dbr:Country_music", "class=Song" ],
-    "1" : [ "pair=\"Gold\"@en", "Cosine=0.256", "triple=e_dbp:award \"Gold\"@en", "class=Song" ],
-    "2" : [ "pair=\"\"@en", "Cosine=0.253", "triple=e_dbp:producer \"\"@en", "class=Song" ],
-    "3" : [ "pair=\"yes\"@en", "Cosine=0.25", "triple=e_dbp:border \"yes\"@en", "class=Song" ],
-    "4" : [ "pair=dbr:Pop_music", "Cosine=0.249", "triple=e_dbp:genre dbr:Pop_music", "class=Song" ],
-    "5" : [ "pair=\"single\"@en", "Cosine=0.235", "triple=e_dbp:type \"single\"@en", "class=Song" ],
-    "6" : [ "pair=dbr:CD_single", "Cosine=0.226", "triple=e_dbp:format dbr:CD_single", "class=Song" ],
-    "7" : [ "pair=dbr:Music_download", "Cosine=0.225", "triple=e_dbp:format dbr:Music_download", "class=Song" ]
+    "0" : [ "pair=dbr:Country_music", "Cosine=0.328", "triple=e dbo:genre dbr:Country_music", "class=Song" ],
+    "1" : [ "pair=\"Gold\"@en", "Cosine=0.256", "triple=e dbp:award \"Gold\"@en", "class=Song" ],
+    "2" : [ "pair=\"\"@en", "Cosine=0.253", "triple=e dbp:producer \"\"@en", "class=Song" ],
+    "3" : [ "pair=\"yes\"@en", "Cosine=0.25", "triple=e dbp:border \"yes\"@en", "class=Song" ],
+    "4" : [ "pair=dbr:Pop_music", "Cosine=0.249", "triple=e dbp:genre dbr:Pop_music", "class=Song" ],
+    "5" : [ "pair=\"single\"@en", "Cosine=0.235", "triple=e dbp:type \"single\"@en", "class=Song" ],
+    "6" : [ "pair=dbr:CD_single", "Cosine=0.226", "triple=e dbp:format dbr:CD_single", "class=Song" ],
+    "7" : [ "pair=dbr:Music_download", "Cosine=0.225", "triple=e dbp:format dbr:Music_download", "class=Song" ]
   }
 } ]

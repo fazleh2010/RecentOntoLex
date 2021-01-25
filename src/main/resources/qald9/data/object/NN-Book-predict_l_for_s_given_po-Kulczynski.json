@@ -3,574 +3,574 @@
   "pattern" : "& dragons",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.951", "triple=e_dbo:publisher dbr:TSR", "class=Book" ],
-    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.91", "triple=e_dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.951", "triple=e dbo:publisher dbr:TSR", "class=Book" ],
+    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.91", "triple=e dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
   }
 }, {
   "id" : 2,
   "pattern" : "& dragons fantasy",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.911", "triple=e_dbo:publisher dbr:TSR", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.911", "triple=e dbo:publisher dbr:TSR", "class=Book" ]
   }
 }, {
   "id" : 3,
   "pattern" : "& dragons fantasy\u001Crole-playing",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.903", "triple=e_dbo:publisher dbr:TSR", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.903", "triple=e dbo:publisher dbr:TSR", "class=Book" ]
   }
 }, {
   "id" : 4,
   "pattern" : "& dragons fantasy\u001Crole-playing\u001Cgame",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.903", "triple=e_dbo:publisher dbr:TSR", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.903", "triple=e dbo:publisher dbr:TSR", "class=Book" ]
   }
 }, {
   "id" : 11,
   "pattern" : "book",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"32\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "Kulczynski=0.962", "triple=e_dbo:numberOfPages \"32\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "class=Book" ],
-    "1" : [ "pair=dbr:Picture_book", "Kulczynski=0.934", "triple=e_dbo:literaryGenre dbr:Picture_book", "class=Book" ],
-    "2" : [ "pair=\"Non-fiction\"@en", "Kulczynski=0.932", "triple=e_dbp:genre \"Non-fiction\"@en", "class=Book" ],
-    "3" : [ "pair=dbr:Nonfiction", "Kulczynski=0.914", "triple=e_dbp:genre dbr:Nonfiction", "class=Book" ],
-    "4" : [ "pair=dbr:Non-fiction", "Kulczynski=0.909", "triple=e_dbo:literaryGenre dbr:Non-fiction", "class=Book" ],
-    "5" : [ "pair=dbr:Children's_literature", "Kulczynski=0.861", "triple=e_dbo:literaryGenre dbr:Children's_literature", "class=Book" ],
-    "6" : [ "pair=dbr:Biography", "Kulczynski=0.842", "triple=e_dbo:literaryGenre dbr:Biography", "class=Book" ],
-    "7" : [ "pair=dbr:Penguin_Books", "Kulczynski=0.84", "triple=e_dbo:publisher dbr:Penguin_Books", "class=Book" ],
-    "8" : [ "pair=\"Hardcover\"@en", "Kulczynski=0.835", "triple=e_dbp:mediaType \"Hardcover\"@en", "class=Book" ],
-    "9" : [ "pair=\"Hardcover edition\"@en", "Kulczynski=0.828", "triple=e_dbp:caption \"Hardcover edition\"@en", "class=Book" ],
-    "10" : [ "pair=dbr:Memoir", "Kulczynski=0.817", "triple=e_dbp:genre dbr:Memoir", "class=Book" ],
-    "11" : [ "pair=\"Cover of the first edition\"@en", "Kulczynski=0.799", "triple=e_dbp:caption \"Cover of the first edition\"@en", "class=Book" ],
-    "12" : [ "pair=\"240\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "Kulczynski=0.798", "triple=e_dbo:numberOfPages \"240\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "class=Book" ],
-    "13" : [ "pair=dbr:Hardcover", "Kulczynski=0.798", "triple=e_dbp:mediaType dbr:Hardcover", "class=Book" ],
-    "14" : [ "pair=\"\"", "Kulczynski=0.794", "triple=e_dbo:isbn \"\"", "class=Book" ],
-    "15" : [ "pair=dbr:Houghton_Mifflin_Harcourt", "Kulczynski=0.79", "triple=e_dbp:publisher dbr:Houghton_Mifflin_Harcourt", "class=Book" ],
-    "16" : [ "pair=\"336\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "Kulczynski=0.783", "triple=e_dbo:numberOfPages \"336\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "class=Book" ],
-    "17" : [ "pair=dbr:E-book", "Kulczynski=0.783", "triple=e_dbo:mediaType dbr:E-book", "class=Book" ]
+    "0" : [ "pair=\"32\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "Kulczynski=0.962", "triple=e dbo:numberOfPages \"32\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "class=Book" ],
+    "1" : [ "pair=dbr:Picture_book", "Kulczynski=0.934", "triple=e dbo:literaryGenre dbr:Picture_book", "class=Book" ],
+    "2" : [ "pair=\"Non-fiction\"@en", "Kulczynski=0.932", "triple=e dbp:genre \"Non-fiction\"@en", "class=Book" ],
+    "3" : [ "pair=dbr:Nonfiction", "Kulczynski=0.914", "triple=e dbp:genre dbr:Nonfiction", "class=Book" ],
+    "4" : [ "pair=dbr:Non-fiction", "Kulczynski=0.909", "triple=e dbo:literaryGenre dbr:Non-fiction", "class=Book" ],
+    "5" : [ "pair=dbr:Children's_literature", "Kulczynski=0.861", "triple=e dbo:literaryGenre dbr:Children's_literature", "class=Book" ],
+    "6" : [ "pair=dbr:Biography", "Kulczynski=0.842", "triple=e dbo:literaryGenre dbr:Biography", "class=Book" ],
+    "7" : [ "pair=dbr:Penguin_Books", "Kulczynski=0.84", "triple=e dbo:publisher dbr:Penguin_Books", "class=Book" ],
+    "8" : [ "pair=\"Hardcover\"@en", "Kulczynski=0.835", "triple=e dbp:mediaType \"Hardcover\"@en", "class=Book" ],
+    "9" : [ "pair=\"Hardcover edition\"@en", "Kulczynski=0.828", "triple=e dbp:caption \"Hardcover edition\"@en", "class=Book" ],
+    "10" : [ "pair=dbr:Memoir", "Kulczynski=0.817", "triple=e dbp:genre dbr:Memoir", "class=Book" ],
+    "11" : [ "pair=\"Cover of the first edition\"@en", "Kulczynski=0.799", "triple=e dbp:caption \"Cover of the first edition\"@en", "class=Book" ],
+    "12" : [ "pair=\"240\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "Kulczynski=0.798", "triple=e dbo:numberOfPages \"240\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "class=Book" ],
+    "13" : [ "pair=dbr:Hardcover", "Kulczynski=0.798", "triple=e dbp:mediaType dbr:Hardcover", "class=Book" ],
+    "14" : [ "pair=\"\"", "Kulczynski=0.794", "triple=e dbo:isbn \"\"", "class=Book" ],
+    "15" : [ "pair=dbr:Houghton_Mifflin_Harcourt", "Kulczynski=0.79", "triple=e dbp:publisher dbr:Houghton_Mifflin_Harcourt", "class=Book" ],
+    "16" : [ "pair=\"336\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "Kulczynski=0.783", "triple=e dbo:numberOfPages \"336\"^^<http://www.w3.org/2001/XMLSchema#positiveInteger>", "class=Book" ],
+    "17" : [ "pair=dbr:E-book", "Kulczynski=0.783", "triple=e dbo:mediaType dbr:E-book", "class=Book" ]
   }
 }, {
   "id" : 13,
   "pattern" : "british science",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 14,
   "pattern" : "british science fiction",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 15,
   "pattern" : "british science fiction\u001Ctelevision",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 16,
   "pattern" : "british science fiction\u001Ctelevision\u001Cseries",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 18,
   "pattern" : "collection",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Short_story", "Kulczynski=0.798", "triple=e_dbp:genre dbr:Short_story", "class=Book" ]
+    "0" : [ "pair=dbr:Short_story", "Kulczynski=0.798", "triple=e dbp:genre dbr:Short_story", "class=Book" ]
   }
 }, {
   "id" : 19,
   "pattern" : "doctor",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.995", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.994", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.982", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.867", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.995", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.994", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.982", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.867", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 20,
   "pattern" : "doctor it\u001Cfeatures",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.86", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.83", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.86", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.83", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ]
   }
 }, {
   "id" : 21,
   "pattern" : "doctor it\u001Cfeatures\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.854", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.825", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.854", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.825", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ]
   }
 }, {
   "id" : 22,
   "pattern" : "dragons",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.951", "triple=e_dbo:publisher dbr:TSR", "class=Book" ],
-    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.922", "triple=e_dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.951", "triple=e dbo:publisher dbr:TSR", "class=Book" ],
+    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.922", "triple=e dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
   }
 }, {
   "id" : 23,
   "pattern" : "dragons fantasy",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.911", "triple=e_dbo:publisher dbr:TSR", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.911", "triple=e dbo:publisher dbr:TSR", "class=Book" ]
   }
 }, {
   "id" : 24,
   "pattern" : "dragons fantasy role-playing",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.903", "triple=e_dbo:publisher dbr:TSR", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.903", "triple=e dbo:publisher dbr:TSR", "class=Book" ]
   }
 }, {
   "id" : 25,
   "pattern" : "dragons fantasy role-playing\u001Cgame",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.903", "triple=e_dbo:publisher dbr:TSR", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.903", "triple=e dbo:publisher dbr:TSR", "class=Book" ]
   }
 }, {
   "id" : 26,
   "pattern" : "dungeons",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.951", "triple=e_dbo:publisher dbr:TSR", "class=Book" ],
-    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.922", "triple=e_dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.951", "triple=e dbo:publisher dbr:TSR", "class=Book" ],
+    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.922", "triple=e dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
   }
 }, {
   "id" : 27,
   "pattern" : "dungeons &",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.951", "triple=e_dbo:publisher dbr:TSR", "class=Book" ],
-    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.91", "triple=e_dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.951", "triple=e dbo:publisher dbr:TSR", "class=Book" ],
+    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.91", "triple=e dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
   }
 }, {
   "id" : 28,
   "pattern" : "dungeons & dragons",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.951", "triple=e_dbo:publisher dbr:TSR", "class=Book" ],
-    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.91", "triple=e_dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.951", "triple=e dbo:publisher dbr:TSR", "class=Book" ],
+    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.91", "triple=e dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
   }
 }, {
   "id" : 29,
   "pattern" : "dungeons & dragons\u001Cfantasy",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.911", "triple=e_dbo:publisher dbr:TSR", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.911", "triple=e dbo:publisher dbr:TSR", "class=Book" ]
   }
 }, {
   "id" : 30,
   "pattern" : "dungeons & dragons\u001Cfantasy\u001Crole-playing",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.903", "triple=e_dbo:publisher dbr:TSR", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.903", "triple=e dbo:publisher dbr:TSR", "class=Book" ]
   }
 }, {
   "id" : 31,
   "pattern" : "edition",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.803", "triple=e_dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
+    "0" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.803", "triple=e dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
   }
 }, {
   "id" : 32,
   "pattern" : "fantasy",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.951", "triple=e_dbo:publisher dbr:TSR", "class=Book" ],
-    "1" : [ "pair=dbr:Fantasy_fiction", "Kulczynski=0.895", "triple=e_dbo:literaryGenre dbr:Fantasy_fiction", "class=Book" ],
-    "2" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.875", "triple=e_dbo:literaryGenre dbr:Role-playing_game", "class=Book" ],
-    "3" : [ "pair=dbr:Fantasy_literature", "Kulczynski=0.875", "triple=e_dbo:literaryGenre dbr:Fantasy_literature", "class=Book" ],
-    "4" : [ "pair=dbr:Fantasy", "Kulczynski=0.836", "triple=e_dbp:genre dbr:Fantasy", "class=Book" ],
-    "5" : [ "pair=dbr:Fantasy_novel", "Kulczynski=0.811", "triple=e_dbo:literaryGenre dbr:Fantasy_novel", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.951", "triple=e dbo:publisher dbr:TSR", "class=Book" ],
+    "1" : [ "pair=dbr:Fantasy_fiction", "Kulczynski=0.895", "triple=e dbo:literaryGenre dbr:Fantasy_fiction", "class=Book" ],
+    "2" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.875", "triple=e dbo:literaryGenre dbr:Role-playing_game", "class=Book" ],
+    "3" : [ "pair=dbr:Fantasy_literature", "Kulczynski=0.875", "triple=e dbo:literaryGenre dbr:Fantasy_literature", "class=Book" ],
+    "4" : [ "pair=dbr:Fantasy", "Kulczynski=0.836", "triple=e dbp:genre dbr:Fantasy", "class=Book" ],
+    "5" : [ "pair=dbr:Fantasy_novel", "Kulczynski=0.811", "triple=e dbo:literaryGenre dbr:Fantasy_novel", "class=Book" ]
   }
 }, {
   "id" : 33,
   "pattern" : "fantasy novel",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Fantasy_literature", "Kulczynski=0.831", "triple=e_dbo:literaryGenre dbr:Fantasy_literature", "class=Book" ]
+    "0" : [ "pair=dbr:Fantasy_literature", "Kulczynski=0.831", "triple=e dbo:literaryGenre dbr:Fantasy_literature", "class=Book" ]
   }
 }, {
   "id" : 34,
   "pattern" : "fantasy role-playing",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.911", "triple=e_dbo:publisher dbr:TSR", "class=Book" ],
-    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.857", "triple=e_dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.911", "triple=e dbo:publisher dbr:TSR", "class=Book" ],
+    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.857", "triple=e dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
   }
 }, {
   "id" : 35,
   "pattern" : "fantasy role-playing game",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.911", "triple=e_dbo:publisher dbr:TSR", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.911", "triple=e dbo:publisher dbr:TSR", "class=Book" ]
   }
 }, {
   "id" : 36,
   "pattern" : "features",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.924", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.9", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.796", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.924", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.9", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.796", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 37,
   "pattern" : "features\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.854", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.825", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.854", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.825", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ]
   }
 }, {
   "id" : 38,
   "pattern" : "fiction",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Science_fiction", "Kulczynski=0.89", "triple=e_dbo:literaryGenre dbr:Science_fiction", "class=Book" ],
-    "4" : [ "pair=\"Science fiction\"@en", "Kulczynski=0.888", "triple=e_dbp:genre \"Science fiction\"@en", "class=Book" ],
-    "5" : [ "pair=\"Science fiction novel\"@en", "Kulczynski=0.87", "triple=e_dbp:genre \"Science fiction novel\"@en", "class=Book" ],
-    "6" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ],
-    "7" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.803", "triple=e_dbp:caption \"Cover of first edition\"@en", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Science_fiction", "Kulczynski=0.89", "triple=e dbo:literaryGenre dbr:Science_fiction", "class=Book" ],
+    "4" : [ "pair=\"Science fiction\"@en", "Kulczynski=0.888", "triple=e dbp:genre \"Science fiction\"@en", "class=Book" ],
+    "5" : [ "pair=\"Science fiction novel\"@en", "Kulczynski=0.87", "triple=e dbp:genre \"Science fiction novel\"@en", "class=Book" ],
+    "6" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ],
+    "7" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.803", "triple=e dbp:caption \"Cover of first edition\"@en", "class=Book" ]
   }
 }, {
   "id" : 39,
   "pattern" : "fiction novel",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Science fiction novel\"@en", "Kulczynski=0.814", "triple=e_dbp:genre \"Science fiction novel\"@en", "class=Book" ]
+    "0" : [ "pair=\"Science fiction novel\"@en", "Kulczynski=0.814", "triple=e dbp:genre \"Science fiction novel\"@en", "class=Book" ]
   }
 }, {
   "id" : 40,
   "pattern" : "fiction television",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 41,
   "pattern" : "fiction television series",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 42,
   "pattern" : "fiction television series\u001Cdoctor",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 43,
   "pattern" : "fiction television series\u001Cdoctor\u001Cwho",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.962", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.96", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.938", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.835", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.962", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.96", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.938", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.835", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 44,
   "pattern" : "first",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.809", "triple=e_dbp:caption \"Cover of first edition\"@en", "class=Book" ],
-    "1" : [ "pair=dbr:Fantasy_fiction", "Kulczynski=0.784", "triple=e_dbo:literaryGenre dbr:Fantasy_fiction", "class=Book" ]
+    "0" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.809", "triple=e dbp:caption \"Cover of first edition\"@en", "class=Book" ],
+    "1" : [ "pair=dbr:Fantasy_fiction", "Kulczynski=0.784", "triple=e dbo:literaryGenre dbr:Fantasy_fiction", "class=Book" ]
   }
 }, {
   "id" : 46,
   "pattern" : "game",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.944", "triple=e_dbp:publisher dbr:TSR", "class=Book" ],
-    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.91", "triple=e_dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.944", "triple=e dbp:publisher dbr:TSR", "class=Book" ],
+    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.91", "triple=e dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
   }
 }, {
   "id" : 51,
   "pattern" : "long-running\u001Cbritish\u001Cscience",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.91", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.908", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.796", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.91", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.908", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.796", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 53,
   "pattern" : "long-running british\u001Cscience",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 54,
   "pattern" : "long-running british\u001Cscience\u001Cfiction",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 55,
   "pattern" : "long-running british science",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 56,
   "pattern" : "long-running british science\u001Cfiction",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 57,
   "pattern" : "long-running british science\u001Cfiction\u001Ctelevision",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.92", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.919", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 58,
   "pattern" : "memoir",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Memoir", "Kulczynski=0.871", "triple=e_dbp:genre dbr:Memoir", "class=Book" ]
+    "0" : [ "pair=dbr:Memoir", "Kulczynski=0.871", "triple=e dbp:genre dbr:Memoir", "class=Book" ]
   }
 }, {
   "id" : 62,
   "pattern" : "original novel",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.876", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.84", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.876", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.84", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ]
   }
 }, {
   "id" : 66,
   "pattern" : "role-playing",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.946", "triple=e_dbo:literaryGenre dbr:Role-playing_game", "class=Book" ],
-    "1" : [ "pair=dbr:TSR", "Kulczynski=0.936", "triple=e_dbp:publisher dbr:TSR", "class=Book" ]
+    "0" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.946", "triple=e dbo:literaryGenre dbr:Role-playing_game", "class=Book" ],
+    "1" : [ "pair=dbr:TSR", "Kulczynski=0.936", "triple=e dbp:publisher dbr:TSR", "class=Book" ]
   }
 }, {
   "id" : 67,
   "pattern" : "role-playing game",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:TSR", "Kulczynski=0.928", "triple=e_dbp:publisher dbr:TSR", "class=Book" ],
-    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.875", "triple=e_dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
+    "0" : [ "pair=dbr:TSR", "Kulczynski=0.928", "triple=e dbp:publisher dbr:TSR", "class=Book" ],
+    "1" : [ "pair=dbr:Role-playing_game", "Kulczynski=0.875", "triple=e dbo:literaryGenre dbr:Role-playing_game", "class=Book" ]
   }
 }, {
   "id" : 68,
   "pattern" : "science",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Science_fiction", "Kulczynski=0.886", "triple=e_dbo:literaryGenre dbr:Science_fiction", "class=Book" ],
-    "4" : [ "pair=\"Science fiction\"@en", "Kulczynski=0.882", "triple=e_dbp:genre \"Science fiction\"@en", "class=Book" ],
-    "5" : [ "pair=\"Science fiction novel\"@en", "Kulczynski=0.87", "triple=e_dbp:genre \"Science fiction novel\"@en", "class=Book" ],
-    "6" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ],
-    "7" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.791", "triple=e_dbp:caption \"Cover of first edition\"@en", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Science_fiction", "Kulczynski=0.886", "triple=e dbo:literaryGenre dbr:Science_fiction", "class=Book" ],
+    "4" : [ "pair=\"Science fiction\"@en", "Kulczynski=0.882", "triple=e dbp:genre \"Science fiction\"@en", "class=Book" ],
+    "5" : [ "pair=\"Science fiction novel\"@en", "Kulczynski=0.87", "triple=e dbp:genre \"Science fiction novel\"@en", "class=Book" ],
+    "6" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ],
+    "7" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.791", "triple=e dbp:caption \"Cover of first edition\"@en", "class=Book" ]
   }
 }, {
   "id" : 69,
   "pattern" : "science fiction",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Science_fiction", "Kulczynski=0.88", "triple=e_dbo:literaryGenre dbr:Science_fiction", "class=Book" ],
-    "4" : [ "pair=\"Science fiction\"@en", "Kulczynski=0.876", "triple=e_dbp:genre \"Science fiction\"@en", "class=Book" ],
-    "5" : [ "pair=\"Science fiction novel\"@en", "Kulczynski=0.858", "triple=e_dbp:genre \"Science fiction novel\"@en", "class=Book" ],
-    "6" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ],
-    "7" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.788", "triple=e_dbp:caption \"Cover of first edition\"@en", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Science_fiction", "Kulczynski=0.88", "triple=e dbo:literaryGenre dbr:Science_fiction", "class=Book" ],
+    "4" : [ "pair=\"Science fiction\"@en", "Kulczynski=0.876", "triple=e dbp:genre \"Science fiction\"@en", "class=Book" ],
+    "5" : [ "pair=\"Science fiction novel\"@en", "Kulczynski=0.858", "triple=e dbp:genre \"Science fiction novel\"@en", "class=Book" ],
+    "6" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ],
+    "7" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.788", "triple=e dbp:caption \"Cover of first edition\"@en", "class=Book" ]
   }
 }, {
   "id" : 70,
   "pattern" : "science fiction television",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 71,
   "pattern" : "science fiction television\u001Cseries",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 72,
   "pattern" : "science fiction television\u001Cseries\u001Cdoctor",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 73,
   "pattern" : "series",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.99", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.983", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.964", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.86", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.99", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.983", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.964", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.86", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 74,
   "pattern" : "series doctor",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 75,
   "pattern" : "series doctor who\u001Cit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.897", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.865", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.897", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.865", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ]
   }
 }, {
   "id" : 76,
   "pattern" : "series doctor who\u001Cit\u001Cfeatures",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.86", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.83", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.86", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.83", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ]
   }
 }, {
   "id" : 77,
   "pattern" : "short",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Short_story", "Kulczynski=0.89", "triple=e_dbp:genre dbr:Short_story", "class=Book" ]
+    "0" : [ "pair=dbr:Short_story", "Kulczynski=0.89", "triple=e dbp:genre dbr:Short_story", "class=Book" ]
   }
 }, {
   "id" : 78,
   "pattern" : "stories",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Short_story", "Kulczynski=0.885", "triple=e_dbp:genre dbr:Short_story", "class=Book" ],
-    "1" : [ "pair=dbr:Fantasy_fiction", "Kulczynski=0.802", "triple=e_dbo:literaryGenre dbr:Fantasy_fiction", "class=Book" ]
+    "0" : [ "pair=dbr:Short_story", "Kulczynski=0.885", "triple=e dbp:genre dbr:Short_story", "class=Book" ],
+    "1" : [ "pair=dbr:Fantasy_fiction", "Kulczynski=0.802", "triple=e dbo:literaryGenre dbr:Fantasy_fiction", "class=Book" ]
   }
 }, {
   "id" : 79,
   "pattern" : "swedish",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Swedish_language", "Kulczynski=0.926", "triple=e_dbo:language dbr:Swedish_language", "class=Book" ],
-    "1" : [ "pair=dbr:Sweden", "Kulczynski=0.873", "triple=e_dbo:country dbr:Sweden", "class=Book" ]
+    "0" : [ "pair=dbr:Swedish_language", "Kulczynski=0.926", "triple=e dbo:language dbr:Swedish_language", "class=Book" ],
+    "1" : [ "pair=dbr:Sweden", "Kulczynski=0.873", "triple=e dbo:country dbr:Sweden", "class=Book" ]
   }
 }, {
   "id" : 80,
   "pattern" : "television",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 81,
   "pattern" : "television series",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 82,
   "pattern" : "television series doctor",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.973", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.97", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 83,
   "pattern" : "television series doctor\u001Cwho",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.962", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.96", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.938", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.835", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.962", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.96", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.938", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.835", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 84,
   "pattern" : "television series doctor\u001Cwho\u001Cit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.897", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.865", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.897", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.865", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ]
   }
 } ]

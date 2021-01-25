@@ -3,113 +3,113 @@
   "pattern" : "appeared",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Actress\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
-    "1" : [ "pair=dbr:Actor", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Actor", "class=Person" ],
-    "2" : [ "pair=\"Actor\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ]
+    "0" : [ "pair=\"Actress\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Actress\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Actor", "MaxConf=1.0", "triple=e dbp:occupation dbr:Actor", "class=Person" ],
+    "2" : [ "pair=\"Actor\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Actor\"@en", "class=Person" ]
   }
 }, {
   "id" : 16,
   "pattern" : "best known",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Actress\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
-    "1" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Actor", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Actor", "class=Person" ],
-    "3" : [ "pair=\"Actor\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
-    "4" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Person" ]
+    "0" : [ "pair=\"Actress\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Actress\"@en", "class=Person" ],
+    "1" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Actor", "MaxConf=1.0", "triple=e dbp:occupation dbr:Actor", "class=Person" ],
+    "3" : [ "pair=\"Actor\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Actor\"@en", "class=Person" ],
+    "4" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Person" ]
   }
 }, {
   "id" : 17,
   "pattern" : "best known\u001Cfor",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Actress\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
-    "1" : [ "pair=\"Actor\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ]
+    "0" : [ "pair=\"Actress\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Actress\"@en", "class=Person" ],
+    "1" : [ "pair=\"Actor\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Actor\"@en", "class=Person" ]
   }
 }, {
   "id" : 18,
   "pattern" : "best known for\u001Cher",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Actress\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ]
+    "0" : [ "pair=\"Actress\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Actress\"@en", "class=Person" ]
   }
 }, {
   "id" : 19,
   "pattern" : "best known for\u001Chis",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Actor\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ]
+    "0" : [ "pair=\"Actor\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Actor\"@en", "class=Person" ]
   }
 }, {
   "id" : 20,
   "pattern" : "born",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"2005\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsStartYear \"2005\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Person" ],
-    "1" : [ "pair=\"1996\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsStartYear \"1996\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Person" ],
-    "2" : [ "pair=\"2006\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsStartYear \"2006\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Person" ],
-    "3" : [ "pair=dbr:India", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:India", "class=Person" ],
-    "4" : [ "pair=dbr:New_York_(state", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:New_York_(state", "class=Person" ],
-    "5" : [ "pair=dbr:London", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:London", "class=Person" ],
-    "6" : [ "pair=dbr:Mexico", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ],
-    "7" : [ "pair=dbr:England", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:England", "class=Person" ],
-    "8" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:United_States", "class=Person" ],
-    "9" : [ "pair=dbr:New_York_City", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:New_York_City", "class=Person" ],
-    "10" : [ "pair=dbr:South_Korea", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:South_Korea", "class=Person" ],
-    "11" : [ "pair=dbr:California", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:California", "class=Person" ],
-    "12" : [ "pair=dbr:Mexican_people", "MaxConf=1.0", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "13" : [ "pair=\"Actress\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
-    "14" : [ "pair=\"Singer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Singer\"@en", "class=Person" ],
-    "15" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"\"@en", "class=Person" ],
-    "16" : [ "pair=\"singer\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"singer\"@en", "class=Person" ],
-    "17" : [ "pair=\"Politician\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
-    "18" : [ "pair=dbr:Actor", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Actor", "class=Person" ],
-    "19" : [ "pair=dbr:Screenwriter", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Screenwriter", "class=Person" ],
-    "20" : [ "pair=\"Actor\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
-    "21" : [ "pair=\"Businessman\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Businessman\"@en", "class=Person" ],
-    "22" : [ "pair=dbr:Film_director", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Film_director", "class=Person" ],
-    "23" : [ "pair=\"Mexican\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "24" : [ "pair=\"Indian\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"Indian\"@en", "class=Person" ],
-    "25" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Person" ]
+    "0" : [ "pair=\"2005\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsStartYear \"2005\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Person" ],
+    "1" : [ "pair=\"1996\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsStartYear \"1996\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Person" ],
+    "2" : [ "pair=\"2006\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsStartYear \"2006\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Person" ],
+    "3" : [ "pair=dbr:India", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:India", "class=Person" ],
+    "4" : [ "pair=dbr:New_York_(state", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:New_York_(state", "class=Person" ],
+    "5" : [ "pair=dbr:London", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:London", "class=Person" ],
+    "6" : [ "pair=dbr:Mexico", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Mexico", "class=Person" ],
+    "7" : [ "pair=dbr:England", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:England", "class=Person" ],
+    "8" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:United_States", "class=Person" ],
+    "9" : [ "pair=dbr:New_York_City", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:New_York_City", "class=Person" ],
+    "10" : [ "pair=dbr:South_Korea", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:South_Korea", "class=Person" ],
+    "11" : [ "pair=dbr:California", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:California", "class=Person" ],
+    "12" : [ "pair=dbr:Mexican_people", "MaxConf=1.0", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "13" : [ "pair=\"Actress\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Actress\"@en", "class=Person" ],
+    "14" : [ "pair=\"Singer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Singer\"@en", "class=Person" ],
+    "15" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"\"@en", "class=Person" ],
+    "16" : [ "pair=\"singer\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"singer\"@en", "class=Person" ],
+    "17" : [ "pair=\"Politician\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ],
+    "18" : [ "pair=dbr:Actor", "MaxConf=1.0", "triple=e dbp:occupation dbr:Actor", "class=Person" ],
+    "19" : [ "pair=dbr:Screenwriter", "MaxConf=1.0", "triple=e dbp:occupation dbr:Screenwriter", "class=Person" ],
+    "20" : [ "pair=\"Actor\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Actor\"@en", "class=Person" ],
+    "21" : [ "pair=\"Businessman\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Businessman\"@en", "class=Person" ],
+    "22" : [ "pair=dbr:Film_director", "MaxConf=1.0", "triple=e dbp:occupation dbr:Film_director", "class=Person" ],
+    "23" : [ "pair=\"Mexican\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "24" : [ "pair=\"Indian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Indian\"@en", "class=Person" ],
+    "25" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Person" ]
   }
 }, {
   "id" : 46,
   "pattern" : "known",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:United_States", "class=Person" ],
-    "1" : [ "pair=\"Actress\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
-    "2" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"\"@en", "class=Person" ],
-    "3" : [ "pair=dbr:Actor", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Actor", "class=Person" ],
-    "4" : [ "pair=\"Actor\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
-    "5" : [ "pair=\"Indian\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"Indian\"@en", "class=Person" ],
-    "6" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:United_States", "class=Person" ],
+    "1" : [ "pair=\"Actress\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Actress\"@en", "class=Person" ],
+    "2" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"\"@en", "class=Person" ],
+    "3" : [ "pair=dbr:Actor", "MaxConf=1.0", "triple=e dbp:occupation dbr:Actor", "class=Person" ],
+    "4" : [ "pair=\"Actor\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Actor\"@en", "class=Person" ],
+    "5" : [ "pair=\"Indian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Indian\"@en", "class=Person" ],
+    "6" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Person" ]
   }
 }, {
   "id" : 64,
   "pattern" : "played",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Actor\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ]
+    "0" : [ "pair=\"Actor\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Actor\"@en", "class=Person" ]
   }
 }, {
   "id" : 67,
   "pattern" : "representing",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Mexico", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ],
-    "1" : [ "pair=dbr:Mexican_people", "MaxConf=1.0", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "2" : [ "pair=\"Politician\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
-    "3" : [ "pair=\"Mexican\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexico", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Mexico", "class=Person" ],
+    "1" : [ "pair=dbr:Mexican_people", "MaxConf=1.0", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "2" : [ "pair=\"Politician\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ],
+    "3" : [ "pair=\"Mexican\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ]
   }
 }, {
   "id" : 73,
   "pattern" : "served",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Mexico", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ],
-    "1" : [ "pair=dbr:Mexican_people", "MaxConf=1.0", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "2" : [ "pair=\"Politician\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
-    "3" : [ "pair=\"Mexican\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexico", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Mexico", "class=Person" ],
+    "1" : [ "pair=dbr:Mexican_people", "MaxConf=1.0", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "2" : [ "pair=\"Politician\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ],
+    "3" : [ "pair=\"Mexican\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ]
   }
 } ]

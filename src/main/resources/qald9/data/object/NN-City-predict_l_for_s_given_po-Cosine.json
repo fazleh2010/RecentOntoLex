@@ -3,648 +3,633 @@
   "pattern" : "2010\u001Ccensus",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"785\"", "Cosine=1.0", "triple=e_dbo:areaCode \"785\"", "class=City" ]
+    "0" : [ "pair=\"785\"", "Cosine=1.0", "triple=e dbo:areaCode \"785\"", "class=City" ]
   }
 }, {
   "id" : 2,
   "pattern" : "2010 census",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Location in Alaska\"@en", "Cosine=1.0", "triple=e_dbp:pushpinMapCaption \"Location in Alaska\"@en", "class=City" ],
-    "1" : [ "pair=\"785\"", "Cosine=1.0", "triple=e_dbo:areaCode \"785\"", "class=City" ],
-    "2" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e_dbp:settlementType \"City and County seat\"@en", "class=City" ],
-    "3" : [ "pair=\"-9\"", "Cosine=1.0", "triple=e_dbo:utcOffset \"-9\"", "class=City" ],
-    "4" : [ "pair=\"712\"", "Cosine=0.995", "triple=e_dbo:areaCode \"712\"", "class=City" ]
+    "0" : [ "pair=\"Location in Alaska\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location in Alaska\"@en", "class=City" ],
+    "1" : [ "pair=\"785\"", "Cosine=1.0", "triple=e dbo:areaCode \"785\"", "class=City" ],
+    "2" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e dbp:settlementType \"City and County seat\"@en", "class=City" ],
+    "3" : [ "pair=\"-9\"", "Cosine=1.0", "triple=e dbo:utcOffset \"-9\"", "class=City" ],
+    "4" : [ "pair=\"712\"", "Cosine=0.995", "triple=e dbo:areaCode \"712\"", "class=City" ]
   }
 }, {
   "id" : 3,
   "pattern" : "aires",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Partidos_of_Buenos_Aires", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Partidos_of_Buenos_Aires", "class=City" ],
-    "1" : [ "pair=dbr:Buenos_Aires_Province", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Buenos_Aires_Province", "class=City" ]
+    "0" : [ "pair=dbr:Partidos_of_Buenos_Aires", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:Partidos_of_Buenos_Aires", "class=City" ],
+    "1" : [ "pair=dbr:Buenos_Aires_Province", "Cosine=1.0", "triple=e dbo:subdivision dbr:Buenos_Aires_Province", "class=City" ]
   }
 }, {
   "id" : 4,
   "pattern" : "alabama",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Alabama", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Alabama", "class=City" ],
-    "1" : [ "pair=dbr:List_of_counties_in_Alabama", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Alabama", "class=City" ]
+    "0" : [ "pair=dbr:Alabama", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Alabama", "class=City" ],
+    "1" : [ "pair=dbr:List_of_counties_in_Alabama", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Alabama", "class=City" ]
   }
 }, {
   "id" : 5,
   "pattern" : "alaska",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Alaska_Time_Zone", "Cosine=1.0", "triple=e_dbp:timezone dbr:Alaska_Time_Zone", "class=City" ],
-    "1" : [ "pair=dbr:Alaska", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Alaska", "class=City" ],
-    "2" : [ "pair=dbr:City_(Alaska", "Cosine=1.0", "triple=e_dbo:type dbr:City_(Alaska", "class=City" ],
-    "3" : [ "pair=\"AKDT\"@en", "Cosine=1.0", "triple=e_dbp:timezoneDst \"AKDT\"@en", "class=City" ],
-    "4" : [ "pair=\"Location in Alaska\"@en", "Cosine=1.0", "triple=e_dbp:pushpinMapCaption \"Location in Alaska\"@en", "class=City" ],
-    "5" : [ "pair=\"907\"", "Cosine=1.0", "triple=e_dbo:areaCode \"907\"", "class=City" ],
-    "6" : [ "pair=dbr:List_of_boroughs_and_census_areas_in_Alaska", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_boroughs_and_census_areas_in_Alaska", "class=City" ],
-    "7" : [ "pair=dbr:Alaska_House_of_Representatives", "Cosine=1.0", "triple=e_dbp:leaderTitle dbr:Alaska_House_of_Representatives", "class=City" ],
-    "8" : [ "pair=dbr:Alaska_Senate", "Cosine=1.0", "triple=e_dbp:leaderTitle dbr:Alaska_Senate", "class=City" ],
-    "9" : [ "pair=\"-9\"", "Cosine=1.0", "triple=e_dbo:utcOffset \"-9\"", "class=City" ]
+    "0" : [ "pair=dbr:Alaska_Time_Zone", "Cosine=1.0", "triple=e dbp:timezone dbr:Alaska_Time_Zone", "class=City" ],
+    "1" : [ "pair=dbr:Alaska", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Alaska", "class=City" ],
+    "2" : [ "pair=dbr:City_(Alaska", "Cosine=1.0", "triple=e dbo:type dbr:City_(Alaska", "class=City" ],
+    "3" : [ "pair=\"AKDT\"@en", "Cosine=1.0", "triple=e dbp:timezoneDst \"AKDT\"@en", "class=City" ],
+    "4" : [ "pair=\"Location in Alaska\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location in Alaska\"@en", "class=City" ],
+    "5" : [ "pair=\"907\"", "Cosine=1.0", "triple=e dbo:areaCode \"907\"", "class=City" ],
+    "6" : [ "pair=dbr:List_of_boroughs_and_census_areas_in_Alaska", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_boroughs_and_census_areas_in_Alaska", "class=City" ],
+    "7" : [ "pair=dbr:Alaska_House_of_Representatives", "Cosine=1.0", "triple=e dbp:leaderTitle dbr:Alaska_House_of_Representatives", "class=City" ],
+    "8" : [ "pair=dbr:Alaska_Senate", "Cosine=1.0", "triple=e dbp:leaderTitle dbr:Alaska_Senate", "class=City" ],
+    "9" : [ "pair=\"-9\"", "Cosine=1.0", "triple=e dbo:utcOffset \"-9\"", "class=City" ]
   }
 }, {
   "id" : 6,
   "pattern" : "arkansas",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Arkansas", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Arkansas", "class=City" ],
-    "1" : [ "pair=\"870\"", "Cosine=1.0", "triple=e_dbo:areaCode \"870\"", "class=City" ],
-    "2" : [ "pair=dbr:List_of_counties_in_Arkansas", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Arkansas", "class=City" ]
+    "0" : [ "pair=dbr:Arkansas", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Arkansas", "class=City" ],
+    "1" : [ "pair=\"870\"", "Cosine=1.0", "triple=e dbo:areaCode \"870\"", "class=City" ],
+    "2" : [ "pair=dbr:List_of_counties_in_Arkansas", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Arkansas", "class=City" ]
   }
 }, {
   "id" : 7,
   "pattern" : "bengal",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:West_Bengal", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:West_Bengal", "class=City" ]
+    "0" : [ "pair=dbr:West_Bengal", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:West_Bengal", "class=City" ]
   }
 }, {
   "id" : 8,
   "pattern" : "buenos",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Partidos_of_Buenos_Aires", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Partidos_of_Buenos_Aires", "class=City" ],
-    "1" : [ "pair=dbr:Buenos_Aires_Province", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Buenos_Aires_Province", "class=City" ]
+    "0" : [ "pair=dbr:Partidos_of_Buenos_Aires", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:Partidos_of_Buenos_Aires", "class=City" ],
+    "1" : [ "pair=dbr:Buenos_Aires_Province", "Cosine=1.0", "triple=e dbo:subdivision dbr:Buenos_Aires_Province", "class=City" ]
   }
 }, {
   "id" : 9,
   "pattern" : "buenos aires",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Partidos_of_Buenos_Aires", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Partidos_of_Buenos_Aires", "class=City" ],
-    "1" : [ "pair=dbr:Buenos_Aires_Province", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Buenos_Aires_Province", "class=City" ]
+    "0" : [ "pair=dbr:Partidos_of_Buenos_Aires", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:Partidos_of_Buenos_Aires", "class=City" ],
+    "1" : [ "pair=dbr:Buenos_Aires_Province", "Cosine=1.0", "triple=e dbo:subdivision dbr:Buenos_Aires_Province", "class=City" ]
   }
 }, {
   "id" : 10,
   "pattern" : "census",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Location in Alaska\"@en", "Cosine=1.0", "triple=e_dbp:pushpinMapCaption \"Location in Alaska\"@en", "class=City" ],
-    "1" : [ "pair=\"785\"", "Cosine=1.0", "triple=e_dbo:areaCode \"785\"", "class=City" ],
-    "2" : [ "pair=dbr:Dehestan_(administrative_division", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Dehestan_(administrative_division", "class=City" ],
-    "3" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e_dbp:settlementType \"City and County seat\"@en", "class=City" ],
-    "4" : [ "pair=\"-9\"", "Cosine=1.0", "triple=e_dbo:utcOffset \"-9\"", "class=City" ]
+    "0" : [ "pair=\"Location in Alaska\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location in Alaska\"@en", "class=City" ],
+    "1" : [ "pair=\"785\"", "Cosine=1.0", "triple=e dbo:areaCode \"785\"", "class=City" ],
+    "2" : [ "pair=dbr:Dehestan_(administrative_division", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:Dehestan_(administrative_division", "class=City" ],
+    "3" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e dbp:settlementType \"City and County seat\"@en", "class=City" ],
+    "4" : [ "pair=\"-9\"", "Cosine=1.0", "triple=e dbo:utcOffset \"-9\"", "class=City" ]
   }
 }, {
   "id" : 11,
   "pattern" : "city",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"103599.52441344\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=1.0", "triple=e_dbo:areaWater \"103599.52441344\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "1" : [ "pair=\"284898.69213696\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=1.0", "triple=e_dbo:areaWater \"284898.69213696\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "2" : [ "pair=\"258998.8110336\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=1.0", "triple=e_dbo:areaWater \"258998.8110336\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "3" : [ "pair=\"100000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=1.0", "triple=e_dbo:areaWater \"100000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "4" : [ "pair=\"181299.16772352\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=1.0", "triple=e_dbo:areaWater \"181299.16772352\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "5" : [ "pair=\"no\"@en", "Cosine=1.0", "triple=e_dbp:b \"no\"@en", "class=City" ],
-    "6" : [ "pair=dbr:Michigan", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Michigan", "class=City" ],
-    "7" : [ "pair=dbr:Indiana", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Indiana", "class=City" ],
-    "8" : [ "pair=dbr:Kyushu", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Kyushu", "class=City" ],
-    "9" : [ "pair=dbr:List_of_cities_in_Illinois", "Cosine=1.0", "triple=e_dbo:type dbr:List_of_cities_in_Illinois", "class=City" ],
-    "10" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e_dbo:type dbr:List_of_Kentucky_cities", "class=City" ],
-    "11" : [ "pair=\"Location within the state of Michigan\"@en", "Cosine=1.0", "triple=e_dbp:pushpinMapCaption \"Location within the state of Michigan\"@en", "class=City" ],
-    "12" : [ "pair=\"â8\"@en", "Cosine=1.0", "triple=e_dbp:utcOffset \"â8\"@en", "class=City" ],
-    "13" : [ "pair=\"&minus;5\"@en", "Cosine=1.0", "triple=e_dbp:utcOffset \"&minus;5\"@en", "class=City" ],
-    "14" : [ "pair=dbr:Councilâmanager_government", "Cosine=1.0", "triple=e_dbo:governmentType dbr:Councilâmanager_government", "class=City" ],
-    "15" : [ "pair=\"Michigan\"@en", "Cosine=1.0", "triple=e_dbp:pushpinMap \"Michigan\"@en", "class=City" ],
-    "16" : [ "pair=\"270 & 364\"", "Cosine=1.0", "triple=e_dbo:areaCode \"270 & 364\"", "class=City" ],
-    "17" : [ "pair=\"903\"", "Cosine=1.0", "triple=e_dbo:areaCode \"903\"", "class=City" ],
-    "18" : [ "pair=\"660\"", "Cosine=1.0", "triple=e_dbo:areaCode \"660\"", "class=City" ],
-    "19" : [ "pair=\"785\"", "Cosine=1.0", "triple=e_dbo:areaCode \"785\"", "class=City" ],
-    "20" : [ "pair=\"641\"", "Cosine=1.0", "triple=e_dbo:areaCode \"641\"", "class=City" ],
-    "21" : [ "pair=dbr:Partidos_of_Buenos_Aires", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Partidos_of_Buenos_Aires", "class=City" ],
-    "22" : [ "pair=dbr:List_of_counties_in_Indiana", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Indiana", "class=City" ],
-    "23" : [ "pair=dbr:List_of_counties_in_Michigan", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Michigan", "class=City" ],
-    "24" : [ "pair=\"City Council\"@en", "Cosine=1.0", "triple=e_dbp:leaderTitle \"City Council\"@en", "class=City" ],
-    "25" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e_dbp:settlementType \"City and County seat\"@en", "class=City" ],
-    "26" : [ "pair=\"â7\"", "Cosine=1.0", "triple=e_dbo:utcOffset \"â7\"", "class=City" ],
-    "27" : [ "pair=\"â8\"", "Cosine=1.0", "triple=e_dbo:utcOffset \"â8\"", "class=City" ],
-    "28" : [ "pair=\"zh-Hans\"@en", "Cosine=1.0", "triple=e_dbp:nativeNameLang \"zh-Hans\"@en", "class=City" ],
-    "29" : [ "pair=\"0.04\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=1.0", "triple=e_dbp:areaWaterSqMi \"0.04\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "30" : [ "pair=\"0.07\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=1.0", "triple=e_dbp:areaWaterSqMi \"0.07\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "31" : [ "pair=\"0.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=1.0", "triple=e_dbp:areaWaterSqMi \"0.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "32" : [ "pair=\"0.11\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=1.0", "triple=e_dbp:areaWaterSqMi \"0.11\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "33" : [ "pair=\"â7\"@en", "Cosine=1.0", "triple=e_dbp:utcOffsetDst \"â7\"@en", "class=City" ],
-    "34" : [ "pair=\"&minus;4\"@en", "Cosine=1.0", "triple=e_dbp:utcOffsetDst \"&minus;4\"@en", "class=City" ],
-    "35" : [ "pair=dbr:Buenos_Aires_Province", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Buenos_Aires_Province", "class=City" ],
-    "36" : [ "pair=\"The Weather Channel\"@en", "Cosine=1.0", "triple=e_dbp:source \"The Weather Channel\"@en", "class=City" ],
-    "37" : [ "pair=\"&minus;5\"", "Cosine=0.998", "triple=e_dbo:utcOffset \"&minus;5\"", "class=City" ],
-    "38" : [ "pair=dbr:Kansas", "Cosine=0.998", "triple=e_dbp:subdivisionName dbr:Kansas", "class=City" ],
-    "39" : [ "pair=dbr:List_of_counties_in_Kansas", "Cosine=0.998", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Kansas", "class=City" ],
-    "40" : [ "pair=dbr:List_of_townships_in_Kansas", "Cosine=0.998", "triple=e_dbp:subdivisionType dbr:List_of_townships_in_Kansas", "class=City" ],
-    "41" : [ "pair=dbr:List_of_counties_in_Kentucky", "Cosine=0.997", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Kentucky", "class=City" ],
-    "42" : [ "pair=dbr:Kentucky", "Cosine=0.997", "triple=e_dbo:subdivision dbr:Kentucky", "class=City" ],
-    "43" : [ "pair=dbr:List_of_cities_in_Kentucky", "Cosine=0.997", "triple=e_dbp:settlementType dbr:List_of_cities_in_Kentucky", "class=City" ],
-    "44" : [ "pair=\"&minus;6\"@en", "Cosine=0.997", "triple=e_dbp:utcOffset \"&minus;6\"@en", "class=City" ],
-    "45" : [ "pair=\"ZIP Codes\"@en", "Cosine=0.996", "triple=e_dbp:postalCodeType \"ZIP Codes\"@en", "class=City" ],
-    "46" : [ "pair=dbr:Geographic_Names_Information_System", "Cosine=0.996", "triple=e_dbp:blank1Name dbr:Geographic_Names_Information_System", "class=City" ],
-    "47" : [ "pair=dbr:Plat", "Cosine=0.996", "triple=e_dbp:establishedTitle dbr:Plat", "class=City" ],
-    "48" : [ "pair=\"â6\"", "Cosine=0.996", "triple=e_dbo:utcOffset \"â6\"", "class=City" ],
-    "49" : [ "pair=dbr:Central_Time_Zone", "Cosine=0.996", "triple=e_dbo:timeZone dbr:Central_Time_Zone", "class=City" ],
-    "50" : [ "pair=dbr:Prefecture-level_city", "Cosine=0.996", "triple=e_dbp:subdivisionType dbr:Prefecture-level_city", "class=City" ],
-    "51" : [ "pair=dbr:Eastern_Standard_Time_Zone", "Cosine=0.996", "triple=e_dbo:timeZone dbr:Eastern_Standard_Time_Zone", "class=City" ],
-    "52" : [ "pair=\"620\"", "Cosine=0.996", "triple=e_dbo:areaCode \"620\"", "class=City" ],
-    "53" : [ "pair=\"â6\"@en", "Cosine=0.995", "triple=e_dbp:utcOffset \"â6\"@en", "class=City" ]
+    "0" : [ "pair=\"no\"@en", "Cosine=1.0", "triple=e dbp:b \"no\"@en", "class=City" ],
+    "1" : [ "pair=dbr:Michigan", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Michigan", "class=City" ],
+    "2" : [ "pair=dbr:Indiana", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Indiana", "class=City" ],
+    "3" : [ "pair=dbr:Kyushu", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Kyushu", "class=City" ],
+    "4" : [ "pair=dbr:List_of_cities_in_Illinois", "Cosine=1.0", "triple=e dbo:type dbr:List_of_cities_in_Illinois", "class=City" ],
+    "5" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e dbo:type dbr:List_of_Kentucky_cities", "class=City" ],
+    "6" : [ "pair=\"Location within the state of Michigan\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location within the state of Michigan\"@en", "class=City" ],
+    "7" : [ "pair=\"â8\"@en", "Cosine=1.0", "triple=e dbp:utcOffset \"â8\"@en", "class=City" ],
+    "8" : [ "pair=\"&minus;5\"@en", "Cosine=1.0", "triple=e dbp:utcOffset \"&minus;5\"@en", "class=City" ],
+    "9" : [ "pair=dbr:Councilâmanager_government", "Cosine=1.0", "triple=e dbo:governmentType dbr:Councilâmanager_government", "class=City" ],
+    "10" : [ "pair=\"Michigan\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Michigan\"@en", "class=City" ],
+    "11" : [ "pair=\"270 & 364\"", "Cosine=1.0", "triple=e dbo:areaCode \"270 & 364\"", "class=City" ],
+    "12" : [ "pair=\"903\"", "Cosine=1.0", "triple=e dbo:areaCode \"903\"", "class=City" ],
+    "13" : [ "pair=\"660\"", "Cosine=1.0", "triple=e dbo:areaCode \"660\"", "class=City" ],
+    "14" : [ "pair=\"785\"", "Cosine=1.0", "triple=e dbo:areaCode \"785\"", "class=City" ],
+    "15" : [ "pair=\"641\"", "Cosine=1.0", "triple=e dbo:areaCode \"641\"", "class=City" ],
+    "16" : [ "pair=dbr:Partidos_of_Buenos_Aires", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:Partidos_of_Buenos_Aires", "class=City" ],
+    "17" : [ "pair=dbr:List_of_counties_in_Indiana", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Indiana", "class=City" ],
+    "18" : [ "pair=dbr:List_of_counties_in_Michigan", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Michigan", "class=City" ],
+    "19" : [ "pair=\"City Council\"@en", "Cosine=1.0", "triple=e dbp:leaderTitle \"City Council\"@en", "class=City" ],
+    "20" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e dbp:settlementType \"City and County seat\"@en", "class=City" ],
+    "21" : [ "pair=\"â7\"", "Cosine=1.0", "triple=e dbo:utcOffset \"â7\"", "class=City" ],
+    "22" : [ "pair=\"â8\"", "Cosine=1.0", "triple=e dbo:utcOffset \"â8\"", "class=City" ],
+    "23" : [ "pair=\"zh-Hans\"@en", "Cosine=1.0", "triple=e dbp:nativeNameLang \"zh-Hans\"@en", "class=City" ],
+    "24" : [ "pair=\"â7\"@en", "Cosine=1.0", "triple=e dbp:utcOffsetDst \"â7\"@en", "class=City" ],
+    "25" : [ "pair=\"&minus;4\"@en", "Cosine=1.0", "triple=e dbp:utcOffsetDst \"&minus;4\"@en", "class=City" ],
+    "26" : [ "pair=dbr:Buenos_Aires_Province", "Cosine=1.0", "triple=e dbo:subdivision dbr:Buenos_Aires_Province", "class=City" ],
+    "27" : [ "pair=\"The Weather Channel\"@en", "Cosine=1.0", "triple=e dbp:source \"The Weather Channel\"@en", "class=City" ],
+    "28" : [ "pair=\"&minus;5\"", "Cosine=0.998", "triple=e dbo:utcOffset \"&minus;5\"", "class=City" ],
+    "29" : [ "pair=dbr:Kansas", "Cosine=0.998", "triple=e dbp:subdivisionName dbr:Kansas", "class=City" ],
+    "30" : [ "pair=dbr:List_of_counties_in_Kansas", "Cosine=0.998", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Kansas", "class=City" ],
+    "31" : [ "pair=dbr:List_of_townships_in_Kansas", "Cosine=0.998", "triple=e dbp:subdivisionType dbr:List_of_townships_in_Kansas", "class=City" ],
+    "32" : [ "pair=dbr:List_of_counties_in_Kentucky", "Cosine=0.997", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Kentucky", "class=City" ],
+    "33" : [ "pair=dbr:Kentucky", "Cosine=0.997", "triple=e dbo:subdivision dbr:Kentucky", "class=City" ],
+    "34" : [ "pair=dbr:List_of_cities_in_Kentucky", "Cosine=0.997", "triple=e dbp:settlementType dbr:List_of_cities_in_Kentucky", "class=City" ],
+    "35" : [ "pair=\"&minus;6\"@en", "Cosine=0.997", "triple=e dbp:utcOffset \"&minus;6\"@en", "class=City" ],
+    "36" : [ "pair=\"ZIP Codes\"@en", "Cosine=0.996", "triple=e dbp:postalCodeType \"ZIP Codes\"@en", "class=City" ],
+    "37" : [ "pair=dbr:Geographic_Names_Information_System", "Cosine=0.996", "triple=e dbp:blank1Name dbr:Geographic_Names_Information_System", "class=City" ],
+    "38" : [ "pair=dbr:Plat", "Cosine=0.996", "triple=e dbp:establishedTitle dbr:Plat", "class=City" ],
+    "39" : [ "pair=\"â6\"", "Cosine=0.996", "triple=e dbo:utcOffset \"â6\"", "class=City" ],
+    "40" : [ "pair=dbr:Central_Time_Zone", "Cosine=0.996", "triple=e dbo:timeZone dbr:Central_Time_Zone", "class=City" ],
+    "41" : [ "pair=dbr:Prefecture-level_city", "Cosine=0.996", "triple=e dbp:subdivisionType dbr:Prefecture-level_city", "class=City" ],
+    "42" : [ "pair=dbr:Eastern_Standard_Time_Zone", "Cosine=0.996", "triple=e dbo:timeZone dbr:Eastern_Standard_Time_Zone", "class=City" ],
+    "43" : [ "pair=\"620\"", "Cosine=0.996", "triple=e dbo:areaCode \"620\"", "class=City" ],
+    "44" : [ "pair=\"â6\"@en", "Cosine=0.995", "triple=e dbp:utcOffset \"â6\"@en", "class=City" ]
   }
 }, {
   "id" : 12,
   "pattern" : "county",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Location in Oregon\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location in Oregon\"@en", "class=City" ],
-    "1" : [ "pair=dbr:Idaho", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Idaho", "class=City" ],
-    "2" : [ "pair=dbr:Oregon", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Oregon", "class=City" ],
-    "3" : [ "pair=dbr:Nebraska", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Nebraska", "class=City" ],
-    "4" : [ "pair=dbr:County_seat", "Cosine=1.0", "triple=e_dbo:type dbr:County_seat", "class=City" ],
-    "5" : [ "pair=\"208\"", "Cosine=1.0", "triple=e_dbo:areaCode \"208\"", "class=City" ],
-    "6" : [ "pair=\"563\"", "Cosine=1.0", "triple=e_dbo:areaCode \"563\"", "class=City" ],
-    "7" : [ "pair=dbr:List_of_counties_in_Idaho", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Idaho", "class=City" ],
-    "8" : [ "pair=dbr:List_of_counties_in_Nebraska", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Nebraska", "class=City" ],
-    "9" : [ "pair=dbr:List_of_counties_in_Oregon", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Oregon", "class=City" ],
-    "10" : [ "pair=dbr:List_of_counties_in_Wisconsin", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Wisconsin", "class=City" ],
-    "11" : [ "pair=dbr:Dehestan_(administrative_division", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Dehestan_(administrative_division", "class=City" ],
-    "12" : [ "pair=dbr:Municipal_clerk", "Cosine=1.0", "triple=e_dbp:leaderTitle dbr:Municipal_clerk", "class=City" ],
-    "13" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e_dbp:settlementType \"City and County seat\"@en", "class=City" ],
-    "14" : [ "pair=dbr:Wisconsin", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Wisconsin", "class=City" ],
-    "15" : [ "pair=\"620\"", "Cosine=0.996", "triple=e_dbo:areaCode \"620\"", "class=City" ]
+    "0" : [ "pair=\"Location in Oregon\"@en", "Cosine=1.0", "triple=e dbp:mapCaption \"Location in Oregon\"@en", "class=City" ],
+    "1" : [ "pair=dbr:Idaho", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Idaho", "class=City" ],
+    "2" : [ "pair=dbr:Oregon", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Oregon", "class=City" ],
+    "3" : [ "pair=dbr:Nebraska", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Nebraska", "class=City" ],
+    "4" : [ "pair=dbr:County_seat", "Cosine=1.0", "triple=e dbo:type dbr:County_seat", "class=City" ],
+    "5" : [ "pair=\"208\"", "Cosine=1.0", "triple=e dbo:areaCode \"208\"", "class=City" ],
+    "6" : [ "pair=\"563\"", "Cosine=1.0", "triple=e dbo:areaCode \"563\"", "class=City" ],
+    "7" : [ "pair=dbr:List_of_counties_in_Idaho", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Idaho", "class=City" ],
+    "8" : [ "pair=dbr:List_of_counties_in_Nebraska", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Nebraska", "class=City" ],
+    "9" : [ "pair=dbr:List_of_counties_in_Oregon", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Oregon", "class=City" ],
+    "10" : [ "pair=dbr:List_of_counties_in_Wisconsin", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Wisconsin", "class=City" ],
+    "11" : [ "pair=dbr:Dehestan_(administrative_division", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:Dehestan_(administrative_division", "class=City" ],
+    "12" : [ "pair=dbr:Municipal_clerk", "Cosine=1.0", "triple=e dbp:leaderTitle dbr:Municipal_clerk", "class=City" ],
+    "13" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e dbp:settlementType \"City and County seat\"@en", "class=City" ],
+    "14" : [ "pair=dbr:Wisconsin", "Cosine=1.0", "triple=e dbo:subdivision dbr:Wisconsin", "class=City" ],
+    "15" : [ "pair=\"620\"", "Cosine=0.996", "triple=e dbo:areaCode \"620\"", "class=City" ]
   }
 }, {
   "id" : 13,
   "pattern" : "county kansas",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"620\"", "Cosine=0.996", "triple=e_dbo:areaCode \"620\"", "class=City" ]
+    "0" : [ "pair=\"620\"", "Cosine=0.996", "triple=e dbo:areaCode \"620\"", "class=City" ]
   }
 }, {
   "id" : 14,
   "pattern" : "county kansas united",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"620\"", "Cosine=0.996", "triple=e_dbo:areaCode \"620\"", "class=City" ]
+    "0" : [ "pair=\"620\"", "Cosine=0.996", "triple=e dbo:areaCode \"620\"", "class=City" ]
   }
 }, {
   "id" : 15,
   "pattern" : "county kansas united\u001Cstates",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"620\"", "Cosine=0.996", "triple=e_dbo:areaCode \"620\"", "class=City" ]
+    "0" : [ "pair=\"620\"", "Cosine=0.996", "triple=e dbo:areaCode \"620\"", "class=City" ]
   }
 }, {
   "id" : 16,
   "pattern" : "county seat",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:County_seat", "Cosine=1.0", "triple=e_dbo:type dbr:County_seat", "class=City" ],
-    "1" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e_dbp:settlementType \"City and County seat\"@en", "class=City" ]
+    "0" : [ "pair=dbr:County_seat", "Cosine=1.0", "triple=e dbo:type dbr:County_seat", "class=City" ],
+    "1" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e dbp:settlementType \"City and County seat\"@en", "class=City" ]
   }
 }, {
   "id" : 17,
   "pattern" : "dakota",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:North_Dakota", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:North_Dakota", "class=City" ],
-    "1" : [ "pair=dbr:South_Dakota", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:South_Dakota", "class=City" ],
-    "2" : [ "pair=\"701\"", "Cosine=1.0", "triple=e_dbo:areaCode \"701\"", "class=City" ],
-    "3" : [ "pair=\"605\"", "Cosine=1.0", "triple=e_dbo:areaCode \"605\"", "class=City" ],
-    "4" : [ "pair=dbr:List_of_counties_in_North_Dakota", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_North_Dakota", "class=City" ],
-    "5" : [ "pair=dbr:List_of_counties_in_South_Dakota", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_South_Dakota", "class=City" ]
+    "0" : [ "pair=dbr:North_Dakota", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:North_Dakota", "class=City" ],
+    "1" : [ "pair=dbr:South_Dakota", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:South_Dakota", "class=City" ],
+    "2" : [ "pair=\"701\"", "Cosine=1.0", "triple=e dbo:areaCode \"701\"", "class=City" ],
+    "3" : [ "pair=\"605\"", "Cosine=1.0", "triple=e dbo:areaCode \"605\"", "class=City" ],
+    "4" : [ "pair=dbr:List_of_counties_in_North_Dakota", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_North_Dakota", "class=City" ],
+    "5" : [ "pair=dbr:List_of_counties_in_South_Dakota", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_South_Dakota", "class=City" ]
   }
 }, {
   "id" : 18,
   "pattern" : "georgia",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:List_of_counties_in_Georgia", "Cosine=0.997", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Georgia", "class=City" ],
-    "1" : [ "pair=dbr:Georgia_(U.S._state", "Cosine=0.997", "triple=e_dbo:subdivision dbr:Georgia_(U.S._state", "class=City" ]
+    "0" : [ "pair=dbr:List_of_counties_in_Georgia", "Cosine=0.997", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Georgia", "class=City" ],
+    "1" : [ "pair=dbr:Georgia_(U.S._state", "Cosine=0.997", "triple=e dbo:subdivision dbr:Georgia_(U.S._state", "class=City" ]
   }
 }, {
   "id" : 19,
   "pattern" : "home",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e_dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
+    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
   }
 }, {
   "id" : 20,
   "pattern" : "home\u001Crule-class",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e_dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
+    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
   }
 }, {
   "id" : 21,
   "pattern" : "home\u001Crule-class\u001Ccity",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e_dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
+    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
   }
 }, {
   "id" : 22,
   "pattern" : "home rule-class",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e_dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
+    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
   }
 }, {
   "id" : 23,
   "pattern" : "home rule-class\u001Ccity",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e_dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
+    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
   }
 }, {
   "id" : 24,
   "pattern" : "home rule-class city",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e_dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
+    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
   }
 }, {
   "id" : 25,
   "pattern" : "idaho",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Idaho", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Idaho", "class=City" ],
-    "1" : [ "pair=\"208\"", "Cosine=1.0", "triple=e_dbo:areaCode \"208\"", "class=City" ],
-    "2" : [ "pair=dbr:List_of_counties_in_Idaho", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Idaho", "class=City" ]
+    "0" : [ "pair=dbr:Idaho", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Idaho", "class=City" ],
+    "1" : [ "pair=\"208\"", "Cosine=1.0", "triple=e dbo:areaCode \"208\"", "class=City" ],
+    "2" : [ "pair=dbr:List_of_counties_in_Idaho", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Idaho", "class=City" ]
   }
 }, {
   "id" : 26,
   "pattern" : "illinois",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Location of Illinois in the United States\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location of Illinois in the United States\"@en", "class=City" ],
-    "1" : [ "pair=\"Illinois in United States .svg\"@en", "Cosine=1.0", "triple=e_dbp:imageMap \"Illinois in United States .svg\"@en", "class=City" ],
-    "2" : [ "pair=\"Illinois\"@en", "Cosine=1.0", "triple=e_dbp:subdivisionName \"Illinois\"@en", "class=City" ],
-    "3" : [ "pair=dbr:List_of_cities_in_Illinois", "Cosine=1.0", "triple=e_dbo:type dbr:List_of_cities_in_Illinois", "class=City" ],
-    "4" : [ "pair=dbr:List_of_municipalities_in_Illinois", "Cosine=1.0", "triple=e_dbp:settlementType dbr:List_of_municipalities_in_Illinois", "class=City" ],
-    "5" : [ "pair=dbr:Illinois", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Illinois", "class=City" ]
+    "0" : [ "pair=\"Location of Illinois in the United States\"@en", "Cosine=1.0", "triple=e dbp:mapCaption \"Location of Illinois in the United States\"@en", "class=City" ],
+    "1" : [ "pair=\"Illinois in United States .svg\"@en", "Cosine=1.0", "triple=e dbp:imageMap \"Illinois in United States .svg\"@en", "class=City" ],
+    "2" : [ "pair=\"Illinois\"@en", "Cosine=1.0", "triple=e dbp:subdivisionName \"Illinois\"@en", "class=City" ],
+    "3" : [ "pair=dbr:List_of_cities_in_Illinois", "Cosine=1.0", "triple=e dbo:type dbr:List_of_cities_in_Illinois", "class=City" ],
+    "4" : [ "pair=dbr:List_of_municipalities_in_Illinois", "Cosine=1.0", "triple=e dbp:settlementType dbr:List_of_municipalities_in_Illinois", "class=City" ],
+    "5" : [ "pair=dbr:Illinois", "Cosine=1.0", "triple=e dbo:subdivision dbr:Illinois", "class=City" ]
   }
 }, {
   "id" : 27,
   "pattern" : "indiana",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Indiana", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Indiana", "class=City" ],
-    "1" : [ "pair=dbr:List_of_counties_in_Indiana", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Indiana", "class=City" ]
+    "0" : [ "pair=dbr:Indiana", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Indiana", "class=City" ],
+    "1" : [ "pair=dbr:List_of_counties_in_Indiana", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Indiana", "class=City" ]
   }
 }, {
   "id" : 28,
   "pattern" : "iowa",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"563\"", "Cosine=1.0", "triple=e_dbo:areaCode \"563\"", "class=City" ],
-    "1" : [ "pair=\"319\"", "Cosine=1.0", "triple=e_dbo:areaCode \"319\"", "class=City" ],
-    "2" : [ "pair=\"641\"", "Cosine=1.0", "triple=e_dbo:areaCode \"641\"", "class=City" ],
-    "3" : [ "pair=dbr:List_of_counties_in_Iowa", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Iowa", "class=City" ],
-    "4" : [ "pair=dbr:Iowa", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Iowa", "class=City" ]
+    "0" : [ "pair=\"563\"", "Cosine=1.0", "triple=e dbo:areaCode \"563\"", "class=City" ],
+    "1" : [ "pair=\"319\"", "Cosine=1.0", "triple=e dbo:areaCode \"319\"", "class=City" ],
+    "2" : [ "pair=\"641\"", "Cosine=1.0", "triple=e dbo:areaCode \"641\"", "class=City" ],
+    "3" : [ "pair=dbr:List_of_counties_in_Iowa", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Iowa", "class=City" ],
+    "4" : [ "pair=dbr:Iowa", "Cosine=1.0", "triple=e dbo:subdivision dbr:Iowa", "class=City" ]
   }
 }, {
   "id" : 29,
   "pattern" : "iran",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Dehestan_(administrative_division", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Dehestan_(administrative_division", "class=City" ]
+    "0" : [ "pair=dbr:Dehestan_(administrative_division", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:Dehestan_(administrative_division", "class=City" ]
   }
 }, {
   "id" : 30,
   "pattern" : "kansas",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"785\"", "Cosine=1.0", "triple=e_dbo:areaCode \"785\"", "class=City" ],
-    "1" : [ "pair=dbr:Kansas", "Cosine=0.998", "triple=e_dbp:subdivisionName dbr:Kansas", "class=City" ],
-    "2" : [ "pair=dbr:List_of_counties_in_Kansas", "Cosine=0.998", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Kansas", "class=City" ],
-    "3" : [ "pair=dbr:List_of_townships_in_Kansas", "Cosine=0.998", "triple=e_dbp:subdivisionType dbr:List_of_townships_in_Kansas", "class=City" ],
-    "4" : [ "pair=\"620\"", "Cosine=0.996", "triple=e_dbo:areaCode \"620\"", "class=City" ]
+    "0" : [ "pair=\"785\"", "Cosine=1.0", "triple=e dbo:areaCode \"785\"", "class=City" ],
+    "1" : [ "pair=dbr:Kansas", "Cosine=0.998", "triple=e dbp:subdivisionName dbr:Kansas", "class=City" ],
+    "2" : [ "pair=dbr:List_of_counties_in_Kansas", "Cosine=0.998", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Kansas", "class=City" ],
+    "3" : [ "pair=dbr:List_of_townships_in_Kansas", "Cosine=0.998", "triple=e dbp:subdivisionType dbr:List_of_townships_in_Kansas", "class=City" ],
+    "4" : [ "pair=\"620\"", "Cosine=0.996", "triple=e dbo:areaCode \"620\"", "class=City" ]
   }
 }, {
   "id" : 31,
   "pattern" : "kansas united",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"620\"", "Cosine=0.996", "triple=e_dbo:areaCode \"620\"", "class=City" ]
+    "0" : [ "pair=\"620\"", "Cosine=0.996", "triple=e dbo:areaCode \"620\"", "class=City" ]
   }
 }, {
   "id" : 32,
   "pattern" : "kansas united states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"620\"", "Cosine=0.996", "triple=e_dbo:areaCode \"620\"", "class=City" ]
+    "0" : [ "pair=\"620\"", "Cosine=0.996", "triple=e dbo:areaCode \"620\"", "class=City" ]
   }
 }, {
   "id" : 33,
   "pattern" : "kentucky",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Kentucky", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Kentucky", "class=City" ],
-    "1" : [ "pair=dbr:List_of_cities_in_Kentucky", "Cosine=1.0", "triple=e_dbo:type dbr:List_of_cities_in_Kentucky", "class=City" ],
-    "2" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e_dbo:type dbr:List_of_Kentucky_cities", "class=City" ],
-    "3" : [ "pair=\"270 & 364\"", "Cosine=1.0", "triple=e_dbo:areaCode \"270 & 364\"", "class=City" ],
-    "4" : [ "pair=dbr:List_of_counties_in_Kentucky", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Kentucky", "class=City" ]
+    "0" : [ "pair=dbr:Kentucky", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Kentucky", "class=City" ],
+    "1" : [ "pair=dbr:List_of_cities_in_Kentucky", "Cosine=1.0", "triple=e dbo:type dbr:List_of_cities_in_Kentucky", "class=City" ],
+    "2" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e dbo:type dbr:List_of_Kentucky_cities", "class=City" ],
+    "3" : [ "pair=\"270 & 364\"", "Cosine=1.0", "triple=e dbo:areaCode \"270 & 364\"", "class=City" ],
+    "4" : [ "pair=dbr:List_of_counties_in_Kentucky", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Kentucky", "class=City" ]
   }
 }, {
   "id" : 34,
   "pattern" : "madhya",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Madhya_Pradesh", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Madhya_Pradesh", "class=City" ],
-    "1" : [ "pair=\"Location in Madhya Pradesh", "Cosine=1.0", "triple=e_dbp:pushpinMapCaption \"Location in Madhya Pradesh", "class=City" ],
-    "2" : [ "pair=\"IN-MP\"", "Cosine=1.0", "triple=e_dbo:isoCodeRegion \"IN-MP\"", "class=City" ],
-    "3" : [ "pair=\"India Madhya Pradesh#India\"@en", "Cosine=1.0", "triple=e_dbp:pushpinMap \"India Madhya Pradesh#India\"@en", "class=City" ]
+    "0" : [ "pair=dbr:Madhya_Pradesh", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Madhya_Pradesh", "class=City" ],
+    "1" : [ "pair=\"Location in Madhya Pradesh", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location in Madhya Pradesh", "class=City" ],
+    "2" : [ "pair=\"IN-MP\"", "Cosine=1.0", "triple=e dbo:isoCodeRegion \"IN-MP\"", "class=City" ],
+    "3" : [ "pair=\"India Madhya Pradesh#India\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"India Madhya Pradesh#India\"@en", "class=City" ]
   }
 }, {
   "id" : 35,
   "pattern" : "michigan",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Michigan", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Michigan", "class=City" ],
-    "1" : [ "pair=\"Location within the state of Michigan\"@en", "Cosine=1.0", "triple=e_dbp:pushpinMapCaption \"Location within the state of Michigan\"@en", "class=City" ],
-    "2" : [ "pair=\"Michigan\"@en", "Cosine=1.0", "triple=e_dbp:pushpinMap \"Michigan\"@en", "class=City" ],
-    "3" : [ "pair=dbr:List_of_counties_in_Michigan", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Michigan", "class=City" ]
+    "0" : [ "pair=dbr:Michigan", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Michigan", "class=City" ],
+    "1" : [ "pair=\"Location within the state of Michigan\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location within the state of Michigan\"@en", "class=City" ],
+    "2" : [ "pair=\"Michigan\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Michigan\"@en", "class=City" ],
+    "3" : [ "pair=dbr:List_of_counties_in_Michigan", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Michigan", "class=City" ]
   }
 }, {
   "id" : 36,
   "pattern" : "minnesota",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Minnesota", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Minnesota", "class=City" ],
-    "1" : [ "pair=\"218\"", "Cosine=1.0", "triple=e_dbo:areaCode \"218\"", "class=City" ],
-    "2" : [ "pair=\"507\"", "Cosine=1.0", "triple=e_dbo:areaCode \"507\"", "class=City" ],
-    "3" : [ "pair=\"320\"", "Cosine=1.0", "triple=e_dbo:areaCode \"320\"", "class=City" ],
-    "4" : [ "pair=dbr:List_of_counties_in_Minnesota", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Minnesota", "class=City" ]
+    "0" : [ "pair=dbr:Minnesota", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Minnesota", "class=City" ],
+    "1" : [ "pair=\"218\"", "Cosine=1.0", "triple=e dbo:areaCode \"218\"", "class=City" ],
+    "2" : [ "pair=\"507\"", "Cosine=1.0", "triple=e dbo:areaCode \"507\"", "class=City" ],
+    "3" : [ "pair=\"320\"", "Cosine=1.0", "triple=e dbo:areaCode \"320\"", "class=City" ],
+    "4" : [ "pair=dbr:List_of_counties_in_Minnesota", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Minnesota", "class=City" ]
   }
 }, {
   "id" : 37,
   "pattern" : "missouri",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Missouri", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Missouri", "class=City" ],
-    "1" : [ "pair=\"573\"", "Cosine=1.0", "triple=e_dbo:areaCode \"573\"", "class=City" ],
-    "2" : [ "pair=dbr:List_of_counties_in_Missouri", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Missouri", "class=City" ]
+    "0" : [ "pair=dbr:Missouri", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Missouri", "class=City" ],
+    "1" : [ "pair=\"573\"", "Cosine=1.0", "triple=e dbo:areaCode \"573\"", "class=City" ],
+    "2" : [ "pair=dbr:List_of_counties_in_Missouri", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Missouri", "class=City" ]
   }
 }, {
   "id" : 38,
   "pattern" : "nebraska",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Nebraska", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Nebraska", "class=City" ],
-    "1" : [ "pair=dbr:List_of_counties_in_Nebraska", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Nebraska", "class=City" ]
+    "0" : [ "pair=dbr:Nebraska", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Nebraska", "class=City" ],
+    "1" : [ "pair=dbr:List_of_counties_in_Nebraska", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Nebraska", "class=City" ]
   }
 }, {
   "id" : 39,
   "pattern" : "north",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:North_Dakota", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:North_Dakota", "class=City" ],
-    "1" : [ "pair=\"701\"", "Cosine=1.0", "triple=e_dbo:areaCode \"701\"", "class=City" ],
-    "2" : [ "pair=dbr:List_of_counties_in_North_Dakota", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_North_Dakota", "class=City" ]
+    "0" : [ "pair=dbr:North_Dakota", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:North_Dakota", "class=City" ],
+    "1" : [ "pair=\"701\"", "Cosine=1.0", "triple=e dbo:areaCode \"701\"", "class=City" ],
+    "2" : [ "pair=dbr:List_of_counties_in_North_Dakota", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_North_Dakota", "class=City" ]
   }
 }, {
   "id" : 40,
   "pattern" : "north dakota",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:North_Dakota", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:North_Dakota", "class=City" ],
-    "1" : [ "pair=\"701\"", "Cosine=1.0", "triple=e_dbo:areaCode \"701\"", "class=City" ],
-    "2" : [ "pair=dbr:List_of_counties_in_North_Dakota", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_North_Dakota", "class=City" ]
+    "0" : [ "pair=dbr:North_Dakota", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:North_Dakota", "class=City" ],
+    "1" : [ "pair=\"701\"", "Cosine=1.0", "triple=e dbo:areaCode \"701\"", "class=City" ],
+    "2" : [ "pair=dbr:List_of_counties_in_North_Dakota", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_North_Dakota", "class=City" ]
   }
 }, {
   "id" : 41,
   "pattern" : "ohio",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Ohio", "class=City" ],
-    "1" : [ "pair=dbr:List_of_counties_in_Ohio", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Ohio", "class=City" ]
+    "0" : [ "pair=dbr:Ohio", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Ohio", "class=City" ],
+    "1" : [ "pair=dbr:List_of_counties_in_Ohio", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Ohio", "class=City" ]
   }
 }, {
   "id" : 42,
   "pattern" : "oklahoma",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Oklahoma", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Oklahoma", "class=City" ],
-    "1" : [ "pair=dbr:List_of_counties_in_Oklahoma", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Oklahoma", "class=City" ]
+    "0" : [ "pair=dbr:Oklahoma", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Oklahoma", "class=City" ],
+    "1" : [ "pair=dbr:List_of_counties_in_Oklahoma", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Oklahoma", "class=City" ]
   }
 }, {
   "id" : 43,
   "pattern" : "oregon",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Location in Oregon\"@en", "Cosine=1.0", "triple=e_dbp:mapCaption \"Location in Oregon\"@en", "class=City" ],
-    "1" : [ "pair=dbr:Oregon", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Oregon", "class=City" ],
-    "2" : [ "pair=dbr:List_of_counties_in_Oregon", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Oregon", "class=City" ]
+    "0" : [ "pair=\"Location in Oregon\"@en", "Cosine=1.0", "triple=e dbp:mapCaption \"Location in Oregon\"@en", "class=City" ],
+    "1" : [ "pair=dbr:Oregon", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Oregon", "class=City" ],
+    "2" : [ "pair=dbr:List_of_counties_in_Oregon", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Oregon", "class=City" ]
   }
 }, {
   "id" : 44,
   "pattern" : "population",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"80000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=1.0", "triple=e_dbo:areaWater \"80000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "1" : [ "pair=\"70000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=1.0", "triple=e_dbo:areaWater \"70000.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "2" : [ "pair=dbr:North_Dakota", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:North_Dakota", "class=City" ],
-    "3" : [ "pair=dbr:Alaska", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Alaska", "class=City" ],
-    "4" : [ "pair=dbr:Missouri", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Missouri", "class=City" ],
-    "5" : [ "pair=dbr:Tennessee", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Tennessee", "class=City" ],
-    "6" : [ "pair=dbr:Nebraska", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Nebraska", "class=City" ],
-    "7" : [ "pair=dbr:City_(Alaska", "Cosine=1.0", "triple=e_dbo:type dbr:City_(Alaska", "class=City" ],
-    "8" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e_dbo:type dbr:List_of_Kentucky_cities", "class=City" ],
-    "9" : [ "pair=\"AKDT\"@en", "Cosine=1.0", "triple=e_dbp:timezoneDst \"AKDT\"@en", "class=City" ],
-    "10" : [ "pair=\"Location in Alaska\"@en", "Cosine=1.0", "triple=e_dbp:pushpinMapCaption \"Location in Alaska\"@en", "class=City" ],
-    "11" : [ "pair=\"218\"", "Cosine=1.0", "triple=e_dbo:areaCode \"218\"", "class=City" ],
-    "12" : [ "pair=\"573\"", "Cosine=1.0", "triple=e_dbo:areaCode \"573\"", "class=City" ],
-    "13" : [ "pair=\"712\"", "Cosine=1.0", "triple=e_dbo:areaCode \"712\"", "class=City" ],
-    "14" : [ "pair=\"701\"", "Cosine=1.0", "triple=e_dbo:areaCode \"701\"", "class=City" ],
-    "15" : [ "pair=\"507\"", "Cosine=1.0", "triple=e_dbo:areaCode \"507\"", "class=City" ],
-    "16" : [ "pair=\"903\"", "Cosine=1.0", "triple=e_dbo:areaCode \"903\"", "class=City" ],
-    "17" : [ "pair=\"563\"", "Cosine=1.0", "triple=e_dbo:areaCode \"563\"", "class=City" ],
-    "18" : [ "pair=\"319\"", "Cosine=1.0", "triple=e_dbo:areaCode \"319\"", "class=City" ],
-    "19" : [ "pair=\"785\"", "Cosine=1.0", "triple=e_dbo:areaCode \"785\"", "class=City" ],
-    "20" : [ "pair=dbr:List_of_counties_in_Tennessee", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Tennessee", "class=City" ],
-    "21" : [ "pair=dbr:List_of_counties_in_Nebraska", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Nebraska", "class=City" ],
-    "22" : [ "pair=dbr:List_of_counties_in_North_Dakota", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_North_Dakota", "class=City" ],
-    "23" : [ "pair=dbr:List_of_counties_in_Wisconsin", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Wisconsin", "class=City" ],
-    "24" : [ "pair=dbr:List_of_boroughs_and_census_areas_in_Alaska", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_boroughs_and_census_areas_in_Alaska", "class=City" ],
-    "25" : [ "pair=dbr:List_of_counties_in_Missouri", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Missouri", "class=City" ],
-    "26" : [ "pair=dbr:Dehestan_(administrative_division", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Dehestan_(administrative_division", "class=City" ],
-    "27" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e_dbp:settlementType \"City and County seat\"@en", "class=City" ],
-    "28" : [ "pair=\"-9\"", "Cosine=1.0", "triple=e_dbo:utcOffset \"-9\"", "class=City" ],
-    "29" : [ "pair=dbr:Wisconsin", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Wisconsin", "class=City" ],
-    "30" : [ "pair=\"0.08\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=1.0", "triple=e_dbp:areaWaterKm \"0.08\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "31" : [ "pair=\"0.07\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=1.0", "triple=e_dbp:areaWaterKm \"0.07\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "32" : [ "pair=dbr:Alaska_Time_Zone", "Cosine=1.0", "triple=e_dbo:timeZone dbr:Alaska_Time_Zone", "class=City" ],
-    "33" : [ "pair=dbr:List_of_counties_in_Iowa", "Cosine=0.998", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Iowa", "class=City" ],
-    "34" : [ "pair=dbr:Iowa", "Cosine=0.998", "triple=e_dbo:subdivision dbr:Iowa", "class=City" ],
-    "35" : [ "pair=dbr:Geographic_Names_Information_System", "Cosine=0.998", "triple=e_dbp:blank1Name dbr:Geographic_Names_Information_System", "class=City" ],
-    "36" : [ "pair=dbr:Kansas", "Cosine=0.998", "triple=e_dbp:subdivisionName dbr:Kansas", "class=City" ],
-    "37" : [ "pair=dbr:List_of_counties_in_Kansas", "Cosine=0.998", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Kansas", "class=City" ],
-    "38" : [ "pair=dbr:List_of_townships_in_Kansas", "Cosine=0.998", "triple=e_dbp:subdivisionType dbr:List_of_townships_in_Kansas", "class=City" ],
-    "39" : [ "pair=dbr:List_of_counties_in_Kentucky", "Cosine=0.997", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Kentucky", "class=City" ],
-    "40" : [ "pair=dbr:Kentucky", "Cosine=0.997", "triple=e_dbo:subdivision dbr:Kentucky", "class=City" ],
-    "41" : [ "pair=dbr:List_of_cities_in_Kentucky", "Cosine=0.997", "triple=e_dbp:settlementType dbr:List_of_cities_in_Kentucky", "class=City" ],
-    "42" : [ "pair=dbr:List_of_counties_in_Minnesota", "Cosine=0.997", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Minnesota", "class=City" ],
-    "43" : [ "pair=dbr:Minnesota", "Cosine=0.997", "triple=e_dbo:subdivision dbr:Minnesota", "class=City" ],
-    "44" : [ "pair=\"77699.64331008\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.997", "triple=e_dbo:areaWater \"77699.64331008\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "45" : [ "pair=\"0.03\"^^<http://www.w3.org/2001/XMLSchema#double>", "Cosine=0.997", "triple=e_dbp:areaWaterSqMi \"0.03\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=City" ],
-    "46" : [ "pair=dbr:Plat", "Cosine=0.996", "triple=e_dbp:establishedTitle dbr:Plat", "class=City" ],
-    "47" : [ "pair=\"620\"", "Cosine=0.996", "triple=e_dbo:areaCode \"620\"", "class=City" ],
-    "48" : [ "pair=\"641\"", "Cosine=0.996", "triple=e_dbo:areaCode \"641\"", "class=City" ]
+    "0" : [ "pair=dbr:North_Dakota", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:North_Dakota", "class=City" ],
+    "1" : [ "pair=dbr:Alaska", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Alaska", "class=City" ],
+    "2" : [ "pair=dbr:Missouri", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Missouri", "class=City" ],
+    "3" : [ "pair=dbr:Tennessee", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Tennessee", "class=City" ],
+    "4" : [ "pair=dbr:Nebraska", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Nebraska", "class=City" ],
+    "5" : [ "pair=dbr:City_(Alaska", "Cosine=1.0", "triple=e dbo:type dbr:City_(Alaska", "class=City" ],
+    "6" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e dbo:type dbr:List_of_Kentucky_cities", "class=City" ],
+    "7" : [ "pair=\"AKDT\"@en", "Cosine=1.0", "triple=e dbp:timezoneDst \"AKDT\"@en", "class=City" ],
+    "8" : [ "pair=\"Location in Alaska\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location in Alaska\"@en", "class=City" ],
+    "9" : [ "pair=\"218\"", "Cosine=1.0", "triple=e dbo:areaCode \"218\"", "class=City" ],
+    "10" : [ "pair=\"573\"", "Cosine=1.0", "triple=e dbo:areaCode \"573\"", "class=City" ],
+    "11" : [ "pair=\"712\"", "Cosine=1.0", "triple=e dbo:areaCode \"712\"", "class=City" ],
+    "12" : [ "pair=\"701\"", "Cosine=1.0", "triple=e dbo:areaCode \"701\"", "class=City" ],
+    "13" : [ "pair=\"507\"", "Cosine=1.0", "triple=e dbo:areaCode \"507\"", "class=City" ],
+    "14" : [ "pair=\"903\"", "Cosine=1.0", "triple=e dbo:areaCode \"903\"", "class=City" ],
+    "15" : [ "pair=\"563\"", "Cosine=1.0", "triple=e dbo:areaCode \"563\"", "class=City" ],
+    "16" : [ "pair=\"319\"", "Cosine=1.0", "triple=e dbo:areaCode \"319\"", "class=City" ],
+    "17" : [ "pair=\"785\"", "Cosine=1.0", "triple=e dbo:areaCode \"785\"", "class=City" ],
+    "18" : [ "pair=dbr:List_of_counties_in_Tennessee", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Tennessee", "class=City" ],
+    "19" : [ "pair=dbr:List_of_counties_in_Nebraska", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Nebraska", "class=City" ],
+    "20" : [ "pair=dbr:List_of_counties_in_North_Dakota", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_North_Dakota", "class=City" ],
+    "21" : [ "pair=dbr:List_of_counties_in_Wisconsin", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Wisconsin", "class=City" ],
+    "22" : [ "pair=dbr:List_of_boroughs_and_census_areas_in_Alaska", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_boroughs_and_census_areas_in_Alaska", "class=City" ],
+    "23" : [ "pair=dbr:List_of_counties_in_Missouri", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Missouri", "class=City" ],
+    "24" : [ "pair=dbr:Dehestan_(administrative_division", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:Dehestan_(administrative_division", "class=City" ],
+    "25" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e dbp:settlementType \"City and County seat\"@en", "class=City" ],
+    "26" : [ "pair=\"-9\"", "Cosine=1.0", "triple=e dbo:utcOffset \"-9\"", "class=City" ],
+    "27" : [ "pair=dbr:Wisconsin", "Cosine=1.0", "triple=e dbo:subdivision dbr:Wisconsin", "class=City" ],
+    "28" : [ "pair=dbr:Alaska_Time_Zone", "Cosine=1.0", "triple=e dbo:timeZone dbr:Alaska_Time_Zone", "class=City" ],
+    "29" : [ "pair=dbr:List_of_counties_in_Iowa", "Cosine=0.998", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Iowa", "class=City" ],
+    "30" : [ "pair=dbr:Iowa", "Cosine=0.998", "triple=e dbo:subdivision dbr:Iowa", "class=City" ],
+    "31" : [ "pair=dbr:Geographic_Names_Information_System", "Cosine=0.998", "triple=e dbp:blank1Name dbr:Geographic_Names_Information_System", "class=City" ],
+    "32" : [ "pair=dbr:Kansas", "Cosine=0.998", "triple=e dbp:subdivisionName dbr:Kansas", "class=City" ],
+    "33" : [ "pair=dbr:List_of_counties_in_Kansas", "Cosine=0.998", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Kansas", "class=City" ],
+    "34" : [ "pair=dbr:List_of_townships_in_Kansas", "Cosine=0.998", "triple=e dbp:subdivisionType dbr:List_of_townships_in_Kansas", "class=City" ],
+    "35" : [ "pair=dbr:List_of_counties_in_Kentucky", "Cosine=0.997", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Kentucky", "class=City" ],
+    "36" : [ "pair=dbr:Kentucky", "Cosine=0.997", "triple=e dbo:subdivision dbr:Kentucky", "class=City" ],
+    "37" : [ "pair=dbr:List_of_cities_in_Kentucky", "Cosine=0.997", "triple=e dbp:settlementType dbr:List_of_cities_in_Kentucky", "class=City" ],
+    "38" : [ "pair=dbr:List_of_counties_in_Minnesota", "Cosine=0.997", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Minnesota", "class=City" ],
+    "39" : [ "pair=dbr:Minnesota", "Cosine=0.997", "triple=e dbo:subdivision dbr:Minnesota", "class=City" ],
+    "40" : [ "pair=dbr:Plat", "Cosine=0.996", "triple=e dbp:establishedTitle dbr:Plat", "class=City" ],
+    "41" : [ "pair=\"620\"", "Cosine=0.996", "triple=e dbo:areaCode \"620\"", "class=City" ],
+    "42" : [ "pair=\"641\"", "Cosine=0.996", "triple=e dbo:areaCode \"641\"", "class=City" ]
   }
 }, {
   "id" : 45,
   "pattern" : "province",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Dehestan_(administrative_division", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Dehestan_(administrative_division", "class=City" ]
+    "0" : [ "pair=dbr:Dehestan_(administrative_division", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:Dehestan_(administrative_division", "class=City" ]
   }
 }, {
   "id" : 46,
   "pattern" : "province iran",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Dehestan_(administrative_division", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:Dehestan_(administrative_division", "class=City" ]
+    "0" : [ "pair=dbr:Dehestan_(administrative_division", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:Dehestan_(administrative_division", "class=City" ]
   }
 }, {
   "id" : 47,
   "pattern" : "rule-class",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e_dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
+    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
   }
 }, {
   "id" : 48,
   "pattern" : "rule-class city",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e_dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
+    "0" : [ "pair=dbr:List_of_Kentucky_cities", "Cosine=1.0", "triple=e dbo:type dbr:List_of_Kentucky_cities", "class=City" ]
   }
 }, {
   "id" : 49,
   "pattern" : "seat",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:County_seat", "Cosine=1.0", "triple=e_dbo:type dbr:County_seat", "class=City" ],
-    "1" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e_dbp:settlementType \"City and County seat\"@en", "class=City" ]
+    "0" : [ "pair=dbr:County_seat", "Cosine=1.0", "triple=e dbo:type dbr:County_seat", "class=City" ],
+    "1" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e dbp:settlementType \"City and County seat\"@en", "class=City" ]
   }
 }, {
   "id" : 50,
   "pattern" : "south",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:South_Dakota", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:South_Dakota", "class=City" ],
-    "1" : [ "pair=\"605\"", "Cosine=1.0", "triple=e_dbo:areaCode \"605\"", "class=City" ],
-    "2" : [ "pair=dbr:List_of_counties_in_South_Dakota", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_South_Dakota", "class=City" ]
+    "0" : [ "pair=dbr:South_Dakota", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:South_Dakota", "class=City" ],
+    "1" : [ "pair=\"605\"", "Cosine=1.0", "triple=e dbo:areaCode \"605\"", "class=City" ],
+    "2" : [ "pair=dbr:List_of_counties_in_South_Dakota", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_South_Dakota", "class=City" ]
   }
 }, {
   "id" : 51,
   "pattern" : "south dakota",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:South_Dakota", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:South_Dakota", "class=City" ],
-    "1" : [ "pair=\"605\"", "Cosine=1.0", "triple=e_dbo:areaCode \"605\"", "class=City" ],
-    "2" : [ "pair=dbr:List_of_counties_in_South_Dakota", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_South_Dakota", "class=City" ]
+    "0" : [ "pair=dbr:South_Dakota", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:South_Dakota", "class=City" ],
+    "1" : [ "pair=\"605\"", "Cosine=1.0", "triple=e dbo:areaCode \"605\"", "class=City" ],
+    "2" : [ "pair=dbr:List_of_counties_in_South_Dakota", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_South_Dakota", "class=City" ]
   }
 }, {
   "id" : 52,
   "pattern" : "states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e_dbp:settlementType \"City and County seat\"@en", "class=City" ],
-    "1" : [ "pair=\"620\"", "Cosine=0.996", "triple=e_dbo:areaCode \"620\"", "class=City" ]
+    "0" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e dbp:settlementType \"City and County seat\"@en", "class=City" ],
+    "1" : [ "pair=\"620\"", "Cosine=0.996", "triple=e dbo:areaCode \"620\"", "class=City" ]
   }
 }, {
   "id" : 53,
   "pattern" : "tennessee",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Tennessee", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Tennessee", "class=City" ],
-    "1" : [ "pair=dbr:List_of_counties_in_Tennessee", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Tennessee", "class=City" ]
+    "0" : [ "pair=dbr:Tennessee", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Tennessee", "class=City" ],
+    "1" : [ "pair=dbr:List_of_counties_in_Tennessee", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Tennessee", "class=City" ]
   }
 }, {
   "id" : 54,
   "pattern" : "texas",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Texas", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Texas", "class=City" ],
-    "1" : [ "pair=\"903\"", "Cosine=1.0", "triple=e_dbo:areaCode \"903\"", "class=City" ],
-    "2" : [ "pair=dbr:List_of_counties_in_Texas", "Cosine=0.998", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Texas", "class=City" ]
+    "0" : [ "pair=dbr:Texas", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Texas", "class=City" ],
+    "1" : [ "pair=\"903\"", "Cosine=1.0", "triple=e dbo:areaCode \"903\"", "class=City" ],
+    "2" : [ "pair=dbr:List_of_counties_in_Texas", "Cosine=0.998", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Texas", "class=City" ]
   }
 }, {
   "id" : 55,
   "pattern" : "the\u001C2010",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"785\"", "Cosine=1.0", "triple=e_dbo:areaCode \"785\"", "class=City" ]
+    "0" : [ "pair=\"785\"", "Cosine=1.0", "triple=e dbo:areaCode \"785\"", "class=City" ]
   }
 }, {
   "id" : 56,
   "pattern" : "the\u001C2010\u001Ccensus",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"785\"", "Cosine=1.0", "triple=e_dbo:areaCode \"785\"", "class=City" ]
+    "0" : [ "pair=\"785\"", "Cosine=1.0", "triple=e dbo:areaCode \"785\"", "class=City" ]
   }
 }, {
   "id" : 58,
   "pattern" : "united",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e_dbp:settlementType \"City and County seat\"@en", "class=City" ],
-    "1" : [ "pair=\"620\"", "Cosine=0.996", "triple=e_dbo:areaCode \"620\"", "class=City" ]
+    "0" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e dbp:settlementType \"City and County seat\"@en", "class=City" ],
+    "1" : [ "pair=\"620\"", "Cosine=0.996", "triple=e dbo:areaCode \"620\"", "class=City" ]
   }
 }, {
   "id" : 59,
   "pattern" : "united states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e_dbp:settlementType \"City and County seat\"@en", "class=City" ],
-    "1" : [ "pair=\"620\"", "Cosine=0.996", "triple=e_dbo:areaCode \"620\"", "class=City" ]
+    "0" : [ "pair=\"City and County seat\"@en", "Cosine=1.0", "triple=e dbp:settlementType \"City and County seat\"@en", "class=City" ],
+    "1" : [ "pair=\"620\"", "Cosine=0.996", "triple=e dbo:areaCode \"620\"", "class=City" ]
   }
 }, {
   "id" : 60,
   "pattern" : "utah",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Utah", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Utah", "class=City" ],
-    "1" : [ "pair=dbr:List_of_counties_in_Utah", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Utah", "class=City" ]
+    "0" : [ "pair=dbr:Utah", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Utah", "class=City" ],
+    "1" : [ "pair=dbr:List_of_counties_in_Utah", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Utah", "class=City" ]
   }
 }, {
   "id" : 61,
   "pattern" : "uttar",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"India Uttar Pradesh#India\"@en", "Cosine=1.0", "triple=e_dbp:pushpinMap \"India Uttar Pradesh#India\"@en", "class=City" ]
+    "0" : [ "pair=\"India Uttar Pradesh#India\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"India Uttar Pradesh#India\"@en", "class=City" ]
   }
 }, {
   "id" : 62,
   "pattern" : "washington",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Washington_(state", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:Washington_(state", "class=City" ],
-    "1" : [ "pair=dbr:List_of_counties_in_Washington", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Washington", "class=City" ]
+    "0" : [ "pair=dbr:Washington_(state", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:Washington_(state", "class=City" ],
+    "1" : [ "pair=dbr:List_of_counties_in_Washington", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Washington", "class=City" ]
   }
 }, {
   "id" : 63,
   "pattern" : "west",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:West_Bengal", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:West_Bengal", "class=City" ]
+    "0" : [ "pair=dbr:West_Bengal", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:West_Bengal", "class=City" ]
   }
 }, {
   "id" : 64,
   "pattern" : "west bengal",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:West_Bengal", "Cosine=1.0", "triple=e_dbp:subdivisionName dbr:West_Bengal", "class=City" ]
+    "0" : [ "pair=dbr:West_Bengal", "Cosine=1.0", "triple=e dbp:subdivisionName dbr:West_Bengal", "class=City" ]
   }
 }, {
   "id" : 65,
   "pattern" : "wisconsin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:List_of_counties_in_Wisconsin", "Cosine=1.0", "triple=e_dbp:subdivisionType dbr:List_of_counties_in_Wisconsin", "class=City" ],
-    "1" : [ "pair=dbr:Wisconsin", "Cosine=1.0", "triple=e_dbo:subdivision dbr:Wisconsin", "class=City" ]
+    "0" : [ "pair=dbr:List_of_counties_in_Wisconsin", "Cosine=1.0", "triple=e dbp:subdivisionType dbr:List_of_counties_in_Wisconsin", "class=City" ],
+    "1" : [ "pair=dbr:Wisconsin", "Cosine=1.0", "triple=e dbo:subdivision dbr:Wisconsin", "class=City" ]
   }
 } ]

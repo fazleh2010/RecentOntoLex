@@ -3,83 +3,83 @@
   "pattern" : "argentine",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Argentina\"@en", "Cosine=0.942", "triple=e_dbp:country \"Argentina\"@en", "class=Film" ]
+    "0" : [ "pair=\"Argentina\"@en", "Cosine=0.942", "triple=e dbp:country \"Argentina\"@en", "class=Film" ]
   }
 }, {
   "id" : 7,
   "pattern" : "german",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"German intertitles\"@en", "Cosine=0.979", "triple=e_dbp:language \"German intertitles\"@en", "class=Film" ],
-    "1" : [ "pair=dbr:German_language", "Cosine=0.978", "triple=e_dbo:language dbr:German_language", "class=Film" ]
+    "0" : [ "pair=\"German intertitles\"@en", "Cosine=0.979", "triple=e dbp:language \"German intertitles\"@en", "class=Film" ],
+    "1" : [ "pair=dbr:German_language", "Cosine=0.978", "triple=e dbo:language dbr:German_language", "class=Film" ]
   }
 }, {
   "id" : 8,
   "pattern" : "german silent",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"German intertitles\"@en", "Cosine=0.928", "triple=e_dbp:language \"German intertitles\"@en", "class=Film" ]
+    "0" : [ "pair=\"German intertitles\"@en", "Cosine=0.928", "triple=e dbp:language \"German intertitles\"@en", "class=Film" ]
   }
 }, {
   "id" : 11,
   "pattern" : "indian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Malayalam_Language", "Cosine=1.0", "triple=e_dbo:language dbr:Malayalam_Language", "class=Film" ],
-    "1" : [ "pair=dbr:Malayalam", "Cosine=0.943", "triple=e_dbp:language dbr:Malayalam", "class=Film" ],
-    "2" : [ "pair=dbr:Kannada_language", "Cosine=0.938", "triple=e_dbo:language dbr:Kannada_language", "class=Film" ]
+    "0" : [ "pair=dbr:Malayalam_Language", "Cosine=1.0", "triple=e dbo:language dbr:Malayalam_Language", "class=Film" ],
+    "1" : [ "pair=dbr:Malayalam", "Cosine=0.943", "triple=e dbp:language dbr:Malayalam", "class=Film" ],
+    "2" : [ "pair=dbr:Kannada_language", "Cosine=0.938", "triple=e dbo:language dbr:Kannada_language", "class=Film" ]
   }
 }, {
   "id" : 16,
   "pattern" : "italian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Italian_language", "Cosine=0.955", "triple=e_dbo:language dbr:Italian_language", "class=Film" ]
+    "0" : [ "pair=dbr:Italian_language", "Cosine=0.955", "triple=e dbo:language dbr:Italian_language", "class=Film" ]
   }
 }, {
   "id" : 17,
   "pattern" : "japanese",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Toho", "Cosine=0.93", "triple=e_dbo:distributor dbr:Toho", "class=Film" ],
-    "1" : [ "pair=\"Japan\"@en", "Cosine=0.926", "triple=e_dbp:country \"Japan\"@en", "class=Film" ],
-    "2" : [ "pair=dbr:Japan", "Cosine=0.924", "triple=e_dbo:country dbr:Japan", "class=Film" ]
+    "0" : [ "pair=dbr:Toho", "Cosine=0.93", "triple=e dbo:distributor dbr:Toho", "class=Film" ],
+    "1" : [ "pair=\"Japan\"@en", "Cosine=0.926", "triple=e dbp:country \"Japan\"@en", "class=Film" ],
+    "2" : [ "pair=dbr:Japan", "Cosine=0.924", "triple=e dbo:country dbr:Japan", "class=Film" ]
   }
 }, {
   "id" : 20,
   "pattern" : "korean",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Korean\"@en", "Cosine=0.986", "triple=e_dbp:language \"Korean\"@en", "class=Film" ],
-    "1" : [ "pair=\"South Korea\"@en", "Cosine=0.979", "triple=e_dbp:country \"South Korea\"@en", "class=Film" ]
+    "0" : [ "pair=\"Korean\"@en", "Cosine=0.986", "triple=e dbp:language \"Korean\"@en", "class=Film" ],
+    "1" : [ "pair=\"South Korea\"@en", "Cosine=0.979", "triple=e dbp:country \"South Korea\"@en", "class=Film" ]
   }
 }, {
   "id" : 28,
   "pattern" : "russian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"\"@en", "Cosine=0.965", "triple=e_dbp:nativeName \"\"@en", "class=Film" ],
-    "1" : [ "pair=\"Russian\"@en", "Cosine=0.96", "triple=e_dbp:language \"Russian\"@en", "class=Film" ],
-    "2" : [ "pair=\"Soviet Union\"@en", "Cosine=0.959", "triple=e_dbp:country \"Soviet Union\"@en", "class=Film" ]
+    "0" : [ "pair=\"\"@en", "Cosine=0.965", "triple=e dbp:nativeName \"\"@en", "class=Film" ],
+    "1" : [ "pair=\"Russian\"@en", "Cosine=0.96", "triple=e dbp:language \"Russian\"@en", "class=Film" ],
+    "2" : [ "pair=\"Soviet Union\"@en", "Cosine=0.959", "triple=e dbp:country \"Soviet Union\"@en", "class=Film" ]
   }
 }, {
   "id" : 29,
   "pattern" : "silent",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Intertitles", "Cosine=0.981", "triple=e_dbo:language dbr:Intertitles", "class=Film" ],
-    "1" : [ "pair=\"German intertitles\"@en", "Cosine=0.979", "triple=e_dbp:language \"German intertitles\"@en", "class=Film" ],
-    "2" : [ "pair=dbr:Jesse_L._Lasky", "Cosine=0.963", "triple=e_dbp:producer dbr:Jesse_L._Lasky", "class=Film" ],
-    "3" : [ "pair=\"Silent film\"@en", "Cosine=0.945", "triple=e_dbp:language \"Silent film\"@en", "class=Film" ],
-    "4" : [ "pair=dbr:Intertitle", "Cosine=0.942", "triple=e_dbo:language dbr:Intertitle", "class=Film" ],
-    "5" : [ "pair=\"Silent\"@en", "Cosine=0.939", "triple=e_dbp:language \"Silent\"@en", "class=Film" ]
+    "0" : [ "pair=dbr:Intertitles", "Cosine=0.981", "triple=e dbo:language dbr:Intertitles", "class=Film" ],
+    "1" : [ "pair=\"German intertitles\"@en", "Cosine=0.979", "triple=e dbp:language \"German intertitles\"@en", "class=Film" ],
+    "2" : [ "pair=dbr:Jesse_L._Lasky", "Cosine=0.963", "triple=e dbp:producer dbr:Jesse_L._Lasky", "class=Film" ],
+    "3" : [ "pair=\"Silent film\"@en", "Cosine=0.945", "triple=e dbp:language \"Silent film\"@en", "class=Film" ],
+    "4" : [ "pair=dbr:Intertitle", "Cosine=0.942", "triple=e dbo:language dbr:Intertitle", "class=Film" ],
+    "5" : [ "pair=\"Silent\"@en", "Cosine=0.939", "triple=e dbp:language \"Silent\"@en", "class=Film" ]
   }
 }, {
   "id" : 31,
   "pattern" : "south korean",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"South Korea\"@en", "Cosine=0.968", "triple=e_dbp:country \"South Korea\"@en", "class=Film" ],
-    "1" : [ "pair=\"Korean\"@en", "Cosine=0.948", "triple=e_dbp:language \"Korean\"@en", "class=Film" ]
+    "0" : [ "pair=\"South Korea\"@en", "Cosine=0.968", "triple=e dbp:country \"South Korea\"@en", "class=Film" ],
+    "1" : [ "pair=\"Korean\"@en", "Cosine=0.948", "triple=e dbp:language \"Korean\"@en", "class=Film" ]
   }
 } ]

@@ -3,416 +3,416 @@
   "pattern" : "american",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Los Angeles", "Kulczynski=0.914", "triple=e_dbp:origin \"Los Angeles", "class=Band" ],
-    "1" : [ "pair=dbr:Los_Angeles", "Kulczynski=0.852", "triple=e_dbo:hometown dbr:Los_Angeles", "class=Band" ]
+    "0" : [ "pair=\"Los Angeles", "Kulczynski=0.914", "triple=e dbp:origin \"Los Angeles", "class=Band" ],
+    "1" : [ "pair=dbr:Los_Angeles", "Kulczynski=0.852", "triple=e dbo:hometown dbr:Los_Angeles", "class=Band" ]
   }
 }, {
   "id" : 2,
   "pattern" : "angeles",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Los Angeles", "Kulczynski=0.852", "triple=e_dbp:origin \"Los Angeles", "class=Band" ],
-    "1" : [ "pair=dbr:Los_Angeles", "Kulczynski=0.833", "triple=e_dbo:hometown dbr:Los_Angeles", "class=Band" ]
+    "0" : [ "pair=\"Los Angeles", "Kulczynski=0.852", "triple=e dbp:origin \"Los Angeles", "class=Band" ],
+    "1" : [ "pair=dbr:Los_Angeles", "Kulczynski=0.833", "triple=e dbo:hometown dbr:Los_Angeles", "class=Band" ]
   }
 }, {
   "id" : 4,
   "pattern" : "band",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Century_Media_Records", "Kulczynski=1.0", "triple=e_dbp:label dbr:Century_Media_Records", "class=Band" ],
-    "1" : [ "pair=dbr:Glam_metal", "Kulczynski=0.992", "triple=e_dbo:genre dbr:Glam_metal", "class=Band" ],
-    "2" : [ "pair=dbr:Melodic_death_metal", "Kulczynski=0.992", "triple=e_dbo:genre dbr:Melodic_death_metal", "class=Band" ],
-    "3" : [ "pair=\"Alternative rock\"@en", "Kulczynski=0.992", "triple=e_dbp:genre \"Alternative rock\"@en", "class=Band" ],
-    "4" : [ "pair=dbr:Roadrunner_Records", "Kulczynski=0.991", "triple=e_dbo:recordLabel dbr:Roadrunner_Records", "class=Band" ],
-    "5" : [ "pair=dbr:Pop-punk", "Kulczynski=0.989", "triple=e_dbp:genre dbr:Pop-punk", "class=Band" ],
-    "6" : [ "pair=dbr:Pop_punk", "Kulczynski=0.989", "triple=e_dbo:genre dbr:Pop_punk", "class=Band" ],
-    "7" : [ "pair=dbr:Metalcore", "Kulczynski=0.987", "triple=e_dbp:genre dbr:Metalcore", "class=Band" ],
-    "8" : [ "pair=dbr:Thrash_metal", "Kulczynski=0.985", "triple=e_dbp:genre dbr:Thrash_metal", "class=Band" ],
-    "9" : [ "pair=dbr:Melodic_hardcore", "Kulczynski=0.984", "triple=e_dbo:genre dbr:Melodic_hardcore", "class=Band" ],
-    "10" : [ "pair=dbr:Post-punk_revival", "Kulczynski=0.984", "triple=e_dbo:genre dbr:Post-punk_revival", "class=Band" ],
-    "11" : [ "pair=dbr:Post-hardcore", "Kulczynski=0.983", "triple=e_dbo:genre dbr:Post-hardcore", "class=Band" ],
-    "12" : [ "pair=dbr:Post-grunge", "Kulczynski=0.982", "triple=e_dbo:genre dbr:Post-grunge", "class=Band" ],
-    "13" : [ "pair=dbr:Nuclear_Blast", "Kulczynski=0.982", "triple=e_dbo:recordLabel dbr:Nuclear_Blast", "class=Band" ],
-    "14" : [ "pair=dbr:Hardcore_punk", "Kulczynski=0.98", "triple=e_dbp:genre dbr:Hardcore_punk", "class=Band" ],
-    "15" : [ "pair=dbr:Nu_metal", "Kulczynski=0.979", "triple=e_dbp:genre dbr:Nu_metal", "class=Band" ],
-    "16" : [ "pair=dbr:Gothic_metal", "Kulczynski=0.979", "triple=e_dbo:genre dbr:Gothic_metal", "class=Band" ],
-    "17" : [ "pair=dbr:Alternative_metal", "Kulczynski=0.979", "triple=e_dbp:genre dbr:Alternative_metal", "class=Band" ],
-    "18" : [ "pair=dbr:Power_metal", "Kulczynski=0.979", "triple=e_dbp:genre dbr:Power_metal", "class=Band" ],
-    "19" : [ "pair=dbr:Death_metal", "Kulczynski=0.977", "triple=e_dbp:genre dbr:Death_metal", "class=Band" ],
-    "20" : [ "pair=dbr:Heavy_metal_music", "Kulczynski=0.976", "triple=e_dbo:genre dbr:Heavy_metal_music", "class=Band" ],
-    "21" : [ "pair=dbr:Emo", "Kulczynski=0.974", "triple=e_dbo:genre dbr:Emo", "class=Band" ],
-    "22" : [ "pair=dbr:Groove_metal", "Kulczynski=0.972", "triple=e_dbo:genre dbr:Groove_metal", "class=Band" ],
-    "23" : [ "pair=dbr:Garage_rock", "Kulczynski=0.97", "triple=e_dbo:genre dbr:Garage_rock", "class=Band" ],
-    "24" : [ "pair=dbr:Power_pop", "Kulczynski=0.967", "triple=e_dbo:genre dbr:Power_pop", "class=Band" ],
-    "25" : [ "pair=dbr:Hard_rock", "Kulczynski=0.967", "triple=e_dbo:genre dbr:Hard_rock", "class=Band" ],
-    "26" : [ "pair=dbr:Alternative_rock", "Kulczynski=0.967", "triple=e_dbp:genre dbr:Alternative_rock", "class=Band" ],
-    "27" : [ "pair=dbr:Doom_metal", "Kulczynski=0.967", "triple=e_dbp:genre dbr:Doom_metal", "class=Band" ],
-    "28" : [ "pair=dbr:Alternative_country", "Kulczynski=0.965", "triple=e_dbp:genre dbr:Alternative_country", "class=Band" ],
-    "29" : [ "pair=dbr:Finland", "Kulczynski=0.963", "triple=e_dbp:origin dbr:Finland", "class=Band" ],
-    "30" : [ "pair=dbr:Punk_rock", "Kulczynski=0.963", "triple=e_dbo:genre dbr:Punk_rock", "class=Band" ],
-    "31" : [ "pair=dbr:Progressive_metal", "Kulczynski=0.96", "triple=e_dbp:genre dbr:Progressive_metal", "class=Band" ],
-    "32" : [ "pair=dbr:Black_metal", "Kulczynski=0.959", "triple=e_dbo:genre dbr:Black_metal", "class=Band" ],
-    "33" : [ "pair=dbr:Indie_rock", "Kulczynski=0.959", "triple=e_dbo:genre dbr:Indie_rock", "class=Band" ],
-    "34" : [ "pair=dbr:New_wave_music", "Kulczynski=0.959", "triple=e_dbp:genre dbr:New_wave_music", "class=Band" ],
-    "35" : [ "pair=dbr:Psychedelic_rock", "Kulczynski=0.958", "triple=e_dbp:genre dbr:Psychedelic_rock", "class=Band" ],
-    "36" : [ "pair=dbr:Noise_rock", "Kulczynski=0.957", "triple=e_dbp:genre dbr:Noise_rock", "class=Band" ],
-    "37" : [ "pair=dbr:Grunge", "Kulczynski=0.956", "triple=e_dbo:genre dbr:Grunge", "class=Band" ],
-    "38" : [ "pair=dbr:Gothic_rock", "Kulczynski=0.953", "triple=e_dbp:genre dbr:Gothic_rock", "class=Band" ],
-    "39" : [ "pair=dbr:Blues_rock", "Kulczynski=0.952", "triple=e_dbo:genre dbr:Blues_rock", "class=Band" ],
-    "40" : [ "pair=dbr:Stoner_rock", "Kulczynski=0.95", "triple=e_dbp:genre dbr:Stoner_rock", "class=Band" ],
-    "41" : [ "pair=dbr:Shoegazing", "Kulczynski=0.95", "triple=e_dbp:genre dbr:Shoegazing", "class=Band" ],
-    "42" : [ "pair=dbr:Progressive_rock", "Kulczynski=0.948", "triple=e_dbp:genre dbr:Progressive_rock", "class=Band" ],
-    "43" : [ "pair=dbr:Post-rock", "Kulczynski=0.947", "triple=e_dbo:genre dbr:Post-rock", "class=Band" ],
-    "44" : [ "pair=dbr:Neo-psychedelia", "Kulczynski=0.946", "triple=e_dbo:genre dbr:Neo-psychedelia", "class=Band" ],
-    "45" : [ "pair=dbr:Art_rock", "Kulczynski=0.945", "triple=e_dbp:genre dbr:Art_rock", "class=Band" ],
-    "46" : [ "pair=dbr:Folk_rock", "Kulczynski=0.944", "triple=e_dbp:genre dbr:Folk_rock", "class=Band" ],
-    "47" : [ "pair=dbr:Christian_rock", "Kulczynski=0.944", "triple=e_dbp:genre dbr:Christian_rock", "class=Band" ],
-    "48" : [ "pair=dbr:Post-punk", "Kulczynski=0.944", "triple=e_dbo:genre dbr:Post-punk", "class=Band" ],
-    "49" : [ "pair=\"1987\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.938", "triple=e_dbo:activeYearsEndYear \"1987\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "50" : [ "pair=dbr:Ska", "Kulczynski=0.936", "triple=e_dbp:genre dbr:Ska", "class=Band" ],
-    "51" : [ "pair=\"alternative rock\"@en", "Kulczynski=0.935", "triple=e_dbp:genre \"alternative rock\"@en", "class=Band" ],
-    "52" : [ "pair=\"Yes\"@en", "Kulczynski=0.935", "triple=e_dbp:landscape \"Yes\"@en", "class=Band" ],
-    "53" : [ "pair=dbr:Rock_music", "Kulczynski=0.933", "triple=e_dbo:genre dbr:Rock_music", "class=Band" ],
-    "54" : [ "pair=dbr:Rock_and_roll", "Kulczynski=0.932", "triple=e_dbo:genre dbr:Rock_and_roll", "class=Band" ],
-    "55" : [ "pair=dbr:Pop_rock", "Kulczynski=0.928", "triple=e_dbo:genre dbr:Pop_rock", "class=Band" ],
-    "56" : [ "pair=dbr:Experimental_rock", "Kulczynski=0.924", "triple=e_dbo:genre dbr:Experimental_rock", "class=Band" ],
-    "57" : [ "pair=\"1978\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.921", "triple=e_dbo:activeYearsStartYear \"1978\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "58" : [ "pair=dbr:Dream_pop", "Kulczynski=0.919", "triple=e_dbp:genre dbr:Dream_pop", "class=Band" ],
-    "59" : [ "pair=\"1983\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.919", "triple=e_dbo:activeYearsStartYear \"1983\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "60" : [ "pair=dbr:Polydor_Records", "Kulczynski=0.918", "triple=e_dbo:recordLabel dbr:Polydor_Records", "class=Band" ],
-    "61" : [ "pair=\"1986\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.916", "triple=e_dbo:activeYearsEndYear \"1986\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "62" : [ "pair=dbr:San_Francisco", "Kulczynski=0.915", "triple=e_dbo:hometown dbr:San_Francisco", "class=Band" ],
-    "63" : [ "pair=dbr:Indie_pop", "Kulczynski=0.915", "triple=e_dbo:genre dbr:Indie_pop", "class=Band" ],
-    "64" : [ "pair=dbr:Massachusetts", "Kulczynski=0.914", "triple=e_dbo:hometown dbr:Massachusetts", "class=Band" ],
-    "65" : [ "pair=dbr:Illinois", "Kulczynski=0.913", "triple=e_dbo:hometown dbr:Illinois", "class=Band" ],
-    "66" : [ "pair=\"2007\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.912", "triple=e_dbo:activeYearsEndYear \"2007\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "67" : [ "pair=\"Rock\"@en", "Kulczynski=0.91", "triple=e_dbp:genre \"Rock\"@en", "class=Band" ],
-    "68" : [ "pair=dbr:Industrial_rock", "Kulczynski=0.909", "triple=e_dbo:genre dbr:Industrial_rock", "class=Band" ],
-    "69" : [ "pair=dbr:Indie_folk", "Kulczynski=0.907", "triple=e_dbp:genre dbr:Indie_folk", "class=Band" ],
-    "70" : [ "pair=\"2010\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.907", "triple=e_dbo:activeYearsEndYear \"2010\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "71" : [ "pair=\"2012\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.906", "triple=e_dbo:activeYearsEndYear \"2012\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "72" : [ "pair=dbr:England", "Kulczynski=0.906", "triple=e_dbp:origin dbr:England", "class=Band" ],
-    "73" : [ "pair=\"\"", "Kulczynski=0.904", "triple=e_dbo:background \"\"", "class=Band" ],
-    "74" : [ "pair=\"1989\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.904", "triple=e_dbo:activeYearsEndYear \"1989\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "75" : [ "pair=dbr:Australia", "Kulczynski=0.9", "triple=e_dbp:origin dbr:Australia", "class=Band" ],
-    "76" : [ "pair=\"1991\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.9", "triple=e_dbo:activeYearsEndYear \"1991\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "77" : [ "pair=dbr:Mercury_Records", "Kulczynski=0.898", "triple=e_dbo:recordLabel dbr:Mercury_Records", "class=Band" ],
-    "78" : [ "pair=\"1985\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.897", "triple=e_dbo:activeYearsEndYear \"1985\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "79" : [ "pair=\"2003\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.896", "triple=e_dbo:activeYearsEndYear \"2003\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "80" : [ "pair=\"2014\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.896", "triple=e_dbo:activeYearsEndYear \"2014\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "81" : [ "pair=\"2005\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.894", "triple=e_dbo:activeYearsStartYear \"2005\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "82" : [ "pair=\"2011\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.893", "triple=e_dbo:activeYearsEndYear \"2011\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "83" : [ "pair=\"yes\"@en", "Kulczynski=0.892", "triple=e_dbp:fixAttempted \"yes\"@en", "class=Band" ],
-    "84" : [ "pair=\"2004\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.891", "triple=e_dbo:activeYearsStartYear \"2004\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "85" : [ "pair=dbr:Electronic_rock", "Kulczynski=0.891", "triple=e_dbp:genre dbr:Electronic_rock", "class=Band" ],
-    "86" : [ "pair=dbr:Sweden", "Kulczynski=0.89", "triple=e_dbo:hometown dbr:Sweden", "class=Band" ],
-    "87" : [ "pair=\"2009\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.888", "triple=e_dbo:activeYearsEndYear \"2009\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "88" : [ "pair=dbr:Stockholm", "Kulczynski=0.888", "triple=e_dbo:hometown dbr:Stockholm", "class=Band" ],
-    "89" : [ "pair=\"InternetArchiveBot\"@en", "Kulczynski=0.888", "triple=e_dbp:bot \"InternetArchiveBot\"@en", "class=Band" ],
-    "90" : [ "pair=\"1995\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.888", "triple=e_dbo:activeYearsStartYear \"1995\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "91" : [ "pair=dbr:Melbourne", "Kulczynski=0.888", "triple=e_dbo:hometown dbr:Melbourne", "class=Band" ],
-    "92" : [ "pair=\"1992\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.886", "triple=e_dbo:activeYearsEndYear \"1992\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "93" : [ "pair=dbr:Warner_Music_Group", "Kulczynski=0.886", "triple=e_dbo:recordLabel dbr:Warner_Music_Group", "class=Band" ],
-    "94" : [ "pair=\"1999\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.885", "triple=e_dbo:activeYearsStartYear \"1999\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "95" : [ "pair=dbr:Ogg", "Kulczynski=0.885", "triple=e_dbp:format dbr:Ogg", "class=Band" ],
-    "96" : [ "pair=dbr:Virgin_Records", "Kulczynski=0.885", "triple=e_dbo:recordLabel dbr:Virgin_Records", "class=Band" ],
-    "97" : [ "pair=\"2006\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.884", "triple=e_dbo:activeYearsEndYear \"2006\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "98" : [ "pair=\"1980\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.884", "triple=e_dbo:activeYearsEndYear \"1980\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "99" : [ "pair=\"Los Angeles", "Kulczynski=0.883", "triple=e_dbp:origin \"Los Angeles", "class=Band" ],
-    "100" : [ "pair=\"1994\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.883", "triple=e_dbo:activeYearsStartYear \"1994\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "101" : [ "pair=\"\"@en", "Kulczynski=0.883", "triple=e_dbp:pastMembers \"\"@en", "class=Band" ],
-    "102" : [ "pair=dbr:Island_Records", "Kulczynski=0.882", "triple=e_dbo:recordLabel dbr:Island_Records", "class=Band" ],
-    "103" : [ "pair=\"2001\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.88", "triple=e_dbo:activeYearsStartYear \"2001\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "104" : [ "pair=\"2008\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.879", "triple=e_dbo:activeYearsEndYear \"2008\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "105" : [ "pair=\"1990\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.878", "triple=e_dbo:activeYearsEndYear \"1990\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "106" : [ "pair=\"2002\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.876", "triple=e_dbo:activeYearsEndYear \"2002\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "107" : [ "pair=\"2016\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.876", "triple=e_dbo:activeYearsEndYear \"2016\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "108" : [ "pair=\"2000\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.876", "triple=e_dbo:activeYearsStartYear \"2000\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "109" : [ "pair=dbr:Reggae", "Kulczynski=0.876", "triple=e_dbp:genre dbr:Reggae", "class=Band" ],
-    "110" : [ "pair=dbr:Jazz_fusion", "Kulczynski=0.876", "triple=e_dbp:genre dbr:Jazz_fusion", "class=Band" ],
-    "111" : [ "pair=\"1981\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.875", "triple=e_dbo:activeYearsStartYear \"1981\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "112" : [ "pair=\"1979\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.873", "triple=e_dbo:activeYearsStartYear \"1979\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "113" : [ "pair=dbr:Chicago", "Kulczynski=0.873", "triple=e_dbo:hometown dbr:Chicago", "class=Band" ],
-    "114" : [ "pair=dbr:Canada", "Kulczynski=0.872", "triple=e_dbp:origin dbr:Canada", "class=Band" ],
-    "115" : [ "pair=\"1998\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.872", "triple=e_dbo:activeYearsStartYear \"1998\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "116" : [ "pair=dbr:Norway", "Kulczynski=0.872", "triple=e_dbo:hometown dbr:Norway", "class=Band" ],
-    "117" : [ "pair=dbr:California", "Kulczynski=0.871", "triple=e_dbo:hometown dbr:California", "class=Band" ],
-    "118" : [ "pair=dbr:EMI", "Kulczynski=0.87", "triple=e_dbp:label dbr:EMI", "class=Band" ],
-    "119" : [ "pair=\"1996\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.87", "triple=e_dbo:activeYearsEndYear \"1996\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "120" : [ "pair=dbr:Los_Angeles", "Kulczynski=0.87", "triple=e_dbp:origin dbr:Los_Angeles", "class=Band" ],
-    "121" : [ "pair=dbr:London", "Kulczynski=0.87", "triple=e_dbo:hometown dbr:London", "class=Band" ],
-    "122" : [ "pair=\"Independent\"@en", "Kulczynski=0.868", "triple=e_dbp:label \"Independent\"@en", "class=Band" ],
-    "123" : [ "pair=dbr:Atlantic_Records", "Kulczynski=0.866", "triple=e_dbp:label dbr:Atlantic_Records", "class=Band" ],
-    "124" : [ "pair=dbr:Blues", "Kulczynski=0.865", "triple=e_dbp:genre dbr:Blues", "class=Band" ],
-    "125" : [ "pair=dbr:Columbia_Records", "Kulczynski=0.865", "triple=e_dbp:label dbr:Columbia_Records", "class=Band" ],
-    "126" : [ "pair=dbr:Quebec", "Kulczynski=0.864", "triple=e_dbo:hometown dbr:Quebec", "class=Band" ],
-    "127" : [ "pair=dbr:Ontario", "Kulczynski=0.864", "triple=e_dbo:hometown dbr:Ontario", "class=Band" ],
-    "128" : [ "pair=\"group_or_band\"@en", "Kulczynski=0.863", "triple=e_dbp:background \"group_or_band\"@en", "class=Band" ],
-    "129" : [ "pair=\"right\"@en", "Kulczynski=0.863", "triple=e_dbp:align \"right\"@en", "class=Band" ],
-    "130" : [ "pair=\"1993\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.863", "triple=e_dbo:activeYearsEndYear \"1993\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "131" : [ "pair=dbr:Sony_Music", "Kulczynski=0.863", "triple=e_dbp:label dbr:Sony_Music", "class=Band" ],
-    "132" : [ "pair=\"group_or_band\"", "Kulczynski=0.862", "triple=e_dbo:background \"group_or_band\"", "class=Band" ],
-    "133" : [ "pair=\"1988\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.861", "triple=e_dbo:activeYearsEndYear \"1988\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "134" : [ "pair=\"1982\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.86", "triple=e_dbo:activeYearsStartYear \"1982\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "135" : [ "pair=\"London", "Kulczynski=0.859", "triple=e_dbp:origin \"London", "class=Band" ],
-    "136" : [ "pair=\"1984\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.859", "triple=e_dbo:activeYearsStartYear \"1984\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "137" : [ "pair=dbr:Funk", "Kulczynski=0.858", "triple=e_dbo:genre dbr:Funk", "class=Band" ],
-    "138" : [ "pair=\"2013\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.856", "triple=e_dbo:activeYearsEndYear \"2013\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "139" : [ "pair=dbr:Brooklyn", "Kulczynski=0.856", "triple=e_dbo:hometown dbr:Brooklyn", "class=Band" ],
-    "140" : [ "pair=dbr:Independent_music", "Kulczynski=0.854", "triple=e_dbp:genre dbr:Independent_music", "class=Band" ],
-    "141" : [ "pair=\"1970\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.852", "triple=e_dbo:activeYearsStartYear \"1970\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "142" : [ "pair=\"1977\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.851", "triple=e_dbo:activeYearsStartYear \"1977\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "143" : [ "pair=dbr:Epic_Records", "Kulczynski=0.85", "triple=e_dbo:recordLabel dbr:Epic_Records", "class=Band" ],
-    "144" : [ "pair=dbr:United_States", "Kulczynski=0.848", "triple=e_dbp:origin dbr:United_States", "class=Band" ],
-    "145" : [ "pair=dbr:Capitol_Records", "Kulczynski=0.845", "triple=e_dbo:recordLabel dbr:Capitol_Records", "class=Band" ],
-    "146" : [ "pair=dbr:United_Kingdom", "Kulczynski=0.845", "triple=e_dbo:hometown dbr:United_Kingdom", "class=Band" ],
-    "147" : [ "pair=\"â\"@en", "Kulczynski=0.843", "triple=e_dbp:yearsActive \"â\"@en", "class=Band" ],
-    "148" : [ "pair=dbr:Warner_Records", "Kulczynski=0.843", "triple=e_dbp:label dbr:Warner_Records", "class=Band" ],
-    "149" : [ "pair=\"1997\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.842", "triple=e_dbo:activeYearsEndYear \"1997\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "150" : [ "pair=\"2015\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.841", "triple=e_dbo:activeYearsEndYear \"2015\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
-    "151" : [ "pair=dbr:New_York_(state", "Kulczynski=0.839", "triple=e_dbo:hometown dbr:New_York_(state", "class=Band" ],
-    "152" : [ "pair=dbr:Universal_Music_Group", "Kulczynski=0.838", "triple=e_dbp:label dbr:Universal_Music_Group", "class=Band" ],
-    "153" : [ "pair=dbr:RCA_Records", "Kulczynski=0.836", "triple=e_dbo:recordLabel dbr:RCA_Records", "class=Band" ],
-    "154" : [ "pair=dbr:Italy", "Kulczynski=0.835", "triple=e_dbo:hometown dbr:Italy", "class=Band" ],
-    "155" : [ "pair=dbr:Warner_Bros._Records", "Kulczynski=0.834", "triple=e_dbo:recordLabel dbr:Warner_Bros._Records", "class=Band" ],
-    "156" : [ "pair=\"artist\"@en", "Kulczynski=0.832", "triple=e_dbp:class \"artist\"@en", "class=Band" ],
-    "157" : [ "pair=dbr:Germany", "Kulczynski=0.831", "triple=e_dbo:hometown dbr:Germany", "class=Band" ]
+    "0" : [ "pair=dbr:Century_Media_Records", "Kulczynski=1.0", "triple=e dbp:label dbr:Century_Media_Records", "class=Band" ],
+    "1" : [ "pair=dbr:Glam_metal", "Kulczynski=0.992", "triple=e dbo:genre dbr:Glam_metal", "class=Band" ],
+    "2" : [ "pair=dbr:Melodic_death_metal", "Kulczynski=0.992", "triple=e dbo:genre dbr:Melodic_death_metal", "class=Band" ],
+    "3" : [ "pair=\"Alternative rock\"@en", "Kulczynski=0.992", "triple=e dbp:genre \"Alternative rock\"@en", "class=Band" ],
+    "4" : [ "pair=dbr:Roadrunner_Records", "Kulczynski=0.991", "triple=e dbo:recordLabel dbr:Roadrunner_Records", "class=Band" ],
+    "5" : [ "pair=dbr:Pop-punk", "Kulczynski=0.989", "triple=e dbp:genre dbr:Pop-punk", "class=Band" ],
+    "6" : [ "pair=dbr:Pop_punk", "Kulczynski=0.989", "triple=e dbo:genre dbr:Pop_punk", "class=Band" ],
+    "7" : [ "pair=dbr:Metalcore", "Kulczynski=0.987", "triple=e dbp:genre dbr:Metalcore", "class=Band" ],
+    "8" : [ "pair=dbr:Thrash_metal", "Kulczynski=0.985", "triple=e dbp:genre dbr:Thrash_metal", "class=Band" ],
+    "9" : [ "pair=dbr:Melodic_hardcore", "Kulczynski=0.984", "triple=e dbo:genre dbr:Melodic_hardcore", "class=Band" ],
+    "10" : [ "pair=dbr:Post-punk_revival", "Kulczynski=0.984", "triple=e dbo:genre dbr:Post-punk_revival", "class=Band" ],
+    "11" : [ "pair=dbr:Post-hardcore", "Kulczynski=0.983", "triple=e dbo:genre dbr:Post-hardcore", "class=Band" ],
+    "12" : [ "pair=dbr:Post-grunge", "Kulczynski=0.982", "triple=e dbo:genre dbr:Post-grunge", "class=Band" ],
+    "13" : [ "pair=dbr:Nuclear_Blast", "Kulczynski=0.982", "triple=e dbo:recordLabel dbr:Nuclear_Blast", "class=Band" ],
+    "14" : [ "pair=dbr:Hardcore_punk", "Kulczynski=0.98", "triple=e dbp:genre dbr:Hardcore_punk", "class=Band" ],
+    "15" : [ "pair=dbr:Nu_metal", "Kulczynski=0.979", "triple=e dbp:genre dbr:Nu_metal", "class=Band" ],
+    "16" : [ "pair=dbr:Gothic_metal", "Kulczynski=0.979", "triple=e dbo:genre dbr:Gothic_metal", "class=Band" ],
+    "17" : [ "pair=dbr:Alternative_metal", "Kulczynski=0.979", "triple=e dbp:genre dbr:Alternative_metal", "class=Band" ],
+    "18" : [ "pair=dbr:Power_metal", "Kulczynski=0.979", "triple=e dbp:genre dbr:Power_metal", "class=Band" ],
+    "19" : [ "pair=dbr:Death_metal", "Kulczynski=0.977", "triple=e dbp:genre dbr:Death_metal", "class=Band" ],
+    "20" : [ "pair=dbr:Heavy_metal_music", "Kulczynski=0.976", "triple=e dbo:genre dbr:Heavy_metal_music", "class=Band" ],
+    "21" : [ "pair=dbr:Emo", "Kulczynski=0.974", "triple=e dbo:genre dbr:Emo", "class=Band" ],
+    "22" : [ "pair=dbr:Groove_metal", "Kulczynski=0.972", "triple=e dbo:genre dbr:Groove_metal", "class=Band" ],
+    "23" : [ "pair=dbr:Garage_rock", "Kulczynski=0.97", "triple=e dbo:genre dbr:Garage_rock", "class=Band" ],
+    "24" : [ "pair=dbr:Power_pop", "Kulczynski=0.967", "triple=e dbo:genre dbr:Power_pop", "class=Band" ],
+    "25" : [ "pair=dbr:Hard_rock", "Kulczynski=0.967", "triple=e dbo:genre dbr:Hard_rock", "class=Band" ],
+    "26" : [ "pair=dbr:Alternative_rock", "Kulczynski=0.967", "triple=e dbp:genre dbr:Alternative_rock", "class=Band" ],
+    "27" : [ "pair=dbr:Doom_metal", "Kulczynski=0.967", "triple=e dbp:genre dbr:Doom_metal", "class=Band" ],
+    "28" : [ "pair=dbr:Alternative_country", "Kulczynski=0.965", "triple=e dbp:genre dbr:Alternative_country", "class=Band" ],
+    "29" : [ "pair=dbr:Finland", "Kulczynski=0.963", "triple=e dbp:origin dbr:Finland", "class=Band" ],
+    "30" : [ "pair=dbr:Punk_rock", "Kulczynski=0.963", "triple=e dbo:genre dbr:Punk_rock", "class=Band" ],
+    "31" : [ "pair=dbr:Progressive_metal", "Kulczynski=0.96", "triple=e dbp:genre dbr:Progressive_metal", "class=Band" ],
+    "32" : [ "pair=dbr:Black_metal", "Kulczynski=0.959", "triple=e dbo:genre dbr:Black_metal", "class=Band" ],
+    "33" : [ "pair=dbr:Indie_rock", "Kulczynski=0.959", "triple=e dbo:genre dbr:Indie_rock", "class=Band" ],
+    "34" : [ "pair=dbr:New_wave_music", "Kulczynski=0.959", "triple=e dbp:genre dbr:New_wave_music", "class=Band" ],
+    "35" : [ "pair=dbr:Psychedelic_rock", "Kulczynski=0.958", "triple=e dbp:genre dbr:Psychedelic_rock", "class=Band" ],
+    "36" : [ "pair=dbr:Noise_rock", "Kulczynski=0.957", "triple=e dbp:genre dbr:Noise_rock", "class=Band" ],
+    "37" : [ "pair=dbr:Grunge", "Kulczynski=0.956", "triple=e dbo:genre dbr:Grunge", "class=Band" ],
+    "38" : [ "pair=dbr:Gothic_rock", "Kulczynski=0.953", "triple=e dbp:genre dbr:Gothic_rock", "class=Band" ],
+    "39" : [ "pair=dbr:Blues_rock", "Kulczynski=0.952", "triple=e dbo:genre dbr:Blues_rock", "class=Band" ],
+    "40" : [ "pair=dbr:Stoner_rock", "Kulczynski=0.95", "triple=e dbp:genre dbr:Stoner_rock", "class=Band" ],
+    "41" : [ "pair=dbr:Shoegazing", "Kulczynski=0.95", "triple=e dbp:genre dbr:Shoegazing", "class=Band" ],
+    "42" : [ "pair=dbr:Progressive_rock", "Kulczynski=0.948", "triple=e dbp:genre dbr:Progressive_rock", "class=Band" ],
+    "43" : [ "pair=dbr:Post-rock", "Kulczynski=0.947", "triple=e dbo:genre dbr:Post-rock", "class=Band" ],
+    "44" : [ "pair=dbr:Neo-psychedelia", "Kulczynski=0.946", "triple=e dbo:genre dbr:Neo-psychedelia", "class=Band" ],
+    "45" : [ "pair=dbr:Art_rock", "Kulczynski=0.945", "triple=e dbp:genre dbr:Art_rock", "class=Band" ],
+    "46" : [ "pair=dbr:Folk_rock", "Kulczynski=0.944", "triple=e dbp:genre dbr:Folk_rock", "class=Band" ],
+    "47" : [ "pair=dbr:Christian_rock", "Kulczynski=0.944", "triple=e dbp:genre dbr:Christian_rock", "class=Band" ],
+    "48" : [ "pair=dbr:Post-punk", "Kulczynski=0.944", "triple=e dbo:genre dbr:Post-punk", "class=Band" ],
+    "49" : [ "pair=\"1987\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.938", "triple=e dbo:activeYearsEndYear \"1987\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "50" : [ "pair=dbr:Ska", "Kulczynski=0.936", "triple=e dbp:genre dbr:Ska", "class=Band" ],
+    "51" : [ "pair=\"alternative rock\"@en", "Kulczynski=0.935", "triple=e dbp:genre \"alternative rock\"@en", "class=Band" ],
+    "52" : [ "pair=\"Yes\"@en", "Kulczynski=0.935", "triple=e dbp:landscape \"Yes\"@en", "class=Band" ],
+    "53" : [ "pair=dbr:Rock_music", "Kulczynski=0.933", "triple=e dbo:genre dbr:Rock_music", "class=Band" ],
+    "54" : [ "pair=dbr:Rock_and_roll", "Kulczynski=0.932", "triple=e dbo:genre dbr:Rock_and_roll", "class=Band" ],
+    "55" : [ "pair=dbr:Pop_rock", "Kulczynski=0.928", "triple=e dbo:genre dbr:Pop_rock", "class=Band" ],
+    "56" : [ "pair=dbr:Experimental_rock", "Kulczynski=0.924", "triple=e dbo:genre dbr:Experimental_rock", "class=Band" ],
+    "57" : [ "pair=\"1978\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.921", "triple=e dbo:activeYearsStartYear \"1978\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "58" : [ "pair=dbr:Dream_pop", "Kulczynski=0.919", "triple=e dbp:genre dbr:Dream_pop", "class=Band" ],
+    "59" : [ "pair=\"1983\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.919", "triple=e dbo:activeYearsStartYear \"1983\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "60" : [ "pair=dbr:Polydor_Records", "Kulczynski=0.918", "triple=e dbo:recordLabel dbr:Polydor_Records", "class=Band" ],
+    "61" : [ "pair=\"1986\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.916", "triple=e dbo:activeYearsEndYear \"1986\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "62" : [ "pair=dbr:San_Francisco", "Kulczynski=0.915", "triple=e dbo:hometown dbr:San_Francisco", "class=Band" ],
+    "63" : [ "pair=dbr:Indie_pop", "Kulczynski=0.915", "triple=e dbo:genre dbr:Indie_pop", "class=Band" ],
+    "64" : [ "pair=dbr:Massachusetts", "Kulczynski=0.914", "triple=e dbo:hometown dbr:Massachusetts", "class=Band" ],
+    "65" : [ "pair=dbr:Illinois", "Kulczynski=0.913", "triple=e dbo:hometown dbr:Illinois", "class=Band" ],
+    "66" : [ "pair=\"2007\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.912", "triple=e dbo:activeYearsEndYear \"2007\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "67" : [ "pair=\"Rock\"@en", "Kulczynski=0.91", "triple=e dbp:genre \"Rock\"@en", "class=Band" ],
+    "68" : [ "pair=dbr:Industrial_rock", "Kulczynski=0.909", "triple=e dbo:genre dbr:Industrial_rock", "class=Band" ],
+    "69" : [ "pair=dbr:Indie_folk", "Kulczynski=0.907", "triple=e dbp:genre dbr:Indie_folk", "class=Band" ],
+    "70" : [ "pair=\"2010\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.907", "triple=e dbo:activeYearsEndYear \"2010\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "71" : [ "pair=\"2012\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.906", "triple=e dbo:activeYearsEndYear \"2012\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "72" : [ "pair=dbr:England", "Kulczynski=0.906", "triple=e dbp:origin dbr:England", "class=Band" ],
+    "73" : [ "pair=\"\"", "Kulczynski=0.904", "triple=e dbo:background \"\"", "class=Band" ],
+    "74" : [ "pair=\"1989\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.904", "triple=e dbo:activeYearsEndYear \"1989\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "75" : [ "pair=dbr:Australia", "Kulczynski=0.9", "triple=e dbp:origin dbr:Australia", "class=Band" ],
+    "76" : [ "pair=\"1991\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.9", "triple=e dbo:activeYearsEndYear \"1991\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "77" : [ "pair=dbr:Mercury_Records", "Kulczynski=0.898", "triple=e dbo:recordLabel dbr:Mercury_Records", "class=Band" ],
+    "78" : [ "pair=\"1985\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.897", "triple=e dbo:activeYearsEndYear \"1985\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "79" : [ "pair=\"2003\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.896", "triple=e dbo:activeYearsEndYear \"2003\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "80" : [ "pair=\"2014\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.896", "triple=e dbo:activeYearsEndYear \"2014\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "81" : [ "pair=\"2005\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.894", "triple=e dbo:activeYearsStartYear \"2005\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "82" : [ "pair=\"2011\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.893", "triple=e dbo:activeYearsEndYear \"2011\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "83" : [ "pair=\"yes\"@en", "Kulczynski=0.892", "triple=e dbp:fixAttempted \"yes\"@en", "class=Band" ],
+    "84" : [ "pair=\"2004\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.891", "triple=e dbo:activeYearsStartYear \"2004\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "85" : [ "pair=dbr:Electronic_rock", "Kulczynski=0.891", "triple=e dbp:genre dbr:Electronic_rock", "class=Band" ],
+    "86" : [ "pair=dbr:Sweden", "Kulczynski=0.89", "triple=e dbo:hometown dbr:Sweden", "class=Band" ],
+    "87" : [ "pair=\"2009\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.888", "triple=e dbo:activeYearsEndYear \"2009\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "88" : [ "pair=dbr:Stockholm", "Kulczynski=0.888", "triple=e dbo:hometown dbr:Stockholm", "class=Band" ],
+    "89" : [ "pair=\"InternetArchiveBot\"@en", "Kulczynski=0.888", "triple=e dbp:bot \"InternetArchiveBot\"@en", "class=Band" ],
+    "90" : [ "pair=\"1995\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.888", "triple=e dbo:activeYearsStartYear \"1995\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "91" : [ "pair=dbr:Melbourne", "Kulczynski=0.888", "triple=e dbo:hometown dbr:Melbourne", "class=Band" ],
+    "92" : [ "pair=\"1992\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.886", "triple=e dbo:activeYearsEndYear \"1992\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "93" : [ "pair=dbr:Warner_Music_Group", "Kulczynski=0.886", "triple=e dbo:recordLabel dbr:Warner_Music_Group", "class=Band" ],
+    "94" : [ "pair=\"1999\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.885", "triple=e dbo:activeYearsStartYear \"1999\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "95" : [ "pair=dbr:Ogg", "Kulczynski=0.885", "triple=e dbp:format dbr:Ogg", "class=Band" ],
+    "96" : [ "pair=dbr:Virgin_Records", "Kulczynski=0.885", "triple=e dbo:recordLabel dbr:Virgin_Records", "class=Band" ],
+    "97" : [ "pair=\"2006\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.884", "triple=e dbo:activeYearsEndYear \"2006\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "98" : [ "pair=\"1980\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.884", "triple=e dbo:activeYearsEndYear \"1980\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "99" : [ "pair=\"Los Angeles", "Kulczynski=0.883", "triple=e dbp:origin \"Los Angeles", "class=Band" ],
+    "100" : [ "pair=\"1994\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.883", "triple=e dbo:activeYearsStartYear \"1994\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "101" : [ "pair=\"\"@en", "Kulczynski=0.883", "triple=e dbp:pastMembers \"\"@en", "class=Band" ],
+    "102" : [ "pair=dbr:Island_Records", "Kulczynski=0.882", "triple=e dbo:recordLabel dbr:Island_Records", "class=Band" ],
+    "103" : [ "pair=\"2001\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.88", "triple=e dbo:activeYearsStartYear \"2001\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "104" : [ "pair=\"2008\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.879", "triple=e dbo:activeYearsEndYear \"2008\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "105" : [ "pair=\"1990\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.878", "triple=e dbo:activeYearsEndYear \"1990\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "106" : [ "pair=\"2002\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.876", "triple=e dbo:activeYearsEndYear \"2002\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "107" : [ "pair=\"2016\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.876", "triple=e dbo:activeYearsEndYear \"2016\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "108" : [ "pair=\"2000\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.876", "triple=e dbo:activeYearsStartYear \"2000\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "109" : [ "pair=dbr:Reggae", "Kulczynski=0.876", "triple=e dbp:genre dbr:Reggae", "class=Band" ],
+    "110" : [ "pair=dbr:Jazz_fusion", "Kulczynski=0.876", "triple=e dbp:genre dbr:Jazz_fusion", "class=Band" ],
+    "111" : [ "pair=\"1981\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.875", "triple=e dbo:activeYearsStartYear \"1981\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "112" : [ "pair=\"1979\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.873", "triple=e dbo:activeYearsStartYear \"1979\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "113" : [ "pair=dbr:Chicago", "Kulczynski=0.873", "triple=e dbo:hometown dbr:Chicago", "class=Band" ],
+    "114" : [ "pair=dbr:Canada", "Kulczynski=0.872", "triple=e dbp:origin dbr:Canada", "class=Band" ],
+    "115" : [ "pair=\"1998\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.872", "triple=e dbo:activeYearsStartYear \"1998\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "116" : [ "pair=dbr:Norway", "Kulczynski=0.872", "triple=e dbo:hometown dbr:Norway", "class=Band" ],
+    "117" : [ "pair=dbr:California", "Kulczynski=0.871", "triple=e dbo:hometown dbr:California", "class=Band" ],
+    "118" : [ "pair=dbr:EMI", "Kulczynski=0.87", "triple=e dbp:label dbr:EMI", "class=Band" ],
+    "119" : [ "pair=\"1996\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.87", "triple=e dbo:activeYearsEndYear \"1996\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "120" : [ "pair=dbr:Los_Angeles", "Kulczynski=0.87", "triple=e dbp:origin dbr:Los_Angeles", "class=Band" ],
+    "121" : [ "pair=dbr:London", "Kulczynski=0.87", "triple=e dbo:hometown dbr:London", "class=Band" ],
+    "122" : [ "pair=\"Independent\"@en", "Kulczynski=0.868", "triple=e dbp:label \"Independent\"@en", "class=Band" ],
+    "123" : [ "pair=dbr:Atlantic_Records", "Kulczynski=0.866", "triple=e dbp:label dbr:Atlantic_Records", "class=Band" ],
+    "124" : [ "pair=dbr:Blues", "Kulczynski=0.865", "triple=e dbp:genre dbr:Blues", "class=Band" ],
+    "125" : [ "pair=dbr:Columbia_Records", "Kulczynski=0.865", "triple=e dbp:label dbr:Columbia_Records", "class=Band" ],
+    "126" : [ "pair=dbr:Quebec", "Kulczynski=0.864", "triple=e dbo:hometown dbr:Quebec", "class=Band" ],
+    "127" : [ "pair=dbr:Ontario", "Kulczynski=0.864", "triple=e dbo:hometown dbr:Ontario", "class=Band" ],
+    "128" : [ "pair=\"group_or_band\"@en", "Kulczynski=0.863", "triple=e dbp:background \"group_or_band\"@en", "class=Band" ],
+    "129" : [ "pair=\"right\"@en", "Kulczynski=0.863", "triple=e dbp:align \"right\"@en", "class=Band" ],
+    "130" : [ "pair=\"1993\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.863", "triple=e dbo:activeYearsEndYear \"1993\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "131" : [ "pair=dbr:Sony_Music", "Kulczynski=0.863", "triple=e dbp:label dbr:Sony_Music", "class=Band" ],
+    "132" : [ "pair=\"group_or_band\"", "Kulczynski=0.862", "triple=e dbo:background \"group_or_band\"", "class=Band" ],
+    "133" : [ "pair=\"1988\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.861", "triple=e dbo:activeYearsEndYear \"1988\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "134" : [ "pair=\"1982\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.86", "triple=e dbo:activeYearsStartYear \"1982\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "135" : [ "pair=\"London", "Kulczynski=0.859", "triple=e dbp:origin \"London", "class=Band" ],
+    "136" : [ "pair=\"1984\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.859", "triple=e dbo:activeYearsStartYear \"1984\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "137" : [ "pair=dbr:Funk", "Kulczynski=0.858", "triple=e dbo:genre dbr:Funk", "class=Band" ],
+    "138" : [ "pair=\"2013\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.856", "triple=e dbo:activeYearsEndYear \"2013\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "139" : [ "pair=dbr:Brooklyn", "Kulczynski=0.856", "triple=e dbo:hometown dbr:Brooklyn", "class=Band" ],
+    "140" : [ "pair=dbr:Independent_music", "Kulczynski=0.854", "triple=e dbp:genre dbr:Independent_music", "class=Band" ],
+    "141" : [ "pair=\"1970\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.852", "triple=e dbo:activeYearsStartYear \"1970\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "142" : [ "pair=\"1977\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.851", "triple=e dbo:activeYearsStartYear \"1977\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "143" : [ "pair=dbr:Epic_Records", "Kulczynski=0.85", "triple=e dbo:recordLabel dbr:Epic_Records", "class=Band" ],
+    "144" : [ "pair=dbr:United_States", "Kulczynski=0.848", "triple=e dbp:origin dbr:United_States", "class=Band" ],
+    "145" : [ "pair=dbr:Capitol_Records", "Kulczynski=0.845", "triple=e dbo:recordLabel dbr:Capitol_Records", "class=Band" ],
+    "146" : [ "pair=dbr:United_Kingdom", "Kulczynski=0.845", "triple=e dbo:hometown dbr:United_Kingdom", "class=Band" ],
+    "147" : [ "pair=\"â\"@en", "Kulczynski=0.843", "triple=e dbp:yearsActive \"â\"@en", "class=Band" ],
+    "148" : [ "pair=dbr:Warner_Records", "Kulczynski=0.843", "triple=e dbp:label dbr:Warner_Records", "class=Band" ],
+    "149" : [ "pair=\"1997\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.842", "triple=e dbo:activeYearsEndYear \"1997\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "150" : [ "pair=\"2015\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.841", "triple=e dbo:activeYearsEndYear \"2015\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Band" ],
+    "151" : [ "pair=dbr:New_York_(state", "Kulczynski=0.839", "triple=e dbo:hometown dbr:New_York_(state", "class=Band" ],
+    "152" : [ "pair=dbr:Universal_Music_Group", "Kulczynski=0.838", "triple=e dbp:label dbr:Universal_Music_Group", "class=Band" ],
+    "153" : [ "pair=dbr:RCA_Records", "Kulczynski=0.836", "triple=e dbo:recordLabel dbr:RCA_Records", "class=Band" ],
+    "154" : [ "pair=dbr:Italy", "Kulczynski=0.835", "triple=e dbo:hometown dbr:Italy", "class=Band" ],
+    "155" : [ "pair=dbr:Warner_Bros._Records", "Kulczynski=0.834", "triple=e dbo:recordLabel dbr:Warner_Bros._Records", "class=Band" ],
+    "156" : [ "pair=\"artist\"@en", "Kulczynski=0.832", "triple=e dbp:class \"artist\"@en", "class=Band" ],
+    "157" : [ "pair=dbr:Germany", "Kulczynski=0.831", "triple=e dbo:hometown dbr:Germany", "class=Band" ]
   }
 }, {
   "id" : 7,
   "pattern" : "chicago",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Illinois", "Kulczynski=0.887", "triple=e_dbo:hometown dbr:Illinois", "class=Band" ],
-    "1" : [ "pair=dbr:Chicago", "Kulczynski=0.878", "triple=e_dbo:hometown dbr:Chicago", "class=Band" ]
+    "0" : [ "pair=dbr:Illinois", "Kulczynski=0.887", "triple=e dbo:hometown dbr:Illinois", "class=Band" ],
+    "1" : [ "pair=dbr:Chicago", "Kulczynski=0.878", "triple=e dbo:hometown dbr:Chicago", "class=Band" ]
   }
 }, {
   "id" : 8,
   "pattern" : "christian",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Christian_rock", "Kulczynski=0.923", "triple=e_dbo:genre dbr:Christian_rock", "class=Band" ]
+    "0" : [ "pair=dbr:Christian_rock", "Kulczynski=0.923", "triple=e dbo:genre dbr:Christian_rock", "class=Band" ]
   }
 }, {
   "id" : 9,
   "pattern" : "death",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Death_metal", "Kulczynski=0.838", "triple=e_dbp:genre dbr:Death_metal", "class=Band" ]
+    "0" : [ "pair=dbr:Death_metal", "Kulczynski=0.838", "triple=e dbp:genre dbr:Death_metal", "class=Band" ]
   }
 }, {
   "id" : 10,
   "pattern" : "dutch",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Netherlands", "Kulczynski=0.897", "triple=e_dbp:origin dbr:Netherlands", "class=Band" ]
+    "0" : [ "pair=dbr:Netherlands", "Kulczynski=0.897", "triple=e dbp:origin dbr:Netherlands", "class=Band" ]
   }
 }, {
   "id" : 13,
   "pattern" : "francisco",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:San_Francisco", "Kulczynski=0.892", "triple=e_dbo:hometown dbr:San_Francisco", "class=Band" ]
+    "0" : [ "pair=dbr:San_Francisco", "Kulczynski=0.892", "triple=e dbo:hometown dbr:San_Francisco", "class=Band" ]
   }
 }, {
   "id" : 16,
   "pattern" : "group",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:K-pop", "Kulczynski=0.941", "triple=e_dbp:genre dbr:K-pop", "class=Band" ],
-    "1" : [ "pair=dbr:South_Korea", "Kulczynski=0.923", "triple=e_dbp:origin dbr:South_Korea", "class=Band" ],
-    "2" : [ "pair=dbr:Seoul", "Kulczynski=0.904", "triple=e_dbo:hometown dbr:Seoul", "class=Band" ]
+    "0" : [ "pair=dbr:K-pop", "Kulczynski=0.941", "triple=e dbp:genre dbr:K-pop", "class=Band" ],
+    "1" : [ "pair=dbr:South_Korea", "Kulczynski=0.923", "triple=e dbp:origin dbr:South_Korea", "class=Band" ],
+    "2" : [ "pair=dbr:Seoul", "Kulczynski=0.904", "triple=e dbo:hometown dbr:Seoul", "class=Band" ]
   }
 }, {
   "id" : 20,
   "pattern" : "los angeles",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Los Angeles", "Kulczynski=0.852", "triple=e_dbp:origin \"Los Angeles", "class=Band" ],
-    "1" : [ "pair=dbr:Los_Angeles", "Kulczynski=0.833", "triple=e_dbo:hometown dbr:Los_Angeles", "class=Band" ]
+    "0" : [ "pair=\"Los Angeles", "Kulczynski=0.852", "triple=e dbp:origin \"Los Angeles", "class=Band" ],
+    "1" : [ "pair=dbr:Los_Angeles", "Kulczynski=0.833", "triple=e dbo:hometown dbr:Los_Angeles", "class=Band" ]
   }
 }, {
   "id" : 21,
   "pattern" : "metal",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Black_metal", "Kulczynski=0.977", "triple=e_dbp:genre dbr:Black_metal", "class=Band" ],
-    "1" : [ "pair=dbr:Power_metal", "Kulczynski=0.975", "triple=e_dbo:genre dbr:Power_metal", "class=Band" ],
-    "2" : [ "pair=dbr:Melodic_death_metal", "Kulczynski=0.968", "triple=e_dbo:genre dbr:Melodic_death_metal", "class=Band" ],
-    "3" : [ "pair=dbr:Thrash_metal", "Kulczynski=0.945", "triple=e_dbp:genre dbr:Thrash_metal", "class=Band" ],
-    "4" : [ "pair=dbr:Death_metal", "Kulczynski=0.944", "triple=e_dbp:genre dbr:Death_metal", "class=Band" ],
-    "5" : [ "pair=dbr:Doom_metal", "Kulczynski=0.928", "triple=e_dbp:genre dbr:Doom_metal", "class=Band" ],
-    "6" : [ "pair=dbr:Gothic_metal", "Kulczynski=0.917", "triple=e_dbo:genre dbr:Gothic_metal", "class=Band" ],
-    "7" : [ "pair=dbr:Progressive_metal", "Kulczynski=0.901", "triple=e_dbo:genre dbr:Progressive_metal", "class=Band" ]
+    "0" : [ "pair=dbr:Black_metal", "Kulczynski=0.977", "triple=e dbp:genre dbr:Black_metal", "class=Band" ],
+    "1" : [ "pair=dbr:Power_metal", "Kulczynski=0.975", "triple=e dbo:genre dbr:Power_metal", "class=Band" ],
+    "2" : [ "pair=dbr:Melodic_death_metal", "Kulczynski=0.968", "triple=e dbo:genre dbr:Melodic_death_metal", "class=Band" ],
+    "3" : [ "pair=dbr:Thrash_metal", "Kulczynski=0.945", "triple=e dbp:genre dbr:Thrash_metal", "class=Band" ],
+    "4" : [ "pair=dbr:Death_metal", "Kulczynski=0.944", "triple=e dbp:genre dbr:Death_metal", "class=Band" ],
+    "5" : [ "pair=dbr:Doom_metal", "Kulczynski=0.928", "triple=e dbp:genre dbr:Doom_metal", "class=Band" ],
+    "6" : [ "pair=dbr:Gothic_metal", "Kulczynski=0.917", "triple=e dbo:genre dbr:Gothic_metal", "class=Band" ],
+    "7" : [ "pair=dbr:Progressive_metal", "Kulczynski=0.901", "triple=e dbo:genre dbr:Progressive_metal", "class=Band" ]
   }
 }, {
   "id" : 22,
   "pattern" : "metal band",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Melodic_death_metal", "Kulczynski=0.944", "triple=e_dbo:genre dbr:Melodic_death_metal", "class=Band" ],
-    "1" : [ "pair=dbr:Power_metal", "Kulczynski=0.938", "triple=e_dbp:genre dbr:Power_metal", "class=Band" ],
-    "2" : [ "pair=dbr:Black_metal", "Kulczynski=0.92", "triple=e_dbp:genre dbr:Black_metal", "class=Band" ],
-    "3" : [ "pair=dbr:Death_metal", "Kulczynski=0.893", "triple=e_dbp:genre dbr:Death_metal", "class=Band" ],
-    "4" : [ "pair=dbr:Thrash_metal", "Kulczynski=0.883", "triple=e_dbp:genre dbr:Thrash_metal", "class=Band" ],
-    "5" : [ "pair=dbr:Gothic_metal", "Kulczynski=0.863", "triple=e_dbo:genre dbr:Gothic_metal", "class=Band" ],
-    "6" : [ "pair=dbr:Doom_metal", "Kulczynski=0.857", "triple=e_dbp:genre dbr:Doom_metal", "class=Band" ],
-    "7" : [ "pair=dbr:Progressive_metal", "Kulczynski=0.835", "triple=e_dbo:genre dbr:Progressive_metal", "class=Band" ]
+    "0" : [ "pair=dbr:Melodic_death_metal", "Kulczynski=0.944", "triple=e dbo:genre dbr:Melodic_death_metal", "class=Band" ],
+    "1" : [ "pair=dbr:Power_metal", "Kulczynski=0.938", "triple=e dbp:genre dbr:Power_metal", "class=Band" ],
+    "2" : [ "pair=dbr:Black_metal", "Kulczynski=0.92", "triple=e dbp:genre dbr:Black_metal", "class=Band" ],
+    "3" : [ "pair=dbr:Death_metal", "Kulczynski=0.893", "triple=e dbp:genre dbr:Death_metal", "class=Band" ],
+    "4" : [ "pair=dbr:Thrash_metal", "Kulczynski=0.883", "triple=e dbp:genre dbr:Thrash_metal", "class=Band" ],
+    "5" : [ "pair=dbr:Gothic_metal", "Kulczynski=0.863", "triple=e dbo:genre dbr:Gothic_metal", "class=Band" ],
+    "6" : [ "pair=dbr:Doom_metal", "Kulczynski=0.857", "triple=e dbp:genre dbr:Doom_metal", "class=Band" ],
+    "7" : [ "pair=dbr:Progressive_metal", "Kulczynski=0.835", "triple=e dbo:genre dbr:Progressive_metal", "class=Band" ]
   }
 }, {
   "id" : 23,
   "pattern" : "montreal",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Montreal", "Kulczynski=0.926", "triple=e_dbo:hometown dbr:Montreal", "class=Band" ],
-    "1" : [ "pair=dbr:Quebec", "Kulczynski=0.837", "triple=e_dbo:hometown dbr:Quebec", "class=Band" ]
+    "0" : [ "pair=dbr:Montreal", "Kulczynski=0.926", "triple=e dbo:hometown dbr:Montreal", "class=Band" ],
+    "1" : [ "pair=dbr:Quebec", "Kulczynski=0.837", "triple=e dbo:hometown dbr:Quebec", "class=Band" ]
   }
 }, {
   "id" : 24,
   "pattern" : "music",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:World_music", "Kulczynski=0.867", "triple=e_dbo:genre dbr:World_music", "class=Band" ]
+    "0" : [ "pair=dbr:World_music", "Kulczynski=0.867", "triple=e dbo:genre dbr:World_music", "class=Band" ]
   }
 }, {
   "id" : 25,
   "pattern" : "new york",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Brooklyn", "Kulczynski=0.862", "triple=e_dbo:hometown dbr:Brooklyn", "class=Band" ],
-    "1" : [ "pair=dbr:New_York_(state", "Kulczynski=0.861", "triple=e_dbo:hometown dbr:New_York_(state", "class=Band" ],
-    "2" : [ "pair=dbr:New_York_City", "Kulczynski=0.842", "triple=e_dbo:hometown dbr:New_York_City", "class=Band" ]
+    "0" : [ "pair=dbr:Brooklyn", "Kulczynski=0.862", "triple=e dbo:hometown dbr:Brooklyn", "class=Band" ],
+    "1" : [ "pair=dbr:New_York_(state", "Kulczynski=0.861", "triple=e dbo:hometown dbr:New_York_(state", "class=Band" ],
+    "2" : [ "pair=dbr:New_York_City", "Kulczynski=0.842", "triple=e dbo:hometown dbr:New_York_City", "class=Band" ]
   }
 }, {
   "id" : 26,
   "pattern" : "new zealand",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_Zealand", "Kulczynski=0.974", "triple=e_dbo:hometown dbr:New_Zealand", "class=Band" ]
+    "0" : [ "pair=dbr:New_Zealand", "Kulczynski=0.974", "triple=e dbo:hometown dbr:New_Zealand", "class=Band" ]
   }
 }, {
   "id" : 28,
   "pattern" : "portland",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Portland", "Kulczynski=0.956", "triple=e_dbo:hometown dbr:Portland", "class=Band" ]
+    "0" : [ "pair=dbr:Portland", "Kulczynski=0.956", "triple=e dbo:hometown dbr:Portland", "class=Band" ]
   }
 }, {
   "id" : 29,
   "pattern" : "punk",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Punk_rock", "Kulczynski=0.84", "triple=e_dbo:genre dbr:Punk_rock", "class=Band" ],
-    "1" : [ "pair=dbr:Hardcore_punk", "Kulczynski=0.832", "triple=e_dbo:genre dbr:Hardcore_punk", "class=Band" ]
+    "0" : [ "pair=dbr:Punk_rock", "Kulczynski=0.84", "triple=e dbo:genre dbr:Punk_rock", "class=Band" ],
+    "1" : [ "pair=dbr:Hardcore_punk", "Kulczynski=0.832", "triple=e dbo:genre dbr:Hardcore_punk", "class=Band" ]
   }
 }, {
   "id" : 30,
   "pattern" : "quebec",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Quebec", "Kulczynski=0.844", "triple=e_dbo:hometown dbr:Quebec", "class=Band" ]
+    "0" : [ "pair=dbr:Quebec", "Kulczynski=0.844", "triple=e dbo:hometown dbr:Quebec", "class=Band" ]
   }
 }, {
   "id" : 31,
   "pattern" : "rock",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Alternative rock\"@en", "Kulczynski=0.968", "triple=e_dbp:genre \"Alternative rock\"@en", "class=Band" ],
-    "1" : [ "pair=dbr:Blues_rock", "Kulczynski=0.956", "triple=e_dbp:genre dbr:Blues_rock", "class=Band" ],
-    "2" : [ "pair=dbr:Garage_rock", "Kulczynski=0.938", "triple=e_dbo:genre dbr:Garage_rock", "class=Band" ],
-    "3" : [ "pair=dbr:Psychedelic_rock", "Kulczynski=0.931", "triple=e_dbo:genre dbr:Psychedelic_rock", "class=Band" ],
-    "4" : [ "pair=dbr:Post-grunge", "Kulczynski=0.914", "triple=e_dbo:genre dbr:Post-grunge", "class=Band" ],
-    "5" : [ "pair=\"alternative rock\"@en", "Kulczynski=0.91", "triple=e_dbp:genre \"alternative rock\"@en", "class=Band" ],
-    "6" : [ "pair=dbr:Progressive_rock", "Kulczynski=0.904", "triple=e_dbo:genre dbr:Progressive_rock", "class=Band" ],
-    "7" : [ "pair=dbr:Hard_rock", "Kulczynski=0.9", "triple=e_dbo:genre dbr:Hard_rock", "class=Band" ],
-    "8" : [ "pair=dbr:Alternative_rock", "Kulczynski=0.89", "triple=e_dbo:genre dbr:Alternative_rock", "class=Band" ],
-    "9" : [ "pair=dbr:Noise_rock", "Kulczynski=0.889", "triple=e_dbp:genre dbr:Noise_rock", "class=Band" ],
-    "10" : [ "pair=dbr:Christian_rock", "Kulczynski=0.881", "triple=e_dbp:genre dbr:Christian_rock", "class=Band" ],
-    "11" : [ "pair=dbr:Indie_rock", "Kulczynski=0.875", "triple=e_dbo:genre dbr:Indie_rock", "class=Band" ],
-    "12" : [ "pair=\"Rock\"@en", "Kulczynski=0.873", "triple=e_dbp:genre \"Rock\"@en", "class=Band" ],
-    "13" : [ "pair=dbr:Rock_and_roll", "Kulczynski=0.873", "triple=e_dbo:genre dbr:Rock_and_roll", "class=Band" ],
-    "14" : [ "pair=dbr:Pop_rock", "Kulczynski=0.866", "triple=e_dbo:genre dbr:Pop_rock", "class=Band" ],
-    "15" : [ "pair=dbr:Folk_rock", "Kulczynski=0.865", "triple=e_dbo:genre dbr:Folk_rock", "class=Band" ],
-    "16" : [ "pair=dbr:Experimental_rock", "Kulczynski=0.857", "triple=e_dbp:genre dbr:Experimental_rock", "class=Band" ],
-    "17" : [ "pair=dbr:Art_rock", "Kulczynski=0.851", "triple=e_dbp:genre dbr:Art_rock", "class=Band" ],
-    "18" : [ "pair=dbr:Gothic_rock", "Kulczynski=0.851", "triple=e_dbo:genre dbr:Gothic_rock", "class=Band" ],
-    "19" : [ "pair=dbr:Rock_music", "Kulczynski=0.84", "triple=e_dbo:genre dbr:Rock_music", "class=Band" ],
-    "20" : [ "pair=dbr:Power_pop", "Kulczynski=0.838", "triple=e_dbo:genre dbr:Power_pop", "class=Band" ],
-    "21" : [ "pair=dbr:Punk_rock", "Kulczynski=0.832", "triple=e_dbo:genre dbr:Punk_rock", "class=Band" ]
+    "0" : [ "pair=\"Alternative rock\"@en", "Kulczynski=0.968", "triple=e dbp:genre \"Alternative rock\"@en", "class=Band" ],
+    "1" : [ "pair=dbr:Blues_rock", "Kulczynski=0.956", "triple=e dbp:genre dbr:Blues_rock", "class=Band" ],
+    "2" : [ "pair=dbr:Garage_rock", "Kulczynski=0.938", "triple=e dbo:genre dbr:Garage_rock", "class=Band" ],
+    "3" : [ "pair=dbr:Psychedelic_rock", "Kulczynski=0.931", "triple=e dbo:genre dbr:Psychedelic_rock", "class=Band" ],
+    "4" : [ "pair=dbr:Post-grunge", "Kulczynski=0.914", "triple=e dbo:genre dbr:Post-grunge", "class=Band" ],
+    "5" : [ "pair=\"alternative rock\"@en", "Kulczynski=0.91", "triple=e dbp:genre \"alternative rock\"@en", "class=Band" ],
+    "6" : [ "pair=dbr:Progressive_rock", "Kulczynski=0.904", "triple=e dbo:genre dbr:Progressive_rock", "class=Band" ],
+    "7" : [ "pair=dbr:Hard_rock", "Kulczynski=0.9", "triple=e dbo:genre dbr:Hard_rock", "class=Band" ],
+    "8" : [ "pair=dbr:Alternative_rock", "Kulczynski=0.89", "triple=e dbo:genre dbr:Alternative_rock", "class=Band" ],
+    "9" : [ "pair=dbr:Noise_rock", "Kulczynski=0.889", "triple=e dbp:genre dbr:Noise_rock", "class=Band" ],
+    "10" : [ "pair=dbr:Christian_rock", "Kulczynski=0.881", "triple=e dbp:genre dbr:Christian_rock", "class=Band" ],
+    "11" : [ "pair=dbr:Indie_rock", "Kulczynski=0.875", "triple=e dbo:genre dbr:Indie_rock", "class=Band" ],
+    "12" : [ "pair=\"Rock\"@en", "Kulczynski=0.873", "triple=e dbp:genre \"Rock\"@en", "class=Band" ],
+    "13" : [ "pair=dbr:Rock_and_roll", "Kulczynski=0.873", "triple=e dbo:genre dbr:Rock_and_roll", "class=Band" ],
+    "14" : [ "pair=dbr:Pop_rock", "Kulczynski=0.866", "triple=e dbo:genre dbr:Pop_rock", "class=Band" ],
+    "15" : [ "pair=dbr:Folk_rock", "Kulczynski=0.865", "triple=e dbo:genre dbr:Folk_rock", "class=Band" ],
+    "16" : [ "pair=dbr:Experimental_rock", "Kulczynski=0.857", "triple=e dbp:genre dbr:Experimental_rock", "class=Band" ],
+    "17" : [ "pair=dbr:Art_rock", "Kulczynski=0.851", "triple=e dbp:genre dbr:Art_rock", "class=Band" ],
+    "18" : [ "pair=dbr:Gothic_rock", "Kulczynski=0.851", "triple=e dbo:genre dbr:Gothic_rock", "class=Band" ],
+    "19" : [ "pair=dbr:Rock_music", "Kulczynski=0.84", "triple=e dbo:genre dbr:Rock_music", "class=Band" ],
+    "20" : [ "pair=dbr:Power_pop", "Kulczynski=0.838", "triple=e dbo:genre dbr:Power_pop", "class=Band" ],
+    "21" : [ "pair=dbr:Punk_rock", "Kulczynski=0.832", "triple=e dbo:genre dbr:Punk_rock", "class=Band" ]
   }
 }, {
   "id" : 32,
   "pattern" : "rock band",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Alternative rock\"@en", "Kulczynski=0.936", "triple=e_dbp:genre \"Alternative rock\"@en", "class=Band" ],
-    "1" : [ "pair=dbr:Post-grunge", "Kulczynski=0.875", "triple=e_dbo:genre dbr:Post-grunge", "class=Band" ],
-    "2" : [ "pair=\"alternative rock\"@en", "Kulczynski=0.871", "triple=e_dbp:genre \"alternative rock\"@en", "class=Band" ],
-    "3" : [ "pair=dbr:Blues_rock", "Kulczynski=0.858", "triple=e_dbo:genre dbr:Blues_rock", "class=Band" ],
-    "4" : [ "pair=dbr:Psychedelic_rock", "Kulczynski=0.858", "triple=e_dbo:genre dbr:Psychedelic_rock", "class=Band" ],
-    "5" : [ "pair=dbr:Garage_rock", "Kulczynski=0.85", "triple=e_dbo:genre dbr:Garage_rock", "class=Band" ],
-    "6" : [ "pair=dbr:Alternative_rock", "Kulczynski=0.836", "triple=e_dbo:genre dbr:Alternative_rock", "class=Band" ]
+    "0" : [ "pair=\"Alternative rock\"@en", "Kulczynski=0.936", "triple=e dbp:genre \"Alternative rock\"@en", "class=Band" ],
+    "1" : [ "pair=dbr:Post-grunge", "Kulczynski=0.875", "triple=e dbo:genre dbr:Post-grunge", "class=Band" ],
+    "2" : [ "pair=\"alternative rock\"@en", "Kulczynski=0.871", "triple=e dbp:genre \"alternative rock\"@en", "class=Band" ],
+    "3" : [ "pair=dbr:Blues_rock", "Kulczynski=0.858", "triple=e dbo:genre dbr:Blues_rock", "class=Band" ],
+    "4" : [ "pair=dbr:Psychedelic_rock", "Kulczynski=0.858", "triple=e dbo:genre dbr:Psychedelic_rock", "class=Band" ],
+    "5" : [ "pair=dbr:Garage_rock", "Kulczynski=0.85", "triple=e dbo:genre dbr:Garage_rock", "class=Band" ],
+    "6" : [ "pair=dbr:Alternative_rock", "Kulczynski=0.836", "triple=e dbo:genre dbr:Alternative_rock", "class=Band" ]
   }
 }, {
   "id" : 33,
   "pattern" : "san francisco",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:San_Francisco", "Kulczynski=0.892", "triple=e_dbo:hometown dbr:San_Francisco", "class=Band" ]
+    "0" : [ "pair=dbr:San_Francisco", "Kulczynski=0.892", "triple=e dbo:hometown dbr:San_Francisco", "class=Band" ]
   }
 }, {
   "id" : 34,
   "pattern" : "seattle",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Seattle", "Kulczynski=0.959", "triple=e_dbo:hometown dbr:Seattle", "class=Band" ]
+    "0" : [ "pair=dbr:Seattle", "Kulczynski=0.959", "triple=e dbo:hometown dbr:Seattle", "class=Band" ]
   }
 }, {
   "id" : 35,
   "pattern" : "south",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:K-pop", "Kulczynski=0.941", "triple=e_dbp:genre dbr:K-pop", "class=Band" ],
-    "1" : [ "pair=\"Seoul", "Kulczynski=0.933", "triple=e_dbp:origin \"Seoul", "class=Band" ],
-    "2" : [ "pair=dbr:South_Korea", "Kulczynski=0.932", "triple=e_dbp:origin dbr:South_Korea", "class=Band" ],
-    "3" : [ "pair=dbr:Seoul", "Kulczynski=0.929", "triple=e_dbo:hometown dbr:Seoul", "class=Band" ]
+    "0" : [ "pair=dbr:K-pop", "Kulczynski=0.941", "triple=e dbp:genre dbr:K-pop", "class=Band" ],
+    "1" : [ "pair=\"Seoul", "Kulczynski=0.933", "triple=e dbp:origin \"Seoul", "class=Band" ],
+    "2" : [ "pair=dbr:South_Korea", "Kulczynski=0.932", "triple=e dbp:origin dbr:South_Korea", "class=Band" ],
+    "3" : [ "pair=dbr:Seoul", "Kulczynski=0.929", "triple=e dbo:hometown dbr:Seoul", "class=Band" ]
   }
 }, {
   "id" : 37,
   "pattern" : "swedish",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Stockholm", "Kulczynski=0.881", "triple=e_dbo:hometown dbr:Stockholm", "class=Band" ]
+    "0" : [ "pair=dbr:Stockholm", "Kulczynski=0.881", "triple=e dbo:hometown dbr:Stockholm", "class=Band" ]
   }
 }, {
   "id" : 38,
   "pattern" : "texas",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Texas", "Kulczynski=0.904", "triple=e_dbo:hometown dbr:Texas", "class=Band" ]
+    "0" : [ "pair=dbr:Texas", "Kulczynski=0.904", "triple=e dbo:hometown dbr:Texas", "class=Band" ]
   }
 }, {
   "id" : 39,
   "pattern" : "toronto",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Toronto", "Kulczynski=0.87", "triple=e_dbo:hometown dbr:Toronto", "class=Band" ],
-    "1" : [ "pair=\"Toronto", "Kulczynski=0.869", "triple=e_dbp:origin \"Toronto", "class=Band" ]
+    "0" : [ "pair=dbr:Toronto", "Kulczynski=0.87", "triple=e dbo:hometown dbr:Toronto", "class=Band" ],
+    "1" : [ "pair=\"Toronto", "Kulczynski=0.869", "triple=e dbp:origin \"Toronto", "class=Band" ]
   }
 }, {
   "id" : 40,
   "pattern" : "york",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Brooklyn", "Kulczynski=0.862", "triple=e_dbo:hometown dbr:Brooklyn", "class=Band" ],
-    "1" : [ "pair=dbr:New_York_(state", "Kulczynski=0.861", "triple=e_dbo:hometown dbr:New_York_(state", "class=Band" ],
-    "2" : [ "pair=dbr:New_York_City", "Kulczynski=0.842", "triple=e_dbo:hometown dbr:New_York_City", "class=Band" ]
+    "0" : [ "pair=dbr:Brooklyn", "Kulczynski=0.862", "triple=e dbo:hometown dbr:Brooklyn", "class=Band" ],
+    "1" : [ "pair=dbr:New_York_(state", "Kulczynski=0.861", "triple=e dbo:hometown dbr:New_York_(state", "class=Band" ],
+    "2" : [ "pair=dbr:New_York_City", "Kulczynski=0.842", "triple=e dbo:hometown dbr:New_York_City", "class=Band" ]
   }
 }, {
   "id" : 41,
   "pattern" : "zealand",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_Zealand", "Kulczynski=0.982", "triple=e_dbo:hometown dbr:New_Zealand", "class=Band" ]
+    "0" : [ "pair=dbr:New_Zealand", "Kulczynski=0.982", "triple=e dbo:hometown dbr:New_Zealand", "class=Band" ]
   }
 } ]

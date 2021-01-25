@@ -3,158 +3,158 @@
   "pattern" : "based",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ]
   }
 }, {
   "id" : 26,
   "pattern" : "became",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ]
   }
 }, {
   "id" : 28,
   "pattern" : "best known",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:nationality dbr:United_States", "class=Artist" ],
-    "1" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
-    "2" : [ "pair=\"British\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"British\"@en", "class=Artist" ],
-    "3" : [ "pair=dbr:Sculpture", "MaxConf=1.0", "triple=e_dbp:field dbr:Sculpture", "class=Artist" ]
+    "0" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:nationality dbr:United_States", "class=Artist" ],
+    "1" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ],
+    "2" : [ "pair=\"British\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"British\"@en", "class=Artist" ],
+    "3" : [ "pair=dbr:Sculpture", "MaxConf=1.0", "triple=e dbp:field dbr:Sculpture", "class=Artist" ]
   }
 }, {
   "id" : 29,
   "pattern" : "best known\u001Cfor",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ]
   }
 }, {
   "id" : 30,
   "pattern" : "best known for\u001Cher",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ]
   }
 }, {
   "id" : 31,
   "pattern" : "best known for\u001Chis",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ]
   }
 }, {
   "id" : 33,
   "pattern" : "born",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:England", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:England", "class=Artist" ],
-    "1" : [ "pair=dbr:New_York_City", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:New_York_City", "class=Artist" ],
-    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:United_States", "class=Artist" ],
-    "3" : [ "pair=\"French\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"French\"@en", "class=Artist" ],
-    "4" : [ "pair=\"German\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"German\"@en", "class=Artist" ],
-    "5" : [ "pair=\"Canadian\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"Canadian\"@en", "class=Artist" ],
-    "6" : [ "pair=dbr:Americans", "MaxConf=1.0", "triple=e_dbp:nationality dbr:Americans", "class=Artist" ],
-    "7" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
-    "8" : [ "pair=\"Australian\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"Australian\"@en", "class=Artist" ],
-    "9" : [ "pair=\"British\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"British\"@en", "class=Artist" ],
-    "10" : [ "pair=dbr:Canadians", "MaxConf=1.0", "triple=e_dbp:nationality dbr:Canadians", "class=Artist" ],
-    "11" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:fixAttempted \"yes\"@en", "class=Artist" ],
-    "12" : [ "pair=\"InternetArchiveBot\"@en", "MaxConf=1.0", "triple=e_dbp:bot \"InternetArchiveBot\"@en", "class=Artist" ],
-    "13" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:spouse \"\"@en", "class=Artist" ],
-    "14" : [ "pair=dbr:Installation_art", "MaxConf=1.0", "triple=e_dbp:field dbr:Installation_art", "class=Artist" ],
-    "15" : [ "pair=dbr:Drawing", "MaxConf=1.0", "triple=e_dbp:field dbr:Drawing", "class=Artist" ],
-    "16" : [ "pair=dbr:Sculpture", "MaxConf=1.0", "triple=e_dbp:field dbr:Sculpture", "class=Artist" ],
-    "17" : [ "pair=\"Photography\"@en", "MaxConf=1.0", "triple=e_dbp:field \"Photography\"@en", "class=Artist" ],
-    "18" : [ "pair=\"Painting\"@en", "MaxConf=1.0", "triple=e_dbp:field \"Painting\"@en", "class=Artist" ],
-    "19" : [ "pair=dbr:Video_art", "MaxConf=1.0", "triple=e_dbp:field dbr:Video_art", "class=Artist" ],
-    "20" : [ "pair=dbr:Photography", "MaxConf=1.0", "triple=e_dbp:field dbr:Photography", "class=Artist" ]
+    "0" : [ "pair=dbr:England", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:England", "class=Artist" ],
+    "1" : [ "pair=dbr:New_York_City", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:New_York_City", "class=Artist" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:United_States", "class=Artist" ],
+    "3" : [ "pair=\"French\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"French\"@en", "class=Artist" ],
+    "4" : [ "pair=\"German\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"German\"@en", "class=Artist" ],
+    "5" : [ "pair=\"Canadian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Canadian\"@en", "class=Artist" ],
+    "6" : [ "pair=dbr:Americans", "MaxConf=1.0", "triple=e dbp:nationality dbr:Americans", "class=Artist" ],
+    "7" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ],
+    "8" : [ "pair=\"Australian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Australian\"@en", "class=Artist" ],
+    "9" : [ "pair=\"British\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"British\"@en", "class=Artist" ],
+    "10" : [ "pair=dbr:Canadians", "MaxConf=1.0", "triple=e dbp:nationality dbr:Canadians", "class=Artist" ],
+    "11" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:fixAttempted \"yes\"@en", "class=Artist" ],
+    "12" : [ "pair=\"InternetArchiveBot\"@en", "MaxConf=1.0", "triple=e dbp:bot \"InternetArchiveBot\"@en", "class=Artist" ],
+    "13" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:spouse \"\"@en", "class=Artist" ],
+    "14" : [ "pair=dbr:Installation_art", "MaxConf=1.0", "triple=e dbp:field dbr:Installation_art", "class=Artist" ],
+    "15" : [ "pair=dbr:Drawing", "MaxConf=1.0", "triple=e dbp:field dbr:Drawing", "class=Artist" ],
+    "16" : [ "pair=dbr:Sculpture", "MaxConf=1.0", "triple=e dbp:field dbr:Sculpture", "class=Artist" ],
+    "17" : [ "pair=\"Photography\"@en", "MaxConf=1.0", "triple=e dbp:field \"Photography\"@en", "class=Artist" ],
+    "18" : [ "pair=\"Painting\"@en", "MaxConf=1.0", "triple=e dbp:field \"Painting\"@en", "class=Artist" ],
+    "19" : [ "pair=dbr:Video_art", "MaxConf=1.0", "triple=e dbp:field dbr:Video_art", "class=Artist" ],
+    "20" : [ "pair=dbr:Photography", "MaxConf=1.0", "triple=e dbp:field dbr:Photography", "class=Artist" ]
   }
 }, {
   "id" : 48,
   "pattern" : "created",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ]
   }
 }, {
   "id" : 51,
   "pattern" : "died",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Painting", "MaxConf=1.0", "triple=e_dbp:field dbr:Painting", "class=Artist" ]
+    "0" : [ "pair=dbr:Painting", "MaxConf=1.0", "triple=e dbp:field dbr:Painting", "class=Artist" ]
   }
 }, {
   "id" : 56,
   "pattern" : "exhibited",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ]
   }
 }, {
   "id" : 69,
   "pattern" : "including",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ]
   }
 }, {
   "id" : 81,
   "pattern" : "known",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:England", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:England", "class=Artist" ],
-    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:United_States", "class=Artist" ],
-    "2" : [ "pair=\"French\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"French\"@en", "class=Artist" ],
-    "3" : [ "pair=\"Canadian\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"Canadian\"@en", "class=Artist" ],
-    "4" : [ "pair=dbr:Americans", "MaxConf=1.0", "triple=e_dbp:nationality dbr:Americans", "class=Artist" ],
-    "5" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
-    "6" : [ "pair=\"Australian\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"Australian\"@en", "class=Artist" ],
-    "7" : [ "pair=\"British\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"British\"@en", "class=Artist" ],
-    "8" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:spouse \"\"@en", "class=Artist" ],
-    "9" : [ "pair=dbr:Drawing", "MaxConf=1.0", "triple=e_dbp:field dbr:Drawing", "class=Artist" ],
-    "10" : [ "pair=dbr:Sculpture", "MaxConf=1.0", "triple=e_dbp:field dbr:Sculpture", "class=Artist" ],
-    "11" : [ "pair=\"Painting\"@en", "MaxConf=1.0", "triple=e_dbp:field \"Painting\"@en", "class=Artist" ],
-    "12" : [ "pair=dbr:Photography", "MaxConf=1.0", "triple=e_dbp:field dbr:Photography", "class=Artist" ],
-    "13" : [ "pair=dbr:Painting", "MaxConf=1.0", "triple=e_dbp:field dbr:Painting", "class=Artist" ]
+    "0" : [ "pair=dbr:England", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:England", "class=Artist" ],
+    "1" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:United_States", "class=Artist" ],
+    "2" : [ "pair=\"French\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"French\"@en", "class=Artist" ],
+    "3" : [ "pair=\"Canadian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Canadian\"@en", "class=Artist" ],
+    "4" : [ "pair=dbr:Americans", "MaxConf=1.0", "triple=e dbp:nationality dbr:Americans", "class=Artist" ],
+    "5" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ],
+    "6" : [ "pair=\"Australian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Australian\"@en", "class=Artist" ],
+    "7" : [ "pair=\"British\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"British\"@en", "class=Artist" ],
+    "8" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:spouse \"\"@en", "class=Artist" ],
+    "9" : [ "pair=dbr:Drawing", "MaxConf=1.0", "triple=e dbp:field dbr:Drawing", "class=Artist" ],
+    "10" : [ "pair=dbr:Sculpture", "MaxConf=1.0", "triple=e dbp:field dbr:Sculpture", "class=Artist" ],
+    "11" : [ "pair=\"Painting\"@en", "MaxConf=1.0", "triple=e dbp:field \"Painting\"@en", "class=Artist" ],
+    "12" : [ "pair=dbr:Photography", "MaxConf=1.0", "triple=e dbp:field dbr:Photography", "class=Artist" ],
+    "13" : [ "pair=dbr:Painting", "MaxConf=1.0", "triple=e dbp:field dbr:Painting", "class=Artist" ]
   }
 }, {
   "id" : 86,
   "pattern" : "lived",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Saint_Petersburg", "MaxConf=1.0", "triple=e_dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ]
+    "0" : [ "pair=dbr:Saint_Petersburg", "MaxConf=1.0", "triple=e dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ]
   }
 }, {
   "id" : 118,
   "pattern" : "received",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ]
   }
 }, {
   "id" : 131,
   "pattern" : "studied",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ]
   }
 }, {
   "id" : 140,
   "pattern" : "worked",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
-    "1" : [ "pair=dbr:Saint_Petersburg", "MaxConf=1.0", "triple=e_dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ],
-    "2" : [ "pair=dbr:Sculpture", "MaxConf=1.0", "triple=e_dbp:field dbr:Sculpture", "class=Artist" ],
-    "3" : [ "pair=dbr:Painting", "MaxConf=1.0", "triple=e_dbp:field dbr:Painting", "class=Artist" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:Saint_Petersburg", "MaxConf=1.0", "triple=e dbp:deathPlace dbr:Saint_Petersburg", "class=Artist" ],
+    "2" : [ "pair=dbr:Sculpture", "MaxConf=1.0", "triple=e dbp:field dbr:Sculpture", "class=Artist" ],
+    "3" : [ "pair=dbr:Painting", "MaxConf=1.0", "triple=e dbp:field dbr:Painting", "class=Artist" ]
   }
 }, {
   "id" : 141,
   "pattern" : "working",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e_dbp:nationality \"American\"@en", "class=Artist" ],
-    "1" : [ "pair=dbr:Painting", "MaxConf=1.0", "triple=e_dbp:field dbr:Painting", "class=Artist" ]
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=Artist" ],
+    "1" : [ "pair=dbr:Painting", "MaxConf=1.0", "triple=e dbp:field dbr:Painting", "class=Artist" ]
   }
 } ]

@@ -3,123 +3,57 @@
   "pattern" : "born",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"1.86\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.86\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "1" : [ "pair=\"1.9\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.9\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "2" : [ "pair=\"1.76\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.76\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "3" : [ "pair=\"1.72\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.72\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "4" : [ "pair=\"1.7272\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.7272\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "5" : [ "pair=\"1.82\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.82\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "6" : [ "pair=\"1.7018\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.7018\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "7" : [ "pair=\"1.8542\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.8542\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "8" : [ "pair=\"1.7526\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.7526\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "9" : [ "pair=\"1.77\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.77\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "10" : [ "pair=\"1.74\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.74\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "11" : [ "pair=\"1.7\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.7\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "12" : [ "pair=\"1.89\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.89\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "13" : [ "pair=\"1.83\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.83\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "14" : [ "pair=\"1.81\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.81\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "15" : [ "pair=\"1.8034\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.8034\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "16" : [ "pair=\"1.84\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.84\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "17" : [ "pair=\"1.85\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.85\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "18" : [ "pair=\"1.88\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.88\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "19" : [ "pair=\"1.79\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.79\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "20" : [ "pair=\"1.78\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.78\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "21" : [ "pair=\"1.91\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.91\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "22" : [ "pair=\"1.8288\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.8288\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "23" : [ "pair=\"1.75\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.75\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "24" : [ "pair=\"1.778\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.778\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "25" : [ "pair=\"1.73\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.73\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "26" : [ "pair=\"1.87\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.87\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "27" : [ "pair=\"1.8796\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.8796\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "28" : [ "pair=\"1.8\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.8\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "29" : [ "pair=\"White\"@en", "MaxConf=1.0", "triple=e_dbp:fg \"White\"@en", "class=SoccerManager" ],
-    "30" : [ "pair=\"navy\"@en", "MaxConf=1.0", "triple=e_dbp:fg \"navy\"@en", "class=SoccerManager" ],
-    "31" : [ "pair=\"white\"@en", "MaxConf=1.0", "triple=e_dbp:fg \"white\"@en", "class=SoccerManager" ],
-    "32" : [ "pair=dbr:Moscow", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Moscow", "class=SoccerManager" ],
-    "33" : [ "pair=dbr:West_Germany", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:West_Germany", "class=SoccerManager" ],
-    "34" : [ "pair=dbr:Netherlands", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Netherlands", "class=SoccerManager" ],
-    "35" : [ "pair=dbr:Albania", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Albania", "class=SoccerManager" ],
-    "36" : [ "pair=dbr:Austria", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Austria", "class=SoccerManager" ],
-    "37" : [ "pair=dbr:SFR_Yugoslavia", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:SFR_Yugoslavia", "class=SoccerManager" ],
-    "38" : [ "pair=dbr:Soviet_Union", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Soviet_Union", "class=SoccerManager" ],
-    "39" : [ "pair=dbr:Bulgaria", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Bulgaria", "class=SoccerManager" ],
-    "40" : [ "pair=dbr:Russian_SFSR", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Russian_SFSR", "class=SoccerManager" ],
-    "41" : [ "pair=dbr:Glasgow", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Glasgow", "class=SoccerManager" ]
+    "0" : [ "pair=\"White\"@en", "MaxConf=1.0", "triple=e dbp:fg \"White\"@en", "class=SoccerManager" ],
+    "1" : [ "pair=\"navy\"@en", "MaxConf=1.0", "triple=e dbp:fg \"navy\"@en", "class=SoccerManager" ],
+    "2" : [ "pair=\"white\"@en", "MaxConf=1.0", "triple=e dbp:fg \"white\"@en", "class=SoccerManager" ],
+    "3" : [ "pair=dbr:Moscow", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Moscow", "class=SoccerManager" ],
+    "4" : [ "pair=dbr:West_Germany", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:West_Germany", "class=SoccerManager" ],
+    "5" : [ "pair=dbr:Netherlands", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Netherlands", "class=SoccerManager" ],
+    "6" : [ "pair=dbr:Albania", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Albania", "class=SoccerManager" ],
+    "7" : [ "pair=dbr:Austria", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Austria", "class=SoccerManager" ],
+    "8" : [ "pair=dbr:SFR_Yugoslavia", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:SFR_Yugoslavia", "class=SoccerManager" ],
+    "9" : [ "pair=dbr:Soviet_Union", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Soviet_Union", "class=SoccerManager" ],
+    "10" : [ "pair=dbr:Bulgaria", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Bulgaria", "class=SoccerManager" ],
+    "11" : [ "pair=dbr:Russian_SFSR", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Russian_SFSR", "class=SoccerManager" ],
+    "12" : [ "pair=dbr:Glasgow", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Glasgow", "class=SoccerManager" ]
   }
 }, {
-  "id" : 49,
+  "id" : 48,
   "pattern" : "made",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"navy\"@en", "MaxConf=1.0", "triple=e_dbp:fg \"navy\"@en", "class=SoccerManager" ]
+    "0" : [ "pair=\"navy\"@en", "MaxConf=1.0", "triple=e dbp:fg \"navy\"@en", "class=SoccerManager" ]
   }
 }, {
-  "id" : 56,
+  "id" : 55,
   "pattern" : "played",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"1.86\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.86\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "1" : [ "pair=\"1.76\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.76\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "2" : [ "pair=\"1.72\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.72\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "3" : [ "pair=\"1.7272\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.7272\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "4" : [ "pair=\"1.82\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.82\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "5" : [ "pair=\"1.8542\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.8542\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "6" : [ "pair=\"1.7526\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.7526\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "7" : [ "pair=\"1.77\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.77\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "8" : [ "pair=\"1.74\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.74\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "9" : [ "pair=\"1.7\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.7\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "10" : [ "pair=\"1.83\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.83\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "11" : [ "pair=\"1.81\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.81\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "12" : [ "pair=\"1.8034\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.8034\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "13" : [ "pair=\"1.84\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.84\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "14" : [ "pair=\"1.85\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.85\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "15" : [ "pair=\"1.88\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.88\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "16" : [ "pair=\"1.79\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.79\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "17" : [ "pair=\"1.78\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.78\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "18" : [ "pair=\"1.8288\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.8288\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "19" : [ "pair=\"1.75\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.75\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "20" : [ "pair=\"1.778\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.778\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "21" : [ "pair=\"1.73\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.73\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "22" : [ "pair=\"1.87\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.87\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "23" : [ "pair=\"1.8\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.8\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "24" : [ "pair=\"navy\"@en", "MaxConf=1.0", "triple=e_dbp:fg \"navy\"@en", "class=SoccerManager" ],
-    "25" : [ "pair=\"white\"@en", "MaxConf=1.0", "triple=e_dbp:fg \"white\"@en", "class=SoccerManager" ],
-    "26" : [ "pair=dbr:West_Germany", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:West_Germany", "class=SoccerManager" ],
-    "27" : [ "pair=dbr:Soviet_Union", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Soviet_Union", "class=SoccerManager" ],
-    "28" : [ "pair=dbr:Glasgow", "MaxConf=1.0", "triple=e_dbo:birthPlace dbr:Glasgow", "class=SoccerManager" ]
+    "0" : [ "pair=\"navy\"@en", "MaxConf=1.0", "triple=e dbp:fg \"navy\"@en", "class=SoccerManager" ],
+    "1" : [ "pair=\"white\"@en", "MaxConf=1.0", "triple=e dbp:fg \"white\"@en", "class=SoccerManager" ],
+    "2" : [ "pair=dbr:West_Germany", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:West_Germany", "class=SoccerManager" ],
+    "3" : [ "pair=dbr:Soviet_Union", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Soviet_Union", "class=SoccerManager" ],
+    "4" : [ "pair=dbr:Glasgow", "MaxConf=1.0", "triple=e dbo:birthPlace dbr:Glasgow", "class=SoccerManager" ]
   }
 }, {
-  "id" : 57,
+  "id" : 56,
   "pattern" : "played as\u001Ca",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"1.82\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.82\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "1" : [ "pair=\"1.83\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.83\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "2" : [ "pair=\"1.79\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.79\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "3" : [ "pair=\"1.78\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.78\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "4" : [ "pair=\"1.8\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.8\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "5" : [ "pair=\"navy\"@en", "MaxConf=1.0", "triple=e_dbp:fg \"navy\"@en", "class=SoccerManager" ]
+    "0" : [ "pair=\"navy\"@en", "MaxConf=1.0", "triple=e dbp:fg \"navy\"@en", "class=SoccerManager" ]
   }
 }, {
-  "id" : 59,
+  "id" : 58,
   "pattern" : "playing",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"navy\"@en", "MaxConf=1.0", "triple=e_dbp:fg \"navy\"@en", "class=SoccerManager" ]
+    "0" : [ "pair=\"navy\"@en", "MaxConf=1.0", "triple=e dbp:fg \"navy\"@en", "class=SoccerManager" ]
   }
 }, {
-  "id" : 67,
+  "id" : 66,
   "pattern" : "retired",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"1.76\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.76\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "1" : [ "pair=\"1.82\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.82\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "2" : [ "pair=\"1.83\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.83\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "3" : [ "pair=\"1.81\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.81\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "4" : [ "pair=\"1.85\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.85\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "5" : [ "pair=\"1.78\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.78\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "6" : [ "pair=\"1.75\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.75\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "7" : [ "pair=\"1.8\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:height \"1.8\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=SoccerManager" ],
-    "8" : [ "pair=\"navy\"@en", "MaxConf=1.0", "triple=e_dbp:fg \"navy\"@en", "class=SoccerManager" ]
+    "0" : [ "pair=\"navy\"@en", "MaxConf=1.0", "triple=e dbp:fg \"navy\"@en", "class=SoccerManager" ]
   }
 } ]

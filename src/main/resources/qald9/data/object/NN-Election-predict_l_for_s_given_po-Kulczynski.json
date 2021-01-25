@@ -3,455 +3,454 @@
   "pattern" : "4 2008",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "Kulczynski=0.993", "triple=e_dbo:startDate \"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=Election" ]
+    "0" : [ "pair=\"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "Kulczynski=0.993", "triple=e dbo:startDate \"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=Election" ]
   }
 }, {
   "id" : 2,
   "pattern" : "by-election",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Subsequent MP\"@en", "Kulczynski=0.996", "triple=e_dbp:posttitle \"Subsequent MP\"@en", "class=Election" ],
-    "1" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.995", "triple=e_dbp:title dbr:Member_of_parliament", "class=Election" ],
-    "2" : [ "pair=\"MP\"@en", "Kulczynski=0.994", "triple=e_dbp:title \"MP\"@en", "class=Election" ]
+    "0" : [ "pair=\"Subsequent MP\"@en", "Kulczynski=0.996", "triple=e dbp:posttitle \"Subsequent MP\"@en", "class=Election" ],
+    "1" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.995", "triple=e dbp:title dbr:Member_of_parliament", "class=Election" ],
+    "2" : [ "pair=\"MP\"@en", "Kulczynski=0.994", "triple=e dbp:title \"MP\"@en", "class=Election" ]
   }
 }, {
   "id" : 4,
   "pattern" : "college",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "3" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "4" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "4" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
   }
 }, {
   "id" : 5,
   "pattern" : "college voted",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ]
   }
 }, {
   "id" : 6,
   "pattern" : "college voted\u001Cfor",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ]
   }
 }, {
   "id" : 7,
   "pattern" : "council",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"New\"@en", "Kulczynski=1.0", "triple=e_dbp:plus/minus \"New\"@en", "class=Election" ],
-    "1" : [ "pair=\"Lab\"@en", "Kulczynski=1.0", "triple=e_dbp:image \"Lab\"@en", "class=Election" ]
+    "0" : [ "pair=\"New\"@en", "Kulczynski=1.0", "triple=e dbp:plus/minus \"New\"@en", "class=Election" ],
+    "1" : [ "pair=\"Lab\"@en", "Kulczynski=1.0", "triple=e dbp:image \"Lab\"@en", "class=Election" ]
   }
 }, {
   "id" : 8,
   "pattern" : "district",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Colours on map indicate winning party for each constituency.\"@en", "Kulczynski=1.0", "triple=e_dbp:mapCaption \"Colours on map indicate winning party for each constituency.\"@en", "class=Election" ],
-    "1" : [ "pair=\"DABHK\"@en", "Kulczynski=1.0", "triple=e_dbp:party \"DABHK\"@en", "class=Election" ],
-    "2" : [ "pair=\"DPHK\"@en", "Kulczynski=1.0", "triple=e_dbp:party \"DPHK\"@en", "class=Election" ]
+    "0" : [ "pair=\"Colours on map indicate winning party for each constituency.\"@en", "Kulczynski=1.0", "triple=e dbp:mapCaption \"Colours on map indicate winning party for each constituency.\"@en", "class=Election" ],
+    "1" : [ "pair=\"DABHK\"@en", "Kulczynski=1.0", "triple=e dbp:party \"DABHK\"@en", "class=Election" ],
+    "2" : [ "pair=\"DPHK\"@en", "Kulczynski=1.0", "triple=e dbp:party \"DPHK\"@en", "class=Election" ]
   }
 }, {
   "id" : 10,
   "pattern" : "election",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "3" : [ "pair=dbr:George_W._Bush", "Kulczynski=1.0", "triple=e_dbp:afterElection dbr:George_W._Bush", "class=Election" ],
-    "4" : [ "pair=dbr:Richard_Nixon", "Kulczynski=1.0", "triple=e_dbp:afterElection dbr:Richard_Nixon", "class=Election" ],
-    "5" : [ "pair=dbr:Bill_Clinton", "Kulczynski=1.0", "triple=e_dbp:afterElection dbr:Bill_Clinton", "class=Election" ],
-    "6" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e_dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
-    "7" : [ "pair=\"Richard Nixon\"@en", "Kulczynski=1.0", "triple=e_dbp:nominee \"Richard Nixon\"@en", "class=Election" ],
-    "8" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "9" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "10" : [ "pair=dbr:Minnesota", "Kulczynski=1.0", "triple=e_dbp:homeState dbr:Minnesota", "class=Election" ],
-    "11" : [ "pair=\"Colours on map indicate winning party for each constituency.\"@en", "Kulczynski=1.0", "triple=e_dbp:mapCaption \"Colours on map indicate winning party for each constituency.\"@en", "class=Election" ],
-    "12" : [ "pair=dbr:Bernie_Sanders", "Kulczynski=1.0", "triple=e_dbp:candidate dbr:Bernie_Sanders", "class=Election" ],
-    "13" : [ "pair=\"DABHK\"@en", "Kulczynski=1.0", "triple=e_dbp:party \"DABHK\"@en", "class=Election" ],
-    "14" : [ "pair=\"DPHK\"@en", "Kulczynski=1.0", "triple=e_dbp:party \"DPHK\"@en", "class=Election" ],
-    "15" : [ "pair=dbr:Franklin_D._Roosevelt", "Kulczynski=1.0", "triple=e_dbp:beforeElection dbr:Franklin_D._Roosevelt", "class=Election" ],
-    "16" : [ "pair=dbr:Barack_Obama", "Kulczynski=1.0", "triple=e_dbp:beforeElection dbr:Barack_Obama", "class=Election" ],
-    "17" : [ "pair=dbr:Republican_Party_of_Minnesota", "Kulczynski=1.0", "triple=e_dbo:affiliation dbr:Republican_Party_of_Minnesota", "class=Election" ],
-    "18" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e_dbp:vpState dbr:Indiana", "class=Election" ],
-    "19" : [ "pair=\"Verdana\"@en", "Kulczynski=0.995", "triple=e_dbp:font \"Verdana\"@en", "class=Election" ],
-    "20" : [ "pair=\"75.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.995", "triple=e_dbp:size \"75.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "21" : [ "pair=\"x200px\"@en", "Kulczynski=0.995", "triple=e_dbp:imageSize \"x200px\"@en", "class=Election" ],
-    "22" : [ "pair=dbr:California", "Kulczynski=0.993", "triple=e_dbp:homeState dbr:California", "class=Election" ],
-    "23" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e_dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ],
-    "24" : [ "pair=\"45.4\"^^<http://www.w3.org/2001/XMLSchema#double>", "Kulczynski=0.992", "triple=e_dbp:percentage \"45.4\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Election" ],
-    "25" : [ "pair=dbr:Nebraska", "Kulczynski=0.992", "triple=e_dbp:homeState dbr:Nebraska", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=dbr:George_W._Bush", "Kulczynski=1.0", "triple=e dbp:afterElection dbr:George_W._Bush", "class=Election" ],
+    "4" : [ "pair=dbr:Richard_Nixon", "Kulczynski=1.0", "triple=e dbp:afterElection dbr:Richard_Nixon", "class=Election" ],
+    "5" : [ "pair=dbr:Bill_Clinton", "Kulczynski=1.0", "triple=e dbp:afterElection dbr:Bill_Clinton", "class=Election" ],
+    "6" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
+    "7" : [ "pair=\"Richard Nixon\"@en", "Kulczynski=1.0", "triple=e dbp:nominee \"Richard Nixon\"@en", "class=Election" ],
+    "8" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "9" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "10" : [ "pair=dbr:Minnesota", "Kulczynski=1.0", "triple=e dbp:homeState dbr:Minnesota", "class=Election" ],
+    "11" : [ "pair=\"Colours on map indicate winning party for each constituency.\"@en", "Kulczynski=1.0", "triple=e dbp:mapCaption \"Colours on map indicate winning party for each constituency.\"@en", "class=Election" ],
+    "12" : [ "pair=dbr:Bernie_Sanders", "Kulczynski=1.0", "triple=e dbp:candidate dbr:Bernie_Sanders", "class=Election" ],
+    "13" : [ "pair=\"DABHK\"@en", "Kulczynski=1.0", "triple=e dbp:party \"DABHK\"@en", "class=Election" ],
+    "14" : [ "pair=\"DPHK\"@en", "Kulczynski=1.0", "triple=e dbp:party \"DPHK\"@en", "class=Election" ],
+    "15" : [ "pair=dbr:Franklin_D._Roosevelt", "Kulczynski=1.0", "triple=e dbp:beforeElection dbr:Franklin_D._Roosevelt", "class=Election" ],
+    "16" : [ "pair=dbr:Barack_Obama", "Kulczynski=1.0", "triple=e dbp:beforeElection dbr:Barack_Obama", "class=Election" ],
+    "17" : [ "pair=dbr:Republican_Party_of_Minnesota", "Kulczynski=1.0", "triple=e dbo:affiliation dbr:Republican_Party_of_Minnesota", "class=Election" ],
+    "18" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e dbp:vpState dbr:Indiana", "class=Election" ],
+    "19" : [ "pair=\"Verdana\"@en", "Kulczynski=0.995", "triple=e dbp:font \"Verdana\"@en", "class=Election" ],
+    "20" : [ "pair=\"75.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.995", "triple=e dbp:size \"75.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "21" : [ "pair=\"x200px\"@en", "Kulczynski=0.995", "triple=e dbp:imageSize \"x200px\"@en", "class=Election" ],
+    "22" : [ "pair=dbr:California", "Kulczynski=0.993", "triple=e dbp:homeState dbr:California", "class=Election" ],
+    "23" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ],
+    "24" : [ "pair=dbr:Nebraska", "Kulczynski=0.992", "triple=e dbp:homeState dbr:Nebraska", "class=Election" ]
   }
 }, {
   "id" : 11,
   "pattern" : "election held",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Colours on map indicate winning party for each constituency.\"@en", "Kulczynski=1.0", "triple=e_dbp:mapCaption \"Colours on map indicate winning party for each constituency.\"@en", "class=Election" ],
-    "1" : [ "pair=\"DABHK\"@en", "Kulczynski=1.0", "triple=e_dbp:party \"DABHK\"@en", "class=Election" ],
-    "2" : [ "pair=\"DPHK\"@en", "Kulczynski=1.0", "triple=e_dbp:party \"DPHK\"@en", "class=Election" ]
+    "0" : [ "pair=\"Colours on map indicate winning party for each constituency.\"@en", "Kulczynski=1.0", "triple=e dbp:mapCaption \"Colours on map indicate winning party for each constituency.\"@en", "class=Election" ],
+    "1" : [ "pair=\"DABHK\"@en", "Kulczynski=1.0", "triple=e dbp:party \"DABHK\"@en", "class=Election" ],
+    "2" : [ "pair=\"DPHK\"@en", "Kulczynski=1.0", "triple=e dbp:party \"DPHK\"@en", "class=Election" ]
   }
 }, {
   "id" : 12,
   "pattern" : "election held\u001Con",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Colours on map indicate winning party for each constituency.\"@en", "Kulczynski=1.0", "triple=e_dbp:mapCaption \"Colours on map indicate winning party for each constituency.\"@en", "class=Election" ],
-    "1" : [ "pair=\"DABHK\"@en", "Kulczynski=1.0", "triple=e_dbp:party \"DABHK\"@en", "class=Election" ],
-    "2" : [ "pair=\"DPHK\"@en", "Kulczynski=1.0", "triple=e_dbp:party \"DPHK\"@en", "class=Election" ]
+    "0" : [ "pair=\"Colours on map indicate winning party for each constituency.\"@en", "Kulczynski=1.0", "triple=e dbp:mapCaption \"Colours on map indicate winning party for each constituency.\"@en", "class=Election" ],
+    "1" : [ "pair=\"DABHK\"@en", "Kulczynski=1.0", "triple=e dbp:party \"DABHK\"@en", "class=Election" ],
+    "2" : [ "pair=\"DPHK\"@en", "Kulczynski=1.0", "triple=e dbp:party \"DPHK\"@en", "class=Election" ]
   }
 }, {
   "id" : 13,
   "pattern" : "electoral",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "3" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "4" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "4" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
   }
 }, {
   "id" : 14,
   "pattern" : "electoral\u001Ccollege",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.992", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.992", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
   }
 }, {
   "id" : 15,
   "pattern" : "electoral\u001Ccollege\u001Cwho",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ]
   }
 }, {
   "id" : 16,
   "pattern" : "electoral college",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "3" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "4" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "4" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
   }
 }, {
   "id" : 17,
   "pattern" : "electoral college\u001Cwho",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ]
   }
 }, {
   "id" : 18,
   "pattern" : "electoral college\u001Cwho\u001Cvoted",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ]
   }
 }, {
   "id" : 19,
   "pattern" : "electoral college who\u001Cvoted",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ]
   }
 }, {
   "id" : 20,
   "pattern" : "electoral college who\u001Cvoted\u001Cfor",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ]
   }
 }, {
   "id" : 21,
   "pattern" : "electors",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "3" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "4" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "4" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
   }
 }, {
   "id" : 22,
   "pattern" : "electors the\u001Celectoral",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.992", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.992", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
   }
 }, {
   "id" : 23,
   "pattern" : "electors the\u001Celectoral\u001Ccollege",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.992", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.992", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ]
   }
 }, {
   "id" : 24,
   "pattern" : "electors to\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ]
   }
 }, {
   "id" : 25,
   "pattern" : "electors to\u001Cthe\u001Celectoral",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ]
   }
 }, {
   "id" : 27,
   "pattern" : "iowa",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Iowa", "Kulczynski=1.0", "triple=e_dbo:country dbr:Iowa", "class=Election" ],
-    "1" : [ "pair=\"Flag of Iowa .svg\"@en", "Kulczynski=0.993", "triple=e_dbp:flagImage \"Flag of Iowa .svg\"@en", "class=Election" ]
+    "0" : [ "pair=dbr:Iowa", "Kulczynski=1.0", "triple=e dbo:country dbr:Iowa", "class=Election" ],
+    "1" : [ "pair=\"Flag of Iowa .svg\"@en", "Kulczynski=0.993", "triple=e dbp:flagImage \"Flag of Iowa .svg\"@en", "class=Election" ]
   }
 }, {
   "id" : 28,
   "pattern" : "members",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"DPHK\"@en", "Kulczynski=1.0", "triple=e_dbp:party \"DPHK\"@en", "class=Election" ]
+    "0" : [ "pair=\"DPHK\"@en", "Kulczynski=1.0", "triple=e dbp:party \"DPHK\"@en", "class=Election" ]
   }
 }, {
   "id" : 29,
   "pattern" : "minnesota",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Republican_Party_of_Minnesota", "Kulczynski=1.0", "triple=e_dbo:affiliation dbr:Republican_Party_of_Minnesota", "class=Election" ],
-    "1" : [ "pair=\"Republican Party of Minnesota\"@en", "Kulczynski=0.993", "triple=e_dbp:party \"Republican Party of Minnesota\"@en", "class=Election" ]
+    "0" : [ "pair=dbr:Republican_Party_of_Minnesota", "Kulczynski=1.0", "triple=e dbo:affiliation dbr:Republican_Party_of_Minnesota", "class=Election" ],
+    "1" : [ "pair=\"Republican Party of Minnesota\"@en", "Kulczynski=0.993", "triple=e dbp:party \"Republican Party of Minnesota\"@en", "class=Election" ]
   }
 }, {
   "id" : 30,
   "pattern" : "november",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"2004-11-02\"^^<http://www.w3.org/2001/XMLSchema#date>", "Kulczynski=1.0", "triple=e_dbo:startDate \"2004-11-02\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=Election" ],
-    "1" : [ "pair=\"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "Kulczynski=1.0", "triple=e_dbo:startDate \"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=Election" ],
-    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "3" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e_dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
-    "4" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=1.0", "triple=e_dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ],
-    "5" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e_dbp:vpState dbr:Indiana", "class=Election" ],
-    "6" : [ "pair=dbr:New_York_(state", "Kulczynski=0.995", "triple=e_dbp:vpState dbr:New_York_(state", "class=Election" ],
-    "7" : [ "pair=dbr:Franklin_D._Roosevelt", "Kulczynski=0.994", "triple=e_dbp:afterElection dbr:Franklin_D._Roosevelt", "class=Election" ]
+    "0" : [ "pair=\"2004-11-02\"^^<http://www.w3.org/2001/XMLSchema#date>", "Kulczynski=1.0", "triple=e dbo:startDate \"2004-11-02\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=Election" ],
+    "1" : [ "pair=\"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "Kulczynski=1.0", "triple=e dbo:startDate \"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
+    "4" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=1.0", "triple=e dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ],
+    "5" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e dbp:vpState dbr:Indiana", "class=Election" ],
+    "6" : [ "pair=dbr:New_York_(state", "Kulczynski=0.995", "triple=e dbp:vpState dbr:New_York_(state", "class=Election" ],
+    "7" : [ "pair=dbr:Franklin_D._Roosevelt", "Kulczynski=0.994", "triple=e dbp:afterElection dbr:Franklin_D._Roosevelt", "class=Election" ]
   }
 }, {
   "id" : 31,
   "pattern" : "november 4",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "Kulczynski=0.993", "triple=e_dbo:startDate \"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=Election" ]
+    "0" : [ "pair=\"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "Kulczynski=0.993", "triple=e dbo:startDate \"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=Election" ]
   }
 }, {
   "id" : 32,
   "pattern" : "november 4 2008",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "Kulczynski=0.993", "triple=e_dbo:startDate \"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=Election" ]
+    "0" : [ "pair=\"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "Kulczynski=0.993", "triple=e dbo:startDate \"2008-11-04\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=Election" ]
   }
 }, {
   "id" : 34,
   "pattern" : "presidential election",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "3" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e_dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
-    "4" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "5" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "6" : [ "pair=dbr:Minnesota", "Kulczynski=1.0", "triple=e_dbp:homeState dbr:Minnesota", "class=Election" ],
-    "7" : [ "pair=dbr:Franklin_D._Roosevelt", "Kulczynski=1.0", "triple=e_dbp:beforeElection dbr:Franklin_D._Roosevelt", "class=Election" ],
-    "8" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e_dbp:vpState dbr:Indiana", "class=Election" ],
-    "9" : [ "pair=dbr:California", "Kulczynski=0.993", "triple=e_dbp:homeState dbr:California", "class=Election" ],
-    "10" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e_dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ],
-    "11" : [ "pair=\"x200px\"@en", "Kulczynski=0.992", "triple=e_dbp:imageSize \"x200px\"@en", "class=Election" ],
-    "12" : [ "pair=dbr:Nebraska", "Kulczynski=0.992", "triple=e_dbp:homeState dbr:Nebraska", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
+    "4" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "5" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "6" : [ "pair=dbr:Minnesota", "Kulczynski=1.0", "triple=e dbp:homeState dbr:Minnesota", "class=Election" ],
+    "7" : [ "pair=dbr:Franklin_D._Roosevelt", "Kulczynski=1.0", "triple=e dbp:beforeElection dbr:Franklin_D._Roosevelt", "class=Election" ],
+    "8" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e dbp:vpState dbr:Indiana", "class=Election" ],
+    "9" : [ "pair=dbr:California", "Kulczynski=0.993", "triple=e dbp:homeState dbr:California", "class=Election" ],
+    "10" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ],
+    "11" : [ "pair=\"x200px\"@en", "Kulczynski=0.992", "triple=e dbp:imageSize \"x200px\"@en", "class=Election" ],
+    "12" : [ "pair=dbr:Nebraska", "Kulczynski=0.992", "triple=e dbp:homeState dbr:Nebraska", "class=Election" ]
   }
 }, {
   "id" : 35,
   "pattern" : "representatives",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ]
   }
 }, {
   "id" : 36,
   "pattern" : "representatives electors",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ]
   }
 }, {
   "id" : 37,
   "pattern" : "representatives electors\u001Cto",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ]
   }
 }, {
   "id" : 38,
   "pattern" : "representatives electors\u001Cto\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ]
   }
 }, {
   "id" : 39,
   "pattern" : "states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "3" : [ "pair=dbr:Richard_Nixon", "Kulczynski=1.0", "triple=e_dbp:afterElection dbr:Richard_Nixon", "class=Election" ],
-    "4" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e_dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
-    "5" : [ "pair=\"Richard Nixon\"@en", "Kulczynski=1.0", "triple=e_dbp:nominee \"Richard Nixon\"@en", "class=Election" ],
-    "6" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "7" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "8" : [ "pair=dbr:Minnesota", "Kulczynski=1.0", "triple=e_dbp:homeState dbr:Minnesota", "class=Election" ],
-    "9" : [ "pair=dbr:Franklin_D._Roosevelt", "Kulczynski=1.0", "triple=e_dbp:beforeElection dbr:Franklin_D._Roosevelt", "class=Election" ],
-    "10" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e_dbp:vpState dbr:Indiana", "class=Election" ],
-    "11" : [ "pair=dbr:California", "Kulczynski=0.996", "triple=e_dbp:homeState dbr:California", "class=Election" ],
-    "12" : [ "pair=\"x200px\"@en", "Kulczynski=0.995", "triple=e_dbp:imageSize \"x200px\"@en", "class=Election" ],
-    "13" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e_dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ],
-    "14" : [ "pair=dbr:Nebraska", "Kulczynski=0.992", "triple=e_dbp:homeState dbr:Nebraska", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=dbr:Richard_Nixon", "Kulczynski=1.0", "triple=e dbp:afterElection dbr:Richard_Nixon", "class=Election" ],
+    "4" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
+    "5" : [ "pair=\"Richard Nixon\"@en", "Kulczynski=1.0", "triple=e dbp:nominee \"Richard Nixon\"@en", "class=Election" ],
+    "6" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "7" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "8" : [ "pair=dbr:Minnesota", "Kulczynski=1.0", "triple=e dbp:homeState dbr:Minnesota", "class=Election" ],
+    "9" : [ "pair=dbr:Franklin_D._Roosevelt", "Kulczynski=1.0", "triple=e dbp:beforeElection dbr:Franklin_D._Roosevelt", "class=Election" ],
+    "10" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e dbp:vpState dbr:Indiana", "class=Election" ],
+    "11" : [ "pair=dbr:California", "Kulczynski=0.996", "triple=e dbp:homeState dbr:California", "class=Election" ],
+    "12" : [ "pair=\"x200px\"@en", "Kulczynski=0.995", "triple=e dbp:imageSize \"x200px\"@en", "class=Election" ],
+    "13" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ],
+    "14" : [ "pair=dbr:Nebraska", "Kulczynski=0.992", "triple=e dbp:homeState dbr:Nebraska", "class=Election" ]
   }
 }, {
   "id" : 40,
   "pattern" : "states presidential",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "3" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e_dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
-    "4" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "5" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "6" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e_dbp:vpState dbr:Indiana", "class=Election" ],
-    "7" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e_dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
+    "4" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "5" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "6" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e dbp:vpState dbr:Indiana", "class=Election" ],
+    "7" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ]
   }
 }, {
   "id" : 41,
   "pattern" : "states presidential election",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "3" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e_dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
-    "4" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "5" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "6" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e_dbp:vpState dbr:Indiana", "class=Election" ],
-    "7" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e_dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
+    "4" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "5" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "6" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e dbp:vpState dbr:Indiana", "class=Election" ],
+    "7" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ]
   }
 }, {
   "id" : 42,
   "pattern" : "states presidential election\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "1" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "2" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.997", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "3" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.997", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "4" : [ "pair=dbr:New_York_(state", "Kulczynski=0.996", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "1" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "2" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.997", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "3" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.997", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "4" : [ "pair=dbr:New_York_(state", "Kulczynski=0.996", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ]
   }
 }, {
   "id" : 43,
   "pattern" : "united",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "3" : [ "pair=dbr:Richard_Nixon", "Kulczynski=1.0", "triple=e_dbp:afterElection dbr:Richard_Nixon", "class=Election" ],
-    "4" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e_dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
-    "5" : [ "pair=\"Richard Nixon\"@en", "Kulczynski=1.0", "triple=e_dbp:nominee \"Richard Nixon\"@en", "class=Election" ],
-    "6" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "7" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "8" : [ "pair=dbr:Minnesota", "Kulczynski=1.0", "triple=e_dbp:homeState dbr:Minnesota", "class=Election" ],
-    "9" : [ "pair=dbr:Franklin_D._Roosevelt", "Kulczynski=1.0", "triple=e_dbp:beforeElection dbr:Franklin_D._Roosevelt", "class=Election" ],
-    "10" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e_dbp:vpState dbr:Indiana", "class=Election" ],
-    "11" : [ "pair=dbr:California", "Kulczynski=0.996", "triple=e_dbp:homeState dbr:California", "class=Election" ],
-    "12" : [ "pair=\"x200px\"@en", "Kulczynski=0.995", "triple=e_dbp:imageSize \"x200px\"@en", "class=Election" ],
-    "13" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e_dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ],
-    "14" : [ "pair=dbr:Nebraska", "Kulczynski=0.992", "triple=e_dbp:homeState dbr:Nebraska", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=dbr:Richard_Nixon", "Kulczynski=1.0", "triple=e dbp:afterElection dbr:Richard_Nixon", "class=Election" ],
+    "4" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
+    "5" : [ "pair=\"Richard Nixon\"@en", "Kulczynski=1.0", "triple=e dbp:nominee \"Richard Nixon\"@en", "class=Election" ],
+    "6" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "7" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "8" : [ "pair=dbr:Minnesota", "Kulczynski=1.0", "triple=e dbp:homeState dbr:Minnesota", "class=Election" ],
+    "9" : [ "pair=dbr:Franklin_D._Roosevelt", "Kulczynski=1.0", "triple=e dbp:beforeElection dbr:Franklin_D._Roosevelt", "class=Election" ],
+    "10" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e dbp:vpState dbr:Indiana", "class=Election" ],
+    "11" : [ "pair=dbr:California", "Kulczynski=0.996", "triple=e dbp:homeState dbr:California", "class=Election" ],
+    "12" : [ "pair=\"x200px\"@en", "Kulczynski=0.995", "triple=e dbp:imageSize \"x200px\"@en", "class=Election" ],
+    "13" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ],
+    "14" : [ "pair=dbr:Nebraska", "Kulczynski=0.992", "triple=e dbp:homeState dbr:Nebraska", "class=Election" ]
   }
 }, {
   "id" : 44,
   "pattern" : "united states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "3" : [ "pair=dbr:Richard_Nixon", "Kulczynski=1.0", "triple=e_dbp:afterElection dbr:Richard_Nixon", "class=Election" ],
-    "4" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e_dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
-    "5" : [ "pair=\"Richard Nixon\"@en", "Kulczynski=1.0", "triple=e_dbp:nominee \"Richard Nixon\"@en", "class=Election" ],
-    "6" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "7" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "8" : [ "pair=dbr:Minnesota", "Kulczynski=1.0", "triple=e_dbp:homeState dbr:Minnesota", "class=Election" ],
-    "9" : [ "pair=dbr:Franklin_D._Roosevelt", "Kulczynski=1.0", "triple=e_dbp:beforeElection dbr:Franklin_D._Roosevelt", "class=Election" ],
-    "10" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e_dbp:vpState dbr:Indiana", "class=Election" ],
-    "11" : [ "pair=dbr:California", "Kulczynski=0.996", "triple=e_dbp:homeState dbr:California", "class=Election" ],
-    "12" : [ "pair=\"x200px\"@en", "Kulczynski=0.995", "triple=e_dbp:imageSize \"x200px\"@en", "class=Election" ],
-    "13" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e_dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ],
-    "14" : [ "pair=dbr:Nebraska", "Kulczynski=0.992", "triple=e_dbp:homeState dbr:Nebraska", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=dbr:Richard_Nixon", "Kulczynski=1.0", "triple=e dbp:afterElection dbr:Richard_Nixon", "class=Election" ],
+    "4" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
+    "5" : [ "pair=\"Richard Nixon\"@en", "Kulczynski=1.0", "triple=e dbp:nominee \"Richard Nixon\"@en", "class=Election" ],
+    "6" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "7" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "8" : [ "pair=dbr:Minnesota", "Kulczynski=1.0", "triple=e dbp:homeState dbr:Minnesota", "class=Election" ],
+    "9" : [ "pair=dbr:Franklin_D._Roosevelt", "Kulczynski=1.0", "triple=e dbp:beforeElection dbr:Franklin_D._Roosevelt", "class=Election" ],
+    "10" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e dbp:vpState dbr:Indiana", "class=Election" ],
+    "11" : [ "pair=dbr:California", "Kulczynski=0.996", "triple=e dbp:homeState dbr:California", "class=Election" ],
+    "12" : [ "pair=\"x200px\"@en", "Kulczynski=0.995", "triple=e dbp:imageSize \"x200px\"@en", "class=Election" ],
+    "13" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ],
+    "14" : [ "pair=dbr:Nebraska", "Kulczynski=0.992", "triple=e dbp:homeState dbr:Nebraska", "class=Election" ]
   }
 }, {
   "id" : 45,
   "pattern" : "united states presidential",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "3" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e_dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
-    "4" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "5" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "6" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e_dbp:vpState dbr:Indiana", "class=Election" ],
-    "7" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e_dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
+    "4" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "5" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "6" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e dbp:vpState dbr:Indiana", "class=Election" ],
+    "7" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ]
   }
 }, {
   "id" : 46,
   "pattern" : "united states presidential\u001Celection",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ],
-    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "3" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e_dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
-    "4" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "5" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "6" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e_dbp:vpState dbr:Indiana", "class=Election" ],
-    "7" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e_dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ]
+    "0" : [ "pair=dbr:New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ],
+    "1" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "2" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "3" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Kulczynski=1.0", "triple=e dbp:image \"Donald Trump official portrait .jpg\"@en", "class=Election" ],
+    "4" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "5" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "6" : [ "pair=dbr:Indiana", "Kulczynski=1.0", "triple=e dbp:vpState dbr:Indiana", "class=Election" ],
+    "7" : [ "pair=\"Franklin D. Roosevelt\"@en", "Kulczynski=0.992", "triple=e dbp:nominee \"Franklin D. Roosevelt\"@en", "class=Election" ]
   }
 }, {
   "id" : 47,
   "pattern" : "united states presidential\u001Celection\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Ohio", "class=Election" ],
-    "1" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e_dbp:homestate dbr:Illinois", "class=Election" ],
-    "2" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.997", "triple=e_dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "3" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.997", "triple=e_dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
-    "4" : [ "pair=dbr:New_York_(state", "Kulczynski=0.996", "triple=e_dbp:homestate dbr:New_York_(state", "class=Election" ]
+    "0" : [ "pair=dbr:Ohio", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Ohio", "class=Election" ],
+    "1" : [ "pair=dbr:Illinois", "Kulczynski=1.0", "triple=e dbp:homestate dbr:Illinois", "class=Election" ],
+    "2" : [ "pair=\"100.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.997", "triple=e dbp:evprct \"100.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "3" : [ "pair=\"0.0\"^^<http://dbpedia.org/datatype/perCent>", "Kulczynski=0.997", "triple=e dbp:evprct \"0.0\"^^<http://dbpedia.org/datatype/perCent>", "class=Election" ],
+    "4" : [ "pair=dbr:New_York_(state", "Kulczynski=0.996", "triple=e dbp:homestate dbr:New_York_(state", "class=Election" ]
   }
 } ]

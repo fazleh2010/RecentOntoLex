@@ -3,85 +3,85 @@
   "pattern" : "aerial",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Aviation\"@en", "Kulczynski=0.957", "triple=e_dbp:branch \"Aviation\"@en", "class=MilitaryPerson" ]
+    "0" : [ "pair=\"Aviation\"@en", "Kulczynski=0.957", "triple=e dbp:branch \"Aviation\"@en", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 9,
   "pattern" : "australian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Australian_Army", "Kulczynski=0.983", "triple=e_dbp:branch dbr:Australian_Army", "class=MilitaryPerson" ],
-    "1" : [ "pair=\"Australia\"@en", "Kulczynski=0.979", "triple=e_dbp:allegiance \"Australia\"@en", "class=MilitaryPerson" ],
-    "2" : [ "pair=\"Australia\"", "Kulczynski=0.976", "triple=e_dbo:allegiance \"Australia\"", "class=MilitaryPerson" ]
+    "0" : [ "pair=dbr:Australian_Army", "Kulczynski=0.983", "triple=e dbp:branch dbr:Australian_Army", "class=MilitaryPerson" ],
+    "1" : [ "pair=\"Australia\"@en", "Kulczynski=0.979", "triple=e dbp:allegiance \"Australia\"@en", "class=MilitaryPerson" ],
+    "2" : [ "pair=\"Australia\"", "Kulczynski=0.976", "triple=e dbo:allegiance \"Australia\"", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 16,
   "pattern" : "british",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Victoria_Cross", "Kulczynski=0.966", "triple=e_dbo:award dbr:Victoria_Cross", "class=MilitaryPerson" ],
-    "1" : [ "pair=dbr:Indian_Mutiny", "Kulczynski=0.96", "triple=e_dbo:battle dbr:Indian_Mutiny", "class=MilitaryPerson" ],
-    "2" : [ "pair=dbr:Indian_Rebellion_of_1857", "Kulczynski=0.955", "triple=e_dbp:battles dbr:Indian_Rebellion_of_1857", "class=MilitaryPerson" ],
-    "3" : [ "pair=dbr:Major-general_(United_Kingdom", "Kulczynski=0.947", "triple=e_dbp:rank dbr:Major-general_(United_Kingdom", "class=MilitaryPerson" ],
-    "4" : [ "pair=dbr:General_(United_Kingdom", "Kulczynski=0.943", "triple=e_dbp:rank dbr:General_(United_Kingdom", "class=MilitaryPerson" ]
+    "0" : [ "pair=dbr:Victoria_Cross", "Kulczynski=0.966", "triple=e dbo:award dbr:Victoria_Cross", "class=MilitaryPerson" ],
+    "1" : [ "pair=dbr:Indian_Mutiny", "Kulczynski=0.96", "triple=e dbo:battle dbr:Indian_Mutiny", "class=MilitaryPerson" ],
+    "2" : [ "pair=dbr:Indian_Rebellion_of_1857", "Kulczynski=0.955", "triple=e dbp:battles dbr:Indian_Rebellion_of_1857", "class=MilitaryPerson" ],
+    "3" : [ "pair=dbr:Major-general_(United_Kingdom", "Kulczynski=0.947", "triple=e dbp:rank dbr:Major-general_(United_Kingdom", "class=MilitaryPerson" ],
+    "4" : [ "pair=dbr:General_(United_Kingdom", "Kulczynski=0.943", "triple=e dbp:rank dbr:General_(United_Kingdom", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 21,
   "pattern" : "civil",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Union_(American_Civil_War", "Kulczynski=0.953", "triple=e_dbp:allegiance dbr:Union_(American_Civil_War", "class=MilitaryPerson" ],
-    "1" : [ "pair=dbr:Union_Army", "Kulczynski=0.95", "triple=e_dbp:branch dbr:Union_Army", "class=MilitaryPerson" ],
-    "2" : [ "pair=\"Union\"", "Kulczynski=0.947", "triple=e_dbo:allegiance \"Union\"", "class=MilitaryPerson" ],
-    "3" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.938", "triple=e_dbo:serviceEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryPerson" ],
-    "4" : [ "pair=dbr:American_Civil_War", "Kulczynski=0.937", "triple=e_dbp:battles dbr:American_Civil_War", "class=MilitaryPerson" ]
+    "0" : [ "pair=dbr:Union_(American_Civil_War", "Kulczynski=0.953", "triple=e dbp:allegiance dbr:Union_(American_Civil_War", "class=MilitaryPerson" ],
+    "1" : [ "pair=dbr:Union_Army", "Kulczynski=0.95", "triple=e dbp:branch dbr:Union_Army", "class=MilitaryPerson" ],
+    "2" : [ "pair=\"Union\"", "Kulczynski=0.947", "triple=e dbo:allegiance \"Union\"", "class=MilitaryPerson" ],
+    "3" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.938", "triple=e dbo:serviceEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryPerson" ],
+    "4" : [ "pair=dbr:American_Civil_War", "Kulczynski=0.937", "triple=e dbp:battles dbr:American_Civil_War", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 39,
   "pattern" : "french",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Divisional_general", "Kulczynski=0.978", "triple=e_dbp:rank dbr:Divisional_general", "class=MilitaryPerson" ],
-    "1" : [ "pair=dbr:French_Army", "Kulczynski=0.973", "triple=e_dbp:branch dbr:French_Army", "class=MilitaryPerson" ]
+    "0" : [ "pair=dbr:Divisional_general", "Kulczynski=0.978", "triple=e dbp:rank dbr:Divisional_general", "class=MilitaryPerson" ],
+    "1" : [ "pair=dbr:French_Army", "Kulczynski=0.973", "triple=e dbp:branch dbr:French_Army", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 46,
   "pattern" : "highest",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Victoria_Cross", "Kulczynski=0.965", "triple=e_dbo:award dbr:Victoria_Cross", "class=MilitaryPerson" ]
+    "0" : [ "pair=dbr:Victoria_Cross", "Kulczynski=0.965", "triple=e dbo:award dbr:Victoria_Cross", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 56,
   "pattern" : "recipient",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Victoria_Cross", "Kulczynski=0.962", "triple=e_dbo:award dbr:Victoria_Cross", "class=MilitaryPerson" ],
-    "1" : [ "pair=dbr:Indian_Mutiny", "Kulczynski=0.944", "triple=e_dbo:battle dbr:Indian_Mutiny", "class=MilitaryPerson" ]
+    "0" : [ "pair=dbr:Victoria_Cross", "Kulczynski=0.962", "triple=e dbo:award dbr:Victoria_Cross", "class=MilitaryPerson" ],
+    "1" : [ "pair=dbr:Indian_Mutiny", "Kulczynski=0.944", "triple=e dbo:battle dbr:Indian_Mutiny", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 61,
   "pattern" : "russian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Soviet Air Force\"@en", "Kulczynski=0.984", "triple=e_dbp:branch \"Soviet Air Force\"@en", "class=MilitaryPerson" ],
-    "1" : [ "pair=dbr:Soviet_Air_Forces", "Kulczynski=0.962", "triple=e_dbo:militaryBranch dbr:Soviet_Air_Forces", "class=MilitaryPerson" ],
-    "2" : [ "pair=dbr:Moscow", "Kulczynski=0.96", "triple=e_dbp:deathPlace dbr:Moscow", "class=MilitaryPerson" ],
-    "3" : [ "pair=dbr:Order_of_the_Red_Banner", "Kulczynski=0.946", "triple=e_dbp:awards dbr:Order_of_the_Red_Banner", "class=MilitaryPerson" ],
-    "4" : [ "pair=dbr:Order_of_Lenin", "Kulczynski=0.943", "triple=e_dbp:awards dbr:Order_of_Lenin", "class=MilitaryPerson" ],
-    "5" : [ "pair=dbr:Imperial_Russian_Army", "Kulczynski=0.941", "triple=e_dbp:branch dbr:Imperial_Russian_Army", "class=MilitaryPerson" ],
-    "6" : [ "pair=dbr:Hero_of_the_Soviet_Union", "Kulczynski=0.938", "triple=e_dbp:awards dbr:Hero_of_the_Soviet_Union", "class=MilitaryPerson" ]
+    "0" : [ "pair=\"Soviet Air Force\"@en", "Kulczynski=0.984", "triple=e dbp:branch \"Soviet Air Force\"@en", "class=MilitaryPerson" ],
+    "1" : [ "pair=dbr:Soviet_Air_Forces", "Kulczynski=0.962", "triple=e dbo:militaryBranch dbr:Soviet_Air_Forces", "class=MilitaryPerson" ],
+    "2" : [ "pair=dbr:Moscow", "Kulczynski=0.96", "triple=e dbp:deathPlace dbr:Moscow", "class=MilitaryPerson" ],
+    "3" : [ "pair=dbr:Order_of_the_Red_Banner", "Kulczynski=0.946", "triple=e dbp:awards dbr:Order_of_the_Red_Banner", "class=MilitaryPerson" ],
+    "4" : [ "pair=dbr:Order_of_Lenin", "Kulczynski=0.943", "triple=e dbp:awards dbr:Order_of_Lenin", "class=MilitaryPerson" ],
+    "5" : [ "pair=dbr:Imperial_Russian_Army", "Kulczynski=0.941", "triple=e dbp:branch dbr:Imperial_Russian_Army", "class=MilitaryPerson" ],
+    "6" : [ "pair=dbr:Hero_of_the_Soviet_Union", "Kulczynski=0.938", "triple=e dbp:awards dbr:Hero_of_the_Soviet_Union", "class=MilitaryPerson" ]
   }
 }, {
   "id" : 62,
   "pattern" : "soviet",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Hero_of_the_Soviet_Union", "Kulczynski=0.984", "triple=e_dbp:awards dbr:Hero_of_the_Soviet_Union", "class=MilitaryPerson" ],
-    "1" : [ "pair=dbr:Order_of_Lenin", "Kulczynski=0.971", "triple=e_dbp:awards dbr:Order_of_Lenin", "class=MilitaryPerson" ],
-    "2" : [ "pair=\"Soviet Air Force\"@en", "Kulczynski=0.968", "triple=e_dbp:branch \"Soviet Air Force\"@en", "class=MilitaryPerson" ],
-    "3" : [ "pair=dbr:Soviet_Air_Forces", "Kulczynski=0.962", "triple=e_dbo:militaryBranch dbr:Soviet_Air_Forces", "class=MilitaryPerson" ],
-    "4" : [ "pair=dbr:Order_of_the_Red_Star", "Kulczynski=0.95", "triple=e_dbo:award dbr:Order_of_the_Red_Star", "class=MilitaryPerson" ],
-    "5" : [ "pair=dbr:Moscow", "Kulczynski=0.937", "triple=e_dbp:deathPlace dbr:Moscow", "class=MilitaryPerson" ]
+    "0" : [ "pair=dbr:Hero_of_the_Soviet_Union", "Kulczynski=0.984", "triple=e dbp:awards dbr:Hero_of_the_Soviet_Union", "class=MilitaryPerson" ],
+    "1" : [ "pair=dbr:Order_of_Lenin", "Kulczynski=0.971", "triple=e dbp:awards dbr:Order_of_Lenin", "class=MilitaryPerson" ],
+    "2" : [ "pair=\"Soviet Air Force\"@en", "Kulczynski=0.968", "triple=e dbp:branch \"Soviet Air Force\"@en", "class=MilitaryPerson" ],
+    "3" : [ "pair=dbr:Soviet_Air_Forces", "Kulczynski=0.962", "triple=e dbo:militaryBranch dbr:Soviet_Air_Forces", "class=MilitaryPerson" ],
+    "4" : [ "pair=dbr:Order_of_the_Red_Star", "Kulczynski=0.95", "triple=e dbo:award dbr:Order_of_the_Red_Star", "class=MilitaryPerson" ],
+    "5" : [ "pair=dbr:Moscow", "Kulczynski=0.937", "triple=e dbp:deathPlace dbr:Moscow", "class=MilitaryPerson" ]
   }
 } ]

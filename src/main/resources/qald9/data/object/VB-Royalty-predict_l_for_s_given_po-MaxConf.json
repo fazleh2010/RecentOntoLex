@@ -3,85 +3,85 @@
   "pattern" : "according",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Emperor_of_Japan", "MaxConf=1.0", "triple=e_dbp:succession dbr:Emperor_of_Japan", "class=Royalty" ]
+    "0" : [ "pair=dbr:Emperor_of_Japan", "MaxConf=1.0", "triple=e dbp:succession dbr:Emperor_of_Japan", "class=Royalty" ]
   }
 }, {
   "id" : 6,
   "pattern" : "also known",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:consort \"yes\"@en", "class=Royalty" ],
-    "1" : [ "pair=\"Dynasty\"@en", "MaxConf=1.0", "triple=e_dbp:houseType \"Dynasty\"@en", "class=Royalty" ]
+    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:consort \"yes\"@en", "class=Royalty" ],
+    "1" : [ "pair=\"Dynasty\"@en", "MaxConf=1.0", "triple=e dbp:houseType \"Dynasty\"@en", "class=Royalty" ]
   }
 }, {
   "id" : 13,
   "pattern" : "became",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:consort \"yes\"@en", "class=Royalty" ]
+    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:consort \"yes\"@en", "class=Royalty" ]
   }
 }, {
   "id" : 14,
   "pattern" : "born",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:fullName \"\"@en", "class=Royalty" ],
-    "1" : [ "pair=\"Tenure\"@en", "MaxConf=1.0", "triple=e_dbp:reignType \"Tenure\"@en", "class=Royalty" ],
-    "2" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:consort \"yes\"@en", "class=Royalty" ],
-    "3" : [ "pair=dbr:Islam", "MaxConf=1.0", "triple=e_dbp:religion dbr:Islam", "class=Royalty" ],
-    "4" : [ "pair=dbr:Sunni_Islam", "MaxConf=1.0", "triple=e_dbp:religion dbr:Sunni_Islam", "class=Royalty" ]
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:fullName \"\"@en", "class=Royalty" ],
+    "1" : [ "pair=\"Tenure\"@en", "MaxConf=1.0", "triple=e dbp:reignType \"Tenure\"@en", "class=Royalty" ],
+    "2" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:consort \"yes\"@en", "class=Royalty" ],
+    "3" : [ "pair=dbr:Islam", "MaxConf=1.0", "triple=e dbp:religion dbr:Islam", "class=Royalty" ],
+    "4" : [ "pair=dbr:Sunni_Islam", "MaxConf=1.0", "triple=e dbp:religion dbr:Sunni_Islam", "class=Royalty" ]
   }
 }, {
   "id" : 27,
   "pattern" : "died",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Tenure\"@en", "MaxConf=1.0", "triple=e_dbp:reignType \"Tenure\"@en", "class=Royalty" ],
-    "1" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:consort \"yes\"@en", "class=Royalty" ],
-    "2" : [ "pair=\"Dynasty\"@en", "MaxConf=1.0", "triple=e_dbp:houseType \"Dynasty\"@en", "class=Royalty" ],
-    "3" : [ "pair=dbr:Islam", "MaxConf=1.0", "triple=e_dbp:religion dbr:Islam", "class=Royalty" ],
-    "4" : [ "pair=dbr:Georgian_Orthodox_Church", "MaxConf=1.0", "triple=e_dbp:religion dbr:Georgian_Orthodox_Church", "class=Royalty" ]
+    "0" : [ "pair=\"Tenure\"@en", "MaxConf=1.0", "triple=e dbp:reignType \"Tenure\"@en", "class=Royalty" ],
+    "1" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:consort \"yes\"@en", "class=Royalty" ],
+    "2" : [ "pair=\"Dynasty\"@en", "MaxConf=1.0", "triple=e dbp:houseType \"Dynasty\"@en", "class=Royalty" ],
+    "3" : [ "pair=dbr:Islam", "MaxConf=1.0", "triple=e dbp:religion dbr:Islam", "class=Royalty" ],
+    "4" : [ "pair=dbr:Georgian_Orthodox_Church", "MaxConf=1.0", "triple=e dbp:religion dbr:Georgian_Orthodox_Church", "class=Royalty" ]
   }
 }, {
   "id" : 59,
   "pattern" : "known",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:reign \"\"@en", "class=Royalty" ],
-    "1" : [ "pair=\"Tenure\"@en", "MaxConf=1.0", "triple=e_dbp:reignType \"Tenure\"@en", "class=Royalty" ],
-    "2" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:consort \"yes\"@en", "class=Royalty" ],
-    "3" : [ "pair=\"Dynasty\"@en", "MaxConf=1.0", "triple=e_dbp:houseType \"Dynasty\"@en", "class=Royalty" ],
-    "4" : [ "pair=dbr:Islam", "MaxConf=1.0", "triple=e_dbp:religion dbr:Islam", "class=Royalty" ],
-    "5" : [ "pair=dbr:Theravada", "MaxConf=1.0", "triple=e_dbp:religion dbr:Theravada", "class=Royalty" ],
-    "6" : [ "pair=dbr:Sunni_Islam", "MaxConf=1.0", "triple=e_dbp:religion dbr:Sunni_Islam", "class=Royalty" ]
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:reign \"\"@en", "class=Royalty" ],
+    "1" : [ "pair=\"Tenure\"@en", "MaxConf=1.0", "triple=e dbp:reignType \"Tenure\"@en", "class=Royalty" ],
+    "2" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:consort \"yes\"@en", "class=Royalty" ],
+    "3" : [ "pair=\"Dynasty\"@en", "MaxConf=1.0", "triple=e dbp:houseType \"Dynasty\"@en", "class=Royalty" ],
+    "4" : [ "pair=dbr:Islam", "MaxConf=1.0", "triple=e dbp:religion dbr:Islam", "class=Royalty" ],
+    "5" : [ "pair=dbr:Theravada", "MaxConf=1.0", "triple=e dbp:religion dbr:Theravada", "class=Royalty" ],
+    "6" : [ "pair=dbr:Sunni_Islam", "MaxConf=1.0", "triple=e dbp:religion dbr:Sunni_Islam", "class=Royalty" ]
   }
 }, {
   "id" : 66,
   "pattern" : "married",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:consort \"yes\"@en", "class=Royalty" ]
+    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:consort \"yes\"@en", "class=Royalty" ]
   }
 }, {
   "id" : 98,
   "pattern" : "reigned",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Islam", "MaxConf=1.0", "triple=e_dbp:religion dbr:Islam", "class=Royalty" ]
+    "0" : [ "pair=dbr:Islam", "MaxConf=1.0", "triple=e dbp:religion dbr:Islam", "class=Royalty" ]
   }
 }, {
   "id" : 101,
   "pattern" : "ruled",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Dynasty\"@en", "MaxConf=1.0", "triple=e_dbp:houseType \"Dynasty\"@en", "class=Royalty" ],
-    "1" : [ "pair=dbr:Islam", "MaxConf=1.0", "triple=e_dbp:religion dbr:Islam", "class=Royalty" ]
+    "0" : [ "pair=\"Dynasty\"@en", "MaxConf=1.0", "triple=e dbp:houseType \"Dynasty\"@en", "class=Royalty" ],
+    "1" : [ "pair=dbr:Islam", "MaxConf=1.0", "triple=e dbp:religion dbr:Islam", "class=Royalty" ]
   }
 }, {
   "id" : 115,
   "pattern" : "succeeded",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Dynasty\"@en", "MaxConf=1.0", "triple=e_dbp:houseType \"Dynasty\"@en", "class=Royalty" ]
+    "0" : [ "pair=\"Dynasty\"@en", "MaxConf=1.0", "triple=e dbp:houseType \"Dynasty\"@en", "class=Royalty" ]
   }
 } ]

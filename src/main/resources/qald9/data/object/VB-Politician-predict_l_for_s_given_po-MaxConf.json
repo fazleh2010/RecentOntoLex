@@ -3,65 +3,65 @@
   "pattern" : "born",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Politician", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Politician", "class=Politician" ],
-    "1" : [ "pair=\"Politician\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Politician\"@en", "class=Politician" ],
-    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:birthPlace dbr:United_States", "class=Politician" ],
-    "3" : [ "pair=dbr:Lawyer", "MaxConf=1.0", "triple=e_dbp:profession dbr:Lawyer", "class=Politician" ],
-    "4" : [ "pair=dbr:Indian_National_Congress", "MaxConf=1.0", "triple=e_dbo:party dbr:Indian_National_Congress", "class=Politician" ],
-    "5" : [ "pair=dbr:Democratic_Party_(United_States", "MaxConf=1.0", "triple=e_dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ],
-    "6" : [ "pair=dbr:Conservative_Party_(UK", "MaxConf=1.0", "triple=e_dbo:party dbr:Conservative_Party_(UK", "class=Politician" ],
-    "7" : [ "pair=dbr:Independent_politician", "MaxConf=1.0", "triple=e_dbo:party dbr:Independent_politician", "class=Politician" ],
-    "8" : [ "pair=dbr:Republican_Party_(United_States", "MaxConf=1.0", "triple=e_dbo:party dbr:Republican_Party_(United_States", "class=Politician" ]
+    "0" : [ "pair=dbr:Politician", "MaxConf=1.0", "triple=e dbp:occupation dbr:Politician", "class=Politician" ],
+    "1" : [ "pair=\"Politician\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Politician\"@en", "class=Politician" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:birthPlace dbr:United_States", "class=Politician" ],
+    "3" : [ "pair=dbr:Lawyer", "MaxConf=1.0", "triple=e dbp:profession dbr:Lawyer", "class=Politician" ],
+    "4" : [ "pair=dbr:Indian_National_Congress", "MaxConf=1.0", "triple=e dbo:party dbr:Indian_National_Congress", "class=Politician" ],
+    "5" : [ "pair=dbr:Democratic_Party_(United_States", "MaxConf=1.0", "triple=e dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ],
+    "6" : [ "pair=dbr:Conservative_Party_(UK", "MaxConf=1.0", "triple=e dbo:party dbr:Conservative_Party_(UK", "class=Politician" ],
+    "7" : [ "pair=dbr:Independent_politician", "MaxConf=1.0", "triple=e dbo:party dbr:Independent_politician", "class=Politician" ],
+    "8" : [ "pair=dbr:Republican_Party_(United_States", "MaxConf=1.0", "triple=e dbo:party dbr:Republican_Party_(United_States", "class=Politician" ]
   }
 }, {
   "id" : 42,
   "pattern" : "elected",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Indian_National_Congress", "MaxConf=1.0", "triple=e_dbo:party dbr:Indian_National_Congress", "class=Politician" ],
-    "1" : [ "pair=dbr:Democratic_Party_(United_States", "MaxConf=1.0", "triple=e_dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ],
-    "2" : [ "pair=dbr:Republican_Party_(United_States", "MaxConf=1.0", "triple=e_dbo:party dbr:Republican_Party_(United_States", "class=Politician" ]
+    "0" : [ "pair=dbr:Indian_National_Congress", "MaxConf=1.0", "triple=e dbo:party dbr:Indian_National_Congress", "class=Politician" ],
+    "1" : [ "pair=dbr:Democratic_Party_(United_States", "MaxConf=1.0", "triple=e dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ],
+    "2" : [ "pair=dbr:Republican_Party_(United_States", "MaxConf=1.0", "triple=e dbo:party dbr:Republican_Party_(United_States", "class=Politician" ]
   }
 }, {
   "id" : 54,
   "pattern" : "includes",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Democratic_Party_(United_States", "MaxConf=1.0", "triple=e_dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ]
+    "0" : [ "pair=dbr:Democratic_Party_(United_States", "MaxConf=1.0", "triple=e dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ]
   }
 }, {
   "id" : 111,
   "pattern" : "represented",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Democratic_Party_(United_States", "MaxConf=1.0", "triple=e_dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ],
-    "1" : [ "pair=dbr:Republican_Party_(United_States", "MaxConf=1.0", "triple=e_dbo:party dbr:Republican_Party_(United_States", "class=Politician" ]
+    "0" : [ "pair=dbr:Democratic_Party_(United_States", "MaxConf=1.0", "triple=e dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ],
+    "1" : [ "pair=dbr:Republican_Party_(United_States", "MaxConf=1.0", "triple=e dbo:party dbr:Republican_Party_(United_States", "class=Politician" ]
   }
 }, {
   "id" : 112,
   "pattern" : "representing",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Democratic_Party_(United_States", "MaxConf=1.0", "triple=e_dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ],
-    "1" : [ "pair=dbr:Republican_Party_(United_States", "MaxConf=1.0", "triple=e_dbo:party dbr:Republican_Party_(United_States", "class=Politician" ]
+    "0" : [ "pair=dbr:Democratic_Party_(United_States", "MaxConf=1.0", "triple=e dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ],
+    "1" : [ "pair=dbr:Republican_Party_(United_States", "MaxConf=1.0", "triple=e dbo:party dbr:Republican_Party_(United_States", "class=Politician" ]
   }
 }, {
   "id" : 124,
   "pattern" : "served",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Politician", "MaxConf=1.0", "triple=e_dbp:occupation dbr:Politician", "class=Politician" ],
-    "1" : [ "pair=\"Politician\"@en", "MaxConf=1.0", "triple=e_dbp:occupation \"Politician\"@en", "class=Politician" ],
-    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e_dbp:birthPlace dbr:United_States", "class=Politician" ],
-    "3" : [ "pair=dbr:Lawyer", "MaxConf=1.0", "triple=e_dbp:profession dbr:Lawyer", "class=Politician" ],
-    "4" : [ "pair=dbr:Democratic_Party_(United_States", "MaxConf=1.0", "triple=e_dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ],
-    "5" : [ "pair=dbr:Republican_Party_(United_States", "MaxConf=1.0", "triple=e_dbo:party dbr:Republican_Party_(United_States", "class=Politician" ]
+    "0" : [ "pair=dbr:Politician", "MaxConf=1.0", "triple=e dbp:occupation dbr:Politician", "class=Politician" ],
+    "1" : [ "pair=\"Politician\"@en", "MaxConf=1.0", "triple=e dbp:occupation \"Politician\"@en", "class=Politician" ],
+    "2" : [ "pair=dbr:United_States", "MaxConf=1.0", "triple=e dbp:birthPlace dbr:United_States", "class=Politician" ],
+    "3" : [ "pair=dbr:Lawyer", "MaxConf=1.0", "triple=e dbp:profession dbr:Lawyer", "class=Politician" ],
+    "4" : [ "pair=dbr:Democratic_Party_(United_States", "MaxConf=1.0", "triple=e dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ],
+    "5" : [ "pair=dbr:Republican_Party_(United_States", "MaxConf=1.0", "triple=e dbo:party dbr:Republican_Party_(United_States", "class=Politician" ]
   }
 }, {
   "id" : 125,
   "pattern" : "serving",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Democratic_Party_(United_States", "MaxConf=1.0", "triple=e_dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ]
+    "0" : [ "pair=dbr:Democratic_Party_(United_States", "MaxConf=1.0", "triple=e dbo:party dbr:Democratic_Party_(United_States", "class=Politician" ]
   }
 } ]

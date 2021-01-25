@@ -3,33 +3,33 @@
   "pattern" : "british",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.931", "triple=e_dbp:spouse \"\"@en", "class=Person" ],
-    "1" : [ "pair=\"British\"@en", "IR=0.793", "triple=e_dbp:nationality \"British\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:England", "IR=0.637", "triple=e_dbo:birthPlace dbr:England", "class=Person" ],
-    "3" : [ "pair=dbr:London", "IR=0.621", "triple=e_dbo:birthPlace dbr:London", "class=Person" ]
+    "0" : [ "pair=\"\"@en", "IR=0.931", "triple=e dbp:spouse \"\"@en", "class=Person" ],
+    "1" : [ "pair=\"British\"@en", "IR=0.793", "triple=e dbp:nationality \"British\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:England", "IR=0.637", "triple=e dbo:birthPlace dbr:England", "class=Person" ],
+    "3" : [ "pair=dbr:London", "IR=0.621", "triple=e dbo:birthPlace dbr:London", "class=Person" ]
   }
 }, {
   "id" : 38,
   "pattern" : "former",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.94", "triple=e_dbp:spouse \"\"@en", "class=Person" ]
+    "0" : [ "pair=\"\"@en", "IR=0.94", "triple=e dbp:spouse \"\"@en", "class=Person" ]
   }
 }, {
   "id" : 40,
   "pattern" : "indian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Actor", "IR=0.882", "triple=e_dbp:occupation dbr:Actor", "class=Person" ],
-    "1" : [ "pair=\"Indian\"@en", "IR=0.522", "triple=e_dbp:nationality \"Indian\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:India", "IR=0.485", "triple=e_dbo:nationality dbr:India", "class=Person" ]
+    "0" : [ "pair=dbr:Actor", "IR=0.882", "triple=e dbp:occupation dbr:Actor", "class=Person" ],
+    "1" : [ "pair=\"Indian\"@en", "IR=0.522", "triple=e dbp:nationality \"Indian\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:India", "IR=0.485", "triple=e dbo:nationality dbr:India", "class=Person" ]
   }
 }, {
   "id" : 51,
   "pattern" : "mexican",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Politician\"@en", "IR=0.471", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
-    "1" : [ "pair=dbr:Mexico", "IR=0.354", "triple=e_dbo:birthPlace dbr:Mexico", "class=Person" ]
+    "0" : [ "pair=\"Politician\"@en", "IR=0.471", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexico", "IR=0.354", "triple=e dbo:birthPlace dbr:Mexico", "class=Person" ]
   }
 } ]

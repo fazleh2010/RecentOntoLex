@@ -3,65 +3,65 @@
   "pattern" : "according",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Emperor_of_Japan", "Coherence=0.5", "triple=e_dbp:succession dbr:Emperor_of_Japan", "class=Royalty" ],
-    "1" : [ "pair=dbr:List_of_emperors_of_Japan", "Coherence=0.496", "triple=e_dbp:title dbr:List_of_emperors_of_Japan", "class=Royalty" ]
+    "0" : [ "pair=dbr:Emperor_of_Japan", "Coherence=0.5", "triple=e dbp:succession dbr:Emperor_of_Japan", "class=Royalty" ],
+    "1" : [ "pair=dbr:List_of_emperors_of_Japan", "Coherence=0.496", "triple=e dbp:title dbr:List_of_emperors_of_Japan", "class=Royalty" ]
   }
 }, {
   "id" : 15,
   "pattern" : "born",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"\"@en", "Coherence=0.189", "triple=e_dbp:spouse \"\"@en", "class=Royalty" ],
-    "1" : [ "pair=\"Tenure\"@en", "Coherence=0.161", "triple=e_dbp:reignType \"Tenure\"@en", "class=Royalty" ]
+    "0" : [ "pair=\"\"@en", "Coherence=0.189", "triple=e dbp:spouse \"\"@en", "class=Royalty" ],
+    "1" : [ "pair=\"Tenure\"@en", "Coherence=0.161", "triple=e dbp:reignType \"Tenure\"@en", "class=Royalty" ]
   }
 }, {
   "id" : 25,
   "pattern" : "died",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Unknown\"@en", "Coherence=0.333", "triple=e_dbp:birthDate \"Unknown\"@en", "class=Royalty" ],
-    "1" : [ "pair=\"unknown\"@en", "Coherence=0.315", "triple=e_dbp:birthDate \"unknown\"@en", "class=Royalty" ],
-    "2" : [ "pair=dbr:Georgian_Orthodox_Church", "Coherence=0.31", "triple=e_dbp:religion dbr:Georgian_Orthodox_Church", "class=Royalty" ],
-    "3" : [ "pair=dbr:Islam", "Coherence=0.181", "triple=e_dbp:religion dbr:Islam", "class=Royalty" ],
-    "4" : [ "pair=\"Dynasty\"@en", "Coherence=0.177", "triple=e_dbp:houseType \"Dynasty\"@en", "class=Royalty" ],
-    "5" : [ "pair=dbr:Sunni_Islam", "Coherence=0.154", "triple=e_dbp:religion dbr:Sunni_Islam", "class=Royalty" ],
-    "6" : [ "pair=\"monarch\"@en", "Coherence=0.153", "triple=e_dbp:type \"monarch\"@en", "class=Royalty" ]
+    "0" : [ "pair=\"Unknown\"@en", "Coherence=0.333", "triple=e dbp:birthDate \"Unknown\"@en", "class=Royalty" ],
+    "1" : [ "pair=\"unknown\"@en", "Coherence=0.315", "triple=e dbp:birthDate \"unknown\"@en", "class=Royalty" ],
+    "2" : [ "pair=dbr:Georgian_Orthodox_Church", "Coherence=0.31", "triple=e dbp:religion dbr:Georgian_Orthodox_Church", "class=Royalty" ],
+    "3" : [ "pair=dbr:Islam", "Coherence=0.181", "triple=e dbp:religion dbr:Islam", "class=Royalty" ],
+    "4" : [ "pair=\"Dynasty\"@en", "Coherence=0.177", "triple=e dbp:houseType \"Dynasty\"@en", "class=Royalty" ],
+    "5" : [ "pair=dbr:Sunni_Islam", "Coherence=0.154", "triple=e dbp:religion dbr:Sunni_Islam", "class=Royalty" ],
+    "6" : [ "pair=\"monarch\"@en", "Coherence=0.153", "triple=e dbp:type \"monarch\"@en", "class=Royalty" ]
   }
 }, {
   "id" : 57,
   "pattern" : "known",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Islam", "Coherence=0.21", "triple=e_dbp:religion dbr:Islam", "class=Royalty" ],
-    "1" : [ "pair=\"Successor\"@en", "Coherence=0.204", "triple=e_dbp:sucType \"Successor\"@en", "class=Royalty" ],
-    "2" : [ "pair=dbr:Theravada", "Coherence=0.197", "triple=e_dbp:religion dbr:Theravada", "class=Royalty" ],
-    "3" : [ "pair=\"Tenure\"@en", "Coherence=0.196", "triple=e_dbp:reignType \"Tenure\"@en", "class=Royalty" ],
-    "4" : [ "pair=\"\"@en", "Coherence=0.182", "triple=e_dbp:reign \"\"@en", "class=Royalty" ],
-    "5" : [ "pair=dbr:Hinduism", "Coherence=0.181", "triple=e_dbp:religion dbr:Hinduism", "class=Royalty" ],
-    "6" : [ "pair=\"monarch\"@en", "Coherence=0.168", "triple=e_dbp:type \"monarch\"@en", "class=Royalty" ],
-    "7" : [ "pair=\"Dynasty\"@en", "Coherence=0.166", "triple=e_dbp:houseType \"Dynasty\"@en", "class=Royalty" ]
+    "0" : [ "pair=dbr:Islam", "Coherence=0.21", "triple=e dbp:religion dbr:Islam", "class=Royalty" ],
+    "1" : [ "pair=\"Successor\"@en", "Coherence=0.204", "triple=e dbp:sucType \"Successor\"@en", "class=Royalty" ],
+    "2" : [ "pair=dbr:Theravada", "Coherence=0.197", "triple=e dbp:religion dbr:Theravada", "class=Royalty" ],
+    "3" : [ "pair=\"Tenure\"@en", "Coherence=0.196", "triple=e dbp:reignType \"Tenure\"@en", "class=Royalty" ],
+    "4" : [ "pair=\"\"@en", "Coherence=0.182", "triple=e dbp:reign \"\"@en", "class=Royalty" ],
+    "5" : [ "pair=dbr:Hinduism", "Coherence=0.181", "triple=e dbp:religion dbr:Hinduism", "class=Royalty" ],
+    "6" : [ "pair=\"monarch\"@en", "Coherence=0.168", "triple=e dbp:type \"monarch\"@en", "class=Royalty" ],
+    "7" : [ "pair=\"Dynasty\"@en", "Coherence=0.166", "triple=e dbp:houseType \"Dynasty\"@en", "class=Royalty" ]
   }
 }, {
   "id" : 84,
   "pattern" : "ruled",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Hinduism", "Coherence=0.181", "triple=e_dbp:religion dbr:Hinduism", "class=Royalty" ]
+    "0" : [ "pair=dbr:Hinduism", "Coherence=0.181", "triple=e dbp:religion dbr:Hinduism", "class=Royalty" ]
   }
 }, {
   "id" : 95,
   "pattern" : "succeeded",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:List_of_Anuradhapura_monarchs", "Coherence=0.5", "triple=e_dbp:title dbr:List_of_Anuradhapura_monarchs", "class=Royalty" ],
-    "1" : [ "pair=\"King of Anuradhapura\"@en", "Coherence=0.441", "triple=e_dbo:title \"King of Anuradhapura\"@en", "class=Royalty" ]
+    "0" : [ "pair=dbr:List_of_Anuradhapura_monarchs", "Coherence=0.5", "triple=e dbp:title dbr:List_of_Anuradhapura_monarchs", "class=Royalty" ],
+    "1" : [ "pair=\"King of Anuradhapura\"@en", "Coherence=0.441", "triple=e dbo:title \"King of Anuradhapura\"@en", "class=Royalty" ]
   }
 }, {
   "id" : 96,
   "pattern" : "succeeded\u001Cby",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:List_of_Anuradhapura_monarchs", "Coherence=0.49", "triple=e_dbp:title dbr:List_of_Anuradhapura_monarchs", "class=Royalty" ],
-    "1" : [ "pair=\"King of Anuradhapura\"@en", "Coherence=0.427", "triple=e_dbo:title \"King of Anuradhapura\"@en", "class=Royalty" ]
+    "0" : [ "pair=dbr:List_of_Anuradhapura_monarchs", "Coherence=0.49", "triple=e dbp:title dbr:List_of_Anuradhapura_monarchs", "class=Royalty" ],
+    "1" : [ "pair=\"King of Anuradhapura\"@en", "Coherence=0.427", "triple=e dbo:title \"King of Anuradhapura\"@en", "class=Royalty" ]
   }
 } ]

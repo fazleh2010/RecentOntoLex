@@ -3,39 +3,39 @@
   "pattern" : "indoor",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Parquetry", "Kulczynski=0.973", "triple=e_dbp:surface dbr:Parquetry", "class=Venue" ]
+    "0" : [ "pair=dbr:Parquetry", "Kulczynski=0.973", "triple=e dbp:surface dbr:Parquetry", "class=Venue" ]
   }
 }, {
   "id" : 48,
   "pattern" : "located",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Parquetry", "Kulczynski=0.964", "triple=e_dbp:surface dbr:Parquetry", "class=Venue" ],
-    "1" : [ "pair=\"Host of the\"@en", "Kulczynski=0.873", "triple=e_dbp:title \"Host of the\"@en", "class=Venue" ],
-    "2" : [ "pair=\"Home of the\"@en", "Kulczynski=0.792", "triple=e_dbp:title \"Home of the\"@en", "class=Venue" ],
-    "3" : [ "pair=dbr:United_States", "Kulczynski=0.789", "triple=e_dbp:country dbr:United_States", "class=Venue" ]
+    "0" : [ "pair=dbr:Parquetry", "Kulczynski=0.964", "triple=e dbp:surface dbr:Parquetry", "class=Venue" ],
+    "1" : [ "pair=\"Host of the\"@en", "Kulczynski=0.873", "triple=e dbp:title \"Host of the\"@en", "class=Venue" ],
+    "2" : [ "pair=\"Home of the\"@en", "Kulczynski=0.792", "triple=e dbp:title \"Home of the\"@en", "class=Venue" ],
+    "3" : [ "pair=dbr:United_States", "Kulczynski=0.789", "triple=e dbp:country dbr:United_States", "class=Venue" ]
   }
 }, {
   "id" : 54,
   "pattern" : "multi-purpose",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Thailand", "Kulczynski=0.844", "triple=e_dbp:location dbr:Thailand", "class=Venue" ],
-    "1" : [ "pair=\"Hardwood\"@en", "Kulczynski=0.826", "triple=e_dbp:surface \"Hardwood\"@en", "class=Venue" ],
-    "2" : [ "pair=\"Multi-surface\"@en", "Kulczynski=0.823", "triple=e_dbp:surface \"Multi-surface\"@en", "class=Venue" ]
+    "0" : [ "pair=dbr:Thailand", "Kulczynski=0.844", "triple=e dbp:location dbr:Thailand", "class=Venue" ],
+    "1" : [ "pair=\"Hardwood\"@en", "Kulczynski=0.826", "triple=e dbp:surface \"Hardwood\"@en", "class=Venue" ],
+    "2" : [ "pair=\"Multi-surface\"@en", "Kulczynski=0.823", "triple=e dbp:surface \"Multi-surface\"@en", "class=Venue" ]
   }
 }, {
   "id" : 67,
   "pattern" : "russian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Russia", "Kulczynski=0.822", "triple=e_dbo:location dbr:Russia", "class=Venue" ]
+    "0" : [ "pair=dbr:Russia", "Kulczynski=0.822", "triple=e dbo:location dbr:Russia", "class=Venue" ]
   }
 }, {
   "id" : 85,
   "pattern" : "turkish",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Turkey", "Kulczynski=0.843", "triple=e_dbo:location dbr:Turkey", "class=Venue" ]
+    "0" : [ "pair=dbr:Turkey", "Kulczynski=0.843", "triple=e dbo:location dbr:Turkey", "class=Venue" ]
   }
 } ]

@@ -3,1116 +3,1116 @@
   "pattern" : "air force",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e_dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "4" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "5" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "4" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "5" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 4,
   "pattern" : "air force base",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 5,
   "pattern" : "air force unit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 6,
   "pattern" : "air force unit\u001Cit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 7,
   "pattern" : "air force unit\u001Cit\u001Cwas",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 8,
   "pattern" : "aircraft",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 9,
   "pattern" : "american",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 10,
   "pattern" : "american\u001Ccivil",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 11,
   "pattern" : "american\u001Ccivil\u001Cwar",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 12,
   "pattern" : "american civil",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 13,
   "pattern" : "american civil\u001Cwar",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 14,
   "pattern" : "american civil war",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 15,
   "pattern" : "april",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 16,
   "pattern" : "army",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "4" : [ "pair=\"1922\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1922\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "5" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "6" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "7" : [ "pair=\"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "8" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "9" : [ "pair=\"1939\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1939\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "4" : [ "pair=\"1922\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1922\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "5" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "6" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "7" : [ "pair=\"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "8" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "9" : [ "pair=\"1939\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1939\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 17,
   "pattern" : "army the\u001Camerican",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 18,
   "pattern" : "army the\u001Camerican\u001Ccivil",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 19,
   "pattern" : "army world",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 20,
   "pattern" : "army world\u001Cwar",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 21,
   "pattern" : "army world\u001Cwar\u001Ci",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 23,
   "pattern" : "august",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 24,
   "pattern" : "base",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 26,
   "pattern" : "bombardment",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 27,
   "pattern" : "bombardment squadron",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 28,
   "pattern" : "brigade",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 30,
   "pattern" : "british army",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 31,
   "pattern" : "call",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 32,
   "pattern" : "call sign",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 33,
   "pattern" : "call sign\u001Cwas",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 35,
   "pattern" : "civil war",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 36,
   "pattern" : "combat",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 37,
   "pattern" : "command",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 39,
   "pattern" : "corps",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 41,
   "pattern" : "december",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 42,
   "pattern" : "demobilization",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 43,
   "pattern" : "demobilization of\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 48,
   "pattern" : "division",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "4" : [ "pair=\"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "4" : [ "pair=\"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 50,
   "pattern" : "february",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 51,
   "pattern" : "fighter",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 52,
   "pattern" : "first",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 53,
   "pattern" : "first world",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 54,
   "pattern" : "first world\u001Cwar",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 55,
   "pattern" : "first world war",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 56,
   "pattern" : "force",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e_dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "4" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "5" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "4" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "5" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 57,
   "pattern" : "force base",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 58,
   "pattern" : "force unit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 59,
   "pattern" : "force unit it\u001Cwas",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 60,
   "pattern" : "forces",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e_dbp:nativeName \"\"@en", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:nativeName \"\"@en", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 61,
   "pattern" : "formation",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 64,
   "pattern" : "france",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 65,
   "pattern" : "front",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 67,
   "pattern" : "german\u001Carmy",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 68,
   "pattern" : "german army",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 69,
   "pattern" : "germany",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 70,
   "pattern" : "group",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 71,
   "pattern" : "ii",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 72,
   "pattern" : "imperial",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1918\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1918\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1918\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1918\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 73,
   "pattern" : "imperial japanese",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 74,
   "pattern" : "imperial japanese\u001Carmy",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 75,
   "pattern" : "imperial japanese\u001Carmy\u001Cits",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 76,
   "pattern" : "imperial japanese army",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 77,
   "pattern" : "imperial japanese army\u001Cits",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 81,
   "pattern" : "inactive\u001Cunited",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 82,
   "pattern" : "inactive\u001Cunited\u001Cstates",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 83,
   "pattern" : "inactive united",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 84,
   "pattern" : "inactive united\u001Cstates",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 85,
   "pattern" : "inactive united\u001Cstates\u001Cair",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 86,
   "pattern" : "inactive united states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 87,
   "pattern" : "inactive united states\u001Cair",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 88,
   "pattern" : "inactive united states\u001Cair\u001Cforce",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 89,
   "pattern" : "infantry",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 90,
   "pattern" : "infantry\u001Cdivision",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 91,
   "pattern" : "infantry\u001Cdivision\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 92,
   "pattern" : "infantry division",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 93,
   "pattern" : "infantry division\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 94,
   "pattern" : "infantry division\u001Cof\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 95,
   "pattern" : "infantry division of\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 96,
   "pattern" : "infantry regiment",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 97,
   "pattern" : "january",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 99,
   "pattern" : "japanese army",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 100,
   "pattern" : "july",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 101,
   "pattern" : "june",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 109,
   "pattern" : "later",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 110,
   "pattern" : "november",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 111,
   "pattern" : "october",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 112,
   "pattern" : "one",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 113,
   "pattern" : "operations",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 114,
   "pattern" : "part",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 115,
   "pattern" : "part of\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 117,
   "pattern" : "regiment",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1922\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1922\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1922\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1922\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1865\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1861\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 118,
   "pattern" : "royal",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e_dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 119,
   "pattern" : "royal air",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e_dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 120,
   "pattern" : "royal air force",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e_dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 122,
   "pattern" : "second\u001Cworld",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 123,
   "pattern" : "second\u001Cworld\u001Cwar",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 124,
   "pattern" : "second world",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 125,
   "pattern" : "second world\u001Cwar",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 126,
   "pattern" : "second world war",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 127,
   "pattern" : "september",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 129,
   "pattern" : "service",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 130,
   "pattern" : "shidan",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 131,
   "pattern" : "shidan an\u001Cinfantry",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 132,
   "pattern" : "shidan an\u001Cinfantry\u001Cdivision",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 133,
   "pattern" : "sign",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 134,
   "pattern" : "squadron",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e_dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "4" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "4" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 135,
   "pattern" : "squadron an\u001Cinactive",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 136,
   "pattern" : "squadron an\u001Cinactive\u001Cunited",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 137,
   "pattern" : "squadron raf",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e_dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 138,
   "pattern" : "states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "4" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "4" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 139,
   "pattern" : "states air",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 140,
   "pattern" : "states air force",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 141,
   "pattern" : "states air force\u001Cunit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 142,
   "pattern" : "states air force\u001Cunit\u001Cit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 143,
   "pattern" : "states army",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 145,
   "pattern" : "theater",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 146,
   "pattern" : "training",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 147,
   "pattern" : "unit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "4" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "4" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 148,
   "pattern" : "unit\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 149,
   "pattern" : "unit\u001Cof\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 150,
   "pattern" : "unit of\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 151,
   "pattern" : "unit was\u001Clast",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 152,
   "pattern" : "united",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "4" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "4" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 153,
   "pattern" : "united\u001Cstates",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 154,
   "pattern" : "united states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "4" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "4" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 155,
   "pattern" : "united states air",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--01-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 156,
   "pattern" : "united states air\u001Cforce",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e_dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "MaxConf=1.0", "triple=e dbp:awardDate \"--07-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 157,
   "pattern" : "united states air\u001Cforce\u001Cunit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 158,
   "pattern" : "united states army",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 159,
   "pattern" : "units",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 160,
   "pattern" : "war",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 161,
   "pattern" : "war ii",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "4" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "5" : [ "pair=\"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "4" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "5" : [ "pair=\"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 164,
   "pattern" : "western",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 165,
   "pattern" : "western\u001Cfront",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 166,
   "pattern" : "western front",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 167,
   "pattern" : "wing",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 168,
   "pattern" : "world",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e_dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "4" : [ "pair=\"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "5" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "6" : [ "pair=\"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "7" : [ "pair=\"1939\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1939\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "4" : [ "pair=\"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "5" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "6" : [ "pair=\"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "7" : [ "pair=\"1939\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1939\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 169,
   "pattern" : "world war",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e_dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "4" : [ "pair=\"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "5" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "6" : [ "pair=\"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "7" : [ "pair=\"1939\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1939\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"Squadron Codes\"@en", "MaxConf=1.0", "triple=e dbp:identificationSymbol2Label \"Squadron Codes\"@en", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "4" : [ "pair=\"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "5" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "6" : [ "pair=\"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "7" : [ "pair=\"1939\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1939\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 170,
   "pattern" : "world war\u001Ci",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 171,
   "pattern" : "world war\u001Cii",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 172,
   "pattern" : "world war i\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 173,
   "pattern" : "world war ii",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "3" : [ "pair=\"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "4" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
-    "5" : [ "pair=\"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1942\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "1" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "2" : [ "pair=\"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1946\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "3" : [ "pair=\"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1943\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "4" : [ "pair=\"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1919\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ],
+    "5" : [ "pair=\"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1941\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 }, {
   "id" : 174,
   "pattern" : "world war ii\u001Cit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e_dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
+    "0" : [ "pair=\"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "MaxConf=1.0", "triple=e dbo:activeYearsEndYear \"1945\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=MilitaryUnit" ]
   }
 } ]

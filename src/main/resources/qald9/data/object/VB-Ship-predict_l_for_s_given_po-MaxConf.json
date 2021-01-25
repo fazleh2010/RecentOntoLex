@@ -3,72 +3,55 @@
   "pattern" : "built",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e_dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
-    "1" : [ "pair=\"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
-    "2" : [ "pair=dbr:War_Shipping_Administration", "MaxConf=1.0", "triple=e_dbo:owner dbr:War_Shipping_Administration", "class=Ship" ],
-    "3" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e_dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
+    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
+    "1" : [ "pair=dbr:War_Shipping_Administration", "MaxConf=1.0", "triple=e dbo:owner dbr:War_Shipping_Administration", "class=Ship" ],
+    "2" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
   }
 }, {
   "id" : 6,
   "pattern" : "commissioned",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e_dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
-    "1" : [ "pair=\"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
-    "2" : [ "pair=\"94.7928\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"94.7928\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
-    "3" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e_dbp:isMulti \"yes\"@en", "class=Ship" ],
-    "4" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e_dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
+    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
+    "1" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:isMulti \"yes\"@en", "class=Ship" ],
+    "2" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
   }
 }, {
-  "id" : 41,
+  "id" : 38,
   "pattern" : "laid",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e_dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
-    "1" : [ "pair=\"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
-    "2" : [ "pair=\"99.9744\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"99.9744\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
-    "3" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e_dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
+    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
+    "1" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
   }
 }, {
-  "id" : 42,
+  "id" : 39,
   "pattern" : "laid down\u001Con",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e_dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
-    "1" : [ "pair=\"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
-    "2" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e_dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
+    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
+    "1" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
   }
 }, {
-  "id" : 45,
+  "id" : 40,
   "pattern" : "launched",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e_dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
-    "1" : [ "pair=\"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"67.1\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
-    "2" : [ "pair=\"94.7928\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"94.7928\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
-    "3" : [ "pair=\"99.9744\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"99.9744\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
-    "4" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e_dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
+    "0" : [ "pair=dbr:German_Type_VII_submarine", "MaxConf=1.0", "triple=e dbo:class dbr:German_Type_VII_submarine", "class=Ship" ],
+    "1" : [ "pair=\"*\\n*Crush depth:\"@en", "MaxConf=1.0", "triple=e dbp:shipTestDepth \"*\\n*Crush depth:\"@en", "class=Ship" ]
   }
 }, {
-  "id" : 62,
+  "id" : 57,
   "pattern" : "named",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"94.7928\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"94.7928\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ],
-    "1" : [ "pair=dbr:War_Shipping_Administration", "MaxConf=1.0", "triple=e_dbo:owner dbr:War_Shipping_Administration", "class=Ship" ]
+    "0" : [ "pair=dbr:War_Shipping_Administration", "MaxConf=1.0", "triple=e dbo:owner dbr:War_Shipping_Administration", "class=Ship" ]
   }
 }, {
-  "id" : 63,
+  "id" : 58,
   "pattern" : "named\u001Cafter",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:War_Shipping_Administration", "MaxConf=1.0", "triple=e_dbo:owner dbr:War_Shipping_Administration", "class=Ship" ]
-  }
-}, {
-  "id" : 89,
-  "pattern" : "sponsored",
-  "partsOfSpeech" : "VB",
-  "index" : {
-    "0" : [ "pair=\"94.7928\"^^<http://www.w3.org/2001/XMLSchema#double>", "MaxConf=1.0", "triple=e_dbo:length \"94.7928\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=Ship" ]
+    "0" : [ "pair=dbr:War_Shipping_Administration", "MaxConf=1.0", "triple=e dbo:owner dbr:War_Shipping_Administration", "class=Ship" ]
   }
 } ]

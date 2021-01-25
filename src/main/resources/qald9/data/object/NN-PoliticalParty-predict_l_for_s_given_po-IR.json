@@ -3,807 +3,807 @@
   "pattern" : "alliance",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.946", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "1" : [ "pair=\"\"@en", "IR=0.936", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Centre-left_politics", "IR=0.925", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Social_democracy", "IR=0.923", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "4" : [ "pair=dbr:Centre-right_politics", "IR=0.922", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.946", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "1" : [ "pair=\"\"@en", "IR=0.936", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Centre-left_politics", "IR=0.925", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Social_democracy", "IR=0.923", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "4" : [ "pair=dbr:Centre-right_politics", "IR=0.922", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 3,
   "pattern" : "also",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Red", "IR=0.917", "triple=e_dbo:colour dbr:Red", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.915", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.915", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Red", "IR=0.917", "triple=e dbo:colour dbr:Red", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.915", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.915", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 4,
   "pattern" : "april",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.948", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.948", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 6,
   "pattern" : "assembly",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.941", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.941", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 8,
   "pattern" : "centre-left",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.937", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Centre-left_politics", "IR=0.936", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.937", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Centre-left_politics", "IR=0.936", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 10,
   "pattern" : "centre-right",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Conservatism", "IR=0.927", "triple=e_dbo:ideology dbr:Conservatism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Conservatism", "IR=0.927", "triple=e dbo:ideology dbr:Conservatism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 11,
   "pattern" : "centre-right political party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Centre-right_politics", "IR=0.927", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Centre-right_politics", "IR=0.927", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 12,
   "pattern" : "centre-right political party\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Centre-right_politics", "IR=0.937", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Centre-right_politics", "IR=0.937", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 13,
   "pattern" : "christian",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Conservatism", "IR=0.927", "triple=e_dbp:ideology dbr:Conservatism", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Centre-right_politics", "IR=0.915", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Conservatism", "IR=0.927", "triple=e dbp:ideology dbr:Conservatism", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Centre-right_politics", "IR=0.915", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 14,
   "pattern" : "coalition",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Centre-right_politics", "IR=0.933", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
-    "1" : [ "pair=\"\"@en", "IR=0.925", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Liberalism", "IR=0.923", "triple=e_dbo:ideology dbr:Liberalism", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Conservatism", "IR=0.922", "triple=e_dbp:ideology dbr:Conservatism", "class=PoliticalParty" ],
-    "4" : [ "pair=dbr:Communism", "IR=0.916", "triple=e_dbp:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Centre-right_politics", "IR=0.933", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
+    "1" : [ "pair=\"\"@en", "IR=0.925", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Liberalism", "IR=0.923", "triple=e dbo:ideology dbr:Liberalism", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Conservatism", "IR=0.922", "triple=e dbp:ideology dbr:Conservatism", "class=PoliticalParty" ],
+    "4" : [ "pair=dbr:Communism", "IR=0.916", "triple=e dbp:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 15,
   "pattern" : "communist",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.943", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "1" : [ "pair=\"\"@en", "IR=0.941", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Red", "IR=0.924", "triple=e_dbo:colour dbr:Red", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Far-left_politics", "IR=0.915", "triple=e_dbp:position dbr:Far-left_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.943", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "1" : [ "pair=\"\"@en", "IR=0.941", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Red", "IR=0.924", "triple=e dbo:colour dbr:Red", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Far-left_politics", "IR=0.915", "triple=e dbp:position dbr:Far-left_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 16,
   "pattern" : "communist\u001Cparty",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Communism", "IR=0.931", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Communism", "IR=0.931", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 17,
   "pattern" : "communist\u001Cparty\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Communism", "IR=0.918", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Communism", "IR=0.918", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 18,
   "pattern" : "communist party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.95", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Left-wing_politics", "IR=0.933", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Red", "IR=0.92", "triple=e_dbo:colour dbr:Red", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.95", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Left-wing_politics", "IR=0.933", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Red", "IR=0.92", "triple=e dbo:colour dbr:Red", "class=PoliticalParty" ]
   }
 }, {
   "id" : 19,
   "pattern" : "communist party\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Red", "IR=0.921", "triple=e_dbo:colour dbr:Red", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Red", "IR=0.921", "triple=e dbo:colour dbr:Red", "class=PoliticalParty" ]
   }
 }, {
   "id" : 21,
   "pattern" : "communist political party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Communism", "IR=0.927", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Communism", "IR=0.927", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 22,
   "pattern" : "communist political party\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Communism", "IR=0.934", "triple=e_dbp:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Communism", "IR=0.934", "triple=e dbp:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 23,
   "pattern" : "communists",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Communism", "IR=0.933", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Communism", "IR=0.933", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 24,
   "pattern" : "congress",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.949", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.949", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 26,
   "pattern" : "conservative party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Conservatism", "IR=0.92", "triple=e_dbo:ideology dbr:Conservatism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Conservatism", "IR=0.92", "triple=e dbo:ideology dbr:Conservatism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 28,
   "pattern" : "conservative political\u001Cparty",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Conservatism", "IR=0.921", "triple=e_dbo:ideology dbr:Conservatism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Conservatism", "IR=0.921", "triple=e dbo:ideology dbr:Conservatism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 29,
   "pattern" : "conservative political\u001Cparty\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Conservatism", "IR=0.924", "triple=e_dbo:ideology dbr:Conservatism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Conservatism", "IR=0.924", "triple=e dbo:ideology dbr:Conservatism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 30,
   "pattern" : "conservative political party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Centre-right_politics", "IR=0.931", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Centre-right_politics", "IR=0.931", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 31,
   "pattern" : "december",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.95", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.948", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.95", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.948", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 32,
   "pattern" : "democracy",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.916", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.916", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 34,
   "pattern" : "democratic party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.938", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Left-wing_politics", "IR=0.925", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.938", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Left-wing_politics", "IR=0.925", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 35,
   "pattern" : "democrats",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.941", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Liberalism", "IR=0.917", "triple=e_dbo:ideology dbr:Liberalism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.941", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Liberalism", "IR=0.917", "triple=e dbo:ideology dbr:Liberalism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 37,
   "pattern" : "election",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Communism", "IR=0.927", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Communism", "IR=0.927", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 38,
   "pattern" : "elections",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Communism", "IR=0.93", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Communism", "IR=0.93", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 40,
   "pattern" : "english",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.941", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.941", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 43,
   "pattern" : "first",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.932", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "1" : [ "pair=\"\"@en", "IR=0.929", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Social_democracy", "IR=0.917", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Centre-left_politics", "IR=0.916", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.932", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "1" : [ "pair=\"\"@en", "IR=0.929", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Social_democracy", "IR=0.917", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Centre-left_politics", "IR=0.916", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 48,
   "pattern" : "front",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.943", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.935", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.92", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Communism", "IR=0.914", "triple=e_dbp:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.943", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.935", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.92", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Communism", "IR=0.914", "triple=e dbp:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 50,
   "pattern" : "general election",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.929", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.921", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.929", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.921", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 51,
   "pattern" : "government",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Communism", "IR=0.93", "triple=e_dbp:ideology dbr:Communism", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.93", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Centre-left_politics", "IR=0.928", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Left-wing_politics", "IR=0.927", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "4" : [ "pair=\"\"@en", "IR=0.927", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "5" : [ "pair=dbr:Liberalism", "IR=0.924", "triple=e_dbo:ideology dbr:Liberalism", "class=PoliticalParty" ],
-    "6" : [ "pair=dbr:Conservatism", "IR=0.924", "triple=e_dbo:ideology dbr:Conservatism", "class=PoliticalParty" ],
-    "7" : [ "pair=dbr:Centre-right_politics", "IR=0.92", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Communism", "IR=0.93", "triple=e dbp:ideology dbr:Communism", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.93", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Centre-left_politics", "IR=0.928", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Left-wing_politics", "IR=0.927", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "4" : [ "pair=\"\"@en", "IR=0.927", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "5" : [ "pair=dbr:Liberalism", "IR=0.924", "triple=e dbo:ideology dbr:Liberalism", "class=PoliticalParty" ],
+    "6" : [ "pair=dbr:Conservatism", "IR=0.924", "triple=e dbo:ideology dbr:Conservatism", "class=PoliticalParty" ],
+    "7" : [ "pair=dbr:Centre-right_politics", "IR=0.92", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 52,
   "pattern" : "group",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.937", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Centre-right_politics", "IR=0.933", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Centre-left_politics", "IR=0.931", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Conservatism", "IR=0.922", "triple=e_dbp:ideology dbr:Conservatism", "class=PoliticalParty" ],
-    "4" : [ "pair=\"\"@en", "IR=0.917", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "5" : [ "pair=dbr:Red", "IR=0.917", "triple=e_dbo:colour dbr:Red", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.937", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Centre-right_politics", "IR=0.933", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Centre-left_politics", "IR=0.931", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Conservatism", "IR=0.922", "triple=e dbp:ideology dbr:Conservatism", "class=PoliticalParty" ],
+    "4" : [ "pair=\"\"@en", "IR=0.917", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "5" : [ "pair=dbr:Red", "IR=0.917", "triple=e dbo:colour dbr:Red", "class=PoliticalParty" ]
   }
 }, {
   "id" : 53,
   "pattern" : "international",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.945", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.945", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 55,
   "pattern" : "italy",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.947", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Centre-left_politics", "IR=0.938", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Liberalism", "IR=0.924", "triple=e_dbo:ideology dbr:Liberalism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.947", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Centre-left_politics", "IR=0.938", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Liberalism", "IR=0.924", "triple=e dbo:ideology dbr:Liberalism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 57,
   "pattern" : "labour",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Red", "IR=0.924", "triple=e_dbo:colour dbr:Red", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Red", "IR=0.924", "triple=e dbo:colour dbr:Red", "class=PoliticalParty" ]
   }
 }, {
   "id" : 58,
   "pattern" : "labour party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.939", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Centre-left_politics", "IR=0.923", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Social_democracy", "IR=0.921", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.939", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Centre-left_politics", "IR=0.923", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Social_democracy", "IR=0.921", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 59,
   "pattern" : "leader",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Communism", "IR=0.932", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Left-wing_politics", "IR=0.925", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Communism", "IR=0.932", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Left-wing_politics", "IR=0.925", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 60,
   "pattern" : "league",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Communism", "IR=0.914", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Communism", "IR=0.914", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 65,
   "pattern" : "left-wing political party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.926", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.926", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 66,
   "pattern" : "liberal",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.948", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Conservatism", "IR=0.923", "triple=e_dbp:ideology dbr:Conservatism", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Liberalism", "IR=0.917", "triple=e_dbo:ideology dbr:Liberalism", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.948", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Conservatism", "IR=0.923", "triple=e dbp:ideology dbr:Conservatism", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Liberalism", "IR=0.917", "triple=e dbo:ideology dbr:Liberalism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 67,
   "pattern" : "liberal party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Centre-right_politics", "IR=0.926", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Centre-right_politics", "IR=0.926", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 68,
   "pattern" : "liberal political\u001Cparty",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Liberalism", "IR=0.923", "triple=e_dbo:ideology dbr:Liberalism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Liberalism", "IR=0.923", "triple=e dbo:ideology dbr:Liberalism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 69,
   "pattern" : "liberal political\u001Cparty\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Liberalism", "IR=0.927", "triple=e_dbo:ideology dbr:Liberalism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Liberalism", "IR=0.927", "triple=e dbo:ideology dbr:Liberalism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 72,
   "pattern" : "member",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.949", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.946", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.938", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Communism", "IR=0.933", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ],
-    "4" : [ "pair=dbr:Centre-left_politics", "IR=0.933", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "5" : [ "pair=dbr:Centre-right_politics", "IR=0.926", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
-    "6" : [ "pair=dbr:Liberalism", "IR=0.923", "triple=e_dbo:ideology dbr:Liberalism", "class=PoliticalParty" ],
-    "7" : [ "pair=dbr:Red", "IR=0.918", "triple=e_dbo:colour dbr:Red", "class=PoliticalParty" ],
-    "8" : [ "pair=dbr:Centrism", "IR=0.918", "triple=e_dbp:position dbr:Centrism", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.949", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.946", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.938", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Communism", "IR=0.933", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ],
+    "4" : [ "pair=dbr:Centre-left_politics", "IR=0.933", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "5" : [ "pair=dbr:Centre-right_politics", "IR=0.926", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
+    "6" : [ "pair=dbr:Liberalism", "IR=0.923", "triple=e dbo:ideology dbr:Liberalism", "class=PoliticalParty" ],
+    "7" : [ "pair=dbr:Red", "IR=0.918", "triple=e dbo:colour dbr:Red", "class=PoliticalParty" ],
+    "8" : [ "pair=dbr:Centrism", "IR=0.918", "triple=e dbp:position dbr:Centrism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 73,
   "pattern" : "members",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.944", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.94", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.931", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Centrism", "IR=0.916", "triple=e_dbp:position dbr:Centrism", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.944", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.94", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.931", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Centrism", "IR=0.916", "triple=e dbp:position dbr:Centrism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 74,
   "pattern" : "movement",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.934", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Communism", "IR=0.932", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ],
-    "2" : [ "pair=\"\"@en", "IR=0.929", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Red", "IR=0.926", "triple=e_dbo:colour dbr:Red", "class=PoliticalParty" ],
-    "4" : [ "pair=dbr:Conservatism", "IR=0.925", "triple=e_dbo:ideology dbr:Conservatism", "class=PoliticalParty" ],
-    "5" : [ "pair=dbr:Liberalism", "IR=0.92", "triple=e_dbo:ideology dbr:Liberalism", "class=PoliticalParty" ],
-    "6" : [ "pair=dbr:Centrism", "IR=0.916", "triple=e_dbp:position dbr:Centrism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.934", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Communism", "IR=0.932", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ],
+    "2" : [ "pair=\"\"@en", "IR=0.929", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Red", "IR=0.926", "triple=e dbo:colour dbr:Red", "class=PoliticalParty" ],
+    "4" : [ "pair=dbr:Conservatism", "IR=0.925", "triple=e dbo:ideology dbr:Conservatism", "class=PoliticalParty" ],
+    "5" : [ "pair=dbr:Liberalism", "IR=0.92", "triple=e dbo:ideology dbr:Liberalism", "class=PoliticalParty" ],
+    "6" : [ "pair=dbr:Centrism", "IR=0.916", "triple=e dbp:position dbr:Centrism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 75,
   "pattern" : "name",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Communism", "IR=0.928", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.928", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "2" : [ "pair=\"\"@en", "IR=0.925", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Left-wing_politics", "IR=0.922", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "4" : [ "pair=dbr:Conservatism", "IR=0.92", "triple=e_dbo:ideology dbr:Conservatism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Communism", "IR=0.928", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.928", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "2" : [ "pair=\"\"@en", "IR=0.925", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Left-wing_politics", "IR=0.922", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "4" : [ "pair=dbr:Conservatism", "IR=0.92", "triple=e dbo:ideology dbr:Conservatism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 76,
   "pattern" : "national",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.949", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.945", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Centre-right_politics", "IR=0.939", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Conservatism", "IR=0.928", "triple=e_dbo:ideology dbr:Conservatism", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.949", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.945", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Centre-right_politics", "IR=0.939", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Conservatism", "IR=0.928", "triple=e dbo:ideology dbr:Conservatism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 77,
   "pattern" : "november",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.949", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.949", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ]
   }
 }, {
   "id" : 78,
   "pattern" : "october",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Centre-left_politics", "IR=0.938", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Centre-left_politics", "IR=0.938", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 79,
   "pattern" : "one",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.944", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Centre-right_politics", "IR=0.934", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.944", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Centre-right_politics", "IR=0.934", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 80,
   "pattern" : "opposition",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.949", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Centre-right_politics", "IR=0.937", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Centre-left_politics", "IR=0.927", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Social_democracy", "IR=0.92", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.949", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Centre-right_politics", "IR=0.937", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Centre-left_politics", "IR=0.927", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Social_democracy", "IR=0.92", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 81,
   "pattern" : "organization",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.95", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Left-wing_politics", "IR=0.944", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.95", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Left-wing_politics", "IR=0.944", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 82,
   "pattern" : "parliament",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.941", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.941", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ]
   }
 }, {
   "id" : 84,
   "pattern" : "part",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.949", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "1" : [ "pair=\"\"@en", "IR=0.944", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.941", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Communism", "IR=0.927", "triple=e_dbp:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.949", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "1" : [ "pair=\"\"@en", "IR=0.944", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.941", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Communism", "IR=0.927", "triple=e dbp:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 85,
   "pattern" : "parti",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.946", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Communism", "IR=0.93", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Red", "IR=0.921", "triple=e_dbo:colour dbr:Red", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.946", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Communism", "IR=0.93", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Red", "IR=0.921", "triple=e dbo:colour dbr:Red", "class=PoliticalParty" ]
   }
 }, {
   "id" : 86,
   "pattern" : "partido",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.938", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Liberalism", "IR=0.927", "triple=e_dbo:ideology dbr:Liberalism", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Centre-left_politics", "IR=0.923", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Red", "IR=0.923", "triple=e_dbo:colour dbr:Red", "class=PoliticalParty" ],
-    "4" : [ "pair=dbr:Centre-right_politics", "IR=0.921", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
-    "5" : [ "pair=dbr:Social_democracy", "IR=0.919", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.938", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Liberalism", "IR=0.927", "triple=e dbo:ideology dbr:Liberalism", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Centre-left_politics", "IR=0.923", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Red", "IR=0.923", "triple=e dbo:colour dbr:Red", "class=PoliticalParty" ],
+    "4" : [ "pair=dbr:Centre-right_politics", "IR=0.921", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
+    "5" : [ "pair=dbr:Social_democracy", "IR=0.919", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 87,
   "pattern" : "partido comunista",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Communism", "IR=0.915", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Communism", "IR=0.915", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 88,
   "pattern" : "parties",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Far-left_politics", "IR=0.915", "triple=e_dbp:position dbr:Far-left_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Far-left_politics", "IR=0.915", "triple=e dbp:position dbr:Far-left_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 89,
   "pattern" : "party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.949", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.946", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Centre-right_politics", "IR=0.937", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Centre-left_politics", "IR=0.934", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "4" : [ "pair=dbr:Communism", "IR=0.934", "triple=e_dbp:ideology dbr:Communism", "class=PoliticalParty" ],
-    "5" : [ "pair=dbr:Liberalism", "IR=0.92", "triple=e_dbo:ideology dbr:Liberalism", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.949", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.946", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Centre-right_politics", "IR=0.937", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Centre-left_politics", "IR=0.934", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "4" : [ "pair=dbr:Communism", "IR=0.934", "triple=e dbp:ideology dbr:Communism", "class=PoliticalParty" ],
+    "5" : [ "pair=dbr:Liberalism", "IR=0.92", "triple=e dbo:ideology dbr:Liberalism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 90,
   "pattern" : "people",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Red", "IR=0.92", "triple=e_dbo:colour dbr:Red", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Red", "IR=0.92", "triple=e dbo:colour dbr:Red", "class=PoliticalParty" ]
   }
 }, {
   "id" : 92,
   "pattern" : "political\u001Cparty",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.944", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Communism", "IR=0.935", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Centre-left_politics", "IR=0.933", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Centre-right_politics", "IR=0.924", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
-    "4" : [ "pair=dbr:Left-wing_politics", "IR=0.922", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "5" : [ "pair=dbr:Centrism", "IR=0.916", "triple=e_dbp:position dbr:Centrism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.944", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Communism", "IR=0.935", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Centre-left_politics", "IR=0.933", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Centre-right_politics", "IR=0.924", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
+    "4" : [ "pair=dbr:Left-wing_politics", "IR=0.922", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "5" : [ "pair=dbr:Centrism", "IR=0.916", "triple=e dbp:position dbr:Centrism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 93,
   "pattern" : "political\u001Cparty\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.947", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Centre-right_politics", "IR=0.939", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.933", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Communism", "IR=0.932", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ],
-    "4" : [ "pair=dbr:Conservatism", "IR=0.921", "triple=e_dbo:ideology dbr:Conservatism", "class=PoliticalParty" ],
-    "5" : [ "pair=dbr:Liberalism", "IR=0.918", "triple=e_dbp:ideology dbr:Liberalism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.947", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Centre-right_politics", "IR=0.939", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.933", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Communism", "IR=0.932", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ],
+    "4" : [ "pair=dbr:Conservatism", "IR=0.921", "triple=e dbo:ideology dbr:Conservatism", "class=PoliticalParty" ],
+    "5" : [ "pair=dbr:Liberalism", "IR=0.918", "triple=e dbp:ideology dbr:Liberalism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 94,
   "pattern" : "political parties",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.949", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.944", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.949", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.944", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 95,
   "pattern" : "political party in\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Centre-left_politics", "IR=0.934", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Left-wing_politics", "IR=0.931", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Social_democracy", "IR=0.929", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "3" : [ "pair=\"\"@en", "IR=0.925", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "4" : [ "pair=dbr:Red", "IR=0.924", "triple=e_dbo:colour dbr:Red", "class=PoliticalParty" ],
-    "5" : [ "pair=dbr:Conservatism", "IR=0.922", "triple=e_dbp:ideology dbr:Conservatism", "class=PoliticalParty" ],
-    "6" : [ "pair=dbr:Centre-right_politics", "IR=0.919", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Centre-left_politics", "IR=0.934", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Left-wing_politics", "IR=0.931", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Social_democracy", "IR=0.929", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "3" : [ "pair=\"\"@en", "IR=0.925", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "4" : [ "pair=dbr:Red", "IR=0.924", "triple=e dbo:colour dbr:Red", "class=PoliticalParty" ],
+    "5" : [ "pair=dbr:Conservatism", "IR=0.922", "triple=e dbp:ideology dbr:Conservatism", "class=PoliticalParty" ],
+    "6" : [ "pair=dbr:Centre-right_politics", "IR=0.919", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 96,
   "pattern" : "president",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.947", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.94", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.947", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.94", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 99,
   "pattern" : "republic",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.939", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "1" : [ "pair=\"\"@en", "IR=0.938", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Communism", "IR=0.927", "triple=e_dbp:ideology dbr:Communism", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Centre-right_politics", "IR=0.924", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
-    "4" : [ "pair=dbr:Liberalism", "IR=0.921", "triple=e_dbo:ideology dbr:Liberalism", "class=PoliticalParty" ],
-    "5" : [ "pair=dbr:Conservatism", "IR=0.92", "triple=e_dbp:ideology dbr:Conservatism", "class=PoliticalParty" ],
-    "6" : [ "pair=dbr:Red", "IR=0.918", "triple=e_dbo:colour dbr:Red", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.939", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "1" : [ "pair=\"\"@en", "IR=0.938", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Communism", "IR=0.927", "triple=e dbp:ideology dbr:Communism", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Centre-right_politics", "IR=0.924", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
+    "4" : [ "pair=dbr:Liberalism", "IR=0.921", "triple=e dbo:ideology dbr:Liberalism", "class=PoliticalParty" ],
+    "5" : [ "pair=dbr:Conservatism", "IR=0.92", "triple=e dbp:ideology dbr:Conservatism", "class=PoliticalParty" ],
+    "6" : [ "pair=dbr:Red", "IR=0.918", "triple=e dbo:colour dbr:Red", "class=PoliticalParty" ]
   }
 }, {
   "id" : 100,
   "pattern" : "republican",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Centre-right_politics", "IR=0.937", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Centre-right_politics", "IR=0.937", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 103,
   "pattern" : "seats",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.944", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Centre-right_politics", "IR=0.936", "triple=e_dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.932", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Social_democracy", "IR=0.931", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "4" : [ "pair=dbr:Centre-left_politics", "IR=0.931", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "5" : [ "pair=dbr:Centrism", "IR=0.916", "triple=e_dbp:position dbr:Centrism", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.944", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Centre-right_politics", "IR=0.936", "triple=e dbp:position dbr:Centre-right_politics", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.932", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Social_democracy", "IR=0.931", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "4" : [ "pair=dbr:Centre-left_politics", "IR=0.931", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "5" : [ "pair=dbr:Centrism", "IR=0.916", "triple=e dbp:position dbr:Centrism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 104,
   "pattern" : "since",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.935", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.932", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Centre-left_politics", "IR=0.922", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.935", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.932", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Centre-left_politics", "IR=0.922", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 105,
   "pattern" : "social",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.949", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "1" : [ "pair=\"\"@en", "IR=0.941", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.94", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Centre-left_politics", "IR=0.932", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.949", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "1" : [ "pair=\"\"@en", "IR=0.941", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.94", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Centre-left_politics", "IR=0.932", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 106,
   "pattern" : "social democratic",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.931", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.931", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 107,
   "pattern" : "social democratic\u001Cparty",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.948", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.948", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 108,
   "pattern" : "social democratic party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Centre-left_politics", "IR=0.931", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Centre-left_politics", "IR=0.931", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 111,
   "pattern" : "social-democratic\u001Cpolitical\u001Cparty",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.94", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Centre-left_politics", "IR=0.938", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.94", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Centre-left_politics", "IR=0.938", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 113,
   "pattern" : "social-democratic political\u001Cparty",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Centre-left_politics", "IR=0.922", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Centre-left_politics", "IR=0.922", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 114,
   "pattern" : "social-democratic political\u001Cparty\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Centre-left_politics", "IR=0.928", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.917", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Centre-left_politics", "IR=0.928", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.917", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 115,
   "pattern" : "socialist",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.95", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Social_democracy", "IR=0.946", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.944", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.95", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Social_democracy", "IR=0.946", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Left-wing_politics", "IR=0.944", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 116,
   "pattern" : "socialist party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.944", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Communism", "IR=0.916", "triple=e_dbp:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.944", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Communism", "IR=0.916", "triple=e dbp:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 117,
   "pattern" : "socialist political party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.917", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.917", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 118,
   "pattern" : "socialist political party\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.933", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.933", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 119,
   "pattern" : "socialista",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.946", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.946", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 120,
   "pattern" : "south",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.945", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.945", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ]
   }
 }, {
   "id" : 122,
   "pattern" : "spain",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Communism", "IR=0.935", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Left-wing_politics", "IR=0.934", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Communism", "IR=0.935", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Left-wing_politics", "IR=0.934", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ]
   }
 }, {
   "id" : 124,
   "pattern" : "spanish partido",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.945", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Communism", "IR=0.923", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.945", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Communism", "IR=0.923", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 125,
   "pattern" : "split",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.946", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Communism", "IR=0.935", "triple=e_dbo:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.946", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Communism", "IR=0.935", "triple=e dbo:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 126,
   "pattern" : "state",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Social_democracy", "IR=0.947", "triple=e_dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "1" : [ "pair=\"\"@en", "IR=0.94", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Social_democracy", "IR=0.947", "triple=e dbp:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "1" : [ "pair=\"\"@en", "IR=0.94", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ]
   }
 }, {
   "id" : 127,
   "pattern" : "states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.947", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.947", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ]
   }
 }, {
   "id" : 128,
   "pattern" : "united",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.936", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Centre-left_politics", "IR=0.933", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "2" : [ "pair=\"\"@en", "IR=0.929", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "3" : [ "pair=dbr:Liberalism", "IR=0.927", "triple=e_dbo:ideology dbr:Liberalism", "class=PoliticalParty" ],
-    "4" : [ "pair=dbr:Social_democracy", "IR=0.925", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
-    "5" : [ "pair=dbr:Red", "IR=0.924", "triple=e_dbo:colour dbr:Red", "class=PoliticalParty" ],
-    "6" : [ "pair=dbr:Centrism", "IR=0.914", "triple=e_dbp:position dbr:Centrism", "class=PoliticalParty" ],
-    "7" : [ "pair=dbr:Conservatism", "IR=0.914", "triple=e_dbp:ideology dbr:Conservatism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.936", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Centre-left_politics", "IR=0.933", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "2" : [ "pair=\"\"@en", "IR=0.929", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "3" : [ "pair=dbr:Liberalism", "IR=0.927", "triple=e dbo:ideology dbr:Liberalism", "class=PoliticalParty" ],
+    "4" : [ "pair=dbr:Social_democracy", "IR=0.925", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ],
+    "5" : [ "pair=dbr:Red", "IR=0.924", "triple=e dbo:colour dbr:Red", "class=PoliticalParty" ],
+    "6" : [ "pair=dbr:Centrism", "IR=0.914", "triple=e dbp:position dbr:Centrism", "class=PoliticalParty" ],
+    "7" : [ "pair=dbr:Conservatism", "IR=0.914", "triple=e dbp:ideology dbr:Conservatism", "class=PoliticalParty" ]
   }
 }, {
   "id" : 129,
   "pattern" : "united states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.95", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.95", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ]
   }
 }, {
   "id" : 130,
   "pattern" : "vote",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "IR=0.948", "triple=e_dbp:ideology \"\"@en", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Centre-left_politics", "IR=0.933", "triple=e_dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
-    "2" : [ "pair=dbr:Social_democracy", "IR=0.932", "triple=e_dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
+    "0" : [ "pair=\"\"@en", "IR=0.948", "triple=e dbp:ideology \"\"@en", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Centre-left_politics", "IR=0.933", "triple=e dbp:position dbr:Centre-left_politics", "class=PoliticalParty" ],
+    "2" : [ "pair=dbr:Social_democracy", "IR=0.932", "triple=e dbo:ideology dbr:Social_democracy", "class=PoliticalParty" ]
   }
 }, {
   "id" : 131,
   "pattern" : "workers",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.936", "triple=e_dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
-    "1" : [ "pair=dbr:Communism", "IR=0.922", "triple=e_dbp:ideology dbr:Communism", "class=PoliticalParty" ]
+    "0" : [ "pair=dbr:Left-wing_politics", "IR=0.936", "triple=e dbp:position dbr:Left-wing_politics", "class=PoliticalParty" ],
+    "1" : [ "pair=dbr:Communism", "IR=0.922", "triple=e dbp:ideology dbr:Communism", "class=PoliticalParty" ]
   }
 } ]

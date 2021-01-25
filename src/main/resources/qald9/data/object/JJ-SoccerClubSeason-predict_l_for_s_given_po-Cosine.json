@@ -3,29 +3,29 @@
   "pattern" : "2017â18",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"2017-12-26\"^^<http://www.w3.org/2001/XMLSchema#date>", "Cosine=1.0", "triple=e_dbp:date \"2017-12-26\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=SoccerClubSeason" ],
-    "1" : [ "pair=\"2018-01-01\"^^<http://www.w3.org/2001/XMLSchema#date>", "Cosine=1.0", "triple=e_dbp:date \"2018-01-01\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=SoccerClubSeason" ],
-    "2" : [ "pair=dbr:2017â18_FA_Cup", "Cosine=1.0", "triple=e_dbp:round dbr:2017â18_FA_Cup", "class=SoccerClubSeason" ],
-    "3" : [ "pair=dbr:2017â18_EFL_Cup", "Cosine=1.0", "triple=e_dbp:round dbr:2017â18_EFL_Cup", "class=SoccerClubSeason" ]
+    "0" : [ "pair=\"2017-12-26\"^^<http://www.w3.org/2001/XMLSchema#date>", "Cosine=1.0", "triple=e dbp:date \"2017-12-26\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=SoccerClubSeason" ],
+    "1" : [ "pair=\"2018-01-01\"^^<http://www.w3.org/2001/XMLSchema#date>", "Cosine=1.0", "triple=e dbp:date \"2018-01-01\"^^<http://www.w3.org/2001/XMLSchema#date>", "class=SoccerClubSeason" ],
+    "2" : [ "pair=dbr:2017â18_FA_Cup", "Cosine=1.0", "triple=e dbp:round dbr:2017â18_FA_Cup", "class=SoccerClubSeason" ],
+    "3" : [ "pair=dbr:2017â18_EFL_Cup", "Cosine=1.0", "triple=e dbp:round dbr:2017â18_EFL_Cup", "class=SoccerClubSeason" ]
   }
 }, {
   "id" : 8,
   "pattern" : "competitive",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:FejÃ©r_County", "Cosine=1.0", "triple=e_dbp:location dbr:FejÃ©r_County", "class=SoccerClubSeason" ],
-    "1" : [ "pair=dbr:HajdÃº-Bihar_County", "Cosine=1.0", "triple=e_dbp:location dbr:HajdÃº-Bihar_County", "class=SoccerClubSeason" ],
-    "2" : [ "pair=dbr:Pest_County", "Cosine=1.0", "triple=e_dbp:location dbr:Pest_County", "class=SoccerClubSeason" ],
-    "3" : [ "pair=dbr:Tolna_County", "Cosine=1.0", "triple=e_dbp:location dbr:Tolna_County", "class=SoccerClubSeason" ]
+    "0" : [ "pair=dbr:FejÃ©r_County", "Cosine=1.0", "triple=e dbp:location dbr:FejÃ©r_County", "class=SoccerClubSeason" ],
+    "1" : [ "pair=dbr:HajdÃº-Bihar_County", "Cosine=1.0", "triple=e dbp:location dbr:HajdÃº-Bihar_County", "class=SoccerClubSeason" ],
+    "2" : [ "pair=dbr:Pest_County", "Cosine=1.0", "triple=e dbp:location dbr:Pest_County", "class=SoccerClubSeason" ],
+    "3" : [ "pair=dbr:Tolna_County", "Cosine=1.0", "triple=e dbp:location dbr:Tolna_County", "class=SoccerClubSeason" ]
   }
 }, {
   "id" : 9,
   "pattern" : "consecutive",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:FejÃ©r_County", "Cosine=1.0", "triple=e_dbp:location dbr:FejÃ©r_County", "class=SoccerClubSeason" ],
-    "1" : [ "pair=dbr:HajdÃº-Bihar_County", "Cosine=1.0", "triple=e_dbp:location dbr:HajdÃº-Bihar_County", "class=SoccerClubSeason" ],
-    "2" : [ "pair=dbr:Pest_County", "Cosine=1.0", "triple=e_dbp:location dbr:Pest_County", "class=SoccerClubSeason" ],
-    "3" : [ "pair=dbr:Tolna_County", "Cosine=1.0", "triple=e_dbp:location dbr:Tolna_County", "class=SoccerClubSeason" ]
+    "0" : [ "pair=dbr:FejÃ©r_County", "Cosine=1.0", "triple=e dbp:location dbr:FejÃ©r_County", "class=SoccerClubSeason" ],
+    "1" : [ "pair=dbr:HajdÃº-Bihar_County", "Cosine=1.0", "triple=e dbp:location dbr:HajdÃº-Bihar_County", "class=SoccerClubSeason" ],
+    "2" : [ "pair=dbr:Pest_County", "Cosine=1.0", "triple=e dbp:location dbr:Pest_County", "class=SoccerClubSeason" ],
+    "3" : [ "pair=dbr:Tolna_County", "Cosine=1.0", "triple=e dbp:location dbr:Tolna_County", "class=SoccerClubSeason" ]
   }
 } ]

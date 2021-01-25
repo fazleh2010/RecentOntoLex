@@ -3,507 +3,504 @@
   "pattern" : "aired cbc",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:CBC_Television", "Coherence=0.473", "triple=e_dbo:channel dbr:CBC_Television", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:CBC_Television", "Coherence=0.473", "triple=e dbo:channel dbr:CBC_Television", "class=TelevisionShow" ]
   }
 }, {
   "id" : 3,
   "pattern" : "aired cbc\u001Ctelevision",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:CBC_Television", "Coherence=0.473", "triple=e_dbo:channel dbr:CBC_Television", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:CBC_Television", "Coherence=0.473", "triple=e dbo:channel dbr:CBC_Television", "class=TelevisionShow" ]
   }
 }, {
   "id" : 4,
   "pattern" : "aired on\u001Ccbc",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:CBC_Television", "Coherence=0.461", "triple=e_dbo:channel dbr:CBC_Television", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:CBC_Television", "Coherence=0.461", "triple=e dbo:channel dbr:CBC_Television", "class=TelevisionShow" ]
   }
 }, {
   "id" : 5,
   "pattern" : "aired on\u001Ccbc\u001Ctelevision",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:CBC_Television", "Coherence=0.461", "triple=e_dbo:channel dbr:CBC_Television", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:CBC_Television", "Coherence=0.461", "triple=e dbo:channel dbr:CBC_Television", "class=TelevisionShow" ]
   }
 }, {
   "id" : 6,
   "pattern" : "american",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pilot\"@en", "Coherence=0.476", "triple=e_dbp:title \"Pilot\"@en", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:20th_Television", "Coherence=0.468", "triple=e_dbo:distributor dbr:20th_Television", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:CBS_Television_Distribution", "Coherence=0.464", "triple=e_dbo:distributor dbr:CBS_Television_Distribution", "class=TelevisionShow" ],
-    "3" : [ "pair=dbr:Sony_Pictures_Television", "Coherence=0.463", "triple=e_dbo:distributor dbr:Sony_Pictures_Television", "class=TelevisionShow" ],
-    "4" : [ "pair=dbr:Universal_Television", "Coherence=0.462", "triple=e_dbo:company dbr:Universal_Television", "class=TelevisionShow" ],
-    "5" : [ "pair=\"U.S.\"@en", "Coherence=0.455", "triple=e_dbp:country \"U.S.\"@en", "class=TelevisionShow" ],
-    "6" : [ "pair=dbr:American_Broadcasting_Company", "Coherence=0.454", "triple=e_dbp:channel dbr:American_Broadcasting_Company", "class=TelevisionShow" ],
-    "7" : [ "pair=dbr:Warner_Bros._Television", "Coherence=0.454", "triple=e_dbo:company dbr:Warner_Bros._Television", "class=TelevisionShow" ],
-    "8" : [ "pair=dbr:NBCUniversal_Television_Distribution", "Coherence=0.453", "triple=e_dbp:distributor dbr:NBCUniversal_Television_Distribution", "class=TelevisionShow" ],
-    "9" : [ "pair=dbr:20th_Century_Fox_Television", "Coherence=0.451", "triple=e_dbo:company dbr:20th_Century_Fox_Television", "class=TelevisionShow" ],
-    "10" : [ "pair=dbr:Los_Angeles", "Coherence=0.446", "triple=e_dbo:location dbr:Los_Angeles", "class=TelevisionShow" ]
+    "0" : [ "pair=\"Pilot\"@en", "Coherence=0.476", "triple=e dbp:title \"Pilot\"@en", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:20th_Television", "Coherence=0.468", "triple=e dbo:distributor dbr:20th_Television", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:CBS_Television_Distribution", "Coherence=0.464", "triple=e dbo:distributor dbr:CBS_Television_Distribution", "class=TelevisionShow" ],
+    "3" : [ "pair=dbr:Sony_Pictures_Television", "Coherence=0.463", "triple=e dbo:distributor dbr:Sony_Pictures_Television", "class=TelevisionShow" ],
+    "4" : [ "pair=dbr:Universal_Television", "Coherence=0.462", "triple=e dbo:company dbr:Universal_Television", "class=TelevisionShow" ],
+    "5" : [ "pair=\"U.S.\"@en", "Coherence=0.455", "triple=e dbp:country \"U.S.\"@en", "class=TelevisionShow" ],
+    "6" : [ "pair=dbr:American_Broadcasting_Company", "Coherence=0.454", "triple=e dbp:channel dbr:American_Broadcasting_Company", "class=TelevisionShow" ],
+    "7" : [ "pair=dbr:Warner_Bros._Television", "Coherence=0.454", "triple=e dbo:company dbr:Warner_Bros._Television", "class=TelevisionShow" ],
+    "8" : [ "pair=dbr:NBCUniversal_Television_Distribution", "Coherence=0.453", "triple=e dbp:distributor dbr:NBCUniversal_Television_Distribution", "class=TelevisionShow" ],
+    "9" : [ "pair=dbr:20th_Century_Fox_Television", "Coherence=0.451", "triple=e dbo:company dbr:20th_Century_Fox_Television", "class=TelevisionShow" ],
+    "10" : [ "pair=dbr:Los_Angeles", "Coherence=0.446", "triple=e dbo:location dbr:Los_Angeles", "class=TelevisionShow" ]
   }
 }, {
   "id" : 9,
   "pattern" : "broadcast",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.496", "triple=e_dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:GMA_Network", "Coherence=0.49", "triple=e_dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
-    "2" : [ "pair=\"Tagalog\"@en", "Coherence=0.478", "triple=e_dbp:language \"Tagalog\"@en", "class=TelevisionShow" ],
-    "3" : [ "pair=\"vertical\"@en", "Coherence=0.468", "triple=e_dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.496", "triple=e dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:GMA_Network", "Coherence=0.49", "triple=e dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
+    "2" : [ "pair=\"Tagalog\"@en", "Coherence=0.478", "triple=e dbp:language \"Tagalog\"@en", "class=TelevisionShow" ],
+    "3" : [ "pair=\"vertical\"@en", "Coherence=0.468", "triple=e dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 10,
   "pattern" : "broadcast gma",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:GMA_Network", "Coherence=0.49", "triple=e_dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
-    "1" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.48", "triple=e_dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
-    "2" : [ "pair=\"Tagalog\"@en", "Coherence=0.457", "triple=e_dbp:language \"Tagalog\"@en", "class=TelevisionShow" ],
-    "3" : [ "pair=\"vertical\"@en", "Coherence=0.451", "triple=e_dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:GMA_Network", "Coherence=0.49", "triple=e dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
+    "1" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.48", "triple=e dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
+    "2" : [ "pair=\"Tagalog\"@en", "Coherence=0.457", "triple=e dbp:language \"Tagalog\"@en", "class=TelevisionShow" ],
+    "3" : [ "pair=\"vertical\"@en", "Coherence=0.451", "triple=e dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 11,
   "pattern" : "broadcast gma\u001Cnetwork",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:GMA_Network", "Coherence=0.488", "triple=e_dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
-    "1" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.48", "triple=e_dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
-    "2" : [ "pair=\"vertical\"@en", "Coherence=0.451", "triple=e_dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:GMA_Network", "Coherence=0.488", "triple=e dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
+    "1" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.48", "triple=e dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
+    "2" : [ "pair=\"vertical\"@en", "Coherence=0.451", "triple=e dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 13,
   "pattern" : "cbc",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:CBC_Television", "Coherence=0.487", "triple=e_dbo:channel dbr:CBC_Television", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:CBC_Television", "Coherence=0.487", "triple=e dbo:channel dbr:CBC_Television", "class=TelevisionShow" ]
   }
 }, {
   "id" : 14,
   "pattern" : "cbc television",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:CBC_Television", "Coherence=0.493", "triple=e_dbp:channel dbr:CBC_Television", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:CBC_Television", "Coherence=0.493", "triple=e dbp:channel dbr:CBC_Television", "class=TelevisionShow" ]
   }
 }, {
   "id" : 15,
   "pattern" : "channel",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Channel_4", "Coherence=0.468", "triple=e_dbp:network dbr:Channel_4", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Channel_4", "Coherence=0.468", "triple=e dbp:network dbr:Channel_4", "class=TelevisionShow" ]
   }
 }, {
   "id" : 16,
   "pattern" : "channel 4",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Channel_4", "Coherence=0.456", "triple=e_dbp:network dbr:Channel_4", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Channel_4", "Coherence=0.456", "triple=e dbp:network dbr:Channel_4", "class=TelevisionShow" ]
   }
 }, {
   "id" : 19,
   "pattern" : "documentary",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Documentary\"@en", "Coherence=0.447", "triple=e_dbp:genre \"Documentary\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"Documentary\"@en", "Coherence=0.447", "triple=e dbp:genre \"Documentary\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 20,
   "pattern" : "drama",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Crime_drama", "Coherence=0.467", "triple=e_dbo:genre dbr:Crime_drama", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Crime_drama", "Coherence=0.467", "triple=e dbo:genre dbr:Crime_drama", "class=TelevisionShow" ]
   }
 }, {
   "id" : 21,
   "pattern" : "episodes",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.462", "triple=e_dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.462", "triple=e dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 22,
   "pattern" : "film",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:American_Broadcasting_Company", "Coherence=0.485", "triple=e_dbo:distributor dbr:American_Broadcasting_Company", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:CBS", "Coherence=0.476", "triple=e_dbp:distributor dbr:CBS", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:NBC", "Coherence=0.459", "triple=e_dbp:distributor dbr:NBC", "class=TelevisionShow" ],
-    "3" : [ "pair=\"Color\"@en", "Coherence=0.447", "triple=e_dbp:pictureFormat \"Color\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:American_Broadcasting_Company", "Coherence=0.485", "triple=e dbo:distributor dbr:American_Broadcasting_Company", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:CBS", "Coherence=0.476", "triple=e dbp:distributor dbr:CBS", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:NBC", "Coherence=0.459", "triple=e dbp:distributor dbr:NBC", "class=TelevisionShow" ],
+    "3" : [ "pair=\"Color\"@en", "Coherence=0.447", "triple=e dbp:pictureFormat \"Color\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 24,
   "pattern" : "gma",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:GMA_Network", "Coherence=0.493", "triple=e_dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
-    "1" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.48", "triple=e_dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
-    "2" : [ "pair=\"Tagalog\"@en", "Coherence=0.457", "triple=e_dbp:language \"Tagalog\"@en", "class=TelevisionShow" ],
-    "3" : [ "pair=\"vertical\"@en", "Coherence=0.455", "triple=e_dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:GMA_Network", "Coherence=0.493", "triple=e dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
+    "1" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.48", "triple=e dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
+    "2" : [ "pair=\"Tagalog\"@en", "Coherence=0.457", "triple=e dbp:language \"Tagalog\"@en", "class=TelevisionShow" ],
+    "3" : [ "pair=\"vertical\"@en", "Coherence=0.455", "triple=e dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 25,
   "pattern" : "gma network",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:GMA_Network", "Coherence=0.49", "triple=e_dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
-    "1" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.48", "triple=e_dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
-    "2" : [ "pair=\"vertical\"@en", "Coherence=0.455", "triple=e_dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:GMA_Network", "Coherence=0.49", "triple=e dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
+    "1" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.48", "triple=e dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
+    "2" : [ "pair=\"vertical\"@en", "Coherence=0.455", "triple=e dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 26,
   "pattern" : "hanna-barbera",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Hanna-Barbera", "Coherence=0.472", "triple=e_dbp:company dbr:Hanna-Barbera", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Hanna-Barbera", "Coherence=0.472", "triple=e dbp:company dbr:Hanna-Barbera", "class=TelevisionShow" ]
   }
 }, {
   "id" : 27,
   "pattern" : "hong",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Hong Kong\"@en", "Coherence=0.487", "triple=e_dbp:location \"Hong Kong\"@en", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:Hong_Kong", "Coherence=0.466", "triple=e_dbo:location dbr:Hong_Kong", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:TVB", "Coherence=0.465", "triple=e_dbp:company dbr:TVB", "class=TelevisionShow" ],
-    "3" : [ "pair=dbr:Cantonese", "Coherence=0.461", "triple=e_dbo:language dbr:Cantonese", "class=TelevisionShow" ]
+    "0" : [ "pair=\"Hong Kong\"@en", "Coherence=0.487", "triple=e dbp:location \"Hong Kong\"@en", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:Hong_Kong", "Coherence=0.466", "triple=e dbo:location dbr:Hong_Kong", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:TVB", "Coherence=0.465", "triple=e dbp:company dbr:TVB", "class=TelevisionShow" ],
+    "3" : [ "pair=dbr:Cantonese", "Coherence=0.461", "triple=e dbo:language dbr:Cantonese", "class=TelevisionShow" ]
   }
 }, {
   "id" : 28,
   "pattern" : "hong kong",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Hong Kong\"@en", "Coherence=0.474", "triple=e_dbp:location \"Hong Kong\"@en", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:TVB", "Coherence=0.464", "triple=e_dbo:company dbr:TVB", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:Cantonese", "Coherence=0.453", "triple=e_dbo:language dbr:Cantonese", "class=TelevisionShow" ],
-    "3" : [ "pair=dbr:Hong_Kong", "Coherence=0.453", "triple=e_dbo:location dbr:Hong_Kong", "class=TelevisionShow" ]
+    "0" : [ "pair=\"Hong Kong\"@en", "Coherence=0.474", "triple=e dbp:location \"Hong Kong\"@en", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:TVB", "Coherence=0.464", "triple=e dbo:company dbr:TVB", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:Cantonese", "Coherence=0.453", "triple=e dbo:language dbr:Cantonese", "class=TelevisionShow" ],
+    "3" : [ "pair=dbr:Hong_Kong", "Coherence=0.453", "triple=e dbo:location dbr:Hong_Kong", "class=TelevisionShow" ]
   }
 }, {
   "id" : 32,
   "pattern" : "kong",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Hong Kong\"@en", "Coherence=0.474", "triple=e_dbp:location \"Hong Kong\"@en", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:TVB", "Coherence=0.469", "triple=e_dbo:company dbr:TVB", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:Hong_Kong", "Coherence=0.458", "triple=e_dbo:location dbr:Hong_Kong", "class=TelevisionShow" ],
-    "3" : [ "pair=dbr:Cantonese", "Coherence=0.457", "triple=e_dbo:language dbr:Cantonese", "class=TelevisionShow" ]
+    "0" : [ "pair=\"Hong Kong\"@en", "Coherence=0.474", "triple=e dbp:location \"Hong Kong\"@en", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:TVB", "Coherence=0.469", "triple=e dbo:company dbr:TVB", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:Hong_Kong", "Coherence=0.458", "triple=e dbo:location dbr:Hong_Kong", "class=TelevisionShow" ],
+    "3" : [ "pair=dbr:Cantonese", "Coherence=0.457", "triple=e dbo:language dbr:Cantonese", "class=TelevisionShow" ]
   }
 }, {
   "id" : 34,
   "pattern" : "korean television",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Inst.\"@en", "Coherence=0.461", "triple=e_dbp:note \"Inst.\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"Inst.\"@en", "Coherence=0.461", "triple=e dbp:note \"Inst.\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 35,
   "pattern" : "korean television series",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Inst.\"@en", "Coherence=0.447", "triple=e_dbp:note \"Inst.\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"Inst.\"@en", "Coherence=0.447", "triple=e dbp:note \"Inst.\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 37,
   "pattern" : "mexican\u001Ctelenovela",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.482", "triple=e_dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.477", "triple=e_dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:Las_Estrellas", "Coherence=0.47", "triple=e_dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ],
-    "3" : [ "pair=dbr:Televisa", "Coherence=0.451", "triple=e_dbo:distributor dbr:Televisa", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.482", "triple=e dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.477", "triple=e dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:Las_Estrellas", "Coherence=0.47", "triple=e dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ],
+    "3" : [ "pair=dbr:Televisa", "Coherence=0.451", "triple=e dbo:distributor dbr:Televisa", "class=TelevisionShow" ]
   }
 }, {
   "id" : 38,
   "pattern" : "mexican\u001Ctelenovela\u001Cproduced",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.466", "triple=e_dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:Las_Estrellas", "Coherence=0.448", "triple=e_dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.466", "triple=e dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:Las_Estrellas", "Coherence=0.448", "triple=e dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ]
   }
 }, {
   "id" : 39,
   "pattern" : "mexican telenovela",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.5", "triple=e_dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.482", "triple=e_dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:Las_Estrellas", "Coherence=0.474", "triple=e_dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ],
-    "3" : [ "pair=dbr:Televisa", "Coherence=0.471", "triple=e_dbp:distributor dbr:Televisa", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.5", "triple=e dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.482", "triple=e dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:Las_Estrellas", "Coherence=0.474", "triple=e dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ],
+    "3" : [ "pair=dbr:Televisa", "Coherence=0.471", "triple=e dbp:distributor dbr:Televisa", "class=TelevisionShow" ]
   }
 }, {
   "id" : 40,
   "pattern" : "mexican telenovela\u001Cproduced",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.466", "triple=e_dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:Las_Estrellas", "Coherence=0.448", "triple=e_dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.466", "triple=e dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:Las_Estrellas", "Coherence=0.448", "triple=e dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ]
   }
 }, {
   "id" : 41,
   "pattern" : "mexican telenovela\u001Cproduced\u001Cby",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.462", "triple=e_dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.462", "triple=e dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ]
   }
 }, {
   "id" : 42,
   "pattern" : "mexican telenovela produced",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.486", "triple=e_dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.466", "triple=e_dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:Las_Estrellas", "Coherence=0.452", "triple=e_dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.486", "triple=e dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.466", "triple=e dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:Las_Estrellas", "Coherence=0.452", "triple=e dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ]
   }
 }, {
   "id" : 43,
   "pattern" : "mexican telenovela produced\u001Cby",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.486", "triple=e_dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.462", "triple=e_dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:Las_Estrellas", "Coherence=0.448", "triple=e_dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.486", "triple=e dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.462", "triple=e dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:Las_Estrellas", "Coherence=0.448", "triple=e dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ]
   }
 }, {
   "id" : 44,
   "pattern" : "mexicano",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.5", "triple=e_dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.5", "triple=e dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ]
   }
 }, {
   "id" : 45,
   "pattern" : "network",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:GMA_Network", "Coherence=0.49", "triple=e_dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
-    "1" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.48", "triple=e_dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:Seven_Network", "Coherence=0.464", "triple=e_dbp:network dbr:Seven_Network", "class=TelevisionShow" ],
-    "3" : [ "pair=dbr:Nine_Network", "Coherence=0.463", "triple=e_dbo:network dbr:Nine_Network", "class=TelevisionShow" ],
-    "4" : [ "pair=\"vertical\"@en", "Coherence=0.458", "triple=e_dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:GMA_Network", "Coherence=0.49", "triple=e dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
+    "1" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.48", "triple=e dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:Seven_Network", "Coherence=0.464", "triple=e dbp:network dbr:Seven_Network", "class=TelevisionShow" ],
+    "3" : [ "pair=dbr:Nine_Network", "Coherence=0.463", "triple=e dbo:network dbr:Nine_Network", "class=TelevisionShow" ],
+    "4" : [ "pair=\"vertical\"@en", "Coherence=0.458", "triple=e dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 46,
   "pattern" : "nine",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Nine_Network", "Coherence=0.463", "triple=e_dbo:network dbr:Nine_Network", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Nine_Network", "Coherence=0.463", "triple=e dbo:network dbr:Nine_Network", "class=TelevisionShow" ]
   }
 }, {
   "id" : 47,
   "pattern" : "opera",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Soap_opera", "Coherence=0.45", "triple=e_dbp:genre dbr:Soap_opera", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Soap_opera", "Coherence=0.45", "triple=e dbp:genre dbr:Soap_opera", "class=TelevisionShow" ]
   }
 }, {
   "id" : 50,
   "pattern" : "philippine television",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.496", "triple=e_dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:GMA_Network", "Coherence=0.485", "triple=e_dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
-    "2" : [ "pair=\"Tagalog\"@en", "Coherence=0.478", "triple=e_dbp:language \"Tagalog\"@en", "class=TelevisionShow" ],
-    "3" : [ "pair=\"vertical\"@en", "Coherence=0.458", "triple=e_dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.496", "triple=e dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:GMA_Network", "Coherence=0.485", "triple=e dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
+    "2" : [ "pair=\"Tagalog\"@en", "Coherence=0.478", "triple=e dbp:language \"Tagalog\"@en", "class=TelevisionShow" ],
+    "3" : [ "pair=\"vertical\"@en", "Coherence=0.458", "triple=e dbp:direction \"vertical\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 53,
   "pattern" : "series",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"#Season 3\"@en", "Coherence=0.492", "triple=e_dbp:link \"#Season 3\"@en", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:Action_fiction", "Coherence=0.488", "triple=e_dbo:genre dbr:Action_fiction", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:Superhero_fiction", "Coherence=0.488", "triple=e_dbo:genre dbr:Superhero_fiction", "class=TelevisionShow" ],
-    "3" : [ "pair=\"Mandarin\"@en", "Coherence=0.486", "triple=e_dbp:language \"Mandarin\"@en", "class=TelevisionShow" ],
-    "4" : [ "pair=\"#Season 2\"@en", "Coherence=0.482", "triple=e_dbp:link \"#Season 2\"@en", "class=TelevisionShow" ],
-    "5" : [ "pair=dbr:Action_film", "Coherence=0.481", "triple=e_dbp:genre dbr:Action_film", "class=TelevisionShow" ],
-    "6" : [ "pair=\"#Season 1\"@en", "Coherence=0.481", "triple=e_dbp:link \"#Season 1\"@en", "class=TelevisionShow" ],
-    "7" : [ "pair=\"Episode 2\"@en", "Coherence=0.48", "triple=e_dbp:title \"Episode 2\"@en", "class=TelevisionShow" ],
-    "8" : [ "pair=dbr:Adventure_fiction", "Coherence=0.479", "triple=e_dbp:genre dbr:Adventure_fiction", "class=TelevisionShow" ],
-    "9" : [ "pair=\"\"@en", "Coherence=0.474", "triple=e_dbp:composer \"\"@en", "class=TelevisionShow" ],
-    "10" : [ "pair=\"#Episodes\"@en", "Coherence=0.474", "triple=e_dbp:listEpisodes \"#Episodes\"@en", "class=TelevisionShow" ],
-    "11" : [ "pair=dbr:Crime_drama", "Coherence=0.473", "triple=e_dbo:genre dbr:Crime_drama", "class=TelevisionShow" ],
-    "12" : [ "pair=\"US\"@en", "Coherence=0.472", "triple=e_dbp:country \"US\"@en", "class=TelevisionShow" ],
-    "13" : [ "pair=\"660.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.471", "triple=e_dbp:runtime \"660.0\"^^<http://dbpedia.org/datatype/second>", "class=TelevisionShow" ],
-    "14" : [ "pair=\"Inst.\"@en", "Coherence=0.47", "triple=e_dbp:note \"Inst.\"@en", "class=TelevisionShow" ],
-    "15" : [ "pair=\"52\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.47", "triple=e_dbo:numberOfEpisodes \"52\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=TelevisionShow" ],
-    "16" : [ "pair=dbr:Adventure", "Coherence=0.469", "triple=e_dbp:genre dbr:Adventure", "class=TelevisionShow" ],
-    "17" : [ "pair=\"660.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.467", "triple=e_dbo:runtime \"660.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=TelevisionShow" ],
-    "18" : [ "pair=dbr:Science_fiction", "Coherence=0.467", "triple=e_dbp:genre dbr:Science_fiction", "class=TelevisionShow" ],
-    "19" : [ "pair=dbr:Comedy-drama", "Coherence=0.466", "triple=e_dbo:genre dbr:Comedy-drama", "class=TelevisionShow" ],
-    "20" : [ "pair=\"40\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.466", "triple=e_dbo:numberOfEpisodes \"40\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=TelevisionShow" ],
-    "21" : [ "pair=\"China\"@en", "Coherence=0.465", "triple=e_dbp:country \"China\"@en", "class=TelevisionShow" ],
-    "22" : [ "pair=dbr:Television_comedy", "Coherence=0.462", "triple=e_dbo:genre dbr:Television_comedy", "class=TelevisionShow" ],
-    "23" : [ "pair=dbr:Police_procedural", "Coherence=0.46", "triple=e_dbo:genre dbr:Police_procedural", "class=TelevisionShow" ],
-    "24" : [ "pair=\"U.S.\"@en", "Coherence=0.46", "triple=e_dbp:country \"U.S.\"@en", "class=TelevisionShow" ],
-    "25" : [ "pair=\"Pilot\"@en", "Coherence=0.46", "triple=e_dbp:title \"Pilot\"@en", "class=TelevisionShow" ],
-    "26" : [ "pair=\"13\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.46", "triple=e_dbo:numberOfEpisodes \"13\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=TelevisionShow" ],
-    "27" : [ "pair=dbr:Single-camera_setup", "Coherence=0.46", "triple=e_dbp:camera dbr:Single-camera_setup", "class=TelevisionShow" ],
-    "28" : [ "pair=dbr:20th_Television", "Coherence=0.459", "triple=e_dbo:distributor dbr:20th_Television", "class=TelevisionShow" ],
-    "29" : [ "pair=dbr:Soundtrack", "Coherence=0.459", "triple=e_dbp:genre dbr:Soundtrack", "class=TelevisionShow" ],
-    "30" : [ "pair=dbr:Children's_television_series", "Coherence=0.457", "triple=e_dbo:genre dbr:Children's_television_series", "class=TelevisionShow" ],
-    "31" : [ "pair=\"#000000\"@en", "Coherence=0.457", "triple=e_dbp:background \"#000000\"@en", "class=TelevisionShow" ],
-    "32" : [ "pair=\"2580.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.457", "triple=e_dbp:runtime \"2580.0\"^^<http://dbpedia.org/datatype/second>", "class=TelevisionShow" ],
-    "33" : [ "pair=dbr:Crime_film", "Coherence=0.456", "triple=e_dbp:genre dbr:Crime_film", "class=TelevisionShow" ],
-    "34" : [ "pair=\"2580.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.455", "triple=e_dbo:runtime \"2580.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=TelevisionShow" ],
-    "35" : [ "pair=dbr:Mystery_fiction", "Coherence=0.455", "triple=e_dbo:genre dbr:Mystery_fiction", "class=TelevisionShow" ],
-    "36" : [ "pair=dbr:Warner_Bros._Television_Distribution", "Coherence=0.454", "triple=e_dbo:distributor dbr:Warner_Bros._Television_Distribution", "class=TelevisionShow" ],
-    "37" : [ "pair=dbr:CBS_Television_Distribution", "Coherence=0.453", "triple=e_dbo:distributor dbr:CBS_Television_Distribution", "class=TelevisionShow" ],
-    "38" : [ "pair=\"26\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.453", "triple=e_dbo:numberOfEpisodes \"26\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=TelevisionShow" ],
-    "39" : [ "pair=dbr:Fantasy", "Coherence=0.452", "triple=e_dbo:genre dbr:Fantasy", "class=TelevisionShow" ],
-    "40" : [ "pair=\"18\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.452", "triple=e_dbo:numberOfEpisodes \"18\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=TelevisionShow" ],
-    "41" : [ "pair=\"y\"@en", "Coherence=0.451", "triple=e_dbp:released \"y\"@en", "class=TelevisionShow" ],
-    "42" : [ "pair=\"14\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.451", "triple=e_dbo:numberOfEpisodes \"14\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=TelevisionShow" ],
-    "43" : [ "pair=dbr:Germany", "Coherence=0.448", "triple=e_dbp:country dbr:Germany", "class=TelevisionShow" ],
-    "44" : [ "pair=\"vertical\"@en", "Coherence=0.448", "triple=e_dbp:direction \"vertical\"@en", "class=TelevisionShow" ],
-    "45" : [ "pair=\"2520.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "Coherence=0.447", "triple=e_dbo:runtime \"2520.0\"^^<http://www.w3.org/2001/XMLSchema#double>", "class=TelevisionShow" ],
-    "46" : [ "pair=\"2520.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.446", "triple=e_dbp:runtime \"2520.0\"^^<http://dbpedia.org/datatype/second>", "class=TelevisionShow" ]
+    "0" : [ "pair=\"#Season 3\"@en", "Coherence=0.492", "triple=e dbp:link \"#Season 3\"@en", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:Action_fiction", "Coherence=0.488", "triple=e dbo:genre dbr:Action_fiction", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:Superhero_fiction", "Coherence=0.488", "triple=e dbo:genre dbr:Superhero_fiction", "class=TelevisionShow" ],
+    "3" : [ "pair=\"Mandarin\"@en", "Coherence=0.486", "triple=e dbp:language \"Mandarin\"@en", "class=TelevisionShow" ],
+    "4" : [ "pair=\"#Season 2\"@en", "Coherence=0.482", "triple=e dbp:link \"#Season 2\"@en", "class=TelevisionShow" ],
+    "5" : [ "pair=dbr:Action_film", "Coherence=0.481", "triple=e dbp:genre dbr:Action_film", "class=TelevisionShow" ],
+    "6" : [ "pair=\"#Season 1\"@en", "Coherence=0.481", "triple=e dbp:link \"#Season 1\"@en", "class=TelevisionShow" ],
+    "7" : [ "pair=\"Episode 2\"@en", "Coherence=0.48", "triple=e dbp:title \"Episode 2\"@en", "class=TelevisionShow" ],
+    "8" : [ "pair=dbr:Adventure_fiction", "Coherence=0.479", "triple=e dbp:genre dbr:Adventure_fiction", "class=TelevisionShow" ],
+    "9" : [ "pair=\"\"@en", "Coherence=0.474", "triple=e dbp:composer \"\"@en", "class=TelevisionShow" ],
+    "10" : [ "pair=\"#Episodes\"@en", "Coherence=0.474", "triple=e dbp:listEpisodes \"#Episodes\"@en", "class=TelevisionShow" ],
+    "11" : [ "pair=dbr:Crime_drama", "Coherence=0.473", "triple=e dbo:genre dbr:Crime_drama", "class=TelevisionShow" ],
+    "12" : [ "pair=\"US\"@en", "Coherence=0.472", "triple=e dbp:country \"US\"@en", "class=TelevisionShow" ],
+    "13" : [ "pair=\"660.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.471", "triple=e dbp:runtime \"660.0\"^^<http://dbpedia.org/datatype/second>", "class=TelevisionShow" ],
+    "14" : [ "pair=\"Inst.\"@en", "Coherence=0.47", "triple=e dbp:note \"Inst.\"@en", "class=TelevisionShow" ],
+    "15" : [ "pair=\"52\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.47", "triple=e dbo:numberOfEpisodes \"52\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=TelevisionShow" ],
+    "16" : [ "pair=dbr:Adventure", "Coherence=0.469", "triple=e dbp:genre dbr:Adventure", "class=TelevisionShow" ],
+    "17" : [ "pair=dbr:Science_fiction", "Coherence=0.467", "triple=e dbp:genre dbr:Science_fiction", "class=TelevisionShow" ],
+    "18" : [ "pair=dbr:Comedy-drama", "Coherence=0.466", "triple=e dbo:genre dbr:Comedy-drama", "class=TelevisionShow" ],
+    "19" : [ "pair=\"40\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.466", "triple=e dbo:numberOfEpisodes \"40\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=TelevisionShow" ],
+    "20" : [ "pair=\"China\"@en", "Coherence=0.465", "triple=e dbp:country \"China\"@en", "class=TelevisionShow" ],
+    "21" : [ "pair=dbr:Television_comedy", "Coherence=0.462", "triple=e dbo:genre dbr:Television_comedy", "class=TelevisionShow" ],
+    "22" : [ "pair=dbr:Police_procedural", "Coherence=0.46", "triple=e dbo:genre dbr:Police_procedural", "class=TelevisionShow" ],
+    "23" : [ "pair=\"U.S.\"@en", "Coherence=0.46", "triple=e dbp:country \"U.S.\"@en", "class=TelevisionShow" ],
+    "24" : [ "pair=\"Pilot\"@en", "Coherence=0.46", "triple=e dbp:title \"Pilot\"@en", "class=TelevisionShow" ],
+    "25" : [ "pair=\"13\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.46", "triple=e dbo:numberOfEpisodes \"13\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=TelevisionShow" ],
+    "26" : [ "pair=dbr:Single-camera_setup", "Coherence=0.46", "triple=e dbp:camera dbr:Single-camera_setup", "class=TelevisionShow" ],
+    "27" : [ "pair=dbr:20th_Television", "Coherence=0.459", "triple=e dbo:distributor dbr:20th_Television", "class=TelevisionShow" ],
+    "28" : [ "pair=dbr:Soundtrack", "Coherence=0.459", "triple=e dbp:genre dbr:Soundtrack", "class=TelevisionShow" ],
+    "29" : [ "pair=dbr:Children's_television_series", "Coherence=0.457", "triple=e dbo:genre dbr:Children's_television_series", "class=TelevisionShow" ],
+    "30" : [ "pair=\"#000000\"@en", "Coherence=0.457", "triple=e dbp:background \"#000000\"@en", "class=TelevisionShow" ],
+    "31" : [ "pair=\"2580.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.457", "triple=e dbp:runtime \"2580.0\"^^<http://dbpedia.org/datatype/second>", "class=TelevisionShow" ],
+    "32" : [ "pair=dbr:Crime_film", "Coherence=0.456", "triple=e dbp:genre dbr:Crime_film", "class=TelevisionShow" ],
+    "33" : [ "pair=dbr:Mystery_fiction", "Coherence=0.455", "triple=e dbo:genre dbr:Mystery_fiction", "class=TelevisionShow" ],
+    "34" : [ "pair=dbr:Warner_Bros._Television_Distribution", "Coherence=0.454", "triple=e dbo:distributor dbr:Warner_Bros._Television_Distribution", "class=TelevisionShow" ],
+    "35" : [ "pair=dbr:CBS_Television_Distribution", "Coherence=0.453", "triple=e dbo:distributor dbr:CBS_Television_Distribution", "class=TelevisionShow" ],
+    "36" : [ "pair=\"26\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.453", "triple=e dbo:numberOfEpisodes \"26\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=TelevisionShow" ],
+    "37" : [ "pair=dbr:Fantasy", "Coherence=0.452", "triple=e dbo:genre dbr:Fantasy", "class=TelevisionShow" ],
+    "38" : [ "pair=\"18\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.452", "triple=e dbo:numberOfEpisodes \"18\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=TelevisionShow" ],
+    "39" : [ "pair=\"y\"@en", "Coherence=0.451", "triple=e dbp:released \"y\"@en", "class=TelevisionShow" ],
+    "40" : [ "pair=\"14\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.451", "triple=e dbo:numberOfEpisodes \"14\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=TelevisionShow" ],
+    "41" : [ "pair=dbr:Germany", "Coherence=0.448", "triple=e dbp:country dbr:Germany", "class=TelevisionShow" ],
+    "42" : [ "pair=\"vertical\"@en", "Coherence=0.448", "triple=e dbp:direction \"vertical\"@en", "class=TelevisionShow" ],
+    "43" : [ "pair=\"2520.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.446", "triple=e dbp:runtime \"2520.0\"^^<http://dbpedia.org/datatype/second>", "class=TelevisionShow" ]
   }
 }, {
   "id" : 54,
   "pattern" : "seven",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Seven_Network", "Coherence=0.469", "triple=e_dbp:network dbr:Seven_Network", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Seven_Network", "Coherence=0.469", "triple=e dbp:network dbr:Seven_Network", "class=TelevisionShow" ]
   }
 }, {
   "id" : 55,
   "pattern" : "seven network",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Seven_Network", "Coherence=0.464", "triple=e_dbp:network dbr:Seven_Network", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Seven_Network", "Coherence=0.464", "triple=e dbp:network dbr:Seven_Network", "class=TelevisionShow" ]
   }
 }, {
   "id" : 56,
   "pattern" : "show",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Game_show", "Coherence=0.48", "triple=e_dbp:genre dbr:Game_show", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:Talk_show", "Coherence=0.468", "triple=e_dbp:genre dbr:Talk_show", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Game_show", "Coherence=0.48", "triple=e dbp:genre dbr:Game_show", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:Talk_show", "Coherence=0.468", "triple=e dbp:genre dbr:Talk_show", "class=TelevisionShow" ]
   }
 }, {
   "id" : 57,
   "pattern" : "sitcom",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Sitcom", "Coherence=0.461", "triple=e_dbo:genre dbr:Sitcom", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Sitcom", "Coherence=0.461", "triple=e dbo:genre dbr:Sitcom", "class=TelevisionShow" ]
   }
 }, {
   "id" : 58,
   "pattern" : "soap opera",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Soap_opera", "Coherence=0.446", "triple=e_dbp:genre dbr:Soap_opera", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Soap_opera", "Coherence=0.446", "triple=e dbp:genre dbr:Soap_opera", "class=TelevisionShow" ]
   }
 }, {
   "id" : 59,
   "pattern" : "south",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Inst.\"@en", "Coherence=0.487", "triple=e_dbp:note \"Inst.\"@en", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:South_Korea", "Coherence=0.481", "triple=e_dbo:country dbr:South_Korea", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:Korean_language", "Coherence=0.477", "triple=e_dbp:language dbr:Korean_language", "class=TelevisionShow" ],
-    "3" : [ "pair=\"South Korea\"@en", "Coherence=0.473", "triple=e_dbp:country \"South Korea\"@en", "class=TelevisionShow" ],
-    "4" : [ "pair=\"Korean\"@en", "Coherence=0.47", "triple=e_dbp:language \"Korean\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"Inst.\"@en", "Coherence=0.487", "triple=e dbp:note \"Inst.\"@en", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:South_Korea", "Coherence=0.481", "triple=e dbo:country dbr:South_Korea", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:Korean_language", "Coherence=0.477", "triple=e dbp:language dbr:Korean_language", "class=TelevisionShow" ],
+    "3" : [ "pair=\"South Korea\"@en", "Coherence=0.473", "triple=e dbp:country \"South Korea\"@en", "class=TelevisionShow" ],
+    "4" : [ "pair=\"Korean\"@en", "Coherence=0.47", "triple=e dbp:language \"Korean\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 61,
   "pattern" : "south korean television",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Inst.\"@en", "Coherence=0.461", "triple=e_dbp:note \"Inst.\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"Inst.\"@en", "Coherence=0.461", "triple=e dbp:note \"Inst.\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 62,
   "pattern" : "south korean television\u001Cseries",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Inst.\"@en", "Coherence=0.447", "triple=e_dbp:note \"Inst.\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"Inst.\"@en", "Coherence=0.447", "triple=e dbp:note \"Inst.\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 64,
   "pattern" : "telenovela",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.5", "triple=e_dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.5", "triple=e_dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:Telenovela", "Coherence=0.493", "triple=e_dbo:genre dbr:Telenovela", "class=TelevisionShow" ],
-    "3" : [ "pair=dbr:Las_Estrellas", "Coherence=0.49", "triple=e_dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ],
-    "4" : [ "pair=dbr:Televisa", "Coherence=0.481", "triple=e_dbp:distributor dbr:Televisa", "class=TelevisionShow" ],
-    "5" : [ "pair=\"Mexico\"@en", "Coherence=0.459", "triple=e_dbp:country \"Mexico\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.5", "triple=e dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.5", "triple=e dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:Telenovela", "Coherence=0.493", "triple=e dbo:genre dbr:Telenovela", "class=TelevisionShow" ],
+    "3" : [ "pair=dbr:Las_Estrellas", "Coherence=0.49", "triple=e dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ],
+    "4" : [ "pair=dbr:Televisa", "Coherence=0.481", "triple=e dbp:distributor dbr:Televisa", "class=TelevisionShow" ],
+    "5" : [ "pair=\"Mexico\"@en", "Coherence=0.459", "triple=e dbp:country \"Mexico\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 65,
   "pattern" : "telenovela produced",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.486", "triple=e_dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.478", "triple=e_dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:Las_Estrellas", "Coherence=0.463", "triple=e_dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ],
-    "3" : [ "pair=dbr:Televisa", "Coherence=0.446", "triple=e_dbo:distributor dbr:Televisa", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.486", "triple=e dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.478", "triple=e dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:Las_Estrellas", "Coherence=0.463", "triple=e dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ],
+    "3" : [ "pair=dbr:Televisa", "Coherence=0.446", "triple=e dbo:distributor dbr:Televisa", "class=TelevisionShow" ]
   }
 }, {
   "id" : 66,
   "pattern" : "telesistema",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.5", "triple=e_dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.5", "triple=e dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ]
   }
 }, {
   "id" : 67,
   "pattern" : "telesistema mexicano",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.5", "triple=e_dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Telesistema_Mexicano", "Coherence=0.5", "triple=e dbo:channel dbr:Telesistema_Mexicano", "class=TelevisionShow" ]
   }
 }, {
   "id" : 68,
   "pattern" : "televisa",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.485", "triple=e_dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:Las_Estrellas", "Coherence=0.484", "triple=e_dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:Televisa", "Coherence=0.481", "triple=e_dbp:distributor dbr:Televisa", "class=TelevisionShow" ]
+    "0" : [ "pair=dbr:Canal_de_las_Estrellas", "Coherence=0.485", "triple=e dbo:channel dbr:Canal_de_las_Estrellas", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:Las_Estrellas", "Coherence=0.484", "triple=e dbp:channel dbr:Las_Estrellas", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:Televisa", "Coherence=0.481", "triple=e dbp:distributor dbr:Televisa", "class=TelevisionShow" ]
   }
 }, {
   "id" : 69,
   "pattern" : "television",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.496", "triple=e_dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
-    "1" : [ "pair=dbr:CBC_Television", "Coherence=0.495", "triple=e_dbp:channel dbr:CBC_Television", "class=TelevisionShow" ],
-    "2" : [ "pair=dbr:GMA_Network", "Coherence=0.49", "triple=e_dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
-    "3" : [ "pair=\"Tagalog\"@en", "Coherence=0.484", "triple=e_dbp:language \"Tagalog\"@en", "class=TelevisionShow" ],
-    "4" : [ "pair=\"vertical\"@en", "Coherence=0.478", "triple=e_dbp:direction \"vertical\"@en", "class=TelevisionShow" ],
-    "5" : [ "pair=\"Inst.\"@en", "Coherence=0.466", "triple=e_dbp:note \"Inst.\"@en", "class=TelevisionShow" ],
-    "6" : [ "pair=\"right\"@en", "Coherence=0.463", "triple=e_dbp:align \"right\"@en", "class=TelevisionShow" ],
-    "7" : [ "pair=\"Mandarin\"@en", "Coherence=0.461", "triple=e_dbp:language \"Mandarin\"@en", "class=TelevisionShow" ],
-    "8" : [ "pair=\"\"@en", "Coherence=0.46", "triple=e_dbp:language \"\"@en", "class=TelevisionShow" ],
-    "9" : [ "pair=dbr:Mystery_fiction", "Coherence=0.45", "triple=e_dbo:genre dbr:Mystery_fiction", "class=TelevisionShow" ],
-    "10" : [ "pair=dbr:Crime_drama", "Coherence=0.45", "triple=e_dbo:genre dbr:Crime_drama", "class=TelevisionShow" ],
-    "11" : [ "pair=\"Artist\"@en", "Coherence=0.448", "triple=e_dbp:extraColumn \"Artist\"@en", "class=TelevisionShow" ],
-    "12" : [ "pair=\"Fantasy\"@en", "Coherence=0.448", "triple=e_dbp:genre \"Fantasy\"@en", "class=TelevisionShow" ],
-    "13" : [ "pair=dbr:Drama_(film_and_television", "Coherence=0.447", "triple=e_dbo:genre dbr:Drama_(film_and_television", "class=TelevisionShow" ],
-    "14" : [ "pair=dbr:Adventure_fiction", "Coherence=0.446", "triple=e_dbo:genre dbr:Adventure_fiction", "class=TelevisionShow" ]
+    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.496", "triple=e dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ],
+    "1" : [ "pair=dbr:CBC_Television", "Coherence=0.495", "triple=e dbp:channel dbr:CBC_Television", "class=TelevisionShow" ],
+    "2" : [ "pair=dbr:GMA_Network", "Coherence=0.49", "triple=e dbp:network dbr:GMA_Network", "class=TelevisionShow" ],
+    "3" : [ "pair=\"Tagalog\"@en", "Coherence=0.484", "triple=e dbp:language \"Tagalog\"@en", "class=TelevisionShow" ],
+    "4" : [ "pair=\"vertical\"@en", "Coherence=0.478", "triple=e dbp:direction \"vertical\"@en", "class=TelevisionShow" ],
+    "5" : [ "pair=\"Inst.\"@en", "Coherence=0.466", "triple=e dbp:note \"Inst.\"@en", "class=TelevisionShow" ],
+    "6" : [ "pair=\"right\"@en", "Coherence=0.463", "triple=e dbp:align \"right\"@en", "class=TelevisionShow" ],
+    "7" : [ "pair=\"Mandarin\"@en", "Coherence=0.461", "triple=e dbp:language \"Mandarin\"@en", "class=TelevisionShow" ],
+    "8" : [ "pair=\"\"@en", "Coherence=0.46", "triple=e dbp:language \"\"@en", "class=TelevisionShow" ],
+    "9" : [ "pair=dbr:Mystery_fiction", "Coherence=0.45", "triple=e dbo:genre dbr:Mystery_fiction", "class=TelevisionShow" ],
+    "10" : [ "pair=dbr:Crime_drama", "Coherence=0.45", "triple=e dbo:genre dbr:Crime_drama", "class=TelevisionShow" ],
+    "11" : [ "pair=\"Artist\"@en", "Coherence=0.448", "triple=e dbp:extraColumn \"Artist\"@en", "class=TelevisionShow" ],
+    "12" : [ "pair=\"Fantasy\"@en", "Coherence=0.448", "triple=e dbp:genre \"Fantasy\"@en", "class=TelevisionShow" ],
+    "13" : [ "pair=dbr:Drama_(film_and_television", "Coherence=0.447", "triple=e dbo:genre dbr:Drama_(film_and_television", "class=TelevisionShow" ],
+    "14" : [ "pair=dbr:Adventure_fiction", "Coherence=0.446", "triple=e dbo:genre dbr:Adventure_fiction", "class=TelevisionShow" ]
   }
 }, {
   "id" : 70,
   "pattern" : "television series",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Inst.\"@en", "Coherence=0.452", "triple=e_dbp:note \"Inst.\"@en", "class=TelevisionShow" ],
-    "1" : [ "pair=\"Mandarin\"@en", "Coherence=0.446", "triple=e_dbp:language \"Mandarin\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"Inst.\"@en", "Coherence=0.452", "triple=e dbp:note \"Inst.\"@en", "class=TelevisionShow" ],
+    "1" : [ "pair=\"Mandarin\"@en", "Coherence=0.446", "triple=e dbp:language \"Mandarin\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 71,
   "pattern" : "total",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.465", "triple=e_dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.465", "triple=e dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ]
   }
 }, {
   "id" : 72,
   "pattern" : "total\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.465", "triple=e_dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ]
+    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.465", "triple=e dbp:company \"GMA Entertainment TV\"@en", "class=TelevisionShow" ]
   }
 } ]

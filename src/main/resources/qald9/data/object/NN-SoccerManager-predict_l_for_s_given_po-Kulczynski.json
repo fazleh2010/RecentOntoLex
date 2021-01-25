@@ -3,190 +3,190 @@
   "pattern" : "dutch",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Netherlands", "Kulczynski=0.951", "triple=e_dbo:birthPlace dbr:Netherlands", "class=SoccerManager" ],
-    "1" : [ "pair=dbr:Netherlands_national_football_team", "Kulczynski=0.95", "triple=e_dbp:nationalteam dbr:Netherlands_national_football_team", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Netherlands", "Kulczynski=0.951", "triple=e dbo:birthPlace dbr:Netherlands", "class=SoccerManager" ],
+    "1" : [ "pair=dbr:Netherlands_national_football_team", "Kulczynski=0.95", "triple=e dbp:nationalteam dbr:Netherlands_national_football_team", "class=SoccerManager" ]
   }
 }, {
   "id" : 10,
   "pattern" : "english",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:England_national_under-21_football_team", "Kulczynski=0.97", "triple=e_dbo:team dbr:England_national_under-21_football_team", "class=SoccerManager" ],
-    "1" : [ "pair=dbr:England_national_football_team", "Kulczynski=0.94", "triple=e_dbp:nationalteam dbr:England_national_football_team", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:England_national_under-21_football_team", "Kulczynski=0.97", "triple=e dbo:team dbr:England_national_under-21_football_team", "class=SoccerManager" ],
+    "1" : [ "pair=dbr:England_national_football_team", "Kulczynski=0.94", "triple=e dbp:nationalteam dbr:England_national_football_team", "class=SoccerManager" ]
   }
 }, {
   "id" : 11,
   "pattern" : "football",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.991", "triple=e_dbo:birthPlace dbr:Japan", "class=SoccerManager" ],
-    "1" : [ "pair=dbr:Russian_SFSR", "Kulczynski=0.955", "triple=e_dbo:birthPlace dbr:Russian_SFSR", "class=SoccerManager" ],
-    "2" : [ "pair=dbr:Iran_national_football_team", "Kulczynski=0.953", "triple=e_dbp:nationalteam dbr:Iran_national_football_team", "class=SoccerManager" ],
-    "3" : [ "pair=dbr:Russian_Soviet_Federative_Socialist_Republic", "Kulczynski=0.951", "triple=e_dbp:birthPlace dbr:Russian_Soviet_Federative_Socialist_Republic", "class=SoccerManager" ],
-    "4" : [ "pair=dbr:PFC_CSKA_Moscow", "Kulczynski=0.946", "triple=e_dbp:clubs dbr:PFC_CSKA_Moscow", "class=SoccerManager" ],
-    "5" : [ "pair=dbr:Czechoslovakia", "Kulczynski=0.936", "triple=e_dbo:birthPlace dbr:Czechoslovakia", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.991", "triple=e dbo:birthPlace dbr:Japan", "class=SoccerManager" ],
+    "1" : [ "pair=dbr:Russian_SFSR", "Kulczynski=0.955", "triple=e dbo:birthPlace dbr:Russian_SFSR", "class=SoccerManager" ],
+    "2" : [ "pair=dbr:Iran_national_football_team", "Kulczynski=0.953", "triple=e dbp:nationalteam dbr:Iran_national_football_team", "class=SoccerManager" ],
+    "3" : [ "pair=dbr:Russian_Soviet_Federative_Socialist_Republic", "Kulczynski=0.951", "triple=e dbp:birthPlace dbr:Russian_Soviet_Federative_Socialist_Republic", "class=SoccerManager" ],
+    "4" : [ "pair=dbr:PFC_CSKA_Moscow", "Kulczynski=0.946", "triple=e dbp:clubs dbr:PFC_CSKA_Moscow", "class=SoccerManager" ],
+    "5" : [ "pair=dbr:Czechoslovakia", "Kulczynski=0.936", "triple=e dbo:birthPlace dbr:Czechoslovakia", "class=SoccerManager" ]
   }
 }, {
   "id" : 12,
   "pattern" : "football player",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.986", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.986", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 13,
   "pattern" : "football player and\u001Cmanager",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.959", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.959", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 14,
   "pattern" : "footballer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:York_City_F.C.", "Kulczynski=0.944", "triple=e_dbo:team dbr:York_City_F.C.", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:York_City_F.C.", "Kulczynski=0.944", "triple=e dbo:team dbr:York_City_F.C.", "class=SoccerManager" ]
   }
 }, {
   "id" : 16,
   "pattern" : "former\u001Cjapanese",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.941", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.941", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 17,
   "pattern" : "former\u001Cjapanese\u001Cfootball",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.937", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.937", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 18,
   "pattern" : "former japanese",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.941", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.941", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 19,
   "pattern" : "former japanese\u001Cfootball",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.937", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.937", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 20,
   "pattern" : "former japanese\u001Cfootball\u001Cplayer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.937", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.937", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 21,
   "pattern" : "former japanese football",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.937", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.937", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 22,
   "pattern" : "former japanese football\u001Cplayer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.937", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.937", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 29,
   "pattern" : "italian pronunciation",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Italy_national_football_team", "Kulczynski=0.954", "triple=e_dbp:nationalteam dbr:Italy_national_football_team", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Italy_national_football_team", "Kulczynski=0.954", "triple=e dbp:nationalteam dbr:Italy_national_football_team", "class=SoccerManager" ]
   }
 }, {
   "id" : 31,
   "pattern" : "japanese football",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.982", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.982", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 32,
   "pattern" : "japanese football player",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.977", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.977", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 33,
   "pattern" : "japanese football player\u001Cand",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.95", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.95", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 34,
   "pattern" : "japanese football player\u001Cand\u001Cmanager",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.95", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.95", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 36,
   "pattern" : "manager",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.965", "triple=e_dbo:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.965", "triple=e dbo:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 39,
   "pattern" : "player",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.986", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.986", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 40,
   "pattern" : "player manager",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Japan", "Kulczynski=0.959", "triple=e_dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Japan", "Kulczynski=0.959", "triple=e dbp:birthPlace dbr:Japan", "class=SoccerManager" ]
   }
 }, {
   "id" : 42,
   "pattern" : "portuguese",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Portugal_national_football_team", "Kulczynski=1.0", "triple=e_dbp:nationalteam dbr:Portugal_national_football_team", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Portugal_national_football_team", "Kulczynski=1.0", "triple=e dbp:nationalteam dbr:Portugal_national_football_team", "class=SoccerManager" ]
   }
 }, {
   "id" : 43,
   "pattern" : "pronunciation",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Italy_national_football_team", "Kulczynski=0.954", "triple=e_dbp:nationalteam dbr:Italy_national_football_team", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Italy_national_football_team", "Kulczynski=0.954", "triple=e dbp:nationalteam dbr:Italy_national_football_team", "class=SoccerManager" ]
   }
 }, {
   "id" : 47,
   "pattern" : "soccer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "Kulczynski=0.983", "triple=e_dbo:birthPlace dbr:United_States", "class=SoccerManager" ],
-    "1" : [ "pair=dbr:United_States_men's_national_soccer_team", "Kulczynski=0.97", "triple=e_dbp:nationalteam dbr:United_States_men's_national_soccer_team", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:United_States", "Kulczynski=0.983", "triple=e dbo:birthPlace dbr:United_States", "class=SoccerManager" ],
+    "1" : [ "pair=dbr:United_States_men's_national_soccer_team", "Kulczynski=0.97", "triple=e dbp:nationalteam dbr:United_States_men's_national_soccer_team", "class=SoccerManager" ]
   }
 }, {
   "id" : 48,
   "pattern" : "south",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:South_Korea", "Kulczynski=1.0", "triple=e_dbo:birthPlace dbr:South_Korea", "class=SoccerManager" ],
-    "1" : [ "pair=dbr:South_Korea_national_football_team", "Kulczynski=1.0", "triple=e_dbp:nationalteam dbr:South_Korea_national_football_team", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:South_Korea", "Kulczynski=1.0", "triple=e dbo:birthPlace dbr:South_Korea", "class=SoccerManager" ],
+    "1" : [ "pair=dbr:South_Korea_national_football_team", "Kulczynski=1.0", "triple=e dbp:nationalteam dbr:South_Korea_national_football_team", "class=SoccerManager" ]
   }
 }, {
   "id" : 50,
   "pattern" : "swedish",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Sweden_national_football_team", "Kulczynski=0.964", "triple=e_dbp:nationalteam dbr:Sweden_national_football_team", "class=SoccerManager" ]
+    "0" : [ "pair=dbr:Sweden_national_football_team", "Kulczynski=0.964", "triple=e dbp:nationalteam dbr:Sweden_national_football_team", "class=SoccerManager" ]
   }
 } ]

@@ -3,557 +3,557 @@
   "pattern" : "all-american",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e_dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 2,
   "pattern" : "all-american girls",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e_dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 3,
   "pattern" : "all-american girls professional",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e_dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 4,
   "pattern" : "all-american girls professional\u001Cbaseball",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e_dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 5,
   "pattern" : "all-american girls professional\u001Cbaseball\u001Cleague",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e_dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 6,
   "pattern" : "athletics",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Oakland_Athletics", "Coherence=0.488", "triple=e_dbp:finalteam dbr:Oakland_Athletics", "class=BaseballPlayer" ],
-    "1" : [ "pair=\"*Philadelphia Athletics\"@en", "Coherence=0.483", "triple=e_dbp:teams \"*Philadelphia Athletics\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:Oakland_Athletics", "Coherence=0.488", "triple=e dbp:finalteam dbr:Oakland_Athletics", "class=BaseballPlayer" ],
+    "1" : [ "pair=\"*Philadelphia Athletics\"@en", "Coherence=0.483", "triple=e dbp:teams \"*Philadelphia Athletics\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 7,
   "pattern" : "baseball",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Free agent\"@en", "Coherence=0.497", "triple=e_dbp:team \"Free agent\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e_dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ],
-    "2" : [ "pair=\"Left\"", "Coherence=0.496", "triple=e_dbo:battingSide \"Left\"", "class=BaseballPlayer" ],
-    "3" : [ "pair=dbr:Free_agent", "Coherence=0.496", "triple=e_dbo:team dbr:Free_agent", "class=BaseballPlayer" ],
-    "4" : [ "pair=\"KBO\"@en", "Coherence=0.493", "triple=e_dbp:debut2league \"KBO\"@en", "class=BaseballPlayer" ],
-    "5" : [ "pair=dbr:Major_League_Baseball_Player_of_the_Month_Award", "Coherence=0.492", "triple=e_dbp:title dbr:Major_League_Baseball_Player_of_the_Month_Award", "class=BaseballPlayer" ],
-    "6" : [ "pair=dbr:Earned_run_average", "Coherence=0.488", "triple=e_dbp:stat22label dbr:Earned_run_average", "class=BaseballPlayer" ],
-    "7" : [ "pair=dbr:Winâloss_record_(pitching", "Coherence=0.488", "triple=e_dbp:stat21label dbr:Winâloss_record_(pitching", "class=BaseballPlayer" ],
-    "8" : [ "pair=\"Seattle Mariners\"@en", "Coherence=0.486", "triple=e_dbp:finalteam \"Seattle Mariners\"@en", "class=BaseballPlayer" ],
-    "9" : [ "pair=\"Batting average\"@en", "Coherence=0.485", "triple=e_dbp:stat21label \"Batting average\"@en", "class=BaseballPlayer" ],
-    "10" : [ "pair=dbr:Boston_Red_Sox", "Coherence=0.485", "triple=e_dbp:finalteam dbr:Boston_Red_Sox", "class=BaseballPlayer" ],
-    "11" : [ "pair=\"Kansas City Royals\"@en", "Coherence=0.484", "triple=e_dbp:finalteam \"Kansas City Royals\"@en", "class=BaseballPlayer" ],
-    "12" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.483", "triple=e_dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ],
-    "13" : [ "pair=\"--09-02\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.483", "triple=e_dbp:debutdate \"--09-02\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
-    "14" : [ "pair=dbr:San_Francisco", "Coherence=0.483", "triple=e_dbo:birthPlace dbr:San_Francisco", "class=BaseballPlayer" ],
-    "15" : [ "pair=\"Washington Senators\"@en", "Coherence=0.482", "triple=e_dbp:finalteam \"Washington Senators\"@en", "class=BaseballPlayer" ],
-    "16" : [ "pair=\"National Baseball Hall of Fame and Museum\"@en", "Coherence=0.481", "triple=e_dbp:hoflink \"National Baseball Hall of Fame and Museum\"@en", "class=BaseballPlayer" ],
-    "17" : [ "pair=\"Toronto Blue Jays\"@en", "Coherence=0.481", "triple=e_dbp:finalteam \"Toronto Blue Jays\"@en", "class=BaseballPlayer" ],
-    "18" : [ "pair=\"--10-07\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.48", "triple=e_dbp:finaldate \"--10-07\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
-    "19" : [ "pair=\"Winning %\"@en", "Coherence=0.479", "triple=e_dbp:stat5label \"Winning %\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"Free agent\"@en", "Coherence=0.497", "triple=e dbp:team \"Free agent\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ],
+    "2" : [ "pair=\"Left\"", "Coherence=0.496", "triple=e dbo:battingSide \"Left\"", "class=BaseballPlayer" ],
+    "3" : [ "pair=dbr:Free_agent", "Coherence=0.496", "triple=e dbo:team dbr:Free_agent", "class=BaseballPlayer" ],
+    "4" : [ "pair=\"KBO\"@en", "Coherence=0.493", "triple=e dbp:debut2league \"KBO\"@en", "class=BaseballPlayer" ],
+    "5" : [ "pair=dbr:Major_League_Baseball_Player_of_the_Month_Award", "Coherence=0.492", "triple=e dbp:title dbr:Major_League_Baseball_Player_of_the_Month_Award", "class=BaseballPlayer" ],
+    "6" : [ "pair=dbr:Earned_run_average", "Coherence=0.488", "triple=e dbp:stat22label dbr:Earned_run_average", "class=BaseballPlayer" ],
+    "7" : [ "pair=dbr:Winâloss_record_(pitching", "Coherence=0.488", "triple=e dbp:stat21label dbr:Winâloss_record_(pitching", "class=BaseballPlayer" ],
+    "8" : [ "pair=\"Seattle Mariners\"@en", "Coherence=0.486", "triple=e dbp:finalteam \"Seattle Mariners\"@en", "class=BaseballPlayer" ],
+    "9" : [ "pair=\"Batting average\"@en", "Coherence=0.485", "triple=e dbp:stat21label \"Batting average\"@en", "class=BaseballPlayer" ],
+    "10" : [ "pair=dbr:Boston_Red_Sox", "Coherence=0.485", "triple=e dbp:finalteam dbr:Boston_Red_Sox", "class=BaseballPlayer" ],
+    "11" : [ "pair=\"Kansas City Royals\"@en", "Coherence=0.484", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=BaseballPlayer" ],
+    "12" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.483", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ],
+    "13" : [ "pair=\"--09-02\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.483", "triple=e dbp:debutdate \"--09-02\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
+    "14" : [ "pair=dbr:San_Francisco", "Coherence=0.483", "triple=e dbo:birthPlace dbr:San_Francisco", "class=BaseballPlayer" ],
+    "15" : [ "pair=\"Washington Senators\"@en", "Coherence=0.482", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=BaseballPlayer" ],
+    "16" : [ "pair=\"National Baseball Hall of Fame and Museum\"@en", "Coherence=0.481", "triple=e dbp:hoflink \"National Baseball Hall of Fame and Museum\"@en", "class=BaseballPlayer" ],
+    "17" : [ "pair=\"Toronto Blue Jays\"@en", "Coherence=0.481", "triple=e dbp:finalteam \"Toronto Blue Jays\"@en", "class=BaseballPlayer" ],
+    "18" : [ "pair=\"--10-07\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.48", "triple=e dbp:finaldate \"--10-07\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
+    "19" : [ "pair=\"Winning %\"@en", "Coherence=0.479", "triple=e dbp:stat5label \"Winning %\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 8,
   "pattern" : "baseball league",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e_dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 10,
   "pattern" : "boston",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.491", "triple=e_dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:Boston_Red_Sox", "Coherence=0.489", "triple=e_dbp:finalteam dbr:Boston_Red_Sox", "class=BaseballPlayer" ],
-    "2" : [ "pair=dbr:Boston_Braves_(baseball", "Coherence=0.482", "triple=e_dbo:debutTeam dbr:Boston_Braves_(baseball", "class=BaseballPlayer" ],
-    "3" : [ "pair=\"*Boston Red Sox\"@en", "Coherence=0.481", "triple=e_dbp:teams \"*Boston Red Sox\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.491", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:Boston_Red_Sox", "Coherence=0.489", "triple=e dbp:finalteam dbr:Boston_Red_Sox", "class=BaseballPlayer" ],
+    "2" : [ "pair=dbr:Boston_Braves_(baseball", "Coherence=0.482", "triple=e dbo:debutTeam dbr:Boston_Braves_(baseball", "class=BaseballPlayer" ],
+    "3" : [ "pair=\"*Boston Red Sox\"@en", "Coherence=0.481", "triple=e dbp:teams \"*Boston Red Sox\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 11,
   "pattern" : "boston red",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.491", "triple=e_dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.491", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 12,
   "pattern" : "boston red\u001Csox",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.491", "triple=e_dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.491", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 13,
   "pattern" : "boston red sox",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.491", "triple=e_dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.491", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 14,
   "pattern" : "braves",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Boston_Braves_(baseball", "Coherence=0.482", "triple=e_dbo:debutTeam dbr:Boston_Braves_(baseball", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:Boston_Braves_(baseball", "Coherence=0.482", "triple=e dbo:debutTeam dbr:Boston_Braves_(baseball", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 15,
   "pattern" : "browns",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*St. Louis Browns\"@en", "Coherence=0.485", "triple=e_dbp:teams \"*St. Louis Browns\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*St. Louis Browns\"@en", "Coherence=0.485", "triple=e dbp:teams \"*St. Louis Browns\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 16,
   "pattern" : "chicago",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Chicago_Cubs", "Coherence=0.491", "triple=e_dbp:finalteam dbr:Chicago_Cubs", "class=BaseballPlayer" ],
-    "1" : [ "pair=\"*Chicago White Sox\"@en", "Coherence=0.482", "triple=e_dbp:teams \"*Chicago White Sox\"@en", "class=BaseballPlayer" ],
-    "2" : [ "pair=\"*Chicago Cubs\"@en", "Coherence=0.48", "triple=e_dbp:teams \"*Chicago Cubs\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:Chicago_Cubs", "Coherence=0.491", "triple=e dbp:finalteam dbr:Chicago_Cubs", "class=BaseballPlayer" ],
+    "1" : [ "pair=\"*Chicago White Sox\"@en", "Coherence=0.482", "triple=e dbp:teams \"*Chicago White Sox\"@en", "class=BaseballPlayer" ],
+    "2" : [ "pair=\"*Chicago Cubs\"@en", "Coherence=0.48", "triple=e dbp:teams \"*Chicago Cubs\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 17,
   "pattern" : "chicago white",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Chicago White Sox\"@en", "Coherence=0.482", "triple=e_dbp:teams \"*Chicago White Sox\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Chicago White Sox\"@en", "Coherence=0.482", "triple=e dbp:teams \"*Chicago White Sox\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 18,
   "pattern" : "chicago white sox",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Chicago White Sox\"@en", "Coherence=0.482", "triple=e_dbp:teams \"*Chicago White Sox\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Chicago White Sox\"@en", "Coherence=0.482", "triple=e dbp:teams \"*Chicago White Sox\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 19,
   "pattern" : "chunichi",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Chunichi Dragons\"@en", "Coherence=0.495", "triple=e_dbp:team \"Chunichi Dragons\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"Chunichi Dragons\"@en", "Coherence=0.495", "triple=e dbp:team \"Chunichi Dragons\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 20,
   "pattern" : "chunichi dragons",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Chunichi Dragons\"@en", "Coherence=0.495", "triple=e_dbp:team \"Chunichi Dragons\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"Chunichi Dragons\"@en", "Coherence=0.495", "triple=e dbp:team \"Chunichi Dragons\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 21,
   "pattern" : "cincinnati",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"* Cincinnati Reds\"@en", "Coherence=0.49", "triple=e_dbp:teams \"* Cincinnati Reds\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=\"*Cincinnati Reds\"@en", "Coherence=0.487", "triple=e_dbp:teams \"*Cincinnati Reds\"@en", "class=BaseballPlayer" ],
-    "2" : [ "pair=dbr:Cincinnati_Reds", "Coherence=0.483", "triple=e_dbp:debutteam dbr:Cincinnati_Reds", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"* Cincinnati Reds\"@en", "Coherence=0.49", "triple=e dbp:teams \"* Cincinnati Reds\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=\"*Cincinnati Reds\"@en", "Coherence=0.487", "triple=e dbp:teams \"*Cincinnati Reds\"@en", "class=BaseballPlayer" ],
+    "2" : [ "pair=dbr:Cincinnati_Reds", "Coherence=0.483", "triple=e dbp:debutteam dbr:Cincinnati_Reds", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 22,
   "pattern" : "cincinnati reds",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Cincinnati Reds\"@en", "Coherence=0.482", "triple=e_dbp:teams \"*Cincinnati Reds\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Cincinnati Reds\"@en", "Coherence=0.482", "triple=e dbp:teams \"*Cincinnati Reds\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 23,
   "pattern" : "cleveland",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Cleveland Indians\"@en", "Coherence=0.496", "triple=e_dbp:teams \"*Cleveland Indians\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Cleveland Indians\"@en", "Coherence=0.496", "triple=e dbp:teams \"*Cleveland Indians\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 24,
   "pattern" : "cleveland indians",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Cleveland Indians\"@en", "Coherence=0.491", "triple=e_dbp:teams \"*Cleveland Indians\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Cleveland Indians\"@en", "Coherence=0.491", "triple=e dbp:teams \"*Cleveland Indians\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 25,
   "pattern" : "detroit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Detroit Tigers\"@en", "Coherence=0.49", "triple=e_dbp:teams \"*Detroit Tigers\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:Detroit_Tigers", "Coherence=0.482", "triple=e_dbp:debutteam dbr:Detroit_Tigers", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Detroit Tigers\"@en", "Coherence=0.49", "triple=e dbp:teams \"*Detroit Tigers\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:Detroit_Tigers", "Coherence=0.482", "triple=e dbp:debutteam dbr:Detroit_Tigers", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 26,
   "pattern" : "detroit tigers",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Detroit Tigers\"@en", "Coherence=0.49", "triple=e_dbp:teams \"*Detroit Tigers\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:Detroit_Tigers", "Coherence=0.482", "triple=e_dbp:debutteam dbr:Detroit_Tigers", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Detroit Tigers\"@en", "Coherence=0.49", "triple=e dbp:teams \"*Detroit Tigers\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:Detroit_Tigers", "Coherence=0.482", "triple=e dbp:debutteam dbr:Detroit_Tigers", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 27,
   "pattern" : "dragons",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Chunichi Dragons\"@en", "Coherence=0.495", "triple=e_dbp:team \"Chunichi Dragons\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"Chunichi Dragons\"@en", "Coherence=0.495", "triple=e dbp:team \"Chunichi Dragons\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 28,
   "pattern" : "girls",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e_dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 29,
   "pattern" : "girls professional",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e_dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 30,
   "pattern" : "girls professional baseball",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e_dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 31,
   "pattern" : "girls professional baseball\u001Cleague",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e_dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 32,
   "pattern" : "indians",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Cleveland Indians\"@en", "Coherence=0.491", "triple=e_dbp:teams \"*Cleveland Indians\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Cleveland Indians\"@en", "Coherence=0.491", "triple=e dbp:teams \"*Cleveland Indians\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 33,
   "pattern" : "league",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.498", "triple=e_dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:Boston_Red_Sox", "Coherence=0.492", "triple=e_dbp:finalteam dbr:Boston_Red_Sox", "class=BaseballPlayer" ],
-    "2" : [ "pair=dbr:Major_League_Baseball_Player_of_the_Month_Award", "Coherence=0.492", "triple=e_dbp:title dbr:Major_League_Baseball_Player_of_the_Month_Award", "class=BaseballPlayer" ],
-    "3" : [ "pair=\"* All-Star\"@en", "Coherence=0.491", "triple=e_dbp:highlights \"* All-Star\"@en", "class=BaseballPlayer" ],
-    "4" : [ "pair=\"Kansas City Royals\"@en", "Coherence=0.489", "triple=e_dbp:finalteam \"Kansas City Royals\"@en", "class=BaseballPlayer" ],
-    "5" : [ "pair=\"*Cleveland Indians\"@en", "Coherence=0.487", "triple=e_dbp:teams \"*Cleveland Indians\"@en", "class=BaseballPlayer" ],
-    "6" : [ "pair=dbr:San_Francisco", "Coherence=0.487", "triple=e_dbo:birthPlace dbr:San_Francisco", "class=BaseballPlayer" ],
-    "7" : [ "pair=\"KBO\"@en", "Coherence=0.487", "triple=e_dbp:debut2league \"KBO\"@en", "class=BaseballPlayer" ],
-    "8" : [ "pair=\"Games\"@en", "Coherence=0.486", "triple=e_dbp:stat1label \"Games\"@en", "class=BaseballPlayer" ],
-    "9" : [ "pair=\"--09-27\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.486", "triple=e_dbp:debutdate \"--09-27\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
-    "10" : [ "pair=\"Seattle Mariners\"@en", "Coherence=0.486", "triple=e_dbp:finalteam \"Seattle Mariners\"@en", "class=BaseballPlayer" ],
-    "11" : [ "pair=\"Washington Senators\"@en", "Coherence=0.485", "triple=e_dbp:finalteam \"Washington Senators\"@en", "class=BaseballPlayer" ],
-    "12" : [ "pair=dbr:Cleveland_Indians", "Coherence=0.485", "triple=e_dbp:finalteam dbr:Cleveland_Indians", "class=BaseballPlayer" ],
-    "13" : [ "pair=\"--09-06\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.485", "triple=e_dbp:debutdate \"--09-06\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
-    "14" : [ "pair=\"--09-13\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.485", "triple=e_dbp:finaldate \"--09-13\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
-    "15" : [ "pair=\"Veterans Committee\"@en", "Coherence=0.485", "triple=e_dbp:hofmethod \"Veterans Committee\"@en", "class=BaseballPlayer" ],
-    "16" : [ "pair=\"National Baseball Hall of Fame and Museum\"@en", "Coherence=0.485", "triple=e_dbp:hoflink \"National Baseball Hall of Fame and Museum\"@en", "class=BaseballPlayer" ],
-    "17" : [ "pair=dbr:List_of_Major_League_Baseball_no-hitters", "Coherence=0.485", "triple=e_dbp:title dbr:List_of_Major_League_Baseball_no-hitters", "class=BaseballPlayer" ],
-    "18" : [ "pair=dbr:Pinch_hitter", "Coherence=0.484", "triple=e_dbo:position dbr:Pinch_hitter", "class=BaseballPlayer" ],
-    "19" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.483", "triple=e_dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ],
-    "20" : [ "pair=dbr:New_York_Yankees", "Coherence=0.483", "triple=e_dbp:debutteam dbr:New_York_Yankees", "class=BaseballPlayer" ],
-    "21" : [ "pair=dbr:San_Diego_Padres", "Coherence=0.483", "triple=e_dbo:debutTeam dbr:San_Diego_Padres", "class=BaseballPlayer" ],
-    "22" : [ "pair=\"New York Yankees\"@en", "Coherence=0.482", "triple=e_dbp:debutteam \"New York Yankees\"@en", "class=BaseballPlayer" ],
-    "23" : [ "pair=\"--09-05\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.482", "triple=e_dbp:debutdate \"--09-05\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
-    "24" : [ "pair=dbr:Pittsburgh_Pirates", "Coherence=0.482", "triple=e_dbp:finalteam dbr:Pittsburgh_Pirates", "class=BaseballPlayer" ],
-    "25" : [ "pair=dbr:Manager_(baseball", "Coherence=0.482", "triple=e_dbp:title dbr:Manager_(baseball", "class=BaseballPlayer" ],
-    "26" : [ "pair=\"San Diego Padres\"@en", "Coherence=0.482", "triple=e_dbp:debutteam \"San Diego Padres\"@en", "class=BaseballPlayer" ],
-    "27" : [ "pair=dbr:Hitting_for_the_cycle", "Coherence=0.481", "triple=e_dbp:title dbr:Hitting_for_the_cycle", "class=BaseballPlayer" ],
-    "28" : [ "pair=\"--04-23\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.481", "triple=e_dbp:debutdate \"--04-23\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
-    "29" : [ "pair=\"Chicago Cubs\"@en", "Coherence=0.481", "triple=e_dbp:finalteam \"Chicago Cubs\"@en", "class=BaseballPlayer" ],
-    "30" : [ "pair=\"Toronto Blue Jays\"@en", "Coherence=0.481", "triple=e_dbp:finalteam \"Toronto Blue Jays\"@en", "class=BaseballPlayer" ],
-    "31" : [ "pair=\"--09-09\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.48", "triple=e_dbp:debutdate \"--09-09\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
-    "32" : [ "pair=\"--09-19\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.48", "triple=e_dbp:debutdate \"--09-19\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
-    "33" : [ "pair=\"Atlanta Braves\"@en", "Coherence=0.48", "triple=e_dbp:debutteam \"Atlanta Braves\"@en", "class=BaseballPlayer" ],
-    "34" : [ "pair=\"--09-22\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.48", "triple=e_dbp:finaldate \"--09-22\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
-    "35" : [ "pair=dbr:Baltimore_Orioles", "Coherence=0.48", "triple=e_dbo:debutTeam dbr:Baltimore_Orioles", "class=BaseballPlayer" ],
-    "36" : [ "pair=dbr:Cincinnati", "Coherence=0.479", "triple=e_dbp:birthPlace dbr:Cincinnati", "class=BaseballPlayer" ],
-    "37" : [ "pair=dbr:History_of_the_Boston_Braves", "Coherence=0.479", "triple=e_dbp:debutteam dbr:History_of_the_Boston_Braves", "class=BaseballPlayer" ],
-    "38" : [ "pair=\"Chicago White Sox\"@en", "Coherence=0.479", "triple=e_dbp:finalteam \"Chicago White Sox\"@en", "class=BaseballPlayer" ],
-    "39" : [ "pair=\"--10-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.479", "triple=e_dbp:finaldate \"--10-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
-    "40" : [ "pair=dbr:Toronto_Blue_Jays", "Coherence=0.479", "triple=e_dbo:debutTeam dbr:Toronto_Blue_Jays", "class=BaseballPlayer" ],
-    "41" : [ "pair=\"Philadelphia Phillies\"@en", "Coherence=0.479", "triple=e_dbp:debutteam \"Philadelphia Phillies\"@en", "class=BaseballPlayer" ],
-    "42" : [ "pair=\"Detroit Tigers\"@en", "Coherence=0.479", "triple=e_dbp:finalteam \"Detroit Tigers\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.498", "triple=e dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:Boston_Red_Sox", "Coherence=0.492", "triple=e dbp:finalteam dbr:Boston_Red_Sox", "class=BaseballPlayer" ],
+    "2" : [ "pair=dbr:Major_League_Baseball_Player_of_the_Month_Award", "Coherence=0.492", "triple=e dbp:title dbr:Major_League_Baseball_Player_of_the_Month_Award", "class=BaseballPlayer" ],
+    "3" : [ "pair=\"* All-Star\"@en", "Coherence=0.491", "triple=e dbp:highlights \"* All-Star\"@en", "class=BaseballPlayer" ],
+    "4" : [ "pair=\"Kansas City Royals\"@en", "Coherence=0.489", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=BaseballPlayer" ],
+    "5" : [ "pair=\"*Cleveland Indians\"@en", "Coherence=0.487", "triple=e dbp:teams \"*Cleveland Indians\"@en", "class=BaseballPlayer" ],
+    "6" : [ "pair=dbr:San_Francisco", "Coherence=0.487", "triple=e dbo:birthPlace dbr:San_Francisco", "class=BaseballPlayer" ],
+    "7" : [ "pair=\"KBO\"@en", "Coherence=0.487", "triple=e dbp:debut2league \"KBO\"@en", "class=BaseballPlayer" ],
+    "8" : [ "pair=\"Games\"@en", "Coherence=0.486", "triple=e dbp:stat1label \"Games\"@en", "class=BaseballPlayer" ],
+    "9" : [ "pair=\"--09-27\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.486", "triple=e dbp:debutdate \"--09-27\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
+    "10" : [ "pair=\"Seattle Mariners\"@en", "Coherence=0.486", "triple=e dbp:finalteam \"Seattle Mariners\"@en", "class=BaseballPlayer" ],
+    "11" : [ "pair=\"Washington Senators\"@en", "Coherence=0.485", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=BaseballPlayer" ],
+    "12" : [ "pair=dbr:Cleveland_Indians", "Coherence=0.485", "triple=e dbp:finalteam dbr:Cleveland_Indians", "class=BaseballPlayer" ],
+    "13" : [ "pair=\"--09-06\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.485", "triple=e dbp:debutdate \"--09-06\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
+    "14" : [ "pair=\"--09-13\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.485", "triple=e dbp:finaldate \"--09-13\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
+    "15" : [ "pair=\"Veterans Committee\"@en", "Coherence=0.485", "triple=e dbp:hofmethod \"Veterans Committee\"@en", "class=BaseballPlayer" ],
+    "16" : [ "pair=\"National Baseball Hall of Fame and Museum\"@en", "Coherence=0.485", "triple=e dbp:hoflink \"National Baseball Hall of Fame and Museum\"@en", "class=BaseballPlayer" ],
+    "17" : [ "pair=dbr:List_of_Major_League_Baseball_no-hitters", "Coherence=0.485", "triple=e dbp:title dbr:List_of_Major_League_Baseball_no-hitters", "class=BaseballPlayer" ],
+    "18" : [ "pair=dbr:Pinch_hitter", "Coherence=0.484", "triple=e dbo:position dbr:Pinch_hitter", "class=BaseballPlayer" ],
+    "19" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.483", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ],
+    "20" : [ "pair=dbr:New_York_Yankees", "Coherence=0.483", "triple=e dbp:debutteam dbr:New_York_Yankees", "class=BaseballPlayer" ],
+    "21" : [ "pair=dbr:San_Diego_Padres", "Coherence=0.483", "triple=e dbo:debutTeam dbr:San_Diego_Padres", "class=BaseballPlayer" ],
+    "22" : [ "pair=\"New York Yankees\"@en", "Coherence=0.482", "triple=e dbp:debutteam \"New York Yankees\"@en", "class=BaseballPlayer" ],
+    "23" : [ "pair=\"--09-05\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.482", "triple=e dbp:debutdate \"--09-05\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
+    "24" : [ "pair=dbr:Pittsburgh_Pirates", "Coherence=0.482", "triple=e dbp:finalteam dbr:Pittsburgh_Pirates", "class=BaseballPlayer" ],
+    "25" : [ "pair=dbr:Manager_(baseball", "Coherence=0.482", "triple=e dbp:title dbr:Manager_(baseball", "class=BaseballPlayer" ],
+    "26" : [ "pair=\"San Diego Padres\"@en", "Coherence=0.482", "triple=e dbp:debutteam \"San Diego Padres\"@en", "class=BaseballPlayer" ],
+    "27" : [ "pair=dbr:Hitting_for_the_cycle", "Coherence=0.481", "triple=e dbp:title dbr:Hitting_for_the_cycle", "class=BaseballPlayer" ],
+    "28" : [ "pair=\"--04-23\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.481", "triple=e dbp:debutdate \"--04-23\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
+    "29" : [ "pair=\"Chicago Cubs\"@en", "Coherence=0.481", "triple=e dbp:finalteam \"Chicago Cubs\"@en", "class=BaseballPlayer" ],
+    "30" : [ "pair=\"Toronto Blue Jays\"@en", "Coherence=0.481", "triple=e dbp:finalteam \"Toronto Blue Jays\"@en", "class=BaseballPlayer" ],
+    "31" : [ "pair=\"--09-09\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.48", "triple=e dbp:debutdate \"--09-09\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
+    "32" : [ "pair=\"--09-19\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.48", "triple=e dbp:debutdate \"--09-19\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
+    "33" : [ "pair=\"Atlanta Braves\"@en", "Coherence=0.48", "triple=e dbp:debutteam \"Atlanta Braves\"@en", "class=BaseballPlayer" ],
+    "34" : [ "pair=\"--09-22\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.48", "triple=e dbp:finaldate \"--09-22\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
+    "35" : [ "pair=dbr:Baltimore_Orioles", "Coherence=0.48", "triple=e dbo:debutTeam dbr:Baltimore_Orioles", "class=BaseballPlayer" ],
+    "36" : [ "pair=dbr:Cincinnati", "Coherence=0.479", "triple=e dbp:birthPlace dbr:Cincinnati", "class=BaseballPlayer" ],
+    "37" : [ "pair=dbr:History_of_the_Boston_Braves", "Coherence=0.479", "triple=e dbp:debutteam dbr:History_of_the_Boston_Braves", "class=BaseballPlayer" ],
+    "38" : [ "pair=\"Chicago White Sox\"@en", "Coherence=0.479", "triple=e dbp:finalteam \"Chicago White Sox\"@en", "class=BaseballPlayer" ],
+    "39" : [ "pair=\"--10-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.479", "triple=e dbp:finaldate \"--10-01\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
+    "40" : [ "pair=dbr:Toronto_Blue_Jays", "Coherence=0.479", "triple=e dbo:debutTeam dbr:Toronto_Blue_Jays", "class=BaseballPlayer" ],
+    "41" : [ "pair=\"Philadelphia Phillies\"@en", "Coherence=0.479", "triple=e dbp:debutteam \"Philadelphia Phillies\"@en", "class=BaseballPlayer" ],
+    "42" : [ "pair=\"Detroit Tigers\"@en", "Coherence=0.479", "triple=e dbp:finalteam \"Detroit Tigers\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 34,
   "pattern" : "league baseball",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Major_League_Baseball_Player_of_the_Month_Award", "Coherence=0.489", "triple=e_dbp:title dbr:Major_League_Baseball_Player_of_the_Month_Award", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:Boston_Red_Sox", "Coherence=0.485", "triple=e_dbp:finalteam dbr:Boston_Red_Sox", "class=BaseballPlayer" ],
-    "2" : [ "pair=\"KBO\"@en", "Coherence=0.483", "triple=e_dbp:debut2league \"KBO\"@en", "class=BaseballPlayer" ],
-    "3" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.483", "triple=e_dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ],
-    "4" : [ "pair=dbr:San_Francisco", "Coherence=0.483", "triple=e_dbo:birthPlace dbr:San_Francisco", "class=BaseballPlayer" ],
-    "5" : [ "pair=\"Seattle Mariners\"@en", "Coherence=0.482", "triple=e_dbp:finalteam \"Seattle Mariners\"@en", "class=BaseballPlayer" ],
-    "6" : [ "pair=\"Washington Senators\"@en", "Coherence=0.482", "triple=e_dbp:finalteam \"Washington Senators\"@en", "class=BaseballPlayer" ],
-    "7" : [ "pair=\"Kansas City Royals\"@en", "Coherence=0.48", "triple=e_dbp:finalteam \"Kansas City Royals\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:Major_League_Baseball_Player_of_the_Month_Award", "Coherence=0.489", "triple=e dbp:title dbr:Major_League_Baseball_Player_of_the_Month_Award", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:Boston_Red_Sox", "Coherence=0.485", "triple=e dbp:finalteam dbr:Boston_Red_Sox", "class=BaseballPlayer" ],
+    "2" : [ "pair=\"KBO\"@en", "Coherence=0.483", "triple=e dbp:debut2league \"KBO\"@en", "class=BaseballPlayer" ],
+    "3" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.483", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ],
+    "4" : [ "pair=dbr:San_Francisco", "Coherence=0.483", "triple=e dbo:birthPlace dbr:San_Francisco", "class=BaseballPlayer" ],
+    "5" : [ "pair=\"Seattle Mariners\"@en", "Coherence=0.482", "triple=e dbp:finalteam \"Seattle Mariners\"@en", "class=BaseballPlayer" ],
+    "6" : [ "pair=\"Washington Senators\"@en", "Coherence=0.482", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=BaseballPlayer" ],
+    "7" : [ "pair=\"Kansas City Royals\"@en", "Coherence=0.48", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 35,
   "pattern" : "louis",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*St. Louis Browns\"@en", "Coherence=0.49", "triple=e_dbp:teams \"*St. Louis Browns\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:St._Louis_Cardinals", "Coherence=0.483", "triple=e_dbp:finalteam dbr:St._Louis_Cardinals", "class=BaseballPlayer" ],
-    "2" : [ "pair=dbr:History_of_the_St._Louis_Browns", "Coherence=0.482", "triple=e_dbp:debutteam dbr:History_of_the_St._Louis_Browns", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*St. Louis Browns\"@en", "Coherence=0.49", "triple=e dbp:teams \"*St. Louis Browns\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:St._Louis_Cardinals", "Coherence=0.483", "triple=e dbp:finalteam dbr:St._Louis_Cardinals", "class=BaseballPlayer" ],
+    "2" : [ "pair=dbr:History_of_the_St._Louis_Browns", "Coherence=0.482", "triple=e dbp:debutteam dbr:History_of_the_St._Louis_Browns", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 36,
   "pattern" : "louis browns",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*St. Louis Browns\"@en", "Coherence=0.485", "triple=e_dbp:teams \"*St. Louis Browns\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*St. Louis Browns\"@en", "Coherence=0.485", "triple=e dbp:teams \"*St. Louis Browns\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 38,
   "pattern" : "major league",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Major_League_Baseball_Player_of_the_Month_Award", "Coherence=0.492", "triple=e_dbp:title dbr:Major_League_Baseball_Player_of_the_Month_Award", "class=BaseballPlayer" ],
-    "1" : [ "pair=\"Kansas City Royals\"@en", "Coherence=0.486", "triple=e_dbp:finalteam \"Kansas City Royals\"@en", "class=BaseballPlayer" ],
-    "2" : [ "pair=\"Washington Senators\"@en", "Coherence=0.485", "triple=e_dbp:finalteam \"Washington Senators\"@en", "class=BaseballPlayer" ],
-    "3" : [ "pair=dbr:Boston_Red_Sox", "Coherence=0.485", "triple=e_dbp:finalteam dbr:Boston_Red_Sox", "class=BaseballPlayer" ],
-    "4" : [ "pair=dbr:Pinch_hitter", "Coherence=0.484", "triple=e_dbo:position dbr:Pinch_hitter", "class=BaseballPlayer" ],
-    "5" : [ "pair=\"KBO\"@en", "Coherence=0.483", "triple=e_dbp:debut2league \"KBO\"@en", "class=BaseballPlayer" ],
-    "6" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.483", "triple=e_dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ],
-    "7" : [ "pair=\"*Cleveland Indians\"@en", "Coherence=0.483", "triple=e_dbp:teams \"*Cleveland Indians\"@en", "class=BaseballPlayer" ],
-    "8" : [ "pair=dbr:New_York_Yankees", "Coherence=0.483", "triple=e_dbp:debutteam dbr:New_York_Yankees", "class=BaseballPlayer" ],
-    "9" : [ "pair=dbr:San_Francisco", "Coherence=0.483", "triple=e_dbo:birthPlace dbr:San_Francisco", "class=BaseballPlayer" ],
-    "10" : [ "pair=\"Seattle Mariners\"@en", "Coherence=0.482", "triple=e_dbp:finalteam \"Seattle Mariners\"@en", "class=BaseballPlayer" ],
-    "11" : [ "pair=dbr:Cleveland_Indians", "Coherence=0.48", "triple=e_dbp:finalteam dbr:Cleveland_Indians", "class=BaseballPlayer" ],
-    "12" : [ "pair=\"--09-19\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.48", "triple=e_dbp:debutdate \"--09-19\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
-    "13" : [ "pair=\"--09-06\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.479", "triple=e_dbp:debutdate \"--09-06\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
-    "14" : [ "pair=\"* All-Star\"@en", "Coherence=0.479", "triple=e_dbp:highlights \"* All-Star\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:Major_League_Baseball_Player_of_the_Month_Award", "Coherence=0.492", "triple=e dbp:title dbr:Major_League_Baseball_Player_of_the_Month_Award", "class=BaseballPlayer" ],
+    "1" : [ "pair=\"Kansas City Royals\"@en", "Coherence=0.486", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=BaseballPlayer" ],
+    "2" : [ "pair=\"Washington Senators\"@en", "Coherence=0.485", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=BaseballPlayer" ],
+    "3" : [ "pair=dbr:Boston_Red_Sox", "Coherence=0.485", "triple=e dbp:finalteam dbr:Boston_Red_Sox", "class=BaseballPlayer" ],
+    "4" : [ "pair=dbr:Pinch_hitter", "Coherence=0.484", "triple=e dbo:position dbr:Pinch_hitter", "class=BaseballPlayer" ],
+    "5" : [ "pair=\"KBO\"@en", "Coherence=0.483", "triple=e dbp:debut2league \"KBO\"@en", "class=BaseballPlayer" ],
+    "6" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.483", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ],
+    "7" : [ "pair=\"*Cleveland Indians\"@en", "Coherence=0.483", "triple=e dbp:teams \"*Cleveland Indians\"@en", "class=BaseballPlayer" ],
+    "8" : [ "pair=dbr:New_York_Yankees", "Coherence=0.483", "triple=e dbp:debutteam dbr:New_York_Yankees", "class=BaseballPlayer" ],
+    "9" : [ "pair=dbr:San_Francisco", "Coherence=0.483", "triple=e dbo:birthPlace dbr:San_Francisco", "class=BaseballPlayer" ],
+    "10" : [ "pair=\"Seattle Mariners\"@en", "Coherence=0.482", "triple=e dbp:finalteam \"Seattle Mariners\"@en", "class=BaseballPlayer" ],
+    "11" : [ "pair=dbr:Cleveland_Indians", "Coherence=0.48", "triple=e dbp:finalteam dbr:Cleveland_Indians", "class=BaseballPlayer" ],
+    "12" : [ "pair=\"--09-19\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.48", "triple=e dbp:debutdate \"--09-19\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
+    "13" : [ "pair=\"--09-06\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.479", "triple=e dbp:debutdate \"--09-06\"^^<http://www.w3.org/2001/XMLSchema#gMonthDay>", "class=BaseballPlayer" ],
+    "14" : [ "pair=\"* All-Star\"@en", "Coherence=0.479", "triple=e dbp:highlights \"* All-Star\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 39,
   "pattern" : "major league baseball",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Major_League_Baseball_Player_of_the_Month_Award", "Coherence=0.489", "triple=e_dbp:title dbr:Major_League_Baseball_Player_of_the_Month_Award", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:Boston_Red_Sox", "Coherence=0.485", "triple=e_dbp:finalteam dbr:Boston_Red_Sox", "class=BaseballPlayer" ],
-    "2" : [ "pair=\"KBO\"@en", "Coherence=0.483", "triple=e_dbp:debut2league \"KBO\"@en", "class=BaseballPlayer" ],
-    "3" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.483", "triple=e_dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ],
-    "4" : [ "pair=dbr:San_Francisco", "Coherence=0.483", "triple=e_dbo:birthPlace dbr:San_Francisco", "class=BaseballPlayer" ],
-    "5" : [ "pair=\"Seattle Mariners\"@en", "Coherence=0.482", "triple=e_dbp:finalteam \"Seattle Mariners\"@en", "class=BaseballPlayer" ],
-    "6" : [ "pair=\"Washington Senators\"@en", "Coherence=0.482", "triple=e_dbp:finalteam \"Washington Senators\"@en", "class=BaseballPlayer" ],
-    "7" : [ "pair=\"Kansas City Royals\"@en", "Coherence=0.48", "triple=e_dbp:finalteam \"Kansas City Royals\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:Major_League_Baseball_Player_of_the_Month_Award", "Coherence=0.489", "triple=e dbp:title dbr:Major_League_Baseball_Player_of_the_Month_Award", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:Boston_Red_Sox", "Coherence=0.485", "triple=e dbp:finalteam dbr:Boston_Red_Sox", "class=BaseballPlayer" ],
+    "2" : [ "pair=\"KBO\"@en", "Coherence=0.483", "triple=e dbp:debut2league \"KBO\"@en", "class=BaseballPlayer" ],
+    "3" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.483", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ],
+    "4" : [ "pair=dbr:San_Francisco", "Coherence=0.483", "triple=e dbo:birthPlace dbr:San_Francisco", "class=BaseballPlayer" ],
+    "5" : [ "pair=\"Seattle Mariners\"@en", "Coherence=0.482", "triple=e dbp:finalteam \"Seattle Mariners\"@en", "class=BaseballPlayer" ],
+    "6" : [ "pair=\"Washington Senators\"@en", "Coherence=0.482", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=BaseballPlayer" ],
+    "7" : [ "pair=\"Kansas City Royals\"@en", "Coherence=0.48", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 40,
   "pattern" : "manager",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Managerial record\"@en", "Coherence=0.489", "triple=e_dbp:stat4label \"Managerial record\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=\"Winning %\"@en", "Coherence=0.488", "triple=e_dbp:stat5label \"Winning %\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"Managerial record\"@en", "Coherence=0.489", "triple=e dbp:stat4label \"Managerial record\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=\"Winning %\"@en", "Coherence=0.488", "triple=e dbp:stat5label \"Winning %\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 41,
   "pattern" : "new",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_Yankees", "Coherence=0.478", "triple=e_dbp:debutteam dbr:New_York_Yankees", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:New_York_Yankees", "Coherence=0.478", "triple=e dbp:debutteam dbr:New_York_Yankees", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 42,
   "pattern" : "new york",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_Yankees", "Coherence=0.478", "triple=e_dbp:debutteam dbr:New_York_Yankees", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:New_York_Yankees", "Coherence=0.478", "triple=e dbp:debutteam dbr:New_York_Yankees", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 43,
   "pattern" : "philadelphia",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"* Philadelphia Phillies\"@en", "Coherence=0.496", "triple=e_dbp:teams \"* Philadelphia Phillies\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:Philadelphia_Phillies", "Coherence=0.494", "triple=e_dbp:debutteam dbr:Philadelphia_Phillies", "class=BaseballPlayer" ],
-    "2" : [ "pair=\"*Philadelphia Phillies\"@en", "Coherence=0.491", "triple=e_dbp:teams \"*Philadelphia Phillies\"@en", "class=BaseballPlayer" ],
-    "3" : [ "pair=\"*Philadelphia Athletics\"@en", "Coherence=0.483", "triple=e_dbp:teams \"*Philadelphia Athletics\"@en", "class=BaseballPlayer" ],
-    "4" : [ "pair=dbr:Philadelphia_Athletics", "Coherence=0.48", "triple=e_dbo:debutTeam dbr:Philadelphia_Athletics", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"* Philadelphia Phillies\"@en", "Coherence=0.496", "triple=e dbp:teams \"* Philadelphia Phillies\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:Philadelphia_Phillies", "Coherence=0.494", "triple=e dbp:debutteam dbr:Philadelphia_Phillies", "class=BaseballPlayer" ],
+    "2" : [ "pair=\"*Philadelphia Phillies\"@en", "Coherence=0.491", "triple=e dbp:teams \"*Philadelphia Phillies\"@en", "class=BaseballPlayer" ],
+    "3" : [ "pair=\"*Philadelphia Athletics\"@en", "Coherence=0.483", "triple=e dbp:teams \"*Philadelphia Athletics\"@en", "class=BaseballPlayer" ],
+    "4" : [ "pair=dbr:Philadelphia_Athletics", "Coherence=0.48", "triple=e dbo:debutTeam dbr:Philadelphia_Athletics", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 44,
   "pattern" : "philadelphia athletics",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Philadelphia Athletics\"@en", "Coherence=0.483", "triple=e_dbp:teams \"*Philadelphia Athletics\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Philadelphia Athletics\"@en", "Coherence=0.483", "triple=e dbp:teams \"*Philadelphia Athletics\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 45,
   "pattern" : "philadelphia phillies",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"* Philadelphia Phillies\"@en", "Coherence=0.496", "triple=e_dbp:teams \"* Philadelphia Phillies\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:Philadelphia_Phillies", "Coherence=0.491", "triple=e_dbp:debutteam dbr:Philadelphia_Phillies", "class=BaseballPlayer" ],
-    "2" : [ "pair=\"*Philadelphia Phillies\"@en", "Coherence=0.489", "triple=e_dbp:teams \"*Philadelphia Phillies\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"* Philadelphia Phillies\"@en", "Coherence=0.496", "triple=e dbp:teams \"* Philadelphia Phillies\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:Philadelphia_Phillies", "Coherence=0.491", "triple=e dbp:debutteam dbr:Philadelphia_Phillies", "class=BaseballPlayer" ],
+    "2" : [ "pair=\"*Philadelphia Phillies\"@en", "Coherence=0.489", "triple=e dbp:teams \"*Philadelphia Phillies\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 46,
   "pattern" : "phillies",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"* Philadelphia Phillies\"@en", "Coherence=0.496", "triple=e_dbp:teams \"* Philadelphia Phillies\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:Philadelphia_Phillies", "Coherence=0.491", "triple=e_dbp:debutteam dbr:Philadelphia_Phillies", "class=BaseballPlayer" ],
-    "2" : [ "pair=\"*Philadelphia Phillies\"@en", "Coherence=0.489", "triple=e_dbp:teams \"*Philadelphia Phillies\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"* Philadelphia Phillies\"@en", "Coherence=0.496", "triple=e dbp:teams \"* Philadelphia Phillies\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:Philadelphia_Phillies", "Coherence=0.491", "triple=e dbp:debutteam dbr:Philadelphia_Phillies", "class=BaseballPlayer" ],
+    "2" : [ "pair=\"*Philadelphia Phillies\"@en", "Coherence=0.489", "triple=e dbp:teams \"*Philadelphia Phillies\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 47,
   "pattern" : "pirates",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Pittsburgh_Pirates", "Coherence=0.495", "triple=e_dbp:finalteam dbr:Pittsburgh_Pirates", "class=BaseballPlayer" ],
-    "1" : [ "pair=\"*Pittsburgh Pirates\"@en", "Coherence=0.485", "triple=e_dbp:teams \"*Pittsburgh Pirates\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:Pittsburgh_Pirates", "Coherence=0.495", "triple=e dbp:finalteam dbr:Pittsburgh_Pirates", "class=BaseballPlayer" ],
+    "1" : [ "pair=\"*Pittsburgh Pirates\"@en", "Coherence=0.485", "triple=e dbp:teams \"*Pittsburgh Pirates\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 48,
   "pattern" : "pitcher",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Earned_run_average", "Coherence=0.496", "triple=e_dbp:stat22label dbr:Earned_run_average", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:Winâloss_record_(pitching", "Coherence=0.496", "triple=e_dbp:stat21label dbr:Winâloss_record_(pitching", "class=BaseballPlayer" ],
-    "2" : [ "pair=dbr:List_of_Major_League_Baseball_no-hitters", "Coherence=0.492", "triple=e_dbp:title dbr:List_of_Major_League_Baseball_no-hitters", "class=BaseballPlayer" ],
-    "3" : [ "pair=\"Strikeouts\"@en", "Coherence=0.492", "triple=e_dbp:stat23label \"Strikeouts\"@en", "class=BaseballPlayer" ],
-    "4" : [ "pair=dbr:Save_(baseball", "Coherence=0.492", "triple=e_dbp:stat4label dbr:Save_(baseball", "class=BaseballPlayer" ],
-    "5" : [ "pair=dbr:Innings_pitched", "Coherence=0.49", "triple=e_dbp:stat2label dbr:Innings_pitched", "class=BaseballPlayer" ],
-    "6" : [ "pair=\"Earned run average\"@en", "Coherence=0.489", "triple=e_dbp:stat22label \"Earned run average\"@en", "class=BaseballPlayer" ],
-    "7" : [ "pair=\"Winâloss record\"@en", "Coherence=0.488", "triple=e_dbp:stat21label \"Winâloss record\"@en", "class=BaseballPlayer" ],
-    "8" : [ "pair=dbr:Relief_pitcher", "Coherence=0.48", "triple=e_dbo:position dbr:Relief_pitcher", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:Earned_run_average", "Coherence=0.496", "triple=e dbp:stat22label dbr:Earned_run_average", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:Winâloss_record_(pitching", "Coherence=0.496", "triple=e dbp:stat21label dbr:Winâloss_record_(pitching", "class=BaseballPlayer" ],
+    "2" : [ "pair=dbr:List_of_Major_League_Baseball_no-hitters", "Coherence=0.492", "triple=e dbp:title dbr:List_of_Major_League_Baseball_no-hitters", "class=BaseballPlayer" ],
+    "3" : [ "pair=\"Strikeouts\"@en", "Coherence=0.492", "triple=e dbp:stat23label \"Strikeouts\"@en", "class=BaseballPlayer" ],
+    "4" : [ "pair=dbr:Save_(baseball", "Coherence=0.492", "triple=e dbp:stat4label dbr:Save_(baseball", "class=BaseballPlayer" ],
+    "5" : [ "pair=dbr:Innings_pitched", "Coherence=0.49", "triple=e dbp:stat2label dbr:Innings_pitched", "class=BaseballPlayer" ],
+    "6" : [ "pair=\"Earned run average\"@en", "Coherence=0.489", "triple=e dbp:stat22label \"Earned run average\"@en", "class=BaseballPlayer" ],
+    "7" : [ "pair=\"Winâloss record\"@en", "Coherence=0.488", "triple=e dbp:stat21label \"Winâloss record\"@en", "class=BaseballPlayer" ],
+    "8" : [ "pair=dbr:Relief_pitcher", "Coherence=0.48", "triple=e dbo:position dbr:Relief_pitcher", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 49,
   "pattern" : "pittsburgh",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Pittsburgh_Pirates", "Coherence=0.495", "triple=e_dbp:finalteam dbr:Pittsburgh_Pirates", "class=BaseballPlayer" ],
-    "1" : [ "pair=\"*Pittsburgh Pirates\"@en", "Coherence=0.485", "triple=e_dbp:teams \"*Pittsburgh Pirates\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:Pittsburgh_Pirates", "Coherence=0.495", "triple=e dbp:finalteam dbr:Pittsburgh_Pirates", "class=BaseballPlayer" ],
+    "1" : [ "pair=\"*Pittsburgh Pirates\"@en", "Coherence=0.485", "triple=e dbp:teams \"*Pittsburgh Pirates\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 50,
   "pattern" : "pittsburgh pirates",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Pittsburgh_Pirates", "Coherence=0.495", "triple=e_dbp:finalteam dbr:Pittsburgh_Pirates", "class=BaseballPlayer" ],
-    "1" : [ "pair=\"*Pittsburgh Pirates\"@en", "Coherence=0.482", "triple=e_dbp:teams \"*Pittsburgh Pirates\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:Pittsburgh_Pirates", "Coherence=0.495", "triple=e dbp:finalteam dbr:Pittsburgh_Pirates", "class=BaseballPlayer" ],
+    "1" : [ "pair=\"*Pittsburgh Pirates\"@en", "Coherence=0.482", "triple=e dbp:teams \"*Pittsburgh Pirates\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 52,
   "pattern" : "professional baseball",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e_dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ],
-    "1" : [ "pair=\"Free agent\"@en", "Coherence=0.492", "triple=e_dbp:team \"Free agent\"@en", "class=BaseballPlayer" ],
-    "2" : [ "pair=dbr:Free_agent", "Coherence=0.489", "triple=e_dbo:team dbr:Free_agent", "class=BaseballPlayer" ],
-    "3" : [ "pair=\"KBO\"@en", "Coherence=0.487", "triple=e_dbp:debut2league \"KBO\"@en", "class=BaseballPlayer" ],
-    "4" : [ "pair=dbr:Winâloss_record_(pitching", "Coherence=0.479", "triple=e_dbp:stat21label dbr:Winâloss_record_(pitching", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ],
+    "1" : [ "pair=\"Free agent\"@en", "Coherence=0.492", "triple=e dbp:team \"Free agent\"@en", "class=BaseballPlayer" ],
+    "2" : [ "pair=dbr:Free_agent", "Coherence=0.489", "triple=e dbo:team dbr:Free_agent", "class=BaseballPlayer" ],
+    "3" : [ "pair=\"KBO\"@en", "Coherence=0.487", "triple=e dbp:debut2league \"KBO\"@en", "class=BaseballPlayer" ],
+    "4" : [ "pair=dbr:Winâloss_record_(pitching", "Coherence=0.479", "triple=e dbp:stat21label dbr:Winâloss_record_(pitching", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 53,
   "pattern" : "professional baseball league",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e_dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e dbp:team dbr:All-American_Girls_Professional_Baseball_League", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 54,
   "pattern" : "red sox",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.491", "triple=e_dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.491", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 55,
   "pattern" : "reds",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Cincinnati Reds\"@en", "Coherence=0.482", "triple=e_dbp:teams \"*Cincinnati Reds\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Cincinnati Reds\"@en", "Coherence=0.482", "triple=e dbp:teams \"*Cincinnati Reds\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 56,
   "pattern" : "senators",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Washington Senators\"@en", "Coherence=0.493", "triple=e_dbp:teams \"*Washington Senators\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:History_of_the_Washington_Senators_(1901â1960", "Coherence=0.486", "triple=e_dbp:debutteam dbr:History_of_the_Washington_Senators_(1901â1960", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Washington Senators\"@en", "Coherence=0.493", "triple=e dbp:teams \"*Washington Senators\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:History_of_the_Washington_Senators_(1901â1960", "Coherence=0.486", "triple=e dbp:debutteam dbr:History_of_the_Washington_Senators_(1901â1960", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 57,
   "pattern" : "st louis",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*St. Louis Browns\"@en", "Coherence=0.49", "triple=e_dbp:teams \"*St. Louis Browns\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:History_of_the_St._Louis_Browns", "Coherence=0.482", "triple=e_dbp:debutteam dbr:History_of_the_St._Louis_Browns", "class=BaseballPlayer" ],
-    "2" : [ "pair=dbr:St._Louis_Cardinals", "Coherence=0.48", "triple=e_dbp:finalteam dbr:St._Louis_Cardinals", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*St. Louis Browns\"@en", "Coherence=0.49", "triple=e dbp:teams \"*St. Louis Browns\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:History_of_the_St._Louis_Browns", "Coherence=0.482", "triple=e dbp:debutteam dbr:History_of_the_St._Louis_Browns", "class=BaseballPlayer" ],
+    "2" : [ "pair=dbr:St._Louis_Cardinals", "Coherence=0.48", "triple=e dbp:finalteam dbr:St._Louis_Cardinals", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 58,
   "pattern" : "st louis browns",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*St. Louis Browns\"@en", "Coherence=0.485", "triple=e_dbp:teams \"*St. Louis Browns\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*St. Louis Browns\"@en", "Coherence=0.485", "triple=e dbp:teams \"*St. Louis Browns\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 59,
   "pattern" : "tigers",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Detroit Tigers\"@en", "Coherence=0.49", "triple=e_dbp:teams \"*Detroit Tigers\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:Detroit_Tigers", "Coherence=0.482", "triple=e_dbp:debutteam dbr:Detroit_Tigers", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Detroit Tigers\"@en", "Coherence=0.49", "triple=e dbp:teams \"*Detroit Tigers\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:Detroit_Tigers", "Coherence=0.482", "triple=e dbp:debutteam dbr:Detroit_Tigers", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 60,
   "pattern" : "washington",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Washington Senators\"@en", "Coherence=0.49", "triple=e_dbp:teams \"*Washington Senators\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:History_of_the_Washington_Senators_(1901â1960", "Coherence=0.486", "triple=e_dbp:debutteam dbr:History_of_the_Washington_Senators_(1901â1960", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Washington Senators\"@en", "Coherence=0.49", "triple=e dbp:teams \"*Washington Senators\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:History_of_the_Washington_Senators_(1901â1960", "Coherence=0.486", "triple=e dbp:debutteam dbr:History_of_the_Washington_Senators_(1901â1960", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 61,
   "pattern" : "washington senators",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Washington Senators\"@en", "Coherence=0.49", "triple=e_dbp:teams \"*Washington Senators\"@en", "class=BaseballPlayer" ],
-    "1" : [ "pair=dbr:History_of_the_Washington_Senators_(1901â1960", "Coherence=0.486", "triple=e_dbp:debutteam dbr:History_of_the_Washington_Senators_(1901â1960", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Washington Senators\"@en", "Coherence=0.49", "triple=e dbp:teams \"*Washington Senators\"@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=dbr:History_of_the_Washington_Senators_(1901â1960", "Coherence=0.486", "triple=e dbp:debutteam dbr:History_of_the_Washington_Senators_(1901â1960", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 62,
   "pattern" : "white",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Chicago White Sox\"@en", "Coherence=0.485", "triple=e_dbp:teams \"*Chicago White Sox\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Chicago White Sox\"@en", "Coherence=0.485", "triple=e dbp:teams \"*Chicago White Sox\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 63,
   "pattern" : "white sox",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"*Chicago White Sox\"@en", "Coherence=0.485", "triple=e_dbp:teams \"*Chicago White Sox\"@en", "class=BaseballPlayer" ]
+    "0" : [ "pair=\"*Chicago White Sox\"@en", "Coherence=0.485", "triple=e dbp:teams \"*Chicago White Sox\"@en", "class=BaseballPlayer" ]
   }
 }, {
   "id" : 64,
   "pattern" : "york",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_Yankees", "Coherence=0.478", "triple=e_dbp:debutteam dbr:New_York_Yankees", "class=BaseballPlayer" ]
+    "0" : [ "pair=dbr:New_York_Yankees", "Coherence=0.478", "triple=e dbp:debutteam dbr:New_York_Yankees", "class=BaseballPlayer" ]
   }
 } ]

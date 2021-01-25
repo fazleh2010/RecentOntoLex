@@ -21,18 +21,20 @@ import org.javatuples.Pair;
  * @author elahi
  */
 public class LineInfo {
+
     private String line = null;
     private String subject = null;
     private String predicate = null;
     private String posTag = null;
-    private String object = null;    private String rule = null;
+    private String object = null;
+    private String rule = null;
     private String word = null;
     private String wordOriginal = null;
     private String className = null;
     private Boolean validFlag = false;
-    private Integer nGramNumber=0;
+    private Integer nGramNumber = 0;
     private Map<String, Double> probabilityValue = new TreeMap<String, Double>();
-    private Analyzer analyzer=null;
+    private Analyzer analyzer = null;
 
     public LineInfo(String className, String line, Integer wordIndex, Integer kbIndex) throws Exception {
         this.line = line;
@@ -42,14 +44,12 @@ public class LineInfo {
         String rightRule = StringUtils.substringBetween(rule[wordIndex], "{", "}");
         this.setTriple(leftRule);
         this.setWord(rightRule);
-        //System.out.println("validFlag:"+validFlag);
         if (this.validFlag) {
             String str = this.processWords(this.wordOriginal);
             String[] info = str.split(" ");
             if (info.length > 1) {
                 this.nGramNumber = info.length;
             }
-            //System.out.println("str:"+str);
             this.getPosTag(str);
             this.setRule();
             this.setProbabilityValue(line);
@@ -57,17 +57,15 @@ public class LineInfo {
     }
 
     private void setRule() {
-        String str="["+this.line.replace("|", "]");
+        String str = "[" + this.line.replace("|", "]");
         str = StringUtils.substringBetween(str, "[", "]");
         this.rule = str;
     }
 
     private void setProbabilityValue(String line) {
-        System.out.println("line:"+line);
         line = line.replace("AllConf", "[AllConf");
         line = line + "]";
         String values = StringUtils.substringBetween(line, "[AllConf", "]").replace(",", "");
-        System.out.println("line modified:"+line);
         String[] info = values.split(" ");
         for (Integer i = 0; i < info.length; i++) {
             Pair<String, String> pair = this.setValue(info[i]);
@@ -79,17 +77,17 @@ public class LineInfo {
     private Pair<String, String> setValue(String string) {
         String[] info = string.split("=");
         String key = info[0];
-        //Double value = Double.parseDouble(info[1]);
         return new Pair<String, String>(key, info[1]);
     }
 
     private void setWord(String rightRule) {
         String word = StringUtils.substringBetween(rightRule, "(", ")");
         this.wordOriginal = StringUtils.substringBetween(word, "'", "'");
-        if(wordOriginal!=null)
-           this.validFlag = true;
-        else
+        if (wordOriginal != null) {
+            this.validFlag = true;
+        } else {
             this.validFlag = false;
+        }
     }
 
     private void setTriple(String leftRule) {
@@ -100,14 +98,15 @@ public class LineInfo {
         this.predicate = this.correct(info[1]);
         this.object = this.correct(info[2]);;
     }
-    
+
     private String processWords(String nGram) throws Exception {
         StringTokenizer st = new StringTokenizer(nGram);
         String str = "";
         while (st.hasMoreTokens()) {
             String tokenStr = st.nextToken();
-            if (this.isStopWord(tokenStr)) 
+            if (this.isStopWord(tokenStr)) {
                 continue;
+            }
 
             String line = tokenStr + "_";
             str += line;
@@ -117,7 +116,7 @@ public class LineInfo {
 
         return str;
     }
-    
+
     private void getPosTag(String word) throws Exception {
         analyzer = new Analyzer(word, POS_TAGGER_WORDS, 5);
         if (!analyzer.getNouns().isEmpty()) {
@@ -131,7 +130,6 @@ public class LineInfo {
         }
         this.word = word.trim().strip();
     }
-
 
     private String correct(String string) {
         return string.trim().strip();
@@ -160,7 +158,6 @@ public class LineInfo {
     public Double getProbabilityValue(String key) {
         return probabilityValue.get(key);
     }
-    
 
     public String getLine() {
         return line;
@@ -194,12 +191,6 @@ public class LineInfo {
         return validFlag;
     }
 
-    @Override
-    public String toString() {
-        String line=this.line+"\n";
-        return "LineInfo{" + "line=" + line + ", subject=" + subject + ", predicate=" + predicate + ", object=" + object + ", rule=" + rule + ", word=" + word + ", probabilityValue=" + probabilityValue + '}';
-    }
-
     public String getPartOfSpeech() {
         return this.posTag;
     }
@@ -210,6 +201,12 @@ public class LineInfo {
             return true;
         }
         return false;
+    }
+
+    @Override
+    public String toString() {
+        String line = this.line + "\n";
+        return "LineInfo{" + "line=" + line + ", subject=" + subject + ", predicate=" + predicate + ", object=" + object + ", rule=" + rule + ", word=" + word + ", probabilityValue=" + probabilityValue + '}';
     }
 
 }

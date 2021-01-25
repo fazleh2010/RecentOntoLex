@@ -3,73 +3,73 @@
   "pattern" : "chinese",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"China\"@en", "Coherence=0.491", "triple=e_dbp:country \"China\"@en", "class=University" ],
-    "1" : [ "pair=dbr:China", "Coherence=0.471", "triple=e_dbo:country dbr:China", "class=University" ]
+    "0" : [ "pair=\"China\"@en", "Coherence=0.491", "triple=e dbp:country \"China\"@en", "class=University" ],
+    "1" : [ "pair=dbr:China", "Coherence=0.471", "triple=e dbo:country dbr:China", "class=University" ]
   }
 }, {
   "id" : 28,
   "pattern" : "french",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:France", "Coherence=0.422", "triple=e_dbp:country dbr:France", "class=University" ]
+    "0" : [ "pair=dbr:France", "Coherence=0.422", "triple=e dbp:country dbr:France", "class=University" ]
   }
 }, {
   "id" : 30,
   "pattern" : "german",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Germany", "Coherence=0.4", "triple=e_dbp:country dbr:Germany", "class=University" ]
+    "0" : [ "pair=dbr:Germany", "Coherence=0.4", "triple=e dbp:country dbr:Germany", "class=University" ]
   }
 }, {
   "id" : 41,
   "pattern" : "located",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Higher_Education_Commission_(Pakistan", "Coherence=0.403", "triple=e_dbo:affiliation dbr:Higher_Education_Commission_(Pakistan", "class=University" ],
-    "1" : [ "pair=dbr:Pakistan", "Coherence=0.398", "triple=e_dbp:country dbr:Pakistan", "class=University" ],
-    "2" : [ "pair=dbr:Tamil_Nadu", "Coherence=0.387", "triple=e_dbp:state dbr:Tamil_Nadu", "class=University" ]
+    "0" : [ "pair=dbr:Higher_Education_Commission_(Pakistan", "Coherence=0.403", "triple=e dbo:affiliation dbr:Higher_Education_Commission_(Pakistan", "class=University" ],
+    "1" : [ "pair=dbr:Pakistan", "Coherence=0.398", "triple=e dbp:country dbr:Pakistan", "class=University" ],
+    "2" : [ "pair=dbr:Tamil_Nadu", "Coherence=0.387", "triple=e dbp:state dbr:Tamil_Nadu", "class=University" ]
   }
 }, {
   "id" : 65,
   "pattern" : "private",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:National_Association_of_Independent_Colleges_and_Universities", "Coherence=0.47", "triple=e_dbp:affiliations dbr:National_Association_of_Independent_Colleges_and_Universities", "class=University" ],
-    "1" : [ "pair=dbr:NCAA_Division_III", "Coherence=0.432", "triple=e_dbp:athletics dbr:NCAA_Division_III", "class=University" ],
-    "2" : [ "pair=\"Japan\"@en", "Coherence=0.417", "triple=e_dbp:country \"Japan\"@en", "class=University" ],
-    "3" : [ "pair=dbr:Private_University", "Coherence=0.41", "triple=e_dbo:type dbr:Private_University", "class=University" ],
-    "4" : [ "pair=dbr:Private_university", "Coherence=0.401", "triple=e_dbp:type dbr:Private_university", "class=University" ],
-    "5" : [ "pair=dbr:Japan", "Coherence=0.401", "triple=e_dbo:country dbr:Japan", "class=University" ]
+    "0" : [ "pair=dbr:National_Association_of_Independent_Colleges_and_Universities", "Coherence=0.47", "triple=e dbp:affiliations dbr:National_Association_of_Independent_Colleges_and_Universities", "class=University" ],
+    "1" : [ "pair=dbr:NCAA_Division_III", "Coherence=0.432", "triple=e dbp:athletics dbr:NCAA_Division_III", "class=University" ],
+    "2" : [ "pair=\"Japan\"@en", "Coherence=0.417", "triple=e dbp:country \"Japan\"@en", "class=University" ],
+    "3" : [ "pair=dbr:Private_University", "Coherence=0.41", "triple=e dbo:type dbr:Private_University", "class=University" ],
+    "4" : [ "pair=dbr:Private_university", "Coherence=0.401", "triple=e dbp:type dbr:Private_university", "class=University" ],
+    "5" : [ "pair=dbr:Japan", "Coherence=0.401", "triple=e dbo:country dbr:Japan", "class=University" ]
   }
 }, {
   "id" : 76,
   "pattern" : "russian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Russia", "Coherence=0.403", "triple=e_dbp:country dbr:Russia", "class=University" ]
+    "0" : [ "pair=dbr:Russia", "Coherence=0.403", "triple=e dbp:country dbr:Russia", "class=University" ]
   }
 }, {
   "id" : 78,
   "pattern" : "seminary",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Seminary", "Coherence=0.449", "triple=e_dbp:type dbr:Seminary", "class=University" ]
+    "0" : [ "pair=dbr:Seminary", "Coherence=0.449", "triple=e dbp:type dbr:Seminary", "class=University" ]
   }
 }, {
   "id" : 86,
   "pattern" : "turkish",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Turkey", "Coherence=0.398", "triple=e_dbp:country dbr:Turkey", "class=University" ]
+    "0" : [ "pair=dbr:Turkey", "Coherence=0.398", "triple=e dbp:country dbr:Turkey", "class=University" ]
   }
 }, {
   "id" : 87,
   "pattern" : "undergraduate",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Undergraduate college\"@en", "Coherence=0.474", "triple=e_dbp:type \"Undergraduate college\"@en", "class=University" ],
-    "1" : [ "pair=\"Undergraduate college Public college\"@en", "Coherence=0.45", "triple=e_dbp:type \"Undergraduate college Public college\"@en", "class=University" ],
-    "2" : [ "pair=\"India West Bengal#India\"@en", "Coherence=0.428", "triple=e_dbp:pushpinMap \"India West Bengal#India\"@en", "class=University" ],
-    "3" : [ "pair=dbr:West_Bengal", "Coherence=0.382", "triple=e_dbp:state dbr:West_Bengal", "class=University" ]
+    "0" : [ "pair=\"Undergraduate college\"@en", "Coherence=0.474", "triple=e dbp:type \"Undergraduate college\"@en", "class=University" ],
+    "1" : [ "pair=\"Undergraduate college Public college\"@en", "Coherence=0.45", "triple=e dbp:type \"Undergraduate college Public college\"@en", "class=University" ],
+    "2" : [ "pair=\"India West Bengal#India\"@en", "Coherence=0.428", "triple=e dbp:pushpinMap \"India West Bengal#India\"@en", "class=University" ],
+    "3" : [ "pair=dbr:West_Bengal", "Coherence=0.382", "triple=e dbp:state dbr:West_Bengal", "class=University" ]
   }
 } ]

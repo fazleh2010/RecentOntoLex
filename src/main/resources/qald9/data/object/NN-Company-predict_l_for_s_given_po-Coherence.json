@@ -3,390 +3,390 @@
   "pattern" : "aircraft",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Aerospace", "Coherence=0.446", "triple=e_dbp:industry dbr:Aerospace", "class=Company" ]
+    "0" : [ "pair=dbr:Aerospace", "Coherence=0.446", "triple=e dbp:industry dbr:Aerospace", "class=Company" ]
   }
 }, {
   "id" : 2,
   "pattern" : "aircraft manufacturer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Aerospace", "Coherence=0.357", "triple=e_dbp:industry dbr:Aerospace", "class=Company" ]
+    "0" : [ "pair=dbr:Aerospace", "Coherence=0.357", "triple=e dbp:industry dbr:Aerospace", "class=Company" ]
   }
 }, {
   "id" : 3,
   "pattern" : "american",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"U.S.\"@en", "Coherence=0.342", "triple=e_dbp:locationCountry \"U.S.\"@en", "class=Company" ],
-    "1" : [ "pair=dbr:United_States", "Coherence=0.28", "triple=e_dbp:hqLocationCountry dbr:United_States", "class=Company" ],
-    "2" : [ "pair=dbr:President_(corporate_title", "Coherence=0.25", "triple=e_dbo:keyPerson dbr:President_(corporate_title", "class=Company" ],
-    "3" : [ "pair=\"United States\"@en", "Coherence=0.228", "triple=e_dbp:locationCountry \"United States\"@en", "class=Company" ],
-    "4" : [ "pair=dbr:Subsidiary", "Coherence=0.198", "triple=e_dbp:type dbr:Subsidiary", "class=Company" ],
-    "5" : [ "pair=\"\"@en", "Coherence=0.192", "triple=e_dbp:products \"\"@en", "class=Company" ],
-    "6" : [ "pair=dbr:Video_game_industry", "Coherence=0.171", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ],
-    "7" : [ "pair=dbr:Privately_held_company", "Coherence=0.17", "triple=e_dbo:type dbr:Privately_held_company", "class=Company" ],
-    "8" : [ "pair=dbr:Public_company", "Coherence=0.159", "triple=e_dbp:type dbr:Public_company", "class=Company" ]
+    "0" : [ "pair=\"U.S.\"@en", "Coherence=0.342", "triple=e dbp:locationCountry \"U.S.\"@en", "class=Company" ],
+    "1" : [ "pair=dbr:United_States", "Coherence=0.28", "triple=e dbp:hqLocationCountry dbr:United_States", "class=Company" ],
+    "2" : [ "pair=dbr:President_(corporate_title", "Coherence=0.25", "triple=e dbo:keyPerson dbr:President_(corporate_title", "class=Company" ],
+    "3" : [ "pair=\"United States\"@en", "Coherence=0.228", "triple=e dbp:locationCountry \"United States\"@en", "class=Company" ],
+    "4" : [ "pair=dbr:Subsidiary", "Coherence=0.198", "triple=e dbp:type dbr:Subsidiary", "class=Company" ],
+    "5" : [ "pair=\"\"@en", "Coherence=0.192", "triple=e dbp:products \"\"@en", "class=Company" ],
+    "6" : [ "pair=dbr:Video_game_industry", "Coherence=0.171", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ],
+    "7" : [ "pair=dbr:Privately_held_company", "Coherence=0.17", "triple=e dbo:type dbr:Privately_held_company", "class=Company" ],
+    "8" : [ "pair=dbr:Public_company", "Coherence=0.159", "triple=e dbp:type dbr:Public_company", "class=Company" ]
   }
 }, {
   "id" : 6,
   "pattern" : "california",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:California", "Coherence=0.363", "triple=e_dbo:location dbr:California", "class=Company" ]
+    "0" : [ "pair=dbr:California", "Coherence=0.363", "triple=e dbo:location dbr:California", "class=Company" ]
   }
 }, {
   "id" : 7,
   "pattern" : "chain",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Retail", "Coherence=0.331", "triple=e_dbp:industry dbr:Retail", "class=Company" ]
+    "0" : [ "pair=dbr:Retail", "Coherence=0.331", "triple=e dbp:industry dbr:Retail", "class=Company" ]
   }
 }, {
   "id" : 8,
   "pattern" : "china",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:China", "Coherence=0.423", "triple=e_dbp:locationCountry dbr:China", "class=Company" ]
+    "0" : [ "pair=dbr:China", "Coherence=0.423", "triple=e dbp:locationCountry dbr:China", "class=Company" ]
   }
 }, {
   "id" : 9,
   "pattern" : "company",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"\"@en", "Coherence=0.456", "triple=e_dbp:operatingIncome \"\"@en", "class=Company" ],
-    "1" : [ "pair=dbr:Aerospace", "Coherence=0.448", "triple=e_dbp:industry dbr:Aerospace", "class=Company" ],
-    "2" : [ "pair=dbr:Petroleum_industry", "Coherence=0.444", "triple=e_dbp:industry dbr:Petroleum_industry", "class=Company" ],
-    "3" : [ "pair=dbr:Norway", "Coherence=0.435", "triple=e_dbp:location dbr:Norway", "class=Company" ],
-    "4" : [ "pair=\"Public\"@en", "Coherence=0.433", "triple=e_dbp:type \"Public\"@en", "class=Company" ],
-    "5" : [ "pair=dbr:Software", "Coherence=0.432", "triple=e_dbo:industry dbr:Software", "class=Company" ],
-    "6" : [ "pair=dbr:S.A._(corporation", "Coherence=0.43", "triple=e_dbo:type dbr:S.A._(corporation", "class=Company" ],
-    "7" : [ "pair=dbr:Entertainment", "Coherence=0.428", "triple=e_dbp:industry dbr:Entertainment", "class=Company" ],
-    "8" : [ "pair=dbr:Public_company", "Coherence=0.426", "triple=e_dbp:type dbr:Public_company", "class=Company" ],
-    "9" : [ "pair=dbr:President_(corporate_title", "Coherence=0.419", "triple=e_dbo:keyPerson dbr:President_(corporate_title", "class=Company" ],
-    "10" : [ "pair=dbr:Computer_software", "Coherence=0.416", "triple=e_dbo:industry dbr:Computer_software", "class=Company" ],
-    "11" : [ "pair=\"Telecommunications\"@en", "Coherence=0.416", "triple=e_dbp:industry \"Telecommunications\"@en", "class=Company" ],
-    "12" : [ "pair=dbr:Chief_executive_officer", "Coherence=0.416", "triple=e_dbo:keyPerson dbr:Chief_executive_officer", "class=Company" ],
-    "13" : [ "pair=dbr:Telecommunications", "Coherence=0.412", "triple=e_dbo:industry dbr:Telecommunications", "class=Company" ],
-    "14" : [ "pair=dbr:California", "Coherence=0.412", "triple=e_dbo:location dbr:California", "class=Company" ],
-    "15" : [ "pair=dbr:Chief_Executive_Officer", "Coherence=0.411", "triple=e_dbo:keyPerson dbr:Chief_Executive_Officer", "class=Company" ],
-    "16" : [ "pair=\"2000\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.411", "triple=e_dbo:foundingYear \"2000\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "17" : [ "pair=dbr:CEO", "Coherence=0.411", "triple=e_dbo:keyPerson dbr:CEO", "class=Company" ],
-    "18" : [ "pair=\"ja\"@en", "Coherence=0.411", "triple=e_dbp:nativeNameLang \"ja\"@en", "class=Company" ],
-    "19" : [ "pair=dbr:Limited_company", "Coherence=0.41", "triple=e_dbp:type dbr:Limited_company", "class=Company" ],
-    "20" : [ "pair=\"2011\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.41", "triple=e_dbo:foundingYear \"2011\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "21" : [ "pair=\"1982\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.406", "triple=e_dbo:foundingYear \"1982\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "22" : [ "pair=\"1991\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.405", "triple=e_dbo:foundingYear \"1991\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "23" : [ "pair=dbr:India", "Coherence=0.403", "triple=e_dbo:location dbr:India", "class=Company" ],
-    "24" : [ "pair=dbr:Public_limited_company", "Coherence=0.403", "triple=e_dbp:type dbr:Public_limited_company", "class=Company" ],
-    "25" : [ "pair=dbr:Limited_liability_company", "Coherence=0.402", "triple=e_dbp:type dbr:Limited_liability_company", "class=Company" ],
-    "26" : [ "pair=dbr:Chairman", "Coherence=0.401", "triple=e_dbo:keyPerson dbr:Chairman", "class=Company" ],
-    "27" : [ "pair=\"2005\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.4", "triple=e_dbo:foundingYear \"2005\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "28" : [ "pair=\"1998\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.399", "triple=e_dbo:foundingYear \"1998\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "29" : [ "pair=dbr:Privately_held_company", "Coherence=0.398", "triple=e_dbo:type dbr:Privately_held_company", "class=Company" ],
-    "30" : [ "pair=\"Worldwide\"@en", "Coherence=0.397", "triple=e_dbp:areaServed \"Worldwide\"@en", "class=Company" ],
-    "31" : [ "pair=dbr:United_States", "Coherence=0.397", "triple=e_dbp:hqLocationCountry dbr:United_States", "class=Company" ],
-    "32" : [ "pair=\"U.S.\"@en", "Coherence=0.396", "triple=e_dbp:locationCountry \"U.S.\"@en", "class=Company" ],
-    "33" : [ "pair=dbr:Canada", "Coherence=0.396", "triple=e_dbp:locationCountry dbr:Canada", "class=Company" ],
-    "34" : [ "pair=\"2008\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.395", "triple=e_dbo:foundingYear \"2008\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "35" : [ "pair=\"Global\"@en", "Coherence=0.395", "triple=e_dbp:areaServed \"Global\"@en", "class=Company" ],
-    "36" : [ "pair=\"1980\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.394", "triple=e_dbo:foundingYear \"1980\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "37" : [ "pair=dbr:Video_game_industry", "Coherence=0.394", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ],
-    "38" : [ "pair=dbr:Joint-stock_company", "Coherence=0.392", "triple=e_dbp:type dbr:Joint-stock_company", "class=Company" ],
-    "39" : [ "pair=dbr:Germany", "Coherence=0.391", "triple=e_dbo:location dbr:Germany", "class=Company" ],
-    "40" : [ "pair=\"2015\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.39", "triple=e_dbo:foundingYear \"2015\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "41" : [ "pair=\"2001\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.389", "triple=e_dbo:foundingYear \"2001\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "42" : [ "pair=dbr:Kabushiki_gaisha", "Coherence=0.389", "triple=e_dbp:type dbr:Kabushiki_gaisha", "class=Company" ],
-    "43" : [ "pair=dbr:Telecommunication", "Coherence=0.388", "triple=e_dbp:industry dbr:Telecommunication", "class=Company" ],
-    "44" : [ "pair=dbr:Manufacturing", "Coherence=0.388", "triple=e_dbo:industry dbr:Manufacturing", "class=Company" ],
-    "45" : [ "pair=\"1981\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.386", "triple=e_dbo:foundingYear \"1981\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "46" : [ "pair=\"Private\"@en", "Coherence=0.385", "triple=e_dbp:type \"Private\"@en", "class=Company" ],
-    "47" : [ "pair=dbr:Subsidiary", "Coherence=0.384", "triple=e_dbo:type dbr:Subsidiary", "class=Company" ],
-    "48" : [ "pair=dbr:United_Kingdom", "Coherence=0.384", "triple=e_dbo:regionServed dbr:United_Kingdom", "class=Company" ],
-    "49" : [ "pair=\"United States\"@en", "Coherence=0.383", "triple=e_dbp:hqLocationCountry \"United States\"@en", "class=Company" ],
-    "50" : [ "pair=\"1986\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.382", "triple=e_dbo:foundingYear \"1986\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "51" : [ "pair=\"1993\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.382", "triple=e_dbo:foundingYear \"1993\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "52" : [ "pair=\"2002\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.381", "triple=e_dbo:foundingYear \"2002\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "53" : [ "pair=dbr:Private_company", "Coherence=0.38", "triple=e_dbo:type dbr:Private_company", "class=Company" ],
-    "54" : [ "pair=\"2013\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.38", "triple=e_dbo:foundingYear \"2013\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "55" : [ "pair=\"2006\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.379", "triple=e_dbo:foundingYear \"2006\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "56" : [ "pair=dbr:New_York_City", "Coherence=0.378", "triple=e_dbp:locationCity dbr:New_York_City", "class=Company" ],
-    "57" : [ "pair=\"InternetArchiveBot\"@en", "Coherence=0.378", "triple=e_dbp:bot \"InternetArchiveBot\"@en", "class=Company" ],
-    "58" : [ "pair=\"1994\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.377", "triple=e_dbo:foundingYear \"1994\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "59" : [ "pair=\"USA\"@en", "Coherence=0.377", "triple=e_dbp:locationCountry \"USA\"@en", "class=Company" ],
-    "60" : [ "pair=\"yes\"@en", "Coherence=0.375", "triple=e_dbp:fixAttempted \"yes\"@en", "class=Company" ],
-    "61" : [ "pair=\"1996\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.373", "triple=e_dbo:foundingYear \"1996\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "62" : [ "pair=\"2010\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.372", "triple=e_dbo:foundingYear \"2010\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "63" : [ "pair=\"2012\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.372", "triple=e_dbo:foundingYear \"2012\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "64" : [ "pair=\"1987\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.371", "triple=e_dbo:foundingYear \"1987\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "65" : [ "pair=\"1983\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.371", "triple=e_dbo:foundingYear \"1983\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "66" : [ "pair=dbr:Automotive_industry", "Coherence=0.371", "triple=e_dbp:industry dbr:Automotive_industry", "class=Company" ],
-    "67" : [ "pair=\"1992\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.369", "triple=e_dbo:foundingYear \"1992\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "68" : [ "pair=\"1995\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.366", "triple=e_dbo:foundingYear \"1995\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "69" : [ "pair=\"1989\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.366", "triple=e_dbo:foundingYear \"1989\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "70" : [ "pair=\"2004\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.364", "triple=e_dbo:foundingYear \"2004\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "71" : [ "pair=\"1988\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.363", "triple=e_dbo:foundingYear \"1988\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "72" : [ "pair=\"1990\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.362", "triple=e_dbo:foundingYear \"1990\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "73" : [ "pair=\"2003\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.361", "triple=e_dbo:foundingYear \"2003\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "74" : [ "pair=\"2009\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.359", "triple=e_dbo:foundingYear \"2009\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "75" : [ "pair=\"1999\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.359", "triple=e_dbo:foundingYear \"1999\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "76" : [ "pair=\"1997\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.357", "triple=e_dbo:foundingYear \"1997\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "77" : [ "pair=\"2007\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.351", "triple=e_dbo:foundingYear \"2007\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "78" : [ "pair=\"Subsidiary\"@en", "Coherence=0.35", "triple=e_dbp:type \"Subsidiary\"@en", "class=Company" ],
-    "79" : [ "pair=dbr:State-owned_enterprise", "Coherence=0.349", "triple=e_dbp:type dbr:State-owned_enterprise", "class=Company" ],
-    "80" : [ "pair=\"2014\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.343", "triple=e_dbo:foundingYear \"2014\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
-    "81" : [ "pair=dbr:London", "Coherence=0.333", "triple=e_dbo:location dbr:London", "class=Company" ],
-    "82" : [ "pair=dbr:Retail", "Coherence=0.309", "triple=e_dbp:industry dbr:Retail", "class=Company" ]
+    "0" : [ "pair=\"\"@en", "Coherence=0.456", "triple=e dbp:operatingIncome \"\"@en", "class=Company" ],
+    "1" : [ "pair=dbr:Aerospace", "Coherence=0.448", "triple=e dbp:industry dbr:Aerospace", "class=Company" ],
+    "2" : [ "pair=dbr:Petroleum_industry", "Coherence=0.444", "triple=e dbp:industry dbr:Petroleum_industry", "class=Company" ],
+    "3" : [ "pair=dbr:Norway", "Coherence=0.435", "triple=e dbp:location dbr:Norway", "class=Company" ],
+    "4" : [ "pair=\"Public\"@en", "Coherence=0.433", "triple=e dbp:type \"Public\"@en", "class=Company" ],
+    "5" : [ "pair=dbr:Software", "Coherence=0.432", "triple=e dbo:industry dbr:Software", "class=Company" ],
+    "6" : [ "pair=dbr:S.A._(corporation", "Coherence=0.43", "triple=e dbo:type dbr:S.A._(corporation", "class=Company" ],
+    "7" : [ "pair=dbr:Entertainment", "Coherence=0.428", "triple=e dbp:industry dbr:Entertainment", "class=Company" ],
+    "8" : [ "pair=dbr:Public_company", "Coherence=0.426", "triple=e dbp:type dbr:Public_company", "class=Company" ],
+    "9" : [ "pair=dbr:President_(corporate_title", "Coherence=0.419", "triple=e dbo:keyPerson dbr:President_(corporate_title", "class=Company" ],
+    "10" : [ "pair=dbr:Computer_software", "Coherence=0.416", "triple=e dbo:industry dbr:Computer_software", "class=Company" ],
+    "11" : [ "pair=\"Telecommunications\"@en", "Coherence=0.416", "triple=e dbp:industry \"Telecommunications\"@en", "class=Company" ],
+    "12" : [ "pair=dbr:Chief_executive_officer", "Coherence=0.416", "triple=e dbo:keyPerson dbr:Chief_executive_officer", "class=Company" ],
+    "13" : [ "pair=dbr:Telecommunications", "Coherence=0.412", "triple=e dbo:industry dbr:Telecommunications", "class=Company" ],
+    "14" : [ "pair=dbr:California", "Coherence=0.412", "triple=e dbo:location dbr:California", "class=Company" ],
+    "15" : [ "pair=dbr:Chief_Executive_Officer", "Coherence=0.411", "triple=e dbo:keyPerson dbr:Chief_Executive_Officer", "class=Company" ],
+    "16" : [ "pair=\"2000\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.411", "triple=e dbo:foundingYear \"2000\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "17" : [ "pair=dbr:CEO", "Coherence=0.411", "triple=e dbo:keyPerson dbr:CEO", "class=Company" ],
+    "18" : [ "pair=\"ja\"@en", "Coherence=0.411", "triple=e dbp:nativeNameLang \"ja\"@en", "class=Company" ],
+    "19" : [ "pair=dbr:Limited_company", "Coherence=0.41", "triple=e dbp:type dbr:Limited_company", "class=Company" ],
+    "20" : [ "pair=\"2011\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.41", "triple=e dbo:foundingYear \"2011\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "21" : [ "pair=\"1982\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.406", "triple=e dbo:foundingYear \"1982\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "22" : [ "pair=\"1991\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.405", "triple=e dbo:foundingYear \"1991\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "23" : [ "pair=dbr:India", "Coherence=0.403", "triple=e dbo:location dbr:India", "class=Company" ],
+    "24" : [ "pair=dbr:Public_limited_company", "Coherence=0.403", "triple=e dbp:type dbr:Public_limited_company", "class=Company" ],
+    "25" : [ "pair=dbr:Limited_liability_company", "Coherence=0.402", "triple=e dbp:type dbr:Limited_liability_company", "class=Company" ],
+    "26" : [ "pair=dbr:Chairman", "Coherence=0.401", "triple=e dbo:keyPerson dbr:Chairman", "class=Company" ],
+    "27" : [ "pair=\"2005\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.4", "triple=e dbo:foundingYear \"2005\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "28" : [ "pair=\"1998\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.399", "triple=e dbo:foundingYear \"1998\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "29" : [ "pair=dbr:Privately_held_company", "Coherence=0.398", "triple=e dbo:type dbr:Privately_held_company", "class=Company" ],
+    "30" : [ "pair=\"Worldwide\"@en", "Coherence=0.397", "triple=e dbp:areaServed \"Worldwide\"@en", "class=Company" ],
+    "31" : [ "pair=dbr:United_States", "Coherence=0.397", "triple=e dbp:hqLocationCountry dbr:United_States", "class=Company" ],
+    "32" : [ "pair=\"U.S.\"@en", "Coherence=0.396", "triple=e dbp:locationCountry \"U.S.\"@en", "class=Company" ],
+    "33" : [ "pair=dbr:Canada", "Coherence=0.396", "triple=e dbp:locationCountry dbr:Canada", "class=Company" ],
+    "34" : [ "pair=\"2008\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.395", "triple=e dbo:foundingYear \"2008\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "35" : [ "pair=\"Global\"@en", "Coherence=0.395", "triple=e dbp:areaServed \"Global\"@en", "class=Company" ],
+    "36" : [ "pair=\"1980\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.394", "triple=e dbo:foundingYear \"1980\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "37" : [ "pair=dbr:Video_game_industry", "Coherence=0.394", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ],
+    "38" : [ "pair=dbr:Joint-stock_company", "Coherence=0.392", "triple=e dbp:type dbr:Joint-stock_company", "class=Company" ],
+    "39" : [ "pair=dbr:Germany", "Coherence=0.391", "triple=e dbo:location dbr:Germany", "class=Company" ],
+    "40" : [ "pair=\"2015\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.39", "triple=e dbo:foundingYear \"2015\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "41" : [ "pair=\"2001\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.389", "triple=e dbo:foundingYear \"2001\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "42" : [ "pair=dbr:Kabushiki_gaisha", "Coherence=0.389", "triple=e dbp:type dbr:Kabushiki_gaisha", "class=Company" ],
+    "43" : [ "pair=dbr:Telecommunication", "Coherence=0.388", "triple=e dbp:industry dbr:Telecommunication", "class=Company" ],
+    "44" : [ "pair=dbr:Manufacturing", "Coherence=0.388", "triple=e dbo:industry dbr:Manufacturing", "class=Company" ],
+    "45" : [ "pair=\"1981\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.386", "triple=e dbo:foundingYear \"1981\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "46" : [ "pair=\"Private\"@en", "Coherence=0.385", "triple=e dbp:type \"Private\"@en", "class=Company" ],
+    "47" : [ "pair=dbr:Subsidiary", "Coherence=0.384", "triple=e dbo:type dbr:Subsidiary", "class=Company" ],
+    "48" : [ "pair=dbr:United_Kingdom", "Coherence=0.384", "triple=e dbo:regionServed dbr:United_Kingdom", "class=Company" ],
+    "49" : [ "pair=\"United States\"@en", "Coherence=0.383", "triple=e dbp:hqLocationCountry \"United States\"@en", "class=Company" ],
+    "50" : [ "pair=\"1986\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.382", "triple=e dbo:foundingYear \"1986\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "51" : [ "pair=\"1993\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.382", "triple=e dbo:foundingYear \"1993\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "52" : [ "pair=\"2002\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.381", "triple=e dbo:foundingYear \"2002\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "53" : [ "pair=dbr:Private_company", "Coherence=0.38", "triple=e dbo:type dbr:Private_company", "class=Company" ],
+    "54" : [ "pair=\"2013\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.38", "triple=e dbo:foundingYear \"2013\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "55" : [ "pair=\"2006\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.379", "triple=e dbo:foundingYear \"2006\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "56" : [ "pair=dbr:New_York_City", "Coherence=0.378", "triple=e dbp:locationCity dbr:New_York_City", "class=Company" ],
+    "57" : [ "pair=\"InternetArchiveBot\"@en", "Coherence=0.378", "triple=e dbp:bot \"InternetArchiveBot\"@en", "class=Company" ],
+    "58" : [ "pair=\"1994\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.377", "triple=e dbo:foundingYear \"1994\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "59" : [ "pair=\"USA\"@en", "Coherence=0.377", "triple=e dbp:locationCountry \"USA\"@en", "class=Company" ],
+    "60" : [ "pair=\"yes\"@en", "Coherence=0.375", "triple=e dbp:fixAttempted \"yes\"@en", "class=Company" ],
+    "61" : [ "pair=\"1996\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.373", "triple=e dbo:foundingYear \"1996\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "62" : [ "pair=\"2010\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.372", "triple=e dbo:foundingYear \"2010\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "63" : [ "pair=\"2012\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.372", "triple=e dbo:foundingYear \"2012\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "64" : [ "pair=\"1987\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.371", "triple=e dbo:foundingYear \"1987\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "65" : [ "pair=\"1983\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.371", "triple=e dbo:foundingYear \"1983\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "66" : [ "pair=dbr:Automotive_industry", "Coherence=0.371", "triple=e dbp:industry dbr:Automotive_industry", "class=Company" ],
+    "67" : [ "pair=\"1992\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.369", "triple=e dbo:foundingYear \"1992\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "68" : [ "pair=\"1995\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.366", "triple=e dbo:foundingYear \"1995\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "69" : [ "pair=\"1989\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.366", "triple=e dbo:foundingYear \"1989\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "70" : [ "pair=\"2004\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.364", "triple=e dbo:foundingYear \"2004\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "71" : [ "pair=\"1988\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.363", "triple=e dbo:foundingYear \"1988\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "72" : [ "pair=\"1990\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.362", "triple=e dbo:foundingYear \"1990\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "73" : [ "pair=\"2003\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.361", "triple=e dbo:foundingYear \"2003\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "74" : [ "pair=\"2009\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.359", "triple=e dbo:foundingYear \"2009\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "75" : [ "pair=\"1999\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.359", "triple=e dbo:foundingYear \"1999\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "76" : [ "pair=\"1997\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.357", "triple=e dbo:foundingYear \"1997\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "77" : [ "pair=\"2007\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.351", "triple=e dbo:foundingYear \"2007\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "78" : [ "pair=\"Subsidiary\"@en", "Coherence=0.35", "triple=e dbp:type \"Subsidiary\"@en", "class=Company" ],
+    "79" : [ "pair=dbr:State-owned_enterprise", "Coherence=0.349", "triple=e dbp:type dbr:State-owned_enterprise", "class=Company" ],
+    "80" : [ "pair=\"2014\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.343", "triple=e dbo:foundingYear \"2014\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=Company" ],
+    "81" : [ "pair=dbr:London", "Coherence=0.333", "triple=e dbo:location dbr:London", "class=Company" ],
+    "82" : [ "pair=dbr:Retail", "Coherence=0.309", "triple=e dbp:industry dbr:Retail", "class=Company" ]
   }
 }, {
   "id" : 10,
   "pattern" : "design",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Aerospace", "Coherence=0.296", "triple=e_dbp:industry dbr:Aerospace", "class=Company" ]
+    "0" : [ "pair=dbr:Aerospace", "Coherence=0.296", "triple=e dbp:industry dbr:Aerospace", "class=Company" ]
   }
 }, {
   "id" : 11,
   "pattern" : "developer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.383", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.383", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 12,
   "pattern" : "developer based",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.212", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.212", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 13,
   "pattern" : "development",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.187", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.187", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 15,
   "pattern" : "game",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.469", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.469", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 16,
   "pattern" : "game developer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.366", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.366", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 17,
   "pattern" : "game developer based",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.21", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.21", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 18,
   "pattern" : "game developer based\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.21", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.21", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 19,
   "pattern" : "games",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.324", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.324", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 21,
   "pattern" : "india",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:India", "Coherence=0.418", "triple=e_dbo:location dbr:India", "class=Company" ]
+    "0" : [ "pair=dbr:India", "Coherence=0.418", "triple=e dbo:location dbr:India", "class=Company" ]
   }
 }, {
   "id" : 23,
   "pattern" : "japan",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Kabushiki_gaisha", "Coherence=0.341", "triple=e_dbp:type dbr:Kabushiki_gaisha", "class=Company" ]
+    "0" : [ "pair=dbr:Kabushiki_gaisha", "Coherence=0.341", "triple=e dbp:type dbr:Kabushiki_gaisha", "class=Company" ]
   }
 }, {
   "id" : 27,
   "pattern" : "london",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:London", "Coherence=0.349", "triple=e_dbo:location dbr:London", "class=Company" ]
+    "0" : [ "pair=dbr:London", "Coherence=0.349", "triple=e dbo:location dbr:London", "class=Company" ]
   }
 }, {
   "id" : 28,
   "pattern" : "manufacture",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Aerospace", "Coherence=0.263", "triple=e_dbp:industry dbr:Aerospace", "class=Company" ]
+    "0" : [ "pair=dbr:Aerospace", "Coherence=0.263", "triple=e dbp:industry dbr:Aerospace", "class=Company" ]
   }
 }, {
   "id" : 29,
   "pattern" : "manufacturer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Aerospace", "Coherence=0.411", "triple=e_dbp:industry dbr:Aerospace", "class=Company" ],
-    "1" : [ "pair=dbr:Automotive_industry", "Coherence=0.28", "triple=e_dbp:industry dbr:Automotive_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Aerospace", "Coherence=0.411", "triple=e dbp:industry dbr:Aerospace", "class=Company" ],
+    "1" : [ "pair=dbr:Automotive_industry", "Coherence=0.28", "triple=e dbp:industry dbr:Automotive_industry", "class=Company" ]
   }
 }, {
   "id" : 30,
   "pattern" : "motor",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Automotive_industry", "Coherence=0.195", "triple=e_dbp:industry dbr:Automotive_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Automotive_industry", "Coherence=0.195", "triple=e dbp:industry dbr:Automotive_industry", "class=Company" ]
   }
 }, {
   "id" : 31,
   "pattern" : "new york",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_City", "Coherence=0.383", "triple=e_dbp:locationCity dbr:New_York_City", "class=Company" ]
+    "0" : [ "pair=dbr:New_York_City", "Coherence=0.383", "triple=e dbp:locationCity dbr:New_York_City", "class=Company" ]
   }
 }, {
   "id" : 33,
   "pattern" : "publisher",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.165", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.165", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 35,
   "pattern" : "retailer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Retail", "Coherence=0.167", "triple=e_dbp:industry dbr:Retail", "class=Company" ]
+    "0" : [ "pair=dbr:Retail", "Coherence=0.167", "triple=e dbp:industry dbr:Retail", "class=Company" ]
   }
 }, {
   "id" : 36,
   "pattern" : "software",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Software", "Coherence=0.419", "triple=e_dbo:industry dbr:Software", "class=Company" ]
+    "0" : [ "pair=dbr:Software", "Coherence=0.419", "triple=e dbo:industry dbr:Software", "class=Company" ]
   }
 }, {
   "id" : 37,
   "pattern" : "software company",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Software", "Coherence=0.226", "triple=e_dbp:industry dbr:Software", "class=Company" ]
+    "0" : [ "pair=dbr:Software", "Coherence=0.226", "triple=e dbp:industry dbr:Software", "class=Company" ]
   }
 }, {
   "id" : 38,
   "pattern" : "states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "Coherence=0.272", "triple=e_dbo:regionServed dbr:United_States", "class=Company" ],
-    "1" : [ "pair=\"United States\"@en", "Coherence=0.159", "triple=e_dbp:locationCountry \"United States\"@en", "class=Company" ]
+    "0" : [ "pair=dbr:United_States", "Coherence=0.272", "triple=e dbo:regionServed dbr:United_States", "class=Company" ],
+    "1" : [ "pair=\"United States\"@en", "Coherence=0.159", "triple=e dbp:locationCountry \"United States\"@en", "class=Company" ]
   }
 }, {
   "id" : 39,
   "pattern" : "store",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Retail", "Coherence=0.26", "triple=e_dbo:industry dbr:Retail", "class=Company" ]
+    "0" : [ "pair=dbr:Retail", "Coherence=0.26", "triple=e dbo:industry dbr:Retail", "class=Company" ]
   }
 }, {
   "id" : 40,
   "pattern" : "stores",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Retail", "Coherence=0.353", "triple=e_dbo:industry dbr:Retail", "class=Company" ]
+    "0" : [ "pair=dbr:Retail", "Coherence=0.353", "triple=e dbo:industry dbr:Retail", "class=Company" ]
   }
 }, {
   "id" : 41,
   "pattern" : "studio",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.197", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.197", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 42,
   "pattern" : "subsidiary",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Subsidiary", "Coherence=0.218", "triple=e_dbo:type dbr:Subsidiary", "class=Company" ]
+    "0" : [ "pair=dbr:Subsidiary", "Coherence=0.218", "triple=e dbo:type dbr:Subsidiary", "class=Company" ]
   }
 }, {
   "id" : 43,
   "pattern" : "telecommunications",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Telecommunications", "Coherence=0.309", "triple=e_dbo:industry dbr:Telecommunications", "class=Company" ],
-    "1" : [ "pair=dbr:Telecommunication", "Coherence=0.286", "triple=e_dbp:industry dbr:Telecommunication", "class=Company" ]
+    "0" : [ "pair=dbr:Telecommunications", "Coherence=0.309", "triple=e dbo:industry dbr:Telecommunications", "class=Company" ],
+    "1" : [ "pair=dbr:Telecommunication", "Coherence=0.286", "triple=e dbp:industry dbr:Telecommunication", "class=Company" ]
   }
 }, {
   "id" : 44,
   "pattern" : "united",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "Coherence=0.275", "triple=e_dbo:regionServed dbr:United_States", "class=Company" ],
-    "1" : [ "pair=dbr:Retail", "Coherence=0.186", "triple=e_dbo:industry dbr:Retail", "class=Company" ],
-    "2" : [ "pair=\"United States\"@en", "Coherence=0.175", "triple=e_dbp:locationCountry \"United States\"@en", "class=Company" ],
-    "3" : [ "pair=\"Private\"@en", "Coherence=0.15", "triple=e_dbp:type \"Private\"@en", "class=Company" ]
+    "0" : [ "pair=dbr:United_States", "Coherence=0.275", "triple=e dbo:regionServed dbr:United_States", "class=Company" ],
+    "1" : [ "pair=dbr:Retail", "Coherence=0.186", "triple=e dbo:industry dbr:Retail", "class=Company" ],
+    "2" : [ "pair=\"United States\"@en", "Coherence=0.175", "triple=e dbp:locationCountry \"United States\"@en", "class=Company" ],
+    "3" : [ "pair=\"Private\"@en", "Coherence=0.15", "triple=e dbp:type \"Private\"@en", "class=Company" ]
   }
 }, {
   "id" : 45,
   "pattern" : "united states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "Coherence=0.272", "triple=e_dbo:regionServed dbr:United_States", "class=Company" ],
-    "1" : [ "pair=\"United States\"@en", "Coherence=0.159", "triple=e_dbp:locationCountry \"United States\"@en", "class=Company" ]
+    "0" : [ "pair=dbr:United_States", "Coherence=0.272", "triple=e dbo:regionServed dbr:United_States", "class=Company" ],
+    "1" : [ "pair=\"United States\"@en", "Coherence=0.159", "triple=e dbp:locationCountry \"United States\"@en", "class=Company" ]
   }
 }, {
   "id" : 46,
   "pattern" : "vehicles",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Automotive_industry", "Coherence=0.239", "triple=e_dbp:industry dbr:Automotive_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Automotive_industry", "Coherence=0.239", "triple=e dbp:industry dbr:Automotive_industry", "class=Company" ]
   }
 }, {
   "id" : 47,
   "pattern" : "video",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.438", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.438", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 48,
   "pattern" : "video game",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.429", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.429", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 49,
   "pattern" : "video game developer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.35", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.35", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 50,
   "pattern" : "video game developer\u001Cbased",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.202", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.202", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 51,
   "pattern" : "video game developer\u001Cbased\u001Cin",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.202", "triple=e_dbp:industry dbr:Video_game_industry", "class=Company" ]
+    "0" : [ "pair=dbr:Video_game_industry", "Coherence=0.202", "triple=e dbp:industry dbr:Video_game_industry", "class=Company" ]
   }
 }, {
   "id" : 52,
   "pattern" : "york",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:New_York_City", "Coherence=0.388", "triple=e_dbp:locationCity dbr:New_York_City", "class=Company" ]
+    "0" : [ "pair=dbr:New_York_City", "Coherence=0.388", "triple=e dbp:locationCity dbr:New_York_City", "class=Company" ]
   }
 } ]

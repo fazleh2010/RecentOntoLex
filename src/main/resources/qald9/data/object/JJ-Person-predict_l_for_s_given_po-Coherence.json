@@ -3,63 +3,63 @@
   "pattern" : "australian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Australian\"@en", "Coherence=0.479", "triple=e_dbp:nationality \"Australian\"@en", "class=Person" ]
+    "0" : [ "pair=\"Australian\"@en", "Coherence=0.479", "triple=e dbp:nationality \"Australian\"@en", "class=Person" ]
   }
 }, {
   "id" : 7,
   "pattern" : "british",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"British\"@en", "Coherence=0.342", "triple=e_dbp:nationality \"British\"@en", "class=Person" ]
+    "0" : [ "pair=\"British\"@en", "Coherence=0.342", "triple=e dbp:nationality \"British\"@en", "class=Person" ]
   }
 }, {
   "id" : 17,
   "pattern" : "french",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"French\"@en", "Coherence=0.447", "triple=e_dbp:nationality \"French\"@en", "class=Person" ],
-    "1" : [ "pair=dbr:Paris", "Coherence=0.44", "triple=e_dbo:birthPlace dbr:Paris", "class=Person" ],
-    "2" : [ "pair=dbr:France", "Coherence=0.428", "triple=e_dbp:birthPlace dbr:France", "class=Person" ]
+    "0" : [ "pair=\"French\"@en", "Coherence=0.447", "triple=e dbp:nationality \"French\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Paris", "Coherence=0.44", "triple=e dbo:birthPlace dbr:Paris", "class=Person" ],
+    "2" : [ "pair=dbr:France", "Coherence=0.428", "triple=e dbp:birthPlace dbr:France", "class=Person" ]
   }
 }, {
   "id" : 18,
   "pattern" : "german",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"German\"@en", "Coherence=0.43", "triple=e_dbp:nationality \"German\"@en", "class=Person" ]
+    "0" : [ "pair=\"German\"@en", "Coherence=0.43", "triple=e dbp:nationality \"German\"@en", "class=Person" ]
   }
 }, {
   "id" : 19,
   "pattern" : "indian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:India", "Coherence=0.414", "triple=e_dbp:birthPlace dbr:India", "class=Person" ],
-    "1" : [ "pair=\"Indian\"@en", "Coherence=0.411", "triple=e_dbp:nationality \"Indian\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:India", "Coherence=0.414", "triple=e dbp:birthPlace dbr:India", "class=Person" ],
+    "1" : [ "pair=\"Indian\"@en", "Coherence=0.411", "triple=e dbp:nationality \"Indian\"@en", "class=Person" ]
   }
 }, {
   "id" : 20,
   "pattern" : "japanese",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"ja\"@en", "Coherence=0.49", "triple=e_dbp:nativeNameLang \"ja\"@en", "class=Person" ],
-    "1" : [ "pair=dbr:Japan", "Coherence=0.454", "triple=e_dbo:birthPlace dbr:Japan", "class=Person" ],
-    "2" : [ "pair=\"Japanese\"@en", "Coherence=0.452", "triple=e_dbp:nationality \"Japanese\"@en", "class=Person" ]
+    "0" : [ "pair=\"ja\"@en", "Coherence=0.49", "triple=e dbp:nativeNameLang \"ja\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Japan", "Coherence=0.454", "triple=e dbo:birthPlace dbr:Japan", "class=Person" ],
+    "2" : [ "pair=\"Japanese\"@en", "Coherence=0.452", "triple=e dbp:nationality \"Japanese\"@en", "class=Person" ]
   }
 }, {
   "id" : 22,
   "pattern" : "korean",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:South_Korea", "Coherence=0.48", "triple=e_dbo:birthPlace dbr:South_Korea", "class=Person" ]
+    "0" : [ "pair=dbr:South_Korea", "Coherence=0.48", "triple=e dbo:birthPlace dbr:South_Korea", "class=Person" ]
   }
 }, {
   "id" : 26,
   "pattern" : "mexican",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Coherence=0.5", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Coherence=0.497", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Coherence=0.495", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Coherence=0.361", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Coherence=0.5", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Coherence=0.497", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Coherence=0.495", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Coherence=0.361", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 } ]

@@ -3,677 +3,677 @@
   "pattern" : "american",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Member of the U.S. House of Representatives\"@en", "Kulczynski=0.889", "triple=e_dbp:title \"Member of the U.S. House of Representatives\"@en", "class=Politician" ],
-    "1" : [ "pair=dbr:United_States", "Kulczynski=0.826", "triple=e_dbp:nationality dbr:United_States", "class=Politician" ],
-    "2" : [ "pair=\"Republican Party\"@en", "Kulczynski=0.817", "triple=e_dbp:party \"Republican Party\"@en", "class=Politician" ],
-    "3" : [ "pair=\"United States Senator\"@en", "Kulczynski=0.8", "triple=e_dbp:jr/sr \"United States Senator\"@en", "class=Politician" ],
-    "4" : [ "pair=\"Democratic Party\"@en", "Kulczynski=0.796", "triple=e_dbp:party \"Democratic Party\"@en", "class=Politician" ],
-    "5" : [ "pair=dbr:Harvard_University", "Kulczynski=0.795", "triple=e_dbo:education dbr:Harvard_University", "class=Politician" ],
-    "6" : [ "pair=dbr:New_York_City", "Kulczynski=0.79", "triple=e_dbo:birthPlace dbr:New_York_City", "class=Politician" ],
-    "7" : [ "pair=dbr:Democratic_Party_(United_States", "Kulczynski=0.778", "triple=e_dbp:party dbr:Democratic_Party_(United_States", "class=Politician" ],
-    "8" : [ "pair=dbr:Republican_Party_(United_States", "Kulczynski=0.776", "triple=e_dbo:party dbr:Republican_Party_(United_States", "class=Politician" ],
-    "9" : [ "pair=dbr:New_York_(state", "Kulczynski=0.768", "triple=e_dbo:birthPlace dbr:New_York_(state", "class=Politician" ],
-    "10" : [ "pair=\"American\"@en", "Kulczynski=0.767", "triple=e_dbp:nationality \"American\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Member of the U.S. House of Representatives\"@en", "Kulczynski=0.889", "triple=e dbp:title \"Member of the U.S. House of Representatives\"@en", "class=Politician" ],
+    "1" : [ "pair=dbr:United_States", "Kulczynski=0.826", "triple=e dbp:nationality dbr:United_States", "class=Politician" ],
+    "2" : [ "pair=\"Republican Party\"@en", "Kulczynski=0.817", "triple=e dbp:party \"Republican Party\"@en", "class=Politician" ],
+    "3" : [ "pair=\"United States Senator\"@en", "Kulczynski=0.8", "triple=e dbp:jr/sr \"United States Senator\"@en", "class=Politician" ],
+    "4" : [ "pair=\"Democratic Party\"@en", "Kulczynski=0.796", "triple=e dbp:party \"Democratic Party\"@en", "class=Politician" ],
+    "5" : [ "pair=dbr:Harvard_University", "Kulczynski=0.795", "triple=e dbo:education dbr:Harvard_University", "class=Politician" ],
+    "6" : [ "pair=dbr:New_York_City", "Kulczynski=0.79", "triple=e dbo:birthPlace dbr:New_York_City", "class=Politician" ],
+    "7" : [ "pair=dbr:Democratic_Party_(United_States", "Kulczynski=0.778", "triple=e dbp:party dbr:Democratic_Party_(United_States", "class=Politician" ],
+    "8" : [ "pair=dbr:Republican_Party_(United_States", "Kulczynski=0.776", "triple=e dbo:party dbr:Republican_Party_(United_States", "class=Politician" ],
+    "9" : [ "pair=dbr:New_York_(state", "Kulczynski=0.768", "triple=e dbo:birthPlace dbr:New_York_(state", "class=Politician" ],
+    "10" : [ "pair=\"American\"@en", "Kulczynski=0.767", "triple=e dbp:nationality \"American\"@en", "class=Politician" ]
   }
 }, {
   "id" : 2,
   "pattern" : "assembly",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.963", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ],
-    "1" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.934", "triple=e_dbp:nationality \"Pakistani\"@en", "class=Politician" ],
-    "2" : [ "pair=\"Queensland Legislative\"@en", "Kulczynski=0.903", "triple=e_dbp:assembly \"Queensland Legislative\"@en", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.963", "triple=e dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ],
+    "1" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.934", "triple=e dbp:nationality \"Pakistani\"@en", "class=Politician" ],
+    "2" : [ "pair=\"Queensland Legislative\"@en", "Kulczynski=0.903", "triple=e dbp:assembly \"Queensland Legislative\"@en", "class=Politician" ]
   }
 }, {
   "id" : 3,
   "pattern" : "assembly ontario",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.963", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.963", "triple=e dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
   }
 }, {
   "id" : 4,
   "pattern" : "assembly ontario\u001Cfrom",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.835", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.835", "triple=e dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
   }
 }, {
   "id" : 6,
   "pattern" : "australian politician",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Australian_Labor_Party", "Kulczynski=0.924", "triple=e_dbo:party dbr:Australian_Labor_Party", "class=Politician" ],
-    "1" : [ "pair=\"Australian\"@en", "Kulczynski=0.901", "triple=e_dbp:parliament \"Australian\"@en", "class=Politician" ],
-    "2" : [ "pair=dbr:Australia", "Kulczynski=0.859", "triple=e_dbo:nationality dbr:Australia", "class=Politician" ]
+    "0" : [ "pair=dbr:Australian_Labor_Party", "Kulczynski=0.924", "triple=e dbo:party dbr:Australian_Labor_Party", "class=Politician" ],
+    "1" : [ "pair=\"Australian\"@en", "Kulczynski=0.901", "triple=e dbp:parliament \"Australian\"@en", "class=Politician" ],
+    "2" : [ "pair=dbr:Australia", "Kulczynski=0.859", "triple=e dbo:nationality dbr:Australia", "class=Politician" ]
   }
 }, {
   "id" : 7,
   "pattern" : "bharatiya",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.855", "triple=e_dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
+    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.855", "triple=e dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
   }
 }, {
   "id" : 8,
   "pattern" : "bharatiya janata",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.855", "triple=e_dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
+    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.855", "triple=e dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
   }
 }, {
   "id" : 9,
   "pattern" : "bharatiya janata\u001Cparty",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.759", "triple=e_dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
+    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.759", "triple=e dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
   }
 }, {
   "id" : 10,
   "pattern" : "bharatiya janata party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.85", "triple=e_dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
+    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.85", "triple=e dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
   }
 }, {
   "id" : 13,
   "pattern" : "bundestag",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Member of the Bundestag\"@en", "Kulczynski=0.94", "triple=e_dbp:office \"Member of the Bundestag\"@en", "class=Politician" ],
-    "1" : [ "pair=\"German\"@en", "Kulczynski=0.914", "triple=e_dbp:nationality \"German\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Member of the Bundestag\"@en", "Kulczynski=0.94", "triple=e dbp:office \"Member of the Bundestag\"@en", "class=Politician" ],
+    "1" : [ "pair=\"German\"@en", "Kulczynski=0.914", "triple=e dbp:nationality \"German\"@en", "class=Politician" ]
   }
 }, {
   "id" : 14,
   "pattern" : "canada",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Liberal_Party_of_Canada", "Kulczynski=0.873", "triple=e_dbo:party dbr:Liberal_Party_of_Canada", "class=Politician" ],
-    "1" : [ "pair=\"Canadian\"@en", "Kulczynski=0.848", "triple=e_dbp:parliament \"Canadian\"@en", "class=Politician" ],
-    "2" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.81", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
+    "0" : [ "pair=dbr:Liberal_Party_of_Canada", "Kulczynski=0.873", "triple=e dbo:party dbr:Liberal_Party_of_Canada", "class=Politician" ],
+    "1" : [ "pair=\"Canadian\"@en", "Kulczynski=0.848", "triple=e dbp:parliament \"Canadian\"@en", "class=Politician" ],
+    "2" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.81", "triple=e dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
   }
 }, {
   "id" : 17,
   "pattern" : "commons",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.794", "triple=e_dbp:parliament \"Canadian\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.794", "triple=e dbp:parliament \"Canadian\"@en", "class=Politician" ]
   }
 }, {
   "id" : 18,
   "pattern" : "commons canada",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.759", "triple=e_dbp:parliament \"Canadian\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.759", "triple=e dbp:parliament \"Canadian\"@en", "class=Politician" ]
   }
 }, {
   "id" : 19,
   "pattern" : "commons of\u001Ccanada",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.759", "triple=e_dbp:parliament \"Canadian\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.759", "triple=e dbp:parliament \"Canadian\"@en", "class=Politician" ]
   }
 }, {
   "id" : 20,
   "pattern" : "congress",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.863", "triple=e_dbp:party dbr:Indian_National_Congress", "class=Politician" ]
+    "0" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.863", "triple=e dbp:party dbr:Indian_National_Congress", "class=Politician" ]
   }
 }, {
   "id" : 21,
   "pattern" : "conservative",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Conservative_Party_(UK", "Kulczynski=0.955", "triple=e_dbp:party dbr:Conservative_Party_(UK", "class=Politician" ]
+    "0" : [ "pair=dbr:Conservative_Party_(UK", "Kulczynski=0.955", "triple=e dbp:party dbr:Conservative_Party_(UK", "class=Politician" ]
   }
 }, {
   "id" : 22,
   "pattern" : "conservative party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Conservative_Party_(UK", "Kulczynski=0.754", "triple=e_dbp:party dbr:Conservative_Party_(UK", "class=Politician" ]
+    "0" : [ "pair=dbr:Conservative_Party_(UK", "Kulczynski=0.754", "triple=e dbp:party dbr:Conservative_Party_(UK", "class=Politician" ]
   }
 }, {
   "id" : 23,
   "pattern" : "district",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:United_States", "Kulczynski=0.786", "triple=e_dbp:nationality dbr:United_States", "class=Politician" ]
+    "0" : [ "pair=dbr:United_States", "Kulczynski=0.786", "triple=e dbp:nationality dbr:United_States", "class=Politician" ]
   }
 }, {
   "id" : 26,
   "pattern" : "german politician",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Member of the Bundestag\"@en", "Kulczynski=0.92", "triple=e_dbp:office \"Member of the Bundestag\"@en", "class=Politician" ],
-    "1" : [ "pair=\"German\"@en", "Kulczynski=0.878", "triple=e_dbp:nationality \"German\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Member of the Bundestag\"@en", "Kulczynski=0.92", "triple=e dbp:office \"Member of the Bundestag\"@en", "class=Politician" ],
+    "1" : [ "pair=\"German\"@en", "Kulczynski=0.878", "triple=e dbp:nationality \"German\"@en", "class=Politician" ]
   }
 }, {
   "id" : 27,
   "pattern" : "house",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.97", "triple=e_dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ],
-    "1" : [ "pair=\"Australian\"@en", "Kulczynski=0.851", "triple=e_dbp:parliament \"Australian\"@en", "class=Politician" ],
-    "2" : [ "pair=\"Canadian\"@en", "Kulczynski=0.794", "triple=e_dbp:parliament \"Canadian\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.97", "triple=e dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ],
+    "1" : [ "pair=\"Australian\"@en", "Kulczynski=0.851", "triple=e dbp:parliament \"Australian\"@en", "class=Politician" ],
+    "2" : [ "pair=\"Canadian\"@en", "Kulczynski=0.794", "triple=e dbp:parliament \"Canadian\"@en", "class=Politician" ]
   }
 }, {
   "id" : 28,
   "pattern" : "house commons",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.794", "triple=e_dbp:parliament \"Canadian\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.794", "triple=e dbp:parliament \"Canadian\"@en", "class=Politician" ]
   }
 }, {
   "id" : 29,
   "pattern" : "house commons\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.759", "triple=e_dbp:parliament \"Canadian\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.759", "triple=e dbp:parliament \"Canadian\"@en", "class=Politician" ]
   }
 }, {
   "id" : 30,
   "pattern" : "house commons\u001Cof\u001Ccanada",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.759", "triple=e_dbp:parliament \"Canadian\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.759", "triple=e dbp:parliament \"Canadian\"@en", "class=Politician" ]
   }
 }, {
   "id" : 31,
   "pattern" : "house of\u001Ccommons",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.779", "triple=e_dbp:parliament \"Canadian\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.779", "triple=e dbp:parliament \"Canadian\"@en", "class=Politician" ]
   }
 }, {
   "id" : 32,
   "pattern" : "house of\u001Ccommons\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.759", "triple=e_dbp:parliament \"Canadian\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Canadian\"@en", "Kulczynski=0.759", "triple=e dbp:parliament \"Canadian\"@en", "class=Politician" ]
   }
 }, {
   "id" : 33,
   "pattern" : "house representatives",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.948", "triple=e_dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ],
-    "1" : [ "pair=\"Australian\"@en", "Kulczynski=0.845", "triple=e_dbp:parliament \"Australian\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.948", "triple=e dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ],
+    "1" : [ "pair=\"Australian\"@en", "Kulczynski=0.845", "triple=e dbp:parliament \"Australian\"@en", "class=Politician" ]
   }
 }, {
   "id" : 35,
   "pattern" : "indian\u001Cpolitician",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.778", "triple=e_dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
+    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.778", "triple=e dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
   }
 }, {
   "id" : 36,
   "pattern" : "indian national",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.84", "triple=e_dbp:party dbr:Indian_National_Congress", "class=Politician" ]
+    "0" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.84", "triple=e dbp:party dbr:Indian_National_Congress", "class=Politician" ]
   }
 }, {
   "id" : 37,
   "pattern" : "indian national congress",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.84", "triple=e_dbp:party dbr:Indian_National_Congress", "class=Politician" ]
+    "0" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.84", "triple=e dbp:party dbr:Indian_National_Congress", "class=Politician" ]
   }
 }, {
   "id" : 38,
   "pattern" : "indian politician",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.807", "triple=e_dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ],
-    "1" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.789", "triple=e_dbp:party dbr:Indian_National_Congress", "class=Politician" ],
-    "2" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.774", "triple=e_dbp:office dbr:Member_of_parliament", "class=Politician" ]
+    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.807", "triple=e dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ],
+    "1" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.789", "triple=e dbp:party dbr:Indian_National_Congress", "class=Politician" ],
+    "2" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.774", "triple=e dbp:office dbr:Member_of_parliament", "class=Politician" ]
   }
 }, {
   "id" : 40,
   "pattern" : "janata",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.865", "triple=e_dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
+    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.865", "triple=e dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
   }
 }, {
   "id" : 41,
   "pattern" : "janata party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.86", "triple=e_dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
+    "0" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.86", "triple=e dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ]
   }
 }, {
   "id" : 42,
   "pattern" : "labor",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Australian_Labor_Party", "Kulczynski=0.919", "triple=e_dbo:party dbr:Australian_Labor_Party", "class=Politician" ],
-    "1" : [ "pair=dbr:Australia", "Kulczynski=0.771", "triple=e_dbo:nationality dbr:Australia", "class=Politician" ]
+    "0" : [ "pair=dbr:Australian_Labor_Party", "Kulczynski=0.919", "triple=e dbo:party dbr:Australian_Labor_Party", "class=Politician" ],
+    "1" : [ "pair=dbr:Australia", "Kulczynski=0.771", "triple=e dbo:nationality dbr:Australia", "class=Politician" ]
   }
 }, {
   "id" : 43,
   "pattern" : "labor party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Australian_Labor_Party", "Kulczynski=0.767", "triple=e_dbo:party dbr:Australian_Labor_Party", "class=Politician" ]
+    "0" : [ "pair=dbr:Australian_Labor_Party", "Kulczynski=0.767", "triple=e dbo:party dbr:Australian_Labor_Party", "class=Politician" ]
   }
 }, {
   "id" : 44,
   "pattern" : "labour",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.976", "triple=e_dbp:party dbr:Labour_Party_(UK", "class=Politician" ]
+    "0" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.976", "triple=e dbp:party dbr:Labour_Party_(UK", "class=Politician" ]
   }
 }, {
   "id" : 45,
   "pattern" : "labour party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.869", "triple=e_dbp:party dbr:Labour_Party_(UK", "class=Politician" ]
+    "0" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.869", "triple=e dbp:party dbr:Labour_Party_(UK", "class=Politician" ]
   }
 }, {
   "id" : 47,
   "pattern" : "legislative\u001Cassembly",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.829", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.829", "triple=e dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
   }
 }, {
   "id" : 48,
   "pattern" : "legislative\u001Cassembly\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.829", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.829", "triple=e dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
   }
 }, {
   "id" : 49,
   "pattern" : "legislative assembly",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.963", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ],
-    "1" : [ "pair=\"Queensland Legislative\"@en", "Kulczynski=0.903", "triple=e_dbp:assembly \"Queensland Legislative\"@en", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.963", "triple=e dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ],
+    "1" : [ "pair=\"Queensland Legislative\"@en", "Kulczynski=0.903", "triple=e dbp:assembly \"Queensland Legislative\"@en", "class=Politician" ]
   }
 }, {
   "id" : 50,
   "pattern" : "legislative assembly\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.957", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.957", "triple=e dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
   }
 }, {
   "id" : 51,
   "pattern" : "legislative assembly\u001Cof\u001Contario",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.957", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.957", "triple=e dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
   }
 }, {
   "id" : 52,
   "pattern" : "legislative assembly of\u001Contario",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.963", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.963", "triple=e dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
   }
 }, {
   "id" : 53,
   "pattern" : "legislative assembly of\u001Contario\u001Cfrom",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.835", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.835", "triple=e dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
   }
 }, {
   "id" : 54,
   "pattern" : "lok sabha",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Lok_Sabha", "Kulczynski=0.931", "triple=e_dbp:office dbr:Lok_Sabha", "class=Politician" ],
-    "1" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.798", "triple=e_dbp:office dbr:Member_of_parliament", "class=Politician" ]
+    "0" : [ "pair=dbr:Lok_Sabha", "Kulczynski=0.931", "triple=e dbp:office dbr:Lok_Sabha", "class=Politician" ],
+    "1" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.798", "triple=e dbp:office dbr:Member_of_parliament", "class=Politician" ]
   }
 }, {
   "id" : 56,
   "pattern" : "member",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.955", "triple=e_dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ],
-    "1" : [ "pair=\"Member of the Bundestag\"@en", "Kulczynski=0.926", "triple=e_dbp:office \"Member of the Bundestag\"@en", "class=Politician" ],
-    "2" : [ "pair=\"German\"@en", "Kulczynski=0.914", "triple=e_dbp:nationality \"German\"@en", "class=Politician" ],
-    "3" : [ "pair=\"Incumbent\"@en", "Kulczynski=0.895", "triple=e_dbp:successor \"Incumbent\"@en", "class=Politician" ],
-    "4" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.859", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ],
-    "5" : [ "pair=dbr:Australian_Labor_Party", "Kulczynski=0.858", "triple=e_dbo:party dbr:Australian_Labor_Party", "class=Politician" ],
-    "6" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.837", "triple=e_dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ],
-    "7" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.836", "triple=e_dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ],
-    "8" : [ "pair=dbr:Australia", "Kulczynski=0.831", "triple=e_dbo:nationality dbr:Australia", "class=Politician" ],
-    "9" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.821", "triple=e_dbp:party dbr:Labour_Party_(UK", "class=Politician" ],
-    "10" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.817", "triple=e_dbp:office dbr:Member_of_parliament", "class=Politician" ],
-    "11" : [ "pair=\"Australian\"@en", "Kulczynski=0.814", "triple=e_dbp:parliament \"Australian\"@en", "class=Politician" ],
-    "12" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.796", "triple=e_dbp:party dbr:Indian_National_Congress", "class=Politician" ],
-    "13" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.794", "triple=e_dbp:nationality \"Pakistani\"@en", "class=Politician" ],
-    "14" : [ "pair=\"Member of the\"@en", "Kulczynski=0.787", "triple=e_dbp:office \"Member of the\"@en", "class=Politician" ],
-    "15" : [ "pair=\"Republican Party\"@en", "Kulczynski=0.786", "triple=e_dbp:party \"Republican Party\"@en", "class=Politician" ],
-    "16" : [ "pair=dbr:United_States", "Kulczynski=0.78", "triple=e_dbp:nationality dbr:United_States", "class=Politician" ],
-    "17" : [ "pair=\"Democratic Party\"@en", "Kulczynski=0.763", "triple=e_dbp:party \"Democratic Party\"@en", "class=Politician" ],
-    "18" : [ "pair=\"Indian\"@en", "Kulczynski=0.761", "triple=e_dbp:nationality \"Indian\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.955", "triple=e dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ],
+    "1" : [ "pair=\"Member of the Bundestag\"@en", "Kulczynski=0.926", "triple=e dbp:office \"Member of the Bundestag\"@en", "class=Politician" ],
+    "2" : [ "pair=\"German\"@en", "Kulczynski=0.914", "triple=e dbp:nationality \"German\"@en", "class=Politician" ],
+    "3" : [ "pair=\"Incumbent\"@en", "Kulczynski=0.895", "triple=e dbp:successor \"Incumbent\"@en", "class=Politician" ],
+    "4" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.859", "triple=e dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ],
+    "5" : [ "pair=dbr:Australian_Labor_Party", "Kulczynski=0.858", "triple=e dbo:party dbr:Australian_Labor_Party", "class=Politician" ],
+    "6" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.837", "triple=e dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ],
+    "7" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.836", "triple=e dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ],
+    "8" : [ "pair=dbr:Australia", "Kulczynski=0.831", "triple=e dbo:nationality dbr:Australia", "class=Politician" ],
+    "9" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.821", "triple=e dbp:party dbr:Labour_Party_(UK", "class=Politician" ],
+    "10" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.817", "triple=e dbp:office dbr:Member_of_parliament", "class=Politician" ],
+    "11" : [ "pair=\"Australian\"@en", "Kulczynski=0.814", "triple=e dbp:parliament \"Australian\"@en", "class=Politician" ],
+    "12" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.796", "triple=e dbp:party dbr:Indian_National_Congress", "class=Politician" ],
+    "13" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.794", "triple=e dbp:nationality \"Pakistani\"@en", "class=Politician" ],
+    "14" : [ "pair=\"Member of the\"@en", "Kulczynski=0.787", "triple=e dbp:office \"Member of the\"@en", "class=Politician" ],
+    "15" : [ "pair=\"Republican Party\"@en", "Kulczynski=0.786", "triple=e dbp:party \"Republican Party\"@en", "class=Politician" ],
+    "16" : [ "pair=dbr:United_States", "Kulczynski=0.78", "triple=e dbp:nationality dbr:United_States", "class=Politician" ],
+    "17" : [ "pair=\"Democratic Party\"@en", "Kulczynski=0.763", "triple=e dbp:party \"Democratic Party\"@en", "class=Politician" ],
+    "18" : [ "pair=\"Indian\"@en", "Kulczynski=0.761", "triple=e dbp:nationality \"Indian\"@en", "class=Politician" ]
   }
 }, {
   "id" : 57,
   "pattern" : "member of\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.763", "triple=e_dbp:nationality \"Pakistani\"@en", "class=Politician" ],
-    "1" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.759", "triple=e_dbp:office dbr:Member_of_parliament", "class=Politician" ]
+    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.763", "triple=e dbp:nationality \"Pakistani\"@en", "class=Politician" ],
+    "1" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.759", "triple=e dbp:office dbr:Member_of_parliament", "class=Politician" ]
   }
 }, {
   "id" : 58,
   "pattern" : "member parliament",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.837", "triple=e_dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ],
-    "1" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.815", "triple=e_dbp:party dbr:Labour_Party_(UK", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.837", "triple=e dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ],
+    "1" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.815", "triple=e dbp:party dbr:Labour_Party_(UK", "class=Politician" ]
   }
 }, {
   "id" : 59,
   "pattern" : "member parliament\u001Cmp",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.778", "triple=e_dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.778", "triple=e dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ]
   }
 }, {
   "id" : 60,
   "pattern" : "member the\u001Cpennsylvania",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.941", "triple=e_dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.941", "triple=e dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
   }
 }, {
   "id" : 61,
   "pattern" : "member the\u001Cpennsylvania\u001Chouse",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.904", "triple=e_dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.904", "triple=e dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
   }
 }, {
   "id" : 62,
   "pattern" : "michigan",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Michigan\"@en", "Kulczynski=0.962", "triple=e_dbp:stateHouse \"Michigan\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Michigan\"@en", "Kulczynski=0.962", "triple=e dbp:stateHouse \"Michigan\"@en", "class=Politician" ]
   }
 }, {
   "id" : 63,
   "pattern" : "mp",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.797", "triple=e_dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.797", "triple=e dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ]
   }
 }, {
   "id" : 64,
   "pattern" : "national",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.847", "triple=e_dbp:party dbr:Indian_National_Congress", "class=Politician" ]
+    "0" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.847", "triple=e dbp:party dbr:Indian_National_Congress", "class=Politician" ]
   }
 }, {
   "id" : 65,
   "pattern" : "national congress",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.84", "triple=e_dbp:party dbr:Indian_National_Congress", "class=Politician" ]
+    "0" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.84", "triple=e dbp:party dbr:Indian_National_Congress", "class=Politician" ]
   }
 }, {
   "id" : 66,
   "pattern" : "ohio",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Ohio\"@en", "Kulczynski=1.0", "triple=e_dbp:state \"Ohio\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Ohio\"@en", "Kulczynski=1.0", "triple=e dbp:state \"Ohio\"@en", "class=Politician" ]
   }
 }, {
   "id" : 67,
   "pattern" : "ontario",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.993", "triple=e_dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Provincial_Parliament_(Canada", "Kulczynski=0.993", "triple=e dbp:office dbr:Member_of_Provincial_Parliament_(Canada", "class=Politician" ]
   }
 }, {
   "id" : 69,
   "pattern" : "pakistani\u001Cpolitician",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.937", "triple=e_dbp:nationality \"Pakistani\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.937", "triple=e dbp:nationality \"Pakistani\"@en", "class=Politician" ]
   }
 }, {
   "id" : 70,
   "pattern" : "pakistani\u001Cpolitician\u001Cwho",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.922", "triple=e_dbp:nationality \"Pakistani\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.922", "triple=e dbp:nationality \"Pakistani\"@en", "class=Politician" ]
   }
 }, {
   "id" : 71,
   "pattern" : "pakistani politician",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.953", "triple=e_dbp:nationality \"Pakistani\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.953", "triple=e dbp:nationality \"Pakistani\"@en", "class=Politician" ]
   }
 }, {
   "id" : 72,
   "pattern" : "pakistani politician\u001Cwho",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.93", "triple=e_dbp:nationality \"Pakistani\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.93", "triple=e dbp:nationality \"Pakistani\"@en", "class=Politician" ]
   }
 }, {
   "id" : 73,
   "pattern" : "parliament",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.848", "triple=e_dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ],
-    "1" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.833", "triple=e_dbp:party dbr:Labour_Party_(UK", "class=Politician" ],
-    "2" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.807", "triple=e_dbp:office dbr:Member_of_parliament", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.848", "triple=e dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ],
+    "1" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.833", "triple=e dbp:party dbr:Labour_Party_(UK", "class=Politician" ],
+    "2" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.807", "triple=e dbp:office dbr:Member_of_parliament", "class=Politician" ]
   }
 }, {
   "id" : 74,
   "pattern" : "parliament mp",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.778", "triple=e_dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.778", "triple=e dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ]
   }
 }, {
   "id" : 75,
   "pattern" : "party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.875", "triple=e_dbp:party dbr:Labour_Party_(UK", "class=Politician" ],
-    "1" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.86", "triple=e_dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ],
-    "2" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.837", "triple=e_dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ],
-    "3" : [ "pair=dbr:Australian_Labor_Party", "Kulczynski=0.777", "triple=e_dbo:party dbr:Australian_Labor_Party", "class=Politician" ],
-    "4" : [ "pair=dbr:Conservative_Party_(UK", "Kulczynski=0.764", "triple=e_dbo:party dbr:Conservative_Party_(UK", "class=Politician" ]
+    "0" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.875", "triple=e dbp:party dbr:Labour_Party_(UK", "class=Politician" ],
+    "1" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.86", "triple=e dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ],
+    "2" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.837", "triple=e dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ],
+    "3" : [ "pair=dbr:Australian_Labor_Party", "Kulczynski=0.777", "triple=e dbo:party dbr:Australian_Labor_Party", "class=Politician" ],
+    "4" : [ "pair=dbr:Conservative_Party_(UK", "Kulczynski=0.764", "triple=e dbo:party dbr:Conservative_Party_(UK", "class=Politician" ]
   }
 }, {
   "id" : 76,
   "pattern" : "party politician",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.764", "triple=e_dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ],
-    "1" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.76", "triple=e_dbo:party dbr:Labour_Party_(UK", "class=Politician" ]
+    "0" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.764", "triple=e dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ],
+    "1" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.76", "triple=e dbo:party dbr:Labour_Party_(UK", "class=Politician" ]
   }
 }, {
   "id" : 77,
   "pattern" : "pennsylvania",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.977", "triple=e_dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.977", "triple=e dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
   }
 }, {
   "id" : 78,
   "pattern" : "pennsylvania\u001Chouse",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.911", "triple=e_dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.911", "triple=e dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
   }
 }, {
   "id" : 79,
   "pattern" : "pennsylvania\u001Chouse\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.911", "triple=e_dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.911", "triple=e dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
   }
 }, {
   "id" : 80,
   "pattern" : "pennsylvania house",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.963", "triple=e_dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.963", "triple=e dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
   }
 }, {
   "id" : 81,
   "pattern" : "pennsylvania house\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.963", "triple=e_dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.963", "triple=e dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
   }
 }, {
   "id" : 82,
   "pattern" : "pennsylvania house\u001Cof\u001Crepresentatives",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.948", "triple=e_dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.948", "triple=e dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
   }
 }, {
   "id" : 83,
   "pattern" : "pennsylvania house of\u001Crepresentatives",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.948", "triple=e_dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.948", "triple=e dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ]
   }
 }, {
   "id" : 85,
   "pattern" : "politician",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Member of the Bundestag\"@en", "Kulczynski=1.0", "triple=e_dbp:office \"Member of the Bundestag\"@en", "class=Politician" ],
-    "1" : [ "pair=\"Australian\"@en", "Kulczynski=0.993", "triple=e_dbp:parliament \"Australian\"@en", "class=Politician" ],
-    "2" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.971", "triple=e_dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ],
-    "3" : [ "pair=\"German\"@en", "Kulczynski=0.971", "triple=e_dbp:nationality \"German\"@en", "class=Politician" ],
-    "4" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.961", "triple=e_dbp:nationality \"Pakistani\"@en", "class=Politician" ],
-    "5" : [ "pair=dbr:Australian_Labor_Party", "Kulczynski=0.959", "triple=e_dbo:party dbr:Australian_Labor_Party", "class=Politician" ],
-    "6" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.946", "triple=e_dbp:party dbr:Labour_Party_(UK", "class=Politician" ],
-    "7" : [ "pair=\"\"@en", "Kulczynski=0.946", "triple=e_dbp:party \"\"@en", "class=Politician" ],
-    "8" : [ "pair=dbr:Australia", "Kulczynski=0.943", "triple=e_dbo:nationality dbr:Australia", "class=Politician" ],
-    "9" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.941", "triple=e_dbp:honorificSuffix dbr:Member_of_parliament", "class=Politician" ],
-    "10" : [ "pair=dbr:Conservative_Party_(UK", "Kulczynski=0.936", "triple=e_dbo:party dbr:Conservative_Party_(UK", "class=Politician" ],
-    "11" : [ "pair=dbr:Lok_Sabha", "Kulczynski=0.931", "triple=e_dbp:office dbr:Lok_Sabha", "class=Politician" ],
-    "12" : [ "pair=dbr:Politician", "Kulczynski=0.906", "triple=e_dbo:occupation dbr:Politician", "class=Politician" ],
-    "13" : [ "pair=\"Politician\"@en", "Kulczynski=0.903", "triple=e_dbp:occupation \"Politician\"@en", "class=Politician" ],
-    "14" : [ "pair=\"Member of the U.S. House of Representatives\"@en", "Kulczynski=0.883", "triple=e_dbp:title \"Member of the U.S. House of Representatives\"@en", "class=Politician" ],
-    "15" : [ "pair=dbr:Irish_people", "Kulczynski=0.88", "triple=e_dbo:nationality dbr:Irish_people", "class=Politician" ],
-    "16" : [ "pair=\"Incumbent\"@en", "Kulczynski=0.873", "triple=e_dbp:successor \"Incumbent\"@en", "class=Politician" ],
-    "17" : [ "pair=\"Member of the\"@en", "Kulczynski=0.866", "triple=e_dbp:office \"Member of the\"@en", "class=Politician" ],
-    "18" : [ "pair=\"Independent\"@en", "Kulczynski=0.866", "triple=e_dbp:party \"Independent\"@en", "class=Politician" ],
-    "19" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.866", "triple=e_dbp:party dbr:Indian_National_Congress", "class=Politician" ],
-    "20" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.86", "triple=e_dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ],
-    "21" : [ "pair=\"Canadian\"@en", "Kulczynski=0.857", "triple=e_dbp:parliament \"Canadian\"@en", "class=Politician" ],
-    "22" : [ "pair=dbr:United_Kingdom", "Kulczynski=0.856", "triple=e_dbo:nationality dbr:United_Kingdom", "class=Politician" ],
-    "23" : [ "pair=dbr:The_Honourable", "Kulczynski=0.855", "triple=e_dbp:honorificPrefix dbr:The_Honourable", "class=Politician" ],
-    "24" : [ "pair=dbr:Independent_politician", "Kulczynski=0.845", "triple=e_dbo:party dbr:Independent_politician", "class=Politician" ],
-    "25" : [ "pair=dbr:British_India", "Kulczynski=0.845", "triple=e_dbo:birthPlace dbr:British_India", "class=Politician" ],
-    "26" : [ "pair=\"British\"@en", "Kulczynski=0.825", "triple=e_dbp:nationality \"British\"@en", "class=Politician" ],
-    "27" : [ "pair=\"United States Senator\"@en", "Kulczynski=0.823", "triple=e_dbp:jr/sr \"United States Senator\"@en", "class=Politician" ],
-    "28" : [ "pair=\"Democratic Party\"@en", "Kulczynski=0.823", "triple=e_dbp:party \"Democratic Party\"@en", "class=Politician" ],
-    "29" : [ "pair=\"Republican Party\"@en", "Kulczynski=0.817", "triple=e_dbp:party \"Republican Party\"@en", "class=Politician" ],
-    "30" : [ "pair=dbr:Lawyer", "Kulczynski=0.804", "triple=e_dbp:profession dbr:Lawyer", "class=Politician" ],
-    "31" : [ "pair=dbr:United_States", "Kulczynski=0.803", "triple=e_dbp:nationality dbr:United_States", "class=Politician" ],
-    "32" : [ "pair=\"Position established\"@en", "Kulczynski=0.802", "triple=e_dbp:predecessor \"Position established\"@en", "class=Politician" ],
-    "33" : [ "pair=dbr:The_Right_Honourable", "Kulczynski=0.802", "triple=e_dbp:honorificPrefix dbr:The_Right_Honourable", "class=Politician" ],
-    "34" : [ "pair=dbr:Catholic_Church", "Kulczynski=0.8", "triple=e_dbp:religion dbr:Catholic_Church", "class=Politician" ],
-    "35" : [ "pair=\"Indian\"@en", "Kulczynski=0.795", "triple=e_dbp:nationality \"Indian\"@en", "class=Politician" ],
-    "36" : [ "pair=\"Lawyer\"@en", "Kulczynski=0.793", "triple=e_dbp:profession \"Lawyer\"@en", "class=Politician" ],
-    "37" : [ "pair=dbr:Democratic_Party_(United_States", "Kulczynski=0.782", "triple=e_dbp:party dbr:Democratic_Party_(United_States", "class=Politician" ],
-    "38" : [ "pair=dbr:Republican_Party_(United_States", "Kulczynski=0.772", "triple=e_dbo:party dbr:Republican_Party_(United_States", "class=Politician" ],
-    "39" : [ "pair=dbr:India", "Kulczynski=0.762", "triple=e_dbo:nationality dbr:India", "class=Politician" ]
+    "0" : [ "pair=\"Member of the Bundestag\"@en", "Kulczynski=1.0", "triple=e dbp:office \"Member of the Bundestag\"@en", "class=Politician" ],
+    "1" : [ "pair=\"Australian\"@en", "Kulczynski=0.993", "triple=e dbp:parliament \"Australian\"@en", "class=Politician" ],
+    "2" : [ "pair=dbr:Member_of_Parliament_(United_Kingdom", "Kulczynski=0.971", "triple=e dbp:office dbr:Member_of_Parliament_(United_Kingdom", "class=Politician" ],
+    "3" : [ "pair=\"German\"@en", "Kulczynski=0.971", "triple=e dbp:nationality \"German\"@en", "class=Politician" ],
+    "4" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.961", "triple=e dbp:nationality \"Pakistani\"@en", "class=Politician" ],
+    "5" : [ "pair=dbr:Australian_Labor_Party", "Kulczynski=0.959", "triple=e dbo:party dbr:Australian_Labor_Party", "class=Politician" ],
+    "6" : [ "pair=dbr:Labour_Party_(UK", "Kulczynski=0.946", "triple=e dbp:party dbr:Labour_Party_(UK", "class=Politician" ],
+    "7" : [ "pair=\"\"@en", "Kulczynski=0.946", "triple=e dbp:party \"\"@en", "class=Politician" ],
+    "8" : [ "pair=dbr:Australia", "Kulczynski=0.943", "triple=e dbo:nationality dbr:Australia", "class=Politician" ],
+    "9" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.941", "triple=e dbp:honorificSuffix dbr:Member_of_parliament", "class=Politician" ],
+    "10" : [ "pair=dbr:Conservative_Party_(UK", "Kulczynski=0.936", "triple=e dbo:party dbr:Conservative_Party_(UK", "class=Politician" ],
+    "11" : [ "pair=dbr:Lok_Sabha", "Kulczynski=0.931", "triple=e dbp:office dbr:Lok_Sabha", "class=Politician" ],
+    "12" : [ "pair=dbr:Politician", "Kulczynski=0.906", "triple=e dbo:occupation dbr:Politician", "class=Politician" ],
+    "13" : [ "pair=\"Politician\"@en", "Kulczynski=0.903", "triple=e dbp:occupation \"Politician\"@en", "class=Politician" ],
+    "14" : [ "pair=\"Member of the U.S. House of Representatives\"@en", "Kulczynski=0.883", "triple=e dbp:title \"Member of the U.S. House of Representatives\"@en", "class=Politician" ],
+    "15" : [ "pair=dbr:Irish_people", "Kulczynski=0.88", "triple=e dbo:nationality dbr:Irish_people", "class=Politician" ],
+    "16" : [ "pair=\"Incumbent\"@en", "Kulczynski=0.873", "triple=e dbp:successor \"Incumbent\"@en", "class=Politician" ],
+    "17" : [ "pair=\"Member of the\"@en", "Kulczynski=0.866", "triple=e dbp:office \"Member of the\"@en", "class=Politician" ],
+    "18" : [ "pair=\"Independent\"@en", "Kulczynski=0.866", "triple=e dbp:party \"Independent\"@en", "class=Politician" ],
+    "19" : [ "pair=dbr:Indian_National_Congress", "Kulczynski=0.866", "triple=e dbp:party dbr:Indian_National_Congress", "class=Politician" ],
+    "20" : [ "pair=dbr:Bharatiya_Janata_Party", "Kulczynski=0.86", "triple=e dbo:party dbr:Bharatiya_Janata_Party", "class=Politician" ],
+    "21" : [ "pair=\"Canadian\"@en", "Kulczynski=0.857", "triple=e dbp:parliament \"Canadian\"@en", "class=Politician" ],
+    "22" : [ "pair=dbr:United_Kingdom", "Kulczynski=0.856", "triple=e dbo:nationality dbr:United_Kingdom", "class=Politician" ],
+    "23" : [ "pair=dbr:The_Honourable", "Kulczynski=0.855", "triple=e dbp:honorificPrefix dbr:The_Honourable", "class=Politician" ],
+    "24" : [ "pair=dbr:Independent_politician", "Kulczynski=0.845", "triple=e dbo:party dbr:Independent_politician", "class=Politician" ],
+    "25" : [ "pair=dbr:British_India", "Kulczynski=0.845", "triple=e dbo:birthPlace dbr:British_India", "class=Politician" ],
+    "26" : [ "pair=\"British\"@en", "Kulczynski=0.825", "triple=e dbp:nationality \"British\"@en", "class=Politician" ],
+    "27" : [ "pair=\"United States Senator\"@en", "Kulczynski=0.823", "triple=e dbp:jr/sr \"United States Senator\"@en", "class=Politician" ],
+    "28" : [ "pair=\"Democratic Party\"@en", "Kulczynski=0.823", "triple=e dbp:party \"Democratic Party\"@en", "class=Politician" ],
+    "29" : [ "pair=\"Republican Party\"@en", "Kulczynski=0.817", "triple=e dbp:party \"Republican Party\"@en", "class=Politician" ],
+    "30" : [ "pair=dbr:Lawyer", "Kulczynski=0.804", "triple=e dbp:profession dbr:Lawyer", "class=Politician" ],
+    "31" : [ "pair=dbr:United_States", "Kulczynski=0.803", "triple=e dbp:nationality dbr:United_States", "class=Politician" ],
+    "32" : [ "pair=\"Position established\"@en", "Kulczynski=0.802", "triple=e dbp:predecessor \"Position established\"@en", "class=Politician" ],
+    "33" : [ "pair=dbr:The_Right_Honourable", "Kulczynski=0.802", "triple=e dbp:honorificPrefix dbr:The_Right_Honourable", "class=Politician" ],
+    "34" : [ "pair=dbr:Catholic_Church", "Kulczynski=0.8", "triple=e dbp:religion dbr:Catholic_Church", "class=Politician" ],
+    "35" : [ "pair=\"Indian\"@en", "Kulczynski=0.795", "triple=e dbp:nationality \"Indian\"@en", "class=Politician" ],
+    "36" : [ "pair=\"Lawyer\"@en", "Kulczynski=0.793", "triple=e dbp:profession \"Lawyer\"@en", "class=Politician" ],
+    "37" : [ "pair=dbr:Democratic_Party_(United_States", "Kulczynski=0.782", "triple=e dbp:party dbr:Democratic_Party_(United_States", "class=Politician" ],
+    "38" : [ "pair=dbr:Republican_Party_(United_States", "Kulczynski=0.772", "triple=e dbo:party dbr:Republican_Party_(United_States", "class=Politician" ],
+    "39" : [ "pair=dbr:India", "Kulczynski=0.762", "triple=e dbo:nationality dbr:India", "class=Politician" ]
   }
 }, {
   "id" : 87,
   "pattern" : "provincial\u001Cassembly",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.767", "triple=e_dbp:nationality \"Pakistani\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.767", "triple=e dbp:nationality \"Pakistani\"@en", "class=Politician" ]
   }
 }, {
   "id" : 88,
   "pattern" : "provincial\u001Cassembly\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.767", "triple=e_dbp:nationality \"Pakistani\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.767", "triple=e dbp:nationality \"Pakistani\"@en", "class=Politician" ]
   }
 }, {
   "id" : 89,
   "pattern" : "provincial assembly",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.775", "triple=e_dbp:nationality \"Pakistani\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.775", "triple=e dbp:nationality \"Pakistani\"@en", "class=Politician" ]
   }
 }, {
   "id" : 90,
   "pattern" : "provincial assembly\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.767", "triple=e_dbp:nationality \"Pakistani\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pakistani\"@en", "Kulczynski=0.767", "triple=e dbp:nationality \"Pakistani\"@en", "class=Politician" ]
   }
 }, {
   "id" : 91,
   "pattern" : "queensland",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Queensland Legislative\"@en", "Kulczynski=0.967", "triple=e_dbp:assembly \"Queensland Legislative\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Queensland Legislative\"@en", "Kulczynski=0.967", "triple=e dbp:assembly \"Queensland Legislative\"@en", "class=Politician" ]
   }
 }, {
   "id" : 92,
   "pattern" : "representatives",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.948", "triple=e_dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ],
-    "1" : [ "pair=\"Australian\"@en", "Kulczynski=0.845", "triple=e_dbp:parliament \"Australian\"@en", "class=Politician" ]
+    "0" : [ "pair=\"Pennsylvania\"@en", "Kulczynski=0.948", "triple=e dbp:stateHouse \"Pennsylvania\"@en", "class=Politician" ],
+    "1" : [ "pair=\"Australian\"@en", "Kulczynski=0.845", "triple=e dbp:parliament \"Australian\"@en", "class=Politician" ]
   }
 }, {
   "id" : 94,
   "pattern" : "republican",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Republican_Party_(United_States", "Kulczynski=0.78", "triple=e_dbp:party dbr:Republican_Party_(United_States", "class=Politician" ]
+    "0" : [ "pair=dbr:Republican_Party_(United_States", "Kulczynski=0.78", "triple=e dbp:party dbr:Republican_Party_(United_States", "class=Politician" ]
   }
 }, {
   "id" : 95,
   "pattern" : "sabha",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Lok_Sabha", "Kulczynski=0.931", "triple=e_dbp:office dbr:Lok_Sabha", "class=Politician" ],
-    "1" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.841", "triple=e_dbp:office dbr:Member_of_parliament", "class=Politician" ]
+    "0" : [ "pair=dbr:Lok_Sabha", "Kulczynski=0.931", "triple=e dbp:office dbr:Lok_Sabha", "class=Politician" ],
+    "1" : [ "pair=dbr:Member_of_parliament", "Kulczynski=0.841", "triple=e dbp:office dbr:Member_of_parliament", "class=Politician" ]
   }
 }, {
   "id" : 97,
   "pattern" : "states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"United States Senator\"@en", "Kulczynski=0.823", "triple=e_dbp:jr/sr \"United States Senator\"@en", "class=Politician" ],
-    "1" : [ "pair=dbr:Harvard_University", "Kulczynski=0.784", "triple=e_dbo:education dbr:Harvard_University", "class=Politician" ]
+    "0" : [ "pair=\"United States Senator\"@en", "Kulczynski=0.823", "triple=e dbp:jr/sr \"United States Senator\"@en", "class=Politician" ],
+    "1" : [ "pair=dbr:Harvard_University", "Kulczynski=0.784", "triple=e dbo:education dbr:Harvard_University", "class=Politician" ]
   }
 }, {
   "id" : 98,
   "pattern" : "united",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"United States Senator\"@en", "Kulczynski=0.805", "triple=e_dbp:jr/sr \"United States Senator\"@en", "class=Politician" ],
-    "1" : [ "pair=dbr:Harvard_University", "Kulczynski=0.795", "triple=e_dbo:education dbr:Harvard_University", "class=Politician" ]
+    "0" : [ "pair=\"United States Senator\"@en", "Kulczynski=0.805", "triple=e dbp:jr/sr \"United States Senator\"@en", "class=Politician" ],
+    "1" : [ "pair=dbr:Harvard_University", "Kulczynski=0.795", "triple=e dbo:education dbr:Harvard_University", "class=Politician" ]
   }
 }, {
   "id" : 99,
   "pattern" : "united states",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"United States Senator\"@en", "Kulczynski=0.805", "triple=e_dbp:jr/sr \"United States Senator\"@en", "class=Politician" ],
-    "1" : [ "pair=dbr:Harvard_University", "Kulczynski=0.784", "triple=e_dbo:education dbr:Harvard_University", "class=Politician" ]
+    "0" : [ "pair=\"United States Senator\"@en", "Kulczynski=0.805", "triple=e dbp:jr/sr \"United States Senator\"@en", "class=Politician" ],
+    "1" : [ "pair=dbr:Harvard_University", "Kulczynski=0.784", "triple=e dbo:education dbr:Harvard_University", "class=Politician" ]
   }
 } ]

@@ -3,57 +3,57 @@
   "pattern" : "electoral",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"center\"@en", "Coherence=0.5", "triple=e_dbp:align \"center\"@en", "class=AdministrativeRegion" ]
+    "0" : [ "pair=\"center\"@en", "Coherence=0.5", "triple=e dbp:align \"center\"@en", "class=AdministrativeRegion" ]
   }
 }, {
   "id" : 22,
   "pattern" : "greek",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=dbr:Thessaly", "Coherence=0.5", "triple=e_dbp:periph dbr:Thessaly", "class=AdministrativeRegion" ],
-    "1" : [ "pair=dbr:Western_Macedonia", "Coherence=0.5", "triple=e_dbp:periph dbr:Western_Macedonia", "class=AdministrativeRegion" ]
+    "0" : [ "pair=dbr:Thessaly", "Coherence=0.5", "triple=e dbp:periph dbr:Thessaly", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Western_Macedonia", "Coherence=0.5", "triple=e dbp:periph dbr:Western_Macedonia", "class=AdministrativeRegion" ]
   }
 }, {
   "id" : 25,
   "pattern" : "local",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Location within the voivodeship\"@en", "Coherence=0.5", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
-    "1" : [ "pair=dbr:Powiat", "Coherence=0.5", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
-    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Coherence=0.5", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
-    "3" : [ "pair=\"Gminas\"@en", "Coherence=0.5", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
-    "4" : [ "pair=\"Rural\"@en", "Coherence=0.5", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Coherence=0.5", "triple=e dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Coherence=0.5", "triple=e dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Coherence=0.5", "triple=e dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Coherence=0.5", "triple=e dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Coherence=0.5", "triple=e dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
   }
 }, {
   "id" : 31,
   "pattern" : "mongolian",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"UTC + 8\"@en", "Coherence=0.5", "triple=e_dbp:timezone \"UTC + 8\"@en", "class=AdministrativeRegion" ],
-    "1" : [ "pair=dbr:Districts_of_Mongolia", "Coherence=0.5", "triple=e_dbo:type dbr:Districts_of_Mongolia", "class=AdministrativeRegion" ],
-    "2" : [ "pair=dbr:Mongolia", "Coherence=0.5", "triple=e_dbp:subdivisionName dbr:Mongolia", "class=AdministrativeRegion" ],
-    "3" : [ "pair=dbr:Provinces_of_Mongolia", "Coherence=0.5", "triple=e_dbp:subdivisionType dbr:Provinces_of_Mongolia", "class=AdministrativeRegion" ]
+    "0" : [ "pair=\"UTC + 8\"@en", "Coherence=0.5", "triple=e dbp:timezone \"UTC + 8\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Districts_of_Mongolia", "Coherence=0.5", "triple=e dbo:type dbr:Districts_of_Mongolia", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Mongolia", "Coherence=0.5", "triple=e dbp:subdivisionName dbr:Mongolia", "class=AdministrativeRegion" ],
+    "3" : [ "pair=dbr:Provinces_of_Mongolia", "Coherence=0.5", "triple=e dbp:subdivisionType dbr:Provinces_of_Mongolia", "class=AdministrativeRegion" ]
   }
 }, {
   "id" : 36,
   "pattern" : "polish",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Location within the voivodeship\"@en", "Coherence=0.5", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
-    "1" : [ "pair=dbr:Powiat", "Coherence=0.5", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
-    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Coherence=0.5", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
-    "3" : [ "pair=\"Gminas\"@en", "Coherence=0.5", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
-    "4" : [ "pair=\"Rural\"@en", "Coherence=0.5", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Coherence=0.5", "triple=e dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Coherence=0.5", "triple=e dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Coherence=0.5", "triple=e dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Coherence=0.5", "triple=e dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Coherence=0.5", "triple=e dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
   }
 }, {
   "id" : 45,
   "pattern" : "territorial",
   "partsOfSpeech" : "JJ",
   "index" : {
-    "0" : [ "pair=\"Location within the voivodeship\"@en", "Coherence=0.5", "triple=e_dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
-    "1" : [ "pair=dbr:Powiat", "Coherence=0.5", "triple=e_dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
-    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Coherence=0.5", "triple=e_dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
-    "3" : [ "pair=\"Gminas\"@en", "Coherence=0.5", "triple=e_dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
-    "4" : [ "pair=\"Rural\"@en", "Coherence=0.5", "triple=e_dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Coherence=0.5", "triple=e dbp:mapCaption \"Location within the voivodeship\"@en", "class=AdministrativeRegion" ],
+    "1" : [ "pair=dbr:Powiat", "Coherence=0.5", "triple=e dbo:type dbr:Powiat", "class=AdministrativeRegion" ],
+    "2" : [ "pair=dbr:Vehicle_registration_plates_of_Poland", "Coherence=0.5", "triple=e dbp:blankName dbr:Vehicle_registration_plates_of_Poland", "class=AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Coherence=0.5", "triple=e dbp:partsType \"Gminas\"@en", "class=AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Coherence=0.5", "triple=e dbp:populationBlank1Title \"Rural\"@en", "class=AdministrativeRegion" ]
   }
 } ]

@@ -3,302 +3,302 @@
   "pattern" : "actor",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Actor\"@en", "Kulczynski=0.97", "triple=e_dbp:occupation \"Actor\"@en", "class=Person" ],
-    "1" : [ "pair=dbr:Actor", "Kulczynski=0.924", "triple=e_dbo:occupation dbr:Actor", "class=Person" ]
+    "0" : [ "pair=\"Actor\"@en", "Kulczynski=0.97", "triple=e dbp:occupation \"Actor\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Actor", "Kulczynski=0.924", "triple=e dbo:occupation dbr:Actor", "class=Person" ]
   }
 }, {
   "id" : 2,
   "pattern" : "actress",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Actress\"@en", "Kulczynski=0.98", "triple=e_dbp:occupation \"Actress\"@en", "class=Person" ],
-    "1" : [ "pair=dbr:Actress", "Kulczynski=0.976", "triple=e_dbo:occupation dbr:Actress", "class=Person" ]
+    "0" : [ "pair=\"Actress\"@en", "Kulczynski=0.98", "triple=e dbp:occupation \"Actress\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Actress", "Kulczynski=0.976", "triple=e dbo:occupation dbr:Actress", "class=Person" ]
   }
 }, {
   "id" : 3,
   "pattern" : "american",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:California", "Kulczynski=0.938", "triple=e_dbo:birthPlace dbr:California", "class=Person" ],
-    "1" : [ "pair=\"Los Angeles", "Kulczynski=0.936", "triple=e_dbp:deathPlace \"Los Angeles", "class=Person" ],
-    "2" : [ "pair=dbr:New_York_City", "Kulczynski=0.91", "triple=e_dbo:birthPlace dbr:New_York_City", "class=Person" ],
-    "3" : [ "pair=dbr:Los_Angeles", "Kulczynski=0.909", "triple=e_dbo:deathPlace dbr:Los_Angeles", "class=Person" ],
-    "4" : [ "pair=dbr:New_York_(state", "Kulczynski=0.904", "triple=e_dbo:birthPlace dbr:New_York_(state", "class=Person" ],
-    "5" : [ "pair=dbr:United_States", "Kulczynski=0.903", "triple=e_dbp:birthPlace dbr:United_States", "class=Person" ],
-    "6" : [ "pair=\"American\"@en", "Kulczynski=0.897", "triple=e_dbp:nationality \"American\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:California", "Kulczynski=0.938", "triple=e dbo:birthPlace dbr:California", "class=Person" ],
+    "1" : [ "pair=\"Los Angeles", "Kulczynski=0.936", "triple=e dbp:deathPlace \"Los Angeles", "class=Person" ],
+    "2" : [ "pair=dbr:New_York_City", "Kulczynski=0.91", "triple=e dbo:birthPlace dbr:New_York_City", "class=Person" ],
+    "3" : [ "pair=dbr:Los_Angeles", "Kulczynski=0.909", "triple=e dbo:deathPlace dbr:Los_Angeles", "class=Person" ],
+    "4" : [ "pair=dbr:New_York_(state", "Kulczynski=0.904", "triple=e dbo:birthPlace dbr:New_York_(state", "class=Person" ],
+    "5" : [ "pair=dbr:United_States", "Kulczynski=0.903", "triple=e dbp:birthPlace dbr:United_States", "class=Person" ],
+    "6" : [ "pair=\"American\"@en", "Kulczynski=0.897", "triple=e dbp:nationality \"American\"@en", "class=Person" ]
   }
 }, {
   "id" : 5,
   "pattern" : "author",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Author", "Kulczynski=0.883", "triple=e_dbo:occupation dbr:Author", "class=Person" ]
+    "0" : [ "pair=dbr:Author", "Kulczynski=0.883", "triple=e dbo:occupation dbr:Author", "class=Person" ]
   }
 }, {
   "id" : 8,
   "pattern" : "businessman",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Businessman\"@en", "Kulczynski=0.867", "triple=e_dbp:occupation \"Businessman\"@en", "class=Person" ]
+    "0" : [ "pair=\"Businessman\"@en", "Kulczynski=0.867", "triple=e dbp:occupation \"Businessman\"@en", "class=Person" ]
   }
 }, {
   "id" : 9,
   "pattern" : "congress",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.954", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.875", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.841", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.778", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.954", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.875", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.841", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.778", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 10,
   "pattern" : "congress representing",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.946", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.869", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.836", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.773", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.946", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.869", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.836", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.773", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 11,
   "pattern" : "deputy",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.924", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.851", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.831", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.768", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.924", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.851", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.831", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.768", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 12,
   "pattern" : "deputy of\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.916", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.845", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.807", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.764", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.916", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.845", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.807", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.764", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 13,
   "pattern" : "director",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Film director\"@en", "Kulczynski=0.99", "triple=e_dbp:occupation \"Film director\"@en", "class=Person" ],
-    "1" : [ "pair=dbr:Film_director", "Kulczynski=0.967", "triple=e_dbo:occupation dbr:Film_director", "class=Person" ],
-    "2" : [ "pair=dbr:Screenwriter", "Kulczynski=0.86", "triple=e_dbo:occupation dbr:Screenwriter", "class=Person" ],
-    "3" : [ "pair=dbr:Film_producer", "Kulczynski=0.794", "triple=e_dbo:occupation dbr:Film_producer", "class=Person" ]
+    "0" : [ "pair=\"Film director\"@en", "Kulczynski=0.99", "triple=e dbp:occupation \"Film director\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Film_director", "Kulczynski=0.967", "triple=e dbo:occupation dbr:Film_director", "class=Person" ],
+    "2" : [ "pair=dbr:Screenwriter", "Kulczynski=0.86", "triple=e dbo:occupation dbr:Screenwriter", "class=Person" ],
+    "3" : [ "pair=dbr:Film_producer", "Kulczynski=0.794", "triple=e dbo:occupation dbr:Film_producer", "class=Person" ]
   }
 }, {
   "id" : 14,
   "pattern" : "english",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:England", "Kulczynski=0.763", "triple=e_dbp:birthPlace dbr:England", "class=Person" ]
+    "0" : [ "pair=dbr:England", "Kulczynski=0.763", "triple=e dbp:birthPlace dbr:England", "class=Person" ]
   }
 }, {
   "id" : 15,
   "pattern" : "film",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Film_director", "Kulczynski=0.925", "triple=e_dbo:occupation dbr:Film_director", "class=Person" ],
-    "1" : [ "pair=dbr:Film_producer", "Kulczynski=0.897", "triple=e_dbo:occupation dbr:Film_producer", "class=Person" ],
-    "2" : [ "pair=dbr:Screenwriter", "Kulczynski=0.878", "triple=e_dbo:occupation dbr:Screenwriter", "class=Person" ]
+    "0" : [ "pair=dbr:Film_director", "Kulczynski=0.925", "triple=e dbo:occupation dbr:Film_director", "class=Person" ],
+    "1" : [ "pair=dbr:Film_producer", "Kulczynski=0.897", "triple=e dbo:occupation dbr:Film_producer", "class=Person" ],
+    "2" : [ "pair=dbr:Screenwriter", "Kulczynski=0.878", "triple=e dbo:occupation dbr:Screenwriter", "class=Person" ]
   }
 }, {
   "id" : 16,
   "pattern" : "film director",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Film_director", "Kulczynski=0.837", "triple=e_dbo:occupation dbr:Film_director", "class=Person" ],
-    "1" : [ "pair=dbr:Screenwriter", "Kulczynski=0.76", "triple=e_dbo:occupation dbr:Screenwriter", "class=Person" ]
+    "0" : [ "pair=dbr:Film_director", "Kulczynski=0.837", "triple=e dbo:occupation dbr:Film_director", "class=Person" ],
+    "1" : [ "pair=dbr:Screenwriter", "Kulczynski=0.76", "triple=e dbo:occupation dbr:Screenwriter", "class=Person" ]
   }
 }, {
   "id" : 21,
   "pattern" : "journalist",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Journalist\"@en", "Kulczynski=0.932", "triple=e_dbp:occupation \"Journalist\"@en", "class=Person" ],
-    "1" : [ "pair=dbr:Journalist", "Kulczynski=0.908", "triple=e_dbo:occupation dbr:Journalist", "class=Person" ]
+    "0" : [ "pair=\"Journalist\"@en", "Kulczynski=0.932", "triple=e dbp:occupation \"Journalist\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Journalist", "Kulczynski=0.908", "triple=e dbo:occupation dbr:Journalist", "class=Person" ]
   }
 }, {
   "id" : 23,
   "pattern" : "legislature",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.893", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.821", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.793", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.74", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.893", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.821", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.793", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.74", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 24,
   "pattern" : "legislature the\u001Cmexican",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.893", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.821", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.788", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.893", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.821", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.788", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ]
   }
 }, {
   "id" : 25,
   "pattern" : "legislature the\u001Cmexican\u001Ccongress",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.893", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.821", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.788", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.74", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.893", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.821", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.788", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.74", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 27,
   "pattern" : "mexican\u001Ccongress",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.954", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.875", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.841", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.778", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.954", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.875", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.841", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.778", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 28,
   "pattern" : "mexican\u001Ccongress\u001Crepresenting",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.946", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.869", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.836", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.773", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.946", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.869", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.836", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.773", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 29,
   "pattern" : "mexican\u001Cpolitician",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.924", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.839", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.836", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.764", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.924", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.839", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.836", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.764", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 30,
   "pattern" : "mexican congress",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.954", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.875", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.841", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.778", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.954", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.875", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.841", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.778", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 31,
   "pattern" : "mexican congress\u001Crepresenting",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.946", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.869", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.836", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.773", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.946", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.869", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.836", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.773", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 32,
   "pattern" : "mexican congress representing",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.946", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.869", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.836", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.773", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.946", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.869", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.836", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.773", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 33,
   "pattern" : "mexican politician",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.939", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.863", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.846", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.783", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.939", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.863", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.846", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.783", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 34,
   "pattern" : "party",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.939", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.863", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=\"Politician\"@en", "Kulczynski=0.816", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
-    "3" : [ "pair=dbr:Mexico", "Kulczynski=0.75", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.939", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.863", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=\"Politician\"@en", "Kulczynski=0.816", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ],
+    "3" : [ "pair=dbr:Mexico", "Kulczynski=0.75", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ]
   }
 }, {
   "id" : 35,
   "pattern" : "politician",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"Politician\"@en", "Kulczynski=0.962", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ],
-    "1" : [ "pair=dbr:Mexican_people", "Kulczynski=0.954", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "2" : [ "pair=\"Mexican\"@en", "Kulczynski=0.886", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "3" : [ "pair=dbr:Mexico", "Kulczynski=0.85", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ]
+    "0" : [ "pair=\"Politician\"@en", "Kulczynski=0.962", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ],
+    "1" : [ "pair=dbr:Mexican_people", "Kulczynski=0.954", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "2" : [ "pair=\"Mexican\"@en", "Kulczynski=0.886", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "3" : [ "pair=dbr:Mexico", "Kulczynski=0.85", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ]
   }
 }, {
   "id" : 36,
   "pattern" : "producer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Film_producer", "Kulczynski=0.901", "triple=e_dbo:occupation dbr:Film_producer", "class=Person" ]
+    "0" : [ "pair=dbr:Film_producer", "Kulczynski=0.901", "triple=e dbo:occupation dbr:Film_producer", "class=Person" ]
   }
 }, {
   "id" : 38,
   "pattern" : "screenwriter",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Screenwriter", "Kulczynski=0.893", "triple=e_dbo:occupation dbr:Screenwriter", "class=Person" ]
+    "0" : [ "pair=dbr:Screenwriter", "Kulczynski=0.893", "triple=e dbo:occupation dbr:Screenwriter", "class=Person" ]
   }
 }, {
   "id" : 40,
   "pattern" : "served deputy",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.909", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.839", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.802", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.764", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.909", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.839", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.802", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.764", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 41,
   "pattern" : "served deputy\u001Cof",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.909", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.839", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.793", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.764", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.909", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.839", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.793", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.764", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 42,
   "pattern" : "served deputy\u001Cof\u001Cthe",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.909", "triple=e_dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
-    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.839", "triple=e_dbp:nationality \"Mexican\"@en", "class=Person" ],
-    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.783", "triple=e_dbp:birthPlace dbr:Mexico", "class=Person" ],
-    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.764", "triple=e_dbp:occupation \"Politician\"@en", "class=Person" ]
+    "0" : [ "pair=dbr:Mexican_people", "Kulczynski=0.909", "triple=e dbo:stateOfOrigin dbr:Mexican_people", "class=Person" ],
+    "1" : [ "pair=\"Mexican\"@en", "Kulczynski=0.839", "triple=e dbp:nationality \"Mexican\"@en", "class=Person" ],
+    "2" : [ "pair=dbr:Mexico", "Kulczynski=0.783", "triple=e dbp:birthPlace dbr:Mexico", "class=Person" ],
+    "3" : [ "pair=\"Politician\"@en", "Kulczynski=0.764", "triple=e dbp:occupation \"Politician\"@en", "class=Person" ]
   }
 }, {
   "id" : 43,
   "pattern" : "singer",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=\"singer\"@en", "Kulczynski=0.92", "triple=e_dbp:occupation \"singer\"@en", "class=Person" ],
-    "1" : [ "pair=\"Singer\"@en", "Kulczynski=0.888", "triple=e_dbp:occupation \"Singer\"@en", "class=Person" ]
+    "0" : [ "pair=\"singer\"@en", "Kulczynski=0.92", "triple=e dbp:occupation \"singer\"@en", "class=Person" ],
+    "1" : [ "pair=\"Singer\"@en", "Kulczynski=0.888", "triple=e dbp:occupation \"Singer\"@en", "class=Person" ]
   }
 }, {
   "id" : 44,
   "pattern" : "south",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=dbr:South_Korea", "Kulczynski=0.962", "triple=e_dbo:birthPlace dbr:South_Korea", "class=Person" ]
+    "0" : [ "pair=dbr:South_Korea", "Kulczynski=0.962", "triple=e dbo:birthPlace dbr:South_Korea", "class=Person" ]
   }
 } ]

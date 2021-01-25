@@ -3,48 +3,48 @@
   "pattern" : "based",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.967", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.965", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.835", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.967", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.965", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:BBC_Books", "Kulczynski=0.956", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.835", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 7,
   "pattern" : "based on\u001Cthe",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.915", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.913", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.8", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.915", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.913", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.8", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 }, {
   "id" : 65,
   "pattern" : "published",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:Short_story", "Kulczynski=0.89", "triple=e_dbp:genre dbr:Short_story", "class=Book" ],
-    "1" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.877", "triple=e_dbp:caption \"Cover of first edition\"@en", "class=Book" ],
-    "2" : [ "pair=dbr:Fantasy_fiction", "Kulczynski=0.866", "triple=e_dbo:literaryGenre dbr:Fantasy_fiction", "class=Book" ],
-    "3" : [ "pair=\"Dust-jacket from the first edition\"@en", "Kulczynski=0.86", "triple=e_dbp:caption \"Dust-jacket from the first edition\"@en", "class=Book" ],
-    "4" : [ "pair=\"Canada\"@en", "Kulczynski=0.827", "triple=e_dbp:country \"Canada\"@en", "class=Book" ],
-    "5" : [ "pair=dbr:Mystery_fiction", "Kulczynski=0.809", "triple=e_dbo:literaryGenre dbr:Mystery_fiction", "class=Book" ],
-    "6" : [ "pair=dbr:Ace_Books", "Kulczynski=0.809", "triple=e_dbo:publisher dbr:Ace_Books", "class=Book" ],
-    "7" : [ "pair=dbr:Fantasy", "Kulczynski=0.802", "triple=e_dbp:genre dbr:Fantasy", "class=Book" ],
-    "8" : [ "pair=dbr:Detective_fiction", "Kulczynski=0.801", "triple=e_dbo:literaryGenre dbr:Detective_fiction", "class=Book" ],
-    "9" : [ "pair=dbr:Science_fiction", "Kulczynski=0.791", "triple=e_dbp:genre dbr:Science_fiction", "class=Book" ],
-    "10" : [ "pair=dbr:E-book", "Kulczynski=0.788", "triple=e_dbo:mediaType dbr:E-book", "class=Book" ],
-    "11" : [ "pair=\"German\"@en", "Kulczynski=0.787", "triple=e_dbp:language \"German\"@en", "class=Book" ],
-    "12" : [ "pair=dbr:Horror_fiction", "Kulczynski=0.784", "triple=e_dbo:literaryGenre dbr:Horror_fiction", "class=Book" ],
-    "13" : [ "pair=\"United Kingdom\"@en", "Kulczynski=0.784", "triple=e_dbp:country \"United Kingdom\"@en", "class=Book" ]
+    "0" : [ "pair=dbr:Short_story", "Kulczynski=0.89", "triple=e dbp:genre dbr:Short_story", "class=Book" ],
+    "1" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.877", "triple=e dbp:caption \"Cover of first edition\"@en", "class=Book" ],
+    "2" : [ "pair=dbr:Fantasy_fiction", "Kulczynski=0.866", "triple=e dbo:literaryGenre dbr:Fantasy_fiction", "class=Book" ],
+    "3" : [ "pair=\"Dust-jacket from the first edition\"@en", "Kulczynski=0.86", "triple=e dbp:caption \"Dust-jacket from the first edition\"@en", "class=Book" ],
+    "4" : [ "pair=\"Canada\"@en", "Kulczynski=0.827", "triple=e dbp:country \"Canada\"@en", "class=Book" ],
+    "5" : [ "pair=dbr:Mystery_fiction", "Kulczynski=0.809", "triple=e dbo:literaryGenre dbr:Mystery_fiction", "class=Book" ],
+    "6" : [ "pair=dbr:Ace_Books", "Kulczynski=0.809", "triple=e dbo:publisher dbr:Ace_Books", "class=Book" ],
+    "7" : [ "pair=dbr:Fantasy", "Kulczynski=0.802", "triple=e dbp:genre dbr:Fantasy", "class=Book" ],
+    "8" : [ "pair=dbr:Detective_fiction", "Kulczynski=0.801", "triple=e dbo:literaryGenre dbr:Detective_fiction", "class=Book" ],
+    "9" : [ "pair=dbr:Science_fiction", "Kulczynski=0.791", "triple=e dbp:genre dbr:Science_fiction", "class=Book" ],
+    "10" : [ "pair=dbr:E-book", "Kulczynski=0.788", "triple=e dbo:mediaType dbr:E-book", "class=Book" ],
+    "11" : [ "pair=\"German\"@en", "Kulczynski=0.787", "triple=e dbp:language \"German\"@en", "class=Book" ],
+    "12" : [ "pair=dbr:Horror_fiction", "Kulczynski=0.784", "triple=e dbo:literaryGenre dbr:Horror_fiction", "class=Book" ],
+    "13" : [ "pair=\"United Kingdom\"@en", "Kulczynski=0.784", "triple=e dbp:country \"United Kingdom\"@en", "class=Book" ]
   }
 }, {
   "id" : 85,
   "pattern" : "written",
   "partsOfSpeech" : "VB",
   "index" : {
-    "0" : [ "pair=dbr:BBC_Books", "Kulczynski=0.947", "triple=e_dbp:publisher dbr:BBC_Books", "class=Book" ],
-    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.935", "triple=e_dbp:subject \"Featuring:\"@en", "class=Book" ],
-    "2" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.91", "triple=e_dbp:series \"Doctor Who book:\"@en", "class=Book" ],
-    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.796", "triple=e_dbo:series dbr:Doctor_Who", "class=Book" ]
+    "0" : [ "pair=dbr:BBC_Books", "Kulczynski=0.947", "triple=e dbp:publisher dbr:BBC_Books", "class=Book" ],
+    "1" : [ "pair=\"Featuring:\"@en", "Kulczynski=0.935", "triple=e dbp:subject \"Featuring:\"@en", "class=Book" ],
+    "2" : [ "pair=\"Doctor Who book:\"@en", "Kulczynski=0.91", "triple=e dbp:series \"Doctor Who book:\"@en", "class=Book" ],
+    "3" : [ "pair=dbr:Doctor_Who", "Kulczynski=0.796", "triple=e dbo:series dbr:Doctor_Who", "class=Book" ]
   }
 } ]

@@ -114,11 +114,7 @@ public class NewResultEvalutionTest {
     public static void main(String[] args) throws Exception {
         NewResultEvalutionTest newResultEvalutionTest = new NewResultEvalutionTest();
         List<ObjectWordResults> entityResults = new ArrayList<ObjectWordResults>();
-        
-       
-        
-      
-
+    
         for (String className : classNames) {
             for (String associationRule : associationRules) {
                 Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(inputDir, className, associationRule, "json");
@@ -134,7 +130,6 @@ public class NewResultEvalutionTest {
                     }
                     String[] info = fileName.split("-");
                     for (Integer index = 0; index < info.length; index++) {
-                        System.out.println(info[index]);
                         if (index == 0) {
                             dbo_className = info[index];
                         }

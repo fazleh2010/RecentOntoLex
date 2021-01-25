@@ -1,30 +1,19 @@
 
 import citec.correlation.wikipedia.analyzer.TextAnalyzer;
-import citec.correlation.wikipedia.calculation.InterestedWords;
-import citec.correlation.wikipedia.parameters.LingPattern;
-import citec.correlation.wikipedia.parameters.ProbabilityT;
-import citec.correlation.wikipedia.calculation.WordCalculation;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import citec.correlation.wikipedia.element.PropertyNotation;
 import citec.correlation.wikipedia.evalution.Comparision;
-import citec.correlation.wikipedia.main.TableMain;
 import citec.correlation.wikipedia.parameters.DirectoryLocation;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import citec.correlation.wikipedia.parameters.ExperimentThresold;
 import citec.correlation.wikipedia.parameters.MenuOptions;
-import citec.correlation.wikipedia.table.Tables;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.TreeSet;
 import org.junit.Ignore;
 import org.junit.Test;
 

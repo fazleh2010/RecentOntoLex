@@ -8,6 +8,7 @@ package citec.correlation.wikipedia.dic.lexicon;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
+import citec.correlation.wikipedia.utils.FormatAndMatch;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import java.io.File;
@@ -43,9 +44,11 @@ public class Lexicon {
             String postagOfWord = null;
             LinkedHashMap<Integer, List<String>> kbList = new LinkedHashMap<Integer, List<String>>();
             Integer index = 0;
-            /*System.out.println("word:"+word);
-            System.out.println("postagOfWord:"+postagOfWord);
-            System.out.println("associationType:"+associationType);*/
+            System.out.println("word:"+word);
+            if(FormatAndMatch.isNumeric(word))
+               continue;
+            //System.out.println("postagOfWord:"+postagOfWord);
+            //System.out.println("associationType:"+associationType);
             for (LineInfo lineInfo : lineLexicon.get(word)) {
                 postagOfWord = lineInfo.getPartOfSpeech();
                 List<String> pairs = new ArrayList<String>();

@@ -45,6 +45,10 @@ public class Analyzer implements TextAnalyzer,PropertyNotation {
     @JsonIgnore
     private Integer numberOfSentences = 0;
     
+    static {
+        taggerModel = new MaxentTagger(stanfordModelFile);
+    }
+    
     private Set<String> words = new HashSet<String>();
     private Set<String> adjectives = new HashSet<String>();
     private Set<String> nouns = new HashSet<String>();
@@ -58,7 +62,6 @@ public class Analyzer implements TextAnalyzer,PropertyNotation {
     public Analyzer(String inputText, String analysisType, Integer numberOfSentences) throws Exception {
         this.numberOfSentences = numberOfSentences;
         this.inputText = inputText;
-        this.taggerModel = new MaxentTagger(stanfordModelFile);
         BufferedReader reader = new BufferedReader(new StringReader(inputText));
 
         if (analysisType.contains(POS_TAGGER_WORDS)) {
@@ -69,7 +72,6 @@ public class Analyzer implements TextAnalyzer,PropertyNotation {
     
      public Analyzer(String analysisType, Integer numberOfSentences) throws Exception {
         this.numberOfSentences = numberOfSentences;
-        this.taggerModel = new MaxentTagger(stanfordModelFile);       
     }
     
     private void posTaggerWords(BufferedReader reader) throws Exception {

@@ -542,6 +542,13 @@ public class FileFolderUtils implements TextAnalyzer{
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename).toFile(), results);
     }
+    
+    public static void writeMeanResultsToJsonFile(Map<String,MeanReciprocalCalculation>meanReciprocals, String filename) throws IOException {
+        ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
+        mapper.writeValue(Paths.get(filename).toFile(), meanReciprocals);
+    }
+    
+    
 
     public static void writeToJsonFile(List<Unit> units, String filename) throws IOException, Exception {
         if (units.isEmpty()) {

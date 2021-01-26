@@ -18,7 +18,7 @@ import jdk.nashorn.internal.ir.annotations.Ignore;
 public class AssociationRulesResult {
 
     @JsonProperty("_description")
-    private _Discription _description;
+    private Discription _description;
     @JsonProperty("rules")
     List<String> distributions = new ArrayList<String>();
 
@@ -30,7 +30,7 @@ public class AssociationRulesResult {
         return distributions;
     }
 
-    public _Discription getDescription() {
+    public Discription getDescription() {
         return _description;
     }
 

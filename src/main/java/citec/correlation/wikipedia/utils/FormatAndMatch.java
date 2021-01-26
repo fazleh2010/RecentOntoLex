@@ -349,16 +349,21 @@ public class FormatAndMatch {
         }
         return false;
     }
-
+    
+   public static String doubleFormat(double doubleValue) {
+         String doubleValueStr = String.format("%.12f",doubleValue);
+         return doubleValueStr;
+   }
 
      
-     public static void main(String args[]) {
-        
-       checkStringMain();
-       //checkRegularExpression();
-        
-        
+    public static void main(String[] args) {
+        double firstNumber = 12345678;
+        double secondNumber = 0.000012345678;
+        String firstNumberAsString = String.format ("%.0f", firstNumber);
+        String secondNumberAsString = String.format("%.12f",secondNumber);
+        System.out.println(doubleFormat(secondNumber));
     }
+
 
     
 

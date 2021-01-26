@@ -51,7 +51,7 @@ public class ComparisionTest {
             String qaldFileName = qald9Dir + postag + "-pattern-qald9" + ".json";
             String conditionalFilename = qald9Dir + "lexicon-conditional-pattern" + ".json";
             String outputFileName = qald9Dir + postag + "-pattern-mean-reciprocal" + ".json";
-            Comparision comparision = new Comparision(qald9Dir, qaldFileName, conditionalFilename, outputFileName);
+            Comparision comparision = new Comparision("VB",qald9Dir, qaldFileName, conditionalFilename, outputFileName);
             comparision.compersionsPattern();
         }
     }

@@ -8,6 +8,7 @@ package citec.correlation.wikipedia.evalution;
 import citec.correlation.wikipedia.results.ReciprocalResult;
 import citec.correlation.wikipedia.evalution.ir.IrAbstract;
 import citec.correlation.wikipedia.utils.EvalutionUtil;
+import citec.correlation.wikipedia.utils.FormatAndMatch;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
@@ -29,18 +30,21 @@ public class MeanReciprocalCalculation {
     public static final boolean ASCENDING = true;
     @JsonIgnore
     public static final boolean DESCENDING = false;
-    @JsonProperty("MeanReciProcalRank")
+    @JsonIgnore
     private Double meanReciprocalRank=null;
+    @JsonProperty("MeanReciProcalRank")
+    private String meanReciprocalRankStr=null;
+     
     @JsonProperty("TotalPattern")
     private Integer totalPattern=null;
     @JsonProperty("NumberOfPatterrnFoundNonZeroRank")
     private Integer numberOfPatterrnFoundNonZeroRank=0;
-     @JsonProperty("NumberOfPatterrnFoundZeroRank")
+    @JsonProperty("NumberOfPatterrnFoundZeroRank")
     private Integer numberOfPatterrnFoundZeroRank=null;
-    @JsonProperty("PatterrnFoundNonZeroRank")
+    @JsonProperty("ReciprocalRank")
     private Map<String,ReciprocalResult> patternFound=new  TreeMap<String,ReciprocalResult>();
-    @JsonProperty("PatterrnFoundZeroRank")
-    //@JsonIgnore
+    //@JsonProperty("PatterrnFoundZeroRank")
+    @JsonIgnore
     private Map<String,ReciprocalResult> patternNotFound=new  TreeMap<String,ReciprocalResult>();
 
     public MeanReciprocalCalculation() {
@@ -73,8 +77,10 @@ public class MeanReciprocalCalculation {
         }
 
         mrr /= rankings.size();
+        
 
          this.meanReciprocalRank= mrr;
+         this.meanReciprocalRankStr=FormatAndMatch.doubleFormat(meanReciprocalRank);
          this.numberOfPatterrnFoundNonZeroRank=patternFound.size();
          this.numberOfPatterrnFoundZeroRank=patternNotFound.size();
          this.totalPattern=patternFound.size()+patternNotFound.size();
@@ -129,6 +135,10 @@ public class MeanReciprocalCalculation {
             sortedList.add(entry.getKey());
         }
         return sortedList;
+    }
+
+    public String getMeanReciprocalRankStr() {
+        return meanReciprocalRankStr;
     }
 
    

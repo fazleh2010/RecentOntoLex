@@ -9,6 +9,8 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
+import java.util.TreeMap;
 import jdk.nashorn.internal.ir.annotations.Ignore;
 
 /**
@@ -18,20 +20,37 @@ import jdk.nashorn.internal.ir.annotations.Ignore;
 public class NewResults {
 
     @JsonProperty("_description")
-    private _Discription _description;
+    private Discription _description;
     @JsonProperty("rules")
     List<String> distributions = new ArrayList<String>();
+ 
+    @JsonIgnore
+    Map<String,List<String>> classDistributions = new TreeMap<String,List<String>> ();
 
     public NewResults() {
 
+    }
+    
+    public NewResults(Discription _description, List<String> distributions) {
+        this._description = _description;
+        this.distributions = distributions;
+    }
+
+    public NewResults(Discription _description, Map<String, List<String>> classDistributions) {
+        this._description = _description;
+        this.classDistributions = classDistributions;
     }
 
     public List<String> getDistributions() {
         return distributions;
     }
 
-    public _Discription getDescription() {
+    public Discription getDescription() {
         return _description;
+    }
+
+    public Map<String, List<String>> getClassDistributions() {
+        return classDistributions;
     }
 
     @Override

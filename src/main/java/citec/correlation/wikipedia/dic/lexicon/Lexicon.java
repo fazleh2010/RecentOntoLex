@@ -274,6 +274,9 @@ public class Lexicon {
         return lexiconPosTaggged;
     }
 
-  
-  
+    @Override
+    public String toString() {
+        return "Lexicon{" + "lexiconDirectory=" + lexiconDirectory + ", lexiconPosTaggged=" + lexiconPosTaggged + '}';
+    }
+
 }

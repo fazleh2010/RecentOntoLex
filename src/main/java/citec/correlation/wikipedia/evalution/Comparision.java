@@ -21,16 +21,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
-import java.util.HashSet;
 import org.javatuples.Pair;
-import citec.correlation.wikipedia.parameters.DirectoryLocation;
-import citec.correlation.wikipedia.parameters.MenuOptions;
-import citec.correlation.wikipedia.utils.EvalutionUtil;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.LinkedList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  *
@@ -40,11 +31,14 @@ public class Comparision {
     
     private Map<String, LexiconUnit> lexiconDic = new TreeMap<String, LexiconUnit> ();
     private Map<String, Unit> qaldDic = new TreeMap<String, Unit>();
-    private List<MeanReciprocalCalculation> results = new ArrayList<MeanReciprocalCalculation>();
+    //private List<MeanReciprocalCalculation> results = new ArrayList<MeanReciprocalCalculation>();
     private String outputFileName = null;
+    private String posTag = null;
+    private MeanReciprocalCalculation meanReciprocalResult =null;
+    
   
 
-    public Comparision(String qald9Dir, String qaldFileName, String methodFileName,String outputFileName) throws IOException {
+    public Comparision(String postag,String qald9Dir, String qaldFileName, String methodFileName,String outputFileName) throws IOException {
         this.lexiconDic = getLexicon(methodFileName);
         this.qaldDic = getQald(qaldFileName);
         this.outputFileName=outputFileName;
@@ -60,9 +54,10 @@ public class Comparision {
             
         Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
         List<String> commonWords = new ArrayList<String>(intersection);
-        System.out.print("commonWords:"+commonWords);
+        System.out.println("outputFileName:"+outputFileName);
+        System.out.println("commonWords:"+commonWords);
 
-        /*for (String word : lexiconDic.keySet()) {
+        for (String word : lexiconDic.keySet()) {
             System.out.println(" word:" + word);
             LexiconUnit lexiconElement = lexiconDic.get(word);
             Map<String, Double> predict = this.getPredictMap(lexiconElement);
@@ -73,9 +68,9 @@ public class Comparision {
             lexicon.add(predictPair);
             qald_gold.add(goldRelevancePair);
         }
-        MeanReciprocalCalculation meanReciprocalResult =new MeanReciprocalCalculation(lexicon, qald_gold);
+        this. meanReciprocalResult =new MeanReciprocalCalculation(lexicon, qald_gold);
         //System.out.println("meanReciprocalRank:" + meanReciprocalResult.getMeanReciprocalElements());
-        FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocalResult, outputFileName);*/
+       // FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocalResult, outputFileName);
         
     }
     
@@ -258,10 +253,6 @@ public class Comparision {
         return predicate;
     }
 
-    public List<MeanReciprocalCalculation> getResults() {
-        return results;
-    }
-
     private List<String> getCommonWords() {
          Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
          return new ArrayList<String>(intersection);
@@ -303,6 +294,14 @@ public class Comparision {
             return goldRelevance;
         }
 
+    }
+
+    public String getPosTag() {
+        return posTag;
+    }
+
+    public MeanReciprocalCalculation getMeanReciprocalResult() {
+        return meanReciprocalResult;
     }
 
    

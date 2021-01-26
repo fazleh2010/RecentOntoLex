@@ -6,6 +6,7 @@ import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import citec.correlation.wikipedia.dic.lexicon.LexiconUnit;
 import citec.correlation.wikipedia.dic.lexicon.WordObjectResults;
 import citec.correlation.wikipedia.evalution.Comparision;
+import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import citec.correlation.wikipedia.results.LineInfo;
@@ -14,6 +15,7 @@ import citec.correlation.wikipedia.results.ObjectWordResults;
 import citec.correlation.wikipedia.results.ResultTriple;
 import citec.correlation.wikipedia.results.ResultUnit;
 import citec.correlation.wikipedia.results.WordResult;
+import citec.correlation.wikipedia.results.Discription;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -121,7 +123,7 @@ public class NewResultEvalutionTest {
 
     }
 
-    public static void main(String[] args) throws Exception {
+    public static void main2(String[] args) throws Exception {
         NewResultEvalutionTest newResultEvalutionTest = new NewResultEvalutionTest();
         List<ObjectWordResults> entityResults = new ArrayList<ObjectWordResults>();
         Map<String, Map<String, Lexicon>> classRuleMap = new TreeMap<String, Map<String, Lexicon>>();
@@ -134,51 +136,119 @@ public class NewResultEvalutionTest {
                 Map<String, Lexicon> preditcionRuleClassMap = new TreeMap<String, Lexicon>();
                 for (File file : pair.getValue1()) {
                     String fileName = file.getName().replace("HR_", "");
+                    if(!fileName.contains("Politician"))
+                        continue;
                     String[] info = fileName.split("-");
                     String[] parameters =findParameter(info);
                     String key = parameters[0] + "-" + parameters[1] + "-" + parameters[2];
-                    Lexicon lexicon = createLexicon( parameters[0], parameters[1], parameters[2], file);
+                    NewResults result = readFromJsonFile(new File(inputDir + file.getName()));
+                    Lexicon lexicon = createLexicon( parameters[0], parameters[1], parameters[2], result);
                     preditcionRuleClassMap.put(key, lexicon);
-                    System.out.println(key+" "+lexicon);
+                    System.out.println(key+" "+lexicon);     
                 }
-                //break;
+               
+                for (String key : preditcionRuleClassMap.keySet()) {
+                    Lexicon lexicon = preditcionRuleClassMap.get(key);
+                    String directory = qald9Dir + OBJECT + "/";
+                    System.out.println("directory:" + directory);
+                    List<File> fileList = FileFolderUtils.getSpecificFiles(directory, key, ".json").getValue1();
+                    System.out.println(fileList);
+                    Map<String,MeanReciprocalCalculation>meanReciprocals=new TreeMap<String,MeanReciprocalCalculation>();
+                    String outputFileName =null;
+                    for (String posTag : Analyzer.POSTAGS) {
+                        List<LexiconUnit> list = lexicon.getLexiconPosTaggged().get(posTag);
+                        File file = getFile(posTag, fileList);
+                        String fileName = file.getName().replace(".json", "");
+                        String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, posTag);
+                        String conditionalFilename = directory + fileName + ".json";
+                        outputFileName = directory + fileName + "-Mean" + ".json";
+                        //System.out.println("qaldFileName:" + qaldFileName);
+                        //System.out.println("conditionalFilename:" + conditionalFilename);
+                        //System.out.println("outputFileName:" + outputFileName);
+                        Comparision comparision = new Comparision(posTag,qald9Dir, qaldFileName, conditionalFilename, outputFileName);
+                        comparision.compersionsPattern();
+                        meanReciprocals.put(posTag, comparision.getMeanReciprocalResult());
+                       
+                    }
+                     outputFileName = directory + key+"-Mean" + ".json";
+                     FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocals, outputFileName);
+
+                }
+                break;
             }
 
-            /*for (String key : ruleMap.keySet()) {
-                Lexicon lexicon = ruleMap.get(key);
-                String directory = qald9Dir + OBJECT + "/";
-                System.out.println("directory:" + directory);
-                List<File> fileList = FileFolderUtils.getSpecificFiles(directory, key, ".json").getValue1();
-                System.out.println(fileList);
-                for (String posTag : Analyzer.POSTAGS) {
-                    List<LexiconUnit> list = lexicon.getLexiconPosTaggged().get(posTag);
-                    File file = getFile(posTag, fileList);
-                    String fileName = file.getName().replace(".json", "");
-                    String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, posTag);
-                    String conditionalFilename = directory + fileName + ".json";
-                    String outputFileName = directory + fileName + "-Mean" + ".json";
-                    System.out.println("qaldFileName:" + qaldFileName);
-                    System.out.println("conditionalFilename:" + conditionalFilename);
-                    System.out.println("outputFileName:" + outputFileName);
-                    Comparision comparision = new Comparision(qald9Dir, qaldFileName, conditionalFilename, outputFileName);
-                    comparision.compersionsPattern();
-                }
-
-            }*/
             break;
         }
 
         //}
         //String str = entityResultToString(entityResults);
     }
-
-    private static Lexicon createLexicon(String dbo_className, String dbo_prediction, String dbo_associationRule, File file) throws Exception {
+    
+    public static void main(String[] args) throws Exception {
+        NewResultEvalutionTest newResultEvalutionTest = new NewResultEvalutionTest();
+        for (String prediction : predicateRules) {
+            prediction = predict_l_for_s_given_po;
+            for (String associationRule : associationRules) {
+                Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(inputDir, prediction, associationRule, "json");
+                List<File> files = pair.getValue1();
+                NewResults result = readFromJsonFile(files);
+                Lexicon lexicon = createLexicon("AllClass", prediction, associationRule, result);
+                break;
+            }
+            break;
+        }
+    }
+    
+    private static Lexicon createLexicon(String dbo_className, String dbo_prediction, String dbo_associationRule, NewResults result) throws Exception {
         String key = dbo_className + "-" + dbo_prediction + "-" + dbo_associationRule;
         Analyzer analyzer = null;
         Lexicon lexicon = null;
-        NewResults result = readFromJsonFile(new File(inputDir + file.getName()));
+
+        Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
+        for (String className : result.getClassDistributions().keySet()) {
+            List<String> lines = result.getClassDistributions().get(className);
+            for (String line : lines) {
+                System.out.println("line:" + line);
+                LineInfo lineInfo = new LineInfo(className, line, 1, 0);
+                if (!lineInfo.getValidFlag()) {
+                    continue;
+                }
+                String word = lineInfo.getWord();
+                //System.out.println("word:" + word);
+
+                if (FormatAndMatch.isNumeric(lineInfo.getWord())) {
+                    continue;
+                }
+                if (isKBValid(lineInfo.getObject())) {
+                    continue;
+                }
+                String nGram = lineInfo.getWord().toLowerCase().trim().strip();
+                //System.out.println("parts-of-sppech:" + lineInfo.getPartOfSpeech());
+                List<LineInfo> results = new ArrayList<LineInfo>();
+                if (lineLexicon.containsKey(nGram)) {
+                    results = lineLexicon.get(nGram);
+                    results.add(lineInfo);
+                    lineLexicon.put(nGram, results);
+                } else {
+                    results.add(lineInfo);
+                    lineLexicon.put(nGram, results);
+                }
+            }
+        }
+
+        lexicon = new Lexicon(qald9Dir);
+        lexicon.preparePropertyLexicon(key, dbo_associationRule, lineLexicon);
+        return lexicon;
+    }
+
+    /*private static Lexicon createLexicon(String dbo_className, String dbo_prediction, String dbo_associationRule,  NewResults result ) throws Exception {
+        String key = dbo_className + "-" + dbo_prediction + "-" + dbo_associationRule;
+        Analyzer analyzer = null;
+        Lexicon lexicon = null;
+ 
         Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
         for (String line : result.getDistributions()) {
+            System.out.println("line:"+line);
             LineInfo lineInfo = new LineInfo(dbo_className, line, 1, 0);
             if (!lineInfo.getValidFlag()) {
                 continue;
@@ -208,7 +278,7 @@ public class NewResultEvalutionTest {
         lexicon = new Lexicon(qald9Dir);
         lexicon.preparePropertyLexicon(key, dbo_associationRule, lineLexicon);
         return lexicon;
-    }
+    }*/
 
     public static boolean isKBValid(String word) {
         
@@ -244,14 +314,26 @@ public class NewResultEvalutionTest {
         NewResults result = mapper.readValue(file, NewResults.class);
         return result;
     }
+    
+    public static NewResults readFromJsonFile(List<File> files) throws IOException, Exception {
+        Map<String, List<String>> classDistributions = new TreeMap<String, List<String>>();
+        Discription description = null;
+        for (File file : files) {
+            String fileName = file.getName();
+            String[] info = fileName.split("-");
+            String[] parameters = findParameter(info);
+            String key = parameters[0] + "-" + parameters[1] + "-" + parameters[2];
 
-    public static void main2(String[] args) {
-        String type = "\"2014\"^^<http://www.w3.org/2001/XMLSchema#integer>";
-        if (!isKBValid(type)) {
-            System.out.print(type);
+            ObjectMapper mapper = new ObjectMapper();
+            NewResults resultTemp = mapper.readValue(file, NewResults.class);
+            description = resultTemp.getDescription();
+            List<String> local = resultTemp.getDistributions();
+            classDistributions.put(parameters[0], local);
         }
+        return new NewResults(description, classDistributions);
     }
 
+  
     private static File getFile(String posTag, List<File> fileList) {
         for (File file : fileList) {
             if (file.getName().contains(posTag)) {
@@ -268,4 +350,5 @@ public class NewResultEvalutionTest {
         }
         return false;
     }
+    
 }

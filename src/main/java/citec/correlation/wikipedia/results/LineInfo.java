@@ -39,6 +39,27 @@ public class LineInfo {
     public LineInfo(String className, String line, Integer wordIndex, Integer kbIndex) throws Exception {
         this.line = line;
         this.className = className;
+        //this.setParameters(wordIndex,kbIndex);
+        String[] rule = line.split("=>");
+        String leftRule = StringUtils.substringBetween(rule[kbIndex], "(", ")");
+        String rightRule = StringUtils.substringBetween(rule[wordIndex], "{", "}");
+        this.setTriple(leftRule);
+        this.setWord(rightRule);
+        if (this.validFlag) {
+            String str = this.processWords(this.wordOriginal);
+            String[] info = str.split(" ");
+            if (info.length > 1) {
+                this.nGramNumber = info.length;
+            }
+            this.getPosTag(str);
+            this.setRule();
+            this.setProbabilityValue(line);
+        }
+    }
+
+   
+    
+    private void setParameters(Integer wordIndex, Integer kbIndex) throws Exception {
         String[] rule = line.split("=>");
         String leftRule = StringUtils.substringBetween(rule[kbIndex], "(", ")");
         String rightRule = StringUtils.substringBetween(rule[wordIndex], "{", "}");
@@ -96,7 +117,17 @@ public class LineInfo {
         this.correct(leftRule);
         this.subject = this.correct(info[0]);
         this.predicate = this.correct(info[1]);
-        this.object = this.correct(info[2]);;
+        this.object =this.setObject(this.correct(info[2]));       
+    }
+    
+    private String setObject(String object) {
+        if(object.contains(":")){
+            String []info=object.split(":");
+            return info[1];
+        }
+        else
+            return object;
+      
     }
 
     private String processWords(String nGram) throws Exception {
@@ -134,6 +165,8 @@ public class LineInfo {
     private String correct(String string) {
         return string.trim().strip();
     }
+    
+   
 
     public String getPosTag() {
         return posTag;
@@ -208,5 +241,7 @@ public class LineInfo {
         String line = this.line + "\n";
         return "LineInfo{" + "line=" + line + ", subject=" + subject + ", predicate=" + predicate + ", object=" + object + ", rule=" + rule + ", word=" + word + ", probabilityValue=" + probabilityValue + '}';
     }
+
+   
 
 }

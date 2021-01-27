@@ -78,6 +78,8 @@ public class NewResultEvalutionTest implements ThresoldConstants{
         return parameters;
     }
 
+   
+
     public NewResultEvalutionTest() {
        
 
@@ -158,22 +160,18 @@ public class NewResultEvalutionTest implements ThresoldConstants{
     
     public static void main(String[] args) throws Exception {
         String directory = qald9Dir + OBJECT + "/";
-        Map<String, Double> thresolds = new TreeMap<String, Double>();
+       /* Map<String, Double> thresolds = new TreeMap<String, Double>();
         thresolds.put("supBA", 1.0);
         thresolds.put("supAB", 60.0);
         thresolds.put("Cosine", 1.0);
         thresolds = new TreeMap<String, Double>();
         thresolds.put("supBA", 1.0);
         thresolds.put("supAB", 60.0);
-        thresolds.put("Cosine", 1.0);
-        List<Map<String, Double>> experiments = new ArrayList<Map<String, Double>>();
-
+        thresolds.put("Cosine", 1.0);*/
         NewResultEvalutionTest newResultEvalutionTest = new NewResultEvalutionTest();
         Map<String, Lexicon> associationRuleLex = new TreeMap<String, Lexicon>();
 
-        Integer experimentNumber = 0;
-        for (Map<String, Double> experiment : experiments) {
-            experimentNumber = experimentNumber + 1;
+      
             for (String prediction : predicateRules) {
                 prediction = predict_l_for_s_given_po;
                 Lexicon lexicon = null;
@@ -183,9 +181,9 @@ public class NewResultEvalutionTest implements ThresoldConstants{
                     NewResults result = readFromJsonFile(files);
                     lexicon = createLexicon("AllClass", prediction, associationRule, result);
                     associationRuleLex.put(prediction + "-" + associationRule, lexicon);
-                    break;
                 }
-                for (String rule : associationRuleLex.keySet()) {
+                meanReciprocal(directory,associationRuleLex);
+                /*for (String rule : associationRuleLex.keySet()) {
                     List<File> fileList = FileFolderUtils.getSpecificFiles(directory, rule, ".json").getValue1();
                     System.out.println(fileList);
                     Map<String, MeanReciprocalCalculation> meanReciprocals = new TreeMap<String, MeanReciprocalCalculation>();
@@ -203,11 +201,11 @@ public class NewResultEvalutionTest implements ThresoldConstants{
                     String outputFileName = directory + experimentNumber + "-" + rule + "NN-JJ-VB" + "-" + "MeanR" + ".json";
                     System.out.println("outputFileName:" + outputFileName);
                     FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocals, outputFileName);
-                }
+                }*/
 
                 break;
             }
-        }
+        
 
     }
 
@@ -360,6 +358,30 @@ public class NewResultEvalutionTest implements ThresoldConstants{
             return true;
         }
         return false;
+    }
+    
+     private static void meanReciprocal(String directory, Map<String, Lexicon> associationRuleLex) throws IOException {
+         Integer experimentNumber=0;
+        for (String rule : associationRuleLex.keySet()) {
+            experimentNumber=experimentNumber+1;
+            List<File> fileList = FileFolderUtils.getSpecificFiles(directory, rule, ".json").getValue1();
+            System.out.println(fileList);
+            Map<String, MeanReciprocalCalculation> meanReciprocals = new TreeMap<String, MeanReciprocalCalculation>();
+            for (String posTag : Analyzer.POSTAGS) {
+                File file = getFile(posTag, fileList);
+                String fileName = file.getName().replace(".json", "");
+                String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, posTag);
+                String conditionalFilename = directory + fileName + ".json";
+                System.out.println("qaldFileName:" + qaldFileName);
+                System.out.println("conditionalFilename:" + conditionalFilename);
+                Comparision comparision = new Comparision(posTag, qald9Dir, qaldFileName, conditionalFilename);
+                comparision.compersionsPattern();
+                meanReciprocals.put(posTag, comparision.getMeanReciprocalResult());
+            }
+            String outputFileName = directory + experimentNumber + "-" + rule + "NN-JJ-VB" + "-" + "MeanR" + ".json";
+            System.out.println("outputFileName:" + outputFileName);
+            FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocals, outputFileName);
+        }
     }
     
 }

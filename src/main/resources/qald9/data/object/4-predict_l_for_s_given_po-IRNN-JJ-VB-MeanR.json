@@ -1,0 +1,60 @@
+{
+  "JJ" : {
+    "MeanReciProcalRank" : 1.0272213662044171E-4,
+    "TotalPattern" : 649,
+    "Found" : 1,
+    "NotFound" : 648,
+    "Detail" : {
+      "canadian" : {
+        "Predicate" : [ "Canada" ],
+        "Rank" : 15,
+        "ReciprocalRank" : 0.06666666666666667
+      }
+    }
+  },
+  "NN" : {
+    "MeanReciProcalRank" : 7.12126384169395E-5,
+    "TotalPattern" : 7920,
+    "Found" : 6,
+    "NotFound" : 7914,
+    "Detail" : {
+      "actor" : {
+        "Predicate" : [ "Actor" ],
+        "Rank" : 6,
+        "ReciprocalRank" : 0.16666666666666666
+      },
+      "canada" : {
+        "Predicate" : [ "Canada" ],
+        "Rank" : 18,
+        "ReciprocalRank" : 0.05555555555555555
+      },
+      "lake" : {
+        "Predicate" : [ "Lake" ],
+        "Rank" : 7,
+        "ReciprocalRank" : 0.14285714285714285
+      },
+      "poet" : {
+        "Predicate" : [ "Poet" ],
+        "Rank" : 10,
+        "ReciprocalRank" : 0.1
+      },
+      "state" : {
+        "Predicate" : [ "United_States" ],
+        "Rank" : 15,
+        "ReciprocalRank" : 0.06666666666666667
+      },
+      "united" : {
+        "Predicate" : [ "United_States" ],
+        "Rank" : 31,
+        "ReciprocalRank" : 0.03225806451612903
+      }
+    }
+  },
+  "VB" : {
+    "MeanReciProcalRank" : 0.0,
+    "TotalPattern" : 683,
+    "Found" : 0,
+    "NotFound" : 683,
+    "Detail" : { }
+  }
+}

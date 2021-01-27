@@ -185,8 +185,14 @@ public class NewResultEvalutionTest {
     }
     
     public static void main(String[] args) throws Exception {
+        Map<String, Double> thresolds = new TreeMap<String, Double>();
+        thresolds.put("supA", 0.0);
+        thresolds.put("supAB", 50.0);
+        thresolds.put("Cosine", 0.0);
+        
+        
         NewResultEvalutionTest newResultEvalutionTest = new NewResultEvalutionTest();
-        Map<String,Lexicon> associationRuleLex=new TreeMap<String,Lexicon>();
+        Map<String, Lexicon> associationRuleLex = new TreeMap<String, Lexicon>();
         for (String prediction : predicateRules) {
             prediction = predict_l_for_s_given_po;
             Lexicon lexicon = null;
@@ -195,40 +201,35 @@ public class NewResultEvalutionTest {
                 List<File> files = pair.getValue1();
                 NewResults result = readFromJsonFile(files);
                 lexicon = createLexicon("AllClass", prediction, associationRule, result);
-                associationRuleLex.put(prediction+"-"+associationRule, lexicon);
+                associationRuleLex.put(prediction + "-" + associationRule, lexicon);
                 break;
             }
+            for (String rule : associationRuleLex.keySet()) {
+                String directory = qald9Dir + OBJECT + "/";
+                List<File> fileList = FileFolderUtils.getSpecificFiles(directory, rule, ".json").getValue1();
+                System.out.println(fileList);
+                Map<String, MeanReciprocalCalculation> meanReciprocals = new TreeMap<String, MeanReciprocalCalculation>();
+                for (String posTag : Analyzer.POSTAGS) {
+                    File file = getFile(posTag, fileList);
+                    String fileName = file.getName().replace(".json", "");
+                    String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, posTag);
+                    String conditionalFilename = directory + fileName + ".json";
+                    System.out.println("qaldFileName:" + qaldFileName);
+                    System.out.println("conditionalFilename:" + conditionalFilename);
+                    Comparision comparision = new Comparision(posTag, qald9Dir, qaldFileName, conditionalFilename);
+                    comparision.compersionsPattern();
+                    meanReciprocals.put(posTag, comparision.getMeanReciprocalResult());
+                }
+                String outputFileName = directory + rule + "-MeanR" + ".json";
+                System.out.println("outputFileName:" + outputFileName);
+                FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocals, outputFileName);
+            }
+
             break;
         }
-        
-        for (String rule : associationRuleLex.keySet()) {
-            Lexicon lexicon = associationRuleLex.get(rule);
-            String associationRule = "Coherence";
-            String directory = qald9Dir + OBJECT + "/";
-            List<File> fileList = FileFolderUtils.getSpecificFiles(directory, rule, ".json").getValue1();
-            System.out.println(fileList);
-            Map<String, MeanReciprocalCalculation> meanReciprocals = new TreeMap<String, MeanReciprocalCalculation>();
-            for (String posTag : Analyzer.POSTAGS) {
-                File file = getFile(posTag, fileList);
-                String fileName = file.getName().replace(".json", "");
-                String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, posTag);
-                String conditionalFilename = directory + fileName + ".json";
-                System.out.println("qaldFileName:" + qaldFileName);
-                System.out.println("conditionalFilename:" + conditionalFilename);
-                Comparision comparision = new Comparision(posTag, qald9Dir, qaldFileName, conditionalFilename);
-                comparision.compersionsPattern();
-                meanReciprocals.put(posTag, comparision.getMeanReciprocalResult());
 
-            }
-            String outputFileName = directory + rule + "-MeanR" + ".json";
-            System.out.println("outputFileName:" + outputFileName);
-            FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocals, outputFileName);
-
-        }
-
-        
     }
-    
+
     private static Lexicon createLexicon(String dbo_className, String dbo_prediction, String dbo_associationRule, NewResults result) throws Exception {
         String key = dbo_className + "-" + dbo_prediction + "-" + dbo_associationRule;
         Analyzer analyzer = null;
@@ -238,7 +239,6 @@ public class NewResultEvalutionTest {
         for (String className : result.getClassDistributions().keySet()) {
             List<String> lines = result.getClassDistributions().get(className);
             for (String line : lines) {
-                System.out.println("line:" + line);
                 LineInfo lineInfo = new LineInfo(className, line, 1, 0);
                 if (!lineInfo.getValidFlag()) {
                     continue;

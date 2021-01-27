@@ -63,7 +63,6 @@ public class Comparision {
         System.out.println("commonWords:"+commonWords);
 
         for (String word : lexiconDic.keySet()) {
-            System.out.println(" word:" + word);
             LexiconUnit lexiconElement = lexiconDic.get(word);
             Map<String, Double> predict = this.getPredictMap(lexiconElement);
             Map<String, Boolean> goldRelevance = this.getGoldRelevance(word, predict);

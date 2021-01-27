@@ -7,10 +7,13 @@ package citec.correlation.wikipedia.evalution;
 
 import citec.correlation.wikipedia.results.ReciprocalResult;
 import citec.correlation.wikipedia.evalution.ir.IrAbstract;
+import citec.correlation.wikipedia.utils.DoubleUtils;
 import citec.correlation.wikipedia.utils.EvalutionUtil;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
@@ -18,13 +21,14 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.javatuples.Pair;
 
 /**
  *
  * @author elahi
  */
-public class MeanReciprocalCalculation {
+public class MeanReciprocalCalculation implements Comparator{
 
     @JsonIgnore
     public static final boolean ASCENDING = true;
@@ -40,9 +44,11 @@ public class MeanReciprocalCalculation {
     private Integer totalPattern=null;
     @JsonProperty("Found")
     private Integer numberOfPatterrnFoundNonZeroRank=0;
-    @JsonProperty("NotFound")
+    //@JsonProperty("NotFound")
+    @Ignore
     private Integer numberOfPatterrnFoundZeroRank=null;
-    @JsonProperty("Detail")
+    //@JsonProperty("Detail")
+    @Ignore
     private Map<String,ReciprocalResult> patternFound=new  TreeMap<String,ReciprocalResult>();
     //@JsonProperty("PatterrnFoundZeroRank")
     @JsonIgnore
@@ -81,6 +87,7 @@ public class MeanReciprocalCalculation {
         
 
          this.meanReciprocalRank= mrr;
+         this.meanReciprocalRank=DoubleUtils.formatDouble(mrr);
          this.meanReciprocalRankStr=FormatAndMatch.doubleFormat(meanReciprocalRank);
          this.numberOfPatterrnFoundNonZeroRank=patternFound.size();
          this.numberOfPatterrnFoundZeroRank=patternNotFound.size();
@@ -141,6 +148,22 @@ public class MeanReciprocalCalculation {
     public String getMeanReciprocalRankStr() {
         return meanReciprocalRankStr;
     }
+
+    @Override
+    public int compare(Object arg0, Object arg1) {
+        MeanReciprocalCalculation s1 = (MeanReciprocalCalculation) arg0;
+        MeanReciprocalCalculation s2 = (MeanReciprocalCalculation) arg1;
+        if (s1.meanReciprocalRank == s2.meanReciprocalRank) {
+            return 0;
+        } else if (s1.meanReciprocalRank > s2.meanReciprocalRank) {
+            return 1;
+        } else {
+            return -1;
+        }
+
+    }
+    
+   
 
    
 }

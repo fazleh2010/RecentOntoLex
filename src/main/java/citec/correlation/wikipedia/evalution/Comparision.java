@@ -53,21 +53,21 @@ public class Comparision {
         List<Pair<String,Map<String, Double>>> lexicon = new ArrayList<Pair<String,Map<String, Double>>>();
         List<Pair<String,Map<String, Boolean>>> qald_gold = new ArrayList<Pair<String,Map<String, Boolean>>>();
         if (lexiconDic.keySet().isEmpty()) {
-            System.out.println("No lexicon found for evalution!!");
+            //System.out.println("No lexicon found for evalution!!");
             return;
         }
             
         Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
         List<String> commonWords = new ArrayList<String>(intersection);
-        System.out.println("outputFileName:"+outputFileName);
-        System.out.println("commonWords:"+commonWords);
+        //System.out.println("outputFileName:"+outputFileName);
+        //System.out.println("commonWords:"+commonWords);
 
         for (String word : lexiconDic.keySet()) {
             LexiconUnit lexiconElement = lexiconDic.get(word);
             Map<String, Double> predict = this.getPredictMap(lexiconElement);
             Map<String, Boolean> goldRelevance = this.getGoldRelevance(word, predict);
             Pair<String,Map<String, Double>> predictPair = new Pair<String,Map<String, Double>>(word,predict);
-            System.out.println(predictPair);
+            //System.out.println(predictPair);
             Pair<String,Map<String, Boolean>> goldRelevancePair = new Pair<String,Map<String, Boolean>>(word,goldRelevance);
             lexicon.add(predictPair);
             qald_gold.add(goldRelevancePair);
@@ -88,7 +88,7 @@ public class Comparision {
         List<String> commonWords = new ArrayList<String>(intersection);
         Double sum=0.0;
         for (String word : qaldDic.keySet()) {
-            System.out.println("word:"+word);
+            //System.out.println("word:"+word);
             ReciprocalResult reciprocalElement = null;
             if (commonWords.contains(word)) {
                 Unit qaldElement = qaldDic.get(word);
@@ -105,7 +105,7 @@ public class Comparision {
             sum+=reciprocalElement.getReciprocalRank();
         }
         Double meanReciprocal=sum/qaldDic.size();
-        System.out.println("meanReciprocal:"+meanReciprocal);
+        //System.out.println("meanReciprocal:"+meanReciprocal);
         
     }
 
@@ -175,7 +175,7 @@ public class Comparision {
             Double predictedReciprocalRank = 0.0;
             //temporary closed
                     //this.calculateMeanReciprocal(predict, goldRelevance);
-            System.out.println(word + " predictedReciprocalRank: " + predictedReciprocalRank);
+            //System.out.println(word + " predictedReciprocalRank: " + predictedReciprocalRank);
             index = index + 1;
 
         }

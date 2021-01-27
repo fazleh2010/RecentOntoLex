@@ -8,7 +8,9 @@ package citec.correlation.wikipedia.results;
 import citec.correlation.wikipedia.analyzer.Analyzer;
 import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
+import com.google.common.collect.Sets;
 import java.util.Map;
+import java.util.Set;
 import java.util.StringTokenizer;
 import java.util.TreeMap;
 import java.util.logging.Level;
@@ -65,17 +67,23 @@ public class LineInfo {
         
     }
     
-    public static Boolean isThresoldValid(Map<String, Double> probabilityValue, Map<String, Double> thresolds) throws Exception {
+    public static Boolean isThresoldValid(Map<String, Double> lineProbabiltyValue, Map<String, Double> givenThresold) throws Exception {
         boolean thresoldValid = true;
-        for (String attribute : probabilityValue.keySet()) {
-            if (probabilityValue.containsKey(attribute) && thresolds.containsKey(attribute)) {
-                Double probValue = probabilityValue.get(attribute);
-                Double thresold = thresolds.get(attribute);
+        Set<String> commonAtt=Sets.intersection(lineProbabiltyValue.keySet(), givenThresold.keySet());
+        //System.out.println("lineProbabiltyValue:"+lineProbabiltyValue);
+        //System.out.println("givenThresold:"+givenThresold);
+         //System.out.println("commonAtt:"+commonAtt);
+        
+        
+        for (String attribute : commonAtt) {
+            if (lineProbabiltyValue.containsKey(attribute) && givenThresold.containsKey(attribute)) {
+                Double probValue = lineProbabiltyValue.get(attribute);
+                Double thresold = givenThresold.get(attribute);
                 if (probValue >thresold) {
                     thresoldValid = true;
                 }
                 else
-                    return false;
+                return false;
             }
         }
         return thresoldValid;
@@ -124,10 +132,8 @@ public class LineInfo {
         line = line.replace("supA=", "$supA=");
         line = line + "$";
         String values = StringUtils.substringBetween(line, "$", "$").replace(",", "");
-         System.out.println(values);
         String[] info = values.split(" ");
         for (Integer i = 0; i < info.length; i++) {
-            System.out.println(info[i]);
             Pair<String, String> pair = this.setValue(info[i]);
             double dnum = Double.parseDouble(pair.getValue1());
             this.probabilityValue.put(pair.getValue0(), dnum);
@@ -136,7 +142,7 @@ public class LineInfo {
 
     private Pair<String, String> setValue(String string) {
         String[] info = string.split("=");
-        String key = info[0];
+        String key = info[0].trim().strip();
         return new Pair<String, String>(key, info[1]);
     }
 

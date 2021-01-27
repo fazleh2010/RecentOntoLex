@@ -1,4 +1,5 @@
 
+import citec.correlation.wikipedia.parameters.ThresoldConstants;
 import citec.correlation.wikipedia.results.LineInfo;
 import java.util.Map;
 import java.util.TreeMap;
@@ -19,23 +20,14 @@ public class LineTest {
         LineInfo lineInfo = new LineInfo();
         lineInfo.setProbabilityValue(line);
         System.out.println(lineInfo.getProbabilityValue());
-        Map<String, Double> probabilityValue = new TreeMap<String, Double>();
-        probabilityValue.put("AllConf", 1.0);
-        probabilityValue.put("Coherence", 0.5);
-        probabilityValue.put("Cosine", 1.0);
-        probabilityValue.put("IR", 1.0);
-        probabilityValue.put("Kulczynski", 1.0);
-        probabilityValue.put("MaxConf", 1.0);
-        probabilityValue.put("condAB", 1.0);
-        probabilityValue.put("condBA", 1.0);
-        probabilityValue.put("supA", 1.0);
-        probabilityValue.put("supAB", 60.0);
-        probabilityValue.put("supB", 60.0);
         Map<String, Double> thresolds = new TreeMap<String, Double>();
-        thresolds.put("supA", 0.0);
-        thresolds.put("supAB", 50.0);
-        thresolds.put("Cosine", 0.0);
-        if (LineInfo.isThresoldValid(probabilityValue, thresolds)) {
+        thresolds.put(ThresoldConstants.Cosine, 1.0);
+        thresolds.put(ThresoldConstants.supA, 1.0);
+        thresolds.put(ThresoldConstants.supB, 60.0);
+        thresolds.put(ThresoldConstants.condAB, 1.0);
+        thresolds.put(ThresoldConstants.condBA, 60.0);
+      
+        if (LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresolds)) {
             System.out.println("valid line:" + line);
         } else {
             System.out.println("invalid line:");

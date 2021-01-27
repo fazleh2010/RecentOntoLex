@@ -21,9 +21,9 @@ public interface ThresoldConstants {
     
     public static final String supA = "supA";
     public static final String supB = "supB";
-    public static final String conAB = "conAB";
-    public static final String conBA = "conBA";
-    public static final String NUMBER_OF_RULES = "numberOfRules";
+    public static final String condAB = "condAB";
+    public static final String condBA = "condBA";
+    public static final String NUMBER_OF_RULES = "numRule";
     
     public static final String AllConf = "AllConf";
     public static final String MaxConf = "MaxConf";

@@ -5,8 +5,7 @@
  */
 package citec.correlation.wikipedia.parameters;
 
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.conAB;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.conBA;
+
 import static citec.correlation.wikipedia.parameters.ThresoldConstants.supA;
 import static citec.correlation.wikipedia.parameters.ThresoldConstants.supB;
 import java.util.ArrayList;
@@ -35,15 +34,17 @@ public class ThresoldsExperiment implements ThresoldConstants {
     private List<Double> CoherenceList = Arrays.asList(0.001, 0.045);
     private List<Integer> numberOfRules = Arrays.asList(200, 1000);*/
     
-    private List<Double> supList = Arrays.asList(100.0);
-    private List<Double> supBList = Arrays.asList(100.0);
-    private List<Double> confABList = Arrays.asList(0.045, 0.5);
-    private List<Double> confBAList = Arrays.asList(0.045, 0.5);
+    private List<Double> supAList = Arrays.asList(10.0,200.0);
+    private List<Double> supBList = Arrays.asList(20.0,100.0);
+    private List<Double> confABList = Arrays.asList(0.1, 0.8);
+    private List<Double> confBAList = Arrays.asList(0.001, 0.8);
+    private List<Double> CosineList = Arrays.asList(0.001,0.045,0.5,0.9);
+
+    
     private List<Double> AllConfList = Arrays.asList(0.001, 0.045);
     private List<Double> MaxConfList = Arrays.asList(0.001, 0.045);
     private List<Double> IrList = Arrays.asList(0.001, 0.045);
     private List<Double> KulczynskiList = Arrays.asList(0.001, 0.045);
-    private List<Double> CosineList = Arrays.asList(0.001, 0.045);
     private List<Double> CoherenceList = Arrays.asList(0.001, 0.045);
     private List<Integer> numberOfRules = Arrays.asList(200, 1000);
     
@@ -53,7 +54,7 @@ public class ThresoldsExperiment implements ThresoldConstants {
     public ThresoldsExperiment(String associationRule) {
         Integer index=0;
         for (Integer numberOfRule : numberOfRules) {
-            for (Double supA : supList) {
+            for (Double supA : supAList) {
                 for (Double supB : supBList) {
                     for (Double confAB : confABList) {
                         for (Double confBA : confBAList) {
@@ -94,19 +95,19 @@ public class ThresoldsExperiment implements ThresoldConstants {
         }
     }
 
-    public class ThresoldELement {
+    public class ThresoldELement implements ThresoldConstants{
 
         private Integer rules = 0;
         private String type = null;
-        private LinkedHashMap<String, Double> values = new LinkedHashMap<String, Double>();
+        private LinkedHashMap<String, Double> givenThresolds = new LinkedHashMap<String, Double>();
 
         public ThresoldELement(Double supA, Double supB, Double confAB, Double confBA, String type, Double probabiltyValue, Integer numberOfRules) {
-            this.values.put(ThresoldConstants.supA, supA);
-            this.values.put(ThresoldConstants.supB, supB);
-            this.values.put(ThresoldConstants.conAB, confAB);
-            this.values.put(ThresoldConstants.conBA, confBA);
+            this.givenThresolds.put(ThresoldConstants.supA, supA);
+            this.givenThresolds.put(ThresoldConstants.supB, supB);
+            this.givenThresolds.put(ThresoldConstants.condAB, confAB);
+            this.givenThresolds.put(ThresoldConstants.condBA, confBA);
             this.type=type;
-            this.values.put(type, probabiltyValue);
+            this.givenThresolds.put(type, probabiltyValue);
             this.rules = numberOfRules;
         }
 
@@ -114,18 +115,19 @@ public class ThresoldsExperiment implements ThresoldConstants {
             return rules;
         }
 
-        public Map<String, Double> getValues() {
-            return values;
+        public LinkedHashMap<String, Double> getGivenThresolds() {
+            return givenThresolds;
         }
+
 
         @Override
         public String toString() {
             return  NUMBER_OF_RULES+ "_"+rules+ "-"
-                   + supA+ "_"+values.get(supA)+"-"
-                   + supB+"_"+values.get(supB)+"-"
-                   + conAB+"_"+values.get(conAB)+"-"
-                   + conBA+"_"+values.get(conBA)+"-"
-                   + this.type+"_"+values.get(type);
+                   + supA+ "_"+givenThresolds.get(supA)+"-"
+                   + supB+"_"+givenThresolds.get(supB)+"-"
+                   + condAB+"_"+givenThresolds.get(condAB)+"-"
+                   + condBA+"_"+givenThresolds.get(condBA)+"-"
+                   + this.type+"_"+givenThresolds.get(type);
         }
 
     }

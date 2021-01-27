@@ -30,18 +30,19 @@ public class MeanReciprocalCalculation {
     public static final boolean ASCENDING = true;
     @JsonIgnore
     public static final boolean DESCENDING = false;
-    @JsonIgnore
-    private Double meanReciprocalRank=null;
     @JsonProperty("MeanReciProcalRank")
+    private Double meanReciprocalRank=null;
+    @JsonIgnore
     private String meanReciprocalRankStr=null;
-     
+    
+  
     @JsonProperty("TotalPattern")
     private Integer totalPattern=null;
-    @JsonProperty("NumberOfPatterrnFoundNonZeroRank")
+    @JsonProperty("Found")
     private Integer numberOfPatterrnFoundNonZeroRank=0;
-    @JsonProperty("NumberOfPatterrnFoundZeroRank")
+    @JsonProperty("NotFound")
     private Integer numberOfPatterrnFoundZeroRank=null;
-    @JsonProperty("ReciprocalRank")
+    @JsonProperty("Detail")
     private Map<String,ReciprocalResult> patternFound=new  TreeMap<String,ReciprocalResult>();
     //@JsonProperty("PatterrnFoundZeroRank")
     @JsonIgnore

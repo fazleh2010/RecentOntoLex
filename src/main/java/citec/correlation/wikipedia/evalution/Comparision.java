@@ -44,6 +44,11 @@ public class Comparision {
         this.outputFileName=outputFileName;
     }
     
+       public Comparision(String postag,String qald9Dir, String qaldFileName, String methodFileName) throws IOException {
+        this.lexiconDic = getLexicon(methodFileName);
+        this.qaldDic = getQald(qaldFileName);
+    }
+    
     public void compersionsPattern() throws IOException {
         List<Pair<String,Map<String, Double>>> lexicon = new ArrayList<Pair<String,Map<String, Double>>>();
         List<Pair<String,Map<String, Boolean>>> qald_gold = new ArrayList<Pair<String,Map<String, Boolean>>>();

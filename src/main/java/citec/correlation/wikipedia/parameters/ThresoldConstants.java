@@ -8,11 +8,9 @@ package citec.correlation.wikipedia.parameters;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.LinkedHashSet;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
-import java.util.TreeSet;
+
 
 /**
  *
@@ -24,8 +22,8 @@ public interface ThresoldConstants {
     public static final String supA = "supA";
     public static final String supB = "supB";
     public static final String conAB = "conAB";
-    public static final String conBA = "Kulczynski";
-    public static final String numberOfRules = "Kulczynski";
+    public static final String conBA = "conBA";
+    public static final String NUMBER_OF_RULES = "numberOfRules";
     
     public static final String AllConf = "AllConf";
     public static final String MaxConf = "MaxConf";
@@ -58,6 +56,6 @@ public interface ThresoldConstants {
             predict_p_for_o_given_l,
             predict_po_for_s_given_l));
 
-    public static final Set<String> associationRules = new TreeSet(new ArrayList<String>(Arrays.asList(MaxConf, IR, Kulczynski, Cosine, Coherence)));
+    public static final LinkedHashSet<String> interestingness = new LinkedHashSet(new ArrayList<String>(Arrays.asList(Cosine,Coherence,AllConf,MaxConf, IR, Kulczynski)));
 
 }

@@ -103,7 +103,7 @@ public class NewResultEvalutionTest implements ThresoldConstants{
         //for (String className : classNames) {
         for (String prediction : predicateRules) {
             prediction = predict_l_for_s_given_po;
-            for (String associationRule : associationRules) {
+            for (String associationRule : interestingness) {
                 Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(inputDir, prediction, associationRule, "json");
                 Map<String, Lexicon> preditcionRuleClassMap = new TreeMap<String, Lexicon>();
                 for (File file : pair.getValue1()) {
@@ -177,7 +177,7 @@ public class NewResultEvalutionTest implements ThresoldConstants{
             for (String prediction : predicateRules) {
                 prediction = predict_l_for_s_given_po;
                 Lexicon lexicon = null;
-                for (String associationRule : associationRules) {
+                for (String associationRule : interestingness) {
                     Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(inputDir, prediction, associationRule, "json");
                     List<File> files = pair.getValue1();
                     NewResults result = readFromJsonFile(files);
@@ -200,7 +200,7 @@ public class NewResultEvalutionTest implements ThresoldConstants{
                         comparision.compersionsPattern();
                         meanReciprocals.put(posTag, comparision.getMeanReciprocalResult());
                     }
-                    String outputFileName = directory + experimentNumber + "-" + rule + "NN-JJ-VB" +"-"+"MeanR"+ ".json";
+                    String outputFileName = directory + experimentNumber + "-" + rule + "NN-JJ-VB" + "-" + "MeanR" + ".json";
                     System.out.println("outputFileName:" + outputFileName);
                     FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocals, outputFileName);
                 }

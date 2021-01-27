@@ -9,6 +9,7 @@ import citec.correlation.wikipedia.evalution.Comparision;
 import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
+import citec.correlation.wikipedia.parameters.ThresoldConstants;
 import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.results.NewResults;
 import citec.correlation.wikipedia.results.ObjectWordResults;
@@ -48,34 +49,14 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class NewResultEvalutionTest {
+public class NewResultEvalutionTest implements ThresoldConstants{
 
     private static String inputDir = dbpediaDir + "results/" + "new/";
-    private static Set<String> associationRules = new TreeSet<String>();
     private static Set<String> classNames = new TreeSet<String>();
-    private static List<String> predicateRules = new ArrayList<String>();
     private static Map<String, List<String>> rules = new HashMap<String, List<String>>();
     private static Map<String, Map<String, List<File>>> classRuleFiles = new TreeMap<String, Map<String, List<File>>>();
     private static Map<String, List<WordObjectResults>> wordObjectResults = new TreeMap<String, List<WordObjectResults>>();
-    private static final String AllConf = "AllConf";
-    private static final String MaxConf = "MaxConf";
-    private static final String IR = "IR";
-    private static final String Kulczynski = "Kulczynski";
-    private static final String Cosine = "Cosine";
-    private static final String Coherence = "Coherence";
-
-    private static final String linguisticRule = "linguisticRule";
-    private static final String kbRule = "linguisticRule";
-
-    private static final String predict_l_for_s_given_p = "predict_l_for_s_given_p";
-    private static final String predict_l_for_s_given_o = "predict_l_for_s_given_o";
-    private static final String predict_l_for_o_given_p = "predict_l_for_o_given_p";
-    private static final String predict_l_for_s_given_po = "predict_l_for_s_given_po";
-
-    private static final String predict_p_for_s_given_l = "predict_p_for_s_given_l";
-    private static final String predict_o_for_s_given_l = "predict_o_for_s_given_l";
-    private static final String predict_p_for_o_given_l = "predict_p_for_o_given_l";
-    private static final String predict_po_for_s_given_l = "predict_po_for_s_given_l";
+   
 
     private static Set<String> classFileNames = new HashSet<String>();
     private static String resources = "src/main/resources/";
@@ -98,15 +79,7 @@ public class NewResultEvalutionTest {
     }
 
     public NewResultEvalutionTest() {
-        predicateRules = new ArrayList<String>(Arrays.asList(
-                predict_l_for_s_given_p,
-                predict_l_for_s_given_o,
-                predict_l_for_o_given_p,
-                predict_l_for_s_given_po,
-                predict_p_for_s_given_l,
-                predict_o_for_s_given_l,
-                predict_p_for_o_given_l,
-                predict_po_for_s_given_l));
+       
 
         /*predictLinguisticPattern = new ArrayList<String>(Arrays.asList(
                 predict_l_for_s_given_p,
@@ -119,7 +92,6 @@ public class NewResultEvalutionTest {
                 predict_p_for_o_given_l,
                 predict_po_for_s_given_l));*/
         classNames = getClassNames(inputDir);
-        associationRules = new TreeSet(new ArrayList<String>(Arrays.asList(MaxConf, IR, Kulczynski, Cosine, Coherence)));
 
     }
 
@@ -185,47 +157,56 @@ public class NewResultEvalutionTest {
     }
     
     public static void main(String[] args) throws Exception {
+        String directory = qald9Dir + OBJECT + "/";
         Map<String, Double> thresolds = new TreeMap<String, Double>();
-        thresolds.put("supA", 0.0);
-        thresolds.put("supAB", 50.0);
-        thresolds.put("Cosine", 0.0);
-        
-        
+        thresolds.put("supBA", 1.0);
+        thresolds.put("supAB", 60.0);
+        thresolds.put("Cosine", 1.0);
+        thresolds = new TreeMap<String, Double>();
+        thresolds.put("supBA", 1.0);
+        thresolds.put("supAB", 60.0);
+        thresolds.put("Cosine", 1.0);
+        List<Map<String, Double>> experiments = new ArrayList<Map<String, Double>>();
+
         NewResultEvalutionTest newResultEvalutionTest = new NewResultEvalutionTest();
         Map<String, Lexicon> associationRuleLex = new TreeMap<String, Lexicon>();
-        for (String prediction : predicateRules) {
-            prediction = predict_l_for_s_given_po;
-            Lexicon lexicon = null;
-            for (String associationRule : associationRules) {
-                Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(inputDir, prediction, associationRule, "json");
-                List<File> files = pair.getValue1();
-                NewResults result = readFromJsonFile(files);
-                lexicon = createLexicon("AllClass", prediction, associationRule, result);
-                associationRuleLex.put(prediction + "-" + associationRule, lexicon);
+
+        Integer experimentNumber = 0;
+        for (Map<String, Double> experiment : experiments) {
+            experimentNumber = experimentNumber + 1;
+            for (String prediction : predicateRules) {
+                prediction = predict_l_for_s_given_po;
+                Lexicon lexicon = null;
+                for (String associationRule : associationRules) {
+                    Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(inputDir, prediction, associationRule, "json");
+                    List<File> files = pair.getValue1();
+                    NewResults result = readFromJsonFile(files);
+                    lexicon = createLexicon("AllClass", prediction, associationRule, result);
+                    associationRuleLex.put(prediction + "-" + associationRule, lexicon);
+                    break;
+                }
+                for (String rule : associationRuleLex.keySet()) {
+                    List<File> fileList = FileFolderUtils.getSpecificFiles(directory, rule, ".json").getValue1();
+                    System.out.println(fileList);
+                    Map<String, MeanReciprocalCalculation> meanReciprocals = new TreeMap<String, MeanReciprocalCalculation>();
+                    for (String posTag : Analyzer.POSTAGS) {
+                        File file = getFile(posTag, fileList);
+                        String fileName = file.getName().replace(".json", "");
+                        String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, posTag);
+                        String conditionalFilename = directory + fileName + ".json";
+                        System.out.println("qaldFileName:" + qaldFileName);
+                        System.out.println("conditionalFilename:" + conditionalFilename);
+                        Comparision comparision = new Comparision(posTag, qald9Dir, qaldFileName, conditionalFilename);
+                        comparision.compersionsPattern();
+                        meanReciprocals.put(posTag, comparision.getMeanReciprocalResult());
+                    }
+                    String outputFileName = directory + experimentNumber + "-" + rule + "NN-JJ-VB" +"-"+"MeanR"+ ".json";
+                    System.out.println("outputFileName:" + outputFileName);
+                    FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocals, outputFileName);
+                }
+
                 break;
             }
-            for (String rule : associationRuleLex.keySet()) {
-                String directory = qald9Dir + OBJECT + "/";
-                List<File> fileList = FileFolderUtils.getSpecificFiles(directory, rule, ".json").getValue1();
-                System.out.println(fileList);
-                Map<String, MeanReciprocalCalculation> meanReciprocals = new TreeMap<String, MeanReciprocalCalculation>();
-                for (String posTag : Analyzer.POSTAGS) {
-                    File file = getFile(posTag, fileList);
-                    String fileName = file.getName().replace(".json", "");
-                    String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, posTag);
-                    String conditionalFilename = directory + fileName + ".json";
-                    System.out.println("qaldFileName:" + qaldFileName);
-                    System.out.println("conditionalFilename:" + conditionalFilename);
-                    Comparision comparision = new Comparision(posTag, qald9Dir, qaldFileName, conditionalFilename);
-                    comparision.compersionsPattern();
-                    meanReciprocals.put(posTag, comparision.getMeanReciprocalResult());
-                }
-                String outputFileName = directory + rule + "-MeanR" + ".json";
-                System.out.println("outputFileName:" + outputFileName);
-                FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocals, outputFileName);
-            }
-
-            break;
         }
 
     }

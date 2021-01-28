@@ -35,6 +35,18 @@ public class LexiconUnit {
         this.entityInfos = entityInfos;
     }
 
+    public LexiconUnit(LexiconUnit LexiconUnit, List<String> selectedPair) {
+        this.id=LexiconUnit.getId();
+        this.partsOfSpeech = LexiconUnit.getPartsOfSpeech();
+        this.word = LexiconUnit.getWord();
+        Integer index=0;
+        for(String key:selectedPair){
+            index=index+1;
+           this.entityInfos.put(index, selectedPair);      
+        }
+      
+    }
+
     public String getWord() {
         return word;
     }

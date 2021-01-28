@@ -1,0 +1,424 @@
+[ {
+  "id" : 29,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Western_Bulldogs", "Kulczynski=1.0", "triple=e dbp:club Western_Bulldogs", "class=HR_AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=//dbpedia.org/datatype/kilogram>", "Kulczynski=1.0", "triple=e dbp:weight //dbpedia.org/datatype/kilogram>", "class=HR_AustralianRulesFootballPlayer" ],
+    "2" : [ "pair=Victoria_cricket_team", "Kulczynski=0.972", "triple=e dbp:club Victoria_cricket_team", "class=HR_Cricketer" ],
+    "3" : [ "pair=\"Australia\"@en", "Kulczynski=0.92", "triple=e dbp:country \"Australia\"@en", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "belgian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Belgium", "Kulczynski=0.954", "triple=e dbp:birthPlace Belgium", "class=HR_Cyclist" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "brazilian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Brazil", "Kulczynski=0.952", "triple=e dbo:birthPlace Brazil", "class=HR_SoccerPlayer" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"British\"@en", "Kulczynski=0.799", "triple=e dbp:nationality \"British\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=\"British victory\"@en", "Kulczynski=0.912", "triple=e dbp:result \"British victory\"@en", "class=HR_MilitaryConflict" ],
+    "2" : [ "pair=\"British victory\"", "Kulczynski=0.904", "triple=e dbo:result \"British victory\"", "class=HR_MilitaryConflict" ],
+    "3" : [ "pair=Victoria_Cross", "Kulczynski=0.966", "triple=e dbo:award Victoria_Cross", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=China", "Kulczynski=0.959", "triple=e dbp:nationalOrigin China", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "civil",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"the American Civil War\"@en", "Kulczynski=0.95", "triple=e dbp:partof \"the American Civil War\"@en", "class=HR_MilitaryConflict" ],
+    "1" : [ "pair=American_Civil_War", "Kulczynski=0.937", "triple=e dbo:isPartOfMilitaryConflict American_Civil_War", "class=HR_MilitaryConflict" ],
+    "2" : [ "pair=Union_(American_Civil_War", "Kulczynski=0.953", "triple=e dbp:allegiance Union_(American_Civil_War", "class=HR_MilitaryPerson" ],
+    "3" : [ "pair=Union_Army", "Kulczynski=0.95", "triple=e dbp:branch Union_Army", "class=HR_MilitaryPerson" ],
+    "4" : [ "pair=\"Union\"", "Kulczynski=0.947", "triple=e dbo:allegiance \"Union\"", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "colorless",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"changed\"@en", "Kulczynski=0.559", "triple=e dbp:watchedfields \"changed\"@en", "class=HR_ChemicalCompound" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "confederate",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=American_Civil_War", "Kulczynski=0.828", "triple=e dbo:isPartOfMilitaryConflict American_Civil_War", "class=HR_MilitaryConflict" ]
+  }
+}, {
+  "id" : 158,
+  "pattern" : "former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Retired\"@en", "Kulczynski=0.883", "triple=e dbp:currentteam \"Retired\"@en", "class=HR_Cyclist" ]
+  }
+}, {
+  "id" : 162,
+  "pattern" : "free",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=GNU_General_Public_License", "Kulczynski=0.695", "triple=e dbp:license GNU_General_Public_License", "class=HR_Software" ],
+    "1" : [ "pair=C++", "Kulczynski=0.66", "triple=e dbo:programmingLanguage C++", "class=HR_Software" ],
+    "2" : [ "pair=C_(programming_language", "Kulczynski=0.652", "triple=e dbo:programmingLanguage C_(programming_language", "class=HR_Software" ],
+    "3" : [ "pair=Linux", "Kulczynski=0.646", "triple=e dbo:operatingSystem Linux", "class=HR_Software" ],
+    "4" : [ "pair=MacOS", "Kulczynski=0.635", "triple=e dbo:operatingSystem MacOS", "class=HR_Software" ]
+  }
+}, {
+  "id" : 163,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"French\"@en", "Kulczynski=0.963", "triple=e dbp:nationality \"French\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=France", "Kulczynski=0.954", "triple=e dbp:birthPlace France", "class=HR_Cyclist" ],
+    "2" : [ "pair=\"French victory\"@en", "Kulczynski=0.952", "triple=e dbp:result \"French victory\"@en", "class=HR_MilitaryConflict" ],
+    "3" : [ "pair=\"French victory\"", "Kulczynski=0.94", "triple=e dbo:result \"French victory\"", "class=HR_MilitaryConflict" ],
+    "4" : [ "pair=\"France\"@en", "Kulczynski=0.955", "triple=e dbp:shipCountry \"France\"@en", "class=HR_Ship" ]
+  }
+}, {
+  "id" : 175,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"German\"@en", "Kulczynski=0.992", "triple=e dbp:nationality \"German\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=Germany", "Kulczynski=0.934", "triple=e dbo:nationality Germany", "class=HR_Scientist" ],
+    "2" : [ "pair=\"*2 shafts\\n*2 Ã diesel engines\\n*2 Ã electric motors\"@en", "Kulczynski=0.995", "triple=e dbp:shipPropulsion \"*2 shafts\\n*2 Ã diesel engines\\n*2 Ã electric motors\"@en", "class=HR_Ship" ],
+    "3" : [ "pair=\"* o/a\\n* pressure hull\"@en", "Kulczynski=0.991", "triple=e dbp:shipBeam \"* o/a\\n* pressure hull\"@en", "class=HR_Ship" ],
+    "4" : [ "pair=\"Military of Germany\"@en", "Kulczynski=0.99", "triple=e dbp:portal \"Military of Germany\"@en", "class=HR_Ship" ],
+    "5" : [ "pair=\"World War II\"@en", "Kulczynski=0.978", "triple=e dbp:portal \"World War II\"@en", "class=HR_Ship" ],
+    "6" : [ "pair=Nazi_Germany", "Kulczynski=0.974", "triple=e dbp:shipCountry Nazi_Germany", "class=HR_Ship" ]
+  }
+}, {
+  "id" : 183,
+  "pattern" : "heritage-listed",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Type\"@en", "Kulczynski=0.998", "triple=e dbp:designation1Free1name \"Type\"@en", "class=HR_HistoricPlace" ],
+    "1" : [ "pair=\"New South Wales State Heritage Register\"@en", "Kulczynski=0.998", "triple=e dbp:designation \"New South Wales State Heritage Register\"@en", "class=HR_HistoricPlace" ],
+    "2" : [ "pair=//www.w3.org/2001/XMLSchema#date>", "Kulczynski=0.997", "triple=e dbp:designation1Date //www.w3.org/2001/XMLSchema#date>", "class=HR_HistoricPlace" ],
+    "3" : [ "pair=\"Category\"@en", "Kulczynski=0.996", "triple=e dbp:designation1Free2name \"Category\"@en", "class=HR_HistoricPlace" ],
+    "4" : [ "pair=\"Queensland Heritage Register\"@en", "Kulczynski=0.996", "triple=e dbp:designation \"Queensland Heritage Register\"@en", "class=HR_HistoricPlace" ],
+    "5" : [ "pair=\"Queensland#Australia\"@en", "Kulczynski=0.996", "triple=e dbp:locmapin \"Queensland#Australia\"@en", "class=HR_HistoricPlace" ],
+    "6" : [ "pair=\"Builders\"@en", "Kulczynski=0.996", "triple=e dbp:designation1Free3name \"Builders\"@en", "class=HR_HistoricPlace" ],
+    "7" : [ "pair=\"state heritage\"@en", "Kulczynski=0.995", "triple=e dbp:designation1Type \"state heritage\"@en", "class=HR_HistoricPlace" ],
+    "8" : [ "pair=\"Significant period\"@en", "Kulczynski=0.995", "triple=e dbp:designation1Free1name \"Significant period\"@en", "class=HR_HistoricPlace" ],
+    "9" : [ "pair=\"Significant components\"@en", "Kulczynski=0.995", "triple=e dbp:designation1Free2name \"Significant components\"@en", "class=HR_HistoricPlace" ],
+    "10" : [ "pair=New_South_Wales", "Kulczynski=0.995", "triple=e dbo:location New_South_Wales", "class=HR_HistoricPlace" ],
+    "11" : [ "pair=\"Design period\"@en", "Kulczynski=0.994", "triple=e dbp:beginningLabel \"Design period\"@en", "class=HR_HistoricPlace" ]
+  }
+}, {
+  "id" : 184,
+  "pattern" : "highest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Victoria_Cross", "Kulczynski=0.965", "triple=e dbo:award Victoria_Cross", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 185,
+  "pattern" : "historic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"c.\"@en", "Kulczynski=0.984", "triple=e dbp:built \"c.\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"North Carolina#USA\"@en", "Kulczynski=0.971", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"Pennsylvania#USA\"@en", "Kulczynski=0.944", "triple=e dbp:locmapin \"Pennsylvania#USA\"@en", "class=HR_Building" ],
+    "3" : [ "pair=\"New York#USA\"@en", "Kulczynski=0.931", "triple=e dbp:locmapin \"New York#USA\"@en", "class=HR_Building" ],
+    "4" : [ "pair=\"Massachusetts#USA\"@en", "Kulczynski=0.93", "triple=e dbp:locmapin \"Massachusetts#USA\"@en", "class=HR_Building" ],
+    "5" : [ "pair=\"Virginia Landmarks Register\"@en", "Kulczynski=0.919", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ],
+    "6" : [ "pair=\"Iowa#USA\"@en", "Kulczynski=0.914", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 194,
+  "pattern" : "international",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "Kulczynski=0.588", "triple=e dbp:leaderTitle \"President\"@en", "class=HR_Organisation" ]
+  }
+}, {
+  "id" : 199,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Italian\"@en", "Kulczynski=0.983", "triple=e dbp:nationality \"Italian\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=Italy", "Kulczynski=0.969", "triple=e dbp:birthPlace Italy", "class=HR_Cyclist" ],
+    "2" : [ "pair=\"Italy\"@en", "Kulczynski=0.93", "triple=e dbp:country \"Italy\"@en", "class=HR_PoliticalParty" ]
+  }
+}, {
+  "id" : 212,
+  "pattern" : "korean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"South Korea\"@en", "Kulczynski=0.959", "triple=e dbp:country \"South Korea\"@en", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 221,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Oregon", "Kulczynski=0.991", "triple=e dbo:location Oregon", "class=HR_Airport" ],
+    "1" : [ "pair=\"n/a\"@en", "Kulczynski=0.987", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "2" : [ "pair= Water Aerodrome Supplement\"@en", "Kulczynski=0.986", "triple=e dbp:footnotes  Water Aerodrome Supplement\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=Central_Time_Zone", "Kulczynski=0.983", "triple=e dbp:timezone Central_Time_Zone", "class=HR_Airport" ],
+    "4" : [ "pair=\"n/a\"", "Kulczynski=0.982", "triple=e dbo:runwayDesignation \"n/a\"", "class=HR_Airport" ],
+    "5" : [ "pair=//dbpedia.org/datatype/second>", "Kulczynski=0.979", "triple=e dbp:utc //dbpedia.org/datatype/second>", "class=HR_Airport" ],
+    "6" : [ "pair=\"Turf\"@en", "Kulczynski=0.976", "triple=e dbp:r1Surface \"Turf\"@en", "class=HR_Airport" ],
+    "7" : [ "pair= Canada Flight Supplement\"@en", "Kulczynski=0.973", "triple=e dbp:footnotes  Canada Flight Supplement\"@en", "class=HR_Airport" ],
+    "8" : [ "pair=Mountain_Time_Zone", "Kulczynski=0.97", "triple=e dbp:timezone Mountain_Time_Zone", "class=HR_Airport" ],
+    "9" : [ "pair=\"Water\"@en", "Kulczynski=0.97", "triple=e dbp:r1Surface \"Water\"@en", "class=HR_Airport" ],
+    "10" : [ "pair=\"Iowa#USA\"@en", "Kulczynski=0.97", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ],
+    "11" : [ "pair=\"North Carolina#USA\"@en", "Kulczynski=0.958", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ],
+    "12" : [ "pair=\"c.\"@en", "Kulczynski=0.927", "triple=e dbp:built \"c.\"@en", "class=HR_Building" ],
+    "13" : [ "pair=\"New York#USA\"@en", "Kulczynski=0.924", "triple=e dbp:locmapin \"New York#USA\"@en", "class=HR_Building" ],
+    "14" : [ "pair=\"Virginia Landmarks Register\"@en", "Kulczynski=0.907", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ],
+    "15" : [ "pair=New_York_(state", "Kulczynski=0.984", "triple=e dbo:locatedInArea New_York_(state", "class=HR_Mountain" ],
+    "16" : [ "pair=States_and_territories_of_Australia", "Kulczynski=0.952", "triple=e dbp:subdivisionType States_and_territories_of_Australia", "class=HR_River" ]
+  }
+}, {
+  "id" : 223,
+  "pattern" : "major",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Philadelphia Phillies\"@en", "Kulczynski=0.969", "triple=e dbp:debutteam \"Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Cleveland_Indians", "Kulczynski=0.962", "triple=e dbo:debutTeam Cleveland_Indians", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=New_York_Yankees", "Kulczynski=0.962", "triple=e dbo:debutTeam New_York_Yankees", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 226,
+  "pattern" : "marine",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=United_States_Marine_Corps", "Kulczynski=0.961", "triple=e dbo:militaryBranch United_States_Marine_Corps", "class=HR_MilitaryPerson" ],
+    "1" : [ "pair=Fasciolariidae", "Kulczynski=1.0", "triple=e dbp:subfamilia Fasciolariidae", "class=HR_Mollusca" ]
+  }
+}, {
+  "id" : 248,
+  "pattern" : "nazi",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"*2 shafts\\n*2 Ã diesel engines\\n*2 Ã electric motors\"@en", "Kulczynski=0.983", "triple=e dbp:shipPropulsion \"*2 shafts\\n*2 Ã diesel engines\\n*2 Ã electric motors\"@en", "class=HR_Ship" ],
+    "1" : [ "pair=\"Military of Germany\"@en", "Kulczynski=0.981", "triple=e dbp:portal \"Military of Germany\"@en", "class=HR_Ship" ],
+    "2" : [ "pair=\"World War II\"@en", "Kulczynski=0.966", "triple=e dbp:portal \"World War II\"@en", "class=HR_Ship" ]
+  }
+}, {
+  "id" : 264,
+  "pattern" : "non-profit",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Nonprofit_organization", "Kulczynski=0.692", "triple=e dbp:type Nonprofit_organization", "class=HR_Organisation" ],
+    "1" : [ "pair=\"President\"@en", "Kulczynski=0.578", "triple=e dbp:leaderTitle \"President\"@en", "class=HR_Organisation" ]
+  }
+}, {
+  "id" : 271,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Novel", "Kulczynski=0.958", "triple=e dbo:literaryGenre Novel", "class=HR_Book" ],
+    "1" : [ "pair=Crime_fiction", "Kulczynski=0.948", "triple=e dbp:genre Crime_fiction", "class=HR_Book" ],
+    "2" : [ "pair=Historical_fiction", "Kulczynski=0.945", "triple=e dbp:genre Historical_fiction", "class=HR_Book" ],
+    "3" : [ "pair=Fantasy_literature", "Kulczynski=0.91", "triple=e dbp:genre Fantasy_literature", "class=HR_Book" ],
+    "4" : [ "pair=\"First edition cover\"@en", "Kulczynski=0.856", "triple=e dbp:caption \"First edition cover\"@en", "class=HR_Book" ],
+    "5" : [ "pair=\"First edition\"@en", "Kulczynski=0.846", "triple=e dbp:caption \"First edition\"@en", "class=HR_Book" ],
+    "6" : [ "pair=\"\"@en", "Kulczynski=0.823", "triple=e dbp:isbnNote \"\"@en", "class=HR_Book" ],
+    "7" : [ "pair=English_language", "Kulczynski=0.82", "triple=e dbp:language English_language", "class=HR_Book" ],
+    "8" : [ "pair=Science_fiction", "Kulczynski=0.81", "triple=e dbo:literaryGenre Science_fiction", "class=HR_Book" ],
+    "9" : [ "pair=Hardcover", "Kulczynski=0.799", "triple=e dbo:mediaType Hardcover", "class=HR_Book" ],
+    "10" : [ "pair=United_States", "Kulczynski=0.795", "triple=e dbp:country United_States", "class=HR_Book" ],
+    "11" : [ "pair=\"United Kingdom\"@en", "Kulczynski=0.795", "triple=e dbp:country \"United Kingdom\"@en", "class=HR_Book" ],
+    "12" : [ "pair=\"Print\"@en", "Kulczynski=0.786", "triple=e dbp:mediaType \"Print\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 283,
+  "pattern" : "orchid",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Epidendreae", "Kulczynski=0.94", "triple=e dbo:family Epidendreae", "class=HR_Plant" ]
+  }
+}, {
+  "id" : 285,
+  "pattern" : "organic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"changed\"@en", "Kulczynski=0.614", "triple=e dbp:watchedfields \"changed\"@en", "class=HR_ChemicalCompound" ]
+  }
+}, {
+  "id" : 300,
+  "pattern" : "philippine",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Philippines\"@en", "Kulczynski=0.924", "triple=e dbp:country \"Philippines\"@en", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 309,
+  "pattern" : "political",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=White", "Kulczynski=0.959", "triple=e dbo:colour White", "class=HR_PoliticalParty" ],
+    "1" : [ "pair=European_Parliament", "Kulczynski=0.956", "triple=e dbp:seats3Title European_Parliament", "class=HR_PoliticalParty" ],
+    "2" : [ "pair=Blue", "Kulczynski=0.952", "triple=e dbo:colour Blue", "class=HR_PoliticalParty" ],
+    "3" : [ "pair=National_conservatism", "Kulczynski=0.951", "triple=e dbp:ideology National_conservatism", "class=HR_PoliticalParty" ],
+    "4" : [ "pair=Centrism", "Kulczynski=0.95", "triple=e dbp:position Centrism", "class=HR_PoliticalParty" ],
+    "5" : [ "pair=Populism", "Kulczynski=0.95", "triple=e dbp:ideology Populism", "class=HR_PoliticalParty" ],
+    "6" : [ "pair=\"President\"@en", "Kulczynski=0.946", "triple=e dbp:leader1Title \"President\"@en", "class=HR_PoliticalParty" ],
+    "7" : [ "pair=Social_conservatism", "Kulczynski=0.943", "triple=e dbp:ideology Social_conservatism", "class=HR_PoliticalParty" ],
+    "8" : [ "pair=Euroscepticism", "Kulczynski=0.943", "triple=e dbp:ideology Euroscepticism", "class=HR_PoliticalParty" ],
+    "9" : [ "pair=Right-wing_populism", "Kulczynski=0.942", "triple=e dbo:ideology Right-wing_populism", "class=HR_PoliticalParty" ],
+    "10" : [ "pair=Right-wing_politics", "Kulczynski=0.939", "triple=e dbp:position Right-wing_politics", "class=HR_PoliticalParty" ],
+    "11" : [ "pair=\"\"@en", "Kulczynski=0.939", "triple=e dbp:position \"\"@en", "class=HR_PoliticalParty" ],
+    "12" : [ "pair=Pro-Europeanism", "Kulczynski=0.939", "triple=e dbp:ideology Pro-Europeanism", "class=HR_PoliticalParty" ],
+    "13" : [ "pair=\"Blue\"@en", "Kulczynski=0.939", "triple=e dbp:colours \"Blue\"@en", "class=HR_PoliticalParty" ],
+    "14" : [ "pair=Christian_democracy", "Kulczynski=0.938", "triple=e dbp:ideology Christian_democracy", "class=HR_PoliticalParty" ],
+    "15" : [ "pair=Conservatism", "Kulczynski=0.938", "triple=e dbp:ideology Conservatism", "class=HR_PoliticalParty" ],
+    "16" : [ "pair=\"Italy\"@en", "Kulczynski=0.937", "triple=e dbp:country \"Italy\"@en", "class=HR_PoliticalParty" ],
+    "17" : [ "pair=Green", "Kulczynski=0.937", "triple=e dbo:colour Green", "class=HR_PoliticalParty" ],
+    "18" : [ "pair=Economic_liberalism", "Kulczynski=0.936", "triple=e dbp:ideology Economic_liberalism", "class=HR_PoliticalParty" ],
+    "19" : [ "pair=\"Canada\"@en", "Kulczynski=0.935", "triple=e dbp:country \"Canada\"@en", "class=HR_PoliticalParty" ],
+    "20" : [ "pair=\"Green\"@en", "Kulczynski=0.934", "triple=e dbo:colourName \"Green\"@en", "class=HR_PoliticalParty" ],
+    "21" : [ "pair=Social_democracy", "Kulczynski=0.932", "triple=e dbo:ideology Social_democracy", "class=HR_PoliticalParty" ],
+    "22" : [ "pair=Social_liberalism", "Kulczynski=0.931", "triple=e dbo:ideology Social_liberalism", "class=HR_PoliticalParty" ],
+    "23" : [ "pair=Regionalism_(politics", "Kulczynski=0.93", "triple=e dbp:ideology Regionalism_(politics", "class=HR_PoliticalParty" ],
+    "24" : [ "pair=Centre-left_politics", "Kulczynski=0.929", "triple=e dbp:position Centre-left_politics", "class=HR_PoliticalParty" ],
+    "25" : [ "pair=Centre-right_politics", "Kulczynski=0.928", "triple=e dbp:position Centre-right_politics", "class=HR_PoliticalParty" ],
+    "26" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.927", "triple=e dbo:formationYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_PoliticalParty" ],
+    "27" : [ "pair=Liberalism", "Kulczynski=0.927", "triple=e dbp:ideology Liberalism", "class=HR_PoliticalParty" ],
+    "28" : [ "pair=\"None\"@en", "Kulczynski=0.923", "triple=e dbp:international \"None\"@en", "class=HR_PoliticalParty" ]
+  }
+}, {
+  "id" : 313,
+  "pattern" : "presidential",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Massachusetts", "Kulczynski=0.995", "triple=e dbp:homeState Massachusetts", "class=HR_Election" ],
+    "1" : [ "pair=\"x200px\"@en", "Kulczynski=0.992", "triple=e dbp:imageSize \"x200px\"@en", "class=HR_Election" ]
+  }
+}, {
+  "id" : 317,
+  "pattern" : "private",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Private_university", "Kulczynski=0.835", "triple=e dbp:type Private_university", "class=HR_University" ]
+  }
+}, {
+  "id" : 321,
+  "pattern" : "professional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Free agent\"@en", "Kulczynski=0.991", "triple=e dbp:team \"Free agent\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 323,
+  "pattern" : "pronounced",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Location in Slovenia\"@en", "Kulczynski=1.0", "triple=e dbp:pushpinMapCaption \"Location in Slovenia\"@en", "class=HR_Settlement" ],
+    "1" : [ "pair=Slovenia", "Kulczynski=1.0", "triple=e dbo:country Slovenia", "class=HR_Settlement" ],
+    "2" : [ "pair=\"Traditional region\"@en", "Kulczynski=1.0", "triple=e dbp:subdivisionType \"Traditional region\"@en", "class=HR_Settlement" ],
+    "3" : [ "pair=Municipalities_of_Slovenia", "Kulczynski=1.0", "triple=e dbp:subdivisionType Municipalities_of_Slovenia", "class=HR_Settlement" ],
+    "4" : [ "pair=Statistical_regions_of_Slovenia", "Kulczynski=1.0", "triple=e dbp:subdivisionType Statistical_regions_of_Slovenia", "class=HR_Settlement" ],
+    "5" : [ "pair=\"Slovenia\"@en", "Kulczynski=1.0", "triple=e dbp:pushpinMap \"Slovenia\"@en", "class=HR_Settlement" ]
+  }
+}, {
+  "id" : 342,
+  "pattern" : "recipient",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Victoria_Cross", "Kulczynski=0.962", "triple=e dbo:award Victoria_Cross", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 364,
+  "pattern" : "rugby",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Squads\"@en", "Kulczynski=0.998", "triple=e dbp:title \"Squads\"@en", "class=HR_RugbyPlayer" ],
+    "1" : [ "pair=Castleford_Tigers", "Kulczynski=0.997", "triple=e dbo:formerTeam Castleford_Tigers", "class=HR_RugbyPlayer" ],
+    "2" : [ "pair=\"\"@en", "Kulczynski=0.996", "triple=e dbp:club \"\"@en", "class=HR_RugbyPlayer" ],
+    "3" : [ "pair=Wakefield_Trinity", "Kulczynski=0.996", "triple=e dbp:club Wakefield_Trinity", "class=HR_RugbyPlayer" ],
+    "4" : [ "pair=St._George_Dragons", "Kulczynski=0.995", "triple=e dbp:club St._George_Dragons", "class=HR_RugbyPlayer" ]
+  }
+}, {
+  "id" : 367,
+  "pattern" : "rural",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=//dbpedia.org/datatype/second>", "Kulczynski=1.0", "triple=e dbp:utcOffset //dbpedia.org/datatype/second>", "class=HR_Village" ],
+    "1" : [ "pair=Kerman_Province", "Kulczynski=1.0", "triple=e dbo:subdivision Kerman_Province", "class=HR_Village" ],
+    "2" : [ "pair=Vologda_Oblast", "Kulczynski=1.0", "triple=e dbo:subdivision Vologda_Oblast", "class=HR_Village" ]
+  }
+}, {
+  "id" : 378,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Russia", "Kulczynski=0.976", "triple=e dbp:subdivisionName Russia", "class=HR_River" ],
+    "1" : [ "pair=//dbpedia.org/datatype/second>", "Kulczynski=1.0", "triple=e dbp:utcOffset //dbpedia.org/datatype/second>", "class=HR_Village" ],
+    "2" : [ "pair=Vologda_Oblast", "Kulczynski=1.0", "triple=e dbo:subdivision Vologda_Oblast", "class=HR_Village" ]
+  }
+}, {
+  "id" : 384,
+  "pattern" : "serbian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Serbian\"@en", "Kulczynski=0.792", "triple=e dbp:nationality \"Serbian\"@en", "class=HR_BasketballPlayer" ]
+  }
+}, {
+  "id" : 387,
+  "pattern" : "silent",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Silent\"@en", "Kulczynski=0.941", "triple=e dbp:language \"Silent\"@en", "class=HR_Film" ]
+  }
+}, {
+  "id" : 389,
+  "pattern" : "single",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=CD_single", "Kulczynski=0.568", "triple=e dbp:format CD_single", "class=HR_Song" ],
+    "1" : [ "pair=\"\"@en", "Kulczynski=0.567", "triple=e dbp:writer \"\"@en", "class=HR_Song" ],
+    "2" : [ "pair=\"single\"@en", "Kulczynski=0.558", "triple=e dbp:type \"single\"@en", "class=HR_Song" ],
+    "3" : [ "pair=Music_download", "Kulczynski=0.556", "triple=e dbp:format Music_download", "class=HR_Song" ]
+  }
+}, {
+  "id" : 394,
+  "pattern" : "solid",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"changed\"@en", "Kulczynski=0.575", "triple=e dbp:watchedfields \"changed\"@en", "class=HR_ChemicalCompound" ]
+  }
+}, {
+  "id" : 399,
+  "pattern" : "south african",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=South_Africa", "Kulczynski=0.964", "triple=e dbo:country South_Africa", "class=HR_MilitaryUnit" ]
+  }
+}, {
+  "id" : 401,
+  "pattern" : "south korean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"South Korea\"@en", "Kulczynski=0.935", "triple=e dbp:country \"South Korea\"@en", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 407,
+  "pattern" : "spanish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Spain", "Kulczynski=0.947", "triple=e dbp:birthPlace Spain", "class=HR_Cyclist" ]
+  }
+} ]

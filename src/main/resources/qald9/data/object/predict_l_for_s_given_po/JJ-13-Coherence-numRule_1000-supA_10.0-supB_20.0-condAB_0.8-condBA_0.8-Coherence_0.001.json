@@ -1,0 +1,2073 @@
+[ {
+  "id" : 15,
+  "pattern" : "2017â18",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#date>", "Coherence=0.5", "triple=e dbp:date //www.w3.org/2001/XMLSchema#date>", "class=HR_SoccerClubSeason" ],
+    "1" : [ "pair=2017â18_FA_Cup", "Coherence=0.5", "triple=e dbp:round 2017â18_FA_Cup", "class=HR_SoccerClubSeason" ],
+    "2" : [ "pair=2017â18_EFL_Cup", "Coherence=0.5", "triple=e dbp:round 2017â18_EFL_Cup", "class=HR_SoccerClubSeason" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "a\u001Csub-prefecture",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Regions_of_Ivory_Coast", "Coherence=0.5", "triple=e dbp:subdivisionType Regions_of_Ivory_Coast", "class=HR_Town" ],
+    "1" : [ "pair=Departments_of_Ivory_Coast", "Coherence=0.5", "triple=e dbp:subdivisionType Departments_of_Ivory_Coast", "class=HR_Town" ],
+    "2" : [ "pair=Sub-prefectures_of_Ivory_Coast", "Coherence=0.5", "triple=e dbo:type Sub-prefectures_of_Ivory_Coast", "class=HR_Town" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "according the\u001Ctraditional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Emperor_of_Japan", "Coherence=0.496", "triple=e dbp:succession Emperor_of_Japan", "class=HR_Royalty" ],
+    "1" : [ "pair=List_of_emperors_of_Japan", "Coherence=0.496", "triple=e dbp:title List_of_emperors_of_Japan", "class=HR_Royalty" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "administrative",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Province of Quebec\"@en", "Coherence=0.478", "triple=e dbp:mapCaption \"Province of Quebec\"@en", "class=HR_ProtectedArea" ],
+    "1" : [ "pair=Pomeranian_Voivodeship", "Coherence=0.5", "triple=e dbp:subdivisionName Pomeranian_Voivodeship", "class=HR_Settlement" ],
+    "2" : [ "pair=\"\"@en", "Coherence=0.498", "triple=e dbp:totalType \"\"@en", "class=HR_Settlement" ],
+    "3" : [ "pair=Gmina", "Coherence=0.497", "triple=e dbo:type Gmina", "class=HR_Settlement" ],
+    "4" : [ "pair=Lublin_Voivodeship", "Coherence=0.5", "triple=e dbo:subdivision Lublin_Voivodeship", "class=HR_Village" ],
+    "5" : [ "pair=Lesser_Poland_Voivodeship", "Coherence=0.5", "triple=e dbo:subdivision Lesser_Poland_Voivodeship", "class=HR_Village" ],
+    "6" : [ "pair=Kuyavian-Pomeranian_Voivodeship", "Coherence=0.5", "triple=e dbo:subdivision Kuyavian-Pomeranian_Voivodeship", "class=HR_Village" ],
+    "7" : [ "pair=ÅwiÄtokrzyskie_Voivodeship", "Coherence=0.5", "triple=e dbo:subdivision ÅwiÄtokrzyskie_Voivodeship", "class=HR_Village" ],
+    "8" : [ "pair=ÅÃ³dÅº_Voivodeship", "Coherence=0.5", "triple=e dbo:subdivision ÅÃ³dÅº_Voivodeship", "class=HR_Village" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "aerial",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Aviation\"@en", "Coherence=0.477", "triple=e dbp:branch \"Aviation\"@en", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "african territorial",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Army Territorial Reserve\"@en", "Coherence=0.49", "triple=e dbp:commandStructure \"Army Territorial Reserve\"@en", "class=HR_MilitaryUnit" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "air-breathing",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Partuloidea", "Coherence=0.5", "triple=e dbo:family Partuloidea", "class=HR_Mollusca" ]
+  }
+}, {
+  "id" : 95,
+  "pattern" : "albanian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Albania", "Coherence=0.492", "triple=e dbo:birthPlace Albania", "class=HR_SoccerManager" ],
+    "1" : [ "pair=Albania_national_football_team", "Coherence=0.49", "triple=e dbp:nationalteam Albania_national_football_team", "class=HR_SoccerManager" ],
+    "2" : [ "pair=\"Kupa e ShqipÃ«risÃ«\"@en", "Coherence=0.495", "triple=e dbp:otherTitle \"Kupa e ShqipÃ«risÃ«\"@en", "class=HR_SoccerTournament" ]
+  }
+}, {
+  "id" : 115,
+  "pattern" : "amateur",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"AeroCrafter\"@en", "Coherence=0.493", "triple=e dbp:ref \"AeroCrafter\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=Amateur-built_aircraft", "Coherence=0.484", "triple=e dbo:type Amateur-built_aircraft", "class=HR_Aircraft" ],
+    "2" : [ "pair=\"four cylinder", "Coherence=0.45", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 133,
+  "pattern" : "annual",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"DFB-Pokal\"@en", "Coherence=0.5", "triple=e dbp:title \"DFB-Pokal\"@en", "class=HR_SoccerTournament" ],
+    "1" : [ "pair=\"Torneo Mondiale di Calcio Coppa Carnevale\"@en", "Coherence=0.5", "triple=e dbp:tourneyName \"Torneo Mondiale di Calcio Coppa Carnevale\"@en", "class=HR_SoccerTournament" ],
+    "2" : [ "pair=\"Kupa e ShqipÃ«risÃ«\"@en", "Coherence=0.5", "triple=e dbp:otherTitle \"Kupa e ShqipÃ«risÃ«\"@en", "class=HR_SoccerTournament" ],
+    "3" : [ "pair=\"Viareggio\"@en", "Coherence=0.5", "triple=e dbp:city \"Viareggio\"@en", "class=HR_SoccerTournament" ],
+    "4" : [ "pair=\"Albanian Cup\"@en", "Coherence=0.496", "triple=e dbp:title \"Albanian Cup\"@en", "class=HR_SoccerTournament" ]
+  }
+}, {
+  "id" : 134,
+  "pattern" : "annual\u001Cgerman",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"DFB-Pokal\"@en", "Coherence=0.5", "triple=e dbp:title \"DFB-Pokal\"@en", "class=HR_SoccerTournament" ]
+  }
+}, {
+  "id" : 138,
+  "pattern" : "annual german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"DFB-Pokal\"@en", "Coherence=0.5", "triple=e dbp:title \"DFB-Pokal\"@en", "class=HR_SoccerTournament" ]
+  }
+}, {
+  "id" : 178,
+  "pattern" : "argentine",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Argentine\"@en", "Coherence=0.491", "triple=e dbp:nationality \"Argentine\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Argentina\"@en", "Coherence=0.47", "triple=e dbp:country \"Argentina\"@en", "class=HR_Film" ],
+    "2" : [ "pair=Argentina_national_football_team", "Coherence=0.484", "triple=e dbo:team Argentina_national_football_team", "class=HR_SoccerManager" ],
+    "3" : [ "pair=Buenos_Aires", "Coherence=0.478", "triple=e dbo:birthPlace Buenos_Aires", "class=HR_SoccerManager" ],
+    "4" : [ "pair=Argentina", "Coherence=0.482", "triple=e dbp:birthPlace Argentina", "class=HR_SoccerPlayer" ]
+  }
+}, {
+  "id" : 201,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Australian\"@en", "Coherence=0.454", "triple=e dbp:nationality \"Australian\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=\"Australia\"@en", "Coherence=0.478", "triple=e dbp:country \"Australia\"@en", "class=HR_Athlete" ],
+    "2" : [ "pair=Australia", "Coherence=0.446", "triple=e dbo:nationality Australia", "class=HR_Athlete" ],
+    "3" : [ "pair=2017_AFL_season", "Coherence=0.5", "triple=e dbp:debutdate 2017_AFL_season", "class=HR_AustralianRulesFootballPlayer" ],
+    "4" : [ "pair=\"Round 1", "Coherence=0.5", "triple=e dbp:debutdate \"Round 1", "class=HR_AustralianRulesFootballPlayer" ],
+    "5" : [ "pair=\"Ruck\"@en", "Coherence=0.5", "triple=e dbp:position \"Ruck\"@en", "class=HR_AustralianRulesFootballPlayer" ],
+    "6" : [ "pair=Centre_line_(football", "Coherence=0.5", "triple=e dbp:position Centre_line_(football", "class=HR_AustralianRulesFootballPlayer" ],
+    "7" : [ "pair=\"Wing\"@en", "Coherence=0.5", "triple=e dbp:position \"Wing\"@en", "class=HR_AustralianRulesFootballPlayer" ],
+    "8" : [ "pair=Western_Bulldogs", "Coherence=0.5", "triple=e dbp:club Western_Bulldogs", "class=HR_AustralianRulesFootballPlayer" ],
+    "9" : [ "pair=West_Coast_Eagles", "Coherence=0.5", "triple=e dbp:club West_Coast_Eagles", "class=HR_AustralianRulesFootballPlayer" ],
+    "10" : [ "pair=Brisbane_Bears", "Coherence=0.5", "triple=e dbp:club Brisbane_Bears", "class=HR_AustralianRulesFootballPlayer" ],
+    "11" : [ "pair=Fremantle_Football_Club", "Coherence=0.5", "triple=e dbp:club Fremantle_Football_Club", "class=HR_AustralianRulesFootballPlayer" ],
+    "12" : [ "pair=Adelaide_Football_Club", "Coherence=0.5", "triple=e dbp:club Adelaide_Football_Club", "class=HR_AustralianRulesFootballPlayer" ],
+    "13" : [ "pair=South_Melbourne", "Coherence=0.5", "triple=e dbp:deathPlace South_Melbourne", "class=HR_AustralianRulesFootballPlayer" ],
+    "14" : [ "pair=Heidelberg", "Coherence=0.5", "triple=e dbp:deathPlace Heidelberg", "class=HR_AustralianRulesFootballPlayer" ],
+    "15" : [ "pair=Kew", "Coherence=0.5", "triple=e dbp:deathPlace Kew", "class=HR_AustralianRulesFootballPlayer" ],
+    "16" : [ "pair=Parkville", "Coherence=0.5", "triple=e dbp:deathPlace Parkville", "class=HR_AustralianRulesFootballPlayer" ],
+    "17" : [ "pair=St_Kilda", "Coherence=0.5", "triple=e dbp:birthPlace St_Kilda", "class=HR_AustralianRulesFootballPlayer" ],
+    "18" : [ "pair=\"Melbourne", "Coherence=0.5", "triple=e dbp:birthPlace \"Melbourne", "class=HR_AustralianRulesFootballPlayer" ],
+    "19" : [ "pair=\"Geelong", "Coherence=0.5", "triple=e dbp:birthPlace \"Geelong", "class=HR_AustralianRulesFootballPlayer" ],
+    "20" : [ "pair=Richmond", "Coherence=0.5", "triple=e dbp:birthPlace Richmond", "class=HR_AustralianRulesFootballPlayer" ],
+    "21" : [ "pair=Adelaide", "Coherence=0.5", "triple=e dbp:birthPlace Adelaide", "class=HR_AustralianRulesFootballPlayer" ],
+    "22" : [ "pair=Australia_international_rules_football_team", "Coherence=0.5", "triple=e dbp:nationalteam Australia_international_rules_football_team", "class=HR_AustralianRulesFootballPlayer" ],
+    "23" : [ "pair=Collingwood_Football_Club", "Coherence=0.5", "triple=e dbo:debutTeam Collingwood_Football_Club", "class=HR_AustralianRulesFootballPlayer" ],
+    "24" : [ "pair=//dbpedia.org/datatype/kilogram>", "Coherence=0.5", "triple=e dbp:weight //dbpedia.org/datatype/kilogram>", "class=HR_AustralianRulesFootballPlayer" ],
+    "25" : [ "pair=Australian_Football_League", "Coherence=0.5", "triple=e dbp:umpireleague Australian_Football_League", "class=HR_AustralianRulesFootballPlayer" ],
+    "26" : [ "pair=Geelong", "Coherence=0.5", "triple=e dbo:birthPlace Geelong", "class=HR_AustralianRulesFootballPlayer" ],
+    "27" : [ "pair=//dbpedia.org/datatype/centimetre>", "Coherence=0.5", "triple=e dbp:height //dbpedia.org/datatype/centimetre>", "class=HR_AustralianRulesFootballPlayer" ],
+    "28" : [ "pair=Western_Australia", "Coherence=0.49", "triple=e dbo:birthPlace Western_Australia", "class=HR_Cricketer" ],
+    "29" : [ "pair=Victoria_cricket_team", "Coherence=0.485", "triple=e dbp:club Victoria_cricket_team", "class=HR_Cricketer" ],
+    "30" : [ "pair=New_South_Wales_cricket_team", "Coherence=0.483", "triple=e dbp:club New_South_Wales_cricket_team", "class=HR_Cricketer" ],
+    "31" : [ "pair=Australian_Army", "Coherence=0.491", "triple=e dbp:branch Australian_Army", "class=HR_MilitaryPerson" ],
+    "32" : [ "pair=\"Australia\"", "Coherence=0.488", "triple=e dbo:allegiance \"Australia\"", "class=HR_MilitaryPerson" ],
+    "33" : [ "pair=Australian_Army_unit_colour_patches", "Coherence=0.5", "triple=e dbp:identificationSymbolLabel Australian_Army_unit_colour_patches", "class=HR_MilitaryUnit" ],
+    "34" : [ "pair=Royal_Australian_Air_Force", "Coherence=0.495", "triple=e dbo:militaryBranch Royal_Australian_Air_Force", "class=HR_MilitaryUnit" ],
+    "35" : [ "pair=Australian_Labor_Party", "Coherence=0.495", "triple=e dbp:party Australian_Labor_Party", "class=HR_Politician" ],
+    "36" : [ "pair=\"Australia Victoria\"@en", "Coherence=0.472", "triple=e dbp:pushpinMap \"Australia Victoria\"@en", "class=HR_River" ],
+    "37" : [ "pair=Nine_Network", "Coherence=0.482", "triple=e dbo:network Nine_Network", "class=HR_TelevisionShow" ],
+    "38" : [ "pair=Seven_Network", "Coherence=0.46", "triple=e dbp:network Seven_Network", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 213,
+  "pattern" : "austrian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Austrian\"@en", "Coherence=0.497", "triple=e dbp:nationality \"Austrian\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=Austria", "Coherence=0.472", "triple=e dbp:birthPlace Austria", "class=HR_Cyclist" ],
+    "2" : [ "pair=Austria_national_football_team", "Coherence=0.472", "triple=e dbp:nationalteam Austria_national_football_team", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 216,
+  "pattern" : "available",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"AeroCrafter\"@en", "Coherence=0.451", "triple=e dbp:ref \"AeroCrafter\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 242,
+  "pattern" : "based on\u001Cthe\u001Clong-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Coherence=0.45", "triple=e dbp:series \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 243,
+  "pattern" : "based the\u001Clong-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Coherence=0.471", "triple=e dbp:subject \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 244,
+  "pattern" : "based the\u001Clong-running\u001Cbritish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Coherence=0.45", "triple=e dbp:series \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 276,
+  "pattern" : "belarusian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Byelorussian_Soviet_Socialist_Republic", "Coherence=0.49", "triple=e dbp:birthPlace Byelorussian_Soviet_Socialist_Republic", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 277,
+  "pattern" : "belgian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Belgian\"@en", "Coherence=0.5", "triple=e dbp:nationality \"Belgian\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=Belgium", "Coherence=0.476", "triple=e dbp:birthPlace Belgium", "class=HR_Cyclist" ]
+  }
+}, {
+  "id" : 292,
+  "pattern" : "bohemian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=South_Bohemian_Region", "Coherence=0.5", "triple=e dbp:subdivisionName South_Bohemian_Region", "class=HR_Town" ]
+  }
+}, {
+  "id" : 296,
+  "pattern" : "bon-gwan",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Korea", "Coherence=0.472", "triple=e dbp:country Korea", "class=HR_Organisation" ]
+  }
+}, {
+  "id" : 310,
+  "pattern" : "brazilian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Brazilian\"@en", "Coherence=0.487", "triple=e dbp:nationality \"Brazilian\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=Brazil", "Coherence=0.495", "triple=e dbp:ground Brazil", "class=HR_SoccerClub" ],
+    "2" : [ "pair=Brazil_national_football_team", "Coherence=0.489", "triple=e dbp:nationalteam Brazil_national_football_team", "class=HR_SoccerManager" ],
+    "3" : [ "pair=\"Brazil\"@en", "Coherence=0.491", "triple=e dbp:country \"Brazil\"@en", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 316,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Canada British Columbia#Canada\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Canada British Columbia#Canada\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Canada British Columbia\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Canada British Columbia\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Location in British Columbia\"@en", "Coherence=0.5", "triple=e dbp:pushpinMapCaption \"Location in British Columbia\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=//dbpedia.org/datatype/second>", "Coherence=0.493", "triple=e dbp:utcs //dbpedia.org/datatype/second>", "class=HR_Airport" ],
+    "4" : [ "pair=\"PDT\"@en", "Coherence=0.493", "triple=e dbp:summer \"PDT\"@en", "class=HR_Airport" ],
+    "5" : [ "pair=Pacific_Time_Zone", "Coherence=0.491", "triple=e dbp:timezone Pacific_Time_Zone", "class=HR_Airport" ],
+    "6" : [ "pair=\"British\"@en", "Coherence=0.472", "triple=e dbp:nationality \"British\"@en", "class=HR_Athlete" ],
+    "7" : [ "pair=United_Kingdom", "Coherence=0.445", "triple=e dbo:nationality United_Kingdom", "class=HR_Athlete" ],
+    "8" : [ "pair=\"@en", "Coherence=0.456", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "9" : [ "pair=\"British victory\"@en", "Coherence=0.451", "triple=e dbp:result \"British victory\"@en", "class=HR_MilitaryConflict" ],
+    "10" : [ "pair=\"British victory\"", "Coherence=0.447", "triple=e dbo:result \"British victory\"", "class=HR_MilitaryConflict" ],
+    "11" : [ "pair=Victoria_Cross", "Coherence=0.482", "triple=e dbo:award Victoria_Cross", "class=HR_MilitaryPerson" ],
+    "12" : [ "pair=Indian_Mutiny", "Coherence=0.479", "triple=e dbo:battle Indian_Mutiny", "class=HR_MilitaryPerson" ],
+    "13" : [ "pair=Indian_Rebellion_of_1857", "Coherence=0.476", "triple=e dbp:battles Indian_Rebellion_of_1857", "class=HR_MilitaryPerson" ],
+    "14" : [ "pair=Major-general_(United_Kingdom", "Coherence=0.472", "triple=e dbp:rank Major-general_(United_Kingdom", "class=HR_MilitaryPerson" ],
+    "15" : [ "pair=General_(United_Kingdom", "Coherence=0.47", "triple=e dbp:rank General_(United_Kingdom", "class=HR_MilitaryPerson" ],
+    "16" : [ "pair=British_Columbia", "Coherence=0.5", "triple=e dbo:region British_Columbia", "class=HR_Mountain" ],
+    "17" : [ "pair=\"Location in Alberta and British Columbia\"@en", "Coherence=0.496", "triple=e dbp:mapCaption \"Location in Alberta and British Columbia\"@en", "class=HR_Mountain" ],
+    "18" : [ "pair=\"British Columbia\"@en", "Coherence=0.495", "triple=e dbp:region \"British Columbia\"@en", "class=HR_Mountain" ],
+    "19" : [ "pair=BC_Parks", "Coherence=0.476", "triple=e dbp:governingBody BC_Parks", "class=HR_ProtectedArea" ]
+  }
+}, {
+  "id" : 335,
+  "pattern" : "bulgarian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Bulgarian\"@en", "Coherence=0.5", "triple=e dbp:nationality \"Bulgarian\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Bulgaria\"@en", "Coherence=0.463", "triple=e dbp:country \"Bulgaria\"@en", "class=HR_PoliticalParty" ],
+    "2" : [ "pair=Bulgaria_national_football_team", "Coherence=0.5", "triple=e dbp:nationalteam Bulgaria_national_football_team", "class=HR_SoccerManager" ],
+    "3" : [ "pair=Bulgaria", "Coherence=0.5", "triple=e dbp:birthPlace Bulgaria", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 343,
+  "pattern" : "byzantine",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Byzantine Empire\"", "Coherence=0.463", "triple=e dbo:combatant \"Byzantine Empire\"", "class=HR_MilitaryConflict" ],
+    "1" : [ "pair=Byzantine_Empire", "Coherence=0.459", "triple=e dbp:combatant Byzantine_Empire", "class=HR_MilitaryConflict" ],
+    "2" : [ "pair=List_of_Byzantine_emperors", "Coherence=0.459", "triple=e dbp:title List_of_Byzantine_emperors", "class=HR_Royalty" ]
+  }
+}, {
+  "id" : 351,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Canadian\"@en", "Coherence=0.46", "triple=e dbp:nationality \"Canadian\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=\"Toronto", "Coherence=0.463", "triple=e dbp:origin \"Toronto", "class=HR_Band" ],
+    "2" : [ "pair=Ontario", "Coherence=0.453", "triple=e dbo:hometown Ontario", "class=HR_Band" ],
+    "3" : [ "pair=Toronto", "Coherence=0.446", "triple=e dbo:hometown Toronto", "class=HR_Band" ],
+    "4" : [ "pair=Canadian_Army", "Coherence=0.495", "triple=e dbo:militaryBranch Canadian_Army", "class=HR_MilitaryUnit" ],
+    "5" : [ "pair=\"Canada\"@en", "Coherence=0.492", "triple=e dbp:country \"Canada\"@en", "class=HR_MilitaryUnit" ],
+    "6" : [ "pair=Canada", "Coherence=0.486", "triple=e dbp:country Canada", "class=HR_MilitaryUnit" ],
+    "7" : [ "pair=\"no\"@en", "Coherence=0.483", "triple=e dbp:import \"no\"@en", "class=HR_SoccerPlayer" ],
+    "8" : [ "pair=\"â\"@en", "Coherence=0.48", "triple=e dbp:playingYears \"â\"@en", "class=HR_SoccerPlayer" ],
+    "9" : [ "pair=CBC_Television", "Coherence=0.493", "triple=e dbp:channel CBC_Television", "class=HR_TelevisionShow" ],
+    "10" : [ "pair=Canadians", "Coherence=0.462", "triple=e dbo:nationality Canadians", "class=HR_Writer" ]
+  }
+}, {
+  "id" : 367,
+  "pattern" : "catalan",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Barcelona", "Coherence=0.462", "triple=e dbo:headquarter Barcelona", "class=HR_PoliticalParty" ]
+  }
+}, {
+  "id" : 382,
+  "pattern" : "central",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=ÅÃ³dÅº_Voivodeship", "Coherence=0.5", "triple=e dbo:subdivision ÅÃ³dÅº_Voivodeship", "class=HR_Village" ]
+  }
+}, {
+  "id" : 405,
+  "pattern" : "chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=China", "Coherence=0.494", "triple=e dbp:primaryUser China", "class=HR_Aircraft" ],
+    "1" : [ "pair=UAV", "Coherence=0.485", "triple=e dbo:type UAV", "class=HR_Aircraft" ],
+    "2" : [ "pair=\"Chinese\"@en", "Coherence=0.491", "triple=e dbp:nationality \"Chinese\"@en", "class=HR_Athlete" ],
+    "3" : [ "pair=Taiwan", "Coherence=0.5", "triple=e dbp:location Taiwan", "class=HR_Building" ],
+    "4" : [ "pair=\"the Chinese Civil War\"@en", "Coherence=0.49", "triple=e dbp:partof \"the Chinese Civil War\"@en", "class=HR_MilitaryConflict" ],
+    "5" : [ "pair=\"Communistvictory\"", "Coherence=0.488", "triple=e dbo:result \"Communistvictory\"", "class=HR_MilitaryConflict" ],
+    "6" : [ "pair=\"National Revolutionary Army\"@en", "Coherence=0.481", "triple=e dbp:combatant \"National Revolutionary Army\"@en", "class=HR_MilitaryConflict" ],
+    "7" : [ "pair=\"Communist victory\"@en", "Coherence=0.481", "triple=e dbp:result \"Communist victory\"@en", "class=HR_MilitaryConflict" ],
+    "8" : [ "pair=\"60px|Flag of the National Revolutionary Army\"", "Coherence=0.481", "triple=e dbo:combatant \"60px|Flag of the National Revolutionary Army\"", "class=HR_MilitaryConflict" ],
+    "9" : [ "pair=Chinese_Civil_War", "Coherence=0.472", "triple=e dbo:isPartOfMilitaryConflict Chinese_Civil_War", "class=HR_MilitaryConflict" ],
+    "10" : [ "pair=\"National Revolutionary Army\"", "Coherence=0.469", "triple=e dbo:combatant \"National Revolutionary Army\"", "class=HR_MilitaryConflict" ],
+    "11" : [ "pair=Chinese_Communist_Party", "Coherence=0.495", "triple=e dbp:party Chinese_Communist_Party", "class=HR_Politician" ],
+    "12" : [ "pair=Communist_Party_of_China", "Coherence=0.491", "triple=e dbo:party Communist_Party_of_China", "class=HR_Politician" ],
+    "13" : [ "pair=Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "Coherence=0.5", "triple=e dbp:operator Beijing_Mass_Transit_Railway_Operation_Corporation_Limited", "class=HR_Station" ],
+    "14" : [ "pair=\"shanghai\"@en", "Coherence=0.5", "triple=e dbp:symbolLocation \"shanghai\"@en", "class=HR_Station" ],
+    "15" : [ "pair=\"SHM\"@en", "Coherence=0.5", "triple=e dbp:system \"SHM\"@en", "class=HR_Station" ],
+    "16" : [ "pair=\"BJS\"@en", "Coherence=0.495", "triple=e dbp:system \"BJS\"@en", "class=HR_Station" ],
+    "17" : [ "pair=\"", "Coherence=0.493", "triple=e dbo:address \"", "class=HR_Station" ],
+    "18" : [ "pair=\"subway\"@en", "Coherence=0.493", "triple=e dbp:symbol \"subway\"@en", "class=HR_Station" ],
+    "19" : [ "pair=\"beijing\"@en", "Coherence=0.493", "triple=e dbp:symbolLocation \"beijing\"@en", "class=HR_Station" ],
+    "20" : [ "pair=Standard_Chinese", "Coherence=0.471", "triple=e dbp:language Standard_Chinese", "class=HR_TelevisionShow" ],
+    "21" : [ "pair=\"Mandarin\"@en", "Coherence=0.458", "triple=e dbp:language \"Mandarin\"@en", "class=HR_TelevisionShow" ],
+    "22" : [ "pair=\"China\"@en", "Coherence=0.457", "triple=e dbp:country \"China\"@en", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 406,
+  "pattern" : "chinese civil",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Communistvictory\"", "Coherence=0.451", "triple=e dbo:result \"Communistvictory\"", "class=HR_MilitaryConflict" ]
+  }
+}, {
+  "id" : 423,
+  "pattern" : "civil",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"United States(Union", "Coherence=0.482", "triple=e dbo:combatant \"United States(Union", "class=HR_MilitaryConflict" ],
+    "1" : [ "pair=\"Confederatevictory\"", "Coherence=0.478", "triple=e dbo:result \"Confederatevictory\"", "class=HR_MilitaryConflict" ],
+    "2" : [ "pair=\"CSA (Confederacy", "Coherence=0.478", "triple=e dbp:combatant \"CSA (Confederacy", "class=HR_MilitaryConflict" ],
+    "3" : [ "pair=\"the Trans-Mississippi Theater of the\"@en", "Coherence=0.475", "triple=e dbp:partof \"the Trans-Mississippi Theater of the\"@en", "class=HR_MilitaryConflict" ],
+    "4" : [ "pair=\"the American Civil War\"@en", "Coherence=0.473", "triple=e dbp:partof \"the American Civil War\"@en", "class=HR_MilitaryConflict" ],
+    "5" : [ "pair=\"Confederate victory\"@en", "Coherence=0.471", "triple=e dbp:result \"Confederate victory\"@en", "class=HR_MilitaryConflict" ],
+    "6" : [ "pair=\"Union victory\"@en", "Coherence=0.469", "triple=e dbp:result \"Union victory\"@en", "class=HR_MilitaryConflict" ],
+    "7" : [ "pair=Trans-Mississippi_Theater_of_the_American_Civil_War", "Coherence=0.468", "triple=e dbo:isPartOfMilitaryConflict Trans-Mississippi_Theater_of_the_American_Civil_War", "class=HR_MilitaryConflict" ],
+    "8" : [ "pair=American_Civil_War", "Coherence=0.466", "triple=e dbo:isPartOfMilitaryConflict American_Civil_War", "class=HR_MilitaryConflict" ],
+    "9" : [ "pair=\"Unionvictory\"", "Coherence=0.465", "triple=e dbo:result \"Unionvictory\"", "class=HR_MilitaryConflict" ],
+    "10" : [ "pair=\"Communistvictory\"", "Coherence=0.451", "triple=e dbo:result \"Communistvictory\"", "class=HR_MilitaryConflict" ],
+    "11" : [ "pair=Union_(American_Civil_War", "Coherence=0.475", "triple=e dbp:allegiance Union_(American_Civil_War", "class=HR_MilitaryPerson" ],
+    "12" : [ "pair=Union_Army", "Coherence=0.473", "triple=e dbp:branch Union_Army", "class=HR_MilitaryPerson" ],
+    "13" : [ "pair=\"Union\"", "Coherence=0.472", "triple=e dbo:allegiance \"Union\"", "class=HR_MilitaryPerson" ],
+    "14" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.467", "triple=e dbo:serviceEndYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_MilitaryPerson" ],
+    "15" : [ "pair=Seven_Days_Battles", "Coherence=0.496", "triple=e dbp:battles Seven_Days_Battles", "class=HR_MilitaryUnit" ],
+    "16" : [ "pair=Mine_Run_Campaign", "Coherence=0.496", "triple=e dbo:battle Mine_Run_Campaign", "class=HR_MilitaryUnit" ],
+    "17" : [ "pair=Battle_of_Mine_Run", "Coherence=0.493", "triple=e dbp:battles Battle_of_Mine_Run", "class=HR_MilitaryUnit" ],
+    "18" : [ "pair=Bristoe_campaign", "Coherence=0.492", "triple=e dbp:battles Bristoe_campaign", "class=HR_MilitaryUnit" ],
+    "19" : [ "pair=Bristoe_Campaign", "Coherence=0.488", "triple=e dbo:battle Bristoe_Campaign", "class=HR_MilitaryUnit" ],
+    "20" : [ "pair=Artillery", "Coherence=0.483", "triple=e dbp:branch Artillery", "class=HR_MilitaryUnit" ],
+    "21" : [ "pair=Confederate_States_of_America", "Coherence=0.482", "triple=e dbp:country Confederate_States_of_America", "class=HR_MilitaryUnit" ],
+    "22" : [ "pair=Appomattox_campaign", "Coherence=0.481", "triple=e dbp:battles Appomattox_campaign", "class=HR_MilitaryUnit" ]
+  }
+}, {
+  "id" : 457,
+  "pattern" : "colombian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Colombia", "Coherence=0.455", "triple=e dbo:birthPlace Colombia", "class=HR_Cyclist" ]
+  }
+}, {
+  "id" : 472,
+  "pattern" : "common",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"G1\"@en", "Coherence=0.479", "triple=e dbp:status \"G1\"@en", "class=HR_Plant" ],
+    "1" : [ "pair=\"G1\"", "Coherence=0.477", "triple=e dbo:conservationStatus \"G1\"", "class=HR_Plant" ],
+    "2" : [ "pair=Thomas_Nuttall", "Coherence=0.466", "triple=e dbo:binomialAuthority Thomas_Nuttall", "class=HR_Plant" ]
+  }
+}, {
+  "id" : 491,
+  "pattern" : "competitive",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=FejÃ©r_County", "Coherence=0.5", "triple=e dbp:location FejÃ©r_County", "class=HR_SoccerClubSeason" ],
+    "1" : [ "pair=HajdÃº-Bihar_County", "Coherence=0.5", "triple=e dbp:location HajdÃº-Bihar_County", "class=HR_SoccerClubSeason" ],
+    "2" : [ "pair=Pest_County", "Coherence=0.5", "triple=e dbp:location Pest_County", "class=HR_SoccerClubSeason" ],
+    "3" : [ "pair=Tolna_County", "Coherence=0.5", "triple=e dbp:location Tolna_County", "class=HR_SoccerClubSeason" ]
+  }
+}, {
+  "id" : 492,
+  "pattern" : "complete",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Paramotor", "Coherence=0.453", "triple=e dbo:type Paramotor", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"four cylinder", "Coherence=0.447", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 497,
+  "pattern" : "confederate",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Confederate_States_of_America", "Coherence=0.482", "triple=e dbp:country Confederate_States_of_America", "class=HR_MilitaryUnit" ]
+  }
+}, {
+  "id" : 503,
+  "pattern" : "consecutive",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=FejÃ©r_County", "Coherence=0.5", "triple=e dbp:location FejÃ©r_County", "class=HR_SoccerClubSeason" ],
+    "1" : [ "pair=HajdÃº-Bihar_County", "Coherence=0.5", "triple=e dbp:location HajdÃº-Bihar_County", "class=HR_SoccerClubSeason" ],
+    "2" : [ "pair=Pest_County", "Coherence=0.5", "triple=e dbp:location Pest_County", "class=HR_SoccerClubSeason" ],
+    "3" : [ "pair=Tolna_County", "Coherence=0.5", "triple=e dbp:location Tolna_County", "class=HR_SoccerClubSeason" ]
+  }
+}, {
+  "id" : 625,
+  "pattern" : "croatian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Zagreb", "Coherence=0.495", "triple=e dbo:headquarter Zagreb", "class=HR_PoliticalParty" ],
+    "1" : [ "pair=Croatia", "Coherence=0.484", "triple=e dbo:country Croatia", "class=HR_PoliticalParty" ],
+    "2" : [ "pair=\"Croatia\"@en", "Coherence=0.484", "triple=e dbp:country \"Croatia\"@en", "class=HR_PoliticalParty" ]
+  }
+}, {
+  "id" : 670,
+  "pattern" : "danish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Danish\"@en", "Coherence=0.496", "triple=e dbp:nationality \"Danish\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=Denmark", "Coherence=0.465", "triple=e dbp:birthPlace Denmark", "class=HR_Cyclist" ],
+    "2" : [ "pair=\"Denmark\"@en", "Coherence=0.473", "triple=e dbp:country \"Denmark\"@en", "class=HR_PoliticalParty" ],
+    "3" : [ "pair=Denmark_national_football_team", "Coherence=0.5", "triple=e dbp:nationalteam Denmark_national_football_team", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 678,
+  "pattern" : "democratic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Democratic Republic of the Congo\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Democratic Republic of the Congo\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of the airport in\"@en", "Coherence=0.496", "triple=e dbp:pushpinMapCaption \"Location of the airport in\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=Democratic_Party_(United_States", "Coherence=0.48", "triple=e dbp:national Democratic_Party_(United_States", "class=HR_PoliticalParty" ]
+  }
+}, {
+  "id" : 701,
+  "pattern" : "dfb-pokal",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"DFB-Pokal\"@en", "Coherence=0.5", "triple=e dbp:title \"DFB-Pokal\"@en", "class=HR_SoccerTournament" ]
+  }
+}, {
+  "id" : 758,
+  "pattern" : "eastern",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Lublin_Voivodeship", "Coherence=0.5", "triple=e dbo:subdivision Lublin_Voivodeship", "class=HR_Village" ]
+  }
+}, {
+  "id" : 760,
+  "pattern" : "ecological",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Ecological_station_(Brazil", "Coherence=0.5", "triple=e dbp:designation Ecological_station_(Brazil", "class=HR_ProtectedArea" ]
+  }
+}, {
+  "id" : 775,
+  "pattern" : "egyptian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Egyptian\"@en", "Coherence=0.5", "triple=e dbp:nationality \"Egyptian\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 819,
+  "pattern" : "equestrian competed",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Equestrianism", "Coherence=0.446", "triple=e dbp:sport Equestrianism", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 924,
+  "pattern" : "final",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Cypriot_Cup", "Coherence=0.5", "triple=e dbp:title Cypriot_Cup", "class=HR_SoccerTournament" ],
+    "1" : [ "pair=\"DFB-Pokal\"@en", "Coherence=0.496", "triple=e dbp:title \"DFB-Pokal\"@en", "class=HR_SoccerTournament" ]
+  }
+}, {
+  "id" : 926,
+  "pattern" : "finnish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Finnish\"@en", "Coherence=0.491", "triple=e dbp:nationality \"Finnish\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 933,
+  "pattern" : "first-class",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Somerset_County_Cricket_Club", "Coherence=0.487", "triple=e dbp:lastfor Somerset_County_Cricket_Club", "class=HR_Cricketer" ],
+    "1" : [ "pair=\"Sydney", "Coherence=0.485", "triple=e dbp:birthPlace \"Sydney", "class=HR_Cricketer" ]
+  }
+}, {
+  "id" : 992,
+  "pattern" : "former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.5", "triple=e dbo:draftYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_AmericanFootballPlayer" ],
+    "1" : [ "pair=Japan", "Coherence=0.474", "triple=e dbp:birthPlace Japan", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 1003,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=French_Air_and_Space_Force", "Coherence=0.446", "triple=e dbp:primaryUser French_Air_and_Space_Force", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"French\"@en", "Coherence=0.481", "triple=e dbp:nationality \"French\"@en", "class=HR_Artist" ],
+    "2" : [ "pair=France", "Coherence=0.477", "triple=e dbo:country France", "class=HR_Artist" ],
+    "3" : [ "pair=Paris", "Coherence=0.463", "triple=e dbo:birthPlace Paris", "class=HR_Artist" ],
+    "4" : [ "pair=\"Paris", "Coherence=0.445", "triple=e dbp:birthPlace \"Paris", "class=HR_Artist" ],
+    "5" : [ "pair=\"France\"@en", "Coherence=0.459", "triple=e dbp:country \"France\"@en", "class=HR_Book" ],
+    "6" : [ "pair=Peninsular_War", "Coherence=0.481", "triple=e dbo:isPartOfMilitaryConflict Peninsular_War", "class=HR_MilitaryConflict" ],
+    "7" : [ "pair=\"the French Revolutionary Wars\"@en", "Coherence=0.48", "triple=e dbp:partof \"the French Revolutionary Wars\"@en", "class=HR_MilitaryConflict" ],
+    "8" : [ "pair=French_Revolutionary_Wars", "Coherence=0.48", "triple=e dbo:isPartOfMilitaryConflict French_Revolutionary_Wars", "class=HR_MilitaryConflict" ],
+    "9" : [ "pair=\"the Peninsular War\"@en", "Coherence=0.477", "triple=e dbp:partof \"the Peninsular War\"@en", "class=HR_MilitaryConflict" ],
+    "10" : [ "pair=\"French victory\"@en", "Coherence=0.475", "triple=e dbp:result \"French victory\"@en", "class=HR_MilitaryConflict" ],
+    "11" : [ "pair=\"French victory\"", "Coherence=0.468", "triple=e dbo:result \"French victory\"", "class=HR_MilitaryConflict" ],
+    "12" : [ "pair=\"French Empire\"@en", "Coherence=0.462", "triple=e dbp:combatant \"French Empire\"@en", "class=HR_MilitaryConflict" ],
+    "13" : [ "pair=\"French Empire\"", "Coherence=0.458", "triple=e dbo:combatant \"French Empire\"", "class=HR_MilitaryConflict" ],
+    "14" : [ "pair=Divisional_general", "Coherence=0.489", "triple=e dbp:rank Divisional_general", "class=HR_MilitaryPerson" ],
+    "15" : [ "pair=French_Army", "Coherence=0.486", "triple=e dbp:branch French_Army", "class=HR_MilitaryPerson" ],
+    "16" : [ "pair=\"Timber\"@en", "Coherence=0.489", "triple=e dbp:shipArmour \"Timber\"@en", "class=HR_Ship" ],
+    "17" : [ "pair=France_national_football_team", "Coherence=0.482", "triple=e dbp:nationalteam France_national_football_team", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 1007,
+  "pattern" : "gaelic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Meath_Senior_Football_Championship", "Coherence=0.5", "triple=e dbp:competition Meath_Senior_Football_Championship", "class=HR_FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 1037,
+  "pattern" : "georgian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Agency of Protected Areas\"@en", "Coherence=0.482", "triple=e dbp:governingBody \"Agency of Protected Areas\"@en", "class=HR_ProtectedArea" ],
+    "1" : [ "pair=Bagrationi_dynasty", "Coherence=0.497", "triple=e dbp:house Bagrationi_dynasty", "class=HR_Royalty" ],
+    "2" : [ "pair=Georgian_Orthodox_Church", "Coherence=0.493", "triple=e dbp:religion Georgian_Orthodox_Church", "class=HR_Royalty" ]
+  }
+}, {
+  "id" : 1038,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"German\"@en", "Coherence=0.457", "triple=e dbp:nationality \"German\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=\"Germany\"@en", "Coherence=0.466", "triple=e dbp:country \"Germany\"@en", "class=HR_Book" ],
+    "2" : [ "pair=Germany", "Coherence=0.467", "triple=e dbp:birthPlace Germany", "class=HR_Cyclist" ],
+    "3" : [ "pair=\"German intertitles\"@en", "Coherence=0.489", "triple=e dbp:language \"German intertitles\"@en", "class=HR_Film" ],
+    "4" : [ "pair=German_language", "Coherence=0.488", "triple=e dbo:language German_language", "class=HR_Film" ],
+    "5" : [ "pair=German_Army_(German_Empire", "Coherence=0.496", "triple=e dbo:militaryBranch German_Army_(German_Empire", "class=HR_MilitaryUnit" ],
+    "6" : [ "pair=German_Empire", "Coherence=0.495", "triple=e dbp:country German_Empire", "class=HR_MilitaryUnit" ],
+    "7" : [ "pair=\"Member of the Bundestag\"@en", "Coherence=0.5", "triple=e dbp:office \"Member of the Bundestag\"@en", "class=HR_Politician" ],
+    "8" : [ "pair=\"No patrols\"@en", "Coherence=0.5", "triple=e dbp:operations \"No patrols\"@en", "class=HR_Ship" ],
+    "9" : [ "pair=\"Service record\"@en", "Coherence=0.498", "triple=e dbp:label \"Service record\"@en", "class=HR_Ship" ],
+    "10" : [ "pair=\"None\"@en", "Coherence=0.498", "triple=e dbp:victories \"None\"@en", "class=HR_Ship" ],
+    "11" : [ "pair=\"@en", "Coherence=0.498", "triple=e dbp:shipTestDepth \"@en", "class=HR_Ship" ],
+    "12" : [ "pair=\"*2 shafts\\n*2 Ã diesel engines\\n*2 Ã electric motors\"@en", "Coherence=0.497", "triple=e dbp:shipPropulsion \"*2 shafts\\n*2 Ã diesel engines\\n*2 Ã electric motors\"@en", "class=HR_Ship" ],
+    "13" : [ "pair=Type_VII_submarine", "Coherence=0.497", "triple=e dbp:shipClass Type_VII_submarine", "class=HR_Ship" ],
+    "14" : [ "pair=German_Type_VII_submarine", "Coherence=0.497", "triple=e dbo:class German_Type_VII_submarine", "class=HR_Ship" ],
+    "15" : [ "pair=\"* o/a\\n* pressure hull\"@en", "Coherence=0.495", "triple=e dbp:shipBeam \"* o/a\\n* pressure hull\"@en", "class=HR_Ship" ],
+    "16" : [ "pair=\"Military of Germany\"@en", "Coherence=0.495", "triple=e dbp:portal \"Military of Germany\"@en", "class=HR_Ship" ],
+    "17" : [ "pair=Type_IX_submarine", "Coherence=0.495", "triple=e dbp:shipClass Type_IX_submarine", "class=HR_Ship" ],
+    "18" : [ "pair=German_Type_IX_submarine", "Coherence=0.495", "triple=e dbo:class German_Type_IX_submarine", "class=HR_Ship" ],
+    "19" : [ "pair=AG_Weser", "Coherence=0.489", "triple=e dbp:shipBuilder AG_Weser", "class=HR_Ship" ],
+    "20" : [ "pair=\"World War II\"@en", "Coherence=0.488", "triple=e dbp:portal \"World War II\"@en", "class=HR_Ship" ],
+    "21" : [ "pair=Germaniawerft", "Coherence=0.488", "triple=e dbo:builder Germaniawerft", "class=HR_Ship" ],
+    "22" : [ "pair=Bremen", "Coherence=0.487", "triple=e dbp:shipBuilder Bremen", "class=HR_Ship" ],
+    "23" : [ "pair=Nazi_Germany", "Coherence=0.486", "triple=e dbp:shipCountry Nazi_Germany", "class=HR_Ship" ],
+    "24" : [ "pair=Blohm_&_Voss", "Coherence=0.486", "triple=e dbo:builder Blohm_&_Voss", "class=HR_Ship" ],
+    "25" : [ "pair=Hamburg", "Coherence=0.485", "triple=e dbp:shipBuilder Hamburg", "class=HR_Ship" ],
+    "26" : [ "pair=Friedrich_Krupp_Germaniawerft", "Coherence=0.48", "triple=e dbp:shipBuilder Friedrich_Krupp_Germaniawerft", "class=HR_Ship" ],
+    "27" : [ "pair=Blohm+Voss", "Coherence=0.479", "triple=e dbp:shipBuilder Blohm+Voss", "class=HR_Ship" ],
+    "28" : [ "pair=Germany_national_under-21_football_team", "Coherence=0.5", "triple=e dbp:nationalteam Germany_national_under-21_football_team", "class=HR_SoccerManager" ],
+    "29" : [ "pair=Germany_national_football_team", "Coherence=0.49", "triple=e dbp:nationalteam Germany_national_football_team", "class=HR_SoccerManager" ],
+    "30" : [ "pair=East_Germany", "Coherence=0.483", "triple=e dbo:birthPlace East_Germany", "class=HR_SoccerManager" ],
+    "31" : [ "pair=West_Germany", "Coherence=0.469", "triple=e dbp:birthPlace West_Germany", "class=HR_SoccerManager" ],
+    "32" : [ "pair=Germany_national_youth_football_team", "Coherence=0.462", "triple=e dbp:nationalteam Germany_national_youth_football_team", "class=HR_SoccerPlayer" ],
+    "33" : [ "pair=\"Deutsche FuÃballmeisterschaft\"@en", "Coherence=0.5", "triple=e dbp:otherTitles \"Deutsche FuÃballmeisterschaft\"@en", "class=HR_SoccerTournament" ],
+    "34" : [ "pair=\"DFB-Pokal\"@en", "Coherence=0.5", "triple=e dbp:title \"DFB-Pokal\"@en", "class=HR_SoccerTournament" ],
+    "35" : [ "pair=\"German championship\"@en", "Coherence=0.5", "triple=e dbp:title \"German championship\"@en", "class=HR_SoccerTournament" ]
+  }
+}, {
+  "id" : 1045,
+  "pattern" : "german silent",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"German intertitles\"@en", "Coherence=0.463", "triple=e dbp:language \"German intertitles\"@en", "class=HR_Film" ]
+  }
+}, {
+  "id" : 1080,
+  "pattern" : "greek",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Thessaly", "Coherence=0.5", "triple=e dbp:periph Thessaly", "class=HR_AdministrativeRegion" ],
+    "1" : [ "pair=Western_Macedonia", "Coherence=0.5", "triple=e dbp:periph Western_Macedonia", "class=HR_AdministrativeRegion" ],
+    "2" : [ "pair=\"Greece\"@en", "Coherence=0.496", "triple=e dbp:country \"Greece\"@en", "class=HR_PoliticalParty" ],
+    "3" : [ "pair=Greece", "Coherence=0.495", "triple=e dbo:country Greece", "class=HR_PoliticalParty" ],
+    "4" : [ "pair=List_of_Byzantine_emperors", "Coherence=0.476", "triple=e dbp:title List_of_Byzantine_emperors", "class=HR_Royalty" ],
+    "5" : [ "pair=Gamma_Ethniki", "Coherence=0.5", "triple=e dbp:league Gamma_Ethniki", "class=HR_SoccerClub" ],
+    "6" : [ "pair=\"Greek Cup\"@en", "Coherence=0.5", "triple=e dbp:title \"Greek Cup\"@en", "class=HR_SoccerTournament" ]
+  }
+}, {
+  "id" : 1106,
+  "pattern" : "hebrew",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Fewest MKs\"@en", "Coherence=0.5", "triple=e dbp:seats2Title \"Fewest MKs\"@en", "class=HR_PoliticalParty" ],
+    "1" : [ "pair=Israel", "Coherence=0.492", "triple=e dbo:country Israel", "class=HR_PoliticalParty" ],
+    "2" : [ "pair=\"Israel\"@en", "Coherence=0.49", "triple=e dbp:country \"Israel\"@en", "class=HR_PoliticalParty" ],
+    "3" : [ "pair=\"Most MKs\"@en", "Coherence=0.49", "triple=e dbp:seats1Title \"Most MKs\"@en", "class=HR_PoliticalParty" ],
+    "4" : [ "pair=\"Israel State Cup\"@en", "Coherence=0.496", "triple=e dbp:title \"Israel State Cup\"@en", "class=HR_SoccerTournament" ]
+  }
+}, {
+  "id" : 1124,
+  "pattern" : "heritage-listed",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#date>", "Coherence=0.5", "triple=e dbp:accessdate //www.w3.org/2001/XMLSchema#date>", "class=HR_HistoricPlace" ],
+    "1" : [ "pair=//dbpedia.org/datatype/second>", "Coherence=0.5", "triple=e dbp:beginningDate //dbpedia.org/datatype/second>", "class=HR_HistoricPlace" ],
+    "2" : [ "pair=City_of_Sydney", "Coherence=0.5", "triple=e dbo:location City_of_Sydney", "class=HR_HistoricPlace" ],
+    "3" : [ "pair=\"State heritage\"@en", "Coherence=0.5", "triple=e dbp:designation1Type \"State heritage\"@en", "class=HR_HistoricPlace" ],
+    "4" : [ "pair=\"Residential buildings\"@en", "Coherence=0.5", "triple=e dbp:designation1Free2value \"Residential buildings\"@en", "class=HR_HistoricPlace" ],
+    "5" : [ "pair=\"Australia Sydney central\"@en", "Coherence=0.5", "triple=e dbp:locmapin \"Australia Sydney central\"@en", "class=HR_HistoricPlace" ],
+    "6" : [ "pair=\"Australia Sydney\"@en", "Coherence=0.5", "triple=e dbp:locmapin \"Australia Sydney\"@en", "class=HR_HistoricPlace" ],
+    "7" : [ "pair=\"Type\"@en", "Coherence=0.499", "triple=e dbp:designation1Free1name \"Type\"@en", "class=HR_HistoricPlace" ],
+    "8" : [ "pair=\"New South Wales State Heritage Register\"@en", "Coherence=0.499", "triple=e dbp:designation \"New South Wales State Heritage Register\"@en", "class=HR_HistoricPlace" ],
+    "9" : [ "pair=\"Category\"@en", "Coherence=0.498", "triple=e dbp:designation1Free2name \"Category\"@en", "class=HR_HistoricPlace" ],
+    "10" : [ "pair=\"Queensland Heritage Register\"@en", "Coherence=0.498", "triple=e dbp:designation \"Queensland Heritage Register\"@en", "class=HR_HistoricPlace" ],
+    "11" : [ "pair=\"Queensland#Australia\"@en", "Coherence=0.498", "triple=e dbp:locmapin \"Queensland#Australia\"@en", "class=HR_HistoricPlace" ],
+    "12" : [ "pair=\"Builders\"@en", "Coherence=0.498", "triple=e dbp:designation1Free3name \"Builders\"@en", "class=HR_HistoricPlace" ],
+    "13" : [ "pair=\"state heritage\"@en", "Coherence=0.497", "triple=e dbp:designation1Type \"state heritage\"@en", "class=HR_HistoricPlace" ],
+    "14" : [ "pair=\"Significant period\"@en", "Coherence=0.497", "triple=e dbp:designation1Free1name \"Significant period\"@en", "class=HR_HistoricPlace" ],
+    "15" : [ "pair=\"Significant components\"@en", "Coherence=0.497", "triple=e dbp:designation1Free2name \"Significant components\"@en", "class=HR_HistoricPlace" ],
+    "16" : [ "pair=New_South_Wales", "Coherence=0.497", "triple=e dbo:location New_South_Wales", "class=HR_HistoricPlace" ],
+    "17" : [ "pair=\"Design period\"@en", "Coherence=0.497", "triple=e dbp:beginningLabel \"Design period\"@en", "class=HR_HistoricPlace" ]
+  }
+}, {
+  "id" : 1127,
+  "pattern" : "high",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Secondary_education_in_the_United_States", "Coherence=0.49", "triple=e dbp:type Secondary_education_in_the_United_States", "class=HR_School" ],
+    "1" : [ "pair=Public_high_school", "Coherence=0.485", "triple=e dbo:type Public_high_school", "class=HR_School" ],
+    "2" : [ "pair=Comprehensive_high_school", "Coherence=0.482", "triple=e dbo:type Comprehensive_high_school", "class=HR_School" ]
+  }
+}, {
+  "id" : 1129,
+  "pattern" : "high-wing",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Hang_gliding", "Coherence=0.496", "triple=e dbp:type Hang_gliding", "class=HR_Aircraft" ],
+    "1" : [ "pair=Hang_glider", "Coherence=0.495", "triple=e dbo:type Hang_glider", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 1131,
+  "pattern" : "highest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Victoria_Cross", "Coherence=0.482", "triple=e dbo:award Victoria_Cross", "class=HR_MilitaryPerson" ],
+    "1" : [ "pair=List_of_elevation_extremes_by_country", "Coherence=0.491", "triple=e dbp:listing List_of_elevation_extremes_by_country", "class=HR_Mountain" ]
+  }
+}, {
+  "id" : 1133,
+  "pattern" : "historic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Utah\"@en", "Coherence=0.5", "triple=e dbp:locmapin \"Utah\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"c.\"@en", "Coherence=0.492", "triple=e dbp:built \"c.\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"Maine#USA\"@en", "Coherence=0.491", "triple=e dbp:locmapin \"Maine#USA\"@en", "class=HR_Building" ],
+    "3" : [ "pair=\"North Dakota#USA\"@en", "Coherence=0.489", "triple=e dbp:locmapin \"North Dakota#USA\"@en", "class=HR_Building" ],
+    "4" : [ "pair=\"Delaware#USA\"@en", "Coherence=0.486", "triple=e dbp:locmapin \"Delaware#USA\"@en", "class=HR_Building" ],
+    "5" : [ "pair=\"North Carolina#USA\"@en", "Coherence=0.485", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ],
+    "6" : [ "pair=\"lightgreen\"@en", "Coherence=0.479", "triple=e dbp:designatedOther1Color \"lightgreen\"@en", "class=HR_Building" ],
+    "7" : [ "pair=\"Portland Historic Landmark\"@en", "Coherence=0.479", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ],
+    "8" : [ "pair=\"Indiana#USA\"@en", "Coherence=0.475", "triple=e dbp:locmapin \"Indiana#USA\"@en", "class=HR_Building" ],
+    "9" : [ "pair=\"Pennsylvania#USA\"@en", "Coherence=0.47", "triple=e dbp:locmapin \"Pennsylvania#USA\"@en", "class=HR_Building" ],
+    "10" : [ "pair=\"Georgian\"@en", "Coherence=0.468", "triple=e dbp:architecture \"Georgian\"@en", "class=HR_Building" ],
+    "11" : [ "pair=\"Florida#USA\"@en", "Coherence=0.468", "triple=e dbp:locmapin \"Florida#USA\"@en", "class=HR_Building" ],
+    "12" : [ "pair=Portland", "Coherence=0.467", "triple=e dbo:location Portland", "class=HR_Building" ],
+    "13" : [ "pair=\"Connecticut#USA\"@en", "Coherence=0.467", "triple=e dbp:locmapin \"Connecticut#USA\"@en", "class=HR_Building" ],
+    "14" : [ "pair=\"Virginia#USA\"@en", "Coherence=0.465", "triple=e dbp:locmapin \"Virginia#USA\"@en", "class=HR_Building" ],
+    "15" : [ "pair=\"New York#USA\"@en", "Coherence=0.462", "triple=e dbp:locmapin \"New York#USA\"@en", "class=HR_Building" ],
+    "16" : [ "pair=\"Massachusetts#USA\"@en", "Coherence=0.462", "triple=e dbp:locmapin \"Massachusetts#USA\"@en", "class=HR_Building" ],
+    "17" : [ "pair=\"Missouri#USA\"@en", "Coherence=0.462", "triple=e dbp:locmapin \"Missouri#USA\"@en", "class=HR_Building" ],
+    "18" : [ "pair=\"Federal\"@en", "Coherence=0.462", "triple=e dbp:architecture \"Federal\"@en", "class=HR_Building" ],
+    "19" : [ "pair=Federal_architecture", "Coherence=0.459", "triple=e dbo:architecturalStyle Federal_architecture", "class=HR_Building" ],
+    "20" : [ "pair=Classical_Revival_architecture", "Coherence=0.456", "triple=e dbo:architecturalStyle Classical_Revival_architecture", "class=HR_Building" ],
+    "21" : [ "pair=\"Wisconsin#USA\"@en", "Coherence=0.456", "triple=e dbp:locmapin \"Wisconsin#USA\"@en", "class=HR_Building" ],
+    "22" : [ "pair=\"Alabama#USA\"@en", "Coherence=0.456", "triple=e dbp:locmapin \"Alabama#USA\"@en", "class=HR_Building" ],
+    "23" : [ "pair=\"Virginia Landmarks Register\"@en", "Coherence=0.456", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ],
+    "24" : [ "pair=\"West Virginia#USA\"@en", "Coherence=0.456", "triple=e dbp:locmapin \"West Virginia#USA\"@en", "class=HR_Building" ],
+    "25" : [ "pair=\"New Jersey Register of Historic Places\"@en", "Coherence=0.455", "triple=e dbp:designatedOther1Link \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "26" : [ "pair=\"#ffc94b\"@en", "Coherence=0.454", "triple=e dbp:designatedOther1Color \"#ffc94b\"@en", "class=HR_Building" ],
+    "27" : [ "pair=\"Late Gothic Revival\"@en", "Coherence=0.453", "triple=e dbp:architecture \"Late Gothic Revival\"@en", "class=HR_Building" ],
+    "28" : [ "pair=\"NJRHP\"@en", "Coherence=0.453", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ],
+    "29" : [ "pair=\"Iowa#USA\"@en", "Coherence=0.453", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ],
+    "30" : [ "pair=\"Greek Revival\"@en", "Coherence=0.452", "triple=e dbp:architecture \"Greek Revival\"@en", "class=HR_Building" ],
+    "31" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.45", "triple=e dbo:yearOfConstruction //www.w3.org/2001/XMLSchema#gYear>", "class=HR_Building" ]
+  }
+}, {
+  "id" : 1153,
+  "pattern" : "honduran",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Y\"@en", "Coherence=0.488", "triple=e dbp:nobars \"Y\"@en", "class=HR_FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 1163,
+  "pattern" : "hungarian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Hungarian\"@en", "Coherence=0.492", "triple=e dbp:nationality \"Hungarian\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=Budapest", "Coherence=0.47", "triple=e dbo:birthPlace Budapest", "class=HR_Athlete" ],
+    "2" : [ "pair=\"Hungary\"@en", "Coherence=0.492", "triple=e dbp:country \"Hungary\"@en", "class=HR_PoliticalParty" ],
+    "3" : [ "pair=Hungary", "Coherence=0.487", "triple=e dbo:country Hungary", "class=HR_PoliticalParty" ],
+    "4" : [ "pair=Hungary_national_football_team", "Coherence=0.483", "triple=e dbp:nationalteam Hungary_national_football_team", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 1185,
+  "pattern" : "indian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Indian\"@en", "Coherence=0.492", "triple=e dbp:nationality \"Indian\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Delhi", "Coherence=0.5", "triple=e dbp:birthPlace \"Delhi", "class=HR_Cricketer" ],
+    "2" : [ "pair=Malayalam_Language", "Coherence=0.5", "triple=e dbo:language Malayalam_Language", "class=HR_Film" ],
+    "3" : [ "pair=Malayalam", "Coherence=0.47", "triple=e dbp:language Malayalam", "class=HR_Film" ],
+    "4" : [ "pair=Kannada_language", "Coherence=0.468", "triple=e dbo:language Kannada_language", "class=HR_Film" ],
+    "5" : [ "pair=British_Indian_Army", "Coherence=0.49", "triple=e dbo:militaryBranch British_Indian_Army", "class=HR_MilitaryUnit" ],
+    "6" : [ "pair=British_Raj", "Coherence=0.486", "triple=e dbo:country British_Raj", "class=HR_MilitaryUnit" ],
+    "7" : [ "pair=British_India", "Coherence=0.485", "triple=e dbo:country British_India", "class=HR_MilitaryUnit" ],
+    "8" : [ "pair=Lok_Sabha", "Coherence=0.482", "triple=e dbp:office Lok_Sabha", "class=HR_Politician" ],
+    "9" : [ "pair=Indian_National_Congress", "Coherence=0.467", "triple=e dbp:party Indian_National_Congress", "class=HR_Politician" ],
+    "10" : [ "pair=Indian_nationality", "Coherence=0.497", "triple=e dbo:nationality Indian_nationality", "class=HR_Scientist" ],
+    "11" : [ "pair=Indian_nationality_law", "Coherence=0.497", "triple=e dbp:nationality Indian_nationality_law", "class=HR_Scientist" ],
+    "12" : [ "pair=Mumbai", "Coherence=0.479", "triple=e dbo:location Mumbai", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 1194,
+  "pattern" : "indoor",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Parquetry", "Coherence=0.486", "triple=e dbp:surface Parquetry", "class=HR_Venue" ]
+  }
+}, {
+  "id" : 1204,
+  "pattern" : "international",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=BMX_racing", "Coherence=0.456", "triple=e dbp:discipline BMX_racing", "class=HR_Cyclist" ]
+  }
+}, {
+  "id" : 1213,
+  "pattern" : "iranian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Iran_national_football_team", "Coherence=0.5", "triple=e dbp:nationalteam Iran_national_football_team", "class=HR_SoccerManager" ],
+    "1" : [ "pair=Iran", "Coherence=0.497", "triple=e dbp:birthPlace Iran", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 1215,
+  "pattern" : "irish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Irish\"@en", "Coherence=0.478", "triple=e dbp:nationality \"Irish\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=\"Ireland\"@en", "Coherence=0.484", "triple=e dbp:country \"Ireland\"@en", "class=HR_Cricketer" ],
+    "2" : [ "pair=Teachta_DÃ¡la", "Coherence=0.495", "triple=e dbp:office Teachta_DÃ¡la", "class=HR_Politician" ],
+    "3" : [ "pair=Irish_people", "Coherence=0.48", "triple=e dbo:nationality Irish_people", "class=HR_Politician" ],
+    "4" : [ "pair=Ireland", "Coherence=0.446", "triple=e dbo:country Ireland", "class=HR_Writer" ]
+  }
+}, {
+  "id" : 1222,
+  "pattern" : "israeli",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Israel", "Coherence=0.464", "triple=e dbp:birthPlace Israel", "class=HR_SoccerManager" ],
+    "1" : [ "pair=\"Israel State Cup\"@en", "Coherence=0.5", "triple=e dbp:title \"Israel State Cup\"@en", "class=HR_SoccerTournament" ]
+  }
+}, {
+  "id" : 1233,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Italian\"@en", "Coherence=0.486", "triple=e dbp:nationality \"Italian\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=Italy", "Coherence=0.462", "triple=e dbo:nationality Italy", "class=HR_Artist" ],
+    "2" : [ "pair=\"Italy\"@en", "Coherence=0.484", "triple=e dbp:country \"Italy\"@en", "class=HR_Athlete" ],
+    "3" : [ "pair=Italia", "Coherence=0.48", "triple=e dbo:nationality Italia", "class=HR_Athlete" ],
+    "4" : [ "pair=Italian_language", "Coherence=0.477", "triple=e dbo:language Italian_language", "class=HR_Film" ],
+    "5" : [ "pair=Italian_Army", "Coherence=0.493", "triple=e dbo:militaryBranch Italian_Army", "class=HR_MilitaryUnit" ],
+    "6" : [ "pair=Rome", "Coherence=0.476", "triple=e dbo:headquarter Rome", "class=HR_PoliticalParty" ],
+    "7" : [ "pair=Kingdom_of_Italy", "Coherence=0.488", "triple=e dbo:country Kingdom_of_Italy", "class=HR_Ship" ],
+    "8" : [ "pair=Serie_D", "Coherence=0.5", "triple=e dbp:league Serie_D", "class=HR_SoccerClub" ],
+    "9" : [ "pair=Italy_national_under-21_football_team", "Coherence=0.5", "triple=e dbp:nationalteam Italy_national_under-21_football_team", "class=HR_SoccerManager" ],
+    "10" : [ "pair=Italy_national_football_team", "Coherence=0.496", "triple=e dbp:nationalteam Italy_national_football_team", "class=HR_SoccerManager" ],
+    "11" : [ "pair=S.S.C._Napoli", "Coherence=0.474", "triple=e dbp:clubs S.S.C._Napoli", "class=HR_SoccerManager" ],
+    "12" : [ "pair=F.C._Internazionale_Milano", "Coherence=0.465", "triple=e dbo:team F.C._Internazionale_Milano", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 1244,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Japanese\"@en", "Coherence=0.474", "triple=e dbp:nationality \"Japanese\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=Japan", "Coherence=0.458", "triple=e dbo:birthPlace Japan", "class=HR_Artist" ],
+    "2" : [ "pair=\"Japan\"@en", "Coherence=0.473", "triple=e dbp:origin \"Japan\"@en", "class=HR_Band" ],
+    "3" : [ "pair=Tokyo", "Coherence=0.462", "triple=e dbo:hometown Tokyo", "class=HR_Band" ],
+    "4" : [ "pair=Toho", "Coherence=0.464", "triple=e dbo:distributor Toho", "class=HR_Film" ],
+    "5" : [ "pair=Pacific_War", "Coherence=0.456", "triple=e dbo:isPartOfMilitaryConflict Pacific_War", "class=HR_MilitaryConflict" ],
+    "6" : [ "pair=Imperial_Japanese_Army", "Coherence=0.494", "triple=e dbo:militaryBranch Imperial_Japanese_Army", "class=HR_MilitaryUnit" ],
+    "7" : [ "pair=Empire_of_Japan", "Coherence=0.489", "triple=e dbo:country Empire_of_Japan", "class=HR_MilitaryUnit" ],
+    "8" : [ "pair=\"ja\"@en", "Coherence=0.486", "triple=e dbp:nativeNameLang \"ja\"@en", "class=HR_MusicalArtist" ],
+    "9" : [ "pair=J-pop", "Coherence=0.464", "triple=e dbp:genre J-pop", "class=HR_MusicalArtist" ],
+    "10" : [ "pair=Japanese_language", "Coherence=0.473", "triple=e dbp:language Japanese_language", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 1290,
+  "pattern" : "known the\u001Ccommon",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"G1\"@en", "Coherence=0.472", "triple=e dbp:status \"G1\"@en", "class=HR_Plant" ],
+    "1" : [ "pair=\"G1\"", "Coherence=0.471", "triple=e dbo:conservationStatus \"G1\"", "class=HR_Plant" ]
+  }
+}, {
+  "id" : 1297,
+  "pattern" : "korean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"South Korean\"@en", "Coherence=0.493", "triple=e dbp:nationality \"South Korean\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=South_Korea", "Coherence=0.486", "triple=e dbp:origin South_Korea", "class=HR_Band" ],
+    "2" : [ "pair=K-pop", "Coherence=0.475", "triple=e dbp:genre K-pop", "class=HR_Band" ],
+    "3" : [ "pair=Seoul", "Coherence=0.47", "triple=e dbo:hometown Seoul", "class=HR_Band" ],
+    "4" : [ "pair=\"Seoul", "Coherence=0.469", "triple=e dbp:origin \"Seoul", "class=HR_Band" ],
+    "5" : [ "pair=\"Korean\"@en", "Coherence=0.493", "triple=e dbp:language \"Korean\"@en", "class=HR_Film" ],
+    "6" : [ "pair=\"South Korea\"@en", "Coherence=0.489", "triple=e dbp:country \"South Korea\"@en", "class=HR_Film" ],
+    "7" : [ "pair=\"the Korean War\"@en", "Coherence=0.495", "triple=e dbp:partof \"the Korean War\"@en", "class=HR_MilitaryConflict" ],
+    "8" : [ "pair=Korean_War", "Coherence=0.487", "triple=e dbo:isPartOfMilitaryConflict Korean_War", "class=HR_MilitaryConflict" ],
+    "9" : [ "pair=Korea", "Coherence=0.488", "triple=e dbp:country Korea", "class=HR_Organisation" ],
+    "10" : [ "pair=South_Korea_national_football_team", "Coherence=0.478", "triple=e dbp:nationalteam South_Korea_national_football_team", "class=HR_SoccerManager" ],
+    "11" : [ "pair=Korean_language", "Coherence=0.49", "triple=e dbp:language Korean_language", "class=HR_TelevisionShow" ],
+    "12" : [ "pair=\"Inst.\"@en", "Coherence=0.487", "triple=e dbp:note \"Inst.\"@en", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 1305,
+  "pattern" : "kuyavian-pomeranian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Kuyavian-Pomeranian_Voivodeship", "Coherence=0.5", "triple=e dbo:subdivision Kuyavian-Pomeranian_Voivodeship", "class=HR_Village" ]
+  }
+}, {
+  "id" : 1338,
+  "pattern" : "legislative",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Member_of_Provincial_Parliament_(Canada", "Coherence=0.481", "triple=e dbp:office Member_of_Provincial_Parliament_(Canada", "class=HR_Politician" ],
+    "1" : [ "pair=\"Queensland Legislative\"@en", "Coherence=0.446", "triple=e dbp:assembly \"Queensland Legislative\"@en", "class=HR_Politician" ]
+  }
+}, {
+  "id" : 1371,
+  "pattern" : "little",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Little_Rock", "Coherence=0.5", "triple=e dbo:location Little_Rock", "class=HR_HistoricPlace" ]
+  }
+}, {
+  "id" : 1377,
+  "pattern" : "local",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Coherence=0.5", "triple=e dbp:mapCaption \"Location within the voivodeship\"@en", "class=HR_AdministrativeRegion" ],
+    "1" : [ "pair=Powiat", "Coherence=0.5", "triple=e dbo:type Powiat", "class=HR_AdministrativeRegion" ],
+    "2" : [ "pair=Vehicle_registration_plates_of_Poland", "Coherence=0.5", "triple=e dbp:blankName Vehicle_registration_plates_of_Poland", "class=HR_AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Coherence=0.5", "triple=e dbp:partsType \"Gminas\"@en", "class=HR_AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Coherence=0.5", "triple=e dbp:populationBlank1Title \"Rural\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 1385,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Canada Manitoba\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Canada Manitoba\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=Oregon", "Coherence=0.495", "triple=e dbo:location Oregon", "class=HR_Airport" ],
+    "2" : [ "pair=\"Location in Manitoba\"@en", "Coherence=0.494", "triple=e dbp:pushpinMapCaption \"Location in Manitoba\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=\"CDT\"@en", "Coherence=0.493", "triple=e dbp:summer \"CDT\"@en", "class=HR_Airport" ],
+    "4" : [ "pair=\"n/a\"@en", "Coherence=0.493", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "5" : [ "pair=\"Movements from Statistics Canada.\"@en", "Coherence=0.493", "triple=e dbp:footnotes \"Movements from Statistics Canada.\"@en", "class=HR_Airport" ],
+    "6" : [ "pair=\"Canada Alberta\"@en", "Coherence=0.493", "triple=e dbp:pushpinMap \"Canada Alberta\"@en", "class=HR_Airport" ],
+    "7" : [ "pair= Water Aerodrome Supplement\"@en", "Coherence=0.493", "triple=e dbp:footnotes  Water Aerodrome Supplement\"@en", "class=HR_Airport" ],
+    "8" : [ "pair=\"Canada British Columbia#Canada\"@en", "Coherence=0.492", "triple=e dbp:pushpinMap \"Canada British Columbia#Canada\"@en", "class=HR_Airport" ],
+    "9" : [ "pair=\"Location in Alberta\"@en", "Coherence=0.492", "triple=e dbp:pushpinMapCaption \"Location in Alberta\"@en", "class=HR_Airport" ],
+    "10" : [ "pair=//dbpedia.org/datatype/second>", "Coherence=0.491", "triple=e dbp:utcs //dbpedia.org/datatype/second>", "class=HR_Airport" ],
+    "11" : [ "pair=\"Location in British Columbia\"@en", "Coherence=0.491", "triple=e dbp:pushpinMapCaption \"Location in British Columbia\"@en", "class=HR_Airport" ],
+    "12" : [ "pair=Central_Time_Zone", "Coherence=0.491", "triple=e dbp:timezone Central_Time_Zone", "class=HR_Airport" ],
+    "13" : [ "pair=\"Canada British Columbia\"@en", "Coherence=0.491", "triple=e dbp:pushpinMap \"Canada British Columbia\"@en", "class=HR_Airport" ],
+    "14" : [ "pair=\"n/a\"", "Coherence=0.49", "triple=e dbo:runwayDesignation \"n/a\"", "class=HR_Airport" ],
+    "15" : [ "pair=Pacific_Time_Zone", "Coherence=0.49", "triple=e dbp:timezone Pacific_Time_Zone", "class=HR_Airport" ],
+    "16" : [ "pair=\"PDT\"@en", "Coherence=0.49", "triple=e dbp:summer \"PDT\"@en", "class=HR_Airport" ],
+    "17" : [ "pair=\"Location in Quebec\"@en", "Coherence=0.489", "triple=e dbp:pushpinMapCaption \"Location in Quebec\"@en", "class=HR_Airport" ],
+    "18" : [ "pair=\"Canada Saskatchewan#Canada\"@en", "Coherence=0.488", "triple=e dbp:pushpinMap \"Canada Saskatchewan#Canada\"@en", "class=HR_Airport" ],
+    "19" : [ "pair=\"Location in Saskatchewan\"@en", "Coherence=0.488", "triple=e dbp:pushpinMapCaption \"Location in Saskatchewan\"@en", "class=HR_Airport" ],
+    "20" : [ "pair=\"Turf\"@en", "Coherence=0.488", "triple=e dbp:r1Surface \"Turf\"@en", "class=HR_Airport" ],
+    "21" : [ "pair=\"MDT\"@en", "Coherence=0.487", "triple=e dbp:summer \"MDT\"@en", "class=HR_Airport" ],
+    "22" : [ "pair= Canada Flight Supplement\"@en", "Coherence=0.486", "triple=e dbp:footnotes  Canada Flight Supplement\"@en", "class=HR_Airport" ],
+    "23" : [ "pair=\"USA Wisconsin#USA\"@en", "Coherence=0.485", "triple=e dbp:pushpinMap \"USA Wisconsin#USA\"@en", "class=HR_Airport" ],
+    "24" : [ "pair=Mountain_Time_Zone", "Coherence=0.484", "triple=e dbp:timezone Mountain_Time_Zone", "class=HR_Airport" ],
+    "25" : [ "pair=\"Water\"@en", "Coherence=0.484", "triple=e dbp:r1Surface \"Water\"@en", "class=HR_Airport" ],
+    "26" : [ "pair=Custer_County", "Coherence=0.495", "triple=e dbo:location Custer_County", "class=HR_BodyOfWater" ],
+    "27" : [ "pair=Glacier_National_Park_(U.S.", "Coherence=0.491", "triple=e dbp:location Glacier_National_Park_(U.S.", "class=HR_BodyOfWater" ],
+    "28" : [ "pair=\"Idaho#USA\"@en", "Coherence=0.488", "triple=e dbp:pushpinMap \"Idaho#USA\"@en", "class=HR_BodyOfWater" ],
+    "29" : [ "pair=\"Iowa#USA\"@en", "Coherence=0.484", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ],
+    "30" : [ "pair=\"North Carolina#USA\"@en", "Coherence=0.478", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ],
+    "31" : [ "pair=\"Indiana#USA\"@en", "Coherence=0.471", "triple=e dbp:locmapin \"Indiana#USA\"@en", "class=HR_Building" ],
+    "32" : [ "pair=\"West Virginia#USA\"@en", "Coherence=0.46", "triple=e dbp:locmapin \"West Virginia#USA\"@en", "class=HR_Building" ],
+    "33" : [ "pair=\"c.\"@en", "Coherence=0.46", "triple=e dbp:built \"c.\"@en", "class=HR_Building" ],
+    "34" : [ "pair=\"New York#USA\"@en", "Coherence=0.458", "triple=e dbp:locmapin \"New York#USA\"@en", "class=HR_Building" ],
+    "35" : [ "pair=Florida", "Coherence=0.455", "triple=e dbo:location Florida", "class=HR_Building" ],
+    "36" : [ "pair=\"Virginia Landmarks Register\"@en", "Coherence=0.449", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ],
+    "37" : [ "pair=\"Missouri#USA\"@en", "Coherence=0.448", "triple=e dbp:locmapin \"Missouri#USA\"@en", "class=HR_Building" ],
+    "38" : [ "pair=Troms_og_Finnmark", "Coherence=0.5", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "39" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "40" : [ "pair=\"Location in Alberta and British Columbia\"@en", "Coherence=0.496", "triple=e dbp:mapCaption \"Location in Alberta and British Columbia\"@en", "class=HR_Mountain" ],
+    "41" : [ "pair=New_York_(state", "Coherence=0.492", "triple=e dbo:locatedInArea New_York_(state", "class=HR_Mountain" ],
+    "42" : [ "pair=Great_Dividing_Range", "Coherence=0.5", "triple=e dbp:source Great_Dividing_Range", "class=HR_River" ],
+    "43" : [ "pair=\"Australia Victoria\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Australia Victoria\"@en", "class=HR_River" ],
+    "44" : [ "pair=Local_government_in_Australia", "Coherence=0.495", "triple=e dbp:subdivisionType Local_government_in_Australia", "class=HR_River" ],
+    "45" : [ "pair=New_South_Wales", "Coherence=0.489", "triple=e dbp:subdivisionName New_South_Wales", "class=HR_River" ],
+    "46" : [ "pair=Confluence", "Coherence=0.482", "triple=e dbo:riverMouth Confluence", "class=HR_River" ],
+    "47" : [ "pair=National_park", "Coherence=0.481", "triple=e dbp:customLabel National_park", "class=HR_River" ],
+    "48" : [ "pair=States_and_territories_of_Australia", "Coherence=0.475", "triple=e dbp:subdivisionType States_and_territories_of_Australia", "class=HR_River" ],
+    "49" : [ "pair=Victoria_(Australia", "Coherence=0.474", "triple=e dbp:subdivisionName Victoria_(Australia", "class=HR_River" ],
+    "50" : [ "pair=MurrayâDarling_basin", "Coherence=0.471", "triple=e dbp:riverSystem MurrayâDarling_basin", "class=HR_River" ],
+    "51" : [ "pair=\"RNT\"@en", "Coherence=0.5", "triple=e dbp:previousType \"RNT\"@en", "class=HR_Road" ],
+    "52" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Coherence=0.496", "triple=e dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=HR_School" ],
+    "53" : [ "pair=Education_in_Australia", "Coherence=0.492", "triple=e dbo:type Education_in_Australia", "class=HR_School" ],
+    "54" : [ "pair=Department_of_Education_(New_South_Wales", "Coherence=0.491", "triple=e dbo:localAuthority Department_of_Education_(New_South_Wales", "class=HR_School" ],
+    "55" : [ "pair=\"Australia Sydney\"@en", "Coherence=0.491", "triple=e dbp:pushpinMap \"Australia Sydney\"@en", "class=HR_School" ],
+    "56" : [ "pair=Year_7", "Coherence=0.482", "triple=e dbo:grades Year_7", "class=HR_School" ],
+    "57" : [ "pair=Swedish_football_Division_4", "Coherence=0.491", "triple=e dbo:league Swedish_football_Division_4", "class=HR_SoccerClub" ],
+    "58" : [ "pair=\"Sweden\"@en", "Coherence=0.486", "triple=e dbp:ground \"Sweden\"@en", "class=HR_SoccerClub" ],
+    "59" : [ "pair=Sweden", "Coherence=0.482", "triple=e dbo:ground Sweden", "class=HR_SoccerClub" ],
+    "60" : [ "pair=\"Spain Castile and LeÃ³n#Spain\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Spain Castile and LeÃ³n#Spain\"@en", "class=HR_Town" ],
+    "61" : [ "pair=Parquetry", "Coherence=0.481", "triple=e dbp:surface Parquetry", "class=HR_Venue" ]
+  }
+}, {
+  "id" : 1398,
+  "pattern" : "long-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Coherence=0.48", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Coherence=0.467", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ]
+  }
+}, {
+  "id" : 1399,
+  "pattern" : "long-running\u001Cbritish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Coherence=0.45", "triple=e dbp:series \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 1401,
+  "pattern" : "long-running british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Coherence=0.456", "triple=e dbp:series \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 1411,
+  "pattern" : "lower",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Lower_Saxony", "Coherence=0.492", "triple=e dbp:subdivisionName Lower_Saxony", "class=HR_River" ],
+    "1" : [ "pair=Lower_Carniola", "Coherence=0.5", "triple=e dbp:subdivisionName Lower_Carniola", "class=HR_Settlement" ]
+  }
+}, {
+  "id" : 1429,
+  "pattern" : "major",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Boston_Red_Sox", "Coherence=0.492", "triple=e dbp:finalteam Boston_Red_Sox", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Major_League_Baseball_Player_of_the_Month_Award", "Coherence=0.492", "triple=e dbp:title Major_League_Baseball_Player_of_the_Month_Award", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=//www.w3.org/2001/XMLSchema#gMonthDay>", "Coherence=0.49", "triple=e dbp:finaldate //www.w3.org/2001/XMLSchema#gMonthDay>", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=\"Kansas City Royals\"@en", "Coherence=0.489", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=HR_BaseballPlayer" ],
+    "4" : [ "pair=\"*Chicago Cubs\"@en", "Coherence=0.488", "triple=e dbp:teams \"*Chicago Cubs\"@en", "class=HR_BaseballPlayer" ],
+    "5" : [ "pair=\"*Cleveland Indians\"@en", "Coherence=0.487", "triple=e dbp:teams \"*Cleveland Indians\"@en", "class=HR_BaseballPlayer" ],
+    "6" : [ "pair=\"* All-Star\"@en", "Coherence=0.487", "triple=e dbp:highlights \"* All-Star\"@en", "class=HR_BaseballPlayer" ],
+    "7" : [ "pair=Innings_pitched", "Coherence=0.486", "triple=e dbp:stat4label Innings_pitched", "class=HR_BaseballPlayer" ],
+    "8" : [ "pair=\"Seattle Mariners\"@en", "Coherence=0.486", "triple=e dbp:finalteam \"Seattle Mariners\"@en", "class=HR_BaseballPlayer" ],
+    "9" : [ "pair=\"Washington Senators\"@en", "Coherence=0.485", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=HR_BaseballPlayer" ],
+    "10" : [ "pair=\"Montreal Expos\"@en", "Coherence=0.485", "triple=e dbp:finalteam \"Montreal Expos\"@en", "class=HR_BaseballPlayer" ],
+    "11" : [ "pair=List_of_Major_League_Baseball_no-hitters", "Coherence=0.485", "triple=e dbp:title List_of_Major_League_Baseball_no-hitters", "class=HR_BaseballPlayer" ],
+    "12" : [ "pair=\"Texas Rangers\"@en", "Coherence=0.484", "triple=e dbp:finalteam \"Texas Rangers\"@en", "class=HR_BaseballPlayer" ],
+    "13" : [ "pair=Pinch_hitter", "Coherence=0.484", "triple=e dbo:position Pinch_hitter", "class=HR_BaseballPlayer" ],
+    "14" : [ "pair=\"Philadelphia Phillies\"@en", "Coherence=0.484", "triple=e dbp:debutteam \"Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ],
+    "15" : [ "pair=\"California Angels\"@en", "Coherence=0.483", "triple=e dbp:finalteam \"California Angels\"@en", "class=HR_BaseballPlayer" ],
+    "16" : [ "pair=Texas_Rangers_(baseball", "Coherence=0.483", "triple=e dbo:debutTeam Texas_Rangers_(baseball", "class=HR_BaseballPlayer" ],
+    "17" : [ "pair=\"KBO\"@en", "Coherence=0.483", "triple=e dbp:debut2league \"KBO\"@en", "class=HR_BaseballPlayer" ],
+    "18" : [ "pair=\"* Boston Red Sox\"@en", "Coherence=0.483", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=HR_BaseballPlayer" ],
+    "19" : [ "pair=New_York_Yankees", "Coherence=0.483", "triple=e dbp:debutteam New_York_Yankees", "class=HR_BaseballPlayer" ],
+    "20" : [ "pair=\"*Philadelphia Athletics\"@en", "Coherence=0.483", "triple=e dbp:teams \"*Philadelphia Athletics\"@en", "class=HR_BaseballPlayer" ],
+    "21" : [ "pair=San_Francisco", "Coherence=0.483", "triple=e dbo:birthPlace San_Francisco", "class=HR_BaseballPlayer" ],
+    "22" : [ "pair=\"* World Series champion\"@en", "Coherence=0.482", "triple=e dbp:highlights \"* World Series champion\"@en", "class=HR_BaseballPlayer" ],
+    "23" : [ "pair=Pittsburgh_Pirates", "Coherence=0.482", "triple=e dbp:finalteam Pittsburgh_Pirates", "class=HR_BaseballPlayer" ],
+    "24" : [ "pair=\"Philadelphia Athletics\"@en", "Coherence=0.481", "triple=e dbp:finalteam \"Philadelphia Athletics\"@en", "class=HR_BaseballPlayer" ],
+    "25" : [ "pair=\"Chicago White Sox\"@en", "Coherence=0.48", "triple=e dbp:finalteam \"Chicago White Sox\"@en", "class=HR_BaseballPlayer" ],
+    "26" : [ "pair=Cleveland_Indians", "Coherence=0.48", "triple=e dbp:finalteam Cleveland_Indians", "class=HR_BaseballPlayer" ],
+    "27" : [ "pair=\"Cleveland Indians\"@en", "Coherence=0.48", "triple=e dbp:debutteam \"Cleveland Indians\"@en", "class=HR_BaseballPlayer" ],
+    "28" : [ "pair=\"*Washington Senators\"@en", "Coherence=0.48", "triple=e dbp:teams \"*Washington Senators\"@en", "class=HR_BaseballPlayer" ],
+    "29" : [ "pair=\"San Diego Padres\"@en", "Coherence=0.48", "triple=e dbp:debutteam \"San Diego Padres\"@en", "class=HR_BaseballPlayer" ],
+    "30" : [ "pair=\"New York Yankees\"@en", "Coherence=0.48", "triple=e dbp:debutteam \"New York Yankees\"@en", "class=HR_BaseballPlayer" ],
+    "31" : [ "pair=San_Diego_Padres", "Coherence=0.479", "triple=e dbo:debutTeam San_Diego_Padres", "class=HR_BaseballPlayer" ],
+    "32" : [ "pair=Kansas_City_Royals", "Coherence=0.479", "triple=e dbo:debutTeam Kansas_City_Royals", "class=HR_BaseballPlayer" ],
+    "33" : [ "pair=Hitting_for_the_cycle", "Coherence=0.479", "triple=e dbp:title Hitting_for_the_cycle", "class=HR_BaseballPlayer" ],
+    "34" : [ "pair=\"Chicago Cubs\"@en", "Coherence=0.479", "triple=e dbp:finalteam \"Chicago Cubs\"@en", "class=HR_BaseballPlayer" ],
+    "35" : [ "pair=\"*Chicago White Sox\"@en", "Coherence=0.479", "triple=e dbp:teams \"*Chicago White Sox\"@en", "class=HR_BaseballPlayer" ],
+    "36" : [ "pair=Baltimore_Orioles", "Coherence=0.478", "triple=e dbo:debutTeam Baltimore_Orioles", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 1438,
+  "pattern" : "maltese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Maltese_Premier_League", "Coherence=0.5", "triple=e dbp:competition Maltese_Premier_League", "class=HR_FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 1448,
+  "pattern" : "marine",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Marine Corps Expeditionary ribbon.svg\"@en", "Coherence=0.5", "triple=e dbp:ribbon \"Marine Corps Expeditionary ribbon.svg\"@en", "class=HR_MilitaryPerson" ],
+    "1" : [ "pair=United_States_Marine_Corps", "Coherence=0.48", "triple=e dbp:branch United_States_Marine_Corps", "class=HR_MilitaryPerson" ],
+    "2" : [ "pair=Ovulidae", "Coherence=0.5", "triple=e dbp:subfamilia Ovulidae", "class=HR_Mollusca" ],
+    "3" : [ "pair=Turrinae", "Coherence=0.5", "triple=e dbp:subfamilia Turrinae", "class=HR_Mollusca" ],
+    "4" : [ "pair=Muricinae", "Coherence=0.5", "triple=e dbp:subfamilia Muricinae", "class=HR_Mollusca" ],
+    "5" : [ "pair=Nassariidae", "Coherence=0.5", "triple=e dbp:subfamilia Nassariidae", "class=HR_Mollusca" ],
+    "6" : [ "pair=Turritellidae", "Coherence=0.5", "triple=e dbp:subfamilia Turritellidae", "class=HR_Mollusca" ],
+    "7" : [ "pair=Calliostomatinae", "Coherence=0.5", "triple=e dbp:subfamilia Calliostomatinae", "class=HR_Mollusca" ],
+    "8" : [ "pair=Muricopsinae", "Coherence=0.5", "triple=e dbp:subfamilia Muricopsinae", "class=HR_Mollusca" ],
+    "9" : [ "pair=Fasciolariidae", "Coherence=0.5", "triple=e dbp:subfamilia Fasciolariidae", "class=HR_Mollusca" ],
+    "10" : [ "pair=Coralliophilinae", "Coherence=0.5", "triple=e dbp:subfamilia Coralliophilinae", "class=HR_Mollusca" ],
+    "11" : [ "pair=Ergalataxinae", "Coherence=0.5", "triple=e dbp:subfamilia Ergalataxinae", "class=HR_Mollusca" ],
+    "12" : [ "pair=Euthyneura", "Coherence=0.5", "triple=e dbo:order Euthyneura", "class=HR_Mollusca" ],
+    "13" : [ "pair=Seguenzioidea", "Coherence=0.5", "triple=e dbp:superfamilia Seguenzioidea", "class=HR_Mollusca" ],
+    "14" : [ "pair=Naticidae", "Coherence=0.5", "triple=e dbp:superfamilia Naticidae", "class=HR_Mollusca" ],
+    "15" : [ "pair=Tonnoidea", "Coherence=0.5", "triple=e dbp:superfamilia Tonnoidea", "class=HR_Mollusca" ],
+    "16" : [ "pair=Doridoidea", "Coherence=0.5", "triple=e dbp:superfamilia Doridoidea", "class=HR_Mollusca" ],
+    "17" : [ "pair=Eucyclidae", "Coherence=0.5", "triple=e dbo:family Eucyclidae", "class=HR_Mollusca" ],
+    "18" : [ "pair=Prionovolvinae", "Coherence=0.5", "triple=e dbo:family Prionovolvinae", "class=HR_Mollusca" ],
+    "19" : [ "pair=Nassariinae", "Coherence=0.5", "triple=e dbo:family Nassariinae", "class=HR_Mollusca" ],
+    "20" : [ "pair=Rissoidae", "Coherence=0.5", "triple=e dbo:family Rissoidae", "class=HR_Mollusca" ],
+    "21" : [ "pair=Turritellinae", "Coherence=0.5", "triple=e dbo:family Turritellinae", "class=HR_Mollusca" ],
+    "22" : [ "pair=Peristerniinae", "Coherence=0.5", "triple=e dbo:family Peristerniinae", "class=HR_Mollusca" ],
+    "23" : [ "pair=Calliostomatidae", "Coherence=0.5", "triple=e dbo:family Calliostomatidae", "class=HR_Mollusca" ],
+    "24" : [ "pair=Goniodorididae", "Coherence=0.5", "triple=e dbo:family Goniodorididae", "class=HR_Mollusca" ],
+    "25" : [ "pair=Olivellidae", "Coherence=0.5", "triple=e dbo:family Olivellidae", "class=HR_Mollusca" ],
+    "26" : [ "pair=Discodorididae", "Coherence=0.5", "triple=e dbo:family Discodorididae", "class=HR_Mollusca" ]
+  }
+}, {
+  "id" : 1474,
+  "pattern" : "medical",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Medical_school", "Coherence=0.47", "triple=e dbp:type Medical_school", "class=HR_University" ]
+  }
+}, {
+  "id" : 1484,
+  "pattern" : "mexican",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Mexican\"@en", "Coherence=0.493", "triple=e dbp:nationality \"Mexican\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=Mexican_people", "Coherence=0.5", "triple=e dbo:stateOfOrigin Mexican_people", "class=HR_Person" ],
+    "2" : [ "pair=Mexico", "Coherence=0.495", "triple=e dbp:birthPlace Mexico", "class=HR_Person" ],
+    "3" : [ "pair=Mexico_national_football_team", "Coherence=0.481", "triple=e dbo:team Mexico_national_football_team", "class=HR_SoccerManager" ],
+    "4" : [ "pair=Telesistema_Mexicano", "Coherence=0.5", "triple=e dbo:channel Telesistema_Mexicano", "class=HR_TelevisionShow" ],
+    "5" : [ "pair=Canal_de_las_Estrellas", "Coherence=0.5", "triple=e dbo:channel Canal_de_las_Estrellas", "class=HR_TelevisionShow" ],
+    "6" : [ "pair=Televisa", "Coherence=0.5", "triple=e dbp:distributor Televisa", "class=HR_TelevisionShow" ],
+    "7" : [ "pair=Las_Estrellas", "Coherence=0.5", "triple=e dbp:channel Las_Estrellas", "class=HR_TelevisionShow" ],
+    "8" : [ "pair=\"Mexico\"@en", "Coherence=0.49", "triple=e dbp:country \"Mexico\"@en", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 1507,
+  "pattern" : "middle-distance",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Middle-distance running\"@en", "Coherence=0.5", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=//dbpedia.org/datatype/metre>", "Coherence=0.468", "triple=e dbp:event //dbpedia.org/datatype/metre>", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 1516,
+  "pattern" : "modern",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Modern_pentathlon", "Coherence=0.474", "triple=e dbp:sport Modern_pentathlon", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 1521,
+  "pattern" : "mongolian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"UTC + 8\"@en", "Coherence=0.5", "triple=e dbp:timezone \"UTC + 8\"@en", "class=HR_AdministrativeRegion" ],
+    "1" : [ "pair=Districts_of_Mongolia", "Coherence=0.5", "triple=e dbo:type Districts_of_Mongolia", "class=HR_AdministrativeRegion" ],
+    "2" : [ "pair=Mongolia", "Coherence=0.5", "triple=e dbp:subdivisionName Mongolia", "class=HR_AdministrativeRegion" ],
+    "3" : [ "pair=Provinces_of_Mongolia", "Coherence=0.5", "triple=e dbp:subdivisionType Provinces_of_Mongolia", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 1542,
+  "pattern" : "mughal",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Timurid_dynasty", "Coherence=0.446", "triple=e dbp:house Timurid_dynasty", "class=HR_Royalty" ]
+  }
+}, {
+  "id" : 1577,
+  "pattern" : "national",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.5", "triple=e dbo:draftYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_AmericanFootballPlayer" ],
+    "1" : [ "pair=Custer_County", "Coherence=0.5", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=Glacier_National_Park_(U.S.", "Coherence=0.495", "triple=e dbp:location Glacier_National_Park_(U.S.", "class=HR_BodyOfWater" ],
+    "3" : [ "pair=\"Idaho#USA\"@en", "Coherence=0.491", "triple=e dbp:pushpinMap \"Idaho#USA\"@en", "class=HR_BodyOfWater" ],
+    "4" : [ "pair=\"Utah\"@en", "Coherence=0.5", "triple=e dbp:locmapin \"Utah\"@en", "class=HR_Building" ],
+    "5" : [ "pair=\"Maine#USA\"@en", "Coherence=0.491", "triple=e dbp:locmapin \"Maine#USA\"@en", "class=HR_Building" ],
+    "6" : [ "pair=\"North Dakota#USA\"@en", "Coherence=0.489", "triple=e dbp:locmapin \"North Dakota#USA\"@en", "class=HR_Building" ],
+    "7" : [ "pair=\"Montana#USA\"@en", "Coherence=0.477", "triple=e dbp:locmapin \"Montana#USA\"@en", "class=HR_Building" ],
+    "8" : [ "pair=\"lightgreen\"@en", "Coherence=0.475", "triple=e dbp:designatedOther1Color \"lightgreen\"@en", "class=HR_Building" ],
+    "9" : [ "pair=\"Portland Historic Landmark\"@en", "Coherence=0.475", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ],
+    "10" : [ "pair=\"New Jersey Register of Historic Places\"@en", "Coherence=0.464", "triple=e dbp:designatedOther1Link \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "11" : [ "pair=Portland", "Coherence=0.464", "triple=e dbo:location Portland", "class=HR_Building" ],
+    "12" : [ "pair=\"#ffc94b\"@en", "Coherence=0.463", "triple=e dbp:designatedOther1Color \"#ffc94b\"@en", "class=HR_Building" ],
+    "13" : [ "pair=\"Connecticut#USA\"@en", "Coherence=0.463", "triple=e dbp:locmapin \"Connecticut#USA\"@en", "class=HR_Building" ],
+    "14" : [ "pair=\"NJRHP\"@en", "Coherence=0.462", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ],
+    "15" : [ "pair=\"Utah#USA\"@en", "Coherence=0.46", "triple=e dbp:locmapin \"Utah#USA\"@en", "class=HR_Building" ],
+    "16" : [ "pair=\"Missouri#USA\"@en", "Coherence=0.459", "triple=e dbp:locmapin \"Missouri#USA\"@en", "class=HR_Building" ],
+    "17" : [ "pair=\"Wisconsin#USA\"@en", "Coherence=0.456", "triple=e dbp:locmapin \"Wisconsin#USA\"@en", "class=HR_Building" ],
+    "18" : [ "pair=Classical_Revival_architecture", "Coherence=0.451", "triple=e dbo:architecturalStyle Classical_Revival_architecture", "class=HR_Building" ],
+    "19" : [ "pair=Luxembourg_National_Division", "Coherence=0.5", "triple=e dbp:competition Luxembourg_National_Division", "class=HR_FootballLeagueSeason" ],
+    "20" : [ "pair=Air_National_Guard", "Coherence=0.498", "triple=e dbo:militaryBranch Air_National_Guard", "class=HR_MilitaryUnit" ],
+    "21" : [ "pair=\"Location of Park\"@en", "Coherence=0.49", "triple=e dbp:mapCaption \"Location of Park\"@en", "class=HR_ProtectedArea" ],
+    "22" : [ "pair=United_States_Fish_and_Wildlife_Service", "Coherence=0.489", "triple=e dbp:governingBody United_States_Fish_and_Wildlife_Service", "class=HR_ProtectedArea" ],
+    "23" : [ "pair=National_park_(Brazil", "Coherence=0.486", "triple=e dbp:designation National_park_(Brazil", "class=HR_ProtectedArea" ],
+    "24" : [ "pair=\"Map of the United States\"@en", "Coherence=0.484", "triple=e dbp:mapCaption \"Map of the United States\"@en", "class=HR_ProtectedArea" ],
+    "25" : [ "pair=United_States_Forest_Service", "Coherence=0.483", "triple=e dbp:governingBody United_States_Forest_Service", "class=HR_ProtectedArea" ],
+    "26" : [ "pair=National_Park_Service", "Coherence=0.475", "triple=e dbp:governingBody National_Park_Service", "class=HR_ProtectedArea" ],
+    "27" : [ "pair=\"NH\"@en", "Coherence=0.5", "triple=e dbp:spurType \"NH\"@en", "class=HR_Road" ],
+    "28" : [ "pair=\"Map of the National Highway in red\"@en", "Coherence=0.5", "triple=e dbp:mapNotes \"Map of the National Highway in red\"@en", "class=HR_Road" ],
+    "29" : [ "pair=\"RNT\"@en", "Coherence=0.5", "triple=e dbp:previousType \"RNT\"@en", "class=HR_Road" ],
+    "30" : [ "pair=\"CRI\"@en", "Coherence=0.5", "triple=e dbp:country \"CRI\"@en", "class=HR_Road" ],
+    "31" : [ "pair=Confederation_of_African_Football", "Coherence=0.5", "triple=e dbp:confederation Confederation_of_African_Football", "class=HR_SoccerClub" ],
+    "32" : [ "pair=\"women\"@en", "Coherence=0.5", "triple=e dbp:type \"women\"@en", "class=HR_SoccerClub" ],
+    "33" : [ "pair=UEFA", "Coherence=0.496", "triple=e dbp:confederation UEFA", "class=HR_SoccerClub" ],
+    "34" : [ "pair=\"GER\"@en", "Coherence=0.494", "triple=e dbp:clubnat \"GER\"@en", "class=HR_SoccerClub" ],
+    "35" : [ "pair=Asian_Football_Confederation", "Coherence=0.494", "triple=e dbp:confederation Asian_Football_Confederation", "class=HR_SoccerClub" ],
+    "36" : [ "pair=\"ITA\"@en", "Coherence=0.493", "triple=e dbp:clubnat \"ITA\"@en", "class=HR_SoccerClub" ],
+    "37" : [ "pair=\"FRA\"@en", "Coherence=0.49", "triple=e dbp:clubnat \"FRA\"@en", "class=HR_SoccerClub" ],
+    "38" : [ "pair=Exhibition_game", "Coherence=0.486", "triple=e dbp:round Exhibition_game", "class=HR_SoccerClub" ],
+    "39" : [ "pair=CONCACAF", "Coherence=0.485", "triple=e dbp:confederation CONCACAF", "class=HR_SoccerClub" ],
+    "40" : [ "pair=\"\"@en", "Coherence=0.485", "triple=e dbp:association \"\"@en", "class=HR_SoccerClub" ],
+    "41" : [ "pair=\"ENG\"@en", "Coherence=0.482", "triple=e dbp:clubnat \"ENG\"@en", "class=HR_SoccerClub" ],
+    "42" : [ "pair=\"ESP\"@en", "Coherence=0.481", "triple=e dbp:clubnat \"ESP\"@en", "class=HR_SoccerClub" ]
+  }
+}, {
+  "id" : 1616,
+  "pattern" : "nationwide",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Israel State Cup\"@en", "Coherence=0.5", "triple=e dbp:title \"Israel State Cup\"@en", "class=HR_SoccerTournament" ],
+    "1" : [ "pair=Wellington", "Coherence=0.5", "triple=e dbp:venue Wellington", "class=HR_SoccerTournament" ]
+  }
+}, {
+  "id" : 1624,
+  "pattern" : "nazi",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"*2 shafts\\n*2 Ã diesel engines\\n*2 Ã electric motors\"@en", "Coherence=0.491", "triple=e dbp:shipPropulsion \"*2 shafts\\n*2 Ã diesel engines\\n*2 Ã electric motors\"@en", "class=HR_Ship" ],
+    "1" : [ "pair=\"Military of Germany\"@en", "Coherence=0.49", "triple=e dbp:portal \"Military of Germany\"@en", "class=HR_Ship" ],
+    "2" : [ "pair=\"@en", "Coherence=0.49", "triple=e dbp:shipTestDepth \"@en", "class=HR_Ship" ],
+    "3" : [ "pair=Type_IX_submarine", "Coherence=0.49", "triple=e dbp:shipClass Type_IX_submarine", "class=HR_Ship" ],
+    "4" : [ "pair=Type_VII_submarine", "Coherence=0.489", "triple=e dbp:shipClass Type_VII_submarine", "class=HR_Ship" ],
+    "5" : [ "pair=German_Type_VII_submarine", "Coherence=0.489", "triple=e dbo:class German_Type_VII_submarine", "class=HR_Ship" ],
+    "6" : [ "pair=\"Service record\"@en", "Coherence=0.483", "triple=e dbp:label \"Service record\"@en", "class=HR_Ship" ],
+    "7" : [ "pair=\"World War II\"@en", "Coherence=0.482", "triple=e dbp:portal \"World War II\"@en", "class=HR_Ship" ],
+    "8" : [ "pair=\"No patrols\"@en", "Coherence=0.48", "triple=e dbp:operations \"No patrols\"@en", "class=HR_Ship" ]
+  }
+}, {
+  "id" : 1680,
+  "pattern" : "north-central",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Kuyavian-Pomeranian_Voivodeship", "Coherence=0.5", "triple=e dbo:subdivision Kuyavian-Pomeranian_Voivodeship", "class=HR_Village" ]
+  }
+}, {
+  "id" : 1682,
+  "pattern" : "northern",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Pomeranian_Voivodeship", "Coherence=0.5", "triple=e dbp:subdivisionName Pomeranian_Voivodeship", "class=HR_Settlement" ]
+  }
+}, {
+  "id" : 1687,
+  "pattern" : "norwegian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Norway\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=Norway", "Coherence=0.5", "triple=e dbo:city Norway", "class=HR_Airport" ],
+    "2" : [ "pair=MÃ¸re_og_Romsdal", "Coherence=0.5", "triple=e dbo:location MÃ¸re_og_Romsdal", "class=HR_HistoricBuilding" ],
+    "3" : [ "pair=Nordland", "Coherence=0.5", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "4" : [ "pair=Agder", "Coherence=0.5", "triple=e dbo:location Agder", "class=HR_HistoricBuilding" ],
+    "5" : [ "pair=Troms_og_Finnmark", "Coherence=0.5", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "6" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "7" : [ "pair=Diocese_of_MÃ¸re", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ],
+    "8" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "9" : [ "pair=List_of_churches_in_Nidaros", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_Nidaros", "class=HR_HistoricBuilding" ],
+    "10" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "11" : [ "pair=\"Norwegian\"@en", "Coherence=0.495", "triple=e dbp:nationality \"Norwegian\"@en", "class=HR_Writer" ]
+  }
+}, {
+  "id" : 1691,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Science fiction novel\"@en", "Coherence=0.487", "triple=e dbp:genre \"Science fiction novel\"@en", "class=HR_Book" ],
+    "1" : [ "pair=Historical_novel", "Coherence=0.479", "triple=e dbo:literaryGenre Historical_novel", "class=HR_Book" ],
+    "2" : [ "pair=Novel", "Coherence=0.478", "triple=e dbo:literaryGenre Novel", "class=HR_Book" ],
+    "3" : [ "pair=Crime_fiction", "Coherence=0.475", "triple=e dbo:literaryGenre Crime_fiction", "class=HR_Book" ],
+    "4" : [ "pair=Crime_novel", "Coherence=0.474", "triple=e dbo:literaryGenre Crime_novel", "class=HR_Book" ],
+    "5" : [ "pair=\"Novel\"@en", "Coherence=0.472", "triple=e dbp:genre \"Novel\"@en", "class=HR_Book" ],
+    "6" : [ "pair=\"813/.54 19\"", "Coherence=0.472", "triple=e dbo:dcc \"813/.54 19\"", "class=HR_Book" ],
+    "7" : [ "pair=Thriller_(genre", "Coherence=0.472", "triple=e dbo:literaryGenre Thriller_(genre", "class=HR_Book" ],
+    "8" : [ "pair=Historical_fiction", "Coherence=0.47", "triple=e dbp:genre Historical_fiction", "class=HR_Book" ],
+    "9" : [ "pair=Horror_novel", "Coherence=0.469", "triple=e dbo:literaryGenre Horror_novel", "class=HR_Book" ],
+    "10" : [ "pair=BBC_Books", "Coherence=0.467", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "11" : [ "pair=\"Fiction\"@en", "Coherence=0.467", "triple=e dbp:genre \"Fiction\"@en", "class=HR_Book" ],
+    "12" : [ "pair=Romance_novel", "Coherence=0.465", "triple=e dbp:genre Romance_novel", "class=HR_Book" ],
+    "13" : [ "pair=Young_adult_novel", "Coherence=0.462", "triple=e dbo:literaryGenre Young_adult_novel", "class=HR_Book" ],
+    "14" : [ "pair=Spy_fiction", "Coherence=0.46", "triple=e dbp:genre Spy_fiction", "class=HR_Book" ],
+    "15" : [ "pair=\"813/.54 20\"", "Coherence=0.459", "triple=e dbo:dcc \"813/.54 20\"", "class=HR_Book" ],
+    "16" : [ "pair=Young_adult_fiction", "Coherence=0.457", "triple=e dbo:literaryGenre Young_adult_fiction", "class=HR_Book" ],
+    "17" : [ "pair=\"First US edition\"@en", "Coherence=0.456", "triple=e dbp:caption \"First US edition\"@en", "class=HR_Book" ],
+    "18" : [ "pair=\"@en", "Coherence=0.456", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "19" : [ "pair=G._P._Putnam's_Sons", "Coherence=0.455", "triple=e dbo:publisher G._P._Putnam's_Sons", "class=HR_Book" ],
+    "20" : [ "pair=\"813/.54 22\"", "Coherence=0.455", "triple=e dbo:dcc \"813/.54 22\"", "class=HR_Book" ],
+    "21" : [ "pair=Fiction", "Coherence=0.453", "triple=e dbp:genre Fiction", "class=HR_Book" ],
+    "22" : [ "pair=Fantasy_novel", "Coherence=0.453", "triple=e dbo:literaryGenre Fantasy_novel", "class=HR_Book" ],
+    "23" : [ "pair=Fantasy_literature", "Coherence=0.45", "triple=e dbp:genre Fantasy_literature", "class=HR_Book" ],
+    "24" : [ "pair=Del_Rey_Books", "Coherence=0.45", "triple=e dbo:publisher Del_Rey_Books", "class=HR_Book" ]
+  }
+}, {
+  "id" : 1723,
+  "pattern" : "olivella",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Olivellidae", "Coherence=0.5", "triple=e dbo:family Olivellidae", "class=HR_Mollusca" ]
+  }
+}, {
+  "id" : 1724,
+  "pattern" : "olivellidae",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Olivellidae", "Coherence=0.5", "triple=e dbo:family Olivellidae", "class=HR_Mollusca" ]
+  }
+}, {
+  "id" : 1737,
+  "pattern" : "orchid",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Rchb.f.", "Coherence=0.495", "triple=e dbo:binomialAuthority Rchb.f.", "class=HR_Plant" ],
+    "1" : [ "pair=\"Lindl.\"@en", "Coherence=0.485", "triple=e dbp:binomialAuthority \"Lindl.\"@en", "class=HR_Plant" ],
+    "2" : [ "pair=Cymbidieae", "Coherence=0.482", "triple=e dbo:family Cymbidieae", "class=HR_Plant" ],
+    "3" : [ "pair=Stanhopeinae", "Coherence=0.476", "triple=e dbp:subtribus Stanhopeinae", "class=HR_Plant" ],
+    "4" : [ "pair=Aeridinae", "Coherence=0.476", "triple=e dbp:subtribus Aeridinae", "class=HR_Plant" ],
+    "5" : [ "pair=Pleurothallidinae", "Coherence=0.474", "triple=e dbp:subtribus Pleurothallidinae", "class=HR_Plant" ],
+    "6" : [ "pair=Oncidiinae", "Coherence=0.469", "triple=e dbp:subtribus Oncidiinae", "class=HR_Plant" ],
+    "7" : [ "pair=Epidendreae", "Coherence=0.468", "triple=e dbo:family Epidendreae", "class=HR_Plant" ],
+    "8" : [ "pair=Laeliinae", "Coherence=0.467", "triple=e dbp:subtribus Laeliinae", "class=HR_Plant" ]
+  }
+}, {
+  "id" : 1746,
+  "pattern" : "original",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Coherence=0.465", "triple=e dbp:subject \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 1765,
+  "pattern" : "pakistani",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Pakistani\"@en", "Coherence=0.492", "triple=e dbp:nationality \"Pakistani\"@en", "class=HR_Politician" ],
+    "1" : [ "pair=Pakistan", "Coherence=0.468", "triple=e dbo:country Pakistan", "class=HR_TelevisionShow" ],
+    "2" : [ "pair=Urdu", "Coherence=0.461", "triple=e dbo:language Urdu", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 1818,
+  "pattern" : "perennial",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Australia Victoria\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Australia Victoria\"@en", "class=HR_River" ],
+    "1" : [ "pair=Victoria_(Australia", "Coherence=0.467", "triple=e dbp:subdivisionName Victoria_(Australia", "class=HR_River" ]
+  }
+}, {
+  "id" : 1823,
+  "pattern" : "peruvian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Peruvian_Primera_DivisiÃ³n", "Coherence=0.495", "triple=e dbp:competition Peruvian_Primera_DivisiÃ³n", "class=HR_FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 1829,
+  "pattern" : "philippine",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"GMA Entertainment TV\"@en", "Coherence=0.496", "triple=e dbp:company \"GMA Entertainment TV\"@en", "class=HR_TelevisionShow" ],
+    "1" : [ "pair=GMA_Network", "Coherence=0.488", "triple=e dbp:network GMA_Network", "class=HR_TelevisionShow" ],
+    "2" : [ "pair=\"Tagalog\"@en", "Coherence=0.486", "triple=e dbp:language \"Tagalog\"@en", "class=HR_TelevisionShow" ],
+    "3" : [ "pair=\"vertical\"@en", "Coherence=0.465", "triple=e dbp:direction \"vertical\"@en", "class=HR_TelevisionShow" ],
+    "4" : [ "pair=\"Philippines\"@en", "Coherence=0.459", "triple=e dbp:country \"Philippines\"@en", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 1835,
+  "pattern" : "picture-winged",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Ulidiidae", "Coherence=0.5", "triple=e dbo:family Ulidiidae", "class=HR_Insect" ]
+  }
+}, {
+  "id" : 1858,
+  "pattern" : "polish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Coherence=0.5", "triple=e dbp:mapCaption \"Location within the voivodeship\"@en", "class=HR_AdministrativeRegion" ],
+    "1" : [ "pair=Powiat", "Coherence=0.5", "triple=e dbo:type Powiat", "class=HR_AdministrativeRegion" ],
+    "2" : [ "pair=Vehicle_registration_plates_of_Poland", "Coherence=0.5", "triple=e dbp:blankName Vehicle_registration_plates_of_Poland", "class=HR_AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Coherence=0.5", "triple=e dbp:partsType \"Gminas\"@en", "class=HR_AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Coherence=0.5", "triple=e dbp:populationBlank1Title \"Rural\"@en", "class=HR_AdministrativeRegion" ],
+    "5" : [ "pair=\"Polish\"@en", "Coherence=0.46", "triple=e dbp:nationality \"Polish\"@en", "class=HR_Artist" ],
+    "6" : [ "pair=Poland", "Coherence=0.445", "triple=e dbo:birthPlace Poland", "class=HR_Cyclist" ],
+    "7" : [ "pair=\"Poland\"@en", "Coherence=0.46", "triple=e dbp:country \"Poland\"@en", "class=HR_PoliticalParty" ],
+    "8" : [ "pair=Poland_national_football_team", "Coherence=0.495", "triple=e dbp:nationalteam Poland_national_football_team", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 1860,
+  "pattern" : "political",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=South_Korea", "Coherence=0.488", "triple=e dbo:country South_Korea", "class=HR_PoliticalParty" ],
+    "1" : [ "pair=European_People's_Party", "Coherence=0.488", "triple=e dbo:europeanAffiliation European_People's_Party", "class=HR_PoliticalParty" ],
+    "2" : [ "pair=Chamber_of_Deputies_(Italy", "Coherence=0.487", "triple=e dbp:seats1Title Chamber_of_Deputies_(Italy", "class=HR_PoliticalParty" ],
+    "3" : [ "pair=Senate_of_the_Republic_(Italy", "Coherence=0.486", "triple=e dbp:seats2Title Senate_of_the_Republic_(Italy", "class=HR_PoliticalParty" ],
+    "4" : [ "pair=Alliance_of_Liberals_and_Democrats_for_Europe_Party", "Coherence=0.485", "triple=e dbo:europeanAffiliation Alliance_of_Liberals_and_Democrats_for_Europe_Party", "class=HR_PoliticalParty" ],
+    "5" : [ "pair=\"Denmark\"@en", "Coherence=0.485", "triple=e dbp:country \"Denmark\"@en", "class=HR_PoliticalParty" ],
+    "6" : [ "pair=Croatia", "Coherence=0.484", "triple=e dbo:country Croatia", "class=HR_PoliticalParty" ],
+    "7" : [ "pair=Islam_and_democracy", "Coherence=0.484", "triple=e dbp:ideology Islam_and_democracy", "class=HR_PoliticalParty" ],
+    "8" : [ "pair=Centrist_Democrat_International", "Coherence=0.484", "triple=e dbo:internationalAffiliation Centrist_Democrat_International", "class=HR_PoliticalParty" ],
+    "9" : [ "pair=\"Thailand\"@en", "Coherence=0.482", "triple=e dbp:country \"Thailand\"@en", "class=HR_PoliticalParty" ],
+    "10" : [ "pair=\"the Czech Republic\"@en", "Coherence=0.482", "triple=e dbp:country \"the Czech Republic\"@en", "class=HR_PoliticalParty" ],
+    "11" : [ "pair=\"Secretary\"@en", "Coherence=0.481", "triple=e dbp:leader1Title \"Secretary\"@en", "class=HR_PoliticalParty" ],
+    "12" : [ "pair=\"Croatia\"@en", "Coherence=0.481", "triple=e dbp:country \"Croatia\"@en", "class=HR_PoliticalParty" ],
+    "13" : [ "pair=European_People's_Party_group", "Coherence=0.481", "triple=e dbo:europeanParliamentGroup European_People's_Party_group", "class=HR_PoliticalParty" ],
+    "14" : [ "pair=Zagreb", "Coherence=0.481", "triple=e dbo:headquarter Zagreb", "class=HR_PoliticalParty" ],
+    "15" : [ "pair=Islamic_democracy", "Coherence=0.481", "triple=e dbo:ideology Islamic_democracy", "class=HR_PoliticalParty" ],
+    "16" : [ "pair=Political_parties_of_minorities", "Coherence=0.48", "triple=e dbp:ideology Political_parties_of_minorities", "class=HR_PoliticalParty" ],
+    "17" : [ "pair=Orange_(colour", "Coherence=0.48", "triple=e dbo:colour Orange_(colour", "class=HR_PoliticalParty" ],
+    "18" : [ "pair=Party_of_European_Socialists", "Coherence=0.48", "triple=e dbp:european Party_of_European_Socialists", "class=HR_PoliticalParty" ],
+    "19" : [ "pair=\"President\"@en", "Coherence=0.479", "triple=e dbp:leader2Title \"President\"@en", "class=HR_PoliticalParty" ],
+    "20" : [ "pair=Santiago", "Coherence=0.479", "triple=e dbp:headquarters Santiago", "class=HR_PoliticalParty" ],
+    "21" : [ "pair=Third_Way", "Coherence=0.479", "triple=e dbp:ideology Third_Way", "class=HR_PoliticalParty" ],
+    "22" : [ "pair=Rome", "Coherence=0.479", "triple=e dbo:headquarter Rome", "class=HR_PoliticalParty" ],
+    "23" : [ "pair=\"None\"@en", "Coherence=0.479", "triple=e dbp:european \"None\"@en", "class=HR_PoliticalParty" ],
+    "24" : [ "pair=White", "Coherence=0.479", "triple=e dbo:colour White", "class=HR_PoliticalParty" ],
+    "25" : [ "pair=\"December 2009\"@en", "Coherence=0.479", "triple=e dbp:date \"December 2009\"@en", "class=HR_PoliticalParty" ],
+    "26" : [ "pair=\"yes\"@en", "Coherence=0.479", "triple=e dbp:auto \"yes\"@en", "class=HR_PoliticalParty" ],
+    "27" : [ "pair=\"Chinese\"@en", "Coherence=0.478", "triple=e dbp:lang \"Chinese\"@en", "class=HR_PoliticalParty" ],
+    "28" : [ "pair=\"Active provincial party\"@en", "Coherence=0.478", "triple=e dbp:Subheader \"Active provincial party\"@en", "class=HR_PoliticalParty" ],
+    "29" : [ "pair=Progressive_Alliance", "Coherence=0.477", "triple=e dbo:internationalAffiliation Progressive_Alliance", "class=HR_PoliticalParty" ],
+    "30" : [ "pair=European_Parliament", "Coherence=0.477", "triple=e dbp:seats3Title European_Parliament", "class=HR_PoliticalParty" ],
+    "31" : [ "pair=\"Regional affiliation\"@en", "Coherence=0.477", "triple=e dbp:affiliation1Title \"Regional affiliation\"@en", "class=HR_PoliticalParty" ],
+    "32" : [ "pair=\"Myanmar\"@en", "Coherence=0.477", "triple=e dbp:country \"Myanmar\"@en", "class=HR_PoliticalParty" ],
+    "33" : [ "pair=European_Green_Party", "Coherence=0.476", "triple=e dbp:european European_Green_Party", "class=HR_PoliticalParty" ],
+    "34" : [ "pair=Blue", "Coherence=0.476", "triple=e dbp:colours Blue", "class=HR_PoliticalParty" ],
+    "35" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.475", "triple=e dbo:dissolutionYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_PoliticalParty" ],
+    "36" : [ "pair=\"Malay\"@en", "Coherence=0.475", "triple=e dbp:lang \"Malay\"@en", "class=HR_PoliticalParty" ],
+    "37" : [ "pair=Global_Greens", "Coherence=0.475", "triple=e dbp:international Global_Greens", "class=HR_PoliticalParty" ],
+    "38" : [ "pair=International_Democrat_Union", "Coherence=0.474", "triple=e dbo:internationalAffiliation International_Democrat_Union", "class=HR_PoliticalParty" ],
+    "39" : [ "pair=Hungary", "Coherence=0.474", "triple=e dbo:country Hungary", "class=HR_PoliticalParty" ],
+    "40" : [ "pair=Decentralization", "Coherence=0.474", "triple=e dbp:ideology Decentralization", "class=HR_PoliticalParty" ],
+    "41" : [ "pair=National_conservatism", "Coherence=0.474", "triple=e dbp:ideology National_conservatism", "class=HR_PoliticalParty" ],
+    "42" : [ "pair=Centrism", "Coherence=0.474", "triple=e dbp:position Centrism", "class=HR_PoliticalParty" ],
+    "43" : [ "pair=Populism", "Coherence=0.474", "triple=e dbp:ideology Populism", "class=HR_PoliticalParty" ],
+    "44" : [ "pair=Sri_Lanka", "Coherence=0.474", "triple=e dbo:country Sri_Lanka", "class=HR_PoliticalParty" ],
+    "45" : [ "pair=\"South Korea\"@en", "Coherence=0.473", "triple=e dbp:country \"South Korea\"@en", "class=HR_PoliticalParty" ],
+    "46" : [ "pair=Ankara", "Coherence=0.472", "triple=e dbo:headquarter Ankara", "class=HR_PoliticalParty" ],
+    "47" : [ "pair=\"Seats in the National Assembly\"@en", "Coherence=0.472", "triple=e dbp:seats1Title \"Seats in the National Assembly\"@en", "class=HR_PoliticalParty" ],
+    "48" : [ "pair=Right-wing_populism", "Coherence=0.472", "triple=e dbp:ideology Right-wing_populism", "class=HR_PoliticalParty" ],
+    "49" : [ "pair=\"Founder\"@en", "Coherence=0.472", "triple=e dbp:leader2Title \"Founder\"@en", "class=HR_PoliticalParty" ],
+    "50" : [ "pair=Pan-Africanism", "Coherence=0.472", "triple=e dbp:ideology Pan-Africanism", "class=HR_PoliticalParty" ],
+    "51" : [ "pair=\"Right-wing to far-right\"@en", "Coherence=0.472", "triple=e dbp:position \"Right-wing to far-right\"@en", "class=HR_PoliticalParty" ],
+    "52" : [ "pair=Canada", "Coherence=0.471", "triple=e dbo:country Canada", "class=HR_PoliticalParty" ],
+    "53" : [ "pair=\"Seats in the House of Commons\"@en", "Coherence=0.471", "triple=e dbp:seats1Title \"Seats in the House of Commons\"@en", "class=HR_PoliticalParty" ],
+    "54" : [ "pair=Big_tent", "Coherence=0.471", "triple=e dbp:ideology Big_tent", "class=HR_PoliticalParty" ],
+    "55" : [ "pair=\"Seats in the Senate\"@en", "Coherence=0.471", "triple=e dbp:seats2Title \"Seats in the Senate\"@en", "class=HR_PoliticalParty" ],
+    "56" : [ "pair=Myanmar", "Coherence=0.471", "triple=e dbo:country Myanmar", "class=HR_PoliticalParty" ],
+    "57" : [ "pair=\"Centre to centre-left\"@en", "Coherence=0.471", "triple=e dbp:position \"Centre to centre-left\"@en", "class=HR_PoliticalParty" ],
+    "58" : [ "pair=Progressive_Alliance_of_Socialists_and_Democrats", "Coherence=0.471", "triple=e dbo:europeanParliamentGroup Progressive_Alliance_of_Socialists_and_Democrats", "class=HR_PoliticalParty" ],
+    "59" : [ "pair=\"Seats in Legislature\"@en", "Coherence=0.471", "triple=e dbp:seats3Title \"Seats in Legislature\"@en", "class=HR_PoliticalParty" ],
+    "60" : [ "pair=\"Green\"@en", "Coherence=0.471", "triple=e dbp:colours \"Green\"@en", "class=HR_PoliticalParty" ],
+    "61" : [ "pair=\"Fiscal policy\"@en", "Coherence=0.471", "triple=e dbp:blank1Title \"Fiscal policy\"@en", "class=HR_PoliticalParty" ],
+    "62" : [ "pair=\"yellow\"@en", "Coherence=0.471", "triple=e dbp:colorcode \"yellow\"@en", "class=HR_PoliticalParty" ],
+    "63" : [ "pair=\"Social policy\"@en", "Coherence=0.47", "triple=e dbp:blank2Title \"Social policy\"@en", "class=HR_PoliticalParty" ],
+    "64" : [ "pair=Civic_nationalism", "Coherence=0.47", "triple=e dbp:ideology Civic_nationalism", "class=HR_PoliticalParty" ],
+    "65" : [ "pair=\"South Africa\"@en", "Coherence=0.47", "triple=e dbp:country \"South Africa\"@en", "class=HR_PoliticalParty" ],
+    "66" : [ "pair=Socialist_International", "Coherence=0.47", "triple=e dbo:internationalAffiliation Socialist_International", "class=HR_PoliticalParty" ],
+    "67" : [ "pair=\"Sri Lanka\"@en", "Coherence=0.47", "triple=e dbp:country \"Sri Lanka\"@en", "class=HR_PoliticalParty" ],
+    "68" : [ "pair=Green", "Coherence=0.47", "triple=e dbp:colours Green", "class=HR_PoliticalParty" ],
+    "69" : [ "pair=Social_conservatism", "Coherence=0.47", "triple=e dbp:ideology Social_conservatism", "class=HR_PoliticalParty" ],
+    "70" : [ "pair=Euroscepticism", "Coherence=0.469", "triple=e dbp:ideology Euroscepticism", "class=HR_PoliticalParty" ],
+    "71" : [ "pair=Ukraine", "Coherence=0.469", "triple=e dbo:country Ukraine", "class=HR_PoliticalParty" ],
+    "72" : [ "pair=Reformism", "Coherence=0.468", "triple=e dbo:ideology Reformism", "class=HR_PoliticalParty" ],
+    "73" : [ "pair=Right-wing_politics", "Coherence=0.467", "triple=e dbp:position Right-wing_politics", "class=HR_PoliticalParty" ],
+    "74" : [ "pair=Parliament_of_Egypt", "Coherence=0.467", "triple=e dbp:seats1Title Parliament_of_Egypt", "class=HR_PoliticalParty" ],
+    "75" : [ "pair=\"\"@en", "Coherence=0.467", "triple=e dbp:position \"\"@en", "class=HR_PoliticalParty" ],
+    "76" : [ "pair=Pro-Europeanism", "Coherence=0.467", "triple=e dbp:ideology Pro-Europeanism", "class=HR_PoliticalParty" ],
+    "77" : [ "pair=Yellow", "Coherence=0.467", "triple=e dbp:colours Yellow", "class=HR_PoliticalParty" ],
+    "78" : [ "pair=\"Blue\"@en", "Coherence=0.467", "triple=e dbp:colours \"Blue\"@en", "class=HR_PoliticalParty" ],
+    "79" : [ "pair=Christian_democracy", "Coherence=0.467", "triple=e dbp:ideology Christian_democracy", "class=HR_PoliticalParty" ],
+    "80" : [ "pair=Conservatism", "Coherence=0.467", "triple=e dbp:ideology Conservatism", "class=HR_PoliticalParty" ],
+    "81" : [ "pair=\"Romania\"@en", "Coherence=0.467", "triple=e dbp:country \"Romania\"@en", "class=HR_PoliticalParty" ],
+    "82" : [ "pair=\"Serbia\"@en", "Coherence=0.466", "triple=e dbp:country \"Serbia\"@en", "class=HR_PoliticalParty" ],
+    "83" : [ "pair=Dewan_Rakyat", "Coherence=0.466", "triple=e dbp:seats2Title Dewan_Rakyat", "class=HR_PoliticalParty" ],
+    "84" : [ "pair=South_Africa", "Coherence=0.466", "triple=e dbo:country South_Africa", "class=HR_PoliticalParty" ],
+    "85" : [ "pair=Dewan_Negara", "Coherence=0.466", "triple=e dbp:seats1Title Dewan_Negara", "class=HR_PoliticalParty" ],
+    "86" : [ "pair=\"Italy\"@en", "Coherence=0.466", "triple=e dbp:country \"Italy\"@en", "class=HR_PoliticalParty" ],
+    "87" : [ "pair=Direct_democracy", "Coherence=0.466", "triple=e dbp:ideology Direct_democracy", "class=HR_PoliticalParty" ],
+    "88" : [ "pair=Localism_(politics", "Coherence=0.466", "triple=e dbp:ideology Localism_(politics", "class=HR_PoliticalParty" ],
+    "89" : [ "pair=\"Purple\"@en", "Coherence=0.466", "triple=e dbo:colourName \"Purple\"@en", "class=HR_PoliticalParty" ],
+    "90" : [ "pair=Economic_liberalism", "Coherence=0.466", "triple=e dbp:ideology Economic_liberalism", "class=HR_PoliticalParty" ],
+    "91" : [ "pair=\"green\"@en", "Coherence=0.465", "triple=e dbp:colorcode \"green\"@en", "class=HR_PoliticalParty" ],
+    "92" : [ "pair=\"Canada\"@en", "Coherence=0.465", "triple=e dbp:country \"Canada\"@en", "class=HR_PoliticalParty" ],
+    "93" : [ "pair=\"Chile\"@en", "Coherence=0.465", "triple=e dbp:country \"Chile\"@en", "class=HR_PoliticalParty" ],
+    "94" : [ "pair=Israel", "Coherence=0.465", "triple=e dbo:country Israel", "class=HR_PoliticalParty" ],
+    "95" : [ "pair=Nationalism", "Coherence=0.464", "triple=e dbo:ideology Nationalism", "class=HR_PoliticalParty" ],
+    "96" : [ "pair=Conservative_liberalism", "Coherence=0.464", "triple=e dbo:ideology Conservative_liberalism", "class=HR_PoliticalParty" ],
+    "97" : [ "pair=\"Centre to centre-right\"@en", "Coherence=0.464", "triple=e dbp:position \"Centre to centre-right\"@en", "class=HR_PoliticalParty" ],
+    "98" : [ "pair=\"Orange\"@en", "Coherence=0.464", "triple=e dbp:colours \"Orange\"@en", "class=HR_PoliticalParty" ],
+    "99" : [ "pair=Malaysia", "Coherence=0.464", "triple=e dbo:country Malaysia", "class=HR_PoliticalParty" ],
+    "100" : [ "pair=Liberal_International", "Coherence=0.464", "triple=e dbo:internationalAffiliation Liberal_International", "class=HR_PoliticalParty" ],
+    "101" : [ "pair=\"Japan\"@en", "Coherence=0.464", "triple=e dbp:country \"Japan\"@en", "class=HR_PoliticalParty" ],
+    "102" : [ "pair=Serbia", "Coherence=0.464", "triple=e dbo:country Serbia", "class=HR_PoliticalParty" ],
+    "103" : [ "pair=Autonomism_(political_doctrine", "Coherence=0.464", "triple=e dbp:ideology Autonomism_(political_doctrine", "class=HR_PoliticalParty" ],
+    "104" : [ "pair=\"orange\"@en", "Coherence=0.463", "triple=e dbp:colorcode \"orange\"@en", "class=HR_PoliticalParty" ],
+    "105" : [ "pair=Social_democracy", "Coherence=0.463", "triple=e dbo:ideology Social_democracy", "class=HR_PoliticalParty" ],
+    "106" : [ "pair=\"Hungary\"@en", "Coherence=0.463", "triple=e dbp:country \"Hungary\"@en", "class=HR_PoliticalParty" ],
+    "107" : [ "pair=\"Ukraine\"@en", "Coherence=0.463", "triple=e dbp:country \"Ukraine\"@en", "class=HR_PoliticalParty" ],
+    "108" : [ "pair=\"Brazil\"@en", "Coherence=0.463", "triple=e dbp:country \"Brazil\"@en", "class=HR_PoliticalParty" ],
+    "109" : [ "pair=Social_liberalism", "Coherence=0.463", "triple=e dbo:ideology Social_liberalism", "class=HR_PoliticalParty" ],
+    "110" : [ "pair=\"Argentina\"@en", "Coherence=0.463", "triple=e dbp:country \"Argentina\"@en", "class=HR_PoliticalParty" ],
+    "111" : [ "pair=Environmentalism", "Coherence=0.463", "triple=e dbo:ideology Environmentalism", "class=HR_PoliticalParty" ],
+    "112" : [ "pair=\"Centre-left to left-wing\"@en", "Coherence=0.462", "triple=e dbp:position \"Centre-left to left-wing\"@en", "class=HR_PoliticalParty" ],
+    "113" : [ "pair=Italy", "Coherence=0.462", "triple=e dbo:country Italy", "class=HR_PoliticalParty" ],
+    "114" : [ "pair=Regionalism_(politics", "Coherence=0.462", "triple=e dbp:ideology Regionalism_(politics", "class=HR_PoliticalParty" ],
+    "115" : [ "pair=Centre-left_politics", "Coherence=0.462", "triple=e dbp:position Centre-left_politics", "class=HR_PoliticalParty" ],
+    "116" : [ "pair=\"Hong Kong\"@en", "Coherence=0.461", "triple=e dbp:country \"Hong Kong\"@en", "class=HR_PoliticalParty" ],
+    "117" : [ "pair=\"the Republic of Ireland\"@en", "Coherence=0.461", "triple=e dbp:country \"the Republic of Ireland\"@en", "class=HR_PoliticalParty" ],
+    "118" : [ "pair=Centre-right_politics", "Coherence=0.461", "triple=e dbp:position Centre-right_politics", "class=HR_PoliticalParty" ],
+    "119" : [ "pair=Kyiv", "Coherence=0.46", "triple=e dbp:headquarters Kyiv", "class=HR_PoliticalParty" ],
+    "120" : [ "pair=Liberalism", "Coherence=0.46", "triple=e dbp:ideology Liberalism", "class=HR_PoliticalParty" ],
+    "121" : [ "pair=Liberal_democracy", "Coherence=0.46", "triple=e dbp:ideology Liberal_democracy", "class=HR_PoliticalParty" ],
+    "122" : [ "pair=Egypt", "Coherence=0.46", "triple=e dbo:country Egypt", "class=HR_PoliticalParty" ],
+    "123" : [ "pair=\"Israel\"@en", "Coherence=0.46", "triple=e dbp:country \"Israel\"@en", "class=HR_PoliticalParty" ],
+    "124" : [ "pair=\"Sweden\"@en", "Coherence=0.46", "triple=e dbp:country \"Sweden\"@en", "class=HR_PoliticalParty" ],
+    "125" : [ "pair=Agrarianism", "Coherence=0.46", "triple=e dbp:ideology Agrarianism", "class=HR_PoliticalParty" ],
+    "126" : [ "pair=Islamism", "Coherence=0.459", "triple=e dbp:ideology Islamism", "class=HR_PoliticalParty" ]
+  }
+}, {
+  "id" : 1896,
+  "pattern" : "presidential",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=New_York_(state", "Coherence=0.5", "triple=e dbp:homestate New_York_(state", "class=HR_Election" ],
+    "1" : [ "pair=Ohio", "Coherence=0.5", "triple=e dbp:homestate Ohio", "class=HR_Election" ],
+    "2" : [ "pair=Illinois", "Coherence=0.5", "triple=e dbp:homestate Illinois", "class=HR_Election" ],
+    "3" : [ "pair=\"Donald Trump official portrait .jpg\"@en", "Coherence=0.5", "triple=e dbp:image \"Donald Trump official portrait .jpg\"@en", "class=HR_Election" ],
+    "4" : [ "pair=//dbpedia.org/datatype/perCent>", "Coherence=0.5", "triple=e dbp:evprct //dbpedia.org/datatype/perCent>", "class=HR_Election" ],
+    "5" : [ "pair=Arizona", "Coherence=0.5", "triple=e dbp:homeState Arizona", "class=HR_Election" ],
+    "6" : [ "pair=Georgia_(U.S._state", "Coherence=0.5", "triple=e dbp:homeState Georgia_(U.S._state", "class=HR_Election" ],
+    "7" : [ "pair=Minnesota", "Coherence=0.5", "triple=e dbp:homeState Minnesota", "class=HR_Election" ],
+    "8" : [ "pair=Vermont", "Coherence=0.5", "triple=e dbp:homeState Vermont", "class=HR_Election" ],
+    "9" : [ "pair=Franklin_D._Roosevelt", "Coherence=0.5", "triple=e dbp:beforeElection Franklin_D._Roosevelt", "class=HR_Election" ],
+    "10" : [ "pair=Barack_Obama", "Coherence=0.5", "triple=e dbp:beforeElection Barack_Obama", "class=HR_Election" ],
+    "11" : [ "pair=Indiana", "Coherence=0.5", "triple=e dbp:vpState Indiana", "class=HR_Election" ],
+    "12" : [ "pair=California", "Coherence=0.498", "triple=e dbp:homeState California", "class=HR_Election" ],
+    "13" : [ "pair=Massachusetts", "Coherence=0.497", "triple=e dbp:homeState Massachusetts", "class=HR_Election" ],
+    "14" : [ "pair=Arkansas", "Coherence=0.497", "triple=e dbp:homeState Arkansas", "class=HR_Election" ],
+    "15" : [ "pair=\"Franklin D. Roosevelt\"@en", "Coherence=0.496", "triple=e dbp:nominee \"Franklin D. Roosevelt\"@en", "class=HR_Election" ],
+    "16" : [ "pair=\"x200px\"@en", "Coherence=0.496", "triple=e dbp:imageSize \"x200px\"@en", "class=HR_Election" ],
+    "17" : [ "pair=Nebraska", "Coherence=0.496", "triple=e dbp:homeState Nebraska", "class=HR_Election" ]
+  }
+}, {
+  "id" : 1900,
+  "pattern" : "private",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=National_Association_of_Independent_Colleges_and_Universities", "Coherence=0.47", "triple=e dbp:affiliations National_Association_of_Independent_Colleges_and_Universities", "class=HR_University" ]
+  }
+}, {
+  "id" : 1904,
+  "pattern" : "professional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "Coherence=0.496", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"Free agent\"@en", "Coherence=0.495", "triple=e dbp:team \"Free agent\"@en", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=Free_agent", "Coherence=0.489", "triple=e dbo:team Free_agent", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=\"KBO\"@en", "Coherence=0.487", "triple=e dbp:debut2league \"KBO\"@en", "class=HR_BaseballPlayer" ],
+    "4" : [ "pair=Winâloss_record_(pitching", "Coherence=0.479", "triple=e dbp:stat21label Winâloss_record_(pitching", "class=HR_BaseballPlayer" ],
+    "5" : [ "pair=San_Antonio_Rampage", "Coherence=0.5", "triple=e dbo:formerTeam San_Antonio_Rampage", "class=HR_IceHockeyPlayer" ],
+    "6" : [ "pair=Ottawa_Senators", "Coherence=0.5", "triple=e dbp:formerTeams Ottawa_Senators", "class=HR_IceHockeyPlayer" ]
+  }
+}, {
+  "id" : 1909,
+  "pattern" : "pronounced",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=List_of_Burmese_consorts", "Coherence=0.457", "triple=e dbp:title List_of_Burmese_consorts", "class=HR_Royalty" ],
+    "1" : [ "pair=\"Location in Slovenia\"@en", "Coherence=0.5", "triple=e dbp:pushpinMapCaption \"Location in Slovenia\"@en", "class=HR_Settlement" ],
+    "2" : [ "pair=Southeast_Slovenia_Statistical_Region", "Coherence=0.5", "triple=e dbp:subdivisionName Southeast_Slovenia_Statistical_Region", "class=HR_Settlement" ],
+    "3" : [ "pair=Styria_(Slovenia", "Coherence=0.5", "triple=e dbp:subdivisionName Styria_(Slovenia", "class=HR_Settlement" ],
+    "4" : [ "pair=Central_Slovenia_Statistical_Region", "Coherence=0.5", "triple=e dbp:subdivisionName Central_Slovenia_Statistical_Region", "class=HR_Settlement" ],
+    "5" : [ "pair=Lower_Carniola", "Coherence=0.5", "triple=e dbp:subdivisionName Lower_Carniola", "class=HR_Settlement" ],
+    "6" : [ "pair=Slovenia", "Coherence=0.5", "triple=e dbo:country Slovenia", "class=HR_Settlement" ],
+    "7" : [ "pair=\"Traditional region\"@en", "Coherence=0.5", "triple=e dbp:subdivisionType \"Traditional region\"@en", "class=HR_Settlement" ],
+    "8" : [ "pair=Municipalities_of_Slovenia", "Coherence=0.5", "triple=e dbp:subdivisionType Municipalities_of_Slovenia", "class=HR_Settlement" ],
+    "9" : [ "pair=Statistical_regions_of_Slovenia", "Coherence=0.5", "triple=e dbp:subdivisionType Statistical_regions_of_Slovenia", "class=HR_Settlement" ],
+    "10" : [ "pair=\"Slovenia\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Slovenia\"@en", "class=HR_Settlement" ],
+    "11" : [ "pair=Lower_Styria", "Coherence=0.5", "triple=e dbo:subdivision Lower_Styria", "class=HR_Settlement" ]
+  }
+}, {
+  "id" : 1930,
+  "pattern" : "provincial",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Ontario_Parks", "Coherence=0.485", "triple=e dbp:governingBody Ontario_Parks", "class=HR_ProtectedArea" ],
+    "1" : [ "pair=BC_Parks", "Coherence=0.471", "triple=e dbp:governingBody BC_Parks", "class=HR_ProtectedArea" ]
+  }
+}, {
+  "id" : 1978,
+  "pattern" : "recipient",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Victoria_Cross", "Coherence=0.48", "triple=e dbo:award Victoria_Cross", "class=HR_MilitaryPerson" ],
+    "1" : [ "pair=Indian_Mutiny", "Coherence=0.47", "triple=e dbo:battle Indian_Mutiny", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 2059,
+  "pattern" : "romanian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Romanian\"@en", "Coherence=0.5", "triple=e dbp:nationality \"Romanian\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Romania\"@en", "Coherence=0.48", "triple=e dbp:country \"Romania\"@en", "class=HR_PoliticalParty" ],
+    "2" : [ "pair=Romania", "Coherence=0.479", "triple=e dbo:country Romania", "class=HR_PoliticalParty" ],
+    "3" : [ "pair=Romania_national_football_team", "Coherence=0.495", "triple=e dbp:nationalteam Romania_national_football_team", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 2060,
+  "pattern" : "romsdal",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=MÃ¸re_og_Romsdal", "Coherence=0.5", "triple=e dbo:location MÃ¸re_og_Romsdal", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 2078,
+  "pattern" : "rugby",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Winger_(sports", "Coherence=0.5", "triple=e dbp:position Winger_(sports", "class=HR_RugbyPlayer" ],
+    "1" : [ "pair=Rugby_league_positions", "Coherence=0.5", "triple=e dbp:position Rugby_league_positions", "class=HR_RugbyPlayer" ],
+    "2" : [ "pair=South_Africa_national_under-18_rugby_union_team", "Coherence=0.5", "triple=e dbp:repteam South_Africa_national_under-18_rugby_union_team", "class=HR_RugbyPlayer" ],
+    "3" : [ "pair=Wales", "Coherence=0.5", "triple=e dbp:deathPlace Wales", "class=HR_RugbyPlayer" ],
+    "4" : [ "pair=Scotland", "Coherence=0.5", "triple=e dbp:deathPlace Scotland", "class=HR_RugbyPlayer" ],
+    "5" : [ "pair=University_of_Pretoria", "Coherence=0.5", "triple=e dbo:university University_of_Pretoria", "class=HR_RugbyPlayer" ],
+    "6" : [ "pair=University_of_the_Free_State", "Coherence=0.5", "triple=e dbo:university University_of_the_Free_State", "class=HR_RugbyPlayer" ],
+    "7" : [ "pair=England_national_rugby_league_team", "Coherence=0.5", "triple=e dbp:teamb England_national_rugby_league_team", "class=HR_RugbyPlayer" ],
+    "8" : [ "pair=Great_Britain_national_rugby_league_team", "Coherence=0.5", "triple=e dbp:teamc Great_Britain_national_rugby_league_team", "class=HR_RugbyPlayer" ],
+    "9" : [ "pair=New_Zealand_national_rugby_league_team", "Coherence=0.5", "triple=e dbp:teamc New_Zealand_national_rugby_league_team", "class=HR_RugbyPlayer" ],
+    "10" : [ "pair=\"present\"@en", "Coherence=0.5", "triple=e dbp:yearbend \"present\"@en", "class=HR_RugbyPlayer" ],
+    "11" : [ "pair=\"-\"@en", "Coherence=0.5", "triple=e dbp:ruProvinceyears \"-\"@en", "class=HR_RugbyPlayer" ],
+    "12" : [ "pair=Grey_College", "Coherence=0.5", "triple=e dbo:school Grey_College", "class=HR_RugbyPlayer" ],
+    "13" : [ "pair=\"\"@en", "Coherence=0.5", "triple=e dbp:repyears \"\"@en", "class=HR_RugbyPlayer" ],
+    "14" : [ "pair=Dewsbury_Rams", "Coherence=0.5", "triple=e dbp:club Dewsbury_Rams", "class=HR_RugbyPlayer" ],
+    "15" : [ "pair=St_Helens_R.F.C.", "Coherence=0.5", "triple=e dbp:club St_Helens_R.F.C.", "class=HR_RugbyPlayer" ],
+    "16" : [ "pair=Halifax_R.L.F.C.", "Coherence=0.5", "triple=e dbp:club Halifax_R.L.F.C.", "class=HR_RugbyPlayer" ],
+    "17" : [ "pair=Batley_Bulldogs", "Coherence=0.5", "triple=e dbp:club Batley_Bulldogs", "class=HR_RugbyPlayer" ],
+    "18" : [ "pair=Hunslet_R.L.F.C.", "Coherence=0.5", "triple=e dbp:club Hunslet_R.L.F.C.", "class=HR_RugbyPlayer" ],
+    "19" : [ "pair=Swinton_Lions", "Coherence=0.5", "triple=e dbp:club Swinton_Lions", "class=HR_RugbyPlayer" ],
+    "20" : [ "pair=Newcastle_Knights", "Coherence=0.5", "triple=e dbp:club Newcastle_Knights", "class=HR_RugbyPlayer" ],
+    "21" : [ "pair=Sheffield_Eagles", "Coherence=0.5", "triple=e dbp:club Sheffield_Eagles", "class=HR_RugbyPlayer" ],
+    "22" : [ "pair=Whitehaven_R.L.F.C.", "Coherence=0.5", "triple=e dbp:club Whitehaven_R.L.F.C.", "class=HR_RugbyPlayer" ],
+    "23" : [ "pair=Doncaster_R.L.F.C.", "Coherence=0.5", "triple=e dbp:club Doncaster_R.L.F.C.", "class=HR_RugbyPlayer" ],
+    "24" : [ "pair=Keighley_Cougars", "Coherence=0.5", "triple=e dbp:club Keighley_Cougars", "class=HR_RugbyPlayer" ],
+    "25" : [ "pair=Salford_Red_Devils", "Coherence=0.5", "triple=e dbp:club Salford_Red_Devils", "class=HR_RugbyPlayer" ],
+    "26" : [ "pair=London_Broncos", "Coherence=0.5", "triple=e dbp:club London_Broncos", "class=HR_RugbyPlayer" ],
+    "27" : [ "pair=Widnes_Vikings", "Coherence=0.5", "triple=e dbp:club Widnes_Vikings", "class=HR_RugbyPlayer" ],
+    "28" : [ "pair=Samoa", "Coherence=0.5", "triple=e dbp:birthPlace Samoa", "class=HR_RugbyPlayer" ],
+    "29" : [ "pair=Japan", "Coherence=0.5", "triple=e dbp:birthPlace Japan", "class=HR_RugbyPlayer" ],
+    "30" : [ "pair=Ireland", "Coherence=0.5", "triple=e dbp:birthPlace Ireland", "class=HR_RugbyPlayer" ],
+    "31" : [ "pair=\"Australia\"@en", "Coherence=0.5", "triple=e dbp:birthPlace \"Australia\"@en", "class=HR_RugbyPlayer" ],
+    "32" : [ "pair=\"Forward\"@en", "Coherence=0.5", "triple=e dbp:ruPosition \"Forward\"@en", "class=HR_RugbyPlayer" ],
+    "33" : [ "pair=\"Flanker\"@en", "Coherence=0.5", "triple=e dbp:ruPosition \"Flanker\"@en", "class=HR_RugbyPlayer" ],
+    "34" : [ "pair=\"Hooker\"@en", "Coherence=0.5", "triple=e dbp:ruPosition \"Hooker\"@en", "class=HR_RugbyPlayer" ],
+    "35" : [ "pair=\"Lock\"@en", "Coherence=0.5", "triple=e dbp:ruPosition \"Lock\"@en", "class=HR_RugbyPlayer" ],
+    "36" : [ "pair=York_City_Knights", "Coherence=0.5", "triple=e dbo:formerTeam York_City_Knights", "class=HR_RugbyPlayer" ],
+    "37" : [ "pair=Canterbury_Rugby_Football_Union", "Coherence=0.5", "triple=e dbp:ruProvince Canterbury_Rugby_Football_Union", "class=HR_RugbyPlayer" ],
+    "38" : [ "pair=Glasgow_District_(rugby_union", "Coherence=0.5", "triple=e dbp:ruProvince Glasgow_District_(rugby_union", "class=HR_RugbyPlayer" ],
+    "39" : [ "pair=Samoa_national_rugby_league_team", "Coherence=0.5", "triple=e dbp:teama Samoa_national_rugby_league_team", "class=HR_RugbyPlayer" ],
+    "40" : [ "pair=Scotland_national_rugby_league_team", "Coherence=0.5", "triple=e dbp:teama Scotland_national_rugby_league_team", "class=HR_RugbyPlayer" ],
+    "41" : [ "pair=France_national_rugby_league_team", "Coherence=0.5", "triple=e dbp:teama France_national_rugby_league_team", "class=HR_RugbyPlayer" ],
+    "42" : [ "pair=Rugby_League_War_of_the_Roses", "Coherence=0.5", "triple=e dbp:teama Rugby_League_War_of_the_Roses", "class=HR_RugbyPlayer" ],
+    "43" : [ "pair=Ireland_national_rugby_league_team", "Coherence=0.5", "triple=e dbp:teama Ireland_national_rugby_league_team", "class=HR_RugbyPlayer" ],
+    "44" : [ "pair=Tonga_national_rugby_league_team", "Coherence=0.5", "triple=e dbp:teama Tonga_national_rugby_league_team", "class=HR_RugbyPlayer" ],
+    "45" : [ "pair=Country_New_South_Wales_rugby_league_team", "Coherence=0.5", "triple=e dbp:teama Country_New_South_Wales_rugby_league_team", "class=HR_RugbyPlayer" ],
+    "46" : [ "pair=\"?\"@en", "Coherence=0.5", "triple=e dbp:ruAmateuryears \"?\"@en", "class=HR_RugbyPlayer" ],
+    "47" : [ "pair=\"unknown\"@en", "Coherence=0.5", "triple=e dbp:birthDate \"unknown\"@en", "class=HR_RugbyPlayer" ],
+    "48" : [ "pair=RC_Toulonnais", "Coherence=0.5", "triple=e dbp:ruProclubs RC_Toulonnais", "class=HR_RugbyPlayer" ],
+    "49" : [ "pair=\"â\"@en", "Coherence=0.5", "triple=e dbp:clubs \"â\"@en", "class=HR_RugbyPlayer" ],
+    "50" : [ "pair=Barbarian_F.C.", "Coherence=0.5", "triple=e dbp:ruAmateurclubs Barbarian_F.C.", "class=HR_RugbyPlayer" ],
+    "51" : [ "pair=Cardiff_RFC", "Coherence=0.5", "triple=e dbp:ruAmateurclubs Cardiff_RFC", "class=HR_RugbyPlayer" ],
+    "52" : [ "pair=Winger_(rugby_union", "Coherence=0.5", "triple=e dbo:position Winger_(rugby_union", "class=HR_RugbyPlayer" ],
+    "53" : [ "pair=\"/\"@en", "Coherence=0.5", "triple=e dbp:currentclub \"/\"@en", "class=HR_RugbyPlayer" ],
+    "54" : [ "pair=\"Squads\"@en", "Coherence=0.499", "triple=e dbp:title \"Squads\"@en", "class=HR_RugbyPlayer" ],
+    "55" : [ "pair=Castleford_Tigers", "Coherence=0.498", "triple=e dbo:formerTeam Castleford_Tigers", "class=HR_RugbyPlayer" ],
+    "56" : [ "pair=Featherstone_Rovers", "Coherence=0.498", "triple=e dbo:formerTeam Featherstone_Rovers", "class=HR_RugbyPlayer" ],
+    "57" : [ "pair=Wales_national_rugby_league_team", "Coherence=0.498", "triple=e dbp:teama Wales_national_rugby_league_team", "class=HR_RugbyPlayer" ],
+    "58" : [ "pair=Hull_F.C.", "Coherence=0.498", "triple=e dbp:club Hull_F.C.", "class=HR_RugbyPlayer" ],
+    "59" : [ "pair=Bradford_Bulls", "Coherence=0.498", "triple=e dbp:club Bradford_Bulls", "class=HR_RugbyPlayer" ],
+    "60" : [ "pair=Hull_Kingston_Rovers", "Coherence=0.498", "triple=e dbo:formerTeam Hull_Kingston_Rovers", "class=HR_RugbyPlayer" ],
+    "61" : [ "pair=Australia_national_rugby_league_team", "Coherence=0.498", "triple=e dbp:teamb Australia_national_rugby_league_team", "class=HR_RugbyPlayer" ],
+    "62" : [ "pair=Oldham_R.L.F.C.", "Coherence=0.498", "triple=e dbo:formerTeam Oldham_R.L.F.C.", "class=HR_RugbyPlayer" ],
+    "63" : [ "pair=New_South_Wales", "Coherence=0.498", "triple=e dbp:deathPlace New_South_Wales", "class=HR_RugbyPlayer" ],
+    "64" : [ "pair=Wakefield_Trinity", "Coherence=0.498", "triple=e dbp:club Wakefield_Trinity", "class=HR_RugbyPlayer" ],
+    "65" : [ "pair=North_Queensland_Cowboys", "Coherence=0.498", "triple=e dbo:formerTeam North_Queensland_Cowboys", "class=HR_RugbyPlayer" ],
+    "66" : [ "pair=\"Sydney", "Coherence=0.498", "triple=e dbp:birthPlace \"Sydney", "class=HR_RugbyPlayer" ],
+    "67" : [ "pair=South_Africa_national_under-20_rugby_union_team", "Coherence=0.497", "triple=e dbp:repteam South_Africa_national_under-20_rugby_union_team", "class=HR_RugbyPlayer" ],
+    "68" : [ "pair=\"medic\"@en", "Coherence=0.497", "triple=e dbp:bot \"medic\"@en", "class=HR_RugbyPlayer" ],
+    "69" : [ "pair=Rochdale_Hornets", "Coherence=0.497", "triple=e dbo:formerTeam Rochdale_Hornets", "class=HR_RugbyPlayer" ],
+    "70" : [ "pair=\"Centre\"@en", "Coherence=0.497", "triple=e dbp:ruPosition \"Centre\"@en", "class=HR_RugbyPlayer" ],
+    "71" : [ "pair=St._George_Dragons", "Coherence=0.497", "triple=e dbp:club St._George_Dragons", "class=HR_RugbyPlayer" ],
+    "72" : [ "pair=Queensland_rugby_league_team", "Coherence=0.497", "triple=e dbp:teama Queensland_rugby_league_team", "class=HR_RugbyPlayer" ],
+    "73" : [ "pair=New_South_Wales_rugby_league_team", "Coherence=0.497", "triple=e dbp:teamb New_South_Wales_rugby_league_team", "class=HR_RugbyPlayer" ]
+  }
+}, {
+  "id" : 2101,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Saint_Petersburg", "Coherence=0.493", "triple=e dbo:deathPlace Saint_Petersburg", "class=HR_Artist" ],
+    "1" : [ "pair=Imperial_Academy_of_Arts", "Coherence=0.49", "triple=e dbp:training Imperial_Academy_of_Arts", "class=HR_Artist" ],
+    "2" : [ "pair=Russian_Empire", "Coherence=0.485", "triple=e dbp:residence Russian_Empire", "class=HR_Artist" ],
+    "3" : [ "pair=\"Russian\"@en", "Coherence=0.476", "triple=e dbp:nationality \"Russian\"@en", "class=HR_Artist" ],
+    "4" : [ "pair=\"\"@en", "Coherence=0.482", "triple=e dbp:nativeName \"\"@en", "class=HR_Film" ],
+    "5" : [ "pair=\"Soviet Union\"@en", "Coherence=0.479", "triple=e dbp:country \"Soviet Union\"@en", "class=HR_Film" ],
+    "6" : [ "pair=\"Soviet Air Force\"@en", "Coherence=0.491", "triple=e dbp:branch \"Soviet Air Force\"@en", "class=HR_MilitaryPerson" ],
+    "7" : [ "pair=Soviet_Air_Forces", "Coherence=0.48", "triple=e dbo:militaryBranch Soviet_Air_Forces", "class=HR_MilitaryPerson" ],
+    "8" : [ "pair=Moscow", "Coherence=0.479", "triple=e dbp:deathPlace Moscow", "class=HR_MilitaryPerson" ],
+    "9" : [ "pair=Order_of_the_Red_Banner", "Coherence=0.471", "triple=e dbp:awards Order_of_the_Red_Banner", "class=HR_MilitaryPerson" ],
+    "10" : [ "pair=Order_of_Lenin", "Coherence=0.47", "triple=e dbp:awards Order_of_Lenin", "class=HR_MilitaryPerson" ],
+    "11" : [ "pair=Imperial_Russian_Army", "Coherence=0.469", "triple=e dbp:branch Imperial_Russian_Army", "class=HR_MilitaryPerson" ],
+    "12" : [ "pair=Hero_of_the_Soviet_Union", "Coherence=0.467", "triple=e dbp:awards Hero_of_the_Soviet_Union", "class=HR_MilitaryPerson" ],
+    "13" : [ "pair=Russian_Imperial_Army", "Coherence=0.5", "triple=e dbo:militaryBranch Russian_Imperial_Army", "class=HR_MilitaryUnit" ],
+    "14" : [ "pair=Russia", "Coherence=0.476", "triple=e dbo:country Russia", "class=HR_PoliticalParty" ],
+    "15" : [ "pair=\"Russia\"@en", "Coherence=0.47", "triple=e dbp:country \"Russia\"@en", "class=HR_PoliticalParty" ],
+    "16" : [ "pair=\"ia\"@en", "Coherence=0.5", "triple=e dbp:iucnCategory \"ia\"@en", "class=HR_ProtectedArea" ],
+    "17" : [ "pair=Ministry_of_Natural_Resources_and_Environment_(Russia", "Coherence=0.5", "triple=e dbp:governingBody Ministry_of_Natural_Resources_and_Environment_(Russia", "class=HR_ProtectedArea" ],
+    "18" : [ "pair=\"ia\"", "Coherence=0.5", "triple=e dbo:iucnCategory \"ia\"", "class=HR_ProtectedArea" ],
+    "19" : [ "pair=Moscow_State_University", "Coherence=0.447", "triple=e dbp:almaMater Moscow_State_University", "class=HR_Scientist" ],
+    "20" : [ "pair=\"right\"@en", "Coherence=0.5", "triple=e dbp:mapLabelPosition \"right\"@en", "class=HR_Settlement" ],
+    "21" : [ "pair=Bashkortostan", "Coherence=0.5", "triple=e dbp:subdivisionName Bashkortostan", "class=HR_Settlement" ],
+    "22" : [ "pair=Volgograd_Oblast", "Coherence=0.5", "triple=e dbp:subdivisionName Volgograd_Oblast", "class=HR_Settlement" ],
+    "23" : [ "pair=\"Russia Volgograd Oblast#Russia\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Russia Volgograd Oblast#Russia\"@en", "class=HR_Settlement" ],
+    "24" : [ "pair=\"Russia Bashkortostan#Russia\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Russia Bashkortostan#Russia\"@en", "class=HR_Settlement" ],
+    "25" : [ "pair=00\"", "Coherence=0.5", "triple=e dbo:utcOffset 00\"", "class=HR_Settlement" ],
+    "26" : [ "pair=Russian_SFSR", "Coherence=0.49", "triple=e dbo:birthPlace Russian_SFSR", "class=HR_SoccerManager" ],
+    "27" : [ "pair=Russian_Soviet_Federative_Socialist_Republic", "Coherence=0.489", "triple=e dbp:birthPlace Russian_Soviet_Federative_Socialist_Republic", "class=HR_SoccerManager" ],
+    "28" : [ "pair=FC_Torpedo_Moscow", "Coherence=0.48", "triple=e dbo:team FC_Torpedo_Moscow", "class=HR_SoccerManager" ],
+    "29" : [ "pair=FC_Lokomotiv_Moscow", "Coherence=0.48", "triple=e dbo:team FC_Lokomotiv_Moscow", "class=HR_SoccerManager" ],
+    "30" : [ "pair=PFC_CSKA_Moscow", "Coherence=0.479", "triple=e dbp:clubs PFC_CSKA_Moscow", "class=HR_SoccerManager" ],
+    "31" : [ "pair=Byelorussian_Soviet_Socialist_Republic", "Coherence=0.476", "triple=e dbp:birthPlace Byelorussian_Soviet_Socialist_Republic", "class=HR_SoccerManager" ],
+    "32" : [ "pair=FC_Spartak_Moscow", "Coherence=0.473", "triple=e dbo:team FC_Spartak_Moscow", "class=HR_SoccerManager" ],
+    "33" : [ "pair=//dbpedia.org/datatype/second>", "Coherence=0.5", "triple=e dbp:utcOffset //dbpedia.org/datatype/second>", "class=HR_Village" ],
+    "34" : [ "pair=Vladimir_Oblast", "Coherence=0.5", "triple=e dbo:subdivision Vladimir_Oblast", "class=HR_Village" ],
+    "35" : [ "pair=Vologda_Oblast", "Coherence=0.5", "triple=e dbo:subdivision Vologda_Oblast", "class=HR_Village" ]
+  }
+}, {
+  "id" : 2134,
+  "pattern" : "scottish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Scottish_Football_League", "Coherence=0.5", "triple=e dbp:competition Scottish_Football_League", "class=HR_FootballLeagueSeason" ],
+    "1" : [ "pair=Scottish_Football_League_Second_Division", "Coherence=0.495", "triple=e dbp:competition Scottish_Football_League_Second_Division", "class=HR_FootballLeagueSeason" ],
+    "2" : [ "pair=Scotland_national_under-21_football_team", "Coherence=0.491", "triple=e dbo:team Scotland_national_under-21_football_team", "class=HR_SoccerManager" ],
+    "3" : [ "pair=\"Glasgow", "Coherence=0.485", "triple=e dbp:birthPlace \"Glasgow", "class=HR_SoccerManager" ],
+    "4" : [ "pair=Scottish_Football_League_XI", "Coherence=0.481", "triple=e dbp:nationalteam Scottish_Football_League_XI", "class=HR_SoccerManager" ],
+    "5" : [ "pair=Scotland_national_football_team", "Coherence=0.481", "triple=e dbp:nationalteam Scotland_national_football_team", "class=HR_SoccerManager" ],
+    "6" : [ "pair=Glasgow", "Coherence=0.48", "triple=e dbo:birthPlace Glasgow", "class=HR_SoccerManager" ],
+    "7" : [ "pair=Scottish_League_XI", "Coherence=0.479", "triple=e dbo:team Scottish_League_XI", "class=HR_SoccerManager" ],
+    "8" : [ "pair=Raith_Rovers_F.C.", "Coherence=0.473", "triple=e dbp:clubs Raith_Rovers_F.C.", "class=HR_SoccerManager" ],
+    "9" : [ "pair=Rangers_F.C.", "Coherence=0.5", "triple=e dbp:champions Rangers_F.C.", "class=HR_SoccerTournament" ],
+    "10" : [ "pair=Celtic_F.C.", "Coherence=0.5", "triple=e dbp:champions Celtic_F.C.", "class=HR_SoccerTournament" ],
+    "11" : [ "pair=Motherwell_F.C.", "Coherence=0.5", "triple=e dbp:team Motherwell_F.C.", "class=HR_SoccerTournament" ],
+    "12" : [ "pair=Falkirk_F.C.", "Coherence=0.5", "triple=e dbp:team Falkirk_F.C.", "class=HR_SoccerTournament" ],
+    "13" : [ "pair=Dundee_F.C.", "Coherence=0.5", "triple=e dbp:team Dundee_F.C.", "class=HR_SoccerTournament" ],
+    "14" : [ "pair=Dundee_United_F.C.", "Coherence=0.5", "triple=e dbp:team Dundee_United_F.C.", "class=HR_SoccerTournament" ],
+    "15" : [ "pair=Partick_Thistle_F.C.", "Coherence=0.5", "triple=e dbp:team Partick_Thistle_F.C.", "class=HR_SoccerTournament" ],
+    "16" : [ "pair=Hibernian_F.C.", "Coherence=0.5", "triple=e dbp:team Hibernian_F.C.", "class=HR_SoccerTournament" ],
+    "17" : [ "pair=Aberdeen_F.C.", "Coherence=0.5", "triple=e dbp:team Aberdeen_F.C.", "class=HR_SoccerTournament" ],
+    "18" : [ "pair=\"Hampden Park", "Coherence=0.5", "triple=e dbp:stadium \"Hampden Park", "class=HR_SoccerTournament" ],
+    "19" : [ "pair=Heart_of_Midlothian_F.C.", "Coherence=0.496", "triple=e dbp:team Heart_of_Midlothian_F.C.", "class=HR_SoccerTournament" ],
+    "20" : [ "pair=St_Mirren_F.C.", "Coherence=0.495", "triple=e dbp:team St_Mirren_F.C.", "class=HR_SoccerTournament" ]
+  }
+}, {
+  "id" : 2149,
+  "pattern" : "second",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Scottish_Football_League_Second_Division", "Coherence=0.49", "triple=e dbp:competition Scottish_Football_League_Second_Division", "class=HR_FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 2151,
+  "pattern" : "secondary",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Location in greater metropolitan Sydney\"@en", "Coherence=0.492", "triple=e dbp:pushpinMapCaption \"Location in greater metropolitan Sydney\"@en", "class=HR_School" ],
+    "1" : [ "pair=New_South_Wales", "Coherence=0.491", "triple=e dbp:location New_South_Wales", "class=HR_School" ],
+    "2" : [ "pair=\"Australia Sydney\"@en", "Coherence=0.486", "triple=e dbp:pushpinMap \"Australia Sydney\"@en", "class=HR_School" ],
+    "3" : [ "pair=Department_of_Education_(New_South_Wales", "Coherence=0.485", "triple=e dbo:localAuthority Department_of_Education_(New_South_Wales", "class=HR_School" ]
+  }
+}, {
+  "id" : 2156,
+  "pattern" : "seminary",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Seminary", "Coherence=0.449", "triple=e dbp:type Seminary", "class=HR_University" ]
+  }
+}, {
+  "id" : 2158,
+  "pattern" : "senior",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Meath_Senior_Football_Championship", "Coherence=0.5", "triple=e dbp:competition Meath_Senior_Football_Championship", "class=HR_FootballLeagueSeason" ],
+    "1" : [ "pair=Leinster_Senior_Club_Football_Championship", "Coherence=0.49", "triple=e dbp:continentalcup Leinster_Senior_Club_Football_Championship", "class=HR_FootballLeagueSeason" ],
+    "2" : [ "pair=All-Ireland_Senior_Club_Football_Championship", "Coherence=0.48", "triple=e dbp:continentalcup All-Ireland_Senior_Club_Football_Championship", "class=HR_FootballLeagueSeason" ],
+    "3" : [ "pair=\"Man of the Match\"@en", "Coherence=0.48", "triple=e dbp:continentalcup \"Man of the Match\"@en", "class=HR_FootballLeagueSeason" ],
+    "4" : [ "pair=\"Winning Captain\"@en", "Coherence=0.479", "triple=e dbp:continentalcup \"Winning Captain\"@en", "class=HR_FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 2166,
+  "pattern" : "serbian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=National_Assembly_(Serbia", "Coherence=0.477", "triple=e dbp:seats1Title National_Assembly_(Serbia", "class=HR_PoliticalParty" ],
+    "1" : [ "pair=\"Serbia\"@en", "Coherence=0.469", "triple=e dbp:country \"Serbia\"@en", "class=HR_PoliticalParty" ],
+    "2" : [ "pair=Serbia", "Coherence=0.464", "triple=e dbo:country Serbia", "class=HR_PoliticalParty" ]
+  }
+}, {
+  "id" : 2183,
+  "pattern" : "short",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Short_Brothers", "Coherence=0.49", "triple=e dbp:manufacturer Short_Brothers", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 2186,
+  "pattern" : "silent",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Intertitles", "Coherence=0.49", "triple=e dbo:language Intertitles", "class=HR_Film" ],
+    "1" : [ "pair=\"German intertitles\"@en", "Coherence=0.489", "triple=e dbp:language \"German intertitles\"@en", "class=HR_Film" ],
+    "2" : [ "pair=Jesse_L._Lasky", "Coherence=0.481", "triple=e dbp:producer Jesse_L._Lasky", "class=HR_Film" ],
+    "3" : [ "pair=\"Silent film\"@en", "Coherence=0.471", "triple=e dbp:language \"Silent film\"@en", "class=HR_Film" ],
+    "4" : [ "pair=Intertitle", "Coherence=0.47", "triple=e dbo:language Intertitle", "class=HR_Film" ],
+    "5" : [ "pair=\"Silent\"@en", "Coherence=0.468", "triple=e dbp:language \"Silent\"@en", "class=HR_Film" ]
+  }
+}, {
+  "id" : 2190,
+  "pattern" : "single-place",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=//dbpedia.org/datatype/second>", "Coherence=0.461", "triple=e dbp:produced //dbpedia.org/datatype/second>", "class=HR_Aircraft" ],
+    "1" : [ "pair=Paragliding", "Coherence=0.457", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ],
+    "2" : [ "pair=Paraglider", "Coherence=0.457", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ],
+    "3" : [ "pair=Hang_gliding", "Coherence=0.452", "triple=e dbp:type Hang_gliding", "class=HR_Aircraft" ],
+    "4" : [ "pair=Hang_glider", "Coherence=0.451", "triple=e dbo:type Hang_glider", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 2216,
+  "pattern" : "south\u001Cafrican",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=South_African_Army_Infantry_Formation", "Coherence=0.494", "triple=e dbp:commandStructure South_African_Army_Infantry_Formation", "class=HR_MilitaryUnit" ],
+    "1" : [ "pair=South_African_Infantry_Corps", "Coherence=0.494", "triple=e dbo:commandStructure South_African_Infantry_Corps", "class=HR_MilitaryUnit" ],
+    "2" : [ "pair=\"Army Territorial Reserve\"@en", "Coherence=0.49", "triple=e dbp:commandStructure \"Army Territorial Reserve\"@en", "class=HR_MilitaryUnit" ],
+    "3" : [ "pair=\"Leadership\"@en", "Coherence=0.489", "triple=e dbp:caption \"Leadership\"@en", "class=HR_MilitaryUnit" ]
+  }
+}, {
+  "id" : 2218,
+  "pattern" : "south\u001Cafrican\u001Cterritorial",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Army Territorial Reserve\"@en", "Coherence=0.484", "triple=e dbp:commandStructure \"Army Territorial Reserve\"@en", "class=HR_MilitaryUnit" ]
+  }
+}, {
+  "id" : 2219,
+  "pattern" : "south\u001Ckorean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"South Korean\"@en", "Coherence=0.478", "triple=e dbp:nationality \"South Korean\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 2221,
+  "pattern" : "south african",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=South_African_Army_Infantry_Formation", "Coherence=0.494", "triple=e dbp:commandStructure South_African_Army_Infantry_Formation", "class=HR_MilitaryUnit" ],
+    "1" : [ "pair=South_African_Infantry_Corps", "Coherence=0.494", "triple=e dbo:commandStructure South_African_Infantry_Corps", "class=HR_MilitaryUnit" ],
+    "2" : [ "pair=\"Leadership\"@en", "Coherence=0.492", "triple=e dbp:caption \"Leadership\"@en", "class=HR_MilitaryUnit" ],
+    "3" : [ "pair=\"Army Territorial Reserve\"@en", "Coherence=0.49", "triple=e dbp:commandStructure \"Army Territorial Reserve\"@en", "class=HR_MilitaryUnit" ],
+    "4" : [ "pair=South_Africa", "Coherence=0.481", "triple=e dbo:country South_Africa", "class=HR_MilitaryUnit" ],
+    "5" : [ "pair=South_Africa_national_under-18_rugby_union_team", "Coherence=0.5", "triple=e dbp:repteam South_Africa_national_under-18_rugby_union_team", "class=HR_RugbyPlayer" ],
+    "6" : [ "pair=University_of_the_Free_State", "Coherence=0.5", "triple=e dbo:university University_of_the_Free_State", "class=HR_RugbyPlayer" ]
+  }
+}, {
+  "id" : 2225,
+  "pattern" : "south african\u001Cterritorial",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Army Territorial Reserve\"@en", "Coherence=0.484", "triple=e dbp:commandStructure \"Army Territorial Reserve\"@en", "class=HR_MilitaryUnit" ]
+  }
+}, {
+  "id" : 2232,
+  "pattern" : "south african territorial",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Army Territorial Reserve\"@en", "Coherence=0.484", "triple=e dbp:commandStructure \"Army Territorial Reserve\"@en", "class=HR_MilitaryUnit" ]
+  }
+}, {
+  "id" : 2244,
+  "pattern" : "south korean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"South Korean\"@en", "Coherence=0.493", "triple=e dbp:nationality \"South Korean\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=\"South Korea\"@en", "Coherence=0.484", "triple=e dbp:country \"South Korea\"@en", "class=HR_Film" ],
+    "2" : [ "pair=\"Korean\"@en", "Coherence=0.473", "triple=e dbp:language \"Korean\"@en", "class=HR_Film" ],
+    "3" : [ "pair=South_Korea", "Coherence=0.481", "triple=e dbp:birthPlace South_Korea", "class=HR_SoccerPlayer" ],
+    "4" : [ "pair=\"Inst.\"@en", "Coherence=0.483", "triple=e dbp:note \"Inst.\"@en", "class=HR_TelevisionShow" ],
+    "5" : [ "pair=Korean_language", "Coherence=0.47", "triple=e dbp:language Korean_language", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 2252,
+  "pattern" : "south-central",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=ÅwiÄtokrzyskie_Voivodeship", "Coherence=0.5", "triple=e dbo:subdivision ÅwiÄtokrzyskie_Voivodeship", "class=HR_Village" ]
+  }
+}, {
+  "id" : 2257,
+  "pattern" : "southeastern",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Santa Catarina state\"@en", "Coherence=0.495", "triple=e dbp:source1Location \"Santa Catarina state\"@en", "class=HR_River" ]
+  }
+}, {
+  "id" : 2259,
+  "pattern" : "southern",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"ParanÃ¡ state\"@en", "Coherence=0.483", "triple=e dbp:source1Location \"ParanÃ¡ state\"@en", "class=HR_River" ],
+    "1" : [ "pair=Lesser_Poland_Voivodeship", "Coherence=0.5", "triple=e dbo:subdivision Lesser_Poland_Voivodeship", "class=HR_Village" ]
+  }
+}, {
+  "id" : 2261,
+  "pattern" : "soviet",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Soviet_Air_Forces", "Coherence=0.474", "triple=e dbp:primaryUser Soviet_Air_Forces", "class=HR_Aircraft" ],
+    "1" : [ "pair=Soviet_Union", "Coherence=0.458", "triple=e dbo:origin Soviet_Union", "class=HR_Aircraft" ],
+    "2" : [ "pair=\"Soviet Union\"@en", "Coherence=0.452", "triple=e dbp:nationalOrigin \"Soviet Union\"@en", "class=HR_Aircraft" ],
+    "3" : [ "pair=\"Soviet\"@en", "Coherence=0.485", "triple=e dbp:nationality \"Soviet\"@en", "class=HR_Athlete" ],
+    "4" : [ "pair=Hero_of_the_Soviet_Union", "Coherence=0.492", "triple=e dbp:awards Hero_of_the_Soviet_Union", "class=HR_MilitaryPerson" ],
+    "5" : [ "pair=Order_of_Lenin", "Coherence=0.485", "triple=e dbp:awards Order_of_Lenin", "class=HR_MilitaryPerson" ],
+    "6" : [ "pair=\"Soviet Air Force\"@en", "Coherence=0.483", "triple=e dbp:branch \"Soviet Air Force\"@en", "class=HR_MilitaryPerson" ],
+    "7" : [ "pair=Order_of_the_Red_Star", "Coherence=0.473", "triple=e dbo:award Order_of_the_Red_Star", "class=HR_MilitaryPerson" ],
+    "8" : [ "pair=Moscow", "Coherence=0.466", "triple=e dbp:deathPlace Moscow", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 2263,
+  "pattern" : "spanish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Spanish\"@en", "Coherence=0.459", "triple=e dbp:nationality \"Spanish\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=Spain", "Coherence=0.472", "triple=e dbp:birthPlace Spain", "class=HR_Cyclist" ],
+    "2" : [ "pair=\"Spanish victory\"", "Coherence=0.462", "triple=e dbo:result \"Spanish victory\"", "class=HR_MilitaryConflict" ],
+    "3" : [ "pair=\"Spanish victory\"@en", "Coherence=0.46", "triple=e dbp:result \"Spanish victory\"@en", "class=HR_MilitaryConflict" ],
+    "4" : [ "pair=Eighty_Years'_War", "Coherence=0.446", "triple=e dbo:isPartOfMilitaryConflict Eighty_Years'_War", "class=HR_MilitaryConflict" ],
+    "5" : [ "pair=Madrid", "Coherence=0.468", "triple=e dbo:headquarter Madrid", "class=HR_PoliticalParty" ],
+    "6" : [ "pair=National_System_of_Conservation_Areas", "Coherence=0.492", "triple=e dbp:governingBody National_System_of_Conservation_Areas", "class=HR_ProtectedArea" ],
+    "7" : [ "pair=\"RNT\"@en", "Coherence=0.5", "triple=e dbp:previousType \"RNT\"@en", "class=HR_Road" ],
+    "8" : [ "pair=Spain_national_under-21_football_team", "Coherence=0.5", "triple=e dbo:team Spain_national_under-21_football_team", "class=HR_SoccerManager" ],
+    "9" : [ "pair=Spain_national_football_team", "Coherence=0.488", "triple=e dbp:nationalteam Spain_national_football_team", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 2267,
+  "pattern" : "special",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=North_East_England", "Coherence=0.496", "triple=e dbo:location North_East_England", "class=HR_ProtectedArea" ]
+  }
+}, {
+  "id" : 2350,
+  "pattern" : "strict",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"ia\"@en", "Coherence=0.475", "triple=e dbp:iucnCategory \"ia\"@en", "class=HR_ProtectedArea" ],
+    "1" : [ "pair=\"ia\"", "Coherence=0.475", "triple=e dbo:iucnCategory \"ia\"", "class=HR_ProtectedArea" ]
+  }
+}, {
+  "id" : 2363,
+  "pattern" : "supplied complete",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Paramotor", "Coherence=0.446", "triple=e dbo:type Paramotor", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 2364,
+  "pattern" : "supplied complete and\u001Cready-to-fly",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Paramotor", "Coherence=0.446", "triple=e dbo:type Paramotor", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 2379,
+  "pattern" : "swiss",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Swiss\"@en", "Coherence=0.488", "triple=e dbp:nationality \"Swiss\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=Switzerland", "Coherence=0.455", "triple=e dbp:birthPlace Switzerland", "class=HR_Cyclist" ],
+    "2" : [ "pair=Swiss_Super_League", "Coherence=0.496", "triple=e dbp:competition Swiss_Super_League", "class=HR_FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 2382,
+  "pattern" : "syrian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Syrian Arab Republic\"", "Coherence=0.471", "triple=e dbo:combatant \"Syrian Arab Republic\"", "class=HR_MilitaryConflict" ],
+    "1" : [ "pair=\"Free Syrian Army\"", "Coherence=0.469", "triple=e dbo:combatant \"Free Syrian Army\"", "class=HR_MilitaryConflict" ],
+    "2" : [ "pair=\"*Syrian Armed Forces\"", "Coherence=0.469", "triple=e dbo:combatant \"*Syrian Armed Forces\"", "class=HR_MilitaryConflict" ],
+    "3" : [ "pair=Syrian_Civil_War", "Coherence=0.459", "triple=e dbo:isPartOfMilitaryConflict Syrian_Civil_War", "class=HR_MilitaryConflict" ],
+    "4" : [ "pair=\"Hezbollah\"", "Coherence=0.446", "triple=e dbo:combatant \"Hezbollah\"", "class=HR_MilitaryConflict" ]
+  }
+}, {
+  "id" : 2406,
+  "pattern" : "territorial",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Location within the voivodeship\"@en", "Coherence=0.5", "triple=e dbp:mapCaption \"Location within the voivodeship\"@en", "class=HR_AdministrativeRegion" ],
+    "1" : [ "pair=Powiat", "Coherence=0.5", "triple=e dbo:type Powiat", "class=HR_AdministrativeRegion" ],
+    "2" : [ "pair=Vehicle_registration_plates_of_Poland", "Coherence=0.5", "triple=e dbp:blankName Vehicle_registration_plates_of_Poland", "class=HR_AdministrativeRegion" ],
+    "3" : [ "pair=\"Gminas\"@en", "Coherence=0.5", "triple=e dbp:partsType \"Gminas\"@en", "class=HR_AdministrativeRegion" ],
+    "4" : [ "pair=\"Rural\"@en", "Coherence=0.5", "triple=e dbp:populationBlank1Title \"Rural\"@en", "class=HR_AdministrativeRegion" ],
+    "5" : [ "pair=\"Army Territorial Reserve\"@en", "Coherence=0.493", "triple=e dbp:commandStructure \"Army Territorial Reserve\"@en", "class=HR_MilitaryUnit" ],
+    "6" : [ "pair=\"One Battalion\"", "Coherence=0.479", "triple=e dbo:militaryUnitSize \"One Battalion\"", "class=HR_MilitaryUnit" ]
+  }
+}, {
+  "id" : 2413,
+  "pattern" : "tertiary",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"RNT\"@en", "Coherence=0.5", "triple=e dbp:previousType \"RNT\"@en", "class=HR_Road" ]
+  }
+}, {
+  "id" : 2429,
+  "pattern" : "top-flight",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Argentine_Primera_DivisiÃ³n", "Coherence=0.493", "triple=e dbp:competition Argentine_Primera_DivisiÃ³n", "class=HR_FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 2430,
+  "pattern" : "top-level",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Liga_I", "Coherence=0.488", "triple=e dbp:competition Liga_I", "class=HR_FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 2471,
+  "pattern" : "traditional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Emperor_of_Japan", "Coherence=0.5", "triple=e dbp:succession Emperor_of_Japan", "class=HR_Royalty" ],
+    "1" : [ "pair=List_of_emperors_of_Japan", "Coherence=0.496", "triple=e dbp:title List_of_emperors_of_Japan", "class=HR_Royalty" ]
+  }
+}, {
+  "id" : 2498,
+  "pattern" : "turkish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Turkish\"@en", "Coherence=0.485", "triple=e dbp:nationality \"Turkish\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=Ankara", "Coherence=0.48", "triple=e dbo:headquarter Ankara", "class=HR_PoliticalParty" ],
+    "2" : [ "pair=\"Turkey\"@en", "Coherence=0.478", "triple=e dbp:country \"Turkey\"@en", "class=HR_PoliticalParty" ],
+    "3" : [ "pair=Turkey", "Coherence=0.475", "triple=e dbo:country Turkey", "class=HR_PoliticalParty" ],
+    "4" : [ "pair=Ministry_of_Agriculture_and_Forestry_(Turkey", "Coherence=0.491", "triple=e dbp:governingBody Ministry_of_Agriculture_and_Forestry_(Turkey", "class=HR_ProtectedArea" ],
+    "5" : [ "pair=Ottoman_dynasty", "Coherence=0.475", "triple=e dbp:house Ottoman_dynasty", "class=HR_Royalty" ]
+  }
+}, {
+  "id" : 2518,
+  "pattern" : "ukrainian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=List_of_raions_of_Ukraine", "Coherence=0.5", "triple=e dbp:subdivisionType List_of_raions_of_Ukraine", "class=HR_City" ],
+    "1" : [ "pair=Ukraine", "Coherence=0.49", "triple=e dbo:country Ukraine", "class=HR_PoliticalParty" ],
+    "2" : [ "pair=\"Ukraine\"@en", "Coherence=0.488", "triple=e dbp:country \"Ukraine\"@en", "class=HR_PoliticalParty" ],
+    "3" : [ "pair=Kyiv", "Coherence=0.485", "triple=e dbo:headquarter Kyiv", "class=HR_PoliticalParty" ],
+    "4" : [ "pair=Ukrainian_SSR", "Coherence=0.471", "triple=e dbo:birthPlace Ukrainian_SSR", "class=HR_SoccerManager" ],
+    "5" : [ "pair=Ukrainian_Soviet_Socialist_Republic", "Coherence=0.471", "triple=e dbp:birthPlace Ukrainian_Soviet_Socialist_Republic", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 2523,
+  "pattern" : "undergraduate",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Undergraduate college\"@en", "Coherence=0.474", "triple=e dbp:type \"Undergraduate college\"@en", "class=HR_University" ],
+    "1" : [ "pair=\"Undergraduate college Public college\"@en", "Coherence=0.45", "triple=e dbp:type \"Undergraduate college Public college\"@en", "class=HR_University" ]
+  }
+}, {
+  "id" : 2524,
+  "pattern" : "underground",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=London_Underground", "Coherence=0.495", "triple=e dbo:operator London_Underground", "class=HR_Station" ]
+  }
+}, {
+  "id" : 2525,
+  "pattern" : "unincorporated",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Virginia", "Coherence=0.5", "triple=e dbo:subdivision Virginia", "class=HR_Village" ],
+    "1" : [ "pair=Indiana", "Coherence=0.5", "triple=e dbo:subdivision Indiana", "class=HR_Village" ]
+  }
+}, {
+  "id" : 2662,
+  "pattern" : "well the\u001Csouth\u001Cafrican",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Army Territorial Reserve\"@en", "Coherence=0.484", "triple=e dbp:commandStructure \"Army Territorial Reserve\"@en", "class=HR_MilitaryUnit" ]
+  }
+} ]

@@ -48,7 +48,8 @@ public class MeanReciprocalTest {
             String conditionalFilename = FileFolderUtils.getLexiconFile(qald9Dir, PATTERN, postag);
             String outputFileName = FileFolderUtils.getMeanReciprocalFile(qald9Dir, PATTERN, postag);
             Comparision comparision = new Comparision(postag,qald9Dir, qaldFileName, conditionalFilename, outputFileName);
-            comparision.compersionsPattern();
+            String experiment="experiment";
+            comparision.compersionsPattern(experiment);
         }
     }
 

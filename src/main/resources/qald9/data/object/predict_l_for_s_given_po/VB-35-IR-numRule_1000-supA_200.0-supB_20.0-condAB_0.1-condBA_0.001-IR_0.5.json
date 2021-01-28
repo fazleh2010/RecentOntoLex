@@ -1,0 +1,33 @@
+[ {
+  "id" : 8,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "IR=0.607", "triple=e dbp:nationality \"American\"@en", "class=HR_Person" ],
+    "1" : [ "pair=\"English\"@en", "IR=0.634", "triple=e dbp:language \"English\"@en", "class=HR_Writer" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "founded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.837", "triple=e dbp:leaderTitle \"President\"@en", "class=HR_Organisation" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.645", "triple=e dbp:spouse \"\"@en", "class=HR_Person" ],
+    "1" : [ "pair=\"Actor\"@en", "IR=0.601", "triple=e dbp:occupation \"Actor\"@en", "class=HR_Person" ],
+    "2" : [ "pair=\"Actress\"@en", "IR=0.592", "triple=e dbp:occupation \"Actress\"@en", "class=HR_Person" ],
+    "3" : [ "pair=\"American\"@en", "IR=0.791", "triple=e dbp:nationality \"American\"@en", "class=HR_Writer" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "retired",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "IR=0.897", "triple=e dbp:showMedals \"yes\"@en", "class=HR_Athlete" ]
+  }
+} ]

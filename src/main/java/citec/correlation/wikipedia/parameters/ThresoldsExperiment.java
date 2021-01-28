@@ -41,12 +41,12 @@ public class ThresoldsExperiment implements ThresoldConstants {
     private List<Double> CosineList = Arrays.asList(0.001,0.045,0.5,0.9);
 
     
-    private List<Double> AllConfList = Arrays.asList(0.001, 0.045);
-    private List<Double> MaxConfList = Arrays.asList(0.001, 0.045);
-    private List<Double> IrList = Arrays.asList(0.001, 0.045);
-    private List<Double> KulczynskiList = Arrays.asList(0.001, 0.045);
-    private List<Double> CoherenceList = Arrays.asList(0.001, 0.045);
-    private List<Integer> numberOfRules = Arrays.asList(200, 1000);
+    private List<Double> AllConfList = Arrays.asList(0.001,0.045,0.5,0.9);
+    private List<Double> MaxConfList  = Arrays.asList(0.001,0.045,0.5,0.9);
+    private List<Double> IrList  = Arrays.asList(0.001,0.045,0.5,0.9);
+    private List<Double> KulczynskiList  = Arrays.asList(0.001,0.045,0.5,0.9);
+    private List<Double> CoherenceList = Arrays.asList(0.001,0.045,0.5,0.9);
+    public static List<Integer> numberOfRules = Arrays.asList(1000);
     
     
     private LinkedHashMap<String,ThresoldELement> thresoldELements = new LinkedHashMap<String,ThresoldELement>();
@@ -61,7 +61,8 @@ public class ThresoldsExperiment implements ThresoldConstants {
                             for (Double probabiltyValue : this.getInterestingList(associationRule)) {
                                 index= index+1;
                                 ThresoldELement thresoldELement=new ThresoldELement(supA, supB, confAB, confBA, associationRule, probabiltyValue, numberOfRule);
-                                String line=associationRule+index.toString()+"-"+ thresoldELement;
+                                //String line=associationRule+index.toString()+"-"+ thresoldELement;
+                                String line=associationRule+"-"+ thresoldELement;
                                 thresoldELements.put(line,thresoldELement);
                             }
                         }
@@ -122,7 +123,7 @@ public class ThresoldsExperiment implements ThresoldConstants {
 
         @Override
         public String toString() {
-            return  NUMBER_OF_RULES+ "_"+rules+ "-"
+            return  numRule+ "_"+rules+ "-"
                    + supA+ "_"+givenThresolds.get(supA)+"-"
                    + supB+"_"+givenThresolds.get(supB)+"-"
                    + condAB+"_"+givenThresolds.get(condAB)+"-"

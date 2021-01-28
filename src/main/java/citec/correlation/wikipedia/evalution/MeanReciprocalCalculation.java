@@ -36,6 +36,8 @@ public class MeanReciprocalCalculation implements Comparator{
     public static final boolean DESCENDING = false;
     @JsonProperty("MeanReciProcalRank")
     private Double meanReciprocalRank=null;
+    @JsonProperty("experiment")
+    private String experiment=null;
     @JsonIgnore
     private String meanReciprocalRankStr=null;
     
@@ -58,7 +60,8 @@ public class MeanReciprocalCalculation implements Comparator{
         
     }
   
-    public MeanReciprocalCalculation(List<Pair<String, Map<String, Double>>> rankings, List<Pair<String, Map<String, Boolean>>> gold) {
+    public MeanReciprocalCalculation(String experiment,List<Pair<String, Map<String, Double>>> rankings, List<Pair<String, Map<String, Boolean>>> gold) {
+        this.experiment=experiment;
         this.computeWithRankingMap(rankings,gold);
     }
 
@@ -162,7 +165,11 @@ public class MeanReciprocalCalculation implements Comparator{
         }
 
     }
-    
+
+    public String getExperiment() {
+        return experiment;
+    }
+
    
 
    

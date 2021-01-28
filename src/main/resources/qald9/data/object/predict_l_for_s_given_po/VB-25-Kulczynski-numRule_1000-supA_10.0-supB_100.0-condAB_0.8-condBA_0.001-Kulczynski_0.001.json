@@ -1,0 +1,458 @@
+[ {
+  "id" : 14,
+  "pattern" : "added",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "Kulczynski=0.905", "triple=e dbp:designatedOther1Link \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"NJRHP\"@en", "Kulczynski=0.902", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ],
+    "2" : [ "pair=//www.w3.org/2001/XMLSchema#date>", "Kulczynski=1.0", "triple=e dbp:designation1Date //www.w3.org/2001/XMLSchema#date>", "class=HR_HistoricPlace" ],
+    "3" : [ "pair=\"State heritage\"@en", "Kulczynski=0.997", "triple=e dbp:designation1Type \"State heritage\"@en", "class=HR_HistoricPlace" ],
+    "4" : [ "pair=//dbpedia.org/datatype/second>", "Kulczynski=0.996", "triple=e dbp:beginningDate //dbpedia.org/datatype/second>", "class=HR_HistoricPlace" ],
+    "5" : [ "pair=\"Significant components\"@en", "Kulczynski=0.994", "triple=e dbp:designation1Free2name \"Significant components\"@en", "class=HR_HistoricPlace" ],
+    "6" : [ "pair=\"Queensland#Australia\"@en", "Kulczynski=0.993", "triple=e dbp:locmapin \"Queensland#Australia\"@en", "class=HR_HistoricPlace" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "added\u001Cto",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=//dbpedia.org/datatype/second>", "Kulczynski=0.993", "triple=e dbp:beginningDate //dbpedia.org/datatype/second>", "class=HR_HistoricPlace" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "added\u001Cto\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=//dbpedia.org/datatype/second>", "Kulczynski=0.993", "triple=e dbp:beginningDate //dbpedia.org/datatype/second>", "class=HR_HistoricPlace" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "added to\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#date>", "Kulczynski=0.994", "triple=e dbp:designation1Date //www.w3.org/2001/XMLSchema#date>", "class=HR_HistoricPlace" ],
+    "1" : [ "pair=//dbpedia.org/datatype/second>", "Kulczynski=0.993", "triple=e dbp:beginningDate //dbpedia.org/datatype/second>", "class=HR_HistoricPlace" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "affiliated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Undergraduate college\"@en", "Kulczynski=0.951", "triple=e dbp:type \"Undergraduate college\"@en", "class=HR_University" ],
+    "1" : [ "pair=\"India West Bengal#India\"@en", "Kulczynski=0.926", "triple=e dbp:pushpinMap \"India West Bengal#India\"@en", "class=HR_University" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "aired",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=CBC_Television", "Kulczynski=0.974", "triple=e dbo:channel CBC_Television", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "awarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Victoria_Cross", "Kulczynski=0.969", "triple=e dbo:award Victoria_Cross", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "awarded\u001Cto",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Victoria_Cross", "Kulczynski=0.934", "triple=e dbo:award Victoria_Cross", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 120,
+  "pattern" : "be\u001Cawarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Victoria_Cross", "Kulczynski=0.933", "triple=e dbo:award Victoria_Cross", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 132,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=1.0", "triple=e dbo:draftYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_AmericanFootballPlayer" ],
+    "1" : [ "pair=\"Receptions\"@en", "Kulczynski=0.995", "triple=e dbp:aflstatlabel \"Receptions\"@en", "class=HR_AmericanFootballPlayer" ],
+    "2" : [ "pair=\"All values from NFL Combine\"@en", "Kulczynski=0.993", "triple=e dbp:note \"All values from NFL Combine\"@en", "class=HR_AmericanFootballPlayer" ],
+    "3" : [ "pair=\"Forced fumbles\"@en", "Kulczynski=0.992", "triple=e dbp:statlabel \"Forced fumbles\"@en", "class=HR_AmericanFootballPlayer" ],
+    "4" : [ "pair=Pass_deflected", "Kulczynski=0.991", "triple=e dbp:statlabel Pass_deflected", "class=HR_AmericanFootballPlayer" ],
+    "5" : [ "pair=Baltimore_Ravens", "Kulczynski=0.991", "triple=e dbo:formerTeam Baltimore_Ravens", "class=HR_AmericanFootballPlayer" ],
+    "6" : [ "pair=Tennessee_Titans", "Kulczynski=0.99", "triple=e dbo:formerTeam Tennessee_Titans", "class=HR_AmericanFootballPlayer" ],
+    "7" : [ "pair=\"lightblue\"@en", "Kulczynski=0.982", "triple=e dbp:headercolor \"lightblue\"@en", "class=HR_Athlete" ],
+    "8" : [ "pair=\"\"@en", "Kulczynski=0.98", "triple=e dbp:pb \"\"@en", "class=HR_Athlete" ],
+    "9" : [ "pair=\"South Korean\"@en", "Kulczynski=0.968", "triple=e dbp:nationality \"South Korean\"@en", "class=HR_Athlete" ],
+    "10" : [ "pair=Judo", "Kulczynski=0.964", "triple=e dbp:sport Judo", "class=HR_Athlete" ],
+    "11" : [ "pair=Track_and_field", "Kulczynski=0.946", "triple=e dbp:sport Track_and_field", "class=HR_Athlete" ],
+    "12" : [ "pair=Sport_of_athletics", "Kulczynski=0.944", "triple=e dbp:sport Sport_of_athletics", "class=HR_Athlete" ],
+    "13" : [ "pair=\"lightsteelblue\"@en", "Kulczynski=0.941", "triple=e dbp:headercolor \"lightsteelblue\"@en", "class=HR_Athlete" ],
+    "14" : [ "pair=Bobsleigh", "Kulczynski=0.931", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ],
+    "15" : [ "pair=\"Japanese\"@en", "Kulczynski=0.925", "triple=e dbp:nationality \"Japanese\"@en", "class=HR_Athlete" ],
+    "16" : [ "pair=Olympic_weightlifting", "Kulczynski=0.924", "triple=e dbp:sport Olympic_weightlifting", "class=HR_Athlete" ],
+    "17" : [ "pair=Field_hockey", "Kulczynski=0.912", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ],
+    "18" : [ "pair=\"Italian\"@en", "Kulczynski=0.91", "triple=e dbp:nationality \"Italian\"@en", "class=HR_Athlete" ],
+    "19" : [ "pair=Rowing_(sport", "Kulczynski=0.909", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "20" : [ "pair=\"Sprinting\"@en", "Kulczynski=0.908", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "21" : [ "pair=Sailing_(sport", "Kulczynski=0.908", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ],
+    "22" : [ "pair=\"Round 1", "Kulczynski=1.0", "triple=e dbp:debutdate \"Round 1", "class=HR_AustralianRulesFootballPlayer" ],
+    "23" : [ "pair=\"Free agent\"@en", "Kulczynski=1.0", "triple=e dbp:team \"Free agent\"@en", "class=HR_BaseballPlayer" ],
+    "24" : [ "pair=\"KBO\"@en", "Kulczynski=0.995", "triple=e dbp:statleague \"KBO\"@en", "class=HR_BaseballPlayer" ],
+    "25" : [ "pair=\"Strikeouts\"@en", "Kulczynski=0.985", "triple=e dbp:stat23label \"Strikeouts\"@en", "class=HR_BaseballPlayer" ],
+    "26" : [ "pair=\"NPB\"@en", "Kulczynski=0.983", "triple=e dbp:stat2league \"NPB\"@en", "class=HR_BaseballPlayer" ],
+    "27" : [ "pair=Seattle_Mariners", "Kulczynski=0.98", "triple=e dbo:debutTeam Seattle_Mariners", "class=HR_BaseballPlayer" ],
+    "28" : [ "pair=\"Los Angeles Dodgers\"@en", "Kulczynski=0.972", "triple=e dbp:finalteam \"Los Angeles Dodgers\"@en", "class=HR_BaseballPlayer" ],
+    "29" : [ "pair=Texas_Rangers_(baseball", "Kulczynski=0.972", "triple=e dbo:debutTeam Texas_Rangers_(baseball", "class=HR_BaseballPlayer" ],
+    "30" : [ "pair=\"Texas Rangers\"@en", "Kulczynski=0.972", "triple=e dbp:debutteam \"Texas Rangers\"@en", "class=HR_BaseballPlayer" ],
+    "31" : [ "pair=Nippon_Professional_Baseball", "Kulczynski=0.971", "triple=e dbp:debutleague Nippon_Professional_Baseball", "class=HR_BaseballPlayer" ],
+    "32" : [ "pair=\"New York Mets\"@en", "Kulczynski=0.969", "triple=e dbp:debutteam \"New York Mets\"@en", "class=HR_BaseballPlayer" ],
+    "33" : [ "pair=Toronto_Blue_Jays", "Kulczynski=0.967", "triple=e dbo:debutTeam Toronto_Blue_Jays", "class=HR_BaseballPlayer" ],
+    "34" : [ "pair=Kansas_City_Royals", "Kulczynski=0.967", "triple=e dbo:debutTeam Kansas_City_Royals", "class=HR_BaseballPlayer" ],
+    "35" : [ "pair=\"Toronto Blue Jays\"@en", "Kulczynski=0.965", "triple=e dbp:debutteam \"Toronto Blue Jays\"@en", "class=HR_BaseballPlayer" ],
+    "36" : [ "pair=\"Kansas City Royals\"@en", "Kulczynski=0.965", "triple=e dbp:debutteam \"Kansas City Royals\"@en", "class=HR_BaseballPlayer" ],
+    "37" : [ "pair=New_York_Mets", "Kulczynski=0.963", "triple=e dbo:debutTeam New_York_Mets", "class=HR_BaseballPlayer" ],
+    "38" : [ "pair=\"Minnesota Twins\"@en", "Kulczynski=0.962", "triple=e dbp:debutteam \"Minnesota Twins\"@en", "class=HR_BaseballPlayer" ],
+    "39" : [ "pair=\"San Diego Padres\"@en", "Kulczynski=0.962", "triple=e dbp:debutteam \"San Diego Padres\"@en", "class=HR_BaseballPlayer" ],
+    "40" : [ "pair=\"Oakland Athletics\"@en", "Kulczynski=0.961", "triple=e dbp:debutteam \"Oakland Athletics\"@en", "class=HR_BaseballPlayer" ],
+    "41" : [ "pair=San_Diego_Padres", "Kulczynski=0.96", "triple=e dbo:debutTeam San_Diego_Padres", "class=HR_BaseballPlayer" ],
+    "42" : [ "pair=Twenty20_International", "Kulczynski=0.992", "triple=e dbp:column Twenty20_International", "class=HR_Cricketer" ],
+    "43" : [ "pair=\"Pakistan\"@en", "Kulczynski=0.99", "triple=e dbp:odidebutagainst \"Pakistan\"@en", "class=HR_Cricketer" ],
+    "44" : [ "pair=\"white\"@en", "Kulczynski=0.986", "triple=e dbp:fg \"white\"@en", "class=HR_Cricketer" ],
+    "45" : [ "pair=\"England\"@en", "Kulczynski=0.978", "triple=e dbp:lastodiagainst \"England\"@en", "class=HR_Cricketer" ],
+    "46" : [ "pair=One_Day_International", "Kulczynski=0.978", "triple=e dbp:column One_Day_International", "class=HR_Cricketer" ],
+    "47" : [ "pair=Twenty20", "Kulczynski=0.977", "triple=e dbp:column Twenty20", "class=HR_Cricketer" ],
+    "48" : [ "pair=\"Australia\"@en", "Kulczynski=0.976", "triple=e dbp:lastodiagainst \"Australia\"@en", "class=HR_Cricketer" ],
+    "49" : [ "pair=\"India\"@en", "Kulczynski=0.975", "triple=e dbp:lastodiagainst \"India\"@en", "class=HR_Cricketer" ],
+    "50" : [ "pair=List_A_cricket", "Kulczynski=0.973", "triple=e dbp:column List_A_cricket", "class=HR_Cricketer" ],
+    "51" : [ "pair=\"n/a\"@en", "Kulczynski=0.967", "triple=e dbp:tenfor \"n/a\"@en", "class=HR_Cricketer" ],
+    "52" : [ "pair=Minor_Counties_of_English_and_Welsh_cricket", "Kulczynski=0.966", "triple=e dbp:club Minor_Counties_of_English_and_Welsh_cricket", "class=HR_Cricketer" ],
+    "53" : [ "pair=\"no\"@en", "Kulczynski=0.995", "triple=e dbp:showMedals \"no\"@en", "class=HR_Cyclist" ],
+    "54" : [ "pair=Colombia", "Kulczynski=0.99", "triple=e dbo:birthPlace Colombia", "class=HR_Cyclist" ],
+    "55" : [ "pair=\"Retired\"@en", "Kulczynski=0.974", "triple=e dbp:currentteam \"Retired\"@en", "class=HR_Cyclist" ],
+    "56" : [ "pair=\"All-rounder\"@en", "Kulczynski=0.972", "triple=e dbp:ridertype \"All-rounder\"@en", "class=HR_Cyclist" ],
+    "57" : [ "pair=\"Sprinter\"@en", "Kulczynski=0.957", "triple=e dbp:ridertype \"Sprinter\"@en", "class=HR_Cyclist" ],
+    "58" : [ "pair=\"Climber\"@en", "Kulczynski=0.953", "triple=e dbp:ridertype \"Climber\"@en", "class=HR_Cyclist" ],
+    "59" : [ "pair=Track_cycling", "Kulczynski=0.951", "triple=e dbp:discipline Track_cycling", "class=HR_Cyclist" ],
+    "60" : [ "pair=Spain", "Kulczynski=0.929", "triple=e dbp:birthPlace Spain", "class=HR_Cyclist" ],
+    "61" : [ "pair=\"Road\"@en", "Kulczynski=0.905", "triple=e dbp:discipline \"Road\"@en", "class=HR_Cyclist" ],
+    "62" : [ "pair=Road_bicycle_racing", "Kulczynski=0.901", "triple=e dbp:discipline Road_bicycle_racing", "class=HR_Cyclist" ],
+    "63" : [ "pair=Atlanta_Thrashers", "Kulczynski=1.0", "triple=e dbp:playedFor Atlanta_Thrashers", "class=HR_IceHockeyPlayer" ],
+    "64" : [ "pair=Austrian_Hockey_League", "Kulczynski=1.0", "triple=e dbo:league Austrian_Hockey_League", "class=HR_IceHockeyPlayer" ],
+    "65" : [ "pair=Columbus_Blue_Jackets", "Kulczynski=1.0", "triple=e dbo:formerTeam Columbus_Blue_Jackets", "class=HR_IceHockeyPlayer" ],
+    "66" : [ "pair=Tampa_Bay_Lightning", "Kulczynski=0.997", "triple=e dbo:formerTeam Tampa_Bay_Lightning", "class=HR_IceHockeyPlayer" ],
+    "67" : [ "pair=Minnesota_Wild", "Kulczynski=0.996", "triple=e dbo:formerTeam Minnesota_Wild", "class=HR_IceHockeyPlayer" ],
+    "68" : [ "pair=\"Free Agent\"@en", "Kulczynski=0.996", "triple=e dbp:team \"Free Agent\"@en", "class=HR_IceHockeyPlayer" ],
+    "69" : [ "pair=American_Hockey_League", "Kulczynski=0.995", "triple=e dbp:prospectLeague American_Hockey_League", "class=HR_IceHockeyPlayer" ],
+    "70" : [ "pair=\"piano\"@en", "Kulczynski=0.92", "triple=e dbp:instrument \"piano\"@en", "class=HR_MusicalArtist" ],
+    "71" : [ "pair=\"keyboards\"@en", "Kulczynski=0.92", "triple=e dbp:instrument \"keyboards\"@en", "class=HR_MusicalArtist" ],
+    "72" : [ "pair=\"Rapper\"@en", "Kulczynski=0.913", "triple=e dbp:occupation \"Rapper\"@en", "class=HR_MusicalArtist" ],
+    "73" : [ "pair=\"record producer\"@en", "Kulczynski=0.909", "triple=e dbp:occupation \"record producer\"@en", "class=HR_MusicalArtist" ],
+    "74" : [ "pair=\"songwriter\"@en", "Kulczynski=0.9", "triple=e dbp:occupation \"songwriter\"@en", "class=HR_MusicalArtist" ],
+    "75" : [ "pair=Mexico", "Kulczynski=0.966", "triple=e dbp:birthPlace Mexico", "class=HR_Person" ],
+    "76" : [ "pair=Socialist_Federal_Republic_of_Yugoslavia", "Kulczynski=0.984", "triple=e dbo:birthPlace Socialist_Federal_Republic_of_Yugoslavia", "class=HR_SoccerManager" ],
+    "77" : [ "pair=Russian_SFSR", "Kulczynski=0.968", "triple=e dbo:birthPlace Russian_SFSR", "class=HR_SoccerManager" ],
+    "78" : [ "pair=Russian_Soviet_Federative_Socialist_Republic", "Kulczynski=0.964", "triple=e dbp:birthPlace Russian_Soviet_Federative_Socialist_Republic", "class=HR_SoccerManager" ],
+    "79" : [ "pair=West_Germany", "Kulczynski=0.962", "triple=e dbo:birthPlace West_Germany", "class=HR_SoccerManager" ],
+    "80" : [ "pair=Japan", "Kulczynski=0.959", "triple=e dbp:birthPlace Japan", "class=HR_SoccerManager" ],
+    "81" : [ "pair=\"1.80 m\"@en", "Kulczynski=0.955", "triple=e dbp:height \"1.80 m\"@en", "class=HR_SoccerManager" ],
+    "82" : [ "pair=\"Managerial positions\"@en", "Kulczynski=0.939", "triple=e dbp:title \"Managerial positions\"@en", "class=HR_SoccerManager" ],
+    "83" : [ "pair=//www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Kulczynski=0.982", "triple=e dbo:number //www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=HR_SoccerPlayer" ],
+    "84" : [ "pair=\"gold\"@en", "Kulczynski=0.975", "triple=e dbp:bg \"gold\"@en", "class=HR_SoccerPlayer" ],
+    "85" : [ "pair=\"Awards\"@en", "Kulczynski=0.973", "triple=e dbp:title \"Awards\"@en", "class=HR_SoccerPlayer" ],
+    "86" : [ "pair=Italy", "Kulczynski=0.965", "triple=e dbo:birthPlace Italy", "class=HR_SoccerPlayer" ],
+    "87" : [ "pair=Argentina", "Kulczynski=0.953", "triple=e dbo:birthPlace Argentina", "class=HR_SoccerPlayer" ],
+    "88" : [ "pair=Brazil", "Kulczynski=0.939", "triple=e dbo:birthPlace Brazil", "class=HR_SoccerPlayer" ],
+    "89" : [ "pair=Midfielder_(association_football", "Kulczynski=0.937", "triple=e dbo:position Midfielder_(association_football", "class=HR_SoccerPlayer" ],
+    "90" : [ "pair=Midfielder", "Kulczynski=0.934", "triple=e dbo:position Midfielder", "class=HR_SoccerPlayer" ],
+    "91" : [ "pair=Defender_(football", "Kulczynski=0.931", "triple=e dbo:position Defender_(football", "class=HR_SoccerPlayer" ],
+    "92" : [ "pair=Defender_(association_football", "Kulczynski=0.927", "triple=e dbo:position Defender_(association_football", "class=HR_SoccerPlayer" ],
+    "93" : [ "pair=\"1.78 m\"@en", "Kulczynski=0.927", "triple=e dbp:height \"1.78 m\"@en", "class=HR_SoccerPlayer" ]
+  }
+}, {
+  "id" : 141,
+  "pattern" : "breuning",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Stephan_von_Breuning_(entomologist", "Kulczynski=1.0", "triple=e dbo:binomialAuthority Stephan_von_Breuning_(entomologist", "class=HR_Insect" ]
+  }
+}, {
+  "id" : 177,
+  "pattern" : "chose",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=New_York_(state", "Kulczynski=1.0", "triple=e dbp:homestate New_York_(state", "class=HR_Election" ],
+    "1" : [ "pair=//dbpedia.org/datatype/perCent>", "Kulczynski=1.0", "triple=e dbp:evprct //dbpedia.org/datatype/perCent>", "class=HR_Election" ]
+  }
+}, {
+  "id" : 205,
+  "pattern" : "competed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Sailing_(sport", "Kulczynski=0.994", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Sprinting\"@en", "Kulczynski=0.991", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "2" : [ "pair=\"Middle-distance running\"@en", "Kulczynski=0.985", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "3" : [ "pair=Gymnastics", "Kulczynski=0.983", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "4" : [ "pair=Equestrianism", "Kulczynski=0.982", "triple=e dbp:sport Equestrianism", "class=HR_Athlete" ],
+    "5" : [ "pair=\"Long-distance running\"@en", "Kulczynski=0.979", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ],
+    "6" : [ "pair=Boxing", "Kulczynski=0.978", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "7" : [ "pair=\"Swiss\"@en", "Kulczynski=0.977", "triple=e dbp:nationality \"Swiss\"@en", "class=HR_Athlete" ],
+    "8" : [ "pair=\"Marathon\"@en", "Kulczynski=0.976", "triple=e dbp:event \"Marathon\"@en", "class=HR_Athlete" ],
+    "9" : [ "pair=Basketball", "Kulczynski=0.975", "triple=e dbp:sport Basketball", "class=HR_Athlete" ],
+    "10" : [ "pair=Bobsleigh", "Kulczynski=0.97", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ],
+    "11" : [ "pair=Alpine_skiing", "Kulczynski=0.959", "triple=e dbp:sport Alpine_skiing", "class=HR_Athlete" ],
+    "12" : [ "pair=Rowing_(sport", "Kulczynski=0.956", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "13" : [ "pair=\"Hungarian\"@en", "Kulczynski=0.956", "triple=e dbp:nationality \"Hungarian\"@en", "class=HR_Athlete" ],
+    "14" : [ "pair=Field_hockey", "Kulczynski=0.956", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ],
+    "15" : [ "pair=\"German\"@en", "Kulczynski=0.95", "triple=e dbp:nationality \"German\"@en", "class=HR_Athlete" ],
+    "16" : [ "pair=\"Canadian\"@en", "Kulczynski=0.941", "triple=e dbp:nationality \"Canadian\"@en", "class=HR_Athlete" ],
+    "17" : [ "pair=\"Japanese\"@en", "Kulczynski=0.938", "triple=e dbp:nationality \"Japanese\"@en", "class=HR_Athlete" ],
+    "18" : [ "pair=\"Polish\"@en", "Kulczynski=0.93", "triple=e dbp:nationality \"Polish\"@en", "class=HR_Athlete" ],
+    "19" : [ "pair=\"Spanish\"@en", "Kulczynski=0.927", "triple=e dbp:nationality \"Spanish\"@en", "class=HR_Athlete" ],
+    "20" : [ "pair=\"South Korean\"@en", "Kulczynski=0.924", "triple=e dbp:nationality \"South Korean\"@en", "class=HR_Athlete" ],
+    "21" : [ "pair=Shooting_sports", "Kulczynski=0.917", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ],
+    "22" : [ "pair=\"French\"@en", "Kulczynski=0.917", "triple=e dbp:nationality \"French\"@en", "class=HR_Athlete" ],
+    "23" : [ "pair=//dbpedia.org/datatype/metre>", "Kulczynski=0.913", "triple=e dbp:event //dbpedia.org/datatype/metre>", "class=HR_Athlete" ],
+    "24" : [ "pair=Wrestling", "Kulczynski=0.906", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ],
+    "25" : [ "pair=\"Australian\"@en", "Kulczynski=0.902", "triple=e dbp:nationality \"Australian\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 206,
+  "pattern" : "competed in\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Boxing", "Kulczynski=0.934", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Long-distance running\"@en", "Kulczynski=0.9", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 211,
+  "pattern" : "concluded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=GMA_Network", "Kulczynski=0.944", "triple=e dbp:network GMA_Network", "class=HR_TelevisionShow" ],
+    "1" : [ "pair=\"Tagalog\"@en", "Kulczynski=0.913", "triple=e dbp:language \"Tagalog\"@en", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 267,
+  "pattern" : "credited",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Royal Air Force\"@en", "Kulczynski=0.938", "triple=e dbp:branch \"Royal Air Force\"@en", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 287,
+  "pattern" : "described",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Stephan_von_Breuning_(entomologist", "Kulczynski=1.0", "triple=e dbo:binomialAuthority Stephan_von_Breuning_(entomologist", "class=HR_Insect" ]
+  }
+}, {
+  "id" : 288,
+  "pattern" : "described\u001Cby",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Stephan_von_Breuning_(entomologist", "Kulczynski=1.0", "triple=e dbo:binomialAuthority Stephan_von_Breuning_(entomologist", "class=HR_Insect" ]
+  }
+}, {
+  "id" : 289,
+  "pattern" : "designed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Bertrand\"@en", "Kulczynski=0.998", "triple=e dbp:ref \"Bertrand\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=Paragliding", "Kulczynski=0.994", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ],
+    "2" : [ "pair=Paraglider", "Kulczynski=0.994", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ],
+    "3" : [ "pair=\"Production completed\"@en", "Kulczynski=0.958", "triple=e dbp:status \"Production completed\"@en", "class=HR_Aircraft" ],
+    "4" : [ "pair=Ultralight_trike", "Kulczynski=0.957", "triple=e dbo:type Ultralight_trike", "class=HR_Aircraft" ],
+    "5" : [ "pair=\"* List of gliders\"@en", "Kulczynski=0.946", "triple=e dbp:lists \"* List of gliders\"@en", "class=HR_Aircraft" ],
+    "6" : [ "pair=\"Bayerl\"@en", "Kulczynski=0.942", "triple=e dbp:ref \"Bayerl\"@en", "class=HR_Aircraft" ],
+    "7" : [ "pair=\"composite\"@en", "Kulczynski=0.934", "triple=e dbp:propName \"composite\"@en", "class=HR_Aircraft" ],
+    "8" : [ "pair=Glider_(sailplane", "Kulczynski=0.93", "triple=e dbp:type Glider_(sailplane", "class=HR_Aircraft" ],
+    "9" : [ "pair=\"four cylinder", "Kulczynski=0.918", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ],
+    "10" : [ "pair=\"wooden\"@en", "Kulczynski=0.91", "triple=e dbp:propName \"wooden\"@en", "class=HR_Aircraft" ],
+    "11" : [ "pair=Rotax_582", "Kulczynski=0.906", "triple=e dbp:eng1Name Rotax_582", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 291,
+  "pattern" : "developed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=China", "Kulczynski=0.974", "triple=e dbp:primaryUser China", "class=HR_Aircraft" ],
+    "1" : [ "pair=UAV", "Kulczynski=0.963", "triple=e dbo:type UAV", "class=HR_Aircraft" ],
+    "2" : [ "pair=\"\"@en", "Kulczynski=0.962", "triple=e dbp:writer \"\"@en", "class=HR_VideoGame" ]
+  }
+}, {
+  "id" : 301,
+  "pattern" : "directed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Malayalam_Language", "Kulczynski=1.0", "triple=e dbo:language Malayalam_Language", "class=HR_Film" ],
+    "1" : [ "pair=Malayalam", "Kulczynski=0.986", "triple=e dbp:language Malayalam", "class=HR_Film" ],
+    "2" : [ "pair=Intertitles", "Kulczynski=0.981", "triple=e dbo:language Intertitles", "class=HR_Film" ],
+    "3" : [ "pair=\"Singer\"@en", "Kulczynski=0.975", "triple=e dbp:extraColumn \"Singer\"@en", "class=HR_Film" ],
+    "4" : [ "pair=Intertitle", "Kulczynski=0.967", "triple=e dbo:language Intertitle", "class=HR_Film" ],
+    "5" : [ "pair=\"Soundtrack\"@en", "Kulczynski=0.967", "triple=e dbp:type \"Soundtrack\"@en", "class=HR_Film" ],
+    "6" : [ "pair=\"Hong Kong\"@en", "Kulczynski=0.965", "triple=e dbp:country \"Hong Kong\"@en", "class=HR_Film" ],
+    "7" : [ "pair=\"Germany\"@en", "Kulczynski=0.964", "triple=e dbp:country \"Germany\"@en", "class=HR_Film" ],
+    "8" : [ "pair=Soundtrack", "Kulczynski=0.963", "triple=e dbp:genre Soundtrack", "class=HR_Film" ],
+    "9" : [ "pair=\"Mandarin\"@en", "Kulczynski=0.962", "triple=e dbp:language \"Mandarin\"@en", "class=HR_Film" ],
+    "10" : [ "pair=\"China\"@en", "Kulczynski=0.961", "triple=e dbp:country \"China\"@en", "class=HR_Film" ],
+    "11" : [ "pair=India", "Kulczynski=0.96", "triple=e dbp:country India", "class=HR_Film" ],
+    "12" : [ "pair=20th_Century_Fox", "Kulczynski=0.96", "triple=e dbo:distributor 20th_Century_Fox", "class=HR_Film" ],
+    "13" : [ "pair=\"Telugu\"@en", "Kulczynski=0.959", "triple=e dbp:language \"Telugu\"@en", "class=HR_Film" ],
+    "14" : [ "pair=//dbpedia.org/datatype/second>", "Kulczynski=0.956", "triple=e dbp:runtime //dbpedia.org/datatype/second>", "class=HR_Film" ],
+    "15" : [ "pair=\"Theatrical release poster\"@en", "Kulczynski=0.955", "triple=e dbp:caption \"Theatrical release poster\"@en", "class=HR_Film" ],
+    "16" : [ "pair=Hindi", "Kulczynski=0.955", "triple=e dbo:language Hindi", "class=HR_Film" ],
+    "17" : [ "pair=\"\"@en", "Kulczynski=0.954", "triple=e dbp:distributor \"\"@en", "class=HR_Film" ],
+    "18" : [ "pair=Telugu_language", "Kulczynski=0.951", "triple=e dbo:language Telugu_language", "class=HR_Film" ],
+    "19" : [ "pair=\"Malayalam\"@en", "Kulczynski=0.951", "triple=e dbp:language \"Malayalam\"@en", "class=HR_Film" ],
+    "20" : [ "pair=\"Tamil\"@en", "Kulczynski=0.951", "triple=e dbp:language \"Tamil\"@en", "class=HR_Film" ],
+    "21" : [ "pair=\"Silent\"@en", "Kulczynski=0.948", "triple=e dbp:language \"Silent\"@en", "class=HR_Film" ],
+    "22" : [ "pair=\"India\"@en", "Kulczynski=0.948", "triple=e dbp:country \"India\"@en", "class=HR_Film" ],
+    "23" : [ "pair=Tamil_language", "Kulczynski=0.948", "triple=e dbo:language Tamil_language", "class=HR_Film" ],
+    "24" : [ "pair=German_language", "Kulczynski=0.947", "triple=e dbo:language German_language", "class=HR_Film" ],
+    "25" : [ "pair=\"Spain\"@en", "Kulczynski=0.946", "triple=e dbp:country \"Spain\"@en", "class=HR_Film" ],
+    "26" : [ "pair=\"Spanish\"@en", "Kulczynski=0.946", "triple=e dbp:language \"Spanish\"@en", "class=HR_Film" ],
+    "27" : [ "pair=French_language", "Kulczynski=0.944", "triple=e dbo:language French_language", "class=HR_Film" ],
+    "28" : [ "pair=\"Russian\"@en", "Kulczynski=0.943", "triple=e dbp:language \"Russian\"@en", "class=HR_Film" ],
+    "29" : [ "pair=Paramount_Pictures", "Kulczynski=0.943", "triple=e dbo:distributor Paramount_Pictures", "class=HR_Film" ],
+    "30" : [ "pair=\"soundtrack\"@en", "Kulczynski=0.942", "triple=e dbp:type \"soundtrack\"@en", "class=HR_Film" ],
+    "31" : [ "pair=\"Track listing\"@en", "Kulczynski=0.941", "triple=e dbp:headline \"Track listing\"@en", "class=HR_Film" ],
+    "32" : [ "pair=Columbia_Pictures", "Kulczynski=0.941", "triple=e dbp:distributor Columbia_Pictures", "class=HR_Film" ],
+    "33" : [ "pair=\"Hindi\"@en", "Kulczynski=0.938", "triple=e dbp:language \"Hindi\"@en", "class=HR_Film" ],
+    "34" : [ "pair=Italian_language", "Kulczynski=0.934", "triple=e dbo:language Italian_language", "class=HR_Film" ],
+    "35" : [ "pair=\"German\"@en", "Kulczynski=0.934", "triple=e dbp:language \"German\"@en", "class=HR_Film" ],
+    "36" : [ "pair=\"French\"@en", "Kulczynski=0.933", "triple=e dbp:language \"French\"@en", "class=HR_Film" ],
+    "37" : [ "pair=Warner_Bros.", "Kulczynski=0.932", "triple=e dbo:distributor Warner_Bros.", "class=HR_Film" ],
+    "38" : [ "pair=\"Italian\"@en", "Kulczynski=0.932", "triple=e dbp:language \"Italian\"@en", "class=HR_Film" ],
+    "39" : [ "pair=\"Italy\"@en", "Kulczynski=0.931", "triple=e dbp:country \"Italy\"@en", "class=HR_Film" ],
+    "40" : [ "pair=\"United Kingdom\"@en", "Kulczynski=0.929", "triple=e dbp:country \"United Kingdom\"@en", "class=HR_Film" ],
+    "41" : [ "pair=\"France\"@en", "Kulczynski=0.929", "triple=e dbp:country \"France\"@en", "class=HR_Film" ],
+    "42" : [ "pair=\"Poster\"@en", "Kulczynski=0.927", "triple=e dbp:caption \"Poster\"@en", "class=HR_Film" ]
+  }
+}, {
+  "id" : 380,
+  "pattern" : "flying",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Royal Air Force\"@en", "Kulczynski=0.938", "triple=e dbp:branch \"Royal Air Force\"@en", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 394,
+  "pattern" : "formed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Light Infantry\"@en", "Kulczynski=0.968", "triple=e dbp:role \"Light Infantry\"@en", "class=HR_MilitaryUnit" ],
+    "1" : [ "pair=\"One Battalion\"", "Kulczynski=0.96", "triple=e dbo:militaryUnitSize \"One Battalion\"", "class=HR_MilitaryUnit" ]
+  }
+}, {
+  "id" : 455,
+  "pattern" : "held",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Verdana\"@en", "Kulczynski=0.995", "triple=e dbp:font \"Verdana\"@en", "class=HR_Election" ],
+    "1" : [ "pair=//dbpedia.org/datatype/perCent>", "Kulczynski=0.995", "triple=e dbp:size //dbpedia.org/datatype/perCent>", "class=HR_Election" ],
+    "2" : [ "pair=\"Independent\"@en", "Kulczynski=0.995", "triple=e dbp:partyId \"Independent\"@en", "class=HR_Election" ]
+  }
+}, {
+  "id" : 486,
+  "pattern" : "included",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Lower_Carniola", "Kulczynski=1.0", "triple=e dbp:subdivisionName Lower_Carniola", "class=HR_Settlement" ]
+  }
+}, {
+  "id" : 534,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Rapper\"@en", "Kulczynski=0.946", "triple=e dbp:occupation \"Rapper\"@en", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Rapping", "Kulczynski=0.934", "triple=e dbo:occupation Rapping", "class=HR_MusicalArtist" ],
+    "2" : [ "pair=Rapper", "Kulczynski=0.915", "triple=e dbo:occupation Rapper", "class=HR_MusicalArtist" ],
+    "3" : [ "pair=\"\"@en", "Kulczynski=0.905", "triple=e dbp:alias \"\"@en", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 693,
+  "pattern" : "operating",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Proprietary_software", "Kulczynski=0.915", "triple=e dbp:sourceModel Proprietary_software", "class=HR_Software" ]
+  }
+}, {
+  "id" : 737,
+  "pattern" : "played",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.99", "triple=e dbo:draftYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_AmericanFootballPlayer" ],
+    "1" : [ "pair=Derbyshire_County_Cricket_Club", "Kulczynski=0.995", "triple=e dbp:debutfor Derbyshire_County_Cricket_Club", "class=HR_Cricketer" ],
+    "2" : [ "pair=England_national_rugby_league_team", "Kulczynski=1.0", "triple=e dbp:teamb England_national_rugby_league_team", "class=HR_RugbyPlayer" ],
+    "3" : [ "pair=\"medic\"@en", "Kulczynski=0.995", "triple=e dbp:bot \"medic\"@en", "class=HR_RugbyPlayer" ]
+  }
+}, {
+  "id" : 760,
+  "pattern" : "premiered",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=GMA_Network", "Kulczynski=0.972", "triple=e dbp:network GMA_Network", "class=HR_TelevisionShow" ],
+    "1" : [ "pair=\"Tagalog\"@en", "Kulczynski=0.954", "triple=e dbp:language \"Tagalog\"@en", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 763,
+  "pattern" : "produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Bertrand\"@en", "Kulczynski=0.998", "triple=e dbp:ref \"Bertrand\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=Paragliding", "Kulczynski=0.994", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ],
+    "2" : [ "pair=Paraglider", "Kulczynski=0.994", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ],
+    "3" : [ "pair=Ultralight_trike", "Kulczynski=0.964", "triple=e dbo:type Ultralight_trike", "class=HR_Aircraft" ],
+    "4" : [ "pair=\"Production completed\"@en", "Kulczynski=0.947", "triple=e dbp:status \"Production completed\"@en", "class=HR_Aircraft" ],
+    "5" : [ "pair=\"Bayerl\"@en", "Kulczynski=0.945", "triple=e dbp:ref \"Bayerl\"@en", "class=HR_Aircraft" ],
+    "6" : [ "pair=Rotax_582", "Kulczynski=0.919", "triple=e dbp:eng1Name Rotax_582", "class=HR_Aircraft" ],
+    "7" : [ "pair=\"four cylinder", "Kulczynski=0.918", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ],
+    "8" : [ "pair=\"composite\"@en", "Kulczynski=0.913", "triple=e dbp:propName \"composite\"@en", "class=HR_Aircraft" ],
+    "9" : [ "pair=\"In production\"@en", "Kulczynski=0.908", "triple=e dbp:status \"In production\"@en", "class=HR_Aircraft" ],
+    "10" : [ "pair=\"Mexico\"@en", "Kulczynski=0.952", "triple=e dbp:country \"Mexico\"@en", "class=HR_TelevisionShow" ],
+    "11" : [ "pair=Telenovela", "Kulczynski=0.932", "triple=e dbp:genre Telenovela", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 783,
+  "pattern" : "published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "Kulczynski=0.925", "triple=e dbp:writer \"\"@en", "class=HR_VideoGame" ]
+  }
+}, {
+  "id" : 818,
+  "pattern" : "released",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"The Guardian\"@en", "Kulczynski=0.957", "triple=e dbp:rev \"The Guardian\"@en", "class=HR_Album" ],
+    "1" : [ "pair=\"Producer\"@en", "Kulczynski=0.957", "triple=e dbp:extraColumn \"Producer\"@en", "class=HR_Album" ],
+    "2" : [ "pair=//dbpedia.org/datatype/second>", "Kulczynski=0.956", "triple=e dbp:length //dbpedia.org/datatype/second>", "class=HR_Album" ],
+    "3" : [ "pair=\"yes\"@en", "Kulczynski=0.956", "triple=e dbp:collapsed \"yes\"@en", "class=HR_Album" ],
+    "4" : [ "pair=\"\"@en", "Kulczynski=0.956", "triple=e dbp:label \"\"@en", "class=HR_Album" ],
+    "5" : [ "pair=\"Entertainment Weekly\"@en", "Kulczynski=0.949", "triple=e dbp:rev \"Entertainment Weekly\"@en", "class=HR_Album" ],
+    "6" : [ "pair=Contemporary_R&B", "Kulczynski=0.948", "triple=e dbp:genre Contemporary_R&B", "class=HR_Album" ],
+    "7" : [ "pair=\"NME\"@en", "Kulczynski=0.947", "triple=e dbp:rev \"NME\"@en", "class=HR_Album" ],
+    "8" : [ "pair=\"Mojo\"@en", "Kulczynski=0.944", "triple=e dbp:rev \"Mojo\"@en", "class=HR_Album" ],
+    "9" : [ "pair=Hip_hop_music", "Kulczynski=0.941", "triple=e dbp:genre Hip_hop_music", "class=HR_Album" ],
+    "10" : [ "pair=\"The A.V. Club\"@en", "Kulczynski=0.941", "triple=e dbp:rev \"The A.V. Club\"@en", "class=HR_Album" ],
+    "11" : [ "pair=\"Uncut\"@en", "Kulczynski=0.94", "triple=e dbp:rev \"Uncut\"@en", "class=HR_Album" ]
+  }
+}, {
+  "id" : 819,
+  "pattern" : "represented",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Pacific Coast Conference\"@en", "Kulczynski=1.0", "triple=e dbp:conference \"Pacific Coast Conference\"@en", "class=HR_NCAATeamSeason" ]
+  }
+}, {
+  "id" : 963,
+  "pattern" : "supplied",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"four cylinder", "Kulczynski=0.963", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"composite\"@en", "Kulczynski=0.94", "triple=e dbp:propName \"composite\"@en", "class=HR_Aircraft" ],
+    "2" : [ "pair=\"Bayerl\"@en", "Kulczynski=0.938", "triple=e dbp:ref \"Bayerl\"@en", "class=HR_Aircraft" ],
+    "3" : [ "pair=Ultralight_trike", "Kulczynski=0.908", "triple=e dbp:type Ultralight_trike", "class=HR_Aircraft" ]
+  }
+} ]

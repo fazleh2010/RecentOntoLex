@@ -21,6 +21,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
+import java.util.LinkedHashMap;
 import org.javatuples.Pair;
 
 /**
@@ -44,12 +45,16 @@ public class Comparision {
         this.outputFileName=outputFileName;
     }
     
-       public Comparision(String postag,String qald9Dir, String qaldFileName, String methodFileName) throws IOException {
-        this.lexiconDic = getLexicon(methodFileName);
+    public Comparision(String qaldFileName, String conditionalFilename,Boolean classSpecific,String className) throws IOException {
+        if(!classSpecific)
+           this.lexiconDic = getLexicon(conditionalFilename);
+        else
+           this.lexiconDic = getLexiconPerClass(conditionalFilename,className);
         this.qaldDic = getQald(qaldFileName);
     }
     
-    public void compersionsPattern() throws IOException {
+    
+    public void compersionsPattern(String experiment) throws IOException {
         List<Pair<String,Map<String, Double>>> lexicon = new ArrayList<Pair<String,Map<String, Double>>>();
         List<Pair<String,Map<String, Boolean>>> qald_gold = new ArrayList<Pair<String,Map<String, Boolean>>>();
         if (lexiconDic.keySet().isEmpty()) {
@@ -72,7 +77,7 @@ public class Comparision {
             lexicon.add(predictPair);
             qald_gold.add(goldRelevancePair);
         }
-        this. meanReciprocalResult =new MeanReciprocalCalculation(lexicon, qald_gold);
+        this. meanReciprocalResult =new MeanReciprocalCalculation(experiment,lexicon, qald_gold);
         //System.out.println("meanReciprocalRank:" + meanReciprocalResult.getMeanReciprocalElements());
        // FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocalResult, outputFileName);
         
@@ -232,6 +237,49 @@ public class Comparision {
 
         return lexicons;
     }
+    
+    private Map<String, LexiconUnit> getLexiconPerClass(String conditionalFilename, String className) {
+        Map<String, LexiconUnit> lexicons = new TreeMap<String, LexiconUnit>();
+        ObjectMapper mapper = new ObjectMapper();
+
+        List<LexiconUnit> lexiconUnits = new ArrayList<LexiconUnit>();
+        try {
+            lexiconUnits = mapper.readValue(Paths.get(conditionalFilename).toFile(), new TypeReference<List<LexiconUnit>>() {
+            });
+            for (LexiconUnit LexiconUnit : lexiconUnits) {
+                LinkedHashMap<Integer, List<String>> newEntityInfos = new LinkedHashMap<Integer, List<String>>();
+                Integer count = 0;
+                for (Integer index : LexiconUnit.getEntityInfos().keySet()) {
+                    List<String> values = LexiconUnit.getEntityInfos().get(index);
+                    List<String> selectedPair = new ArrayList<String>();
+
+                    for (String line : values) {
+                        if (line.contains("=")) {
+                            String[] info = line.split("=");
+                            if (info[0].contains("class")) {
+                                String classNameValue = info[1];
+                                if (classNameValue.contains(className)) {
+                                    selectedPair.add(line);
+                                }
+                            }
+                        }
+                    }
+                    if (!selectedPair.isEmpty()) {
+                        count = count + 1;
+                        newEntityInfos.put(index, values);
+                        LexiconUnit newLexiconUnit = new LexiconUnit(LexiconUnit, selectedPair);
+                        lexicons.put(LexiconUnit.getWord(), newLexiconUnit);
+                    }
+
+                }
+
+            }
+        } catch (IOException ex) {
+            System.out.println("no file is found for lexicon!!" + ex.getMessage());
+            return lexicons;
+        }
+        return lexicons;
+    }
 
     private Map<String, Unit> getQald(String qaldFileName) throws IOException {
         Map<String, Unit> qald = new TreeMap<String, Unit>();
@@ -307,6 +355,8 @@ public class Comparision {
     public MeanReciprocalCalculation getMeanReciprocalResult() {
         return meanReciprocalResult;
     }
+
+    
 
    
 }

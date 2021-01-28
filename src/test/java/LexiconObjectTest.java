@@ -69,7 +69,8 @@ public class LexiconObjectTest implements PropertyNotation, DirectoryLocation, M
                     String conditionalFilename = FileFolderUtils.getLexiconFile(interestingResultDir, OBJECT, postag);
                     String outputFileName = FileFolderUtils.getMeanReciprocalFile(interestingResultDir, OBJECT, postag);
                     Comparision comparision = new Comparision(postag,qald9Dir, qaldFileName, conditionalFilename, outputFileName);
-                    comparision.compersionsPattern();
+                    String experiment="experiment";
+                    comparision.compersionsPattern(experiment);
 
                 }
             }

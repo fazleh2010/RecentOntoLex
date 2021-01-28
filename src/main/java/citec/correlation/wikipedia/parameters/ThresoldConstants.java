@@ -23,7 +23,7 @@ public interface ThresoldConstants {
     public static final String supB = "supB";
     public static final String condAB = "condAB";
     public static final String condBA = "condBA";
-    public static final String NUMBER_OF_RULES = "numRule";
+    public static final String numRule = "numRule";
     
     public static final String AllConf = "AllConf";
     public static final String MaxConf = "MaxConf";

@@ -155,7 +155,7 @@ public class MeanReciprocalCalculation implements Comparator{
         MeanReciprocalCalculation s2 = (MeanReciprocalCalculation) arg1;
         if (s1.meanReciprocalRank == s2.meanReciprocalRank) {
             return 0;
-        } else if (s1.meanReciprocalRank > s2.meanReciprocalRank) {
+        } else if (s1.meanReciprocalRank >s2.meanReciprocalRank) {
             return 1;
         } else {
             return -1;

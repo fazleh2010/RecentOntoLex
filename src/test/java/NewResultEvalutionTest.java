@@ -30,6 +30,7 @@ import java.io.IOException;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
@@ -58,6 +59,9 @@ public class NewResultEvalutionTest implements ThresoldConstants{
     private static Map<String, List<String>> rules = new HashMap<String, List<String>>();
     private static Map<String, Map<String, List<File>>> classRuleFiles = new TreeMap<String, Map<String, List<File>>>();
     private static Map<String, List<WordObjectResults>> wordObjectResults = new TreeMap<String, List<WordObjectResults>>();
+    private static List<MeanReciprocalCalculation> adjectives = new ArrayList<MeanReciprocalCalculation>();
+    private static List<MeanReciprocalCalculation> verbs = new ArrayList<MeanReciprocalCalculation>();
+    private static List<MeanReciprocalCalculation> nouns = new ArrayList<MeanReciprocalCalculation>();
    
 
     private static Set<String> classFileNames = new HashSet<String>();
@@ -174,38 +178,56 @@ public class NewResultEvalutionTest implements ThresoldConstants{
         thresolds.put("supAB", 60.0);
         thresolds.put("Cosine", 1.0);*/
         NewResultEvalutionTest newResultEvalutionTest = new NewResultEvalutionTest();
-        
+
         /*for (String associationRule : interestingness) {
             ThresoldsExperiment thresold = new ThresoldsExperiment(associationRule);
             associationRulesExperiment.put(associationRule, thresold);
         }*/
-        
         //create experiment for all association rules.
-        Map<String, ThresoldsExperiment> associationRulesExperiment=createExperiments();
-        
+        Map<String, ThresoldsExperiment> associationRulesExperiment = createExperiments();
+
         //run it once. we dont need to run it very time..
         //createEvalutionFiles(associationRulesExperiment);
-        
-          
         Integer index = 0;
         for (String associationRule : associationRulesExperiment.keySet()) {
             associationRule = ThresoldConstants.Cosine;
             ThresoldsExperiment thresoldsExperiment = associationRulesExperiment.get(associationRule);
             Map<String, Map<String, MeanReciprocalCalculation>> expeResult = new TreeMap<String, Map<String, MeanReciprocalCalculation>>();
+
+            adjectives = new ArrayList<MeanReciprocalCalculation>();
+            verbs = new ArrayList<MeanReciprocalCalculation>();
+            nouns = new ArrayList<MeanReciprocalCalculation>();
+
             for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
                 List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, associationRule, experiment, ".json").getValue1();
                 index = index + 1;
                 ThresoldsExperiment.ThresoldELement thresoldELement = thresoldsExperiment.getThresoldELements().get(experiment);
-                Map<String, MeanReciprocalCalculation> meanReciprocals = meanReciprocalValues(directory, expFileList);
-                if(!meanReciprocals.isEmpty())
-                   expeResult.put(experiment, meanReciprocals);
+                Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(directory, expFileList);
+                if (!meanReciprocalsPos.isEmpty()) {
+                    expeResult.put(experiment, meanReciprocalsPos);
+                }
             }
+            setTopMeanReciprocal(directory,associationRule);
             String outputFileName = directory + associationRule + "-NN-JJ-VB-" + "MeanR" + ".json";
             FileFolderUtils.writeExperMeanResultsToJsonFile(expeResult, outputFileName);
             break;
         }
 
-       
+    }
+    
+    public static void setTopMeanReciprocal(String directory, String associationRule) throws Exception {
+        Collections.sort(adjectives, new MeanReciprocalCalculation());
+        Collections.reverse(adjectives);
+        Collections.sort(nouns, new MeanReciprocalCalculation());
+        Collections.reverse(nouns);
+        Collections.sort(verbs, new MeanReciprocalCalculation());
+        Collections.reverse(verbs);
+        String outputFileName = directory + associationRule + "-NN-" + "MeanR" + ".json";
+        FileFolderUtils.writeMeanSortToJsonFile(nouns, outputFileName);
+        outputFileName = directory + associationRule + "-JJ-" + "MeanR" + ".json";
+        FileFolderUtils.writeMeanSortToJsonFile(adjectives, outputFileName);
+        outputFileName = directory + associationRule + "-VB-" + "MeanR" + ".json";
+        FileFolderUtils.writeMeanSortToJsonFile(verbs, outputFileName);
 
     }
     
@@ -232,6 +254,7 @@ public class NewResultEvalutionTest implements ThresoldConstants{
                 ThresoldsExperiment thresoldsExperiment = associationRulesExperiment.get(associationRule);
                 Integer index = 0;
                         System.out.println("number of experiments:"+ thresoldsExperiment.getThresoldELements().size());
+                    
                 for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
                     index = index + 1;
                     ThresoldsExperiment.ThresoldELement element = thresoldsExperiment.getThresoldELements().get(experiment);
@@ -441,6 +464,16 @@ public class NewResultEvalutionTest implements ThresoldConstants{
                 //System.out.println("conditionalFilename:" + conditionalFilename);
                 Comparision comparision = new Comparision(posTag, qald9Dir, qaldFileName, conditionalFilename);
                 comparision.compersionsPattern();
+                MeanReciprocalCalculation meanReciprocalCalculation=comparision.getMeanReciprocalResult();
+                if (posTag.contains("JJ")) {
+                    adjectives.add(meanReciprocalCalculation);
+                }
+                if (posTag.contains("VB")) {
+                    verbs.add(meanReciprocalCalculation);
+                }
+                if (posTag.contains("NN"))
+                    nouns.add(meanReciprocalCalculation);
+                
                 meanReciprocals.put(posTag, comparision.getMeanReciprocalResult());
                   
             }catch(Exception exp){

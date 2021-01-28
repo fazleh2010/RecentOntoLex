@@ -1,0 +1,343 @@
+[ {
+  "id" : 1,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"First edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition\"@en", "class=HR_Book" ],
+    "1" : [ "pair=\"First edition cover\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition cover\"@en", "class=HR_Book" ],
+    "2" : [ "pair=\"Cover of first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ],
+    "3" : [ "pair=\"Cover of the first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of the first edition\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "american writer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"First edition cover\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition cover\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "author",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"First edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition\"@en", "class=HR_Book" ],
+    "1" : [ "pair=\"First edition cover\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition cover\"@en", "class=HR_Book" ],
+    "2" : [ "pair=\"Cover of the first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of the first edition\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "book",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"First edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition\"@en", "class=HR_Book" ],
+    "1" : [ "pair=\"First edition cover\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition cover\"@en", "class=HR_Book" ],
+    "2" : [ "pair=\"Cover of first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ],
+    "3" : [ "pair=\"Cover of the first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of the first edition\"@en", "class=HR_Book" ],
+    "4" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:isbnNote \"\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "british science",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "british science fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "british science fiction\u001Ctelevision",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "british science fiction\u001Ctelevision\u001Cseries",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "doctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "doctor it\u001Cfeatures",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "doctor it\u001Cfeatures\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "features",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "features\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"First edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition\"@en", "class=HR_Book" ],
+    "1" : [ "pair=\"First edition cover\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition cover\"@en", "class=HR_Book" ],
+    "2" : [ "pair=\"Cover of first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ],
+    "3" : [ "pair=\"Cover of the first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of the first edition\"@en", "class=HR_Book" ],
+    "4" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "fiction television",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "fiction television series",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "fiction television series\u001Cdoctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "fiction television series\u001Cdoctor\u001Cwho",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "first",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"First edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition\"@en", "class=HR_Book" ],
+    "1" : [ "pair=\"First edition cover\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition cover\"@en", "class=HR_Book" ],
+    "2" : [ "pair=\"Cover of first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ],
+    "3" : [ "pair=\"Cover of the first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of the first edition\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "long-running\u001Cbritish\u001Cscience",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "long-running british\u001Cscience",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "long-running british\u001Cscience\u001Cfiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "long-running british science",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "long-running british science\u001Cfiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "long-running british science\u001Cfiction\u001Ctelevision",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "original novel",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "paperback",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Cover of first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "philosopher",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Cover of the first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of the first edition\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "science",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"First edition cover\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition cover\"@en", "class=HR_Book" ],
+    "1" : [ "pair=\"Cover of first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ],
+    "2" : [ "pair=\"Cover of the first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of the first edition\"@en", "class=HR_Book" ],
+    "3" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "science fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Cover of first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ],
+    "1" : [ "pair=\"Cover of the first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of the first edition\"@en", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "science fiction television",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "science fiction television\u001Cseries",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "science fiction television\u001Cseries\u001Cdoctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "series",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"First edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition\"@en", "class=HR_Book" ],
+    "1" : [ "pair=\"First edition cover\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition cover\"@en", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "series doctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "series doctor who\u001Cit",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "series doctor who\u001Cit\u001Cfeatures",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "short",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Cover of first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "story",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"First edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition\"@en", "class=HR_Book" ],
+    "1" : [ "pair=\"First edition cover\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition cover\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "television",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "television series",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "television series doctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "television series doctor\u001Cwho",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "television series doctor\u001Cwho\u001Cit",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "writer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"First edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition\"@en", "class=HR_Book" ],
+    "1" : [ "pair=\"First edition cover\"@en", "MaxConf=1.0", "triple=e dbp:caption \"First edition cover\"@en", "class=HR_Book" ],
+    "2" : [ "pair=\"Cover of first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ],
+    "3" : [ "pair=\"Cover of the first edition\"@en", "MaxConf=1.0", "triple=e dbp:caption \"Cover of the first edition\"@en", "class=HR_Book" ]
+  }
+} ]

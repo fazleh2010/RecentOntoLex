@@ -1,0 +1,23 @@
+[ {
+  "id" : 4,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"piano\"@en", "Cosine=0.916", "triple=e dbp:instrument \"piano\"@en", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=\"keyboards\"@en", "Cosine=0.916", "triple=e dbp:instrument \"keyboards\"@en", "class=HR_MusicalArtist" ],
+    "2" : [ "pair=\"Rapper\"@en", "Cosine=0.909", "triple=e dbp:occupation \"Rapper\"@en", "class=HR_MusicalArtist" ],
+    "3" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.906", "triple=e dbo:activeYearsStartYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_MusicalArtist" ],
+    "4" : [ "pair=\"record producer\"@en", "Cosine=0.905", "triple=e dbp:occupation \"record producer\"@en", "class=HR_MusicalArtist" ],
+    "5" : [ "pair=\"songwriter\"@en", "Cosine=0.895", "triple=e dbp:occupation \"songwriter\"@en", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Rapper\"@en", "Cosine=0.944", "triple=e dbp:occupation \"Rapper\"@en", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Rapping", "Cosine=0.932", "triple=e dbo:occupation Rapping", "class=HR_MusicalArtist" ],
+    "2" : [ "pair=Rapper", "Cosine=0.911", "triple=e dbo:occupation Rapper", "class=HR_MusicalArtist" ],
+    "3" : [ "pair=\"\"@en", "Cosine=0.9", "triple=e dbp:alias \"\"@en", "class=HR_MusicalArtist" ]
+  }
+} ]

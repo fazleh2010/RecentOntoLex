@@ -1,0 +1,38 @@
+[ {
+  "id" : 2,
+  "pattern" : "based",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.835", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "based on\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.8", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.877", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ],
+    "1" : [ "pair=Fantasy_fiction", "Kulczynski=0.866", "triple=e dbo:literaryGenre Fantasy_fiction", "class=HR_Book" ],
+    "2" : [ "pair=\"Canada\"@en", "Kulczynski=0.827", "triple=e dbp:country \"Canada\"@en", "class=HR_Book" ],
+    "3" : [ "pair=Mystery_fiction", "Kulczynski=0.809", "triple=e dbo:literaryGenre Mystery_fiction", "class=HR_Book" ],
+    "4" : [ "pair=Fantasy", "Kulczynski=0.802", "triple=e dbp:genre Fantasy", "class=HR_Book" ],
+    "5" : [ "pair=Detective_fiction", "Kulczynski=0.801", "triple=e dbo:literaryGenre Detective_fiction", "class=HR_Book" ],
+    "6" : [ "pair=Science_fiction", "Kulczynski=0.791", "triple=e dbp:genre Science_fiction", "class=HR_Book" ],
+    "7" : [ "pair=\"German\"@en", "Kulczynski=0.787", "triple=e dbp:language \"German\"@en", "class=HR_Book" ],
+    "8" : [ "pair=Horror_fiction", "Kulczynski=0.784", "triple=e dbo:literaryGenre Horror_fiction", "class=HR_Book" ],
+    "9" : [ "pair=\"United Kingdom\"@en", "Kulczynski=0.784", "triple=e dbp:country \"United Kingdom\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "written",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.796", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+} ]

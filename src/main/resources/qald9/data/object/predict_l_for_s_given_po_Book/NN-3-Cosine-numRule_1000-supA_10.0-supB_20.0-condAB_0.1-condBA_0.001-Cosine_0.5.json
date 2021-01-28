@@ -1,0 +1,539 @@
+[ {
+  "id" : 1,
+  "pattern" : "& dragons",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.95", "triple=e dbo:publisher TSR", "class=HR_Book" ],
+    "1" : [ "pair=Role-playing_game", "Cosine=0.906", "triple=e dbo:literaryGenre Role-playing_game", "class=HR_Book" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "& dragons fantasy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.906", "triple=e dbo:publisher TSR", "class=HR_Book" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "& dragons fantasy\u001Crole-playing",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.898", "triple=e dbo:publisher TSR", "class=HR_Book" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "& dragons fantasy\u001Crole-playing\u001Cgame",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.898", "triple=e dbo:publisher TSR", "class=HR_Book" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "book",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#positiveInteger>", "Cosine=0.962", "triple=e dbo:numberOfPages //www.w3.org/2001/XMLSchema#positiveInteger>", "class=HR_Book" ],
+    "1" : [ "pair=Picture_book", "Cosine=0.932", "triple=e dbo:literaryGenre Picture_book", "class=HR_Book" ],
+    "2" : [ "pair=\"Non-fiction\"@en", "Cosine=0.929", "triple=e dbp:genre \"Non-fiction\"@en", "class=HR_Book" ],
+    "3" : [ "pair=Nonfiction", "Cosine=0.91", "triple=e dbp:genre Nonfiction", "class=HR_Book" ],
+    "4" : [ "pair=Non-fiction", "Cosine=0.905", "triple=e dbo:literaryGenre Non-fiction", "class=HR_Book" ],
+    "5" : [ "pair=Children's_literature", "Cosine=0.849", "triple=e dbo:literaryGenre Children's_literature", "class=HR_Book" ],
+    "6" : [ "pair=Biography", "Cosine=0.827", "triple=e dbo:literaryGenre Biography", "class=HR_Book" ],
+    "7" : [ "pair=Penguin_Books", "Cosine=0.824", "triple=e dbo:publisher Penguin_Books", "class=HR_Book" ],
+    "8" : [ "pair=\"Hardcover\"@en", "Cosine=0.818", "triple=e dbp:mediaType \"Hardcover\"@en", "class=HR_Book" ],
+    "9" : [ "pair=\"Hardcover edition\"@en", "Cosine=0.811", "triple=e dbp:caption \"Hardcover edition\"@en", "class=HR_Book" ],
+    "10" : [ "pair=Memoir", "Cosine=0.796", "triple=e dbp:genre Memoir", "class=HR_Book" ],
+    "11" : [ "pair=\"Cover of the first edition\"@en", "Cosine=0.773", "triple=e dbp:caption \"Cover of the first edition\"@en", "class=HR_Book" ],
+    "12" : [ "pair=Hardcover", "Cosine=0.773", "triple=e dbp:mediaType Hardcover", "class=HR_Book" ],
+    "13" : [ "pair=\"\"", "Cosine=0.767", "triple=e dbo:isbn \"\"", "class=HR_Book" ],
+    "14" : [ "pair=Houghton_Mifflin_Harcourt", "Cosine=0.762", "triple=e dbp:publisher Houghton_Mifflin_Harcourt", "class=HR_Book" ],
+    "15" : [ "pair=E-book", "Cosine=0.752", "triple=e dbo:mediaType E-book", "class=HR_Book" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "british science",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.916", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.783", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "british science fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.916", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.783", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "british science fiction\u001Ctelevision",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.916", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.783", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "british science fiction\u001Ctelevision\u001Cseries",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.916", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.783", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "collection",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Short_story", "Cosine=0.773", "triple=e dbp:genre Short_story", "class=HR_Book" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "doctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.994", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.982", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.857", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "doctor it\u001Cfeatures",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.848", "triple=e dbp:subject \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "doctor it\u001Cfeatures\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.842", "triple=e dbp:subject \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "dragons",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.95", "triple=e dbo:publisher TSR", "class=HR_Book" ],
+    "1" : [ "pair=Role-playing_game", "Cosine=0.919", "triple=e dbo:literaryGenre Role-playing_game", "class=HR_Book" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "dragons fantasy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.906", "triple=e dbo:publisher TSR", "class=HR_Book" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "dragons fantasy role-playing",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.898", "triple=e dbo:publisher TSR", "class=HR_Book" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "dragons fantasy role-playing\u001Cgame",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.898", "triple=e dbo:publisher TSR", "class=HR_Book" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "dungeons",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.95", "triple=e dbo:publisher TSR", "class=HR_Book" ],
+    "1" : [ "pair=Role-playing_game", "Cosine=0.919", "triple=e dbo:literaryGenre Role-playing_game", "class=HR_Book" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "dungeons &",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.95", "triple=e dbo:publisher TSR", "class=HR_Book" ],
+    "1" : [ "pair=Role-playing_game", "Cosine=0.906", "triple=e dbo:literaryGenre Role-playing_game", "class=HR_Book" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "dungeons & dragons",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.95", "triple=e dbo:publisher TSR", "class=HR_Book" ],
+    "1" : [ "pair=Role-playing_game", "Cosine=0.906", "triple=e dbo:literaryGenre Role-playing_game", "class=HR_Book" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "dungeons & dragons\u001Cfantasy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.906", "triple=e dbo:publisher TSR", "class=HR_Book" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "dungeons & dragons\u001Cfantasy\u001Crole-playing",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.898", "triple=e dbo:publisher TSR", "class=HR_Book" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "edition",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Role-playing_game", "Cosine=0.779", "triple=e dbo:literaryGenre Role-playing_game", "class=HR_Book" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "fantasy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.95", "triple=e dbo:publisher TSR", "class=HR_Book" ],
+    "1" : [ "pair=Fantasy_fiction", "Cosine=0.889", "triple=e dbo:literaryGenre Fantasy_fiction", "class=HR_Book" ],
+    "2" : [ "pair=Role-playing_game", "Cosine=0.866", "triple=e dbo:literaryGenre Role-playing_game", "class=HR_Book" ],
+    "3" : [ "pair=Fantasy_literature", "Cosine=0.866", "triple=e dbo:literaryGenre Fantasy_literature", "class=HR_Book" ],
+    "4" : [ "pair=Fantasy", "Cosine=0.82", "triple=e dbp:genre Fantasy", "class=HR_Book" ],
+    "5" : [ "pair=Fantasy_novel", "Cosine=0.789", "triple=e dbo:literaryGenre Fantasy_novel", "class=HR_Book" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "fantasy novel",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fantasy_literature", "Cosine=0.813", "triple=e dbo:literaryGenre Fantasy_literature", "class=HR_Book" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "fantasy role-playing",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.906", "triple=e dbo:publisher TSR", "class=HR_Book" ],
+    "1" : [ "pair=Role-playing_game", "Cosine=0.845", "triple=e dbo:literaryGenre Role-playing_game", "class=HR_Book" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "fantasy role-playing game",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.906", "triple=e dbo:publisher TSR", "class=HR_Book" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "features",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "1" : [ "pair=\"@en", "Cosine=0.921", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.769", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "features\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.842", "triple=e dbp:subject \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.972", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Science_fiction", "Cosine=0.884", "triple=e dbo:literaryGenre Science_fiction", "class=HR_Book" ],
+    "3" : [ "pair=\"Science fiction\"@en", "Cosine=0.881", "triple=e dbp:genre \"Science fiction\"@en", "class=HR_Book" ],
+    "4" : [ "pair=\"Science fiction novel\"@en", "Cosine=0.86", "triple=e dbp:genre \"Science fiction novel\"@en", "class=HR_Book" ],
+    "5" : [ "pair=Doctor_Who", "Cosine=0.828", "triple=e dbo:series Doctor_Who", "class=HR_Book" ],
+    "6" : [ "pair=\"Cover of first edition\"@en", "Cosine=0.779", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "fiction novel",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Science fiction novel\"@en", "Cosine=0.793", "triple=e dbp:genre \"Science fiction novel\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "fiction television",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.972", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.828", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "fiction television series",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.972", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.828", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "fiction television series\u001Cdoctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.972", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.828", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "fiction television series\u001Cdoctor\u001Cwho",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.961", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.936", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.819", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "first",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Cover of first edition\"@en", "Cosine=0.787", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ],
+    "1" : [ "pair=Fantasy_fiction", "Cosine=0.754", "triple=e dbo:literaryGenre Fantasy_fiction", "class=HR_Book" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "game",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.942", "triple=e dbp:publisher TSR", "class=HR_Book" ],
+    "1" : [ "pair=Role-playing_game", "Cosine=0.906", "triple=e dbo:literaryGenre Role-playing_game", "class=HR_Book" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "long-running\u001Cbritish\u001Cscience",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.905", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.769", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "long-running british\u001Cscience",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.916", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.783", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "long-running british\u001Cscience\u001Cfiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.916", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.783", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "long-running british science",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.916", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.783", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "long-running british science\u001Cfiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.916", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.783", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "long-running british science\u001Cfiction\u001Ctelevision",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.916", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.783", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "memoir",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Memoir", "Cosine=0.862", "triple=e dbp:genre Memoir", "class=HR_Book" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "original novel",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.867", "triple=e dbp:subject \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "role-playing",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Role-playing_game", "Cosine=0.944", "triple=e dbo:literaryGenre Role-playing_game", "class=HR_Book" ],
+    "1" : [ "pair=TSR", "Cosine=0.934", "triple=e dbp:publisher TSR", "class=HR_Book" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "role-playing game",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TSR", "Cosine=0.925", "triple=e dbp:publisher TSR", "class=HR_Book" ],
+    "1" : [ "pair=Role-playing_game", "Cosine=0.866", "triple=e dbo:literaryGenre Role-playing_game", "class=HR_Book" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "science",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.972", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Science_fiction", "Cosine=0.879", "triple=e dbo:literaryGenre Science_fiction", "class=HR_Book" ],
+    "3" : [ "pair=\"Science fiction\"@en", "Cosine=0.874", "triple=e dbp:genre \"Science fiction\"@en", "class=HR_Book" ],
+    "4" : [ "pair=\"Science fiction novel\"@en", "Cosine=0.86", "triple=e dbp:genre \"Science fiction novel\"@en", "class=HR_Book" ],
+    "5" : [ "pair=Doctor_Who", "Cosine=0.828", "triple=e dbo:series Doctor_Who", "class=HR_Book" ],
+    "6" : [ "pair=\"Cover of first edition\"@en", "Cosine=0.763", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "science fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.972", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Science_fiction", "Cosine=0.872", "triple=e dbo:literaryGenre Science_fiction", "class=HR_Book" ],
+    "3" : [ "pair=\"Science fiction\"@en", "Cosine=0.867", "triple=e dbp:genre \"Science fiction\"@en", "class=HR_Book" ],
+    "4" : [ "pair=\"Science fiction novel\"@en", "Cosine=0.846", "triple=e dbp:genre \"Science fiction novel\"@en", "class=HR_Book" ],
+    "5" : [ "pair=Doctor_Who", "Cosine=0.828", "triple=e dbo:series Doctor_Who", "class=HR_Book" ],
+    "6" : [ "pair=\"Cover of first edition\"@en", "Cosine=0.759", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "science fiction television",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.972", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.828", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "science fiction television\u001Cseries",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.972", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.828", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "science fiction television\u001Cseries\u001Cdoctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.972", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.828", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "series",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.989", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.964", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.849", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "series doctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.972", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.828", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "series doctor who\u001Cit",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.892", "triple=e dbp:subject \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "series doctor who\u001Cit\u001Cfeatures",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.848", "triple=e dbp:subject \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "short",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Short_story", "Cosine=0.884", "triple=e dbp:genre Short_story", "class=HR_Book" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "stories",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Short_story", "Cosine=0.877", "triple=e dbp:genre Short_story", "class=HR_Book" ],
+    "1" : [ "pair=Fantasy_fiction", "Cosine=0.777", "triple=e dbo:literaryGenre Fantasy_fiction", "class=HR_Book" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "swedish",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Swedish_language", "Cosine=0.923", "triple=e dbo:language Swedish_language", "class=HR_Book" ],
+    "1" : [ "pair=Sweden", "Cosine=0.863", "triple=e dbo:country Sweden", "class=HR_Book" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "television",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.972", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.828", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "television series",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.972", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.828", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "television series doctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.972", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.828", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "television series doctor\u001Cwho",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.961", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.936", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.819", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "television series doctor\u001Cwho\u001Cit",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.892", "triple=e dbp:subject \"@en", "class=HR_Book" ]
+  }
+} ]

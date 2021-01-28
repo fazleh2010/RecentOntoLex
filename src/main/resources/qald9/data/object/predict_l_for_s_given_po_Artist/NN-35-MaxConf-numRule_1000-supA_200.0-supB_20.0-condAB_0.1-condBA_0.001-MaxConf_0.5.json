@@ -1,0 +1,149 @@
+[ {
+  "id" : 1,
+  "pattern" : "also",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Painting", "MaxConf=1.0", "triple=e dbp:field Painting", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United_States", "MaxConf=1.0", "triple=e dbp:nationality United_States", "class=HR_Artist" ],
+    "1" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ],
+    "2" : [ "pair=Songwriter", "MaxConf=1.0", "triple=e dbo:occupation Songwriter", "class=HR_MusicalArtist" ],
+    "3" : [ "pair=Record_producer", "MaxConf=1.0", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ],
+    "4" : [ "pair=Guitar", "MaxConf=1.0", "triple=e dbo:instrument Guitar", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "american artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "american painter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United_States", "MaxConf=1.0", "triple=e dbp:nationality United_States", "class=HR_Artist" ],
+    "1" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ],
+    "2" : [ "pair=\"British\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"British\"@en", "class=HR_Artist" ],
+    "3" : [ "pair=Sculpture", "MaxConf=1.0", "triple=e dbp:field Sculpture", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Guitar", "MaxConf=1.0", "triple=e dbo:instrument Guitar", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "composer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Composer", "MaxConf=1.0", "triple=e dbo:occupation Composer", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "guitarist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Guitar", "MaxConf=1.0", "triple=e dbo:instrument Guitar", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "musician",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Guitar", "MaxConf=1.0", "triple=e dbo:instrument Guitar", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "new york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "painter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=\"Painting\"@en", "MaxConf=1.0", "triple=e dbp:field \"Painting\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "paintings",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Painting", "MaxConf=1.0", "triple=e dbp:field Painting", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "producer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Record_producer", "MaxConf=1.0", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "record",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Record_producer", "MaxConf=1.0", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "sculptor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sculpture", "MaxConf=1.0", "triple=e dbp:field Sculpture", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "singer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Singing", "MaxConf=1.0", "triple=e dbo:occupation Singing", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "songwriter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Songwriter", "MaxConf=1.0", "triple=e dbo:occupation Songwriter", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "work",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "works",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ]
+  }
+} ]

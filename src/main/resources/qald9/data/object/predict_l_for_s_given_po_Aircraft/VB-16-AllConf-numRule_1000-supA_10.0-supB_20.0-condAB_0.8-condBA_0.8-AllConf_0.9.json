@@ -1,0 +1,73 @@
+[ {
+  "id" : 17,
+  "pattern" : "designed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Paramotor", "AllConf=1.0", "triple=e dbo:type Paramotor", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"Bertrand\"@en", "AllConf=0.996", "triple=e dbp:ref \"Bertrand\"@en", "class=HR_Aircraft" ],
+    "2" : [ "pair=//dbpedia.org/datatype/second>", "AllConf=0.989", "triple=e dbp:produced //dbpedia.org/datatype/second>", "class=HR_Aircraft" ],
+    "3" : [ "pair=Paragliding", "AllConf=0.989", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ],
+    "4" : [ "pair=Paraglider", "AllConf=0.989", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ],
+    "5" : [ "pair=Hang_gliding", "AllConf=0.984", "triple=e dbp:type Hang_gliding", "class=HR_Aircraft" ],
+    "6" : [ "pair=Hang_glider", "AllConf=0.983", "triple=e dbo:type Hang_glider", "class=HR_Aircraft" ],
+    "7" : [ "pair=\"Sailplane Directory and Soaring\"@en", "AllConf=0.981", "triple=e dbp:ref \"Sailplane Directory and Soaring\"@en", "class=HR_Aircraft" ],
+    "8" : [ "pair=Powered_parachute", "AllConf=0.973", "triple=e dbo:type Powered_parachute", "class=HR_Aircraft" ],
+    "9" : [ "pair=\"AeroCrafter\"@en", "AllConf=0.931", "triple=e dbp:ref \"AeroCrafter\"@en", "class=HR_Aircraft" ],
+    "10" : [ "pair=\"Production completed\"@en", "AllConf=0.916", "triple=e dbp:status \"Production completed\"@en", "class=HR_Aircraft" ],
+    "11" : [ "pair=Ultralight_trike", "AllConf=0.914", "triple=e dbo:type Ultralight_trike", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "developed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=China", "AllConf=0.949", "triple=e dbp:primaryUser China", "class=HR_Aircraft" ],
+    "1" : [ "pair=UAV", "AllConf=0.926", "triple=e dbo:type UAV", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "flying",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Flying_boat", "AllConf=0.938", "triple=e dbo:type Flying_boat", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "hang",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Hang_glider", "AllConf=1.0", "triple=e dbo:type Hang_glider", "class=HR_Aircraft" ],
+    "1" : [ "pair=Hang_gliding", "AllConf=1.0", "triple=e dbp:type Hang_gliding", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "powered",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Paramotor", "AllConf=0.987", "triple=e dbo:type Paramotor", "class=HR_Aircraft" ],
+    "1" : [ "pair=Powered_parachute", "AllConf=0.985", "triple=e dbp:type Powered_parachute", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Paramotor", "AllConf=1.0", "triple=e dbo:type Paramotor", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"Bertrand\"@en", "AllConf=0.996", "triple=e dbp:ref \"Bertrand\"@en", "class=HR_Aircraft" ],
+    "2" : [ "pair=//dbpedia.org/datatype/second>", "AllConf=0.989", "triple=e dbp:produced //dbpedia.org/datatype/second>", "class=HR_Aircraft" ],
+    "3" : [ "pair=Paragliding", "AllConf=0.989", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ],
+    "4" : [ "pair=Paraglider", "AllConf=0.989", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ],
+    "5" : [ "pair=Powered_parachute", "AllConf=0.973", "triple=e dbo:type Powered_parachute", "class=HR_Aircraft" ],
+    "6" : [ "pair=Hang_gliding", "AllConf=0.968", "triple=e dbp:type Hang_gliding", "class=HR_Aircraft" ],
+    "7" : [ "pair=Hang_glider", "AllConf=0.967", "triple=e dbo:type Hang_glider", "class=HR_Aircraft" ],
+    "8" : [ "pair=Ultralight_trike", "AllConf=0.928", "triple=e dbo:type Ultralight_trike", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "supplied",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"AeroCrafter\"@en", "AllConf=1.0", "triple=e dbp:ref \"AeroCrafter\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"four cylinder", "AllConf=0.927", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ]
+  }
+} ]

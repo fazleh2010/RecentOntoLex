@@ -1,0 +1,47 @@
+[ {
+  "id" : 6,
+  "pattern" : "greek",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Greek\"@en", "Coherence=0.37", "triple=e dbp:nationality \"Greek\"@en", "class=HR_BasketballPlayer" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Japanese\"@en", "Coherence=0.378", "triple=e dbp:nationality \"Japanese\"@en", "class=HR_BasketballPlayer" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "professional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Aris_B.C.", "Coherence=0.394", "triple=e dbp:team Aris_B.C.", "class=HR_BasketballPlayer" ],
+    "1" : [ "pair=Greek_Basketball_Cup", "Coherence=0.393", "triple=e dbo:award Greek_Basketball_Cup", "class=HR_BasketballPlayer" ],
+    "2" : [ "pair=Salt_Lake_City_Stars", "Coherence=0.39", "triple=e dbp:team Salt_Lake_City_Stars", "class=HR_BasketballPlayer" ],
+    "3" : [ "pair=P.A.O.K._BC", "Coherence=0.384", "triple=e dbp:team P.A.O.K._BC", "class=HR_BasketballPlayer" ],
+    "4" : [ "pair=Panionios_B.C.", "Coherence=0.382", "triple=e dbp:team Panionios_B.C.", "class=HR_BasketballPlayer" ],
+    "5" : [ "pair=Greek_Basket_League", "Coherence=0.378", "triple=e dbo:award Greek_Basket_League", "class=HR_BasketballPlayer" ],
+    "6" : [ "pair=Panathinaikos_B.C.", "Coherence=0.377", "triple=e dbp:team Panathinaikos_B.C.", "class=HR_BasketballPlayer" ],
+    "7" : [ "pair=Olympiacos_B.C.", "Coherence=0.375", "triple=e dbp:team Olympiacos_B.C.", "class=HR_BasketballPlayer" ],
+    "8" : [ "pair=Valencia_Basket", "Coherence=0.372", "triple=e dbp:team Valencia_Basket", "class=HR_BasketballPlayer" ],
+    "9" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.372", "triple=e dbo:activeYearsEndYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_BasketballPlayer" ],
+    "10" : [ "pair=Charlotte_Hornets", "Coherence=0.37", "triple=e dbp:team Charlotte_Hornets", "class=HR_BasketballPlayer" ],
+    "11" : [ "pair=Lega_Basket_Serie_A", "Coherence=0.368", "triple=e dbo:award Lega_Basket_Serie_A", "class=HR_BasketballPlayer" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "serbian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Serbian\"@en", "Coherence=0.369", "triple=e dbp:nationality \"Serbian\"@en", "class=HR_BasketballPlayer" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "turkish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Turkish\"@en", "Coherence=0.383", "triple=e dbp:nationality \"Turkish\"@en", "class=HR_BasketballPlayer" ]
+  }
+} ]

@@ -1,0 +1,52 @@
+[ {
+  "id" : 26,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Round 1", "MaxConf=1.0", "triple=e dbp:debutdate \"Round 1", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "drafted",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Australian_rules_football_positions", "MaxConf=1.0", "triple=e dbp:position Australian_rules_football_positions", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "made",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Australian_rules_football_positions", "MaxConf=1.0", "triple=e dbp:position Australian_rules_football_positions", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "opening",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Australian_rules_football_positions", "MaxConf=1.0", "triple=e dbp:position Australian_rules_football_positions", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "played",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Round 1", "MaxConf=1.0", "triple=e dbp:debutdate \"Round 1", "class=HR_AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=Australian_rules_football_positions", "MaxConf=1.0", "triple=e dbp:position Australian_rules_football_positions", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "played for\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Australian_rules_football_positions", "MaxConf=1.0", "triple=e dbp:position Australian_rules_football_positions", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "playing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Round 1", "MaxConf=1.0", "triple=e dbp:debutdate \"Round 1", "class=HR_AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=Australian_rules_football_positions", "MaxConf=1.0", "triple=e dbp:position Australian_rules_football_positions", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+} ]

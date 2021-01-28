@@ -1,0 +1,35 @@
+[ {
+  "id" : 2,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"French\"@en", "Coherence=0.464", "triple=e dbp:language \"French\"@en", "class=HR_Book" ],
+    "1" : [ "pair=\"France\"@en", "Coherence=0.459", "triple=e dbp:country \"France\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"German\"@en", "Coherence=0.445", "triple=e dbp:language \"German\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Historical_novel", "Coherence=0.479", "triple=e dbo:literaryGenre Historical_novel", "class=HR_Book" ],
+    "1" : [ "pair=Novel", "Coherence=0.478", "triple=e dbo:literaryGenre Novel", "class=HR_Book" ],
+    "2" : [ "pair=Crime_novel", "Coherence=0.474", "triple=e dbo:literaryGenre Crime_novel", "class=HR_Book" ],
+    "3" : [ "pair=\"Novel\"@en", "Coherence=0.472", "triple=e dbp:genre \"Novel\"@en", "class=HR_Book" ],
+    "4" : [ "pair=Crime_fiction", "Coherence=0.472", "triple=e dbp:genre Crime_fiction", "class=HR_Book" ],
+    "5" : [ "pair=Thriller_(genre", "Coherence=0.472", "triple=e dbo:literaryGenre Thriller_(genre", "class=HR_Book" ],
+    "6" : [ "pair=Historical_fiction", "Coherence=0.47", "triple=e dbp:genre Historical_fiction", "class=HR_Book" ],
+    "7" : [ "pair=\"Fiction\"@en", "Coherence=0.467", "triple=e dbp:genre \"Fiction\"@en", "class=HR_Book" ],
+    "8" : [ "pair=\"813/.54 20\"", "Coherence=0.459", "triple=e dbo:dcc \"813/.54 20\"", "class=HR_Book" ],
+    "9" : [ "pair=Young_adult_fiction", "Coherence=0.457", "triple=e dbo:literaryGenre Young_adult_fiction", "class=HR_Book" ],
+    "10" : [ "pair=Fiction", "Coherence=0.453", "triple=e dbp:genre Fiction", "class=HR_Book" ],
+    "11" : [ "pair=Fantasy_novel", "Coherence=0.453", "triple=e dbo:literaryGenre Fantasy_novel", "class=HR_Book" ],
+    "12" : [ "pair=Fantasy_literature", "Coherence=0.45", "triple=e dbp:genre Fantasy_literature", "class=HR_Book" ]
+  }
+} ]

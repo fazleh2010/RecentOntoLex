@@ -1,0 +1,29 @@
+[ {
+  "id" : 7,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=United_States", "MaxConf=1.0", "triple=e dbp:nationality United_States", "class=HR_Artist" ],
+    "1" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ],
+    "2" : [ "pair=Sculpture", "MaxConf=1.0", "triple=e dbp:field Sculpture", "class=HR_Artist" ],
+    "3" : [ "pair=Musician", "MaxConf=1.0", "triple=e dbo:occupation Musician", "class=HR_MusicalArtist" ],
+    "4" : [ "pair=Songwriter", "MaxConf=1.0", "triple=e dbo:occupation Songwriter", "class=HR_MusicalArtist" ],
+    "5" : [ "pair=Composer", "MaxConf=1.0", "triple=e dbo:occupation Composer", "class=HR_MusicalArtist" ],
+    "6" : [ "pair=Record_producer", "MaxConf=1.0", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ],
+    "7" : [ "pair=Piano", "MaxConf=1.0", "triple=e dbo:instrument Piano", "class=HR_MusicalArtist" ],
+    "8" : [ "pair=Singing", "MaxConf=1.0", "triple=e dbo:instrument Singing", "class=HR_MusicalArtist" ],
+    "9" : [ "pair=Vocals", "MaxConf=1.0", "triple=e dbo:instrument Vocals", "class=HR_MusicalArtist" ],
+    "10" : [ "pair=Guitar", "MaxConf=1.0", "triple=e dbo:instrument Guitar", "class=HR_MusicalArtist" ],
+    "11" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:landscape \"yes\"@en", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=Painting", "MaxConf=1.0", "triple=e dbp:field Painting", "class=HR_Artist" ],
+    "2" : [ "pair=Record_producer", "MaxConf=1.0", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ],
+    "3" : [ "pair=Guitar", "MaxConf=1.0", "triple=e dbo:instrument Guitar", "class=HR_MusicalArtist" ]
+  }
+} ]

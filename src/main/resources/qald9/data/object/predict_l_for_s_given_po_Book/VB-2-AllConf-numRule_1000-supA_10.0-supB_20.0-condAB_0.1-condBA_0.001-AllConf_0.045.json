@@ -1,0 +1,47 @@
+[ {
+  "id" : 6,
+  "pattern" : "based",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"@en", "AllConf=0.935", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "AllConf=0.912", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "AllConf=0.671", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "based on\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"@en", "AllConf=0.83", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "AllConf=0.6", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Short_story", "AllConf=0.781", "triple=e dbp:genre Short_story", "class=HR_Book" ],
+    "1" : [ "pair=\"Cover of first edition\"@en", "AllConf=0.754", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ],
+    "2" : [ "pair=Fantasy_fiction", "AllConf=0.732", "triple=e dbo:literaryGenre Fantasy_fiction", "class=HR_Book" ],
+    "3" : [ "pair=\"Dust-jacket from the first edition\"@en", "AllConf=0.72", "triple=e dbp:caption \"Dust-jacket from the first edition\"@en", "class=HR_Book" ],
+    "4" : [ "pair=\"Canada\"@en", "AllConf=0.654", "triple=e dbp:country \"Canada\"@en", "class=HR_Book" ],
+    "5" : [ "pair=Mystery_fiction", "AllConf=0.619", "triple=e dbo:literaryGenre Mystery_fiction", "class=HR_Book" ],
+    "6" : [ "pair=Ace_Books", "AllConf=0.618", "triple=e dbo:publisher Ace_Books", "class=HR_Book" ],
+    "7" : [ "pair=Fantasy", "AllConf=0.604", "triple=e dbp:genre Fantasy", "class=HR_Book" ],
+    "8" : [ "pair=Detective_fiction", "AllConf=0.603", "triple=e dbo:literaryGenre Detective_fiction", "class=HR_Book" ],
+    "9" : [ "pair=Science_fiction", "AllConf=0.583", "triple=e dbp:genre Science_fiction", "class=HR_Book" ],
+    "10" : [ "pair=E-book", "AllConf=0.577", "triple=e dbo:mediaType E-book", "class=HR_Book" ],
+    "11" : [ "pair=\"German\"@en", "AllConf=0.575", "triple=e dbp:language \"German\"@en", "class=HR_Book" ],
+    "12" : [ "pair=Horror_fiction", "AllConf=0.569", "triple=e dbo:literaryGenre Horror_fiction", "class=HR_Book" ],
+    "13" : [ "pair=\"United Kingdom\"@en", "AllConf=0.569", "triple=e dbp:country \"United Kingdom\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "written",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=BBC_Books", "AllConf=0.894", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "1" : [ "pair=\"@en", "AllConf=0.87", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "AllConf=0.592", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+} ]

@@ -1,0 +1,85 @@
+[ {
+  "id" : 13,
+  "pattern" : "chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Taiwan", "Coherence=0.5", "triple=e dbp:location Taiwan", "class=HR_Building" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "historic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Utah\"@en", "Coherence=0.5", "triple=e dbp:locmapin \"Utah\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"c.\"@en", "Coherence=0.492", "triple=e dbp:built \"c.\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"Maine#USA\"@en", "Coherence=0.491", "triple=e dbp:locmapin \"Maine#USA\"@en", "class=HR_Building" ],
+    "3" : [ "pair=\"North Dakota#USA\"@en", "Coherence=0.489", "triple=e dbp:locmapin \"North Dakota#USA\"@en", "class=HR_Building" ],
+    "4" : [ "pair=\"Delaware#USA\"@en", "Coherence=0.486", "triple=e dbp:locmapin \"Delaware#USA\"@en", "class=HR_Building" ],
+    "5" : [ "pair=\"North Carolina#USA\"@en", "Coherence=0.485", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ],
+    "6" : [ "pair=\"lightgreen\"@en", "Coherence=0.479", "triple=e dbp:designatedOther1Color \"lightgreen\"@en", "class=HR_Building" ],
+    "7" : [ "pair=\"Portland Historic Landmark\"@en", "Coherence=0.479", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ],
+    "8" : [ "pair=\"Indiana#USA\"@en", "Coherence=0.475", "triple=e dbp:locmapin \"Indiana#USA\"@en", "class=HR_Building" ],
+    "9" : [ "pair=\"Pennsylvania#USA\"@en", "Coherence=0.47", "triple=e dbp:locmapin \"Pennsylvania#USA\"@en", "class=HR_Building" ],
+    "10" : [ "pair=\"Georgian\"@en", "Coherence=0.468", "triple=e dbp:architecture \"Georgian\"@en", "class=HR_Building" ],
+    "11" : [ "pair=\"Florida#USA\"@en", "Coherence=0.468", "triple=e dbp:locmapin \"Florida#USA\"@en", "class=HR_Building" ],
+    "12" : [ "pair=Portland", "Coherence=0.467", "triple=e dbo:location Portland", "class=HR_Building" ],
+    "13" : [ "pair=\"Connecticut#USA\"@en", "Coherence=0.467", "triple=e dbp:locmapin \"Connecticut#USA\"@en", "class=HR_Building" ],
+    "14" : [ "pair=\"Virginia#USA\"@en", "Coherence=0.465", "triple=e dbp:locmapin \"Virginia#USA\"@en", "class=HR_Building" ],
+    "15" : [ "pair=\"New York#USA\"@en", "Coherence=0.462", "triple=e dbp:locmapin \"New York#USA\"@en", "class=HR_Building" ],
+    "16" : [ "pair=\"Massachusetts#USA\"@en", "Coherence=0.462", "triple=e dbp:locmapin \"Massachusetts#USA\"@en", "class=HR_Building" ],
+    "17" : [ "pair=\"Missouri#USA\"@en", "Coherence=0.462", "triple=e dbp:locmapin \"Missouri#USA\"@en", "class=HR_Building" ],
+    "18" : [ "pair=\"Federal\"@en", "Coherence=0.462", "triple=e dbp:architecture \"Federal\"@en", "class=HR_Building" ],
+    "19" : [ "pair=Federal_architecture", "Coherence=0.459", "triple=e dbo:architecturalStyle Federal_architecture", "class=HR_Building" ],
+    "20" : [ "pair=Classical_Revival_architecture", "Coherence=0.456", "triple=e dbo:architecturalStyle Classical_Revival_architecture", "class=HR_Building" ],
+    "21" : [ "pair=\"Wisconsin#USA\"@en", "Coherence=0.456", "triple=e dbp:locmapin \"Wisconsin#USA\"@en", "class=HR_Building" ],
+    "22" : [ "pair=\"Alabama#USA\"@en", "Coherence=0.456", "triple=e dbp:locmapin \"Alabama#USA\"@en", "class=HR_Building" ],
+    "23" : [ "pair=\"Virginia Landmarks Register\"@en", "Coherence=0.456", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ],
+    "24" : [ "pair=\"West Virginia#USA\"@en", "Coherence=0.456", "triple=e dbp:locmapin \"West Virginia#USA\"@en", "class=HR_Building" ],
+    "25" : [ "pair=\"New Jersey Register of Historic Places\"@en", "Coherence=0.455", "triple=e dbp:designatedOther1Link \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "26" : [ "pair=\"#ffc94b\"@en", "Coherence=0.454", "triple=e dbp:designatedOther1Color \"#ffc94b\"@en", "class=HR_Building" ],
+    "27" : [ "pair=\"Late Gothic Revival\"@en", "Coherence=0.453", "triple=e dbp:architecture \"Late Gothic Revival\"@en", "class=HR_Building" ],
+    "28" : [ "pair=\"NJRHP\"@en", "Coherence=0.453", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ],
+    "29" : [ "pair=\"Iowa#USA\"@en", "Coherence=0.453", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ],
+    "30" : [ "pair=\"Greek Revival\"@en", "Coherence=0.452", "triple=e dbp:architecture \"Greek Revival\"@en", "class=HR_Building" ],
+    "31" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.45", "triple=e dbo:yearOfConstruction //www.w3.org/2001/XMLSchema#gYear>", "class=HR_Building" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Iowa#USA\"@en", "Coherence=0.484", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"North Carolina#USA\"@en", "Coherence=0.478", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"Indiana#USA\"@en", "Coherence=0.471", "triple=e dbp:locmapin \"Indiana#USA\"@en", "class=HR_Building" ],
+    "3" : [ "pair=\"West Virginia#USA\"@en", "Coherence=0.46", "triple=e dbp:locmapin \"West Virginia#USA\"@en", "class=HR_Building" ],
+    "4" : [ "pair=\"c.\"@en", "Coherence=0.46", "triple=e dbp:built \"c.\"@en", "class=HR_Building" ],
+    "5" : [ "pair=\"New York#USA\"@en", "Coherence=0.458", "triple=e dbp:locmapin \"New York#USA\"@en", "class=HR_Building" ],
+    "6" : [ "pair=Florida", "Coherence=0.455", "triple=e dbo:location Florida", "class=HR_Building" ],
+    "7" : [ "pair=\"Virginia Landmarks Register\"@en", "Coherence=0.449", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ],
+    "8" : [ "pair=\"Missouri#USA\"@en", "Coherence=0.448", "triple=e dbp:locmapin \"Missouri#USA\"@en", "class=HR_Building" ],
+    "9" : [ "pair=Troms_og_Finnmark", "Coherence=0.5", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "10" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 124,
+  "pattern" : "norwegian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=MÃ¸re_og_Romsdal", "Coherence=0.5", "triple=e dbo:location MÃ¸re_og_Romsdal", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Nordland", "Coherence=0.5", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=Agder", "Coherence=0.5", "triple=e dbo:location Agder", "class=HR_HistoricBuilding" ],
+    "3" : [ "pair=Troms_og_Finnmark", "Coherence=0.5", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "4" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "5" : [ "pair=Diocese_of_MÃ¸re", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ],
+    "6" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "7" : [ "pair=List_of_churches_in_Nidaros", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_Nidaros", "class=HR_HistoricBuilding" ],
+    "8" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 146,
+  "pattern" : "romsdal",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=MÃ¸re_og_Romsdal", "Coherence=0.5", "triple=e dbo:location MÃ¸re_og_Romsdal", "class=HR_HistoricBuilding" ]
+  }
+} ]

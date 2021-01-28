@@ -1,0 +1,248 @@
+[ {
+  "id" : 7,
+  "pattern" : "book",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Non-fiction\"@en", "Kulczynski=0.932", "triple=e dbp:genre \"Non-fiction\"@en", "class=HR_Book" ],
+    "1" : [ "pair=Nonfiction", "Kulczynski=0.914", "triple=e dbp:genre Nonfiction", "class=HR_Book" ],
+    "2" : [ "pair=Non-fiction", "Kulczynski=0.909", "triple=e dbo:literaryGenre Non-fiction", "class=HR_Book" ],
+    "3" : [ "pair=Children's_literature", "Kulczynski=0.861", "triple=e dbo:literaryGenre Children's_literature", "class=HR_Book" ],
+    "4" : [ "pair=\"Cover of the first edition\"@en", "Kulczynski=0.799", "triple=e dbp:caption \"Cover of the first edition\"@en", "class=HR_Book" ],
+    "5" : [ "pair=\"\"", "Kulczynski=0.794", "triple=e dbo:isbn \"\"", "class=HR_Book" ],
+    "6" : [ "pair=//www.w3.org/2001/XMLSchema#positiveInteger>", "Kulczynski=0.783", "triple=e dbo:numberOfPages //www.w3.org/2001/XMLSchema#positiveInteger>", "class=HR_Book" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "british science",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "british science fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "british science fiction\u001Ctelevision",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "british science fiction\u001Ctelevision\u001Cseries",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "doctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.867", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "fantasy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fantasy_fiction", "Kulczynski=0.895", "triple=e dbo:literaryGenre Fantasy_fiction", "class=HR_Book" ],
+    "1" : [ "pair=Fantasy", "Kulczynski=0.836", "triple=e dbp:genre Fantasy", "class=HR_Book" ],
+    "2" : [ "pair=Fantasy_literature", "Kulczynski=0.828", "triple=e dbp:genre Fantasy_literature", "class=HR_Book" ],
+    "3" : [ "pair=Fantasy_novel", "Kulczynski=0.811", "triple=e dbo:literaryGenre Fantasy_novel", "class=HR_Book" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "fantasy novel",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fantasy_literature", "Kulczynski=0.785", "triple=e dbp:genre Fantasy_literature", "class=HR_Book" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "features",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.796", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Science_fiction", "Kulczynski=0.89", "triple=e dbo:literaryGenre Science_fiction", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series Doctor_Who", "class=HR_Book" ],
+    "2" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.803", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "fiction television",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "fiction television series",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "fiction television series\u001Cdoctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "fiction television series\u001Cdoctor\u001Cwho",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.835", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "first",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.809", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ],
+    "1" : [ "pair=Fantasy_fiction", "Kulczynski=0.784", "triple=e dbo:literaryGenre Fantasy_fiction", "class=HR_Book" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "long-running\u001Cbritish\u001Cscience",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.796", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "long-running british\u001Cscience",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "long-running british\u001Cscience\u001Cfiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "long-running british science",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "long-running british science\u001Cfiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "long-running british science\u001Cfiction\u001Ctelevision",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.807", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "science",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Science_fiction", "Kulczynski=0.886", "triple=e dbo:literaryGenre Science_fiction", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series Doctor_Who", "class=HR_Book" ],
+    "2" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.791", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "science fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Science_fiction", "Kulczynski=0.88", "triple=e dbo:literaryGenre Science_fiction", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series Doctor_Who", "class=HR_Book" ],
+    "2" : [ "pair=\"Cover of first edition\"@en", "Kulczynski=0.788", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "science fiction television",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "science fiction television\u001Cseries",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "science fiction television\u001Cseries\u001Cdoctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "series",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.86", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "series doctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "stories",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fantasy_fiction", "Kulczynski=0.802", "triple=e dbo:literaryGenre Fantasy_fiction", "class=HR_Book" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "television",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "television series",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "television series doctor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.842", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "television series doctor\u001Cwho",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Kulczynski=0.835", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+} ]

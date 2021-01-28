@@ -1,0 +1,53 @@
+[ {
+  "id" : 7,
+  "pattern" : "designed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Bertrand\"@en", "AllConf=0.996", "triple=e dbp:ref \"Bertrand\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=Paragliding", "AllConf=0.989", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ],
+    "2" : [ "pair=Paraglider", "AllConf=0.989", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ],
+    "3" : [ "pair=\"Production completed\"@en", "AllConf=0.916", "triple=e dbp:status \"Production completed\"@en", "class=HR_Aircraft" ],
+    "4" : [ "pair=Ultralight_trike", "AllConf=0.914", "triple=e dbo:type Ultralight_trike", "class=HR_Aircraft" ],
+    "5" : [ "pair=\"* List of gliders\"@en", "AllConf=0.893", "triple=e dbp:lists \"* List of gliders\"@en", "class=HR_Aircraft" ],
+    "6" : [ "pair=\"Bayerl\"@en", "AllConf=0.884", "triple=e dbp:ref \"Bayerl\"@en", "class=HR_Aircraft" ],
+    "7" : [ "pair=\"composite\"@en", "AllConf=0.869", "triple=e dbp:propName \"composite\"@en", "class=HR_Aircraft" ],
+    "8" : [ "pair=Glider_(sailplane", "AllConf=0.861", "triple=e dbp:type Glider_(sailplane", "class=HR_Aircraft" ],
+    "9" : [ "pair=\"four cylinder", "AllConf=0.837", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ],
+    "10" : [ "pair=\"wooden\"@en", "AllConf=0.821", "triple=e dbp:propName \"wooden\"@en", "class=HR_Aircraft" ],
+    "11" : [ "pair=Rotax_582", "AllConf=0.812", "triple=e dbp:eng1Name Rotax_582", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "developed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=China", "AllConf=0.949", "triple=e dbp:primaryUser China", "class=HR_Aircraft" ],
+    "1" : [ "pair=UAV", "AllConf=0.926", "triple=e dbo:type UAV", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Bertrand\"@en", "AllConf=0.996", "triple=e dbp:ref \"Bertrand\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=Paragliding", "AllConf=0.989", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ],
+    "2" : [ "pair=Paraglider", "AllConf=0.989", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ],
+    "3" : [ "pair=Ultralight_trike", "AllConf=0.928", "triple=e dbo:type Ultralight_trike", "class=HR_Aircraft" ],
+    "4" : [ "pair=\"Production completed\"@en", "AllConf=0.894", "triple=e dbp:status \"Production completed\"@en", "class=HR_Aircraft" ],
+    "5" : [ "pair=\"Bayerl\"@en", "AllConf=0.891", "triple=e dbp:ref \"Bayerl\"@en", "class=HR_Aircraft" ],
+    "6" : [ "pair=Rotax_582", "AllConf=0.839", "triple=e dbp:eng1Name Rotax_582", "class=HR_Aircraft" ],
+    "7" : [ "pair=\"four cylinder", "AllConf=0.837", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ],
+    "8" : [ "pair=\"composite\"@en", "AllConf=0.827", "triple=e dbp:propName \"composite\"@en", "class=HR_Aircraft" ],
+    "9" : [ "pair=\"In production\"@en", "AllConf=0.817", "triple=e dbp:status \"In production\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "supplied",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"four cylinder", "AllConf=0.927", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"composite\"@en", "AllConf=0.88", "triple=e dbp:propName \"composite\"@en", "class=HR_Aircraft" ],
+    "2" : [ "pair=\"Bayerl\"@en", "AllConf=0.877", "triple=e dbp:ref \"Bayerl\"@en", "class=HR_Aircraft" ],
+    "3" : [ "pair=Ultralight_trike", "AllConf=0.816", "triple=e dbp:type Ultralight_trike", "class=HR_Aircraft" ]
+  }
+} ]

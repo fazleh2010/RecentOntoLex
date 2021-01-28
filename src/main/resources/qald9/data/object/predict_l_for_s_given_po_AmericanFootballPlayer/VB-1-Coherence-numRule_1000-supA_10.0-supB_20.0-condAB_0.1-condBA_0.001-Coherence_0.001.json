@@ -1,0 +1,34 @@
+[ {
+  "id" : 3,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Long_snapper", "Coherence=0.5", "triple=e dbp:position Long_snapper", "class=HR_AmericanFootballPlayer" ],
+    "1" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.5", "triple=e dbo:draftYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_AmericanFootballPlayer" ],
+    "2" : [ "pair=New_Orleans_VooDoo", "Coherence=0.5", "triple=e dbo:formerTeam New_Orleans_VooDoo", "class=HR_AmericanFootballPlayer" ],
+    "3" : [ "pair=Cleveland_Gladiators", "Coherence=0.5", "triple=e dbo:formerTeam Cleveland_Gladiators", "class=HR_AmericanFootballPlayer" ],
+    "4" : [ "pair=Philadelphia_Soul", "Coherence=0.5", "triple=e dbo:formerTeam Philadelphia_Soul", "class=HR_AmericanFootballPlayer" ],
+    "5" : [ "pair=\"Receiving TDs\"@en", "Coherence=0.5", "triple=e dbp:aflstatlabel \"Receiving TDs\"@en", "class=HR_AmericanFootballPlayer" ],
+    "6" : [ "pair=\"Free Agent\"@en", "Coherence=0.5", "triple=e dbp:currentTeam \"Free Agent\"@en", "class=HR_AmericanFootballPlayer" ],
+    "7" : [ "pair=\"Receptions\"@en", "Coherence=0.497", "triple=e dbp:aflstatlabel \"Receptions\"@en", "class=HR_AmericanFootballPlayer" ],
+    "8" : [ "pair=\"Interceptions\"@en", "Coherence=0.497", "triple=e dbp:aflstatlabel \"Interceptions\"@en", "class=HR_AmericanFootballPlayer" ],
+    "9" : [ "pair=\"Quarterback sacks\"@en", "Coherence=0.496", "triple=e dbp:statlabel \"Quarterback sacks\"@en", "class=HR_AmericanFootballPlayer" ],
+    "10" : [ "pair=\"All values from NFL Combine\"@en", "Coherence=0.496", "triple=e dbp:note \"All values from NFL Combine\"@en", "class=HR_AmericanFootballPlayer" ],
+    "11" : [ "pair=\"Forced fumbles\"@en", "Coherence=0.496", "triple=e dbp:statlabel \"Forced fumbles\"@en", "class=HR_AmericanFootballPlayer" ],
+    "12" : [ "pair=San_Jose_SaberCats", "Coherence=0.496", "triple=e dbo:formerTeam San_Jose_SaberCats", "class=HR_AmericanFootballPlayer" ],
+    "13" : [ "pair=Virginia_Cavaliers_football", "Coherence=0.496", "triple=e dbp:college Virginia_Cavaliers_football", "class=HR_AmericanFootballPlayer" ],
+    "14" : [ "pair=Pass_deflected", "Coherence=0.495", "triple=e dbp:statlabel Pass_deflected", "class=HR_AmericanFootballPlayer" ],
+    "15" : [ "pair=Sacramento_Mountain_Lions", "Coherence=0.495", "triple=e dbo:formerTeam Sacramento_Mountain_Lions", "class=HR_AmericanFootballPlayer" ],
+    "16" : [ "pair=Chicago_Rush", "Coherence=0.495", "triple=e dbo:formerTeam Chicago_Rush", "class=HR_AmericanFootballPlayer" ],
+    "17" : [ "pair=Baltimore_Ravens", "Coherence=0.495", "triple=e dbo:formerTeam Baltimore_Ravens", "class=HR_AmericanFootballPlayer" ],
+    "18" : [ "pair=\"ESPN\"@en", "Coherence=0.495", "triple=e dbp:espnRefTitle \"ESPN\"@en", "class=HR_AmericanFootballPlayer" ],
+    "19" : [ "pair=Tennessee_Titans", "Coherence=0.495", "triple=e dbo:formerTeam Tennessee_Titans", "class=HR_AmericanFootballPlayer" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "played",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.497", "triple=e dbo:draftYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_AmericanFootballPlayer" ]
+  }
+} ]

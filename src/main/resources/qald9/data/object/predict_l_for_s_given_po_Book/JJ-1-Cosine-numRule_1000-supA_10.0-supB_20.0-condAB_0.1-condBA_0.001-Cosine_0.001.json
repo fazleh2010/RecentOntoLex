@@ -1,0 +1,195 @@
+[ {
+  "id" : 5,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Australia\"@en", "Cosine=0.818", "triple=e dbp:country \"Australia\"@en", "class=HR_Book" ],
+    "1" : [ "pair=Australia", "Cosine=0.756", "triple=e dbp:country Australia", "class=HR_Book" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "based on\u001Cthe\u001Clong-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.905", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.769", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "based the\u001Clong-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.944", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.801", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "based the\u001Clong-running\u001Cbritish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.905", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.769", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.916", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.783", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Canada\"@en", "Cosine=0.766", "triple=e dbp:country \"Canada\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"French\"@en", "Cosine=0.93", "triple=e dbp:language \"French\"@en", "class=HR_Book" ],
+    "1" : [ "pair=\"France\"@en", "Cosine=0.922", "triple=e dbp:country \"France\"@en", "class=HR_Book" ],
+    "2" : [ "pair=French_language", "Cosine=0.816", "triple=e dbo:language French_language", "class=HR_Book" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Germany\"@en", "Cosine=0.935", "triple=e dbp:country \"Germany\"@en", "class=HR_Book" ],
+    "1" : [ "pair=\"German\"@en", "Cosine=0.895", "triple=e dbp:language \"German\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "historical",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Historical_novel", "Cosine=0.751", "triple=e dbo:literaryGenre Historical_novel", "class=HR_Book" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "long-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.961", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.936", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "2" : [ "pair=Doctor_Who", "Cosine=0.819", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "long-running\u001Cbritish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.905", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.769", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "long-running british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.916", "triple=e dbp:series \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.783", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Science fiction novel\"@en", "Cosine=0.974", "triple=e dbp:genre \"Science fiction novel\"@en", "class=HR_Book" ],
+    "1" : [ "pair=Historical_novel", "Cosine=0.96", "triple=e dbo:literaryGenre Historical_novel", "class=HR_Book" ],
+    "2" : [ "pair=Novel", "Cosine=0.957", "triple=e dbo:literaryGenre Novel", "class=HR_Book" ],
+    "3" : [ "pair=Crime_fiction", "Cosine=0.952", "triple=e dbo:literaryGenre Crime_fiction", "class=HR_Book" ],
+    "4" : [ "pair=Crime_novel", "Cosine=0.95", "triple=e dbo:literaryGenre Crime_novel", "class=HR_Book" ],
+    "5" : [ "pair=\"Novel\"@en", "Cosine=0.947", "triple=e dbp:genre \"Novel\"@en", "class=HR_Book" ],
+    "6" : [ "pair=\"813/.54 19\"", "Cosine=0.945", "triple=e dbo:dcc \"813/.54 19\"", "class=HR_Book" ],
+    "7" : [ "pair=Thriller_(genre", "Cosine=0.945", "triple=e dbo:literaryGenre Thriller_(genre", "class=HR_Book" ],
+    "8" : [ "pair=Historical_fiction", "Cosine=0.943", "triple=e dbp:genre Historical_fiction", "class=HR_Book" ],
+    "9" : [ "pair=Horror_novel", "Cosine=0.94", "triple=e dbo:literaryGenre Horror_novel", "class=HR_Book" ],
+    "10" : [ "pair=BBC_Books", "Cosine=0.936", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "11" : [ "pair=\"Fiction\"@en", "Cosine=0.936", "triple=e dbp:genre \"Fiction\"@en", "class=HR_Book" ],
+    "12" : [ "pair=Romance_novel", "Cosine=0.933", "triple=e dbp:genre Romance_novel", "class=HR_Book" ],
+    "13" : [ "pair=Young_adult_novel", "Cosine=0.927", "triple=e dbo:literaryGenre Young_adult_novel", "class=HR_Book" ],
+    "14" : [ "pair=Spy_fiction", "Cosine=0.924", "triple=e dbp:genre Spy_fiction", "class=HR_Book" ],
+    "15" : [ "pair=\"813/.54 20\"", "Cosine=0.921", "triple=e dbo:dcc \"813/.54 20\"", "class=HR_Book" ],
+    "16" : [ "pair=Young_adult_fiction", "Cosine=0.918", "triple=e dbo:literaryGenre Young_adult_fiction", "class=HR_Book" ],
+    "17" : [ "pair=\"First US edition\"@en", "Cosine=0.917", "triple=e dbp:caption \"First US edition\"@en", "class=HR_Book" ],
+    "18" : [ "pair=\"@en", "Cosine=0.915", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "19" : [ "pair=G._P._Putnam's_Sons", "Cosine=0.914", "triple=e dbo:publisher G._P._Putnam's_Sons", "class=HR_Book" ],
+    "20" : [ "pair=\"813/.54 22\"", "Cosine=0.913", "triple=e dbo:dcc \"813/.54 22\"", "class=HR_Book" ],
+    "21" : [ "pair=Fiction", "Cosine=0.911", "triple=e dbp:genre Fiction", "class=HR_Book" ],
+    "22" : [ "pair=Fantasy_novel", "Cosine=0.91", "triple=e dbo:literaryGenre Fantasy_novel", "class=HR_Book" ],
+    "23" : [ "pair=Fantasy_literature", "Cosine=0.906", "triple=e dbp:genre Fantasy_literature", "class=HR_Book" ],
+    "24" : [ "pair=Del_Rey_Books", "Cosine=0.905", "triple=e dbo:publisher Del_Rey_Books", "class=HR_Book" ],
+    "25" : [ "pair=Adventure_novel", "Cosine=0.893", "triple=e dbo:literaryGenre Adventure_novel", "class=HR_Book" ],
+    "26" : [ "pair=Heinemann_(publisher", "Cosine=0.89", "triple=e dbp:publisher Heinemann_(publisher", "class=HR_Book" ],
+    "27" : [ "pair=Hodder_&_Stoughton", "Cosine=0.885", "triple=e dbo:publisher Hodder_&_Stoughton", "class=HR_Book" ],
+    "28" : [ "pair=\"813/.54 21\"", "Cosine=0.877", "triple=e dbo:dcc \"813/.54 21\"", "class=HR_Book" ],
+    "29" : [ "pair=Tor_Books", "Cosine=0.877", "triple=e dbo:publisher Tor_Books", "class=HR_Book" ],
+    "30" : [ "pair=Mystery_novel", "Cosine=0.872", "triple=e dbo:literaryGenre Mystery_novel", "class=HR_Book" ],
+    "31" : [ "pair=\"Science fiction\"@en", "Cosine=0.867", "triple=e dbp:genre \"Science fiction\"@en", "class=HR_Book" ],
+    "32" : [ "pair=Macmillan_Publishers", "Cosine=0.864", "triple=e dbp:publisher Macmillan_Publishers", "class=HR_Book" ],
+    "33" : [ "pair=Adventure_fiction", "Cosine=0.861", "triple=e dbp:genre Adventure_fiction", "class=HR_Book" ],
+    "34" : [ "pair=\"First UK edition\"@en", "Cosine=0.859", "triple=e dbp:caption \"First UK edition\"@en", "class=HR_Book" ],
+    "35" : [ "pair=United_Kingdom", "Cosine=0.855", "triple=e dbp:country United_Kingdom", "class=HR_Book" ],
+    "36" : [ "pair=Mystery_fiction", "Cosine=0.845", "triple=e dbp:genre Mystery_fiction", "class=HR_Book" ],
+    "37" : [ "pair=\"First edition cover\"@en", "Cosine=0.844", "triple=e dbp:caption \"First edition cover\"@en", "class=HR_Book" ],
+    "38" : [ "pair=Viking_Press", "Cosine=0.836", "triple=e dbo:publisher Viking_Press", "class=HR_Book" ],
+    "39" : [ "pair=Australia", "Cosine=0.836", "triple=e dbp:country Australia", "class=HR_Book" ],
+    "40" : [ "pair=\"First edition\"@en", "Cosine=0.832", "triple=e dbp:caption \"First edition\"@en", "class=HR_Book" ],
+    "41" : [ "pair=Ace_Books", "Cosine=0.831", "triple=e dbo:publisher Ace_Books", "class=HR_Book" ],
+    "42" : [ "pair=E-book", "Cosine=0.823", "triple=e dbo:mediaType E-book", "class=HR_Book" ],
+    "43" : [ "pair=Little", "Cosine=0.814", "triple=e dbp:publisher Little", "class=HR_Book" ],
+    "44" : [ "pair=Doubleday_(publisher", "Cosine=0.812", "triple=e dbo:publisher Doubleday_(publisher", "class=HR_Book" ],
+    "45" : [ "pair=\"\"@en", "Cosine=0.804", "triple=e dbp:isbnNote \"\"@en", "class=HR_Book" ],
+    "46" : [ "pair=English_language", "Cosine=0.8", "triple=e dbp:language English_language", "class=HR_Book" ],
+    "47" : [ "pair=//www.w3.org/2001/XMLSchema#positiveInteger>", "Cosine=0.799", "triple=e dbo:numberOfPages //www.w3.org/2001/XMLSchema#positiveInteger>", "class=HR_Book" ],
+    "48" : [ "pair=Science_fiction", "Cosine=0.788", "triple=e dbo:literaryGenre Science_fiction", "class=HR_Book" ],
+    "49" : [ "pair=HarperCollins", "Cosine=0.787", "triple=e dbo:publisher HarperCollins", "class=HR_Book" ],
+    "50" : [ "pair=Detective_fiction", "Cosine=0.786", "triple=e dbp:genre Detective_fiction", "class=HR_Book" ],
+    "51" : [ "pair=Hardcover", "Cosine=0.773", "triple=e dbo:mediaType Hardcover", "class=HR_Book" ],
+    "52" : [ "pair=Horror_fiction", "Cosine=0.773", "triple=e dbp:genre Horror_fiction", "class=HR_Book" ],
+    "53" : [ "pair=Alfred_A._Knopf", "Cosine=0.771", "triple=e dbo:publisher Alfred_A._Knopf", "class=HR_Book" ],
+    "54" : [ "pair=Fantasy", "Cosine=0.77", "triple=e dbo:literaryGenre Fantasy", "class=HR_Book" ],
+    "55" : [ "pair=\"France\"@en", "Cosine=0.77", "triple=e dbp:country \"France\"@en", "class=HR_Book" ],
+    "56" : [ "pair=United_States", "Cosine=0.769", "triple=e dbp:country United_States", "class=HR_Book" ],
+    "57" : [ "pair=Harper_(publisher", "Cosine=0.768", "triple=e dbp:publisher Harper_(publisher", "class=HR_Book" ],
+    "58" : [ "pair=\"United Kingdom\"@en", "Cosine=0.768", "triple=e dbp:country \"United Kingdom\"@en", "class=HR_Book" ],
+    "59" : [ "pair=\"Australia\"@en", "Cosine=0.762", "triple=e dbp:country \"Australia\"@en", "class=HR_Book" ],
+    "60" : [ "pair=\"French\"@en", "Cosine=0.757", "triple=e dbp:language \"French\"@en", "class=HR_Book" ],
+    "61" : [ "pair=\"Print\"@en", "Cosine=0.756", "triple=e dbp:mediaType \"Print\"@en", "class=HR_Book" ],
+    "62" : [ "pair=India", "Cosine=0.755", "triple=e dbp:country India", "class=HR_Book" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "novel written",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.855", "triple=e dbp:subject \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "original",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.933", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=Doctor_Who", "Cosine=0.792", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "original novel written",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.848", "triple=e dbp:subject \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "original novel written\u001Cby",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.848", "triple=e dbp:subject \"@en", "class=HR_Book" ]
+  }
+} ]

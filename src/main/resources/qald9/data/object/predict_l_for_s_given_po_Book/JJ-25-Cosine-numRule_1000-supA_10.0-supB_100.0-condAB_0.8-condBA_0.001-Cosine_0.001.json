@@ -1,0 +1,35 @@
+[ {
+  "id" : 2,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"French\"@en", "Cosine=0.93", "triple=e dbp:language \"French\"@en", "class=HR_Book" ],
+    "1" : [ "pair=\"France\"@en", "Cosine=0.922", "triple=e dbp:country \"France\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"German\"@en", "Cosine=0.895", "triple=e dbp:language \"German\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Historical_novel", "Cosine=0.96", "triple=e dbo:literaryGenre Historical_novel", "class=HR_Book" ],
+    "1" : [ "pair=Novel", "Cosine=0.957", "triple=e dbo:literaryGenre Novel", "class=HR_Book" ],
+    "2" : [ "pair=Crime_novel", "Cosine=0.95", "triple=e dbo:literaryGenre Crime_novel", "class=HR_Book" ],
+    "3" : [ "pair=\"Novel\"@en", "Cosine=0.947", "triple=e dbp:genre \"Novel\"@en", "class=HR_Book" ],
+    "4" : [ "pair=Crime_fiction", "Cosine=0.946", "triple=e dbp:genre Crime_fiction", "class=HR_Book" ],
+    "5" : [ "pair=Thriller_(genre", "Cosine=0.945", "triple=e dbo:literaryGenre Thriller_(genre", "class=HR_Book" ],
+    "6" : [ "pair=Historical_fiction", "Cosine=0.943", "triple=e dbp:genre Historical_fiction", "class=HR_Book" ],
+    "7" : [ "pair=\"Fiction\"@en", "Cosine=0.936", "triple=e dbp:genre \"Fiction\"@en", "class=HR_Book" ],
+    "8" : [ "pair=\"813/.54 20\"", "Cosine=0.921", "triple=e dbo:dcc \"813/.54 20\"", "class=HR_Book" ],
+    "9" : [ "pair=Young_adult_fiction", "Cosine=0.918", "triple=e dbo:literaryGenre Young_adult_fiction", "class=HR_Book" ],
+    "10" : [ "pair=Fiction", "Cosine=0.911", "triple=e dbp:genre Fiction", "class=HR_Book" ],
+    "11" : [ "pair=Fantasy_novel", "Cosine=0.91", "triple=e dbo:literaryGenre Fantasy_novel", "class=HR_Book" ],
+    "12" : [ "pair=Fantasy_literature", "Cosine=0.906", "triple=e dbp:genre Fantasy_literature", "class=HR_Book" ]
+  }
+} ]

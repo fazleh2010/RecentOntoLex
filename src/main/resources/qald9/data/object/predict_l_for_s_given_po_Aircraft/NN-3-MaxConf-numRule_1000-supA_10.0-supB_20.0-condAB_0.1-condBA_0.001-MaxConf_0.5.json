@@ -1,0 +1,173 @@
+[ {
+  "id" : 1,
+  "pattern" : "aircraft",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fokker", "MaxConf=1.0", "triple=e dbo:manufacturer Fokker", "class=HR_Aircraft" ],
+    "1" : [ "pair=Boeing", "MaxConf=1.0", "triple=e dbo:manufacturer Boeing", "class=HR_Aircraft" ],
+    "2" : [ "pair=Lockheed_Corporation", "MaxConf=1.0", "triple=e dbo:manufacturer Lockheed_Corporation", "class=HR_Aircraft" ],
+    "3" : [ "pair=Homebuilt_aircraft", "MaxConf=1.0", "triple=e dbo:manufacturer Homebuilt_aircraft", "class=HR_Aircraft" ],
+    "4" : [ "pair=\"met\"@en", "MaxConf=1.0", "triple=e dbp:primeUnits%3F_ \"met\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "avro",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Avro", "MaxConf=1.0", "triple=e dbo:manufacturer Avro", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "biplane",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"met\"@en", "MaxConf=1.0", "triple=e dbp:primeUnits%3F_ \"met\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "boeing",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boeing", "MaxConf=1.0", "triple=e dbo:manufacturer Boeing", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "bristol",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bristol_Aeroplane_Company", "MaxConf=1.0", "triple=e dbo:manufacturer Bristol_Aeroplane_Company", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "caproni",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Caproni", "MaxConf=1.0", "triple=e dbo:manufacturer Caproni", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "caudron",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Caudron", "MaxConf=1.0", "triple=e dbo:manufacturer Caudron", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "cessna",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Cessna", "MaxConf=1.0", "triple=e dbo:manufacturer Cessna", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "curtiss",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Curtiss_Aeroplane_and_Motor_Company", "MaxConf=1.0", "triple=e dbo:manufacturer Curtiss_Aeroplane_and_Motor_Company", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "design",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"met\"@en", "MaxConf=1.0", "triple=e dbp:primeUnits%3F_ \"met\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "douglas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Douglas_Aircraft_Company", "MaxConf=1.0", "triple=e dbo:manufacturer Douglas_Aircraft_Company", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "engine",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"met\"@en", "MaxConf=1.0", "triple=e dbp:primeUnits%3F_ \"met\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "fighter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"met\"@en", "MaxConf=1.0", "triple=e dbp:primeUnits%3F_ \"met\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "first",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"met\"@en", "MaxConf=1.0", "triple=e dbp:primeUnits%3F_ \"met\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "fokker",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fokker", "MaxConf=1.0", "triple=e dbo:manufacturer Fokker", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "glider",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"met\"@en", "MaxConf=1.0", "triple=e dbp:primeUnits%3F_ \"met\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "heinkel",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Heinkel", "MaxConf=1.0", "triple=e dbo:manufacturer Heinkel", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "lockheed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Lockheed_Corporation", "MaxConf=1.0", "triple=e dbo:manufacturer Lockheed_Corporation", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "monoplane",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"met\"@en", "MaxConf=1.0", "triple=e dbp:primeUnits%3F_ \"met\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "production",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"met\"@en", "MaxConf=1.0", "triple=e dbp:primeUnits%3F_ \"met\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "prototype",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"met\"@en", "MaxConf=1.0", "triple=e dbp:primeUnits%3F_ \"met\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "tupolev",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Tupolev", "MaxConf=1.0", "triple=e dbo:manufacturer Tupolev", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boeing", "MaxConf=1.0", "triple=e dbo:manufacturer Boeing", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "world",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"met\"@en", "MaxConf=1.0", "triple=e dbp:primeUnits%3F_ \"met\"@en", "class=HR_Aircraft" ]
+  }
+} ]

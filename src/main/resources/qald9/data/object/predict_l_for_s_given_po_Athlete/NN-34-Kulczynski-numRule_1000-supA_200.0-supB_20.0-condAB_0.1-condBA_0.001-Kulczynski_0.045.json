@@ -1,0 +1,167 @@
+[ {
+  "id" : 1,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "Kulczynski=0.962", "triple=e dbp:nationality \"American\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "boxer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Kulczynski=1.0", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "boxer competed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Kulczynski=0.969", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "boxer competed\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Kulczynski=0.928", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "boxer competed\u001Cin\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Kulczynski=0.928", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "competed in\u001Cthe\u001Cmen",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Kulczynski=0.934", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "competed the\u001Cmen",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Kulczynski=0.935", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "event",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Kulczynski=0.934", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "fencer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fencing", "Kulczynski=0.978", "triple=e dbp:sport Fencing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "gymnast",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Gymnastics", "Kulczynski=0.997", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "judoka",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Judo", "Kulczynski=0.992", "triple=e dbp:sport Judo", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "men",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Kulczynski=0.937", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "metres",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Sprinting\"@en", "Kulczynski=0.989", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "olympics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Kulczynski=0.992", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "1" : [ "pair=Gymnastics", "Kulczynski=0.985", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "2" : [ "pair=\"Sprinting\"@en", "Kulczynski=0.983", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "3" : [ "pair=Rowing_(sport", "Kulczynski=0.964", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "4" : [ "pair=Shooting_sports", "Kulczynski=0.946", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ],
+    "5" : [ "pair=Fencing", "Kulczynski=0.937", "triple=e dbp:sport Fencing", "class=HR_Athlete" ],
+    "6" : [ "pair=Wrestling", "Kulczynski=0.924", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "rower",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Rowing_(sport", "Kulczynski=0.972", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Rowing\"@en", "Kulczynski=0.953", "triple=e dbp:sport \"Rowing\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "shooter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Shooting_sports", "Kulczynski=0.996", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "sprinter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Sprinting\"@en", "Kulczynski=0.996", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "summer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Kulczynski=0.991", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "1" : [ "pair=Gymnastics", "Kulczynski=0.985", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "2" : [ "pair=\"Sprinting\"@en", "Kulczynski=0.982", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "3" : [ "pair=Rowing_(sport", "Kulczynski=0.959", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "4" : [ "pair=Shooting_sports", "Kulczynski=0.939", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ],
+    "5" : [ "pair=Fencing", "Kulczynski=0.929", "triple=e dbp:sport Fencing", "class=HR_Athlete" ],
+    "6" : [ "pair=Wrestling", "Kulczynski=0.915", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "summer olympics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Kulczynski=0.991", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "1" : [ "pair=Gymnastics", "Kulczynski=0.985", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "2" : [ "pair=\"Sprinting\"@en", "Kulczynski=0.982", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "3" : [ "pair=Rowing_(sport", "Kulczynski=0.958", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "4" : [ "pair=Shooting_sports", "Kulczynski=0.937", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ],
+    "5" : [ "pair=Fencing", "Kulczynski=0.929", "triple=e dbp:sport Fencing", "class=HR_Athlete" ],
+    "6" : [ "pair=Wrestling", "Kulczynski=0.915", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "weightlifter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Olympic_weightlifting", "Kulczynski=0.988", "triple=e dbp:sport Olympic_weightlifting", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "wrestler",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Wrestling", "Kulczynski=0.994", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ]
+  }
+} ]

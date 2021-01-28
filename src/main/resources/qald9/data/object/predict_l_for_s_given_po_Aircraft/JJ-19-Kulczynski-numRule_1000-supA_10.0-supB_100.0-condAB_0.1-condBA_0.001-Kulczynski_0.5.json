@@ -1,0 +1,46 @@
+[ {
+  "id" : 5,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Royal_Air_Force", "Kulczynski=0.898", "triple=e dbp:primaryUser Royal_Air_Force", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Canada", "Kulczynski=0.893", "triple=e dbp:nationalOrigin Canada", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=China", "Kulczynski=0.988", "triple=e dbp:primaryUser China", "class=HR_Aircraft" ],
+    "1" : [ "pair=UAV", "Kulczynski=0.971", "triple=e dbo:type UAV", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "complete",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"four cylinder", "Kulczynski=0.905", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"Bayerl\"@en", "Kulczynski=0.877", "triple=e dbp:ref \"Bayerl\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "single-place",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Paragliding", "Kulczynski=0.922", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ],
+    "1" : [ "pair=Paraglider", "Kulczynski=0.921", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "soviet",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Soviet_Union", "Kulczynski=0.923", "triple=e dbo:origin Soviet_Union", "class=HR_Aircraft" ]
+  }
+} ]

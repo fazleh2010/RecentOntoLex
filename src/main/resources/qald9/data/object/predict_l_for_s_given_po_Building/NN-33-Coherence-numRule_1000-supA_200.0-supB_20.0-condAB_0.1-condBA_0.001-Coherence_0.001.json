@@ -1,0 +1,264 @@
+[ {
+  "id" : 1,
+  "pattern" : "bjã¸rgvin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "carolina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North Carolina#USA\"@en", "Coherence=0.5", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North Carolina#USA\"@en", "Coherence=0.478", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"Pennsylvania#USA\"@en", "Coherence=0.469", "triple=e dbp:locmapin \"Pennsylvania#USA\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"c.\"@en", "Coherence=0.454", "triple=e dbp:built \"c.\"@en", "class=HR_Building" ],
+    "3" : [ "pair=\"New York#USA\"@en", "Coherence=0.453", "triple=e dbp:locmapin \"New York#USA\"@en", "class=HR_Building" ],
+    "4" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "5" : [ "pair=Diocese_of_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "6" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "county new",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New York#USA\"@en", "Coherence=0.448", "triple=e dbp:locmapin \"New York#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "county new york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New York#USA\"@en", "Coherence=0.448", "triple=e dbp:locmapin \"New York#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "county north",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North Carolina#USA\"@en", "Coherence=0.474", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "county north carolina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North Carolina#USA\"@en", "Coherence=0.474", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "county norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "county pennsylvania",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Pennsylvania#USA\"@en", "Coherence=0.455", "triple=e dbp:locmapin \"Pennsylvania#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "diocese",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "diocese\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "diocese\u001Cof\u001Cbjã¸rgvin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "diocese bjã¸rgvin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "diocese of\u001Cbjã¸rgvin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "iowa",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Iowa#USA\"@en", "Coherence=0.5", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "iowa united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Iowa#USA\"@en", "Coherence=0.48", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "iowa united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Iowa#USA\"@en", "Coherence=0.479", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "massachusetts",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Massachusetts#USA\"@en", "Coherence=0.496", "triple=e dbp:locmapin \"Massachusetts#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "new york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New York#USA\"@en", "Coherence=0.496", "triple=e dbp:locmapin \"New York#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "north",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North Carolina#USA\"@en", "Coherence=0.5", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "north carolina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North Carolina#USA\"@en", "Coherence=0.5", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "parish",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "pennsylvania",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Pennsylvania#USA\"@en", "Coherence=0.497", "triple=e dbp:locmapin \"Pennsylvania#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Iowa#USA\"@en", "Coherence=0.481", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Iowa#USA\"@en", "Coherence=0.482", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Iowa#USA\"@en", "Coherence=0.481", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "vestland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "vestland county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "vestland county\u001Cnorway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "vestland county norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "Coherence=0.5", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "virginia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Virginia Landmarks Register\"@en", "Coherence=0.499", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"Virginia#USA\"@en", "Coherence=0.492", "triple=e dbp:locmapin \"Virginia#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New York#USA\"@en", "Coherence=0.496", "triple=e dbp:locmapin \"New York#USA\"@en", "class=HR_Building" ]
+  }
+} ]

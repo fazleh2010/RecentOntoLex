@@ -1,0 +1,44 @@
+[ {
+  "id" : 12,
+  "pattern" : "chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=List_of_postal_codes_in_China", "MaxConf=1.0", "triple=e dbp:postalCodeType List_of_postal_codes_in_China", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "local",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"lga\"@en", "MaxConf=1.0", "triple=e dbp:type \"lga\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"auto\"@en", "MaxConf=1.0", "triple=e dbp:populationDensitySqMi \"auto\"@en", "class=HR_AdministrativeRegion" ],
+    "1" : [ "pair=\"town\"@en", "MaxConf=1.0", "triple=e dbp:type \"town\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "small",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"town\"@en", "MaxConf=1.0", "triple=e dbp:type \"town\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "traditional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=List_of_postal_codes_in_China", "MaxConf=1.0", "triple=e dbp:postalCodeType List_of_postal_codes_in_China", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "traditional chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=List_of_postal_codes_in_China", "MaxConf=1.0", "triple=e dbp:postalCodeType List_of_postal_codes_in_China", "class=HR_AdministrativeRegion" ]
+  }
+} ]

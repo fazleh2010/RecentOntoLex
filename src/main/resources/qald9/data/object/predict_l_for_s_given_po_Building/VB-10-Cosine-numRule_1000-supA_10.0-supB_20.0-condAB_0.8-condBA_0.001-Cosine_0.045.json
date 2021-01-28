@@ -1,0 +1,33 @@
+[ {
+  "id" : 1,
+  "pattern" : "added",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "Cosine=0.9", "triple=e dbp:designatedOther1Link \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"NJRHP\"@en", "Cosine=0.897", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "built",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Utah\"@en", "Cosine=0.964", "triple=e dbp:locmapin \"Utah\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "listed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Utah\"@en", "Cosine=1.0", "triple=e dbp:locmapin \"Utah\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"North Dakota#USA\"@en", "Cosine=0.951", "triple=e dbp:locmapin \"North Dakota#USA\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"Portland Historic Landmark\"@en", "Cosine=0.925", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ],
+    "3" : [ "pair=\"lightgreen\"@en", "Cosine=0.918", "triple=e dbp:designatedOther1Color \"lightgreen\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "listed on\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"North Dakota#USA\"@en", "Cosine=0.907", "triple=e dbp:locmapin \"North Dakota#USA\"@en", "class=HR_Building" ]
+  }
+} ]

@@ -1,0 +1,344 @@
+[ {
+  "id" : 1,
+  "pattern" : "alpine",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Alpine_skiing", "AllConf=0.993", "triple=e dbp:sport Alpine_skiing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "alpine skier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Alpine_skiing", "AllConf=0.925", "triple=e dbp:sport Alpine_skiing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "AllConf=0.924", "triple=e dbp:nationality \"American\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "basketball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Basketball", "AllConf=1.0", "triple=e dbp:sport Basketball", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "basketball player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Basketball", "AllConf=0.965", "triple=e dbp:sport Basketball", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "bobsledder",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bobsleigh", "AllConf=1.0", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "boxer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "AllConf=1.0", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "boxer competed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "AllConf=0.939", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "equestrian",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Equestrianism", "AllConf=0.982", "triple=e dbp:sport Equestrianism", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "fencer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fencing", "AllConf=0.957", "triple=e dbp:sport Fencing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "field",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Field_hockey", "AllConf=0.982", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "field hockey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Field_hockey", "AllConf=0.982", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "field hockey player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Field_hockey", "AllConf=0.947", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "gymnast",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Gymnastics", "AllConf=0.995", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "hockey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Field_hockey", "AllConf=0.988", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "hockey player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Field_hockey", "AllConf=0.959", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "judoka",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Judo", "AllConf=0.985", "triple=e dbp:sport Judo", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "long-distance",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "AllConf=0.931", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "long-distance runner",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "AllConf=0.931", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "marathon",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Marathon\"@en", "AllConf=0.99", "triple=e dbp:event \"Marathon\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "metres",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Middle-distance running\"@en", "AllConf=0.981", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Sprinting\"@en", "AllConf=0.978", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "middle-distance runner",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Middle-distance running\"@en", "AllConf=1.0", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "olympics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sailing_(sport", "AllConf=0.989", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ],
+    "1" : [ "pair=Boxing", "AllConf=0.985", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "2" : [ "pair=Equestrianism", "AllConf=0.982", "triple=e dbp:sport Equestrianism", "class=HR_Athlete" ],
+    "3" : [ "pair=Basketball", "AllConf=0.972", "triple=e dbp:sport Basketball", "class=HR_Athlete" ],
+    "4" : [ "pair=\"Middle-distance running\"@en", "AllConf=0.971", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "5" : [ "pair=Gymnastics", "AllConf=0.971", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "6" : [ "pair=\"Sprinting\"@en", "AllConf=0.967", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "7" : [ "pair=\"Swiss\"@en", "AllConf=0.955", "triple=e dbp:nationality \"Swiss\"@en", "class=HR_Athlete" ],
+    "8" : [ "pair=Field_hockey", "AllConf=0.947", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ],
+    "9" : [ "pair=\"Long-distance running\"@en", "AllConf=0.945", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ],
+    "10" : [ "pair=\"Hungarian\"@en", "AllConf=0.941", "triple=e dbp:nationality \"Hungarian\"@en", "class=HR_Athlete" ],
+    "11" : [ "pair=Rowing_(sport", "AllConf=0.929", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "12" : [ "pair=Bobsleigh", "AllConf=0.921", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ],
+    "13" : [ "pair=Water_polo", "AllConf=0.916", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ],
+    "14" : [ "pair=Alpine_skiing", "AllConf=0.906", "triple=e dbp:sport Alpine_skiing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Water_polo", "AllConf=0.98", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ],
+    "1" : [ "pair=Basketball", "AllConf=0.979", "triple=e dbp:sport Basketball", "class=HR_Athlete" ],
+    "2" : [ "pair=Field_hockey", "AllConf=0.964", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "polo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Water_polo", "AllConf=1.0", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "polo player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Water_polo", "AllConf=0.98", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "rower",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Rowing_(sport", "AllConf=0.944", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Rowing\"@en", "AllConf=0.907", "triple=e dbp:sport \"Rowing\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "runner",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Middle-distance running\"@en", "AllConf=1.0", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Long-distance running\"@en", "AllConf=0.986", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ],
+    "2" : [ "pair=\"Marathon\"@en", "AllConf=0.953", "triple=e dbp:event \"Marathon\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "sailor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sailing_(sport", "AllConf=0.979", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "shooter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Shooting_sports", "AllConf=0.993", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "skier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Alpine_skiing", "AllConf=0.975", "triple=e dbp:sport Alpine_skiing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South Korean\"@en", "AllConf=0.981", "triple=e dbp:nationality \"South Korean\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "sprinter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Sprinting\"@en", "AllConf=0.992", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=//dbpedia.org/datatype/metre>", "AllConf=0.908", "triple=e dbp:event //dbpedia.org/datatype/metre>", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "summer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sailing_(sport", "AllConf=0.984", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ],
+    "1" : [ "pair=Equestrianism", "AllConf=0.982", "triple=e dbp:sport Equestrianism", "class=HR_Athlete" ],
+    "2" : [ "pair=Boxing", "AllConf=0.982", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "3" : [ "pair=Gymnastics", "AllConf=0.971", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "4" : [ "pair=Basketball", "AllConf=0.965", "triple=e dbp:sport Basketball", "class=HR_Athlete" ],
+    "5" : [ "pair=\"Sprinting\"@en", "AllConf=0.964", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "6" : [ "pair=\"Middle-distance running\"@en", "AllConf=0.962", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "7" : [ "pair=\"Long-distance running\"@en", "AllConf=0.945", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ],
+    "8" : [ "pair=Field_hockey", "AllConf=0.941", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ],
+    "9" : [ "pair=Rowing_(sport", "AllConf=0.919", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "10" : [ "pair=Water_polo", "AllConf=0.903", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "summer olympics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sailing_(sport", "AllConf=0.984", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ],
+    "1" : [ "pair=Equestrianism", "AllConf=0.982", "triple=e dbp:sport Equestrianism", "class=HR_Athlete" ],
+    "2" : [ "pair=Boxing", "AllConf=0.982", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "3" : [ "pair=Gymnastics", "AllConf=0.971", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "4" : [ "pair=Basketball", "AllConf=0.965", "triple=e dbp:sport Basketball", "class=HR_Athlete" ],
+    "5" : [ "pair=\"Sprinting\"@en", "AllConf=0.964", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "6" : [ "pair=\"Middle-distance running\"@en", "AllConf=0.962", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "7" : [ "pair=\"Long-distance running\"@en", "AllConf=0.945", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ],
+    "8" : [ "pair=Field_hockey", "AllConf=0.935", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ],
+    "9" : [ "pair=Rowing_(sport", "AllConf=0.917", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "tournament",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Basketball", "AllConf=0.923", "triple=e dbp:sport Basketball", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "water",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Water_polo", "AllConf=1.0", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "water polo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Water_polo", "AllConf=1.0", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "water polo player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Water_polo", "AllConf=0.98", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "weightlifter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Olympic_weightlifting", "AllConf=0.977", "triple=e dbp:sport Olympic_weightlifting", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "winter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Alpine_skiing", "AllConf=0.968", "triple=e dbp:sport Alpine_skiing", "class=HR_Athlete" ],
+    "1" : [ "pair=Bobsleigh", "AllConf=0.921", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "winter olympics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bobsleigh", "AllConf=0.921", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ],
+    "1" : [ "pair=Alpine_skiing", "AllConf=0.906", "triple=e dbp:sport Alpine_skiing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "wrestler",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Wrestling", "AllConf=0.989", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ]
+  }
+} ]

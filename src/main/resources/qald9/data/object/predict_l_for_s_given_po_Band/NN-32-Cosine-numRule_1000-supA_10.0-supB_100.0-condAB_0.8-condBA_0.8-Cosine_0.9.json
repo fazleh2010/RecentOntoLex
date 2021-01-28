@@ -1,0 +1,69 @@
+[ {
+  "id" : 1,
+  "pattern" : "band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Pop-punk", "Cosine=0.989", "triple=e dbp:genre Pop-punk", "class=HR_Band" ],
+    "1" : [ "pair=Pop_punk", "Cosine=0.989", "triple=e dbo:genre Pop_punk", "class=HR_Band" ],
+    "2" : [ "pair=Metalcore", "Cosine=0.987", "triple=e dbp:genre Metalcore", "class=HR_Band" ],
+    "3" : [ "pair=Thrash_metal", "Cosine=0.985", "triple=e dbp:genre Thrash_metal", "class=HR_Band" ],
+    "4" : [ "pair=Post-hardcore", "Cosine=0.983", "triple=e dbo:genre Post-hardcore", "class=HR_Band" ],
+    "5" : [ "pair=Hardcore_punk", "Cosine=0.98", "triple=e dbp:genre Hardcore_punk", "class=HR_Band" ],
+    "6" : [ "pair=Alternative_metal", "Cosine=0.979", "triple=e dbp:genre Alternative_metal", "class=HR_Band" ],
+    "7" : [ "pair=Death_metal", "Cosine=0.977", "triple=e dbp:genre Death_metal", "class=HR_Band" ],
+    "8" : [ "pair=Heavy_metal_music", "Cosine=0.976", "triple=e dbo:genre Heavy_metal_music", "class=HR_Band" ],
+    "9" : [ "pair=Power_metal", "Cosine=0.975", "triple=e dbo:genre Power_metal", "class=HR_Band" ],
+    "10" : [ "pair=Emo", "Cosine=0.974", "triple=e dbo:genre Emo", "class=HR_Band" ],
+    "11" : [ "pair=Garage_rock", "Cosine=0.969", "triple=e dbo:genre Garage_rock", "class=HR_Band" ],
+    "12" : [ "pair=Power_pop", "Cosine=0.967", "triple=e dbo:genre Power_pop", "class=HR_Band" ],
+    "13" : [ "pair=Hard_rock", "Cosine=0.967", "triple=e dbo:genre Hard_rock", "class=HR_Band" ],
+    "14" : [ "pair=Alternative_rock", "Cosine=0.967", "triple=e dbp:genre Alternative_rock", "class=HR_Band" ],
+    "15" : [ "pair=Punk_rock", "Cosine=0.962", "triple=e dbo:genre Punk_rock", "class=HR_Band" ],
+    "16" : [ "pair=Progressive_metal", "Cosine=0.959", "triple=e dbp:genre Progressive_metal", "class=HR_Band" ],
+    "17" : [ "pair=Black_metal", "Cosine=0.958", "triple=e dbo:genre Black_metal", "class=HR_Band" ],
+    "18" : [ "pair=Indie_rock", "Cosine=0.958", "triple=e dbo:genre Indie_rock", "class=HR_Band" ],
+    "19" : [ "pair=New_wave_music", "Cosine=0.958", "triple=e dbp:genre New_wave_music", "class=HR_Band" ],
+    "20" : [ "pair=Psychedelic_rock", "Cosine=0.957", "triple=e dbp:genre Psychedelic_rock", "class=HR_Band" ],
+    "21" : [ "pair=Blues_rock", "Cosine=0.951", "triple=e dbo:genre Blues_rock", "class=HR_Band" ],
+    "22" : [ "pair=Progressive_rock", "Cosine=0.946", "triple=e dbp:genre Progressive_rock", "class=HR_Band" ],
+    "23" : [ "pair=Post-rock", "Cosine=0.946", "triple=e dbo:genre Post-rock", "class=HR_Band" ],
+    "24" : [ "pair=Art_rock", "Cosine=0.943", "triple=e dbp:genre Art_rock", "class=HR_Band" ],
+    "25" : [ "pair=Folk_rock", "Cosine=0.943", "triple=e dbp:genre Folk_rock", "class=HR_Band" ],
+    "26" : [ "pair=Post-punk", "Cosine=0.942", "triple=e dbo:genre Post-punk", "class=HR_Band" ],
+    "27" : [ "pair=\"Yes\"@en", "Cosine=0.933", "triple=e dbp:landscape \"Yes\"@en", "class=HR_Band" ],
+    "28" : [ "pair=Rock_music", "Cosine=0.93", "triple=e dbo:genre Rock_music", "class=HR_Band" ],
+    "29" : [ "pair=Rock_and_roll", "Cosine=0.93", "triple=e dbo:genre Rock_and_roll", "class=HR_Band" ],
+    "30" : [ "pair=Pop_rock", "Cosine=0.926", "triple=e dbo:genre Pop_rock", "class=HR_Band" ],
+    "31" : [ "pair=Experimental_rock", "Cosine=0.921", "triple=e dbo:genre Experimental_rock", "class=HR_Band" ],
+    "32" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.918", "triple=e dbo:activeYearsStartYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_Band" ],
+    "33" : [ "pair=Indie_pop", "Cosine=0.911", "triple=e dbo:genre Indie_pop", "class=HR_Band" ],
+    "34" : [ "pair=England", "Cosine=0.901", "triple=e dbp:origin England", "class=HR_Band" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "metal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Black_metal", "Cosine=0.977", "triple=e dbp:genre Black_metal", "class=HR_Band" ],
+    "1" : [ "pair=Power_metal", "Cosine=0.975", "triple=e dbo:genre Power_metal", "class=HR_Band" ],
+    "2" : [ "pair=Thrash_metal", "Cosine=0.943", "triple=e dbp:genre Thrash_metal", "class=HR_Band" ],
+    "3" : [ "pair=Death_metal", "Cosine=0.943", "triple=e dbp:genre Death_metal", "class=HR_Band" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "metal band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Power_metal", "Cosine=0.93", "triple=e dbo:genre Power_metal", "class=HR_Band" ],
+    "1" : [ "pair=Black_metal", "Cosine=0.916", "triple=e dbp:genre Black_metal", "class=HR_Band" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "rock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Blues_rock", "Cosine=0.955", "triple=e dbp:genre Blues_rock", "class=HR_Band" ],
+    "1" : [ "pair=Garage_rock", "Cosine=0.936", "triple=e dbo:genre Garage_rock", "class=HR_Band" ],
+    "2" : [ "pair=Psychedelic_rock", "Cosine=0.928", "triple=e dbo:genre Psychedelic_rock", "class=HR_Band" ]
+  }
+} ]

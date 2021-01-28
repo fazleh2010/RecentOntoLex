@@ -1,0 +1,38 @@
+[ {
+  "id" : 1,
+  "pattern" : "book",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nonfiction", "Coherence=0.453", "triple=e dbp:genre Nonfiction", "class=HR_Book" ],
+    "1" : [ "pair=Children's_literature", "Coherence=0.409", "triple=e dbp:genre Children's_literature", "class=HR_Book" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "fantasy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fantasy", "Coherence=0.402", "triple=e dbp:genre Fantasy", "class=HR_Book" ],
+    "1" : [ "pair=Fantasy_literature", "Coherence=0.396", "triple=e dbp:genre Fantasy_literature", "class=HR_Book" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Science_fiction", "Coherence=0.438", "triple=e dbo:literaryGenre Science_fiction", "class=HR_Book" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "science",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Science_fiction", "Coherence=0.436", "triple=e dbo:literaryGenre Science_fiction", "class=HR_Book" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "science fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Science_fiction", "Coherence=0.432", "triple=e dbo:literaryGenre Science_fiction", "class=HR_Book" ]
+  }
+} ]

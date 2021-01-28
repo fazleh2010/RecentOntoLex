@@ -1,0 +1,256 @@
+[ {
+  "id" : 1,
+  "pattern" : "aircraft",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Light-sport_aircraft", "AllConf=1.0", "triple=e dbo:type Light-sport_aircraft", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"four cylinder", "AllConf=1.0", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ],
+    "2" : [ "pair=\"AeroCrafter\"@en", "AllConf=1.0", "triple=e dbp:ref \"AeroCrafter\"@en", "class=HR_Aircraft" ],
+    "3" : [ "pair=Attack_aircraft", "AllConf=0.983", "triple=e dbp:type Attack_aircraft", "class=HR_Aircraft" ],
+    "4" : [ "pair=Amateur-built_aircraft", "AllConf=0.979", "triple=e dbo:type Amateur-built_aircraft", "class=HR_Aircraft" ],
+    "5" : [ "pair=Ultralight_aviation", "AllConf=0.964", "triple=e dbp:type Ultralight_aviation", "class=HR_Aircraft" ],
+    "6" : [ "pair=Ultralight_aircraft", "AllConf=0.961", "triple=e dbo:type Ultralight_aircraft", "class=HR_Aircraft" ],
+    "7" : [ "pair=\"+4/-2\"@en", "AllConf=0.949", "triple=e dbp:gLimits \"+4/-2\"@en", "class=HR_Aircraft" ],
+    "8" : [ "pair=\"Bayerl\"@en", "AllConf=0.945", "triple=e dbp:ref \"Bayerl\"@en", "class=HR_Aircraft" ],
+    "9" : [ "pair=\"wooden", "AllConf=0.944", "triple=e dbp:propName \"wooden", "class=HR_Aircraft" ],
+    "10" : [ "pair=\"composite\"@en", "AllConf=0.94", "triple=e dbp:propName \"composite\"@en", "class=HR_Aircraft" ],
+    "11" : [ "pair=\"Utility aircraft\"@en", "AllConf=0.931", "triple=e dbp:type \"Utility aircraft\"@en", "class=HR_Aircraft" ],
+    "12" : [ "pair=Rotax_912", "AllConf=0.929", "triple=e dbp:eng1Name Rotax_912", "class=HR_Aircraft" ],
+    "13" : [ "pair=\"Tacke\"@en", "AllConf=0.925", "triple=e dbp:ref \"Tacke\"@en", "class=HR_Aircraft" ],
+    "14" : [ "pair=\"Civil utility aircraft\"@en", "AllConf=0.91", "triple=e dbp:type \"Civil utility aircraft\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "amateur construction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"AeroCrafter\"@en", "AllConf=0.972", "triple=e dbp:ref \"AeroCrafter\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=Amateur-built_aircraft", "AllConf=0.938", "triple=e dbo:type Amateur-built_aircraft", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "amateur-built",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Amateur-built_aircraft", "AllConf=0.918", "triple=e dbo:type Amateur-built_aircraft", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "avro",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Avro", "AllConf=0.964", "triple=e dbo:manufacturer Avro", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "boat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Flying_boat", "AllConf=0.908", "triple=e dbo:type Flying_boat", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "boeing",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boeing", "AllConf=0.929", "triple=e dbo:manufacturer Boeing", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "bomber",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Heavy_bomber", "AllConf=0.963", "triple=e dbo:type Heavy_bomber", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "bristol",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bristol_Aeroplane_Company", "AllConf=0.981", "triple=e dbp:manufacturer Bristol_Aeroplane_Company", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "caproni",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Caproni", "AllConf=0.972", "triple=e dbo:manufacturer Caproni", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "caudron",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Caudron", "AllConf=0.968", "triple=e dbp:manufacturer Caudron", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "cessna",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Cessna", "AllConf=1.0", "triple=e dbo:manufacturer Cessna", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "construction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"AeroCrafter\"@en", "AllConf=0.972", "triple=e dbp:ref \"AeroCrafter\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=Amateur-built_aircraft", "AllConf=0.948", "triple=e dbo:type Amateur-built_aircraft", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "curtiss",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Curtiss_Aeroplane_and_Motor_Company", "AllConf=0.98", "triple=e dbo:manufacturer Curtiss_Aeroplane_and_Motor_Company", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "czech",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Czech_Republic", "AllConf=0.959", "triple=e dbp:nationalOrigin Czech_Republic", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "douglas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Douglas_Aircraft_Company", "AllConf=1.0", "triple=e dbo:manufacturer Douglas_Aircraft_Company", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "fighter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Fighter\"@en", "AllConf=0.909", "triple=e dbp:type \"Fighter\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=Fighter_aircraft", "AllConf=0.909", "triple=e dbp:type Fighter_aircraft", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "flying boat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Flying_boat", "AllConf=0.908", "triple=e dbo:type Flying_boat", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "fokker",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fokker", "AllConf=1.0", "triple=e dbo:manufacturer Fokker", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "glider",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Sailplane Directory and Soaring\"@en", "AllConf=0.943", "triple=e dbp:ref \"Sailplane Directory and Soaring\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"* List of gliders\"@en", "AllConf=0.926", "triple=e dbp:lists \"* List of gliders\"@en", "class=HR_Aircraft" ],
+    "2" : [ "pair=Glider_(sailplane", "AllConf=0.912", "triple=e dbp:type Glider_(sailplane", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "heinkel",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Heinkel", "AllConf=1.0", "triple=e dbo:manufacturer Heinkel", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "helicopter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Helicopter", "AllConf=0.986", "triple=e dbp:type Helicopter", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"turboshaft engines\"@en", "AllConf=0.932", "triple=e dbp:eng1Type \"turboshaft engines\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "lockheed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Lockheed_Corporation", "AllConf=0.974", "triple=e dbo:manufacturer Lockheed_Corporation", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "motor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Motor_glider", "AllConf=0.92", "triple=e dbo:type Motor_glider", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "parachute",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Powered_parachute", "AllConf=0.985", "triple=e dbp:type Powered_parachute", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "paraglider",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Paraglider", "AllConf=0.913", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ],
+    "1" : [ "pair=Paragliding", "AllConf=0.908", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "paragliding",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Paramotor", "AllConf=0.987", "triple=e dbo:type Paramotor", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "powered parachute",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Powered_parachute", "AllConf=0.985", "triple=e dbp:type Powered_parachute", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "powered paragliding",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Paramotor", "AllConf=0.987", "triple=e dbo:type Paramotor", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "production",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=//dbpedia.org/datatype/second>", "AllConf=0.989", "triple=e dbp:produced //dbpedia.org/datatype/second>", "class=HR_Aircraft" ],
+    "1" : [ "pair=Paraglider", "AllConf=0.902", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "trike",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ultralight_trike", "AllConf=0.926", "triple=e dbp:type Ultralight_trike", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "tupolev",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Tupolev", "AllConf=1.0", "triple=e dbo:manufacturer Tupolev", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "ultralight",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ultralight_trike", "AllConf=1.0", "triple=e dbo:type Ultralight_trike", "class=HR_Aircraft" ],
+    "1" : [ "pair=Ultralight_aircraft", "AllConf=0.961", "triple=e dbo:type Ultralight_aircraft", "class=HR_Aircraft" ],
+    "2" : [ "pair=Ultralight_aviation", "AllConf=0.928", "triple=e dbp:type Ultralight_aviation", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "ultralight trike",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ultralight_trike", "AllConf=0.926", "triple=e dbp:type Ultralight_trike", "class=HR_Aircraft" ]
+  }
+} ]

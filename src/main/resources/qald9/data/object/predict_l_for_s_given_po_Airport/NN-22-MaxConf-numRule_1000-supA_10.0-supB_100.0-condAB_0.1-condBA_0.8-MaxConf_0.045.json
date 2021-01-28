@@ -1,0 +1,755 @@
+[ {
+  "id" : 4,
+  "pattern" : "administration",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "aerodrome",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "aerodrome tc",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "aerodrome tc lid",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "airport",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft Operations\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft Operations\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Aircraft movements\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "airport\u001Cserving",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft Operations\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft Operations\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Aircraft movements\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "airport faa lid",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "airport iata",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft Operations\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft Operations\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Aircraft movements\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "airport located",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft movements\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "airport located three",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "airport located two",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "airport serving",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft Operations\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft Operations\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Aircraft movements\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "airport systems",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "airports",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "airports use",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "also",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft movements\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "although",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "area",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft movements\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "authority",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "aviation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "brazil",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft Operations\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft Operations\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "british columbia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "british columbia canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "business",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "business district",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "central business",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "china",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft movements\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "city",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft movements\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "city-owned public-use",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "city-owned public-use airport",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "columbia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "columbia canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "district",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "faa",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "faa iata",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "facility",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "federal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "federal aviation administration",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "field",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "formerly",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "general aviation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "general aviation facility",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "iata",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft Operations\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft Operations\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Aircraft movements\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "icao",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft Operations\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft Operations\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Aircraft movements\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "identifier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "integrated",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "integrated airport",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "integrated airport systems",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "international airport",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft movements\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "km northeast",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "km northwest",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "lake",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "lake water",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "lake water aerodrome",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "lake water aerodrome\u001Ctc",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "lake water aerodrome\u001Ctc\u001Clid",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "location",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "location identifier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "mile",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "miles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "miles 6 km",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "national",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "national plan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "nautical miles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "nautical miles 6",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "north",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "northeast",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 92,
+  "pattern" : "northwest",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "ontario",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 94,
+  "pattern" : "ontario canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 98,
+  "pattern" : "passengers",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft movements\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 99,
+  "pattern" : "plan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 100,
+  "pattern" : "plan integrated",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 101,
+  "pattern" : "privately",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 102,
+  "pattern" : "public",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 103,
+  "pattern" : "public airport",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 104,
+  "pattern" : "public use",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "public use airport",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 106,
+  "pattern" : "public-use",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 107,
+  "pattern" : "public-use airport located",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 108,
+  "pattern" : "regional",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 109,
+  "pattern" : "service",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 111,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 112,
+  "pattern" : "southeast",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 113,
+  "pattern" : "southwest",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 114,
+  "pattern" : "states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 115,
+  "pattern" : "states airport",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 116,
+  "pattern" : "systems",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 117,
+  "pattern" : "systems 2011â2015",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 118,
+  "pattern" : "tc lid",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 119,
+  "pattern" : "three",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 121,
+  "pattern" : "three-letter location",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 122,
+  "pattern" : "three-letter location identifier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 123,
+  "pattern" : "two nautical miles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 124,
+  "pattern" : "u.s airports use",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 125,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 126,
+  "pattern" : "united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 127,
+  "pattern" : "use",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 128,
+  "pattern" : "use airport located",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 129,
+  "pattern" : "water",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 130,
+  "pattern" : "water aerodrome",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 131,
+  "pattern" : "water aerodrome tc",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 132,
+  "pattern" : "water aerodrome tc\u001Clid",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 133,
+  "pattern" : "west",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Based aircraft\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+} ]

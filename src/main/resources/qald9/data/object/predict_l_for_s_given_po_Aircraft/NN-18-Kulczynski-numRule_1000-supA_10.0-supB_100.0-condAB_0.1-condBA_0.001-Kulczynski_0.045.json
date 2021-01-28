@@ -1,0 +1,144 @@
+[ {
+  "id" : 1,
+  "pattern" : "aircraft",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"four cylinder", "Kulczynski=1.0", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ],
+    "1" : [ "pair=Ultralight_aviation", "Kulczynski=0.982", "triple=e dbp:type Ultralight_aviation", "class=HR_Aircraft" ],
+    "2" : [ "pair=Ultralight_aircraft", "Kulczynski=0.98", "triple=e dbo:type Ultralight_aircraft", "class=HR_Aircraft" ],
+    "3" : [ "pair=\"Bayerl\"@en", "Kulczynski=0.972", "triple=e dbp:ref \"Bayerl\"@en", "class=HR_Aircraft" ],
+    "4" : [ "pair=\"composite\"@en", "Kulczynski=0.97", "triple=e dbp:propName \"composite\"@en", "class=HR_Aircraft" ],
+    "5" : [ "pair=Rotax_912", "Kulczynski=0.964", "triple=e dbp:eng1Name Rotax_912", "class=HR_Aircraft" ],
+    "6" : [ "pair=Ultralight_trike", "Kulczynski=0.946", "triple=e dbo:type Ultralight_trike", "class=HR_Aircraft" ],
+    "7" : [ "pair=Homebuilt_aircraft", "Kulczynski=0.945", "triple=e dbp:type Homebuilt_aircraft", "class=HR_Aircraft" ],
+    "8" : [ "pair=\"flaps down\"@en", "Kulczynski=0.94", "triple=e dbp:stallSpeedNote \"flaps down\"@en", "class=HR_Aircraft" ],
+    "9" : [ "pair=Canada", "Kulczynski=0.922", "triple=e dbp:nationalOrigin Canada", "class=HR_Aircraft" ],
+    "10" : [ "pair=\"wooden\"@en", "Kulczynski=0.921", "triple=e dbp:propName \"wooden\"@en", "class=HR_Aircraft" ],
+    "11" : [ "pair=Rotax_582", "Kulczynski=0.919", "triple=e dbp:eng1Name Rotax_582", "class=HR_Aircraft" ],
+    "12" : [ "pair=\"one passenger\"@en", "Kulczynski=0.904", "triple=e dbp:capacity \"one passenger\"@en", "class=HR_Aircraft" ],
+    "13" : [ "pair=\"\"@en", "Kulczynski=0.897", "triple=e dbp:stallSpeedNote \"\"@en", "class=HR_Aircraft" ],
+    "14" : [ "pair=\"In production\"@en", "Kulczynski=0.887", "triple=e dbp:status \"In production\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "airliner",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Airliner\"@en", "Kulczynski=0.901", "triple=e dbp:type \"Airliner\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "autogyro",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Autogyro", "Kulczynski=0.925", "triple=e dbo:type Autogyro", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "bomber",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bomber", "Kulczynski=0.947", "triple=e dbo:type Bomber", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "fighter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Fighter\"@en", "Kulczynski=0.954", "triple=e dbp:type \"Fighter\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=Fighter_aircraft", "Kulczynski=0.954", "triple=e dbp:type Fighter_aircraft", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "glider",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"* List of gliders\"@en", "Kulczynski=0.963", "triple=e dbp:lists \"* List of gliders\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=Glider_(sailplane", "Kulczynski=0.956", "triple=e dbp:type Glider_(sailplane", "class=HR_Aircraft" ],
+    "2" : [ "pair=\"at\"@en", "Kulczynski=0.895", "triple=e dbp:sinkRateNote \"at\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "helicopter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Helicopter", "Kulczynski=0.982", "triple=e dbo:type Helicopter", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "navy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United_States_Navy", "Kulczynski=0.895", "triple=e dbp:primaryUser United_States_Navy", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "paraglider",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Paraglider", "Kulczynski=0.956", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ],
+    "1" : [ "pair=Paragliding", "Kulczynski=0.954", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "paraglider was\u001Cdesigned",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Paraglider", "Kulczynski=0.902", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ],
+    "1" : [ "pair=Paragliding", "Kulczynski=0.9", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "production",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Paraglider", "Kulczynski=0.951", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ],
+    "1" : [ "pair=Paragliding", "Kulczynski=0.948", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ],
+    "2" : [ "pair=\"Bertrand\"@en", "Kulczynski=0.912", "triple=e dbp:ref \"Bertrand\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "single-place paraglider",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Paraglider", "Kulczynski=0.883", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ],
+    "1" : [ "pair=Paragliding", "Kulczynski=0.881", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "trike",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ultralight_trike", "Kulczynski=0.963", "triple=e dbp:type Ultralight_trike", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "uavs",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=UAV", "Kulczynski=0.886", "triple=e dbo:type UAV", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "ultralight",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ultralight_trike", "Kulczynski=1.0", "triple=e dbo:type Ultralight_trike", "class=HR_Aircraft" ],
+    "1" : [ "pair=Ultralight_aircraft", "Kulczynski=0.98", "triple=e dbo:type Ultralight_aircraft", "class=HR_Aircraft" ],
+    "2" : [ "pair=Ultralight_aviation", "Kulczynski=0.964", "triple=e dbp:type Ultralight_aviation", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "ultralight aircraft",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ultralight_aviation", "Kulczynski=0.91", "triple=e dbp:type Ultralight_aviation", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "ultralight trike",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ultralight_trike", "Kulczynski=0.963", "triple=e dbp:type Ultralight_trike", "class=HR_Aircraft" ]
+  }
+} ]

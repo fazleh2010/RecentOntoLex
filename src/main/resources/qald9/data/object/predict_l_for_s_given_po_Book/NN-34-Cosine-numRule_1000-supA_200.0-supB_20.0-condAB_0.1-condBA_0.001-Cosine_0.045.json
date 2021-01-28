@@ -1,0 +1,38 @@
+[ {
+  "id" : 1,
+  "pattern" : "book",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nonfiction", "Cosine=0.91", "triple=e dbp:genre Nonfiction", "class=HR_Book" ],
+    "1" : [ "pair=Children's_literature", "Cosine=0.833", "triple=e dbp:genre Children's_literature", "class=HR_Book" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "fantasy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fantasy", "Cosine=0.82", "triple=e dbp:genre Fantasy", "class=HR_Book" ],
+    "1" : [ "pair=Fantasy_literature", "Cosine=0.81", "triple=e dbp:genre Fantasy_literature", "class=HR_Book" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Science_fiction", "Cosine=0.884", "triple=e dbo:literaryGenre Science_fiction", "class=HR_Book" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "science",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Science_fiction", "Cosine=0.879", "triple=e dbo:literaryGenre Science_fiction", "class=HR_Book" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "science fiction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Science_fiction", "Cosine=0.872", "triple=e dbo:literaryGenre Science_fiction", "class=HR_Book" ]
+  }
+} ]

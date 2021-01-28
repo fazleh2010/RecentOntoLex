@@ -1,0 +1,60 @@
+[ {
+  "id" : 1,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.995", "triple=e dbo:draftYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_AmericanFootballPlayer" ],
+    "1" : [ "pair=\"All values from NFL Combine\"@en", "Cosine=0.993", "triple=e dbp:note \"All values from NFL Combine\"@en", "class=HR_AmericanFootballPlayer" ],
+    "2" : [ "pair=\"coach\"@en", "Cosine=0.992", "triple=e dbp:type \"coach\"@en", "class=HR_AmericanFootballPlayer" ],
+    "3" : [ "pair=\"no\"@en", "Cosine=0.992", "triple=e dbp:bowls \"no\"@en", "class=HR_AmericanFootballPlayer" ],
+    "4" : [ "pair=Michigan_Wolverines_football", "Cosine=0.99", "triple=e dbp:college Michigan_Wolverines_football", "class=HR_AmericanFootballPlayer" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "american football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Cosine=0.995", "triple=e dbo:draftYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_AmericanFootballPlayer" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"International\"@en", "Cosine=1.0", "triple=e dbp:cflstatus \"International\"@en", "class=HR_AmericanFootballPlayer" ],
+    "1" : [ "pair=\"coach\"@en", "Cosine=1.0", "triple=e dbp:type \"coach\"@en", "class=HR_AmericanFootballPlayer" ],
+    "2" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Cosine=1.0", "triple=e dbo:draftYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_AmericanFootballPlayer" ],
+    "3" : [ "pair=\"no\"@en", "Cosine=1.0", "triple=e dbp:bowls \"no\"@en", "class=HR_AmericanFootballPlayer" ],
+    "4" : [ "pair=\"Graduate\"@en", "Cosine=1.0", "triple=e dbp:class \"Graduate\"@en", "class=HR_AmericanFootballPlayer" ],
+    "5" : [ "pair=Michigan_Wolverines_football", "Cosine=1.0", "triple=e dbp:college Michigan_Wolverines_football", "class=HR_AmericanFootballPlayer" ],
+    "6" : [ "pair=Florida_Gators_football", "Cosine=1.0", "triple=e dbp:college Florida_Gators_football", "class=HR_AmericanFootballPlayer" ],
+    "7" : [ "pair=\"All values from NFL Combine\"@en", "Cosine=0.999", "triple=e dbp:note \"All values from NFL Combine\"@en", "class=HR_AmericanFootballPlayer" ],
+    "8" : [ "pair=\"Free agent\"@en", "Cosine=0.997", "triple=e dbp:currentTeam \"Free agent\"@en", "class=HR_AmericanFootballPlayer" ],
+    "9" : [ "pair=Washington_Redskins", "Cosine=0.996", "triple=e dbo:team Washington_Redskins", "class=HR_AmericanFootballPlayer" ],
+    "10" : [ "pair=Miami_Hurricanes_football", "Cosine=0.995", "triple=e dbp:college Miami_Hurricanes_football", "class=HR_AmericanFootballPlayer" ],
+    "11" : [ "pair=\"Receiving touchdowns\"@en", "Cosine=0.995", "triple=e dbp:statlabel \"Receiving touchdowns\"@en", "class=HR_AmericanFootballPlayer" ],
+    "12" : [ "pair=\"--\"@en", "Cosine=0.995", "triple=e dbp:number \"--\"@en", "class=HR_AmericanFootballPlayer" ],
+    "13" : [ "pair=Baltimore_Ravens", "Cosine=0.994", "triple=e dbo:formerTeam Baltimore_Ravens", "class=HR_AmericanFootballPlayer" ],
+    "14" : [ "pair=Tennessee_Titans", "Cosine=0.993", "triple=e dbo:formerTeam Tennessee_Titans", "class=HR_AmericanFootballPlayer" ],
+    "15" : [ "pair=\"Rushing touchdowns\"@en", "Cosine=0.993", "triple=e dbp:statlabel \"Rushing touchdowns\"@en", "class=HR_AmericanFootballPlayer" ],
+    "16" : [ "pair=Fumble", "Cosine=0.993", "triple=e dbp:statlabel Fumble", "class=HR_AmericanFootballPlayer" ],
+    "17" : [ "pair=Saskatchewan_Roughriders", "Cosine=0.993", "triple=e dbo:formerTeam Saskatchewan_Roughriders", "class=HR_AmericanFootballPlayer" ],
+    "18" : [ "pair=\"Forced fumbles\"@en", "Cosine=0.992", "triple=e dbp:statlabel \"Forced fumbles\"@en", "class=HR_AmericanFootballPlayer" ],
+    "19" : [ "pair=Arizona_Cardinals", "Cosine=0.992", "triple=e dbo:formerTeam Arizona_Cardinals", "class=HR_AmericanFootballPlayer" ],
+    "20" : [ "pair=Houston_Texans", "Cosine=0.992", "triple=e dbo:formerTeam Houston_Texans", "class=HR_AmericanFootballPlayer" ],
+    "21" : [ "pair=Pass_deflected", "Cosine=0.992", "triple=e dbp:statlabel Pass_deflected", "class=HR_AmericanFootballPlayer" ],
+    "22" : [ "pair=Carolina_Panthers", "Cosine=0.992", "triple=e dbo:formerTeam Carolina_Panthers", "class=HR_AmericanFootballPlayer" ],
+    "23" : [ "pair=Florida_State_Seminoles_football", "Cosine=0.991", "triple=e dbp:college Florida_State_Seminoles_football", "class=HR_AmericanFootballPlayer" ],
+    "24" : [ "pair=\"Tackles\"@en", "Cosine=0.991", "triple=e dbp:statlabel \"Tackles\"@en", "class=HR_AmericanFootballPlayer" ],
+    "25" : [ "pair=\"yes\"@en", "Cosine=0.991", "triple=e dbp:pastteamsnote \"yes\"@en", "class=HR_AmericanFootballPlayer" ],
+    "26" : [ "pair=Carry_(gridiron_football", "Cosine=0.991", "triple=e dbp:statlabel Carry_(gridiron_football", "class=HR_AmericanFootballPlayer" ],
+    "27" : [ "pair=San_Diego_Chargers", "Cosine=0.99", "triple=e dbo:formerTeam San_Diego_Chargers", "class=HR_AmericanFootballPlayer" ],
+    "28" : [ "pair=\"1\"", "Cosine=0.99", "triple=e dbo:draftRound \"1\"", "class=HR_AmericanFootballPlayer" ],
+    "29" : [ "pair=Safety_(American_football_position", "Cosine=0.99", "triple=e dbo:position Safety_(American_football_position", "class=HR_AmericanFootballPlayer" ],
+    "30" : [ "pair=\"InternetArchiveBot\"@en", "Cosine=0.99", "triple=e dbp:bot \"InternetArchiveBot\"@en", "class=HR_AmericanFootballPlayer" ],
+    "31" : [ "pair=Tackle_(football_move", "Cosine=0.99", "triple=e dbp:statlabel Tackle_(football_move", "class=HR_AmericanFootballPlayer" ],
+    "32" : [ "pair=Oakland_Raiders", "Cosine=0.99", "triple=e dbo:formerTeam Oakland_Raiders", "class=HR_AmericanFootballPlayer" ],
+    "33" : [ "pair=\"NFL\"@en", "Cosine=0.99", "triple=e dbp:statleague \"NFL\"@en", "class=HR_AmericanFootballPlayer" ],
+    "34" : [ "pair=Tennessee_Volunteers_football", "Cosine=0.99", "triple=e dbp:college Tennessee_Volunteers_football", "class=HR_AmericanFootballPlayer" ]
+  }
+} ]

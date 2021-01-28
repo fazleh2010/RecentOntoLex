@@ -1,0 +1,44 @@
+[ {
+  "id" : 3,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Australian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Australian\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Canadian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Canadian\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Paris", "MaxConf=1.0", "triple=e dbo:birthPlace Paris", "class=HR_Artist" ],
+    "1" : [ "pair=\"French\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"French\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"German\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"German\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Italian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Italian\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Saint_Petersburg", "MaxConf=1.0", "triple=e dbp:deathPlace Saint_Petersburg", "class=HR_Artist" ]
+  }
+} ]

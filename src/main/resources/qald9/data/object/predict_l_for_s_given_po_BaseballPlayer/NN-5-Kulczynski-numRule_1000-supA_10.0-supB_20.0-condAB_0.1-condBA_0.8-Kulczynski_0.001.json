@@ -1,0 +1,549 @@
+[ {
+  "id" : 1,
+  "pattern" : "all-american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "Kulczynski=0.993", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "all-american girls",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "Kulczynski=0.993", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "all-american girls professional",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "Kulczynski=0.993", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "all-american girls professional\u001Cbaseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "Kulczynski=0.993", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "all-american girls professional\u001Cbaseball\u001Cleague",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "Kulczynski=0.993", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "athletics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Oakland_Athletics", "Kulczynski=0.976", "triple=e dbp:finalteam Oakland_Athletics", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"*Philadelphia Athletics\"@en", "Kulczynski=0.967", "triple=e dbp:teams \"*Philadelphia Athletics\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "baseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Free agent\"@en", "Kulczynski=0.995", "triple=e dbp:team \"Free agent\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=All-American_Girls_Professional_Baseball_League", "Kulczynski=0.993", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=\"Left\"", "Kulczynski=0.993", "triple=e dbo:battingSide \"Left\"", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=Free_agent", "Kulczynski=0.993", "triple=e dbo:team Free_agent", "class=HR_BaseballPlayer" ],
+    "4" : [ "pair=\"KBO\"@en", "Kulczynski=0.987", "triple=e dbp:debut2league \"KBO\"@en", "class=HR_BaseballPlayer" ],
+    "5" : [ "pair=Major_League_Baseball_Player_of_the_Month_Award", "Kulczynski=0.985", "triple=e dbp:title Major_League_Baseball_Player_of_the_Month_Award", "class=HR_BaseballPlayer" ],
+    "6" : [ "pair=Earned_run_average", "Kulczynski=0.977", "triple=e dbp:stat22label Earned_run_average", "class=HR_BaseballPlayer" ],
+    "7" : [ "pair=Winâloss_record_(pitching", "Kulczynski=0.976", "triple=e dbp:stat21label Winâloss_record_(pitching", "class=HR_BaseballPlayer" ],
+    "8" : [ "pair=\"Seattle Mariners\"@en", "Kulczynski=0.972", "triple=e dbp:finalteam \"Seattle Mariners\"@en", "class=HR_BaseballPlayer" ],
+    "9" : [ "pair=\"Batting average\"@en", "Kulczynski=0.972", "triple=e dbp:stat21label \"Batting average\"@en", "class=HR_BaseballPlayer" ],
+    "10" : [ "pair=Boston_Red_Sox", "Kulczynski=0.971", "triple=e dbp:finalteam Boston_Red_Sox", "class=HR_BaseballPlayer" ],
+    "11" : [ "pair=\"Kansas City Royals\"@en", "Kulczynski=0.97", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=HR_BaseballPlayer" ],
+    "12" : [ "pair=\"* Boston Red Sox\"@en", "Kulczynski=0.968", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=HR_BaseballPlayer" ],
+    "13" : [ "pair=//www.w3.org/2001/XMLSchema#gMonthDay>", "Kulczynski=0.967", "triple=e dbp:debutdate //www.w3.org/2001/XMLSchema#gMonthDay>", "class=HR_BaseballPlayer" ],
+    "14" : [ "pair=San_Francisco", "Kulczynski=0.967", "triple=e dbo:birthPlace San_Francisco", "class=HR_BaseballPlayer" ],
+    "15" : [ "pair=\"Washington Senators\"@en", "Kulczynski=0.965", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=HR_BaseballPlayer" ],
+    "16" : [ "pair=\"National Baseball Hall of Fame and Museum\"@en", "Kulczynski=0.964", "triple=e dbp:hoflink \"National Baseball Hall of Fame and Museum\"@en", "class=HR_BaseballPlayer" ],
+    "17" : [ "pair=\"Toronto Blue Jays\"@en", "Kulczynski=0.963", "triple=e dbp:finalteam \"Toronto Blue Jays\"@en", "class=HR_BaseballPlayer" ],
+    "18" : [ "pair=\"Winning %\"@en", "Kulczynski=0.96", "triple=e dbp:stat5label \"Winning %\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "baseball league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "Kulczynski=0.993", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "boston",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"* Boston Red Sox\"@en", "Kulczynski=0.984", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Boston_Red_Sox", "Kulczynski=0.978", "triple=e dbp:finalteam Boston_Red_Sox", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=Boston_Braves_(baseball", "Kulczynski=0.965", "triple=e dbo:debutTeam Boston_Braves_(baseball", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=\"*Boston Red Sox\"@en", "Kulczynski=0.963", "triple=e dbp:teams \"*Boston Red Sox\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "boston red",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"* Boston Red Sox\"@en", "Kulczynski=0.984", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "boston red\u001Csox",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"* Boston Red Sox\"@en", "Kulczynski=0.984", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "boston red sox",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"* Boston Red Sox\"@en", "Kulczynski=0.984", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "braves",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boston_Braves_(baseball", "Kulczynski=0.965", "triple=e dbo:debutTeam Boston_Braves_(baseball", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "browns",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*St. Louis Browns\"@en", "Kulczynski=0.971", "triple=e dbp:teams \"*St. Louis Browns\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "chicago",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Chicago_Cubs", "Kulczynski=0.983", "triple=e dbp:finalteam Chicago_Cubs", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"*Chicago White Sox\"@en", "Kulczynski=0.965", "triple=e dbp:teams \"*Chicago White Sox\"@en", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=\"*Chicago Cubs\"@en", "Kulczynski=0.962", "triple=e dbp:teams \"*Chicago Cubs\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "chicago white",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Chicago White Sox\"@en", "Kulczynski=0.965", "triple=e dbp:teams \"*Chicago White Sox\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "chicago white sox",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Chicago White Sox\"@en", "Kulczynski=0.965", "triple=e dbp:teams \"*Chicago White Sox\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "chunichi",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Chunichi Dragons\"@en", "Kulczynski=0.99", "triple=e dbp:team \"Chunichi Dragons\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "chunichi dragons",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Chunichi Dragons\"@en", "Kulczynski=0.99", "triple=e dbp:team \"Chunichi Dragons\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "cincinnati",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"* Cincinnati Reds\"@en", "Kulczynski=0.98", "triple=e dbp:teams \"* Cincinnati Reds\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"*Cincinnati Reds\"@en", "Kulczynski=0.975", "triple=e dbp:teams \"*Cincinnati Reds\"@en", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=Cincinnati_Reds", "Kulczynski=0.968", "triple=e dbp:debutteam Cincinnati_Reds", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "cincinnati reds",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Cincinnati Reds\"@en", "Kulczynski=0.966", "triple=e dbp:teams \"*Cincinnati Reds\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "cleveland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Cleveland Indians\"@en", "Kulczynski=0.992", "triple=e dbp:teams \"*Cleveland Indians\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "cleveland indians",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Cleveland Indians\"@en", "Kulczynski=0.984", "triple=e dbp:teams \"*Cleveland Indians\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "detroit",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Detroit Tigers\"@en", "Kulczynski=0.98", "triple=e dbp:teams \"*Detroit Tigers\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Detroit_Tigers", "Kulczynski=0.966", "triple=e dbp:debutteam Detroit_Tigers", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "detroit tigers",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Detroit Tigers\"@en", "Kulczynski=0.98", "triple=e dbp:teams \"*Detroit Tigers\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Detroit_Tigers", "Kulczynski=0.966", "triple=e dbp:debutteam Detroit_Tigers", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "dragons",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Chunichi Dragons\"@en", "Kulczynski=0.99", "triple=e dbp:team \"Chunichi Dragons\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "girls",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "Kulczynski=0.993", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "girls professional",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "Kulczynski=0.993", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "girls professional baseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "Kulczynski=0.993", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "girls professional baseball\u001Cleague",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "Kulczynski=0.993", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "indians",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Cleveland Indians\"@en", "Kulczynski=0.984", "triple=e dbp:teams \"*Cleveland Indians\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "Kulczynski=0.996", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Boston_Red_Sox", "Kulczynski=0.985", "triple=e dbp:finalteam Boston_Red_Sox", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=Major_League_Baseball_Player_of_the_Month_Award", "Kulczynski=0.985", "triple=e dbp:title Major_League_Baseball_Player_of_the_Month_Award", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=\"* All-Star\"@en", "Kulczynski=0.984", "triple=e dbp:highlights \"* All-Star\"@en", "class=HR_BaseballPlayer" ],
+    "4" : [ "pair=\"Kansas City Royals\"@en", "Kulczynski=0.978", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=HR_BaseballPlayer" ],
+    "5" : [ "pair=\"*Cleveland Indians\"@en", "Kulczynski=0.976", "triple=e dbp:teams \"*Cleveland Indians\"@en", "class=HR_BaseballPlayer" ],
+    "6" : [ "pair=San_Francisco", "Kulczynski=0.975", "triple=e dbo:birthPlace San_Francisco", "class=HR_BaseballPlayer" ],
+    "7" : [ "pair=\"KBO\"@en", "Kulczynski=0.974", "triple=e dbp:debut2league \"KBO\"@en", "class=HR_BaseballPlayer" ],
+    "8" : [ "pair=\"Games\"@en", "Kulczynski=0.974", "triple=e dbp:stat1label \"Games\"@en", "class=HR_BaseballPlayer" ],
+    "9" : [ "pair=//www.w3.org/2001/XMLSchema#gMonthDay>", "Kulczynski=0.973", "triple=e dbp:debutdate //www.w3.org/2001/XMLSchema#gMonthDay>", "class=HR_BaseballPlayer" ],
+    "10" : [ "pair=\"Seattle Mariners\"@en", "Kulczynski=0.972", "triple=e dbp:finalteam \"Seattle Mariners\"@en", "class=HR_BaseballPlayer" ],
+    "11" : [ "pair=\"Washington Senators\"@en", "Kulczynski=0.972", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=HR_BaseballPlayer" ],
+    "12" : [ "pair=Cleveland_Indians", "Kulczynski=0.972", "triple=e dbp:finalteam Cleveland_Indians", "class=HR_BaseballPlayer" ],
+    "13" : [ "pair=\"Veterans Committee\"@en", "Kulczynski=0.971", "triple=e dbp:hofmethod \"Veterans Committee\"@en", "class=HR_BaseballPlayer" ],
+    "14" : [ "pair=\"National Baseball Hall of Fame and Museum\"@en", "Kulczynski=0.971", "triple=e dbp:hoflink \"National Baseball Hall of Fame and Museum\"@en", "class=HR_BaseballPlayer" ],
+    "15" : [ "pair=List_of_Major_League_Baseball_no-hitters", "Kulczynski=0.971", "triple=e dbp:title List_of_Major_League_Baseball_no-hitters", "class=HR_BaseballPlayer" ],
+    "16" : [ "pair=Pinch_hitter", "Kulczynski=0.969", "triple=e dbo:position Pinch_hitter", "class=HR_BaseballPlayer" ],
+    "17" : [ "pair=\"* Boston Red Sox\"@en", "Kulczynski=0.968", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=HR_BaseballPlayer" ],
+    "18" : [ "pair=New_York_Yankees", "Kulczynski=0.967", "triple=e dbp:debutteam New_York_Yankees", "class=HR_BaseballPlayer" ],
+    "19" : [ "pair=San_Diego_Padres", "Kulczynski=0.967", "triple=e dbo:debutTeam San_Diego_Padres", "class=HR_BaseballPlayer" ],
+    "20" : [ "pair=\"New York Yankees\"@en", "Kulczynski=0.967", "triple=e dbp:debutteam \"New York Yankees\"@en", "class=HR_BaseballPlayer" ],
+    "21" : [ "pair=Pittsburgh_Pirates", "Kulczynski=0.966", "triple=e dbp:finalteam Pittsburgh_Pirates", "class=HR_BaseballPlayer" ],
+    "22" : [ "pair=Manager_(baseball", "Kulczynski=0.966", "triple=e dbp:title Manager_(baseball", "class=HR_BaseballPlayer" ],
+    "23" : [ "pair=\"San Diego Padres\"@en", "Kulczynski=0.965", "triple=e dbp:debutteam \"San Diego Padres\"@en", "class=HR_BaseballPlayer" ],
+    "24" : [ "pair=Hitting_for_the_cycle", "Kulczynski=0.964", "triple=e dbp:title Hitting_for_the_cycle", "class=HR_BaseballPlayer" ],
+    "25" : [ "pair=\"Chicago Cubs\"@en", "Kulczynski=0.964", "triple=e dbp:finalteam \"Chicago Cubs\"@en", "class=HR_BaseballPlayer" ],
+    "26" : [ "pair=\"Toronto Blue Jays\"@en", "Kulczynski=0.963", "triple=e dbp:finalteam \"Toronto Blue Jays\"@en", "class=HR_BaseballPlayer" ],
+    "27" : [ "pair=\"Atlanta Braves\"@en", "Kulczynski=0.962", "triple=e dbp:debutteam \"Atlanta Braves\"@en", "class=HR_BaseballPlayer" ],
+    "28" : [ "pair=Baltimore_Orioles", "Kulczynski=0.962", "triple=e dbo:debutTeam Baltimore_Orioles", "class=HR_BaseballPlayer" ],
+    "29" : [ "pair=Cincinnati", "Kulczynski=0.961", "triple=e dbp:birthPlace Cincinnati", "class=HR_BaseballPlayer" ],
+    "30" : [ "pair=History_of_the_Boston_Braves", "Kulczynski=0.961", "triple=e dbp:debutteam History_of_the_Boston_Braves", "class=HR_BaseballPlayer" ],
+    "31" : [ "pair=\"Chicago White Sox\"@en", "Kulczynski=0.96", "triple=e dbp:finalteam \"Chicago White Sox\"@en", "class=HR_BaseballPlayer" ],
+    "32" : [ "pair=Toronto_Blue_Jays", "Kulczynski=0.96", "triple=e dbo:debutTeam Toronto_Blue_Jays", "class=HR_BaseballPlayer" ],
+    "33" : [ "pair=\"Philadelphia Phillies\"@en", "Kulczynski=0.96", "triple=e dbp:debutteam \"Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ],
+    "34" : [ "pair=\"Detroit Tigers\"@en", "Kulczynski=0.959", "triple=e dbp:finalteam \"Detroit Tigers\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "league baseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Major_League_Baseball_Player_of_the_Month_Award", "Kulczynski=0.978", "triple=e dbp:title Major_League_Baseball_Player_of_the_Month_Award", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Boston_Red_Sox", "Kulczynski=0.971", "triple=e dbp:finalteam Boston_Red_Sox", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=\"KBO\"@en", "Kulczynski=0.968", "triple=e dbp:debut2league \"KBO\"@en", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=\"* Boston Red Sox\"@en", "Kulczynski=0.968", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=HR_BaseballPlayer" ],
+    "4" : [ "pair=San_Francisco", "Kulczynski=0.967", "triple=e dbo:birthPlace San_Francisco", "class=HR_BaseballPlayer" ],
+    "5" : [ "pair=\"Seattle Mariners\"@en", "Kulczynski=0.966", "triple=e dbp:finalteam \"Seattle Mariners\"@en", "class=HR_BaseballPlayer" ],
+    "6" : [ "pair=\"Washington Senators\"@en", "Kulczynski=0.965", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=HR_BaseballPlayer" ],
+    "7" : [ "pair=\"Kansas City Royals\"@en", "Kulczynski=0.961", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "louis",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*St. Louis Browns\"@en", "Kulczynski=0.981", "triple=e dbp:teams \"*St. Louis Browns\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=St._Louis_Cardinals", "Kulczynski=0.968", "triple=e dbp:finalteam St._Louis_Cardinals", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=History_of_the_St._Louis_Browns", "Kulczynski=0.965", "triple=e dbp:debutteam History_of_the_St._Louis_Browns", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "louis browns",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*St. Louis Browns\"@en", "Kulczynski=0.971", "triple=e dbp:teams \"*St. Louis Browns\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "major league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Major_League_Baseball_Player_of_the_Month_Award", "Kulczynski=0.985", "triple=e dbp:title Major_League_Baseball_Player_of_the_Month_Award", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"Kansas City Royals\"@en", "Kulczynski=0.974", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=\"Washington Senators\"@en", "Kulczynski=0.972", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=Boston_Red_Sox", "Kulczynski=0.971", "triple=e dbp:finalteam Boston_Red_Sox", "class=HR_BaseballPlayer" ],
+    "4" : [ "pair=Pinch_hitter", "Kulczynski=0.969", "triple=e dbo:position Pinch_hitter", "class=HR_BaseballPlayer" ],
+    "5" : [ "pair=\"KBO\"@en", "Kulczynski=0.968", "triple=e dbp:debut2league \"KBO\"@en", "class=HR_BaseballPlayer" ],
+    "6" : [ "pair=\"* Boston Red Sox\"@en", "Kulczynski=0.968", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=HR_BaseballPlayer" ],
+    "7" : [ "pair=\"*Cleveland Indians\"@en", "Kulczynski=0.968", "triple=e dbp:teams \"*Cleveland Indians\"@en", "class=HR_BaseballPlayer" ],
+    "8" : [ "pair=New_York_Yankees", "Kulczynski=0.967", "triple=e dbp:debutteam New_York_Yankees", "class=HR_BaseballPlayer" ],
+    "9" : [ "pair=San_Francisco", "Kulczynski=0.967", "triple=e dbo:birthPlace San_Francisco", "class=HR_BaseballPlayer" ],
+    "10" : [ "pair=\"Seattle Mariners\"@en", "Kulczynski=0.966", "triple=e dbp:finalteam \"Seattle Mariners\"@en", "class=HR_BaseballPlayer" ],
+    "11" : [ "pair=Cleveland_Indians", "Kulczynski=0.962", "triple=e dbp:finalteam Cleveland_Indians", "class=HR_BaseballPlayer" ],
+    "12" : [ "pair=//www.w3.org/2001/XMLSchema#gMonthDay>", "Kulczynski=0.962", "triple=e dbp:debutdate //www.w3.org/2001/XMLSchema#gMonthDay>", "class=HR_BaseballPlayer" ],
+    "13" : [ "pair=\"* All-Star\"@en", "Kulczynski=0.96", "triple=e dbp:highlights \"* All-Star\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "major league baseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Major_League_Baseball_Player_of_the_Month_Award", "Kulczynski=0.978", "triple=e dbp:title Major_League_Baseball_Player_of_the_Month_Award", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Boston_Red_Sox", "Kulczynski=0.971", "triple=e dbp:finalteam Boston_Red_Sox", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=\"KBO\"@en", "Kulczynski=0.968", "triple=e dbp:debut2league \"KBO\"@en", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=\"* Boston Red Sox\"@en", "Kulczynski=0.968", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=HR_BaseballPlayer" ],
+    "4" : [ "pair=San_Francisco", "Kulczynski=0.967", "triple=e dbo:birthPlace San_Francisco", "class=HR_BaseballPlayer" ],
+    "5" : [ "pair=\"Seattle Mariners\"@en", "Kulczynski=0.966", "triple=e dbp:finalteam \"Seattle Mariners\"@en", "class=HR_BaseballPlayer" ],
+    "6" : [ "pair=\"Washington Senators\"@en", "Kulczynski=0.965", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=HR_BaseballPlayer" ],
+    "7" : [ "pair=\"Kansas City Royals\"@en", "Kulczynski=0.961", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "manager",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Managerial record\"@en", "Kulczynski=0.978", "triple=e dbp:stat4label \"Managerial record\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"Winning %\"@en", "Kulczynski=0.977", "triple=e dbp:stat5label \"Winning %\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "new",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=New_York_Yankees", "Kulczynski=0.959", "triple=e dbp:debutteam New_York_Yankees", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "new york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=New_York_Yankees", "Kulczynski=0.959", "triple=e dbp:debutteam New_York_Yankees", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "philadelphia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"* Philadelphia Phillies\"@en", "Kulczynski=0.992", "triple=e dbp:teams \"* Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Philadelphia_Phillies", "Kulczynski=0.989", "triple=e dbp:debutteam Philadelphia_Phillies", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=\"*Philadelphia Phillies\"@en", "Kulczynski=0.982", "triple=e dbp:teams \"*Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=\"*Philadelphia Athletics\"@en", "Kulczynski=0.967", "triple=e dbp:teams \"*Philadelphia Athletics\"@en", "class=HR_BaseballPlayer" ],
+    "4" : [ "pair=Philadelphia_Athletics", "Kulczynski=0.961", "triple=e dbo:debutTeam Philadelphia_Athletics", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "philadelphia athletics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Philadelphia Athletics\"@en", "Kulczynski=0.967", "triple=e dbp:teams \"*Philadelphia Athletics\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "philadelphia phillies",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"* Philadelphia Phillies\"@en", "Kulczynski=0.992", "triple=e dbp:teams \"* Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Philadelphia_Phillies", "Kulczynski=0.983", "triple=e dbp:debutteam Philadelphia_Phillies", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=\"*Philadelphia Phillies\"@en", "Kulczynski=0.978", "triple=e dbp:teams \"*Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "phillies",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"* Philadelphia Phillies\"@en", "Kulczynski=0.992", "triple=e dbp:teams \"* Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Philadelphia_Phillies", "Kulczynski=0.983", "triple=e dbp:debutteam Philadelphia_Phillies", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=\"*Philadelphia Phillies\"@en", "Kulczynski=0.978", "triple=e dbp:teams \"*Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "pirates",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Pittsburgh_Pirates", "Kulczynski=0.991", "triple=e dbp:finalteam Pittsburgh_Pirates", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"*Pittsburgh Pirates\"@en", "Kulczynski=0.971", "triple=e dbp:teams \"*Pittsburgh Pirates\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "pitcher",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Earned_run_average", "Kulczynski=0.992", "triple=e dbp:stat22label Earned_run_average", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Winâloss_record_(pitching", "Kulczynski=0.992", "triple=e dbp:stat21label Winâloss_record_(pitching", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=List_of_Major_League_Baseball_no-hitters", "Kulczynski=0.985", "triple=e dbp:title List_of_Major_League_Baseball_no-hitters", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=\"Strikeouts\"@en", "Kulczynski=0.985", "triple=e dbp:stat23label \"Strikeouts\"@en", "class=HR_BaseballPlayer" ],
+    "4" : [ "pair=Save_(baseball", "Kulczynski=0.984", "triple=e dbp:stat4label Save_(baseball", "class=HR_BaseballPlayer" ],
+    "5" : [ "pair=Innings_pitched", "Kulczynski=0.981", "triple=e dbp:stat2label Innings_pitched", "class=HR_BaseballPlayer" ],
+    "6" : [ "pair=\"Earned run average\"@en", "Kulczynski=0.98", "triple=e dbp:stat22label \"Earned run average\"@en", "class=HR_BaseballPlayer" ],
+    "7" : [ "pair=\"Winâloss record\"@en", "Kulczynski=0.976", "triple=e dbp:stat21label \"Winâloss record\"@en", "class=HR_BaseballPlayer" ],
+    "8" : [ "pair=Relief_pitcher", "Kulczynski=0.962", "triple=e dbo:position Relief_pitcher", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "pittsburgh",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Pittsburgh_Pirates", "Kulczynski=0.991", "triple=e dbp:finalteam Pittsburgh_Pirates", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"*Pittsburgh Pirates\"@en", "Kulczynski=0.971", "triple=e dbp:teams \"*Pittsburgh Pirates\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "pittsburgh pirates",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Pittsburgh_Pirates", "Kulczynski=0.991", "triple=e dbp:finalteam Pittsburgh_Pirates", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"*Pittsburgh Pirates\"@en", "Kulczynski=0.965", "triple=e dbp:teams \"*Pittsburgh Pirates\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "professional baseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "Kulczynski=0.993", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"Free agent\"@en", "Kulczynski=0.984", "triple=e dbp:team \"Free agent\"@en", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=Free_agent", "Kulczynski=0.979", "triple=e dbo:team Free_agent", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=\"KBO\"@en", "Kulczynski=0.974", "triple=e dbp:debut2league \"KBO\"@en", "class=HR_BaseballPlayer" ],
+    "4" : [ "pair=Winâloss_record_(pitching", "Kulczynski=0.96", "triple=e dbp:stat21label Winâloss_record_(pitching", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "professional baseball league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "Kulczynski=0.993", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "red sox",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"* Boston Red Sox\"@en", "Kulczynski=0.984", "triple=e dbp:teams \"* Boston Red Sox\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "reds",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Cincinnati Reds\"@en", "Kulczynski=0.966", "triple=e dbp:teams \"*Cincinnati Reds\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "senators",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Washington Senators\"@en", "Kulczynski=0.987", "triple=e dbp:teams \"*Washington Senators\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=History_of_the_Washington_Senators_(1901â1960", "Kulczynski=0.974", "triple=e dbp:debutteam History_of_the_Washington_Senators_(1901â1960", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "st louis",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*St. Louis Browns\"@en", "Kulczynski=0.981", "triple=e dbp:teams \"*St. Louis Browns\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=History_of_the_St._Louis_Browns", "Kulczynski=0.965", "triple=e dbp:debutteam History_of_the_St._Louis_Browns", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=St._Louis_Cardinals", "Kulczynski=0.962", "triple=e dbp:finalteam St._Louis_Cardinals", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "st louis browns",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*St. Louis Browns\"@en", "Kulczynski=0.971", "triple=e dbp:teams \"*St. Louis Browns\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "tigers",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Detroit Tigers\"@en", "Kulczynski=0.98", "triple=e dbp:teams \"*Detroit Tigers\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Detroit_Tigers", "Kulczynski=0.966", "triple=e dbp:debutteam Detroit_Tigers", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "washington",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Washington Senators\"@en", "Kulczynski=0.981", "triple=e dbp:teams \"*Washington Senators\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=History_of_the_Washington_Senators_(1901â1960", "Kulczynski=0.974", "triple=e dbp:debutteam History_of_the_Washington_Senators_(1901â1960", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "washington senators",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Washington Senators\"@en", "Kulczynski=0.981", "triple=e dbp:teams \"*Washington Senators\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=History_of_the_Washington_Senators_(1901â1960", "Kulczynski=0.974", "triple=e dbp:debutteam History_of_the_Washington_Senators_(1901â1960", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "white",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Chicago White Sox\"@en", "Kulczynski=0.971", "triple=e dbp:teams \"*Chicago White Sox\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "white sox",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Chicago White Sox\"@en", "Kulczynski=0.971", "triple=e dbp:teams \"*Chicago White Sox\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=New_York_Yankees", "Kulczynski=0.959", "triple=e dbp:debutteam New_York_Yankees", "class=HR_BaseballPlayer" ]
+  }
+} ]

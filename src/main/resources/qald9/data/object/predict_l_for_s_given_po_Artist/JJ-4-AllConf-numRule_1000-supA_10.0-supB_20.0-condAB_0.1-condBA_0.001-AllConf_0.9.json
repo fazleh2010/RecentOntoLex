@@ -1,0 +1,49 @@
+[ {
+  "id" : 5,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"French\"@en", "AllConf=0.927", "triple=e dbp:nationality \"French\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=France", "AllConf=0.913", "triple=e dbo:country France", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "irish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Irish\"@en", "AllConf=0.919", "triple=e dbp:nationality \"Irish\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Italian\"@en", "AllConf=0.948", "triple=e dbp:nationality \"Italian\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=Italy", "AllConf=0.906", "triple=e dbo:nationality Italy", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Japanese\"@en", "AllConf=0.902", "triple=e dbp:nationality \"Japanese\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=\"ja\"@en", "AllConf=0.948", "triple=e dbp:nativeNameLang \"ja\"@en", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "norwegian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Norway", "AllConf=0.93", "triple=e dbo:hometown Norway", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Saint_Petersburg", "AllConf=0.974", "triple=e dbo:deathPlace Saint_Petersburg", "class=HR_Artist" ],
+    "1" : [ "pair=Imperial_Academy_of_Arts", "AllConf=0.963", "triple=e dbp:training Imperial_Academy_of_Arts", "class=HR_Artist" ],
+    "2" : [ "pair=Russian_Empire", "AllConf=0.943", "triple=e dbp:residence Russian_Empire", "class=HR_Artist" ],
+    "3" : [ "pair=\"Russian\"@en", "AllConf=0.909", "triple=e dbp:nationality \"Russian\"@en", "class=HR_Artist" ]
+  }
+} ]

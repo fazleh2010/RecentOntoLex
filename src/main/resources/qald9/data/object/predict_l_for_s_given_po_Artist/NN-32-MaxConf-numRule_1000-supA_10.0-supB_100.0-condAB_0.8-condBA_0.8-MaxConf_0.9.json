@@ -1,0 +1,25 @@
+[ {
+  "id" : 1,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=New_York_City", "MaxConf=1.0", "triple=e dbo:birthPlace New_York_City", "class=HR_Artist" ],
+    "1" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Installation_art", "MaxConf=1.0", "triple=e dbp:field Installation_art", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "painter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Orientalism", "MaxConf=1.0", "triple=e dbo:movement Orientalism", "class=HR_Artist" ],
+    "1" : [ "pair=Baroque", "MaxConf=1.0", "triple=e dbo:movement Baroque", "class=HR_Artist" ],
+    "2" : [ "pair=Saint_Petersburg", "MaxConf=1.0", "triple=e dbp:deathPlace Saint_Petersburg", "class=HR_Artist" ]
+  }
+} ]

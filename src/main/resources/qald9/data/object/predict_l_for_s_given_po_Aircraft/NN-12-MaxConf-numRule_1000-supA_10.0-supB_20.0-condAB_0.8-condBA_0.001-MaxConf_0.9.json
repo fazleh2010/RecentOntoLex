@@ -1,0 +1,92 @@
+[ {
+  "id" : 1,
+  "pattern" : "aircraft",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Homebuilt_aircraft", "MaxConf=1.0", "triple=e dbo:manufacturer Homebuilt_aircraft", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "avro",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Avro", "MaxConf=1.0", "triple=e dbo:manufacturer Avro", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "boeing",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boeing", "MaxConf=1.0", "triple=e dbo:manufacturer Boeing", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "bristol",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bristol_Aeroplane_Company", "MaxConf=1.0", "triple=e dbo:manufacturer Bristol_Aeroplane_Company", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "caproni",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Caproni", "MaxConf=1.0", "triple=e dbo:manufacturer Caproni", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "caudron",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Caudron", "MaxConf=1.0", "triple=e dbo:manufacturer Caudron", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "cessna",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Cessna", "MaxConf=1.0", "triple=e dbo:manufacturer Cessna", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "curtiss",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Curtiss_Aeroplane_and_Motor_Company", "MaxConf=1.0", "triple=e dbo:manufacturer Curtiss_Aeroplane_and_Motor_Company", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "douglas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Douglas_Aircraft_Company", "MaxConf=1.0", "triple=e dbo:manufacturer Douglas_Aircraft_Company", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "fokker",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fokker", "MaxConf=1.0", "triple=e dbo:manufacturer Fokker", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "heinkel",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Heinkel", "MaxConf=1.0", "triple=e dbo:manufacturer Heinkel", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "lockheed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Lockheed_Corporation", "MaxConf=1.0", "triple=e dbo:manufacturer Lockheed_Corporation", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "tupolev",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Tupolev", "MaxConf=1.0", "triple=e dbo:manufacturer Tupolev", "class=HR_Aircraft" ]
+  }
+} ]

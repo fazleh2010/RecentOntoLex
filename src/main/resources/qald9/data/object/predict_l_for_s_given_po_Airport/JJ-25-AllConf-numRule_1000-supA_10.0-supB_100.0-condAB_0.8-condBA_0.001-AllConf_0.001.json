@@ -1,0 +1,44 @@
+[ {
+  "id" : 10,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Location in British Columbia\"@en", "AllConf=1.0", "triple=e dbp:pushpinMapCaption \"Location in British Columbia\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=//dbpedia.org/datatype/second>", "AllConf=0.974", "triple=e dbp:utcs //dbpedia.org/datatype/second>", "class=HR_Airport" ],
+    "2" : [ "pair=\"PDT\"@en", "AllConf=0.974", "triple=e dbp:summer \"PDT\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=Pacific_Time_Zone", "AllConf=0.968", "triple=e dbp:timezone Pacific_Time_Zone", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "democratic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Democratic Republic of the Congo\"@en", "AllConf=1.0", "triple=e dbp:pushpinMap \"Democratic Republic of the Congo\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Oregon", "AllConf=0.982", "triple=e dbo:location Oregon", "class=HR_Airport" ],
+    "1" : [ "pair=\"CDT\"@en", "AllConf=0.974", "triple=e dbp:summer \"CDT\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"n/a\"@en", "AllConf=0.974", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=\"Canada Alberta\"@en", "AllConf=0.973", "triple=e dbp:pushpinMap \"Canada Alberta\"@en", "class=HR_Airport" ],
+    "4" : [ "pair= Water Aerodrome Supplement\"@en", "AllConf=0.972", "triple=e dbp:footnotes  Water Aerodrome Supplement\"@en", "class=HR_Airport" ],
+    "5" : [ "pair=\"Location in Alberta\"@en", "AllConf=0.972", "triple=e dbp:pushpinMapCaption \"Location in Alberta\"@en", "class=HR_Airport" ],
+    "6" : [ "pair=//dbpedia.org/datatype/second>", "AllConf=0.968", "triple=e dbp:utcs //dbpedia.org/datatype/second>", "class=HR_Airport" ],
+    "7" : [ "pair=\"Location in British Columbia\"@en", "AllConf=0.967", "triple=e dbp:pushpinMapCaption \"Location in British Columbia\"@en", "class=HR_Airport" ],
+    "8" : [ "pair=Central_Time_Zone", "AllConf=0.966", "triple=e dbp:timezone Central_Time_Zone", "class=HR_Airport" ],
+    "9" : [ "pair=\"n/a\"", "AllConf=0.964", "triple=e dbo:runwayDesignation \"n/a\"", "class=HR_Airport" ],
+    "10" : [ "pair=Pacific_Time_Zone", "AllConf=0.962", "triple=e dbp:timezone Pacific_Time_Zone", "class=HR_Airport" ],
+    "11" : [ "pair=\"PDT\"@en", "AllConf=0.961", "triple=e dbp:summer \"PDT\"@en", "class=HR_Airport" ],
+    "12" : [ "pair=\"Location in Quebec\"@en", "AllConf=0.957", "triple=e dbp:pushpinMapCaption \"Location in Quebec\"@en", "class=HR_Airport" ],
+    "13" : [ "pair=\"Canada Saskatchewan#Canada\"@en", "AllConf=0.955", "triple=e dbp:pushpinMap \"Canada Saskatchewan#Canada\"@en", "class=HR_Airport" ],
+    "14" : [ "pair=\"Location in Saskatchewan\"@en", "AllConf=0.954", "triple=e dbp:pushpinMapCaption \"Location in Saskatchewan\"@en", "class=HR_Airport" ],
+    "15" : [ "pair=\"Turf\"@en", "AllConf=0.953", "triple=e dbp:r1Surface \"Turf\"@en", "class=HR_Airport" ],
+    "16" : [ "pair=\"MDT\"@en", "AllConf=0.951", "triple=e dbp:summer \"MDT\"@en", "class=HR_Airport" ],
+    "17" : [ "pair= Canada Flight Supplement\"@en", "AllConf=0.946", "triple=e dbp:footnotes  Canada Flight Supplement\"@en", "class=HR_Airport" ],
+    "18" : [ "pair=Mountain_Time_Zone", "AllConf=0.94", "triple=e dbp:timezone Mountain_Time_Zone", "class=HR_Airport" ],
+    "19" : [ "pair=\"Water\"@en", "AllConf=0.94", "triple=e dbp:r1Surface \"Water\"@en", "class=HR_Airport" ]
+  }
+} ]

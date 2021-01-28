@@ -1,0 +1,60 @@
+[ {
+  "id" : 1,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.995", "triple=e dbo:draftYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_AmericanFootballPlayer" ],
+    "1" : [ "pair=\"All values from NFL Combine\"@en", "Kulczynski=0.993", "triple=e dbp:note \"All values from NFL Combine\"@en", "class=HR_AmericanFootballPlayer" ],
+    "2" : [ "pair=\"coach\"@en", "Kulczynski=0.992", "triple=e dbp:type \"coach\"@en", "class=HR_AmericanFootballPlayer" ],
+    "3" : [ "pair=\"no\"@en", "Kulczynski=0.992", "triple=e dbp:bowls \"no\"@en", "class=HR_AmericanFootballPlayer" ],
+    "4" : [ "pair=Michigan_Wolverines_football", "Kulczynski=0.99", "triple=e dbp:college Michigan_Wolverines_football", "class=HR_AmericanFootballPlayer" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "american football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=0.995", "triple=e dbo:draftYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_AmericanFootballPlayer" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"International\"@en", "Kulczynski=1.0", "triple=e dbp:cflstatus \"International\"@en", "class=HR_AmericanFootballPlayer" ],
+    "1" : [ "pair=\"coach\"@en", "Kulczynski=1.0", "triple=e dbp:type \"coach\"@en", "class=HR_AmericanFootballPlayer" ],
+    "2" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Kulczynski=1.0", "triple=e dbo:draftYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_AmericanFootballPlayer" ],
+    "3" : [ "pair=\"no\"@en", "Kulczynski=1.0", "triple=e dbp:bowls \"no\"@en", "class=HR_AmericanFootballPlayer" ],
+    "4" : [ "pair=\"Graduate\"@en", "Kulczynski=1.0", "triple=e dbp:class \"Graduate\"@en", "class=HR_AmericanFootballPlayer" ],
+    "5" : [ "pair=Michigan_Wolverines_football", "Kulczynski=1.0", "triple=e dbp:college Michigan_Wolverines_football", "class=HR_AmericanFootballPlayer" ],
+    "6" : [ "pair=Florida_Gators_football", "Kulczynski=1.0", "triple=e dbp:college Florida_Gators_football", "class=HR_AmericanFootballPlayer" ],
+    "7" : [ "pair=\"All values from NFL Combine\"@en", "Kulczynski=0.999", "triple=e dbp:note \"All values from NFL Combine\"@en", "class=HR_AmericanFootballPlayer" ],
+    "8" : [ "pair=\"Free agent\"@en", "Kulczynski=0.997", "triple=e dbp:currentTeam \"Free agent\"@en", "class=HR_AmericanFootballPlayer" ],
+    "9" : [ "pair=Washington_Redskins", "Kulczynski=0.996", "triple=e dbo:team Washington_Redskins", "class=HR_AmericanFootballPlayer" ],
+    "10" : [ "pair=Miami_Hurricanes_football", "Kulczynski=0.995", "triple=e dbp:college Miami_Hurricanes_football", "class=HR_AmericanFootballPlayer" ],
+    "11" : [ "pair=\"Receiving touchdowns\"@en", "Kulczynski=0.995", "triple=e dbp:statlabel \"Receiving touchdowns\"@en", "class=HR_AmericanFootballPlayer" ],
+    "12" : [ "pair=\"--\"@en", "Kulczynski=0.995", "triple=e dbp:number \"--\"@en", "class=HR_AmericanFootballPlayer" ],
+    "13" : [ "pair=Baltimore_Ravens", "Kulczynski=0.994", "triple=e dbo:formerTeam Baltimore_Ravens", "class=HR_AmericanFootballPlayer" ],
+    "14" : [ "pair=Tennessee_Titans", "Kulczynski=0.993", "triple=e dbo:formerTeam Tennessee_Titans", "class=HR_AmericanFootballPlayer" ],
+    "15" : [ "pair=\"Rushing touchdowns\"@en", "Kulczynski=0.993", "triple=e dbp:statlabel \"Rushing touchdowns\"@en", "class=HR_AmericanFootballPlayer" ],
+    "16" : [ "pair=Fumble", "Kulczynski=0.993", "triple=e dbp:statlabel Fumble", "class=HR_AmericanFootballPlayer" ],
+    "17" : [ "pair=Saskatchewan_Roughriders", "Kulczynski=0.993", "triple=e dbo:formerTeam Saskatchewan_Roughriders", "class=HR_AmericanFootballPlayer" ],
+    "18" : [ "pair=\"Forced fumbles\"@en", "Kulczynski=0.992", "triple=e dbp:statlabel \"Forced fumbles\"@en", "class=HR_AmericanFootballPlayer" ],
+    "19" : [ "pair=Arizona_Cardinals", "Kulczynski=0.992", "triple=e dbo:formerTeam Arizona_Cardinals", "class=HR_AmericanFootballPlayer" ],
+    "20" : [ "pair=Houston_Texans", "Kulczynski=0.992", "triple=e dbo:formerTeam Houston_Texans", "class=HR_AmericanFootballPlayer" ],
+    "21" : [ "pair=Pass_deflected", "Kulczynski=0.992", "triple=e dbp:statlabel Pass_deflected", "class=HR_AmericanFootballPlayer" ],
+    "22" : [ "pair=Carolina_Panthers", "Kulczynski=0.992", "triple=e dbo:formerTeam Carolina_Panthers", "class=HR_AmericanFootballPlayer" ],
+    "23" : [ "pair=Florida_State_Seminoles_football", "Kulczynski=0.991", "triple=e dbp:college Florida_State_Seminoles_football", "class=HR_AmericanFootballPlayer" ],
+    "24" : [ "pair=\"Tackles\"@en", "Kulczynski=0.991", "triple=e dbp:statlabel \"Tackles\"@en", "class=HR_AmericanFootballPlayer" ],
+    "25" : [ "pair=\"yes\"@en", "Kulczynski=0.991", "triple=e dbp:pastteamsnote \"yes\"@en", "class=HR_AmericanFootballPlayer" ],
+    "26" : [ "pair=Carry_(gridiron_football", "Kulczynski=0.991", "triple=e dbp:statlabel Carry_(gridiron_football", "class=HR_AmericanFootballPlayer" ],
+    "27" : [ "pair=San_Diego_Chargers", "Kulczynski=0.99", "triple=e dbo:formerTeam San_Diego_Chargers", "class=HR_AmericanFootballPlayer" ],
+    "28" : [ "pair=\"1\"", "Kulczynski=0.99", "triple=e dbo:draftRound \"1\"", "class=HR_AmericanFootballPlayer" ],
+    "29" : [ "pair=Safety_(American_football_position", "Kulczynski=0.99", "triple=e dbo:position Safety_(American_football_position", "class=HR_AmericanFootballPlayer" ],
+    "30" : [ "pair=\"InternetArchiveBot\"@en", "Kulczynski=0.99", "triple=e dbp:bot \"InternetArchiveBot\"@en", "class=HR_AmericanFootballPlayer" ],
+    "31" : [ "pair=Tackle_(football_move", "Kulczynski=0.99", "triple=e dbp:statlabel Tackle_(football_move", "class=HR_AmericanFootballPlayer" ],
+    "32" : [ "pair=Oakland_Raiders", "Kulczynski=0.99", "triple=e dbo:formerTeam Oakland_Raiders", "class=HR_AmericanFootballPlayer" ],
+    "33" : [ "pair=\"NFL\"@en", "Kulczynski=0.99", "triple=e dbp:statleague \"NFL\"@en", "class=HR_AmericanFootballPlayer" ],
+    "34" : [ "pair=Tennessee_Volunteers_football", "Kulczynski=0.99", "triple=e dbp:college Tennessee_Volunteers_football", "class=HR_AmericanFootballPlayer" ]
+  }
+} ]

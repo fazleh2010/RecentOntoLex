@@ -1,0 +1,53 @@
+[ {
+  "id" : 27,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=2017_AFL_season", "MaxConf=1.0", "triple=e dbp:debutdate 2017_AFL_season", "class=HR_AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=\"Round 1", "MaxConf=1.0", "triple=e dbp:debutdate \"Round 1", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "drafted",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Australian_rules_football_positions", "MaxConf=1.0", "triple=e dbp:position Australian_rules_football_positions", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "made",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Australian_rules_football_positions", "MaxConf=1.0", "triple=e dbp:position Australian_rules_football_positions", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "opening",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Australian_rules_football_positions", "MaxConf=1.0", "triple=e dbp:position Australian_rules_football_positions", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "played",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Round 1", "MaxConf=1.0", "triple=e dbp:debutdate \"Round 1", "class=HR_AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=Australian_rules_football_positions", "MaxConf=1.0", "triple=e dbp:position Australian_rules_football_positions", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "played for\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Australian_rules_football_positions", "MaxConf=1.0", "triple=e dbp:position Australian_rules_football_positions", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "playing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Round 1", "MaxConf=1.0", "triple=e dbp:debutdate \"Round 1", "class=HR_AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=Australian_rules_football_positions", "MaxConf=1.0", "triple=e dbp:position Australian_rules_football_positions", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+} ]

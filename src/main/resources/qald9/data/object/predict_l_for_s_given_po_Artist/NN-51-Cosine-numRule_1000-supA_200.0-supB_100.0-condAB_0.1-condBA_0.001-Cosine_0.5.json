@@ -1,0 +1,110 @@
+[ {
+  "id" : 1,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "Cosine=0.91", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=United_States", "Cosine=0.876", "triple=e dbo:nationality United_States", "class=HR_Artist" ],
+    "2" : [ "pair=\"#6495ED\"@en", "Cosine=0.579", "triple=e dbp:bgcolour \"#6495ED\"@en", "class=HR_Artist" ],
+    "3" : [ "pair=Country_music", "Cosine=0.853", "triple=e dbp:genre Country_music", "class=HR_MusicalArtist" ],
+    "4" : [ "pair=Rhythm_and_blues", "Cosine=0.821", "triple=e dbp:genre Rhythm_and_blues", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United_States", "Cosine=0.855", "triple=e dbo:country United_States", "class=HR_Artist" ],
+    "1" : [ "pair=\"American\"@en", "Cosine=0.716", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ],
+    "2" : [ "pair=\"British\"@en", "Cosine=0.7", "triple=e dbp:nationality \"British\"@en", "class=HR_Artist" ],
+    "3" : [ "pair=Sculpture", "Cosine=0.684", "triple=e dbo:field Sculpture", "class=HR_Artist" ],
+    "4" : [ "pair=\"#6495ED\"@en", "Cosine=0.65", "triple=e dbp:bgcolour \"#6495ED\"@en", "class=HR_Artist" ],
+    "5" : [ "pair=Painting", "Cosine=0.613", "triple=e dbo:field Painting", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "composer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Composer", "Cosine=0.887", "triple=e dbo:occupation Composer", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "country",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Country_music", "Cosine=0.77", "triple=e dbp:genre Country_music", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "guitarist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Guitar\"@en", "Cosine=0.796", "triple=e dbp:instrument \"Guitar\"@en", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "jazz",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Jazz", "Cosine=0.788", "triple=e dbp:genre Jazz", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "music",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Country_music", "Cosine=0.758", "triple=e dbp:genre Country_music", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "painter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Painting", "Cosine=0.839", "triple=e dbp:field Painting", "class=HR_Artist" ],
+    "1" : [ "pair=\"Painting\"@en", "Cosine=0.801", "triple=e dbp:field \"Painting\"@en", "class=HR_Artist" ],
+    "2" : [ "pair=\"#6495ED\"@en", "Cosine=0.631", "triple=e dbp:bgcolour \"#6495ED\"@en", "class=HR_Artist" ],
+    "3" : [ "pair=United_States", "Cosine=0.579", "triple=e dbo:nationality United_States", "class=HR_Artist" ],
+    "4" : [ "pair=\"American\"@en", "Cosine=0.551", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "producer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Record_producer", "Cosine=0.877", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "sculptor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sculpture", "Cosine=0.798", "triple=e dbp:field Sculpture", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "singer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Singer\"@en", "Cosine=0.91", "triple=e dbp:occupation \"Singer\"@en", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Singing", "Cosine=0.881", "triple=e dbo:occupation Singing", "class=HR_MusicalArtist" ],
+    "2" : [ "pair=\"Vocals\"@en", "Cosine=0.799", "triple=e dbp:instrument \"Vocals\"@en", "class=HR_MusicalArtist" ],
+    "3" : [ "pair=\"songwriter\"@en", "Cosine=0.762", "triple=e dbp:occupation \"songwriter\"@en", "class=HR_MusicalArtist" ],
+    "4" : [ "pair=Soul_music", "Cosine=0.758", "triple=e dbo:genre Soul_music", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "songwriter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"songwriter\"@en", "Cosine=0.826", "triple=e dbp:occupation \"songwriter\"@en", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Songwriter", "Cosine=0.757", "triple=e dbo:occupation Songwriter", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "work",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "Cosine=0.515", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ]
+  }
+} ]

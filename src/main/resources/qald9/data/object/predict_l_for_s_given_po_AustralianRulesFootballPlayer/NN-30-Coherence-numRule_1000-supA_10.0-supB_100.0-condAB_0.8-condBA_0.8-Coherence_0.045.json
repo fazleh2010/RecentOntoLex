@@ -1,0 +1,50 @@
+[ {
+  "id" : 1,
+  "pattern" : "afl",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Round 1", "Coherence=0.5", "triple=e dbp:debutdate \"Round 1", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "afl\u001Cwomen",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Round 1", "Coherence=0.5", "triple=e dbp:debutdate \"Round 1", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "afl women",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Round 1", "Coherence=0.5", "triple=e dbp:debutdate \"Round 1", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "australian rules",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Heidelberg", "Coherence=0.5", "triple=e dbp:deathPlace Heidelberg", "class=HR_AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=\"Geelong", "Coherence=0.5", "triple=e dbp:birthPlace \"Geelong", "class=HR_AustralianRulesFootballPlayer" ],
+    "2" : [ "pair=//dbpedia.org/datatype/kilogram>", "Coherence=0.5", "triple=e dbp:weight //dbpedia.org/datatype/kilogram>", "class=HR_AustralianRulesFootballPlayer" ],
+    "3" : [ "pair=Geelong", "Coherence=0.5", "triple=e dbo:birthPlace Geelong", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "rules",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Heidelberg", "Coherence=0.5", "triple=e dbp:deathPlace Heidelberg", "class=HR_AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=\"Geelong", "Coherence=0.5", "triple=e dbp:birthPlace \"Geelong", "class=HR_AustralianRulesFootballPlayer" ],
+    "2" : [ "pair=//dbpedia.org/datatype/kilogram>", "Coherence=0.5", "triple=e dbp:weight //dbpedia.org/datatype/kilogram>", "class=HR_AustralianRulesFootballPlayer" ],
+    "3" : [ "pair=Geelong", "Coherence=0.5", "triple=e dbo:birthPlace Geelong", "class=HR_AustralianRulesFootballPlayer" ],
+    "4" : [ "pair=//dbpedia.org/datatype/centimetre>", "Coherence=0.5", "triple=e dbp:height //dbpedia.org/datatype/centimetre>", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "women",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Round 1", "Coherence=0.5", "triple=e dbp:debutdate \"Round 1", "class=HR_AustralianRulesFootballPlayer" ]
+  }
+} ]

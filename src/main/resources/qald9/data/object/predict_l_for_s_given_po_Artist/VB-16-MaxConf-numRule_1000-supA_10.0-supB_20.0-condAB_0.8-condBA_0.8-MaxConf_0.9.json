@@ -1,0 +1,20 @@
+[ {
+  "id" : 4,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Virgin_Records", "MaxConf=1.0", "triple=e dbo:recordLabel Virgin_Records", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Universal_Music_Group", "MaxConf=1.0", "triple=e dbo:recordLabel Universal_Music_Group", "class=HR_MusicalArtist" ],
+    "2" : [ "pair=Sony_Music", "MaxConf=1.0", "triple=e dbo:recordLabel Sony_Music", "class=HR_MusicalArtist" ],
+    "3" : [ "pair=Norway", "MaxConf=1.0", "triple=e dbp:origin Norway", "class=HR_MusicalArtist" ],
+    "4" : [ "pair=\"ja\"@en", "MaxConf=1.0", "triple=e dbp:nativeNameLang \"ja\"@en", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Rapping", "MaxConf=1.0", "triple=e dbo:occupation Rapping", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Rapper", "MaxConf=1.0", "triple=e dbo:occupation Rapper", "class=HR_MusicalArtist" ]
+  }
+} ]

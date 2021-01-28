@@ -1,0 +1,134 @@
+[ {
+  "id" : 1,
+  "pattern" : "area",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"lga\"@en", "MaxConf=1.0", "triple=e dbp:type \"lga\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "argentina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Postal Code\"@en", "MaxConf=1.0", "triple=e dbp:postalCodeType \"Postal Code\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "australia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"lga\"@en", "MaxConf=1.0", "triple=e dbp:type \"lga\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "china",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=List_of_postal_codes_in_China", "MaxConf=1.0", "triple=e dbp:postalCodeType List_of_postal_codes_in_China", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"auto\"@en", "MaxConf=1.0", "triple=e dbp:populationDensitySqMi \"auto\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "county seat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"auto\"@en", "MaxConf=1.0", "triple=e dbp:populationDensitySqMi \"auto\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "government",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"lga\"@en", "MaxConf=1.0", "triple=e dbp:type \"lga\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "government area",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"lga\"@en", "MaxConf=1.0", "triple=e dbp:type \"lga\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "local government",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"lga\"@en", "MaxConf=1.0", "triple=e dbp:type \"lga\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "local government\u001Carea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"lga\"@en", "MaxConf=1.0", "triple=e dbp:type \"lga\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "local government area",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"lga\"@en", "MaxConf=1.0", "triple=e dbp:type \"lga\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "pinyin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=List_of_postal_codes_in_China", "MaxConf=1.0", "triple=e dbp:postalCodeType List_of_postal_codes_in_China", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "population",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"auto\"@en", "MaxConf=1.0", "triple=e dbp:populationDensitySqMi \"auto\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "seat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"auto\"@en", "MaxConf=1.0", "triple=e dbp:populationDensitySqMi \"auto\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "state",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"auto\"@en", "MaxConf=1.0", "triple=e dbp:populationDensitySqMi \"auto\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "the\u001C2010",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"auto\"@en", "MaxConf=1.0", "triple=e dbp:populationDensitySqMi \"auto\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "u.s",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"auto\"@en", "MaxConf=1.0", "triple=e dbp:populationDensitySqMi \"auto\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "u.s state",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"auto\"@en", "MaxConf=1.0", "triple=e dbp:populationDensitySqMi \"auto\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "u.s state\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"auto\"@en", "MaxConf=1.0", "triple=e dbp:populationDensitySqMi \"auto\"@en", "class=HR_AdministrativeRegion" ]
+  }
+} ]

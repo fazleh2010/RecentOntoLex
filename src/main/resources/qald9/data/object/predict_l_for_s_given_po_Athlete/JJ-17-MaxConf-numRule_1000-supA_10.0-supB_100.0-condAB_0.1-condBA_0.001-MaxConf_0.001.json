@@ -1,0 +1,50 @@
+[ {
+  "id" : 40,
+  "pattern" : "former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Shooting_sports", "MaxConf=1.0", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "heavyweight",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Olympic_weightlifting", "MaxConf=1.0", "triple=e dbp:sport Olympic_weightlifting", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "international",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Olympic_weightlifting", "MaxConf=1.0", "triple=e dbp:sport Olympic_weightlifting", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Italy", "MaxConf=1.0", "triple=e dbo:birthPlace Italy", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "middle-distance",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Middle-distance running\"@en", "MaxConf=1.0", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "middleweight",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Boxing", "MaxConf=1.0", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 94,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Soviet_Union", "MaxConf=1.0", "triple=e dbo:birthPlace Soviet_Union", "class=HR_Athlete" ]
+  }
+} ]

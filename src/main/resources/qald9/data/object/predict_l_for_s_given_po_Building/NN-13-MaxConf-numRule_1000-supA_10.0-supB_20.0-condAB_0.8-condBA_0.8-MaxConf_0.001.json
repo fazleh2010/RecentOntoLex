@@ -1,0 +1,263 @@
+[ {
+  "id" : 3,
+  "pattern" : "chapel",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Chapel", "MaxConf=1.0", "triple=e dbp:status Chapel", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "church",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Parish_church", "MaxConf=1.0", "triple=e dbp:status Parish_church", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=Chapel", "MaxConf=1.0", "triple=e dbp:status Chapel", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "county new",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "county new jersey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "county new jersey\u001Cunited",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "county new jersey\u001Cunited\u001Cstates",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "historic places",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "jersey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "jersey united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "jersey united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "listed the\u001Cnational",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "listed the\u001Cnational\u001Cregister",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "national",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "national\u001Cregister",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "national\u001Cregister\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "national register",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "national register\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "national register\u001Cof\u001Chistoric",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "national register of\u001Chistoric",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "national register of\u001Chistoric\u001Cplaces",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "new jersey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "new jersey united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "new jersey united\u001Cstates",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "oregon",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "parish",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Parish_church", "MaxConf=1.0", "triple=e dbp:status Parish_church", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "places",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "portland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "portland oregon",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "register",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "register historic",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "register historic\u001Cplaces",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"Portland Historic Landmark\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"Portland Historic Landmark\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "virginia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Virginia Landmarks Register\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ]
+  }
+} ]

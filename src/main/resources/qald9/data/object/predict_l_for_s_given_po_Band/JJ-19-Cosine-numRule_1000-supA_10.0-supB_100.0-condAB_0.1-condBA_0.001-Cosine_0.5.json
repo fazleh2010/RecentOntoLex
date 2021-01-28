@@ -1,0 +1,30 @@
+[ {
+  "id" : 4,
+  "pattern" : "black",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Black_metal", "Cosine=0.816", "triple=e dbo:genre Black_metal", "class=HR_Band" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Ontario", "Cosine=0.91", "triple=e dbo:hometown Ontario", "class=HR_Band" ],
+    "1" : [ "pair=Canada", "Cosine=0.834", "triple=e dbo:hometown Canada", "class=HR_Band" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Germany", "Cosine=0.839", "triple=e dbp:origin Germany", "class=HR_Band" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Japan", "Cosine=0.924", "triple=e dbo:hometown Japan", "class=HR_Band" ]
+  }
+} ]

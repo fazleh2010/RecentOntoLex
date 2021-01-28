@@ -1,0 +1,39 @@
+[ {
+  "id" : 2,
+  "pattern" : "amateur",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"AeroCrafter\"@en", "AllConf=0.972", "triple=e dbp:ref \"AeroCrafter\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=Amateur-built_aircraft", "AllConf=0.938", "triple=e dbo:type Amateur-built_aircraft", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=China", "AllConf=0.977", "triple=e dbp:primaryUser China", "class=HR_Aircraft" ],
+    "1" : [ "pair=UAV", "AllConf=0.943", "triple=e dbo:type UAV", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "high-wing",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Hang_gliding", "AllConf=0.984", "triple=e dbp:type Hang_gliding", "class=HR_Aircraft" ],
+    "1" : [ "pair=Hang_glider", "AllConf=0.983", "triple=e dbo:type Hang_glider", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "short",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Short_Brothers", "AllConf=0.962", "triple=e dbp:manufacturer Short_Brothers", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "soviet",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Soviet_Air_Forces", "AllConf=0.903", "triple=e dbp:primaryUser Soviet_Air_Forces", "class=HR_Aircraft" ]
+  }
+} ]

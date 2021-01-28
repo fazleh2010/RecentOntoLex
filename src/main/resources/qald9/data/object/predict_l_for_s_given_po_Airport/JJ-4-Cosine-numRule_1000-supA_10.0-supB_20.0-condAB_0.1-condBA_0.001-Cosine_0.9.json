@@ -1,0 +1,61 @@
+[ {
+  "id" : 11,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Canada British Columbia#Canada\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Canada British Columbia#Canada\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Canada British Columbia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Canada British Columbia\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Location in British Columbia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location in British Columbia\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=//dbpedia.org/datatype/second>", "Cosine=0.987", "triple=e dbp:utcs //dbpedia.org/datatype/second>", "class=HR_Airport" ],
+    "4" : [ "pair=\"PDT\"@en", "Cosine=0.987", "triple=e dbp:summer \"PDT\"@en", "class=HR_Airport" ],
+    "5" : [ "pair=Pacific_Time_Zone", "Cosine=0.984", "triple=e dbp:timezone Pacific_Time_Zone", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "democratic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Democratic Republic of the Congo\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Democratic Republic of the Congo\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of the airport in\"@en", "Cosine=0.993", "triple=e dbp:pushpinMapCaption \"Location of the airport in\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Canada Manitoba\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Canada Manitoba\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=Oregon", "Cosine=0.991", "triple=e dbo:location Oregon", "class=HR_Airport" ],
+    "2" : [ "pair=\"Location in Manitoba\"@en", "Cosine=0.989", "triple=e dbp:pushpinMapCaption \"Location in Manitoba\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=\"CDT\"@en", "Cosine=0.987", "triple=e dbp:summer \"CDT\"@en", "class=HR_Airport" ],
+    "4" : [ "pair=\"n/a\"@en", "Cosine=0.987", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "5" : [ "pair=\"Movements from Statistics Canada.\"@en", "Cosine=0.987", "triple=e dbp:footnotes \"Movements from Statistics Canada.\"@en", "class=HR_Airport" ],
+    "6" : [ "pair=\"Canada Alberta\"@en", "Cosine=0.986", "triple=e dbp:pushpinMap \"Canada Alberta\"@en", "class=HR_Airport" ],
+    "7" : [ "pair= Water Aerodrome Supplement\"@en", "Cosine=0.986", "triple=e dbp:footnotes  Water Aerodrome Supplement\"@en", "class=HR_Airport" ],
+    "8" : [ "pair=\"Canada British Columbia#Canada\"@en", "Cosine=0.986", "triple=e dbp:pushpinMap \"Canada British Columbia#Canada\"@en", "class=HR_Airport" ],
+    "9" : [ "pair=\"Location in Alberta\"@en", "Cosine=0.985", "triple=e dbp:pushpinMapCaption \"Location in Alberta\"@en", "class=HR_Airport" ],
+    "10" : [ "pair=//dbpedia.org/datatype/second>", "Cosine=0.983", "triple=e dbp:utcs //dbpedia.org/datatype/second>", "class=HR_Airport" ],
+    "11" : [ "pair=\"Location in British Columbia\"@en", "Cosine=0.983", "triple=e dbp:pushpinMapCaption \"Location in British Columbia\"@en", "class=HR_Airport" ],
+    "12" : [ "pair=Central_Time_Zone", "Cosine=0.983", "triple=e dbp:timezone Central_Time_Zone", "class=HR_Airport" ],
+    "13" : [ "pair=\"Canada British Columbia\"@en", "Cosine=0.982", "triple=e dbp:pushpinMap \"Canada British Columbia\"@en", "class=HR_Airport" ],
+    "14" : [ "pair=\"n/a\"", "Cosine=0.981", "triple=e dbo:runwayDesignation \"n/a\"", "class=HR_Airport" ],
+    "15" : [ "pair=Pacific_Time_Zone", "Cosine=0.98", "triple=e dbp:timezone Pacific_Time_Zone", "class=HR_Airport" ],
+    "16" : [ "pair=\"PDT\"@en", "Cosine=0.98", "triple=e dbp:summer \"PDT\"@en", "class=HR_Airport" ],
+    "17" : [ "pair=\"Location in Quebec\"@en", "Cosine=0.978", "triple=e dbp:pushpinMapCaption \"Location in Quebec\"@en", "class=HR_Airport" ],
+    "18" : [ "pair=\"Canada Saskatchewan#Canada\"@en", "Cosine=0.977", "triple=e dbp:pushpinMap \"Canada Saskatchewan#Canada\"@en", "class=HR_Airport" ],
+    "19" : [ "pair=\"Location in Saskatchewan\"@en", "Cosine=0.977", "triple=e dbp:pushpinMapCaption \"Location in Saskatchewan\"@en", "class=HR_Airport" ],
+    "20" : [ "pair=\"Turf\"@en", "Cosine=0.976", "triple=e dbp:r1Surface \"Turf\"@en", "class=HR_Airport" ],
+    "21" : [ "pair=\"MDT\"@en", "Cosine=0.975", "triple=e dbp:summer \"MDT\"@en", "class=HR_Airport" ],
+    "22" : [ "pair= Canada Flight Supplement\"@en", "Cosine=0.972", "triple=e dbp:footnotes  Canada Flight Supplement\"@en", "class=HR_Airport" ],
+    "23" : [ "pair=\"USA Wisconsin#USA\"@en", "Cosine=0.971", "triple=e dbp:pushpinMap \"USA Wisconsin#USA\"@en", "class=HR_Airport" ],
+    "24" : [ "pair=Mountain_Time_Zone", "Cosine=0.969", "triple=e dbp:timezone Mountain_Time_Zone", "class=HR_Airport" ],
+    "25" : [ "pair=\"Water\"@en", "Cosine=0.969", "triple=e dbp:r1Surface \"Water\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "norwegian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Norway\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Norway\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=Norway", "Cosine=1.0", "triple=e dbo:city Norway", "class=HR_Airport" ]
+  }
+} ]

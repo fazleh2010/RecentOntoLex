@@ -1,0 +1,131 @@
+[ {
+  "id" : 1,
+  "pattern" : "aerodrome",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "AllConf=0.974", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "1" : [ "pair= Water Aerodrome Supplement\"@en", "AllConf=0.968", "triple=e dbp:footnotes  Water Aerodrome Supplement\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"n/a\"", "AllConf=0.96", "triple=e dbo:runwayDesignation \"n/a\"", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "airport",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft movements\"@en", "AllConf=0.989", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Passengers\"@en", "AllConf=0.979", "triple=e dbp:stat1Header \"Passengers\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Chile\"@en", "AllConf=0.978", "triple=e dbp:pushpinMap \"Chile\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=\"Based aircraft\"@en", "AllConf=0.947", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "AllConf=0.985", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "1" : [ "pair= Water Aerodrome Supplement\"@en", "AllConf=0.984", "triple=e dbp:footnotes  Water Aerodrome Supplement\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Location in Ontario\"@en", "AllConf=0.976", "triple=e dbp:pushpinMapCaption \"Location in Ontario\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=\"n/a\"", "AllConf=0.971", "triple=e dbo:runwayDesignation \"n/a\"", "class=HR_Airport" ],
+    "4" : [ "pair= Canada Flight Supplement\"@en", "AllConf=0.965", "triple=e dbp:footnotes  Canada Flight Supplement\"@en", "class=HR_Airport" ],
+    "5" : [ "pair=//dbpedia.org/datatype/second>", "AllConf=0.962", "triple=e dbp:utcs //dbpedia.org/datatype/second>", "class=HR_Airport" ],
+    "6" : [ "pair=\"EDT\"@en", "AllConf=0.957", "triple=e dbp:summer \"EDT\"@en", "class=HR_Airport" ],
+    "7" : [ "pair=Eastern_Time_Zone", "AllConf=0.956", "triple=e dbp:timezone Eastern_Time_Zone", "class=HR_Airport" ],
+    "8" : [ "pair=Central_Time_Zone", "AllConf=0.944", "triple=e dbp:timezone Central_Time_Zone", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "chile",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Chile\"@en", "AllConf=0.978", "triple=e dbp:pushpinMap \"Chile\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Oregon", "AllConf=0.986", "triple=e dbo:location Oregon", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "county oregon",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Oregon", "AllConf=0.969", "triple=e dbo:location Oregon", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "faa lid",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Oregon", "AllConf=0.991", "triple=e dbo:location Oregon", "class=HR_Airport" ],
+    "1" : [ "pair=\"Based aircraft\"@en", "AllConf=0.981", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Aircraft operations\"@en", "AllConf=0.978", "triple=e dbp:stat1Header \"Aircraft operations\"@en", "class=HR_Airport" ],
+    "3" : [ "pair= Federal Aviation Administration\"@en", "AllConf=0.971", "triple=e dbp:footnotes  Federal Aviation Administration\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "iata",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft movements\"@en", "AllConf=0.972", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Passengers\"@en", "AllConf=0.946", "triple=e dbp:stat1Header \"Passengers\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "icao",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Chile\"@en", "AllConf=0.995", "triple=e dbp:pushpinMap \"Chile\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Aircraft movements\"@en", "AllConf=0.982", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Passengers\"@en", "AllConf=0.977", "triple=e dbp:stat1Header \"Passengers\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "ontario",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in Ontario\"@en", "AllConf=0.979", "triple=e dbp:pushpinMapCaption \"Location in Ontario\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "ontario canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in Ontario\"@en", "AllConf=0.959", "triple=e dbp:pushpinMapCaption \"Location in Ontario\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "oregon",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Oregon", "AllConf=1.0", "triple=e dbo:location Oregon", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "tc lid",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair= Water Aerodrome Supplement\"@en", "AllConf=0.988", "triple=e dbp:footnotes  Water Aerodrome Supplement\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"n/a\"@en", "AllConf=0.981", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"n/a\"", "AllConf=0.967", "triple=e dbo:runwayDesignation \"n/a\"", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "water",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "AllConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"n/a\"", "AllConf=0.985", "triple=e dbo:runwayDesignation \"n/a\"", "class=HR_Airport" ],
+    "2" : [ "pair= Water Aerodrome Supplement\"@en", "AllConf=0.98", "triple=e dbp:footnotes  Water Aerodrome Supplement\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "water aerodrome",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "AllConf=0.974", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"n/a\"", "AllConf=0.96", "triple=e dbo:runwayDesignation \"n/a\"", "class=HR_Airport" ],
+    "2" : [ "pair= Water Aerodrome Supplement\"@en", "AllConf=0.957", "triple=e dbp:footnotes  Water Aerodrome Supplement\"@en", "class=HR_Airport" ]
+  }
+} ]

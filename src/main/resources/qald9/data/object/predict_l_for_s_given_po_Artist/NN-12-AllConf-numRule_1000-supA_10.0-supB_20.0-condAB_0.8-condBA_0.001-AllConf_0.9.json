@@ -1,0 +1,26 @@
+[ {
+  "id" : 1,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Illinois", "AllConf=0.963", "triple=e dbo:birthPlace Illinois", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Chicago", "AllConf=0.935", "triple=e dbo:birthPlace Chicago", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Performance_art", "AllConf=0.958", "triple=e dbo:field Performance_art", "class=HR_Artist" ],
+    "1" : [ "pair=Conceptual_art", "AllConf=0.931", "triple=e dbo:field Conceptual_art", "class=HR_Artist" ],
+    "2" : [ "pair=Installation_art", "AllConf=0.919", "triple=e dbo:field Installation_art", "class=HR_Artist" ],
+    "3" : [ "pair=Video_art", "AllConf=0.905", "triple=e dbp:field Video_art", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "composer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Italy", "AllConf=0.941", "triple=e dbo:nationality Italy", "class=HR_MusicalArtist" ]
+  }
+} ]

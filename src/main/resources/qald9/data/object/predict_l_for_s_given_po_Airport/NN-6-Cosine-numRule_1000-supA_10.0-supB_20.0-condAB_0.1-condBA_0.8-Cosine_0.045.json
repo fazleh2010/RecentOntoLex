@@ -1,0 +1,692 @@
+[ {
+  "id" : 1,
+  "pattern" : "aerodrome",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "Cosine=0.987", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "1" : [ "pair= Water Aerodrome Supplement\"@en", "Cosine=0.984", "triple=e dbp:footnotes  Water Aerodrome Supplement\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"n/a\"", "Cosine=0.98", "triple=e dbo:runwayDesignation \"n/a\"", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "air force",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Air_Ministry", "Cosine=0.984", "triple=e dbo:owner Air_Ministry", "class=HR_Airport" ],
+    "1" : [ "pair=Royal_Air_Force", "Cosine=0.977", "triple=e dbp:operator Royal_Air_Force", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "airport",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Bolivia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Bolivia\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"st\"@en", "Cosine=1.0", "triple=e dbp:order \"st\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Aircraft movement\"@en", "Cosine=1.0", "triple=e dbp:stat3Header \"Aircraft movement\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=\"Total passengers\"@en", "Cosine=1.0", "triple=e dbp:stat1Header \"Total passengers\"@en", "class=HR_Airport" ],
+    "4" : [ "pair=Bolivia", "Cosine=1.0", "triple=e dbo:city Bolivia", "class=HR_Airport" ],
+    "5" : [ "pair=\"Public/Military\"@en", "Cosine=1.0", "triple=e dbp:type \"Public/Military\"@en", "class=HR_Airport" ],
+    "6" : [ "pair=\"Location of the airport in\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location of the airport in\"@en", "class=HR_Airport" ],
+    "7" : [ "pair=\"Democratic Republic of the Congo\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Democratic Republic of the Congo\"@en", "class=HR_Airport" ],
+    "8" : [ "pair=\"center\"@en", "Cosine=0.996", "triple=e dbp:float \"center\"@en", "class=HR_Airport" ],
+    "9" : [ "pair=\"Aircraft movements\"@en", "Cosine=0.994", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ],
+    "10" : [ "pair=Chile", "Cosine=0.994", "triple=e dbo:city Chile", "class=HR_Airport" ],
+    "11" : [ "pair=Indonesia", "Cosine=0.993", "triple=e dbo:location Indonesia", "class=HR_Airport" ],
+    "12" : [ "pair=\"Cargo\"@en", "Cosine=0.993", "triple=e dbp:stat3Header \"Cargo\"@en", "class=HR_Airport" ],
+    "13" : [ "pair= Google Maps GCM\"@en", "Cosine=0.993", "triple=e dbp:footnotes  Google Maps GCM\"@en", "class=HR_Airport" ],
+    "14" : [ "pair=\"USA Wisconsin#USA\"@en", "Cosine=0.992", "triple=e dbp:pushpinMap \"USA Wisconsin#USA\"@en", "class=HR_Airport" ],
+    "15" : [ "pair=\"Location of airport in Wisconsin", "Cosine=0.992", "triple=e dbp:pushpinMapCaption \"Location of airport in Wisconsin", "class=HR_Airport" ],
+    "16" : [ "pair= Airport Website", "Cosine=0.992", "triple=e dbp:footnotes  Airport Website", "class=HR_Airport" ],
+    "17" : [ "pair=\"USGS 2006 orthophoto\"@en", "Cosine=0.992", "triple=e dbp:caption \"USGS 2006 orthophoto\"@en", "class=HR_Airport" ],
+    "18" : [ "pair=Colombia", "Cosine=0.992", "triple=e dbo:city Colombia", "class=HR_Airport" ],
+    "19" : [ "pair=\"Metric tonnes of cargo\"@en", "Cosine=0.991", "triple=e dbp:stat3Header \"Metric tonnes of cargo\"@en", "class=HR_Airport" ],
+    "20" : [ "pair=\"Aircraft Operations\"@en", "Cosine=0.991", "triple=e dbp:stat2Header \"Aircraft Operations\"@en", "class=HR_Airport" ],
+    "21" : [ "pair=\"Aircraft operations\"@en", "Cosine=0.991", "triple=e dbp:stat2Header \"Aircraft operations\"@en", "class=HR_Airport" ],
+    "22" : [ "pair=\"Total Passengers\"@en", "Cosine=0.991", "triple=e dbp:stat1Header \"Total Passengers\"@en", "class=HR_Airport" ],
+    "23" : [ "pair=\"= Year-round Destination\"@en", "Cosine=0.99", "triple=e dbp:caption \"= Year-round Destination\"@en", "class=HR_Airport" ],
+    "24" : [ "pair=\"Location of airport in Michigan\"@en", "Cosine=0.99", "triple=e dbp:pushpinMapCaption \"Location of airport in Michigan\"@en", "class=HR_Airport" ],
+    "25" : [ "pair= Landings.com Google Maps GCM\"@en", "Cosine=0.99", "triple=e dbp:footnotes  Landings.com Google Maps GCM\"@en", "class=HR_Airport" ],
+    "26" : [ "pair=\"Iran\"@en", "Cosine=0.99", "triple=e dbp:pushpinMap \"Iran\"@en", "class=HR_Airport" ],
+    "27" : [ "pair=\"\"@en", "Cosine=0.989", "triple=e dbp:nativenameA \"\"@en", "class=HR_Airport" ],
+    "28" : [ "pair=\"Passengers\"@en", "Cosine=0.989", "triple=e dbp:stat1Header \"Passengers\"@en", "class=HR_Airport" ],
+    "29" : [ "pair=\"Chile\"@en", "Cosine=0.989", "triple=e dbp:pushpinMap \"Chile\"@en", "class=HR_Airport" ],
+    "30" : [ "pair=\"Argentina\"@en", "Cosine=0.989", "triple=e dbp:pushpinMap \"Argentina\"@en", "class=HR_Airport" ],
+    "31" : [ "pair=\"Government\"@en", "Cosine=0.986", "triple=e dbp:operator \"Government\"@en", "class=HR_Airport" ],
+    "32" : [ "pair=Argentina", "Cosine=0.985", "triple=e dbo:city Argentina", "class=HR_Airport" ],
+    "33" : [ "pair= Australian AIP and aerodrome chart\"@en", "Cosine=0.985", "triple=e dbp:footnotes  Australian AIP and aerodrome chart\"@en", "class=HR_Airport" ],
+    "34" : [ "pair=\"Closed\"", "Cosine=0.982", "triple=e dbo:runwayDesignation \"Closed\"", "class=HR_Airport" ],
+    "35" : [ "pair=\"Movements from Statistics Canada\"@en", "Cosine=0.981", "triple=e dbp:footnotes \"Movements from Statistics Canada\"@en", "class=HR_Airport" ],
+    "36" : [ "pair=\"USA Michigan#USA\"@en", "Cosine=0.981", "triple=e dbp:pushpinMap \"USA Michigan#USA\"@en", "class=HR_Airport" ],
+    "37" : [ "pair=\"Closed\"@en", "Cosine=0.981", "triple=e dbp:r1Number \"Closed\"@en", "class=HR_Airport" ],
+    "38" : [ "pair=\"Peru\"@en", "Cosine=0.978", "triple=e dbp:pushpinMap \"Peru\"@en", "class=HR_Airport" ],
+    "39" : [ "pair=\"PU\"@en", "Cosine=0.978", "triple=e dbp:own \"PU\"@en", "class=HR_Airport" ],
+    "40" : [ "pair=\"@en", "Cosine=0.976", "triple=e dbp:footnotes \"@en", "class=HR_Airport" ],
+    "41" : [ "pair=\"Location of the airport in Peru\"@en", "Cosine=0.975", "triple=e dbp:pushpinMapCaption \"Location of the airport in Peru\"@en", "class=HR_Airport" ],
+    "42" : [ "pair=\"Brazil\"@en", "Cosine=0.975", "triple=e dbp:pushpinMap \"Brazil\"@en", "class=HR_Airport" ],
+    "43" : [ "pair=\"Location in Brazil\"@en", "Cosine=0.975", "triple=e dbp:pushpinMapCaption \"Location in Brazil\"@en", "class=HR_Airport" ],
+    "44" : [ "pair=State_of_Alaska_DOT&PF", "Cosine=0.975", "triple=e dbo:owner State_of_Alaska_DOT&PF", "class=HR_Airport" ],
+    "45" : [ "pair=Time_in_Brazil", "Cosine=0.974", "triple=e dbp:timezone Time_in_Brazil", "class=HR_Airport" ],
+    "46" : [ "pair=\"Movements from Statistics Canada.\"@en", "Cosine=0.974", "triple=e dbp:footnotes \"Movements from Statistics Canada.\"@en", "class=HR_Airport" ],
+    "47" : [ "pair=\"Based aircraft\"@en", "Cosine=0.973", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ],
+    "48" : [ "pair=\"Queensland\"@en", "Cosine=0.973", "triple=e dbp:pushpinMap \"Queensland\"@en", "class=HR_Airport" ],
+    "49" : [ "pair=\"Location in Queensland\"@en", "Cosine=0.972", "triple=e dbp:pushpinMapCaption \"Location in Queensland\"@en", "class=HR_Airport" ],
+    "50" : [ "pair=Public_airport", "Cosine=0.971", "triple=e dbo:type Public_airport", "class=HR_Airport" ],
+    "51" : [ "pair=\"Public / Military\"@en", "Cosine=0.97", "triple=e dbp:type \"Public / Military\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "alaska",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"USA Alaska\"@en", "Cosine=0.995", "triple=e dbp:pushpinMap \"USA Alaska\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of airport in Alaska\"@en", "Cosine=0.995", "triple=e dbp:pushpinMapCaption \"Location of airport in Alaska\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=State_of_Alaska_DOT&PF", "Cosine=0.991", "triple=e dbo:owner State_of_Alaska_DOT&PF", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "alberta",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Canada Alberta\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Canada Alberta\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location in Alberta\"@en", "Cosine=0.996", "triple=e dbp:pushpinMapCaption \"Location in Alberta\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "alberta canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Canada Alberta\"@en", "Cosine=0.977", "triple=e dbp:pushpinMap \"Canada Alberta\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "argentina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Argentina\"@en", "Cosine=0.994", "triple=e dbp:pushpinMap \"Argentina\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=Argentina", "Cosine=0.992", "triple=e dbo:city Argentina", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "australia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Western Australia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Western Australia\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location in Western Australia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location in Western Australia\"@en", "class=HR_Airport" ],
+    "2" : [ "pair= Australian AIP and aerodrome chart\"@en", "Cosine=0.973", "triple=e dbp:footnotes  Australian AIP and aerodrome chart\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "bolivia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Bolivia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Bolivia\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=Bolivia", "Cosine=1.0", "triple=e dbo:city Bolivia", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "brazil",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Brazil\"@en", "Cosine=0.987", "triple=e dbp:pushpinMap \"Brazil\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location in Brazil\"@en", "Cosine=0.987", "triple=e dbp:pushpinMapCaption \"Location in Brazil\"@en", "class=HR_Airport" ],
+    "2" : [ "pair= Airport Website", "Cosine=0.984", "triple=e dbp:footnotes  Airport Website", "class=HR_Airport" ],
+    "3" : [ "pair=Time_in_Brazil", "Cosine=0.974", "triple=e dbp:timezone Time_in_Brazil", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "british columbia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Canada British Columbia#Canada\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Canada British Columbia#Canada\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Canada British Columbia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Canada British Columbia\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Location in British Columbia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location in British Columbia\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=//dbpedia.org/datatype/second>", "Cosine=0.987", "triple=e dbp:utcs //dbpedia.org/datatype/second>", "class=HR_Airport" ],
+    "4" : [ "pair=\"PDT\"@en", "Cosine=0.987", "triple=e dbp:summer \"PDT\"@en", "class=HR_Airport" ],
+    "5" : [ "pair=Pacific_Time_Zone", "Cosine=0.984", "triple=e dbp:timezone Pacific_Time_Zone", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "british columbia canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Canada British Columbia#Canada\"@en", "Cosine=0.986", "triple=e dbp:pushpinMap \"Canada British Columbia#Canada\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location in British Columbia\"@en", "Cosine=0.983", "triple=e dbp:pushpinMapCaption \"Location in British Columbia\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Canada British Columbia\"@en", "Cosine=0.976", "triple=e dbp:pushpinMap \"Canada British Columbia\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Canada British Columbia#Canada\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Canada British Columbia#Canada\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Canada Manitoba\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Canada Manitoba\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Canada Ontario\"@en", "Cosine=0.997", "triple=e dbp:pushpinMap \"Canada Ontario\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=\"Location in British Columbia\"@en", "Cosine=0.993", "triple=e dbp:pushpinMapCaption \"Location in British Columbia\"@en", "class=HR_Airport" ],
+    "4" : [ "pair=\"Movements from Statistics Canada.\"@en", "Cosine=0.993", "triple=e dbp:footnotes \"Movements from Statistics Canada.\"@en", "class=HR_Airport" ],
+    "5" : [ "pair=\"n/a\"@en", "Cosine=0.992", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "6" : [ "pair= Water Aerodrome Supplement\"@en", "Cosine=0.992", "triple=e dbp:footnotes  Water Aerodrome Supplement\"@en", "class=HR_Airport" ],
+    "7" : [ "pair=\"Canada Saskatchewan#Canada\"@en", "Cosine=0.991", "triple=e dbp:pushpinMap \"Canada Saskatchewan#Canada\"@en", "class=HR_Airport" ],
+    "8" : [ "pair=\"Location in Saskatchewan\"@en", "Cosine=0.99", "triple=e dbp:pushpinMapCaption \"Location in Saskatchewan\"@en", "class=HR_Airport" ],
+    "9" : [ "pair=//dbpedia.org/datatype/second>", "Cosine=0.99", "triple=e dbp:utcs //dbpedia.org/datatype/second>", "class=HR_Airport" ],
+    "10" : [ "pair=\"PDT\"@en", "Cosine=0.99", "triple=e dbp:summer \"PDT\"@en", "class=HR_Airport" ],
+    "11" : [ "pair=\"Canada British Columbia\"@en", "Cosine=0.988", "triple=e dbp:pushpinMap \"Canada British Columbia\"@en", "class=HR_Airport" ],
+    "12" : [ "pair=\"Location in Ontario\"@en", "Cosine=0.987", "triple=e dbp:pushpinMapCaption \"Location in Ontario\"@en", "class=HR_Airport" ],
+    "13" : [ "pair=\"Movements from Statistics Canada\"@en", "Cosine=0.987", "triple=e dbp:footnotes \"Movements from Statistics Canada\"@en", "class=HR_Airport" ],
+    "14" : [ "pair=Pacific_Time_Zone", "Cosine=0.987", "triple=e dbp:timezone Pacific_Time_Zone", "class=HR_Airport" ],
+    "15" : [ "pair=\"Location in Quebec\"@en", "Cosine=0.985", "triple=e dbp:pushpinMapCaption \"Location in Quebec\"@en", "class=HR_Airport" ],
+    "16" : [ "pair=\"n/a\"", "Cosine=0.985", "triple=e dbo:runwayDesignation \"n/a\"", "class=HR_Airport" ],
+    "17" : [ "pair=\"Location in Manitoba\"@en", "Cosine=0.984", "triple=e dbp:pushpinMapCaption \"Location in Manitoba\"@en", "class=HR_Airport" ],
+    "18" : [ "pair= Canada Flight Supplement\"@en", "Cosine=0.982", "triple=e dbp:footnotes  Canada Flight Supplement\"@en", "class=HR_Airport" ],
+    "19" : [ "pair=\"Canada Alberta\"@en", "Cosine=0.981", "triple=e dbp:pushpinMap \"Canada Alberta\"@en", "class=HR_Airport" ],
+    "20" : [ "pair=\"EDT\"@en", "Cosine=0.978", "triple=e dbp:summer \"EDT\"@en", "class=HR_Airport" ],
+    "21" : [ "pair=Eastern_Time_Zone", "Cosine=0.977", "triple=e dbp:timezone Eastern_Time_Zone", "class=HR_Airport" ],
+    "22" : [ "pair=\"Canada Quebec\"@en", "Cosine=0.976", "triple=e dbp:pushpinMap \"Canada Quebec\"@en", "class=HR_Airport" ],
+    "23" : [ "pair=Central_Time_Zone", "Cosine=0.971", "triple=e dbp:timezone Central_Time_Zone", "class=HR_Airport" ],
+    "24" : [ "pair=\"Location in Alberta\"@en", "Cosine=0.971", "triple=e dbp:pushpinMapCaption \"Location in Alberta\"@en", "class=HR_Airport" ],
+    "25" : [ "pair=\"MDT\"@en", "Cosine=0.97", "triple=e dbp:summer \"MDT\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "chile",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Chile", "Cosine=0.996", "triple=e dbp:cityServed Chile", "class=HR_Airport" ],
+    "1" : [ "pair=\"Chile\"@en", "Cosine=0.989", "triple=e dbp:pushpinMap \"Chile\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "colombia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Colombia", "Cosine=1.0", "triple=e dbo:city Colombia", "class=HR_Airport" ],
+    "1" : [ "pair=\"Colombia\"@en", "Cosine=0.994", "triple=e dbp:pushpinMap \"Colombia\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Location of the airport in Colombia\"@en", "Cosine=0.991", "triple=e dbp:pushpinMapCaption \"Location of the airport in Colombia\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "columbia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Canada British Columbia#Canada\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Canada British Columbia#Canada\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Canada British Columbia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Canada British Columbia\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Location in British Columbia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location in British Columbia\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=//dbpedia.org/datatype/second>", "Cosine=0.987", "triple=e dbp:utcs //dbpedia.org/datatype/second>", "class=HR_Airport" ],
+    "4" : [ "pair=\"PDT\"@en", "Cosine=0.987", "triple=e dbp:summer \"PDT\"@en", "class=HR_Airport" ],
+    "5" : [ "pair=Pacific_Time_Zone", "Cosine=0.984", "triple=e dbp:timezone Pacific_Time_Zone", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "columbia canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Canada British Columbia#Canada\"@en", "Cosine=0.986", "triple=e dbp:pushpinMap \"Canada British Columbia#Canada\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location in British Columbia\"@en", "Cosine=0.983", "triple=e dbp:pushpinMapCaption \"Location in British Columbia\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Canada British Columbia\"@en", "Cosine=0.976", "triple=e dbp:pushpinMap \"Canada British Columbia\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "congo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Democratic Republic of the Congo\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Democratic Republic of the Congo\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of the airport in\"@en", "Cosine=0.993", "triple=e dbp:pushpinMapCaption \"Location of the airport in\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Oregon", "Cosine=0.993", "triple=e dbo:location Oregon", "class=HR_Airport" ],
+    "1" : [ "pair=\"USA Wisconsin#USA\"@en", "Cosine=0.985", "triple=e dbp:pushpinMap \"USA Wisconsin#USA\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Location of airport in Wisconsin", "Cosine=0.978", "triple=e dbp:pushpinMapCaption \"Location of airport in Wisconsin", "class=HR_Airport" ],
+    "3" : [ "pair=\"Public use\"@en", "Cosine=0.972", "triple=e dbp:type \"Public use\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "county oregon",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Oregon", "Cosine=0.984", "triple=e dbo:location Oregon", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "democratic republic",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Democratic Republic of the Congo\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Democratic Republic of the Congo\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of the airport in\"@en", "Cosine=0.993", "triple=e dbp:pushpinMapCaption \"Location of the airport in\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "democratic republic of\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Democratic Republic of the Congo\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Democratic Republic of the Congo\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of the airport in\"@en", "Cosine=0.993", "triple=e dbp:pushpinMapCaption \"Location of the airport in\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "democratic republic of\u001Cthe\u001Ccongo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Democratic Republic of the Congo\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Democratic Republic of the Congo\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of the airport in\"@en", "Cosine=0.993", "triple=e dbp:pushpinMapCaption \"Location of the airport in\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "department",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bolivia", "Cosine=1.0", "triple=e dbo:city Bolivia", "class=HR_Airport" ],
+    "1" : [ "pair=Colombia", "Cosine=0.975", "triple=e dbo:city Colombia", "class=HR_Airport" ],
+    "2" : [ "pair=\"Bolivia\"@en", "Cosine=0.973", "triple=e dbp:pushpinMap \"Bolivia\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "faa lid",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"USGS 2006 orthophoto\"@en", "Cosine=1.0", "triple=e dbp:caption \"USGS 2006 orthophoto\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=//dbpedia.org/datatype/perCent>", "Cosine=1.0", "triple=e dbp:comment //dbpedia.org/datatype/perCent>", "class=HR_Airport" ],
+    "2" : [ "pair=\"Carrier\"@en", "Cosine=1.0", "triple=e dbp:labelType \"Carrier\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=Oregon", "Cosine=0.995", "triple=e dbo:location Oregon", "class=HR_Airport" ],
+    "4" : [ "pair=\"USA Wisconsin#USA\"@en", "Cosine=0.992", "triple=e dbp:pushpinMap \"USA Wisconsin#USA\"@en", "class=HR_Airport" ],
+    "5" : [ "pair=\"Location of airport in Wisconsin", "Cosine=0.992", "triple=e dbp:pushpinMapCaption \"Location of airport in Wisconsin", "class=HR_Airport" ],
+    "6" : [ "pair=\"Public use\"@en", "Cosine=0.992", "triple=e dbp:type \"Public use\"@en", "class=HR_Airport" ],
+    "7" : [ "pair=\"Passengers\"@en", "Cosine=0.991", "triple=e dbp:stat3Header \"Passengers\"@en", "class=HR_Airport" ],
+    "8" : [ "pair=\"USA Michigan#USA\"@en", "Cosine=0.99", "triple=e dbp:pushpinMap \"USA Michigan#USA\"@en", "class=HR_Airport" ],
+    "9" : [ "pair=\"Based aircraft\"@en", "Cosine=0.99", "triple=e dbp:stat2Header \"Based aircraft\"@en", "class=HR_Airport" ],
+    "10" : [ "pair=\"Location of airport in Michigan\"@en", "Cosine=0.99", "triple=e dbp:pushpinMapCaption \"Location of airport in Michigan\"@en", "class=HR_Airport" ],
+    "11" : [ "pair=\"Aircraft operations\"@en", "Cosine=0.989", "triple=e dbp:stat1Header \"Aircraft operations\"@en", "class=HR_Airport" ],
+    "12" : [ "pair= Federal Aviation Administration\"@en", "Cosine=0.985", "triple=e dbp:footnotes  Federal Aviation Administration\"@en", "class=HR_Airport" ],
+    "13" : [ "pair=State_of_Alaska_DOT&PF", "Cosine=0.983", "triple=e dbo:owner State_of_Alaska_DOT&PF", "class=HR_Airport" ],
+    "14" : [ "pair=\"= Year-round Destination\"@en", "Cosine=0.98", "triple=e dbp:caption \"= Year-round Destination\"@en", "class=HR_Airport" ],
+    "15" : [ "pair=\"4/22\"", "Cosine=0.977", "triple=e dbo:runwayDesignation \"4/22\"", "class=HR_Airport" ],
+    "16" : [ "pair=\"7/25\"", "Cosine=0.976", "triple=e dbo:runwayDesignation \"7/25\"", "class=HR_Airport" ],
+    "17" : [ "pair=\"2/20\"", "Cosine=0.973", "triple=e dbo:runwayDesignation \"2/20\"", "class=HR_Airport" ],
+    "18" : [ "pair=\"PU\"@en", "Cosine=0.972", "triple=e dbp:use \"PU\"@en", "class=HR_Airport" ],
+    "19" : [ "pair=\"center\"@en", "Cosine=0.969", "triple=e dbp:float \"center\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "finland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Finland\"@en", "Cosine=0.98", "triple=e dbp:pushpinMap \"Finland\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location within Finland\"@en", "Cosine=0.98", "triple=e dbp:pushpinMapCaption \"Location within Finland\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "force",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Air_Ministry", "Cosine=0.984", "triple=e dbo:owner Air_Ministry", "class=HR_Airport" ],
+    "1" : [ "pair=Royal_Air_Force", "Cosine=0.977", "triple=e dbp:operator Royal_Air_Force", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "iata",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Total passengers\"@en", "Cosine=1.0", "triple=e dbp:stat1Header \"Total passengers\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"center\"@en", "Cosine=0.996", "triple=e dbp:float \"center\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"em\"@en", "Cosine=0.993", "triple=e dbp:widthUnits \"em\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=\"Cargo\"@en", "Cosine=0.993", "triple=e dbp:stat3Header \"Cargo\"@en", "class=HR_Airport" ],
+    "4" : [ "pair=\"Passengers\"@en", "Cosine=0.992", "triple=e dbp:dataType \"Passengers\"@en", "class=HR_Airport" ],
+    "5" : [ "pair=\"Carrier\"@en", "Cosine=0.992", "triple=e dbp:labelType \"Carrier\"@en", "class=HR_Airport" ],
+    "6" : [ "pair=\"Total Passengers\"@en", "Cosine=0.991", "triple=e dbp:stat1Header \"Total Passengers\"@en", "class=HR_Airport" ],
+    "7" : [ "pair=\"= Year-round Destination\"@en", "Cosine=0.99", "triple=e dbp:caption \"= Year-round Destination\"@en", "class=HR_Airport" ],
+    "8" : [ "pair=\"Aircraft movements\"@en", "Cosine=0.985", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ],
+    "9" : [ "pair=\"Aircraft movement\"@en", "Cosine=0.971", "triple=e dbp:stat3Header \"Aircraft movement\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "icao",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"= Year-round Destination\"@en", "Cosine=1.0", "triple=e dbp:caption \"= Year-round Destination\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Bolivia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Bolivia\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Iran\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Iran\"@en", "class=HR_Airport" ],
+    "3" : [ "pair=\"Aircraft movement\"@en", "Cosine=1.0", "triple=e dbp:stat3Header \"Aircraft movement\"@en", "class=HR_Airport" ],
+    "4" : [ "pair=\"Total passengers\"@en", "Cosine=1.0", "triple=e dbp:stat1Header \"Total passengers\"@en", "class=HR_Airport" ],
+    "5" : [ "pair=Bolivia", "Cosine=1.0", "triple=e dbo:city Bolivia", "class=HR_Airport" ],
+    "6" : [ "pair= UK AIP at NATS\"@en", "Cosine=1.0", "triple=e dbp:footnotes  UK AIP at NATS\"@en", "class=HR_Airport" ],
+    "7" : [ "pair= Landings.com Google Maps GCM\"@en", "Cosine=1.0", "triple=e dbp:footnotes  Landings.com Google Maps GCM\"@en", "class=HR_Airport" ],
+    "8" : [ "pair= Airport Website", "Cosine=1.0", "triple=e dbp:footnotes  Airport Website", "class=HR_Airport" ],
+    "9" : [ "pair=\"Chile\"@en", "Cosine=0.997", "triple=e dbp:pushpinMap \"Chile\"@en", "class=HR_Airport" ],
+    "10" : [ "pair=Chile", "Cosine=0.997", "triple=e dbo:city Chile", "class=HR_Airport" ],
+    "11" : [ "pair=\"center\"@en", "Cosine=0.996", "triple=e dbp:float \"center\"@en", "class=HR_Airport" ],
+    "12" : [ "pair= Australian AIP and aerodrome chart\"@en", "Cosine=0.996", "triple=e dbp:footnotes  Australian AIP and aerodrome chart\"@en", "class=HR_Airport" ],
+    "13" : [ "pair=\"Democratic Republic of the Congo\"@en", "Cosine=0.994", "triple=e dbp:pushpinMapCaption \"Democratic Republic of the Congo\"@en", "class=HR_Airport" ],
+    "14" : [ "pair=\"Metric tonnes of cargo\"@en", "Cosine=0.994", "triple=e dbp:stat3Header \"Metric tonnes of cargo\"@en", "class=HR_Airport" ],
+    "15" : [ "pair=\"Public/Military\"@en", "Cosine=0.993", "triple=e dbp:type \"Public/Military\"@en", "class=HR_Airport" ],
+    "16" : [ "pair=\"Cargo\"@en", "Cosine=0.993", "triple=e dbp:stat3Header \"Cargo\"@en", "class=HR_Airport" ],
+    "17" : [ "pair=\"Peru\"@en", "Cosine=0.992", "triple=e dbp:pushpinMap \"Peru\"@en", "class=HR_Airport" ],
+    "18" : [ "pair=\"Location of the airport in Peru\"@en", "Cosine=0.991", "triple=e dbp:pushpinMapCaption \"Location of the airport in Peru\"@en", "class=HR_Airport" ],
+    "19" : [ "pair=\"Aircraft movements\"@en", "Cosine=0.991", "triple=e dbp:stat2Header \"Aircraft movements\"@en", "class=HR_Airport" ],
+    "20" : [ "pair=\"Aircraft Operations\"@en", "Cosine=0.991", "triple=e dbp:stat2Header \"Aircraft Operations\"@en", "class=HR_Airport" ],
+    "21" : [ "pair= AIP\"@en", "Cosine=0.991", "triple=e dbp:footnotes  AIP\"@en", "class=HR_Airport" ],
+    "22" : [ "pair=\"Passengers\"@en", "Cosine=0.988", "triple=e dbp:stat1Header \"Passengers\"@en", "class=HR_Airport" ],
+    "23" : [ "pair=\"Location of the airport in\"@en", "Cosine=0.987", "triple=e dbp:pushpinMapCaption \"Location of the airport in\"@en", "class=HR_Airport" ],
+    "24" : [ "pair= Google Maps GCM\"@en", "Cosine=0.986", "triple=e dbp:footnotes  Google Maps GCM\"@en", "class=HR_Airport" ],
+    "25" : [ "pair=Colombia", "Cosine=0.983", "triple=e dbo:city Colombia", "class=HR_Airport" ],
+    "26" : [ "pair=\"Western Australia\"@en", "Cosine=0.983", "triple=e dbp:pushpinMap \"Western Australia\"@en", "class=HR_Airport" ],
+    "27" : [ "pair=Time_in_Brazil", "Cosine=0.982", "triple=e dbp:timezone Time_in_Brazil", "class=HR_Airport" ],
+    "28" : [ "pair=\"Location of the airport in Colombia\"@en", "Cosine=0.982", "triple=e dbp:pushpinMapCaption \"Location of the airport in Colombia\"@en", "class=HR_Airport" ],
+    "29" : [ "pair=\"Total Passengers\"@en", "Cosine=0.982", "triple=e dbp:stat1Header \"Total Passengers\"@en", "class=HR_Airport" ],
+    "30" : [ "pair=\"Location in Western Australia\"@en", "Cosine=0.982", "triple=e dbp:pushpinMapCaption \"Location in Western Australia\"@en", "class=HR_Airport" ],
+    "31" : [ "pair=\"Colombia\"@en", "Cosine=0.981", "triple=e dbp:pushpinMap \"Colombia\"@en", "class=HR_Airport" ],
+    "32" : [ "pair=\"Brazil\"@en", "Cosine=0.981", "triple=e dbp:pushpinMap \"Brazil\"@en", "class=HR_Airport" ],
+    "33" : [ "pair=\"Location in Brazil\"@en", "Cosine=0.981", "triple=e dbp:pushpinMapCaption \"Location in Brazil\"@en", "class=HR_Airport" ],
+    "34" : [ "pair=\"Asphalt concrete\"", "Cosine=0.979", "triple=e dbo:runwaySurface \"Asphalt concrete\"", "class=HR_Airport" ],
+    "35" : [ "pair=\"Public / Military\"@en", "Cosine=0.979", "triple=e dbp:type \"Public / Military\"@en", "class=HR_Airport" ],
+    "36" : [ "pair=\"''\"@en", "Cosine=0.978", "triple=e dbp:nativename \"''\"@en", "class=HR_Airport" ],
+    "37" : [ "pair=\"USGS 2006 orthophoto\"@en", "Cosine=0.976", "triple=e dbp:caption \"USGS 2006 orthophoto\"@en", "class=HR_Airport" ],
+    "38" : [ "pair=\"Movements from Statistics Canada\"@en", "Cosine=0.975", "triple=e dbp:footnotes \"Movements from Statistics Canada\"@en", "class=HR_Airport" ],
+    "39" : [ "pair=\"Location in Queensland\"@en", "Cosine=0.972", "triple=e dbp:pushpinMapCaption \"Location in Queensland\"@en", "class=HR_Airport" ],
+    "40" : [ "pair= GCM Google Maps\"@en", "Cosine=0.971", "triple=e dbp:footnotes  GCM Google Maps\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "iran",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Iran\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Iran\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "japan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Aircraft movement\"@en", "Cosine=0.99", "triple=e dbp:stat3Header \"Aircraft movement\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "manitoba",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Canada Manitoba\"@en", "Cosine=0.993", "triple=e dbp:pushpinMap \"Canada Manitoba\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location in Manitoba\"@en", "Cosine=0.989", "triple=e dbp:pushpinMapCaption \"Location in Manitoba\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "manitoba canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Canada Manitoba\"@en", "Cosine=0.993", "triple=e dbp:pushpinMap \"Canada Manitoba\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location in Manitoba\"@en", "Cosine=0.979", "triple=e dbp:pushpinMapCaption \"Location in Manitoba\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "michigan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"USA Michigan#USA\"@en", "Cosine=0.99", "triple=e dbp:pushpinMap \"USA Michigan#USA\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of airport in Michigan\"@en", "Cosine=0.99", "triple=e dbp:pushpinMapCaption \"Location of airport in Michigan\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "new south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in New South Wales\"@en", "Cosine=0.99", "triple=e dbp:pushpinMapCaption \"Location in New South Wales\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"New South Wales\"@en", "Cosine=0.981", "triple=e dbp:pushpinMap \"New South Wales\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "new south wales",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in New South Wales\"@en", "Cosine=0.99", "triple=e dbp:pushpinMapCaption \"Location in New South Wales\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"New South Wales\"@en", "Cosine=0.981", "triple=e dbp:pushpinMap \"New South Wales\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Norway\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Norway\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=Norway", "Cosine=1.0", "triple=e dbo:city Norway", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "ontario",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Canada Ontario\"@en", "Cosine=0.997", "triple=e dbp:pushpinMap \"Canada Ontario\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location in Ontario\"@en", "Cosine=0.989", "triple=e dbp:pushpinMapCaption \"Location in Ontario\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=Ontario", "Cosine=0.981", "triple=e dbp:location Ontario", "class=HR_Airport" ],
+    "3" : [ "pair=\"Canada Ontario#Canada\"@en", "Cosine=0.975", "triple=e dbp:pushpinMap \"Canada Ontario#Canada\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "ontario canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Canada Ontario\"@en", "Cosine=0.986", "triple=e dbp:pushpinMap \"Canada Ontario\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location in Ontario\"@en", "Cosine=0.979", "triple=e dbp:pushpinMapCaption \"Location in Ontario\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "oregon",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Oregon", "Cosine=1.0", "triple=e dbo:location Oregon", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "peru",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location of the airport in Peru\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location of the airport in Peru\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Peru\"@en", "Cosine=0.992", "triple=e dbp:pushpinMap \"Peru\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "quebec",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in Quebec\"@en", "Cosine=0.996", "triple=e dbp:pushpinMapCaption \"Location in Quebec\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Canada Quebec\"@en", "Cosine=0.99", "triple=e dbp:pushpinMap \"Canada Quebec\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "quebec canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in Quebec\"@en", "Cosine=0.982", "triple=e dbp:pushpinMapCaption \"Location in Quebec\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "queensland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Queensland\"@en", "Cosine=0.98", "triple=e dbp:pushpinMap \"Queensland\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location in Queensland\"@en", "Cosine=0.979", "triple=e dbp:pushpinMapCaption \"Location in Queensland\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "region",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Chile", "Cosine=0.986", "triple=e dbo:city Chile", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of the airport in Peru\"@en", "Cosine=0.983", "triple=e dbp:pushpinMapCaption \"Location of the airport in Peru\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"Peru\"@en", "Cosine=0.97", "triple=e dbp:pushpinMap \"Peru\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "republic",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Democratic Republic of the Congo\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Democratic Republic of the Congo\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of the airport in\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location of the airport in\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "republic the\u001Ccongo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Democratic Republic of the Congo\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Democratic Republic of the Congo\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of the airport in\"@en", "Cosine=0.993", "triple=e dbp:pushpinMapCaption \"Location of the airport in\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "royal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Air_Ministry", "Cosine=0.984", "triple=e dbo:owner Air_Ministry", "class=HR_Airport" ],
+    "1" : [ "pair=Royal_Air_Force", "Cosine=0.977", "triple=e dbp:operator Royal_Air_Force", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "royal air",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Air_Ministry", "Cosine=0.978", "triple=e dbo:owner Air_Ministry", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "royal air force",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Air_Ministry", "Cosine=0.978", "triple=e dbo:owner Air_Ministry", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "saskatchewan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Canada Saskatchewan#Canada\"@en", "Cosine=0.991", "triple=e dbp:pushpinMap \"Canada Saskatchewan#Canada\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location in Saskatchewan\"@en", "Cosine=0.99", "triple=e dbp:pushpinMapCaption \"Location in Saskatchewan\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "saskatchewan canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Canada Saskatchewan#Canada\"@en", "Cosine=0.991", "triple=e dbp:pushpinMap \"Canada Saskatchewan#Canada\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location in Saskatchewan\"@en", "Cosine=0.99", "triple=e dbp:pushpinMapCaption \"Location in Saskatchewan\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in New South Wales\"@en", "Cosine=0.99", "triple=e dbp:pushpinMapCaption \"Location in New South Wales\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"New South Wales\"@en", "Cosine=0.981", "triple=e dbp:pushpinMap \"New South Wales\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "south wales",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in New South Wales\"@en", "Cosine=0.99", "triple=e dbp:pushpinMapCaption \"Location in New South Wales\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"New South Wales\"@en", "Cosine=0.981", "triple=e dbp:pushpinMap \"New South Wales\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"USA Wisconsin#USA\"@en", "Cosine=0.971", "triple=e dbp:pushpinMap \"USA Wisconsin#USA\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of airport in Wisconsin", "Cosine=0.971", "triple=e dbp:pushpinMapCaption \"Location of airport in Wisconsin", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "tc lid",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair= Water Aerodrome Supplement\"@en", "Cosine=0.994", "triple=e dbp:footnotes  Water Aerodrome Supplement\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"n/a\"@en", "Cosine=0.99", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "2" : [ "pair=\"n/a\"", "Cosine=0.983", "triple=e dbo:runwayDesignation \"n/a\"", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "texas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Texas\"@en", "Cosine=0.994", "triple=e dbp:pushpinMap \"Texas\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"USA Wisconsin#USA\"@en", "Cosine=0.971", "triple=e dbp:pushpinMap \"USA Wisconsin#USA\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of airport in Wisconsin", "Cosine=0.971", "triple=e dbp:pushpinMapCaption \"Location of airport in Wisconsin", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"USA Wisconsin#USA\"@en", "Cosine=0.971", "triple=e dbp:pushpinMap \"USA Wisconsin#USA\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of airport in Wisconsin", "Cosine=0.971", "triple=e dbp:pushpinMapCaption \"Location of airport in Wisconsin", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "wales",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in New South Wales\"@en", "Cosine=0.99", "triple=e dbp:pushpinMapCaption \"Location in New South Wales\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"New South Wales\"@en", "Cosine=0.981", "triple=e dbp:pushpinMap \"New South Wales\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "water",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "Cosine=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"n/a\"", "Cosine=0.992", "triple=e dbo:runwayDesignation \"n/a\"", "class=HR_Airport" ],
+    "2" : [ "pair= Water Aerodrome Supplement\"@en", "Cosine=0.99", "triple=e dbp:footnotes  Water Aerodrome Supplement\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "water aerodrome",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "Cosine=0.987", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"n/a\"", "Cosine=0.98", "triple=e dbo:runwayDesignation \"n/a\"", "class=HR_Airport" ],
+    "2" : [ "pair= Water Aerodrome Supplement\"@en", "Cosine=0.978", "triple=e dbp:footnotes  Water Aerodrome Supplement\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "western",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Western Australia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Western Australia\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location in Western Australia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location in Western Australia\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "western australia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Western Australia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMap \"Western Australia\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location in Western Australia\"@en", "Cosine=1.0", "triple=e dbp:pushpinMapCaption \"Location in Western Australia\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "wisconsin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"USA Wisconsin#USA\"@en", "Cosine=0.992", "triple=e dbp:pushpinMap \"USA Wisconsin#USA\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of airport in Wisconsin", "Cosine=0.992", "triple=e dbp:pushpinMapCaption \"Location of airport in Wisconsin", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "wisconsin united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"USA Wisconsin#USA\"@en", "Cosine=0.971", "triple=e dbp:pushpinMap \"USA Wisconsin#USA\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of airport in Wisconsin", "Cosine=0.971", "triple=e dbp:pushpinMapCaption \"Location of airport in Wisconsin", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "wisconsin united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"USA Wisconsin#USA\"@en", "Cosine=0.971", "triple=e dbp:pushpinMap \"USA Wisconsin#USA\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"Location of airport in Wisconsin", "Cosine=0.971", "triple=e dbp:pushpinMapCaption \"Location of airport in Wisconsin", "class=HR_Airport" ]
+  }
+} ]

@@ -1,0 +1,981 @@
+[ {
+  "id" : 1,
+  "pattern" : "alberta",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Alberta", "Coherence=0.487", "triple=e dbp:location Alberta", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "alpine",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.495", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "alpine lake",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.495", "triple=e dbo:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "area",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Mecklenburgische_Seenplatte_(district", "Coherence=0.497", "triple=e dbo:location Mecklenburgische_Seenplatte_(district", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Mecklenburg-Vorpommern", "Coherence=0.495", "triple=e dbo:location Mecklenburg-Vorpommern", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=\"Mecklenburg-Vorpommern\"@en", "Coherence=0.491", "triple=e dbp:pushpinMap \"Mecklenburg-Vorpommern\"@en", "class=HR_BodyOfWater" ],
+    "3" : [ "pair=Custer_County", "Coherence=0.49", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ],
+    "4" : [ "pair=\"Bolivia\"@en", "Coherence=0.489", "triple=e dbp:basinCountries \"Bolivia\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "bolivia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Bolivia\"@en", "Coherence=0.495", "triple=e dbp:pushpinMap \"Bolivia\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Baie-James", "Coherence=0.5", "triple=e dbp:location Baie-James", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Location in Ontario\"@en", "Coherence=0.497", "triple=e dbp:pushpinMapCaption \"Location in Ontario\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=\"Canada Ontario\"@en", "Coherence=0.496", "triple=e dbp:pushpinMap \"Canada Ontario\"@en", "class=HR_BodyOfWater" ],
+    "3" : [ "pair=Kenora_District", "Coherence=0.495", "triple=e dbp:location Kenora_District", "class=HR_BodyOfWater" ],
+    "4" : [ "pair=\"Uninhabited\"@en", "Coherence=0.49", "triple=e dbp:cities \"Uninhabited\"@en", "class=HR_BodyOfWater" ],
+    "5" : [ "pair=Canada", "Coherence=0.489", "triple=e dbp:countries Canada", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"TrÃ¸ndelag#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"TrÃ¸ndelag#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=TrÃ¸ndelag", "Coherence=0.5", "triple=e dbp:location TrÃ¸ndelag", "class=HR_BodyOfWater" ],
+    "3" : [ "pair=Custer_County", "Coherence=0.5", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ],
+    "4" : [ "pair=Nordland", "Coherence=0.5", "triple=e dbp:location Nordland", "class=HR_BodyOfWater" ],
+    "5" : [ "pair=\"Location of the lake\"@en", "Coherence=0.498", "triple=e dbp:pushpinMapCaption \"Location of the lake\"@en", "class=HR_BodyOfWater" ],
+    "6" : [ "pair=Norwegian_Water_Resources_and_Energy_Directorate", "Coherence=0.498", "triple=e dbp:reference Norwegian_Water_Resources_and_Energy_Directorate", "class=HR_BodyOfWater" ],
+    "7" : [ "pair=\"NVE\"", "Coherence=0.498", "triple=e dbo:quote \"NVE\"", "class=HR_BodyOfWater" ],
+    "8" : [ "pair=\"Nordland#Norway\"@en", "Coherence=0.498", "triple=e dbp:pushpinMap \"Nordland#Norway\"@en", "class=HR_BodyOfWater" ],
+    "9" : [ "pair=\"View of the fjord\"@en", "Coherence=0.497", "triple=e dbp:caption \"View of the fjord\"@en", "class=HR_BodyOfWater" ],
+    "10" : [ "pair=Troms_og_Finnmark", "Coherence=0.496", "triple=e dbo:location Troms_og_Finnmark", "class=HR_BodyOfWater" ],
+    "11" : [ "pair=\"Vestland#Norway\"@en", "Coherence=0.496", "triple=e dbp:pushpinMap \"Vestland#Norway\"@en", "class=HR_BodyOfWater" ],
+    "12" : [ "pair=\"Idaho#USA\"@en", "Coherence=0.493", "triple=e dbp:pushpinMap \"Idaho#USA\"@en", "class=HR_BodyOfWater" ],
+    "13" : [ "pair=Vestland", "Coherence=0.49", "triple=e dbo:location Vestland", "class=HR_BodyOfWater" ],
+    "14" : [ "pair=Norway", "Coherence=0.489", "triple=e dbp:basinCountries Norway", "class=HR_BodyOfWater" ],
+    "15" : [ "pair=\"Location of the fjord\"@en", "Coherence=0.489", "triple=e dbp:pushpinMapCaption \"Location of the fjord\"@en", "class=HR_BodyOfWater" ],
+    "16" : [ "pair=Idaho", "Coherence=0.488", "triple=e dbp:location Idaho", "class=HR_BodyOfWater" ],
+    "17" : [ "pair=\"Location of the lake in Minnesota.\"@en", "Coherence=0.486", "triple=e dbp:pushpinMapAlt \"Location of the lake in Minnesota.\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "county idaho",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.495", "triple=e dbo:location Custer_County", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Idaho#USA\"@en", "Coherence=0.488", "triple=e dbp:pushpinMap \"Idaho#USA\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "county norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Nordland#Norway\"@en", "Coherence=0.498", "triple=e dbp:pushpinMap \"Nordland#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.493", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=TrÃ¸ndelag", "Coherence=0.49", "triple=e dbp:location TrÃ¸ndelag", "class=HR_BodyOfWater" ],
+    "3" : [ "pair=\"TrÃ¸ndelag#Norway\"@en", "Coherence=0.489", "triple=e dbp:pushpinMap \"TrÃ¸ndelag#Norway\"@en", "class=HR_BodyOfWater" ],
+    "4" : [ "pair=Nordland", "Coherence=0.489", "triple=e dbp:location Nordland", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "custer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.5", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "custer county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.5", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "custer county\u001Cidaho",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.495", "triple=e dbo:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "custer county idaho",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.495", "triple=e dbo:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "dakota",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South Dakota#USA\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"South Dakota#USA\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "department",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Bolivia\"@en", "Coherence=0.5", "triple=e dbp:basinCountries \"Bolivia\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Bolivia", "Coherence=0.49", "triple=e dbo:country Bolivia", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "district",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Kenora_District", "Coherence=0.5", "triple=e dbp:location Kenora_District", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "elevation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Mecklenburgische_Seenplatte_(district", "Coherence=0.497", "triple=e dbo:location Mecklenburgische_Seenplatte_(district", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Mecklenburg-Vorpommern\"@en", "Coherence=0.494", "triple=e dbp:pushpinMap \"Mecklenburg-Vorpommern\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=Mecklenburg-Vorpommern", "Coherence=0.491", "triple=e dbo:location Mecklenburg-Vorpommern", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "estonia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Estonia", "Coherence=0.491", "triple=e dbp:basinCountries Estonia", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "finland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Finland\"@en", "Coherence=0.488", "triple=e dbp:pushpinMap \"Finland\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "finnmark",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Troms_og_Finnmark", "Coherence=0.5", "triple=e dbo:location Troms_og_Finnmark", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "finnmark county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Troms_og_Finnmark", "Coherence=0.496", "triple=e dbo:location Troms_og_Finnmark", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "finnmark county norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.493", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "fjord",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"View of the fjord\"@en", "Coherence=0.497", "triple=e dbp:caption \"View of the fjord\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Location of the fjord\"@en", "Coherence=0.494", "triple=e dbp:pushpinMapCaption \"Location of the fjord\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "florida",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Florida#USA\"@en", "Coherence=0.487", "triple=e dbp:pushpinMap \"Florida#USA\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "france",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=France", "Coherence=0.498", "triple=e dbo:country France", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"France\"@en", "Coherence=0.49", "triple=e dbp:basinCountries \"France\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "germany",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Mecklenburgische_Seenplatte_(district", "Coherence=0.493", "triple=e dbo:location Mecklenburgische_Seenplatte_(district", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Mecklenburg-Vorpommern", "Coherence=0.492", "triple=e dbp:location Mecklenburg-Vorpommern", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=Germany", "Coherence=0.492", "triple=e dbo:country Germany", "class=HR_BodyOfWater" ],
+    "3" : [ "pair=\"Mecklenburg-Vorpommern\"@en", "Coherence=0.491", "triple=e dbp:pushpinMap \"Mecklenburg-Vorpommern\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "glacier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Glacier_National_Park_(U.S.", "Coherence=0.495", "triple=e dbp:location Glacier_National_Park_(U.S.", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "glacier national",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Glacier_National_Park_(U.S.", "Coherence=0.495", "triple=e dbp:location Glacier_National_Park_(U.S.", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "glacier national park",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Glacier_National_Park_(U.S.", "Coherence=0.495", "triple=e dbp:location Glacier_National_Park_(U.S.", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "glacier national park\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Glacier_National_Park_(U.S.", "Coherence=0.486", "triple=e dbp:location Glacier_National_Park_(U.S.", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "hampshire",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Hampshire#USA\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"New Hampshire#USA\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "idaho",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Idaho#USA\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Idaho#USA\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Custer_County", "Coherence=0.5", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=Idaho", "Coherence=0.497", "triple=e dbp:location Idaho", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "ireland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Island of Ireland\"@en", "Coherence=0.495", "triple=e dbp:pushpinMap \"Island of Ireland\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Location in Ireland\"@en", "Coherence=0.49", "triple=e dbp:pushpinMapCaption \"Location in Ireland\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "italy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Italy\"@en", "Coherence=0.489", "triple=e dbp:basinCountries \"Italy\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "kenora",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Kenora_District", "Coherence=0.495", "triple=e dbp:location Kenora_District", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "kenora district",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Kenora_District", "Coherence=0.495", "triple=e dbp:location Kenora_District", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "lake",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Minnesota#USA\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Minnesota#USA\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Finland\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Finland\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=\"Idaho#USA\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Idaho#USA\"@en", "class=HR_BodyOfWater" ],
+    "3" : [ "pair=\"Innlandet#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Innlandet#Norway\"@en", "class=HR_BodyOfWater" ],
+    "4" : [ "pair=TrÃ¸ndelag", "Coherence=0.5", "triple=e dbp:location TrÃ¸ndelag", "class=HR_BodyOfWater" ],
+    "5" : [ "pair=Baie-James", "Coherence=0.5", "triple=e dbp:location Baie-James", "class=HR_BodyOfWater" ],
+    "6" : [ "pair=Kenora_District", "Coherence=0.5", "triple=e dbp:location Kenora_District", "class=HR_BodyOfWater" ],
+    "7" : [ "pair=Custer_County", "Coherence=0.5", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ],
+    "8" : [ "pair=Nordland", "Coherence=0.5", "triple=e dbp:location Nordland", "class=HR_BodyOfWater" ],
+    "9" : [ "pair=Schleswig-Holstein", "Coherence=0.5", "triple=e dbo:location Schleswig-Holstein", "class=HR_BodyOfWater" ],
+    "10" : [ "pair=Minnesota", "Coherence=0.5", "triple=e dbo:location Minnesota", "class=HR_BodyOfWater" ],
+    "11" : [ "pair=Bolivia", "Coherence=0.5", "triple=e dbo:country Bolivia", "class=HR_BodyOfWater" ],
+    "12" : [ "pair=\"DecemberâApril\"", "Coherence=0.5", "triple=e dbo:frozen \"DecemberâApril\"", "class=HR_BodyOfWater" ],
+    "13" : [ "pair=\"Bolivia\"@en", "Coherence=0.5", "triple=e dbp:basinCountries \"Bolivia\"@en", "class=HR_BodyOfWater" ],
+    "14" : [ "pair=Finland", "Coherence=0.5", "triple=e dbp:basinCountries Finland", "class=HR_BodyOfWater" ],
+    "15" : [ "pair=\"DecemberâApril\"@en", "Coherence=0.5", "triple=e dbp:frozen \"DecemberâApril\"@en", "class=HR_BodyOfWater" ],
+    "16" : [ "pair=\"natural freshwater lake\"@en", "Coherence=0.5", "triple=e dbp:type \"natural freshwater lake\"@en", "class=HR_BodyOfWater" ],
+    "17" : [ "pair=Norwegian_Water_Resources_and_Energy_Directorate", "Coherence=0.499", "triple=e dbp:reference Norwegian_Water_Resources_and_Energy_Directorate", "class=HR_BodyOfWater" ],
+    "18" : [ "pair=\"NVE\"", "Coherence=0.499", "triple=e dbo:quote \"NVE\"", "class=HR_BodyOfWater" ],
+    "19" : [ "pair=\"Location of the lake\"@en", "Coherence=0.499", "triple=e dbp:pushpinMapCaption \"Location of the lake\"@en", "class=HR_BodyOfWater" ],
+    "20" : [ "pair=\"Location of the lake in Minnesota.\"@en", "Coherence=0.498", "triple=e dbp:pushpinMapAlt \"Location of the lake in Minnesota.\"@en", "class=HR_BodyOfWater" ],
+    "21" : [ "pair=Peru", "Coherence=0.498", "triple=e dbo:location Peru", "class=HR_BodyOfWater" ],
+    "22" : [ "pair=\"Location of the lake in Michigan.\"@en", "Coherence=0.498", "triple=e dbp:pushpinMapAlt \"Location of the lake in Michigan.\"@en", "class=HR_BodyOfWater" ],
+    "23" : [ "pair=Idaho", "Coherence=0.497", "triple=e dbp:location Idaho", "class=HR_BodyOfWater" ],
+    "24" : [ "pair=Estonia", "Coherence=0.497", "triple=e dbp:basinCountries Estonia", "class=HR_BodyOfWater" ],
+    "25" : [ "pair=Glacial_lake", "Coherence=0.497", "triple=e dbo:type Glacial_lake", "class=HR_BodyOfWater" ],
+    "26" : [ "pair=\"Minnesota\"@en", "Coherence=0.497", "triple=e dbp:pushpinMap \"Minnesota\"@en", "class=HR_BodyOfWater" ],
+    "27" : [ "pair=\"Location in Ontario\"@en", "Coherence=0.497", "triple=e dbp:pushpinMapCaption \"Location in Ontario\"@en", "class=HR_BodyOfWater" ],
+    "28" : [ "pair=\"Ontario\"@en", "Coherence=0.497", "triple=e dbp:pushpinMap \"Ontario\"@en", "class=HR_BodyOfWater" ],
+    "29" : [ "pair=Mecklenburgische_Seenplatte_(district", "Coherence=0.497", "triple=e dbo:location Mecklenburgische_Seenplatte_(district", "class=HR_BodyOfWater" ],
+    "30" : [ "pair=\"Canada Ontario\"@en", "Coherence=0.496", "triple=e dbp:pushpinMap \"Canada Ontario\"@en", "class=HR_BodyOfWater" ],
+    "31" : [ "pair=\"South Dakota#USA\"@en", "Coherence=0.496", "triple=e dbp:pushpinMap \"South Dakota#USA\"@en", "class=HR_BodyOfWater" ],
+    "32" : [ "pair=\"Oregon#USA\"@en", "Coherence=0.496", "triple=e dbp:pushpinMap \"Oregon#USA\"@en", "class=HR_BodyOfWater" ],
+    "33" : [ "pair=\"Location of lake in Minnesota.\"@en", "Coherence=0.496", "triple=e dbp:pushpinMapAlt \"Location of lake in Minnesota.\"@en", "class=HR_BodyOfWater" ],
+    "34" : [ "pair=\"Florida#USA\"@en", "Coherence=0.495", "triple=e dbp:pushpinMap \"Florida#USA\"@en", "class=HR_BodyOfWater" ],
+    "35" : [ "pair=\"Lake\"@en", "Coherence=0.495", "triple=e dbp:type \"Lake\"@en", "class=HR_BodyOfWater" ],
+    "36" : [ "pair=Glacier_National_Park_(U.S.", "Coherence=0.495", "triple=e dbp:location Glacier_National_Park_(U.S.", "class=HR_BodyOfWater" ],
+    "37" : [ "pair=Saskatchewan", "Coherence=0.495", "triple=e dbo:location Saskatchewan", "class=HR_BodyOfWater" ],
+    "38" : [ "pair=\"Michigan\"@en", "Coherence=0.495", "triple=e dbp:pushpinMap \"Michigan\"@en", "class=HR_BodyOfWater" ],
+    "39" : [ "pair=Austria", "Coherence=0.495", "triple=e dbp:location Austria", "class=HR_BodyOfWater" ],
+    "40" : [ "pair=\"Nova Scotia\"@en", "Coherence=0.495", "triple=e dbp:pushpinMap \"Nova Scotia\"@en", "class=HR_BodyOfWater" ],
+    "41" : [ "pair=Herkimer_County", "Coherence=0.495", "triple=e dbp:location Herkimer_County", "class=HR_BodyOfWater" ],
+    "42" : [ "pair=\"Mecklenburg-Vorpommern\"@en", "Coherence=0.494", "triple=e dbp:pushpinMap \"Mecklenburg-Vorpommern\"@en", "class=HR_BodyOfWater" ],
+    "43" : [ "pair=\"Peru\"@en", "Coherence=0.494", "triple=e dbp:pushpinMap \"Peru\"@en", "class=HR_BodyOfWater" ],
+    "44" : [ "pair=\"Norway\"@en", "Coherence=0.493", "triple=e dbp:basinCountries \"Norway\"@en", "class=HR_BodyOfWater" ],
+    "45" : [ "pair=\"Italy\"@en", "Coherence=0.493", "triple=e dbp:basinCountries \"Italy\"@en", "class=HR_BodyOfWater" ],
+    "46" : [ "pair=Mecklenburg-Vorpommern", "Coherence=0.492", "triple=e dbo:location Mecklenburg-Vorpommern", "class=HR_BodyOfWater" ],
+    "47" : [ "pair=\"Austria\"@en", "Coherence=0.492", "triple=e dbp:pushpinMap \"Austria\"@en", "class=HR_BodyOfWater" ],
+    "48" : [ "pair=\"Germany\"@en", "Coherence=0.492", "triple=e dbp:basinCountries \"Germany\"@en", "class=HR_BodyOfWater" ],
+    "49" : [ "pair=Freshwater_lake", "Coherence=0.492", "triple=e dbo:type Freshwater_lake", "class=HR_BodyOfWater" ],
+    "50" : [ "pair=Volcanic_crater_lake", "Coherence=0.491", "triple=e dbp:type Volcanic_crater_lake", "class=HR_BodyOfWater" ],
+    "51" : [ "pair=Ontario", "Coherence=0.491", "triple=e dbp:location Ontario", "class=HR_BodyOfWater" ],
+    "52" : [ "pair=China", "Coherence=0.491", "triple=e dbo:country China", "class=HR_BodyOfWater" ],
+    "53" : [ "pair=\"Russia\"@en", "Coherence=0.491", "triple=e dbp:basinCountries \"Russia\"@en", "class=HR_BodyOfWater" ],
+    "54" : [ "pair=\"Alberta\"@en", "Coherence=0.491", "triple=e dbp:pushpinMap \"Alberta\"@en", "class=HR_BodyOfWater" ],
+    "55" : [ "pair=\"Switzerland\"@en", "Coherence=0.491", "triple=e dbp:basinCountries \"Switzerland\"@en", "class=HR_BodyOfWater" ],
+    "56" : [ "pair=British_Columbia", "Coherence=0.49", "triple=e dbo:province British_Columbia", "class=HR_BodyOfWater" ],
+    "57" : [ "pair=British_Columbia_Interior", "Coherence=0.49", "triple=e dbo:locatedInArea British_Columbia_Interior", "class=HR_BodyOfWater" ],
+    "58" : [ "pair=\"Washington#USA\"@en", "Coherence=0.49", "triple=e dbp:pushpinMap \"Washington#USA\"@en", "class=HR_BodyOfWater" ],
+    "59" : [ "pair=Germany", "Coherence=0.49", "triple=e dbo:country Germany", "class=HR_BodyOfWater" ],
+    "60" : [ "pair=Switzerland", "Coherence=0.49", "triple=e dbo:country Switzerland", "class=HR_BodyOfWater" ],
+    "61" : [ "pair=Northland_Region", "Coherence=0.49", "triple=e dbp:location Northland_Region", "class=HR_BodyOfWater" ],
+    "62" : [ "pair=Hamilton_County", "Coherence=0.488", "triple=e dbp:location Hamilton_County", "class=HR_BodyOfWater" ],
+    "63" : [ "pair=Lake", "Coherence=0.488", "triple=e dbo:type Lake", "class=HR_BodyOfWater" ],
+    "64" : [ "pair=Republic_of_Ireland", "Coherence=0.488", "triple=e dbp:basinCountries Republic_of_Ireland", "class=HR_BodyOfWater" ],
+    "65" : [ "pair=Alberta", "Coherence=0.487", "triple=e dbp:location Alberta", "class=HR_BodyOfWater" ],
+    "66" : [ "pair=\"ga\"@en", "Coherence=0.487", "triple=e dbp:nativeNameLang \"ga\"@en", "class=HR_BodyOfWater" ],
+    "67" : [ "pair=Salt_lake", "Coherence=0.487", "triple=e dbo:type Salt_lake", "class=HR_BodyOfWater" ],
+    "68" : [ "pair=\"Location within New York\"@en", "Coherence=0.487", "triple=e dbp:pushpinMapCaption \"Location within New York\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "lake\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location of the lake in Minnesota.\"@en", "Coherence=0.49", "triple=e dbp:pushpinMapAlt \"Location of the lake in Minnesota.\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Location of lake in Minnesota.\"@en", "Coherence=0.49", "triple=e dbp:pushpinMapAlt \"Location of lake in Minnesota.\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "loch",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"freshwater loch\"@en", "Coherence=0.494", "triple=e dbp:type \"freshwater loch\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Loch", "Coherence=0.489", "triple=e dbo:type Loch", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "massachusetts",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Plymouth", "Coherence=0.5", "triple=e dbo:location Plymouth", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Massachusetts#USA\"@en", "Coherence=0.491", "triple=e dbp:pushpinMap \"Massachusetts#USA\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "mecklenburg-vorpommern",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Mecklenburg-Vorpommern", "Coherence=0.498", "triple=e dbp:location Mecklenburg-Vorpommern", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Mecklenburg-Vorpommern\"@en", "Coherence=0.497", "triple=e dbp:pushpinMap \"Mecklenburg-Vorpommern\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=Mecklenburgische_Seenplatte_(district", "Coherence=0.497", "triple=e dbo:location Mecklenburgische_Seenplatte_(district", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "mecklenburgische",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Mecklenburgische_Seenplatte_(district", "Coherence=0.493", "triple=e dbo:location Mecklenburgische_Seenplatte_(district", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "mecklenburgische seenplatte",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Mecklenburgische_Seenplatte_(district", "Coherence=0.493", "triple=e dbo:location Mecklenburgische_Seenplatte_(district", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "michigan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location of the lake in Michigan.\"@en", "Coherence=0.492", "triple=e dbp:pushpinMapAlt \"Location of the lake in Michigan.\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Michigan\"@en", "Coherence=0.491", "triple=e dbp:pushpinMap \"Michigan\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "minnesota",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location of the lake in Minnesota.\"@en", "Coherence=0.5", "triple=e dbp:pushpinMapAlt \"Location of the lake in Minnesota.\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Minnesota\"@en", "Coherence=0.496", "triple=e dbp:pushpinMap \"Minnesota\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=\"Minnesota#USA\"@en", "Coherence=0.496", "triple=e dbp:pushpinMap \"Minnesota#USA\"@en", "class=HR_BodyOfWater" ],
+    "3" : [ "pair=\"Location of lake in Minnesota.\"@en", "Coherence=0.494", "triple=e dbp:pushpinMapAlt \"Location of lake in Minnesota.\"@en", "class=HR_BodyOfWater" ],
+    "4" : [ "pair=Minnesota", "Coherence=0.488", "triple=e dbo:location Minnesota", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "montana",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Glacier_National_Park_(U.S.", "Coherence=0.5", "triple=e dbp:location Glacier_National_Park_(U.S.", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Montana#USA\"@en", "Coherence=0.492", "triple=e dbp:pushpinMap \"Montana#USA\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "mountains",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.5", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "national",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.5", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Glacier_National_Park_(U.S.", "Coherence=0.495", "triple=e dbp:location Glacier_National_Park_(U.S.", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=\"Idaho#USA\"@en", "Coherence=0.491", "triple=e dbp:pushpinMap \"Idaho#USA\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "national park",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Glacier_National_Park_(U.S.", "Coherence=0.495", "triple=e dbp:location Glacier_National_Park_(U.S.", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "national recreation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.49", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "national recreation area",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.49", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "new hampshire",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Hampshire#USA\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"New Hampshire#USA\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "new york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Herkimer_County", "Coherence=0.5", "triple=e dbp:location Herkimer_County", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"New York#USA\"@en", "Coherence=0.497", "triple=e dbp:pushpinMap \"New York#USA\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=\"New York\"@en", "Coherence=0.496", "triple=e dbp:pushpinMap \"New York\"@en", "class=HR_BodyOfWater" ],
+    "3" : [ "pair=New_York_(state", "Coherence=0.493", "triple=e dbo:location New_York_(state", "class=HR_BodyOfWater" ],
+    "4" : [ "pair=\"New York Adirondack Park#USA\"@en", "Coherence=0.489", "triple=e dbp:pushpinMap \"New York Adirondack Park#USA\"@en", "class=HR_BodyOfWater" ],
+    "5" : [ "pair=Hamilton_County", "Coherence=0.488", "triple=e dbp:location Hamilton_County", "class=HR_BodyOfWater" ],
+    "6" : [ "pair=\"Location within New York\"@en", "Coherence=0.488", "triple=e dbp:pushpinMapCaption \"Location within New York\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "new zealand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Northland_Region", "Coherence=0.49", "triple=e dbp:location Northland_Region", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "nordland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Nordland#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Nordland#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Nordland", "Coherence=0.5", "triple=e dbp:location Nordland", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "nordland county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "Coherence=0.5", "triple=e dbp:location Nordland", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Nordland#Norway\"@en", "Coherence=0.498", "triple=e dbp:pushpinMap \"Nordland#Norway\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "nordland county\u001Cnorway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Nordland#Norway\"@en", "Coherence=0.492", "triple=e dbp:pushpinMap \"Nordland#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Nordland", "Coherence=0.489", "triple=e dbp:location Nordland", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "nordland county norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Nordland#Norway\"@en", "Coherence=0.498", "triple=e dbp:pushpinMap \"Nordland#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Nordland", "Coherence=0.489", "triple=e dbp:location Nordland", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "northland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Northland_Region", "Coherence=0.495", "triple=e dbp:location Northland_Region", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "northland region",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Northland_Region", "Coherence=0.49", "triple=e dbp:location Northland_Region", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Nordland#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Nordland#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=\"Vestland#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Vestland#Norway\"@en", "class=HR_BodyOfWater" ],
+    "3" : [ "pair=\"View of the fjord\"@en", "Coherence=0.5", "triple=e dbp:caption \"View of the fjord\"@en", "class=HR_BodyOfWater" ],
+    "4" : [ "pair=TrÃ¸ndelag", "Coherence=0.5", "triple=e dbp:location TrÃ¸ndelag", "class=HR_BodyOfWater" ],
+    "5" : [ "pair=Nordland", "Coherence=0.5", "triple=e dbp:location Nordland", "class=HR_BodyOfWater" ],
+    "6" : [ "pair=Troms_og_Finnmark", "Coherence=0.5", "triple=e dbo:location Troms_og_Finnmark", "class=HR_BodyOfWater" ],
+    "7" : [ "pair=\"Location of the lake\"@en", "Coherence=0.5", "triple=e dbp:pushpinMapCaption \"Location of the lake\"@en", "class=HR_BodyOfWater" ],
+    "8" : [ "pair=\"Location of the fjord\"@en", "Coherence=0.498", "triple=e dbp:pushpinMapCaption \"Location of the fjord\"@en", "class=HR_BodyOfWater" ],
+    "9" : [ "pair=Norwegian_Water_Resources_and_Energy_Directorate", "Coherence=0.498", "triple=e dbp:reference Norwegian_Water_Resources_and_Energy_Directorate", "class=HR_BodyOfWater" ],
+    "10" : [ "pair=\"NVE\"", "Coherence=0.498", "triple=e dbo:quote \"NVE\"", "class=HR_BodyOfWater" ],
+    "11" : [ "pair=Vestland", "Coherence=0.497", "triple=e dbo:location Vestland", "class=HR_BodyOfWater" ],
+    "12" : [ "pair=\"TrÃ¸ndelag#Norway\"@en", "Coherence=0.496", "triple=e dbp:pushpinMap \"TrÃ¸ndelag#Norway\"@en", "class=HR_BodyOfWater" ],
+    "13" : [ "pair=Norway", "Coherence=0.496", "triple=e dbo:location Norway", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "nova",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Nova Scotia\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Nova Scotia\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Nova_Scotia", "Coherence=0.497", "triple=e dbo:location Nova_Scotia", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "nova scotia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Nova Scotia\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Nova Scotia\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Nova_Scotia", "Coherence=0.491", "triple=e dbo:location Nova_Scotia", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "nunavut",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Uninhabited\"@en", "Coherence=0.493", "triple=e dbp:cities \"Uninhabited\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "nunavut canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Uninhabited\"@en", "Coherence=0.49", "triple=e dbp:cities \"Uninhabited\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "og finnmark",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Troms_og_Finnmark", "Coherence=0.5", "triple=e dbo:location Troms_og_Finnmark", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "og finnmark county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Troms_og_Finnmark", "Coherence=0.496", "triple=e dbo:location Troms_og_Finnmark", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "og finnmark county\u001Cnorway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.493", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "ontario",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Ontario\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Ontario\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Kenora_District", "Coherence=0.5", "triple=e dbp:location Kenora_District", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=\"Location in Ontario\"@en", "Coherence=0.5", "triple=e dbp:pushpinMapCaption \"Location in Ontario\"@en", "class=HR_BodyOfWater" ],
+    "3" : [ "pair=\"Canada Ontario\"@en", "Coherence=0.498", "triple=e dbp:pushpinMap \"Canada Ontario\"@en", "class=HR_BodyOfWater" ],
+    "4" : [ "pair=Ontario", "Coherence=0.494", "triple=e dbp:location Ontario", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "ontario canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Location in Ontario\"@en", "Coherence=0.497", "triple=e dbp:pushpinMapCaption \"Location in Ontario\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Canada Ontario\"@en", "Coherence=0.495", "triple=e dbp:pushpinMap \"Canada Ontario\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=Kenora_District", "Coherence=0.49", "triple=e dbp:location Kenora_District", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "oregon",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Oregon#USA\"@en", "Coherence=0.496", "triple=e dbp:pushpinMap \"Oregon#USA\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "park",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Glacier_National_Park_(U.S.", "Coherence=0.495", "triple=e dbp:location Glacier_National_Park_(U.S.", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "peru",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Peru", "Coherence=0.498", "triple=e dbo:location Peru", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Peru\"@en", "Coherence=0.491", "triple=e dbp:basinCountries \"Peru\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "plymouth",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Plymouth", "Coherence=0.5", "triple=e dbo:location Plymouth", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "plymouth massachusetts",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Plymouth", "Coherence=0.495", "triple=e dbo:location Plymouth", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "pond",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Plymouth", "Coherence=0.49", "triple=e dbo:location Plymouth", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "province",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Peru", "Coherence=0.494", "triple=e dbp:location Peru", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "quebec",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Baie-James", "Coherence=0.5", "triple=e dbp:location Baie-James", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "recreation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.49", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "recreation area",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.49", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "region",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Peru", "Coherence=0.493", "triple=e dbp:location Peru", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Northland_Region", "Coherence=0.49", "triple=e dbp:location Northland_Region", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "saskatchewan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Saskatchewan", "Coherence=0.491", "triple=e dbo:location Saskatchewan", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "sawtooth",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.49", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "sawtooth national",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.49", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "sawtooth national recreation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.49", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "sawtooth national recreation\u001Carea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.49", "triple=e dbp:location Custer_County", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "scotia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Nova Scotia\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Nova Scotia\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Nova_Scotia", "Coherence=0.491", "triple=e dbo:location Nova_Scotia", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "seenplatte",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Mecklenburgische_Seenplatte_(district", "Coherence=0.493", "triple=e dbo:location Mecklenburgische_Seenplatte_(district", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South Dakota#USA\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"South Dakota#USA\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "south dakota",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South Dakota#USA\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"South Dakota#USA\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 92,
+  "pattern" : "state",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Glacier_National_Park_(U.S.", "Coherence=0.486", "triple=e dbp:location Glacier_National_Park_(U.S.", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.5", "triple=e dbo:location Custer_County", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Idaho#USA\"@en", "Coherence=0.493", "triple=e dbp:pushpinMap \"Idaho#USA\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=Idaho", "Coherence=0.488", "triple=e dbp:location Idaho", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 94,
+  "pattern" : "surface",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Mecklenburg-Vorpommern\"@en", "Coherence=0.494", "triple=e dbp:pushpinMap \"Mecklenburg-Vorpommern\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Mecklenburgische_Seenplatte_(district", "Coherence=0.493", "triple=e dbo:location Mecklenburgische_Seenplatte_(district", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=Mecklenburg-Vorpommern", "Coherence=0.492", "triple=e dbp:location Mecklenburg-Vorpommern", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 95,
+  "pattern" : "surface area",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Mecklenburgische_Seenplatte_(district", "Coherence=0.49", "triple=e dbo:location Mecklenburgische_Seenplatte_(district", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Mecklenburg-Vorpommern\"@en", "Coherence=0.488", "triple=e dbp:pushpinMap \"Mecklenburg-Vorpommern\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=Mecklenburg-Vorpommern", "Coherence=0.488", "triple=e dbp:location Mecklenburg-Vorpommern", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "switzerland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Switzerland", "Coherence=0.5", "triple=e dbo:country Switzerland", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 97,
+  "pattern" : "troms",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Troms_og_Finnmark", "Coherence=0.5", "triple=e dbo:location Troms_og_Finnmark", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 98,
+  "pattern" : "troms og",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Troms_og_Finnmark", "Coherence=0.5", "triple=e dbo:location Troms_og_Finnmark", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 99,
+  "pattern" : "troms og\u001Cfinnmark",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.489", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Troms_og_Finnmark", "Coherence=0.487", "triple=e dbo:location Troms_og_Finnmark", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 100,
+  "pattern" : "troms og\u001Cfinnmark\u001Ccounty",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.489", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Troms_og_Finnmark", "Coherence=0.487", "triple=e dbo:location Troms_og_Finnmark", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 101,
+  "pattern" : "troms og finnmark",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Troms_og_Finnmark", "Coherence=0.5", "triple=e dbo:location Troms_og_Finnmark", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 102,
+  "pattern" : "troms og finnmark\u001Ccounty",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Troms_og_Finnmark", "Coherence=0.496", "triple=e dbo:location Troms_og_Finnmark", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 103,
+  "pattern" : "troms og finnmark\u001Ccounty\u001Cnorway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Troms og Finnmark#Norway\"@en", "Coherence=0.493", "triple=e dbp:pushpinMap \"Troms og Finnmark#Norway\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 104,
+  "pattern" : "trã¸ndelag",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"TrÃ¸ndelag#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"TrÃ¸ndelag#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=TrÃ¸ndelag", "Coherence=0.5", "triple=e dbp:location TrÃ¸ndelag", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "trã¸ndelag county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"TrÃ¸ndelag#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"TrÃ¸ndelag#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=TrÃ¸ndelag", "Coherence=0.5", "triple=e dbp:location TrÃ¸ndelag", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 106,
+  "pattern" : "trã¸ndelag county\u001Cnorway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TrÃ¸ndelag", "Coherence=0.49", "triple=e dbp:location TrÃ¸ndelag", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"TrÃ¸ndelag#Norway\"@en", "Coherence=0.489", "triple=e dbp:pushpinMap \"TrÃ¸ndelag#Norway\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 107,
+  "pattern" : "trã¸ndelag county norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TrÃ¸ndelag", "Coherence=0.49", "triple=e dbp:location TrÃ¸ndelag", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"TrÃ¸ndelag#Norway\"@en", "Coherence=0.489", "triple=e dbp:pushpinMap \"TrÃ¸ndelag#Norway\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 108,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.5", "triple=e dbo:location Custer_County", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Idaho#USA\"@en", "Coherence=0.493", "triple=e dbp:pushpinMap \"Idaho#USA\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=Idaho", "Coherence=0.488", "triple=e dbp:location Idaho", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 109,
+  "pattern" : "united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Custer_County", "Coherence=0.5", "triple=e dbo:location Custer_County", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"Idaho#USA\"@en", "Coherence=0.493", "triple=e dbp:pushpinMap \"Idaho#USA\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=Idaho", "Coherence=0.488", "triple=e dbp:location Idaho", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 110,
+  "pattern" : "vestland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Vestland#Norway\"@en", "Coherence=0.5", "triple=e dbp:pushpinMap \"Vestland#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Vestland", "Coherence=0.5", "triple=e dbo:location Vestland", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 111,
+  "pattern" : "vestland county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Vestland#Norway\"@en", "Coherence=0.492", "triple=e dbp:pushpinMap \"Vestland#Norway\"@en", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=Vestland", "Coherence=0.487", "triple=e dbo:location Vestland", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 112,
+  "pattern" : "washington",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Washington#USA\"@en", "Coherence=0.493", "triple=e dbp:pushpinMap \"Washington#USA\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 113,
+  "pattern" : "york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Herkimer_County", "Coherence=0.5", "triple=e dbp:location Herkimer_County", "class=HR_BodyOfWater" ],
+    "1" : [ "pair=\"New York#USA\"@en", "Coherence=0.497", "triple=e dbp:pushpinMap \"New York#USA\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=\"New York\"@en", "Coherence=0.496", "triple=e dbp:pushpinMap \"New York\"@en", "class=HR_BodyOfWater" ],
+    "3" : [ "pair=New_York_(state", "Coherence=0.493", "triple=e dbo:location New_York_(state", "class=HR_BodyOfWater" ],
+    "4" : [ "pair=\"New York Adirondack Park#USA\"@en", "Coherence=0.489", "triple=e dbp:pushpinMap \"New York Adirondack Park#USA\"@en", "class=HR_BodyOfWater" ],
+    "5" : [ "pair=Hamilton_County", "Coherence=0.488", "triple=e dbp:location Hamilton_County", "class=HR_BodyOfWater" ],
+    "6" : [ "pair=\"Location within New York\"@en", "Coherence=0.488", "triple=e dbp:pushpinMapCaption \"Location within New York\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 114,
+  "pattern" : "zealand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Northland_Region", "Coherence=0.49", "triple=e dbp:location Northland_Region", "class=HR_BodyOfWater" ]
+  }
+} ]

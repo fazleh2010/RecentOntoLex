@@ -1,0 +1,24 @@
+[ {
+  "id" : 3,
+  "pattern" : "based",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.967", "triple=e dbp:subject \"@en", "class=HR_Book" ],
+    "1" : [ "pair=BBC_Books", "Cosine=0.955", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "based on\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"@en", "Cosine=0.911", "triple=e dbp:series \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "written",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=BBC_Books", "Cosine=0.945", "triple=e dbp:publisher BBC_Books", "class=HR_Book" ],
+    "1" : [ "pair=\"@en", "Cosine=0.933", "triple=e dbp:subject \"@en", "class=HR_Book" ]
+  }
+} ]

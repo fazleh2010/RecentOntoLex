@@ -1,0 +1,33 @@
+[ {
+  "id" : 2,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"lightblue\"@en", "Coherence=0.491", "triple=e dbp:headercolor \"lightblue\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=Track_and_field", "Coherence=0.471", "triple=e dbp:sport Track_and_field", "class=HR_Athlete" ],
+    "2" : [ "pair=Sport_of_athletics", "Coherence=0.47", "triple=e dbp:sport Sport_of_athletics", "class=HR_Athlete" ],
+    "3" : [ "pair=\"lightsteelblue\"@en", "Coherence=0.469", "triple=e dbp:headercolor \"lightsteelblue\"@en", "class=HR_Athlete" ],
+    "4" : [ "pair=Olympic_weightlifting", "Coherence=0.459", "triple=e dbp:sport Olympic_weightlifting", "class=HR_Athlete" ],
+    "5" : [ "pair=Rowing_(sport", "Coherence=0.45", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "6" : [ "pair=\"Sprinting\"@en", "Coherence=0.449", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "competed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Sprinting\"@en", "Coherence=0.495", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=Gymnastics", "Coherence=0.491", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "2" : [ "pair=Boxing", "Coherence=0.489", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "3" : [ "pair=Rowing_(sport", "Coherence=0.477", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "4" : [ "pair=Shooting_sports", "Coherence=0.455", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ],
+    "5" : [ "pair=Wrestling", "Coherence=0.448", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "competed in\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Boxing", "Coherence=0.464", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+} ]

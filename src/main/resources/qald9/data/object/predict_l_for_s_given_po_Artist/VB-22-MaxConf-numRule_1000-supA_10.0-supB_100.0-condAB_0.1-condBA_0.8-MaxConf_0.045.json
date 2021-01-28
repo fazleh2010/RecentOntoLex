@@ -1,0 +1,170 @@
+[ {
+  "id" : 22,
+  "pattern" : "best known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=United_States", "MaxConf=1.0", "triple=e dbp:nationality United_States", "class=HR_Artist" ],
+    "1" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ],
+    "2" : [ "pair=\"British\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"British\"@en", "class=HR_Artist" ],
+    "3" : [ "pair=Sculpture", "MaxConf=1.0", "triple=e dbp:field Sculpture", "class=HR_Artist" ],
+    "4" : [ "pair=Musician", "MaxConf=1.0", "triple=e dbo:occupation Musician", "class=HR_MusicalArtist" ],
+    "5" : [ "pair=Songwriter", "MaxConf=1.0", "triple=e dbo:occupation Songwriter", "class=HR_MusicalArtist" ],
+    "6" : [ "pair=Record_producer", "MaxConf=1.0", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ],
+    "7" : [ "pair=Bass_guitar", "MaxConf=1.0", "triple=e dbo:instrument Bass_guitar", "class=HR_MusicalArtist" ],
+    "8" : [ "pair=Singing", "MaxConf=1.0", "triple=e dbo:instrument Singing", "class=HR_MusicalArtist" ],
+    "9" : [ "pair=Vocals", "MaxConf=1.0", "triple=e dbo:instrument Vocals", "class=HR_MusicalArtist" ],
+    "10" : [ "pair=Guitar", "MaxConf=1.0", "triple=e dbo:instrument Guitar", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "better known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Rapping", "MaxConf=1.0", "triple=e dbo:occupation Rapping", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Songwriter", "MaxConf=1.0", "triple=e dbo:occupation Songwriter", "class=HR_MusicalArtist" ],
+    "2" : [ "pair=Rapper", "MaxConf=1.0", "triple=e dbo:occupation Rapper", "class=HR_MusicalArtist" ],
+    "3" : [ "pair=Record_producer", "MaxConf=1.0", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "better known by\u001Chis",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Rapping", "MaxConf=1.0", "triple=e dbo:occupation Rapping", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Rapper", "MaxConf=1.0", "triple=e dbo:occupation Rapper", "class=HR_MusicalArtist" ],
+    "2" : [ "pair=Record_producer", "MaxConf=1.0", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=England", "MaxConf=1.0", "triple=e dbo:birthPlace England", "class=HR_Artist" ],
+    "1" : [ "pair=New_York_City", "MaxConf=1.0", "triple=e dbo:birthPlace New_York_City", "class=HR_Artist" ],
+    "2" : [ "pair=United_States", "MaxConf=1.0", "triple=e dbo:birthPlace United_States", "class=HR_Artist" ],
+    "3" : [ "pair=\"French\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"French\"@en", "class=HR_Artist" ],
+    "4" : [ "pair=\"German\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"German\"@en", "class=HR_Artist" ],
+    "5" : [ "pair=\"Canadian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Canadian\"@en", "class=HR_Artist" ],
+    "6" : [ "pair=Americans", "MaxConf=1.0", "triple=e dbp:nationality Americans", "class=HR_Artist" ],
+    "7" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ],
+    "8" : [ "pair=\"Australian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Australian\"@en", "class=HR_Artist" ],
+    "9" : [ "pair=\"British\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"British\"@en", "class=HR_Artist" ],
+    "10" : [ "pair=Canadians", "MaxConf=1.0", "triple=e dbp:nationality Canadians", "class=HR_Artist" ],
+    "11" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:fixAttempted \"yes\"@en", "class=HR_Artist" ],
+    "12" : [ "pair=\"InternetArchiveBot\"@en", "MaxConf=1.0", "triple=e dbp:bot \"InternetArchiveBot\"@en", "class=HR_Artist" ],
+    "13" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:spouse \"\"@en", "class=HR_Artist" ],
+    "14" : [ "pair=Installation_art", "MaxConf=1.0", "triple=e dbp:field Installation_art", "class=HR_Artist" ],
+    "15" : [ "pair=Drawing", "MaxConf=1.0", "triple=e dbp:field Drawing", "class=HR_Artist" ],
+    "16" : [ "pair=Sculpture", "MaxConf=1.0", "triple=e dbp:field Sculpture", "class=HR_Artist" ],
+    "17" : [ "pair=\"Painting\"@en", "MaxConf=1.0", "triple=e dbp:field \"Painting\"@en", "class=HR_Artist" ],
+    "18" : [ "pair=Photography", "MaxConf=1.0", "triple=e dbp:field Photography", "class=HR_Artist" ],
+    "19" : [ "pair=Columbia_Records", "MaxConf=1.0", "triple=e dbo:recordLabel Columbia_Records", "class=HR_MusicalArtist" ],
+    "20" : [ "pair=Warner_Bros._Records", "MaxConf=1.0", "triple=e dbo:recordLabel Warner_Bros._Records", "class=HR_MusicalArtist" ],
+    "21" : [ "pair=Epic_Records", "MaxConf=1.0", "triple=e dbo:recordLabel Epic_Records", "class=HR_MusicalArtist" ],
+    "22" : [ "pair=EMI", "MaxConf=1.0", "triple=e dbo:recordLabel EMI", "class=HR_MusicalArtist" ],
+    "23" : [ "pair=Atlantic_Records", "MaxConf=1.0", "triple=e dbo:recordLabel Atlantic_Records", "class=HR_MusicalArtist" ],
+    "24" : [ "pair=Capitol_Records", "MaxConf=1.0", "triple=e dbo:recordLabel Capitol_Records", "class=HR_MusicalArtist" ],
+    "25" : [ "pair=RCA_Records", "MaxConf=1.0", "triple=e dbo:recordLabel RCA_Records", "class=HR_MusicalArtist" ],
+    "26" : [ "pair=Rapping", "MaxConf=1.0", "triple=e dbo:occupation Rapping", "class=HR_MusicalArtist" ],
+    "27" : [ "pair=Musician", "MaxConf=1.0", "triple=e dbo:occupation Musician", "class=HR_MusicalArtist" ],
+    "28" : [ "pair=Songwriter", "MaxConf=1.0", "triple=e dbo:occupation Songwriter", "class=HR_MusicalArtist" ],
+    "29" : [ "pair=Rapper", "MaxConf=1.0", "triple=e dbo:occupation Rapper", "class=HR_MusicalArtist" ],
+    "30" : [ "pair=Composer", "MaxConf=1.0", "triple=e dbo:occupation Composer", "class=HR_MusicalArtist" ],
+    "31" : [ "pair=Record_producer", "MaxConf=1.0", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ],
+    "32" : [ "pair=Singing", "MaxConf=1.0", "triple=e dbo:occupation Singing", "class=HR_MusicalArtist" ],
+    "33" : [ "pair=Bass_guitar", "MaxConf=1.0", "triple=e dbo:instrument Bass_guitar", "class=HR_MusicalArtist" ],
+    "34" : [ "pair=Piano", "MaxConf=1.0", "triple=e dbo:instrument Piano", "class=HR_MusicalArtist" ],
+    "35" : [ "pair=Drum_kit", "MaxConf=1.0", "triple=e dbo:instrument Drum_kit", "class=HR_MusicalArtist" ],
+    "36" : [ "pair=Keyboard_instrument", "MaxConf=1.0", "triple=e dbo:instrument Keyboard_instrument", "class=HR_MusicalArtist" ],
+    "37" : [ "pair=Violin", "MaxConf=1.0", "triple=e dbo:instrument Violin", "class=HR_MusicalArtist" ],
+    "38" : [ "pair=Vocals", "MaxConf=1.0", "triple=e dbo:instrument Vocals", "class=HR_MusicalArtist" ],
+    "39" : [ "pair=Guitar", "MaxConf=1.0", "triple=e dbo:instrument Guitar", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "including",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Record_producer", "MaxConf=1.0", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=England", "MaxConf=1.0", "triple=e dbo:birthPlace England", "class=HR_Artist" ],
+    "1" : [ "pair=United_States", "MaxConf=1.0", "triple=e dbo:birthPlace United_States", "class=HR_Artist" ],
+    "2" : [ "pair=\"French\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"French\"@en", "class=HR_Artist" ],
+    "3" : [ "pair=\"Canadian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Canadian\"@en", "class=HR_Artist" ],
+    "4" : [ "pair=Americans", "MaxConf=1.0", "triple=e dbp:nationality Americans", "class=HR_Artist" ],
+    "5" : [ "pair=\"American\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ],
+    "6" : [ "pair=\"Australian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Australian\"@en", "class=HR_Artist" ],
+    "7" : [ "pair=\"British\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"British\"@en", "class=HR_Artist" ],
+    "8" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:spouse \"\"@en", "class=HR_Artist" ],
+    "9" : [ "pair=Drawing", "MaxConf=1.0", "triple=e dbp:field Drawing", "class=HR_Artist" ],
+    "10" : [ "pair=Sculpture", "MaxConf=1.0", "triple=e dbp:field Sculpture", "class=HR_Artist" ],
+    "11" : [ "pair=\"Painting\"@en", "MaxConf=1.0", "triple=e dbp:field \"Painting\"@en", "class=HR_Artist" ],
+    "12" : [ "pair=Photography", "MaxConf=1.0", "triple=e dbp:field Photography", "class=HR_Artist" ],
+    "13" : [ "pair=Painting", "MaxConf=1.0", "triple=e dbp:field Painting", "class=HR_Artist" ],
+    "14" : [ "pair=Columbia_Records", "MaxConf=1.0", "triple=e dbo:recordLabel Columbia_Records", "class=HR_MusicalArtist" ],
+    "15" : [ "pair=Warner_Bros._Records", "MaxConf=1.0", "triple=e dbo:recordLabel Warner_Bros._Records", "class=HR_MusicalArtist" ],
+    "16" : [ "pair=Atlantic_Records", "MaxConf=1.0", "triple=e dbo:recordLabel Atlantic_Records", "class=HR_MusicalArtist" ],
+    "17" : [ "pair=Capitol_Records", "MaxConf=1.0", "triple=e dbo:recordLabel Capitol_Records", "class=HR_MusicalArtist" ],
+    "18" : [ "pair=RCA_Records", "MaxConf=1.0", "triple=e dbo:recordLabel RCA_Records", "class=HR_MusicalArtist" ],
+    "19" : [ "pair=Rapping", "MaxConf=1.0", "triple=e dbo:occupation Rapping", "class=HR_MusicalArtist" ],
+    "20" : [ "pair=Musician", "MaxConf=1.0", "triple=e dbo:occupation Musician", "class=HR_MusicalArtist" ],
+    "21" : [ "pair=Songwriter", "MaxConf=1.0", "triple=e dbo:occupation Songwriter", "class=HR_MusicalArtist" ],
+    "22" : [ "pair=Rapper", "MaxConf=1.0", "triple=e dbo:occupation Rapper", "class=HR_MusicalArtist" ],
+    "23" : [ "pair=Composer", "MaxConf=1.0", "triple=e dbo:occupation Composer", "class=HR_MusicalArtist" ],
+    "24" : [ "pair=Record_producer", "MaxConf=1.0", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ],
+    "25" : [ "pair=Singing", "MaxConf=1.0", "triple=e dbo:occupation Singing", "class=HR_MusicalArtist" ],
+    "26" : [ "pair=Bass_guitar", "MaxConf=1.0", "triple=e dbo:instrument Bass_guitar", "class=HR_MusicalArtist" ],
+    "27" : [ "pair=Piano", "MaxConf=1.0", "triple=e dbo:instrument Piano", "class=HR_MusicalArtist" ],
+    "28" : [ "pair=Drum_kit", "MaxConf=1.0", "triple=e dbo:instrument Drum_kit", "class=HR_MusicalArtist" ],
+    "29" : [ "pair=Keyboard_instrument", "MaxConf=1.0", "triple=e dbo:instrument Keyboard_instrument", "class=HR_MusicalArtist" ],
+    "30" : [ "pair=Vocals", "MaxConf=1.0", "triple=e dbo:instrument Vocals", "class=HR_MusicalArtist" ],
+    "31" : [ "pair=Guitar", "MaxConf=1.0", "triple=e dbo:instrument Guitar", "class=HR_MusicalArtist" ],
+    "32" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:landscape \"yes\"@en", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "lived",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Saint_Petersburg", "MaxConf=1.0", "triple=e dbp:deathPlace Saint_Petersburg", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Record_producer", "MaxConf=1.0", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "recording",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Record_producer", "MaxConf=1.0", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "released",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Songwriter", "MaxConf=1.0", "triple=e dbo:occupation Songwriter", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Rapper", "MaxConf=1.0", "triple=e dbo:occupation Rapper", "class=HR_MusicalArtist" ],
+    "2" : [ "pair=Record_producer", "MaxConf=1.0", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ],
+    "3" : [ "pair=Singing", "MaxConf=1.0", "triple=e dbo:occupation Singing", "class=HR_MusicalArtist" ],
+    "4" : [ "pair=Vocals", "MaxConf=1.0", "triple=e dbo:instrument Vocals", "class=HR_MusicalArtist" ],
+    "5" : [ "pair=Guitar", "MaxConf=1.0", "triple=e dbo:instrument Guitar", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 102,
+  "pattern" : "worked",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Saint_Petersburg", "MaxConf=1.0", "triple=e dbp:deathPlace Saint_Petersburg", "class=HR_Artist" ],
+    "1" : [ "pair=Sculpture", "MaxConf=1.0", "triple=e dbp:field Sculpture", "class=HR_Artist" ]
+  }
+} ]

@@ -1,0 +1,141 @@
+[ {
+  "id" : 1,
+  "pattern" : "active",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Parish_church", "MaxConf=1.0", "triple=e dbp:status Parish_church", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "anglican",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Parish_church", "MaxConf=1.0", "triple=e dbp:status Parish_church", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "built in\u001Ca\u001Clong",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Chapel", "MaxConf=1.0", "triple=e dbp:status Chapel", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "gable",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Virginia Landmarks Register\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "historic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:nocat \"yes\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"Virginia Landmarks Register\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ],
+    "3" : [ "pair=\"bottom\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1NumPosition \"bottom\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 126,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:nocat \"yes\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"Virginia Landmarks Register\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ],
+    "3" : [ "pair=\"bottom\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1NumPosition \"bottom\"@en", "class=HR_Building" ],
+    "4" : [ "pair=Chapel", "MaxConf=1.0", "triple=e dbp:status Chapel", "class=HR_HistoricBuilding" ],
+    "5" : [ "pair=Parish_church", "MaxConf=1.0", "triple=e dbp:status Parish_church", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 127,
+  "pattern" : "located\u001Cin",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Chapel", "MaxConf=1.0", "triple=e dbp:status Chapel", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 128,
+  "pattern" : "located\u001Cin\u001Cthe",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Chapel", "MaxConf=1.0", "triple=e dbp:status Chapel", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 129,
+  "pattern" : "located in\u001Cthe",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Chapel", "MaxConf=1.0", "triple=e dbp:status Chapel", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 131,
+  "pattern" : "located near",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Virginia Landmarks Register\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"bottom\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1NumPosition \"bottom\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 145,
+  "pattern" : "national\u001Chistoric",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:nocat \"yes\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 150,
+  "pattern" : "national historic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "MaxConf=1.0", "triple=e dbp:nocat \"yes\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 170,
+  "pattern" : "norwegian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Chapel", "MaxConf=1.0", "triple=e dbp:status Chapel", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Parish_church", "MaxConf=1.0", "triple=e dbp:status Parish_church", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 172,
+  "pattern" : "original",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Virginia Landmarks Register\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 204,
+  "pattern" : "two-story",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Virginia Landmarks Register\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"bottom\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1NumPosition \"bottom\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 212,
+  "pattern" : "white",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Chapel", "MaxConf=1.0", "triple=e dbp:status Chapel", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Parish_church", "MaxConf=1.0", "triple=e dbp:status Parish_church", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 213,
+  "pattern" : "white wooden",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Chapel", "MaxConf=1.0", "triple=e dbp:status Chapel", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Parish_church", "MaxConf=1.0", "triple=e dbp:status Parish_church", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 215,
+  "pattern" : "wooden",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Chapel", "MaxConf=1.0", "triple=e dbp:status Chapel", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Parish_church", "MaxConf=1.0", "triple=e dbp:status Parish_church", "class=HR_HistoricBuilding" ]
+  }
+} ]

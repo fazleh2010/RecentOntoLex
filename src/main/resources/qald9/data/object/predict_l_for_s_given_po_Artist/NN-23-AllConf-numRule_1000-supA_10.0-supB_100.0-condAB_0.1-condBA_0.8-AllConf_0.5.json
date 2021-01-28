@@ -1,0 +1,293 @@
+[ {
+  "id" : 1,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=New_York_City", "AllConf=0.853", "triple=e dbo:birthPlace New_York_City", "class=HR_Artist" ],
+    "1" : [ "pair=\"American\"@en", "AllConf=0.829", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ],
+    "2" : [ "pair=Americans", "AllConf=0.776", "triple=e dbo:nationality Americans", "class=HR_Artist" ],
+    "3" : [ "pair=United_States", "AllConf=0.767", "triple=e dbo:nationality United_States", "class=HR_Artist" ],
+    "4" : [ "pair=New_York_(state", "AllConf=0.831", "triple=e dbo:birthPlace New_York_(state", "class=HR_MusicalArtist" ],
+    "5" : [ "pair=Epic_Records", "AllConf=0.747", "triple=e dbo:recordLabel Epic_Records", "class=HR_MusicalArtist" ],
+    "6" : [ "pair=Rhythm_and_blues", "AllConf=0.731", "triple=e dbo:genre Rhythm_and_blues", "class=HR_MusicalArtist" ],
+    "7" : [ "pair=Country_music", "AllConf=0.727", "triple=e dbp:genre Country_music", "class=HR_MusicalArtist" ],
+    "8" : [ "pair=Capitol_Records", "AllConf=0.712", "triple=e dbo:recordLabel Capitol_Records", "class=HR_MusicalArtist" ],
+    "9" : [ "pair=Atlantic_Records", "AllConf=0.703", "triple=e dbo:recordLabel Atlantic_Records", "class=HR_MusicalArtist" ],
+    "10" : [ "pair=Warner_Bros._Records", "AllConf=0.674", "triple=e dbo:recordLabel Warner_Bros._Records", "class=HR_MusicalArtist" ],
+    "11" : [ "pair=Gospel_music", "AllConf=0.671", "triple=e dbo:genre Gospel_music", "class=HR_MusicalArtist" ],
+    "12" : [ "pair=Blues", "AllConf=0.645", "triple=e dbp:genre Blues", "class=HR_MusicalArtist" ],
+    "13" : [ "pair=Funk", "AllConf=0.641", "triple=e dbp:genre Funk", "class=HR_MusicalArtist" ],
+    "14" : [ "pair=Rapping", "AllConf=0.631", "triple=e dbo:occupation Rapping", "class=HR_MusicalArtist" ],
+    "15" : [ "pair=Singing", "AllConf=0.607", "triple=e dbo:occupation Singing", "class=HR_MusicalArtist" ],
+    "16" : [ "pair=\"Rapper\"@en", "AllConf=0.604", "triple=e dbp:occupation \"Rapper\"@en", "class=HR_MusicalArtist" ],
+    "17" : [ "pair=\"artist\"@en", "AllConf=0.593", "triple=e dbp:class \"artist\"@en", "class=HR_MusicalArtist" ],
+    "18" : [ "pair=RCA_Records", "AllConf=0.564", "triple=e dbo:recordLabel RCA_Records", "class=HR_MusicalArtist" ],
+    "19" : [ "pair=\"\"@en", "AllConf=0.56", "triple=e dbp:alias \"\"@en", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "artist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Installation_art", "AllConf=0.919", "triple=e dbo:field Installation_art", "class=HR_Artist" ],
+    "1" : [ "pair=United_States", "AllConf=0.731", "triple=e dbo:country United_States", "class=HR_Artist" ],
+    "2" : [ "pair=\"Australian\"@en", "AllConf=0.621", "triple=e dbp:nationality \"Australian\"@en", "class=HR_Artist" ],
+    "3" : [ "pair=\"Canadian\"@en", "AllConf=0.609", "triple=e dbp:nationality \"Canadian\"@en", "class=HR_Artist" ],
+    "4" : [ "pair=New_York_City", "AllConf=0.601", "triple=e dbo:birthPlace New_York_City", "class=HR_Artist" ],
+    "5" : [ "pair=Canadians", "AllConf=0.591", "triple=e dbp:nationality Canadians", "class=HR_Artist" ],
+    "6" : [ "pair=Drawing", "AllConf=0.579", "triple=e dbo:field Drawing", "class=HR_Artist" ],
+    "7" : [ "pair=United_Kingdom", "AllConf=0.572", "triple=e dbo:country United_Kingdom", "class=HR_Artist" ],
+    "8" : [ "pair=Printmaking", "AllConf=0.56", "triple=e dbp:field Printmaking", "class=HR_Artist" ],
+    "9" : [ "pair=Americans", "AllConf=0.552", "triple=e dbp:nationality Americans", "class=HR_Artist" ],
+    "10" : [ "pair=England", "AllConf=0.529", "triple=e dbp:birthPlace England", "class=HR_Artist" ],
+    "11" : [ "pair=\"American\"@en", "AllConf=0.513", "triple=e dbp:nationality \"American\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Heavy_metal_music", "AllConf=0.675", "triple=e dbo:genre Heavy_metal_music", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Hard_rock", "AllConf=0.63", "triple=e dbo:genre Hard_rock", "class=HR_MusicalArtist" ],
+    "2" : [ "pair=Progressive_rock", "AllConf=0.592", "triple=e dbo:genre Progressive_rock", "class=HR_MusicalArtist" ],
+    "3" : [ "pair=New_wave_music", "AllConf=0.59", "triple=e dbp:genre New_wave_music", "class=HR_MusicalArtist" ],
+    "4" : [ "pair=Punk_rock", "AllConf=0.59", "triple=e dbo:genre Punk_rock", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "better",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Rapping", "AllConf=0.672", "triple=e dbo:occupation Rapping", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "composer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Composer", "AllConf=0.786", "triple=e dbo:occupation Composer", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=\"Musician", "AllConf=0.625", "triple=e dbp:occupation \"Musician", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "country",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Country_music", "AllConf=0.593", "triple=e dbp:genre Country_music", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "drummer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Drums\"@en", "AllConf=0.88", "triple=e dbp:instrument \"Drums\"@en", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Drum_kit", "AllConf=0.639", "triple=e dbo:instrument Drum_kit", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "dutch",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Netherlands", "AllConf=0.858", "triple=e dbo:nationality Netherlands", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "english",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"English\"@en", "AllConf=0.726", "triple=e dbp:nationality \"English\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "guitarist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Guitar\"@en", "AllConf=0.633", "triple=e dbp:instrument \"Guitar\"@en", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "illustrator",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Illustration", "AllConf=0.68", "triple=e dbp:field Illustration", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "jazz",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Jazz", "AllConf=0.621", "triple=e dbp:genre Jazz", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=\"Musician", "AllConf=0.595", "triple=e dbp:occupation \"Musician", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "leningrad",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Saint_Petersburg", "AllConf=0.514", "triple=e dbp:deathPlace Saint_Petersburg", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "music",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Country_music", "AllConf=0.575", "triple=e dbp:genre Country_music", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "musician",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"musician\"@en", "AllConf=0.61", "triple=e dbp:occupation \"musician\"@en", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "name",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Rapping", "AllConf=0.647", "triple=e dbo:occupation Rapping", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "painter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Orientalism", "AllConf=0.84", "triple=e dbo:movement Orientalism", "class=HR_Artist" ],
+    "1" : [ "pair=Realism_(arts", "AllConf=0.832", "triple=e dbp:movement Realism_(arts", "class=HR_Artist" ],
+    "2" : [ "pair=Baroque", "AllConf=0.831", "triple=e dbo:movement Baroque", "class=HR_Artist" ],
+    "3" : [ "pair=Saint_Petersburg", "AllConf=0.831", "triple=e dbp:deathPlace Saint_Petersburg", "class=HR_Artist" ],
+    "4" : [ "pair=Impressionism", "AllConf=0.782", "triple=e dbo:movement Impressionism", "class=HR_Artist" ],
+    "5" : [ "pair=Italy", "AllConf=0.723", "triple=e dbo:nationality Italy", "class=HR_Artist" ],
+    "6" : [ "pair=Painting", "AllConf=0.704", "triple=e dbp:field Painting", "class=HR_Artist" ],
+    "7" : [ "pair=Netherlands", "AllConf=0.681", "triple=e dbo:nationality Netherlands", "class=HR_Artist" ],
+    "8" : [ "pair=Paris", "AllConf=0.662", "triple=e dbo:deathPlace Paris", "class=HR_Artist" ],
+    "9" : [ "pair=Russian_Empire", "AllConf=0.657", "triple=e dbo:birthPlace Russian_Empire", "class=HR_Artist" ],
+    "10" : [ "pair=\"Painting\"@en", "AllConf=0.654", "triple=e dbp:knownFor \"Painting\"@en", "class=HR_Artist" ],
+    "11" : [ "pair=\"Paris", "AllConf=0.625", "triple=e dbp:deathPlace \"Paris", "class=HR_Artist" ],
+    "12" : [ "pair=France", "AllConf=0.622", "triple=e dbo:deathPlace France", "class=HR_Artist" ],
+    "13" : [ "pair=\"Italian\"@en", "AllConf=0.602", "triple=e dbp:nationality \"Italian\"@en", "class=HR_Artist" ],
+    "14" : [ "pair=\"#EEDD82\"@en", "AllConf=0.584", "triple=e dbp:bgcolour \"#EEDD82\"@en", "class=HR_Artist" ],
+    "15" : [ "pair=\"French\"@en", "AllConf=0.583", "triple=e dbp:nationality \"French\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "petersburg",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Saint_Petersburg", "AllConf=0.524", "triple=e dbp:deathPlace Saint_Petersburg", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "photographer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Photography", "AllConf=0.657", "triple=e dbp:field Photography", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "pianist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Piano\"@en", "AllConf=0.662", "triple=e dbp:instrument \"Piano\"@en", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "producer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"record producer\"@en", "AllConf=0.837", "triple=e dbp:occupation \"record producer\"@en", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Record_producer", "AllConf=0.769", "triple=e dbo:occupation Record_producer", "class=HR_MusicalArtist" ],
+    "2" : [ "pair=Disc_jockey", "AllConf=0.743", "triple=e dbp:occupation Disc_jockey", "class=HR_MusicalArtist" ],
+    "3" : [ "pair=House_music", "AllConf=0.68", "triple=e dbp:genre House_music", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "rapper",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Rapper\"@en", "AllConf=0.892", "triple=e dbp:occupation \"Rapper\"@en", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Rapping", "AllConf=0.778", "triple=e dbo:occupation Rapping", "class=HR_MusicalArtist" ],
+    "2" : [ "pair=Rapper", "AllConf=0.711", "triple=e dbo:occupation Rapper", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "record",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"record producer\"@en", "AllConf=0.77", "triple=e dbp:occupation \"record producer\"@en", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "record producer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"record producer\"@en", "AllConf=0.747", "triple=e dbp:occupation \"record producer\"@en", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "rock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Hard_rock", "AllConf=0.568", "triple=e dbp:genre Hard_rock", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "saint",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Saint_Petersburg", "AllConf=0.524", "triple=e dbp:deathPlace Saint_Petersburg", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "saint petersburg",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Saint_Petersburg", "AllConf=0.514", "triple=e dbp:deathPlace Saint_Petersburg", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "sculptor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Sculpture\"@en", "AllConf=0.781", "triple=e dbp:field \"Sculpture\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=Sculpture", "AllConf=0.636", "triple=e dbp:field Sculpture", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "singer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Singer\"@en", "AllConf=0.828", "triple=e dbp:occupation \"Singer\"@en", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Singing", "AllConf=0.777", "triple=e dbo:occupation Singing", "class=HR_MusicalArtist" ],
+    "2" : [ "pair=\"singer\"@en", "AllConf=0.704", "triple=e dbp:occupation \"singer\"@en", "class=HR_MusicalArtist" ],
+    "3" : [ "pair=\"Vocals\"@en", "AllConf=0.639", "triple=e dbp:instrument \"Vocals\"@en", "class=HR_MusicalArtist" ],
+    "4" : [ "pair=Soul_music", "AllConf=0.584", "triple=e dbp:genre Soul_music", "class=HR_MusicalArtist" ],
+    "5" : [ "pair=\"songwriter\"@en", "AllConf=0.581", "triple=e dbp:occupation \"songwriter\"@en", "class=HR_MusicalArtist" ],
+    "6" : [ "pair=Capitol_Records", "AllConf=0.574", "triple=e dbo:recordLabel Capitol_Records", "class=HR_MusicalArtist" ],
+    "7" : [ "pair=Contemporary_R&B", "AllConf=0.573", "triple=e dbo:genre Contemporary_R&B", "class=HR_MusicalArtist" ],
+    "8" : [ "pair=\"Pop\"@en", "AllConf=0.571", "triple=e dbp:genre \"Pop\"@en", "class=HR_MusicalArtist" ],
+    "9" : [ "pair=Rhythm_and_blues", "AllConf=0.57", "triple=e dbo:genre Rhythm_and_blues", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "songwriter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"songwriter\"@en", "AllConf=0.682", "triple=e dbp:occupation \"songwriter\"@en", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Songwriter", "AllConf=0.573", "triple=e dbo:occupation Songwriter", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "stage",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Rapping", "AllConf=0.663", "triple=e dbo:occupation Rapping", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "stage name",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Rapping", "AllConf=0.631", "triple=e dbo:occupation Rapping", "class=HR_MusicalArtist" ]
+  }
+} ]

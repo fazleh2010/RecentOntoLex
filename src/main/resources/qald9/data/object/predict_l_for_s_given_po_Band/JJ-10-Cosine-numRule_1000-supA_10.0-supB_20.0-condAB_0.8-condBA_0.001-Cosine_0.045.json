@@ -1,0 +1,43 @@
+[ {
+  "id" : 2,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Melbourne", "Cosine=0.937", "triple=e dbp:origin \"Melbourne", "class=HR_Band" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Toronto", "Cosine=0.928", "triple=e dbp:origin \"Toronto", "class=HR_Band" ],
+    "1" : [ "pair=Ontario", "Cosine=0.91", "triple=e dbo:hometown Ontario", "class=HR_Band" ],
+    "2" : [ "pair=Toronto", "Cosine=0.898", "triple=e dbo:hometown Toronto", "class=HR_Band" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Italy", "Cosine=0.939", "triple=e dbp:origin Italy", "class=HR_Band" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Japan\"@en", "Cosine=0.948", "triple=e dbp:origin \"Japan\"@en", "class=HR_Band" ],
+    "1" : [ "pair=Tokyo", "Cosine=0.928", "triple=e dbo:hometown Tokyo", "class=HR_Band" ],
+    "2" : [ "pair=Japan", "Cosine=0.924", "triple=e dbo:hometown Japan", "class=HR_Band" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "korean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=South_Korea", "Cosine=0.974", "triple=e dbp:origin South_Korea", "class=HR_Band" ],
+    "1" : [ "pair=K-pop", "Cosine=0.952", "triple=e dbp:genre K-pop", "class=HR_Band" ],
+    "2" : [ "pair=Seoul", "Cosine=0.942", "triple=e dbo:hometown Seoul", "class=HR_Band" ],
+    "3" : [ "pair=\"Seoul", "Cosine=0.939", "triple=e dbp:origin \"Seoul", "class=HR_Band" ]
+  }
+} ]

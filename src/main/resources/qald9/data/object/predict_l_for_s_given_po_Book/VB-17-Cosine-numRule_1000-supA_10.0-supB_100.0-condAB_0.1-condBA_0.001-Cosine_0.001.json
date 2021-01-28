@@ -1,0 +1,38 @@
+[ {
+  "id" : 2,
+  "pattern" : "based",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Cosine=0.819", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "based on\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Cosine=0.774", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Cover of first edition\"@en", "Cosine=0.868", "triple=e dbp:caption \"Cover of first edition\"@en", "class=HR_Book" ],
+    "1" : [ "pair=Fantasy_fiction", "Cosine=0.855", "triple=e dbo:literaryGenre Fantasy_fiction", "class=HR_Book" ],
+    "2" : [ "pair=\"Canada\"@en", "Cosine=0.808", "triple=e dbp:country \"Canada\"@en", "class=HR_Book" ],
+    "3" : [ "pair=Mystery_fiction", "Cosine=0.787", "triple=e dbo:literaryGenre Mystery_fiction", "class=HR_Book" ],
+    "4" : [ "pair=Fantasy", "Cosine=0.777", "triple=e dbp:genre Fantasy", "class=HR_Book" ],
+    "5" : [ "pair=Detective_fiction", "Cosine=0.776", "triple=e dbo:literaryGenre Detective_fiction", "class=HR_Book" ],
+    "6" : [ "pair=Science_fiction", "Cosine=0.763", "triple=e dbp:genre Science_fiction", "class=HR_Book" ],
+    "7" : [ "pair=\"German\"@en", "Cosine=0.758", "triple=e dbp:language \"German\"@en", "class=HR_Book" ],
+    "8" : [ "pair=Horror_fiction", "Cosine=0.754", "triple=e dbo:literaryGenre Horror_fiction", "class=HR_Book" ],
+    "9" : [ "pair=\"United Kingdom\"@en", "Cosine=0.754", "triple=e dbp:country \"United Kingdom\"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "written",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "Cosine=0.769", "triple=e dbo:series Doctor_Who", "class=HR_Book" ]
+  }
+} ]

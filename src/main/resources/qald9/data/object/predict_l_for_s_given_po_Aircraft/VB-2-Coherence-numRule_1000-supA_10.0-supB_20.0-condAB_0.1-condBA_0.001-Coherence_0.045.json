@@ -1,0 +1,133 @@
+[ {
+  "id" : 36,
+  "pattern" : "designed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Paramotor", "Coherence=0.5", "triple=e dbo:type Paramotor", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"Bertrand\"@en", "Coherence=0.499", "triple=e dbp:ref \"Bertrand\"@en", "class=HR_Aircraft" ],
+    "2" : [ "pair=//dbpedia.org/datatype/second>", "Coherence=0.497", "triple=e dbp:produced //dbpedia.org/datatype/second>", "class=HR_Aircraft" ],
+    "3" : [ "pair=Paragliding", "Coherence=0.497", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ],
+    "4" : [ "pair=Paraglider", "Coherence=0.497", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ],
+    "5" : [ "pair=Hang_gliding", "Coherence=0.496", "triple=e dbp:type Hang_gliding", "class=HR_Aircraft" ],
+    "6" : [ "pair=Hang_glider", "Coherence=0.495", "triple=e dbo:type Hang_glider", "class=HR_Aircraft" ],
+    "7" : [ "pair=\"Sailplane Directory and Soaring\"@en", "Coherence=0.495", "triple=e dbp:ref \"Sailplane Directory and Soaring\"@en", "class=HR_Aircraft" ],
+    "8" : [ "pair=Powered_parachute", "Coherence=0.493", "triple=e dbo:type Powered_parachute", "class=HR_Aircraft" ],
+    "9" : [ "pair=\"AeroCrafter\"@en", "Coherence=0.482", "triple=e dbp:ref \"AeroCrafter\"@en", "class=HR_Aircraft" ],
+    "10" : [ "pair=\"Production completed\"@en", "Coherence=0.478", "triple=e dbp:status \"Production completed\"@en", "class=HR_Aircraft" ],
+    "11" : [ "pair=Ultralight_trike", "Coherence=0.477", "triple=e dbo:type Ultralight_trike", "class=HR_Aircraft" ],
+    "12" : [ "pair=\"* List of gliders\"@en", "Coherence=0.472", "triple=e dbp:seeAlso \"* List of gliders\"@en", "class=HR_Aircraft" ],
+    "13" : [ "pair=\"four cylinder", "Coherence=0.471", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ],
+    "14" : [ "pair=\"Bayerl\"@en", "Coherence=0.469", "triple=e dbp:ref \"Bayerl\"@en", "class=HR_Aircraft" ],
+    "15" : [ "pair=\"Plans available\"@en", "Coherence=0.467", "triple=e dbp:status \"Plans available\"@en", "class=HR_Aircraft" ],
+    "16" : [ "pair=\"composite\"@en", "Coherence=0.464", "triple=e dbp:propName \"composite\"@en", "class=HR_Aircraft" ],
+    "17" : [ "pair=Glider_(sailplane", "Coherence=0.462", "triple=e dbp:type Glider_(sailplane", "class=HR_Aircraft" ],
+    "18" : [ "pair=Autogyro", "Coherence=0.457", "triple=e dbp:type Autogyro", "class=HR_Aircraft" ],
+    "19" : [ "pair=\"Cliche\"@en", "Coherence=0.452", "triple=e dbp:ref \"Cliche\"@en", "class=HR_Aircraft" ],
+    "20" : [ "pair=\"wooden\"@en", "Coherence=0.45", "triple=e dbp:propName \"wooden\"@en", "class=HR_Aircraft" ],
+    "21" : [ "pair=Czech_Republic", "Coherence=0.449", "triple=e dbp:nationalOrigin Czech_Republic", "class=HR_Aircraft" ],
+    "22" : [ "pair=Rotax_582", "Coherence=0.448", "triple=e dbp:eng1Name Rotax_582", "class=HR_Aircraft" ],
+    "23" : [ "pair=Amateur-built_aircraft", "Coherence=0.443", "triple=e dbo:type Amateur-built_aircraft", "class=HR_Aircraft" ],
+    "24" : [ "pair=\"In production\"@en", "Coherence=0.437", "triple=e dbp:status \"In production\"@en", "class=HR_Aircraft" ],
+    "25" : [ "pair=\"One\"@en", "Coherence=0.432", "triple=e dbp:numberBuilt \"One\"@en", "class=HR_Aircraft" ],
+    "26" : [ "pair=Rotax_503", "Coherence=0.431", "triple=e dbp:eng1Name Rotax_503", "class=HR_Aircraft" ],
+    "27" : [ "pair=Ultralight_aviation", "Coherence=0.427", "triple=e dbp:type Ultralight_aviation", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "designed produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Powered_parachute", "Coherence=0.457", "triple=e dbo:type Powered_parachute", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "designed produced\u001Cby",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Powered_parachute", "Coherence=0.457", "triple=e dbo:type Powered_parachute", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "developed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=China", "Coherence=0.487", "triple=e dbp:primaryUser China", "class=HR_Aircraft" ],
+    "1" : [ "pair=UAV", "Coherence=0.481", "triple=e dbo:type UAV", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "flying",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Flying_boat", "Coherence=0.484", "triple=e dbo:type Flying_boat", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "hang",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Hang_glider", "Coherence=0.5", "triple=e dbo:type Hang_glider", "class=HR_Aircraft" ],
+    "1" : [ "pair=Hang_gliding", "Coherence=0.5", "triple=e dbp:type Hang_gliding", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "paragliding out\u001Cof",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Paramotor", "Coherence=0.427", "triple=e dbo:type Paramotor", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "powered",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Paramotor", "Coherence=0.496", "triple=e dbo:type Paramotor", "class=HR_Aircraft" ],
+    "1" : [ "pair=Powered_parachute", "Coherence=0.496", "triple=e dbp:type Powered_parachute", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Paramotor", "Coherence=0.5", "triple=e dbo:type Paramotor", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"Bertrand\"@en", "Coherence=0.499", "triple=e dbp:ref \"Bertrand\"@en", "class=HR_Aircraft" ],
+    "2" : [ "pair=//dbpedia.org/datatype/second>", "Coherence=0.497", "triple=e dbp:produced //dbpedia.org/datatype/second>", "class=HR_Aircraft" ],
+    "3" : [ "pair=Paragliding", "Coherence=0.497", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ],
+    "4" : [ "pair=Paraglider", "Coherence=0.497", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ],
+    "5" : [ "pair=Powered_parachute", "Coherence=0.493", "triple=e dbo:type Powered_parachute", "class=HR_Aircraft" ],
+    "6" : [ "pair=Hang_gliding", "Coherence=0.491", "triple=e dbp:type Hang_gliding", "class=HR_Aircraft" ],
+    "7" : [ "pair=Hang_glider", "Coherence=0.491", "triple=e dbo:type Hang_glider", "class=HR_Aircraft" ],
+    "8" : [ "pair=Ultralight_trike", "Coherence=0.481", "triple=e dbo:type Ultralight_trike", "class=HR_Aircraft" ],
+    "9" : [ "pair=\"Production completed\"@en", "Coherence=0.472", "triple=e dbp:status \"Production completed\"@en", "class=HR_Aircraft" ],
+    "10" : [ "pair=\"Bayerl\"@en", "Coherence=0.471", "triple=e dbp:ref \"Bayerl\"@en", "class=HR_Aircraft" ],
+    "11" : [ "pair=\"Cliche\"@en", "Coherence=0.469", "triple=e dbp:ref \"Cliche\"@en", "class=HR_Aircraft" ],
+    "12" : [ "pair=\"AeroCrafter\"@en", "Coherence=0.463", "triple=e dbp:ref \"AeroCrafter\"@en", "class=HR_Aircraft" ],
+    "13" : [ "pair=Rotax_582", "Coherence=0.456", "triple=e dbp:eng1Name Rotax_582", "class=HR_Aircraft" ],
+    "14" : [ "pair=\"four cylinder", "Coherence=0.455", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ],
+    "15" : [ "pair=\"composite\"@en", "Coherence=0.452", "triple=e dbp:propName \"composite\"@en", "class=HR_Aircraft" ],
+    "16" : [ "pair=\"In production\"@en", "Coherence=0.449", "triple=e dbp:status \"In production\"@en", "class=HR_Aircraft" ],
+    "17" : [ "pair=Autogyro", "Coherence=0.429", "triple=e dbp:type Autogyro", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "supplied",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"AeroCrafter\"@en", "Coherence=0.5", "triple=e dbp:ref \"AeroCrafter\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"four cylinder", "Coherence=0.481", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ],
+    "2" : [ "pair=\"composite\"@en", "Coherence=0.468", "triple=e dbp:propName \"composite\"@en", "class=HR_Aircraft" ],
+    "3" : [ "pair=Amateur-built_aircraft", "Coherence=0.467", "triple=e dbo:type Amateur-built_aircraft", "class=HR_Aircraft" ],
+    "4" : [ "pair=\"Bayerl\"@en", "Coherence=0.467", "triple=e dbp:ref \"Bayerl\"@en", "class=HR_Aircraft" ],
+    "5" : [ "pair=Paramotor", "Coherence=0.457", "triple=e dbo:type Paramotor", "class=HR_Aircraft" ],
+    "6" : [ "pair=Ultralight_trike", "Coherence=0.449", "triple=e dbp:type Ultralight_trike", "class=HR_Aircraft" ],
+    "7" : [ "pair=Autogyro", "Coherence=0.446", "triple=e dbp:type Autogyro", "class=HR_Aircraft" ],
+    "8" : [ "pair=Light-sport_aircraft", "Coherence=0.442", "triple=e dbo:type Light-sport_aircraft", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 92,
+  "pattern" : "torpedo",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Torpedo_bomber", "Coherence=0.454", "triple=e dbo:type Torpedo_bomber", "class=HR_Aircraft" ]
+  }
+} ]

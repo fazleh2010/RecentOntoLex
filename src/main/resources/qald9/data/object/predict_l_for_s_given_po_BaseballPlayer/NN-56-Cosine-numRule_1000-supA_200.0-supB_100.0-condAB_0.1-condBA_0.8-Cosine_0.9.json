@@ -1,0 +1,48 @@
+[ {
+  "id" : 1,
+  "pattern" : "baseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Free agent\"@en", "Cosine=0.995", "triple=e dbp:team \"Free agent\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=New_York_Yankees", "Cosine=0.965", "triple=e dbo:debutTeam New_York_Yankees", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Cleveland_Indians", "Cosine=0.96", "triple=e dbo:debutTeam Cleveland_Indians", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=//www.w3.org/2001/XMLSchema#gMonthDay>", "Cosine=0.959", "triple=e dbp:finaldate //www.w3.org/2001/XMLSchema#gMonthDay>", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=\"Philadelphia Phillies\"@en", "Cosine=0.959", "triple=e dbp:debutteam \"Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "philadelphia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Philadelphia_Phillies", "Cosine=0.96", "triple=e dbo:debutTeam Philadelphia_Phillies", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "phillies",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Philadelphia_Phillies", "Cosine=0.96", "triple=e dbo:debutTeam Philadelphia_Phillies", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "pitcher",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Earned_run_average", "Cosine=0.968", "triple=e dbp:stat2label Earned_run_average", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"Strikeouts\"@en", "Cosine=0.967", "triple=e dbp:stat3label \"Strikeouts\"@en", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=Winâloss_record_(pitching", "Cosine=0.966", "triple=e dbp:stat1label Winâloss_record_(pitching", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "professional baseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Free agent\"@en", "Cosine=0.984", "triple=e dbp:team \"Free agent\"@en", "class=HR_BaseballPlayer" ]
+  }
+} ]

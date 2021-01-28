@@ -1,0 +1,18 @@
+[ {
+  "id" : 2,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"lightblue\"@en", "AllConf=0.965", "triple=e dbp:headercolor \"lightblue\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "competed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Sprinting\"@en", "AllConf=0.982", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=Gymnastics", "AllConf=0.966", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "2" : [ "pair=Boxing", "AllConf=0.957", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "3" : [ "pair=Rowing_(sport", "AllConf=0.912", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ]
+  }
+} ]

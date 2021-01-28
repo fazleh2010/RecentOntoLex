@@ -1,0 +1,18 @@
+[ {
+  "id" : 3,
+  "pattern" : "designed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Bertrand\"@en", "AllConf=0.996", "triple=e dbp:ref \"Bertrand\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"Production completed\"@en", "AllConf=0.916", "triple=e dbp:status \"Production completed\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Bertrand\"@en", "AllConf=0.996", "triple=e dbp:ref \"Bertrand\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"Production completed\"@en", "AllConf=0.894", "triple=e dbp:status \"Production completed\"@en", "class=HR_Aircraft" ],
+    "2" : [ "pair=\"In production\"@en", "AllConf=0.817", "triple=e dbp:status \"In production\"@en", "class=HR_Aircraft" ]
+  }
+} ]

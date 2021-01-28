@@ -1,0 +1,184 @@
+[ {
+  "id" : 1,
+  "pattern" : "all-american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "AllConf=0.987", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "all-american girls",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "AllConf=0.987", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "all-american girls professional",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "AllConf=0.987", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "all-american girls professional\u001Cbaseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "AllConf=0.987", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "all-american girls professional\u001Cbaseball\u001Cleague",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "AllConf=0.987", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "baseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Free agent\"@en", "AllConf=0.991", "triple=e dbp:team \"Free agent\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=All-American_Girls_Professional_Baseball_League", "AllConf=0.987", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=\"Kansas City Royals\"@en", "AllConf=0.94", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=//www.w3.org/2001/XMLSchema#gMonthDay>", "AllConf=0.935", "triple=e dbp:debutdate //www.w3.org/2001/XMLSchema#gMonthDay>", "class=HR_BaseballPlayer" ],
+    "4" : [ "pair=\"Washington Senators\"@en", "AllConf=0.931", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=HR_BaseballPlayer" ],
+    "5" : [ "pair=\"National Baseball Hall of Fame and Museum\"@en", "AllConf=0.929", "triple=e dbp:hoflink \"National Baseball Hall of Fame and Museum\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "baseball league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "AllConf=0.987", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "girls",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "AllConf=0.987", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "girls professional",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "AllConf=0.987", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "girls professional baseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "AllConf=0.987", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "girls professional baseball\u001Cleague",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "AllConf=0.987", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "AllConf=0.993", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"Kansas City Royals\"@en", "AllConf=0.957", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=\"Washington Senators\"@en", "AllConf=0.944", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=\"National Baseball Hall of Fame and Museum\"@en", "AllConf=0.943", "triple=e dbp:hoflink \"National Baseball Hall of Fame and Museum\"@en", "class=HR_BaseballPlayer" ],
+    "4" : [ "pair=San_Diego_Padres", "AllConf=0.934", "triple=e dbo:debutTeam San_Diego_Padres", "class=HR_BaseballPlayer" ],
+    "5" : [ "pair=\"New York Yankees\"@en", "AllConf=0.934", "triple=e dbp:debutteam \"New York Yankees\"@en", "class=HR_BaseballPlayer" ],
+    "6" : [ "pair=\"San Diego Padres\"@en", "AllConf=0.931", "triple=e dbp:debutteam \"San Diego Padres\"@en", "class=HR_BaseballPlayer" ],
+    "7" : [ "pair=New_York_Yankees", "AllConf=0.931", "triple=e dbo:debutTeam New_York_Yankees", "class=HR_BaseballPlayer" ],
+    "8" : [ "pair=Hitting_for_the_cycle", "AllConf=0.929", "triple=e dbp:title Hitting_for_the_cycle", "class=HR_BaseballPlayer" ],
+    "9" : [ "pair=\"Chicago Cubs\"@en", "AllConf=0.929", "triple=e dbp:finalteam \"Chicago Cubs\"@en", "class=HR_BaseballPlayer" ],
+    "10" : [ "pair=\"Atlanta Braves\"@en", "AllConf=0.925", "triple=e dbp:debutteam \"Atlanta Braves\"@en", "class=HR_BaseballPlayer" ],
+    "11" : [ "pair=Baltimore_Orioles", "AllConf=0.924", "triple=e dbo:debutTeam Baltimore_Orioles", "class=HR_BaseballPlayer" ],
+    "12" : [ "pair=\"Toronto Blue Jays\"@en", "AllConf=0.924", "triple=e dbp:debutteam \"Toronto Blue Jays\"@en", "class=HR_BaseballPlayer" ],
+    "13" : [ "pair=Cleveland_Indians", "AllConf=0.922", "triple=e dbo:debutTeam Cleveland_Indians", "class=HR_BaseballPlayer" ],
+    "14" : [ "pair=\"Chicago White Sox\"@en", "AllConf=0.921", "triple=e dbp:finalteam \"Chicago White Sox\"@en", "class=HR_BaseballPlayer" ],
+    "15" : [ "pair=//www.w3.org/2001/XMLSchema#gMonthDay>", "AllConf=0.921", "triple=e dbp:finaldate //www.w3.org/2001/XMLSchema#gMonthDay>", "class=HR_BaseballPlayer" ],
+    "16" : [ "pair=Toronto_Blue_Jays", "AllConf=0.921", "triple=e dbo:debutTeam Toronto_Blue_Jays", "class=HR_BaseballPlayer" ],
+    "17" : [ "pair=\"Philadelphia Phillies\"@en", "AllConf=0.92", "triple=e dbp:debutteam \"Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ],
+    "18" : [ "pair=\"Detroit Tigers\"@en", "AllConf=0.919", "triple=e dbp:finalteam \"Detroit Tigers\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "league baseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Washington Senators\"@en", "AllConf=0.931", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"Kansas City Royals\"@en", "AllConf=0.923", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "major league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Kansas City Royals\"@en", "AllConf=0.948", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"Washington Senators\"@en", "AllConf=0.944", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "major league baseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Washington Senators\"@en", "AllConf=0.931", "triple=e dbp:finalteam \"Washington Senators\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"Kansas City Royals\"@en", "AllConf=0.923", "triple=e dbp:finalteam \"Kansas City Royals\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "philadelphia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Philadelphia Phillies\"@en", "AllConf=0.965", "triple=e dbp:teams \"*Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Philadelphia_Phillies", "AllConf=0.932", "triple=e dbp:finalteam Philadelphia_Phillies", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=Philadelphia_Athletics", "AllConf=0.923", "triple=e dbo:debutTeam Philadelphia_Athletics", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "philadelphia phillies",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Philadelphia Phillies\"@en", "AllConf=0.957", "triple=e dbp:teams \"*Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Philadelphia_Phillies", "AllConf=0.923", "triple=e dbp:finalteam Philadelphia_Phillies", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "phillies",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"*Philadelphia Phillies\"@en", "AllConf=0.957", "triple=e dbp:teams \"*Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Philadelphia_Phillies", "AllConf=0.932", "triple=e dbp:finalteam Philadelphia_Phillies", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "pitcher",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Strikeouts\"@en", "AllConf=0.97", "triple=e dbp:stat23label \"Strikeouts\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Save_(baseball", "AllConf=0.968", "triple=e dbp:stat4label Save_(baseball", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=Innings_pitched", "AllConf=0.947", "triple=e dbp:stat3label Innings_pitched", "class=HR_BaseballPlayer" ],
+    "3" : [ "pair=Earned_run_average", "AllConf=0.937", "triple=e dbp:stat2label Earned_run_average", "class=HR_BaseballPlayer" ],
+    "4" : [ "pair=Winâloss_record_(pitching", "AllConf=0.933", "triple=e dbp:stat1label Winâloss_record_(pitching", "class=HR_BaseballPlayer" ],
+    "5" : [ "pair=Relief_pitcher", "AllConf=0.924", "triple=e dbo:position Relief_pitcher", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "professional baseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "AllConf=0.987", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"Free agent\"@en", "AllConf=0.969", "triple=e dbp:team \"Free agent\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "professional baseball league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "AllConf=0.987", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+} ]

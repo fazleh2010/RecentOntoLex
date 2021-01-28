@@ -1,0 +1,44 @@
+[ {
+  "id" : 1,
+  "pattern" : "band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Pop-punk", "AllConf=0.979", "triple=e dbp:genre Pop-punk", "class=HR_Band" ],
+    "1" : [ "pair=Pop_punk", "AllConf=0.979", "triple=e dbo:genre Pop_punk", "class=HR_Band" ],
+    "2" : [ "pair=Metalcore", "AllConf=0.975", "triple=e dbp:genre Metalcore", "class=HR_Band" ],
+    "3" : [ "pair=Thrash_metal", "AllConf=0.97", "triple=e dbp:genre Thrash_metal", "class=HR_Band" ],
+    "4" : [ "pair=Post-hardcore", "AllConf=0.966", "triple=e dbo:genre Post-hardcore", "class=HR_Band" ],
+    "5" : [ "pair=Hardcore_punk", "AllConf=0.961", "triple=e dbp:genre Hardcore_punk", "class=HR_Band" ],
+    "6" : [ "pair=Alternative_metal", "AllConf=0.958", "triple=e dbp:genre Alternative_metal", "class=HR_Band" ],
+    "7" : [ "pair=Death_metal", "AllConf=0.955", "triple=e dbp:genre Death_metal", "class=HR_Band" ],
+    "8" : [ "pair=Heavy_metal_music", "AllConf=0.953", "triple=e dbo:genre Heavy_metal_music", "class=HR_Band" ],
+    "9" : [ "pair=Power_metal", "AllConf=0.951", "triple=e dbo:genre Power_metal", "class=HR_Band" ],
+    "10" : [ "pair=Emo", "AllConf=0.949", "triple=e dbo:genre Emo", "class=HR_Band" ],
+    "11" : [ "pair=Garage_rock", "AllConf=0.94", "triple=e dbo:genre Garage_rock", "class=HR_Band" ],
+    "12" : [ "pair=Power_pop", "AllConf=0.935", "triple=e dbo:genre Power_pop", "class=HR_Band" ],
+    "13" : [ "pair=Hard_rock", "AllConf=0.935", "triple=e dbo:genre Hard_rock", "class=HR_Band" ],
+    "14" : [ "pair=Alternative_rock", "AllConf=0.935", "triple=e dbp:genre Alternative_rock", "class=HR_Band" ],
+    "15" : [ "pair=Punk_rock", "AllConf=0.927", "triple=e dbo:genre Punk_rock", "class=HR_Band" ],
+    "16" : [ "pair=Progressive_metal", "AllConf=0.92", "triple=e dbp:genre Progressive_metal", "class=HR_Band" ],
+    "17" : [ "pair=Black_metal", "AllConf=0.918", "triple=e dbo:genre Black_metal", "class=HR_Band" ],
+    "18" : [ "pair=Indie_rock", "AllConf=0.918", "triple=e dbo:genre Indie_rock", "class=HR_Band" ],
+    "19" : [ "pair=New_wave_music", "AllConf=0.918", "triple=e dbp:genre New_wave_music", "class=HR_Band" ],
+    "20" : [ "pair=Psychedelic_rock", "AllConf=0.916", "triple=e dbp:genre Psychedelic_rock", "class=HR_Band" ],
+    "21" : [ "pair=Blues_rock", "AllConf=0.905", "triple=e dbo:genre Blues_rock", "class=HR_Band" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "metal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Black_metal", "AllConf=0.955", "triple=e dbp:genre Black_metal", "class=HR_Band" ],
+    "1" : [ "pair=Power_metal", "AllConf=0.951", "triple=e dbo:genre Power_metal", "class=HR_Band" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "rock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Blues_rock", "AllConf=0.912", "triple=e dbp:genre Blues_rock", "class=HR_Band" ]
+  }
+} ]

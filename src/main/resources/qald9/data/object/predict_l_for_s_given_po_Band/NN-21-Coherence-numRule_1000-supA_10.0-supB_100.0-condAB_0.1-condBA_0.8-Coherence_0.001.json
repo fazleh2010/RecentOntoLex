@@ -1,0 +1,188 @@
+[ {
+  "id" : 1,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Los Angeles", "Coherence=0.431", "triple=e dbp:origin \"Los Angeles", "class=HR_Band" ],
+    "1" : [ "pair=Los_Angeles", "Coherence=0.413", "triple=e dbo:hometown Los_Angeles", "class=HR_Band" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "angeles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Los Angeles", "Coherence=0.413", "triple=e dbp:origin \"Los Angeles", "class=HR_Band" ],
+    "1" : [ "pair=Los_Angeles", "Coherence=0.4", "triple=e dbo:hometown Los_Angeles", "class=HR_Band" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Pop-punk", "Coherence=0.494", "triple=e dbp:genre Pop-punk", "class=HR_Band" ],
+    "1" : [ "pair=Pop_punk", "Coherence=0.494", "triple=e dbo:genre Pop_punk", "class=HR_Band" ],
+    "2" : [ "pair=Metalcore", "Coherence=0.493", "triple=e dbp:genre Metalcore", "class=HR_Band" ],
+    "3" : [ "pair=Thrash_metal", "Coherence=0.492", "triple=e dbp:genre Thrash_metal", "class=HR_Band" ],
+    "4" : [ "pair=Post-hardcore", "Coherence=0.491", "triple=e dbo:genre Post-hardcore", "class=HR_Band" ],
+    "5" : [ "pair=Hardcore_punk", "Coherence=0.49", "triple=e dbp:genre Hardcore_punk", "class=HR_Band" ],
+    "6" : [ "pair=Alternative_metal", "Coherence=0.489", "triple=e dbp:genre Alternative_metal", "class=HR_Band" ],
+    "7" : [ "pair=Death_metal", "Coherence=0.488", "triple=e dbp:genre Death_metal", "class=HR_Band" ],
+    "8" : [ "pair=Heavy_metal_music", "Coherence=0.488", "triple=e dbo:genre Heavy_metal_music", "class=HR_Band" ],
+    "9" : [ "pair=Power_metal", "Coherence=0.487", "triple=e dbo:genre Power_metal", "class=HR_Band" ],
+    "10" : [ "pair=Emo", "Coherence=0.486", "triple=e dbo:genre Emo", "class=HR_Band" ],
+    "11" : [ "pair=Garage_rock", "Coherence=0.484", "triple=e dbo:genre Garage_rock", "class=HR_Band" ],
+    "12" : [ "pair=Power_pop", "Coherence=0.483", "triple=e dbo:genre Power_pop", "class=HR_Band" ],
+    "13" : [ "pair=Hard_rock", "Coherence=0.483", "triple=e dbo:genre Hard_rock", "class=HR_Band" ],
+    "14" : [ "pair=Alternative_rock", "Coherence=0.483", "triple=e dbp:genre Alternative_rock", "class=HR_Band" ],
+    "15" : [ "pair=Punk_rock", "Coherence=0.481", "triple=e dbo:genre Punk_rock", "class=HR_Band" ],
+    "16" : [ "pair=Progressive_metal", "Coherence=0.479", "triple=e dbp:genre Progressive_metal", "class=HR_Band" ],
+    "17" : [ "pair=Black_metal", "Coherence=0.478", "triple=e dbo:genre Black_metal", "class=HR_Band" ],
+    "18" : [ "pair=Indie_rock", "Coherence=0.478", "triple=e dbo:genre Indie_rock", "class=HR_Band" ],
+    "19" : [ "pair=New_wave_music", "Coherence=0.478", "triple=e dbp:genre New_wave_music", "class=HR_Band" ],
+    "20" : [ "pair=Psychedelic_rock", "Coherence=0.478", "triple=e dbp:genre Psychedelic_rock", "class=HR_Band" ],
+    "21" : [ "pair=Blues_rock", "Coherence=0.475", "triple=e dbo:genre Blues_rock", "class=HR_Band" ],
+    "22" : [ "pair=Progressive_rock", "Coherence=0.472", "triple=e dbp:genre Progressive_rock", "class=HR_Band" ],
+    "23" : [ "pair=Post-rock", "Coherence=0.472", "triple=e dbo:genre Post-rock", "class=HR_Band" ],
+    "24" : [ "pair=Art_rock", "Coherence=0.471", "triple=e dbp:genre Art_rock", "class=HR_Band" ],
+    "25" : [ "pair=Folk_rock", "Coherence=0.47", "triple=e dbp:genre Folk_rock", "class=HR_Band" ],
+    "26" : [ "pair=Post-punk", "Coherence=0.47", "triple=e dbo:genre Post-punk", "class=HR_Band" ],
+    "27" : [ "pair=\"Yes\"@en", "Coherence=0.465", "triple=e dbp:landscape \"Yes\"@en", "class=HR_Band" ],
+    "28" : [ "pair=Rock_music", "Coherence=0.464", "triple=e dbo:genre Rock_music", "class=HR_Band" ],
+    "29" : [ "pair=Rock_and_roll", "Coherence=0.463", "triple=e dbo:genre Rock_and_roll", "class=HR_Band" ],
+    "30" : [ "pair=Pop_rock", "Coherence=0.461", "triple=e dbo:genre Pop_rock", "class=HR_Band" ],
+    "31" : [ "pair=Experimental_rock", "Coherence=0.459", "triple=e dbo:genre Experimental_rock", "class=HR_Band" ],
+    "32" : [ "pair=//www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.457", "triple=e dbo:activeYearsStartYear //www.w3.org/2001/XMLSchema#gYear>", "class=HR_Band" ],
+    "33" : [ "pair=Indie_pop", "Coherence=0.453", "triple=e dbo:genre Indie_pop", "class=HR_Band" ],
+    "34" : [ "pair=England", "Coherence=0.448", "triple=e dbp:origin England", "class=HR_Band" ],
+    "35" : [ "pair=Australia", "Coherence=0.444", "triple=e dbp:origin Australia", "class=HR_Band" ],
+    "36" : [ "pair=Sweden", "Coherence=0.438", "triple=e dbo:hometown Sweden", "class=HR_Band" ],
+    "37" : [ "pair=\"InternetArchiveBot\"@en", "Coherence=0.437", "triple=e dbp:bot \"InternetArchiveBot\"@en", "class=HR_Band" ],
+    "38" : [ "pair=\"Los Angeles", "Coherence=0.434", "triple=e dbp:origin \"Los Angeles", "class=HR_Band" ],
+    "39" : [ "pair=\"\"@en", "Coherence=0.434", "triple=e dbp:pastMembers \"\"@en", "class=HR_Band" ],
+    "40" : [ "pair=Reggae", "Coherence=0.429", "triple=e dbo:genre Reggae", "class=HR_Band" ],
+    "41" : [ "pair=Chicago", "Coherence=0.427", "triple=e dbo:hometown Chicago", "class=HR_Band" ],
+    "42" : [ "pair=\"yes\"@en", "Coherence=0.427", "triple=e dbp:landscape \"yes\"@en", "class=HR_Band" ],
+    "43" : [ "pair=California", "Coherence=0.426", "triple=e dbo:hometown California", "class=HR_Band" ],
+    "44" : [ "pair=Los_Angeles", "Coherence=0.425", "triple=e dbp:origin Los_Angeles", "class=HR_Band" ],
+    "45" : [ "pair=London", "Coherence=0.425", "triple=e dbo:hometown London", "class=HR_Band" ],
+    "46" : [ "pair=Columbia_Records", "Coherence=0.422", "triple=e dbp:label Columbia_Records", "class=HR_Band" ],
+    "47" : [ "pair=Atlantic_Records", "Coherence=0.421", "triple=e dbo:recordLabel Atlantic_Records", "class=HR_Band" ],
+    "48" : [ "pair=Ontario", "Coherence=0.421", "triple=e dbo:hometown Ontario", "class=HR_Band" ],
+    "49" : [ "pair=\"group_or_band\"@en", "Coherence=0.421", "triple=e dbp:background \"group_or_band\"@en", "class=HR_Band" ],
+    "50" : [ "pair=\"group_or_band\"", "Coherence=0.42", "triple=e dbo:background \"group_or_band\"", "class=HR_Band" ],
+    "51" : [ "pair=\"London", "Coherence=0.418", "triple=e dbp:origin \"London", "class=HR_Band" ],
+    "52" : [ "pair=Funk", "Coherence=0.417", "triple=e dbo:genre Funk", "class=HR_Band" ],
+    "53" : [ "pair=Canada", "Coherence=0.416", "triple=e dbo:hometown Canada", "class=HR_Band" ],
+    "54" : [ "pair=Epic_Records", "Coherence=0.412", "triple=e dbo:recordLabel Epic_Records", "class=HR_Band" ],
+    "55" : [ "pair=United_States", "Coherence=0.41", "triple=e dbp:origin United_States", "class=HR_Band" ],
+    "56" : [ "pair=EMI", "Coherence=0.41", "triple=e dbo:recordLabel EMI", "class=HR_Band" ],
+    "57" : [ "pair=Capitol_Records", "Coherence=0.408", "triple=e dbo:recordLabel Capitol_Records", "class=HR_Band" ],
+    "58" : [ "pair=United_Kingdom", "Coherence=0.408", "triple=e dbo:hometown United_Kingdom", "class=HR_Band" ],
+    "59" : [ "pair=\"â\"@en", "Coherence=0.407", "triple=e dbp:yearsActive \"â\"@en", "class=HR_Band" ],
+    "60" : [ "pair=New_York_(state", "Coherence=0.404", "triple=e dbo:hometown New_York_(state", "class=HR_Band" ],
+    "61" : [ "pair=Universal_Music_Group", "Coherence=0.403", "triple=e dbp:label Universal_Music_Group", "class=HR_Band" ],
+    "62" : [ "pair=RCA_Records", "Coherence=0.401", "triple=e dbo:recordLabel RCA_Records", "class=HR_Band" ],
+    "63" : [ "pair=Warner_Bros._Records", "Coherence=0.4", "triple=e dbo:recordLabel Warner_Bros._Records", "class=HR_Band" ],
+    "64" : [ "pair=\"artist\"@en", "Coherence=0.399", "triple=e dbp:class \"artist\"@en", "class=HR_Band" ],
+    "65" : [ "pair=Germany", "Coherence=0.398", "triple=e dbo:hometown Germany", "class=HR_Band" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "chicago",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Chicago", "Coherence=0.43", "triple=e dbo:hometown Chicago", "class=HR_Band" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "death",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Death_metal", "Coherence=0.403", "triple=e dbp:genre Death_metal", "class=HR_Band" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "los angeles",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Los Angeles", "Coherence=0.413", "triple=e dbp:origin \"Los Angeles", "class=HR_Band" ],
+    "1" : [ "pair=Los_Angeles", "Coherence=0.4", "triple=e dbo:hometown Los_Angeles", "class=HR_Band" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "metal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Black_metal", "Coherence=0.488", "triple=e dbp:genre Black_metal", "class=HR_Band" ],
+    "1" : [ "pair=Power_metal", "Coherence=0.487", "triple=e dbo:genre Power_metal", "class=HR_Band" ],
+    "2" : [ "pair=Thrash_metal", "Coherence=0.471", "triple=e dbp:genre Thrash_metal", "class=HR_Band" ],
+    "3" : [ "pair=Death_metal", "Coherence=0.47", "triple=e dbp:genre Death_metal", "class=HR_Band" ],
+    "4" : [ "pair=Progressive_metal", "Coherence=0.445", "triple=e dbo:genre Progressive_metal", "class=HR_Band" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "metal band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Power_metal", "Coherence=0.463", "triple=e dbo:genre Power_metal", "class=HR_Band" ],
+    "1" : [ "pair=Black_metal", "Coherence=0.456", "triple=e dbp:genre Black_metal", "class=HR_Band" ],
+    "2" : [ "pair=Death_metal", "Coherence=0.44", "triple=e dbp:genre Death_metal", "class=HR_Band" ],
+    "3" : [ "pair=Thrash_metal", "Coherence=0.433", "triple=e dbp:genre Thrash_metal", "class=HR_Band" ],
+    "4" : [ "pair=Progressive_metal", "Coherence=0.401", "triple=e dbo:genre Progressive_metal", "class=HR_Band" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "new york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=New_York_(state", "Coherence=0.419", "triple=e dbo:hometown New_York_(state", "class=HR_Band" ],
+    "1" : [ "pair=New_York_City", "Coherence=0.406", "triple=e dbo:hometown New_York_City", "class=HR_Band" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "punk",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Punk_rock", "Coherence=0.405", "triple=e dbo:genre Punk_rock", "class=HR_Band" ],
+    "1" : [ "pair=Hardcore_punk", "Coherence=0.399", "triple=e dbo:genre Hardcore_punk", "class=HR_Band" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "rock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Blues_rock", "Coherence=0.477", "triple=e dbp:genre Blues_rock", "class=HR_Band" ],
+    "1" : [ "pair=Garage_rock", "Coherence=0.466", "triple=e dbo:genre Garage_rock", "class=HR_Band" ],
+    "2" : [ "pair=Psychedelic_rock", "Coherence=0.462", "triple=e dbo:genre Psychedelic_rock", "class=HR_Band" ],
+    "3" : [ "pair=Progressive_rock", "Coherence=0.447", "triple=e dbo:genre Progressive_rock", "class=HR_Band" ],
+    "4" : [ "pair=Hard_rock", "Coherence=0.444", "triple=e dbo:genre Hard_rock", "class=HR_Band" ],
+    "5" : [ "pair=Alternative_rock", "Coherence=0.438", "triple=e dbo:genre Alternative_rock", "class=HR_Band" ],
+    "6" : [ "pair=Indie_rock", "Coherence=0.428", "triple=e dbo:genre Indie_rock", "class=HR_Band" ],
+    "7" : [ "pair=Rock_and_roll", "Coherence=0.427", "triple=e dbo:genre Rock_and_roll", "class=HR_Band" ],
+    "8" : [ "pair=Pop_rock", "Coherence=0.422", "triple=e dbo:genre Pop_rock", "class=HR_Band" ],
+    "9" : [ "pair=Folk_rock", "Coherence=0.422", "triple=e dbo:genre Folk_rock", "class=HR_Band" ],
+    "10" : [ "pair=Experimental_rock", "Coherence=0.416", "triple=e dbp:genre Experimental_rock", "class=HR_Band" ],
+    "11" : [ "pair=Art_rock", "Coherence=0.412", "triple=e dbp:genre Art_rock", "class=HR_Band" ],
+    "12" : [ "pair=Rock_music", "Coherence=0.404", "triple=e dbo:genre Rock_music", "class=HR_Band" ],
+    "13" : [ "pair=Power_pop", "Coherence=0.403", "triple=e dbo:genre Power_pop", "class=HR_Band" ],
+    "14" : [ "pair=Punk_rock", "Coherence=0.399", "triple=e dbo:genre Punk_rock", "class=HR_Band" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "rock band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Blues_rock", "Coherence=0.417", "triple=e dbo:genre Blues_rock", "class=HR_Band" ],
+    "1" : [ "pair=Psychedelic_rock", "Coherence=0.417", "triple=e dbo:genre Psychedelic_rock", "class=HR_Band" ],
+    "2" : [ "pair=Garage_rock", "Coherence=0.412", "triple=e dbo:genre Garage_rock", "class=HR_Band" ],
+    "3" : [ "pair=Alternative_rock", "Coherence=0.402", "triple=e dbo:genre Alternative_rock", "class=HR_Band" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=New_York_(state", "Coherence=0.419", "triple=e dbo:hometown New_York_(state", "class=HR_Band" ],
+    "1" : [ "pair=New_York_City", "Coherence=0.406", "triple=e dbo:hometown New_York_City", "class=HR_Band" ]
+  }
+} ]

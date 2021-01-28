@@ -1,0 +1,31 @@
+[ {
+  "id" : 5,
+  "pattern" : "chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=China", "AllConf=0.977", "triple=e dbp:primaryUser China", "class=HR_Aircraft" ],
+    "1" : [ "pair=UAV", "AllConf=0.943", "triple=e dbo:type UAV", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "complete",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"four cylinder", "AllConf=0.81", "triple=e dbp:eng1Type \"four cylinder", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "single-place",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Paragliding", "AllConf=0.844", "triple=e dbp:type Paragliding", "class=HR_Aircraft" ],
+    "1" : [ "pair=Paraglider", "AllConf=0.843", "triple=e dbo:type Paraglider", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "soviet",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Soviet_Union", "AllConf=0.846", "triple=e dbo:origin Soviet_Union", "class=HR_Aircraft" ]
+  }
+} ]

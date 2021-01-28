@@ -1,0 +1,17 @@
+[ {
+  "id" : 4,
+  "pattern" : "major",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Philadelphia Phillies\"@en", "AllConf=0.938", "triple=e dbp:debutteam \"Philadelphia Phillies\"@en", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=Cleveland_Indians", "AllConf=0.925", "triple=e dbo:debutTeam Cleveland_Indians", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=New_York_Yankees", "AllConf=0.924", "triple=e dbo:debutTeam New_York_Yankees", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "professional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Free agent\"@en", "AllConf=0.983", "triple=e dbp:team \"Free agent\"@en", "class=HR_BaseballPlayer" ]
+  }
+} ]

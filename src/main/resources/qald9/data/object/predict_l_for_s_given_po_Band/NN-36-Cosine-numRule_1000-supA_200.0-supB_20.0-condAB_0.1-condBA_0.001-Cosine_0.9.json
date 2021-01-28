@@ -1,0 +1,32 @@
+[ {
+  "id" : 1,
+  "pattern" : "band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Pop_punk", "Cosine=0.989", "triple=e dbo:genre Pop_punk", "class=HR_Band" ],
+    "1" : [ "pair=Post-hardcore", "Cosine=0.983", "triple=e dbo:genre Post-hardcore", "class=HR_Band" ],
+    "2" : [ "pair=Hardcore_punk", "Cosine=0.98", "triple=e dbp:genre Hardcore_punk", "class=HR_Band" ],
+    "3" : [ "pair=Heavy_metal_music", "Cosine=0.976", "triple=e dbo:genre Heavy_metal_music", "class=HR_Band" ],
+    "4" : [ "pair=Garage_rock", "Cosine=0.969", "triple=e dbo:genre Garage_rock", "class=HR_Band" ],
+    "5" : [ "pair=Hard_rock", "Cosine=0.967", "triple=e dbo:genre Hard_rock", "class=HR_Band" ],
+    "6" : [ "pair=Alternative_rock", "Cosine=0.967", "triple=e dbp:genre Alternative_rock", "class=HR_Band" ],
+    "7" : [ "pair=Punk_rock", "Cosine=0.962", "triple=e dbo:genre Punk_rock", "class=HR_Band" ],
+    "8" : [ "pair=Indie_rock", "Cosine=0.958", "triple=e dbo:genre Indie_rock", "class=HR_Band" ],
+    "9" : [ "pair=New_wave_music", "Cosine=0.958", "triple=e dbp:genre New_wave_music", "class=HR_Band" ],
+    "10" : [ "pair=Psychedelic_rock", "Cosine=0.957", "triple=e dbp:genre Psychedelic_rock", "class=HR_Band" ],
+    "11" : [ "pair=Progressive_rock", "Cosine=0.946", "triple=e dbp:genre Progressive_rock", "class=HR_Band" ],
+    "12" : [ "pair=Post-punk", "Cosine=0.942", "triple=e dbo:genre Post-punk", "class=HR_Band" ],
+    "13" : [ "pair=\"Yes\"@en", "Cosine=0.933", "triple=e dbp:landscape \"Yes\"@en", "class=HR_Band" ],
+    "14" : [ "pair=Rock_music", "Cosine=0.93", "triple=e dbo:genre Rock_music", "class=HR_Band" ],
+    "15" : [ "pair=Pop_rock", "Cosine=0.926", "triple=e dbo:genre Pop_rock", "class=HR_Band" ],
+    "16" : [ "pair=Indie_pop", "Cosine=0.911", "triple=e dbo:genre Indie_pop", "class=HR_Band" ],
+    "17" : [ "pair=England", "Cosine=0.901", "triple=e dbp:origin England", "class=HR_Band" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "rock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Psychedelic_rock", "Cosine=0.928", "triple=e dbo:genre Psychedelic_rock", "class=HR_Band" ]
+  }
+} ]

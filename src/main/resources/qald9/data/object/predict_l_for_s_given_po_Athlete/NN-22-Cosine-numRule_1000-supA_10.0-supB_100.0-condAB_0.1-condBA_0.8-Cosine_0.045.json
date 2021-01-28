@@ -1,0 +1,481 @@
+[ {
+  "id" : 1,
+  "pattern" : "100 metres",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=//dbpedia.org/datatype/metre>", "Cosine=0.925", "triple=e dbp:event //dbpedia.org/datatype/metre>", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "400 metres",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=//dbpedia.org/datatype/metre>", "Cosine=0.913", "triple=e dbp:event //dbpedia.org/datatype/metre>", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "alpine",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Alpine_skiing", "Cosine=0.996", "triple=e dbp:sport Alpine_skiing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "alpine skier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Alpine_skiing", "Cosine=0.962", "triple=e dbp:sport Alpine_skiing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"American\"@en", "Cosine=0.961", "triple=e dbp:nationality \"American\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=United_States", "Cosine=0.905", "triple=e dbo:nationality United_States", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "basketball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Basketball", "Cosine=1.0", "triple=e dbp:sport Basketball", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "basketball player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Basketball", "Cosine=0.982", "triple=e dbp:sport Basketball", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "bobsledder",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bobsleigh", "Cosine=1.0", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "bobsledder competed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bobsleigh", "Cosine=0.891", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "boxer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Cosine=1.0", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "boxer competed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Cosine=0.969", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "boxer competed\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Cosine=0.926", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "boxer competed\u001Cin\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Cosine=0.926", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "competed in\u001Cthe\u001Cmen",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Cosine=0.931", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "competed the\u001Cmen",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Cosine=0.933", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "1" : [ "pair=Basketball", "Cosine=0.889", "triple=e dbp:sport Basketball", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "equestrian",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Equestrianism", "Cosine=0.991", "triple=e dbp:sport Equestrianism", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "event",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Cosine=0.931", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "fencer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fencing", "Cosine=0.978", "triple=e dbp:sport Fencing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "field",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Field_hockey", "Cosine=0.991", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "field hockey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Field_hockey", "Cosine=0.991", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "field hockey player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Field_hockey", "Cosine=0.973", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "gymnast",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Gymnastics", "Cosine=0.997", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "hockey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Field_hockey", "Cosine=0.994", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "hockey player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Field_hockey", "Cosine=0.979", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "judoka",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Judo", "Cosine=0.992", "triple=e dbp:sport Judo", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "long-distance",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "Cosine=0.965", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Marathon\"@en", "Cosine=0.932", "triple=e dbp:event \"Marathon\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "long-distance runner",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "Cosine=0.965", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Marathon\"@en", "Cosine=0.932", "triple=e dbp:event \"Marathon\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "long-distance runner he\u001Ccompeted",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "Cosine=0.899", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "long-distance runner he\u001Ccompeted\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "Cosine=0.895", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "marathon",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Marathon\"@en", "Cosine=0.995", "triple=e dbp:event \"Marathon\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "men",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boxing", "Cosine=0.935", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "1" : [ "pair=Basketball", "Cosine=0.889", "triple=e dbp:sport Basketball", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "metres",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Middle-distance running\"@en", "Cosine=0.99", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Sprinting\"@en", "Cosine=0.989", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "2" : [ "pair=//dbpedia.org/datatype/metre>", "Cosine=0.935", "triple=e dbp:event //dbpedia.org/datatype/metre>", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "middle-distance runner",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Middle-distance running\"@en", "Cosine=1.0", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "olympics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sailing_(sport", "Cosine=0.994", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ],
+    "1" : [ "pair=Boxing", "Cosine=0.992", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "2" : [ "pair=Equestrianism", "Cosine=0.991", "triple=e dbp:sport Equestrianism", "class=HR_Athlete" ],
+    "3" : [ "pair=Basketball", "Cosine=0.986", "triple=e dbp:sport Basketball", "class=HR_Athlete" ],
+    "4" : [ "pair=\"Middle-distance running\"@en", "Cosine=0.985", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "5" : [ "pair=Gymnastics", "Cosine=0.985", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "6" : [ "pair=\"Sprinting\"@en", "Cosine=0.983", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "7" : [ "pair=\"Swiss\"@en", "Cosine=0.977", "triple=e dbp:nationality \"Swiss\"@en", "class=HR_Athlete" ],
+    "8" : [ "pair=Field_hockey", "Cosine=0.973", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ],
+    "9" : [ "pair=\"Long-distance running\"@en", "Cosine=0.972", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ],
+    "10" : [ "pair=\"Hungarian\"@en", "Cosine=0.97", "triple=e dbp:nationality \"Hungarian\"@en", "class=HR_Athlete" ],
+    "11" : [ "pair=Rowing_(sport", "Cosine=0.964", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "12" : [ "pair=Bobsleigh", "Cosine=0.959", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ],
+    "13" : [ "pair=Water_polo", "Cosine=0.957", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ],
+    "14" : [ "pair=Alpine_skiing", "Cosine=0.952", "triple=e dbp:sport Alpine_skiing", "class=HR_Athlete" ],
+    "15" : [ "pair=Shooting_sports", "Cosine=0.944", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ],
+    "16" : [ "pair=\"Polish\"@en", "Cosine=0.943", "triple=e dbp:nationality \"Polish\"@en", "class=HR_Athlete" ],
+    "17" : [ "pair=\"Marathon\"@en", "Cosine=0.942", "triple=e dbp:event \"Marathon\"@en", "class=HR_Athlete" ],
+    "18" : [ "pair=\"German\"@en", "Cosine=0.939", "triple=e dbp:nationality \"German\"@en", "class=HR_Athlete" ],
+    "19" : [ "pair=\"Canadian\"@en", "Cosine=0.935", "triple=e dbp:nationality \"Canadian\"@en", "class=HR_Athlete" ],
+    "20" : [ "pair=Fencing", "Cosine=0.935", "triple=e dbp:sport Fencing", "class=HR_Athlete" ],
+    "21" : [ "pair=\"South Korean\"@en", "Cosine=0.934", "triple=e dbp:nationality \"South Korean\"@en", "class=HR_Athlete" ],
+    "22" : [ "pair=\"Japanese\"@en", "Cosine=0.933", "triple=e dbp:nationality \"Japanese\"@en", "class=HR_Athlete" ],
+    "23" : [ "pair=Wrestling", "Cosine=0.92", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ],
+    "24" : [ "pair=\"French\"@en", "Cosine=0.915", "triple=e dbp:nationality \"French\"@en", "class=HR_Athlete" ],
+    "25" : [ "pair=\"Spanish\"@en", "Cosine=0.915", "triple=e dbp:nationality \"Spanish\"@en", "class=HR_Athlete" ],
+    "26" : [ "pair=//dbpedia.org/datatype/metre>", "Cosine=0.898", "triple=e dbp:event //dbpedia.org/datatype/metre>", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Water_polo", "Cosine=0.99", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ],
+    "1" : [ "pair=Basketball", "Cosine=0.989", "triple=e dbp:sport Basketball", "class=HR_Athlete" ],
+    "2" : [ "pair=Field_hockey", "Cosine=0.982", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "polo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Water_polo", "Cosine=1.0", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "polo player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Water_polo", "Cosine=0.99", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "rower",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Rowing_(sport", "Cosine=0.972", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Rowing\"@en", "Cosine=0.952", "triple=e dbp:sport \"Rowing\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "runner",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Middle-distance running\"@en", "Cosine=1.0", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=\"Long-distance running\"@en", "Cosine=0.993", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ],
+    "2" : [ "pair=\"Marathon\"@en", "Cosine=0.976", "triple=e dbp:event \"Marathon\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "runner competed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "Cosine=0.899", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "runner competed\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "Cosine=0.895", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "runner competed\u001Cin\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Long-distance running\"@en", "Cosine=0.895", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "sailor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sailing_(sport", "Cosine=0.989", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "sailor competed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sailing_(sport", "Cosine=0.925", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "shooter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Shooting_sports", "Cosine=0.996", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "skier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Alpine_skiing", "Cosine=0.987", "triple=e dbp:sport Alpine_skiing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South Korean\"@en", "Cosine=0.99", "triple=e dbp:nationality \"South Korean\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "sprinter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Sprinting\"@en", "Cosine=0.996", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=//dbpedia.org/datatype/metre>", "Cosine=0.953", "triple=e dbp:event //dbpedia.org/datatype/metre>", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "summer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sailing_(sport", "Cosine=0.992", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ],
+    "1" : [ "pair=Equestrianism", "Cosine=0.991", "triple=e dbp:sport Equestrianism", "class=HR_Athlete" ],
+    "2" : [ "pair=Boxing", "Cosine=0.991", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "3" : [ "pair=Gymnastics", "Cosine=0.985", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "4" : [ "pair=Basketball", "Cosine=0.982", "triple=e dbp:sport Basketball", "class=HR_Athlete" ],
+    "5" : [ "pair=\"Sprinting\"@en", "Cosine=0.981", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "6" : [ "pair=\"Middle-distance running\"@en", "Cosine=0.981", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "7" : [ "pair=\"Long-distance running\"@en", "Cosine=0.972", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ],
+    "8" : [ "pair=Field_hockey", "Cosine=0.97", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ],
+    "9" : [ "pair=Rowing_(sport", "Cosine=0.958", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "10" : [ "pair=Water_polo", "Cosine=0.95", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ],
+    "11" : [ "pair=\"Marathon\"@en", "Cosine=0.947", "triple=e dbp:event \"Marathon\"@en", "class=HR_Athlete" ],
+    "12" : [ "pair=Shooting_sports", "Cosine=0.937", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ],
+    "13" : [ "pair=Fencing", "Cosine=0.926", "triple=e dbp:sport Fencing", "class=HR_Athlete" ],
+    "14" : [ "pair=\"Hungarian\"@en", "Cosine=0.924", "triple=e dbp:nationality \"Hungarian\"@en", "class=HR_Athlete" ],
+    "15" : [ "pair=Wrestling", "Cosine=0.911", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ],
+    "16" : [ "pair=\"Spanish\"@en", "Cosine=0.91", "triple=e dbp:nationality \"Spanish\"@en", "class=HR_Athlete" ],
+    "17" : [ "pair=//dbpedia.org/datatype/metre>", "Cosine=0.898", "triple=e dbp:event //dbpedia.org/datatype/metre>", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "summer olympics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sailing_(sport", "Cosine=0.992", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ],
+    "1" : [ "pair=Equestrianism", "Cosine=0.991", "triple=e dbp:sport Equestrianism", "class=HR_Athlete" ],
+    "2" : [ "pair=Boxing", "Cosine=0.991", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "3" : [ "pair=Gymnastics", "Cosine=0.985", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "4" : [ "pair=Basketball", "Cosine=0.982", "triple=e dbp:sport Basketball", "class=HR_Athlete" ],
+    "5" : [ "pair=\"Sprinting\"@en", "Cosine=0.981", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "6" : [ "pair=\"Middle-distance running\"@en", "Cosine=0.981", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "7" : [ "pair=\"Long-distance running\"@en", "Cosine=0.972", "triple=e dbp:sport \"Long-distance running\"@en", "class=HR_Athlete" ],
+    "8" : [ "pair=Field_hockey", "Cosine=0.967", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ],
+    "9" : [ "pair=Rowing_(sport", "Cosine=0.957", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "10" : [ "pair=Water_polo", "Cosine=0.946", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ],
+    "11" : [ "pair=\"Marathon\"@en", "Cosine=0.942", "triple=e dbp:event \"Marathon\"@en", "class=HR_Athlete" ],
+    "12" : [ "pair=Shooting_sports", "Cosine=0.935", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ],
+    "13" : [ "pair=Fencing", "Cosine=0.926", "triple=e dbp:sport Fencing", "class=HR_Athlete" ],
+    "14" : [ "pair=\"Hungarian\"@en", "Cosine=0.924", "triple=e dbp:nationality \"Hungarian\"@en", "class=HR_Athlete" ],
+    "15" : [ "pair=Wrestling", "Cosine=0.911", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ],
+    "16" : [ "pair=//dbpedia.org/datatype/metre>", "Cosine=0.893", "triple=e dbp:event //dbpedia.org/datatype/metre>", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "tournament",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Basketball", "Cosine=0.961", "triple=e dbp:sport Basketball", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "water",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Water_polo", "Cosine=1.0", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "water polo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Water_polo", "Cosine=1.0", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "water polo player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Water_polo", "Cosine=0.99", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "weightlifter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Olympic_weightlifting", "Cosine=0.988", "triple=e dbp:sport Olympic_weightlifting", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "winter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Alpine_skiing", "Cosine=0.984", "triple=e dbp:sport Alpine_skiing", "class=HR_Athlete" ],
+    "1" : [ "pair=Bobsleigh", "Cosine=0.959", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "winter olympics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bobsleigh", "Cosine=0.959", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ],
+    "1" : [ "pair=Alpine_skiing", "Cosine=0.952", "triple=e dbp:sport Alpine_skiing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "wrestler",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Wrestling", "Cosine=0.994", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ]
+  }
+} ]

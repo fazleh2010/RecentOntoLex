@@ -1,0 +1,33 @@
+[ {
+  "id" : 1,
+  "pattern" : "band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Pop_punk", "Coherence=0.494", "triple=e dbo:genre Pop_punk", "class=HR_Band" ],
+    "1" : [ "pair=Post-hardcore", "Coherence=0.491", "triple=e dbo:genre Post-hardcore", "class=HR_Band" ],
+    "2" : [ "pair=Hardcore_punk", "Coherence=0.49", "triple=e dbp:genre Hardcore_punk", "class=HR_Band" ],
+    "3" : [ "pair=Heavy_metal_music", "Coherence=0.488", "triple=e dbo:genre Heavy_metal_music", "class=HR_Band" ],
+    "4" : [ "pair=Garage_rock", "Coherence=0.484", "triple=e dbo:genre Garage_rock", "class=HR_Band" ],
+    "5" : [ "pair=Hard_rock", "Coherence=0.483", "triple=e dbo:genre Hard_rock", "class=HR_Band" ],
+    "6" : [ "pair=Alternative_rock", "Coherence=0.483", "triple=e dbp:genre Alternative_rock", "class=HR_Band" ],
+    "7" : [ "pair=Punk_rock", "Coherence=0.481", "triple=e dbo:genre Punk_rock", "class=HR_Band" ],
+    "8" : [ "pair=Indie_rock", "Coherence=0.478", "triple=e dbo:genre Indie_rock", "class=HR_Band" ],
+    "9" : [ "pair=New_wave_music", "Coherence=0.478", "triple=e dbp:genre New_wave_music", "class=HR_Band" ],
+    "10" : [ "pair=Psychedelic_rock", "Coherence=0.478", "triple=e dbp:genre Psychedelic_rock", "class=HR_Band" ],
+    "11" : [ "pair=Progressive_rock", "Coherence=0.472", "triple=e dbp:genre Progressive_rock", "class=HR_Band" ],
+    "12" : [ "pair=Post-punk", "Coherence=0.47", "triple=e dbo:genre Post-punk", "class=HR_Band" ],
+    "13" : [ "pair=\"Yes\"@en", "Coherence=0.465", "triple=e dbp:landscape \"Yes\"@en", "class=HR_Band" ],
+    "14" : [ "pair=Rock_music", "Coherence=0.464", "triple=e dbo:genre Rock_music", "class=HR_Band" ],
+    "15" : [ "pair=Pop_rock", "Coherence=0.461", "triple=e dbo:genre Pop_rock", "class=HR_Band" ],
+    "16" : [ "pair=Indie_pop", "Coherence=0.453", "triple=e dbo:genre Indie_pop", "class=HR_Band" ],
+    "17" : [ "pair=England", "Coherence=0.448", "triple=e dbp:origin England", "class=HR_Band" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "rock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Psychedelic_rock", "Coherence=0.462", "triple=e dbo:genre Psychedelic_rock", "class=HR_Band" ],
+    "1" : [ "pair=Progressive_rock", "Coherence=0.447", "triple=e dbo:genre Progressive_rock", "class=HR_Band" ]
+  }
+} ]

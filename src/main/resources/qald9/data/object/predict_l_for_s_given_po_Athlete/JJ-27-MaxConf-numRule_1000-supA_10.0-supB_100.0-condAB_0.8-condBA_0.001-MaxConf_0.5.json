@@ -1,0 +1,15 @@
+[ {
+  "id" : 18,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Italy", "MaxConf=1.0", "triple=e dbo:birthPlace Italy", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "middle-distance",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Middle-distance running\"@en", "MaxConf=1.0", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ]
+  }
+} ]

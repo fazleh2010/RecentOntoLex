@@ -1,0 +1,19 @@
+[ {
+  "id" : 16,
+  "pattern" : "long-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"@en", "AllConf=0.924", "triple=e dbp:subject \"@en", "class=HR_Book" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Science fiction novel\"@en", "AllConf=0.95", "triple=e dbp:genre \"Science fiction novel\"@en", "class=HR_Book" ],
+    "1" : [ "pair=Historical_novel", "AllConf=0.921", "triple=e dbo:literaryGenre Historical_novel", "class=HR_Book" ],
+    "2" : [ "pair=Novel", "AllConf=0.916", "triple=e dbo:literaryGenre Novel", "class=HR_Book" ],
+    "3" : [ "pair=Crime_fiction", "AllConf=0.907", "triple=e dbo:literaryGenre Crime_fiction", "class=HR_Book" ],
+    "4" : [ "pair=Crime_novel", "AllConf=0.903", "triple=e dbo:literaryGenre Crime_novel", "class=HR_Book" ]
+  }
+} ]

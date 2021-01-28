@@ -1,0 +1,23 @@
+[ {
+  "id" : 2,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"French\"@en", "AllConf=0.927", "triple=e dbp:nationality \"French\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=France", "AllConf=0.913", "triple=e dbo:country France", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Italian\"@en", "AllConf=0.948", "triple=e dbp:nationality \"Italian\"@en", "class=HR_Artist" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Saint_Petersburg", "AllConf=0.97", "triple=e dbp:deathPlace Saint_Petersburg", "class=HR_Artist" ]
+  }
+} ]

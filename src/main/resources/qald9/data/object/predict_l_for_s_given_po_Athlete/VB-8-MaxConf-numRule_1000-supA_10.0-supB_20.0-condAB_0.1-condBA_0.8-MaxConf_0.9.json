@@ -1,0 +1,111 @@
+[ {
+  "id" : 12,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Italy", "MaxConf=1.0", "triple=e dbo:birthPlace Italy", "class=HR_Athlete" ],
+    "1" : [ "pair=Soviet_Union", "MaxConf=1.0", "triple=e dbo:birthPlace Soviet_Union", "class=HR_Athlete" ],
+    "2" : [ "pair=Gymnastics", "MaxConf=1.0", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "3" : [ "pair=Modern_pentathlon", "MaxConf=1.0", "triple=e dbp:sport Modern_pentathlon", "class=HR_Athlete" ],
+    "4" : [ "pair=Boxing", "MaxConf=1.0", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "5" : [ "pair=Biathlon", "MaxConf=1.0", "triple=e dbp:sport Biathlon", "class=HR_Athlete" ],
+    "6" : [ "pair=Sailing_(sport", "MaxConf=1.0", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ],
+    "7" : [ "pair=Wrestling", "MaxConf=1.0", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ],
+    "8" : [ "pair=\"Middle-distance running\"@en", "MaxConf=1.0", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "9" : [ "pair=Archery", "MaxConf=1.0", "triple=e dbp:sport Archery", "class=HR_Athlete" ],
+    "10" : [ "pair=Bobsleigh", "MaxConf=1.0", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ],
+    "11" : [ "pair=Volleyball", "MaxConf=1.0", "triple=e dbp:sport Volleyball", "class=HR_Athlete" ],
+    "12" : [ "pair=Ice_hockey", "MaxConf=1.0", "triple=e dbp:sport Ice_hockey", "class=HR_Athlete" ],
+    "13" : [ "pair=Handball", "MaxConf=1.0", "triple=e dbp:sport Handball", "class=HR_Athlete" ],
+    "14" : [ "pair=Shooting_sports", "MaxConf=1.0", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ],
+    "15" : [ "pair=Water_polo", "MaxConf=1.0", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ],
+    "16" : [ "pair=Olympic_weightlifting", "MaxConf=1.0", "triple=e dbp:sport Olympic_weightlifting", "class=HR_Athlete" ],
+    "17" : [ "pair=Judo", "MaxConf=1.0", "triple=e dbp:sport Judo", "class=HR_Athlete" ],
+    "18" : [ "pair=Field_hockey", "MaxConf=1.0", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "competed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Budapest", "MaxConf=1.0", "triple=e dbo:birthPlace Budapest", "class=HR_Athlete" ],
+    "1" : [ "pair=Gymnastics", "MaxConf=1.0", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "2" : [ "pair=Modern_pentathlon", "MaxConf=1.0", "triple=e dbp:sport Modern_pentathlon", "class=HR_Athlete" ],
+    "3" : [ "pair=Boxing", "MaxConf=1.0", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "4" : [ "pair=Biathlon", "MaxConf=1.0", "triple=e dbp:sport Biathlon", "class=HR_Athlete" ],
+    "5" : [ "pair=Sailing_(sport", "MaxConf=1.0", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ],
+    "6" : [ "pair=Wrestling", "MaxConf=1.0", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ],
+    "7" : [ "pair=\"Middle-distance running\"@en", "MaxConf=1.0", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "8" : [ "pair=Archery", "MaxConf=1.0", "triple=e dbp:sport Archery", "class=HR_Athlete" ],
+    "9" : [ "pair=Bobsleigh", "MaxConf=1.0", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ],
+    "10" : [ "pair=Volleyball", "MaxConf=1.0", "triple=e dbp:sport Volleyball", "class=HR_Athlete" ],
+    "11" : [ "pair=Ice_hockey", "MaxConf=1.0", "triple=e dbp:sport Ice_hockey", "class=HR_Athlete" ],
+    "12" : [ "pair=Handball", "MaxConf=1.0", "triple=e dbp:sport Handball", "class=HR_Athlete" ],
+    "13" : [ "pair=Shooting_sports", "MaxConf=1.0", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ],
+    "14" : [ "pair=Water_polo", "MaxConf=1.0", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ],
+    "15" : [ "pair=Olympic_weightlifting", "MaxConf=1.0", "triple=e dbp:sport Olympic_weightlifting", "class=HR_Athlete" ],
+    "16" : [ "pair=Judo", "MaxConf=1.0", "triple=e dbp:sport Judo", "class=HR_Athlete" ],
+    "17" : [ "pair=Field_hockey", "MaxConf=1.0", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "competed at\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Modern_pentathlon", "MaxConf=1.0", "triple=e dbp:sport Modern_pentathlon", "class=HR_Athlete" ],
+    "1" : [ "pair=Shooting_sports", "MaxConf=1.0", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "competed eight",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Gymnastics", "MaxConf=1.0", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "competed in\u001Ceight",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Gymnastics", "MaxConf=1.0", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "competed in\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Boxing", "MaxConf=1.0", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "1" : [ "pair=Sailing_(sport", "MaxConf=1.0", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ],
+    "2" : [ "pair=Wrestling", "MaxConf=1.0", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ],
+    "3" : [ "pair=\"Middle-distance running\"@en", "MaxConf=1.0", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "4" : [ "pair=Bobsleigh", "MaxConf=1.0", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ],
+    "5" : [ "pair=Volleyball", "MaxConf=1.0", "triple=e dbp:sport Volleyball", "class=HR_Athlete" ],
+    "6" : [ "pair=Ice_hockey", "MaxConf=1.0", "triple=e dbp:sport Ice_hockey", "class=HR_Athlete" ],
+    "7" : [ "pair=Shooting_sports", "MaxConf=1.0", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ],
+    "8" : [ "pair=Water_polo", "MaxConf=1.0", "triple=e dbp:sport Water_polo", "class=HR_Athlete" ],
+    "9" : [ "pair=Olympic_weightlifting", "MaxConf=1.0", "triple=e dbp:sport Olympic_weightlifting", "class=HR_Athlete" ],
+    "10" : [ "pair=Judo", "MaxConf=1.0", "triple=e dbp:sport Judo", "class=HR_Athlete" ],
+    "11" : [ "pair=Field_hockey", "MaxConf=1.0", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "competing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Olympic_weightlifting", "MaxConf=1.0", "triple=e dbp:sport Olympic_weightlifting", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "lost",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Boxing", "MaxConf=1.0", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 150,
+  "pattern" : "weightlifting",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Olympic_weightlifting", "MaxConf=1.0", "triple=e dbp:sport Olympic_weightlifting", "class=HR_Athlete" ]
+  }
+} ]

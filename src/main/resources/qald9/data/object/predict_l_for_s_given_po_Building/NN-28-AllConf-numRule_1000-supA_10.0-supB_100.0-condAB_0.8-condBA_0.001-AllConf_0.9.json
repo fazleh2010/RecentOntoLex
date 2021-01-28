@@ -1,0 +1,740 @@
+[ {
+  "id" : 1,
+  "pattern" : "bjã¸rgvin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "AllConf=1.0", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "carolina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North Carolina#USA\"@en", "AllConf=1.0", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"South Carolina#USA\"@en", "AllConf=0.96", "triple=e dbp:locmapin \"South Carolina#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "cheshire",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Cheshire", "AllConf=1.0", "triple=e dbp:location Cheshire", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "church",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sharpe", "AllConf=1.0", "triple=e dbp:architect Sharpe", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=TrÃ¸ndelag", "AllConf=1.0", "triple=e dbo:location TrÃ¸ndelag", "class=HR_HistoricBuilding" ],
+    "3" : [ "pair=Diocese_of_Derby", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Derby", "class=HR_HistoricBuilding" ],
+    "4" : [ "pair=Diocese_of_MÃ¸re", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ],
+    "5" : [ "pair=Diocese_of_Nidaros", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nidaros", "class=HR_HistoricBuilding" ],
+    "6" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "7" : [ "pair=List_of_churches_in_Nidaros", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_Nidaros", "class=HR_HistoricBuilding" ],
+    "8" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "church\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_MÃ¸re", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "3" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "church\u001Cof\u001Cnorway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_MÃ¸re", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "3" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "church norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_MÃ¸re", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "3" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "church norway\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_MÃ¸re", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "3" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "church of\u001Cnorway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_MÃ¸re", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "3" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "church of\u001Cnorway\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_MÃ¸re", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "3" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "AllConf=0.918", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"NJRHP\"@en", "AllConf=0.918", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"North Carolina#USA\"@en", "AllConf=0.916", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ],
+    "3" : [ "pair=\"#ffc94b\"@en", "AllConf=0.904", "triple=e dbp:designatedOther1Color \"#ffc94b\"@en", "class=HR_Building" ],
+    "4" : [ "pair=Vestland", "AllConf=1.0", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "5" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "6" : [ "pair=TrÃ¸ndelag", "AllConf=1.0", "triple=e dbo:location TrÃ¸ndelag", "class=HR_HistoricBuilding" ],
+    "7" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "8" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "9" : [ "pair=Diocese_of_MÃ¸re", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ],
+    "10" : [ "pair=Diocese_of_Nidaros", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nidaros", "class=HR_HistoricBuilding" ],
+    "11" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "12" : [ "pair=Diocese_of_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "13" : [ "pair=List_of_churches_in_Nidaros", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_Nidaros", "class=HR_HistoricBuilding" ],
+    "14" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "15" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "county new",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "AllConf=0.91", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"NJRHP\"@en", "AllConf=0.91", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "county new jersey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "AllConf=0.91", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"NJRHP\"@en", "AllConf=0.91", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "county north",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North Carolina#USA\"@en", "AllConf=0.902", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "county north carolina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North Carolina#USA\"@en", "AllConf=0.902", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "county norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "AllConf=1.0", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=TrÃ¸ndelag", "AllConf=1.0", "triple=e dbo:location TrÃ¸ndelag", "class=HR_HistoricBuilding" ],
+    "3" : [ "pair=Diocese_of_MÃ¸re", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ],
+    "4" : [ "pair=Diocese_of_Nidaros", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nidaros", "class=HR_HistoricBuilding" ],
+    "5" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "6" : [ "pair=Diocese_of_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "7" : [ "pair=List_of_churches_in_Nidaros", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_Nidaros", "class=HR_HistoricBuilding" ],
+    "8" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "9" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "county norway it\u001Cis",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "diocese",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "AllConf=1.0", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "3" : [ "pair=Diocese_of_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "4" : [ "pair=List_of_churches_in_Nidaros", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_Nidaros", "class=HR_HistoricBuilding" ],
+    "5" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "diocese\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "AllConf=1.0", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "diocese\u001Cof\u001Cbjã¸rgvin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "AllConf=1.0", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "diocese bjã¸rgvin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "AllConf=1.0", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "diocese nidaros",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=List_of_churches_in_Nidaros", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_Nidaros", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "diocese nord-hã¥logaland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "diocese of\u001Cbjã¸rgvin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "AllConf=1.0", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "diocese of\u001Cnidaros",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=List_of_churches_in_Nidaros", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_Nidaros", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "diocese of\u001Cnord-hã¥logaland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "england",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Cheshire", "AllConf=1.0", "triple=e dbo:location Cheshire", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "finnmark",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "finnmark county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "iowa",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Iowa#USA\"@en", "AllConf=1.0", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "iowa united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Iowa#USA\"@en", "AllConf=0.923", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "iowa united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Iowa#USA\"@en", "AllConf=0.92", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "jersey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "AllConf=0.991", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"NJRHP\"@en", "AllConf=0.991", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"#ffc94b\"@en", "AllConf=0.976", "triple=e dbp:designatedOther1Color \"#ffc94b\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "jersey united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "AllConf=0.91", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"NJRHP\"@en", "AllConf=0.91", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "jersey united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "AllConf=0.902", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"NJRHP\"@en", "AllConf=0.902", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "kentucky",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Kentucky#USA\"@en", "AllConf=0.965", "triple=e dbp:locmapin \"Kentucky#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "lancashire",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Lancashire", "AllConf=1.0", "triple=e dbo:location Lancashire", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "massachusetts",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Massachusetts#USA\"@en", "AllConf=0.984", "triple=e dbp:locmapin \"Massachusetts#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "minnesota",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Minnesota#USA\"@en", "AllConf=0.99", "triple=e dbp:locmapin \"Minnesota#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "municipality",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Diocese_of_MÃ¸re", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "mã¸re",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Diocese_of_MÃ¸re", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "new jersey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "AllConf=0.991", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"NJRHP\"@en", "AllConf=0.991", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"#ffc94b\"@en", "AllConf=0.976", "triple=e dbp:designatedOther1Color \"#ffc94b\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "new jersey united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "AllConf=0.91", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"NJRHP\"@en", "AllConf=0.91", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "new jersey united\u001Cstates",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "AllConf=0.902", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"NJRHP\"@en", "AllConf=0.902", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "new york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=New_York_(state", "AllConf=1.0", "triple=e dbo:location New_York_(state", "class=HR_Building" ],
+    "1" : [ "pair=\"New York#USA\"@en", "AllConf=0.984", "triple=e dbp:locmapin \"New York#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "nidaros",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=List_of_churches_in_Nidaros", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_Nidaros", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "nord-hã¥logaland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "nordland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "nordland county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "nordland county\u001Cnorway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "nordland county\u001Cnorway\u001Cit",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "nordland county norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "nordland county norway\u001Cit",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "nordland county norway\u001Cit\u001Cis",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "north",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North Carolina#USA\"@en", "AllConf=1.0", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "north carolina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"North Carolina#USA\"@en", "AllConf=1.0", "triple=e dbp:locmapin \"North Carolina#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "AllConf=1.0", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=TrÃ¸ndelag", "AllConf=1.0", "triple=e dbo:location TrÃ¸ndelag", "class=HR_HistoricBuilding" ],
+    "3" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "4" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "5" : [ "pair=Diocese_of_MÃ¸re", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ],
+    "6" : [ "pair=Diocese_of_Nidaros", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nidaros", "class=HR_HistoricBuilding" ],
+    "7" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "8" : [ "pair=Diocese_of_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "9" : [ "pair=List_of_churches_in_Nidaros", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_Nidaros", "class=HR_HistoricBuilding" ],
+    "10" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "11" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "og finnmark",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "og finnmark county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "ohio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Ohio#USA\"@en", "AllConf=0.993", "triple=e dbp:locmapin \"Ohio#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "parish",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "AllConf=1.0", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Nordland", "AllConf=1.0", "triple=e dbo:location Nordland", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "3" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "4" : [ "pair=Diocese_of_MÃ¸re", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_MÃ¸re", "class=HR_HistoricBuilding" ],
+    "5" : [ "pair=Diocese_of_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "6" : [ "pair=Diocese_of_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "7" : [ "pair=List_of_churches_in_Nidaros", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_Nidaros", "class=HR_HistoricBuilding" ],
+    "8" : [ "pair=List_of_churches_in_SÃ¸r-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_SÃ¸r-HÃ¥logaland", "class=HR_HistoricBuilding" ],
+    "9" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "pennsylvania",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Pennsylvania#USA\"@en", "AllConf=0.988", "triple=e dbp:locmapin \"Pennsylvania#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South Carolina#USA\"@en", "AllConf=0.96", "triple=e dbp:locmapin \"South Carolina#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "south carolina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South Carolina#USA\"@en", "AllConf=0.96", "triple=e dbp:locmapin \"South Carolina#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Iowa#USA\"@en", "AllConf=0.929", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"New Jersey Register of Historic Places\"@en", "AllConf=0.918", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"NJRHP\"@en", "AllConf=0.918", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ],
+    "3" : [ "pair=\"#ffc94b\"@en", "AllConf=0.912", "triple=e dbp:designatedOther1Color \"#ffc94b\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "troms",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "troms og",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "troms og\u001Cfinnmark",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "troms og\u001Cfinnmark\u001Ccounty",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "troms og finnmark",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "troms og finnmark\u001Ccounty",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms_og_Finnmark", "AllConf=1.0", "triple=e dbo:location Troms_og_Finnmark", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nord-HÃ¥logaland", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nord-HÃ¥logaland", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "trã¸ndelag",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TrÃ¸ndelag", "AllConf=1.0", "triple=e dbo:location TrÃ¸ndelag", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nidaros", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nidaros", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_Nidaros", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_Nidaros", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "trã¸ndelag county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TrÃ¸ndelag", "AllConf=1.0", "triple=e dbo:location TrÃ¸ndelag", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nidaros", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nidaros", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_Nidaros", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_Nidaros", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "trã¸ndelag county norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=TrÃ¸ndelag", "AllConf=1.0", "triple=e dbo:location TrÃ¸ndelag", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Nidaros", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Nidaros", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_Nidaros", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_Nidaros", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Iowa#USA\"@en", "AllConf=0.932", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"New Jersey Register of Historic Places\"@en", "AllConf=0.926", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"NJRHP\"@en", "AllConf=0.926", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ],
+    "3" : [ "pair=\"#ffc94b\"@en", "AllConf=0.92", "triple=e dbp:designatedOther1Color \"#ffc94b\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Iowa#USA\"@en", "AllConf=0.929", "triple=e dbp:locmapin \"Iowa#USA\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"New Jersey Register of Historic Places\"@en", "AllConf=0.918", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"NJRHP\"@en", "AllConf=0.918", "triple=e dbp:designatedOther1Abbr \"NJRHP\"@en", "class=HR_Building" ],
+    "3" : [ "pair=\"#ffc94b\"@en", "AllConf=0.912", "triple=e dbp:designatedOther1Color \"#ffc94b\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "vestland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "AllConf=1.0", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "vestland county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "AllConf=1.0", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "vestland county\u001Cnorway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "AllConf=1.0", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "vestland county norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vestland", "AllConf=1.0", "triple=e dbo:location Vestland", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_BjÃ¸rgvin", "class=HR_HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_BjÃ¸rgvin", "AllConf=1.0", "triple=e dbp:deanery List_of_churches_in_BjÃ¸rgvin", "class=HR_HistoricBuilding" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "virginia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Virginia Landmarks Register\"@en", "AllConf=0.996", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"West Virginia#USA\"@en", "AllConf=0.991", "triple=e dbp:locmapin \"West Virginia#USA\"@en", "class=HR_Building" ],
+    "2" : [ "pair=\"Virginia#USA\"@en", "AllConf=0.968", "triple=e dbp:locmapin \"Virginia#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "west",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"West Virginia#USA\"@en", "AllConf=0.991", "triple=e dbp:locmapin \"West Virginia#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "west virginia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"West Virginia#USA\"@en", "AllConf=0.991", "triple=e dbp:locmapin \"West Virginia#USA\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=New_York_(state", "AllConf=1.0", "triple=e dbo:location New_York_(state", "class=HR_Building" ],
+    "1" : [ "pair=\"New York#USA\"@en", "AllConf=0.984", "triple=e dbp:locmapin \"New York#USA\"@en", "class=HR_Building" ]
+  }
+} ]

@@ -173,8 +173,8 @@ public class EvaluationMainTest implements ThresoldConstants {
                         expeResult.put(experiment, meanReciprocalsPos);
                     }
                 }
-                setTopMeanReciprocal(directory, prediction, interestingness);
-                String outputFileName = directory + "A-" + "NN-JJ-VB-" + interestingness + "-" + prediction + "MeanR" + ".json";
+                setTopMeanReciprocal(outputDir, prediction, interestingness);
+                String outputFileName = outputDir +interestingness+ "-NN-JJ-VB-" + prediction + "MeanR" + ".json";
                 FileFolderUtils.writeExperMeanResultsToJsonFile(expeResult, outputFileName);
             }
             break;
@@ -189,11 +189,11 @@ public class EvaluationMainTest implements ThresoldConstants {
         Collections.reverse(nouns);
         Collections.sort(verbs, new MeanReciprocalCalculation());
         Collections.reverse(verbs);
-        String outputFileName = directory + "A-" + associationRule + "-" + "NN" + "-" + prediction + "-" + "MeanR" + ".json";
+        String outputFileName = directory + associationRule + "-" + "NN" + "-" + prediction + "-" + "MeanR" + ".json";
         FileFolderUtils.writeMeanSortToJsonFile(nouns, outputFileName);
-        outputFileName = directory + "A-" + associationRule + "-" + "JJ" + "-" + prediction + "-" + "MeanR" + ".json";
+        outputFileName = directory + associationRule + "-" + "JJ" + "-" + prediction + "-" + "MeanR" + ".json";
         FileFolderUtils.writeMeanSortToJsonFile(adjectives, outputFileName);
-        outputFileName = directory + "A-" + associationRule + "-" + "VB-" + "-" + prediction + "-" + "MeanR" + ".json";
+        outputFileName = directory + associationRule + "-" + "VB-" + "-" + prediction + "-" + "MeanR" + ".json";
         FileFolderUtils.writeMeanSortToJsonFile(verbs, outputFileName);
 
     }

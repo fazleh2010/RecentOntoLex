@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package citec.correlation.wikipedia.main;
+package citec.correlation.wikipedia.analyzer.logging;
 
 import java.util.logging.LogRecord;
 import java.util.logging.StreamHandler;
@@ -12,9 +12,9 @@ import java.util.logging.StreamHandler;
  *
  * @author elahi
  */
-public class MyHandler extends StreamHandler {
+public class LogHandler extends StreamHandler {
 
-    public MyHandler() {
+    public LogHandler() {
     }
 
     @Override

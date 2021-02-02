@@ -35,16 +35,11 @@ public class LexiconUnit {
         this.entityInfos = entityInfos;
     }
 
-    public LexiconUnit(LexiconUnit LexiconUnit, List<String> selectedPair) {
+    public LexiconUnit(LexiconUnit LexiconUnit,LinkedHashMap<Integer, List<String>> newEntityInfos) {
         this.id=LexiconUnit.getId();
         this.partsOfSpeech = LexiconUnit.getPartsOfSpeech();
         this.word = LexiconUnit.getWord();
-        Integer index=0;
-        for(String key:selectedPair){
-            index=index+1;
-           this.entityInfos.put(index, selectedPair);      
-        }
-      
+        this.entityInfos=newEntityInfos;
     }
 
     public String getWord() {

@@ -250,34 +250,50 @@ public class Comparision {
                 LinkedHashMap<Integer, List<String>> newEntityInfos = new LinkedHashMap<Integer, List<String>>();
                 Integer count = 0;
                 for (Integer index : LexiconUnit.getEntityInfos().keySet()) {
+                    System.out.println("Index:" + index);
                     List<String> values = LexiconUnit.getEntityInfos().get(index);
-                    List<String> selectedPair = new ArrayList<String>();
-
-                    for (String line : values) {
-                        if (line.contains("=")) {
-                            String[] info = line.split("=");
+                    //List<String> selectedPair = new ArrayList<String>();
+                    Boolean found = false;
+                    String selectedElement = null;
+                    for (String eachElement : values) {
+                        if (eachElement.contains("=")) {
+                            String[] info = eachElement.split("=");
                             if (info[0].contains("class")) {
                                 String classNameValue = info[1];
                                 if (classNameValue.contains(className)) {
-                                    selectedPair.add(line);
+                                    System.out.println("selectedElement:" + eachElement);
+                                    selectedElement = eachElement;
+                                    found = true;
+                                    break;
                                 }
                             }
                         }
                     }
-                    if (!selectedPair.isEmpty()) {
+                    if (found) {
                         count = count + 1;
-                        newEntityInfos.put(index, values);
-                        LexiconUnit newLexiconUnit = new LexiconUnit(LexiconUnit, selectedPair);
-                        lexicons.put(LexiconUnit.getWord(), newLexiconUnit);
+                        System.out.println("count:"+count+" values:"+values);
+                        newEntityInfos.put(count, values);
+                       
                     }
-
+                  if(!newEntityInfos.isEmpty()){
+                  LexiconUnit newLexiconUnit = new LexiconUnit(LexiconUnit, newEntityInfos);
+                  lexicons.put(LexiconUnit.getWord(), newLexiconUnit);
+                    }
                 }
+                
 
             }
         } catch (IOException ex) {
             System.out.println("no file is found for lexicon!!" + ex.getMessage());
             return lexicons;
         }
+        
+        /*for(String key:lexicons.keySet()){
+            System.out.println(key);
+             LexiconUnit newLexiconUnit =lexicons.get(key);
+              System.out.println(newLexiconUnit);
+        }*/
+        
         return lexicons;
     }
 

@@ -1,0 +1,295 @@
+[ {
+  "id" : 72,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Australian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Australian\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=\"Round 1", "MaxConf=1.0", "triple=e dbp:debutdate \"Round 1", "class=HR_AustralianRulesFootballPlayer" ],
+    "2" : [ "pair=Australia", "MaxConf=1.0", "triple=e dbo:country Australia", "class=HR_Writer" ]
+  }
+}, {
+  "id" : 107,
+  "pattern" : "byzantine",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Byzantine_Empire", "MaxConf=1.0", "triple=e dbp:combatant Byzantine_Empire", "class=HR_MilitaryConflict" ]
+  }
+}, {
+  "id" : 110,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Canadian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Canadian\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=CBC_Television", "MaxConf=1.0", "triple=e dbo:channel CBC_Television", "class=HR_TelevisionShow" ],
+    "2" : [ "pair=Canadians", "MaxConf=1.0", "triple=e dbo:nationality Canadians", "class=HR_Writer" ]
+  }
+}, {
+  "id" : 123,
+  "pattern" : "chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=List_of_postal_codes_in_China", "MaxConf=1.0", "triple=e dbp:postalCodeType List_of_postal_codes_in_China", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 129,
+  "pattern" : "civil",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"CSA (Confederacy", "MaxConf=1.0", "triple=e dbp:combatant \"CSA (Confederacy", "class=HR_MilitaryConflict" ],
+    "1" : [ "pair=\"Union victory\"@en", "MaxConf=1.0", "triple=e dbp:result \"Union victory\"@en", "class=HR_MilitaryConflict" ]
+  }
+}, {
+  "id" : 217,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Paris", "MaxConf=1.0", "triple=e dbo:birthPlace Paris", "class=HR_Artist" ],
+    "1" : [ "pair=\"French\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"French\"@en", "class=HR_Artist" ],
+    "2" : [ "pair=\"French Empire\"@en", "MaxConf=1.0", "triple=e dbp:combatant \"French Empire\"@en", "class=HR_MilitaryConflict" ],
+    "3" : [ "pair=France", "MaxConf=1.0", "triple=e dbo:nationality France", "class=HR_Scientist" ]
+  }
+}, {
+  "id" : 224,
+  "pattern" : "georgian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Georgian_Orthodox_Church", "MaxConf=1.0", "triple=e dbp:religion Georgian_Orthodox_Church", "class=HR_Royalty" ]
+  }
+}, {
+  "id" : 225,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"German\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"German\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=German_language", "MaxConf=1.0", "triple=e dbp:language German_language", "class=HR_Film" ],
+    "2" : [ "pair=Germany", "MaxConf=1.0", "triple=e dbo:nationality Germany", "class=HR_Scientist" ],
+    "3" : [ "pair=German_Type_VII_submarine", "MaxConf=1.0", "triple=e dbo:class German_Type_VII_submarine", "class=HR_Ship" ],
+    "4" : [ "pair=\"@en", "MaxConf=1.0", "triple=e dbp:shipTestDepth \"@en", "class=HR_Ship" ],
+    "5" : [ "pair=West_Germany", "MaxConf=1.0", "triple=e dbo:birthPlace West_Germany", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 245,
+  "pattern" : "heritage-listed",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#date>", "MaxConf=1.0", "triple=e dbp:accessdate //www.w3.org/2001/XMLSchema#date>", "class=HR_HistoricPlace" ],
+    "1" : [ "pair=\"New South Wales State Heritage Register\"@en", "MaxConf=1.0", "triple=e dbp:designation \"New South Wales State Heritage Register\"@en", "class=HR_HistoricPlace" ],
+    "2" : [ "pair=\"Queensland Heritage Register\"@en", "MaxConf=1.0", "triple=e dbp:designation \"Queensland Heritage Register\"@en", "class=HR_HistoricPlace" ]
+  }
+}, {
+  "id" : 246,
+  "pattern" : "historic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=\"Virginia Landmarks Register\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ]
+  }
+}, {
+  "id" : 263,
+  "pattern" : "indian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Indian_National_Congress", "MaxConf=1.0", "triple=e dbo:party Indian_National_Congress", "class=HR_Politician" ],
+    "1" : [ "pair=Indian_nationality", "MaxConf=1.0", "triple=e dbo:nationality Indian_nationality", "class=HR_Scientist" ]
+  }
+}, {
+  "id" : 268,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Italian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Italian\"@en", "class=HR_Artist" ],
+    "1" : [ "pair=Italy", "MaxConf=1.0", "triple=e dbo:birthPlace Italy", "class=HR_Athlete" ],
+    "2" : [ "pair=\"Italy\"@en", "MaxConf=1.0", "triple=e dbp:country \"Italy\"@en", "class=HR_PoliticalParty" ]
+  }
+}, {
+  "id" : 271,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Japan", "MaxConf=1.0", "triple=e dbo:country Japan", "class=HR_Writer" ]
+  }
+}, {
+  "id" : 281,
+  "pattern" : "korean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Korean\"@en", "MaxConf=1.0", "triple=e dbp:language \"Korean\"@en", "class=HR_Film" ],
+    "1" : [ "pair=Korean_language", "MaxConf=1.0", "triple=e dbo:language Korean_language", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 288,
+  "pattern" : "local",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"lga\"@en", "MaxConf=1.0", "triple=e dbp:type \"lga\"@en", "class=HR_AdministrativeRegion" ]
+  }
+}, {
+  "id" : 295,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"n/a\"@en", "MaxConf=1.0", "triple=e dbp:r1LengthF \"n/a\"@en", "class=HR_Airport" ],
+    "1" : [ "pair=\"New York Adirondack Park#USA\"@en", "MaxConf=1.0", "triple=e dbp:pushpinMap \"New York Adirondack Park#USA\"@en", "class=HR_BodyOfWater" ],
+    "2" : [ "pair=\"Idaho#USA\"@en", "MaxConf=1.0", "triple=e dbp:pushpinMap \"Idaho#USA\"@en", "class=HR_BodyOfWater" ],
+    "3" : [ "pair=\"Virginia Landmarks Register\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther \"Virginia Landmarks Register\"@en", "class=HR_Building" ],
+    "4" : [ "pair=Confluence", "MaxConf=1.0", "triple=e dbo:riverMouth Confluence", "class=HR_River" ],
+    "5" : [ "pair=National_park", "MaxConf=1.0", "triple=e dbp:customLabel National_park", "class=HR_River" ]
+  }
+}, {
+  "id" : 296,
+  "pattern" : "major",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Free agent\"@en", "MaxConf=1.0", "triple=e dbp:team \"Free agent\"@en", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 304,
+  "pattern" : "marine",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Volutidae", "MaxConf=1.0", "triple=e dbp:subfamilia Volutidae", "class=HR_Mollusca" ],
+    "1" : [ "pair=Marginellinae", "MaxConf=1.0", "triple=e dbp:subfamilia Marginellinae", "class=HR_Mollusca" ],
+    "2" : [ "pair=Muricinae", "MaxConf=1.0", "triple=e dbp:subfamilia Muricinae", "class=HR_Mollusca" ]
+  }
+}, {
+  "id" : 313,
+  "pattern" : "mexican",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Mexico", "MaxConf=1.0", "triple=e dbo:birthPlace Mexico", "class=HR_Person" ]
+  }
+}, {
+  "id" : 319,
+  "pattern" : "middle-distance",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Middle-distance running\"@en", "MaxConf=1.0", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 353,
+  "pattern" : "nazi",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=German_Type_VII_submarine", "MaxConf=1.0", "triple=e dbo:class German_Type_VII_submarine", "class=HR_Ship" ],
+    "1" : [ "pair=\"@en", "MaxConf=1.0", "triple=e dbp:shipTestDepth \"@en", "class=HR_Ship" ]
+  }
+}, {
+  "id" : 375,
+  "pattern" : "norwegian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Norway", "MaxConf=1.0", "triple=e dbo:country Norway", "class=HR_Writer" ],
+    "1" : [ "pair=\"Norwegian\"@en", "MaxConf=1.0", "triple=e dbp:nationality \"Norwegian\"@en", "class=HR_Writer" ]
+  }
+}, {
+  "id" : 396,
+  "pattern" : "polish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Poland\"@en", "MaxConf=1.0", "triple=e dbp:country \"Poland\"@en", "class=HR_PoliticalParty" ]
+  }
+}, {
+  "id" : 397,
+  "pattern" : "political",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "MaxConf=1.0", "triple=e dbp:leader1Title \"President\"@en", "class=HR_PoliticalParty" ],
+    "1" : [ "pair=\"Chairman\"@en", "MaxConf=1.0", "triple=e dbp:leader1Title \"Chairman\"@en", "class=HR_PoliticalParty" ],
+    "2" : [ "pair=\"Secretary\"@en", "MaxConf=1.0", "triple=e dbp:leader1Title \"Secretary\"@en", "class=HR_PoliticalParty" ],
+    "3" : [ "pair=\"Orange\"@en", "MaxConf=1.0", "triple=e dbo:colourName \"Orange\"@en", "class=HR_PoliticalParty" ],
+    "4" : [ "pair=\"Green\"@en", "MaxConf=1.0", "triple=e dbo:colourName \"Green\"@en", "class=HR_PoliticalParty" ],
+    "5" : [ "pair=\"Blue\"@en", "MaxConf=1.0", "triple=e dbo:colourName \"Blue\"@en", "class=HR_PoliticalParty" ],
+    "6" : [ "pair=\"green\"@en", "MaxConf=1.0", "triple=e dbp:colorcode \"green\"@en", "class=HR_PoliticalParty" ],
+    "7" : [ "pair=\"blue\"@en", "MaxConf=1.0", "triple=e dbp:colorcode \"blue\"@en", "class=HR_PoliticalParty" ],
+    "8" : [ "pair=\"Italy\"@en", "MaxConf=1.0", "triple=e dbp:country \"Italy\"@en", "class=HR_PoliticalParty" ],
+    "9" : [ "pair=\"Ukraine\"@en", "MaxConf=1.0", "triple=e dbp:country \"Ukraine\"@en", "class=HR_PoliticalParty" ],
+    "10" : [ "pair=\"Romania\"@en", "MaxConf=1.0", "triple=e dbp:country \"Romania\"@en", "class=HR_PoliticalParty" ]
+  }
+}, {
+  "id" : 408,
+  "pattern" : "professional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "MaxConf=1.0", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"Free agent\"@en", "MaxConf=1.0", "triple=e dbp:team \"Free agent\"@en", "class=HR_BaseballPlayer" ],
+    "2" : [ "pair=\"medic\"@en", "MaxConf=1.0", "triple=e dbp:bot \"medic\"@en", "class=HR_RugbyPlayer" ]
+  }
+}, {
+  "id" : 411,
+  "pattern" : "professional rugby",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"medic\"@en", "MaxConf=1.0", "triple=e dbp:bot \"medic\"@en", "class=HR_RugbyPlayer" ]
+  }
+}, {
+  "id" : 443,
+  "pattern" : "romanian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Romania\"@en", "MaxConf=1.0", "triple=e dbp:country \"Romania\"@en", "class=HR_PoliticalParty" ]
+  }
+}, {
+  "id" : 446,
+  "pattern" : "rugby",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"medic\"@en", "MaxConf=1.0", "triple=e dbp:bot \"medic\"@en", "class=HR_RugbyPlayer" ],
+    "1" : [ "pair=\"InternetArchiveBot\"@en", "MaxConf=1.0", "triple=e dbp:bot \"InternetArchiveBot\"@en", "class=HR_RugbyPlayer" ],
+    "2" : [ "pair=Flanker_(rugby_union", "MaxConf=1.0", "triple=e dbp:position Flanker_(rugby_union", "class=HR_RugbyPlayer" ],
+    "3" : [ "pair=Rugby_union_positions", "MaxConf=1.0", "triple=e dbp:position Rugby_union_positions", "class=HR_RugbyPlayer" ]
+  }
+}, {
+  "id" : 454,
+  "pattern" : "rural",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=//dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e dbp:utcOffset //dbpedia.org/datatype/second>", "class=HR_Village" ]
+  }
+}, {
+  "id" : 466,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Saint_Petersburg", "MaxConf=1.0", "triple=e dbp:deathPlace Saint_Petersburg", "class=HR_Artist" ],
+    "1" : [ "pair=Russian_Civil_War", "MaxConf=1.0", "triple=e dbo:battle Russian_Civil_War", "class=HR_MilitaryPerson" ],
+    "2" : [ "pair=Russian_SFSR", "MaxConf=1.0", "triple=e dbo:birthPlace Russian_SFSR", "class=HR_SoccerManager" ],
+    "3" : [ "pair=//dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e dbp:utcOffset //dbpedia.org/datatype/second>", "class=HR_Village" ]
+  }
+}, {
+  "id" : 487,
+  "pattern" : "small",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"New York\"@en", "MaxConf=1.0", "triple=e dbp:pushpinMap \"New York\"@en", "class=HR_BodyOfWater" ]
+  }
+}, {
+  "id" : 498,
+  "pattern" : "south korean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Korean\"@en", "MaxConf=1.0", "triple=e dbp:language \"Korean\"@en", "class=HR_Film" ],
+    "1" : [ "pair=Korean_language", "MaxConf=1.0", "triple=e dbo:language Korean_language", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 505,
+  "pattern" : "spanish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Spanish victory\"@en", "MaxConf=1.0", "triple=e dbp:result \"Spanish victory\"@en", "class=HR_MilitaryConflict" ],
+    "1" : [ "pair=\"Spain\"@en", "MaxConf=1.0", "triple=e dbp:state \"Spain\"@en", "class=HR_PoliticalParty" ]
+  }
+}, {
+  "id" : 550,
+  "pattern" : "turkish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Ottoman_dynasty", "MaxConf=1.0", "triple=e dbp:house Ottoman_dynasty", "class=HR_Royalty" ]
+  }
+}, {
+  "id" : 562,
+  "pattern" : "ukrainian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Ukraine\"@en", "MaxConf=1.0", "triple=e dbp:country \"Ukraine\"@en", "class=HR_PoliticalParty" ]
+  }
+} ]

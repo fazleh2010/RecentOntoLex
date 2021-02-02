@@ -1,0 +1,203 @@
+[ {
+  "id" : 23,
+  "pattern" : "arabic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Dynasty\"@en", "IR=0.898", "triple=e dbp:houseType \"Dynasty\"@en", "class=HR_Royalty" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Australian\"@en", "IR=0.66", "triple=e dbp:nationality \"Australian\"@en", "class=HR_Writer" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "botanical",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Botany", "IR=0.756", "triple=e dbo:academicDiscipline Botany", "class=HR_Scientist" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"British\"@en", "IR=0.793", "triple=e dbp:nationality \"British\"@en", "class=HR_Person" ],
+    "1" : [ "pair=England", "IR=0.637", "triple=e dbo:birthPlace England", "class=HR_Person" ],
+    "2" : [ "pair=London", "IR=0.621", "triple=e dbo:birthPlace London", "class=HR_Person" ],
+    "3" : [ "pair=\"\"@en", "IR=0.889", "triple=e dbp:spouse \"\"@en", "class=HR_Politician" ],
+    "4" : [ "pair=University_of_Cambridge", "IR=0.788", "triple=e dbo:almaMater University_of_Cambridge", "class=HR_Scientist" ],
+    "5" : [ "pair=\"English\"@en", "IR=0.896", "triple=e dbp:language \"English\"@en", "class=HR_Writer" ],
+    "6" : [ "pair=United_Kingdom", "IR=0.759", "triple=e dbo:nationality United_Kingdom", "class=HR_Writer" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "democratic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Democratic_Party_(United_States", "IR=0.879", "triple=e dbo:party Democratic_Party_(United_States", "class=HR_Politician" ]
+  }
+}, {
+  "id" : 96,
+  "pattern" : "former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Democratic_Party_(United_States", "IR=0.898", "triple=e dbo:party Democratic_Party_(United_States", "class=HR_Politician" ],
+    "1" : [ "pair=Republican_Party_(United_States", "IR=0.89", "triple=e dbo:party Republican_Party_(United_States", "class=HR_Politician" ]
+  }
+}, {
+  "id" : 100,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Mathematics", "IR=0.88", "triple=e dbo:academicDiscipline Mathematics", "class=HR_Scientist" ]
+  }
+}, {
+  "id" : 104,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.897", "triple=e dbp:issue \"\"@en", "class=HR_Royalty" ],
+    "1" : [ "pair=Catholic_Church", "IR=0.883", "triple=e dbp:religion Catholic_Church", "class=HR_Royalty" ]
+  }
+}, {
+  "id" : 108,
+  "pattern" : "high",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Athletics\"@en", "IR=0.896", "triple=e dbp:sport \"Athletics\"@en", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 122,
+  "pattern" : "human",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Non-governmental_organization", "IR=0.877", "triple=e dbp:type Non-governmental_organization", "class=HR_Organisation" ]
+  }
+}, {
+  "id" : 125,
+  "pattern" : "indian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Actor", "IR=0.882", "triple=e dbp:occupation Actor", "class=HR_Person" ],
+    "1" : [ "pair=\"Indian\"@en", "IR=0.522", "triple=e dbp:nationality \"Indian\"@en", "class=HR_Person" ]
+  }
+}, {
+  "id" : 127,
+  "pattern" : "international",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Nonprofit_organization", "IR=0.882", "triple=e dbp:type Nonprofit_organization", "class=HR_Organisation" ],
+    "1" : [ "pair=\"English\"@en", "IR=0.848", "triple=e dbp:language \"English\"@en", "class=HR_Organisation" ],
+    "2" : [ "pair=Non-governmental_organization", "IR=0.845", "triple=e dbp:type Non-governmental_organization", "class=HR_Organisation" ],
+    "3" : [ "pair=\"President\"@en", "IR=0.843", "triple=e dbp:leaderTitle \"President\"@en", "class=HR_Organisation" ],
+    "4" : [ "pair=Non-profit_organization", "IR=0.807", "triple=e dbo:type Non-profit_organization", "class=HR_Organisation" ],
+    "5" : [ "pair=\"Worldwide\"@en", "IR=0.774", "triple=e dbp:regionServed \"Worldwide\"@en", "class=HR_Organisation" ]
+  }
+}, {
+  "id" : 141,
+  "pattern" : "literary",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Norway", "IR=0.691", "triple=e dbo:country Norway", "class=HR_Writer" ]
+  }
+}, {
+  "id" : 143,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Bangladesh", "IR=0.684", "triple=e dbo:headquarter Bangladesh", "class=HR_Organisation" ],
+    "1" : [ "pair=\"Bangladesh\"@en", "IR=0.677", "triple=e dbp:regionServed \"Bangladesh\"@en", "class=HR_Organisation" ],
+    "2" : [ "pair=\"Bengali\"@en", "IR=0.668", "triple=e dbp:language \"Bengali\"@en", "class=HR_Organisation" ],
+    "3" : [ "pair=Dhaka", "IR=0.655", "triple=e dbo:headquarter Dhaka", "class=HR_Organisation" ],
+    "4" : [ "pair=\"\"@en", "IR=0.895", "triple=e dbp:constructionCost \"\"@en", "class=HR_Venue" ]
+  }
+}, {
+  "id" : 144,
+  "pattern" : "located\u001Cin",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Bangladesh", "IR=0.684", "triple=e dbo:headquarter Bangladesh", "class=HR_Organisation" ],
+    "1" : [ "pair=\"Bangladesh\"@en", "IR=0.677", "triple=e dbp:regionServed \"Bangladesh\"@en", "class=HR_Organisation" ],
+    "2" : [ "pair=\"Bengali\"@en", "IR=0.668", "triple=e dbp:language \"Bengali\"@en", "class=HR_Organisation" ]
+  }
+}, {
+  "id" : 148,
+  "pattern" : "major",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.897", "triple=e dbp:constructionCost \"\"@en", "class=HR_Venue" ]
+  }
+}, {
+  "id" : 155,
+  "pattern" : "mathematical",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Mathematics", "IR=0.875", "triple=e dbo:academicDiscipline Mathematics", "class=HR_Scientist" ]
+  }
+}, {
+  "id" : 164,
+  "pattern" : "minor",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"\"@en", "IR=0.897", "triple=e dbp:constructionCost \"\"@en", "class=HR_Venue" ]
+  }
+}, {
+  "id" : 170,
+  "pattern" : "non-governmental",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Non-governmental_organization", "IR=0.788", "triple=e dbo:type Non-governmental_organization", "class=HR_Organisation" ]
+  }
+}, {
+  "id" : 172,
+  "pattern" : "non-profit",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=United_States", "IR=0.877", "triple=e dbo:location United_States", "class=HR_Organisation" ],
+    "1" : [ "pair=\"English\"@en", "IR=0.859", "triple=e dbp:language \"English\"@en", "class=HR_Organisation" ],
+    "2" : [ "pair=Nonprofit_organization", "IR=0.854", "triple=e dbp:type Nonprofit_organization", "class=HR_Organisation" ],
+    "3" : [ "pair=\"President\"@en", "IR=0.843", "triple=e dbp:leaderTitle \"President\"@en", "class=HR_Organisation" ],
+    "4" : [ "pair=Non-governmental_organization", "IR=0.816", "triple=e dbo:type Non-governmental_organization", "class=HR_Organisation" ],
+    "5" : [ "pair=\"Executive Director\"@en", "IR=0.757", "triple=e dbp:leaderTitle \"Executive Director\"@en", "class=HR_Organisation" ],
+    "6" : [ "pair=\"Worldwide\"@en", "IR=0.723", "triple=e dbp:areaServed \"Worldwide\"@en", "class=HR_Organisation" ]
+  }
+}, {
+  "id" : 174,
+  "pattern" : "nonprofit",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=United_States", "IR=0.886", "triple=e dbo:location United_States", "class=HR_Organisation" ],
+    "1" : [ "pair=Nonprofit_organization", "IR=0.832", "triple=e dbp:type Nonprofit_organization", "class=HR_Organisation" ]
+  }
+}, {
+  "id" : 176,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"English\"@en", "IR=0.873", "triple=e dbp:language \"English\"@en", "class=HR_Writer" ],
+    "1" : [ "pair=\"American\"@en", "IR=0.87", "triple=e dbp:nationality \"American\"@en", "class=HR_Writer" ],
+    "2" : [ "pair=\"Writer\"@en", "IR=0.83", "triple=e dbp:occupation \"Writer\"@en", "class=HR_Writer" ],
+    "3" : [ "pair=\"Novelist\"@en", "IR=0.768", "triple=e dbp:occupation \"Novelist\"@en", "class=HR_Writer" ],
+    "4" : [ "pair=Novelist", "IR=0.758", "triple=e dbo:occupation Novelist", "class=HR_Writer" ]
+  }
+}, {
+  "id" : 211,
+  "pattern" : "professional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"President\"@en", "IR=0.883", "triple=e dbp:leaderTitle \"President\"@en", "class=HR_Organisation" ],
+    "1" : [ "pair=\"English\"@en", "IR=0.862", "triple=e dbp:language \"English\"@en", "class=HR_Organisation" ]
+  }
+}, {
+  "id" : 242,
+  "pattern" : "second",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "IR=0.895", "triple=e dbp:consort \"yes\"@en", "class=HR_Royalty" ],
+    "1" : [ "pair=Islam", "IR=0.881", "triple=e dbp:religion Islam", "class=HR_Royalty" ],
+    "2" : [ "pair=\"\"@en", "IR=0.878", "triple=e dbp:spouse \"\"@en", "class=HR_Royalty" ]
+  }
+} ]

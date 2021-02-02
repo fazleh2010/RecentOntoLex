@@ -17,6 +17,8 @@ public interface DirectoryLocation {
     public static String testJson = "qald-9-test-multilingual.json";
     public static String trainingJson = "qald-9-train-multilingual.json";
     public static String dbpediaDir = "src/main/resources/dbpedia/";
+    public static String resourceDir = "src/main/resources/";
+
     public static String dataDir = "data/";
     public static String entityTable = "entityTable/";
     public static String input = "input/";

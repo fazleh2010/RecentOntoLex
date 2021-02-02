@@ -1,0 +1,204 @@
+[ {
+  "id" : 23,
+  "pattern" : "added",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"New Jersey Register of Historic Places\"@en", "MaxConf=1.0", "triple=e dbp:designatedOther1Name \"New Jersey Register of Historic Places\"@en", "class=HR_Building" ],
+    "1" : [ "pair=//www.w3.org/2001/XMLSchema#date>", "MaxConf=1.0", "triple=e dbp:accessdate //www.w3.org/2001/XMLSchema#date>", "class=HR_HistoricPlace" ],
+    "2" : [ "pair=\"New South Wales State Heritage Register\"@en", "MaxConf=1.0", "triple=e dbp:designation \"New South Wales State Heritage Register\"@en", "class=HR_HistoricPlace" ],
+    "3" : [ "pair=\"Queensland Heritage Register\"@en", "MaxConf=1.0", "triple=e dbp:designation \"Queensland Heritage Register\"@en", "class=HR_HistoricPlace" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "added\u001Cto",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#date>", "MaxConf=1.0", "triple=e dbp:accessdate //www.w3.org/2001/XMLSchema#date>", "class=HR_HistoricPlace" ],
+    "1" : [ "pair=\"New South Wales State Heritage Register\"@en", "MaxConf=1.0", "triple=e dbp:designation \"New South Wales State Heritage Register\"@en", "class=HR_HistoricPlace" ],
+    "2" : [ "pair=\"Queensland Heritage Register\"@en", "MaxConf=1.0", "triple=e dbp:designation \"Queensland Heritage Register\"@en", "class=HR_HistoricPlace" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "added\u001Cto\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#date>", "MaxConf=1.0", "triple=e dbp:accessdate //www.w3.org/2001/XMLSchema#date>", "class=HR_HistoricPlace" ],
+    "1" : [ "pair=\"New South Wales State Heritage Register\"@en", "MaxConf=1.0", "triple=e dbp:designation \"New South Wales State Heritage Register\"@en", "class=HR_HistoricPlace" ],
+    "2" : [ "pair=\"Queensland Heritage Register\"@en", "MaxConf=1.0", "triple=e dbp:designation \"Queensland Heritage Register\"@en", "class=HR_HistoricPlace" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "added to\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=//www.w3.org/2001/XMLSchema#date>", "MaxConf=1.0", "triple=e dbp:accessdate //www.w3.org/2001/XMLSchema#date>", "class=HR_HistoricPlace" ],
+    "1" : [ "pair=\"New South Wales State Heritage Register\"@en", "MaxConf=1.0", "triple=e dbp:designation \"New South Wales State Heritage Register\"@en", "class=HR_HistoricPlace" ],
+    "2" : [ "pair=\"Queensland Heritage Register\"@en", "MaxConf=1.0", "triple=e dbp:designation \"Queensland Heritage Register\"@en", "class=HR_HistoricPlace" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "aired",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=CBC_Television", "MaxConf=1.0", "triple=e dbo:channel CBC_Television", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "also romanized",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=//dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e dbp:utcOffset //dbpedia.org/datatype/second>", "class=HR_Village" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "batted",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "MaxConf=1.0", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+}, {
+  "id" : 97,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Sailing_(sport", "MaxConf=1.0", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ],
+    "1" : [ "pair=Bobsleigh", "MaxConf=1.0", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ],
+    "2" : [ "pair=Olympic_weightlifting", "MaxConf=1.0", "triple=e dbp:sport Olympic_weightlifting", "class=HR_Athlete" ],
+    "3" : [ "pair=Judo", "MaxConf=1.0", "triple=e dbp:sport Judo", "class=HR_Athlete" ],
+    "4" : [ "pair=Field_hockey", "MaxConf=1.0", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ],
+    "5" : [ "pair=\"Round 1", "MaxConf=1.0", "triple=e dbp:debutdate \"Round 1", "class=HR_AustralianRulesFootballPlayer" ],
+    "6" : [ "pair=\"Free agent\"@en", "MaxConf=1.0", "triple=e dbp:team \"Free agent\"@en", "class=HR_BaseballPlayer" ],
+    "7" : [ "pair=\"Retired\"@en", "MaxConf=1.0", "triple=e dbp:currentteam \"Retired\"@en", "class=HR_Cyclist" ],
+    "8" : [ "pair=\"\"@en", "MaxConf=1.0", "triple=e dbp:majorwins \"\"@en", "class=HR_Cyclist" ],
+    "9" : [ "pair=\"Climber\"@en", "MaxConf=1.0", "triple=e dbp:ridertype \"Climber\"@en", "class=HR_Cyclist" ],
+    "10" : [ "pair=\"All-rounder\"@en", "MaxConf=1.0", "triple=e dbp:ridertype \"All-rounder\"@en", "class=HR_Cyclist" ],
+    "11" : [ "pair=\"Sprinter\"@en", "MaxConf=1.0", "triple=e dbp:ridertype \"Sprinter\"@en", "class=HR_Cyclist" ],
+    "12" : [ "pair=Mexico", "MaxConf=1.0", "triple=e dbo:birthPlace Mexico", "class=HR_Person" ],
+    "13" : [ "pair=\"InternetArchiveBot\"@en", "MaxConf=1.0", "triple=e dbp:bot \"InternetArchiveBot\"@en", "class=HR_RugbyPlayer" ],
+    "14" : [ "pair=Flanker_(rugby_union", "MaxConf=1.0", "triple=e dbp:position Flanker_(rugby_union", "class=HR_RugbyPlayer" ],
+    "15" : [ "pair=Rugby_union_positions", "MaxConf=1.0", "triple=e dbp:position Rugby_union_positions", "class=HR_RugbyPlayer" ],
+    "16" : [ "pair=\"navy\"@en", "MaxConf=1.0", "triple=e dbp:fg \"navy\"@en", "class=HR_SoccerManager" ],
+    "17" : [ "pair=\"white\"@en", "MaxConf=1.0", "triple=e dbp:fg \"white\"@en", "class=HR_SoccerManager" ],
+    "18" : [ "pair=West_Germany", "MaxConf=1.0", "triple=e dbo:birthPlace West_Germany", "class=HR_SoccerManager" ],
+    "19" : [ "pair=Soviet_Union", "MaxConf=1.0", "triple=e dbo:birthPlace Soviet_Union", "class=HR_SoccerManager" ],
+    "20" : [ "pair=Russian_SFSR", "MaxConf=1.0", "triple=e dbo:birthPlace Russian_SFSR", "class=HR_SoccerManager" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "built",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Chapel", "MaxConf=1.0", "triple=e dbp:status Chapel", "class=HR_HistoricBuilding" ],
+    "1" : [ "pair=\"Queensland Heritage Register\"@en", "MaxConf=1.0", "triple=e dbp:designation \"Queensland Heritage Register\"@en", "class=HR_HistoricPlace" ]
+  }
+}, {
+  "id" : 134,
+  "pattern" : "competed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Gymnastics", "MaxConf=1.0", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "1" : [ "pair=Boxing", "MaxConf=1.0", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "2" : [ "pair=Sailing_(sport", "MaxConf=1.0", "triple=e dbp:sport Sailing_(sport", "class=HR_Athlete" ],
+    "3" : [ "pair=Wrestling", "MaxConf=1.0", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ],
+    "4" : [ "pair=\"Middle-distance running\"@en", "MaxConf=1.0", "triple=e dbp:sport \"Middle-distance running\"@en", "class=HR_Athlete" ],
+    "5" : [ "pair=Bobsleigh", "MaxConf=1.0", "triple=e dbp:sport Bobsleigh", "class=HR_Athlete" ],
+    "6" : [ "pair=Shooting_sports", "MaxConf=1.0", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ],
+    "7" : [ "pair=Field_hockey", "MaxConf=1.0", "triple=e dbp:sport Field_hockey", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 135,
+  "pattern" : "competed in\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Boxing", "MaxConf=1.0", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 140,
+  "pattern" : "contained",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Indiana_Township_Trustee", "MaxConf=1.0", "triple=e dbo:governmentType Indiana_Township_Trustee", "class=HR_Town" ]
+  }
+}, {
+  "id" : 160,
+  "pattern" : "described",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Polyphaga", "MaxConf=1.0", "triple=e dbp:subordo Polyphaga", "class=HR_Insect" ]
+  }
+}, {
+  "id" : 161,
+  "pattern" : "directed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Hindi\"@en", "MaxConf=1.0", "triple=e dbp:language \"Hindi\"@en", "class=HR_Film" ],
+    "1" : [ "pair=German_language", "MaxConf=1.0", "triple=e dbp:language German_language", "class=HR_Film" ],
+    "2" : [ "pair=\"Mandarin\"@en", "MaxConf=1.0", "triple=e dbp:language \"Mandarin\"@en", "class=HR_Film" ],
+    "3" : [ "pair=\"Telugu\"@en", "MaxConf=1.0", "triple=e dbp:language \"Telugu\"@en", "class=HR_Film" ]
+  }
+}, {
+  "id" : 166,
+  "pattern" : "estimated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"- Flower\"@en", "MaxConf=1.0", "triple=e dbp:blank2NameSec \"- Flower\"@en", "class=HR_City" ]
+  }
+}, {
+  "id" : 242,
+  "pattern" : "held",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"#ddd\"@en", "MaxConf=1.0", "triple=e dbp:titlebar \"#ddd\"@en", "class=HR_Election" ]
+  }
+}, {
+  "id" : 279,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Rapping", "MaxConf=1.0", "triple=e dbo:occupation Rapping", "class=HR_MusicalArtist" ],
+    "1" : [ "pair=Rapper", "MaxConf=1.0", "triple=e dbo:occupation Rapper", "class=HR_MusicalArtist" ]
+  }
+}, {
+  "id" : 381,
+  "pattern" : "owned",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Texas", "MaxConf=1.0", "triple=e dbp:city Texas", "class=HR_RadioStation" ]
+  }
+}, {
+  "id" : 392,
+  "pattern" : "played",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "MaxConf=1.0", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ],
+    "1" : [ "pair=\"medic\"@en", "MaxConf=1.0", "triple=e dbp:bot \"medic\"@en", "class=HR_RugbyPlayer" ]
+  }
+}, {
+  "id" : 438,
+  "pattern" : "released",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=//dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e dbp:length //dbpedia.org/datatype/second>", "class=HR_Album" ]
+  }
+}, {
+  "id" : 444,
+  "pattern" : "romanized",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=//dbpedia.org/datatype/second>", "MaxConf=1.0", "triple=e dbp:utcOffset //dbpedia.org/datatype/second>", "class=HR_Village" ]
+  }
+}, {
+  "id" : 484,
+  "pattern" : "serving",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Aircraft Operations\"@en", "MaxConf=1.0", "triple=e dbp:stat2Header \"Aircraft Operations\"@en", "class=HR_Airport" ]
+  }
+}, {
+  "id" : 540,
+  "pattern" : "threw",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=All-American_Girls_Professional_Baseball_League", "MaxConf=1.0", "triple=e dbp:team All-American_Girls_Professional_Baseball_League", "class=HR_BaseballPlayer" ]
+  }
+} ]

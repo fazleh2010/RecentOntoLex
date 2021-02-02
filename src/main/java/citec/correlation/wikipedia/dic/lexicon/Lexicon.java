@@ -40,7 +40,7 @@ public class Lexicon {
         this.lexiconDirectory = outputDir;
     }
     
-    public void preparePropertyLexicon(String key,String associationType, Map<String, List<LineInfo>> lineLexicon) throws IOException {
+    public void preparePropertyLexicon(String directory,String key,String associationType, Map<String, List<LineInfo>> lineLexicon) throws IOException {
         Map<String, List<LexiconUnit>> posTaggedLex = new TreeMap<String, List<LexiconUnit>>();
         Integer count=0,countJJ=0,countVB=0;
         for (String word : lineLexicon.keySet()) {
@@ -88,7 +88,8 @@ public class Lexicon {
         }
 
         for (String postag : posTaggedLex.keySet()) {
-            String fileName = qald9Dir+ OBJECT + "/"+postag + "-" + key  + ".json";
+            //String fileName = qald9Dir+ OBJECT + "/"+postag + "-" + key  + ".json";
+            String fileName =directory+ "/"+postag + "-" + key  + ".json";
             List<LexiconUnit> lexiconUnts = posTaggedLex.get(postag);
             this.lexiconPosTaggged.put(postag, lexiconUnts);
             ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);

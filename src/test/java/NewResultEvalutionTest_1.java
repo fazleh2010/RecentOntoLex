@@ -46,7 +46,7 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class NewResultEvalutionTest implements ThresoldConstants {
+public class NewResultEvalutionTest_1 implements ThresoldConstants {
 
     private static String inputDir = dbpediaDir + "results/" + "new/";
     private static Set<String> classNames = new TreeSet<String>();
@@ -62,28 +62,38 @@ public class NewResultEvalutionTest implements ThresoldConstants {
     private static String stanfordModelFile = resources + "stanford-postagger-2015-12-09/models/english-left3words-distsim.tagger";
     private static MaxentTagger taggerModel = new MaxentTagger(stanfordModelFile);
 
-    public NewResultEvalutionTest() {
+    public NewResultEvalutionTest_1() {
 
         classNames = getClassNames(inputDir);
 
     }
+     private static void readExperiments(Map<String, ThresoldsExperiment> associationRulesExperiment) throws Exception {
+        for (String associationRule : associationRulesExperiment.keySet()) {
+            ThresoldsExperiment thresold = new ThresoldsExperiment(associationRule);
+            for(String key:thresold.getThresoldELements().keySet()){
+                System.out.println(thresold.getThresoldELements().get(key));thresold.getThresoldELements().get(key);
+            }
+            
+        }
+        
+    }
 
     public static void main(String[] args) throws Exception {
         String directory = qald9Dir + OBJECT + "/";
-        NewResultEvalutionTest newResultEvalutionTest = new NewResultEvalutionTest();
+        EvaluationMain newResultEvalutionTest = new EvaluationMain();
+        
 
-        /*for (String associationRule : interestingness) {
-            ThresoldsExperiment thresold = new ThresoldsExperiment(associationRule);
-            associationRulesExperiment.put(associationRule, thresold);
-        }*/
+       
         //create experiment for all association rules.
         Map<String, ThresoldsExperiment> associationRulesExperiment = createExperiments();
+                readExperiments(associationRulesExperiment);
 
-        //run it once. we dont need to run it very time..
-         //createEvalutionFiles(associationRulesExperiment);
+
+        
         
         //Calculate mean reciprocal
-        calculateMeanReci(directory+"predict_l_for_s_given_po/",associationRulesExperiment);
+        
+        //calculateMeanReci(directory+"predict_l_for_s_given_po_Album/",associationRulesExperiment,false);
         
         /*Integer index = 0;
         for (String prediction : predicateRules) {
@@ -119,7 +129,7 @@ public class NewResultEvalutionTest implements ThresoldConstants {
     
     //done predict_l_for_s_given_po
     
-    public static void calculateMeanReci(String directory, Map<String, ThresoldsExperiment> associationRulesExperiment) throws IOException, Exception {
+    public static void calculateMeanReci(String directory, Map<String, ThresoldsExperiment> associationRulesExperiment,Boolean perClassFlag) throws IOException, Exception {
         Integer index = 0;
         for (String prediction : predicateRules) {
             if (prediction.contains(predict_l_for_s_given_po)) {
@@ -136,7 +146,7 @@ public class NewResultEvalutionTest implements ThresoldConstants {
                         List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, associationRule, experiment, ".json").getValue1();
                         index = index + 1;
                         ThresoldsExperiment.ThresoldELement thresoldELement = thresoldsExperiment.getThresoldELements().get(experiment);
-                        Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(experiment, directory, expFileList,false);
+                        Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(experiment, directory, expFileList,perClassFlag,"Politician");
                         if (!meanReciprocalsPos.isEmpty()) {
                             expeResult.put(experiment, meanReciprocalsPos);
                         }
@@ -166,6 +176,8 @@ public class NewResultEvalutionTest implements ThresoldConstants {
         FileFolderUtils.writeMeanSortToJsonFile(verbs, outputFileName);
 
     }
+    
+     
 
     private static Map<String, ThresoldsExperiment> createExperiments() throws Exception {
         Map<String, ThresoldsExperiment> associationRulesExperiment = new TreeMap<String, ThresoldsExperiment>();
@@ -176,7 +188,7 @@ public class NewResultEvalutionTest implements ThresoldConstants {
         return associationRulesExperiment;
     }
 
-    private static void createEvalutionFiles(Map<String, ThresoldsExperiment> associationRulesExperiment) throws Exception {
+    private static void createEvalutionFiles(String classDir,Map<String, ThresoldsExperiment> associationRulesExperiment,String className) throws Exception {
         Map<String, Lexicon> associationRuleLex = new TreeMap<String, Lexicon>();
         for (String prediction : predicateRules) {
             if (prediction.contains(predict_l_for_s_given_po)) {
@@ -185,15 +197,15 @@ public class NewResultEvalutionTest implements ThresoldConstants {
                     Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(inputDir, prediction, associationRule, "json");
                     List<File> files = pair.getValue1();
                     //System.out.println("files:" + files);
-                    NewResults allClassLines = readFromJsonFile(files);
+                    NewResults allClassLines = readFromJsonFile(files,className);
                     ThresoldsExperiment thresoldsExperiment = associationRulesExperiment.get(associationRule);
                     Integer index = 0;
                     for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
                         index = index + 1;
                         ThresoldsExperiment.ThresoldELement element = thresoldsExperiment.getThresoldELements().get(experiment);
                         String experimentID = index + "-" + experiment;
-                        lexicon = createLexicon("AllClass", prediction, associationRule, allClassLines, element, experimentID);
-                        System.out.println("index" + index + " total:" + thresoldsExperiment.getThresoldELements().size()+" "+experiment);
+                        lexicon = createLexicon(classDir,"AllClass", prediction, associationRule, allClassLines, element, experimentID);
+                        System.out.println(classDir+" index" + index + " total:" + thresoldsExperiment.getThresoldELements().size()+" "+experiment);
                     }
                     //associationRuleLex.put(prediction + "-" + associationRule, lexicon);
                 }
@@ -203,7 +215,7 @@ public class NewResultEvalutionTest implements ThresoldConstants {
 
     }
 
-    private static Lexicon createLexicon(String dbo_className, String dbo_prediction, String dbo_associationRule, NewResults result, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
+    private static Lexicon createLexicon(String directory,String dbo_className, String dbo_prediction, String dbo_associationRule, NewResults result, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
         String key = dbo_className + "-" + dbo_prediction + "-" + dbo_associationRule;
         Analyzer analyzer = null;
         Lexicon lexicon = null;
@@ -242,7 +254,7 @@ public class NewResultEvalutionTest implements ThresoldConstants {
             }
         }
         lexicon = new Lexicon(qald9Dir);
-        lexicon.preparePropertyLexicon(experimentID, dbo_associationRule, lineLexicon);
+        lexicon.preparePropertyLexicon(directory,experimentID, dbo_associationRule, lineLexicon);
        /* System.out.println("-" + experimentID + "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         System.out.println("JJ:" + lexicon.getLexiconPosTaggged().get(Analyzer.ADJECTIVE).size());
         System.out.println("NN:" + lexicon.getLexiconPosTaggged().get(Analyzer.NOUN).size());
@@ -286,14 +298,19 @@ public class NewResultEvalutionTest implements ThresoldConstants {
         return result;
     }
 
-    public static NewResults readFromJsonFile(List<File> files) throws IOException, Exception {
+    public static NewResults readFromJsonFile(List<File> files,String className) throws IOException, Exception {
         Map<String, List<String>> classDistributions = new TreeMap<String, List<String>>();
         Discription description = null;
         for (File file : files) {
+            
             String fileName = file.getName();
             String[] info = fileName.split("-");
             String[] parameters = findParameter(info);
             String key = parameters[0] + "-" + parameters[1] + "-" + parameters[2];
+            
+            if(!parameters[0].contains(className))
+                continue;
+            System.out.println("parameters[0]:"+parameters[0]);
 
             ObjectMapper mapper = new ObjectMapper();
             NewResults resultTemp = mapper.readValue(file, NewResults.class);
@@ -321,7 +338,7 @@ public class NewResultEvalutionTest implements ThresoldConstants {
         return false;
     }
 
-    private static Map<String, MeanReciprocalCalculation> meanReciprocalValues(String experiment, String directory, List<File> fileList,Boolean classSpecific) throws IOException {
+    private static Map<String, MeanReciprocalCalculation> meanReciprocalValues(String experiment, String directory, List<File> fileList,Boolean classSpecific,String className) throws IOException {
         Map<String, MeanReciprocalCalculation> meanReciprocals = new TreeMap<String, MeanReciprocalCalculation>();
         for (String posTag : Analyzer.POSTAGS) {
             try {
@@ -333,7 +350,7 @@ public class NewResultEvalutionTest implements ThresoldConstants {
                 String conditionalFilename = directory + fileName + ".json";
                 //System.out.println("qaldFileName:" + qaldFileName);
                 //System.out.println("conditionalFilename:" + conditionalFilename);
-                Comparision comparision = new Comparision(qaldFileName, conditionalFilename,classSpecific,"AAClass");
+                Comparision comparision = new Comparision(qaldFileName, conditionalFilename,classSpecific,className);
                 comparision.compersionsPattern(experiment);
                 MeanReciprocalCalculation meanReciprocalCalculation = comparision.getMeanReciprocalResult();
                 if (posTag.contains("JJ")) {

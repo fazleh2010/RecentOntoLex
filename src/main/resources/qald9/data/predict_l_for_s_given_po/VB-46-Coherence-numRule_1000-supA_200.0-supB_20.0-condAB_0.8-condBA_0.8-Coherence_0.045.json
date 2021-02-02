@@ -1,0 +1,150 @@
+[ {
+  "id" : 3,
+  "pattern" : "added",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Significant components\"@en", "Coherence=0.497", "triple=e dbp:designation1Free2name \"Significant components\"@en", "class=HR_HistoricPlace" ],
+    "1" : [ "pair=\"Queensland#Australia\"@en", "Coherence=0.496", "triple=e dbp:locmapin \"Queensland#Australia\"@en", "class=HR_HistoricPlace" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "awarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Victoria_Cross", "Coherence=0.484", "triple=e dbo:award Victoria_Cross", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "awarded\u001Cto",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Victoria_Cross", "Coherence=0.465", "triple=e dbo:award Victoria_Cross", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "be\u001Cawarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Victoria_Cross", "Coherence=0.464", "triple=e dbo:award Victoria_Cross", "class=HR_MilitaryPerson" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"All values from NFL Combine\"@en", "Coherence=0.496", "triple=e dbp:note \"All values from NFL Combine\"@en", "class=HR_AmericanFootballPlayer" ],
+    "1" : [ "pair=\"Forced fumbles\"@en", "Coherence=0.496", "triple=e dbp:statlabel \"Forced fumbles\"@en", "class=HR_AmericanFootballPlayer" ],
+    "2" : [ "pair=Pass_deflected", "Coherence=0.495", "triple=e dbp:statlabel Pass_deflected", "class=HR_AmericanFootballPlayer" ],
+    "3" : [ "pair=Baltimore_Ravens", "Coherence=0.495", "triple=e dbo:formerTeam Baltimore_Ravens", "class=HR_AmericanFootballPlayer" ],
+    "4" : [ "pair=Tennessee_Titans", "Coherence=0.495", "triple=e dbo:formerTeam Tennessee_Titans", "class=HR_AmericanFootballPlayer" ],
+    "5" : [ "pair=\"lightblue\"@en", "Coherence=0.491", "triple=e dbp:headercolor \"lightblue\"@en", "class=HR_Athlete" ],
+    "6" : [ "pair=Track_and_field", "Coherence=0.471", "triple=e dbp:sport Track_and_field", "class=HR_Athlete" ],
+    "7" : [ "pair=Sport_of_athletics", "Coherence=0.47", "triple=e dbp:sport Sport_of_athletics", "class=HR_Athlete" ],
+    "8" : [ "pair=\"lightsteelblue\"@en", "Coherence=0.469", "triple=e dbp:headercolor \"lightsteelblue\"@en", "class=HR_Athlete" ],
+    "9" : [ "pair=Olympic_weightlifting", "Coherence=0.459", "triple=e dbp:sport Olympic_weightlifting", "class=HR_Athlete" ],
+    "10" : [ "pair=Rowing_(sport", "Coherence=0.45", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "11" : [ "pair=\"Sprinting\"@en", "Coherence=0.449", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "12" : [ "pair=\"Free agent\"@en", "Coherence=0.5", "triple=e dbp:team \"Free agent\"@en", "class=HR_BaseballPlayer" ],
+    "13" : [ "pair=Nippon_Professional_Baseball", "Coherence=0.485", "triple=e dbp:debutleague Nippon_Professional_Baseball", "class=HR_BaseballPlayer" ],
+    "14" : [ "pair=\"NPB\"@en", "Coherence=0.48", "triple=e dbp:statleague \"NPB\"@en", "class=HR_BaseballPlayer" ],
+    "15" : [ "pair=Twenty20_International", "Coherence=0.496", "triple=e dbp:column Twenty20_International", "class=HR_Cricketer" ],
+    "16" : [ "pair=One_Day_International", "Coherence=0.488", "triple=e dbp:column One_Day_International", "class=HR_Cricketer" ],
+    "17" : [ "pair=Twenty20", "Coherence=0.488", "triple=e dbp:column Twenty20", "class=HR_Cricketer" ],
+    "18" : [ "pair=List_A_cricket", "Coherence=0.486", "triple=e dbp:column List_A_cricket", "class=HR_Cricketer" ],
+    "19" : [ "pair=\"n/a\"@en", "Coherence=0.482", "triple=e dbp:tenfor \"n/a\"@en", "class=HR_Cricketer" ],
+    "20" : [ "pair=\"no\"@en", "Coherence=0.497", "triple=e dbp:showMedals \"no\"@en", "class=HR_Cyclist" ],
+    "21" : [ "pair=\"Retired\"@en", "Coherence=0.486", "triple=e dbp:currentteam \"Retired\"@en", "class=HR_Cyclist" ],
+    "22" : [ "pair=\"Sprinter\"@en", "Coherence=0.477", "triple=e dbp:ridertype \"Sprinter\"@en", "class=HR_Cyclist" ],
+    "23" : [ "pair=\"Climber\"@en", "Coherence=0.475", "triple=e dbp:ridertype \"Climber\"@en", "class=HR_Cyclist" ],
+    "24" : [ "pair=Track_cycling", "Coherence=0.474", "triple=e dbp:discipline Track_cycling", "class=HR_Cyclist" ],
+    "25" : [ "pair=Spain", "Coherence=0.462", "triple=e dbp:birthPlace Spain", "class=HR_Cyclist" ],
+    "26" : [ "pair=\"Road\"@en", "Coherence=0.447", "triple=e dbp:discipline \"Road\"@en", "class=HR_Cyclist" ],
+    "27" : [ "pair=Road_bicycle_racing", "Coherence=0.445", "triple=e dbp:discipline Road_bicycle_racing", "class=HR_Cyclist" ],
+    "28" : [ "pair=Tampa_Bay_Lightning", "Coherence=0.498", "triple=e dbo:formerTeam Tampa_Bay_Lightning", "class=HR_IceHockeyPlayer" ],
+    "29" : [ "pair=\"Free Agent\"@en", "Coherence=0.498", "triple=e dbp:team \"Free Agent\"@en", "class=HR_IceHockeyPlayer" ],
+    "30" : [ "pair=American_Hockey_League", "Coherence=0.497", "triple=e dbp:prospectLeague American_Hockey_League", "class=HR_IceHockeyPlayer" ],
+    "31" : [ "pair=\"songwriter\"@en", "Coherence=0.444", "triple=e dbp:occupation \"songwriter\"@en", "class=HR_MusicalArtist" ],
+    "32" : [ "pair=Socialist_Federal_Republic_of_Yugoslavia", "Coherence=0.484", "triple=e dbp:birthPlace Socialist_Federal_Republic_of_Yugoslavia", "class=HR_SoccerManager" ],
+    "33" : [ "pair=\"Managerial positions\"@en", "Coherence=0.467", "triple=e dbp:title \"Managerial positions\"@en", "class=HR_SoccerManager" ],
+    "34" : [ "pair=Brazil", "Coherence=0.467", "triple=e dbo:birthPlace Brazil", "class=HR_SoccerPlayer" ],
+    "35" : [ "pair=Midfielder_(association_football", "Coherence=0.466", "triple=e dbo:position Midfielder_(association_football", "class=HR_SoccerPlayer" ],
+    "36" : [ "pair=Midfielder", "Coherence=0.465", "triple=e dbo:position Midfielder", "class=HR_SoccerPlayer" ],
+    "37" : [ "pair=Defender_(football", "Coherence=0.463", "triple=e dbo:position Defender_(football", "class=HR_SoccerPlayer" ],
+    "38" : [ "pair=Defender_(association_football", "Coherence=0.46", "triple=e dbo:position Defender_(association_football", "class=HR_SoccerPlayer" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "competed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Sprinting\"@en", "Coherence=0.495", "triple=e dbp:sport \"Sprinting\"@en", "class=HR_Athlete" ],
+    "1" : [ "pair=Gymnastics", "Coherence=0.491", "triple=e dbp:sport Gymnastics", "class=HR_Athlete" ],
+    "2" : [ "pair=Boxing", "Coherence=0.489", "triple=e dbp:sport Boxing", "class=HR_Athlete" ],
+    "3" : [ "pair=Rowing_(sport", "Coherence=0.477", "triple=e dbp:sport Rowing_(sport", "class=HR_Athlete" ],
+    "4" : [ "pair=Shooting_sports", "Coherence=0.455", "triple=e dbp:sport Shooting_sports", "class=HR_Athlete" ],
+    "5" : [ "pair=Wrestling", "Coherence=0.448", "triple=e dbp:sport Wrestling", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "competed in\u001Cthe",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Boxing", "Coherence=0.464", "triple=e dbp:sport Boxing", "class=HR_Athlete" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "designed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Bertrand\"@en", "Coherence=0.499", "triple=e dbp:ref \"Bertrand\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"Production completed\"@en", "Coherence=0.478", "triple=e dbp:status \"Production completed\"@en", "class=HR_Aircraft" ]
+  }
+}, {
+  "id" : 97,
+  "pattern" : "directed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Singer\"@en", "Coherence=0.487", "triple=e dbp:extraColumn \"Singer\"@en", "class=HR_Film" ],
+    "1" : [ "pair=\"Soundtrack\"@en", "Coherence=0.482", "triple=e dbp:type \"Soundtrack\"@en", "class=HR_Film" ],
+    "2" : [ "pair=\"Germany\"@en", "Coherence=0.481", "triple=e dbp:country \"Germany\"@en", "class=HR_Film" ],
+    "3" : [ "pair=Soundtrack", "Coherence=0.48", "triple=e dbp:genre Soundtrack", "class=HR_Film" ],
+    "4" : [ "pair=India", "Coherence=0.479", "triple=e dbp:country India", "class=HR_Film" ],
+    "5" : [ "pair=\"Theatrical release poster\"@en", "Coherence=0.476", "triple=e dbp:caption \"Theatrical release poster\"@en", "class=HR_Film" ],
+    "6" : [ "pair=\"\"@en", "Coherence=0.474", "triple=e dbp:studio \"\"@en", "class=HR_Film" ],
+    "7" : [ "pair=\"Tamil\"@en", "Coherence=0.474", "triple=e dbp:language \"Tamil\"@en", "class=HR_Film" ],
+    "8" : [ "pair=\"Silent\"@en", "Coherence=0.472", "triple=e dbp:language \"Silent\"@en", "class=HR_Film" ],
+    "9" : [ "pair=\"India\"@en", "Coherence=0.472", "triple=e dbp:country \"India\"@en", "class=HR_Film" ],
+    "10" : [ "pair=Tamil_language", "Coherence=0.472", "triple=e dbo:language Tamil_language", "class=HR_Film" ],
+    "11" : [ "pair=\"Spanish\"@en", "Coherence=0.471", "triple=e dbp:language \"Spanish\"@en", "class=HR_Film" ],
+    "12" : [ "pair=Paramount_Pictures", "Coherence=0.469", "triple=e dbo:distributor Paramount_Pictures", "class=HR_Film" ],
+    "13" : [ "pair=\"Hindi\"@en", "Coherence=0.467", "triple=e dbp:language \"Hindi\"@en", "class=HR_Film" ],
+    "14" : [ "pair=\"French\"@en", "Coherence=0.464", "triple=e dbp:language \"French\"@en", "class=HR_Film" ],
+    "15" : [ "pair=\"Italy\"@en", "Coherence=0.463", "triple=e dbp:country \"Italy\"@en", "class=HR_Film" ],
+    "16" : [ "pair=\"United Kingdom\"@en", "Coherence=0.462", "triple=e dbp:country \"United Kingdom\"@en", "class=HR_Film" ],
+    "17" : [ "pair=\"France\"@en", "Coherence=0.461", "triple=e dbp:country \"France\"@en", "class=HR_Film" ]
+  }
+}, {
+  "id" : 253,
+  "pattern" : "produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Bertrand\"@en", "Coherence=0.499", "triple=e dbp:ref \"Bertrand\"@en", "class=HR_Aircraft" ],
+    "1" : [ "pair=\"Production completed\"@en", "Coherence=0.472", "triple=e dbp:status \"Production completed\"@en", "class=HR_Aircraft" ],
+    "2" : [ "pair=\"In production\"@en", "Coherence=0.449", "triple=e dbp:status \"In production\"@en", "class=HR_Aircraft" ],
+    "3" : [ "pair=Telenovela", "Coherence=0.463", "triple=e dbp:genre Telenovela", "class=HR_TelevisionShow" ]
+  }
+}, {
+  "id" : 279,
+  "pattern" : "released",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"The Guardian\"@en", "Coherence=0.477", "triple=e dbp:rev \"The Guardian\"@en", "class=HR_Album" ],
+    "1" : [ "pair=\"Producer\"@en", "Coherence=0.477", "triple=e dbp:extraColumn \"Producer\"@en", "class=HR_Album" ],
+    "2" : [ "pair=\"yes\"@en", "Coherence=0.477", "triple=e dbp:collapsed \"yes\"@en", "class=HR_Album" ],
+    "3" : [ "pair=\"\"@en", "Coherence=0.477", "triple=e dbp:label \"\"@en", "class=HR_Album" ],
+    "4" : [ "pair=\"Entertainment Weekly\"@en", "Coherence=0.473", "triple=e dbp:rev \"Entertainment Weekly\"@en", "class=HR_Album" ],
+    "5" : [ "pair=\"NME\"@en", "Coherence=0.472", "triple=e dbp:rev \"NME\"@en", "class=HR_Album" ],
+    "6" : [ "pair=//dbpedia.org/datatype/second>", "Coherence=0.472", "triple=e dbp:length //dbpedia.org/datatype/second>", "class=HR_Album" ],
+    "7" : [ "pair=Hip_hop_music", "Coherence=0.469", "triple=e dbp:genre Hip_hop_music", "class=HR_Album" ]
+  }
+} ]

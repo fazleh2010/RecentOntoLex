@@ -96,6 +96,11 @@ public class ThresoldsExperiment implements ThresoldConstants {
         }
     }
 
+    @Override
+    public String toString() {
+        return "ThresoldsExperiment{" + "thresoldELements=" + thresoldELements + '}';
+    }
+
     public class ThresoldELement implements ThresoldConstants{
 
         private Integer rules = 0;

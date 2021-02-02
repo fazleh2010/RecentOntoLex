@@ -45,6 +45,11 @@ public class Comparision {
         this.outputFileName=outputFileName;
     }
     
+     public Comparision(String qaldFileName, String conditionalFilename) throws IOException {
+        this.lexiconDic = getLexicon(conditionalFilename);
+        this.qaldDic = getQald(qaldFileName);
+    }
+    
     public Comparision(String qaldFileName, String conditionalFilename,Boolean classSpecific,String className) throws IOException {
         if(!classSpecific)
            this.lexiconDic = getLexicon(conditionalFilename);
@@ -64,8 +69,8 @@ public class Comparision {
             
         Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
         List<String> commonWords = new ArrayList<String>(intersection);
-        //System.out.println("outputFileName:"+outputFileName);
-        //System.out.println("commonWords:"+commonWords);
+        System.out.println("outputFileName:"+outputFileName);
+        System.out.println("commonWords:"+commonWords);
 
         for (String word : lexiconDic.keySet()) {
             LexiconUnit lexiconElement = lexiconDic.get(word);

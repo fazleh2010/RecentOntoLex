@@ -1,13 +1,19 @@
+package citec.correlation.wikipedia.main;
 
 import citec.correlation.wikipedia.analyzer.Analyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.GOLD;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
+import citec.correlation.wikipedia.analyzer.logging.LogFilter;
+import citec.correlation.wikipedia.analyzer.logging.LogFormatter;
+import citec.correlation.wikipedia.analyzer.logging.LogHandler;
+import citec.correlation.wikipedia.analyzer.logging.LoggingExample;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import citec.correlation.wikipedia.dic.lexicon.WordObjectResults;
 import citec.correlation.wikipedia.evalution.Comparision;
 import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
+import static citec.correlation.wikipedia.parameters.DirectoryLocation.resourceDir;
 import citec.correlation.wikipedia.parameters.ThresoldConstants;
 import static citec.correlation.wikipedia.parameters.ThresoldConstants.interestingness;
 import citec.correlation.wikipedia.parameters.ThresoldsExperiment;
@@ -17,24 +23,23 @@ import citec.correlation.wikipedia.results.Discription;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.databind.SerializationFeature;
 import edu.stanford.nlp.tagger.maxent.MaxentTagger;
 import java.io.File;
 import java.io.IOException;
-import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
-import java.util.StringTokenizer;
 import java.util.TreeMap;
 import java.util.TreeSet;
-import org.apache.commons.lang3.StringUtils;
+import java.util.logging.ConsoleHandler;
+import java.util.logging.FileHandler;
+import java.util.logging.Handler;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.javatuples.Pair;
 
 /*
@@ -46,7 +51,7 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class EvaluationMain implements ThresoldConstants {
+public class EvaluationMainTest implements ThresoldConstants {
 
     private static String inputDir = dbpediaDir + "results/" + "new/";
     private static Set<String> classNames = new TreeSet<String>();
@@ -61,25 +66,42 @@ public class EvaluationMain implements ThresoldConstants {
     private static String resources = "src/main/resources/";
     private static String stanfordModelFile = resources + "stanford-postagger-2015-12-09/models/english-left3words-distsim.tagger";
     private static MaxentTagger taggerModel = new MaxentTagger(stanfordModelFile);
+    private static Map<String, ThresoldsExperiment> allInterestingness = new TreeMap<String, ThresoldsExperiment>();
 
-    public EvaluationMain() {
+    private static Logger LOGGER = Logger.getLogger(LoggingExample.class.getName());
 
+    public EvaluationMainTest() {
         classNames = getClassNames(inputDir);
-
+        LOGGER.setLevel(Level.FINE);
+        LOGGER.setLevel(Level.SEVERE);
+        LOGGER.setLevel(Level.CONFIG);
+        LOGGER.setLevel(Level.FINE);
+        LOGGER.addHandler(new ConsoleHandler());
+        LOGGER.addHandler(new LogHandler());
+        LOGGER.log(Level.INFO, "generate experiments given thresolds");
+        try {
+            Handler fileHandler = new FileHandler(resourceDir + "logger.log", 2000, 1000);
+            fileHandler.setFormatter(new LogFormatter());
+            fileHandler.setFilter(new LogFilter());
+            LOGGER.addHandler(fileHandler);
+        } catch (SecurityException | IOException e) {
+            e.printStackTrace();
+        }
+        try {
+            this.allInterestingness = createExperiments();
+            LOGGER.log(Level.INFO, "successfully generated experiments for given thresolds");
+        } catch (Exception ex) {
+            LOGGER.log(Level.CONFIG, "generate experiments given thresolds is failed!!");
+        }
     }
 
     public static void main(String[] args) throws Exception {
         String directory = qald9Dir + OBJECT + "/";
-        EvaluationMain newResultEvalutionTest = new EvaluationMain();
-
-
-        /*for (String associationRule : interestingness) {
-            ThresoldsExperiment thresold = new ThresoldsExperiment(associationRule);
-            associationRulesExperiment.put(associationRule, thresold);
-        }*/
-        //create experiment for all association rules.
-        Map<String, ThresoldsExperiment> associationRulesExperiment = createExperiments();
-
+        EvaluationMainTest evaluationMainTest = new EvaluationMainTest();
+        String predictionDir="1";
+        String dic="dic";
+        directory="/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/predict_l_for_s_given_po/dic/";
+        String outputDir="/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/predict_l_for_s_given_po/meanR/";
         //run it once. we dont need to run it very time..
         /*for(String className:classNames) {
            
@@ -87,8 +109,9 @@ public class EvaluationMain implements ThresoldConstants {
              String classDir=directory+predict_l_for_s_given_po+"_"+className;
              createEvalutionFiles(classDir,associationRulesExperiment,className);
         }*/
-        //Calculate mean reciprocal
-        calculateMeanReci(directory + "predict_l_for_s_given_po_" + "Aircraft/", associationRulesExperiment, false);
+
+        //Calculate mean reciprocal 
+        calculateMeanReciprocal(directory,outputDir);
 
         /*Integer index = 0;
         for (String prediction : predicateRules) {
@@ -121,38 +144,41 @@ public class EvaluationMain implements ThresoldConstants {
         }*/
     }
 
-    //done predict_l_for_s_given_po
-    public static void calculateMeanReci(String directory, Map<String, ThresoldsExperiment> associationRulesExperiment, Boolean perClassFlag) throws IOException, Exception {
-        Integer index = 0;
+    public static void calculateMeanReciprocal(String directory,String outputDir) throws IOException, Exception {
+        //Integer index = 0;
         for (String prediction : predicateRules) {
-            if (prediction.contains(predict_l_for_s_given_po)) {
-                for (String associationRule : associationRulesExperiment.keySet()) {
-                    associationRule = ThresoldConstants.Cosine;
-                    ThresoldsExperiment thresoldsExperiment = associationRulesExperiment.get(associationRule);
-                    Map<String, Map<String, MeanReciprocalCalculation>> expeResult = new TreeMap<String, Map<String, MeanReciprocalCalculation>>();
-
-                    adjectives = new ArrayList<MeanReciprocalCalculation>();
-                    verbs = new ArrayList<MeanReciprocalCalculation>();
-                    nouns = new ArrayList<MeanReciprocalCalculation>();
-
-                    for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
-                        List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, associationRule, experiment, ".json").getValue1();
-                        index = index + 1;
-                        ThresoldsExperiment.ThresoldELement thresoldELement = thresoldsExperiment.getThresoldELements().get(experiment);
-                        Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(experiment, directory, expFileList, perClassFlag, "Politician");
-                        if (!meanReciprocalsPos.isEmpty()) {
-                            expeResult.put(experiment, meanReciprocalsPos);
-                        }
-                        break;
-                    }
-                    setTopMeanReciprocal(directory, prediction, associationRule);
-                    String outputFileName = directory + "A-" + "NN-JJ-VB-" + associationRule + "-" + prediction + "MeanR" + ".json";
-                    FileFolderUtils.writeExperMeanResultsToJsonFile(expeResult, outputFileName);
-                    System.out.println("associationRule:" + associationRule);
+            if (!prediction.contains(predict_l_for_s_given_po)) {
+                continue;
+            }
+            for (String interestingness : allInterestingness.keySet()) {
+                if (!interestingness.contains(ThresoldConstants.Cosine)) {
+                    continue;
                 }
-                break;
+                LOGGER.log(Level.INFO, "runnng for rule ::" + prediction);
+                LOGGER.log(Level.INFO, "runnng for interesingness ::" + interestingness);
+
+                ThresoldsExperiment thresoldsExperiment = allInterestingness.get(interestingness);
+                Map<String, Map<String, MeanReciprocalCalculation>> expeResult = new TreeMap<String, Map<String, MeanReciprocalCalculation>>();
+
+                adjectives = new ArrayList<MeanReciprocalCalculation>();
+                verbs = new ArrayList<MeanReciprocalCalculation>();
+                nouns = new ArrayList<MeanReciprocalCalculation>();
+
+                for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
+                    List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, interestingness, experiment, ".json").getValue1();
+                    LOGGER.log(Level.INFO, "now running experiment ::" + experiment);
+                    LOGGER.log(Level.INFO, "file found for this experiment ::" + expFileList.size());
+                    Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(experiment, directory, expFileList);
+                    if (!meanReciprocalsPos.isEmpty()) {
+                        expeResult.put(experiment, meanReciprocalsPos);
+                    }
+                }
+                setTopMeanReciprocal(directory, prediction, interestingness);
+                String outputFileName = directory + "A-" + "NN-JJ-VB-" + interestingness + "-" + prediction + "MeanR" + ".json";
+                FileFolderUtils.writeExperMeanResultsToJsonFile(expeResult, outputFileName);
             }
             break;
+
         }
     }
 
@@ -332,7 +358,7 @@ public class EvaluationMain implements ThresoldConstants {
         return false;
     }
 
-    private static Map<String, MeanReciprocalCalculation> meanReciprocalValues(String experiment, String directory, List<File> fileList, Boolean classSpecific, String className) throws IOException {
+    private static Map<String, MeanReciprocalCalculation> meanReciprocalValues(String experiment, String directory, List<File> fileList) throws IOException {
         Map<String, MeanReciprocalCalculation> meanReciprocals = new TreeMap<String, MeanReciprocalCalculation>();
         for (String posTag : Analyzer.POSTAGS) {
             try {
@@ -344,7 +370,7 @@ public class EvaluationMain implements ThresoldConstants {
                 String conditionalFilename = directory + fileName + ".json";
                 //System.out.println("qaldFileName:" + qaldFileName);
                 //System.out.println("conditionalFilename:" + conditionalFilename);
-                Comparision comparision = new Comparision(qaldFileName, conditionalFilename, classSpecific, className);
+                Comparision comparision = new Comparision(qaldFileName, conditionalFilename);
                 comparision.compersionsPattern(experiment);
                 MeanReciprocalCalculation meanReciprocalCalculation = comparision.getMeanReciprocalResult();
                 if (posTag.contains("JJ")) {
@@ -362,6 +388,9 @@ public class EvaluationMain implements ThresoldConstants {
             } catch (Exception exp) {
                 System.out.println("File not found!!");
             }
+            System.out.println("adjectives:" + adjectives);
+            System.out.println("verbs:" + verbs);
+            System.out.println("nouns:" + nouns);
         }
         return meanReciprocals;
     }

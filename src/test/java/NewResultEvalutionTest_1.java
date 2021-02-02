@@ -80,7 +80,7 @@ public class NewResultEvalutionTest_1 implements ThresoldConstants {
 
     public static void main(String[] args) throws Exception {
         String directory = qald9Dir + OBJECT + "/";
-        EvaluationMain newResultEvalutionTest = new EvaluationMain();
+       // EvaluationMainTest newResultEvalutionTest = new EvaluationMainTest();
         
 
        

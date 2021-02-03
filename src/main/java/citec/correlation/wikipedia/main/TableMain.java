@@ -96,15 +96,15 @@ public class TableMain implements PropertyNotation,DirectoryLocation,MenuOptions
 
         }
         if (type.equals(MEAN_RECIPROCAL_WORD)) {
-           String qaldFileName = qald9Dir + "JJ-qald9" + ".json";
-           String conditionalFilename = qald9Dir + "lexicon-conditional-JJ" + ".json";
+           File qaldFileName = new File(qald9Dir + "JJ-qald9" + ".json");
+           File conditionalFilename = new File (qald9Dir + "lexicon-conditional-JJ" + ".json");
            Comparision comparision = new Comparision("JJ",qald9Dir,qaldFileName, conditionalFilename,null);
            //comparision.comparisionsWords();
         }
         if (type.equals(MEAN_RECIPROCAL_PATTERN)) {
-           String qaldFileName = qald9Dir + "VB-qald9-pattern" + ".json";
-           String conditionalFilename = qald9Dir + "lexicon-conditional-pattern" + ".json";
-           String outputFileName= qald9Dir +"meanReciprocal" + ".json";
+           File qaldFileName = new File(qald9Dir + "VB-qald9-pattern" + ".json");
+           File conditionalFilename = new File (qald9Dir + "lexicon-conditional-pattern" + ".json");
+           File outputFileName= new File (qald9Dir +"meanReciprocal" + ".json");
            Comparision comparision = new Comparision("VB",qald9Dir,qaldFileName,conditionalFilename,outputFileName);
            String experiment="experiment";
            comparision.compersionsPattern(experiment);

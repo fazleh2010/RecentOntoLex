@@ -9,6 +9,7 @@ import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import citec.correlation.wikipedia.parameters.ExperimentThresold;
 import citec.correlation.wikipedia.parameters.MenuOptions;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -65,9 +66,9 @@ public class LexiconObjectTest implements PropertyNotation, DirectoryLocation, M
             if (interestingResultDir.contains("Cl10_Prop500_Lp20")) {
              System.out.println(interestingResultDir);
                for (String postag : POSTAGS2) {
-                    String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, postag);
-                    String conditionalFilename = FileFolderUtils.getLexiconFile(interestingResultDir, OBJECT, postag);
-                    String outputFileName = FileFolderUtils.getMeanReciprocalFile(interestingResultDir, OBJECT, postag);
+                    File qaldFileName = new File(FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, postag));
+                    File conditionalFilename = new File(FileFolderUtils.getLexiconFile(interestingResultDir, OBJECT, postag));
+                    File outputFileName = new File(FileFolderUtils.getMeanReciprocalFile(interestingResultDir, OBJECT, postag));
                     Comparision comparision = new Comparision(postag,qald9Dir, qaldFileName, conditionalFilename, outputFileName);
                     String experiment="experiment";
                     comparision.compersionsPattern(experiment);

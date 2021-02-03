@@ -12,7 +12,7 @@ import citec.correlation.wikipedia.parameters.ThresoldConstants;
 import static citec.correlation.wikipedia.parameters.ThresoldConstants.interestingness;
 import citec.correlation.wikipedia.parameters.ThresoldsExperiment;
 import citec.correlation.wikipedia.results.LineInfo;
-import citec.correlation.wikipedia.results.NewResults;
+import citec.correlation.wikipedia.results.NewResultsHR;
 import citec.correlation.wikipedia.results.Discription;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
@@ -197,7 +197,7 @@ public class NewResultEvalutionTest_1 implements ThresoldConstants {
                     Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(inputDir, prediction, associationRule, "json");
                     List<File> files = pair.getValue1();
                     //System.out.println("files:" + files);
-                    NewResults allClassLines = readFromJsonFile(files,className);
+                    NewResultsHR allClassLines = readFromJsonFile(files,className);
                     ThresoldsExperiment thresoldsExperiment = associationRulesExperiment.get(associationRule);
                     Integer index = 0;
                     for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
@@ -215,7 +215,7 @@ public class NewResultEvalutionTest_1 implements ThresoldConstants {
 
     }
 
-    private static Lexicon createLexicon(String directory,String dbo_className, String dbo_prediction, String dbo_associationRule, NewResults result, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
+    private static Lexicon createLexicon(String directory,String dbo_className, String dbo_prediction, String dbo_associationRule, NewResultsHR result, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
         String key = dbo_className + "-" + dbo_prediction + "-" + dbo_associationRule;
         Analyzer analyzer = null;
         Lexicon lexicon = null;
@@ -292,13 +292,13 @@ public class NewResultEvalutionTest_1 implements ThresoldConstants {
         return info[0].trim().strip();
     }
 
-    public static NewResults readFromJsonFile(File file) throws IOException, Exception {
+    public static NewResultsHR readFromJsonFile(File file) throws IOException, Exception {
         ObjectMapper mapper = new ObjectMapper();
-        NewResults result = mapper.readValue(file, NewResults.class);
+        NewResultsHR result = mapper.readValue(file, NewResultsHR.class);
         return result;
     }
 
-    public static NewResults readFromJsonFile(List<File> files,String className) throws IOException, Exception {
+    public static NewResultsHR readFromJsonFile(List<File> files,String className) throws IOException, Exception {
         Map<String, List<String>> classDistributions = new TreeMap<String, List<String>>();
         Discription description = null;
         for (File file : files) {
@@ -313,12 +313,12 @@ public class NewResultEvalutionTest_1 implements ThresoldConstants {
             System.out.println("parameters[0]:"+parameters[0]);
 
             ObjectMapper mapper = new ObjectMapper();
-            NewResults resultTemp = mapper.readValue(file, NewResults.class);
+            NewResultsHR resultTemp = mapper.readValue(file, NewResultsHR.class);
             description = resultTemp.getDescription();
             List<String> local = resultTemp.getDistributions();
             classDistributions.put(parameters[0], local);
         }
-        return new NewResults(description, classDistributions);
+        return new NewResultsHR(description, classDistributions);
     }
 
     private static File getFile(String posTag, List<File> fileList) {
@@ -346,8 +346,8 @@ public class NewResultEvalutionTest_1 implements ThresoldConstants {
                 File file = getFile(posTag, fileList);
                 String fileName = file.getName().replace(".json", "");
                 //System.out.println("fileName:" + fileName);
-                String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, posTag);
-                String conditionalFilename = directory + fileName + ".json";
+                File qaldFileName = new File (FileFolderUtils.getQaldFile(qald9Dir + GOLD, OBJECT, posTag));
+                File conditionalFilename = new File (directory + fileName + ".json");
                 //System.out.println("qaldFileName:" + qaldFileName);
                 //System.out.println("conditionalFilename:" + conditionalFilename);
                 Comparision comparision = new Comparision(qaldFileName, conditionalFilename,classSpecific,className);

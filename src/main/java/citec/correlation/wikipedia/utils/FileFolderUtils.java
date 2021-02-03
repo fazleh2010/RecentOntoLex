@@ -828,6 +828,10 @@ public class FileFolderUtils implements TextAnalyzer{
     public static String getQaldFile(String directory,String type, String postag) {
         return directory + File.separator + postag + "-" + type + "-" + QLAD9 + ".json";
     }
+    
+    public static File getQaldFileObject(String directory,String type, String postag) {
+        return new File(directory + File.separator + postag + "-" + type + "-" + QLAD9 + ".json");
+    }
 
     public static String getMeanReciprocalFile(String directory, String type,String postag) {
         return directory + File.separator +type +"-"+ postag + "-" + MEAN_RECIPROCAL + ".json";

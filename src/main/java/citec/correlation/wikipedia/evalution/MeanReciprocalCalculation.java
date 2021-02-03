@@ -21,6 +21,8 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import jdk.nashorn.internal.ir.annotations.Ignore;
 import org.javatuples.Pair;
 
@@ -55,17 +57,20 @@ public class MeanReciprocalCalculation implements Comparator{
     //@JsonProperty("PatterrnFoundZeroRank")
     @JsonIgnore
     private Map<String,ReciprocalResult> patternNotFound=new  TreeMap<String,ReciprocalResult>();
+     @JsonIgnore
+    private Logger LOGGER=null;
 
     public MeanReciprocalCalculation() {
         
     }
   
-    public MeanReciprocalCalculation(String experiment,List<Pair<String, Map<String, Double>>> rankings, List<Pair<String, Map<String, Boolean>>> gold) {
+    public MeanReciprocalCalculation(String experiment,List<Pair<String, Map<String, Double>>> rankings, List<Pair<String, Map<String, Boolean>>> gold,Logger LOGGER) {
         this.experiment=experiment;
+        this.LOGGER=LOGGER;
         this.computeWithRankingMap(rankings,gold);
     }
 
-    public  void computeWithRankingMap(List<Pair<String, Map<String, Double>>> rankings, List<Pair<String, Map<String, Boolean>>> gold) {
+    public void computeWithRankingMap(List<Pair<String, Map<String, Double>>> rankings, List<Pair<String, Map<String, Boolean>>> gold) {
         EvalutionUtil.ifFalseCrash(rankings.size() == gold.size(),
                 "The size of predictions and gold should be identical, Usually not found element are in FALSE marked in gold");
         double mrr = 0;
@@ -77,25 +82,29 @@ public class MeanReciprocalCalculation implements Comparator{
 
             ReciprocalResult reciprocalElement = getReciprocalRank(getKeysSortedByValue(rankingsPredict.getValue1(), DESCENDING),
                     wordGold.getValue1());
+
             if (reciprocalElement.getRank() > 0) {
-                 this.patternFound.put(word, reciprocalElement);
+                this.patternFound.put(word, reciprocalElement);
+                LOGGER.log(Level.INFO, "checking :" + word+" "+"Rank::" + reciprocalElement.getRank()+" reciprocalRank::"+reciprocalElement.getReciprocalRank());
+            } else {
+                patternNotFound.put(word, reciprocalElement);
+                LOGGER.log(Level.INFO,"checking :" + word+" NOT FOUND!!:");
             }
-            else
-               patternNotFound.put(word, reciprocalElement);
-            
+
             mrr += reciprocalElement.getReciprocalRank();
+            
         }
 
         mrr /= rankings.size();
         
 
-         this.meanReciprocalRank= mrr;
-         this.meanReciprocalRank=DoubleUtils.formatDouble(mrr);
-         this.meanReciprocalRankStr=FormatAndMatch.doubleFormat(meanReciprocalRank);
-         this.numberOfPatterrnFoundNonZeroRank=patternFound.size();
-         this.numberOfPatterrnFoundZeroRank=patternNotFound.size();
-         this.totalPattern=patternFound.size()+patternNotFound.size();
-         
+        this.meanReciprocalRank = mrr;
+        this.meanReciprocalRank = DoubleUtils.formatDouble(mrr);
+        this.meanReciprocalRankStr = FormatAndMatch.doubleFormat(meanReciprocalRank);
+        this.numberOfPatterrnFoundNonZeroRank = patternFound.size();
+        this.numberOfPatterrnFoundZeroRank = patternNotFound.size();
+        this.totalPattern = patternFound.size() + patternNotFound.size();
+
     }
 
     private static ReciprocalResult getReciprocalRank(final List<String> ranking, final Map<String, Boolean> gold) {
@@ -165,9 +174,35 @@ public class MeanReciprocalCalculation implements Comparator{
         }
 
     }
+    
+    
 
     public String getExperiment() {
         return experiment;
+    }
+
+    public Double getMeanReciprocalRank() {
+        return meanReciprocalRank;
+    }
+
+    public Integer getTotalPattern() {
+        return totalPattern;
+    }
+
+    public Integer getNumberOfPatterrnFoundNonZeroRank() {
+        return numberOfPatterrnFoundNonZeroRank;
+    }
+
+    public Integer getNumberOfPatterrnFoundZeroRank() {
+        return numberOfPatterrnFoundZeroRank;
+    }
+
+    public Map<String, ReciprocalResult> getPatternFound() {
+        return patternFound;
+    }
+
+    public Map<String, ReciprocalResult> getPatternNotFound() {
+        return patternNotFound;
     }
 
    

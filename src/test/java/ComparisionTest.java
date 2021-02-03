@@ -24,6 +24,7 @@ import citec.correlation.wikipedia.utils.FileFolderUtils;
 import java.io.IOException;
 import org.junit.Test;
 import static citec.correlation.wikipedia.parameters.MenuOptions.POSTAGS;
+import java.io.File;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
@@ -48,9 +49,9 @@ public class ComparisionTest {
     public void main() throws IOException, Exception {
         Set<String> POSTAGS = new HashSet<String>(Arrays.asList(TextAnalyzer.NOUN));
         for (String postag : POSTAGS) {
-            String qaldFileName = qald9Dir + postag + "-pattern-qald9" + ".json";
-            String conditionalFilename = qald9Dir + "lexicon-conditional-pattern" + ".json";
-            String outputFileName = qald9Dir + postag + "-pattern-mean-reciprocal" + ".json";
+            File qaldFileName = new File (qald9Dir + postag + "-pattern-qald9" + ".json");
+            File conditionalFilename = new File (qald9Dir + "lexicon-conditional-pattern" + ".json");
+            File outputFileName = new File (qald9Dir + postag + "-pattern-mean-reciprocal" + ".json");
             String experiment="experiment";
             Comparision comparision = new Comparision("VB",qald9Dir, qaldFileName, conditionalFilename, outputFileName);
             comparision.compersionsPattern(experiment);

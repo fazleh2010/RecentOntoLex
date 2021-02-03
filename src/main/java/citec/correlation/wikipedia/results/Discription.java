@@ -20,11 +20,11 @@ public class Discription {
     @JsonProperty("min_property_frequency")
     private Double min_property_frequency = 0.0;
     @JsonProperty("measure")
-    private String measure =null;
+    private String measure = null;
     @JsonProperty("min_onegram_length")
     private Integer min_onegram_length = 0;
     @JsonProperty("max_number_of_rules")
-    private Integer max_number_of_rules = 0;
+    private String max_number_of_rules = null;
     @JsonProperty("max_entities_per_class")
     private Integer max_entities_per_class = 10000;
     @JsonProperty("min_supB")
@@ -75,13 +75,11 @@ public class Discription {
         return measure;
     }
 
-  
-
     public Integer getMin_onegram_length() {
         return min_onegram_length;
     }
 
-    public Integer getMax_number_of_rules() {
+    public String getMax_number_of_rules() {
         return max_number_of_rules;
     }
 
@@ -115,7 +113,7 @@ public class Discription {
 
     @Override
     public String toString() {
-        return "_Discription{" + "min_supAB=" + min_supAB + ", className=" + className + ", min_property_frequency=" + min_property_frequency + ", measure=" + measure + ", min_onegram_length=" + min_onegram_length + ", max_number_of_rules=" + max_number_of_rules + ", max_entities_per_class=" + max_entities_per_class + ", min_supB=" + min_supB + ", threshold=" + threshold + ", min_class_frequency=" + min_class_frequency + ", min_supA=" + min_supA + ", rulepattern=" + rulepattern + ", min_pattern_frequency=" + min_pattern_frequency + '}';
+        return "Discription{" + "min_supAB=" + min_supAB + ", className=" + className + ", min_property_frequency=" + min_property_frequency + ", measure=" + measure + ", min_onegram_length=" + min_onegram_length + ", max_number_of_rules=" + max_number_of_rules + ", max_entities_per_class=" + max_entities_per_class + ", min_supB=" + min_supB + ", threshold=" + threshold + ", min_class_frequency=" + min_class_frequency + ", min_supA=" + min_supA + ", rulepattern=" + rulepattern + ", min_pattern_frequency=" + min_pattern_frequency + '}';
     }
-    
+
 }

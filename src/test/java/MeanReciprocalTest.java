@@ -44,9 +44,9 @@ public class MeanReciprocalTest {
         List<String> POSTAGS2 = new ArrayList<String>(Arrays.asList(TextAnalyzer.ADJECTIVE));
 
         for (String postag : POSTAGS) {
-            String qaldFileName = FileFolderUtils.getQaldFile(qald9Dir + GOLD, PATTERN, postag);
-            String conditionalFilename = FileFolderUtils.getLexiconFile(qald9Dir, PATTERN, postag);
-            String outputFileName = FileFolderUtils.getMeanReciprocalFile(qald9Dir, PATTERN, postag);
+            File qaldFileName = new File (FileFolderUtils.getQaldFile(qald9Dir + GOLD, PATTERN, postag));
+            File conditionalFilename = new File (FileFolderUtils.getLexiconFile(qald9Dir, PATTERN, postag));
+            File outputFileName = new File (FileFolderUtils.getMeanReciprocalFile(qald9Dir, PATTERN, postag));
             Comparision comparision = new Comparision(postag,qald9Dir, qaldFileName, conditionalFilename, outputFileName);
             String experiment="experiment";
             comparision.compersionsPattern(experiment);

@@ -17,10 +17,7 @@ public class LogFormatter extends Formatter {
 
     @Override
     public String format(LogRecord record) {
-        return 
-                record.getSourceClassName().replace("citec.correlation.wikipedia", "")+ "::"
-                + record.getSourceMethodName() + "::"
-                +record.getLevel()+"::"
+        return record.getLevel() + "::"
                 + record.getMessage() + "\n";
     }
 

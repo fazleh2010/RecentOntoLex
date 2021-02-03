@@ -44,4 +44,10 @@ public class ReciprocalResult {
     public Double getReciprocalRank() {
         return reciprocalRank;
     }
+
+    @Override
+    public String toString() {
+        return "ReciprocalResult{" + "predicates=" + predicates + ", rank=" + rank + ", reciprocalRank=" + reciprocalRank + '}';
+    }
+    
 }

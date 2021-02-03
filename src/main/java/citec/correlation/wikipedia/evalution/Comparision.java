@@ -5,6 +5,7 @@
  */
 package citec.correlation.wikipedia.evalution;
 
+import citec.correlation.wikipedia.analyzer.logging.LoggingExample;
 import citec.correlation.wikipedia.dic.lexicon.LexiconUnit;
 import citec.correlation.wikipedia.results.ReciprocalResult;
 import citec.correlation.wikipedia.evalution.ir.IrAbstract;
@@ -21,7 +22,10 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
+import java.io.File;
 import java.util.LinkedHashMap;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.javatuples.Pair;
 
 /**
@@ -32,25 +36,27 @@ public class Comparision {
     
     private Map<String, LexiconUnit> lexiconDic = new TreeMap<String, LexiconUnit> ();
     private Map<String, Unit> qaldDic = new TreeMap<String, Unit>();
-    //private List<MeanReciprocalCalculation> results = new ArrayList<MeanReciprocalCalculation>();
-    private String outputFileName = null;
+    private File outputFileName = null;
     private String posTag = null;
     private MeanReciprocalCalculation meanReciprocalResult =null;
+    private  Logger LOGGER ;
     
   
 
-    public Comparision(String postag,String qald9Dir, String qaldFileName, String methodFileName,String outputFileName) throws IOException {
+    public Comparision(String postag,String qald9Dir, File qaldFileName, File methodFileName,File outputFileName) throws IOException {
         this.lexiconDic = getLexicon(methodFileName);
         this.qaldDic = getQald(qaldFileName);
         this.outputFileName=outputFileName;
     }
     
-     public Comparision(String qaldFileName, String conditionalFilename) throws IOException {
+     public Comparision(File qaldFileName, File conditionalFilename,String posTag,Logger LOGGER) throws IOException {
+        this.LOGGER=LOGGER;
         this.lexiconDic = getLexicon(conditionalFilename);
         this.qaldDic = getQald(qaldFileName);
+        this.posTag=posTag;
     }
     
-    public Comparision(String qaldFileName, String conditionalFilename,Boolean classSpecific,String className) throws IOException {
+    public Comparision(File qaldFileName, File conditionalFilename,Boolean classSpecific,String className) throws IOException {
         if(!classSpecific)
            this.lexiconDic = getLexicon(conditionalFilename);
         else
@@ -63,26 +69,40 @@ public class Comparision {
         List<Pair<String,Map<String, Double>>> lexicon = new ArrayList<Pair<String,Map<String, Double>>>();
         List<Pair<String,Map<String, Boolean>>> qald_gold = new ArrayList<Pair<String,Map<String, Boolean>>>();
         if (lexiconDic.keySet().isEmpty()) {
-            //System.out.println("No lexicon found for evalution!!");
+            LOGGER.log(Level.WARNING, "No lexicon file is found::" );
             return;
         }
             
-        Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
-        List<String> commonWords = new ArrayList<String>(intersection);
-        System.out.println("outputFileName:"+outputFileName);
-        System.out.println("commonWords:"+commonWords);
-
+        //Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
+        List<String> commonWords = new ArrayList<String>(Sets.intersection(qaldDic.keySet(), lexiconDic.keySet()));
+        if (!commonWords.isEmpty()) {
+            //LOGGER.log(Level.INFO, "common linguistic pattern between lexicon and qald-9");
+            //LOGGER.log(Level.INFO, commonWords.toString());
+        }
+        else{
+            LOGGER.log(Level.INFO, "no linguistic pattern matched between lexicon and qald-9");  
+        }
+          
         for (String word : lexiconDic.keySet()) {
             LexiconUnit lexiconElement = lexiconDic.get(word);
             Map<String, Double> predict = this.getPredictMap(lexiconElement);
             Map<String, Boolean> goldRelevance = this.getGoldRelevance(word, predict);
             Pair<String,Map<String, Double>> predictPair = new Pair<String,Map<String, Double>>(word,predict);
-            //System.out.println(predictPair);
             Pair<String,Map<String, Boolean>> goldRelevancePair = new Pair<String,Map<String, Boolean>>(word,goldRelevance);
             lexicon.add(predictPair);
             qald_gold.add(goldRelevancePair);
         }
-        this. meanReciprocalResult =new MeanReciprocalCalculation(experiment,lexicon, qald_gold);
+        this. meanReciprocalResult =new MeanReciprocalCalculation(experiment,lexicon, qald_gold,LOGGER);
+        LOGGER.log(Level.FINE, ">>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        LOGGER.log(Level.INFO, "experiment::"+experiment);
+        LOGGER.log(Level.INFO, "postag::"+this.posTag);
+        LOGGER.log(Level.INFO, "meanReciprocalRank value::"+this. meanReciprocalResult.getMeanReciprocalRankStr());
+        LOGGER.log(Level.INFO, "Lexicon size::"+this. meanReciprocalResult.getTotalPattern());
+        LOGGER.log(Level.INFO, "number of pattern matched with Qald-9::"+this. meanReciprocalResult.getPatternFound().size());
+        LOGGER.log(Level.INFO, "detail of matched pattern::"+this. meanReciprocalResult.getPatternFound());
+        LOGGER.log(Level.INFO, "number of pattern DOES NOT match with Qald-9::::"+this. meanReciprocalResult.getPatternNotFound().size());
+        LOGGER.log(Level.FINE, ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
         //System.out.println("meanReciprocalRank:" + meanReciprocalResult.getMeanReciprocalElements());
        // FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocalResult, outputFileName);
         
@@ -224,13 +244,13 @@ public class Comparision {
         }
         return  null;
     }
-    private Map<String, LexiconUnit> getLexicon(String methodFileName) {
+    private Map<String, LexiconUnit> getLexicon(File file) {
         Map<String, LexiconUnit> lexicons = new TreeMap<String, LexiconUnit>();
         ObjectMapper mapper = new ObjectMapper();
 
         List<LexiconUnit> lexiconUnits = new ArrayList<LexiconUnit>();
         try {
-            lexiconUnits = mapper.readValue(Paths.get(methodFileName).toFile(), new TypeReference<List<LexiconUnit>>() {
+            lexiconUnits = mapper.readValue(file, new TypeReference<List<LexiconUnit>>() {
             });
             for (LexiconUnit LexiconUnit : lexiconUnits) {
                 lexicons.put(LexiconUnit.getWord(), LexiconUnit);
@@ -243,13 +263,13 @@ public class Comparision {
         return lexicons;
     }
     
-    private Map<String, LexiconUnit> getLexiconPerClass(String conditionalFilename, String className) {
+    private Map<String, LexiconUnit> getLexiconPerClass(File conditionalFilename, String className) {
         Map<String, LexiconUnit> lexicons = new TreeMap<String, LexiconUnit>();
         ObjectMapper mapper = new ObjectMapper();
 
         List<LexiconUnit> lexiconUnits = new ArrayList<LexiconUnit>();
         try {
-            lexiconUnits = mapper.readValue(Paths.get(conditionalFilename).toFile(), new TypeReference<List<LexiconUnit>>() {
+            lexiconUnits = mapper.readValue(conditionalFilename, new TypeReference<List<LexiconUnit>>() {
             });
             for (LexiconUnit LexiconUnit : lexiconUnits) {
                 LinkedHashMap<Integer, List<String>> newEntityInfos = new LinkedHashMap<Integer, List<String>>();
@@ -302,10 +322,10 @@ public class Comparision {
         return lexicons;
     }
 
-    private Map<String, Unit> getQald(String qaldFileName) throws IOException {
+    private Map<String, Unit> getQald(File qaldFile) throws IOException {
         Map<String, Unit> qald = new TreeMap<String, Unit>();
         ObjectMapper mapper = new ObjectMapper();
-        List<Unit> units = mapper.readValue(Paths.get(qaldFileName).toFile(), new TypeReference<List<Unit>>() {
+        List<Unit> units = mapper.readValue(qaldFile, new TypeReference<List<Unit>>() {
         });
         for (Unit unit : units) {
             qald.put(unit.getWord(), unit);
@@ -377,7 +397,14 @@ public class Comparision {
         return meanReciprocalResult;
     }
 
-    
+    private void setLog(String word, Map<String, Double> predict) {
+        LOGGER.log(Level.INFO, "checking :" + word);
+        for (String key : predict.keySet()) {
+            Double value = predict.get(key);
+            LOGGER.log(Level.INFO, "key::" + key);
+            LOGGER.log(Level.INFO, "value::" + value);
+        }
 
+    }
    
 }

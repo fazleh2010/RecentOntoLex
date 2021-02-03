@@ -11,37 +11,36 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
-import jdk.nashorn.internal.ir.annotations.Ignore;
 
 /**
  *
  * @author elahi
  */
-public class NewResultsHR {
+public class NewResultsMR {
 
     @JsonProperty("_description")
     private Discription _description;
     @JsonProperty("rules")  
-    List<String> distributions = new ArrayList<String>();
+    List<Rule> distributions = new ArrayList<Rule>();
  
     @JsonIgnore
-    Map<String,List<String>> classDistributions = new TreeMap<String,List<String>> ();
+    Map<String,List<Rule>> classDistributions = new TreeMap<String,List<Rule>> ();
 
-    public NewResultsHR() {
+    public NewResultsMR() {
 
     }
     
-    public NewResultsHR(Discription _description, List<String> distributions) {
+    public NewResultsMR(Discription _description, List<Rule> distributions) {
         this._description = _description;
         this.distributions = distributions;
     }
 
-    public NewResultsHR(Discription _description, Map<String, List<String>> classDistributions) {
+    public NewResultsMR(Discription _description, Map<String, List<Rule>> classDistributions) {
         this._description = _description;
         this.classDistributions = classDistributions;
     }
 
-    public List<String> getDistributions() {
+    public List<Rule> getDistributions() {
         return distributions;
     }
 
@@ -49,7 +48,7 @@ public class NewResultsHR {
         return _description;
     }
 
-    public Map<String, List<String>> getClassDistributions() {
+    public Map<String, List<Rule>> getClassDistributions() {
         return classDistributions;
     }
 

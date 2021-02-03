@@ -15,6 +15,8 @@ import static citec.correlation.wikipedia.parameters.ThresoldConstants.predict_l
 import citec.correlation.wikipedia.results.Discription;
 import citec.correlation.wikipedia.results.MR;
 import citec.correlation.wikipedia.results.NewResultsHR;
+import citec.correlation.wikipedia.results.NewResultsMR;
+import citec.correlation.wikipedia.results.Rule;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
@@ -40,14 +42,14 @@ public class FileParser {
         String predict_l_for_s_given_po_dic = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/predict_l_for_s_given_po/dic/";
         String predict_l_for_s_given_po_meanR = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/predict_l_for_s_given_po/meanR/";
         //run it once. we dont need to run it very time..
-        
+
         System.out.println(rawFileDir);
 
         Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(rawFileDir, prediction, associationRule, "json");
         List<File> files = pair.getValue1();
-         System.out.println("files:" + files.toString());
-         readFromJsonFile(files);
-      
+        System.out.println("files:" + files.toString());
+        readFromJsonFile(files);
+
     }
 
     /*public static void readMR(List<File> files) throws IOException, Exception {
@@ -63,9 +65,8 @@ public class FileParser {
             break;
         }
     }*/
-    
-    public static NewResultsHR readFromJsonFile(List<File> files) throws IOException, Exception {
-        Map<String, List<String>> classDistributions = new TreeMap<String, List<String>>();
+    public static NewResultsMR readFromJsonFile(List<File> files) throws IOException, Exception {
+        Map<String, List<Rule>> classDistributions = new TreeMap<String, List<Rule>>();
         Discription description = null;
         for (File file : files) {
 
@@ -76,15 +77,16 @@ public class FileParser {
             System.out.println("parameters[0]:" + parameters[0]);
 
             ObjectMapper mapper = new ObjectMapper();
-            NewResultsHR resultTemp = mapper.readValue(file, NewResultsHR.class);
+            NewResultsMR resultTemp = mapper.readValue(file, NewResultsMR.class);
             description = resultTemp.getDescription();
-            System.out.println(resultTemp.getDescription());
-            List<String> local = resultTemp.getDistributions();
+            System.out.println(description);
+            List<Rule> local = resultTemp.getDistributions();
+            System.out.println(local);
+
             classDistributions.put(parameters[0], local);
         }
-        return new NewResultsHR(description, classDistributions);
+        return new NewResultsMR(description, classDistributions);
     }
-
 
     private static String[] findParameter(String[] info) {
         String[] parameters = new String[3];

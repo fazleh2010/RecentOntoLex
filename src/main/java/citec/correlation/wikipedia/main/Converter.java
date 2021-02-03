@@ -30,7 +30,7 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class FileParser {
+public class Converter {
 
     public static void main(String[] args) throws Exception {
         String directory = qald9Dir + OBJECT + "/";

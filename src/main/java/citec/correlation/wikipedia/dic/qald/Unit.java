@@ -89,7 +89,9 @@ public class Unit {
 
     @Override
     public String toString() {
-        return "Unit{" + "word=" + word + ", qaldQuestionId=" + qaldQuestionId + ", sparqls=" + sparqls + '}';
+        return "Unit{" + "word=" + word + ", qaldQuestionId=" + qaldQuestionId + ", pairs=" + pairs + ", questions=" + questions + ", sparqls=" + sparqls + '}';
     }
+
+   
 
 }

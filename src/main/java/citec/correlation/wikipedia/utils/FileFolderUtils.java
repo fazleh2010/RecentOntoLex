@@ -836,6 +836,17 @@ public class FileFolderUtils implements TextAnalyzer{
     public static String getMeanReciprocalFile(String directory, String type,String postag) {
         return directory + File.separator +type +"-"+ postag + "-" + MEAN_RECIPROCAL + ".json";
     }
+    
+     public static Map<String, Unit> getQald(File qaldFile) throws IOException {
+        Map<String, Unit> qald = new TreeMap<String, Unit>();
+        ObjectMapper mapper = new ObjectMapper();
+        List<Unit> units = mapper.readValue(qaldFile, new TypeReference<List<Unit>>() {
+        });
+        for (Unit unit : units) {
+            qald.put(unit.getWord(), unit);
+        }
+        return qald;
+    }
 
     
 

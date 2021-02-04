@@ -40,6 +40,7 @@ import static citec.correlation.wikipedia.parameters.MenuOptions.WORD_CALCULATIO
 import static citec.correlation.wikipedia.parameters.MenuOptions.WRITE;
 import static citec.correlation.wikipedia.parameters.MenuOptions.WRITE_PATTERNS;
 import citec.correlation.wikipedia.table.Tables;
+import citec.correlation.wikipedia.utils.CsvUtils;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.NLPTools;
 import citec.correlation.wikipedia.utils.UrlUtils;
@@ -69,49 +70,33 @@ public class QaldProcess implements PropertyNotation, DirectoryLocation, MenuOpt
 
     //Qald qaldMain = new Qald(POSTAGS, qald9Dir, trainingJson);
     private static Map<String, Unit> qaldDic = new TreeMap<String, Unit>();
+    private static String WORD = "word";
+    private static String POS = "pos";
+    private static String ID = "id";
+    private static String PROPERTY = "property";
+    private static String OBJECT = "object";
+    private static String QUESTION = "question";
+    private static String SPARQL = "sparql";
+    private static String[] qaldHeader = {WORD, ID, PROPERTY, OBJECT, QUESTION,SPARQL};
 
     public static void main(String[] args) throws IOException, Exception {
-        String directory = qald9Dir + OBJECT + "/";
+        String directory = qald9Dir + GOLD;
         qald(directory);
     }
 
     private static void qald(String directory) throws IOException {
-
         for (String posTag : Analyzer.POSTAGS) {
             try {
                 File qaldFile = FileFolderUtils.getQaldFileObject(qald9Dir + GOLD, OBJECT, posTag);
                 qaldDic = FileFolderUtils.getQald(qaldFile);
-                List<String[]> csvData = createCsvDataSimple();
-                String fileName = qald9Dir + GOLD + "test.csv";
-                writeToCSV(fileName, csvData);
-                for (String key : qaldDic.keySet()) {
-                    Unit unit = qaldDic.get(key);
-                    System.out.println("key:" + key);
-                    System.out.println("Unit:" + unit);
-                }
+                List<String[]> csvData = CsvUtils.createCsvDataSimple(qaldHeader, qaldDic, posTag);
+                String fileName =FileFolderUtils.getQaldFile(directory, OBJECT, posTag);
+                fileName = fileName.replace(".json", "")+ ".csv";
+                CsvUtils.writeToCSV(fileName, csvData);
+
             } catch (Exception exp) {
                 System.out.println("File not found!!");
             }
-        }
-    }
-
-    public static List<String[]> createCsvDataSimple() {
-        String[] header = {"word", "pos", "property", "object"};
-        String[] record1 = {"1", "first name", "address 1", "11111"};
-        String[] record2 = {"2", "second name", "address 2", "22222"};
-
-        List<String[]> list = new ArrayList<String[]>();
-        list.add(header);
-        list.add(record1);
-        list.add(record2);
-
-        return list;
-    }
-
-    public static void writeToCSV(String fileName, List<String[]> csvData) throws IOException {
-
-        try ( CSVWriter writer = new CSVWriter(new FileWriter(fileName))) {
-            writer.writeAll(csvData);
         }
     }
 

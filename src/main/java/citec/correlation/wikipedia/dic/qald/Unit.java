@@ -59,10 +59,6 @@ public class Unit {
         return word;
     }
 
-    public List<String> getQaldQuestionId() {
-        return qaldQuestionId;
-    }
-
     public LinkedHashMap<String, String> getSparqls() {
         return sparqls;
     }

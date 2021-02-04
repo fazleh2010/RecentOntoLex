@@ -99,6 +99,10 @@ public class EvaluationMainTest implements ThresoldConstants {
     }
 
     public static void main(String[] args) throws Exception {
+        Integer createFiles=1;
+        Integer evaluate=2;
+        Integer menu=2;
+        
         String directory = qald9Dir + OBJECT + "/";
         String inputDir = dbpediaDir + "results/" + "new/test/";
         EvaluationMainTest evaluationMainTest = new EvaluationMainTest();
@@ -108,16 +112,19 @@ public class EvaluationMainTest implements ThresoldConstants {
         //run it once. we dont need to run it very time..
         Map<String, ThresoldsExperiment> associationRulesExperiment = createExperiments();
 
-        File tempFile = new File(predict_l_for_s_given_po_dic);
-        boolean exists = tempFile.exists();
+        File files = new File(predict_l_for_s_given_po_dic);
+        boolean exists = files.exists();
         if (exists) {
             System.out.println("directory  exists!!");
         } else {
             FileFolderUtils.createDirectory(predict_l_for_s_given_po_dic);
         }
      
-
-        createEvalutionFiles(inputDir,predict_l_for_s_given_po_dic, associationRulesExperiment);
+        
+        if(menu==createFiles)
+           createEvalutionFiles(inputDir,predict_l_for_s_given_po_dic, associationRulesExperiment);
+        else if(menu==evaluate)
+           calculateMeanReciprocal(predict_l_for_s_given_po_dic, predict_l_for_s_given_po_meanR);
 
         //Calculate mean reciprocal 
         //calculateMeanReciprocal(predict_l_for_s_given_po_dic, predict_l_for_s_given_po_meanR);
@@ -132,8 +139,8 @@ public class EvaluationMainTest implements ThresoldConstants {
                 if (!interestingness.contains(ThresoldConstants.Cosine)) {
                     continue;
                 }
-                LOGGER.log(Level.INFO, "runnng for rule ::" + prediction);
-                LOGGER.log(Level.INFO, "runnng for interesingness ::" + interestingness);
+                LOGGER.log(Level.INFO, "evalution for association rule ::" + prediction);
+                LOGGER.log(Level.INFO, "and interesingness measure::" + interestingness);
 
                 ThresoldsExperiment thresoldsExperiment = allInterestingness.get(interestingness);
                 Map<String, Map<String, MeanReciprocalCalculation>> expeResult = new TreeMap<String, Map<String, MeanReciprocalCalculation>>();
@@ -149,7 +156,6 @@ public class EvaluationMainTest implements ThresoldConstants {
                     if (!meanReciprocalsPos.isEmpty()) {
                         expeResult.put(experiment, meanReciprocalsPos);
                     }
-                    break;
                 }
                 setTopMeanReciprocal(outputDir, prediction, interestingness);
                 String outputFileName = outputDir + interestingness + "-VB-NN-JJ-" + prediction + "MeanR" + ".json";
@@ -170,11 +176,10 @@ public class EvaluationMainTest implements ThresoldConstants {
                 //LOGGER.log(Level.INFO, "evaluate for part-of-speech::" + posTag);
                 //LOGGER.log(Level.INFO, "qald-9 file this parts-of-speech::" + qaldFile.getName());
                 LOGGER.log(Level.INFO, ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ");
-                LOGGER.log(Level.INFO, "experiment " + experiment);
-                LOGGER.log(Level.INFO, "calculating mean reciprocal.....");
-                LOGGER.log(Level.INFO, "lexicon File " + conditionalFile.getName());
-                LOGGER.log(Level.INFO, "qald-9 fule " + qaldFile.getName());
-                LOGGER.log(Level.INFO, "parts-of-sppech: " + posTag);
+                LOGGER.log(Level.INFO, "calculating mean reciprocal for " + experiment);
+                LOGGER.log(Level.INFO, "take lexicon seperated by parts of speech: " + conditionalFile.getName());
+                LOGGER.log(Level.INFO, "take corresponsding qald-9 file " + qaldFile.getName());
+                LOGGER.log(Level.INFO, "parts-of-speech: " + posTag);
 
                 Comparision comparision = new Comparision(qaldFile, conditionalFile, posTag, LOGGER);
                 comparision.compersionsPattern(experiment);

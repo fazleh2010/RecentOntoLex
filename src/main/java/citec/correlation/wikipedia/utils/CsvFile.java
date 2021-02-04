@@ -6,23 +6,35 @@
 package citec.correlation.wikipedia.utils;
 
 import citec.correlation.wikipedia.dic.qald.Unit;
+import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
+import com.opencsv.exceptions.CsvException;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
+import java.util.TreeMap;
 
 /**
  *
  * @author elahi
  */
-public class CsvUtils {
-     private static String WORD = "word";
+public class CsvFile {
+
+    private static String WORD = "word";
     private static String POS = "pos";
     private static String ID = "id";
     private static String PROPERTY = "property";
     private static String OBJECT = "object";
+    
+    private String filename=null;
+    
+    public CsvFile(String filename){
+        this.filename=filename;
+    }
 
     public static List<String[]> createCsvDataSimple(String[] qaldHeader, Map<String, Unit> qaldDic, String posTag) {
         List<String[]> list = new ArrayList<String[]>();
@@ -38,7 +50,7 @@ public class CsvUtils {
                 String question = unit.getQuestions().get(key);
                 String sparql = unit.getSparqls().get("Sparql_" + key);
                 String sparqlID = "Sparql_" + key;
-                String object =unit.getPairs().toString();
+                String object = unit.getPairs().toString();
                 if (index == 0) {
                     String[] record = {word, key, "  ", object, sparql, question};
                     list.add(record);
@@ -53,11 +65,26 @@ public class CsvUtils {
         return list;
     }
 
-    public static void writeToCSV(String fileName, List<String[]> csvData) throws IOException {
+    public void writeToCSV(List<String[]> csvData) throws IOException {
 
-        try ( CSVWriter writer = new CSVWriter(new FileWriter(fileName))) {
+        try ( CSVWriter writer = new CSVWriter(new FileWriter(this.filename))) {
             writer.writeAll(csvData);
         }
+    }
+
+    public Map<String, Unit> getQaldFromCsv() throws IOException, CsvException {
+        Map<String, Unit> qald = new TreeMap<String, Unit>();
+        try ( CSVReader reader = new CSVReader(new FileReader(this.filename))) {
+            List<String[]> r = reader.readAll();
+            r.forEach(x -> System.out.println(Arrays.toString(x)));
+        }
+
+        return qald;
+    }
+    
+
+    public String getFilename() {
+        return filename;
     }
 
 }

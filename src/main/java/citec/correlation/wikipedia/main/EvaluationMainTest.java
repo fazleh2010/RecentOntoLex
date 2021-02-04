@@ -20,6 +20,7 @@ import citec.correlation.wikipedia.parameters.ThresoldsExperiment;
 import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.results.NewResultsHR;
 import citec.correlation.wikipedia.results.Discription;
+import citec.correlation.wikipedia.utils.CsvFile;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -171,14 +172,14 @@ public class EvaluationMainTest implements ThresoldConstants {
             try {
                 File file = getFile(posTag, fileList);
                 String fileName = file.getName().replace(".json", "");
-                File qaldFile = FileFolderUtils.getQaldFileObject(qald9Dir + GOLD, OBJECT, posTag);
+                CsvFile qaldFile = FileFolderUtils.getQaldCsvFile(qald9Dir + GOLD, OBJECT, posTag);
                 File conditionalFile = new File(directory + fileName + ".json");
                 //LOGGER.log(Level.INFO, "evaluate for part-of-speech::" + posTag);
                 //LOGGER.log(Level.INFO, "qald-9 file this parts-of-speech::" + qaldFile.getName());
                 LOGGER.log(Level.INFO, ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ");
                 LOGGER.log(Level.INFO, "calculating mean reciprocal for " + experiment);
                 LOGGER.log(Level.INFO, "take lexicon seperated by parts of speech: " + conditionalFile.getName());
-                LOGGER.log(Level.INFO, "take corresponsding qald-9 file " + qaldFile.getName());
+                LOGGER.log(Level.INFO, "take corresponsding qald-9 file " + qaldFile.getFilename());
                 LOGGER.log(Level.INFO, "parts-of-speech: " + posTag);
 
                 Comparision comparision = new Comparision(qaldFile, conditionalFile, posTag, LOGGER);

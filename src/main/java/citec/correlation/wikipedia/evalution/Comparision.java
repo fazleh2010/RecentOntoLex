@@ -10,6 +10,7 @@ import citec.correlation.wikipedia.dic.lexicon.LexiconUnit;
 import citec.correlation.wikipedia.results.ReciprocalResult;
 import citec.correlation.wikipedia.evalution.ir.IrAbstract;
 import citec.correlation.wikipedia.dic.qald.Unit;
+import citec.correlation.wikipedia.utils.CsvFile;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.google.common.collect.Sets;
@@ -22,7 +23,11 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
+import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvException;
 import java.io.File;
+import java.io.FileReader;
+import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -45,23 +50,24 @@ public class Comparision {
 
     public Comparision(String postag,String qald9Dir, File qaldFileName, File methodFileName,File outputFileName) throws IOException {
         this.lexiconDic = getLexicon(methodFileName);
-        this.qaldDic = getQald(qaldFileName);
+        this.qaldDic = getQaldFromJson(qaldFileName);
         this.outputFileName=outputFileName;
     }
     
-     public Comparision(File qaldFileName, File conditionalFilename,String posTag,Logger LOGGER) throws IOException {
+     public Comparision(CsvFile csv, File conditionalFilename,String posTag,Logger LOGGER) throws IOException, CsvException {
         this.LOGGER=LOGGER;
         this.lexiconDic = getLexicon(conditionalFilename);
-        this.qaldDic = getQald(qaldFileName);
+        this.qaldDic = csv.getQaldFromCsv();
         this.posTag=posTag;
     }
+    
     
     public Comparision(File qaldFileName, File conditionalFilename,Boolean classSpecific,String className) throws IOException {
         if(!classSpecific)
            this.lexiconDic = getLexicon(conditionalFilename);
         else
            this.lexiconDic = getLexiconPerClass(conditionalFilename,className);
-        this.qaldDic = getQald(qaldFileName);
+        this.qaldDic = getQaldFromJson(qaldFileName);
     }
     
     
@@ -263,6 +269,8 @@ public class Comparision {
         return lexicons;
     }
     
+    
+    
     private Map<String, LexiconUnit> getLexiconPerClass(File conditionalFilename, String className) {
         Map<String, LexiconUnit> lexicons = new TreeMap<String, LexiconUnit>();
         ObjectMapper mapper = new ObjectMapper();
@@ -322,7 +330,7 @@ public class Comparision {
         return lexicons;
     }
 
-    private Map<String, Unit> getQald(File qaldFile) throws IOException {
+    private Map<String, Unit> getQaldFromJson(File qaldFile) throws IOException {
         Map<String, Unit> qald = new TreeMap<String, Unit>();
         ObjectMapper mapper = new ObjectMapper();
         List<Unit> units = mapper.readValue(qaldFile, new TypeReference<List<Unit>>() {
@@ -333,14 +341,13 @@ public class Comparision {
         return qald;
     }
 
+   
+   
     /*private double calculateMeanReciprocal(Map<String, Double> predictMap, Map<String, Boolean> goldRelevance) {
         double predictedReciprocalRank
                 = MeanReciprocalRank.getReciprocalRank(predictMap, goldRelevance);
         return predictedReciprocalRank;
     }*/
-
-    
-
     private String getPredicate(String predicate) {
         predicate = predicate.strip();
         return predicate;

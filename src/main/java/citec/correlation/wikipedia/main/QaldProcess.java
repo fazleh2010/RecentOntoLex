@@ -40,7 +40,7 @@ import static citec.correlation.wikipedia.parameters.MenuOptions.WORD_CALCULATIO
 import static citec.correlation.wikipedia.parameters.MenuOptions.WRITE;
 import static citec.correlation.wikipedia.parameters.MenuOptions.WRITE_PATTERNS;
 import citec.correlation.wikipedia.table.Tables;
-import citec.correlation.wikipedia.utils.CsvUtils;
+import citec.correlation.wikipedia.utils.CsvFile;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.NLPTools;
 import citec.correlation.wikipedia.utils.UrlUtils;
@@ -81,23 +81,33 @@ public class QaldProcess implements PropertyNotation, DirectoryLocation, MenuOpt
 
     public static void main(String[] args) throws IOException, Exception {
         String directory = qald9Dir + GOLD;
-        qald(directory);
+        Map<String, CsvFile> posCsv = qald(directory);
+        for (String posTag : posCsv.keySet()) {
+            CsvFile csv = posCsv.get(posTag);
+            Map<String, Unit> qald = csv.getQaldFromCsv();
+        }
     }
 
-    private static void qald(String directory) throws IOException {
+    private static Map<String, CsvFile> qald(String directory) throws IOException {
+        Map<String, CsvFile> posCsv = new TreeMap<String, CsvFile>();
         for (String posTag : Analyzer.POSTAGS) {
             try {
-                File qaldFile = FileFolderUtils.getQaldFileObject(qald9Dir + GOLD, OBJECT, posTag);
-                qaldDic = FileFolderUtils.getQald(qaldFile);
-                List<String[]> csvData = CsvUtils.createCsvDataSimple(qaldHeader, qaldDic, posTag);
-                String fileName =FileFolderUtils.getQaldFile(directory, OBJECT, posTag);
-                fileName = fileName.replace(".json", "")+ ".csv";
-                CsvUtils.writeToCSV(fileName, csvData);
-
+                File jsonQaldFile = FileFolderUtils.getQaldJsonFile(qald9Dir + GOLD, OBJECT, posTag);
+                qaldDic = FileFolderUtils.getQald(jsonQaldFile);
+                List<String[]> csvData = CsvFile.createCsvDataSimple(qaldHeader, qaldDic, posTag);
+                String fileName = FileFolderUtils.getQaldFile(directory, OBJECT, posTag);
+                fileName = fileName.replace(".json", "") + ".csv";
+                System.out.println("fileName:"+fileName);
+                CsvFile csv = new CsvFile(fileName);
+                csv.writeToCSV(csvData);
+                posCsv.put(posTag, csv);
             } catch (Exception exp) {
                 System.out.println("File not found!!");
             }
         }
+        return posCsv;
     }
+    
+    
 
 }

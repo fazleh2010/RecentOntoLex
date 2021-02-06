@@ -138,7 +138,7 @@ public class EvaluationMainTest implements ThresoldConstants {
             }
             Map<String,Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult = new TreeMap<String,Map<String, Map<String, MeanReciprocalCalculation>>>();
             for (String interestingness : allInterestingness.keySet()) {
-                if (!interestingness.contains(ThresoldConstants.Cosine)) {
+                if (!interestingness.contains(ThresoldConstants.Coherence)) {
                     continue;
                 }
                 LOGGER.log(Level.INFO, "evalution for association rule ::" + prediction);
@@ -152,14 +152,14 @@ public class EvaluationMainTest implements ThresoldConstants {
                 nouns = new ArrayList<MeanReciprocalCalculation>();
 
                 for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
-                    System.out.println("experiment:"+experiment);
-                    /*List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, interestingness, experiment, ".json").getValue1();
+                    List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, interestingness, experiment, ".json").getValue1();
                     Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(interestingness,experiment, directory, expFileList);
                     if (!meanReciprocalsPos.isEmpty()) {
                         expeResult.put(experiment, meanReciprocalsPos);
-                    }*/
+                    }
+                    break;
                 }
-                System.out.println("expeResult:"+expeResult.toString());
+                LOGGER.log(Level.INFO,interestingness+"  expeResult:"+expeResult.toString());
                 ruleExpeResult.put(interestingness, expeResult);
                 /*setTopMeanReciprocal(outputDir, prediction, interestingness);
                 String outputFileName = outputDir + interestingness + "-VB-NN-JJ-" + prediction + "MeanR" + ".csv";
@@ -171,7 +171,7 @@ public class EvaluationMainTest implements ThresoldConstants {
                 String outputFileName = outputDir + "-VB-NN-JJ-" + prediction + "MeanR" + ".csv";
                 CsvFile csvFile = new CsvFile(outputFileName);
                 System.out.println("outputFileName:" + outputFileName);
-                csvFile.createCsvExperimentData(ruleExpeResult);
+                //csvFile.createCsvExperimentData(ruleExpeResult);
                 //FileFolderUtils.writeExperMeanResultsToJsonFile(expeResult, outputFileName);
 
         }

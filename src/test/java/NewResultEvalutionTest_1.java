@@ -350,8 +350,7 @@ public class NewResultEvalutionTest_1 implements ThresoldConstants {
                 File conditionalFilename = new File (directory + fileName + ".json");
                 //System.out.println("qaldFileName:" + qaldFileName);
                 //System.out.println("conditionalFilename:" + conditionalFilename);
-                Comparision comparision = new Comparision(qaldFileName, conditionalFilename,classSpecific,className);
-                comparision.compersionsPattern(experiment);
+                Comparision comparision = new Comparision(qaldFileName, conditionalFilename,classSpecific,className,experiment,OBJECT);
                 MeanReciprocalCalculation meanReciprocalCalculation = comparision.getMeanReciprocalResult();
                 if (posTag.contains("JJ")) {
                     adjectives.add(meanReciprocalCalculation);

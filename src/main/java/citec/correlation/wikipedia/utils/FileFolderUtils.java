@@ -551,6 +551,13 @@ public class FileFolderUtils implements TextAnalyzer{
         mapper.writeValue(Paths.get(filename).toFile(), expeResult);
     }
      
+     public static void writeExperMeanResultsToCsvFile(Map<String,Map<String, MeanReciprocalCalculation>> expeResult, String filename) throws IOException, Exception {
+        if(expeResult.isEmpty())
+             throw new Exception("no data found to write in the file!!");
+        
+        
+    }
+     
     public static void writeMeanSortToJsonFile(List<MeanReciprocalCalculation> results, String filename) throws IOException, Exception {
         if (results.isEmpty()) {
             throw new Exception("no data found to write in the file!!");

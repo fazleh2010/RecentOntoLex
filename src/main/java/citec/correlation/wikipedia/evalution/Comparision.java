@@ -5,6 +5,7 @@
  */
 package citec.correlation.wikipedia.evalution;
 
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
 import citec.correlation.wikipedia.analyzer.logging.LoggingExample;
 import citec.correlation.wikipedia.dic.lexicon.LexiconUnit;
 import citec.correlation.wikipedia.results.ReciprocalResult;
@@ -40,25 +41,28 @@ import org.javatuples.Pair;
 public class Comparision {
     
     private Map<String, LexiconUnit> lexiconDic = new TreeMap<String, LexiconUnit> ();
-    private Map<String, Unit> qaldDic = new TreeMap<String, Unit>();
+    private CsvFile csvFile=null;
     private File outputFileName = null;
     private String posTag = null;
+    private String type = null;
     private MeanReciprocalCalculation meanReciprocalResult =null;
     private  Logger LOGGER ;
     
   
 
-    public Comparision(String postag,String qald9Dir, File qaldFileName, File methodFileName,File outputFileName) throws IOException {
+    public Comparision(String postag,String qald9Dir, File qaldFileName, File methodFileName,File outputFileName,String experiment,String type) throws IOException {
         this.lexiconDic = getLexicon(methodFileName);
-        this.qaldDic = getQaldFromJson(qaldFileName);
+        //this.qaldDic = getQaldFromJson(qaldFileName);
         this.outputFileName=outputFileName;
     }
     
-     public Comparision(CsvFile csv, File conditionalFilename,String posTag,Logger LOGGER) throws IOException, CsvException {
+     public Comparision(CsvFile csv, File conditionalFilename,String posTag,Logger LOGGER,String experiment,String type) throws IOException, CsvException {
         this.LOGGER=LOGGER;
         this.lexiconDic = getLexicon(conditionalFilename);
-        this.qaldDic = csv.getQaldFromCsv();
+        this.csvFile=csv;
         this.posTag=posTag;
+        this.type=type;
+        this.compersionsPattern(experiment, type);
     }
     
     
@@ -67,11 +71,15 @@ public class Comparision {
            this.lexiconDic = getLexicon(conditionalFilename);
         else
            this.lexiconDic = getLexiconPerClass(conditionalFilename,className);
-        this.qaldDic = getQaldFromJson(qaldFileName);
+        //this.qaldDic = getQaldFromJson(qaldFileName);
+    }
+
+    public Comparision(File qaldFileName, File conditionalFilename, Boolean classSpecific, String className, String experiment, String OBJECT) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     
-    public void compersionsPattern(String experiment) throws IOException {
+    private void compersionsPattern(String experiment,String type) throws IOException {
         List<Pair<String,Map<String, Double>>> lexicon = new ArrayList<Pair<String,Map<String, Double>>>();
         List<Pair<String,Map<String, Boolean>>> qald_gold = new ArrayList<Pair<String,Map<String, Boolean>>>();
         if (lexiconDic.keySet().isEmpty()) {
@@ -80,24 +88,27 @@ public class Comparision {
         }
             
         //Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
-        List<String> commonWords = new ArrayList<String>(Sets.intersection(qaldDic.keySet(), lexiconDic.keySet()));
+        List<String> commonWords = new ArrayList<String>(Sets.intersection(csvFile.getRow().keySet(), lexiconDic.keySet()));
         if (!commonWords.isEmpty()) {
-            //LOGGER.log(Level.INFO, "common linguistic pattern between lexicon and qald-9");
-            //LOGGER.log(Level.INFO, commonWords.toString());
+            LOGGER.log(Level.INFO, "common pattern found between lexicon and qald-9");
+            LOGGER.log(Level.INFO, commonWords.toString());
         }
         else{
-            LOGGER.log(Level.INFO, "no linguistic pattern matched between lexicon and qald-9");  
+            LOGGER.log(Level.INFO, "no linguistic pattern matched between lexicon and qald-9"); 
         }
           
         for (String word : lexiconDic.keySet()) {
             LexiconUnit lexiconElement = lexiconDic.get(word);
             Map<String, Double> predict = this.getPredictMap(lexiconElement);
-            Map<String, Boolean> goldRelevance = this.getGoldRelevance(word, predict);
+            Map<String, Boolean> goldRelevance = this.getGoldRelevance(word, predict,type);
             Pair<String,Map<String, Double>> predictPair = new Pair<String,Map<String, Double>>(word,predict);
             Pair<String,Map<String, Boolean>> goldRelevancePair = new Pair<String,Map<String, Boolean>>(word,goldRelevance);
             lexicon.add(predictPair);
             qald_gold.add(goldRelevancePair);
         }
+        System.out.println("lexicon:"+lexicon);
+        System.out.println("qald_gold:"+qald_gold);
+
         this. meanReciprocalResult =new MeanReciprocalCalculation(experiment,lexicon, qald_gold,LOGGER);
         LOGGER.log(Level.FINE, ">>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         LOGGER.log(Level.INFO, "experiment::"+experiment);
@@ -110,14 +121,14 @@ public class Comparision {
         LOGGER.log(Level.FINE, ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
         //System.out.println("meanReciprocalRank:" + meanReciprocalResult.getMeanReciprocalElements());
-       // FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocalResult, outputFileName);
+       //FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocalResult, outputFileName);
         
     }
     
     
 
     
-    public void compersionsPattern2() {
+   /* public void compersionsPattern2() {
         //Map<String, Double> meanReciprocal = new TreeMap<String, Double>();
         Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
         Map<String, MeanReciprocalCalculation> wordReciprocalRank = new TreeMap<String, MeanReciprocalCalculation>();
@@ -143,7 +154,7 @@ public class Comparision {
         Double meanReciprocal=sum/qaldDic.size();
         //System.out.println("meanReciprocal:"+meanReciprocal);
         
-    }
+    }*/
 
      private ReciprocalResult compersionsPattern(String word,Unit unit,LexiconUnit LexiconUnit) {
         Map<String, Boolean> goldRelevance = new HashMap<String, Boolean>();
@@ -174,7 +185,7 @@ public class Comparision {
     }
 
 
-    public void comparisionsWords() {
+    /*public void comparisionsWords() {
         Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
         List<String> commonWords = new ArrayList<String>(intersection);
 
@@ -216,7 +227,7 @@ public class Comparision {
 
         }
 
-    }
+    }*/
 
     /*private Double calculateMeanReciprocal(List<String> rankedList, Map<String, Boolean> goldRelevance) {
        List<Pair<Integer,Double>> reciprocalRankPairs= this.getReciprocalRank(rankedList, goldRelevance);
@@ -353,8 +364,8 @@ public class Comparision {
         return predicate;
     }
 
-    private List<String> getCommonWords() {
-         Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
+    private List<String> getCommonWords(Set<String>set1,Set<String>set2) {
+         Set<String> intersection = Sets.intersection(set1, set2);
          return new ArrayList<String>(intersection);
     }
 
@@ -371,9 +382,35 @@ public class Comparision {
             }
         return predict;
     }
+    
+    private Map<String, Boolean> getGoldRelevance(String word, Map<String, Double> predict,String object) {
+        Map<String, Boolean> goldRelevance = new HashMap<String, Boolean>();
+        
+        
+
+        if (csvFile.getRow().containsKey(word)) {
+           List<String> qaldPredicates =csvFile.getObjects(word);
+            //List<String> qaldPredicates = new ArrayList<String>(qaldElement.getPairs());
+            for (String predicatePattern : predict.keySet()) {
+                if (qaldPredicates.contains(predicatePattern)) {
+                    goldRelevance.put(predicatePattern, Boolean.TRUE);
+                } else {
+                    goldRelevance.put(predicatePattern, Boolean.FALSE);
+                }
+            }
+            return goldRelevance;
+        } else {
+            for (String predicatePattern : predict.keySet()) {
+                goldRelevance.put(predicatePattern, Boolean.FALSE);
+            }
+            return goldRelevance;
+        }
+
+    }
 
 
-    private Map<String, Boolean> getGoldRelevance(String word, Map<String, Double> predict) {
+
+    /*private Map<String, Boolean> getGoldRelevance(String word, Map<String, Double> predict) {
         Map<String, Boolean> goldRelevance = new HashMap<String, Boolean>();
 
         if (qaldDic.containsKey(word)) {
@@ -394,7 +431,7 @@ public class Comparision {
             return goldRelevance;
         }
 
-    }
+    }*/
 
     public String getPosTag() {
         return posTag;
@@ -413,5 +450,8 @@ public class Comparision {
         }
 
     }
+
+  
+
    
 }

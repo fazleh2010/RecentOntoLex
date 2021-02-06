@@ -66,26 +66,13 @@ import org.apache.commons.io.FileUtils;
  *
  * @author elahi
  */
-public class QaldProcess implements PropertyNotation, DirectoryLocation, MenuOptions {
+public class QaldProcess implements PropertyNotation, DirectoryLocation, MenuOptions,CsvConstants {
+   
 
-    //Qald qaldMain = new Qald(POSTAGS, qald9Dir, trainingJson);
-    private static Map<String, Unit> qaldDic = new TreeMap<String, Unit>();
-    private static String WORD = "word";
-    private static String POS = "pos";
-    private static String ID = "id";
-    private static String PROPERTY = "property";
-    private static String OBJECT = "object";
-    private static String QUESTION = "question";
-    private static String SPARQL = "sparql";
-    private static String[] qaldHeader = {WORD, ID, PROPERTY, OBJECT, QUESTION,SPARQL};
 
     public static void main(String[] args) throws IOException, Exception {
         String directory = qald9Dir + GOLD;
         Map<String, CsvFile> posCsv = qald(directory);
-        for (String posTag : posCsv.keySet()) {
-            CsvFile csv = posCsv.get(posTag);
-            Map<String, Unit> qald = csv.getQaldFromCsv();
-        }
     }
 
     private static Map<String, CsvFile> qald(String directory) throws IOException {
@@ -93,11 +80,11 @@ public class QaldProcess implements PropertyNotation, DirectoryLocation, MenuOpt
         for (String posTag : Analyzer.POSTAGS) {
             try {
                 File jsonQaldFile = FileFolderUtils.getQaldJsonFile(qald9Dir + GOLD, OBJECT, posTag);
-                qaldDic = FileFolderUtils.getQald(jsonQaldFile);
-                List<String[]> csvData = CsvFile.createCsvDataSimple(qaldHeader, qaldDic, posTag);
+                Map<String, Unit> qaldDic = FileFolderUtils.getQald(jsonQaldFile);
+                List<String[]> csvData = CsvFile.createCsvQaldData(qaldHeader,qaldDic, posTag);
                 String fileName = FileFolderUtils.getQaldFile(directory, OBJECT, posTag);
                 fileName = fileName.replace(".json", "") + ".csv";
-                System.out.println("fileName:"+fileName);
+                System.out.println("fileName:" + fileName);
                 CsvFile csv = new CsvFile(fileName);
                 csv.writeToCSV(csvData);
                 posCsv.put(posTag, csv);
@@ -107,7 +94,20 @@ public class QaldProcess implements PropertyNotation, DirectoryLocation, MenuOpt
         }
         return posCsv;
     }
-    
-    
+
+    @Override
+    public String getFilename() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public String[] getQaldHeader() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Map<String, List<String[]>> getRow() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 
 }

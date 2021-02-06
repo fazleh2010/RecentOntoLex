@@ -100,10 +100,10 @@ public class EvaluationMainTest implements ThresoldConstants {
     }
 
     public static void main(String[] args) throws Exception {
-        Integer createFiles=1;
-        Integer evaluate=2;
-        Integer menu=2;
-        
+        Integer createFiles = 1;
+        Integer evaluate = 2;
+        Integer menu = 2;
+
         String directory = qald9Dir + OBJECT + "/";
         String inputDir = dbpediaDir + "results/" + "new/test/";
         EvaluationMainTest evaluationMainTest = new EvaluationMainTest();
@@ -120,12 +120,12 @@ public class EvaluationMainTest implements ThresoldConstants {
         } else {
             FileFolderUtils.createDirectory(predict_l_for_s_given_po_dic);
         }
-     
-        
-        if(menu==createFiles)
-           createEvalutionFiles(inputDir,predict_l_for_s_given_po_dic, associationRulesExperiment);
-        else if(menu==evaluate)
-           calculateMeanReciprocal(predict_l_for_s_given_po_dic, predict_l_for_s_given_po_meanR);
+
+        if (menu == createFiles) {
+            createEvalutionFiles(inputDir, predict_l_for_s_given_po_dic, associationRulesExperiment);
+        } else if (menu == evaluate) {
+            calculateMeanReciprocal(predict_l_for_s_given_po_dic, predict_l_for_s_given_po_meanR);
+        }
 
         //Calculate mean reciprocal 
         //calculateMeanReciprocal(predict_l_for_s_given_po_dic, predict_l_for_s_given_po_meanR);
@@ -136,6 +136,7 @@ public class EvaluationMainTest implements ThresoldConstants {
             if (!prediction.contains(predict_l_for_s_given_po)) {
                 continue;
             }
+            Map<String,Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult = new TreeMap<String,Map<String, Map<String, MeanReciprocalCalculation>>>();
             for (String interestingness : allInterestingness.keySet()) {
                 if (!interestingness.contains(ThresoldConstants.Cosine)) {
                     continue;
@@ -144,31 +145,42 @@ public class EvaluationMainTest implements ThresoldConstants {
                 LOGGER.log(Level.INFO, "and interesingness measure::" + interestingness);
 
                 ThresoldsExperiment thresoldsExperiment = allInterestingness.get(interestingness);
-                Map<String, Map<String, MeanReciprocalCalculation>> expeResult = new TreeMap<String, Map<String, MeanReciprocalCalculation>>();
+                Map<String, Map<String, MeanReciprocalCalculation>>expeResult = new TreeMap<String, Map<String, MeanReciprocalCalculation>>();
 
                 adjectives = new ArrayList<MeanReciprocalCalculation>();
                 verbs = new ArrayList<MeanReciprocalCalculation>();
                 nouns = new ArrayList<MeanReciprocalCalculation>();
 
                 for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
-                    List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, interestingness, experiment, ".json").getValue1();
-
-                    Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(experiment, directory, expFileList);
+                    System.out.println("experiment:"+experiment);
+                    /*List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, interestingness, experiment, ".json").getValue1();
+                    Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(interestingness,experiment, directory, expFileList);
                     if (!meanReciprocalsPos.isEmpty()) {
                         expeResult.put(experiment, meanReciprocalsPos);
-                    }
+                    }*/
                 }
-                setTopMeanReciprocal(outputDir, prediction, interestingness);
-                String outputFileName = outputDir + interestingness + "-VB-NN-JJ-" + prediction + "MeanR" + ".json";
-                FileFolderUtils.writeExperMeanResultsToJsonFile(expeResult, outputFileName);
+                System.out.println("expeResult:"+expeResult.toString());
+                ruleExpeResult.put(interestingness, expeResult);
+                /*setTopMeanReciprocal(outputDir, prediction, interestingness);
+                String outputFileName = outputDir + interestingness + "-VB-NN-JJ-" + prediction + "MeanR" + ".csv";
+                CsvFile csvFile = new CsvFile(outputFileName);
+                System.out.println("outputFileName:" + outputFileName);
+                csvFile.createCsvExperimentData(CsvConstants.experimentHeader, expeResult);*/
+                //FileFolderUtils.writeExperMeanResultsToJsonFile(expeResult, outputFileName);
             }
+                String outputFileName = outputDir + "-VB-NN-JJ-" + prediction + "MeanR" + ".csv";
+                CsvFile csvFile = new CsvFile(outputFileName);
+                System.out.println("outputFileName:" + outputFileName);
+                csvFile.createCsvExperimentData(ruleExpeResult);
+                //FileFolderUtils.writeExperMeanResultsToJsonFile(expeResult, outputFileName);
 
         }
     }
 
-    private static Map<String, MeanReciprocalCalculation> meanReciprocalValues(String experiment, String directory, List<File> fileList) throws IOException {
+    private static Map<String, MeanReciprocalCalculation> meanReciprocalValues(String interestiness,String experiment, String directory, List<File> fileList) throws IOException {
         Map<String, MeanReciprocalCalculation> meanReciprocals = new TreeMap<String, MeanReciprocalCalculation>();
         for (String posTag : Analyzer.POSTAGS) {
+           
             try {
                 File file = getFile(posTag, fileList);
                 String fileName = file.getName().replace(".json", "");
@@ -182,9 +194,9 @@ public class EvaluationMainTest implements ThresoldConstants {
                 LOGGER.log(Level.INFO, "take corresponsding qald-9 file " + qaldFile.getFilename());
                 LOGGER.log(Level.INFO, "parts-of-speech: " + posTag);
 
-                Comparision comparision = new Comparision(qaldFile, conditionalFile, posTag, LOGGER);
-                comparision.compersionsPattern(experiment);
+                Comparision comparision = new Comparision(qaldFile, conditionalFile, posTag, LOGGER, experiment, OBJECT);
                 MeanReciprocalCalculation meanReciprocalCalculation = comparision.getMeanReciprocalResult();
+
                 if (posTag.contains("JJ")) {
                     adjectives.add(meanReciprocalCalculation);
                 }
@@ -194,8 +206,8 @@ public class EvaluationMainTest implements ThresoldConstants {
                 if (posTag.contains("NN")) {
                     nouns.add(meanReciprocalCalculation);
                 }
-
-                meanReciprocals.put(posTag, comparision.getMeanReciprocalResult());
+                
+                meanReciprocals.put(interestiness+"-"+posTag, comparision.getMeanReciprocalResult());
 
             } catch (Exception exp) {
                 System.out.println("File not found!!");
@@ -205,18 +217,23 @@ public class EvaluationMainTest implements ThresoldConstants {
     }
 
     public static void setTopMeanReciprocal(String directory, String prediction, String associationRule) throws Exception {
-        Collections.sort(adjectives, new MeanReciprocalCalculation());
-        Collections.reverse(adjectives);
-        Collections.sort(nouns, new MeanReciprocalCalculation());
-        Collections.reverse(nouns);
-        Collections.sort(verbs, new MeanReciprocalCalculation());
-        Collections.reverse(verbs);
-        String outputFileName = directory + associationRule + "-" + "NN" + "-" + prediction + "-" + "MeanR" + ".json";
-        FileFolderUtils.writeMeanSortToJsonFile(nouns, outputFileName);
-        outputFileName = directory + associationRule + "-" + "JJ" + "-" + prediction + "-" + "MeanR" + ".json";
-        FileFolderUtils.writeMeanSortToJsonFile(adjectives, outputFileName);
-        outputFileName = directory + associationRule + "-" + "VB-" + "-" + prediction + "-" + "MeanR" + ".json";
-        FileFolderUtils.writeMeanSortToJsonFile(verbs, outputFileName);
+        String outputFileName = null;
+        if (!adjectives.isEmpty()) {
+            Collections.sort(adjectives, new MeanReciprocalCalculation());
+            Collections.reverse(adjectives);
+            outputFileName = directory + associationRule + "-" + "JJ" + "-" + prediction + "-" + "MeanR" + ".json";
+            FileFolderUtils.writeMeanSortToJsonFile(adjectives, outputFileName);
+        } else if (!nouns.isEmpty()) {
+            Collections.sort(nouns, new MeanReciprocalCalculation());
+            Collections.reverse(nouns);
+            outputFileName = directory + associationRule + "-" + "NN" + "-" + prediction + "-" + "MeanR" + ".json";
+            FileFolderUtils.writeMeanSortToJsonFile(nouns, outputFileName);
+        } else if (!verbs.isEmpty()) {
+            Collections.sort(verbs, new MeanReciprocalCalculation());
+            Collections.reverse(verbs);
+            outputFileName = directory + associationRule + "-" + "VB-" + "-" + prediction + "-" + "MeanR" + ".json";
+            FileFolderUtils.writeMeanSortToJsonFile(verbs, outputFileName);
+        }
 
     }
 
@@ -229,7 +246,7 @@ public class EvaluationMainTest implements ThresoldConstants {
         return associationRulesExperiment;
     }
 
-    private static void createEvalutionFiles(String rawFileDir,String classDir, Map<String, ThresoldsExperiment> associationRulesExperiment) throws Exception {
+    private static void createEvalutionFiles(String rawFileDir, String classDir, Map<String, ThresoldsExperiment> associationRulesExperiment) throws Exception {
         Map<String, Lexicon> associationRuleLex = new TreeMap<String, Lexicon>();
         for (String prediction : predicateRules) {
             if (prediction.contains(predict_l_for_s_given_po)) {

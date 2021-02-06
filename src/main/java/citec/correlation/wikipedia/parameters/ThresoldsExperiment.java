@@ -125,17 +125,16 @@ public class ThresoldsExperiment implements ThresoldConstants {
             return givenThresolds;
         }
 
-
         @Override
         public String toString() {
-            return  numRule+ "_"+rules+ "-"
+           return  numRule+ "_"+rules+ "-"
                    + supA+ "_"+givenThresolds.get(supA)+"-"
                    + supB+"_"+givenThresolds.get(supB)+"-"
                    + condAB+"_"+givenThresolds.get(condAB)+"-"
                    + condBA+"_"+givenThresolds.get(condBA)+"-"
                    + this.type+"_"+givenThresolds.get(type);
         }
-
+        
     }
 
 }

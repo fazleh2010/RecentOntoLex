@@ -37,11 +37,11 @@ public class MeanReciprocalCalculation implements Comparator{
     @JsonIgnore
     public static final boolean DESCENDING = false;
     @JsonProperty("MeanReciProcalRank")
-    private Double meanReciprocalRank=null;
+    private Double meanReciprocalRank=0.0;
     @JsonProperty("experiment")
     private String experiment=null;
     @JsonIgnore
-    private String meanReciprocalRankStr=null;
+    private String meanReciprocalRankStr="0.0";
     
   
     @JsonProperty("TotalPattern")

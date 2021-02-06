@@ -8,6 +8,7 @@ package citec.correlation.wikipedia.parameters;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
 
@@ -32,6 +33,8 @@ public interface ThresoldConstants {
     public static final String Cosine = "Cosine";
     public static final String Coherence = "Coherence";
     
+    public static final LinkedHashSet<String> interestingness = new LinkedHashSet(new ArrayList<String>(Arrays.asList(Cosine,Coherence,AllConf,MaxConf, IR, Kulczynski)));
+
    
     public static final String linguisticRule = "linguisticRule";
     public static final String kbRule = "linguisticRule";
@@ -56,6 +59,5 @@ public interface ThresoldConstants {
             predict_p_for_o_given_l,
             predict_po_for_s_given_l));
 
-    public static final LinkedHashSet<String> interestingness = new LinkedHashSet(new ArrayList<String>(Arrays.asList(Cosine,Coherence,AllConf,MaxConf, IR, Kulczynski)));
 
 }

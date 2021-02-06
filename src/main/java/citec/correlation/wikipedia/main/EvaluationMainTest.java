@@ -138,9 +138,9 @@ public class EvaluationMainTest implements ThresoldConstants {
             }
             Map<String,Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult = new TreeMap<String,Map<String, Map<String, MeanReciprocalCalculation>>>();
             for (String interestingness : allInterestingness.keySet()) {
-                if (!interestingness.contains(ThresoldConstants.Coherence)) {
+                /*if (!interestingness.contains(ThresoldConstants.Coherence)) {
                     continue;
-                }
+                }*/
                 LOGGER.log(Level.INFO, "evalution for association rule ::" + prediction);
                 LOGGER.log(Level.INFO, "and interesingness measure::" + interestingness);
 
@@ -157,21 +157,17 @@ public class EvaluationMainTest implements ThresoldConstants {
                     if (!meanReciprocalsPos.isEmpty()) {
                         expeResult.put(experiment, meanReciprocalsPos);
                     }
-                    break;
+                   
                 }
-                LOGGER.log(Level.INFO,interestingness+"  expeResult:"+expeResult.toString());
+                LOGGER.log(Level.INFO,interestingness+"  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+                LOGGER.log(Level.INFO,interestingness+"  expeResult:"+expeResult.size());
                 ruleExpeResult.put(interestingness, expeResult);
-                /*setTopMeanReciprocal(outputDir, prediction, interestingness);
-                String outputFileName = outputDir + interestingness + "-VB-NN-JJ-" + prediction + "MeanR" + ".csv";
-                CsvFile csvFile = new CsvFile(outputFileName);
-                System.out.println("outputFileName:" + outputFileName);
-                csvFile.createCsvExperimentData(CsvConstants.experimentHeader, expeResult);*/
-                //FileFolderUtils.writeExperMeanResultsToJsonFile(expeResult, outputFileName);
+              
             }
                 String outputFileName = outputDir + "-VB-NN-JJ-" + prediction + "MeanR" + ".csv";
-                CsvFile csvFile = new CsvFile(outputFileName);
+                CsvFile csvFile = new CsvFile(outputFileName,LOGGER);
                 System.out.println("outputFileName:" + outputFileName);
-                //csvFile.createCsvExperimentData(ruleExpeResult);
+                csvFile.createCsvExperimentData(ruleExpeResult);
                 //FileFolderUtils.writeExperMeanResultsToJsonFile(expeResult, outputFileName);
 
         }

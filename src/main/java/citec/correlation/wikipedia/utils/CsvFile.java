@@ -30,19 +30,21 @@ import java.util.logging.Logger;
 public class CsvFile implements CsvConstants {
 
     private String filename = null;
-    public String[] qaldHeader =null;
+    public String[] qaldHeader = null;
     private Map<String, List<String[]>> wordRows = new TreeMap<String, List<String[]>>();
-    
+
     private List<String[]> rows = new ArrayList<String[]>();
+    private Logger LOGGER = null;
+
+    public CsvFile(String filename, Logger LOGGER) {
+        this.filename = filename;
+        this.LOGGER = LOGGER;
+    }
 
     public CsvFile(String filename) {
         this.filename = filename;
-    }
-
-    public CsvFile() {
 
     }
-    
 
     public static List<String[]> createCsvQaldData(String[] qaldHeader, Map<String, Unit> qaldDic, String posTag) {
         List<String[]> csvData = new ArrayList<String[]>();
@@ -70,7 +72,7 @@ public class CsvFile implements CsvConstants {
         }
         return csvData;
     }
-    
+
     public void createCsvExperimentData(Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult) {
         List<String[]> csvData = new ArrayList<String[]>();
         String[] header = new String[20];
@@ -87,7 +89,8 @@ public class CsvFile implements CsvConstants {
             }
         }
         csvData.add(header);
-      
+        LOGGER.log(Level.INFO, "creating header of the file!!");
+
         Map<String, Map<String, String>> experimentPosResults = new TreeMap<String, Map<String, String>>();
         for (String rule : ruleExpeResult.keySet()) {
             Map<String, Map<String, MeanReciprocalCalculation>> ruleResult = ruleExpeResult.get(rule);
@@ -96,33 +99,34 @@ public class CsvFile implements CsvConstants {
                 Map<String, String> posResults = new TreeMap<String, String>();
                 for (String postag : parts_of_speech.keySet()) {
                     String mean = parts_of_speech.get(postag).getMeanReciprocalRankStr();
-                    posResults.put(rule + "-" + postag, mean);
+                    posResults.put(postag, mean);
                 }
                 experimentPosResults.put(experiment, posResults);
-                System.out.println("experiment:"+experiment);
-                System.out.println("posResults:"+posResults);
             }
         }
-        
-            /*  for (String experiment : experimentPosResults.keySet()) {
+
+        for (String experiment : experimentPosResults.keySet()) {
             String[] record = new String[20];
             record[0] = experiment;
+            record[19] = "result";
             Map<String, String> parts_of_speech = experimentPosResults.get(experiment);
+            System.out.println("parts_of_speech:"+parts_of_speech);
             for (String element : parts_of_speech.keySet()) {
                 String value = parts_of_speech.get(element);
+                System.out.println("element:"+element+" value:"+value);
                 if (interestingnessIndexes.containsKey(element)) {
                     Integer elmentIndex = interestingnessIndexes.get(element);
                     record[elmentIndex] = value;
                 }
             }
             csvData.add(record);
-        }*/
-       writeToCSV(csvData);
+        }
+        writeToCSV(csvData);
     }
 
     public void writeToCSV(List<String[]> csvData) {
         if (csvData.isEmpty()) {
-            System.out.println("writing csv file failed!!!" );
+            System.out.println("writing csv file failed!!!");
             return;
         }
         try ( CSVWriter writer = new CSVWriter(new FileWriter(this.filename))) {
@@ -163,8 +167,6 @@ public class CsvFile implements CsvConstants {
         return kbs;
     }
 
-  
-
     public String getFilename() {
         return filename;
     }
@@ -185,7 +187,7 @@ public class CsvFile implements CsvConstants {
         Map<String, Integer> interestingnessIndexes = new HashMap<String, Integer>();
         for (String rule : interestingness) {
             for (String posTag : Analyzer.POSTAGS) {
-                String key=rule + "-" + posTag;
+                String key = rule + "-" + posTag;
                 qaldHeader[index] = rule + "-" + posTag;
                 interestingnessIndexes.put(key, index);
                 index = index + 1;
@@ -193,7 +195,5 @@ public class CsvFile implements CsvConstants {
         }
         return qaldHeader;
     }
-
-   
 
 }

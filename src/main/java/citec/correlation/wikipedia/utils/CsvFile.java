@@ -95,7 +95,6 @@ public class CsvFile implements CsvConstants {
                 Map<String, String> posResults = new TreeMap<String, String>();
                 for (String postag : parts_of_speech.keySet()) {
                     String mean = parts_of_speech.get(postag).getMeanReciprocalRankStr();
-                    mean =postag;
                     posResults.put(postag, mean);
                 }
                 Map<String, String> temp =new HashMap<String,String>();

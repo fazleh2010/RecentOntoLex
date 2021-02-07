@@ -167,7 +167,7 @@ public class EvaluationMainTest implements ThresoldConstants {
                 String outputFileName = outputDir + "-VB-NN-JJ-" + prediction + "MeanR" + ".csv";
                 CsvFile csvFile = new CsvFile(outputFileName,LOGGER);
                 System.out.println("outputFileName:" + outputFileName);
-                csvFile.createCsvExperimentData(ruleExpeResult);
+                 csvFile.createCsvExperimentData(ruleExpeResult);
                 //FileFolderUtils.writeExperMeanResultsToJsonFile(expeResult, outputFileName);
 
         }
@@ -202,8 +202,13 @@ public class EvaluationMainTest implements ThresoldConstants {
                 if (posTag.contains("NN")) {
                     nouns.add(meanReciprocalCalculation);
                 }
-                
-                meanReciprocals.put(interestiness+"-"+posTag, comparision.getMeanReciprocalResult());
+                //String key=this.getInterestingnessThresold(experiment,interestiness);
+                //String str=experiment.replace(interestiness, experiment);
+            
+                System.out.println("experiment:" + experiment);
+                String key = getInterestingnessThresold(experiment, interestiness) + "-" + posTag;   
+                System.out.println("key:" + key);
+                meanReciprocals.put(key, comparision.getMeanReciprocalResult());
 
             } catch (Exception exp) {
                 System.out.println("File not found!!");
@@ -211,6 +216,17 @@ public class EvaluationMainTest implements ThresoldConstants {
         }
         return meanReciprocals;
     }
+    
+     public static String getInterestingnessThresold(String experiment,String interestingness) {
+        String []info=experiment.split("-");
+        String str=null;
+        for(Integer index=0; info.length>index;index++){
+          str=info[index];
+        }
+        
+         return str;
+    }
+
 
     public static void setTopMeanReciprocal(String directory, String prediction, String associationRule) throws Exception {
         String outputFileName = null;
@@ -403,5 +419,7 @@ public class EvaluationMainTest implements ThresoldConstants {
         }
         return parameters;
     }
+
+   
 
 }

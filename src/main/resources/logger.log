@@ -7,6 +7,21 @@ INFO::evalution for association rule ::predict_l_for_s_given_po
 INFO::and interesingness measure::Coherence
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001
+INFO::take lexicon seperated by parts of speech: NN-1-Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001.json
+INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
+INFO::parts-of-speech: NN
+INFO::no linguistic pattern matched between lexicon and qald-9
+FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+INFO::experiment::Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001
+INFO::postag::NN
+INFO::meanReciprocalRank value::0.000000000000
+INFO::Lexicon size::3019
+INFO::number of pattern matched with Qald-9::0
+INFO::detail of matched pattern::{}
+INFO::number of pattern DOES NOT match with Qald-9::::3019
+FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+INFO::calculating mean reciprocal for Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001
 INFO::take lexicon seperated by parts of speech: JJ-1-Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//JJ-object-qald9.csv
 INFO::parts-of-speech: JJ
@@ -36,13 +51,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::114
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001
-INFO::take lexicon seperated by parts of speech: NN-1-Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001.json
+INFO::calculating mean reciprocal for Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.045
+INFO::take lexicon seperated by parts of speech: NN-2-Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001
+INFO::experiment::Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::3019
@@ -81,13 +96,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::114
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.045
-INFO::take lexicon seperated by parts of speech: NN-2-Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.045.json
+INFO::calculating mean reciprocal for Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Coherence_0.001
+INFO::take lexicon seperated by parts of speech: NN-5-Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Coherence_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.045
+INFO::experiment::Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Coherence_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::3019
@@ -126,13 +141,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::114
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Coherence_0.001
-INFO::take lexicon seperated by parts of speech: NN-5-Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Coherence_0.001.json
+INFO::calculating mean reciprocal for Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Coherence_0.045
+INFO::take lexicon seperated by parts of speech: NN-6-Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Coherence_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Coherence_0.001
+INFO::experiment::Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Coherence_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::3019
@@ -170,25 +185,25 @@ INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::114
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Coherence_0.045
-INFO::take lexicon seperated by parts of speech: NN-6-Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Coherence_0.045.json
-INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
-INFO::parts-of-speech: NN
-INFO::no linguistic pattern matched between lexicon and qald-9
-FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Coherence_0.045
-INFO::postag::NN
-INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::3019
-INFO::number of pattern matched with Qald-9::0
-INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::3019
-FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::Coherence  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 INFO::Coherence  expeResult:4
 INFO::evalution for association rule ::predict_l_for_s_given_po
 INFO::and interesingness measure::Cosine
+INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-1-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001.json
+INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
+INFO::parts-of-speech: NN
+INFO::no linguistic pattern matched between lexicon and qald-9
+FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001
+INFO::postag::NN
+INFO::meanReciprocalRank value::0.000000000000
+INFO::Lexicon size::3020
+INFO::number of pattern matched with Qald-9::0
+INFO::detail of matched pattern::{}
+INFO::number of pattern DOES NOT match with Qald-9::::3020
+FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001
 INFO::take lexicon seperated by parts of speech: JJ-1-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001.json
@@ -220,13 +235,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::114
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-1-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-2-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::3020
@@ -265,19 +280,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::114
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-2-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-3-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::3020
+INFO::Lexicon size::2978
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::3020
+INFO::number of pattern DOES NOT match with Qald-9::::2978
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.5
@@ -310,19 +325,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::111
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-3-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-4-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::2978
+INFO::Lexicon size::2471
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::2978
+INFO::number of pattern DOES NOT match with Qald-9::::2471
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.9
@@ -355,19 +370,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::82
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-4-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-5-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::2471
+INFO::Lexicon size::3020
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::2471
+INFO::number of pattern DOES NOT match with Qald-9::::3020
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.001
@@ -400,13 +415,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::114
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-5-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-6-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::3020
@@ -445,19 +460,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::114
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-6-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-7-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::3020
+INFO::Lexicon size::2978
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::3020
+INFO::number of pattern DOES NOT match with Qald-9::::2978
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.5
@@ -490,19 +505,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::111
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-7-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-8-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::2978
+INFO::Lexicon size::2471
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::2978
+INFO::number of pattern DOES NOT match with Qald-9::::2471
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.9
@@ -535,19 +550,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::82
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-8-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-9-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::2471
+INFO::Lexicon size::2504
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::2471
+INFO::number of pattern DOES NOT match with Qald-9::::2504
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.001
@@ -580,13 +595,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::82
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-9-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-10-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::2504
@@ -625,13 +640,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::82
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-10-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-11-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::2504
@@ -670,19 +685,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::82
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-11-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-12-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::2504
+INFO::Lexicon size::2471
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::2504
+INFO::number of pattern DOES NOT match with Qald-9::::2471
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.9
@@ -715,19 +730,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::82
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-12-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-13-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::2471
+INFO::Lexicon size::2504
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::2471
+INFO::number of pattern DOES NOT match with Qald-9::::2504
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.001
@@ -760,13 +775,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::82
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-13-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-14-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::2504
@@ -805,13 +820,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::82
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-14-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-15-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::2504
@@ -850,19 +865,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::82
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-15-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-16-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::2504
+INFO::Lexicon size::2471
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::2504
+INFO::number of pattern DOES NOT match with Qald-9::::2471
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.9
@@ -895,19 +910,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::82
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-16-Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-17-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::2471
+INFO::Lexicon size::1452
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::2471
+INFO::number of pattern DOES NOT match with Qald-9::::1452
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.001
@@ -940,13 +955,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::62
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-17-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-18-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::1452
@@ -985,19 +1000,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::62
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-18-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-19-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::1452
+INFO::Lexicon size::1404
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::1452
+INFO::number of pattern DOES NOT match with Qald-9::::1404
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.5
@@ -1030,19 +1045,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::58
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-19-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-20-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::1404
+INFO::Lexicon size::977
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::1404
+INFO::number of pattern DOES NOT match with Qald-9::::977
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.9
@@ -1075,19 +1090,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::34
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-20-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-21-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::977
+INFO::Lexicon size::1452
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::977
+INFO::number of pattern DOES NOT match with Qald-9::::1452
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.001
@@ -1120,13 +1135,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::62
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-21-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-22-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::1452
@@ -1165,19 +1180,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::62
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-22-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-23-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::1452
+INFO::Lexicon size::1404
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::1452
+INFO::number of pattern DOES NOT match with Qald-9::::1404
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.5
@@ -1210,19 +1225,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::58
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-23-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-24-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::1404
+INFO::Lexicon size::977
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::1404
+INFO::number of pattern DOES NOT match with Qald-9::::977
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9
@@ -1255,19 +1270,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::34
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-24-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-25-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::977
+INFO::Lexicon size::991
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::977
+INFO::number of pattern DOES NOT match with Qald-9::::991
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.001
@@ -1300,13 +1315,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::34
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-25-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-26-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::991
@@ -1345,13 +1360,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::34
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-26-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-27-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::991
@@ -1390,19 +1405,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::34
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-27-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-28-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::991
+INFO::Lexicon size::977
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::991
+INFO::number of pattern DOES NOT match with Qald-9::::977
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.9
@@ -1435,19 +1450,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::34
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-28-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-29-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::977
+INFO::Lexicon size::991
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::977
+INFO::number of pattern DOES NOT match with Qald-9::::991
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.001
@@ -1480,13 +1495,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::34
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-29-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-30-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::991
@@ -1525,13 +1540,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::34
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-30-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-31-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::991
@@ -1570,19 +1585,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::34
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-31-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-32-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::991
+INFO::Lexicon size::977
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::991
+INFO::number of pattern DOES NOT match with Qald-9::::977
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.9
@@ -1615,19 +1630,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::34
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-32-Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-33-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::977
+INFO::Lexicon size::426
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::977
+INFO::number of pattern DOES NOT match with Qald-9::::426
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001
@@ -1660,13 +1675,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::19
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-33-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-34-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::426
@@ -1705,19 +1720,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::19
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-34-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-35-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::426
+INFO::Lexicon size::406
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::426
+INFO::number of pattern DOES NOT match with Qald-9::::406
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.5
@@ -1750,19 +1765,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::18
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-35-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-36-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::406
+INFO::Lexicon size::352
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::406
+INFO::number of pattern DOES NOT match with Qald-9::::352
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.9
@@ -1795,19 +1810,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-36-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-37-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.001-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::352
+INFO::Lexicon size::426
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::352
+INFO::number of pattern DOES NOT match with Qald-9::::426
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.001
@@ -1840,13 +1855,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::19
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-37-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-38-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::426
@@ -1885,19 +1900,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::19
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-38-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-39-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::426
+INFO::Lexicon size::406
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::426
+INFO::number of pattern DOES NOT match with Qald-9::::406
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.5
@@ -1930,19 +1945,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::18
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-39-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-40-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::406
+INFO::Lexicon size::352
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::406
+INFO::number of pattern DOES NOT match with Qald-9::::352
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.9
@@ -1975,19 +1990,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-40-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-41-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.1-condBA_0.8-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::352
+INFO::Lexicon size::356
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::352
+INFO::number of pattern DOES NOT match with Qald-9::::356
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.001
@@ -2020,13 +2035,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-41-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-42-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::356
@@ -2065,13 +2080,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-42-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-43-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::356
@@ -2110,19 +2125,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-43-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-44-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::356
+INFO::Lexicon size::352
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::356
+INFO::number of pattern DOES NOT match with Qald-9::::352
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.9
@@ -2155,19 +2170,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-44-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-45-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.001-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::352
+INFO::Lexicon size::356
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::352
+INFO::number of pattern DOES NOT match with Qald-9::::356
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.001
@@ -2200,13 +2215,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-45-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-46-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::356
@@ -2245,13 +2260,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-46-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-47-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::356
@@ -2290,19 +2305,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-47-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-48-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::356
+INFO::Lexicon size::352
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::356
+INFO::number of pattern DOES NOT match with Qald-9::::352
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.9
@@ -2335,19 +2350,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-48-Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-49-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_20.0-condAB_0.8-condBA_0.8-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::352
+INFO::Lexicon size::426
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::352
+INFO::number of pattern DOES NOT match with Qald-9::::426
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.001
@@ -2380,13 +2395,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::19
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-49-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-50-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::426
@@ -2425,19 +2440,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::19
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-50-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-51-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::426
+INFO::Lexicon size::406
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::426
+INFO::number of pattern DOES NOT match with Qald-9::::406
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.5
@@ -2470,19 +2485,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::18
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-51-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-52-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::406
+INFO::Lexicon size::352
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::406
+INFO::number of pattern DOES NOT match with Qald-9::::352
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.9
@@ -2515,19 +2530,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-52-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-53-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.001-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::352
+INFO::Lexicon size::426
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::352
+INFO::number of pattern DOES NOT match with Qald-9::::426
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.001
@@ -2560,13 +2575,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::19
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-53-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-54-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::426
@@ -2605,19 +2620,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::19
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-54-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-55-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::426
+INFO::Lexicon size::406
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::426
+INFO::number of pattern DOES NOT match with Qald-9::::406
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.5
@@ -2650,19 +2665,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::18
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-55-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-56-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::406
+INFO::Lexicon size::352
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::406
+INFO::number of pattern DOES NOT match with Qald-9::::352
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9
@@ -2695,19 +2710,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-56-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-57-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::352
+INFO::Lexicon size::356
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::352
+INFO::number of pattern DOES NOT match with Qald-9::::356
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.001
@@ -2740,13 +2755,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-57-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-58-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::356
@@ -2785,13 +2800,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-58-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-59-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::356
@@ -2830,19 +2845,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-59-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-60-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::356
+INFO::Lexicon size::352
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::356
+INFO::number of pattern DOES NOT match with Qald-9::::352
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.9
@@ -2875,19 +2890,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-60-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.9.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.001
+INFO::take lexicon seperated by parts of speech: NN-61-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.001.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.001-Cosine_0.9
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.001
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::352
+INFO::Lexicon size::356
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::352
+INFO::number of pattern DOES NOT match with Qald-9::::356
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.001
@@ -2920,13 +2935,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.001
-INFO::take lexicon seperated by parts of speech: NN-61-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.001.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.045
+INFO::take lexicon seperated by parts of speech: NN-62-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.045.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.001
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.045
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::356
@@ -2965,13 +2980,13 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.045
-INFO::take lexicon seperated by parts of speech: NN-62-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.045.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.5
+INFO::take lexicon seperated by parts of speech: NN-63-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.5.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.045
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.5
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
 INFO::Lexicon size::356
@@ -3010,19 +3025,19 @@ INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.5
-INFO::take lexicon seperated by parts of speech: NN-63-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.5.json
+INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.9
+INFO::take lexicon seperated by parts of speech: NN-64-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.9.json
 INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
 INFO::parts-of-speech: NN
 INFO::no linguistic pattern matched between lexicon and qald-9
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.5
+INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.9
 INFO::postag::NN
 INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::356
+INFO::Lexicon size::352
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::356
+INFO::number of pattern DOES NOT match with Qald-9::::352
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
 INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.9
@@ -3053,21 +3068,6 @@ INFO::Lexicon size::11
 INFO::number of pattern matched with Qald-9::0
 INFO::detail of matched pattern::{}
 INFO::number of pattern DOES NOT match with Qald-9::::11
-FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 
-INFO::calculating mean reciprocal for Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.9
-INFO::take lexicon seperated by parts of speech: NN-64-Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.9.json
-INFO::take corresponsding qald-9 file src/main/resources/qald9/data/gold//NN-object-qald9.csv
-INFO::parts-of-speech: NN
-INFO::no linguistic pattern matched between lexicon and qald-9
-FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-INFO::experiment::Cosine-numRule_1000-supA_200.0-supB_100.0-condAB_0.8-condBA_0.8-Cosine_0.9
-INFO::postag::NN
-INFO::meanReciprocalRank value::0.000000000000
-INFO::Lexicon size::352
-INFO::number of pattern matched with Qald-9::0
-INFO::detail of matched pattern::{}
-INFO::number of pattern DOES NOT match with Qald-9::::352
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::Cosine  !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 INFO::Cosine  expeResult:64

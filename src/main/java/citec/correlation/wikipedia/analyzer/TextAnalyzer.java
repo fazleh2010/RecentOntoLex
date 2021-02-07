@@ -28,7 +28,7 @@ public interface TextAnalyzer {
     public static final String NOUN = "NN";
     public static final String VERB = "VB";
     public static final String PRONOUN = "PRP";
-    public static final List<String> POSTAGS = new ArrayList<String>(Arrays.asList(ADJECTIVE,VERB,NOUN));
+    public static final List<String> POSTAGS = new ArrayList<String>(Arrays.asList(NOUN,ADJECTIVE,VERB));
     public static final Set<String> PRONOUNS = new HashSet<String>(Arrays.asList("he",
             "she"));
     

@@ -9,6 +9,7 @@ import citec.correlation.wikipedia.analyzer.Analyzer;
 import citec.correlation.wikipedia.dic.qald.Unit;
 import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
 import citec.correlation.wikipedia.main.CsvConstants;
+import citec.correlation.wikipedia.parameters.ThresoldsExperiment;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import com.opencsv.exceptions.CsvException;
@@ -32,6 +33,7 @@ public class CsvFile implements CsvConstants {
     private String filename = null;
     public String[] qaldHeader = null;
     private Map<String, List<String[]>> wordRows = new TreeMap<String, List<String[]>>();
+    private Map<String, Integer> interestingnessIndexes = new HashMap<String, Integer>();
 
     private List<String[]> rows = new ArrayList<String[]>();
     private Logger LOGGER = null;
@@ -74,41 +76,64 @@ public class CsvFile implements CsvConstants {
     }
 
     public void createCsvExperimentData(Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult) {
+      
+        ThresoldsExperiment thresoldsExperiment = new ThresoldsExperiment();
         List<String[]> csvData = new ArrayList<String[]>();
-        String[] header = new String[20];
-        header[0] = EXPERIMENT;
-        header[19] = EXPERIMENT_RESULT;
-        Integer index = 1;
-        Map<String, Integer> interestingnessIndexes = new HashMap<String, Integer>();
-        for (String rule : interestingness) {
-            for (String posTag : Analyzer.POSTAGS) {
-                String key = rule + "-" + posTag;
-                header[index] = rule + "-" + posTag;
-                interestingnessIndexes.put(key, index);
-                index = index + 1;
-            }
-        }
-        csvData.add(header);
+        Integer coulmnSize = (thresoldsExperiment.interestingness.size() * thresoldsExperiment.AllConfList.size() * POSTAGS.size()) + 1;        
+        csvData = this.setHeader(coulmnSize,thresoldsExperiment);
+        
         LOGGER.log(Level.INFO, "creating header of the file!!");
 
         Map<String, Map<String, String>> experimentPosResults = new TreeMap<String, Map<String, String>>();
         for (String rule : ruleExpeResult.keySet()) {
+          
             Map<String, Map<String, MeanReciprocalCalculation>> ruleResult = ruleExpeResult.get(rule);
             for (String experiment : ruleResult.keySet()) {
+                
                 Map<String, MeanReciprocalCalculation> parts_of_speech = ruleResult.get(experiment);
+                experiment=getExperiment(experiment,rule);
                 Map<String, String> posResults = new TreeMap<String, String>();
                 for (String postag : parts_of_speech.keySet()) {
                     String mean = parts_of_speech.get(postag).getMeanReciprocalRankStr();
+                    mean =postag;
                     posResults.put(postag, mean);
                 }
-                experimentPosResults.put(experiment, posResults);
+                Map<String, String> temp =new HashMap<String,String>();
+                if (experimentPosResults.containsKey(experiment)) {
+                    temp = experimentPosResults.get(experiment);
+                    temp.putAll(posResults);
+                    experimentPosResults.put(experiment, temp);
+                } else
+                    experimentPosResults.put(experiment, posResults);
             }
+            
         }
-
+        System.out.println("experimentPosResults:"+experimentPosResults);
+     
         for (String experiment : experimentPosResults.keySet()) {
-            String[] record = new String[20];
+            System.out.println("experiment:"+experiment);
+            String[] record = new String[coulmnSize];
             record[0] = experiment;
-            record[19] = "result";
+            //record[coulmnSize+1] = "result";
+            Map<String, String> parts_of_speech = experimentPosResults.get(experiment);
+            System.out.println("parts_of_speech:"+parts_of_speech);
+            for (String element : parts_of_speech.keySet()) {
+                String value = parts_of_speech.get(element);
+                if (interestingnessIndexes.containsKey(element)) {
+                    Integer elmentIndex = interestingnessIndexes.get(element);
+                    record[elmentIndex] = value;
+                    System.out.println("element:"+element+" value:"+value);
+
+                }
+            }
+            csvData.add(record);
+        }
+        
+
+        /*for (String experiment : experimentPosResults.keySet()) {
+            String[] record = new String[coulmnSize];
+            record[0] = experiment;
+            record[coulmnSize] = "result";
             Map<String, String> parts_of_speech = experimentPosResults.get(experiment);
             System.out.println("parts_of_speech:"+parts_of_speech);
             for (String element : parts_of_speech.keySet()) {
@@ -120,7 +145,8 @@ public class CsvFile implements CsvConstants {
                 }
             }
             csvData.add(record);
-        }
+        }*/
+        
         writeToCSV(csvData);
     }
 
@@ -195,5 +221,76 @@ public class CsvFile implements CsvConstants {
         }
         return qaldHeader;
     }
+    
+    public String getExperiment(String experiment, String interestingness) {
+        String[] info = experiment.split("-");
+        String str = null;
+        str = experiment.replace(interestingness + "-", "");
+        str = str.replace("-" + interestingness, ">");
+        return str.substring(0, str.indexOf(">"));
+    }
+    
+     public static void main(String []args) {
+        // "Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001";
+        String experiment = "Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9";
+        String interestingness = "Cosine";
+        String []info=experiment.split("-");
+        String str=null;
+        str=experiment.replace(interestingness+"-", "");
+        str=str.replace("-"+interestingness, ">");
+        System.out.println(str.substring(0, str.indexOf(">")));
+        /*for(Integer index=0; info.length>index;index++){
+          System.out.println("index:"+info[index]);
+          str=info[index];
+        }
+         str=str+ "-" + "JJ";
+         System.out.println("experiment:"+experiment);
+         System.out.println("str:"+str);*/
+    }
+    
+    public static String getInterestingnessThresold(String experiment, String interestingness) {
+        String[] info = experiment.split("-");
+        String str = null;
+        for (Integer index = 0; info.length > index; index++) {
+            str = info[index];
+        }
+
+        return str;
+    }
+
+    private List<String[]> setHeader(Integer coulmnSize, ThresoldsExperiment thresoldsExperiment) {
+        List<String[]> csvData = new ArrayList<String[]>();
+        String[] header = new String[coulmnSize];
+        String[] firstRowShow = new String[coulmnSize];
+        String[] secondRowShow = new String[coulmnSize];
+        String[] thirdRowShow = new String[coulmnSize];
+        header[0] = EXPERIMENT;
+        firstRowShow[0] = "Interestingness";
+        secondRowShow[0] = "Thresold";
+        thirdRowShow[0] = "Parts-of-speech";
+        Integer index = 1;
+
+        for (String rule : interestingness) {
+            List<Double> thresoldsRule = thresoldsExperiment.getInterestingness().get(rule);
+            for (Double value : thresoldsRule) {
+                for (String posTag : Analyzer.POSTAGS) {
+                    String coulmnStr = rule + "_" + value.toString() + "-" + posTag;
+                    header[index] = coulmnStr;
+                    firstRowShow[index] = rule;
+                    secondRowShow[index] = value.toString();
+                    thirdRowShow[index] = posTag;
+                    interestingnessIndexes.put(coulmnStr, index);
+                    index = index + 1;
+                }
+            }
+        }
+
+        csvData.add(firstRowShow);
+        csvData.add(secondRowShow);
+        csvData.add(thirdRowShow);
+        return csvData;
+    }
+
+  
 
 }

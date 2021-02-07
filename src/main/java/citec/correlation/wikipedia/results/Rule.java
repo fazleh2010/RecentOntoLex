@@ -31,6 +31,8 @@ public class Rule {
     private String patterntype = null;
     @JsonProperty("p")
     private String p = null;
+    @JsonProperty("o")
+    private String o = null;
     @JsonProperty("supB")
     private Double supB = null;
     @JsonProperty("supA")
@@ -94,6 +96,10 @@ public class Rule {
 
     public Interestingness getInterestingness() {
         return interestingness;
+    }
+
+    public String getO() {
+        return o;
     }
 
     @Override

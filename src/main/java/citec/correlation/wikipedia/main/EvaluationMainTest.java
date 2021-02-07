@@ -102,10 +102,10 @@ public class EvaluationMainTest implements ThresoldConstants {
     public static void main(String[] args) throws Exception {
         Integer createFiles = 1;
         Integer evaluate = 2;
-        Integer menu = 2;
+        Integer menu = 1;
 
         String directory = qald9Dir + OBJECT + "/";
-        String inputDir = dbpediaDir + "results/" + "new/test/";
+        String inputDir = dbpediaDir + "results/" + "new/MR/";
         EvaluationMainTest evaluationMainTest = new EvaluationMainTest();
 
         String predict_l_for_s_given_po_dic = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/predict_l_for_s_given_po/dic/";
@@ -132,7 +132,7 @@ public class EvaluationMainTest implements ThresoldConstants {
     }
 
     public static void calculateMeanReciprocal(String directory, String outputDir) throws IOException, Exception {
-        for (String prediction : predicateRules) {
+        for (String prediction : predictionRules) {
             if (!prediction.contains(predict_l_for_s_given_po)) {
                 continue;
             }
@@ -260,7 +260,7 @@ public class EvaluationMainTest implements ThresoldConstants {
 
     private static void createEvalutionFiles(String rawFileDir, String classDir, Map<String, ThresoldsExperiment> associationRulesExperiment) throws Exception {
         Map<String, Lexicon> associationRuleLex = new TreeMap<String, Lexicon>();
-        for (String prediction : predicateRules) {
+        for (String prediction : predictionRules) {
             if (prediction.contains(predict_l_for_s_given_po)) {
                 Lexicon lexicon = null;
                 for (String associationRule : interestingness) {

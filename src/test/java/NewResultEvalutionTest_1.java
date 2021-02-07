@@ -131,7 +131,7 @@ public class NewResultEvalutionTest_1 implements ThresoldConstants {
     
     public static void calculateMeanReci(String directory, Map<String, ThresoldsExperiment> associationRulesExperiment,Boolean perClassFlag) throws IOException, Exception {
         Integer index = 0;
-        for (String prediction : predicateRules) {
+        for (String prediction : predictionRules) {
             if (prediction.contains(predict_l_for_s_given_po)) {
                 for (String associationRule : associationRulesExperiment.keySet()) {
                     //associationRule = ThresoldConstants.Cosine;
@@ -190,7 +190,7 @@ public class NewResultEvalutionTest_1 implements ThresoldConstants {
 
     private static void createEvalutionFiles(String classDir,Map<String, ThresoldsExperiment> associationRulesExperiment,String className) throws Exception {
         Map<String, Lexicon> associationRuleLex = new TreeMap<String, Lexicon>();
-        for (String prediction : predicateRules) {
+        for (String prediction : predictionRules) {
             if (prediction.contains(predict_l_for_s_given_po)) {
                 Lexicon lexicon = null;
                 for (String associationRule : interestingness) {

@@ -49,7 +49,7 @@ public interface ThresoldConstants {
     public static final String predict_p_for_o_given_l = "predict_p_for_o_given_l";
     public static final String predict_po_for_s_given_l = "predict_po_for_s_given_l";
 
-    public static final List<String> predicateRules = new ArrayList<String>(Arrays.asList(
+    public static final List<String> predictionRules = new ArrayList<String>(Arrays.asList(
             predict_l_for_s_given_p,
             predict_l_for_s_given_o,
             predict_l_for_o_given_p,
@@ -58,6 +58,12 @@ public interface ThresoldConstants {
             predict_o_for_s_given_l,
             predict_p_for_o_given_l,
             predict_po_for_s_given_l));
+    
+     public static final List<String> predictionLinguisticRules = new ArrayList<String>(Arrays.asList(
+            predict_l_for_s_given_p,
+            predict_l_for_s_given_o,
+            predict_l_for_o_given_p,
+            predict_l_for_s_given_po));
 
 
 }

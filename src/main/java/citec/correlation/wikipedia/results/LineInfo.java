@@ -8,6 +8,7 @@ package citec.correlation.wikipedia.results;
 import citec.correlation.wikipedia.analyzer.Analyzer;
 import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
+import citec.correlation.wikipedia.parameters.ThresoldConstants;
 import com.google.common.collect.Sets;
 import java.util.Map;
 import java.util.Set;
@@ -22,7 +23,7 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class LineInfo {
+public class LineInfo implements ThresoldConstants{
 
     private String line = null;
     private String subject = null;
@@ -45,6 +46,31 @@ public class LineInfo {
     public LineInfo(){
         
     }
+    
+     
+    public LineInfo( String interestingness,Rule rule) throws Exception {
+        this.line = rule.getAs_string();
+        this.className = rule.getC();
+        this.subject = "e";
+        this.predicate = rule.getP();
+        this.object = rule.getO();
+        this.wordOriginal = rule.getL();
+        if (wordOriginal != null) {
+            this.validFlag = true;
+        }
+        String[] info = rule.getPatterntype().split("-");
+        this.nGramNumber = Integer.parseInt(info[0]);
+
+        if (this.validFlag) {
+            String str = this.processWords(this.wordOriginal);
+            this.getPosTag(str);
+            this.setRule();
+            this.setProbabilityValue(interestingness, rule);
+        }
+
+    }
+    
+    
     public LineInfo(String className, String line, Integer wordIndex, Integer kbIndex) throws Exception {
         this.line = line;
         this.className = className;
@@ -137,6 +163,26 @@ public class LineInfo {
             Pair<String, String> pair = this.setValue(info[i]);
             double dnum = Double.parseDouble(pair.getValue1());
             this.probabilityValue.put(pair.getValue0(), dnum);
+        }
+    }
+    
+    private void setProbabilityValue(String interestingness, Rule rule) {
+        this.probabilityValue.put(supA, rule.getSupA());
+        this.probabilityValue.put(supB, rule.getSupB());
+        this.probabilityValue.put(condAB, rule.getCondAB());
+        this.probabilityValue.put(condBA, rule.getCondBA());
+        if (interestingness.contains(AllConf)) {
+            this.probabilityValue.put(AllConf, rule.getInterestingness().getAllConf());
+        } else if (interestingness.contains(Cosine)) {
+            this.probabilityValue.put(Cosine, rule.getInterestingness().getCosine());
+        } else if (interestingness.contains(Coherence)) {
+            this.probabilityValue.put(Coherence, rule.getInterestingness().getCoherence());
+        } else if (interestingness.contains(Kulczynski)) {
+            this.probabilityValue.put(Kulczynski, rule.getInterestingness().getKulczynski());
+        } else if (interestingness.contains(MaxConf)) {
+            this.probabilityValue.put(MaxConf, rule.getInterestingness().getMaxConf());
+        } else if (interestingness.contains(IR)) {
+            this.probabilityValue.put(IR, rule.getInterestingness().getIR());
         }
     }
 
@@ -284,8 +330,10 @@ public class LineInfo {
     @Override
     public String toString() {
         String line = this.line + "\n";
-        return "LineInfo{" + "line=" + line + ", subject=" + subject + ", predicate=" + predicate + ", object=" + object + ", rule=" + rule + ", word=" + word + ", probabilityValue=" + probabilityValue + '}';
+        return "LineInfo{" + subject + ", predicate=" + predicate + ", object=" + object + ", word=" + word + ", probabilityValue=" + probabilityValue + '}';
     }
+
+   
 
     
 

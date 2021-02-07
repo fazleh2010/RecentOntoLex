@@ -1,0 +1,345 @@
+[ {
+  "id" : 1,
+  "pattern" : "album",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Sony_Music>", "Coherence=0.114035087719298", "triple=e property/label <http://dbpedia.org/resource/Sony_Music>", "class=Album" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Ohio>", "Coherence=0.416666666666667", "triple=e ontology/birthPlace <http://dbpedia.org/resource/Ohio>", "class=Artist" ],
+    "1" : [ "pair=<http://dbpedia.org/resource/Swing_music>", "Coherence=0.184615384615385", "triple=e property/genre <http://dbpedia.org/resource/Swing_music>", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "archaeologist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Archaeology>", "Coherence=0.290909090909091", "triple=e property/field <http://dbpedia.org/resource/Archaeology>", "class=Scientist" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "assembly",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Member_of_Provincial_Parliament_(Canada)>", "Coherence=0.127659574468085", "triple=e property/office <http://dbpedia.org/resource/Member_of_Provincial_Parliament_(Canada)>", "class=Politician" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "atomic number",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "Coherence=0.436619718309859", "triple=e property/containerOnly \"yes\"@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"no\"@en", "Coherence=0.333333333333333", "triple=e property/landscape \"no\"@en", "class=Band" ],
+    "1" : [ "pair=<http://dbpedia.org/resource/Colorado>", "Coherence=0.333333333333333", "triple=e ontology/hometown <http://dbpedia.org/resource/Colorado>", "class=Band" ],
+    "2" : [ "pair=<http://dbpedia.org/resource/Screamo>", "Coherence=0.317073170731707", "triple=e ontology/genre <http://dbpedia.org/resource/Screamo>", "class=Band" ],
+    "3" : [ "pair=<http://dbpedia.org/resource/Crossover_thrash>", "Coherence=0.288888888888889", "triple=e ontology/genre <http://dbpedia.org/resource/Crossover_thrash>", "class=Band" ],
+    "4" : [ "pair=\"hard rock\"@en", "Coherence=0.2", "triple=e property/genre \"hard rock\"@en", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "bass",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Double_bass>", "Coherence=0.17910447761194", "triple=e property/instrument <http://dbpedia.org/resource/Double_bass>", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "biathlete",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Biathlon>", "Coherence=0.176470588235294", "triple=e property/sport <http://dbpedia.org/resource/Biathlon>", "class=Athlete" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "company",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Chief_financial_officer>", "Coherence=0.171428571428571", "triple=e ontology/keyPerson <http://dbpedia.org/resource/Chief_financial_officer>", "class=Company" ],
+    "1" : [ "pair=\"\"@en", "Coherence=0.160377358490566", "triple=e property/tradedAs \"\"@en", "class=Company" ],
+    "2" : [ "pair=<http://dbpedia.org/resource/Division_(business)>", "Coherence=0.153846153846154", "triple=e property/type <http://dbpedia.org/resource/Division_(business)>", "class=Company" ],
+    "3" : [ "pair=<http://dbpedia.org/resource/Entertainment>", "Coherence=0.153846153846154", "triple=e property/industry <http://dbpedia.org/resource/Entertainment>", "class=Company" ],
+    "4" : [ "pair=<http://dbpedia.org/resource/Limited_liability_company>", "Coherence=0.151162790697674", "triple=e ontology/type <http://dbpedia.org/resource/Limited_liability_company>", "class=Company" ],
+    "5" : [ "pair=<http://dbpedia.org/resource/Chief_operating_officer>", "Coherence=0.150684931506849", "triple=e ontology/keyPerson <http://dbpedia.org/resource/Chief_operating_officer>", "class=Company" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "district",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Senator\"@en", "Coherence=0.311111111111111", "triple=e property/leaderTitle \"Senator\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "element",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "Coherence=0.436619718309859", "triple=e property/containerOnly \"yes\"@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "film",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Track list\"@en", "Coherence=0.144736842105263", "triple=e property/headline \"Track list\"@en", "class=Film" ],
+    "1" : [ "pair=\"Malayalam\"@en", "Coherence=0.118421052631579", "triple=e property/language \"Malayalam\"@en", "class=Film" ],
+    "2" : [ "pair=\"6240.0\"^^<http://dbpedia.org/datatype/second>", "Coherence=0.115384615384615", "triple=e property/runtime \"6240.0\"^^<http://dbpedia.org/datatype/second>", "class=Film" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Catalonia, Spain\"@en", "Coherence=0.425", "triple=e property/ground \"Catalonia, Spain\"@en", "class=SoccerClub" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "gene",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"left\"@en", "Coherence=0.428571428571429", "triple=e property/align \"left\"@en", "class=HumanGene" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "historic places",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Utah\"@en", "Coherence=0.24", "triple=e property/locmapin \"Utah\"@en", "class=Building" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "india",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Karnataka>", "Coherence=0.333333333333333", "triple=e property/state <http://dbpedia.org/resource/Karnataka>", "class=School" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "legislative assembly",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Member_of_Provincial_Parliament_(Canada)>", "Coherence=0.127659574468085", "triple=e property/office <http://dbpedia.org/resource/Member_of_Provincial_Parliament_(Canada)>", "class=Politician" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "legislative assembly\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Member_of_Provincial_Parliament_(Canada)>", "Coherence=0.127659574468085", "triple=e property/office <http://dbpedia.org/resource/Member_of_Provincial_Parliament_(Canada)>", "class=Politician" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "legislative assembly\u001Cof\u001Contario",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Member_of_Provincial_Parliament_(Canada)>", "Coherence=0.127659574468085", "triple=e property/office <http://dbpedia.org/resource/Member_of_Provincial_Parliament_(Canada)>", "class=Politician" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "legislative assembly of\u001Contario",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Member_of_Provincial_Parliament_(Canada)>", "Coherence=0.127659574468085", "triple=e property/office <http://dbpedia.org/resource/Member_of_Provincial_Parliament_(Canada)>", "class=Politician" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "listed the\u001Cnational",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Utah\"@en", "Coherence=0.24", "triple=e property/locmapin \"Utah\"@en", "class=Building" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "national",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Utah\"@en", "Coherence=0.24", "triple=e property/locmapin \"Utah\"@en", "class=Building" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "national register",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Utah\"@en", "Coherence=0.24", "triple=e property/locmapin \"Utah\"@en", "class=Building" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "national register\u001Cof\u001Chistoric",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Utah\"@en", "Coherence=0.24", "triple=e property/locmapin \"Utah\"@en", "class=Building" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "navy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"date unknown\"@en", "Coherence=0.34375", "triple=e property/shipLaunched \"date unknown\"@en", "class=Ship" ],
+    "1" : [ "pair=\"fate unknown\"", "Coherence=0.319148936170213", "triple=e ontology/status \"fate unknown\"", "class=Ship" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "olympics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Biathlon>", "Coherence=0.176470588235294", "triple=e property/sport <http://dbpedia.org/resource/Biathlon>", "class=Athlete" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "ontario",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Member_of_Provincial_Parliament_(Canada)>", "Coherence=0.127659574468085", "triple=e property/office <http://dbpedia.org/resource/Member_of_Provincial_Parliament_(Canada)>", "class=Politician" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "party",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/COPPPAL>", "Coherence=0.5", "triple=e property/regional <http://dbpedia.org/resource/COPPPAL>", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "puget",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Puget_Sound>", "Coherence=0.333333333333333", "triple=e property/shipRoute <http://dbpedia.org/resource/Puget_Sound>", "class=Ship" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "puget sound",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Puget_Sound>", "Coherence=0.333333333333333", "triple=e property/shipRoute <http://dbpedia.org/resource/Puget_Sound>", "class=Ship" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "radio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"1470.0\"^^<http://dbpedia.org/datatype/kilohertz>", "Coherence=0.448275862068966", "triple=e property/frequency \"1470.0\"^^<http://dbpedia.org/datatype/kilohertz>", "class=RadioStation" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "radio station",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"1470.0\"^^<http://dbpedia.org/datatype/kilohertz>", "Coherence=0.448275862068966", "triple=e property/frequency \"1470.0\"^^<http://dbpedia.org/datatype/kilohertz>", "class=RadioStation" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "register historic",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Utah\"@en", "Coherence=0.24", "triple=e property/locmapin \"Utah\"@en", "class=Building" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "register historic\u001Cplaces",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Utah\"@en", "Coherence=0.24", "triple=e property/locmapin \"Utah\"@en", "class=Building" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "school",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"13\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.348837209302326", "triple=e ontology/lowerAge \"13\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=School" ],
+    "1" : [ "pair=\"24\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.326086956521739", "triple=e ontology/facultySize \"24\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=School" ],
+    "2" : [ "pair=\"Maroon and gold\"", "Coherence=0.324324324324324", "triple=e ontology/officialSchoolColour \"Maroon and gold\"", "class=School" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "senate",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Senator\"@en", "Coherence=0.311111111111111", "triple=e property/leaderTitle \"Senator\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "senate located\u001Cin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"Senator\"@en", "Coherence=0.311111111111111", "triple=e property/leaderTitle \"Senator\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "sound",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Puget_Sound>", "Coherence=0.333333333333333", "triple=e property/shipRoute <http://dbpedia.org/resource/Puget_Sound>", "class=Ship" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"South Korea\"@en", "Coherence=0.109090909090909", "triple=e property/country \"South Korea\"@en", "class=Film" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Marinette,_Wisconsin>", "Coherence=0.323529411764706", "triple=e ontology/builder <http://dbpedia.org/resource/Marinette,_Wisconsin>", "class=Ship" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "station",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"1470.0\"^^<http://dbpedia.org/datatype/kilohertz>", "Coherence=0.448275862068966", "triple=e property/frequency \"1470.0\"^^<http://dbpedia.org/datatype/kilohertz>", "class=RadioStation" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "summer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Handball>", "Coherence=0.1625", "triple=e property/sport <http://dbpedia.org/resource/Handball>", "class=Athlete" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "symbol",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "Coherence=0.436619718309859", "triple=e property/containerOnly \"yes\"@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Marinette,_Wisconsin>", "Coherence=0.323529411764706", "triple=e ontology/builder <http://dbpedia.org/resource/Marinette,_Wisconsin>", "class=Ship" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Marinette,_Wisconsin>", "Coherence=0.323529411764706", "triple=e ontology/builder <http://dbpedia.org/resource/Marinette,_Wisconsin>", "class=Ship" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "winter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Biathlon>", "Coherence=0.176470588235294", "triple=e property/sport <http://dbpedia.org/resource/Biathlon>", "class=Athlete" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "winter olympics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Biathlon>", "Coherence=0.176470588235294", "triple=e property/sport <http://dbpedia.org/resource/Biathlon>", "class=Athlete" ]
+  }
+} ]

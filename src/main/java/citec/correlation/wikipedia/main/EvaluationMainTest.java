@@ -249,7 +249,7 @@ public class EvaluationMainTest implements ThresoldConstants {
 
     }
 
-    private static Map<String, ThresoldsExperiment> createExperiments() throws Exception {
+    static Map<String, ThresoldsExperiment> createExperiments() throws Exception {
         Map<String, ThresoldsExperiment> associationRulesExperiment = new TreeMap<String, ThresoldsExperiment>();
         for (String associationRule : interestingness) {
             ThresoldsExperiment thresold = new ThresoldsExperiment(associationRule);

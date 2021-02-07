@@ -1,0 +1,71 @@
+[ {
+  "id" : 5,
+  "pattern" : "atomic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"yes\"@en", "Coherence=0.436619718309859", "triple=e property/containerOnly \"yes\"@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/French_people>", "Coherence=0.307692307692308", "triple=e ontology/nationality <http://dbpedia.org/resource/French_people>", "class=Scientist" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Germans>", "Coherence=0.315789473684211", "triple=e ontology/nationality <http://dbpedia.org/resource/Germans>", "class=Scientist" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "historic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"1873\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "Coherence=0.361111111111111", "triple=e ontology/yearOfConstruction \"1873\"^^<http://www.w3.org/2001/XMLSchema#gYear>", "class=HistoricPlace" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "indian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/West_Bengal>", "Coherence=0.324324324324324", "triple=e ontology/birthPlace <http://dbpedia.org/resource/West_Bengal>", "class=Scientist" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "legislative",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Member_of_Provincial_Parliament_(Canada)>", "Coherence=0.127659574468085", "triple=e property/office <http://dbpedia.org/resource/Member_of_Provincial_Parliament_(Canada)>", "class=Politician" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"Senator\"@en", "Coherence=0.311111111111111", "triple=e property/leaderTitle \"Senator\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Slovenia>", "Coherence=0.260869565217391", "triple=e ontology/country <http://dbpedia.org/resource/Slovenia>", "class=Book" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "novel\u001Cby",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Slovenia>", "Coherence=0.260869565217391", "triple=e ontology/country <http://dbpedia.org/resource/Slovenia>", "class=Book" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "political",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/COPPPAL>", "Coherence=0.5", "triple=e property/regional <http://dbpedia.org/resource/COPPPAL>", "class=PoliticalParty" ]
+  }
+} ]

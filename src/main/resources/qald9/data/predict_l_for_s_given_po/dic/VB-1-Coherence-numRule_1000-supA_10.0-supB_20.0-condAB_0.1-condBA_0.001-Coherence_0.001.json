@@ -1,0 +1,62 @@
+[ {
+  "id" : 10,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Biathlon>", "Coherence=0.176470588235294", "triple=e property/sport <http://dbpedia.org/resource/Biathlon>", "class=Athlete" ],
+    "1" : [ "pair=<http://dbpedia.org/resource/Handball>", "Coherence=0.1625", "triple=e property/sport <http://dbpedia.org/resource/Handball>", "class=Athlete" ],
+    "2" : [ "pair=\"14\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "Coherence=0.10377358490566", "triple=e ontology/number \"14\"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger>", "class=SoccerPlayer" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "competed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Biathlon>", "Coherence=0.176470588235294", "triple=e property/sport <http://dbpedia.org/resource/Biathlon>", "class=Athlete" ],
+    "1" : [ "pair=<http://dbpedia.org/resource/Handball>", "Coherence=0.1625", "triple=e property/sport <http://dbpedia.org/resource/Handball>", "class=Athlete" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "composed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Senator\"@en", "Coherence=0.311111111111111", "triple=e property/leaderTitle \"Senator\"@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "directed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Track list\"@en", "Coherence=0.144736842105263", "triple=e property/headline \"Track list\"@en", "class=Film" ],
+    "1" : [ "pair=\"Malayalam\"@en", "Coherence=0.112582781456954", "triple=e property/language \"Malayalam\"@en", "class=Film" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "encoded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"left\"@en", "Coherence=0.428571428571429", "triple=e property/align \"left\"@en", "class=HumanGene" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "listed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Utah\"@en", "Coherence=0.24", "triple=e property/locmapin \"Utah\"@en", "class=Building" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Harper_&_Brothers>", "Coherence=0.305555555555556", "triple=e ontology/publisher <http://dbpedia.org/resource/Harper_&_Brothers>", "class=Book" ],
+    "1" : [ "pair=<http://dbpedia.org/resource/Slovenia>", "Coherence=0.260869565217391", "triple=e ontology/country <http://dbpedia.org/resource/Slovenia>", "class=Book" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "released",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=<http://dbpedia.org/resource/Sony_Music>", "Coherence=0.121739130434783", "triple=e property/label <http://dbpedia.org/resource/Sony_Music>", "class=Album" ]
+  }
+} ]

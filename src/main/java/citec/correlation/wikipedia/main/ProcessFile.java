@@ -5,27 +5,37 @@
  */
 package citec.correlation.wikipedia.main;
 
+import citec.correlation.wikipedia.analyzer.Analyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
 import citec.correlation.wikipedia.analyzer.logging.LogFilter;
 import citec.correlation.wikipedia.analyzer.logging.LogFormatter;
 import citec.correlation.wikipedia.analyzer.logging.LogHandler;
+import citec.correlation.wikipedia.dic.lexicon.Lexicon;
+import static citec.correlation.wikipedia.main.EvaluationMainTest.isKBValid;
+import static citec.correlation.wikipedia.main.EvaluationMainTest.readFromJsonFile;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.resourceDir;
 import citec.correlation.wikipedia.parameters.ThresoldConstants;
 import static citec.correlation.wikipedia.parameters.ThresoldConstants.AllConf;
 import static citec.correlation.wikipedia.parameters.ThresoldConstants.Cosine;
+import static citec.correlation.wikipedia.parameters.ThresoldConstants.interestingness;
 import static citec.correlation.wikipedia.parameters.ThresoldConstants.predict_l_for_o_given_p;
 import static citec.correlation.wikipedia.parameters.ThresoldConstants.predict_l_for_s_given_po;
+import static citec.correlation.wikipedia.parameters.ThresoldConstants.predictionRules;
+import citec.correlation.wikipedia.parameters.ThresoldsExperiment;
 import citec.correlation.wikipedia.results.Discription;
+import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.results.MR;
 import citec.correlation.wikipedia.results.NewResultsHR;
 import citec.correlation.wikipedia.results.NewResultsMR;
 import citec.correlation.wikipedia.results.Rule;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
+import citec.correlation.wikipedia.utils.FormatAndMatch;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -43,8 +53,9 @@ import org.javatuples.Pair;
 public class ProcessFile implements ThresoldConstants {
 
     private static Logger LOGGER = null;
+ 
 
-    public ProcessFile(String baseDir, String givenPrediction,String givenInterestingness,Logger givenLOGGER) throws Exception {
+    public ProcessFile(String baseDir, String qald9Dir ,String givenPrediction, String givenInterestingness, Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER) throws Exception {
         LOGGER = givenLOGGER;
         LOGGER.setLevel(Level.FINE);
         LOGGER.setLevel(Level.SEVERE);
@@ -68,9 +79,10 @@ public class ProcessFile implements ThresoldConstants {
         //String directory = qald9Dir + OBJECT + "/";
         //rawFileDir = dbpediaDir + "results/" + "new/MR/";
         //String baseDir = "/home/elahi/dbpediaFiles/unlimited/unlimited/";
-
         for (String prediction : predictionLinguisticRules) {
             String rawFileDir = baseDir + prediction + "/";
+            String outputDir=qald9Dir+ "/"+ prediction + "/"+"dic";
+
             if (!prediction.contains(givenPrediction)) {
                 continue;
             }
@@ -80,7 +92,8 @@ public class ProcessFile implements ThresoldConstants {
                 }
                 Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(rawFileDir, rule, ".json");
                 if (pair.getValue0()) {
-                    NewResultsMR NewResultsMR = readFromJsonFile(pair.getValue1());
+                    NewResultsMR allClassLines = readFromJsonFile(pair.getValue1());
+                    createEvalutionFiles(outputDir, prediction, rule, allClassLines, associationRulesExperiment);
                 }
 
             }
@@ -89,7 +102,25 @@ public class ProcessFile implements ThresoldConstants {
 
     }
 
-    private static NewResultsMR readFromJsonFile(List<File> files) throws IOException, Exception {
+    private static void createEvalutionFiles(String outputDir, String prediction, String associationRule, NewResultsMR allClassLines, Map<String, ThresoldsExperiment> associationRulesExperiment) throws Exception {
+        Map<String, Lexicon> associationRuleLex = new TreeMap<String, Lexicon>();
+        Lexicon lexicon = null;
+        ThresoldsExperiment thresoldsExperiment = associationRulesExperiment.get(associationRule);
+        Integer index = 0;
+        for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
+            index = index + 1;
+            ThresoldsExperiment.ThresoldELement element = thresoldsExperiment.getThresoldELements().get(experiment);
+            String experimentID = index + "-" + experiment;
+            lexicon = createLexicon(outputDir, "AllClass", prediction, associationRule, allClassLines, element, experimentID);
+            LOGGER.log(Level.INFO, outputDir + " index" + index + " total:" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
+            break;
+        }
+        //associationRuleLex.put(prediction + "-" + associationRule, lexicon);
+
+        //meanReciprocal(directory, associationRuleLex,associationRulesExperiment);
+    }
+    
+     private static NewResultsMR readFromJsonFile(List<File> files) throws IOException, Exception {
         Map<String, List<Rule>> classDistributions = new TreeMap<String, List<Rule>>();
         Discription description = null;
         Integer totalFiles = files.size();
@@ -101,7 +132,7 @@ public class ProcessFile implements ThresoldConstants {
             String[] parameters = findParameter(info);
             String key = parameters[0] + "-" + parameters[1] + "-" + parameters[2];
 
-            LOGGER.log(Level.INFO, "now processing index:" + index + " total:" + totalFiles + "  file:" + fileName);
+            //LOGGER.log(Level.INFO, "now processing index:" + index + " total:" + totalFiles + "  file:" + fileName);
             ObjectMapper mapper = new ObjectMapper();
             NewResultsMR resultTemp = mapper.readValue(file, NewResultsMR.class);
             description = resultTemp.getDescription();
@@ -126,6 +157,68 @@ public class ProcessFile implements ThresoldConstants {
         return parameters;
     }
 
+
+    private static Lexicon createLexicon(String directory, String dbo_className, String dbo_prediction, String interestingness, NewResultsMR result, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
+        String key = dbo_className + "-" + dbo_prediction + "-" + interestingness;
+        Analyzer analyzer = null;
+        Lexicon lexicon = null;
+       
+        Integer numberOfRules=10;
+
+        Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
+        for (String className : result.getClassDistributions().keySet()) {
+            List<Rule> rules = result.getClassDistributions().get(className);
+            Integer index=0;
+            for (Rule line : rules) {
+                index=index+1;
+                if(index>=numberOfRules)
+                    break;
+                LineInfo lineInfo = new LineInfo(interestingness,line);
+                //LOGGER.log(Level.INFO, "line::" + lineInfo);
+
+                if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
+                    continue;
+                }
+                if (!lineInfo.getValidFlag()) {
+                    continue;
+                }
+                String word = lineInfo.getWord();
+                //System.out.println("word:" + word);
+
+                if (FormatAndMatch.isNumeric(lineInfo.getWord())) {
+                    continue;
+                }
+                if (isKBValid(lineInfo.getObject())) {
+                    continue;
+                }
+                String nGram = lineInfo.getWord().toLowerCase().trim().strip();
+                //LOGGER.log(Level.INFO, "class::" + line.getC());
+                //System.out.println("parts-of-sppech:" + lineInfo.getPartOfSpeech());
+                List<LineInfo> results = new ArrayList<LineInfo>();
+                if (lineLexicon.containsKey(nGram)) {
+                    results = lineLexicon.get(nGram);
+                    results.add(lineInfo);
+                    lineLexicon.put(nGram, results);
+                } else {
+                    results.add(lineInfo);
+                    lineLexicon.put(nGram, results);
+                }
+                //System.out.println("className:"+line.getC());
+               
+            }
+            
+
+        }
+        lexicon = new Lexicon(qald9Dir);
+        lexicon.preparePropertyLexicon(directory, experimentID, interestingness, lineLexicon);
+        System.out.println("-" + experimentID + "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        System.out.println("JJ:" + lexicon.getLexiconPosTaggged().get(Analyzer.ADJECTIVE).size());
+        System.out.println("NN:" + lexicon.getLexiconPosTaggged().get(Analyzer.NOUN).size());
+        System.out.println("VB" + lexicon.getLexiconPosTaggged().get(Analyzer.VERB).size());
+        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        return lexicon;
+    }
+
     public static void main(String[] args) throws Exception {
         String rawFileDir = null;
         String directory = qald9Dir + OBJECT + "/";
@@ -134,8 +227,10 @@ public class ProcessFile implements ThresoldConstants {
         Logger LOGGER = Logger.getLogger(ProcessFile.class.getName());
         String prediction = predict_l_for_s_given_po;
         String associationRule = Coherence;
+        String outputDir = qald9Dir ;
+        Map<String, ThresoldsExperiment> associationRulesExperiment = EvaluationMainTest.createExperiments();
 
-        ProcessFile ProcessFile = new ProcessFile(baseDir, prediction, associationRule, LOGGER);
+        ProcessFile ProcessFile = new ProcessFile(baseDir, outputDir,prediction, associationRule, associationRulesExperiment, LOGGER);
 
         /*for (String prediction : predictionLinguisticRules) {
             rawFileDir = baseDir + prediction + "/";

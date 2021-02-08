@@ -15,6 +15,8 @@ import java.util.List;
 public class EvluationTriple implements ThresoldConstants {
 
    
+
+   
     private String type = null;
     private String id = null;
     private String predicate = null;
@@ -122,6 +124,13 @@ public class EvluationTriple implements ThresoldConstants {
         }
     }
     
+    public static String qaldStr(String key) {
+        String str="\n";
+        String[] info = key.split(" ");
+        String predicate = info[0];
+        String object = info[1];
+        return str+" predicate-object pair: "+predicate+" "+ object+ "\n";
+    }
     public static String getString(List<String> ranking) {
         String str="\n";
         Integer index=1;

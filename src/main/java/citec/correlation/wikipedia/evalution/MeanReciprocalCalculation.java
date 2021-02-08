@@ -83,7 +83,7 @@ public class MeanReciprocalCalculation implements Comparator{
             Pair<String, Map<String, Boolean>> wordGold = gold.get(i);
             String word = rankingsPredict.getValue0();
 
-            LOGGER.log(Level.INFO, "now checking:" + word);
+            LOGGER.log(Level.INFO, "now checking pattern:" + word);
 
             ReciprocalResult reciprocalElement = getReciprocalRank(getKeysSortedByValue(rankingsPredict.getValue1(), DESCENDING),
                     wordGold.getValue1());
@@ -118,9 +118,11 @@ public class MeanReciprocalCalculation implements Comparator{
         double reciprocalRank = 0;
         for (Integer i = 0; i < ranking.size(); i++) {
 
-            if (i == 10) {
+            //temporarily closed...
+            /*if (i == 10) {
                 continue;
-            }
+            }*/
+            
             if (gold.containsKey(ranking.get(i))) {
 
                 if (gold.get(ranking.get(i))) {
@@ -128,10 +130,11 @@ public class MeanReciprocalCalculation implements Comparator{
                     reciprocalRank = 1.0 / (i + 1);
                     Integer rank = (i + 1);
                     LOGGER.log(Level.INFO, "$$$$$$$$$$$$$$ PATTERN MATCHED with QALD $$$$$$$$$$$$$$:");
-                    LOGGER.log(Level.INFO, "$$$$ detail kbs :" +EvluationTriple.getString(ranking));
-                    LOGGER.log(Level.INFO, "$$$$ its rank::" + rank);
+                    LOGGER.log(Level.INFO, "$$$$ detail kbs of the pattern in qald :" +EvluationTriple.qaldStr(ranking.get(i)));
+                    LOGGER.log(Level.INFO, "$$$$ detail kbs of the pattern in our lexicon:" +EvluationTriple.getString(ranking));
+                    LOGGER.log(Level.INFO, "$$$$ rank Found::" + rank);
                     LOGGER.log(Level.INFO, "$$$$ its reciprocalRank::" + reciprocalRank);
-                    LOGGER.log(Level.INFO, "$$$$$$$$$$$$$$ CHECKING END $$$$$$$$$$$$$$$$$$$$$$$$$$$$:");
+                    LOGGER.log(Level.INFO, "$$$$$$$$$$$$$$ CHECKING END $$$$$$$$$$$$$$$$$$$$$$$$$$$$:"+"\n");
                     return new ReciprocalResult(predicate, rank, reciprocalRank);
                 }
             }

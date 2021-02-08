@@ -96,7 +96,7 @@ public class Comparision implements ThresoldConstants{
         LOGGER.log(Level.INFO, "csv:", csvFile.getRow().keySet().toString());
         List<String> commonWords = new ArrayList<String>(Sets.intersection(csvFile.getRow().keySet(), lexiconDic.keySet()));
         if (!commonWords.isEmpty()) {
-            LOGGER.log(Level.INFO, "common pattern found between lexicon and qald-9");
+            LOGGER.log(Level.INFO, "linguistic pattern found both in lexicon and qald-9");
             LOGGER.log(Level.INFO, commonWords.toString());
         } else {
             LOGGER.log(Level.INFO, "no linguistic pattern matched between lexicon and qald-9");
@@ -261,11 +261,11 @@ public class Comparision implements ThresoldConstants{
         if (csvFile.getRow().containsKey(word)) {
             for (String predicatePattern : predict.keySet()) {
                 Boolean flag = this.isFoundinGold(word, predicatePattern);
-                 LOGGER.log(Level.INFO, "predicatePattern::" + predicatePattern);
+                 //LOGGER.log(Level.INFO, "predicatePattern::" + predicatePattern);
                 goldRelevance.put(predicatePattern, flag);
                 if (flag) {
-                    LOGGER.log(Level.INFO, "predicatePattern::" + predicatePattern);
-                    LOGGER.log(Level.INFO, "flag::" + flag);
+                    //LOGGER.log(Level.INFO, "predicatePattern::" + predicatePattern);
+                    //LOGGER.log(Level.INFO, "flag::" + flag);
                 }
 
             }
@@ -291,12 +291,12 @@ public class Comparision implements ThresoldConstants{
 
     private Boolean isFoundinGold(String word, String lexiconStr) {
         EvluationTriple lexiconTriple = new EvluationTriple(LEXICON, this.predicationRule, lexiconStr, word);
-        LOGGER.log(Level.INFO, "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::" + lexiconTriple);
+        //LOGGER.log(Level.INFO, "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::" + lexiconTriple);
         List<EvluationTriple> qaldPredicateObject = new ArrayList<EvluationTriple>();
         if (predicationRule.contains(predict_l_for_s_given_po)) {
             qaldPredicateObject = csvFile.getRowValues(word, this.predicationRule);
             for (EvluationTriple qaldTriple : qaldPredicateObject) {
-                LOGGER.log(Level.INFO, "$$$$$$$$$$$ qaldTriple::" + qaldTriple);
+                //LOGGER.log(Level.INFO, "$$$$$$$$$$$ qaldTriple::" + qaldTriple);
                 if (EvluationTriple.match(lexiconTriple, qaldTriple, this.predicationRule)) {
                     return true;
                 }

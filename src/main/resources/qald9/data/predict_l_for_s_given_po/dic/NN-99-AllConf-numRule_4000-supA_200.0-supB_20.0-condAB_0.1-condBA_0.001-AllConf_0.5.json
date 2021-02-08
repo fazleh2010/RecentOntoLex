@@ -1,0 +1,452 @@
+[ {
+  "id" : 1,
+  "pattern" : "aircraft",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ultralight_aircraft", "AllConf=0.746478873239437", "triple=e dbo:type Ultralight_aircraft", "class=Aircraft" ],
+    "1" : [ "pair=Homebuilt_aircraft", "AllConf=0.742081447963801", "triple=e dbp:type Homebuilt_aircraft", "class=Aircraft" ],
+    "2" : [ "pair=one passenger@en", "AllConf=0.647727272727273", "triple=e dbp:capacity one passenger@en", "class=Aircraft" ],
+    "3" : [ "pair=In production@en", "AllConf=0.620626151012891", "triple=e dbp:status In production@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "airport",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Based aircraft@en", "AllConf=0.640180878552972", "triple=e dbp:stat2Header Based aircraft@en", "class=Airport" ],
+    "1" : [ "pair=Aircraft operations@en", "AllConf=0.632244467860906", "triple=e dbp:stat1Header Aircraft operations@en", "class=Airport" ],
+    "2" : [ "pair=Passengers@en", "AllConf=0.629301868239921", "triple=e dbp:stat1Header Passengers@en", "class=Airport" ],
+    "3" : [ "pair=left@en", "AllConf=0.626535626535627", "triple=e dbp:pushpinLabelPosition left@en", "class=Airport" ],
+    "4" : [ "pair=yes@en", "AllConf=0.619270346117867", "triple=e dbp:pushpinRelief yes@en", "class=Airport" ],
+    "5" : [ "pair=\"13/31\"", "AllConf=0.613970588235294", "triple=e dbo:runwayDesignation \"13/31\"", "class=Airport" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "australian rules",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fitzroy_Football_Club", "AllConf=0.789772727272727", "triple=e dbp:club Fitzroy_Football_Club", "class=AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=Western_Bulldogs", "AllConf=0.768382352941177", "triple=e dbp:club Western_Bulldogs", "class=AustralianRulesFootballPlayer" ],
+    "2" : [ "pair=\"173.0\"^^http://dbpedia.org/datatype/centimetre", "AllConf=0.766666666666667", "triple=e dbp:height \"173.0\"^^http://dbpedia.org/datatype/centimetre", "class=AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "australian rules footballer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fitzroy_Football_Club", "AllConf=0.767045454545455", "triple=e dbp:club Fitzroy_Football_Club", "class=AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "basketball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Point_guard", "AllConf=0.621513944223108", "triple=e dbp:careerPosition Point_guard", "class=BasketballPlayer" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "building",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Redundant_church", "AllConf=0.88929889298893", "triple=e dbp:functionalStatus Redundant_church", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Source: Canada Flight Supplement@en", "AllConf=0.653793103448276", "triple=e dbp:footnotes Source: Canada Flight Supplement@en", "class=Airport" ],
+    "1" : [ "pair=\"240.0\"^^http://dbpedia.org/datatype/second", "AllConf=0.629107981220657", "triple=e dbp:utcs \"240.0\"^^http://dbpedia.org/datatype/second", "class=Airport" ],
+    "2" : [ "pair=EDT@en", "AllConf=0.626760563380282", "triple=e dbp:summer EDT@en", "class=Airport" ],
+    "3" : [ "pair=\"300.0\"^^http://dbpedia.org/datatype/second", "AllConf=0.625866050808314", "triple=e dbp:utc \"300.0\"^^http://dbpedia.org/datatype/second", "class=Airport" ],
+    "4" : [ "pair=Eastern_Time_Zone", "AllConf=0.622988505747126", "triple=e dbp:timezone Eastern_Time_Zone", "class=Airport" ],
+    "5" : [ "pair=Ontario", "AllConf=0.764411027568922", "triple=e dbo:location Ontario", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "church",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Redundant_church", "AllConf=0.867158671586716", "triple=e dbp:functionalStatus Redundant_church", "class=HistoricBuilding" ],
+    "1" : [ "pair=Sweden", "AllConf=0.856088560885609", "triple=e dbp:country Sweden", "class=HistoricBuilding" ],
+    "2" : [ "pair=Church_of_Sweden", "AllConf=0.852", "triple=e dbp:denomination Church_of_Sweden", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Based aircraft@en", "AllConf=0.607235142118863", "triple=e dbp:stat2Header Based aircraft@en", "class=Airport" ],
+    "1" : [ "pair=Norwegian_Water_Resources_and_Energy_Directorate", "AllConf=0.814070351758794", "triple=e dbp:reference Norwegian_Water_Resources_and_Energy_Directorate", "class=BodyOfWater" ],
+    "2" : [ "pair=\"NVE\"", "AllConf=0.81360201511335", "triple=e dbo:quote \"NVE\"", "class=BodyOfWater" ],
+    "3" : [ "pair=Location of the lake@en", "AllConf=0.794520547945205", "triple=e dbp:pushpinMapCaption Location of the lake@en", "class=BodyOfWater" ],
+    "4" : [ "pair=Norway", "AllConf=0.784440842787682", "triple=e dbo:country Norway", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "county norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"NVE\"", "AllConf=0.758186397984887", "triple=e dbo:quote \"NVE\"", "class=BodyOfWater" ],
+    "1" : [ "pair=Location of the lake@en", "AllConf=0.756849315068493", "triple=e dbp:pushpinMapCaption Location of the lake@en", "class=BodyOfWater" ],
+    "2" : [ "pair=Norwegian_Water_Resources_and_Energy_Directorate", "AllConf=0.756281407035176", "triple=e dbp:reference Norwegian_Water_Resources_and_Energy_Directorate", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "cyclist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Track_cycling", "AllConf=0.75", "triple=e dbp:discipline Track_cycling", "class=Cyclist" ],
+    "1" : [ "pair=yes@en", "AllConf=0.641693811074919", "triple=e dbp:showMedals yes@en", "class=Cyclist" ],
+    "2" : [ "pair=Road_bicycle_racing", "AllConf=0.614849187935035", "triple=e dbp:discipline Road_bicycle_racing", "class=Cyclist" ],
+    "3" : [ "pair=Retired@en", "AllConf=0.546885694729637", "triple=e dbp:currentteam Retired@en", "class=Cyclist" ],
+    "4" : [ "pair=Rider@en", "AllConf=0.534797490017114", "triple=e dbp:role Rider@en", "class=Cyclist" ],
+    "5" : [ "pair=Road@en", "AllConf=0.516684045881126", "triple=e dbp:discipline Road@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "faa lid",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Based aircraft@en", "AllConf=0.66343669250646", "triple=e dbp:stat2Header Based aircraft@en", "class=Airport" ],
+    "1" : [ "pair=Aircraft operations@en", "AllConf=0.657007376185458", "triple=e dbp:stat1Header Aircraft operations@en", "class=Airport" ],
+    "2" : [ "pair=Source: Federal Aviation Administration@en", "AllConf=0.644456289978678", "triple=e dbp:footnotes Source: Federal Aviation Administration@en", "class=Airport" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "family",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Asteroideae", "AllConf=0.777239709443099", "triple=e dbo:family Asteroideae", "class=Plant" ],
+    "1" : [ "pair=Eupatorieae", "AllConf=0.773519163763066", "triple=e dbp:tribus Eupatorieae", "class=Plant" ],
+    "2" : [ "pair=Astereae", "AllConf=0.75609756097561", "triple=e dbp:tribus Astereae", "class=Plant" ],
+    "3" : [ "pair=\"IUCN2.3\"", "AllConf=0.753058954393771", "triple=e dbo:conservationStatusSystem \"IUCN2.3\"", "class=Plant" ],
+    "4" : [ "pair=\"VU\"", "AllConf=0.749640287769784", "triple=e dbo:conservationStatus \"VU\"", "class=Plant" ],
+    "5" : [ "pair=IUCN2.3@en", "AllConf=0.740458015267176", "triple=e dbp:statusSystem IUCN2.3@en", "class=Plant" ],
+    "6" : [ "pair=VU@en", "AllConf=0.739069111424542", "triple=e dbp:status VU@en", "class=Plant" ],
+    "7" : [ "pair=\"EN\"", "AllConf=0.734463276836158", "triple=e dbo:conservationStatus \"EN\"", "class=Plant" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "fighter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fighter_aircraft", "AllConf=0.787172011661808", "triple=e dbp:type Fighter_aircraft", "class=Aircraft" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "footballer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fitzroy_Football_Club", "AllConf=0.769886363636364", "triple=e dbp:club Fitzroy_Football_Club", "class=AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "forest",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United_States_Forest_Service", "AllConf=0.745843230403801", "triple=e dbp:governingBody United_States_Forest_Service", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "genus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Species@en", "AllConf=0.80439121756487", "triple=e dbp:subdivisionRanks Species@en", "class=Plant" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "germany",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Germany", "AllConf=0.759894459102902", "triple=e dbo:country Germany", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "glider",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Glider_(sailplane)", "AllConf=0.685358255451713", "triple=e dbo:type Glider_(sailplane)", "class=Aircraft" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "grade",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Redundant_church", "AllConf=0.874538745387454", "triple=e dbp:functionalStatus Redundant_church", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "hockey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=St._Louis_Blues", "AllConf=0.619565217391304", "triple=e dbo:formerTeam St._Louis_Blues", "class=IceHockeyPlayer" ],
+    "1" : [ "pair=Finland", "AllConf=0.614864864864865", "triple=e dbp:birthPlace Finland", "class=IceHockeyPlayer" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "homebuilt",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Homebuilt_aircraft", "AllConf=0.611267605633803", "triple=e dbo:type Homebuilt_aircraft", "class=Aircraft" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "iata",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Passengers@en", "AllConf=0.609636184857424", "triple=e dbp:stat1Header Passengers@en", "class=Airport" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "icao",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Passengers@en", "AllConf=0.628318584070796", "triple=e dbp:stat1Header Passengers@en", "class=Airport" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "ice hockey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Finland", "AllConf=0.614864864864865", "triple=e dbp:birthPlace Finland", "class=IceHockeyPlayer" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "lake",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Norwegian_Water_Resources_and_Energy_Directorate", "AllConf=0.816582914572864", "triple=e dbp:reference Norwegian_Water_Resources_and_Energy_Directorate", "class=BodyOfWater" ],
+    "1" : [ "pair=\"NVE\"", "AllConf=0.816120906801008", "triple=e dbo:quote \"NVE\"", "class=BodyOfWater" ],
+    "2" : [ "pair=Location of the lake@en", "AllConf=0.794520547945205", "triple=e dbp:pushpinMapCaption Location of the lake@en", "class=BodyOfWater" ],
+    "3" : [ "pair=Ontario", "AllConf=0.789041095890411", "triple=e dbp:location Ontario", "class=BodyOfWater" ],
+    "4" : [ "pair=Minnesota@en", "AllConf=0.782", "triple=e dbp:pushpinMap Minnesota@en", "class=BodyOfWater" ],
+    "5" : [ "pair=Lake", "AllConf=0.767662053896577", "triple=e dbp:type Lake", "class=BodyOfWater" ],
+    "6" : [ "pair=Canada@en", "AllConf=0.767295597484277", "triple=e dbp:basinCountries Canada@en", "class=BodyOfWater" ],
+    "7" : [ "pair=Germany@en", "AllConf=0.764127764127764", "triple=e dbp:basinCountries Germany@en", "class=BodyOfWater" ],
+    "8" : [ "pair=Germany", "AllConf=0.757255936675462", "triple=e dbo:country Germany", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "listed building",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Redundant_church", "AllConf=0.863468634686347", "triple=e dbp:functionalStatus Redundant_church", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "minnesota",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Minnesota@en", "AllConf=0.78", "triple=e dbp:pushpinMap Minnesota@en", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "national",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United_States_Fish_and_Wildlife_Service", "AllConf=0.809417040358744", "triple=e dbp:governingBody United_States_Fish_and_Wildlife_Service", "class=ProtectedArea" ],
+    "1" : [ "pair=United_States_Forest_Service", "AllConf=0.783847980997625", "triple=e dbp:governingBody United_States_Forest_Service", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "national wildlife",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United_States_Fish_and_Wildlife_Service", "AllConf=0.798206278026906", "triple=e dbp:governingBody United_States_Fish_and_Wildlife_Service", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "national wildlife refuge",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United_States_Fish_and_Wildlife_Service", "AllConf=0.798206278026906", "triple=e dbp:governingBody United_States_Fish_and_Wildlife_Service", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Norwegian_Water_Resources_and_Energy_Directorate", "AllConf=0.811557788944724", "triple=e dbp:reference Norwegian_Water_Resources_and_Energy_Directorate", "class=BodyOfWater" ],
+    "1" : [ "pair=\"NVE\"", "AllConf=0.811083123425693", "triple=e dbo:quote \"NVE\"", "class=BodyOfWater" ],
+    "2" : [ "pair=Norway", "AllConf=0.80226904376013", "triple=e dbo:country Norway", "class=BodyOfWater" ],
+    "3" : [ "pair=Location of the lake@en", "AllConf=0.797945205479452", "triple=e dbp:pushpinMapCaption Location of the lake@en", "class=BodyOfWater" ],
+    "4" : [ "pair=Location of the church@en", "AllConf=0.853015075376884", "triple=e dbp:mapCaption Location of the church@en", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "ontario",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ontario", "AllConf=0.794520547945205", "triple=e dbp:location Ontario", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "ontario canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ontario", "AllConf=0.756164383561644", "triple=e dbp:location Ontario", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "park",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=II@en", "AllConf=0.780790960451977", "triple=e dbp:iucnCategory II@en", "class=ProtectedArea" ],
+    "1" : [ "pair=\"II\"", "AllConf=0.770601336302895", "triple=e dbo:iucnCategory \"II\"", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "party",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=European_Parliament", "AllConf=0.87012987012987", "triple=e dbp:seats2Title European_Parliament", "class=PoliticalParty" ],
+    "1" : [ "pair=Euroscepticism", "AllConf=0.865079365079365", "triple=e dbp:ideology Euroscepticism", "class=PoliticalParty" ],
+    "2" : [ "pair=White", "AllConf=0.854961832061069", "triple=e dbo:colour White", "class=PoliticalParty" ],
+    "3" : [ "pair=Social_conservatism", "AllConf=0.853717026378897", "triple=e dbp:ideology Social_conservatism", "class=PoliticalParty" ],
+    "4" : [ "pair=Canada@en", "AllConf=0.849264705882353", "triple=e dbp:country Canada@en", "class=PoliticalParty" ],
+    "5" : [ "pair=National_conservatism", "AllConf=0.846607669616519", "triple=e dbp:ideology National_conservatism", "class=PoliticalParty" ],
+    "6" : [ "pair=Economic_liberalism", "AllConf=0.837133550488599", "triple=e dbp:ideology Economic_liberalism", "class=PoliticalParty" ],
+    "7" : [ "pair=Right-wing_populism", "AllConf=0.834710743801653", "triple=e dbo:ideology Right-wing_populism", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "production",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bertrand@en", "AllConf=0.707070707070707", "triple=e dbp:ref Bertrand@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "radio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=@en", "AllConf=0.511261261261261", "triple=e dbp:coordinates @en", "class=RadioStation" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "radio station",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=@en", "AllConf=0.506756756756757", "triple=e dbp:coordinates @en", "class=RadioStation" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "refuge",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United_States_Fish_and_Wildlife_Service", "AllConf=0.807174887892377", "triple=e dbp:governingBody United_States_Fish_and_Wildlife_Service", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "road",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Road_bicycle_racing", "AllConf=0.596287703016241", "triple=e dbp:discipline Road_bicycle_racing", "class=Cyclist" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "rules",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fitzroy_Football_Club", "AllConf=0.789772727272727", "triple=e dbp:club Fitzroy_Football_Club", "class=AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=Western_Bulldogs", "AllConf=0.768382352941177", "triple=e dbp:club Western_Bulldogs", "class=AustralianRulesFootballPlayer" ],
+    "2" : [ "pair=\"173.0\"^^http://dbpedia.org/datatype/centimetre", "AllConf=0.766666666666667", "triple=e dbp:height \"173.0\"^^http://dbpedia.org/datatype/centimetre", "class=AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "rules footballer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fitzroy_Football_Club", "AllConf=0.767045454545455", "triple=e dbp:club Fitzroy_Football_Club", "class=AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "species",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Tillandsioideae", "AllConf=0.818181818181818", "triple=e dbo:family Tillandsioideae", "class=Plant" ],
+    "1" : [ "pair=Tillandsia@en", "AllConf=0.809701492537313", "triple=e dbp:genus Tillandsia@en", "class=Plant" ],
+    "2" : [ "pair=Tillandsia", "AllConf=0.809701492537313", "triple=e dbo:genus Tillandsia", "class=Plant" ],
+    "3" : [ "pair=Bromeliaceae", "AllConf=0.785867237687366", "triple=e dbo:family Bromeliaceae", "class=Plant" ],
+    "4" : [ "pair=\"TNC\"", "AllConf=0.776223776223776", "triple=e dbo:conservationStatusSystem \"TNC\"", "class=Plant" ],
+    "5" : [ "pair=TNC@en", "AllConf=0.775167785234899", "triple=e dbp:statusSystem TNC@en", "class=Plant" ],
+    "6" : [ "pair=EN@en", "AllConf=0.774798927613941", "triple=e dbp:status EN@en", "class=Plant" ],
+    "7" : [ "pair=\"EN\"", "AllConf=0.768361581920904", "triple=e dbo:conservationStatus \"EN\"", "class=Plant" ],
+    "8" : [ "pair=\"VU\"", "AllConf=0.765467625899281", "triple=e dbo:conservationStatus \"VU\"", "class=Plant" ],
+    "9" : [ "pair=VU@en", "AllConf=0.763046544428773", "triple=e dbp:status VU@en", "class=Plant" ],
+    "10" : [ "pair=IUCN2.3@en", "AllConf=0.758996728462377", "triple=e dbp:statusSystem IUCN2.3@en", "class=Plant" ],
+    "11" : [ "pair=\"IUCN2.3\"", "AllConf=0.758620689655172", "triple=e dbo:conservationStatusSystem \"IUCN2.3\"", "class=Plant" ],
+    "12" : [ "pair=IUCN3.1@en", "AllConf=0.751363140676118", "triple=e dbp:statusSystem IUCN3.1@en", "class=Plant" ],
+    "13" : [ "pair=\"IUCN3.1\"", "AllConf=0.745433789954338", "triple=e dbo:conservationStatusSystem \"IUCN3.1\"", "class=Plant" ],
+    "14" : [ "pair=Poales", "AllConf=0.734487734487735", "triple=e dbo:order Poales", "class=Plant" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "species\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=EN@en", "AllConf=0.731903485254692", "triple=e dbp:status EN@en", "class=Plant" ],
+    "1" : [ "pair=\"EN\"", "AllConf=0.728813559322034", "triple=e dbo:conservationStatus \"EN\"", "class=Plant" ],
+    "2" : [ "pair=\"VU\"", "AllConf=0.726618705035971", "triple=e dbo:conservationStatus \"VU\"", "class=Plant" ],
+    "3" : [ "pair=VU@en", "AllConf=0.724964739069111", "triple=e dbp:status VU@en", "class=Plant" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "station",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=@en", "AllConf=0.52027027027027", "triple=e dbp:coordinates @en", "class=RadioStation" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "tillandsia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Tillandsia@en", "AllConf=0.828358208955224", "triple=e dbp:genus Tillandsia@en", "class=Plant" ],
+    "1" : [ "pair=Tillandsia", "AllConf=0.828358208955224", "triple=e dbo:genus Tillandsia", "class=Plant" ],
+    "2" : [ "pair=Tillandsioideae", "AllConf=0.825757575757576", "triple=e dbo:family Tillandsioideae", "class=Plant" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "track",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Track_cycling", "AllConf=0.698924731182796", "triple=e dbp:discipline Track_cycling", "class=Cyclist" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "track cyclist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Track_cycling", "AllConf=0.629032258064516", "triple=e dbp:discipline Track_cycling", "class=Cyclist" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "ultralight",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ultralight_aircraft", "AllConf=0.742957746478873", "triple=e dbo:type Ultralight_aircraft", "class=Aircraft" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "wilderness",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ib@en", "AllConf=0.729411764705882", "triple=e dbp:iucnCategory Ib@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "wildlife",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United_States_Fish_and_Wildlife_Service", "AllConf=0.827354260089686", "triple=e dbp:governingBody United_States_Fish_and_Wildlife_Service", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "wildlife refuge",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United_States_Fish_and_Wildlife_Service", "AllConf=0.804932735426009", "triple=e dbp:governingBody United_States_Fish_and_Wildlife_Service", "class=ProtectedArea" ]
+  }
+} ]

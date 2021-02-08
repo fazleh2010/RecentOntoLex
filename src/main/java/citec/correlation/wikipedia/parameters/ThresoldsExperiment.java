@@ -44,7 +44,7 @@ public class ThresoldsExperiment implements ThresoldConstants {
     public List<Double> KulczynskiList = Arrays.asList(0.001, 0.045, 0.5, 0.9);
     public List<Double> CoherenceList = Arrays.asList(0.001, 0.045, 0.5, 0.9);
     public Map<String, List<Double>> interestingness = new TreeMap<String, List<Double>>();
-    public static List<Integer> numberOfRules = Arrays.asList(1000);
+    public static List<Integer> numberOfRules = Arrays.asList(1000,4000, 8000);
 
     private LinkedHashMap<String, ThresoldELement> thresoldELements = new LinkedHashMap<String, ThresoldELement>();
 

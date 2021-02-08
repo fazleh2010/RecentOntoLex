@@ -36,6 +36,10 @@ public class LineInfo implements ThresoldConstants{
     private String className = null;
     private Boolean validFlag = false;
     private Integer nGramNumber = 0;
+    private  static String http = "http://dbpedia.org/resource/";
+    private  static String ONTOLOGY = "ontology";
+    private  static String PROPERTY = "property";
+
     private Map<String, Double> probabilityValue = new TreeMap<String, Double>();
     private Analyzer analyzer = null;
     public static String CHECK_THRESOLD_VALUE="CHECK_THRESOLD_VALUE";
@@ -52,8 +56,8 @@ public class LineInfo implements ThresoldConstants{
         this.line = rule.getAs_string();
         this.className = rule.getC();
         this.subject = "e";
-        this.predicate = rule.getP();
-        this.object = rule.getO();
+        this.predicate = this.setProperty(rule);
+        this.object = this.setObject(rule);
         this.wordOriginal = rule.getL();
         if (wordOriginal != null) {
             this.validFlag = true;
@@ -220,6 +224,19 @@ public class LineInfo implements ThresoldConstants{
             return object;
       
     }
+    
+    private String setObject(Rule rule) {
+        String object = rule.getO();
+        if (object.contains("http")) {
+            object = object.replace(http, "");
+            object = object.replace("<", "");
+            object = object.replace(">", "");
+        } else if (object.contains("@")) {
+            object = object.replace("\"", "");
+        }
+
+        return object;
+    }
 
     private String processWords(String nGram) throws Exception {
         StringTokenizer st = new StringTokenizer(nGram);
@@ -331,6 +348,24 @@ public class LineInfo implements ThresoldConstants{
     public String toString() {
         String line = this.line + "\n";
         return "LineInfo{" + subject + ", predicate=" + predicate + ", object=" + object + ", word=" + word + ", probabilityValue=" + probabilityValue + '}';
+    }
+
+    private String setProperty(Rule rule) {
+        String property = rule.getP();
+        String prefix = null;
+        if (property.contains("/")) {
+            String[] info = property.split("/");
+
+            if (info[0].contains(ONTOLOGY)) {
+                prefix = "dbo:";
+            } else if (info[0].contains(PROPERTY)) {
+                prefix = "dbp:";
+            }
+
+            property = prefix + info[1];
+
+        }
+        return property;
     }
 
    

@@ -12,26 +12,17 @@ import citec.correlation.wikipedia.analyzer.logging.LogFormatter;
 import citec.correlation.wikipedia.analyzer.logging.LogHandler;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import static citec.correlation.wikipedia.main.EvaluationMainTest.isKBValid;
-import static citec.correlation.wikipedia.main.EvaluationMainTest.readFromJsonFile;
-import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.resourceDir;
 import citec.correlation.wikipedia.parameters.ThresoldConstants;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.AllConf;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.Cosine;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.interestingness;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.predict_l_for_o_given_p;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.predict_l_for_s_given_po;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.predictionRules;
 import citec.correlation.wikipedia.parameters.ThresoldsExperiment;
 import citec.correlation.wikipedia.results.Discription;
 import citec.correlation.wikipedia.results.LineInfo;
-import citec.correlation.wikipedia.results.MR;
-import citec.correlation.wikipedia.results.NewResultsHR;
 import citec.correlation.wikipedia.results.NewResultsMR;
 import citec.correlation.wikipedia.results.Rule;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
+import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.IOException;
@@ -53,53 +44,28 @@ import org.javatuples.Pair;
 public class ProcessFile implements ThresoldConstants {
 
     private static Logger LOGGER = null;
- 
 
-    public ProcessFile(String baseDir, String qald9Dir ,String givenPrediction, String givenInterestingness, Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER) throws Exception {
-        LOGGER = givenLOGGER;
-        LOGGER.setLevel(Level.FINE);
-        LOGGER.setLevel(Level.SEVERE);
-        LOGGER.setLevel(Level.CONFIG);
-        LOGGER.setLevel(Level.FINE);
-        LOGGER.addHandler(new ConsoleHandler());
-        LOGGER.addHandler(new LogHandler());
-        LOGGER.log(Level.INFO, "generate experiments given thresolds");
-        try {
-            //Handler fileHandler = new FileHandler(resourceDir + "logger.log", 2000, 1000);
-            Handler fileHandler = new FileHandler(resourceDir + "logger.log");
+    public ProcessFile(String baseDir, String qald9Dir, String givenPrediction, Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER) throws Exception {
+        this.setUpLog(givenLOGGER);
 
-            fileHandler.setFormatter(new LogFormatter());
-            fileHandler.setFilter(new LogFilter());
-            LOGGER.addHandler(fileHandler);
-        } catch (SecurityException | IOException e) {
-            e.printStackTrace();
-        }
-
-        //String rawFileDir = null;
-        //String directory = qald9Dir + OBJECT + "/";
-        //rawFileDir = dbpediaDir + "results/" + "new/MR/";
-        //String baseDir = "/home/elahi/dbpediaFiles/unlimited/unlimited/";
         for (String prediction : predictionLinguisticRules) {
             String rawFileDir = baseDir + prediction + "/";
-            String outputDir=qald9Dir+ "/"+ prediction + "/"+"dic";
+            String outputDir = qald9Dir + "/" + prediction + "/" + "dic";
 
             if (!prediction.contains(givenPrediction)) {
                 continue;
             }
             for (String rule : interestingness) {
-                if (!rule.contains(givenInterestingness)) {
+                /*if (!rule.contains(givenInterestingness)) {
                     continue;
-                }
+                }*/
                 Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(rawFileDir, rule, ".json");
                 if (pair.getValue0()) {
                     NewResultsMR allClassLines = readFromJsonFile(pair.getValue1());
                     createEvalutionFiles(outputDir, prediction, rule, allClassLines, associationRulesExperiment);
                 }
-
             }
-
         }
-
     }
 
     private static void createEvalutionFiles(String outputDir, String prediction, String associationRule, NewResultsMR allClassLines, Map<String, ThresoldsExperiment> associationRulesExperiment) throws Exception {
@@ -111,16 +77,69 @@ public class ProcessFile implements ThresoldConstants {
             index = index + 1;
             ThresoldsExperiment.ThresoldELement element = thresoldsExperiment.getThresoldELements().get(experiment);
             String experimentID = index + "-" + experiment;
-            lexicon = createLexicon(outputDir, "AllClass", prediction, associationRule, allClassLines, element, experimentID);
-            LOGGER.log(Level.INFO, outputDir + " index" + index + " total:" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
-            break;
-        }
-        //associationRuleLex.put(prediction + "-" + associationRule, lexicon);
+            lexicon = createLexicon(outputDir, prediction, associationRule, allClassLines, element, experimentID);
+            LOGGER.log(Level.INFO, outputDir + " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
 
-        //meanReciprocal(directory, associationRuleLex,associationRulesExperiment);
+        }
+    }
+
+
+    private static Lexicon createLexicon(String directory, String dbo_prediction, String interestingness, NewResultsMR result, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
+        Analyzer analyzer = null;
+        Lexicon lexicon = null;
+
+        Integer numberOfRules = thresoldELement.getNumberOfRules();
+
+        Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
+        
+        for (String className : result.getClassDistributions().keySet()) {
+            List<Rule> rules = result.getClassDistributions().get(className);
+            Integer index = 0;
+            for (Rule line : rules) {
+                index = index + 1;
+                if (index >= numberOfRules) {
+                    break;
+                }
+                LineInfo lineInfo = new LineInfo(interestingness, line);
+
+                if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
+                    continue;
+                }
+                if (!lineInfo.getValidFlag()) {
+                    continue;
+                }
+                String word = lineInfo.getWord();
+                //System.out.println("word:" + word);
+
+                if (FormatAndMatch.isNumeric(lineInfo.getWord())) {
+                    continue;
+                }
+                if (isKBValid(lineInfo.getObject())) {
+                    continue;
+                }
+                String nGram = lineInfo.getWord().toLowerCase().trim().strip();
+                LOGGER.log(Level.INFO, "index:" + index + " total::" + numberOfRules + " nGram:" + nGram);
+                //System.out.println("parts-of-sppech:" + lineInfo.getPartOfSpeech());
+                List<LineInfo> results = new ArrayList<LineInfo>();
+                if (lineLexicon.containsKey(nGram)) {
+                    results = lineLexicon.get(nGram);
+                    results.add(lineInfo);
+                    lineLexicon.put(nGram, results);
+                } else {
+                    results.add(lineInfo);
+                    lineLexicon.put(nGram, results);
+                }
+                //System.out.println("className:"+line.getC());
+
+            }
+
+        }
+        lexicon = new Lexicon(qald9Dir);
+        lexicon.preparePropertyLexicon(directory, experimentID, interestingness, lineLexicon);
+        return lexicon;
     }
     
-     private static NewResultsMR readFromJsonFile(List<File> files) throws IOException, Exception {
+      private static NewResultsMR readFromJsonFile(List<File> files) throws IOException, Exception {
         Map<String, List<Rule>> classDistributions = new TreeMap<String, List<Rule>>();
         Discription description = null;
         Integer totalFiles = files.size();
@@ -134,6 +153,7 @@ public class ProcessFile implements ThresoldConstants {
 
             //LOGGER.log(Level.INFO, "now processing index:" + index + " total:" + totalFiles + "  file:" + fileName);
             ObjectMapper mapper = new ObjectMapper();
+            mapper.configure(JsonParser.Feature.ALLOW_UNQUOTED_CONTROL_CHARS, true);
             NewResultsMR resultTemp = mapper.readValue(file, NewResultsMR.class);
             description = resultTemp.getDescription();
             List<Rule> local = resultTemp.getDistributions();
@@ -157,66 +177,25 @@ public class ProcessFile implements ThresoldConstants {
         return parameters;
     }
 
+    private void setUpLog(Logger givenLOGGER) {
+        LOGGER = givenLOGGER;
+        LOGGER.setLevel(Level.FINE);
+        LOGGER.setLevel(Level.SEVERE);
+        LOGGER.setLevel(Level.CONFIG);
+        LOGGER.setLevel(Level.FINE);
+        LOGGER.addHandler(new ConsoleHandler());
+        LOGGER.addHandler(new LogHandler());
+        LOGGER.log(Level.INFO, "generate experiments given thresolds");
+        try {
+            //Handler fileHandler = new FileHandler(resourceDir + "logger.log", 2000, 1000);
+            Handler fileHandler = new FileHandler(resourceDir + "logger.log");
 
-    private static Lexicon createLexicon(String directory, String dbo_className, String dbo_prediction, String interestingness, NewResultsMR result, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
-        String key = dbo_className + "-" + dbo_prediction + "-" + interestingness;
-        Analyzer analyzer = null;
-        Lexicon lexicon = null;
-       
-        Integer numberOfRules=10;
-
-        Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
-        for (String className : result.getClassDistributions().keySet()) {
-            List<Rule> rules = result.getClassDistributions().get(className);
-            Integer index=0;
-            for (Rule line : rules) {
-                index=index+1;
-                if(index>=numberOfRules)
-                    break;
-                LineInfo lineInfo = new LineInfo(interestingness,line);
-                //LOGGER.log(Level.INFO, "line::" + lineInfo);
-
-                if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
-                    continue;
-                }
-                if (!lineInfo.getValidFlag()) {
-                    continue;
-                }
-                String word = lineInfo.getWord();
-                //System.out.println("word:" + word);
-
-                if (FormatAndMatch.isNumeric(lineInfo.getWord())) {
-                    continue;
-                }
-                if (isKBValid(lineInfo.getObject())) {
-                    continue;
-                }
-                String nGram = lineInfo.getWord().toLowerCase().trim().strip();
-                //LOGGER.log(Level.INFO, "class::" + line.getC());
-                //System.out.println("parts-of-sppech:" + lineInfo.getPartOfSpeech());
-                List<LineInfo> results = new ArrayList<LineInfo>();
-                if (lineLexicon.containsKey(nGram)) {
-                    results = lineLexicon.get(nGram);
-                    results.add(lineInfo);
-                    lineLexicon.put(nGram, results);
-                } else {
-                    results.add(lineInfo);
-                    lineLexicon.put(nGram, results);
-                }
-                //System.out.println("className:"+line.getC());
-               
-            }
-            
-
+            fileHandler.setFormatter(new LogFormatter());
+            fileHandler.setFilter(new LogFilter());
+            LOGGER.addHandler(fileHandler);
+        } catch (SecurityException | IOException e) {
+            e.printStackTrace();
         }
-        lexicon = new Lexicon(qald9Dir);
-        lexicon.preparePropertyLexicon(directory, experimentID, interestingness, lineLexicon);
-        System.out.println("-" + experimentID + "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-        System.out.println("JJ:" + lexicon.getLexiconPosTaggged().get(Analyzer.ADJECTIVE).size());
-        System.out.println("NN:" + lexicon.getLexiconPosTaggged().get(Analyzer.NOUN).size());
-        System.out.println("VB" + lexicon.getLexiconPosTaggged().get(Analyzer.VERB).size());
-        System.out.println("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-        return lexicon;
     }
 
     public static void main(String[] args) throws Exception {
@@ -227,10 +206,13 @@ public class ProcessFile implements ThresoldConstants {
         Logger LOGGER = Logger.getLogger(ProcessFile.class.getName());
         String prediction = predict_l_for_s_given_po;
         String associationRule = Coherence;
-        String outputDir = qald9Dir ;
+        String outputDir = qald9Dir;
         Map<String, ThresoldsExperiment> associationRulesExperiment = EvaluationMainTest.createExperiments();
 
-        ProcessFile ProcessFile = new ProcessFile(baseDir, outputDir,prediction, associationRule, associationRulesExperiment, LOGGER);
+        //for(String associationRule:interestingness){
+        ProcessFile ProcessFile = new ProcessFile(baseDir, outputDir, prediction, associationRulesExperiment, LOGGER);
+
+        //}
 
         /*for (String prediction : predictionLinguisticRules) {
             rawFileDir = baseDir + prediction + "/";

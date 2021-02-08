@@ -6,13 +6,16 @@
 package citec.correlation.wikipedia.utils;
 
 import citec.correlation.wikipedia.analyzer.Analyzer;
+import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
 import citec.correlation.wikipedia.dic.qald.Unit;
 import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
 import citec.correlation.wikipedia.main.CsvConstants;
+import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import citec.correlation.wikipedia.parameters.ThresoldsExperiment;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import com.opencsv.exceptions.CsvException;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -20,6 +23,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Stack;
 import java.util.TreeMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -161,26 +165,55 @@ public class CsvFile implements CsvConstants {
         }
     }
 
-    public void readCsv() throws IOException, CsvException {
+    public void readQaldCsv(String filename)  {
         List<String[]> rows = new ArrayList<String[]>();
         Map<String, Unit> qald = new TreeMap<String, Unit>();
-        try ( CSVReader reader = new CSVReader(new FileReader(this.filename))) {
+          Stack<String> stack = new Stack<String>();
+        try ( CSVReader reader = new CSVReader(new FileReader(filename))) {
             rows = reader.readAll();
             Integer index = 0;
+            String lastWord=null;String word=null;
             for (String[] row : rows) {
                 if (index == 0) {
                     this.qaldHeader = row;
                 } else {
-                    String word = row[0].trim().strip();
+                   
+                     word = row[0].trim().strip();
+                    
+                     if(!word.isEmpty())
+                    lastWord=word;
+                else
+                    word=lastWord;
+                
+                System.out.println("word!!!!!!!!!!!:"+word);
+                  
+                    
                     List<String[]> lines = new ArrayList<String[]>();
-                    if (this.wordRows.containsKey(word)) {
+                    /*if (this.wordRows.containsKey(word)) {
                         lines = this.wordRows.get(row);
-                    }
+                    }*/
                     lines.add(row);
-                    this.wordRows.put(word, lines);
+                    //this.wordRows.put(word, lines);
+                   
+
                 }
+                
+                   
+                
+                index=index+1;
             }
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (IOException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+        } catch (CsvException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
         }
+        catch (Exception ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        return;
     }
 
     public List<String> getObjects(String word) {
@@ -229,24 +262,6 @@ public class CsvFile implements CsvConstants {
         return str.substring(0, str.indexOf(">"));
     }
     
-     public static void main(String []args) {
-        // "Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001";
-        String experiment = "Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9";
-        String interestingness = "Cosine";
-        String []info=experiment.split("-");
-        String str=null;
-        str=experiment.replace(interestingness+"-", "");
-        str=str.replace("-"+interestingness, ">");
-        System.out.println(str.substring(0, str.indexOf(">")));
-        /*for(Integer index=0; info.length>index;index++){
-          System.out.println("index:"+info[index]);
-          str=info[index];
-        }
-         str=str+ "-" + "JJ";
-         System.out.println("experiment:"+experiment);
-         System.out.println("str:"+str);*/
-    }
-    
     public static String getInterestingnessThresold(String experiment, String interestingness) {
         String[] info = experiment.split("-");
         String str = null;
@@ -290,6 +305,27 @@ public class CsvFile implements CsvConstants {
         return csvData;
     }
 
-  
+     public static void main(String []args) {
+         String qaldFile="";
+         qaldFile=  qald9Dir + GOLD + "NN-object-qald9.csv";
+         CsvFile csvFile=new CsvFile(qaldFile);
+         csvFile.readQaldCsv(qaldFile);
+        // "Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001";
+        /*String experiment = "Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9";
+        String interestingness = "Cosine";
+        String []info=experiment.split("-");
+        String str=null;
+        str=experiment.replace(interestingness+"-", "");
+        str=str.replace("-"+interestingness, ">");
+        System.out.println(str.substring(0, str.indexOf(">")));*/
+        /*for(Integer index=0; info.length>index;index++){
+          System.out.println("index:"+info[index]);
+          str=info[index];
+        }
+         str=str+ "-" + "JJ";
+         System.out.println("experiment:"+experiment);
+         System.out.println("str:"+str);*/
+    }
+ 
 
 }

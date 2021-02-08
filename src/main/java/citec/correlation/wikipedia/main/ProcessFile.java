@@ -11,7 +11,6 @@ import citec.correlation.wikipedia.analyzer.logging.LogFilter;
 import citec.correlation.wikipedia.analyzer.logging.LogFormatter;
 import citec.correlation.wikipedia.analyzer.logging.LogHandler;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
-import static citec.correlation.wikipedia.main.EvaluationMainTest.isKBValid;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.resourceDir;
 import citec.correlation.wikipedia.parameters.ThresoldConstants;
@@ -207,7 +206,7 @@ public class ProcessFile implements ThresoldConstants {
         String prediction = predict_l_for_s_given_po;
         String associationRule = Coherence;
         String outputDir = qald9Dir;
-        Map<String, ThresoldsExperiment> associationRulesExperiment = EvaluationMainTest.createExperiments();
+        Map<String, ThresoldsExperiment> associationRulesExperiment = Evaluation.createExperiments();
 
         //for(String associationRule:interestingness){
         ProcessFile ProcessFile = new ProcessFile(baseDir, outputDir, prediction, associationRulesExperiment, LOGGER);
@@ -232,6 +231,14 @@ public class ProcessFile implements ThresoldConstants {
             }
 
         }*/
+    }
+    
+    public static boolean isKBValid(String word) {
+
+        if (word.contains("#integer") || word.contains("#double")) {
+            return true;
+        }
+        return false;
     }
 
     /*public static void readMR(List<File> files) throws IOException, Exception {

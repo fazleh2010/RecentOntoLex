@@ -82,12 +82,18 @@ public class Comparision {
     private void compersionsPattern(String experiment,String type) throws IOException {
         List<Pair<String,Map<String, Double>>> lexicon = new ArrayList<Pair<String,Map<String, Double>>>();
         List<Pair<String,Map<String, Boolean>>> qald_gold = new ArrayList<Pair<String,Map<String, Boolean>>>();
+         if (csvFile.getRow().keySet().isEmpty()) {
+            LOGGER.log(Level.WARNING, "qald file is empty!!::" );
+            throw new IOException("qald file is empty!!::");
+        }
+        
         if (lexiconDic.keySet().isEmpty()) {
             LOGGER.log(Level.WARNING, "No lexicon file is found::" );
             return;
         }
             
         //Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
+        LOGGER.log(Level.INFO, "csv:",csvFile.getRow().keySet().toString());
         List<String> commonWords = new ArrayList<String>(Sets.intersection(csvFile.getRow().keySet(), lexiconDic.keySet()));
         if (!commonWords.isEmpty()) {
             LOGGER.log(Level.INFO, "common pattern found between lexicon and qald-9");

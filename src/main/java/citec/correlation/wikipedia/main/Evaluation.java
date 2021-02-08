@@ -70,7 +70,7 @@ public class Evaluation implements ThresoldConstants {
     private static MaxentTagger taggerModel = new MaxentTagger(stanfordModelFile);
     private static Map<String, ThresoldsExperiment> allThresoldInterestingness = new TreeMap<String, ThresoldsExperiment>();
 
-    private static Logger LOGGER = Logger.getLogger(EvaluationMainTest.class.getName());
+    private static Logger LOGGER = Logger.getLogger(Evaluation.class.getName());
 
     public Evaluation() {
         classNames = getClassNames(inputDir);
@@ -106,7 +106,7 @@ public class Evaluation implements ThresoldConstants {
 
         String directory = qald9Dir + OBJECT + "/";
         String inputDir = dbpediaDir + "results/" + "new/MR/";
-        EvaluationMainTest evaluationMainTest = new EvaluationMainTest();
+        Evaluation evaluationMainTest = new Evaluation();
 
         String predict_l_for_s_given_po_dic = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/predict_l_for_s_given_po/dic/";
         String predict_l_for_s_given_po_meanR = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/predict_l_for_s_given_po/meanR/";
@@ -164,7 +164,6 @@ public class Evaluation implements ThresoldConstants {
             }
             String outputFileName = outputDir + "-VB-NN-JJ-" + prediction + "MeanR" + ".csv";
             CsvFile csvFile = new CsvFile(outputFileName, LOGGER);
-            System.out.println("outputFileName:" + outputFileName);
             csvFile.createCsvExperimentData(ruleExpeResult);
             //FileFolderUtils.writeExperMeanResultsToJsonFile(expeResult, outputFileName);
 
@@ -174,21 +173,28 @@ public class Evaluation implements ThresoldConstants {
     private static Map<String, MeanReciprocalCalculation> meanReciprocalValues(String interestiness, String experiment, String directory, List<File> fileList) throws IOException {
         Map<String, MeanReciprocalCalculation> meanReciprocals = new TreeMap<String, MeanReciprocalCalculation>();
         for (String posTag : Analyzer.POSTAGS) {
+            
+            if (!posTag.contains("NN")) {
+                continue;
+            }
 
             try {
                 File file = getFile(posTag, fileList);
                 String fileName = file.getName().replace(".json", "");
-                CsvFile qaldFile = FileFolderUtils.getQaldCsvFile(qald9Dir + GOLD, OBJECT, posTag);
+                String qaldFile = FileFolderUtils.getQaldCsvFile(qald9Dir + GOLD, OBJECT, posTag);
+                CsvFile csvFile=new CsvFile(qaldFile);
+                csvFile.readQaldCsv(qaldFile);
+                System.out.println(csvFile.getRow().keySet());
                 File conditionalFile = new File(directory + fileName + ".json");
                 //LOGGER.log(Level.INFO, "evaluate for part-of-speech::" + posTag);
                 //LOGGER.log(Level.INFO, "qald-9 file this parts-of-speech::" + qaldFile.getName());
                 LOGGER.log(Level.INFO, ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ");
                 LOGGER.log(Level.INFO, "calculating mean reciprocal for " + experiment);
                 LOGGER.log(Level.INFO, "take lexicon seperated by parts of speech: " + conditionalFile.getName());
-                LOGGER.log(Level.INFO, "take corresponsding qald-9 file " + qaldFile.getFilename());
+                LOGGER.log(Level.INFO, "take corresponsding qald-9 file " + csvFile.getFilename());
                 LOGGER.log(Level.INFO, "parts-of-speech: " + posTag);
 
-                Comparision comparision = new Comparision(qaldFile, conditionalFile, posTag, LOGGER, experiment, OBJECT);
+                Comparision comparision = new Comparision(csvFile, conditionalFile, posTag, LOGGER, experiment, OBJECT);
                 MeanReciprocalCalculation meanReciprocalCalculation = comparision.getMeanReciprocalResult();
 
                 if (posTag.contains("JJ")) {

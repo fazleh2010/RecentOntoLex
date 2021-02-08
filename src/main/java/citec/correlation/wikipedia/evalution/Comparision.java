@@ -11,6 +11,7 @@ import citec.correlation.wikipedia.dic.lexicon.LexiconUnit;
 import citec.correlation.wikipedia.results.ReciprocalResult;
 import citec.correlation.wikipedia.evalution.ir.IrAbstract;
 import citec.correlation.wikipedia.dic.qald.Unit;
+import citec.correlation.wikipedia.parameters.ThresoldConstants;
 import static citec.correlation.wikipedia.parameters.ThresoldConstants.predict_l_for_s_given_po;
 import citec.correlation.wikipedia.utils.CsvFile;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -25,7 +26,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
-import citec.correlation.wikipedia.utils.QaldTriple;
+import citec.correlation.wikipedia.utils.EvluationTriple;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvException;
 import java.io.File;
@@ -40,7 +41,7 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class Comparision {
+public class Comparision implements ThresoldConstants{
 
     private Map<String, LexiconUnit> lexiconDic = new TreeMap<String, LexiconUnit>();
     private CsvFile csvFile = null;
@@ -70,9 +71,7 @@ public class Comparision {
     public Comparision(File qaldFileName, File conditionalFilename, Boolean classSpecific, String className) throws IOException {
         if (!classSpecific) {
             this.lexiconDic = getLexicon(conditionalFilename);
-        } else {
-            this.lexiconDic = getLexiconPerClass(conditionalFilename, className);
-        }
+        } 
         //this.qaldDic = getQaldFromJson(qaldFileName);
     }
 
@@ -104,10 +103,10 @@ public class Comparision {
         }
 
         for (String word : lexiconDic.keySet()) {
-            /*if(!word.contains("canada"))
-                continue;*/
+            if(!word.contains("canada"))
+                continue;
             LexiconUnit lexiconElement = lexiconDic.get(word);
-            Map<String, Double> predict = this.getPredictMap(lexiconElement);
+            Map<String, Double> predict = this.getPredictMap(word,lexiconElement);
             Map<String, Boolean> goldRelevance = this.getGoldRelevance(word, predict, type);
             Pair<String, Map<String, Double>> predictPair = new Pair<String, Map<String, Double>>(word, predict);
             Pair<String, Map<String, Boolean>> goldRelevancePair = new Pair<String, Map<String, Boolean>>(word, goldRelevance);
@@ -197,63 +196,7 @@ public class Comparision {
         return lexicons;
     }
 
-    private Map<String, LexiconUnit> getLexiconPerClass(File conditionalFilename, String className) {
-        Map<String, LexiconUnit> lexicons = new TreeMap<String, LexiconUnit>();
-        ObjectMapper mapper = new ObjectMapper();
-
-        List<LexiconUnit> lexiconUnits = new ArrayList<LexiconUnit>();
-        try {
-            lexiconUnits = mapper.readValue(conditionalFilename, new TypeReference<List<LexiconUnit>>() {
-            });
-            for (LexiconUnit LexiconUnit : lexiconUnits) {
-                LinkedHashMap<Integer, List<String>> newEntityInfos = new LinkedHashMap<Integer, List<String>>();
-                Integer count = 0;
-                for (Integer index : LexiconUnit.getEntityInfos().keySet()) {
-                    System.out.println("Index:" + index);
-                    List<String> values = LexiconUnit.getEntityInfos().get(index);
-                    //List<String> selectedPair = new ArrayList<String>();
-                    Boolean found = false;
-                    String selectedElement = null;
-                    for (String eachElement : values) {
-                        if (eachElement.contains("=")) {
-                            String[] info = eachElement.split("=");
-                            if (info[0].contains("class")) {
-                                String classNameValue = info[1];
-                                if (classNameValue.contains(className)) {
-                                    System.out.println("selectedElement:" + eachElement);
-                                    selectedElement = eachElement;
-                                    found = true;
-                                    break;
-                                }
-                            }
-                        }
-                    }
-                    if (found) {
-                        count = count + 1;
-                        System.out.println("count:" + count + " values:" + values);
-                        newEntityInfos.put(count, values);
-
-                    }
-                    if (!newEntityInfos.isEmpty()) {
-                        LexiconUnit newLexiconUnit = new LexiconUnit(LexiconUnit, newEntityInfos);
-                        lexicons.put(LexiconUnit.getWord(), newLexiconUnit);
-                    }
-                }
-
-            }
-        } catch (IOException ex) {
-            System.out.println("no file is found for lexicon!!" + ex.getMessage());
-            return lexicons;
-        }
-
-        /*for(String key:lexicons.keySet()){
-            System.out.println(key);
-             LexiconUnit newLexiconUnit =lexicons.get(key);
-              System.out.println(newLexiconUnit);
-        }*/
-        return lexicons;
-    }
-
+   
     private Map<String, Unit> getQaldFromJson(File qaldFile) throws IOException {
         Map<String, Unit> qald = new TreeMap<String, Unit>();
         ObjectMapper mapper = new ObjectMapper();
@@ -280,16 +223,34 @@ public class Comparision {
         return new ArrayList<String>(intersection);
     }
 
-    private Map<String, Double> getPredictMap(LexiconUnit lexiconElement) {
+    /*private Map<String, Double> getPredictMap(LexiconUnit lexiconElement) {
         Map<String, Double> predict = new HashMap<String, Double>();
 
         for (Integer rank : lexiconElement.getEntityInfos().keySet()) {
             List<String> pairs = lexiconElement.getEntityInfos().get(rank);
+            System.out.println("pairs:"+pairs);
             String key = pairs.get(0).split("=")[1];
             key = this.getPredicate(key);
             key = key.strip();
             Double value = Double.parseDouble(pairs.get(1).split("=")[1]);
             predict.put(key, value);
+        }
+        return predict;
+    }*/
+    
+    private Map<String, Double> getPredictMap(String word,LexiconUnit lexiconElement) {
+        Map<String, Double> predict = new HashMap<String, Double>();
+        Integer pairIndex = 0, valueIndex = 1, tripleIndex = 2, classIndex = 3;
+
+        for (Integer rank : lexiconElement.getEntityInfos().keySet()) {
+            List<String> pairs = lexiconElement.getEntityInfos().get(rank);
+            String tripleStr = pairs.get(tripleIndex).split("=")[1];
+            String info[] = tripleStr.split(" ");
+            String predicate = info[1];
+            String object = info[2];
+            EvluationTriple triple = new EvluationTriple(LEXICON,this.predicationRule,rank.toString(),predicate,object,word);
+            Double value = Double.parseDouble(pairs.get(1).split("=")[1]);
+            predict.put(triple.getKey(), value);
         }
         return predict;
     }
@@ -300,6 +261,7 @@ public class Comparision {
         if (csvFile.getRow().containsKey(word)) {
             for (String predicatePattern : predict.keySet()) {
                 Boolean flag = this.isFoundinGold(word, predicatePattern);
+                 LOGGER.log(Level.INFO, "predicatePattern::" + predicatePattern);
                 goldRelevance.put(predicatePattern, flag);
                 if (flag) {
                     LOGGER.log(Level.INFO, "predicatePattern::" + predicatePattern);
@@ -327,17 +289,20 @@ public class Comparision {
 
     }
 
-    private Boolean isFoundinGold(String word, String object) {
-        List<QaldTriple> qaldPredicateObject = new ArrayList<QaldTriple>();
+    private Boolean isFoundinGold(String word, String lexiconStr) {
+        EvluationTriple lexiconTriple = new EvluationTriple(LEXICON, this.predicationRule, lexiconStr, word);
+        LOGGER.log(Level.INFO, "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::" + lexiconTriple);
+        List<EvluationTriple> qaldPredicateObject = new ArrayList<EvluationTriple>();
         if (predicationRule.contains(predict_l_for_s_given_po)) {
-            qaldPredicateObject = csvFile.getObjects(word);
-            for (QaldTriple triple : qaldPredicateObject) {
-                if (triple.getObject().contains(object)) {
-                    return Boolean.TRUE;
+            qaldPredicateObject = csvFile.getRowValues(word, this.predicationRule);
+            for (EvluationTriple qaldTriple : qaldPredicateObject) {
+                LOGGER.log(Level.INFO, "$$$$$$$$$$$ qaldTriple::" + qaldTriple);
+                if (EvluationTriple.match(lexiconTriple, qaldTriple, this.predicationRule)) {
+                    return true;
                 }
             }
         }
-        return Boolean.FALSE;
+        return false;
 
     }
 
@@ -349,4 +314,7 @@ public class Comparision {
         return meanReciprocalResult;
     }
 
+   
+
+   
 }

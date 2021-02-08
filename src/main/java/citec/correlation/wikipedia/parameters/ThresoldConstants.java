@@ -64,6 +64,9 @@ public interface ThresoldConstants {
             predict_l_for_s_given_o,
             predict_l_for_o_given_p,
             predict_l_for_s_given_po));
+     
+     public static final String LEXICON = "lexicon";
+     public static final String QALD = "qald";
 
 
 }

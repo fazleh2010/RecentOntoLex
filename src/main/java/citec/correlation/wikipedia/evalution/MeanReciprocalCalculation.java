@@ -75,6 +75,8 @@ public class MeanReciprocalCalculation implements Comparator{
                 "The size of predictions and gold should be identical, Usually not found element are in FALSE marked in gold");
         double mrr = 0;
 
+        LOGGER.log(Level.INFO, "checking  pattern of our lexicon with qald-9:");
+
         for (int i = 0; i < rankings.size(); i++) {
             Pair<String, Map<String, Double>> rankingsPredict = rankings.get(i);
             Pair<String, Map<String, Boolean>> wordGold = gold.get(i);
@@ -85,18 +87,27 @@ public class MeanReciprocalCalculation implements Comparator{
 
             if (reciprocalElement.getRank() > 0) {
                 this.patternFound.put(word, reciprocalElement);
-                LOGGER.log(Level.INFO, "checking :" + word+" "+"Rank::" + reciprocalElement.getRank()+" reciprocalRank::"+reciprocalElement.getReciprocalRank());
+                LOGGER.log(Level.INFO, "linguistic pattern in our lexicon:" + word);
+                LOGGER.log(Level.INFO, "$$$$$$$$$$$$$$ MATCHED with QALD $$$$$$$$$$$$$$:");
+                LOGGER.log(Level.INFO, "$$$$ detail of the pattern in our lexicon:" + rankingsPredict);
+                LOGGER.log(Level.INFO, rankingsPredict.toString());
+                LOGGER.log(Level.INFO, "$$$$ detail of the pattern in QALD:" + wordGold);
+                LOGGER.log(Level.INFO, "now checking the rank of the pattern in our lexicon");
+                LOGGER.log(Level.INFO, "$$$$ Found in rank :" + reciprocalElement.getRank());
+                LOGGER.log(Level.INFO, "$$$$ reciprocalRank::" + reciprocalElement.getReciprocalRank());
+                LOGGER.log(Level.INFO, "$$$$$$$$$$$$$$ Checking end $$$$$$$$$$$$$$:");
+
             } else {
                 patternNotFound.put(word, reciprocalElement);
-                //LOGGER.log(Level.INFO,"checking :" + word+" NOT FOUND!!:");
+                LOGGER.log(Level.INFO, "linguistic pattern in our lexicon:" + word);
+                LOGGER.log(Level.INFO, "@@@@@" + " NOT FOUND!!:");
             }
 
             mrr += reciprocalElement.getReciprocalRank();
-            
+
         }
 
         mrr /= rankings.size();
-        
 
         this.meanReciprocalRank = mrr;
         this.meanReciprocalRank = DoubleUtils.formatDouble(mrr);
@@ -121,9 +132,9 @@ public class MeanReciprocalCalculation implements Comparator{
             if (gold.containsKey(ranking.get(i))) {
 
                 if (gold.get(ranking.get(i))) {
-                    //System.out.println("ranking :" + ranking);
-                    //System.out.println("gold :" + gold);
-                    //System.out.println("match :" + ranking.get(i));
+                    System.out.println("ranking :" + ranking);
+                    System.out.println("gold :" + gold);
+                    System.out.println("match :" + ranking.get(i));
                     String predicate = ranking.get(i);
                     reciprocalRank = 1.0 / (i + 1);
                     Integer rank = (i + 1);

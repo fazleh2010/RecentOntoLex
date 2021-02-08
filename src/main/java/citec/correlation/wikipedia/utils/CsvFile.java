@@ -205,14 +205,14 @@ public class CsvFile implements CsvConstants {
 
     }
 
-    public List<QaldTriple> getObjects(String word) {
-        List<QaldTriple> triples = new ArrayList<QaldTriple>();
+    public List<EvluationTriple> getRowValues(String word,String predictionRule) {
+        List<EvluationTriple> triples = new ArrayList<EvluationTriple>();
         List<String[]> rows = wordRows.get(word);
         for (String[] row : rows) {
             String id = row[CsvConstants.idIndex];
             String predicate = row[CsvConstants.propertyIndex];
             String object = row[CsvConstants.objectIndex];
-            QaldTriple qaldTriple = new QaldTriple(id, predicate, object);
+            EvluationTriple qaldTriple = new EvluationTriple(QALD,predictionRule,id,predicate, object,word);
             triples.add(qaldTriple);
         }
         return triples;

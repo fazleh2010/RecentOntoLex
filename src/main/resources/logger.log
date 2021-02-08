@@ -9,44 +9,92 @@ INFO::parts-of-speech: NN
 INFO::csv:
 INFO::common pattern found between lexicon and qald-9
 INFO::[actor, african, air, airport, album, area, atlanta, australia, band, battle, book, brazil, brooklyn, building, california, canada, carolina, chemist, chicago, china, city, club, colombia, columbia, company, country, czech, denmark, england, family, fiction, florida, football, formula, foundation, france, game, germany, grand, heritage, hero, hockey, house, illinois, iran, ireland, island, italy]
-INFO::predicatePattern::
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=language, object=French_language, key=language French_language, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::language French_language
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=headquarter, object=Toronto, key=headquarter Toronto, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::headquarter Toronto
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=pushpinMap, object=Canada, key=pushpinMap Canada, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::pushpinMap Canada
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::location British_Columbia
+INFO::predicatePattern::location British_Columbia
 INFO::flag::true
-INFO::predicatePattern::Australia
-INFO::flag::true
-INFO::predicatePattern::Penguin_Books
-INFO::flag::true
-INFO::predicatePattern::California
-INFO::flag::true
-INFO::predicatePattern::Canada
-INFO::flag::true
-INFO::predicatePattern::Chicago
-INFO::flag::true
-INFO::predicatePattern::New_York_City
-INFO::flag::true
-INFO::predicatePattern::Czech_Republic
-INFO::flag::true
-INFO::predicatePattern::Florida
-INFO::flag::true
-INFO::predicatePattern::Germany
-INFO::flag::true
-INFO::predicatePattern::Illinois
-INFO::flag::true
-INFO::checking :airport Rank::26 reciprocalRank::0.038461538461538464
-INFO::checking :australia Rank::2 reciprocalRank::0.5
-INFO::checking :book Rank::23 reciprocalRank::0.043478260869565216
-INFO::checking :california Rank::7 reciprocalRank::0.14285714285714285
-INFO::checking :chicago Rank::3 reciprocalRank::0.3333333333333333
-INFO::checking :czech Rank::1 reciprocalRank::1.0
-INFO::checking :florida Rank::2 reciprocalRank::0.5
-INFO::checking :germany Rank::4 reciprocalRank::0.25
-INFO::checking :illinois Rank::7 reciprocalRank::0.14285714285714285
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=status, object="active", key=status "active", predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::status "active"
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=location, object=Nipissing_District, key=location Nipissing_District, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::location Nipissing_District
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=regionServed, object=Canada, key=regionServed Canada, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::regionServed Canada
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=status, object=active@en, key=status active@en, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::status active@en
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=pushpinMapCaption, object=Location, key=pushpinMapCaption Location, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::pushpinMapCaption Location
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=headquarters, object=Ottawa, key=headquarters Ottawa, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::headquarters Ottawa
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=partOf, object=James_Bay, key=partOf James_Bay, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::partOf James_Bay
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=operator, object=Government_of_Ontario, key=operator Government_of_Ontario, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::operator Government_of_Ontario
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=isPartOf, object=Hudson_Bay, key=isPartOf Hudson_Bay, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::isPartOf Hudson_Bay
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=headquarters, object=Ontario, key=headquarters Ontario, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::headquarters Ontario
+INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, id=null, predicate=riverSystem, object=Saint_Lawrence_River, key=riverSystem Saint_Lawrence_River, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
+INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
+INFO::predicatePattern::riverSystem Saint_Lawrence_River
+INFO::checking  pattern of our lexicon with qald-9:
+INFO::linguistic pattern in our lexicon:canada
+INFO::$$$$$$$$$$$$$$ MATCHED with QALD $$$$$$$$$$$$$$:
+INFO::$$$$ detail of the pattern in our lexicon:[canada, {language French_language=0.158333333333333, headquarter Toronto=0.274509803921569, pushpinMap Canada=0.432432432432432, location British_Columbia=0.44, status "active"=0.181818181818182, location Nipissing_District=0.467741935483871, regionServed Canada=0.241071428571429, status active@en=0.181818181818182, pushpinMapCaption Location=0.45, headquarters Ottawa=0.240740740740741, partOf James_Bay=0.477272727272727, operator Government_of_Ontario=0.432432432432432, isPartOf Hudson_Bay=0.469387755102041, headquarters Ontario=0.242857142857143, riverSystem Saint_Lawrence_River=0.333333333333333}]
+INFO::[canada, {language French_language=0.158333333333333, headquarter Toronto=0.274509803921569, pushpinMap Canada=0.432432432432432, location British_Columbia=0.44, status "active"=0.181818181818182, location Nipissing_District=0.467741935483871, regionServed Canada=0.241071428571429, status active@en=0.181818181818182, pushpinMapCaption Location=0.45, headquarters Ottawa=0.240740740740741, partOf James_Bay=0.477272727272727, operator Government_of_Ontario=0.432432432432432, isPartOf Hudson_Bay=0.469387755102041, headquarters Ontario=0.242857142857143, riverSystem Saint_Lawrence_River=0.333333333333333}]
+INFO::$$$$ detail of the pattern in QALD:[canada, {language French_language=false, headquarter Toronto=false, pushpinMap Canada=false, location British_Columbia=true, status "active"=false, location Nipissing_District=false, regionServed Canada=false, status active@en=false, pushpinMapCaption Location=false, headquarters Ottawa=false, partOf James_Bay=false, operator Government_of_Ontario=false, isPartOf Hudson_Bay=false, headquarters Ontario=false, riverSystem Saint_Lawrence_River=false}]
+INFO::now checking the rank of the pattern in our lexicon
+INFO::$$$$ Found in rank :5
+INFO::$$$$ reciprocalRank::0.2
+INFO::$$$$$$$$$$$$$$ Checking end $$$$$$$$$$$$$$:
+INFO::linguistic pattern in our lexicon:nova scotia canada
+INFO::@@@@@ NOT FOUND!!:
+INFO::linguistic pattern in our lexicon:ontario canada
+INFO::@@@@@ NOT FOUND!!:
+INFO::linguistic pattern in our lexicon:scotia canada
+INFO::@@@@@ NOT FOUND!!:
+INFO::linguistic pattern in our lexicon:yukon canada
+INFO::@@@@@ NOT FOUND!!:
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::experiment::Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001
 INFO::postag::NN
-INFO::meanReciprocalRank value::0.001206460000
-INFO::Lexicon size::2446
-INFO::number of pattern matched with Qald-9::9
-INFO::detail of matched pattern::{airport=ReciprocalResult{predicates=[], rank=26, reciprocalRank=0.038461538461538464}, australia=ReciprocalResult{predicates=[Australia], rank=2, reciprocalRank=0.5}, book=ReciprocalResult{predicates=[Penguin_Books], rank=23, reciprocalRank=0.043478260869565216}, california=ReciprocalResult{predicates=[California], rank=7, reciprocalRank=0.14285714285714285}, chicago=ReciprocalResult{predicates=[Chicago], rank=3, reciprocalRank=0.3333333333333333}, czech=ReciprocalResult{predicates=[Czech_Republic], rank=1, reciprocalRank=1.0}, florida=ReciprocalResult{predicates=[Florida], rank=2, reciprocalRank=0.5}, germany=ReciprocalResult{predicates=[Germany], rank=4, reciprocalRank=0.25}, illinois=ReciprocalResult{predicates=[Illinois], rank=7, reciprocalRank=0.14285714285714285}}
-INFO::number of pattern DOES NOT match with Qald-9::::2437
+INFO::meanReciprocalRank value::0.040000000000
+INFO::Lexicon size::5
+INFO::number of pattern matched with Qald-9::1
+INFO::detail of matched pattern::{canada=ReciprocalResult{predicates=[location British_Columbia], rank=5, reciprocalRank=0.2}}
+INFO::number of pattern DOES NOT match with Qald-9::::4
 FINE::>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::creating header of the file!!

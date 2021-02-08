@@ -9,6 +9,7 @@ import citec.correlation.wikipedia.results.ReciprocalResult;
 import citec.correlation.wikipedia.evalution.ir.IrAbstract;
 import citec.correlation.wikipedia.utils.DoubleUtils;
 import citec.correlation.wikipedia.utils.EvalutionUtil;
+import citec.correlation.wikipedia.utils.EvluationTriple;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -58,7 +59,7 @@ public class MeanReciprocalCalculation implements Comparator{
     @JsonIgnore
     private Map<String,ReciprocalResult> patternNotFound=new  TreeMap<String,ReciprocalResult>();
      @JsonIgnore
-    private Logger LOGGER=null;
+    private static Logger LOGGER=null;
 
     public MeanReciprocalCalculation() {
         
@@ -75,32 +76,23 @@ public class MeanReciprocalCalculation implements Comparator{
                 "The size of predictions and gold should be identical, Usually not found element are in FALSE marked in gold");
         double mrr = 0;
 
-        LOGGER.log(Level.INFO, "checking  pattern of our lexicon with qald-9:");
+        LOGGER.log(Level.INFO, ">>>>>>>>>>>>>>>>>>>>>>>>>>checking  linguistic pattern our lexicon:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
         for (int i = 0; i < rankings.size(); i++) {
             Pair<String, Map<String, Double>> rankingsPredict = rankings.get(i);
             Pair<String, Map<String, Boolean>> wordGold = gold.get(i);
             String word = rankingsPredict.getValue0();
 
+            LOGGER.log(Level.INFO, "now checking:" + word);
+
             ReciprocalResult reciprocalElement = getReciprocalRank(getKeysSortedByValue(rankingsPredict.getValue1(), DESCENDING),
                     wordGold.getValue1());
 
             if (reciprocalElement.getRank() > 0) {
                 this.patternFound.put(word, reciprocalElement);
-                LOGGER.log(Level.INFO, "linguistic pattern in our lexicon:" + word);
-                LOGGER.log(Level.INFO, "$$$$$$$$$$$$$$ MATCHED with QALD $$$$$$$$$$$$$$:");
-                LOGGER.log(Level.INFO, "$$$$ detail of the pattern in our lexicon:" + rankingsPredict);
-                LOGGER.log(Level.INFO, rankingsPredict.toString());
-                LOGGER.log(Level.INFO, "$$$$ detail of the pattern in QALD:" + wordGold);
-                LOGGER.log(Level.INFO, "now checking the rank of the pattern in our lexicon");
-                LOGGER.log(Level.INFO, "$$$$ Found in rank :" + reciprocalElement.getRank());
-                LOGGER.log(Level.INFO, "$$$$ reciprocalRank::" + reciprocalElement.getReciprocalRank());
-                LOGGER.log(Level.INFO, "$$$$$$$$$$$$$$ Checking end $$$$$$$$$$$$$$:");
-
             } else {
                 patternNotFound.put(word, reciprocalElement);
-                LOGGER.log(Level.INFO, "linguistic pattern in our lexicon:" + word);
-                LOGGER.log(Level.INFO, "@@@@@" + " NOT FOUND!!:");
+                LOGGER.log(Level.INFO, "@@@@@" + " the pattern NOT FOUND in QALD!!:");
             }
 
             mrr += reciprocalElement.getReciprocalRank();
@@ -132,12 +124,14 @@ public class MeanReciprocalCalculation implements Comparator{
             if (gold.containsKey(ranking.get(i))) {
 
                 if (gold.get(ranking.get(i))) {
-                    System.out.println("ranking :" + ranking);
-                    System.out.println("gold :" + gold);
-                    System.out.println("match :" + ranking.get(i));
                     String predicate = ranking.get(i);
                     reciprocalRank = 1.0 / (i + 1);
                     Integer rank = (i + 1);
+                    LOGGER.log(Level.INFO, "$$$$$$$$$$$$$$ PATTERN MATCHED with QALD $$$$$$$$$$$$$$:");
+                    LOGGER.log(Level.INFO, "$$$$ detail kbs :" +EvluationTriple.getString(ranking));
+                    LOGGER.log(Level.INFO, "$$$$ its rank::" + rank);
+                    LOGGER.log(Level.INFO, "$$$$ its reciprocalRank::" + reciprocalRank);
+                    LOGGER.log(Level.INFO, "$$$$$$$$$$$$$$ CHECKING END $$$$$$$$$$$$$$$$$$$$$$$$$$$$:");
                     return new ReciprocalResult(predicate, rank, reciprocalRank);
                 }
             }
@@ -221,7 +215,6 @@ public class MeanReciprocalCalculation implements Comparator{
         return "MeanReciprocalCalculation{" + "meanReciprocalRank=" + meanReciprocalRank + ", experiment=" + experiment + ", meanReciprocalRankStr=" + meanReciprocalRankStr + ", totalPattern=" + totalPattern + ", numberOfPatterrnFoundNonZeroRank=" + numberOfPatterrnFoundNonZeroRank + ", numberOfPatterrnFoundZeroRank=" + numberOfPatterrnFoundZeroRank + ", patternFound=" + patternFound + ", patternNotFound=" + patternNotFound + ", LOGGER=" + LOGGER + '}';
     }
 
-   
 
    
 }

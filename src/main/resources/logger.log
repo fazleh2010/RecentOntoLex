@@ -70,24 +70,37 @@ INFO::@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::EvluationTriple{type=null, 
 INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=location, object=British_Columbia, key=location British_Columbia, predictionRule=predict_l_for_s_given_po}
 INFO::$$$$$$$$$$$ qaldTriple::EvluationTriple{type=qald, id=null, predicate=capital, object=Canada, key=capital Canada, predictionRule=predict_l_for_s_given_po}
 INFO::predicatePattern::riverSystem Saint_Lawrence_River
-INFO::checking  pattern of our lexicon with qald-9:
-INFO::linguistic pattern in our lexicon:canada
-INFO::$$$$$$$$$$$$$$ MATCHED with QALD $$$$$$$$$$$$$$:
-INFO::$$$$ detail of the pattern in our lexicon:[canada, {language French_language=0.158333333333333, headquarter Toronto=0.274509803921569, pushpinMap Canada=0.432432432432432, location British_Columbia=0.44, status "active"=0.181818181818182, location Nipissing_District=0.467741935483871, regionServed Canada=0.241071428571429, status active@en=0.181818181818182, pushpinMapCaption Location=0.45, headquarters Ottawa=0.240740740740741, partOf James_Bay=0.477272727272727, operator Government_of_Ontario=0.432432432432432, isPartOf Hudson_Bay=0.469387755102041, headquarters Ontario=0.242857142857143, riverSystem Saint_Lawrence_River=0.333333333333333}]
-INFO::[canada, {language French_language=0.158333333333333, headquarter Toronto=0.274509803921569, pushpinMap Canada=0.432432432432432, location British_Columbia=0.44, status "active"=0.181818181818182, location Nipissing_District=0.467741935483871, regionServed Canada=0.241071428571429, status active@en=0.181818181818182, pushpinMapCaption Location=0.45, headquarters Ottawa=0.240740740740741, partOf James_Bay=0.477272727272727, operator Government_of_Ontario=0.432432432432432, isPartOf Hudson_Bay=0.469387755102041, headquarters Ontario=0.242857142857143, riverSystem Saint_Lawrence_River=0.333333333333333}]
-INFO::$$$$ detail of the pattern in QALD:[canada, {language French_language=false, headquarter Toronto=false, pushpinMap Canada=false, location British_Columbia=true, status "active"=false, location Nipissing_District=false, regionServed Canada=false, status active@en=false, pushpinMapCaption Location=false, headquarters Ottawa=false, partOf James_Bay=false, operator Government_of_Ontario=false, isPartOf Hudson_Bay=false, headquarters Ontario=false, riverSystem Saint_Lawrence_River=false}]
-INFO::now checking the rank of the pattern in our lexicon
-INFO::$$$$ Found in rank :5
-INFO::$$$$ reciprocalRank::0.2
-INFO::$$$$$$$$$$$$$$ Checking end $$$$$$$$$$$$$$:
-INFO::linguistic pattern in our lexicon:nova scotia canada
-INFO::@@@@@ NOT FOUND!!:
-INFO::linguistic pattern in our lexicon:ontario canada
-INFO::@@@@@ NOT FOUND!!:
-INFO::linguistic pattern in our lexicon:scotia canada
-INFO::@@@@@ NOT FOUND!!:
-INFO::linguistic pattern in our lexicon:yukon canada
-INFO::@@@@@ NOT FOUND!!:
+INFO::>>>>>>>>>>>>>>>>>>>>>>>>>>checking  linguistic pattern our lexicon:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+INFO::now checking:canada
+INFO::$$$$$$$$$$$$$$ PATTERN MATCHED with QALD $$$$$$$$$$$$$$:
+INFO::$$$$ detail kbs :
+1 predicate-object pair: partOf James_Bay
+2 predicate-object pair: isPartOf Hudson_Bay
+3 predicate-object pair: location Nipissing_District
+4 predicate-object pair: pushpinMapCaption Location
+5 predicate-object pair: location British_Columbia
+6 predicate-object pair: pushpinMap Canada
+7 predicate-object pair: operator Government_of_Ontario
+8 predicate-object pair: riverSystem Saint_Lawrence_River
+9 predicate-object pair: headquarter Toronto
+10 predicate-object pair: headquarters Ontario
+11 predicate-object pair: regionServed Canada
+12 predicate-object pair: headquarters Ottawa
+13 predicate-object pair: status "active"
+14 predicate-object pair: status active@en
+15 predicate-object pair: language French_language
+
+INFO::$$$$ its rank::5
+INFO::$$$$ its reciprocalRank::0.2
+INFO::$$$$$$$$$$$$$$ CHECKING END $$$$$$$$$$$$$$$$$$$$$$$$$$$$:
+INFO::now checking:nova scotia canada
+INFO::@@@@@ the pattern NOT FOUND in QALD!!:
+INFO::now checking:ontario canada
+INFO::@@@@@ the pattern NOT FOUND in QALD!!:
+INFO::now checking:scotia canada
+INFO::@@@@@ the pattern NOT FOUND in QALD!!:
+INFO::now checking:yukon canada
+INFO::@@@@@ the pattern NOT FOUND in QALD!!:
 FINE::>>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 INFO::experiment::Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001
 INFO::postag::NN

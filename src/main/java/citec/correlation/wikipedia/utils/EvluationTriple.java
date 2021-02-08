@@ -6,6 +6,7 @@
 package citec.correlation.wikipedia.utils;
 
 import citec.correlation.wikipedia.parameters.ThresoldConstants;
+import java.util.List;
 
 /**
  *
@@ -14,7 +15,6 @@ import citec.correlation.wikipedia.parameters.ThresoldConstants;
 public class EvluationTriple implements ThresoldConstants {
 
    
-
     private String type = null;
     private String id = null;
     private String predicate = null;
@@ -121,5 +121,21 @@ public class EvluationTriple implements ThresoldConstants {
             this.predicate = predicate;
         }
     }
+    
+    public static String getString(List<String> ranking) {
+        String str="\n";
+        Integer index=1;
+        for (String key : ranking) {
+             String[] info = key.split(" ");
+             String predicate = info[0];
+             String object = info[1];
+             String line=index.toString()+" predicate-object pair: "+predicate+" "+ object+ "\n";
+             str+=line;
+             index=index+1;
+        }
+        return str;
+    }
+
+
 
 }

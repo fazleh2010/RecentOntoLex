@@ -184,7 +184,6 @@ public class Evaluation implements ThresoldConstants {
                 String qaldFile = FileFolderUtils.getQaldCsvFile(qald9Dir + GOLD, OBJECT, posTag);
                 CsvFile csvFile=new CsvFile(qaldFile);
                 csvFile.readQaldCsv(qaldFile);
-                System.out.println(csvFile.getRow().keySet());
                 File conditionalFile = new File(directory + fileName + ".json");
                 //LOGGER.log(Level.INFO, "evaluate for part-of-speech::" + posTag);
                 //LOGGER.log(Level.INFO, "qald-9 file this parts-of-speech::" + qaldFile.getName());

@@ -104,6 +104,8 @@ public class Comparision {
         }
           
         for (String word : lexiconDic.keySet()) {
+            /*if(!word.contains("canada"))
+                continue;*/
             LexiconUnit lexiconElement = lexiconDic.get(word);
             Map<String, Double> predict = this.getPredictMap(lexiconElement);
             Map<String, Boolean> goldRelevance = this.getGoldRelevance(word, predict,type);
@@ -112,9 +114,7 @@ public class Comparision {
             lexicon.add(predictPair);
             qald_gold.add(goldRelevancePair);
         }
-        System.out.println("lexicon:"+lexicon);
-        System.out.println("qald_gold:"+qald_gold);
-
+     
         this. meanReciprocalResult =new MeanReciprocalCalculation(experiment,lexicon, qald_gold,LOGGER);
         LOGGER.log(Level.FINE, ">>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
         LOGGER.log(Level.INFO, "experiment::"+experiment);
@@ -391,14 +391,16 @@ public class Comparision {
     
     private Map<String, Boolean> getGoldRelevance(String word, Map<String, Double> predict,String object) {
         Map<String, Boolean> goldRelevance = new HashMap<String, Boolean>();
-        
-        
-
+     
         if (csvFile.getRow().containsKey(word)) {
            List<String> qaldPredicates =csvFile.getObjects(word);
             //List<String> qaldPredicates = new ArrayList<String>(qaldElement.getPairs());
             for (String predicatePattern : predict.keySet()) {
+               
                 if (qaldPredicates.contains(predicatePattern)) {
+                     //LOGGER.log(Level.INFO, "checking word in qald::"+word);
+                     //LOGGER.log(Level.INFO, "object::"+qaldPredicates);
+                     //LOGGER.log(Level.INFO, "MATCHED predicatePattern::"+predicatePattern);
                     goldRelevance.put(predicatePattern, Boolean.TRUE);
                 } else {
                     goldRelevance.put(predicatePattern, Boolean.FALSE);

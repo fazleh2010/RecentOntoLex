@@ -41,8 +41,8 @@ public interface CsvConstants extends TextAnalyzer,ThresoldConstants {
 
     public static Integer Wordindex = 0;
     public static Integer idIndex = 1;
-    public static Integer objectIndex = 2;
-    public static Integer propertyIndex = 3;
+    public static Integer objectIndex = 3;
+    public static Integer propertyIndex = 2;
     
     
     public static Integer CosineIndex = 1;

@@ -21,8 +21,10 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.Stack;
 import java.util.TreeMap;
 import java.util.logging.Level;
@@ -80,58 +82,59 @@ public class CsvFile implements CsvConstants {
     }
 
     public void createCsvExperimentData(Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult) {
-      
+
         ThresoldsExperiment thresoldsExperiment = new ThresoldsExperiment();
         List<String[]> csvData = new ArrayList<String[]>();
-        Integer coulmnSize = (thresoldsExperiment.interestingness.size() * thresoldsExperiment.AllConfList.size() * POSTAGS.size()) + 1;        
-        csvData = this.setHeader(coulmnSize,thresoldsExperiment);
-        
+        Integer coulmnSize = (thresoldsExperiment.interestingness.size() * thresoldsExperiment.AllConfList.size() * POSTAGS.size()) + 1;
+        csvData = this.setHeader(coulmnSize, thresoldsExperiment);
+
         LOGGER.log(Level.INFO, "creating header of the file!!");
 
         Map<String, Map<String, String>> experimentPosResults = new TreeMap<String, Map<String, String>>();
         for (String rule : ruleExpeResult.keySet()) {
-          
+
             Map<String, Map<String, MeanReciprocalCalculation>> ruleResult = ruleExpeResult.get(rule);
             for (String experiment : ruleResult.keySet()) {
-                
+
                 Map<String, MeanReciprocalCalculation> parts_of_speech = ruleResult.get(experiment);
-                experiment=getExperiment(experiment,rule);
+                experiment = getExperiment(experiment, rule);
                 Map<String, String> posResults = new TreeMap<String, String>();
                 for (String postag : parts_of_speech.keySet()) {
                     String mean = parts_of_speech.get(postag).getMeanReciprocalRankStr();
                     posResults.put(postag, mean);
                 }
-                Map<String, String> temp =new HashMap<String,String>();
+                Map<String, String> temp = new HashMap<String, String>();
                 if (experimentPosResults.containsKey(experiment)) {
                     temp = experimentPosResults.get(experiment);
                     temp.putAll(posResults);
                     experimentPosResults.put(experiment, temp);
-                } else
+                } else {
                     experimentPosResults.put(experiment, posResults);
+                }
             }
-            
+
         }
-        System.out.println("experimentPosResults:"+experimentPosResults);
-     
+        System.out.println("experimentPosResults:" + experimentPosResults);
+
         for (String experiment : experimentPosResults.keySet()) {
-            System.out.println("experiment:"+experiment);
+            System.out.println("experiment:" + experiment);
             String[] record = new String[coulmnSize];
             record[0] = experiment;
             //record[coulmnSize+1] = "result";
             Map<String, String> parts_of_speech = experimentPosResults.get(experiment);
-            System.out.println("parts_of_speech:"+parts_of_speech);
+            System.out.println("parts_of_speech:" + parts_of_speech);
             for (String element : parts_of_speech.keySet()) {
                 String value = parts_of_speech.get(element);
                 if (interestingnessIndexes.containsKey(element)) {
                     Integer elmentIndex = interestingnessIndexes.get(element);
                     record[elmentIndex] = value;
-                    System.out.println("element:"+element+" value:"+value);
+                    System.out.println("element:" + element + " value:" + value);
 
                 }
             }
             csvData.add(record);
         }
-        
+
 
         /*for (String experiment : experimentPosResults.keySet()) {
             String[] record = new String[coulmnSize];
@@ -149,7 +152,6 @@ public class CsvFile implements CsvConstants {
             }
             csvData.add(record);
         }*/
-        
         writeToCSV(csvData);
     }
 
@@ -165,55 +167,42 @@ public class CsvFile implements CsvConstants {
         }
     }
 
-    public void readQaldCsv(String filename)  {
+    public void readQaldCsv(String filename) throws FileNotFoundException, IOException, CsvException {
         List<String[]> rows = new ArrayList<String[]>();
         Map<String, Unit> qald = new TreeMap<String, Unit>();
-          Stack<String> stack = new Stack<String>();
+        Stack<String> stack = new Stack<String>();
         try ( CSVReader reader = new CSVReader(new FileReader(filename))) {
             rows = reader.readAll();
             Integer index = 0;
-            String lastWord=null;String word=null;
+            String lastWord = null;
+            String word = null;
             for (String[] row : rows) {
                 if (index == 0) {
                     this.qaldHeader = row;
                 } else {
-                   
-                     word = row[0].trim().strip();
-                    
-                     if(!word.isEmpty())
-                    lastWord=word;
-                else
-                    word=lastWord;
-                
-                System.out.println("word!!!!!!!!!!!:"+word);
-                  
-                    
+
+                    word = row[0].trim().strip();
+
+                    if (!word.isEmpty()) {
+                        lastWord = word;
+                    } else {
+                        word = lastWord;
+                    }
+
+                    System.out.println("word!!!!!!!!!!!:" + word);
                     List<String[]> lines = new ArrayList<String[]>();
-                    /*if (this.wordRows.containsKey(word)) {
-                        lines = this.wordRows.get(row);
-                    }*/
+                    if (this.wordRows.containsKey(word)) {
+                        lines = this.wordRows.get(word);
+                    }
                     lines.add(row);
-                    //this.wordRows.put(word, lines);
-                   
+                    this.wordRows.put(word, lines);
 
                 }
-                
-                   
-                
-                index=index+1;
+
+                index = index + 1;
             }
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (IOException ex) {
-            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
-        } catch (CsvException ex) {
-            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        catch (Exception ex) {
-            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        return;
+        } 
+
     }
 
     public List<String> getObjects(String word) {
@@ -253,7 +242,7 @@ public class CsvFile implements CsvConstants {
         }
         return qaldHeader;
     }
-    
+
     public String getExperiment(String experiment, String interestingness) {
         String[] info = experiment.split("-");
         String str = null;
@@ -261,7 +250,7 @@ public class CsvFile implements CsvConstants {
         str = str.replace("-" + interestingness, ">");
         return str.substring(0, str.indexOf(">"));
     }
-    
+
     public static String getInterestingnessThresold(String experiment, String interestingness) {
         String[] info = experiment.split("-");
         String str = null;
@@ -305,11 +294,11 @@ public class CsvFile implements CsvConstants {
         return csvData;
     }
 
-     public static void main(String []args) {
-         String qaldFile="";
-         qaldFile=  qald9Dir + GOLD + "NN-object-qald9.csv";
-         CsvFile csvFile=new CsvFile(qaldFile);
-         csvFile.readQaldCsv(qaldFile);
+    public static void main(String[] args) throws IOException, FileNotFoundException, CsvException {
+        String qaldFile = "";
+        qaldFile = qald9Dir + GOLD + "NN-object-qald9.csv";
+        CsvFile csvFile = new CsvFile(qaldFile);
+        csvFile.readQaldCsv(qaldFile);
         // "Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001";
         /*String experiment = "Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9";
         String interestingness = "Cosine";
@@ -318,7 +307,7 @@ public class CsvFile implements CsvConstants {
         str=experiment.replace(interestingness+"-", "");
         str=str.replace("-"+interestingness, ">");
         System.out.println(str.substring(0, str.indexOf(">")));*/
-        /*for(Integer index=0; info.length>index;index++){
+ /*for(Integer index=0; info.length>index;index++){
           System.out.println("index:"+info[index]);
           str=info[index];
         }
@@ -326,6 +315,5 @@ public class CsvFile implements CsvConstants {
          System.out.println("experiment:"+experiment);
          System.out.println("str:"+str);*/
     }
- 
 
 }

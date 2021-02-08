@@ -205,13 +205,17 @@ public class CsvFile implements CsvConstants {
 
     }
 
-    public List<String> getObjects(String word) {
-        List<String> kbs = new ArrayList<String>();
+    public List<QaldTriple> getObjects(String word) {
+        List<QaldTriple> triples = new ArrayList<QaldTriple>();
         List<String[]> rows = wordRows.get(word);
         for (String[] row : rows) {
-            kbs.add(row[objectIndex]);
+            String id = row[CsvConstants.idIndex];
+            String predicate = row[CsvConstants.propertyIndex];
+            String object = row[CsvConstants.objectIndex];
+            QaldTriple qaldTriple = new QaldTriple(id, predicate, object);
+            triples.add(qaldTriple);
         }
-        return kbs;
+        return triples;
     }
 
     public String getFilename() {

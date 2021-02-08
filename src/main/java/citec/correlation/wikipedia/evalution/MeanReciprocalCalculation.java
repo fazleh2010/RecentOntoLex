@@ -88,7 +88,7 @@ public class MeanReciprocalCalculation implements Comparator{
                 LOGGER.log(Level.INFO, "checking :" + word+" "+"Rank::" + reciprocalElement.getRank()+" reciprocalRank::"+reciprocalElement.getReciprocalRank());
             } else {
                 patternNotFound.put(word, reciprocalElement);
-                LOGGER.log(Level.INFO,"checking :" + word+" NOT FOUND!!:");
+                //LOGGER.log(Level.INFO,"checking :" + word+" NOT FOUND!!:");
             }
 
             mrr += reciprocalElement.getReciprocalRank();

@@ -152,7 +152,7 @@ public class Evaluation implements ThresoldConstants {
 
                 for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
                     List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, interestingness, experiment, ".json").getValue1();
-                    Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(interestingness, experiment, directory, expFileList);
+                    Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(prediction,interestingness, experiment, directory, expFileList);
                     if (!meanReciprocalsPos.isEmpty()) {
                         expeResult.put(experiment, meanReciprocalsPos);
                     }
@@ -170,7 +170,7 @@ public class Evaluation implements ThresoldConstants {
         }
     }
 
-    private static Map<String, MeanReciprocalCalculation> meanReciprocalValues(String interestiness, String experiment, String directory, List<File> fileList) throws IOException {
+    private static Map<String, MeanReciprocalCalculation> meanReciprocalValues(String predictionRule,String interestiness, String experiment, String directory, List<File> fileList) throws IOException {
         Map<String, MeanReciprocalCalculation> meanReciprocals = new TreeMap<String, MeanReciprocalCalculation>();
         for (String posTag : Analyzer.POSTAGS) {
             
@@ -193,7 +193,7 @@ public class Evaluation implements ThresoldConstants {
                 LOGGER.log(Level.INFO, "take corresponsding qald-9 file " + csvFile.getFilename());
                 LOGGER.log(Level.INFO, "parts-of-speech: " + posTag);
 
-                Comparision comparision = new Comparision(csvFile, conditionalFile, posTag, LOGGER, experiment, OBJECT);
+                Comparision comparision = new Comparision(predictionRule,csvFile, conditionalFile, posTag, LOGGER, experiment, OBJECT);
                 MeanReciprocalCalculation meanReciprocalCalculation = comparision.getMeanReciprocalResult();
 
                 if (posTag.contains("JJ")) {

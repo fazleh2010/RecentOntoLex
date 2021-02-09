@@ -1,0 +1,54 @@
+[ {
+  "id" : 1,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Germany@en", "AllConf=0.914529914529915", "triple=e dbp:country Germany@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "greek",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Greece@en", "AllConf=0.936708860759494", "triple=e dbp:country Greece@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "hebrew",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Israel", "AllConf=0.934782608695652", "triple=e dbo:country Israel", "class=PoliticalParty" ],
+    "1" : [ "pair=Israel@en", "AllConf=0.92948717948718", "triple=e dbp:country Israel@en", "class=PoliticalParty" ],
+    "2" : [ "pair=Most MKs@en", "AllConf=0.922330097087379", "triple=e dbp:seats1Title Most MKs@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "hungarian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Hungary@en", "AllConf=0.932038834951456", "triple=e dbp:country Hungary@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Rome", "AllConf=0.900990099009901", "triple=e dbo:headquarter Rome", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "political",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Senate_of_the_Republic_(Italy)", "AllConf=0.91304347826087", "triple=e dbp:seats2Title Senate_of_the_Republic_(Italy)", "class=PoliticalParty" ],
+    "1" : [ "pair=Rome", "AllConf=0.910891089108911", "triple=e dbo:headquarter Rome", "class=PoliticalParty" ],
+    "2" : [ "pair=Chamber_of_Deputies_(Italy)", "AllConf=0.909836065573771", "triple=e dbp:seats1Title Chamber_of_Deputies_(Italy)", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "ukrainian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Ukraine@en", "AllConf=0.918181818181818", "triple=e dbp:country Ukraine@en", "class=PoliticalParty" ]
+  }
+} ]

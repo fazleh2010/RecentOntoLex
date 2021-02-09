@@ -146,9 +146,9 @@ public class Evaluation implements ThresoldConstants {
                 ThresoldsExperiment thresoldsExperiment = allThresoldInterestingness.get(interestingness);
                 Map<String, Map<String, MeanReciprocalCalculation>> expeResult = new TreeMap<String, Map<String, MeanReciprocalCalculation>>();
 
-                adjectives = new ArrayList<MeanReciprocalCalculation>();
+                /*adjectives = new ArrayList<MeanReciprocalCalculation>();
                 verbs = new ArrayList<MeanReciprocalCalculation>();
-                nouns = new ArrayList<MeanReciprocalCalculation>();
+                nouns = new ArrayList<MeanReciprocalCalculation>();*/
 
                 for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
                     List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, interestingness, experiment, ".json").getValue1();
@@ -156,7 +156,7 @@ public class Evaluation implements ThresoldConstants {
                     if (!meanReciprocalsPos.isEmpty()) {
                         expeResult.put(experiment, meanReciprocalsPos);
                     }
-                  break;
+                  
                 }
                 
                 ruleExpeResult.put(interestingness, expeResult);
@@ -196,7 +196,7 @@ public class Evaluation implements ThresoldConstants {
                 Comparision comparision = new Comparision(predictionRule,csvFile, conditionalFile, posTag, LOGGER, experiment, OBJECT);
                 MeanReciprocalCalculation meanReciprocalCalculation = comparision.getMeanReciprocalResult();
 
-                if (posTag.contains("JJ")) {
+                /*if (posTag.contains("JJ")) {
                     adjectives.add(meanReciprocalCalculation);
                 }
                 if (posTag.contains("VB")) {
@@ -204,13 +204,13 @@ public class Evaluation implements ThresoldConstants {
                 }
                 if (posTag.contains("NN")) {
                     nouns.add(meanReciprocalCalculation);
-                }
+                }*/
                 //String key=this.getInterestingnessThresold(experiment,interestiness);
                 //String str=experiment.replace(interestiness, experiment);
 
-                System.out.println("experiment:" + experiment);
+                //System.out.println("experiment:" + experiment);
                 String key = getInterestingnessThresold(experiment, interestiness) + "-" + posTag;
-                System.out.println("key:" + key);
+                //System.out.println("key:" + key);
                 meanReciprocals.put(key, comparision.getMeanReciprocalResult());
 
             } catch (Exception exp) {

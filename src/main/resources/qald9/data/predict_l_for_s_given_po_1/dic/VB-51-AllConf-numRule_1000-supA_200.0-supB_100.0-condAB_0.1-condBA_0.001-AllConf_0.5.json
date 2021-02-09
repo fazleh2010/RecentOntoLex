@@ -1,0 +1,24 @@
+[ {
+  "id" : 2,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Retired@en", "AllConf=0.715263518138262", "triple=e dbp:currentteam Retired@en", "class=Cyclist" ],
+    "1" : [ "pair=Track_cycling", "AllConf=0.688172043010753", "triple=e dbp:discipline Track_cycling", "class=Cyclist" ],
+    "2" : [ "pair=Sprinter@en", "AllConf=0.679738562091503", "triple=e dbp:ridertype Sprinter@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "designed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Bertrand@en", "AllConf=0.855218855218855", "triple=e dbp:ref Bertrand@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Bertrand@en", "AllConf=0.858585858585859", "triple=e dbp:ref Bertrand@en", "class=Aircraft" ]
+  }
+} ]

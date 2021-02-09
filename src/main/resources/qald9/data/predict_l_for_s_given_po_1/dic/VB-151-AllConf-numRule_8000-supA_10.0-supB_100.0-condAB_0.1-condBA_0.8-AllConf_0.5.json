@@ -1,0 +1,331 @@
+[ {
+  "id" : 57,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Round 1, 2017@en", "AllConf=0.796116504854369", "triple=e dbp:debutdate Round 1, 2017@en", "class=AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=Australia_international_rules_football_team", "AllConf=0.777777777777778", "triple=e dbp:nationalteam Australia_international_rules_football_team", "class=AustralianRulesFootballPlayer" ],
+    "2" : [ "pair=the 2020 season@en", "AllConf=0.757475083056478", "triple=e dbp:statsend the 2020 season@en", "class=AustralianRulesFootballPlayer" ],
+    "3" : [ "pair=Aris_B.C.", "AllConf=0.674242424242424", "triple=e dbp:team Aris_B.C.", "class=BasketballPlayer" ],
+    "4" : [ "pair=\"1999\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.651376146788991", "triple=e dbo:draftYear \"1999\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "5" : [ "pair=\"2017\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.65", "triple=e dbo:activeYearsEndYear \"2017\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "6" : [ "pair=Salt_Lake_City_Stars", "AllConf=0.649122807017544", "triple=e dbp:team Salt_Lake_City_Stars", "class=BasketballPlayer" ],
+    "7" : [ "pair=P.A.O.K._BC", "AllConf=0.647058823529412", "triple=e dbp:team P.A.O.K._BC", "class=BasketballPlayer" ],
+    "8" : [ "pair=\"2016\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.642276422764228", "triple=e dbo:activeYearsStartYear \"2016\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "9" : [ "pair=SFR_Yugoslavia", "AllConf=0.630434782608696", "triple=e dbo:birthPlace SFR_Yugoslavia", "class=BasketballPlayer" ],
+    "10" : [ "pair=Panionios_B.C.", "AllConf=0.627906976744186", "triple=e dbp:team Panionios_B.C.", "class=BasketballPlayer" ],
+    "11" : [ "pair=\"2001\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.623376623376623", "triple=e dbo:activeYearsStartYear \"2001\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "12" : [ "pair=Greek_Basketball_Cup", "AllConf=0.621428571428571", "triple=e dbo:award Greek_Basketball_Cup", "class=BasketballPlayer" ],
+    "13" : [ "pair=Valencia_Basket", "AllConf=0.619469026548673", "triple=e dbp:team Valencia_Basket", "class=BasketballPlayer" ],
+    "14" : [ "pair=Charlotte_Hornets", "AllConf=0.614864864864865", "triple=e dbp:team Charlotte_Hornets", "class=BasketballPlayer" ],
+    "15" : [ "pair=\"2007\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.608510638297872", "triple=e dbo:activeYearsStartYear \"2007\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "16" : [ "pair=\"2015\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.608433734939759", "triple=e dbo:activeYearsEndYear \"2015\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "17" : [ "pair=Galatasaray_S.K._(men's_basketball)", "AllConf=0.605263157894737", "triple=e dbp:team Galatasaray_S.K._(men's_basketball)", "class=BasketballPlayer" ],
+    "18" : [ "pair=Cleveland_Cavaliers", "AllConf=0.602678571428571", "triple=e dbp:team Cleveland_Cavaliers", "class=BasketballPlayer" ],
+    "19" : [ "pair=\"2011\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.601694915254237", "triple=e dbo:activeYearsEndYear \"2011\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "20" : [ "pair=\"2009\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.6", "triple=e dbo:activeYearsStartYear \"2009\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "21" : [ "pair=Panathinaikos_B.C.", "AllConf=0.598360655737705", "triple=e dbp:team Panathinaikos_B.C.", "class=BasketballPlayer" ],
+    "22" : [ "pair=Turkish@en", "AllConf=0.598360655737705", "triple=e dbp:nationality Turkish@en", "class=BasketballPlayer" ],
+    "23" : [ "pair=Head_coach", "AllConf=0.597938144329897", "triple=e dbo:position Head_coach", "class=BasketballPlayer" ],
+    "24" : [ "pair=\"2014\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.595505617977528", "triple=e dbo:activeYearsStartYear \"2014\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "25" : [ "pair=KK_Olimpija", "AllConf=0.594594594594595", "triple=e dbp:team KK_Olimpija", "class=BasketballPlayer" ],
+    "26" : [ "pair=Olympiacos_B.C.", "AllConf=0.59375", "triple=e dbp:team Olympiacos_B.C.", "class=BasketballPlayer" ],
+    "27" : [ "pair=Minnesota_Timberwolves", "AllConf=0.590604026845638", "triple=e dbp:team Minnesota_Timberwolves", "class=BasketballPlayer" ],
+    "28" : [ "pair=Basketball_Champions_League", "AllConf=0.587719298245614", "triple=e dbo:league Basketball_Champions_League", "class=BasketballPlayer" ],
+    "29" : [ "pair=Virtus_Bologna", "AllConf=0.586538461538462", "triple=e dbp:team Virtus_Bologna", "class=BasketballPlayer" ],
+    "30" : [ "pair=\"2004\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.584745762711864", "triple=e dbo:draftYear \"2004\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "31" : [ "pair=Utah_Jazz", "AllConf=0.584415584415584", "triple=e dbp:team Utah_Jazz", "class=BasketballPlayer" ],
+    "32" : [ "pair=Orlando_Magic", "AllConf=0.583333333333333", "triple=e dbp:team Orlando_Magic", "class=BasketballPlayer" ],
+    "33" : [ "pair=Socialist_Republic_of_Croatia", "AllConf=0.581818181818182", "triple=e dbp:birthPlace Socialist_Republic_of_Croatia", "class=BasketballPlayer" ],
+    "34" : [ "pair=Greek_Basket_League", "AllConf=0.581081081081081", "triple=e dbo:award Greek_Basket_League", "class=BasketballPlayer" ],
+    "35" : [ "pair=\"2010\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.580952380952381", "triple=e dbo:activeYearsEndYear \"2010\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "36" : [ "pair=\"2012\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.580508474576271", "triple=e dbo:draftYear \"2012\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "37" : [ "pair=\"2013\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.579710144927536", "triple=e dbo:activeYearsEndYear \"2013\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "38" : [ "pair=\"2003\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.578680203045685", "triple=e dbo:activeYearsStartYear \"2003\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "39" : [ "pair=Milwaukee_Bucks", "AllConf=0.577669902912621", "triple=e dbp:team Milwaukee_Bucks", "class=BasketballPlayer" ],
+    "40" : [ "pair=EuroLeague", "AllConf=0.577142857142857", "triple=e dbo:award EuroLeague", "class=BasketballPlayer" ],
+    "41" : [ "pair=KK_MZT_Skopje", "AllConf=0.576576576576577", "triple=e dbp:team KK_MZT_Skopje", "class=BasketballPlayer" ],
+    "42" : [ "pair=Lega_Basket_Serie_A", "AllConf=0.575471698113208", "triple=e dbo:league Lega_Basket_Serie_A", "class=BasketballPlayer" ],
+    "43" : [ "pair=Maccabi_Tel_Aviv_B.C.", "AllConf=0.572727272727273", "triple=e dbp:team Maccabi_Tel_Aviv_B.C.", "class=BasketballPlayer" ],
+    "44" : [ "pair=Toronto_Raptors", "AllConf=0.572519083969466", "triple=e dbp:team Toronto_Raptors", "class=BasketballPlayer" ],
+    "45" : [ "pair=\"1997\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.572327044025157", "triple=e dbo:activeYearsStartYear \"1997\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "46" : [ "pair=Houston_Rockets", "AllConf=0.572115384615385", "triple=e dbp:team Houston_Rockets", "class=BasketballPlayer" ],
+    "47" : [ "pair=AEK_B.C.", "AllConf=0.57037037037037", "triple=e dbp:team AEK_B.C.", "class=BasketballPlayer" ],
+    "48" : [ "pair=\"1995\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.570093457943925", "triple=e dbo:activeYearsStartYear \"1995\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "49" : [ "pair=Brooklyn_Nets", "AllConf=0.569343065693431", "triple=e dbp:team Brooklyn_Nets", "class=BasketballPlayer" ],
+    "50" : [ "pair=Saski_Baskonia", "AllConf=0.569230769230769", "triple=e dbp:team Saski_Baskonia", "class=BasketballPlayer" ],
+    "51" : [ "pair=NBA_G_League", "AllConf=0.568965517241379", "triple=e dbp:league NBA_G_League", "class=BasketballPlayer" ],
+    "52" : [ "pair=\"2005\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.566137566137566", "triple=e dbo:draftYear \"2005\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "53" : [ "pair=–present@en", "AllConf=0.565096952908587", "triple=e dbp:years –present@en", "class=BasketballPlayer" ],
+    "54" : [ "pair=\"1998\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.564885496183206", "triple=e dbo:activeYearsStartYear \"1998\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "55" : [ "pair=Chicago_Bulls", "AllConf=0.563380281690141", "triple=e dbp:team Chicago_Bulls", "class=BasketballPlayer" ],
+    "56" : [ "pair=Free agent@en", "AllConf=0.5625", "triple=e dbp:team Free agent@en", "class=BasketballPlayer" ],
+    "57" : [ "pair=San_Antonio_Spurs", "AllConf=0.561224489795918", "triple=e dbp:team San_Antonio_Spurs", "class=BasketballPlayer" ],
+    "58" : [ "pair=Head coach@en", "AllConf=0.560747663551402", "triple=e dbp:position Head coach@en", "class=BasketballPlayer" ],
+    "59" : [ "pair=Los_Angeles", "AllConf=0.558558558558559", "triple=e dbp:birthPlace Los_Angeles", "class=BasketballPlayer" ],
+    "60" : [ "pair=no@en", "AllConf=0.729257641921397", "triple=e dbp:showMedals no@en", "class=Cyclist" ],
+    "61" : [ "pair=Retired@en", "AllConf=0.715263518138262", "triple=e dbp:currentteam Retired@en", "class=Cyclist" ],
+    "62" : [ "pair=Track_cycling", "AllConf=0.688172043010753", "triple=e dbp:discipline Track_cycling", "class=Cyclist" ],
+    "63" : [ "pair=All-rounder@en", "AllConf=0.680203045685279", "triple=e dbp:ridertype All-rounder@en", "class=Cyclist" ],
+    "64" : [ "pair=Sprinter@en", "AllConf=0.679738562091503", "triple=e dbp:ridertype Sprinter@en", "class=Cyclist" ],
+    "65" : [ "pair=@en", "AllConf=0.658064516129032", "triple=e dbp:majorwins @en", "class=Cyclist" ],
+    "66" : [ "pair=Spain", "AllConf=0.657587548638132", "triple=e dbp:birthPlace Spain", "class=Cyclist" ],
+    "67" : [ "pair=Climber@en", "AllConf=0.619469026548673", "triple=e dbp:ridertype Climber@en", "class=Cyclist" ],
+    "68" : [ "pair=Road_bicycle_racing", "AllConf=0.59860788863109", "triple=e dbp:discipline Road_bicycle_racing", "class=Cyclist" ],
+    "69" : [ "pair=Netherlands", "AllConf=0.596", "triple=e dbo:birthPlace Netherlands", "class=Cyclist" ],
+    "70" : [ "pair=Road@en", "AllConf=0.594629822732012", "triple=e dbp:discipline Road@en", "class=Cyclist" ],
+    "71" : [ "pair=Track@en", "AllConf=0.592814371257485", "triple=e dbp:discipline Track@en", "class=Cyclist" ],
+    "72" : [ "pair=Italy", "AllConf=0.575431034482759", "triple=e dbp:birthPlace Italy", "class=Cyclist" ],
+    "73" : [ "pair=Colombia", "AllConf=0.553398058252427", "triple=e dbo:birthPlace Colombia", "class=Cyclist" ],
+    "74" : [ "pair=Rider@en", "AllConf=0.551340559041643", "triple=e dbp:role Rider@en", "class=Cyclist" ],
+    "75" : [ "pair=Belgium", "AllConf=0.548387096774194", "triple=e dbp:birthPlace Belgium", "class=Cyclist" ],
+    "76" : [ "pair=yes@en", "AllConf=0.539630836047774", "triple=e dbp:showMedals yes@en", "class=Cyclist" ],
+    "77" : [ "pair=France", "AllConf=0.516703786191537", "triple=e dbp:birthPlace France", "class=Cyclist" ],
+    "78" : [ "pair=Germany", "AllConf=0.509090909090909", "triple=e dbo:birthPlace Germany", "class=Cyclist" ],
+    "79" : [ "pair=Minnesota_Wild", "AllConf=0.677631578947368", "triple=e dbo:formerTeam Minnesota_Wild", "class=IceHockeyPlayer" ],
+    "80" : [ "pair=\"2000\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.663636363636364", "triple=e dbo:draftYear \"2000\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=IceHockeyPlayer" ],
+    "81" : [ "pair=Atlanta_Thrashers", "AllConf=0.663461538461538", "triple=e dbp:playedFor Atlanta_Thrashers", "class=IceHockeyPlayer" ],
+    "82" : [ "pair=Nashville_Predators", "AllConf=0.644230769230769", "triple=e dbp:playedFor Nashville_Predators", "class=IceHockeyPlayer" ],
+    "83" : [ "pair=Los_Angeles_Kings", "AllConf=0.64375", "triple=e dbo:draftTeam Los_Angeles_Kings", "class=IceHockeyPlayer" ],
+    "84" : [ "pair=RUS@en", "AllConf=0.63302752293578", "triple=e dbp:ntlTeam RUS@en", "class=IceHockeyPlayer" ],
+    "85" : [ "pair=Frölunda_HC", "AllConf=0.618705035971223", "triple=e dbo:formerTeam Frölunda_HC", "class=IceHockeyPlayer" ],
+    "86" : [ "pair=\"1990\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.616541353383459", "triple=e dbo:activeYearsStartYear \"1990\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=IceHockeyPlayer" ],
+    "87" : [ "pair=\"1991\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.603305785123967", "triple=e dbo:activeYearsStartYear \"1991\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=IceHockeyPlayer" ],
+    "88" : [ "pair=San_Jose_Sharks", "AllConf=0.602094240837696", "triple=e dbo:formerTeam San_Jose_Sharks", "class=IceHockeyPlayer" ],
+    "89" : [ "pair=HPK", "AllConf=0.601626016260163", "triple=e dbo:formerTeam HPK", "class=IceHockeyPlayer" ],
+    "90" : [ "pair=\"2018\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.598039215686274", "triple=e dbo:activeYearsStartYear \"2018\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=IceHockeyPlayer" ],
+    "91" : [ "pair=St._Louis_Blues", "AllConf=0.597826086956522", "triple=e dbo:formerTeam St._Louis_Blues", "class=IceHockeyPlayer" ],
+    "92" : [ "pair=Detroit_Red_Wings", "AllConf=0.596153846153846", "triple=e dbp:draftTeam Detroit_Red_Wings", "class=IceHockeyPlayer" ],
+    "93" : [ "pair=FIN@en", "AllConf=0.596026490066225", "triple=e dbp:ntlTeam FIN@en", "class=IceHockeyPlayer" ],
+    "94" : [ "pair=New_Jersey_Devils", "AllConf=0.595238095238095", "triple=e dbp:playedFor New_Jersey_Devils", "class=IceHockeyPlayer" ],
+    "95" : [ "pair=Buffalo_Sabres", "AllConf=0.594936708860759", "triple=e dbo:draftTeam Buffalo_Sabres", "class=IceHockeyPlayer" ],
+    "96" : [ "pair=New_York_Islanders", "AllConf=0.593639575971731", "triple=e dbo:formerTeam New_York_Islanders", "class=IceHockeyPlayer" ],
+    "97" : [ "pair=Winnipeg_Jets_(1972–1996)", "AllConf=0.588607594936709", "triple=e dbp:playedFor Winnipeg_Jets_(1972–1996)", "class=IceHockeyPlayer" ],
+    "98" : [ "pair=Metallurg_Novokuznetsk", "AllConf=0.586206896551724", "triple=e dbo:formerTeam Metallurg_Novokuznetsk", "class=IceHockeyPlayer" ],
+    "99" : [ "pair=Phoenix_Coyotes", "AllConf=0.5859375", "triple=e dbo:formerTeam Phoenix_Coyotes", "class=IceHockeyPlayer" ],
+    "100" : [ "pair=Ak_Bars_Kazan", "AllConf=0.585585585585586", "triple=e dbo:formerTeam Ak_Bars_Kazan", "class=IceHockeyPlayer" ],
+    "101" : [ "pair=Washington_Capitals", "AllConf=0.584821428571429", "triple=e dbp:playedFor Washington_Capitals", "class=IceHockeyPlayer" ],
+    "102" : [ "pair=Liiga", "AllConf=0.583756345177665", "triple=e dbo:league Liiga", "class=IceHockeyPlayer" ],
+    "103" : [ "pair=Winnipeg_Jets_(1972–96)", "AllConf=0.583333333333333", "triple=e dbo:formerTeam Winnipeg_Jets_(1972–96)", "class=IceHockeyPlayer" ],
+    "104" : [ "pair=Finland", "AllConf=0.583333333333333", "triple=e dbp:birthPlace Finland", "class=IceHockeyPlayer" ],
+    "105" : [ "pair=HV71", "AllConf=0.581196581196581", "triple=e dbo:formerTeam HV71", "class=IceHockeyPlayer" ],
+    "106" : [ "pair=Djurgårdens_IF_Hockey", "AllConf=0.579365079365079", "triple=e dbo:formerTeam Djurgårdens_IF_Hockey", "class=IceHockeyPlayer" ],
+    "107" : [ "pair=Toronto_Maple_Leafs", "AllConf=0.576923076923077", "triple=e dbp:draftTeam Toronto_Maple_Leafs", "class=IceHockeyPlayer" ],
+    "108" : [ "pair=Canada_men's_national_junior_ice_hockey_team", "AllConf=0.574545454545455", "triple=e dbo:birthPlace Canada_men's_national_junior_ice_hockey_team", "class=IceHockeyPlayer" ],
+    "109" : [ "pair=Torpedo_Nizhny_Novgorod", "AllConf=0.573643410852713", "triple=e dbo:formerTeam Torpedo_Nizhny_Novgorod", "class=IceHockeyPlayer" ],
+    "110" : [ "pair=Canada_men's_national_ice_hockey_team", "AllConf=0.573122529644269", "triple=e dbo:birthPlace Canada_men's_national_ice_hockey_team", "class=IceHockeyPlayer" ],
+    "111" : [ "pair=Czech_Extraliga", "AllConf=0.570921985815603", "triple=e dbp:league Czech_Extraliga", "class=IceHockeyPlayer" ],
+    "112" : [ "pair=Russia", "AllConf=0.570707070707071", "triple=e dbo:birthPlace Russia", "class=IceHockeyPlayer" ],
+    "113" : [ "pair=Metallurg_Magnitogorsk", "AllConf=0.567307692307692", "triple=e dbo:formerTeam Metallurg_Magnitogorsk", "class=IceHockeyPlayer" ],
+    "114" : [ "pair=\"2002\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.566502463054187", "triple=e dbo:activeYearsStartYear \"2002\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=IceHockeyPlayer" ],
+    "115" : [ "pair=Ottawa_Senators", "AllConf=0.5662100456621", "triple=e dbo:formerTeam Ottawa_Senators", "class=IceHockeyPlayer" ],
+    "116" : [ "pair=Austrian_Hockey_League", "AllConf=0.56140350877193", "triple=e dbp:league Austrian_Hockey_League", "class=IceHockeyPlayer" ],
+    "117" : [ "pair=Tappara", "AllConf=0.559633027522936", "triple=e dbo:formerTeam Tappara", "class=IceHockeyPlayer" ],
+    "118" : [ "pair=Anaheim_Ducks", "AllConf=0.558441558441558", "triple=e dbp:playedFor Anaheim_Ducks", "class=IceHockeyPlayer" ],
+    "119" : [ "pair=Calgary_Flames", "AllConf=0.557446808510638", "triple=e dbp:playedFor Calgary_Flames", "class=IceHockeyPlayer" ],
+    "120" : [ "pair=Arizona_Coyotes", "AllConf=0.556390977443609", "triple=e dbp:playedFor Arizona_Coyotes", "class=IceHockeyPlayer" ],
+    "121" : [ "pair=\"1992\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.555555555555556", "triple=e dbo:activeYearsStartYear \"1992\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=IceHockeyPlayer" ],
+    "122" : [ "pair=American_Hockey_League", "AllConf=0.554016620498615", "triple=e dbo:prospectLeague American_Hockey_League", "class=IceHockeyPlayer" ],
+    "123" : [ "pair=Salavat_Yulaev_Ufa", "AllConf=0.552631578947368", "triple=e dbo:formerTeam Salavat_Yulaev_Ufa", "class=IceHockeyPlayer" ],
+    "124" : [ "pair=Czechoslovakia", "AllConf=0.551236749116608", "triple=e dbp:birthPlace Czechoslovakia", "class=IceHockeyPlayer" ],
+    "125" : [ "pair=Espoo_Blues", "AllConf=0.550847457627119", "triple=e dbo:formerTeam Espoo_Blues", "class=IceHockeyPlayer" ],
+    "126" : [ "pair=Russian_Soviet_Federative_Socialist_Republic", "AllConf=0.550335570469799", "triple=e dbo:birthPlace Russian_Soviet_Federative_Socialist_Republic", "class=IceHockeyPlayer" ],
+    "127" : [ "pair=South_Africa_national_under-20_rugby_union_team", "AllConf=0.516129032258065", "triple=e dbp:repteam South_Africa_national_under-20_rugby_union_team", "class=RugbyPlayer" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "built",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Vestland#Norway@en", "AllConf=0.846511627906977", "triple=e dbp:pushpinMap Vestland#Norway@en", "class=HistoricBuilding" ],
+    "1" : [ "pair=Diocese_of_Bjørgvin", "AllConf=0.845794392523365", "triple=e dbp:diocese Diocese_of_Bjørgvin", "class=HistoricBuilding" ],
+    "2" : [ "pair=List_of_churches_in_Bjørgvin", "AllConf=0.845794392523365", "triple=e dbp:deanery List_of_churches_in_Bjørgvin", "class=HistoricBuilding" ],
+    "3" : [ "pair=Vestland", "AllConf=0.845070422535211", "triple=e dbp:location Vestland", "class=HistoricBuilding" ],
+    "4" : [ "pair=Nordland#Norway@en", "AllConf=0.826771653543307", "triple=e dbp:pushpinMap Nordland#Norway@en", "class=HistoricBuilding" ],
+    "5" : [ "pair=Diocese_of_Sør-Hålogaland", "AllConf=0.826771653543307", "triple=e dbp:diocese Diocese_of_Sør-Hålogaland", "class=HistoricBuilding" ],
+    "6" : [ "pair=List_of_churches_in_Sør-Hålogaland", "AllConf=0.826771653543307", "triple=e dbp:deanery List_of_churches_in_Sør-Hålogaland", "class=HistoricBuilding" ],
+    "7" : [ "pair=Nordland", "AllConf=0.826771653543307", "triple=e dbp:location Nordland", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "built in\u001Ca",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Diocese_of_Bjørgvin", "AllConf=0.803738317757009", "triple=e dbp:diocese Diocese_of_Bjørgvin", "class=HistoricBuilding" ],
+    "1" : [ "pair=List_of_churches_in_Bjørgvin", "AllConf=0.803738317757009", "triple=e dbp:deanery List_of_churches_in_Bjørgvin", "class=HistoricBuilding" ],
+    "2" : [ "pair=Vestland", "AllConf=0.802816901408451", "triple=e dbp:location Vestland", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 185,
+  "pattern" : "designated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Redundant_church", "AllConf=0.837638376383764", "triple=e dbp:functionalStatus Redundant_church", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 186,
+  "pattern" : "designed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Paragliding", "AllConf=0.870967741935484", "triple=e dbp:type Paragliding", "class=Aircraft" ],
+    "1" : [ "pair=Paraglider", "AllConf=0.87027027027027", "triple=e dbo:type Paraglider", "class=Aircraft" ],
+    "2" : [ "pair=Bertrand@en", "AllConf=0.855218855218855", "triple=e dbp:ref Bertrand@en", "class=Aircraft" ],
+    "3" : [ "pair=Production completed@en", "AllConf=0.767857142857143", "triple=e dbp:status Production completed@en", "class=Aircraft" ],
+    "4" : [ "pair=Ultralight_trike", "AllConf=0.75", "triple=e dbo:type Ultralight_trike", "class=Aircraft" ],
+    "5" : [ "pair=* List of gliders@en", "AllConf=0.729508196721312", "triple=e dbp:lists * List of gliders@en", "class=Aircraft" ],
+    "6" : [ "pair=composite@en", "AllConf=0.696428571428571", "triple=e dbp:propName composite@en", "class=Aircraft" ],
+    "7" : [ "pair=wooden@en", "AllConf=0.685714285714286", "triple=e dbp:propName wooden@en", "class=Aircraft" ],
+    "8" : [ "pair=Glider_(sailplane)", "AllConf=0.676923076923077", "triple=e dbp:type Glider_(sailplane)", "class=Aircraft" ],
+    "9" : [ "pair=Bayerl@en", "AllConf=0.673469387755102", "triple=e dbp:ref Bayerl@en", "class=Aircraft" ],
+    "10" : [ "pair=Rotax_582", "AllConf=0.669642857142857", "triple=e dbp:eng1Name Rotax_582", "class=Aircraft" ],
+    "11" : [ "pair=four cylinder, liquid and air-cooled, four stroke aircraft engine@en", "AllConf=0.648648648648649", "triple=e dbp:eng1Type four cylinder, liquid and air-cooled, four stroke aircraft engine@en", "class=Aircraft" ],
+    "12" : [ "pair=In production@en", "AllConf=0.622467771639042", "triple=e dbp:status In production@en", "class=Aircraft" ],
+    "13" : [ "pair=one@en", "AllConf=0.611526147278549", "triple=e dbp:crew one@en", "class=Aircraft" ],
+    "14" : [ "pair=at@en", "AllConf=0.593582887700535", "triple=e dbp:sinkRateNote at@en", "class=Aircraft" ],
+    "15" : [ "pair=Ultralight_aviation", "AllConf=0.592", "triple=e dbp:type Ultralight_aviation", "class=Aircraft" ],
+    "16" : [ "pair=one passenger@en", "AllConf=0.590909090909091", "triple=e dbp:capacity one passenger@en", "class=Aircraft" ],
+    "17" : [ "pair=Rotax_912", "AllConf=0.590308370044053", "triple=e dbp:eng1Name Rotax_912", "class=Aircraft" ],
+    "18" : [ "pair=Ultralight_aircraft", "AllConf=0.566901408450704", "triple=e dbo:type Ultralight_aircraft", "class=Aircraft" ],
+    "19" : [ "pair=Autogyro", "AllConf=0.564356435643564", "triple=e dbo:type Autogyro", "class=Aircraft" ],
+    "20" : [ "pair=Homebuilt_aircraft", "AllConf=0.536199095022624", "triple=e dbp:type Homebuilt_aircraft", "class=Aircraft" ],
+    "21" : [ "pair=Italy", "AllConf=0.531914893617021", "triple=e dbp:nationalOrigin Italy", "class=Aircraft" ],
+    "22" : [ "pair=Y@en", "AllConf=0.512605042016807", "triple=e dbp:perfhide Y@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 187,
+  "pattern" : "designed produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Ultralight_trike", "AllConf=0.557142857142857", "triple=e dbo:type Ultralight_trike", "class=Aircraft" ],
+    "1" : [ "pair=Bertrand@en", "AllConf=0.538720538720539", "triple=e dbp:ref Bertrand@en", "class=Aircraft" ],
+    "2" : [ "pair=Paragliding", "AllConf=0.526881720430108", "triple=e dbp:type Paragliding", "class=Aircraft" ],
+    "3" : [ "pair=Paraglider", "AllConf=0.524324324324324", "triple=e dbo:type Paraglider", "class=Aircraft" ]
+  }
+}, {
+  "id" : 188,
+  "pattern" : "designed produced\u001Cby",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Ultralight_trike", "AllConf=0.557142857142857", "triple=e dbo:type Ultralight_trike", "class=Aircraft" ],
+    "1" : [ "pair=Bertrand@en", "AllConf=0.538720538720539", "triple=e dbp:ref Bertrand@en", "class=Aircraft" ],
+    "2" : [ "pair=Paragliding", "AllConf=0.526881720430108", "triple=e dbp:type Paragliding", "class=Aircraft" ],
+    "3" : [ "pair=Paraglider", "AllConf=0.524324324324324", "triple=e dbo:type Paraglider", "class=Aircraft" ]
+  }
+}, {
+  "id" : 189,
+  "pattern" : "developed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=UAV", "AllConf=0.788617886178862", "triple=e dbo:type UAV", "class=Aircraft" ],
+    "1" : [ "pair=China", "AllConf=0.764044943820225", "triple=e dbp:primaryUser China", "class=Aircraft" ],
+    "2" : [ "pair=Unmanned_aerial_vehicle", "AllConf=0.576158940397351", "triple=e dbp:type Unmanned_aerial_vehicle", "class=Aircraft" ]
+  }
+}, {
+  "id" : 217,
+  "pattern" : "dove",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Columbellidae", "AllConf=0.504587155963303", "triple=e dbo:family Columbellidae", "class=Mollusca" ]
+  }
+}, {
+  "id" : 378,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=TNC@en", "AllConf=0.701342281879195", "triple=e dbp:statusSystem TNC@en", "class=Plant" ],
+    "1" : [ "pair=\"TNC\"", "AllConf=0.699300699300699", "triple=e dbo:conservationStatusSystem \"TNC\"", "class=Plant" ],
+    "2" : [ "pair=Asa_Gray", "AllConf=0.6875", "triple=e dbo:binomialAuthority Asa_Gray", "class=Plant" ]
+  }
+}, {
+  "id" : 388,
+  "pattern" : "listed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Redundant_church", "AllConf=0.874538745387454", "triple=e dbp:functionalStatus Redundant_church", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 404,
+  "pattern" : "managed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Massachusetts", "AllConf=0.635514018691589", "triple=e dbo:location Massachusetts", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 461,
+  "pattern" : "named",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Location of lake in Minnesota.@en", "AllConf=0.703125", "triple=e dbp:pushpinMapAlt Location of lake in Minnesota.@en", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 508,
+  "pattern" : "owned",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Public use@en", "AllConf=0.666666666666667", "triple=e dbp:type Public use@en", "class=Airport" ],
+    "1" : [ "pair=Texas", "AllConf=0.516393442622951", "triple=e dbp:city Texas", "class=RadioStation" ]
+  }
+}, {
+  "id" : 541,
+  "pattern" : "played",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Fitzroy_Football_Club", "AllConf=0.752840909090909", "triple=e dbp:club Fitzroy_Football_Club", "class=AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=\"173.0\"^^http://dbpedia.org/datatype/centimetre", "AllConf=0.724242424242424", "triple=e dbp:height \"173.0\"^^http://dbpedia.org/datatype/centimetre", "class=AustralianRulesFootballPlayer" ],
+    "2" : [ "pair=medic@en", "AllConf=0.527272727272727", "triple=e dbp:bot medic@en", "class=RugbyPlayer" ],
+    "3" : [ "pair=Western_Suburbs_Magpies", "AllConf=0.506666666666667", "triple=e dbo:formerTeam Western_Suburbs_Magpies", "class=RugbyPlayer" ]
+  }
+}, {
+  "id" : 555,
+  "pattern" : "privately owned",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Public use@en", "AllConf=0.534883720930233", "triple=e dbp:type Public use@en", "class=Airport" ]
+  }
+}, {
+  "id" : 556,
+  "pattern" : "produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Paragliding", "AllConf=0.870967741935484", "triple=e dbp:type Paragliding", "class=Aircraft" ],
+    "1" : [ "pair=Paraglider", "AllConf=0.87027027027027", "triple=e dbo:type Paraglider", "class=Aircraft" ],
+    "2" : [ "pair=Bertrand@en", "AllConf=0.858585858585859", "triple=e dbp:ref Bertrand@en", "class=Aircraft" ],
+    "3" : [ "pair=Ultralight_trike", "AllConf=0.742857142857143", "triple=e dbo:type Ultralight_trike", "class=Aircraft" ],
+    "4" : [ "pair=Production completed@en", "AllConf=0.741071428571429", "triple=e dbp:status Production completed@en", "class=Aircraft" ],
+    "5" : [ "pair=Rotax_582", "AllConf=0.696428571428571", "triple=e dbp:eng1Name Rotax_582", "class=Aircraft" ],
+    "6" : [ "pair=Bayerl@en", "AllConf=0.673469387755102", "triple=e dbp:ref Bayerl@en", "class=Aircraft" ],
+    "7" : [ "pair=In production@en", "AllConf=0.651933701657459", "triple=e dbp:status In production@en", "class=Aircraft" ],
+    "8" : [ "pair=composite@en", "AllConf=0.648809523809524", "triple=e dbp:propName composite@en", "class=Aircraft" ],
+    "9" : [ "pair=four cylinder, liquid and air-cooled, four stroke aircraft engine@en", "AllConf=0.648648648648649", "triple=e dbp:eng1Type four cylinder, liquid and air-cooled, four stroke aircraft engine@en", "class=Aircraft" ],
+    "10" : [ "pair=Ultralight_aircraft", "AllConf=0.556338028169014", "triple=e dbo:type Ultralight_aircraft", "class=Aircraft" ],
+    "11" : [ "pair=Ultralight_aviation", "AllConf=0.552", "triple=e dbp:type Ultralight_aviation", "class=Aircraft" ],
+    "12" : [ "pair=one passenger@en", "AllConf=0.529829545454545", "triple=e dbp:capacity one passenger@en", "class=Aircraft" ],
+    "13" : [ "pair=Rotax_912", "AllConf=0.506607929515419", "triple=e dbp:eng1Name Rotax_912", "class=Aircraft" ],
+    "14" : [ "pair=one@en", "AllConf=0.506403415154749", "triple=e dbp:crew one@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 641,
+  "pattern" : "serving",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Democratic Republic of the Congo@en", "AllConf=0.606666666666667", "triple=e dbp:pushpinMap Democratic Republic of the Congo@en", "class=Airport" ],
+    "1" : [ "pair=Source: GCM Google Maps@en", "AllConf=0.586466165413534", "triple=e dbp:footnotes Source: GCM Google Maps@en", "class=Airport" ],
+    "2" : [ "pair=Aircraft Operations@en", "AllConf=0.546511627906977", "triple=e dbp:stat2Header Aircraft Operations@en", "class=Airport" ],
+    "3" : [ "pair=Location in Brazil@en", "AllConf=0.542682926829268", "triple=e dbp:pushpinMapCaption Location in Brazil@en", "class=Airport" ],
+    "4" : [ "pair=Metric tonnes of cargo@en", "AllConf=0.540106951871658", "triple=e dbp:stat3Header Metric tonnes of cargo@en", "class=Airport" ],
+    "5" : [ "pair=Brazil@en", "AllConf=0.539393939393939", "triple=e dbp:pushpinMap Brazil@en", "class=Airport" ],
+    "6" : [ "pair=Sources: GCM Google Maps@en", "AllConf=0.528409090909091", "triple=e dbp:footnotes Sources: GCM Google Maps@en", "class=Airport" ]
+  }
+}, {
+  "id" : 708,
+  "pattern" : "supplied",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=four cylinder, liquid and air-cooled, four stroke aircraft engine@en", "AllConf=0.72972972972973", "triple=e dbp:eng1Type four cylinder, liquid and air-cooled, four stroke aircraft engine@en", "class=Aircraft" ],
+    "1" : [ "pair=composite@en", "AllConf=0.696428571428571", "triple=e dbp:propName composite@en", "class=Aircraft" ],
+    "2" : [ "pair=Bayerl@en", "AllConf=0.680272108843537", "triple=e dbp:ref Bayerl@en", "class=Aircraft" ],
+    "3" : [ "pair=Ultralight_trike", "AllConf=0.657142857142857", "triple=e dbo:type Ultralight_trike", "class=Aircraft" ],
+    "4" : [ "pair=Rotax_582", "AllConf=0.5625", "triple=e dbp:eng1Name Rotax_582", "class=Aircraft" ],
+    "5" : [ "pair=Rotax_912", "AllConf=0.524229074889868", "triple=e dbp:eng1Name Rotax_912", "class=Aircraft" ]
+  }
+} ]

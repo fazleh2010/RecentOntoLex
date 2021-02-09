@@ -1,0 +1,549 @@
+[ {
+  "id" : 52,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Australian@en", "AllConf=0.394736842105263", "triple=e dbp:nationality Australian@en", "class=Artist" ],
+    "1" : [ "pair=Australia@en", "AllConf=0.147783251231527", "triple=e dbp:country Australia@en", "class=Book" ],
+    "2" : [ "pair=Australia", "AllConf=0.12396694214876", "triple=e dbo:country Australia", "class=Book" ],
+    "3" : [ "pair=Western_Australia_cricket_team", "AllConf=0.431372549019608", "triple=e dbp:club Western_Australia_cricket_team", "class=Cricketer" ],
+    "4" : [ "pair=\"Australia\"", "AllConf=0.302325581395349", "triple=e dbo:allegiance \"Australia\"", "class=MilitaryPerson" ],
+    "5" : [ "pair=Australian_Army", "AllConf=0.506024096385542", "triple=e dbp:branch Australian_Army", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "based on\u001Cthe\u001Clong-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "AllConf=0.135714285714286", "triple=e dbo:series Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "based the\u001Clong-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "AllConf=0.15", "triple=e dbo:series Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "based the\u001Clong-running\u001Cbritish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "AllConf=0.135714285714286", "triple=e dbo:series Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "belgian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Belgium", "AllConf=0.670967741935484", "triple=e dbp:birthPlace Belgium", "class=Cyclist" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "black",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Black_metal", "AllConf=0.18018018018018", "triple=e dbo:genre Black_metal", "class=Band" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=United_Kingdom", "AllConf=0.280373831775701", "triple=e dbo:nationality United_Kingdom", "class=Artist" ],
+    "1" : [ "pair=British@en", "AllConf=0.121848739495798", "triple=e dbp:nationality British@en", "class=Athlete" ],
+    "2" : [ "pair=Doctor_Who", "AllConf=0.142857142857143", "triple=e dbo:series Doctor_Who", "class=Book" ],
+    "3" : [ "pair=Second_Boer_War", "AllConf=0.28125", "triple=e dbp:battles Second_Boer_War", "class=MilitaryPerson" ],
+    "4" : [ "pair=Lieutenant-general_(United_Kingdom)", "AllConf=0.269230769230769", "triple=e dbp:rank Lieutenant-general_(United_Kingdom)", "class=MilitaryPerson" ],
+    "5" : [ "pair=University_of_Cambridge", "AllConf=0.173611111111111", "triple=e dbo:institution University_of_Cambridge", "class=Scientist" ],
+    "6" : [ "pair=University_of_Oxford", "AllConf=0.149532710280374", "triple=e dbo:institution University_of_Oxford", "class=Scientist" ]
+  }
+}, {
+  "id" : 102,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Canadians", "AllConf=0.374149659863946", "triple=e dbp:nationality Canadians", "class=Artist" ],
+    "1" : [ "pair=Canadian@en", "AllConf=0.354166666666667", "triple=e dbp:nationality Canadian@en", "class=Artist" ],
+    "2" : [ "pair=Canada", "AllConf=0.188524590163934", "triple=e dbo:hometown Canada", "class=Band" ],
+    "3" : [ "pair=Ontario", "AllConf=0.178571428571429", "triple=e dbo:hometown Ontario", "class=Band" ],
+    "4" : [ "pair=Canada@en", "AllConf=0.169117647058824", "triple=e dbp:country Canada@en", "class=Book" ]
+  }
+}, {
+  "id" : 112,
+  "pattern" : "chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=UAV", "AllConf=0.796747967479675", "triple=e dbo:type UAV", "class=Aircraft" ],
+    "1" : [ "pair=China", "AllConf=0.786516853932584", "triple=e dbp:primaryUser China", "class=Aircraft" ]
+  }
+}, {
+  "id" : 114,
+  "pattern" : "civil",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=CSA (Confederacy)@en", "AllConf=0.586826347305389", "triple=e dbp:combatant CSA (Confederacy)@en", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"CSA (Confederacy)\"", "AllConf=0.580838323353293", "triple=e dbo:combatant \"CSA (Confederacy)\"", "class=MilitaryConflict" ],
+    "2" : [ "pair=American_Civil_War", "AllConf=0.558479532163743", "triple=e dbo:isPartOfMilitaryConflict American_Civil_War", "class=MilitaryConflict" ],
+    "3" : [ "pair=the American Civil War@en", "AllConf=0.558333333333333", "triple=e dbp:partof the American Civil War@en", "class=MilitaryConflict" ],
+    "4" : [ "pair=Medal of Honor@en", "AllConf=0.320610687022901", "triple=e dbp:awards Medal of Honor@en", "class=MilitaryPerson" ],
+    "5" : [ "pair=Union_Army", "AllConf=0.308108108108108", "triple=e dbo:militaryBranch Union_Army", "class=MilitaryPerson" ],
+    "6" : [ "pair=Union_(American_Civil_War)", "AllConf=0.296774193548387", "triple=e dbp:allegiance Union_(American_Civil_War)", "class=MilitaryPerson" ],
+    "7" : [ "pair=\"Union\"", "AllConf=0.291139240506329", "triple=e dbo:allegiance \"Union\"", "class=MilitaryPerson" ],
+    "8" : [ "pair=Mexican–American_War", "AllConf=0.287769784172662", "triple=e dbo:battle Mexican–American_War", "class=MilitaryPerson" ],
+    "9" : [ "pair=\"1865\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.270676691729323", "triple=e dbo:serviceEndYear \"1865\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MilitaryPerson" ],
+    "10" : [ "pair=\"1861\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.270676691729323", "triple=e dbo:serviceStartYear \"1861\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 121,
+  "pattern" : "colorless",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=@en", "AllConf=0.202312138728324", "triple=e dbp:othernames @en", "class=ChemicalCompound" ],
+    "1" : [ "pair=Skeletal formula@en", "AllConf=0.172131147540984", "triple=e dbp:imagename Skeletal formula@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 216,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=France", "AllConf=0.445652173913043", "triple=e dbo:country France", "class=Artist" ],
+    "1" : [ "pair=French@en", "AllConf=0.416666666666667", "triple=e dbp:nationality French@en", "class=Artist" ],
+    "2" : [ "pair=Paris", "AllConf=0.413461538461538", "triple=e dbo:birthPlace Paris", "class=Artist" ],
+    "3" : [ "pair=Paris, France@en", "AllConf=0.302158273381295", "triple=e dbp:deathPlace Paris, France@en", "class=Artist" ],
+    "4" : [ "pair=France@en", "AllConf=0.241545893719807", "triple=e dbp:country France@en", "class=Book" ],
+    "5" : [ "pair=French Empire@en", "AllConf=0.582608695652174", "triple=e dbp:combatant French Empire@en", "class=MilitaryConflict" ],
+    "6" : [ "pair=\"French Empire\"", "AllConf=0.576271186440678", "triple=e dbo:combatant \"French Empire\"", "class=MilitaryConflict" ],
+    "7" : [ "pair=French_Army", "AllConf=0.29126213592233", "triple=e dbo:militaryBranch French_Army", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 222,
+  "pattern" : "georgian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Georgian_Orthodox_Church", "AllConf=0.63716814159292", "triple=e dbp:religion Georgian_Orthodox_Church", "class=Royalty" ]
+  }
+}, {
+  "id" : 223,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=German@en", "AllConf=0.4", "triple=e dbp:nationality German@en", "class=Artist" ],
+    "1" : [ "pair=Germany", "AllConf=0.672897196261682", "triple=e dbp:birthPlace Germany", "class=Cyclist" ]
+  }
+}, {
+  "id" : 237,
+  "pattern" : "heritage-listed",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=\"1999-04-02\"^^http://www.w3.org/2001/XMLSchema#date", "AllConf=0.34375", "triple=e dbp:designation1Date \"1999-04-02\"^^http://www.w3.org/2001/XMLSchema#date", "class=HistoricPlace" ],
+    "1" : [ "pair=\"1890.0\"^^http://dbpedia.org/datatype/second", "AllConf=0.31875", "triple=e dbp:beginningDate \"1890.0\"^^http://dbpedia.org/datatype/second", "class=HistoricPlace" ],
+    "2" : [ "pair=Queensland#Australia@en", "AllConf=0.318295739348371", "triple=e dbp:locmapin Queensland#Australia@en", "class=HistoricPlace" ]
+  }
+}, {
+  "id" : 240,
+  "pattern" : "highest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Medal of Honor@en", "AllConf=0.282442748091603", "triple=e dbp:awards Medal of Honor@en", "class=MilitaryPerson" ],
+    "1" : [ "pair=Indian_nationality_law", "AllConf=0.231481481481481", "triple=e dbp:nationality Indian_nationality_law", "class=Scientist" ],
+    "2" : [ "pair=Indian_nationality", "AllConf=0.231481481481481", "triple=e dbo:nationality Indian_nationality", "class=Scientist" ]
+  }
+}, {
+  "id" : 241,
+  "pattern" : "highest\u001Cindian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Indian_nationality_law", "AllConf=0.231481481481481", "triple=e dbp:nationality Indian_nationality_law", "class=Scientist" ],
+    "1" : [ "pair=Indian_nationality", "AllConf=0.231481481481481", "triple=e dbo:nationality Indian_nationality", "class=Scientist" ]
+  }
+}, {
+  "id" : 243,
+  "pattern" : "highest indian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Indian_nationality_law", "AllConf=0.231481481481481", "triple=e dbp:nationality Indian_nationality_law", "class=Scientist" ],
+    "1" : [ "pair=Indian_nationality", "AllConf=0.231481481481481", "triple=e dbo:nationality Indian_nationality", "class=Scientist" ]
+  }
+}, {
+  "id" : 250,
+  "pattern" : "historic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Colonial Revival@en", "AllConf=0.25", "triple=e dbp:architecture Colonial Revival@en", "class=Building" ],
+    "1" : [ "pair=Pennsylvania#USA@en", "AllConf=0.204678362573099", "triple=e dbp:locmapin Pennsylvania#USA@en", "class=Building" ],
+    "2" : [ "pair=Virginia#USA@en", "AllConf=0.1875", "triple=e dbp:locmapin Virginia#USA@en", "class=Building" ],
+    "3" : [ "pair=New Jersey Register of Historic Places@en", "AllConf=0.180327868852459", "triple=e dbp:designatedOther1Link New Jersey Register of Historic Places@en", "class=Building" ],
+    "4" : [ "pair=NJRHP@en", "AllConf=0.178861788617886", "triple=e dbp:designatedOther1Abbr NJRHP@en", "class=Building" ],
+    "5" : [ "pair=Classical_Revival_architecture", "AllConf=0.178217821782178", "triple=e dbo:architecturalStyle Classical_Revival_architecture", "class=Building" ],
+    "6" : [ "pair=Colonial_Revival_architecture", "AllConf=0.177570093457944", "triple=e dbp:architecture Colonial_Revival_architecture", "class=Building" ],
+    "7" : [ "pair=North Carolina#USA@en", "AllConf=0.177536231884058", "triple=e dbp:locmapin North Carolina#USA@en", "class=Building" ],
+    "8" : [ "pair=#ffc94b@en", "AllConf=0.176", "triple=e dbp:designatedOther1Color #ffc94b@en", "class=Building" ],
+    "9" : [ "pair=Italianate_architecture", "AllConf=0.173745173745174", "triple=e dbo:architecturalStyle Italianate_architecture", "class=Building" ],
+    "10" : [ "pair=c.@en", "AllConf=0.172881355932203", "triple=e dbp:built c.@en", "class=Building" ],
+    "11" : [ "pair=Virginia Landmarks Register@en", "AllConf=0.172549019607843", "triple=e dbp:designatedOther Virginia Landmarks Register@en", "class=Building" ],
+    "12" : [ "pair=Georgian_architecture", "AllConf=0.168067226890756", "triple=e dbo:architecturalStyle Georgian_architecture", "class=Building" ],
+    "13" : [ "pair=Italianate@en", "AllConf=0.333333333333333", "triple=e dbp:architecture Italianate@en", "class=HistoricPlace" ]
+  }
+}, {
+  "id" : 253,
+  "pattern" : "historical",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Historical_fiction", "AllConf=0.130434782608696", "triple=e dbo:literaryGenre Historical_fiction", "class=Book" ],
+    "1" : [ "pair=Historical_novel", "AllConf=0.111731843575419", "triple=e dbo:literaryGenre Historical_novel", "class=Book" ]
+  }
+}, {
+  "id" : 257,
+  "pattern" : "hungarian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Hungarian@en", "AllConf=0.12621359223301", "triple=e dbp:nationality Hungarian@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 268,
+  "pattern" : "indian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=India", "AllConf=0.112068965517241", "triple=e dbo:location India", "class=Organisation" ],
+    "1" : [ "pair=Indian_National_Congress", "AllConf=0.114649681528662", "triple=e dbp:party Indian_National_Congress", "class=Politician" ],
+    "2" : [ "pair=Indian_nationality_law", "AllConf=0.342592592592593", "triple=e dbp:nationality Indian_nationality_law", "class=Scientist" ],
+    "3" : [ "pair=Indian_nationality", "AllConf=0.342592592592593", "triple=e dbo:nationality Indian_nationality", "class=Scientist" ],
+    "4" : [ "pair=Indian@en", "AllConf=0.271844660194175", "triple=e dbp:nationality Indian@en", "class=Scientist" ]
+  }
+}, {
+  "id" : 296,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Italian@en", "AllConf=0.367647058823529", "triple=e dbp:nationality Italian@en", "class=Artist" ],
+    "1" : [ "pair=Italy", "AllConf=0.346153846153846", "triple=e dbo:nationality Italy", "class=Artist" ],
+    "2" : [ "pair=Italy@en", "AllConf=0.106870229007634", "triple=e dbp:country Italy@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 297,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Japan", "AllConf=0.195652173913043", "triple=e dbp:origin Japan", "class=Band" ],
+    "1" : [ "pair=Empire_of_Japan", "AllConf=0.52991452991453", "triple=e dbo:country Empire_of_Japan", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 314,
+  "pattern" : "korean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=South Korean@en", "AllConf=0.119496855345912", "triple=e dbp:nationality South Korean@en", "class=Athlete" ],
+    "1" : [ "pair=Korean@en", "AllConf=0.110091743119266", "triple=e dbp:language Korean@en", "class=Film" ]
+  }
+}, {
+  "id" : 321,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Colonial Revival@en", "AllConf=0.198275862068966", "triple=e dbp:architecture Colonial Revival@en", "class=Building" ],
+    "1" : [ "pair=Pennsylvania#USA@en", "AllConf=0.184210526315789", "triple=e dbp:locmapin Pennsylvania#USA@en", "class=Building" ],
+    "2" : [ "pair=Iowa#USA@en", "AllConf=0.174041297935103", "triple=e dbp:locmapin Iowa#USA@en", "class=Building" ],
+    "3" : [ "pair=New Jersey Register of Historic Places@en", "AllConf=0.172131147540984", "triple=e dbp:designatedOther1Link New Jersey Register of Historic Places@en", "class=Building" ],
+    "4" : [ "pair=NJRHP@en", "AllConf=0.170731707317073", "triple=e dbp:designatedOther1Abbr NJRHP@en", "class=Building" ],
+    "5" : [ "pair=North Carolina#USA@en", "AllConf=0.170289855072464", "triple=e dbp:locmapin North Carolina#USA@en", "class=Building" ],
+    "6" : [ "pair=#ffc94b@en", "AllConf=0.168", "triple=e dbp:designatedOther1Color #ffc94b@en", "class=Building" ],
+    "7" : [ "pair=Dhaka", "AllConf=0.15", "triple=e dbp:headquarters Dhaka", "class=Organisation" ],
+    "8" : [ "pair=Bengali@en", "AllConf=0.149350649350649", "triple=e dbp:language Bengali@en", "class=Organisation" ],
+    "9" : [ "pair=Bangladesh", "AllConf=0.148387096774194", "triple=e dbp:headquarters Bangladesh", "class=Organisation" ],
+    "10" : [ "pair=Bangladesh@en", "AllConf=0.142857142857143", "triple=e dbp:regionServed Bangladesh@en", "class=Organisation" ],
+    "11" : [ "pair=CRI@en", "AllConf=0.454545454545455", "triple=e dbp:country CRI@en", "class=Road" ]
+  }
+}, {
+  "id" : 322,
+  "pattern" : "located\u001Cin",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Bengali@en", "AllConf=0.123376623376623", "triple=e dbp:language Bengali@en", "class=Organisation" ],
+    "1" : [ "pair=Bangladesh", "AllConf=0.12258064516129", "triple=e dbp:headquarters Bangladesh", "class=Organisation" ],
+    "2" : [ "pair=Dhaka", "AllConf=0.121428571428571", "triple=e dbp:headquarters Dhaka", "class=Organisation" ],
+    "3" : [ "pair=Bangladesh@en", "AllConf=0.118012422360248", "triple=e dbp:regionServed Bangladesh@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 325,
+  "pattern" : "long-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "AllConf=0.157142857142857", "triple=e dbo:series Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 326,
+  "pattern" : "long-running\u001Cbritish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "AllConf=0.135714285714286", "triple=e dbo:series Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 328,
+  "pattern" : "long-running british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "AllConf=0.142857142857143", "triple=e dbo:series Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 348,
+  "pattern" : "middle-distance",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Middle-distance running@en", "AllConf=0.14018691588785", "triple=e dbp:sport Middle-distance running@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 363,
+  "pattern" : "national",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Colonial Revival@en", "AllConf=0.241379310344828", "triple=e dbp:architecture Colonial Revival@en", "class=Building" ],
+    "1" : [ "pair=New Jersey Register of Historic Places@en", "AllConf=0.180327868852459", "triple=e dbp:designatedOther1Link New Jersey Register of Historic Places@en", "class=Building" ],
+    "2" : [ "pair=NJRHP@en", "AllConf=0.178861788617886", "triple=e dbp:designatedOther1Abbr NJRHP@en", "class=Building" ],
+    "3" : [ "pair=#ffc94b@en", "AllConf=0.176", "triple=e dbp:designatedOther1Color #ffc94b@en", "class=Building" ],
+    "4" : [ "pair=Classical_Revival_architecture", "AllConf=0.168316831683168", "triple=e dbo:architecturalStyle Classical_Revival_architecture", "class=Building" ],
+    "5" : [ "pair=Colonial_Revival_architecture", "AllConf=0.168224299065421", "triple=e dbp:architecture Colonial_Revival_architecture", "class=Building" ],
+    "6" : [ "pair=Beauty_pageant", "AllConf=0.18348623853211", "triple=e dbp:type Beauty_pageant", "class=Organisation" ],
+    "7" : [ "pair=CRI@en", "AllConf=0.454545454545455", "triple=e dbp:country CRI@en", "class=Road" ],
+    "8" : [ "pair=Indian_nationality_law", "AllConf=0.25", "triple=e dbp:nationality Indian_nationality_law", "class=Scientist" ],
+    "9" : [ "pair=Indian_nationality", "AllConf=0.25", "triple=e dbo:nationality Indian_nationality", "class=Scientist" ],
+    "10" : [ "pair=@en", "AllConf=0.456273764258555", "triple=e dbp:firstGame @en", "class=SoccerClub" ]
+  }
+}, {
+  "id" : 400,
+  "pattern" : "non-governmental",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=NGO", "AllConf=0.11214953271028", "triple=e dbo:type NGO", "class=Organisation" ]
+  }
+}, {
+  "id" : 401,
+  "pattern" : "non-profit",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Non-profit_organization", "AllConf=0.148648648648649", "triple=e dbo:type Non-profit_organization", "class=Organisation" ],
+    "1" : [ "pair=Washington,_D.C.", "AllConf=0.144230769230769", "triple=e dbp:location Washington,_D.C.", "class=Organisation" ],
+    "2" : [ "pair=Nonprofit_organization", "AllConf=0.139303482587065", "triple=e dbp:type Nonprofit_organization", "class=Organisation" ],
+    "3" : [ "pair=NGO", "AllConf=0.121495327102804", "triple=e dbo:type NGO", "class=Organisation" ],
+    "4" : [ "pair=United_States", "AllConf=0.116751269035533", "triple=e dbp:location United_States", "class=Organisation" ]
+  }
+}, {
+  "id" : 405,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Fiction", "AllConf=0.220338983050847", "triple=e dbp:genre Fiction", "class=Book" ],
+    "1" : [ "pair=Novel", "AllConf=0.216666666666667", "triple=e dbo:literaryGenre Novel", "class=Book" ],
+    "2" : [ "pair=Thriller_(genre)", "AllConf=0.210526315789474", "triple=e dbo:literaryGenre Thriller_(genre)", "class=Book" ],
+    "3" : [ "pair=Novel@en", "AllConf=0.21025641025641", "triple=e dbp:genre Novel@en", "class=Book" ],
+    "4" : [ "pair=Crime_fiction", "AllConf=0.206896551724138", "triple=e dbp:genre Crime_fiction", "class=Book" ],
+    "5" : [ "pair=Crime_novel", "AllConf=0.201754385964912", "triple=e dbo:literaryGenre Crime_novel", "class=Book" ],
+    "6" : [ "pair=\"384\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "AllConf=0.201680672268908", "triple=e dbo:numberOfPages \"384\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "7" : [ "pair=Fantasy_literature", "AllConf=0.191358024691358", "triple=e dbp:genre Fantasy_literature", "class=Book" ],
+    "8" : [ "pair=Adventure_fiction", "AllConf=0.189655172413793", "triple=e dbp:genre Adventure_fiction", "class=Book" ],
+    "9" : [ "pair=Macmillan_Publishers", "AllConf=0.189189189189189", "triple=e dbp:publisher Macmillan_Publishers", "class=Book" ],
+    "10" : [ "pair=Fantasy_novel", "AllConf=0.188284518828452", "triple=e dbo:literaryGenre Fantasy_novel", "class=Book" ],
+    "11" : [ "pair=\"813/.54 20\"", "AllConf=0.185840707964602", "triple=e dbo:dcc \"813/.54 20\"", "class=Book" ],
+    "12" : [ "pair=France@en", "AllConf=0.183574879227053", "triple=e dbp:country France@en", "class=Book" ],
+    "13" : [ "pair=Mystery_novel", "AllConf=0.18348623853211", "triple=e dbo:literaryGenre Mystery_novel", "class=Book" ],
+    "14" : [ "pair=Detective_fiction", "AllConf=0.180555555555556", "triple=e dbp:genre Detective_fiction", "class=Book" ],
+    "15" : [ "pair=United_Kingdom", "AllConf=0.180327868852459", "triple=e dbp:country United_Kingdom", "class=Book" ],
+    "16" : [ "pair=French@en", "AllConf=0.177777777777778", "triple=e dbp:language French@en", "class=Book" ],
+    "17" : [ "pair=First edition@en", "AllConf=0.177496038034865", "triple=e dbp:caption First edition@en", "class=Book" ],
+    "18" : [ "pair=Historical_fiction", "AllConf=0.173913043478261", "triple=e dbo:literaryGenre Historical_fiction", "class=Book" ],
+    "19" : [ "pair=Mystery_fiction", "AllConf=0.173913043478261", "triple=e dbp:genre Mystery_fiction", "class=Book" ],
+    "20" : [ "pair=Tor_Books", "AllConf=0.173553719008264", "triple=e dbp:publisher Tor_Books", "class=Book" ],
+    "21" : [ "pair=Horror_fiction", "AllConf=0.170854271356784", "triple=e dbp:genre Horror_fiction", "class=Book" ],
+    "22" : [ "pair=Young_adult_fiction", "AllConf=0.16597510373444", "triple=e dbp:genre Young_adult_fiction", "class=Book" ],
+    "23" : [ "pair=First edition cover@en", "AllConf=0.165217391304348", "triple=e dbp:caption First edition cover@en", "class=Book" ],
+    "24" : [ "pair=HarperCollins", "AllConf=0.16256157635468", "triple=e dbo:publisher HarperCollins", "class=Book" ],
+    "25" : [ "pair=Historical_novel", "AllConf=0.162011173184358", "triple=e dbo:literaryGenre Historical_novel", "class=Book" ],
+    "26" : [ "pair=@en", "AllConf=0.161572052401747", "triple=e dbp:isbnNote @en", "class=Book" ],
+    "27" : [ "pair=Science_fiction", "AllConf=0.159147869674185", "triple=e dbo:literaryGenre Science_fiction", "class=Book" ],
+    "28" : [ "pair=Canada@en", "AllConf=0.154411764705882", "triple=e dbp:country Canada@en", "class=Book" ],
+    "29" : [ "pair=Fantasy", "AllConf=0.150943396226415", "triple=e dbo:literaryGenre Fantasy", "class=Book" ],
+    "30" : [ "pair=Doubleday_(publisher)", "AllConf=0.147208121827411", "triple=e dbp:publisher Doubleday_(publisher)", "class=Book" ],
+    "31" : [ "pair=Alfred_A._Knopf", "AllConf=0.145038167938931", "triple=e dbo:publisher Alfred_A._Knopf", "class=Book" ],
+    "32" : [ "pair=England@en", "AllConf=0.144230769230769", "triple=e dbp:country England@en", "class=Book" ],
+    "33" : [ "pair=India@en", "AllConf=0.144144144144144", "triple=e dbp:country India@en", "class=Book" ],
+    "34" : [ "pair=English_language", "AllConf=0.143051771117166", "triple=e dbo:language English_language", "class=Book" ],
+    "35" : [ "pair=Simon_&_Schuster", "AllConf=0.14207650273224", "triple=e dbo:publisher Simon_&_Schuster", "class=Book" ],
+    "36" : [ "pair=Hardcover", "AllConf=0.141902313624679", "triple=e dbo:mediaType Hardcover", "class=Book" ],
+    "37" : [ "pair=United Kingdom@en", "AllConf=0.139463601532567", "triple=e dbp:country United Kingdom@en", "class=Book" ],
+    "38" : [ "pair=\"320\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "AllConf=0.138888888888889", "triple=e dbo:numberOfPages \"320\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "39" : [ "pair=Hardback", "AllConf=0.138461538461538", "triple=e dbo:mediaType Hardback", "class=Book" ],
+    "40" : [ "pair=Australia@en", "AllConf=0.137931034482759", "triple=e dbp:country Australia@en", "class=Book" ],
+    "41" : [ "pair=Print@en", "AllConf=0.136900501073729", "triple=e dbp:mediaType Print@en", "class=Book" ],
+    "42" : [ "pair=United_States", "AllConf=0.136138613861386", "triple=e dbp:country United_States", "class=Book" ],
+    "43" : [ "pair=\"288\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "AllConf=0.130769230769231", "triple=e dbo:numberOfPages \"288\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "44" : [ "pair=\"224\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "AllConf=0.12962962962963", "triple=e dbo:numberOfPages \"224\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "45" : [ "pair=\"400\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "AllConf=0.12621359223301", "triple=e dbo:numberOfPages \"400\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "46" : [ "pair=English@en", "AllConf=0.125650443832262", "triple=e dbp:language English@en", "class=Book" ],
+    "47" : [ "pair=Fiction@en", "AllConf=0.123809523809524", "triple=e dbp:genre Fiction@en", "class=Book" ],
+    "48" : [ "pair=\"304\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "AllConf=0.120300751879699", "triple=e dbo:numberOfPages \"304\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "49" : [ "pair=yes@en", "AllConf=0.11969111969112", "triple=e dbp:border yes@en", "class=Book" ],
+    "50" : [ "pair=Paperback", "AllConf=0.117886178861789", "triple=e dbo:mediaType Paperback", "class=Book" ],
+    "51" : [ "pair=Cover of first edition@en", "AllConf=0.116564417177914", "triple=e dbp:caption Cover of first edition@en", "class=Book" ],
+    "52" : [ "pair=United States@en", "AllConf=0.115737103953915", "triple=e dbp:country United States@en", "class=Book" ],
+    "53" : [ "pair=Random_House", "AllConf=0.113636363636364", "triple=e dbp:publisher Random_House", "class=Book" ],
+    "54" : [ "pair=Children's_literature", "AllConf=0.110266159695817", "triple=e dbo:literaryGenre Children's_literature", "class=Book" ]
+  }
+}, {
+  "id" : 412,
+  "pattern" : "one the\u001Chighest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Indian_nationality_law", "AllConf=0.231481481481481", "triple=e dbp:nationality Indian_nationality_law", "class=Scientist" ],
+    "1" : [ "pair=Indian_nationality", "AllConf=0.231481481481481", "triple=e dbo:nationality Indian_nationality", "class=Scientist" ]
+  }
+}, {
+  "id" : 413,
+  "pattern" : "one the\u001Chighest\u001Cindian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Indian_nationality_law", "AllConf=0.231481481481481", "triple=e dbp:nationality Indian_nationality_law", "class=Scientist" ],
+    "1" : [ "pair=Indian_nationality", "AllConf=0.231481481481481", "triple=e dbo:nationality Indian_nationality", "class=Scientist" ]
+  }
+}, {
+  "id" : 417,
+  "pattern" : "organic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Ball-and-stick model@en", "AllConf=0.393700787401575", "triple=e dbp:imagename Ball-and-stick model@en", "class=ChemicalCompound" ],
+    "1" : [ "pair=Skeletal formula@en", "AllConf=0.336065573770492", "triple=e dbp:imagename Skeletal formula@en", "class=ChemicalCompound" ],
+    "2" : [ "pair=@en", "AllConf=0.30635838150289", "triple=e dbp:othernames @en", "class=ChemicalCompound" ],
+    "3" : [ "pair=changed@en", "AllConf=0.194478527607362", "triple=e dbp:watchedfields changed@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 423,
+  "pattern" : "original",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "AllConf=0.142857142857143", "triple=e dbo:series Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 438,
+  "pattern" : "polish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Polish@en", "AllConf=0.154411764705882", "triple=e dbp:nationality Polish@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 450,
+  "pattern" : "professional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Professional_association", "AllConf=0.211538461538462", "triple=e dbp:type Professional_association", "class=Organisation" ]
+  }
+}, {
+  "id" : 452,
+  "pattern" : "progressive",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Progressive_rock", "AllConf=0.160278745644599", "triple=e dbo:genre Progressive_rock", "class=Band" ]
+  }
+}, {
+  "id" : 469,
+  "pattern" : "recipient",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Knight's_Cross_of_the_Iron_Cross_with_Oak_Leaves", "AllConf=0.308411214953271", "triple=e dbo:award Knight's_Cross_of_the_Iron_Cross_with_Oak_Leaves", "class=MilitaryPerson" ],
+    "1" : [ "pair=German_Army_(1935–1945)", "AllConf=0.276595744680851", "triple=e dbp:branch German_Army_(1935–1945)", "class=MilitaryPerson" ],
+    "2" : [ "pair=German_Army_(Wehrmacht)", "AllConf=0.274261603375527", "triple=e dbo:militaryBranch German_Army_(Wehrmacht)", "class=MilitaryPerson" ],
+    "3" : [ "pair=Victoria_Cross", "AllConf=0.271276595744681", "triple=e dbo:award Victoria_Cross", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 470,
+  "pattern" : "recipient of\u001Cthe",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Knight's_Cross_of_the_Iron_Cross_with_Oak_Leaves", "AllConf=0.271028037383178", "triple=e dbo:award Knight's_Cross_of_the_Iron_Cross_with_Oak_Leaves", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 495,
+  "pattern" : "responsible",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Bengali@en", "AllConf=0.162337662337662", "triple=e dbp:language Bengali@en", "class=Organisation" ],
+    "1" : [ "pair=Bangladesh", "AllConf=0.150602409638554", "triple=e dbo:regionServed Bangladesh", "class=Organisation" ],
+    "2" : [ "pair=Dhaka", "AllConf=0.15", "triple=e dbp:headquarters Dhaka", "class=Organisation" ],
+    "3" : [ "pair=Bangladesh@en", "AllConf=0.142857142857143", "triple=e dbp:regionServed Bangladesh@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 514,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Saint_Petersburg", "AllConf=0.465346534653465", "triple=e dbp:deathPlace Saint_Petersburg", "class=Artist" ],
+    "1" : [ "pair=Russian_Empire", "AllConf=0.293577981651376", "triple=e dbp:birthPlace Russian_Empire", "class=Artist" ],
+    "2" : [ "pair=Russian@en", "AllConf=0.105633802816901", "triple=e dbp:language Russian@en", "class=Film" ],
+    "3" : [ "pair=Moscow", "AllConf=0.338582677165354", "triple=e dbp:deathPlace Moscow", "class=MilitaryPerson" ],
+    "4" : [ "pair=Russian_Civil_War", "AllConf=0.282258064516129", "triple=e dbp:battles Russian_Civil_War", "class=MilitaryPerson" ],
+    "5" : [ "pair=Order_of_Lenin", "AllConf=0.281553398058252", "triple=e dbo:award Order_of_Lenin", "class=MilitaryPerson" ],
+    "6" : [ "pair=Hero_of_the_Soviet_Union", "AllConf=0.276923076923077", "triple=e dbp:awards Hero_of_the_Soviet_Union", "class=MilitaryPerson" ],
+    "7" : [ "pair=Soviet_Union_national_football_team", "AllConf=0.420560747663551", "triple=e dbp:nationalteam Soviet_Union_national_football_team", "class=SoccerManager" ]
+  }
+}, {
+  "id" : 566,
+  "pattern" : "soluble",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Ball-and-stick model@en", "AllConf=0.188976377952756", "triple=e dbp:imagename Ball-and-stick model@en", "class=ChemicalCompound" ],
+    "1" : [ "pair=Skeletal formula@en", "AllConf=0.172131147540984", "triple=e dbp:imagename Skeletal formula@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 569,
+  "pattern" : "south\u001Ckorean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=South Korean@en", "AllConf=0.113207547169811", "triple=e dbp:nationality South Korean@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 570,
+  "pattern" : "south korean",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=South Korean@en", "AllConf=0.119496855345912", "triple=e dbp:nationality South Korean@en", "class=Athlete" ],
+    "1" : [ "pair=Korean@en", "AllConf=0.110091743119266", "triple=e dbp:language Korean@en", "class=Film" ]
+  }
+}, {
+  "id" : 576,
+  "pattern" : "soviet",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Hero_of_the_Soviet_Union", "AllConf=0.317948717948718", "triple=e dbp:awards Hero_of_the_Soviet_Union", "class=MilitaryPerson" ],
+    "1" : [ "pair=Moscow", "AllConf=0.291338582677165", "triple=e dbp:deathPlace Moscow", "class=MilitaryPerson" ],
+    "2" : [ "pair=Order_of_Lenin", "AllConf=0.281553398058252", "triple=e dbo:award Order_of_Lenin", "class=MilitaryPerson" ],
+    "3" : [ "pair=Red_Army", "AllConf=0.279279279279279", "triple=e dbp:branch Red_Army", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 579,
+  "pattern" : "spanish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Spanish@en", "AllConf=0.136752136752137", "triple=e dbp:nationality Spanish@en", "class=Athlete" ],
+    "1" : [ "pair=Spain", "AllConf=0.692607003891051", "triple=e dbp:birthPlace Spain", "class=Cyclist" ],
+    "2" : [ "pair=CRI@en", "AllConf=0.454545454545455", "triple=e dbp:country CRI@en", "class=Road" ]
+  }
+}, {
+  "id" : 613,
+  "pattern" : "swiss",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Swiss@en", "AllConf=0.111111111111111", "triple=e dbp:nationality Swiss@en", "class=Athlete" ]
+  }
+}, {
+  "id" : 630,
+  "pattern" : "turkish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Ottoman_dynasty", "AllConf=0.578947368421053", "triple=e dbp:house Ottoman_dynasty", "class=Royalty" ]
+  }
+}, {
+  "id" : 680,
+  "pattern" : "young",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Young_adult_fiction", "AllConf=0.12448132780083", "triple=e dbp:genre Young_adult_fiction", "class=Book" ]
+  }
+} ]

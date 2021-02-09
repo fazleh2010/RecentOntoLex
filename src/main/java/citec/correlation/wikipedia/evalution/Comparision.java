@@ -103,8 +103,8 @@ public class Comparision implements ThresoldConstants{
         }
 
         for (String word : lexiconDic.keySet()) {
-            if(!word.contains("canada"))
-                continue;
+            /*if(!word.contains("canada"))
+                continue;*/
             LexiconUnit lexiconElement = lexiconDic.get(word);
             Map<String, Double> predict = this.getPredictMap(word,lexiconElement);
             Map<String, Boolean> goldRelevance = this.getGoldRelevance(word, predict, type);
@@ -124,6 +124,12 @@ public class Comparision implements ThresoldConstants{
         LOGGER.log(Level.INFO, "detail of matched pattern::" + this.meanReciprocalResult.getPatternFound());
         LOGGER.log(Level.INFO, "number of pattern DOES NOT match with Qald-9::::" + this.meanReciprocalResult.getPatternNotFound().size());
         LOGGER.log(Level.FINE, ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+
+        System.out.println("meanReciprocalRank value::" + this.meanReciprocalResult.getMeanReciprocalRankStr());
+        System.out.println("Lexicon size::" + this.meanReciprocalResult.getTotalPattern());
+        System.out.println("number of pattern matched with Qald-9::" + this.meanReciprocalResult.getPatternFound().size());
+        System.out.println("detail of matched pattern::" + this.meanReciprocalResult.getPatternFound());
+        System.out.println("number of pattern DOES NOT match with Qald-9::::" + this.meanReciprocalResult.getPatternNotFound().size());
 
         //System.out.println("meanReciprocalRank:" + meanReciprocalResult.getMeanReciprocalElements());
         //FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocalResult, outputFileName);

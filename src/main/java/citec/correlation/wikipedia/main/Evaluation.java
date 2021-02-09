@@ -99,43 +99,10 @@ public class Evaluation implements ThresoldConstants {
         }
     }
 
-    public static void main(String[] args) throws Exception {
-        Integer createFiles = 1;
-        Integer evaluate = 2;
-        Integer menu = 2;
-
-        String directory = qald9Dir + OBJECT + "/";
-        String inputDir = dbpediaDir + "results/" + "new/MR/";
-        Evaluation evaluationMainTest = new Evaluation();
-        
-        String prediction=predict_l_for_s_given_o;
-
-        // prediction=predict_l_for_s_given_po;
-         
-        String dic = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/"+prediction+"/dic/";
-        String meanR = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/"+prediction+"/meanR/";
-        //run it once. we dont need to run it very time..
-        Map<String, ThresoldsExperiment> associationRulesExperiment = createExperiments();
-
-        File files = new File(dic);
-        boolean exists = files.exists();
-        if (exists) {
-            System.out.println("directory  exists!!");
-        } else {
-            FileFolderUtils.createDirectory(dic);
-        }
-
-        if (menu == evaluate) {
-            allThresoldInterestingness = createExperiments();
-            calculateMeanReciprocal(prediction,dic, meanR);
-        }
-
-        //Calculate mean reciprocal 
-        //calculateMeanReciprocal(predict_l_for_s_given_po_dic, predict_l_for_s_given_po_meanR);
-    }
+    
 
     public static void calculateMeanReciprocal(String givenPrediction,String directory, String outputDir) throws IOException, Exception {
-        for (String prediction : predictKBGivenLInguistic) {
+        for (String prediction : predictLinguisticGivenKB) {
             if (!prediction.contains(givenPrediction)) {
                 continue;
             }
@@ -310,4 +277,32 @@ public class Evaluation implements ThresoldConstants {
         return info[0].trim().strip();
     }
 
+    
+    public static void main(String[] args) throws Exception {
+
+        String directory = qald9Dir + OBJECT + "/";
+        String inputDir = dbpediaDir + "results/" + "new/MR/";
+        Evaluation evaluationMainTest = new Evaluation();
+
+        String prediction = predict_l_for_s_given_o;
+        prediction = predict_l_for_s_given_po;
+
+        // prediction=predict_l_for_s_given_po;
+        String dic = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/dic/";
+        String meanR = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/meanR/";
+        //run it once. we dont need to run it very time..
+        Map<String, ThresoldsExperiment> associationRulesExperiment = createExperiments();
+
+        File files = new File(dic);
+        boolean exists = files.exists();
+        if (exists) {
+            System.out.println("directory  exists!!");
+        } else {
+            FileFolderUtils.createDirectory(dic);
+        }
+
+        allThresoldInterestingness = createExperiments();
+        calculateMeanReciprocal(prediction, dic, meanR);
+
+    }
 }

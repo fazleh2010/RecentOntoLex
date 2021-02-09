@@ -26,7 +26,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.TreeMap;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
-import citec.correlation.wikipedia.utils.EvluationTriple;
+import citec.correlation.wikipedia.utils.EvaluationTriple;
 import com.opencsv.CSVReader;
 import com.opencsv.exceptions.CsvException;
 import java.io.File;
@@ -257,7 +257,7 @@ public class Comparision implements ThresoldConstants{
             String info[] = tripleStr.split(" ");
             String predicate = info[1];
             String object = info[2];
-            EvluationTriple triple = new EvluationTriple(LEXICON,this.predicationRule,rank.toString(),predicate,object,word);
+            EvaluationTriple triple = new EvaluationTriple(LEXICON,this.predicationRule,rank.toString(),predicate,object,word);
             Double value = Double.parseDouble(pairs.get(1).split("=")[1]);
             predict.put(triple.getKey(), value);
         }
@@ -299,14 +299,14 @@ public class Comparision implements ThresoldConstants{
     }
 
     private Boolean isFoundinGold(String word, String lexiconStr) {
-        EvluationTriple lexiconTriple = new EvluationTriple(LEXICON, this.predicationRule, lexiconStr, word);
+        EvaluationTriple lexiconTriple = new EvaluationTriple(LEXICON, this.predicationRule, lexiconStr, word);
         //LOGGER.log(Level.INFO, "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::" + lexiconTriple);
-        List<EvluationTriple> qaldPredicateObject = new ArrayList<EvluationTriple>();
+        List<EvaluationTriple> qaldPredicateObject = new ArrayList<EvaluationTriple>();
         if (predicationRule.contains(this.predicationRule)) {
             qaldPredicateObject = csvFile.getRowValues(word, this.predicationRule);
-            for (EvluationTriple qaldTriple : qaldPredicateObject) {
+            for (EvaluationTriple qaldTriple : qaldPredicateObject) {
                 //LOGGER.log(Level.INFO, "$$$$$$$$$$$ qaldTriple::" + qaldTriple);
-                if (EvluationTriple.match(lexiconTriple, qaldTriple, this.predicationRule)) {
+                if (EvaluationTriple.match(lexiconTriple, qaldTriple, this.predicationRule)) {
                     return true;
                 }
             }

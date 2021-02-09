@@ -55,9 +55,9 @@ public class ProcessFile implements ThresoldConstants {
                 continue;
             }
             for (String rule : interestingness) {
-                /*if (!rule.contains(givenInterestingness)) {
+                if (!rule.contains(Kulczynski)) {
                     continue;
-                }*/
+                }
                 Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(rawFileDir, rule, ".json");
                 if (pair.getValue0()) {
                     NewResultsMR allClassLines = readFromJsonFile(pair.getValue1());
@@ -78,7 +78,7 @@ public class ProcessFile implements ThresoldConstants {
             String experimentID = index + "-" + experiment;
             lexicon = createLexicon(outputDir, prediction, associationRule, allClassLines, element, experimentID);
             LOGGER.log(Level.INFO, outputDir + " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
-
+            System.out.println( outputDir + " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
         }
     }
 
@@ -92,6 +92,7 @@ public class ProcessFile implements ThresoldConstants {
         Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
         
         for (String className : result.getClassDistributions().keySet()) {
+             System.out.println( "now processing class:::::" + className);
             List<Rule> rules = result.getClassDistributions().get(className);
             Integer index = 0;
             for (Rule line : rules) {
@@ -107,7 +108,13 @@ public class ProcessFile implements ThresoldConstants {
                 if (!lineInfo.getValidFlag()) {
                     continue;
                 }
+                //System.out.println("lineInfo.getnGramNumber():" + lineInfo.getnGramNumber());
+                //System.out.println("thresoldELement.getN_gram():" + thresoldELement.getN_gram());
+                if(lineInfo.getnGramNumber()!=thresoldELement.getN_gram()){
+                    continue;
+                }
                 String word = lineInfo.getWord();
+                //System.out.println("@@@@@@@:" + lineInfo.getnGramNumber()+"@@@@@@@@@");
                 //System.out.println("word:" + word);
 
                 if (FormatAndMatch.isNumeric(lineInfo.getWord())) {
@@ -117,8 +124,8 @@ public class ProcessFile implements ThresoldConstants {
                     continue;
                 }
                 String nGram = lineInfo.getWord().toLowerCase().trim().strip();
-                LOGGER.log(Level.INFO, "index:" + index + " total::" + numberOfRules + " nGram:" + nGram);
-                //System.out.println("parts-of-sppech:" + lineInfo.getPartOfSpeech());
+                //LOGGER.log(Level.INFO,  "index:" + index + " total::" + numberOfRules + " nGram:" + nGram);
+                //System.out.println( "index:" + index + " total::" + numberOfRules + " nGram:" + nGram);
                 List<LineInfo> results = new ArrayList<LineInfo>();
                 if (lineLexicon.containsKey(nGram)) {
                     results = lineLexicon.get(nGram);

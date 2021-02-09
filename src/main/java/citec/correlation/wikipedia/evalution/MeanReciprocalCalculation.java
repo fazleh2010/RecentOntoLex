@@ -31,44 +31,47 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class MeanReciprocalCalculation implements Comparator{
+public class MeanReciprocalCalculation implements Comparator {
 
     @JsonIgnore
     public static final boolean ASCENDING = true;
     @JsonIgnore
     public static final boolean DESCENDING = false;
     @JsonProperty("MeanReciProcalRank")
-    private Double meanReciprocalRank=0.0;
+    private Double meanReciprocalRank = 0.0;
     @JsonProperty("experiment")
-    private String experiment=null;
+    private String experiment = null;
     @JsonIgnore
-    private String meanReciprocalRankStr="0.0";
-    
-  
+    private String meanReciprocalRankStr = "0.0";
+
     @JsonProperty("TotalPattern")
-    private Integer totalPattern=null;
+    private Integer totalPattern = null;
     @JsonProperty("Found")
-    private Integer numberOfPatterrnFoundNonZeroRank=0;
+    private Integer numberOfPatterrnFoundNonZeroRank = 0;
     //@JsonProperty("NotFound")
     @Ignore
-    private Integer numberOfPatterrnFoundZeroRank=null;
+    private Integer numberOfPatterrnFoundZeroRank = null;
     //@JsonProperty("Detail")
     @Ignore
-    private Map<String,ReciprocalResult> patternFound=new  TreeMap<String,ReciprocalResult>();
+    private Map<String, ReciprocalResult> patternFound = new TreeMap<String, ReciprocalResult>();
     //@JsonProperty("PatterrnFoundZeroRank")
     @JsonIgnore
-    private Map<String,ReciprocalResult> patternNotFound=new  TreeMap<String,ReciprocalResult>();
-     @JsonIgnore
-    private static Logger LOGGER=null;
+    private Map<String, ReciprocalResult> patternNotFound = new TreeMap<String, ReciprocalResult>();
+    @JsonIgnore
+    private static Logger LOGGER = null;
+
+    @JsonIgnore
+    private List<String> commonWords = new ArrayList<String>();
 
     public MeanReciprocalCalculation() {
-        
+
     }
-  
-    public MeanReciprocalCalculation(String experiment,List<Pair<String, Map<String, Double>>> rankings, List<Pair<String, Map<String, Boolean>>> gold,Logger LOGGER) {
-        this.experiment=experiment;
-        this.LOGGER=LOGGER;
-        this.computeWithRankingMap(rankings,gold);
+
+    public MeanReciprocalCalculation(String experiment, List<Pair<String, Map<String, Double>>> rankings, List<Pair<String, Map<String, Boolean>>> gold, Logger LOGGER, List<String> commonWords) {
+        this.experiment = experiment;
+        this.LOGGER = LOGGER;
+        this.commonWords = commonWords;
+        this.computeWithRankingMap(rankings, gold);
     }
 
     public void computeWithRankingMap(List<Pair<String, Map<String, Double>>> rankings, List<Pair<String, Map<String, Boolean>>> gold) {
@@ -76,23 +79,37 @@ public class MeanReciprocalCalculation implements Comparator{
                 "The size of predictions and gold should be identical, Usually not found element are in FALSE marked in gold");
         double mrr = 0;
 
-        LOGGER.log(Level.INFO, ">>>>>>>>>>>>>>>>>>>>>>>>>>checking  linguistic pattern our lexicon:>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
 
         for (int i = 0; i < rankings.size(); i++) {
             Pair<String, Map<String, Double>> rankingsPredict = rankings.get(i);
             Pair<String, Map<String, Boolean>> wordGold = gold.get(i);
             String word = rankingsPredict.getValue0();
+            Boolean commonFlag = false;
+            
+           LOGGER.log(Level.INFO, "checking  linguistic pattern:: "+word);
 
-            LOGGER.log(Level.INFO, "now checking pattern:" + word);
+
+            if (this.commonWords.contains(word)) {
+                commonFlag = true;
+            }
 
             ReciprocalResult reciprocalElement = getReciprocalRank(getKeysSortedByValue(rankingsPredict.getValue1(), DESCENDING),
-                    wordGold.getValue1());
+                    wordGold.getValue1(), commonFlag);
 
             if (reciprocalElement.getRank() > 0) {
                 this.patternFound.put(word, reciprocalElement);
             } else {
                 patternNotFound.put(word, reciprocalElement);
-                LOGGER.log(Level.INFO, "@@@@@" + " the pattern NOT FOUND in QALD!!:");
+                if (!commonFlag) {
+                    LOGGER.log(Level.INFO, "@@@@" + " Linguistic pattern NOT matched  with QALD :" + " rank::" + reciprocalElement.getRank() + " reciprocalRank!!:" + reciprocalElement.getRank());
+                } else {
+                    LOGGER.log(Level.INFO, "$$$$$$$$$$$ KB  NOT matched with QALD :");
+                    LOGGER.log(Level.INFO, "$$$$ rank::" + reciprocalElement.getRank());
+                    LOGGER.log(Level.INFO, "$$$$ reciprocalRank::" + reciprocalElement.getReciprocalRank());
+                    LOGGER.log(Level.INFO, ">>>>>>>>>>>>>>>>>>>>>>>>> Checking END  >>>>>>>>>>>>>>>>>>>>>>>>>>");
+
+                }
+
             }
 
             mrr += reciprocalElement.getReciprocalRank();
@@ -110,31 +127,39 @@ public class MeanReciprocalCalculation implements Comparator{
 
     }
 
-    private static ReciprocalResult getReciprocalRank(final List<String> ranking, final Map<String, Boolean> gold) {
+    private static ReciprocalResult getReciprocalRank(final List<String> ranking, final Map<String, Boolean> gold, Boolean commonWordFlag) {
         ReciprocalResult reciprocalElement = new ReciprocalResult(ranking, 0, 0.0);
 
         EvalutionUtil.ifFalseCrash(IrAbstract.GoldContainsAllinRanking(ranking, gold),
                 "I cannot compute MRR");
+
+        if (commonWordFlag) {
+            LOGGER.log(Level.INFO,  "\n"+">>>>>>>>>>>>>>>>>>>>>>>>> Linguistic pattern MATCHED with QALD  >>>>>>>>>>>>>>>>>>>>>>>>>>");
+             LOGGER.log(Level.INFO, ">>>>>>>>>>>>>>>>>>>>>>>>> Checking START  >>>>>>>>>>>>>>>>>>>>>>>>>>");
+            //LOGGER.log(Level.INFO, ">>> KB for the pattern in our lexicon:" + EvluationTriple.getString(ranking));
+        }
+
         double reciprocalRank = 0;
         for (Integer i = 0; i < ranking.size(); i++) {
-
+            String kb = ranking.get(i);
             //temporarily closed...
             /*if (i == 10) {
                 continue;
             }*/
-            
+
             if (gold.containsKey(ranking.get(i))) {
 
                 if (gold.get(ranking.get(i))) {
                     String predicate = ranking.get(i);
                     reciprocalRank = 1.0 / (i + 1);
                     Integer rank = (i + 1);
-                    LOGGER.log(Level.INFO, "$$$$$$$$$$$$$$ PATTERN MATCHED with QALD $$$$$$$$$$$$$$:");
-                    LOGGER.log(Level.INFO, "$$$$ detail kbs of the pattern in qald :" +EvluationTriple.qaldStr(ranking.get(i)));
-                    LOGGER.log(Level.INFO, "$$$$ detail kbs of the pattern in our lexicon:" +EvluationTriple.getString(ranking));
-                    LOGGER.log(Level.INFO, "$$$$ rank Found::" + rank);
-                    LOGGER.log(Level.INFO, "$$$$ its reciprocalRank::" + reciprocalRank);
-                    LOGGER.log(Level.INFO, "$$$$$$$$$$$$$$ CHECKING END $$$$$$$$$$$$$$$$$$$$$$$$$$$$:"+"\n");
+                    LOGGER.log(Level.INFO, " KB MATECHED with QALD ####################################################");
+                    LOGGER.log(Level.INFO, ">>> KB for the pattern in our lexicon:" + EvluationTriple.getString(ranking));
+                    LOGGER.log(Level.INFO, ">>> MATECHED KB :" + EvluationTriple.qaldStr(ranking.get(i)));
+                    LOGGER.log(Level.INFO, ">>> rank::" + rank);
+                    LOGGER.log(Level.INFO, ">>> reciprocalRank::" + reciprocalRank);
+                    LOGGER.log(Level.INFO, ">>>>>>>>>>>>>>>>>>>>>>>>> Checking END  >>>>>>>>>>>>>>>>>>>>>>>>>>"+ "\n");
+
                     return new ReciprocalResult(predicate, rank, reciprocalRank);
                 }
             }
@@ -175,15 +200,13 @@ public class MeanReciprocalCalculation implements Comparator{
         MeanReciprocalCalculation s2 = (MeanReciprocalCalculation) arg1;
         if (s1.meanReciprocalRank == s2.meanReciprocalRank) {
             return 0;
-        } else if (s1.meanReciprocalRank >s2.meanReciprocalRank) {
+        } else if (s1.meanReciprocalRank > s2.meanReciprocalRank) {
             return 1;
         } else {
             return -1;
         }
 
     }
-    
-    
 
     public String getExperiment() {
         return experiment;
@@ -218,6 +241,4 @@ public class MeanReciprocalCalculation implements Comparator{
         return "MeanReciprocalCalculation{" + "meanReciprocalRank=" + meanReciprocalRank + ", experiment=" + experiment + ", meanReciprocalRankStr=" + meanReciprocalRankStr + ", totalPattern=" + totalPattern + ", numberOfPatterrnFoundNonZeroRank=" + numberOfPatterrnFoundNonZeroRank + ", numberOfPatterrnFoundZeroRank=" + numberOfPatterrnFoundZeroRank + ", patternFound=" + patternFound + ", patternNotFound=" + patternNotFound + ", LOGGER=" + LOGGER + '}';
     }
 
-
-   
 }

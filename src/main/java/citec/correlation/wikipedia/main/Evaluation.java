@@ -187,14 +187,16 @@ public class Evaluation implements ThresoldConstants {
                 File conditionalFile = new File(directory + fileName + ".json");
                 //LOGGER.log(Level.INFO, "evaluate for part-of-speech::" + posTag);
                 //LOGGER.log(Level.INFO, "qald-9 file this parts-of-speech::" + qaldFile.getName());
-                LOGGER.log(Level.INFO, ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> ");
-                LOGGER.log(Level.INFO, "calculating mean reciprocal for " + experiment);
-                LOGGER.log(Level.INFO, "take lexicon seperated by parts of speech: " + conditionalFile.getName());
-                LOGGER.log(Level.INFO, "take corresponsding qald-9 file " + csvFile.getFilename());
+                LOGGER.log(Level.INFO, "****************************Experiment START ************************************ ");
+                LOGGER.log(Level.INFO, "experiment thresholds " + experiment);
                 LOGGER.log(Level.INFO, "parts-of-speech: " + posTag);
+                LOGGER.log(Level.INFO, "our Lexicon: " + conditionalFile.getName());
+                LOGGER.log(Level.INFO, "qald-9 file " + csvFile.getFilename());
+
 
                 Comparision comparision = new Comparision(predictionRule,csvFile, conditionalFile, posTag, LOGGER, experiment, OBJECT);
                 MeanReciprocalCalculation meanReciprocalCalculation = comparision.getMeanReciprocalResult();
+                LOGGER.log(Level.INFO, "****************************Experiment END ************************************ ");
 
                 /*if (posTag.contains("JJ")) {
                     adjectives.add(meanReciprocalCalculation);

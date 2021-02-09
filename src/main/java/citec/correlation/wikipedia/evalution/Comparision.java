@@ -93,20 +93,19 @@ public class Comparision implements ThresoldConstants{
         }
 
         //Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
-        LOGGER.log(Level.INFO, "csv:", csvFile.getRow().keySet().toString());
         List<String> commonWords = new ArrayList<String>(Sets.intersection(csvFile.getRow().keySet(), lexiconDic.keySet()));
         if (!commonWords.isEmpty()) {
-            LOGGER.log(Level.INFO, "linguistic pattern found both in lexicon and qald-9");
+            LOGGER.log(Level.INFO, "The following linguistic patterns are matched both in our lexicon and qald-9:");
             LOGGER.log(Level.INFO, commonWords.toString());
         } else {
-            LOGGER.log(Level.INFO, "no linguistic pattern matched between lexicon and qald-9");
+            LOGGER.log(Level.WARNING, "NO linguistic pattern matched between lexicon and qald-9");
         }
 
         for (String word : lexiconDic.keySet()) {
             /*if(!word.contains("canada"))
                 continue;*/
             LexiconUnit lexiconElement = lexiconDic.get(word);
-            Map<String, Double> predict = this.getPredictMap(word,lexiconElement);
+            Map<String, Double> predict = this.getPredictMap(word, lexiconElement);
             Map<String, Boolean> goldRelevance = this.getGoldRelevance(word, predict, type);
             Pair<String, Map<String, Double>> predictPair = new Pair<String, Map<String, Double>>(word, predict);
             Pair<String, Map<String, Boolean>> goldRelevancePair = new Pair<String, Map<String, Boolean>>(word, goldRelevance);
@@ -114,16 +113,20 @@ public class Comparision implements ThresoldConstants{
             qald_gold.add(goldRelevancePair);
         }
 
-        this.meanReciprocalResult = new MeanReciprocalCalculation(experiment, lexicon, qald_gold, LOGGER);
-        LOGGER.log(Level.FINE, ">>>>>>>>>>>>>>>>>>>>>  Summary of the experiment >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        this.meanReciprocalResult = new MeanReciprocalCalculation(experiment, lexicon, qald_gold, LOGGER, commonWords);
+        LOGGER.log(Level.FINE, "Summary of the experiment !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         LOGGER.log(Level.INFO, "experiment::" + experiment);
         LOGGER.log(Level.INFO, "postag::" + this.posTag);
         LOGGER.log(Level.INFO, "meanReciprocalRank value::" + this.meanReciprocalResult.getMeanReciprocalRankStr());
-        LOGGER.log(Level.INFO, "Lexicon size::" + this.meanReciprocalResult.getTotalPattern());
-        LOGGER.log(Level.INFO, "number of pattern matched with Qald-9::" + this.meanReciprocalResult.getPatternFound().size());
+        LOGGER.log(Level.INFO, "number linguistic patterns in our Lexicon::" + this.meanReciprocalResult.getTotalPattern());
+        LOGGER.log(Level.INFO, "number of pattern of our Lexicon matched with Qald-9::" + this.meanReciprocalResult.getPatternFound().size());
         LOGGER.log(Level.INFO, "detail of matched pattern::" + this.meanReciprocalResult.getPatternFound());
+        for(String pattern:this.meanReciprocalResult.getPatternFound().keySet()){
+            LOGGER.log(Level.INFO, "linguistic pattern::" + pattern);
+            LOGGER.log(Level.INFO, "mean reciprocal detail::" + this.meanReciprocalResult.getPatternFound().get(pattern));
+        }
         LOGGER.log(Level.INFO, "number of pattern DOES NOT match with Qald-9::::" + this.meanReciprocalResult.getPatternNotFound().size());
-        LOGGER.log(Level.FINE, ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+        LOGGER.log(Level.FINE, "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 
         System.out.println("meanReciprocalRank value::" + this.meanReciprocalResult.getMeanReciprocalRankStr());
         System.out.println("Lexicon size::" + this.meanReciprocalResult.getTotalPattern());

@@ -25,6 +25,7 @@ public interface ThresoldConstants {
     public static final String condAB = "condAB";
     public static final String condBA = "condBA";
     public static final String numRule = "numRule";
+    public static final String nGram = "nGram";
     
     public static final String AllConf = "AllConf";
     public static final String MaxConf = "MaxConf";

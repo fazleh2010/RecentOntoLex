@@ -107,32 +107,36 @@ public class Evaluation implements ThresoldConstants {
         String directory = qald9Dir + OBJECT + "/";
         String inputDir = dbpediaDir + "results/" + "new/MR/";
         Evaluation evaluationMainTest = new Evaluation();
+        
+        String prediction=predict_l_for_s_given_o;
 
-        String predict_l_for_s_given_po_dic = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/predict_l_for_s_given_po/dic/";
-        String predict_l_for_s_given_po_meanR = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/predict_l_for_s_given_po/meanR/";
+        // prediction=predict_l_for_s_given_po;
+         
+        String dic = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/"+prediction+"/dic/";
+        String meanR = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/"+prediction+"/meanR/";
         //run it once. we dont need to run it very time..
         Map<String, ThresoldsExperiment> associationRulesExperiment = createExperiments();
 
-        File files = new File(predict_l_for_s_given_po_dic);
+        File files = new File(dic);
         boolean exists = files.exists();
         if (exists) {
             System.out.println("directory  exists!!");
         } else {
-            FileFolderUtils.createDirectory(predict_l_for_s_given_po_dic);
+            FileFolderUtils.createDirectory(dic);
         }
 
         if (menu == evaluate) {
             allThresoldInterestingness = createExperiments();
-            calculateMeanReciprocal(predict_l_for_s_given_po_dic, predict_l_for_s_given_po_meanR);
+            calculateMeanReciprocal(prediction,dic, meanR);
         }
 
         //Calculate mean reciprocal 
         //calculateMeanReciprocal(predict_l_for_s_given_po_dic, predict_l_for_s_given_po_meanR);
     }
 
-    public static void calculateMeanReciprocal(String directory, String outputDir) throws IOException, Exception {
+    public static void calculateMeanReciprocal(String givenPrediction,String directory, String outputDir) throws IOException, Exception {
         for (String prediction : predictionRules) {
-            if (!prediction.contains(predict_l_for_s_given_po)) {
+            if (!prediction.contains(givenPrediction)) {
                 continue;
             }
             Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult = new TreeMap<String, Map<String, Map<String, MeanReciprocalCalculation>>>();

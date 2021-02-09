@@ -20,6 +20,7 @@ public class EvluationTriple implements ThresoldConstants {
     private String type = null;
     private String id = null;
     private String predicate = null;
+    private String subject = null;
     private String object = null;
     private String key = null;
     private String predictionRule = null;
@@ -44,8 +45,10 @@ public class EvluationTriple implements ThresoldConstants {
     private void createKey() {
         if (this.predictionRule.contains(ThresoldConstants.predict_l_for_s_given_po)) {
             this.key = this.predicate + " " + this.object;
-        } else {
+        } else if(this.predictionRule.contains(ThresoldConstants.predict_l_for_s_given_o)){
             this.key = this.object;
+        }else if(this.predictionRule.contains(ThresoldConstants.predict_l_for_o_given_s)){
+            this.key = this.subject + " " + this.predicate;
         }
 
     }
@@ -82,6 +85,11 @@ public class EvluationTriple implements ThresoldConstants {
            if(predeciateFlag&&objectFlag)
            return true;
         }
+        else if (predicationRule.contains(predict_l_for_s_given_o)) {
+            Boolean objectFlag=matchObject(lexiconTriple,qaldTriple);
+           if(objectFlag)
+           return true;
+        }
         return false;
     }
     
@@ -110,9 +118,15 @@ public class EvluationTriple implements ThresoldConstants {
     }
 
     private void parseKey() {
+        if(this.key.contains(" ")) {
         String[] info = this.key.split(" ");
         this.predicate = info[0];
         this.object = info[1];
+        }
+        else
+        this.predicate ="";
+        this.object = key;
+    
     }
 
     private void setPredicate(String predicate) {
@@ -125,22 +139,32 @@ public class EvluationTriple implements ThresoldConstants {
     }
     
     public static String qaldStr(String key) {
-        String str="\n";
-        String[] info = key.split(" ");
-        String predicate = info[0];
-        String object = info[1];
-        return str+" predicate-object pair: "+predicate+" "+ object+ "\n";
+        String str = "\n";
+        if (key.contains(" ")) {
+            String[] info = key.split(" ");
+            String predicate = info[0];
+            String object = info[1];
+            return str + " predicate-object pair: " + predicate + " " + object + "\n";
+        }
+        else
+            return key;
     }
     public static String getString(List<String> ranking) {
-        String str="\n";
-        Integer index=1;
+        String str = "\n";
+        Integer index = 1;
+        String line = null;
         for (String key : ranking) {
-             String[] info = key.split(" ");
-             String predicate = info[0];
-             String object = info[1];
-             String line=index.toString()+" predicate-object pair: "+predicate+" "+ object+ "\n";
-             str+=line;
-             index=index+1;
+            if (key.contains(" ")) {
+                String[] info = key.split(" ");
+                String predicate = info[0];
+                String object = info[1];
+                line = index.toString() + " predicate-object pair: " + predicate + " " + object + "\n";
+            } else {
+                line = index.toString() + " object : " + key + "\n";
+            }
+
+            str += line;
+            index = index + 1;
         }
         return str;
     }

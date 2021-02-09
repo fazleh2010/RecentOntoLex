@@ -302,7 +302,7 @@ public class Comparision implements ThresoldConstants{
         EvluationTriple lexiconTriple = new EvluationTriple(LEXICON, this.predicationRule, lexiconStr, word);
         //LOGGER.log(Level.INFO, "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::" + lexiconTriple);
         List<EvluationTriple> qaldPredicateObject = new ArrayList<EvluationTriple>();
-        if (predicationRule.contains(predict_l_for_s_given_po)) {
+        if (predicationRule.contains(this.predicationRule)) {
             qaldPredicateObject = csvFile.getRowValues(word, this.predicationRule);
             for (EvluationTriple qaldTriple : qaldPredicateObject) {
                 //LOGGER.log(Level.INFO, "$$$$$$$$$$$ qaldTriple::" + qaldTriple);

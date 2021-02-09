@@ -136,7 +136,8 @@ public class MeanReciprocalCalculation implements Comparator {
         if (commonWordFlag) {
             LOGGER.log(Level.INFO,  "\n"+">>>>>>>>>>>>>>>>>>>>>>>>> Linguistic pattern MATCHED with QALD  >>>>>>>>>>>>>>>>>>>>>>>>>>");
              LOGGER.log(Level.INFO, ">>>>>>>>>>>>>>>>>>>>>>>>> Checking START  >>>>>>>>>>>>>>>>>>>>>>>>>>");
-            //LOGGER.log(Level.INFO, ">>> KB for the pattern in our lexicon:" + EvluationTriple.getString(ranking));
+             //LOGGER.log(Level.INFO, ">>> KB for the pattern in our lexicon:" + EvluationTriple.getString(ranking));
+             //LOGGER.log(Level.INFO, ">>> qald KBs:" + gold.keySet());
         }
 
         double reciprocalRank = 0;

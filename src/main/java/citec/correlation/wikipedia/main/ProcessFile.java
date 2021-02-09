@@ -55,7 +55,7 @@ public class ProcessFile implements ThresoldConstants {
                 continue;
             }
             for (String rule : interestingness) {
-                if (!rule.contains(Kulczynski)) {
+                if (!rule.contains(Coherence)) {
                     continue;
                 }
                 Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(rawFileDir, rule, ".json");
@@ -92,7 +92,7 @@ public class ProcessFile implements ThresoldConstants {
         Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
         
         for (String className : result.getClassDistributions().keySet()) {
-             System.out.println( "now processing class:::::" + className);
+             //System.out.println( "now processing class:::::" + className);
             List<Rule> rules = result.getClassDistributions().get(className);
             Integer index = 0;
             for (Rule line : rules) {
@@ -100,7 +100,7 @@ public class ProcessFile implements ThresoldConstants {
                 if (index >= numberOfRules) {
                     break;
                 }
-                LineInfo lineInfo = new LineInfo(interestingness, line);
+                LineInfo lineInfo = new LineInfo(dbo_prediction,interestingness, line);
 
                 if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
                     continue;
@@ -211,7 +211,11 @@ public class ProcessFile implements ThresoldConstants {
         String baseDir = "/home/elahi/dbpediaFiles/unlimited/unlimited/";
         Logger LOGGER = Logger.getLogger(ProcessFile.class.getName());
         String prediction = predict_l_for_s_given_po;
-        String associationRule = Coherence;
+        
+        prediction =predict_l_for_s_given_o;
+        
+         prediction =predict_l_for_o_given_s; 
+        
         String outputDir = qald9Dir;
         Map<String, ThresoldsExperiment> associationRulesExperiment = Evaluation.createExperiments();
 

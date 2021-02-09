@@ -33,6 +33,8 @@ public class Rule {
     private String p = null;
     @JsonProperty("o")
     private String o = null;
+    @JsonProperty("s")
+    private String s = null;
     @JsonProperty("supB")
     private Double supB = null;
     @JsonProperty("supA")
@@ -102,9 +104,14 @@ public class Rule {
         return o;
     }
 
+    public String getS() {
+        return s;
+    }
+
     @Override
     public String toString() {
-        return "Rule{" + "c=" + c + ", ruletype=" + ruletype + ", condAB=" + condAB + ", condBA=" + condBA + ", supAB=" + supAB + ", l=" + l + ", as_string=" + as_string + ", patterntype=" + patterntype + ", p=" + p + ", supB=" + supB + ", supA=" + supA + ", cfg=" + cfg + ", interestingness=" + interestingness + '}';
+        return "Rule{" + "c=" + c + ", ruletype=" + ruletype + ", condAB=" + condAB + ", condBA=" + condBA + ", supAB=" + supAB + ", l=" + l + ", as_string=" + as_string + ", patterntype=" + patterntype + ", p=" + p + ", o=" + o + ", s=" + s + ", supB=" + supB + ", supA=" + supA + ", cfg=" + cfg + ", interestingness=" + interestingness + '}';
     }
+
 
 }

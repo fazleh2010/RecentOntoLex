@@ -52,11 +52,23 @@ public class LineInfo implements ThresoldConstants{
     }
     
      
-    public LineInfo( String interestingness,Rule rule) throws Exception {
+    public LineInfo( String prediction,String interestingness,Rule rule) throws Exception {
         this.line = rule.getAs_string();
         this.className = rule.getC();
-        this.subject = "e";
-        this.predicate = this.setProperty(rule);
+        
+        if (prediction.contains(predict_l_for_o_given_s)) {
+            this.subject = this.setSubject(rule);
+        } else {
+           this.subject = "e";
+        }
+
+        if (prediction.contains(predict_l_for_s_given_o)) {
+           this.predicate="p";
+        }
+        else{
+          this.predicate = this.setProperty(rule);  
+        }
+      
         this.object = this.setObject(rule);
         this.wordOriginal = rule.getL();
         if (wordOriginal != null) {
@@ -224,6 +236,20 @@ public class LineInfo implements ThresoldConstants{
             return object;
       
     }
+    
+      private String setSubject(Rule rule) {
+        String object = rule.getS();
+        if (object.contains("http")) {
+            object = object.replace(http, "");
+            object = object.replace("<", "");
+            object = object.replace(">", "");
+        } else if (object.contains("@")) {
+            object = object.replace("\"", "");
+        }
+
+        return object;
+    }
+
     
     private String setObject(Rule rule) {
         String object = rule.getO();

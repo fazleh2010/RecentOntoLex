@@ -135,7 +135,7 @@ public class Evaluation implements ThresoldConstants {
     }
 
     public static void calculateMeanReciprocal(String givenPrediction,String directory, String outputDir) throws IOException, Exception {
-        for (String prediction : predictionRules) {
+        for (String prediction : predictKBGivenLInguistic) {
             if (!prediction.contains(givenPrediction)) {
                 continue;
             }

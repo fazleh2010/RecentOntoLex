@@ -1,0 +1,78 @@
+[ {
+  "id" : 1,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.480676328502415", "triple=e dbp:offCoach o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "church",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.449308755760369", "triple=e dbp:staticImageCaption o", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "coach",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.5", "triple=e dbo:coach o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.492924528301887", "triple=e dbp:offCoach o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "genus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.44487932159165", "triple=e dbo:genus o", "class=Plant" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "head",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.48381601362862", "triple=e dbp:homeCoach o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "ncaa",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.488372093023256", "triple=e dbp:postseason o", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "party",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.472881355932203", "triple=e dbp:politicalParty o", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "soccer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.472", "triple=e dbp:postseason o", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "tournament",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.49618320610687", "triple=e dbp:postseason o", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "university",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.464874241110147", "triple=e dbp:visitorCoach o", "class=CollegeCoach" ]
+  }
+} ]

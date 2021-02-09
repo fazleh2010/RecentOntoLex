@@ -1,0 +1,50 @@
+[ {
+  "id" : 1,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.480676328502415", "triple=e dbp:offCoach o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "coach",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.5", "triple=e dbo:coach o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.492924528301887", "triple=e dbp:offCoach o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "genus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.44487932159165", "triple=e dbo:genus o", "class=Plant" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "head",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.48381601362862", "triple=e dbp:homeCoach o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "party",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.472881355932203", "triple=e dbp:politicalParty o", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "university",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "Coherence=0.464874241110147", "triple=e dbp:visitorCoach o", "class=CollegeCoach" ]
+  }
+} ]

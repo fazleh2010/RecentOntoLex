@@ -47,7 +47,7 @@ public class ProcessFile implements ThresoldConstants {
     public ProcessFile(String baseDir, String qald9Dir, String givenPrediction, Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER) throws Exception {
         this.setUpLog(givenLOGGER);
 
-        for (String prediction : predictionLinguisticRules) {
+        for (String prediction : predictLinguisticGivenKB) {
             String rawFileDir = baseDir + prediction + "/";
             String outputDir = qald9Dir + "/" + prediction + "/" + "dic";
 
@@ -210,12 +210,14 @@ public class ProcessFile implements ThresoldConstants {
         //rawFileDir = dbpediaDir + "results/" + "new/MR/";
         String baseDir = "/home/elahi/dbpediaFiles/unlimited/unlimited/";
         Logger LOGGER = Logger.getLogger(ProcessFile.class.getName());
-        String prediction = predict_l_for_s_given_po;
-        
-        prediction =predict_l_for_s_given_o;
-        
-         prediction =predict_l_for_o_given_s; 
-        
+        String  prediction = null;
+        prediction = predict_l_for_s_given_po;
+        prediction = predict_l_for_s_given_o;
+        prediction = predict_l_for_o_given_s;
+        prediction = predict_l_for_o_given_sp;
+        prediction = predict_l_for_o_given_p;
+        prediction = predict_l_for_s_given_p;
+
         String outputDir = qald9Dir;
         Map<String, ThresoldsExperiment> associationRulesExperiment = Evaluation.createExperiments();
 

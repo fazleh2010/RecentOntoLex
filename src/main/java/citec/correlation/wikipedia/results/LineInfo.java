@@ -26,10 +26,10 @@ import org.javatuples.Pair;
 public class LineInfo implements ThresoldConstants{
 
     private String line = null;
-    private String subject = null;
-    private String predicate = null;
+    private String subject = "e";
+    private String predicate = "p";
+    private String object = "o";
     private String posTag = null;
-    private String object = null;
     private String rule = null;
     private String word = null;
     private String wordOriginal = null;
@@ -52,24 +52,26 @@ public class LineInfo implements ThresoldConstants{
     }
     
      
-    public LineInfo( String prediction,String interestingness,Rule rule) throws Exception {
+    public LineInfo(String prediction, String interestingness, Rule rule) throws Exception {
         this.line = rule.getAs_string();
         this.className = rule.getC();
-        
-        if (prediction.contains(predict_l_for_o_given_s)) {
+
+        if (prediction.contains(predict_l_for_s_given_po)) {
+            this.predicate = this.setProperty(rule);
+            this.object = this.setObject(rule);
+        } else if (prediction.contains(predict_l_for_s_given_o)) {
+            this.object = this.setObject(rule);
+        } else if (prediction.contains(predict_l_for_o_given_s)) {
             this.subject = this.setSubject(rule);
-        } else {
-           this.subject = "e";
+        } else if (prediction.contains(predict_l_for_o_given_sp)) {
+            this.subject = this.setSubject(rule);
+            this.predicate = this.setProperty(rule);
+        } else if (prediction.contains(predict_l_for_o_given_p)) {
+            this.predicate = this.setProperty(rule);
+        } else if (prediction.contains(predict_l_for_s_given_p)) {
+            this.predicate = this.setProperty(rule);
         }
 
-        if (prediction.contains(predict_l_for_s_given_o)) {
-           this.predicate="p";
-        }
-        else{
-          this.predicate = this.setProperty(rule);  
-        }
-      
-        this.object = this.setObject(rule);
         this.wordOriginal = rule.getL();
         if (wordOriginal != null) {
             this.validFlag = true;
@@ -85,7 +87,7 @@ public class LineInfo implements ThresoldConstants{
         }
 
     }
-    
+
     
     public LineInfo(String className, String line, Integer wordIndex, Integer kbIndex) throws Exception {
         this.line = line;

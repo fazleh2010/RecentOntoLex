@@ -209,11 +209,15 @@ public class CsvFile implements CsvConstants {
         List<EvaluationTriple> triples = new ArrayList<EvaluationTriple>();
         List<String[]> rows = wordRows.get(word);
         for (String[] row : rows) {
-            String id = row[CsvConstants.idIndex];
-            String predicate = row[CsvConstants.propertyIndex];
-            String object = row[CsvConstants.objectIndex];
-            EvaluationTriple qaldTriple = new EvaluationTriple(QALD,predictionRule,id,predicate, object,word);
-            triples.add(qaldTriple);
+            try {
+                String id = row[CsvConstants.idIndex];
+                String predicate = row[CsvConstants.propertyIndex];
+                String object = row[CsvConstants.objectIndex];
+                EvaluationTriple qaldTriple = new EvaluationTriple(QALD,predictionRule,id,predicate, object,word,LOGGER);
+                triples.add(qaldTriple);
+            } catch (Exception ex) {
+                Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
         return triples;
     }

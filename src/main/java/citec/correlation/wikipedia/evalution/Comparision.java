@@ -41,7 +41,7 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class Comparision implements ThresoldConstants{
+public class Comparision implements ThresoldConstants {
 
     private Map<String, LexiconUnit> lexiconDic = new TreeMap<String, LexiconUnit>();
     private CsvFile csvFile = null;
@@ -71,7 +71,7 @@ public class Comparision implements ThresoldConstants{
     public Comparision(File qaldFileName, File conditionalFilename, Boolean classSpecific, String className) throws IOException {
         if (!classSpecific) {
             this.lexiconDic = getLexicon(conditionalFilename);
-        } 
+        }
         //this.qaldDic = getQaldFromJson(qaldFileName);
     }
 
@@ -95,8 +95,8 @@ public class Comparision implements ThresoldConstants{
         //Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
         List<String> commonWords = new ArrayList<String>(Sets.intersection(csvFile.getRow().keySet(), lexiconDic.keySet()));
         if (!commonWords.isEmpty()) {
-            LOGGER.log(Level.INFO, "The following linguistic patterns are matched both in our lexicon and qald-9:");
-            LOGGER.log(Level.INFO, commonWords.toString());
+            //LOGGER.log(Level.INFO, "The following linguistic patterns are matched both in our lexicon and qald-9:");
+            //LOGGER.log(Level.INFO, commonWords.toString());
         } else {
             LOGGER.log(Level.WARNING, "NO linguistic pattern matched between lexicon and qald-9");
         }
@@ -114,25 +114,25 @@ public class Comparision implements ThresoldConstants{
         }
 
         this.meanReciprocalResult = new MeanReciprocalCalculation(experiment, lexicon, qald_gold, LOGGER, commonWords);
-        LOGGER.log(Level.FINE, "Summary of the experiment !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-        LOGGER.log(Level.INFO, "experiment::" + experiment);
-        LOGGER.log(Level.INFO, "postag::" + this.posTag);
-        LOGGER.log(Level.INFO, "meanReciprocalRank value::" + this.meanReciprocalResult.getMeanReciprocalRankStr());
-        LOGGER.log(Level.INFO, "number linguistic patterns in our Lexicon::" + this.meanReciprocalResult.getTotalPattern());
-        LOGGER.log(Level.INFO, "number of pattern of our Lexicon matched with Qald-9::" + this.meanReciprocalResult.getPatternFound().size());
-        LOGGER.log(Level.INFO, "detail of matched pattern::" + this.meanReciprocalResult.getPatternFound());
-        for(String pattern:this.meanReciprocalResult.getPatternFound().keySet()){
-            LOGGER.log(Level.INFO, "linguistic pattern::" + pattern);
-            LOGGER.log(Level.INFO, "mean reciprocal detail::" + this.meanReciprocalResult.getPatternFound().get(pattern));
+        LOGGER.log(Level.FINE, ">>>>>>>>>>>>>> Summary of the experiment");
+        LOGGER.log(Level.INFO, "EXPERIMENT::" + experiment);
+        LOGGER.log(Level.INFO, "POSTAG::" + this.posTag);
+        LOGGER.log(Level.INFO, "NUMBER OF PATTERN in LEXICON::" + this.meanReciprocalResult.getTotalPattern());
+        LOGGER.log(Level.INFO, "NUMBER OF PATTERN with NONZERO RANK::" + this.meanReciprocalResult.getPatternFound().size());
+        for (String pattern : this.meanReciprocalResult.getPatternFound().keySet()) {
+            LOGGER.log(Level.INFO, "PATTERN::" + pattern);
+            LOGGER.log(Level.INFO, "RECIPROCAL RANK::" + this.meanReciprocalResult.getPatternFound().get(pattern));
         }
-        LOGGER.log(Level.INFO, "number of pattern DOES NOT match with Qald-9::::" + this.meanReciprocalResult.getPatternNotFound().size());
-        LOGGER.log(Level.FINE, "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+        //LOGGER.log(Level.INFO, "number of pattern of our Lexicon matched with Qald-9::" + this.meanReciprocalResult.getPatternFound().size());
+        //LOGGER.log(Level.INFO, "DEATIL::" + this.meanReciprocalResult.getPatternFound());
+        /*for(String pattern:this.meanReciprocalResult.getPatternFound().keySet()){
+            LOGGER.log(Level.INFO, "PATTERN::" + pattern);
+            LOGGER.log(Level.INFO, "M::" + this.meanReciprocalResult.getPatternFound().get(pattern));
+        }*/
+        LOGGER.log(Level.INFO, "NUMBER OF PATTERN with ZERO RANK::::" + this.meanReciprocalResult.getPatternNotFound().size());
+        LOGGER.log(Level.INFO, ">>>>>>>>>>>>>> MEAN RECIPROCAL::" + this.meanReciprocalResult.getMeanReciprocalRankStr());
 
-        System.out.println("meanReciprocalRank value::" + this.meanReciprocalResult.getMeanReciprocalRankStr());
-        System.out.println("Lexicon size::" + this.meanReciprocalResult.getTotalPattern());
-        System.out.println("number of pattern matched with Qald-9::" + this.meanReciprocalResult.getPatternFound().size());
-        System.out.println("detail of matched pattern::" + this.meanReciprocalResult.getPatternFound());
-        System.out.println("number of pattern DOES NOT match with Qald-9::::" + this.meanReciprocalResult.getPatternNotFound().size());
+        LOGGER.log(Level.FINE, "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 
         //System.out.println("meanReciprocalRank:" + meanReciprocalResult.getMeanReciprocalElements());
         //FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocalResult, outputFileName);
@@ -205,7 +205,6 @@ public class Comparision implements ThresoldConstants{
         return lexicons;
     }
 
-   
     private Map<String, Unit> getQaldFromJson(File qaldFile) throws IOException {
         Map<String, Unit> qald = new TreeMap<String, Unit>();
         ObjectMapper mapper = new ObjectMapper();
@@ -217,11 +216,6 @@ public class Comparision implements ThresoldConstants{
         return qald;
     }
 
-    /*private double calculateMeanReciprocal(Map<String, Double> predictMap, Map<String, Boolean> goldRelevance) {
-        double predictedReciprocalRank
-                = MeanReciprocalRank.getReciprocalRank(predictMap, goldRelevance);
-        return predictedReciprocalRank;
-    }*/
     private String getPredicate(String predicate) {
         predicate = predicate.strip();
         return predicate;
@@ -232,22 +226,7 @@ public class Comparision implements ThresoldConstants{
         return new ArrayList<String>(intersection);
     }
 
-    /*private Map<String, Double> getPredictMap(LexiconUnit lexiconElement) {
-        Map<String, Double> predict = new HashMap<String, Double>();
-
-        for (Integer rank : lexiconElement.getEntityInfos().keySet()) {
-            List<String> pairs = lexiconElement.getEntityInfos().get(rank);
-            System.out.println("pairs:"+pairs);
-            String key = pairs.get(0).split("=")[1];
-            key = this.getPredicate(key);
-            key = key.strip();
-            Double value = Double.parseDouble(pairs.get(1).split("=")[1]);
-            predict.put(key, value);
-        }
-        return predict;
-    }*/
-    
-    private Map<String, Double> getPredictMap(String word,LexiconUnit lexiconElement) {
+    private Map<String, Double> getPredictMap(String word, LexiconUnit lexiconElement) {
         Map<String, Double> predict = new HashMap<String, Double>();
         Integer pairIndex = 0, valueIndex = 1, tripleIndex = 2, classIndex = 3;
 
@@ -257,9 +236,17 @@ public class Comparision implements ThresoldConstants{
             String info[] = tripleStr.split(" ");
             String predicate = info[1];
             String object = info[2];
-            EvaluationTriple triple = new EvaluationTriple(LEXICON,this.predicationRule,rank.toString(),predicate,object,word);
-            Double value = Double.parseDouble(pairs.get(1).split("=")[1]);
-            predict.put(triple.getKey(), value);
+            EvaluationTriple triple;
+            try {
+                triple = new EvaluationTriple(LEXICON, this.predicationRule, rank.toString(), predicate, object, word, LOGGER);
+                Double value = Double.parseDouble(pairs.get(1).split("=")[1]);
+                predict.put(triple.getKey(), value);
+            } catch (Exception ex) {
+                Logger.getLogger(Comparision.class.getName()).log(Level.SEVERE, null, ex);
+                LOGGER.log(Level.INFO, "fail to create triple::");
+
+            }
+
         }
         return predict;
     }
@@ -270,7 +257,7 @@ public class Comparision implements ThresoldConstants{
         if (csvFile.getRow().containsKey(word)) {
             for (String predicatePattern : predict.keySet()) {
                 Boolean flag = this.isFoundinGold(word, predicatePattern);
-                 //LOGGER.log(Level.INFO, "predicatePattern::" + predicatePattern);
+                //LOGGER.log(Level.INFO, "predicatePattern::" + predicatePattern);
                 goldRelevance.put(predicatePattern, flag);
                 if (flag) {
                     //LOGGER.log(Level.INFO, "predicatePattern::" + predicatePattern);
@@ -299,7 +286,13 @@ public class Comparision implements ThresoldConstants{
     }
 
     private Boolean isFoundinGold(String word, String lexiconStr) {
-        EvaluationTriple lexiconTriple = new EvaluationTriple(LEXICON, this.predicationRule, lexiconStr, word);
+        EvaluationTriple lexiconTriple = null;
+        try {
+            lexiconTriple = new EvaluationTriple(LEXICON, this.predicationRule, lexiconStr, word);
+        } catch (Exception ex) {
+            Logger.getLogger(Comparision.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.INFO, "lexiconTriple parse failed");
+        }
         //LOGGER.log(Level.INFO, "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::" + lexiconTriple);
         List<EvaluationTriple> qaldPredicateObject = new ArrayList<EvaluationTriple>();
         if (predicationRule.contains(this.predicationRule)) {
@@ -323,7 +316,4 @@ public class Comparision implements ThresoldConstants{
         return meanReciprocalResult;
     }
 
-   
-
-   
 }

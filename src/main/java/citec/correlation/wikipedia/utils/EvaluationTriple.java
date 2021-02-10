@@ -23,29 +23,26 @@ public class EvaluationTriple implements ThresoldConstants {
     private String key = null;
     private String predictionRule = null;
     private String word = null;
+    private Logger LOGGER=null;
 
-    public EvaluationTriple(String type, String predictionRule, String id, String predicate, String object,String word) {
+    public EvaluationTriple(String type, String predictionRule, String id, String predicate, String object,String word,Logger LOGGER) throws Exception {
         this.type = type;
         this.predictionRule = predictionRule;
-        this.predicate=this.modifyPredicate(predicate);
-        this.object=this.modifyObject(object);
-        try {
-            this.key=this.createKey(this.predictionRule,this.subject,this.predicate,this.object);
-        } catch (Exception ex) {
-            Logger.getLogger(EvaluationTriple.class.getName()).log(Level.SEVERE, null, ex);
-        }
+        //this.predicate=this.modifyPredicate(predicate);
+        //this.object=this.modifyObject(object);
+        this.predicate=predicate;
+        this.object=object;
+        this.LOGGER=LOGGER;
+        this.key=this.createKey(this.predictionRule,this.subject,this.predicate,this.object);
+        
     }
 
-    public EvaluationTriple(String LEXICON, String predicationRule, String key,String word) {
+    public EvaluationTriple(String LEXICON, String predicationRule, String key,String word) throws Exception {
         this.type = LEXICON;
         this.predictionRule = predicationRule;
         this.key=key;
+        this.parseKey(predicationRule,key);
         this.word=word;
-        try {
-            this.parseKey(predicationRule,key);
-        } catch (Exception ex) {
-            Logger.getLogger(EvaluationTriple.class.getName()).log(Level.SEVERE, null, ex);
-        }
     }
 
     private String createKey(String predictionRule, String subject, String predicate, String object) throws Exception {
@@ -66,29 +63,37 @@ public class EvaluationTriple implements ThresoldConstants {
         }
     }
     
-    private void parseKey(String predictionRule, String key) throws Exception {
+    private void parseKey(String predictionRule, String keyT) throws Exception {
         if (predictionRule.contains(predict_l_for_s_given_po)) {
-            String[] info = this.key.split(" ");
-            this.predicate = info[0];
-            this.object = info[1];
+            if (keyT.contains(" ")) {
+                String[] info = keyT.split(" ");
+                this.predicate = info[0];
+                this.object = info[1];
+            } else {
+                throw new Exception("can not parse key, check the KB!!");
+            }
         } else if (predictionRule.contains(predict_l_for_s_given_o)) {
-            this.object = key;
+            this.object = keyT;
         } else if (predictionRule.contains(predict_l_for_o_given_s)) {
-            this.subject = key;
+            this.subject = keyT;
         } else if (predictionRule.contains(predict_l_for_o_given_sp)) {
-            String[] info = this.key.split(" ");
-            this.subject = info[0];
-            this.predicate = info[1];;
+            if (keyT.contains(" ")) {
+                String[] info = keyT.split(" ");
+                this.subject = info[0];
+                this.predicate = info[1];
+            } else {
+                throw new Exception("can not parse keyy, check the KB!!");
+            }
         } else if (predictionRule.contains(predict_l_for_o_given_p)) {
-            this.predicate = key;
+            this.predicate = keyT;
         } else if (predictionRule.contains(predict_l_for_s_given_p)) {
-            this.predicate = key;
+            this.predicate = keyT;
         } else {
             throw new Exception("can not parse keyy, check the KB!!");
         }
 
     }
-   
+
     
     public static boolean match(EvaluationTriple lexiconTriple, EvaluationTriple qaldTriple, String predicationRule) {
         if (predicationRule.contains(predict_l_for_s_given_po)) {
@@ -183,12 +188,10 @@ public class EvaluationTriple implements ThresoldConstants {
         object = object.replace("\"", "");
         if (object.contains("@")) {
             String[] info = object.split("@");
-            object = info[1];
+            object = info[0];
         } else if (object.contains(" ")) {
             object = object.replace(" ", "+");
-        } else {
-            object = object;
-        }
+        } 
         return object;
     }
 

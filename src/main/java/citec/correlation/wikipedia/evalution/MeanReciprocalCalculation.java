@@ -78,6 +78,8 @@ public class MeanReciprocalCalculation implements Comparator {
         EvalutionUtil.ifFalseCrash(rankings.size() == gold.size(),
                 "The size of predictions and gold should be identical, Usually not found element are in FALSE marked in gold");
         double mrr = 0;
+        
+        
 
         for (int i = 0; i < rankings.size(); i++) {
             Pair<String, Map<String, Double>> rankingsPredict = rankings.get(i);
@@ -155,7 +157,8 @@ public class MeanReciprocalCalculation implements Comparator {
                     Integer rank = (i + 1);
                     LOGGER.log(Level.INFO, "########### KB FOUND in qald");
                     LOGGER.log(Level.INFO, "########### matched KB :" + EvaluationTriple.qaldStr(ranking.get(i)));
-                    LOGGER.log(Level.INFO, "###########  KB position in lexicon:" + EvaluationTriple.getString(ranking));
+                    LOGGER.log(Level.INFO, "########### check rank in our lexicon:");
+                    LOGGER.log(Level.INFO, "###########  all KB for this pattern in lexicon:" + EvaluationTriple.getString(ranking));
                     LOGGER.log(Level.INFO, "RANK::" + rank);
                     LOGGER.log(Level.INFO, "RECIPROCAL RANK::" + reciprocalRank);
                     //LOGGER.log(Level.INFO, "#####################################################################################");

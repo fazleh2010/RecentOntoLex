@@ -81,16 +81,15 @@ public class Evaluation implements ThresoldConstants {
         LOGGER.addHandler(new ConsoleHandler());
         LOGGER.addHandler(new LogHandler());
         //LOGGER.log(Level.INFO, "generate experiments given thresolds");
-        try {
+        /*try {
             //Handler fileHandler = new FileHandler(resourceDir + "logger.log", 2000, 1000);
             Handler fileHandler = new FileHandler(resourceDir + "logger.log");
-
             fileHandler.setFormatter(new LogFormatter());
             fileHandler.setFilter(new LogFilter());
             LOGGER.addHandler(fileHandler);
         } catch (SecurityException | IOException e) {
             e.printStackTrace();
-        }
+        }*/
         try {
             this.allThresoldInterestingness = createExperiments();
             //LOGGER.log(Level.INFO, "successfully generated experiments for given thresolds");
@@ -109,8 +108,14 @@ public class Evaluation implements ThresoldConstants {
                 if (!interestingness.contains(ThresoldConstants.Coherence)) {
                     continue;
                 }
+                Handler fileHandler = new FileHandler(outputDir + prediction+"-"+interestingness+"-"+"logger.log");
+                fileHandler.setFormatter(new LogFormatter());
+                fileHandler.setFilter(new LogFilter());
+                LOGGER.addHandler(fileHandler);
                 LOGGER.log(Level.CONFIG, "RULE ::" + prediction);
                 LOGGER.log(Level.CONFIG, "INTERESTINGNESS::" + interestingness);
+                
+                
 
                 ThresoldsExperiment thresoldsExperiment = allThresoldInterestingness.get(interestingness);
                 Map<String, Map<String, MeanReciprocalCalculation>> expeResult = new TreeMap<String, Map<String, MeanReciprocalCalculation>>();
@@ -156,9 +161,9 @@ public class Evaluation implements ThresoldConstants {
                 //LOGGER.log(Level.INFO, "evaluate for part-of-speech::" + posTag);
                 //LOGGER.log(Level.INFO, "qald-9 file this parts-of-speech::" + qaldFile.getName());
                 LOGGER.log(Level.INFO, "****************************Experiment START ************************************ ");
-                LOGGER.log(Level.INFO, "thresholds " + experiment);
-                LOGGER.log(Level.INFO, "parts-of-speech: " + posTag);
-                LOGGER.log(Level.INFO, "LEXICON with these thresolds:" + conditionalFile.getName());
+                LOGGER.log(Level.INFO, "thresholds:: " + experiment);
+                LOGGER.log(Level.INFO, "parts-of-speech:: " + posTag);
+                LOGGER.log(Level.INFO, posTag+" LEXICON contains all patterns within this thresholds:" + conditionalFile.getName());
                 //LOGGER.log(Level.INFO, "qald-9 file " + csvFile.getFilename());
                 Comparision comparision = new Comparision(predictionRule, csvFile, conditionalFile, posTag, LOGGER, experiment, OBJECT);
                 MeanReciprocalCalculation meanReciprocalCalculation = comparision.getMeanReciprocalResult();
@@ -277,25 +282,28 @@ public class Evaluation implements ThresoldConstants {
         String inputDir = dbpediaDir + "results/" + "new/MR/";
         Evaluation evaluationMainTest = new Evaluation();
 
-        String prediction = predict_l_for_s_given_o;
-        prediction = predict_l_for_s_given_po;
+        List<String> predictions = new ArrayList<String>();
+        predictions.add(predict_l_for_s_given_po);
+        predictions.add(predict_l_for_s_given_o);
 
-        // prediction=predict_l_for_s_given_po;
-        String dic = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/dic/";
-        String meanR = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/meanR/";
-        //run it once. we dont need to run it very time..
-        Map<String, ThresoldsExperiment> associationRulesExperiment = createExperiments();
+        for (String prediction : predictions) {
+            // prediction=predict_l_for_s_given_po;
+            String dic = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/dic/";
+            String meanR = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/meanR/";
+            //run it once. we dont need to run it very time..
+            Map<String, ThresoldsExperiment> associationRulesExperiment = createExperiments();
 
-        File files = new File(dic);
-        boolean exists = files.exists();
-        if (exists) {
-            System.out.println("directory  exists!!");
-        } else {
-            FileFolderUtils.createDirectory(dic);
+            File files = new File(dic);
+            boolean exists = files.exists();
+            if (exists) {
+                System.out.println("directory  exists!!");
+            } else {
+                FileFolderUtils.createDirectory(dic);
+            }
+
+            allThresoldInterestingness = createExperiments();
+            calculateMeanReciprocal(prediction, dic, meanR);
         }
-
-        allThresoldInterestingness = createExperiments();
-        calculateMeanReciprocal(prediction, dic, meanR);
 
     }
 }

@@ -95,8 +95,10 @@ public class Comparision implements ThresoldConstants {
         //Set<String> intersection = Sets.intersection(qaldDic.keySet(), lexiconDic.keySet());
         List<String> commonWords = new ArrayList<String>(Sets.intersection(csvFile.getRow().keySet(), lexiconDic.keySet()));
         if (!commonWords.isEmpty()) {
-            //LOGGER.log(Level.INFO, "The following linguistic patterns are matched both in our lexicon and qald-9:");
-            //LOGGER.log(Level.INFO, commonWords.toString());
+            //LOGGER.log(Level.INFO, "Number of linguistic pattern in the lexicon::"+lexiconDic.size());
+            //LOGGER.log(Level.INFO, "FOUND in Qald:"+commonWords.size());
+            //LOGGER.log(Level.INFO, "NOT FOUND in Qald:"+(lexiconDic.size()-commonWords.size()));
+
         } else {
             LOGGER.log(Level.WARNING, "NO linguistic pattern matched between lexicon and qald-9");
         }

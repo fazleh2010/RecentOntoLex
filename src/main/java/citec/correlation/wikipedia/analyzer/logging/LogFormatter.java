@@ -15,10 +15,26 @@ import java.util.logging.LogRecord;
  */
 public class LogFormatter extends Formatter {
 
-    @Override
+    /*@Override
     public String format(LogRecord record) {
         return record.getLevel() + "::"
                 + record.getMessage() + "\n";
+    }*/
+    
+    @Override
+    public String format(LogRecord record) {
+        return 
+                new Date(record.getMillis())+"::"
+                +record.getLevel() + "::"
+                +record.getMessage()+"\n";
     }
+    
+    /*@Override
+    public String format(LogRecord record) {
+        return record.getThreadID()+"::"+record.getSourceClassName()+"::"
+                +record.getSourceMethodName()+"::"
+                +new Date(record.getMillis())+"::"
+                +record.getMessage()+"\n";
+    }*/
 
 }

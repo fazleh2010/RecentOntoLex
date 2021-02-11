@@ -82,7 +82,7 @@ public class Evaluation implements ThresoldConstants {
         LOGGER.addHandler(new LogHandler());
 
         //LOGGER.log(Level.INFO, "generate experiments given thresolds");
-        /*try {
+        try {
             //Handler fileHandler = new FileHandler(resourceDir + "logger.log", 2000, 1000);
             Handler fileHandler = new FileHandler(resourceDir + "logger.log");
             fileHandler.setFormatter(new LogFormatter());
@@ -90,7 +90,7 @@ public class Evaluation implements ThresoldConstants {
             LOGGER.addHandler(fileHandler);
         } catch (SecurityException | IOException e) {
             e.printStackTrace();
-        }*/
+        }
         try {
             this.allThresoldInterestingness = createExperiments();
             //LOGGER.log(Level.INFO, "successfully generated experiments for given thresolds");
@@ -100,9 +100,10 @@ public class Evaluation implements ThresoldConstants {
     }
 
     public static void calculateMeanReciprocal(String givenPrediction, String directory, String outputDir) throws IOException, Exception {
-        Handler fileHandler = new FileHandler(outputDir + givenPrediction+"-"+"logger.log");
+        Handler fileHandler = new FileHandler(outputDir + givenPrediction + "-" + "logger.log");
         fileHandler.setFormatter(new LogFormatter());
         fileHandler.setFilter(new LogFilter());
+        LOGGER.addHandler(fileHandler);
         
         for (String prediction : predictLinguisticGivenKB) {
             if (!prediction.contains(givenPrediction)) {
@@ -120,7 +121,7 @@ public class Evaluation implements ThresoldConstants {
                 }
                 
                
-                LOGGER.addHandler(fileHandler);
+              
                 LOGGER.log(Level.CONFIG, "RULE ::" + prediction);
                 LOGGER.log(Level.CONFIG, "INTERESTINGNESS::" + interestingness);
                 
@@ -300,7 +301,7 @@ public class Evaluation implements ThresoldConstants {
 
         List<String> predictions = new ArrayList<String>();
         //predictions.add(predict_l_for_s_given_po);
-        predictions.add(predict_l_for_s_given_o);
+         predictions.add(predict_l_for_s_given_o);
 
         for (String prediction : predictions) {
             // prediction=predict_l_for_s_given_po;

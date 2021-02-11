@@ -24,10 +24,18 @@ public class LogFormatter extends Formatter {
     @Override
     public String format(LogRecord record) {
         return 
+                
+                record.getLevel() + "::"
+                +record.getMessage()+"\n";
+    }
+    
+    /*@Override
+    public String format(LogRecord record) {
+        return 
                 new Date(record.getMillis())+"::"
                 +record.getLevel() + "::"
                 +record.getMessage()+"\n";
-    }
+    }*/
     
     /*@Override
     public String format(LogRecord record) {

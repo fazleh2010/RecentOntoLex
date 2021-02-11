@@ -207,19 +207,45 @@ public class EvaluationTriple implements ThresoldConstants {
     }
     
     public static String qaldStr(String key) {
-        String str = "\n";
+        String str = "";
         if (key.contains(" ")) {
             String[] info = key.split(" ");
             String predicate = info[0];
             String object = info[1];
-            return str + " predicate-object pair: " + predicate + " " + object + "\n";
+            return str + " predicate-object pair: " + predicate + " " + object ;
         }
         else
             return key;
     }
-    public static String getString(List<String> ranking) {
+    
+    
+    public static String getString(List<String> ranking,Integer rank) {
         String str = "\n";
         Integer index = 1;
+        
+        String line = null;
+        for (String key : ranking) {
+            if (key.contains(" ")) {
+                String[] info = key.split(" ");
+                String predicate = info[0];
+                String object = info[1];
+                line = index.toString() + " predicate-object pair: " + predicate + " " + object + "\n";
+            } else {
+                line = index.toString() + " object : " + key + "\n";
+            }
+
+            str += line;
+            if(index>rank)
+                break;
+            index = index + 1;
+        }
+        return str;
+    }
+    
+     public static String getString(List<String> ranking) {
+        String str = "\n";
+        Integer index = 1;
+        
         String line = null;
         for (String key : ranking) {
             if (key.contains(" ")) {

@@ -26,6 +26,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -44,30 +45,29 @@ public class ProcessFile implements ThresoldConstants {
 
     private static Logger LOGGER = null;
 
-    public ProcessFile(String baseDir, String qald9Dir, String givenPrediction, Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER) throws Exception {
+    public ProcessFile(String baseDir, String qald9Dir, String givenPrediction, String givenInterestingness,Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER) throws Exception {
         this.setUpLog(givenLOGGER);
 
         for (String prediction : predictLinguisticGivenKB) {
             String rawFileDir = baseDir + prediction + "/";
             String outputDir = qald9Dir + "/" + prediction + "/" + "dic";
-
-            if (!prediction.contains(givenPrediction)) {
+            if (!prediction.equals(givenPrediction)) {
                 continue;
             }
             for (String rule : interestingness) {
-                if (!rule.contains(Coherence)) {
+                if (!rule.contains(givenInterestingness)) {
                     continue;
                 }
                 Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(rawFileDir, rule, ".json");
                 if (pair.getValue0()) {
-                    NewResultsMR allClassLines = readFromJsonFile(pair.getValue1());
-                    createEvalutionFiles(outputDir, prediction, rule, allClassLines, associationRulesExperiment);
+                    //NewResultsMR newResultsMR = readFromJsonFile(pair.getValue1());
+                    createEvalutionFiles(outputDir, prediction, rule, pair.getValue1(), associationRulesExperiment);
                 }
             }
         }
     }
 
-    private static void createEvalutionFiles(String outputDir, String prediction, String associationRule, NewResultsMR allClassLines, Map<String, ThresoldsExperiment> associationRulesExperiment) throws Exception {
+    private static void createEvalutionFiles(String outputDir, String prediction, String associationRule,List<File> files , Map<String, ThresoldsExperiment> associationRulesExperiment) throws Exception {
         Map<String, Lexicon> associationRuleLex = new TreeMap<String, Lexicon>();
         Lexicon lexicon = null;
         ThresoldsExperiment thresoldsExperiment = associationRulesExperiment.get(associationRule);
@@ -76,31 +76,37 @@ public class ProcessFile implements ThresoldConstants {
             index = index + 1;
             ThresoldsExperiment.ThresoldELement element = thresoldsExperiment.getThresoldELements().get(experiment);
             String experimentID = index + "-" + experiment;
-            lexicon = createLexicon(outputDir, prediction, associationRule, allClassLines, element, experimentID);
+            lexicon = createLexicon(outputDir, prediction, associationRule, files, element, experimentID);
             LOGGER.log(Level.INFO, outputDir + " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
             System.out.println( outputDir + " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
         }
     }
 
 
-    private static Lexicon createLexicon(String directory, String dbo_prediction, String interestingness, NewResultsMR result, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
+    private static Lexicon createLexicon(String directory, String dbo_prediction, String interestingness, List<File> files, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
         Analyzer analyzer = null;
         Lexicon lexicon = null;
-
+        Integer index = 0;
+        Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
         Integer numberOfRules = thresoldELement.getNumberOfRules();
 
-        Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
-        
-        for (String className : result.getClassDistributions().keySet()) {
-             //System.out.println( "now processing class:::::" + className);
-            List<Rule> rules = result.getClassDistributions().get(className);
-            Integer index = 0;
+        for (File file : files) {
+            String fileName = file.getName();
+            String[] info = fileName.split("-");
+            String[] parameters = findParameter(info);
+            String key = parameters[0] + "-" + parameters[1] + "-" + parameters[2];
+            //System.out.println("now processing class:::::" + file.getName());
+            ObjectMapper mapper = new ObjectMapper();
+            mapper.configure(JsonParser.Feature.ALLOW_UNQUOTED_CONTROL_CHARS, true);
+            NewResultsMR resultTemp = mapper.readValue(file, NewResultsMR.class);
+            Discription description = resultTemp.getDescription();
+            List<Rule> rules = resultTemp.getDistributions();
             for (Rule line : rules) {
                 index = index + 1;
                 if (index >= numberOfRules) {
                     break;
                 }
-                LineInfo lineInfo = new LineInfo(dbo_prediction,interestingness, line);
+                LineInfo lineInfo = new LineInfo(dbo_prediction, interestingness, line);
 
                 if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
                     continue;
@@ -110,7 +116,7 @@ public class ProcessFile implements ThresoldConstants {
                 }
                 //System.out.println("lineInfo.getnGramNumber():" + lineInfo.getnGramNumber());
                 //System.out.println("thresoldELement.getN_gram():" + thresoldELement.getN_gram());
-                if(lineInfo.getnGramNumber()!=thresoldELement.getN_gram()){
+                if (lineInfo.getnGramNumber() != thresoldELement.getN_gram()) {
                     continue;
                 }
                 String word = lineInfo.getWord();
@@ -140,33 +146,13 @@ public class ProcessFile implements ThresoldConstants {
             }
 
         }
+
         lexicon = new Lexicon(qald9Dir);
         lexicon.preparePropertyLexicon(directory, experimentID, interestingness, lineLexicon);
         return lexicon;
     }
     
-      private static NewResultsMR readFromJsonFile(List<File> files) throws IOException, Exception {
-        Map<String, List<Rule>> classDistributions = new TreeMap<String, List<Rule>>();
-        Discription description = null;
-        Integer totalFiles = files.size();
-        Integer index = 0;
-        for (File file : files) {
-            index = index + 1;
-            String fileName = file.getName();
-            String[] info = fileName.split("-");
-            String[] parameters = findParameter(info);
-            String key = parameters[0] + "-" + parameters[1] + "-" + parameters[2];
-
-            //LOGGER.log(Level.INFO, "now processing index:" + index + " total:" + totalFiles + "  file:" + fileName);
-            ObjectMapper mapper = new ObjectMapper();
-            mapper.configure(JsonParser.Feature.ALLOW_UNQUOTED_CONTROL_CHARS, true);
-            NewResultsMR resultTemp = mapper.readValue(file, NewResultsMR.class);
-            description = resultTemp.getDescription();
-            List<Rule> local = resultTemp.getDistributions();
-            classDistributions.put(parameters[0], local);
-        }
-        return new NewResultsMR(description, classDistributions);
-    }
+    
 
     private static String[] findParameter(String[] info) {
         String[] parameters = new String[3];
@@ -216,13 +202,56 @@ public class ProcessFile implements ThresoldConstants {
         prediction = predict_l_for_o_given_s;
         prediction = predict_l_for_o_given_sp;
         prediction = predict_l_for_o_given_p;
+        
+        //predict_l_for_s_given_po
         prediction = predict_l_for_s_given_p;
 
         String outputDir = qald9Dir;
         Map<String, ThresoldsExperiment> associationRulesExperiment = Evaluation.createExperiments();
 
         //for(String associationRule:interestingness){
-        ProcessFile ProcessFile = new ProcessFile(baseDir, outputDir, prediction, associationRulesExperiment, LOGGER);
+        
+          List<String> predictLinguisticGivenKB = new ArrayList<String>(Arrays.asList(
+            predict_l_for_s_given_p
+            //predict_l_for_s_given_po
+             //predict_l_for_s_given_o
+            //predict_l_for_o_given_p,
+            //predict_l_for_o_given_s,
+            //predict_l_for_o_given_sp
+            ));
+          List<String> rulesT= new ArrayList<String>(); 
+          rulesT.add(ThresoldConstants.MaxConf);
+          rulesT.add(ThresoldConstants.Kulczynski);
+           rulesT.add(ThresoldConstants.IR);
+        
+        for (String predictionT : predictLinguisticGivenKB) {
+            for(String rule:rulesT){
+                   System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@ " + predictionT + " @@@@@@@@@@@@@@@@@@@@@@@@@@@");
+            ProcessFile ProcessFile = new ProcessFile(baseDir, outputDir, predictionT, rule, associationRulesExperiment, LOGGER);
+         
+            }
+        }
+        
+        
+                 List<String> predictLinguisticGivenKBL = new ArrayList<String>(Arrays.asList(
+                //predict_l_for_s_given_p
+                predict_l_for_s_given_po,
+                predict_l_for_s_given_o
+        //predict_l_for_o_given_p,
+        //predict_l_for_o_given_s,
+        //predict_l_for_o_given_sp
+        ));
+        List<String> rulesTL = new ArrayList<String>();
+        rulesT.add(ThresoldConstants.Kulczynski);
+        rulesT.add(ThresoldConstants.IR);
+
+        for (String predictionT : predictLinguisticGivenKBL) {
+            for (String rule : rulesTL) {
+                System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@ " + predictionT + " @@@@@@@@@@@@@@@@@@@@@@@@@@@");
+                ProcessFile ProcessFile = new ProcessFile(baseDir, outputDir, predictionT, rule, associationRulesExperiment, LOGGER);
+
+            }
+        }
 
         //}
 
@@ -266,5 +295,31 @@ public class ProcessFile implements ThresoldConstants {
             MR resultTemp = mapper.readValue(file, MR.class);
             break;
         }
+    }*/
+    
+     /* private static NewResultsMR readFromJsonFile(List<File> files) throws IOException, Exception {
+        Map<String, List<Rule>> classDistributions = new TreeMap<String, List<Rule>>();
+        Discription description = null;
+        Integer totalFiles = files.size();
+        Integer index = 0;
+        for (File file : files) {
+            index = index + 1;
+            String fileName = file.getName();
+            String[] info = fileName.split("-");
+            String[] parameters = findParameter(info);
+            String key = parameters[0] + "-" + parameters[1] + "-" + parameters[2];
+
+            //LOGGER.log(Level.INFO, "now processing index:" + index + " total:" + totalFiles + "  file:" + fileName);
+            ObjectMapper mapper = new ObjectMapper();
+            mapper.configure(JsonParser.Feature.ALLOW_UNQUOTED_CONTROL_CHARS, true);
+            NewResultsMR resultTemp = mapper.readValue(file, NewResultsMR.class);
+            description = resultTemp.getDescription();
+            List<Rule> local = resultTemp.getDistributions();
+            System.out.println("@@@@@@@@@@@@ "+description.getClassName()+" "+local.size());
+            
+            //classDistributions.put(parameters[0], local);
+        }
+        //System.out.println(description+" "+local.size());
+        return new NewResultsMR(description, classDistributions);
     }*/
 }

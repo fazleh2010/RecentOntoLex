@@ -1,0 +1,464 @@
+[ {
+  "id" : 2,
+  "pattern" : "added",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Builders@en", "AllConf=0.300751879699248", "triple=e p Builders@en", "class=HistoricPlace" ],
+    "1" : [ "pair=Design period@en", "AllConf=0.300498753117207", "triple=e p Design period@en", "class=HistoricPlace" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "based",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=President@en", "AllConf=0.286699507389163", "triple=e p President@en", "class=SoccerClub" ],
+    "1" : [ "pair=Head coach@en", "AllConf=0.282945736434109", "triple=e p Head coach@en", "class=SoccerClub" ],
+    "2" : [ "pair=\"Head coach\"", "AllConf=0.278145695364238", "triple=e p \"Head coach\"", "class=SoccerClub" ],
+    "3" : [ "pair=Captain_(association_football)", "AllConf=0.250244379276637", "triple=e p Captain_(association_football)", "class=SoccerClub" ],
+    "4" : [ "pair=FFFFFF@en", "AllConf=0.228558797524315", "triple=e p FFFFFF@en", "class=SoccerClub" ],
+    "5" : [ "pair=FF0000@en", "AllConf=0.228226652675761", "triple=e p FF0000@en", "class=SoccerClub" ],
+    "6" : [ "pair=MF@en", "AllConf=0.225443786982249", "triple=e p MF@en", "class=SoccerClub" ],
+    "7" : [ "pair=FW@en", "AllConf=0.223959870168191", "triple=e p FW@en", "class=SoccerClub" ],
+    "8" : [ "pair=DF@en", "AllConf=0.223691945914168", "triple=e p DF@en", "class=SoccerClub" ],
+    "9" : [ "pair=GK@en", "AllConf=0.221631205673759", "triple=e p GK@en", "class=SoccerClub" ],
+    "10" : [ "pair=ffffff@en", "AllConf=0.206698564593301", "triple=e p ffffff@en", "class=SoccerClub" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Free agent@en", "AllConf=0.409141583054627", "triple=e p Free agent@en", "class=AmericanFootballPlayer" ],
+    "1" : [ "pair=All values from NFL Combine@en", "AllConf=0.399317406143345", "triple=e p All values from NFL Combine@en", "class=AmericanFootballPlayer" ],
+    "2" : [ "pair=Tackles@en", "AllConf=0.39344262295082", "triple=e p Tackles@en", "class=AmericanFootballPlayer" ],
+    "3" : [ "pair=Tackle_(football_move)", "AllConf=0.387945670628183", "triple=e p Tackle_(football_move)", "class=AmericanFootballPlayer" ],
+    "4" : [ "pair=Fumble", "AllConf=0.384615384615385", "triple=e p Fumble", "class=AmericanFootballPlayer" ],
+    "5" : [ "pair=Miami_Dolphins", "AllConf=0.381395348837209", "triple=e p Miami_Dolphins", "class=AmericanFootballPlayer" ],
+    "6" : [ "pair=yes@en", "AllConf=0.378437047756874", "triple=e p yes@en", "class=AmericanFootballPlayer" ],
+    "7" : [ "pair=Tampa_Bay_Buccaneers", "AllConf=0.37375415282392", "triple=e p Tampa_Bay_Buccaneers", "class=AmericanFootballPlayer" ],
+    "8" : [ "pair=Active@en", "AllConf=0.37375", "triple=e p Active@en", "class=AmericanFootballPlayer" ],
+    "9" : [ "pair=Seattle_Seahawks", "AllConf=0.373626373626374", "triple=e p Seattle_Seahawks", "class=AmericanFootballPlayer" ],
+    "10" : [ "pair=\"Active\"", "AllConf=0.372670807453416", "triple=e p \"Active\"", "class=AmericanFootballPlayer" ],
+    "11" : [ "pair=Quarterback_sack", "AllConf=0.371673003802281", "triple=e p Quarterback_sack", "class=AmericanFootballPlayer" ],
+    "12" : [ "pair=Cornerback", "AllConf=0.371080139372822", "triple=e p Cornerback", "class=AmericanFootballPlayer" ],
+    "13" : [ "pair=Atlanta_Falcons", "AllConf=0.368983957219251", "triple=e p Atlanta_Falcons", "class=AmericanFootballPlayer" ],
+    "14" : [ "pair=Indianapolis_Colts", "AllConf=0.368421052631579", "triple=e p Indianapolis_Colts", "class=AmericanFootballPlayer" ],
+    "15" : [ "pair=Interception", "AllConf=0.366820276497696", "triple=e p Interception", "class=AmericanFootballPlayer" ],
+    "16" : [ "pair=Dallas_Cowboys", "AllConf=0.365497076023392", "triple=e p Dallas_Cowboys", "class=AmericanFootballPlayer" ],
+    "17" : [ "pair=Touchdown", "AllConf=0.362126245847176", "triple=e p Touchdown", "class=AmericanFootballPlayer" ],
+    "18" : [ "pair=San_Francisco_49ers", "AllConf=0.361904761904762", "triple=e p San_Francisco_49ers", "class=AmericanFootballPlayer" ],
+    "19" : [ "pair=New_England_Patriots", "AllConf=0.36", "triple=e p New_England_Patriots", "class=AmericanFootballPlayer" ],
+    "20" : [ "pair=Wide_receiver", "AllConf=0.358181818181818", "triple=e p Wide_receiver", "class=AmericanFootballPlayer" ],
+    "21" : [ "pair=New_Orleans_Saints", "AllConf=0.35303776683087", "triple=e p New_Orleans_Saints", "class=AmericanFootballPlayer" ],
+    "22" : [ "pair=\"7\"", "AllConf=0.352553542009885", "triple=e p \"7\"", "class=AmericanFootballPlayer" ],
+    "23" : [ "pair=Receptions@en", "AllConf=0.351190476190476", "triple=e p Receptions@en", "class=AmericanFootballPlayer" ],
+    "24" : [ "pair=Cleveland_Browns", "AllConf=0.351123595505618", "triple=e p Cleveland_Browns", "class=AmericanFootballPlayer" ],
+    "25" : [ "pair=Denver_Broncos", "AllConf=0.350649350649351", "triple=e p Denver_Broncos", "class=AmericanFootballPlayer" ],
+    "26" : [ "pair=Interceptions@en", "AllConf=0.350389321468298", "triple=e p Interceptions@en", "class=AmericanFootballPlayer" ],
+    "27" : [ "pair=Reception_(gridiron_football)", "AllConf=0.347242921013413", "triple=e p Reception_(gridiron_football)", "class=AmericanFootballPlayer" ],
+    "28" : [ "pair=Kansas_City_Chiefs", "AllConf=0.346483704974271", "triple=e p Kansas_City_Chiefs", "class=AmericanFootballPlayer" ],
+    "29" : [ "pair=Buffalo_Bills", "AllConf=0.34634974533107", "triple=e p Buffalo_Bills", "class=AmericanFootballPlayer" ],
+    "30" : [ "pair=Linebacker", "AllConf=0.343205574912892", "triple=e p Linebacker", "class=AmericanFootballPlayer" ],
+    "31" : [ "pair=New_York_Jets", "AllConf=0.343185550082102", "triple=e p New_York_Jets", "class=AmericanFootballPlayer" ],
+    "32" : [ "pair=\"6\"", "AllConf=0.34248788368336", "triple=e p \"6\"", "class=AmericanFootballPlayer" ],
+    "33" : [ "pair=Defensive_end", "AllConf=0.34181240063593", "triple=e p Defensive_end", "class=AmericanFootballPlayer" ],
+    "34" : [ "pair=\"4\"", "AllConf=0.333333333333333", "triple=e p \"4\"", "class=AmericanFootballPlayer" ],
+    "35" : [ "pair=Receiving yards@en", "AllConf=0.330037082818294", "triple=e p Receiving yards@en", "class=AmericanFootballPlayer" ],
+    "36" : [ "pair=\"2\"", "AllConf=0.32992700729927", "triple=e p \"2\"", "class=AmericanFootballPlayer" ],
+    "37" : [ "pair=@en", "AllConf=0.328185328185328", "triple=e p @en", "class=AmericanFootballPlayer" ],
+    "38" : [ "pair=United_States", "AllConf=0.193412162162162", "triple=e p United_States", "class=Artist" ],
+    "39" : [ "pair=American@en", "AllConf=0.185053380782918", "triple=e p American@en", "class=Artist" ],
+    "40" : [ "pair=Painting", "AllConf=0.150651859005311", "triple=e p Painting", "class=Artist" ],
+    "41" : [ "pair=the 2020 season@en", "AllConf=0.756578947368421", "triple=e p the 2020 season@en", "class=AustralianRulesFootballPlayer" ],
+    "42" : [ "pair=Australian_rules_football_positions", "AllConf=0.681186283595922", "triple=e p Australian_rules_football_positions", "class=AustralianRulesFootballPlayer" ],
+    "43" : [ "pair=NPB@en", "AllConf=0.425563909774436", "triple=e p NPB@en", "class=BaseballPlayer" ],
+    "44" : [ "pair=Strikeouts@en", "AllConf=0.288882650196519", "triple=e p Strikeouts@en", "class=BaseballPlayer" ],
+    "45" : [ "pair=Earned_run_average", "AllConf=0.281336347651344", "triple=e p Earned_run_average", "class=BaseballPlayer" ],
+    "46" : [ "pair=Win–loss_record_(pitching)", "AllConf=0.27926291201661", "triple=e p Win–loss_record_(pitching)", "class=BaseballPlayer" ],
+    "47" : [ "pair=Home runs@en", "AllConf=0.276873910517141", "triple=e p Home runs@en", "class=BaseballPlayer" ],
+    "48" : [ "pair=\"2016\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.625850340136054", "triple=e p \"2016\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "49" : [ "pair=\"2007\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.591885441527446", "triple=e p \"2007\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "50" : [ "pair=\"2014\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.591792656587473", "triple=e p \"2014\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "51" : [ "pair=\"2017\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.581947743467934", "triple=e p \"2017\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "52" : [ "pair=\"2009\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.572314049586777", "triple=e p \"2009\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "53" : [ "pair=\"2015\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.566801619433198", "triple=e p \"2015\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "54" : [ "pair=\"2011\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.56547619047619", "triple=e p \"2011\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "55" : [ "pair=–present@en", "AllConf=0.564920273348519", "triple=e p –present@en", "class=BasketballPlayer" ],
+    "56" : [ "pair=\"2013\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.561507936507937", "triple=e p \"2013\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "57" : [ "pair=\"2012\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.560878243512974", "triple=e p \"2012\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "58" : [ "pair=\"2010\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.556034482758621", "triple=e p \"2010\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "59" : [ "pair=Socialist_Federal_Republic_of_Yugoslavia", "AllConf=0.550413223140496", "triple=e p Socialist_Federal_Republic_of_Yugoslavia", "class=BasketballPlayer" ],
+    "60" : [ "pair=WNBA@en", "AllConf=0.54885993485342", "triple=e p WNBA@en", "class=BasketballPlayer" ],
+    "61" : [ "pair=\"2006\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.547368421052632", "triple=e p \"2006\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "62" : [ "pair=\"WNBA\"", "AllConf=0.546925566343042", "triple=e p \"WNBA\"", "class=BasketballPlayer" ],
+    "63" : [ "pair=Serbian@en", "AllConf=0.546174142480211", "triple=e p Serbian@en", "class=BasketballPlayer" ],
+    "64" : [ "pair=Shooting_guard", "AllConf=0.53729216152019", "triple=e p Shooting_guard", "class=BasketballPlayer" ],
+    "65" : [ "pair=National_Basketball_Association", "AllConf=0.536263736263736", "triple=e p National_Basketball_Association", "class=BasketballPlayer" ],
+    "66" : [ "pair=\"2005\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.535980148883375", "triple=e p \"2005\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=BasketballPlayer" ],
+    "67" : [ "pair=Point_guard", "AllConf=0.531847133757962", "triple=e p Point_guard", "class=BasketballPlayer" ],
+    "68" : [ "pair=Small_forward", "AllConf=0.530555555555556", "triple=e p Small_forward", "class=BasketballPlayer" ],
+    "69" : [ "pair=Parade_All-America_Boys_Basketball_Team", "AllConf=0.521951219512195", "triple=e p Parade_All-America_Boys_Basketball_Team", "class=BasketballPlayer" ],
+    "70" : [ "pair=confboth@en", "AllConf=0.712948517940718", "triple=e p confboth@en", "class=CollegeCoach" ],
+    "71" : [ "pair=Twenty20", "AllConf=0.379970544918999", "triple=e p Twenty20", "class=Cricketer" ],
+    "72" : [ "pair=One_Day_International", "AllConf=0.379347826086956", "triple=e p One_Day_International", "class=Cricketer" ],
+    "73" : [ "pair=List_A_cricket", "AllConf=0.374684608915055", "triple=e p List_A_cricket", "class=Cricketer" ],
+    "74" : [ "pair=Right-arm medium@en", "AllConf=0.346650998824912", "triple=e p Right-arm medium@en", "class=Cricketer" ],
+    "75" : [ "pair=&ndash;/&ndash;@en", "AllConf=0.34020618556701", "triple=e p &ndash;/&ndash;@en", "class=Cricketer" ],
+    "76" : [ "pair=&ndash;@en", "AllConf=0.336989032901296", "triple=e p &ndash;@en", "class=Cricketer" ],
+    "77" : [ "pair=–/–@en", "AllConf=0.327759197324415", "triple=e p –/–@en", "class=Cricketer" ],
+    "78" : [ "pair=Left-handed@en", "AllConf=0.321158690176322", "triple=e p Left-handed@en", "class=Cricketer" ],
+    "79" : [ "pair=n/a@en", "AllConf=0.320610687022901", "triple=e p n/a@en", "class=Cricketer" ],
+    "80" : [ "pair=\"Left-handed\"", "AllConf=0.318912237330037", "triple=e p \"Left-handed\"", "class=Cricketer" ],
+    "81" : [ "pair=India@en", "AllConf=0.313032886723508", "triple=e p India@en", "class=Cricketer" ],
+    "82" : [ "pair=Australia@en", "AllConf=0.307609860664523", "triple=e p Australia@en", "class=Cricketer" ],
+    "83" : [ "pair=England", "AllConf=0.305833333333333", "triple=e p England", "class=Cricketer" ],
+    "84" : [ "pair=–@en", "AllConf=0.303650442477876", "triple=e p –@en", "class=Cricketer" ],
+    "85" : [ "pair=Right-handed@en", "AllConf=0.30299055613851", "triple=e p Right-handed@en", "class=Cricketer" ],
+    "86" : [ "pair=\"Right-handed\"", "AllConf=0.298761609907121", "triple=e p \"Right-handed\"", "class=Cricketer" ],
+    "87" : [ "pair=England@en", "AllConf=0.296838602329451", "triple=e p England@en", "class=Cricketer" ],
+    "88" : [ "pair=true@en", "AllConf=0.285353535353535", "triple=e p true@en", "class=Cricketer" ],
+    "89" : [ "pair=First-class_cricket", "AllConf=0.271779908295123", "triple=e p First-class_cricket", "class=Cricketer" ],
+    "90" : [ "pair=Test_cricket", "AllConf=0.267702936096718", "triple=e p Test_cricket", "class=Cricketer" ],
+    "91" : [ "pair=Retired@en", "AllConf=0.713215258855586", "triple=e p Retired@en", "class=Cyclist" ],
+    "92" : [ "pair=Track_cycling", "AllConf=0.688", "triple=e p Track_cycling", "class=Cyclist" ],
+    "93" : [ "pair=Sprinter@en", "AllConf=0.680511182108626", "triple=e p Sprinter@en", "class=Cyclist" ],
+    "94" : [ "pair=Road_bicycle_racing", "AllConf=0.596774193548387", "triple=e p Road_bicycle_racing", "class=Cyclist" ],
+    "95" : [ "pair=Road@en", "AllConf=0.594742321707444", "triple=e p Road@en", "class=Cyclist" ],
+    "96" : [ "pair=Italy", "AllConf=0.563146997929607", "triple=e p Italy", "class=Cyclist" ],
+    "97" : [ "pair=Rider@en", "AllConf=0.551340559041643", "triple=e p Rider@en", "class=Cyclist" ],
+    "98" : [ "pair=France", "AllConf=0.480572597137014", "triple=e p France", "class=Cyclist" ],
+    "99" : [ "pair=Los_Angeles_Kings", "AllConf=0.605504587155963", "triple=e p Los_Angeles_Kings", "class=IceHockeyPlayer" ],
+    "100" : [ "pair=\"2000\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.592417061611374", "triple=e p \"2000\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=IceHockeyPlayer" ],
+    "101" : [ "pair=Finland", "AllConf=0.581140350877193", "triple=e p Finland", "class=IceHockeyPlayer" ],
+    "102" : [ "pair=St._Louis_Blues", "AllConf=0.570194384449244", "triple=e p St._Louis_Blues", "class=IceHockeyPlayer" ],
+    "103" : [ "pair=New_York_Islanders", "AllConf=0.567796610169492", "triple=e p New_York_Islanders", "class=IceHockeyPlayer" ],
+    "104" : [ "pair=\"2001\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.561576354679803", "triple=e p \"2001\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=IceHockeyPlayer" ],
+    "105" : [ "pair=Calgary_Flames", "AllConf=0.554959785522788", "triple=e p Calgary_Flames", "class=IceHockeyPlayer" ],
+    "106" : [ "pair=Edmonton_Oilers", "AllConf=0.554838709677419", "triple=e p Edmonton_Oilers", "class=IceHockeyPlayer" ],
+    "107" : [ "pair=\"2002\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.55421686746988", "triple=e p \"2002\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=IceHockeyPlayer" ],
+    "108" : [ "pair=\"Undrafted\"", "AllConf=0.549281822684497", "triple=e p \"Undrafted\"", "class=IceHockeyPlayer" ],
+    "109" : [ "pair=Undrafted@en", "AllConf=0.549087321164282", "triple=e p Undrafted@en", "class=IceHockeyPlayer" ],
+    "110" : [ "pair=Czechoslovakia", "AllConf=0.549053356282272", "triple=e p Czechoslovakia", "class=IceHockeyPlayer" ],
+    "111" : [ "pair=\"2004\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.546910755148741", "triple=e p \"2004\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=IceHockeyPlayer" ],
+    "112" : [ "pair=USA@en", "AllConf=0.542452830188679", "triple=e p USA@en", "class=IceHockeyPlayer" ],
+    "113" : [ "pair=\"2003\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.542194092827004", "triple=e p \"2003\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=IceHockeyPlayer" ],
+    "114" : [ "pair=Sweden", "AllConf=0.54070981210856", "triple=e p Sweden", "class=IceHockeyPlayer" ],
+    "115" : [ "pair=\"1999\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.538258575197889", "triple=e p \"1999\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=IceHockeyPlayer" ],
+    "116" : [ "pair=Kontinental_Hockey_League", "AllConf=0.537254901960784", "triple=e p Kontinental_Hockey_League", "class=IceHockeyPlayer" ],
+    "117" : [ "pair=f@en", "AllConf=0.532091097308489", "triple=e p f@en", "class=IceHockeyPlayer" ],
+    "118" : [ "pair=Philadelphia_Flyers", "AllConf=0.530232558139535", "triple=e p Philadelphia_Flyers", "class=IceHockeyPlayer" ],
+    "119" : [ "pair=CAN@en", "AllConf=0.529182879377432", "triple=e p CAN@en", "class=IceHockeyPlayer" ],
+    "120" : [ "pair=American_Hockey_League", "AllConf=0.528409090909091", "triple=e p American_Hockey_League", "class=IceHockeyPlayer" ],
+    "121" : [ "pair=Pittsburgh_Penguins", "AllConf=0.523346303501946", "triple=e p Pittsburgh_Penguins", "class=IceHockeyPlayer" ],
+    "122" : [ "pair=\"2008\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.519916142557652", "triple=e p \"2008\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=IceHockeyPlayer" ],
+    "123" : [ "pair=National_Hockey_League", "AllConf=0.518638573743922", "triple=e p National_Hockey_League", "class=IceHockeyPlayer" ],
+    "124" : [ "pair=Goaltender", "AllConf=0.509803921568627", "triple=e p Goaltender", "class=IceHockeyPlayer" ],
+    "125" : [ "pair=Left@en", "AllConf=0.508723747980614", "triple=e p Left@en", "class=IceHockeyPlayer" ],
+    "126" : [ "pair=\"Left\"", "AllConf=0.508067118425299", "triple=e p \"Left\"", "class=IceHockeyPlayer" ],
+    "127" : [ "pair=Forward_(ice_hockey)", "AllConf=0.507324595219738", "triple=e p Forward_(ice_hockey)", "class=IceHockeyPlayer" ],
+    "128" : [ "pair=Vancouver_Canucks", "AllConf=0.507109004739337", "triple=e p Vancouver_Canucks", "class=IceHockeyPlayer" ],
+    "129" : [ "pair=Defenceman", "AllConf=0.505102040816326", "triple=e p Defenceman", "class=IceHockeyPlayer" ],
+    "130" : [ "pair=Defenceman_(ice_hockey)", "AllConf=0.504604051565378", "triple=e p Defenceman_(ice_hockey)", "class=IceHockeyPlayer" ],
+    "131" : [ "pair=Right@en", "AllConf=0.500521739130435", "triple=e p Right@en", "class=IceHockeyPlayer" ],
+    "132" : [ "pair=\"Right\"", "AllConf=0.499653018736988", "triple=e p \"Right\"", "class=IceHockeyPlayer" ],
+    "133" : [ "pair=Winger_(ice_hockey)", "AllConf=0.478540772532189", "triple=e p Winger_(ice_hockey)", "class=IceHockeyPlayer" ],
+    "134" : [ "pair=Centre_(ice_hockey)", "AllConf=0.478389579632919", "triple=e p Centre_(ice_hockey)", "class=IceHockeyPlayer" ],
+    "135" : [ "pair=Quebec", "AllConf=0.473873873873874", "triple=e p Quebec", "class=IceHockeyPlayer" ],
+    "136" : [ "pair=Chicago_Blackhawks", "AllConf=0.473684210526316", "triple=e p Chicago_Blackhawks", "class=IceHockeyPlayer" ],
+    "137" : [ "pair=Toronto_Maple_Leafs", "AllConf=0.470288624787776", "triple=e p Toronto_Maple_Leafs", "class=IceHockeyPlayer" ],
+    "138" : [ "pair=Soviet_Union", "AllConf=0.455301455301455", "triple=e p Soviet_Union", "class=IceHockeyPlayer" ],
+    "139" : [ "pair=solo_singer@en", "AllConf=0.111784511784512", "triple=e p solo_singer@en", "class=MusicalArtist" ],
+    "140" : [ "pair=\"solo_singer\"", "AllConf=0.111148197596796", "triple=e p \"solo_singer\"", "class=MusicalArtist" ],
+    "141" : [ "pair=Squads@en", "AllConf=0.433644859813084", "triple=e p Squads@en", "class=RugbyPlayer" ],
+    "142" : [ "pair=South_Africa", "AllConf=0.410488245931284", "triple=e p South_Africa", "class=RugbyPlayer" ],
+    "143" : [ "pair=Flanker_(rugby_union)", "AllConf=0.393013100436681", "triple=e p Flanker_(rugby_union)", "class=RugbyPlayer" ],
+    "144" : [ "pair=present@en", "AllConf=0.35640648011782", "triple=e p present@en", "class=RugbyPlayer" ],
+    "145" : [ "pair=Rugby_union_positions", "AllConf=0.352994146780729", "triple=e p Rugby_union_positions", "class=RugbyPlayer" ],
+    "146" : [ "pair=Defender_(association_football)", "AllConf=0.339337175792507", "triple=e p Defender_(association_football)", "class=SoccerManager" ],
+    "147" : [ "pair=Midfielder", "AllConf=0.328986366330765", "triple=e p Midfielder", "class=SoccerManager" ],
+    "148" : [ "pair=?@en", "AllConf=0.323671497584541", "triple=e p ?@en", "class=SoccerManager" ],
+    "149" : [ "pair=Goalkeeper_(association_football)", "AllConf=0.305750350631136", "triple=e p Goalkeeper_(association_football)", "class=SoccerManager" ],
+    "150" : [ "pair=Forward_(association_football)", "AllConf=0.297438330170778", "triple=e p Forward_(association_football)", "class=SoccerManager" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "built",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"2\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "AllConf=0.475035663338088", "triple=e p \"2\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "class=Aircraft" ],
+    "1" : [ "pair=\"1\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "AllConf=0.473132372214941", "triple=e p \"1\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "class=Aircraft" ],
+    "2" : [ "pair=One@en", "AllConf=0.431932773109244", "triple=e p One@en", "class=Aircraft" ],
+    "3" : [ "pair=France", "AllConf=0.420669577874818", "triple=e p France", "class=Aircraft" ],
+    "4" : [ "pair=at sea level@en", "AllConf=0.404761904761905", "triple=e p at sea level@en", "class=Aircraft" ],
+    "5" : [ "pair=Private@en", "AllConf=0.111820013431833", "triple=e p Private@en", "class=Building" ],
+    "6" : [ "pair=Churches_in_Norway", "AllConf=0.79925187032419", "triple=e p Churches_in_Norway", "class=HistoricBuilding" ],
+    "7" : [ "pair=Location of the church@en", "AllConf=0.794228356336261", "triple=e p Location of the church@en", "class=HistoricBuilding" ],
+    "8" : [ "pair=View of the church@en", "AllConf=0.789351851851852", "triple=e p View of the church@en", "class=HistoricBuilding" ],
+    "9" : [ "pair=Wood@en", "AllConf=0.782420749279539", "triple=e p Wood@en", "class=HistoricBuilding" ],
+    "10" : [ "pair=less than one acre@en", "AllConf=0.187761506276151", "triple=e p less than one acre@en", "class=HistoricPlace" ],
+    "11" : [ "pair=at@en", "AllConf=0.144189383070301", "triple=e p at@en", "class=Ship" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "competed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=yes@en", "AllConf=0.224191866527633", "triple=e p yes@en", "class=Cyclist" ],
+    "1" : [ "pair=Retired@en", "AllConf=0.14441416893733", "triple=e p Retired@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "designated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Redundant_church", "AllConf=0.836363636363636", "triple=e p Redundant_church", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "designed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Bertrand@en", "AllConf=0.855218855218855", "triple=e p Bertrand@en", "class=Aircraft" ],
+    "1" : [ "pair=Production completed@en", "AllConf=0.766716196136701", "triple=e p Production completed@en", "class=Aircraft" ],
+    "2" : [ "pair=In production@en", "AllConf=0.622467771639042", "triple=e p In production@en", "class=Aircraft" ],
+    "3" : [ "pair=one@en", "AllConf=0.608465608465608", "triple=e p one@en", "class=Aircraft" ],
+    "4" : [ "pair=one passenger@en", "AllConf=0.590909090909091", "triple=e p one passenger@en", "class=Aircraft" ],
+    "5" : [ "pair=Homebuilt_aircraft", "AllConf=0.537261698440208", "triple=e p Homebuilt_aircraft", "class=Aircraft" ],
+    "6" : [ "pair=Y@en", "AllConf=0.5", "triple=e p Y@en", "class=Aircraft" ],
+    "7" : [ "pair=United_States", "AllConf=0.440677966101695", "triple=e p United_States", "class=Aircraft" ],
+    "8" : [ "pair=Germany", "AllConf=0.431451612903226", "triple=e p Germany", "class=Aircraft" ],
+    "9" : [ "pair=France", "AllConf=0.36098981077147", "triple=e p France", "class=Aircraft" ],
+    "10" : [ "pair=met@en", "AllConf=0.357236965932618", "triple=e p met@en", "class=Aircraft" ],
+    "11" : [ "pair=imp@en", "AllConf=0.355526402099049", "triple=e p imp@en", "class=Aircraft" ],
+    "12" : [ "pair=One@en", "AllConf=0.354621848739496", "triple=e p One@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "developed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=In service@en", "AllConf=0.49047619047619", "triple=e p In service@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "formed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=@en", "AllConf=0.124465355004277", "triple=e p @en", "class=Band" ],
+    "1" : [ "pair=group_or_band@en", "AllConf=0.103358905245698", "triple=e p group_or_band@en", "class=Band" ],
+    "2" : [ "pair=\"group_or_band\"", "AllConf=0.102851848038711", "triple=e p \"group_or_band\"", "class=Band" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "found",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=changed@en", "AllConf=0.119294990723562", "triple=e p changed@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 117,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=American@en", "AllConf=0.155871886120996", "triple=e p American@en", "class=Artist" ],
+    "1" : [ "pair=Painting", "AllConf=0.128440366972477", "triple=e p Painting", "class=Artist" ],
+    "2" : [ "pair=changed@en", "AllConf=0.151205936920223", "triple=e p changed@en", "class=ChemicalCompound" ],
+    "3" : [ "pair=TNC@en", "AllConf=0.701342281879195", "triple=e p TNC@en", "class=Plant" ],
+    "4" : [ "pair=@en", "AllConf=0.103610108303249", "triple=e p @en", "class=Royalty" ]
+  }
+}, {
+  "id" : 126,
+  "pattern" : "listed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Redundant_church", "AllConf=0.872727272727273", "triple=e p Redundant_church", "class=HistoricBuilding" ],
+    "1" : [ "pair=less than one acre@en", "AllConf=0.159518828451883", "triple=e p less than one acre@en", "class=HistoricPlace" ],
+    "2" : [ "pair=Private@en", "AllConf=0.130616174582798", "triple=e p Private@en", "class=HistoricPlace" ],
+    "3" : [ "pair=hd@en", "AllConf=0.128952262864228", "triple=e p hd@en", "class=HistoricPlace" ]
+  }
+}, {
+  "id" : 128,
+  "pattern" : "made",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=&ndash;@en", "AllConf=0.22333000997009", "triple=e p &ndash;@en", "class=Cricketer" ],
+    "1" : [ "pair=England", "AllConf=0.209166666666667", "triple=e p England", "class=Cricketer" ],
+    "2" : [ "pair=England@en", "AllConf=0.165391014975042", "triple=e p England@en", "class=Cricketer" ]
+  }
+}, {
+  "id" : 138,
+  "pattern" : "named",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Minnesota@en", "AllConf=0.618", "triple=e p Minnesota@en", "class=BodyOfWater" ],
+    "1" : [ "pair=United States@en", "AllConf=0.104754541940472", "triple=e p United States@en", "class=Ship" ]
+  }
+}, {
+  "id" : 150,
+  "pattern" : "owned",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=D@en", "AllConf=0.381870092790864", "triple=e p D@en", "class=RadioStation" ],
+    "1" : [ "pair=\"D\"", "AllConf=0.378835978835979", "triple=e p \"D\"", "class=RadioStation" ],
+    "2" : [ "pair=Country_music", "AllConf=0.378823529411765", "triple=e p Country_music", "class=RadioStation" ],
+    "3" : [ "pair=\"B\"", "AllConf=0.355884425651868", "triple=e p \"B\"", "class=RadioStation" ],
+    "4" : [ "pair=\"C1\"", "AllConf=0.349702380952381", "triple=e p \"C1\"", "class=RadioStation" ],
+    "5" : [ "pair=B@en", "AllConf=0.349108367626886", "triple=e p B@en", "class=RadioStation" ],
+    "6" : [ "pair=\"1.0\"^^http://dbpedia.org/datatype/nicaraguanCórdoba", "AllConf=0.348973607038123", "triple=e p \"1.0\"^^http://dbpedia.org/datatype/nicaraguanCórdoba", "class=RadioStation" ],
+    "7" : [ "pair=\"A\"", "AllConf=0.333520809898763", "triple=e p \"A\"", "class=RadioStation" ],
+    "8" : [ "pair=Talk_radio", "AllConf=0.330645161290323", "triple=e p Talk_radio", "class=RadioStation" ],
+    "9" : [ "pair=A@en", "AllConf=0.329533116178067", "triple=e p A@en", "class=RadioStation" ],
+    "10" : [ "pair=\"C\"", "AllConf=0.327080890973036", "triple=e p \"C\"", "class=RadioStation" ],
+    "11" : [ "pair=@en", "AllConf=0.32657200811359", "triple=e p @en", "class=RadioStation" ],
+    "12" : [ "pair=C@en", "AllConf=0.325882352941176", "triple=e p C@en", "class=RadioStation" ],
+    "13" : [ "pair=Adult_contemporary_music", "AllConf=0.313390313390313", "triple=e p Adult_contemporary_music", "class=RadioStation" ]
+  }
+}, {
+  "id" : 162,
+  "pattern" : "played",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=All values from NFL Combine@en", "AllConf=0.39419795221843", "triple=e p All values from NFL Combine@en", "class=AmericanFootballPlayer" ],
+    "1" : [ "pair=San_Francisco_49ers", "AllConf=0.388888888888889", "triple=e p San_Francisco_49ers", "class=AmericanFootballPlayer" ],
+    "2" : [ "pair=Free agent@en", "AllConf=0.384615384615385", "triple=e p Free agent@en", "class=AmericanFootballPlayer" ],
+    "3" : [ "pair=Dallas_Cowboys", "AllConf=0.378654970760234", "triple=e p Dallas_Cowboys", "class=AmericanFootballPlayer" ],
+    "4" : [ "pair=Tackles@en", "AllConf=0.375409836065574", "triple=e p Tackles@en", "class=AmericanFootballPlayer" ],
+    "5" : [ "pair=Cleveland_Browns", "AllConf=0.373595505617978", "triple=e p Cleveland_Browns", "class=AmericanFootballPlayer" ],
+    "6" : [ "pair=Interceptions@en", "AllConf=0.371523915461624", "triple=e p Interceptions@en", "class=AmericanFootballPlayer" ],
+    "7" : [ "pair=Cornerback", "AllConf=0.371080139372822", "triple=e p Cornerback", "class=AmericanFootballPlayer" ],
+    "8" : [ "pair=Receiving yards@en", "AllConf=0.368355995055624", "triple=e p Receiving yards@en", "class=AmericanFootballPlayer" ],
+    "9" : [ "pair=Miami_Dolphins", "AllConf=0.365891472868217", "triple=e p Miami_Dolphins", "class=AmericanFootballPlayer" ],
+    "10" : [ "pair=Fumble", "AllConf=0.365128205128205", "triple=e p Fumble", "class=AmericanFootballPlayer" ],
+    "11" : [ "pair=Tackle_(football_move)", "AllConf=0.363327674023769", "triple=e p Tackle_(football_move)", "class=AmericanFootballPlayer" ],
+    "12" : [ "pair=Receptions@en", "AllConf=0.363095238095238", "triple=e p Receptions@en", "class=AmericanFootballPlayer" ],
+    "13" : [ "pair=\"Active\"", "AllConf=0.362732919254658", "triple=e p \"Active\"", "class=AmericanFootballPlayer" ],
+    "14" : [ "pair=Active@en", "AllConf=0.3625", "triple=e p Active@en", "class=AmericanFootballPlayer" ],
+    "15" : [ "pair=Atlanta_Falcons", "AllConf=0.361853832442068", "triple=e p Atlanta_Falcons", "class=AmericanFootballPlayer" ],
+    "16" : [ "pair=Touchdowns@en", "AllConf=0.361669242658423", "triple=e p Touchdowns@en", "class=AmericanFootballPlayer" ],
+    "17" : [ "pair=Touchdown", "AllConf=0.361295681063123", "triple=e p Touchdown", "class=AmericanFootballPlayer" ],
+    "18" : [ "pair=Defensive_end", "AllConf=0.360890302066773", "triple=e p Defensive_end", "class=AmericanFootballPlayer" ],
+    "19" : [ "pair=New_Orleans_Saints", "AllConf=0.359605911330049", "triple=e p New_Orleans_Saints", "class=AmericanFootballPlayer" ],
+    "20" : [ "pair=Interception", "AllConf=0.35852534562212", "triple=e p Interception", "class=AmericanFootballPlayer" ],
+    "21" : [ "pair=\"5\"", "AllConf=0.358260869565217", "triple=e p \"5\"", "class=AmericanFootballPlayer" ],
+    "22" : [ "pair=yes@en", "AllConf=0.357814761215629", "triple=e p yes@en", "class=AmericanFootballPlayer" ],
+    "23" : [ "pair=Reception_(gridiron_football)", "AllConf=0.357675111773472", "triple=e p Reception_(gridiron_football)", "class=AmericanFootballPlayer" ],
+    "24" : [ "pair=Tampa_Bay_Buccaneers", "AllConf=0.355481727574751", "triple=e p Tampa_Bay_Buccaneers", "class=AmericanFootballPlayer" ],
+    "25" : [ "pair=\"3\"", "AllConf=0.355263157894737", "triple=e p \"3\"", "class=AmericanFootballPlayer" ],
+    "26" : [ "pair=New_England_Patriots", "AllConf=0.355", "triple=e p New_England_Patriots", "class=AmericanFootballPlayer" ],
+    "27" : [ "pair=Linebacker", "AllConf=0.35191637630662", "triple=e p Linebacker", "class=AmericanFootballPlayer" ],
+    "28" : [ "pair=New_York_Giants", "AllConf=0.351648351648352", "triple=e p New_York_Giants", "class=AmericanFootballPlayer" ],
+    "29" : [ "pair=Denver_Broncos", "AllConf=0.350649350649351", "triple=e p Denver_Broncos", "class=AmericanFootballPlayer" ],
+    "30" : [ "pair=Quarterback_sack", "AllConf=0.349809885931559", "triple=e p Quarterback_sack", "class=AmericanFootballPlayer" ],
+    "31" : [ "pair=\"6\"", "AllConf=0.348949919224556", "triple=e p \"6\"", "class=AmericanFootballPlayer" ],
+    "32" : [ "pair=\"2\"", "AllConf=0.348905109489051", "triple=e p \"2\"", "class=AmericanFootballPlayer" ],
+    "33" : [ "pair=Wide_receiver", "AllConf=0.348181818181818", "triple=e p Wide_receiver", "class=AmericanFootballPlayer" ],
+    "34" : [ "pair=\"7\"", "AllConf=0.342668863261944", "triple=e p \"7\"", "class=AmericanFootballPlayer" ],
+    "35" : [ "pair=Washington_Redskins", "AllConf=0.340248962655602", "triple=e p Washington_Redskins", "class=AmericanFootballPlayer" ],
+    "36" : [ "pair=Games played@en", "AllConf=0.339467005076142", "triple=e p Games played@en", "class=AmericanFootballPlayer" ],
+    "37" : [ "pair=\"1\"", "AllConf=0.337817638266069", "triple=e p \"1\"", "class=AmericanFootballPlayer" ],
+    "38" : [ "pair=Games started@en", "AllConf=0.3375", "triple=e p Games started@en", "class=AmericanFootballPlayer" ],
+    "39" : [ "pair=Guard_(gridiron_football)", "AllConf=0.337106918238994", "triple=e p Guard_(gridiron_football)", "class=AmericanFootballPlayer" ],
+    "40" : [ "pair=\"4\"", "AllConf=0.336601307189543", "triple=e p \"4\"", "class=AmericanFootballPlayer" ],
+    "41" : [ "pair=Detroit_Lions", "AllConf=0.330634278002699", "triple=e p Detroit_Lions", "class=AmericanFootballPlayer" ],
+    "42" : [ "pair=New_York_Jets", "AllConf=0.330049261083744", "triple=e p New_York_Jets", "class=AmericanFootballPlayer" ],
+    "43" : [ "pair=Philadelphia_Eagles", "AllConf=0.330042313117066", "triple=e p Philadelphia_Eagles", "class=AmericanFootballPlayer" ],
+    "44" : [ "pair=Fitzroy_Football_Club", "AllConf=0.734042553191489", "triple=e p Fitzroy_Football_Club", "class=AustralianRulesFootballPlayer" ],
+    "45" : [ "pair=\"173.0\"^^http://dbpedia.org/datatype/centimetre", "AllConf=0.724242424242424", "triple=e p \"173.0\"^^http://dbpedia.org/datatype/centimetre", "class=AustralianRulesFootballPlayer" ],
+    "46" : [ "pair=\"73.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.713872832369942", "triple=e p \"73.0\"^^http://dbpedia.org/datatype/kilogram", "class=AustralianRulesFootballPlayer" ],
+    "47" : [ "pair=\"175.0\"^^http://dbpedia.org/datatype/centimetre", "AllConf=0.705882352941177", "triple=e p \"175.0\"^^http://dbpedia.org/datatype/centimetre", "class=AustralianRulesFootballPlayer" ],
+    "48" : [ "pair=Collingwood_Football_Club", "AllConf=0.700712589073634", "triple=e p Collingwood_Football_Club", "class=AustralianRulesFootballPlayer" ],
+    "49" : [ "pair=Western_Bulldogs", "AllConf=0.698717948717949", "triple=e p Western_Bulldogs", "class=AustralianRulesFootballPlayer" ],
+    "50" : [ "pair=\"183.0\"^^http://dbpedia.org/datatype/centimetre", "AllConf=0.693409742120344", "triple=e p \"183.0\"^^http://dbpedia.org/datatype/centimetre", "class=AustralianRulesFootballPlayer" ],
+    "51" : [ "pair=\"178.0\"^^http://dbpedia.org/datatype/centimetre", "AllConf=0.68976897689769", "triple=e p \"178.0\"^^http://dbpedia.org/datatype/centimetre", "class=AustralianRulesFootballPlayer" ],
+    "52" : [ "pair=\"76.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.683168316831683", "triple=e p \"76.0\"^^http://dbpedia.org/datatype/kilogram", "class=AustralianRulesFootballPlayer" ],
+    "53" : [ "pair=\"179.0\"^^http://dbpedia.org/datatype/centimetre", "AllConf=0.680232558139535", "triple=e p \"179.0\"^^http://dbpedia.org/datatype/centimetre", "class=AustralianRulesFootballPlayer" ],
+    "54" : [ "pair=First_baseman", "AllConf=0.323397913561848", "triple=e p First_baseman", "class=BaseballPlayer" ],
+    "55" : [ "pair=Run_batted_in", "AllConf=0.306988564167726", "triple=e p Run_batted_in", "class=BaseballPlayer" ],
+    "56" : [ "pair=Home runs@en", "AllConf=0.306798373038931", "triple=e p Home runs@en", "class=BaseballPlayer" ],
+    "57" : [ "pair=Batting_average_(baseball)", "AllConf=0.30257116620753", "triple=e p Batting_average_(baseball)", "class=BaseballPlayer" ],
+    "58" : [ "pair=Catcher", "AllConf=0.295099061522419", "triple=e p Catcher", "class=BaseballPlayer" ],
+    "59" : [ "pair=MLB@en", "AllConf=0.290621524774496", "triple=e p MLB@en", "class=BaseballPlayer" ],
+    "60" : [ "pair=Outfielder", "AllConf=0.283099450884686", "triple=e p Outfielder", "class=BaseballPlayer" ],
+    "61" : [ "pair=Right@en", "AllConf=0.272363495546663", "triple=e p Right@en", "class=BaseballPlayer" ],
+    "62" : [ "pair=Australia@en", "AllConf=0.278670953912111", "triple=e p Australia@en", "class=Cricketer" ],
+    "63" : [ "pair=Test_cricket", "AllConf=0.27720207253886", "triple=e p Test_cricket", "class=Cricketer" ],
+    "64" : [ "pair=First-class_cricket", "AllConf=0.252396832013339", "triple=e p First-class_cricket", "class=Cricketer" ],
+    "65" : [ "pair=List_A_cricket", "AllConf=0.249369217830109", "triple=e p List_A_cricket", "class=Cricketer" ],
+    "66" : [ "pair=One_Day_International", "AllConf=0.248913043478261", "triple=e p One_Day_International", "class=Cricketer" ],
+    "67" : [ "pair=Right-arm medium@en", "AllConf=0.246768507638073", "triple=e p Right-arm medium@en", "class=Cricketer" ],
+    "68" : [ "pair=England", "AllConf=0.238333333333333", "triple=e p England", "class=Cricketer" ],
+    "69" : [ "pair=true@en", "AllConf=0.235795454545455", "triple=e p true@en", "class=Cricketer" ],
+    "70" : [ "pair=–@en", "AllConf=0.235619469026549", "triple=e p –@en", "class=Cricketer" ],
+    "71" : [ "pair=Right-handed@en", "AllConf=0.235571878279119", "triple=e p Right-handed@en", "class=Cricketer" ],
+    "72" : [ "pair=England@en", "AllConf=0.234608985024958", "triple=e p England@en", "class=Cricketer" ],
+    "73" : [ "pair=\"Right-handed\"", "AllConf=0.232714138286894", "triple=e p \"Right-handed\"", "class=Cricketer" ],
+    "74" : [ "pair=&ndash;@en", "AllConf=0.219341974077767", "triple=e p &ndash;@en", "class=Cricketer" ],
+    "75" : [ "pair=Australia", "AllConf=0.346354166666667", "triple=e p Australia", "class=RugbyPlayer" ],
+    "76" : [ "pair=Defender_(association_football)", "AllConf=0.19992795389049", "triple=e p Defender_(association_football)", "class=SoccerManager" ],
+    "77" : [ "pair=Forward_(association_football)", "AllConf=0.198292220113852", "triple=e p Forward_(association_football)", "class=SoccerManager" ]
+  }
+}, {
+  "id" : 169,
+  "pattern" : "produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Bertrand@en", "AllConf=0.858585858585859", "triple=e p Bertrand@en", "class=Aircraft" ],
+    "1" : [ "pair=Production completed@en", "AllConf=0.741456166419019", "triple=e p Production completed@en", "class=Aircraft" ],
+    "2" : [ "pair=In production@en", "AllConf=0.651933701657459", "triple=e p In production@en", "class=Aircraft" ],
+    "3" : [ "pair=one passenger@en", "AllConf=0.529829545454545", "triple=e p one passenger@en", "class=Aircraft" ],
+    "4" : [ "pair=one@en", "AllConf=0.503703703703704", "triple=e p one@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 175,
+  "pattern" : "published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Print@en", "AllConf=0.118383404864092", "triple=e p Print@en", "class=Book" ],
+    "1" : [ "pair=English@en", "AllConf=0.116414257304574", "triple=e p English@en", "class=Book" ],
+    "2" : [ "pair=United States@en", "AllConf=0.115354433690819", "triple=e p United States@en", "class=Book" ],
+    "3" : [ "pair=Hardcover", "AllConf=0.114111054508406", "triple=e p Hardcover", "class=Book" ],
+    "4" : [ "pair=First edition@en", "AllConf=0.111788617886179", "triple=e p First edition@en", "class=Book" ]
+  }
+}, {
+  "id" : 182,
+  "pattern" : "racing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Rider@en", "AllConf=0.29905875641757", "triple=e p Rider@en", "class=Cyclist" ],
+    "1" : [ "pair=Retired@en", "AllConf=0.244550408719346", "triple=e p Retired@en", "class=Cyclist" ],
+    "2" : [ "pair=Road@en", "AllConf=0.242842269651223", "triple=e p Road@en", "class=Cyclist" ],
+    "3" : [ "pair=yes@en", "AllConf=0.232533889468196", "triple=e p yes@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 185,
+  "pattern" : "recorded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Redundant_church", "AllConf=0.796363636363636", "triple=e p Redundant_church", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 197,
+  "pattern" : "rode",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Retired@en", "AllConf=0.189373297002725", "triple=e p Retired@en", "class=Cyclist" ],
+    "1" : [ "pair=Rider@en", "AllConf=0.159440958357102", "triple=e p Rider@en", "class=Cyclist" ],
+    "2" : [ "pair=Road@en", "AllConf=0.155648099947944", "triple=e p Road@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 218,
+  "pattern" : "supplied",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=one passenger@en", "AllConf=0.46875", "triple=e p one passenger@en", "class=Aircraft" ],
+    "1" : [ "pair=In production@en", "AllConf=0.462246777163904", "triple=e p In production@en", "class=Aircraft" ],
+    "2" : [ "pair=Production completed@en", "AllConf=0.429420505200594", "triple=e p Production completed@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 232,
+  "pattern" : "used",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=changed@en", "AllConf=0.286641929499072", "triple=e p changed@en", "class=ChemicalCompound" ]
+  }
+} ]

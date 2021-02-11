@@ -116,26 +116,25 @@ public class Comparision implements ThresoldConstants {
         }
 
         this.meanReciprocalResult = new MeanReciprocalCalculation(experiment, lexicon, qald_gold, LOGGER, commonWords);
-        LOGGER.log(Level.FINE, ">>>>>>>>>>>>>> Summary of the experiment");
-        LOGGER.log(Level.INFO, "EXPERIMENT::" + experiment);
-        LOGGER.log(Level.INFO, "POSTAG::" + this.posTag);
-        LOGGER.log(Level.INFO, "NUMBER OF PATTERN in LEXICON::" + this.meanReciprocalResult.getTotalPattern());
-        LOGGER.log(Level.INFO, "NUMBER OF PATTERN with NONZERO RANK::" + this.meanReciprocalResult.getPatternFound().size());
-        for (String pattern : this.meanReciprocalResult.getPatternFound().keySet()) {
+        LOGGER.log(Level.INFO, "***** ***** ***** SUMMARY of RESULT ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****" );
+        LOGGER.log(Level.INFO, "***** RESULT of ANALYSIS of POS TAG::" + this.posTag);
+        LOGGER.log(Level.INFO, "***** NUMBER OF PATTERN in LEXICON::" + this.meanReciprocalResult.getTotalPattern());
+        LOGGER.log(Level.INFO, "***** NUMBER OF PATTERN with NONZERO RANK::" + this.meanReciprocalResult.getPatternFound().size());
+        //LOGGER.log(Level.INFO, "***** DEATIL OF NONZERO RANK::" + this.meanReciprocalResult.getPatternFound());
+        LOGGER.log(Level.INFO, "***** NUMBER OF PATTERN with ZERO RANK::::" + this.meanReciprocalResult.getPatternNotFound().size());
+        LOGGER.log(Level.INFO, "MEAN RECIPROCAL::" + this.meanReciprocalResult.getMeanReciprocalRankStr());
+        LOGGER.log(Level.INFO, "***** ***** ***** ****** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****" );
+
+        /*for (String pattern : this.meanReciprocalResult.getPatternFound().keySet()) {
             LOGGER.log(Level.INFO, "PATTERN::" + pattern);
             LOGGER.log(Level.INFO, "RECIPROCAL RANK::" + this.meanReciprocalResult.getPatternFound().get(pattern));
-        }
+        }*/
         //LOGGER.log(Level.INFO, "number of pattern of our Lexicon matched with Qald-9::" + this.meanReciprocalResult.getPatternFound().size());
         //LOGGER.log(Level.INFO, "DEATIL::" + this.meanReciprocalResult.getPatternFound());
         /*for(String pattern:this.meanReciprocalResult.getPatternFound().keySet()){
             LOGGER.log(Level.INFO, "PATTERN::" + pattern);
             LOGGER.log(Level.INFO, "M::" + this.meanReciprocalResult.getPatternFound().get(pattern));
         }*/
-        LOGGER.log(Level.INFO, "NUMBER OF PATTERN with ZERO RANK::::" + this.meanReciprocalResult.getPatternNotFound().size());
-        LOGGER.log(Level.INFO, ">>>>>>>>>>>>>> MEAN RECIPROCAL::" + this.meanReciprocalResult.getMeanReciprocalRankStr());
-
-        LOGGER.log(Level.FINE, "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-
         //System.out.println("meanReciprocalRank:" + meanReciprocalResult.getMeanReciprocalElements());
         //FileFolderUtils.writeMeanResultsToJsonFile(meanReciprocalResult, outputFileName);
     }

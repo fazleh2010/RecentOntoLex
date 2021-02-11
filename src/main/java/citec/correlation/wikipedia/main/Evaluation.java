@@ -80,6 +80,7 @@ public class Evaluation implements ThresoldConstants {
         LOGGER.setLevel(Level.FINE);
         LOGGER.addHandler(new ConsoleHandler());
         LOGGER.addHandler(new LogHandler());
+
         //LOGGER.log(Level.INFO, "generate experiments given thresolds");
         /*try {
             //Handler fileHandler = new FileHandler(resourceDir + "logger.log", 2000, 1000);
@@ -99,18 +100,26 @@ public class Evaluation implements ThresoldConstants {
     }
 
     public static void calculateMeanReciprocal(String givenPrediction, String directory, String outputDir) throws IOException, Exception {
+        Handler fileHandler = new FileHandler(outputDir + givenPrediction+"-"+"logger.log");
+        fileHandler.setFormatter(new LogFormatter());
+        fileHandler.setFilter(new LogFilter());
+        
         for (String prediction : predictLinguisticGivenKB) {
             if (!prediction.contains(givenPrediction)) {
                 continue;
             }
             Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult = new TreeMap<String, Map<String, Map<String, MeanReciprocalCalculation>>>();
             for (String interestingness : allThresoldInterestingness.keySet()) {
-                if (!interestingness.contains(ThresoldConstants.Coherence)) {
+
+                if (interestingness.contains(ThresoldConstants.Coherence)
+                        || interestingness.contains(ThresoldConstants.AllConf)
+                        || interestingness.contains(ThresoldConstants.MaxConf)) {
+
+                } else {
                     continue;
                 }
-                Handler fileHandler = new FileHandler(outputDir + prediction+"-"+interestingness+"-"+"logger.log");
-                fileHandler.setFormatter(new LogFormatter());
-                fileHandler.setFilter(new LogFilter());
+                
+               
                 LOGGER.addHandler(fileHandler);
                 LOGGER.log(Level.CONFIG, "RULE ::" + prediction);
                 LOGGER.log(Level.CONFIG, "INTERESTINGNESS::" + interestingness);
@@ -144,12 +153,15 @@ public class Evaluation implements ThresoldConstants {
     }
 
     private static Map<String, MeanReciprocalCalculation> meanReciprocalValues(String predictionRule, String interestiness, String experiment, String directory, List<File> fileList) throws IOException {
+         LOGGER.log(Level.INFO, "****************************Experiment START ************************************************************************");
+         LOGGER.log(Level.INFO, "thresholds:: " + experiment);
+       
         Map<String, MeanReciprocalCalculation> meanReciprocals = new TreeMap<String, MeanReciprocalCalculation>();
         for (String posTag : Analyzer.POSTAGS) {
 
-            if (!posTag.contains("NN")) {
+            /*if (!posTag.contains("NN")) {
                 continue;
-            }
+            }*/
 
             try {
                 File file = getFile(posTag, fileList);
@@ -158,16 +170,15 @@ public class Evaluation implements ThresoldConstants {
                 CsvFile csvFile = new CsvFile(qaldFile);
                 csvFile.readQaldCsv(qaldFile);
                 File conditionalFile = new File(directory + fileName + ".json");
+               
+
                 //LOGGER.log(Level.INFO, "evaluate for part-of-speech::" + posTag);
                 //LOGGER.log(Level.INFO, "qald-9 file this parts-of-speech::" + qaldFile.getName());
-                LOGGER.log(Level.INFO, "****************************Experiment START ************************************ ");
-                LOGGER.log(Level.INFO, "thresholds:: " + experiment);
                 LOGGER.log(Level.INFO, "parts-of-speech:: " + posTag);
-                LOGGER.log(Level.INFO, posTag+" LEXICON contains all patterns within this thresholds:" + conditionalFile.getName());
-                //LOGGER.log(Level.INFO, "qald-9 file " + csvFile.getFilename());
+                LOGGER.log(Level.INFO, posTag+" File that contains all patterns within this thresholds:" + conditionalFile.getName());
+                LOGGER.log(Level.INFO, "qald-9 file taken for evalution:" + csvFile.getFilename());
                 Comparision comparision = new Comparision(predictionRule, csvFile, conditionalFile, posTag, LOGGER, experiment, OBJECT);
                 MeanReciprocalCalculation meanReciprocalCalculation = comparision.getMeanReciprocalResult();
-                LOGGER.log(Level.INFO, "****************************Experiment END ************************************ ");
 
                 /*if (posTag.contains("JJ")) {
                     adjectives.add(meanReciprocalCalculation);
@@ -186,9 +197,14 @@ public class Evaluation implements ThresoldConstants {
                 meanReciprocals.put(key, comparision.getMeanReciprocalResult());
 
             } catch (Exception exp) {
-                LOGGER.log(Level.WARNING, "NO Lexicon FOUND for this Thresolds thresold");
+                LOGGER.log(Level.WARNING, "NO Lexicon FOUND for this thresolds:");
+                //String key = getInterestingnessThresold(experiment, interestiness) + "-" + posTag;
+                //meanReciprocals.put(key, "");
             }
         }
+        
+        LOGGER.log(Level.INFO, "**********************************************************************************************************************");
+
         return meanReciprocals;
     }
 
@@ -283,7 +299,7 @@ public class Evaluation implements ThresoldConstants {
         Evaluation evaluationMainTest = new Evaluation();
 
         List<String> predictions = new ArrayList<String>();
-        predictions.add(predict_l_for_s_given_po);
+        //predictions.add(predict_l_for_s_given_po);
         predictions.add(predict_l_for_s_given_o);
 
         for (String prediction : predictions) {
@@ -293,14 +309,14 @@ public class Evaluation implements ThresoldConstants {
             //run it once. we dont need to run it very time..
             Map<String, ThresoldsExperiment> associationRulesExperiment = createExperiments();
 
-            File files = new File(dic);
-            boolean exists = files.exists();
+            //File files = new File(dic);
+            /*boolean exists = files.exists();
             if (exists) {
                 System.out.println("directory  exists!!");
             } else {
                 FileFolderUtils.createDirectory(dic);
-            }
-
+            }*/
+           
             allThresoldInterestingness = createExperiments();
             calculateMeanReciprocal(prediction, dic, meanR);
         }

@@ -1,0 +1,617 @@
+[ {
+  "id" : 1,
+  "pattern" : "academic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.178217821782178", "triple=e dbp:thesis1Year o", "class=Scientist" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "active",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.486238532110092", "triple=e dbp:reader o", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "amateur",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.33920704845815", "triple=e dbp:neverExceedSpeedMph o", "class=Aircraft" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "ancient",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.168316831683168", "triple=e dbp:familyName o", "class=Royalty" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "anglican",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.62", "triple=e dbp:osgraw o", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "arabic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.232558139534884", "triple=e dbp:pages o", "class=Royalty" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "aromatic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.12280701754386", "triple=e dbp:imagealtl o", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.796992481203007", "triple=e dbp:nationalyears o", "class=AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "autonomous",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.416666666666667", "triple=e dbp:font o", "class=Election" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.158333333333333", "triple=e dbp:releaseNumber o", "class=Book" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.491803278688525", "triple=e dbp:halloffame o", "class=IceHockeyPlayer" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "central",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.345541990381058", "triple=e dbp:faa o", "class=Airport" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "chinese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.587719298245614", "triple=e dbp:p o", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "civil",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.208695652173913", "triple=e dbp:relief o", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "co-educational",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.217616580310881", "triple=e dbp:pushpinLabelPosition o", "class=School" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "colorless",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.26303317535545", "triple=e dbp:imagenamel o", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 92,
+  "pattern" : "colourless",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.101895734597156", "triple=e dbp:imagenamel o", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 95,
+  "pattern" : "commercial",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.244444444444444", "triple=e dbp:subchannels o", "class=RadioStation" ]
+  }
+}, {
+  "id" : 144,
+  "pattern" : "east",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.112244897959184", "triple=e dbp:accessdate o", "class=River" ]
+  }
+}, {
+  "id" : 156,
+  "pattern" : "endemic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.35122838944495", "triple=e dbp:statusSystem o", "class=Plant" ]
+  }
+}, {
+  "id" : 163,
+  "pattern" : "european",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.280373831775701", "triple=e dbo:county o", "class=Road" ]
+  }
+}, {
+  "id" : 179,
+  "pattern" : "first-class",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.277013752455796", "triple=e dbp:lastfor o", "class=Cricketer" ]
+  }
+}, {
+  "id" : 191,
+  "pattern" : "former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.548387096774194", "triple=e dbp:nationalgamesGoals o", "class=AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 198,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.303571428571429", "triple=e dbp:lowerSpanM o", "class=Aircraft" ]
+  }
+}, {
+  "id" : 199,
+  "pattern" : "full",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.168316831683168", "triple=e dbp:thesis1Year o", "class=Scientist" ]
+  }
+}, {
+  "id" : 207,
+  "pattern" : "georgian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.163120567375887", "triple=e dbp:moretext o", "class=Royalty" ]
+  }
+}, {
+  "id" : 208,
+  "pattern" : "german",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.202247191011236", "triple=e dbp:mapLabel o", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 214,
+  "pattern" : "greek",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.21830985915493", "triple=e dbp:nativeLang1Name o", "class=Royalty" ]
+  }
+}, {
+  "id" : 220,
+  "pattern" : "hebrew",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.573529411764706", "triple=e dbp:seats o", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 225,
+  "pattern" : "heritage-listed",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.317241379310345", "triple=e dbp:designation1Free3value o", "class=HistoricPlace" ]
+  }
+}, {
+  "id" : 227,
+  "pattern" : "high",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.263157894736842", "triple=e dbp:schoolColors o", "class=School" ]
+  }
+}, {
+  "id" : 228,
+  "pattern" : "higher",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.266304347826087", "triple=e dbp:rock o", "class=Mountain" ]
+  }
+}, {
+  "id" : 229,
+  "pattern" : "highest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.285714285714286", "triple=e dbp:elevationRef o", "class=Mountain" ]
+  }
+}, {
+  "id" : 232,
+  "pattern" : "historic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.178694158075601", "triple=e dbo:picture o", "class=Building" ]
+  }
+}, {
+  "id" : 235,
+  "pattern" : "honduran",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.393700787401575", "triple=e dbp:nobars o", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 246,
+  "pattern" : "inactive",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.217821782178218", "triple=e dbp:awardImage o", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 247,
+  "pattern" : "indian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.145454545454545", "triple=e dbp:umptestdebutyr o", "class=Cricketer" ]
+  }
+}, {
+  "id" : 249,
+  "pattern" : "inorganic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.148255813953488", "triple=e dbp:imagecaption o", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 250,
+  "pattern" : "international",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.436450839328537", "triple=e dbp:hub o", "class=Airport" ]
+  }
+}, {
+  "id" : 258,
+  "pattern" : "japanese",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.230769230769231", "triple=e dbp:parent o", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 272,
+  "pattern" : "last",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.207920792079208", "triple=e dbp:awardImage o", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 279,
+  "pattern" : "licensed",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.331288343558282", "triple=e dbp:letterid o", "class=RadioStation" ]
+  }
+}, {
+  "id" : 284,
+  "pattern" : "local",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.419161676646707", "triple=e dbp:spoilt o", "class=Election" ]
+  }
+}, {
+  "id" : 285,
+  "pattern" : "located",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.638323353293413", "triple=e dbp:tc o", "class=Airport" ]
+  }
+}, {
+  "id" : 288,
+  "pattern" : "long-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.175", "triple=e dbp:releaseNumber o", "class=Book" ]
+  }
+}, {
+  "id" : 290,
+  "pattern" : "main",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.352657004830918", "triple=e dbp:catchment o", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 291,
+  "pattern" : "major",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.405622489959839", "triple=e dbp:retro o", "class=BaseballPlayer" ]
+  }
+}, {
+  "id" : 294,
+  "pattern" : "marine",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.150753768844221", "triple=e dbp:otherDevice o", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 299,
+  "pattern" : "medium-sized",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.400966183574879", "triple=e dbp:catchment o", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 306,
+  "pattern" : "military",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.184397163120567", "triple=e dbp:quote o", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 317,
+  "pattern" : "national",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.37984496124031", "triple=e dbp:hof o", "class=AmericanFootballPlayer" ]
+  }
+}, {
+  "id" : 318,
+  "pattern" : "native",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.538461538461538", "triple=e dbo:binomial o", "class=Plant" ]
+  }
+}, {
+  "id" : 319,
+  "pattern" : "nautical",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.388023952095808", "triple=e dbp:tc o", "class=Airport" ]
+  }
+}, {
+  "id" : 320,
+  "pattern" : "naval",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.181506849315068", "triple=e dbp:campaignbox o", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 322,
+  "pattern" : "nazi",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.151631477927063", "triple=e dbp:portal o", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 325,
+  "pattern" : "nearest",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.266304347826087", "triple=e dbp:rock o", "class=Mountain" ]
+  }
+}, {
+  "id" : 327,
+  "pattern" : "noble",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.182481751824818", "triple=e dbp:surname o", "class=Organisation" ]
+  }
+}, {
+  "id" : 328,
+  "pattern" : "non-profit",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.117043121149897", "triple=e dbp:method o", "class=Organisation" ]
+  }
+}, {
+  "id" : 332,
+  "pattern" : "norwegian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.393364928909953", "triple=e dbp:pushpinLabel o", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 333,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.17687074829932", "triple=e dbp:englishReleaseDate o", "class=Book" ]
+  }
+}, {
+  "id" : 343,
+  "pattern" : "orchid",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.605809128630705", "triple=e dbp:subtribus o", "class=Plant" ]
+  }
+}, {
+  "id" : 345,
+  "pattern" : "organic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.385964912280702", "triple=e dbp:imagealtl o", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 348,
+  "pattern" : "original",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.158333333333333", "triple=e dbp:releaseNumber o", "class=Book" ]
+  }
+}, {
+  "id" : 360,
+  "pattern" : "perennial",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.126491646778043", "triple=e dbp:customData o", "class=River" ]
+  }
+}, {
+  "id" : 362,
+  "pattern" : "personal",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.213541666666667", "triple=e dbp:c o", "class=Royalty" ]
+  }
+}, {
+  "id" : 372,
+  "pattern" : "political",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.881081081081081", "triple=e dbp:partiesDab o", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 375,
+  "pattern" : "posthumous",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.148514851485149", "triple=e dbp:familyName o", "class=Royalty" ]
+  }
+}, {
+  "id" : 376,
+  "pattern" : "prefecture-level",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.454545454545455", "triple=e dbp:y o", "class=City" ]
+  }
+}, {
+  "id" : 378,
+  "pattern" : "presidential",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.570707070707071", "triple=e dbp:evprct o", "class=Election" ]
+  }
+}, {
+  "id" : 381,
+  "pattern" : "private",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.17479674796748", "triple=e dbo:tuition o", "class=School" ]
+  }
+}, {
+  "id" : 383,
+  "pattern" : "professional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.438095238095238", "triple=e dbp:stat2year o", "class=BaseballPlayer" ]
+  }
+}, {
+  "id" : 385,
+  "pattern" : "pronounced",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.199004975124378", "triple=e dbp:sucType o", "class=Royalty" ]
+  }
+}, {
+  "id" : 389,
+  "pattern" : "provincial",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.267123287671233", "triple=e dbp:ruralMunicipalities o", "class=Road" ]
+  }
+}, {
+  "id" : 405,
+  "pattern" : "recipient",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.211132437619962", "triple=e dbp:portal o", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 409,
+  "pattern" : "regional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.475", "triple=e dbp:font o", "class=Election" ]
+  }
+}, {
+  "id" : 430,
+  "pattern" : "romanian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.463917525773196", "triple=e dbp:teams o", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 434,
+  "pattern" : "rugby",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.548672566371681", "triple=e dbp:rlClubyears o", "class=RugbyPlayer" ]
+  }
+}, {
+  "id" : 438,
+  "pattern" : "russian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.186666666666667", "triple=e dbp:nativeName o", "class=Artist" ]
+  }
+}, {
+  "id" : 446,
+  "pattern" : "secondary",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.201342281879195", "triple=e dbp:trust o", "class=School" ]
+  }
+}, {
+  "id" : 457,
+  "pattern" : "single-seat",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.32034632034632", "triple=e dbp:sinkRateFtmin o", "class=Aircraft" ]
+  }
+}, {
+  "id" : 462,
+  "pattern" : "solid",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.162790697674419", "triple=e dbp:imagecaption o", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 464,
+  "pattern" : "soviet",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.115248226950355", "triple=e dbp:nativeName o", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 465,
+  "pattern" : "spanish",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.231441048034935", "triple=e dbp:provinces o", "class=Road" ]
+  }
+}, {
+  "id" : 501,
+  "pattern" : "traditional",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.198275862068966", "triple=e dbp:t o", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 508,
+  "pattern" : "ukrainian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.362204724409449", "triple=e dbp:alternativemap o", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 516,
+  "pattern" : "victorian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.668465227817746", "triple=e dbp:deathDate o", "class=AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 520,
+  "pattern" : "volcanic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.168604651162791", "triple=e dbo:eruptionYear o", "class=Mountain" ]
+  }
+}, {
+  "id" : 530,
+  "pattern" : "white",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.104651162790698", "triple=e dbp:imagecaption o", "class=ChemicalCompound" ]
+  }
+} ]

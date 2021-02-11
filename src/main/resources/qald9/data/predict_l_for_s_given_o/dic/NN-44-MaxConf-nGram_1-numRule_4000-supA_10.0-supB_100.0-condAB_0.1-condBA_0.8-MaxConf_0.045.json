@@ -1,0 +1,38 @@
+[ {
+  "id" : 1,
+  "pattern" : "cosmopterigidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "family",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Tephritoidea", "MaxConf=1.0", "triple=e p Tephritoidea", "class=Insect" ],
+    "1" : [ "pair=Hesperiidae", "MaxConf=1.0", "triple=e p Hesperiidae", "class=Insect" ],
+    "2" : [ "pair=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "genus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Tephritoidea", "MaxConf=1.0", "triple=e p Tephritoidea", "class=Insect" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "hesperiidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Hesperiidae", "MaxConf=1.0", "triple=e p Hesperiidae", "class=Insect" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "moth",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
+  }
+} ]

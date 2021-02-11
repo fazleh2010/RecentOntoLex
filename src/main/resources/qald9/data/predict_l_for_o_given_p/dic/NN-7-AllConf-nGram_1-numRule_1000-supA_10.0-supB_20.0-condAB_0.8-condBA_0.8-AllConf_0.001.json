@@ -1,0 +1,197 @@
+[ {
+  "id" : 1,
+  "pattern" : "aircraft",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.80952380952381", "triple=e dbp:aircraftInterceptor o", "class=Aircraft" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "airport",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.833333333333333", "triple=e dbp:space o", "class=Airport" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.925581395348837", "triple=e dbp:offCoach o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "baseball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.96551724137931", "triple=e dbp:worldseriesCoach o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "basketball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.807692307692308", "triple=e dbp:assocCoach o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "church",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.857142857142857", "triple=e dbo:museum o", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "coach",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=1.0", "triple=e dbo:coach o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "competition",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.837837837837838", "triple=e dbp:team2association o", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "director",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.925925925925926", "triple=e dbp:athleticDirector o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.9", "triple=e dbp:assistant o", "class=AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "footballer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.80952380952381", "triple=e dbp:topGoalScorer o", "class=AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "genus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.801410105757932", "triple=e dbo:genus o", "class=Plant" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "head",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.970588235294118", "triple=e dbp:holder o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "helicopter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.909090909090909", "triple=e dbo:aircraftHelicopterMultirole o", "class=Aircraft" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "hockey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.964285714285714", "triple=e dbp:asstcoach o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "iata",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.833333333333333", "triple=e dbp:space o", "class=Airport" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "icao",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.833333333333333", "triple=e dbp:space o", "class=Airport" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "men's",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.884615384615385", "triple=e dbp:champion o", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "ncaa",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=1.0", "triple=e dbp:champion o", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "party",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=1.0", "triple=e dbo:leader o", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "republican",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.975609756097561", "triple=e dbp:list o", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "rules",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.833333333333333", "triple=e dbp:assistant o", "class=AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "soccer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.961538461538462", "triple=e dbp:champion o", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "team",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.807692307692308", "triple=e dbp:champion o", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "title",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.807692307692308", "triple=e dbp:champion o", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "tournament",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=1.0", "triple=e dbp:champion o", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "university",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.962962962962963", "triple=e dbp:athleticDirector o", "class=CollegeCoach" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "women's",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.814814814814815", "triple=e dbp:wdomestic o", "class=SoccerTournament" ]
+  }
+} ]

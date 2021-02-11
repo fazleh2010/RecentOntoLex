@@ -78,9 +78,6 @@ public class MeanReciprocalCalculation implements Comparator {
         EvalutionUtil.ifFalseCrash(rankings.size() == gold.size(),
                 "The size of predictions and gold should be identical, Usually not found element are in FALSE marked in gold");
         double mrr = 0;
-        
-        
-
         for (int i = 0; i < rankings.size(); i++) {
             Pair<String, Map<String, Double>> rankingsPredict = rankings.get(i);
             Pair<String, Map<String, Boolean>> wordGold = gold.get(i);
@@ -91,7 +88,7 @@ public class MeanReciprocalCalculation implements Comparator {
 
             if (this.commonWords.contains(word)) {
                 commonFlag = true;
-                LOGGER.log(Level.INFO, "### linguistic pattern FOUND in qald ");
+                LOGGER.log(Level.INFO, "######## ######## ######## pattern FOUND in qald ######## ######## ########");
             }
 
             ReciprocalResult reciprocalElement = getReciprocalRank(getKeysSortedByValue(rankingsPredict.getValue1(), DESCENDING),
@@ -102,9 +99,10 @@ public class MeanReciprocalCalculation implements Comparator {
             } else {
                 patternNotFound.put(word, reciprocalElement);
                 if (!commonFlag) {
-                    LOGGER.log(Level.INFO, "linguistic pattern NOT FOUND in qald" + ",so rank::" + reciprocalElement.getRank() + " reciprocalRank!!:" + reciprocalElement.getRank());
+                    LOGGER.log(Level.INFO,"pattern NOT FOUND in qald" + ",so rank::" + reciprocalElement.getRank() + " reciprocalRank!!:" + reciprocalElement.getRank());
                 } else {
-                    LOGGER.log(Level.INFO, "### KB NOT FOUND in qld" + ",so rank::" + reciprocalElement.getRank() + " reciprocalRank!!:" + reciprocalElement.getRank());
+                    LOGGER.log(Level.INFO,"######## "+" KB NOT FOUND in qald" + ",so rank::" + reciprocalElement.getRank() + " reciprocalRank!!:" + reciprocalElement.getRank());
+                    LOGGER.log(Level.INFO, "######## ######## ######## ######## ######## ######## ######## ########");
                 }
 
             }
@@ -126,19 +124,13 @@ public class MeanReciprocalCalculation implements Comparator {
 
     private static ReciprocalResult getReciprocalRank(final List<String> ranking, final Map<String, Boolean> gold, Boolean commonWordFlag) {
         ReciprocalResult reciprocalElement = new ReciprocalResult(ranking, 0, 0.0);
+        Boolean rankFoundflag=false;
 
         EvalutionUtil.ifFalseCrash(IrAbstract.GoldContainsAllinRanking(ranking, gold),
                 "I cannot compute MRR");
+        
+        //LOGGER.log(Level.INFO, "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@  :" + gold.keySet());
 
-        if (commonWordFlag) {
-            //LOGGER.log(Level.INFO, "\n" + "FOUND in QALD ");
-            //LOGGER.log(Level.INFO, "now checking the KB in the QALD");
-            //LOGGER.log(Level.INFO, "total number of KB for this pattern in our lexicon:" + EvaluationTriple.getString(ranking));
-            //LOGGER.log(Level.INFO, ">>> qald KBs:");
-            //for (String kb : gold.keySet()) {
-            //    LOGGER.log(Level.INFO, kb+" "+gold.get(kb));
-            //}
-        }
 
         double reciprocalRank = 0;
         for (Integer i = 0; i < ranking.size(); i++) {
@@ -155,18 +147,33 @@ public class MeanReciprocalCalculation implements Comparator {
                     String predicate = ranking.get(i);
                     reciprocalRank = 1.0 / (i + 1);
                     Integer rank = (i + 1);
-                    LOGGER.log(Level.INFO, "########### KB FOUND in qald");
-                    LOGGER.log(Level.INFO, "########### matched KB :" + EvaluationTriple.qaldStr(ranking.get(i)));
-                    LOGGER.log(Level.INFO, "########### check rank in our lexicon:");
-                    LOGGER.log(Level.INFO, "###########  all KB for this pattern in lexicon:" + EvaluationTriple.getString(ranking));
-                    LOGGER.log(Level.INFO, "RANK::" + rank);
-                    LOGGER.log(Level.INFO, "RECIPROCAL RANK::" + reciprocalRank);
+                    LOGGER.log(Level.INFO, "###################### KB MATCHED with qald::"+EvaluationTriple.qaldStr(ranking.get(i)));
+                    //LOGGER.log(Level.INFO, "########### matched KB :" + EvaluationTriple.qaldStr(ranking.get(i)));
+                    //LOGGER.log(Level.INFO, "###################### check rank of this KB in our lexicon:");
+                    LOGGER.log(Level.INFO, "######################  rank list of KB in our lexicon:" + EvaluationTriple.getString(ranking));
+                    LOGGER.log(Level.INFO, "RANK::" + rank +" RECIPROCAL RANK:"+reciprocalRank);
+                    //LOGGER.log(Level.INFO, "RECIPROCAL RANK::" + reciprocalRank);
                     //LOGGER.log(Level.INFO, "#####################################################################################");
-                    LOGGER.log(Level.INFO, "\n");
+                    rankFoundflag=true;
+                    LOGGER.log(Level.INFO, "######## ######## ######## ######## ######## ######## ######## ########");
                     return new ReciprocalResult(predicate, rank, reciprocalRank);
                 }
             }
         }
+        
+        /* if (commonWordFlag&&!rankFoundflag) {
+            //LOGGER.log(Level.INFO, "\n" + "FOUND in QALD ");
+            //LOGGER.log(Level.INFO, "now checking the KB in the QALD");
+            //LOGGER.log(Level.INFO, "total number of KB for this pattern in our lexicon:" + EvaluationTriple.getString(ranking));
+            //LOGGER.log(Level.INFO, ">>> qald KBs:");
+            //for (String kb : gold.keySet()) {
+            //    LOGGER.log(Level.INFO, kb+" "+gold.get(kb));
+            //}
+         LOGGER.log(Level.INFO, "######################  KBs for this pattern in qald:" + gold.keySet());   
+         LOGGER.log(Level.INFO, "######################  Rank list of KB for this pattern:" + EvaluationTriple.getString(ranking));
+
+        }*/
+         
         return reciprocalElement;
     }
 

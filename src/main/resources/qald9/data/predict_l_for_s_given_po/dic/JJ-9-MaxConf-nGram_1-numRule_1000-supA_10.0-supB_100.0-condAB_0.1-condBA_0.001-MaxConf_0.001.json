@@ -1,0 +1,52 @@
+[ {
+  "id" : 2,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Australia@en", "MaxConf=1.0", "triple=e dbp:country Australia@en", "class=Book" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=United_Kingdom", "MaxConf=1.0", "triple=e dbp:country United_Kingdom", "class=Book" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=France@en", "MaxConf=1.0", "triple=e dbp:country France@en", "class=Book" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Alfred_A._Knopf", "MaxConf=1.0", "triple=e dbp:publisher Alfred_A._Knopf", "class=Book" ],
+    "1" : [ "pair=Viking_Press", "MaxConf=1.0", "triple=e dbp:publisher Viking_Press", "class=Book" ],
+    "2" : [ "pair=Simon_&_Schuster", "MaxConf=1.0", "triple=e dbp:publisher Simon_&_Schuster", "class=Book" ],
+    "3" : [ "pair=HarperCollins", "MaxConf=1.0", "triple=e dbp:publisher HarperCollins", "class=Book" ],
+    "4" : [ "pair=Random_House", "MaxConf=1.0", "triple=e dbp:publisher Random_House", "class=Book" ],
+    "5" : [ "pair=Tor_Books", "MaxConf=1.0", "triple=e dbp:publisher Tor_Books", "class=Book" ],
+    "6" : [ "pair=Macmillan_Publishers", "MaxConf=1.0", "triple=e dbp:publisher Macmillan_Publishers", "class=Book" ],
+    "7" : [ "pair=Doubleday_(publisher)", "MaxConf=1.0", "triple=e dbp:publisher Doubleday_(publisher)", "class=Book" ],
+    "8" : [ "pair=Little,_Brown_and_Company", "MaxConf=1.0", "triple=e dbp:publisher Little,_Brown_and_Company", "class=Book" ],
+    "9" : [ "pair=Hardcover", "MaxConf=1.0", "triple=e dbo:mediaType Hardcover", "class=Book" ],
+    "10" : [ "pair=Hardback", "MaxConf=1.0", "triple=e dbo:mediaType Hardback", "class=Book" ],
+    "11" : [ "pair=Paperback", "MaxConf=1.0", "triple=e dbo:mediaType Paperback", "class=Book" ],
+    "12" : [ "pair=\"400\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "MaxConf=1.0", "triple=e dbo:numberOfPages \"400\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "13" : [ "pair=\"352\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "MaxConf=1.0", "triple=e dbo:numberOfPages \"352\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "14" : [ "pair=\"224\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "MaxConf=1.0", "triple=e dbo:numberOfPages \"224\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "15" : [ "pair=\"320\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "MaxConf=1.0", "triple=e dbo:numberOfPages \"320\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "16" : [ "pair=\"304\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "MaxConf=1.0", "triple=e dbo:numberOfPages \"304\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "17" : [ "pair=\"288\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "MaxConf=1.0", "triple=e dbo:numberOfPages \"288\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "18" : [ "pair=\"384\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "MaxConf=1.0", "triple=e dbo:numberOfPages \"384\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "19" : [ "pair=Australia@en", "MaxConf=1.0", "triple=e dbp:country Australia@en", "class=Book" ],
+    "20" : [ "pair=France@en", "MaxConf=1.0", "triple=e dbp:country France@en", "class=Book" ],
+    "21" : [ "pair=United_Kingdom", "MaxConf=1.0", "triple=e dbp:country United_Kingdom", "class=Book" ],
+    "22" : [ "pair=India@en", "MaxConf=1.0", "triple=e dbp:country India@en", "class=Book" ],
+    "23" : [ "pair=United Kingdom@en", "MaxConf=1.0", "triple=e dbp:country United Kingdom@en", "class=Book" ]
+  }
+} ]

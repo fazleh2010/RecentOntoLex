@@ -1,0 +1,22 @@
+[ {
+  "id" : 1,
+  "pattern" : "church",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.825174825174825", "triple=e dbp:warden o", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "genus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.804093567251462", "triple=e dbp:typeSpeciesAuthority o", "class=Plant" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "party",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=o", "AllConf=0.87030303030303", "triple=e dbp:european o", "class=PoliticalParty" ]
+  }
+} ]

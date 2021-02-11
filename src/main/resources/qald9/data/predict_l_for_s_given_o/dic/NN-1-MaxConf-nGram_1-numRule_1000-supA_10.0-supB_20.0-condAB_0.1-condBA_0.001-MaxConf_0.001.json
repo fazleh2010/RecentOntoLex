@@ -1,0 +1,31 @@
+[ {
+  "id" : 1,
+  "pattern" : "aurivillius",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Per_Olof_Christopher_Aurivillius", "MaxConf=1.0", "triple=e p Per_Olof_Christopher_Aurivillius", "class=Insect" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "christopher",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Per_Olof_Christopher_Aurivillius", "MaxConf=1.0", "triple=e p Per_Olof_Christopher_Aurivillius", "class=Insect" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "family",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Chrysomeloidea", "MaxConf=1.0", "triple=e p Chrysomeloidea", "class=Insect" ],
+    "1" : [ "pair=Tephritoidea", "MaxConf=1.0", "triple=e p Tephritoidea", "class=Insect" ],
+    "2" : [ "pair=Per_Olof_Christopher_Aurivillius", "MaxConf=1.0", "triple=e p Per_Olof_Christopher_Aurivillius", "class=Insect" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "genus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Tephritoidea", "MaxConf=1.0", "triple=e p Tephritoidea", "class=Insect" ]
+  }
+} ]

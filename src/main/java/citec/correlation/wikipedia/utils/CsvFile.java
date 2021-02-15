@@ -95,6 +95,7 @@ public class CsvFile implements CsvConstants {
 
             Map<String, Map<String, MeanReciprocalCalculation>> ruleResult = ruleExpeResult.get(rule);
             for (String experiment : ruleResult.keySet()) {
+                System.out.println("experiment:"+experiment);
                 //LOGGER.log(Level.INFO,"experiment:"+experiment);
                 Map<String, MeanReciprocalCalculation> parts_of_speech = ruleResult.get(experiment);
                 experiment = getExperiment(experiment, rule);

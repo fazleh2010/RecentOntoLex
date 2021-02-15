@@ -152,15 +152,15 @@ public class Comparision implements ThresoldConstants {
 
         }
 
-        //this.meanReciprocalResult = new MeanReciprocalCalculation(experiment, lexicon, qald_gold, LOGGER, commonWords);
-        /*LOGGER.log(Level.INFO, "***** ***** ***** SUMMARY of RESULT ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****");
+        this.meanReciprocalResult = new MeanReciprocalCalculation(experiment, lexicon, qald_gold, LOGGER, commonWords);
+        LOGGER.log(Level.INFO, "***** ***** ***** SUMMARY of RESULT ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****");
         LOGGER.log(Level.INFO, "***** RESULT of ANALYSIS of POS TAG::" + this.posTag);
         LOGGER.log(Level.INFO, "***** NUMBER OF PATTERN in LEXICON::" + this.meanReciprocalResult.getTotalPattern());
         LOGGER.log(Level.INFO, "***** NUMBER OF PATTERN with NONZERO RANK::" + this.meanReciprocalResult.getPatternFound().size());
         LOGGER.log(Level.INFO, "***** NUMBER OF PATTERN with ZERO RANK::::" + this.meanReciprocalResult.getPatternNotFound().size());
         LOGGER.log(Level.INFO, "MEAN RECIPROCAL::" + this.meanReciprocalResult.getMeanReciprocalRankStr());
         LOGGER.log(Level.INFO, "***** ***** ***** ****** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****");
-        */
+        
     }
 
     private ReciprocalResult compersionsPattern(String word, Unit unit, LexiconUnit LexiconUnit) {

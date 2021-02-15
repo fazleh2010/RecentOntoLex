@@ -45,12 +45,12 @@ public class MeanReciprocalCalculation implements Comparator {
     private String meanReciprocalRankStr = "0.0";
 
     @JsonProperty("TotalPattern")
-    private Integer totalPattern = null;
+    private Integer totalPattern = 0;
     @JsonProperty("Found")
     private Integer numberOfPatterrnFoundNonZeroRank = 0;
     //@JsonProperty("NotFound")
     @Ignore
-    private Integer numberOfPatterrnFoundZeroRank = null;
+    private Integer numberOfPatterrnFoundZeroRank = 0;
     //@JsonProperty("Detail")
     @Ignore
     private Map<String, ReciprocalResult> patternFound = new TreeMap<String, ReciprocalResult>();
@@ -73,6 +73,13 @@ public class MeanReciprocalCalculation implements Comparator {
         this.commonWords = commonWords;
         this.computeWithRankingMap(rankings, gold);
     }
+    
+    public MeanReciprocalCalculation(String experiment, Logger LOGGER) {
+        this.experiment = experiment;
+        this.LOGGER = LOGGER;
+    }
+
+  
     
     public void computeWithRankingMap(List<Pair<String, Map<String, Double>>> rankings, List<Pair<String, Map<String, Boolean>>> gold) {
         EvalutionUtil.ifFalseCrash(rankings.size() == gold.size(),

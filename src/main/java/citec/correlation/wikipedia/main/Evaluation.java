@@ -164,7 +164,7 @@ public class Evaluation implements ThresoldConstants {
                 continue;
             }*/
 
-            try {
+           
                 File file = getFile(posTag, fileList);
                 String fileName = file.getName().replace(".json", "");
                 String qaldFile = FileFolderUtils.getQaldCsvFile(qald9Dir + GOLD, OBJECT, posTag);
@@ -197,11 +197,10 @@ public class Evaluation implements ThresoldConstants {
                 //System.out.println("key:" + key);
                 meanReciprocals.put(key, comparision.getMeanReciprocalResult());
 
-            } catch (Exception exp) {
-                LOGGER.log(Level.WARNING, "NO Lexicon FOUND for this thresolds:");
+            
+                //LOGGER.log(Level.WARNING, "NO Lexicon FOUND for this thresolds:");
                 //String key = getInterestingnessThresold(experiment, interestiness) + "-" + posTag;
-                //meanReciprocals.put(key, "");
-            }
+                //mean }
         }
         
         LOGGER.log(Level.INFO, "**********************************************************************************************************************");
@@ -300,8 +299,8 @@ public class Evaluation implements ThresoldConstants {
         Evaluation evaluationMainTest = new Evaluation();
 
         List<String> predictions = new ArrayList<String>();
-        //predictions.add(predict_l_for_s_given_po);
-         predictions.add(predict_l_for_o_given_p);
+        predictions.add(predict_l_for_s_given_po);
+         //predictions.add(predict_l_for_o_given_p);
 
         for (String prediction : predictions) {
             // prediction=predict_l_for_s_given_po;

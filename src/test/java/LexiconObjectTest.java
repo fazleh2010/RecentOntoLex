@@ -34,7 +34,7 @@ public class LexiconObjectTest implements PropertyNotation, DirectoryLocation, M
     private static String objectDir = dbpediaDir + classDir + "object/";
     private static ExperimentThresold experThresold=new ExperimentThresold();
   
-    @Ignore
+    /*@Ignore
     public void LEXICON_CREATION_TEST() throws IOException, Exception {
         experThresold.setInterestLingP();
         for (String interestingResultDir : experThresold.getInterestLingP().keySet()) {
@@ -51,7 +51,7 @@ public class LexiconObjectTest implements PropertyNotation, DirectoryLocation, M
             lexicon.prepareObjectLexicon(resultDirVariable, lexiconDir, FileFolderUtils.OBJECT, new HashSet<String>(TextAnalyzer.POSTAGS));
         }
         System.out.println("Lexicon Creation!!!");
-    }
+    }*/
 
     @Test
     public void MEAN_RECIPROCAL_OBJECT_LEX_TEST() throws IOException, Exception {

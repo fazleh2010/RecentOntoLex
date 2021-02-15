@@ -39,6 +39,9 @@ public class LineInfo implements ThresoldConstants{
     private  static String http = "http://dbpedia.org/resource/";
     private  static String ONTOLOGY = "ontology";
     private  static String PROPERTY = "property";
+    private   String checkedAssociationRule = null;
+    private   String checkedAssociationRuleValue = null;
+
 
     private Map<String, Double> probabilityValue = new TreeMap<String, Double>();
     private Analyzer analyzer = null;
@@ -51,6 +54,23 @@ public class LineInfo implements ThresoldConstants{
         
     }
     
+    public LineInfo(LineInfo lineInfo, String associationRule, String associationValue) {
+        this.line = lineInfo.getLine();
+        this.className = lineInfo.getClassName();
+        this.subject = lineInfo.getSubject();
+        this.predicate = lineInfo.getPredicate();
+        this.object = lineInfo.getObject();
+        this.wordOriginal = lineInfo.getWordOriginal();
+        this.validFlag = lineInfo.getValidFlag();
+        this.nGramNumber = lineInfo.getnGramNumber();
+        this.word = lineInfo.getWord();
+        this.posTag = lineInfo.getPosTag();
+        this.rule = lineInfo.getRule();
+        this.probabilityValue = lineInfo.getProbabilityValue();
+        this.checkedAssociationRule = associationRule;
+        this.checkedAssociationRuleValue = associationValue;
+    }
+
      
     public LineInfo(String prediction, String interestingness, Rule rule) throws Exception {
         this.line = rule.getAs_string();
@@ -394,6 +414,14 @@ public class LineInfo implements ThresoldConstants{
 
         }
         return property;
+    }
+
+    public String getCheckedAssociationRule() {
+        return checkedAssociationRule;
+    }
+
+    public String getCheckedAssociationRuleValue() {
+        return checkedAssociationRuleValue;
     }
 
    

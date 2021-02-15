@@ -73,8 +73,57 @@ public class MeanReciprocalCalculation implements Comparator {
         this.commonWords = commonWords;
         this.computeWithRankingMap(rankings, gold);
     }
-
+    
     public void computeWithRankingMap(List<Pair<String, Map<String, Double>>> rankings, List<Pair<String, Map<String, Boolean>>> gold) {
+        EvalutionUtil.ifFalseCrash(rankings.size() == gold.size(),
+                "The size of predictions and gold should be identical, Usually not found element are in FALSE marked in gold");
+        double mrr = 0;
+        for (int i = 0; i < gold.size(); i++) {
+            Pair<String, Map<String, Double>> rankingsPredict = rankings.get(i);
+            Pair<String, Map<String, Boolean>> wordGold = gold.get(i);
+            String word = wordGold.getValue0();
+            Boolean commonFlag = false;
+
+            LOGGER.log(Level.INFO, "wordGold+:: " + wordGold);
+            LOGGER.log(Level.INFO, "rankingsPredict:: " + rankingsPredict);
+
+            if (this.commonWords.contains(word)) {
+                commonFlag = true;
+                LOGGER.log(Level.INFO, "######## ######## ######## pattern FOUND in qald ######## ######## ########");
+            }
+
+            ReciprocalResult reciprocalElement = getReciprocalRank(getKeysSortedByValue(rankingsPredict.getValue1(), DESCENDING),
+                    wordGold.getValue1(), commonFlag);
+
+            if (reciprocalElement.getRank() > 0) {
+                this.patternFound.put(word, reciprocalElement);
+            } else {
+                patternNotFound.put(word, reciprocalElement);
+                if (!commonFlag) {
+                    LOGGER.log(Level.INFO,"pattern NOT FOUND in qald" + ",so rank::" + reciprocalElement.getRank() + " reciprocalRank!!:" + reciprocalElement.getRank());
+                } else {
+                    LOGGER.log(Level.INFO,"######## "+" KB NOT FOUND in qald" + ",so rank::" + reciprocalElement.getRank() + " reciprocalRank!!:" + reciprocalElement.getRank());
+                    LOGGER.log(Level.INFO, "######## ######## ######## ######## ######## ######## ######## ########");
+                }
+
+            }
+
+            mrr += reciprocalElement.getReciprocalRank();
+
+        }
+
+        mrr /= rankings.size();
+
+        this.meanReciprocalRank = mrr;
+        this.meanReciprocalRank = DoubleUtils.formatDouble(mrr);
+        this.meanReciprocalRankStr = FormatAndMatch.doubleFormat(meanReciprocalRank);
+        this.numberOfPatterrnFoundNonZeroRank = patternFound.size();
+        this.numberOfPatterrnFoundZeroRank = patternNotFound.size();
+        this.totalPattern = patternFound.size() + patternNotFound.size();
+
+    }
+
+    /*public void computeWithRankingMap(List<Pair<String, Map<String, Double>>> rankings, List<Pair<String, Map<String, Boolean>>> gold) {
         EvalutionUtil.ifFalseCrash(rankings.size() == gold.size(),
                 "The size of predictions and gold should be identical, Usually not found element are in FALSE marked in gold");
         double mrr = 0;
@@ -120,7 +169,7 @@ public class MeanReciprocalCalculation implements Comparator {
         this.numberOfPatterrnFoundZeroRank = patternNotFound.size();
         this.totalPattern = patternFound.size() + patternNotFound.size();
 
-    }
+    }*/
 
     private static ReciprocalResult getReciprocalRank(final List<String> ranking, final Map<String, Boolean> gold, Boolean commonWordFlag) {
         ReciprocalResult reciprocalElement = new ReciprocalResult(ranking, 0, 0.0);

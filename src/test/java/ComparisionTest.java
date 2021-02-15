@@ -6,7 +6,6 @@ import citec.correlation.wikipedia.element.PropertyNotation;
 import citec.correlation.wikipedia.evalution.Comparision;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import citec.correlation.wikipedia.dic.qald.Qald;
-import static citec.correlation.wikipedia.main.TableMain.makeClassDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.allPoliticianFile;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.patternDir;

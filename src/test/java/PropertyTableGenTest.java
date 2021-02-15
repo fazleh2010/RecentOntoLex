@@ -1,6 +1,5 @@
 
 import citec.correlation.wikipedia.element.PropertyNotation;
-import citec.correlation.wikipedia.main.TableMain;
 import citec.correlation.wikipedia.parameters.DirectoryLocation;
 import citec.correlation.wikipedia.parameters.MenuOptions;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
@@ -22,7 +21,6 @@ public class PropertyTableGenTest implements PropertyNotation, DirectoryLocation
         String classDir = FileFolderUtils.getClassDir(dbo_ClassName) + "/";
         String rawFiles = dbpediaDir + classDir + "rawFiles/";
         String outputDir = dbpediaDir + classDir + "object/";
-        TableMain.generateClassPropertyTable(rawFiles, dbo_ClassName, outputDir);
 
     }
 

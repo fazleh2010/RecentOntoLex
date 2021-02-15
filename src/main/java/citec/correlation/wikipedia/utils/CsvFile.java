@@ -167,41 +167,52 @@ public class CsvFile implements CsvConstants {
         }
     }
 
-    public void readQaldCsv(String filename) throws FileNotFoundException, IOException, CsvException {
+    public void readQaldCsv(String filename) {
         List<String[]> rows = new ArrayList<String[]>();
         Map<String, Unit> qald = new TreeMap<String, Unit>();
         Stack<String> stack = new Stack<String>();
-        try ( CSVReader reader = new CSVReader(new FileReader(filename))) {
+        CSVReader reader;
+        try {
+            reader = new CSVReader(new FileReader(filename));
             rows = reader.readAll();
-            Integer index = 0;
-            String lastWord = null;
-            String word = null;
-            for (String[] row : rows) {
-                if (index == 0) {
-                    this.qaldHeader = row;
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, "CSV File not found:!!!" + ex.getMessage());
+        } catch (IOException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, "CSV File not found:!!!" + ex.getMessage());
+        } catch (CsvException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, "CSV problems:!!!" + ex.getMessage());
+        }
+
+        Integer index = 0;
+        String lastWord = null;
+        String word = null;
+        for (String[] row : rows) {
+            if (index == 0) {
+                this.qaldHeader = row;
+            } else {
+
+                word = row[0].trim().strip();
+
+                if (!word.isEmpty()) {
+                    lastWord = word;
                 } else {
-
-                    word = row[0].trim().strip();
-
-                    if (!word.isEmpty()) {
-                        lastWord = word;
-                    } else {
-                        word = lastWord;
-                    }
-
-                    System.out.println("word!!!!!!!!!!!:" + word);
-                    List<String[]> lines = new ArrayList<String[]>();
-                    if (this.wordRows.containsKey(word)) {
-                        lines = this.wordRows.get(word);
-                    }
-                    lines.add(row);
-                    this.wordRows.put(word, lines);
-
+                    word = lastWord;
                 }
 
-                index = index + 1;
+                List<String[]> lines = new ArrayList<String[]>();
+                if (this.wordRows.containsKey(word)) {
+                    lines = this.wordRows.get(word);
+                }
+                lines.add(row);
+                this.wordRows.put(word, lines);
+
             }
-        } 
+
+            index = index + 1;
+        }
 
     }
 
@@ -213,7 +224,7 @@ public class CsvFile implements CsvConstants {
                 String id = row[CsvConstants.idIndex];
                 String predicate = row[CsvConstants.propertyIndex];
                 String object = row[CsvConstants.objectIndex];
-                EvaluationTriple qaldTriple = new EvaluationTriple(QALD,predictionRule,id,predicate, object,word,LOGGER);
+                EvaluationTriple qaldTriple = new EvaluationTriple(QALD,predictionRule,id,null,predicate, object,word,LOGGER);
                 triples.add(qaldTriple);
             } catch (Exception ex) {
                 Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);

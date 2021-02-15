@@ -25,15 +25,20 @@ public class EvaluationTriple implements ThresoldConstants {
     private String word = null;
     private Logger LOGGER=null;
 
-    public EvaluationTriple(String type, String predictionRule, String id, String predicate, String object,String word,Logger LOGGER) throws Exception {
+    public EvaluationTriple(String type, String predictionRule, String id, String subject,String predicate, String object,String word,Logger LOGGER)  {
         this.type = type;
         this.predictionRule = predictionRule;
         //this.predicate=this.modifyPredicate(predicate);
         //this.object=this.modifyObject(object);
+        this.subject=subject;
         this.predicate=predicate;
         this.object=object;
         this.LOGGER=LOGGER;
-        this.key=this.createKey(this.predictionRule,this.subject,this.predicate,this.object);
+        try {
+            this.key=this.createKey(this.predictionRule,this.subject,this.predicate,this.object);
+        } catch (Exception ex) {
+            Logger.getLogger(EvaluationTriple.class.getName()).log(Level.SEVERE, null, ex);
+        }
         
     }
 
@@ -43,6 +48,21 @@ public class EvaluationTriple implements ThresoldConstants {
         this.key=key;
         this.parseKey(predicationRule,key);
         this.word=word;
+    }
+
+    public EvaluationTriple(String LEXICON, String predicationRule, String toString, String tripleString, String word, Logger LOGGER) {
+        this.predictionRule = predicationRule;
+        String info[]=tripleString.split(" ");
+        this.subject = info[0];
+        this.predicate = this.preparePredicate(info[1]);
+        this.object = info[2];
+        this.LOGGER = LOGGER;
+        try {
+            this.key = this.createKey(this.predictionRule, this.subject, this.predicate, this.object);
+            System.out.println("key:"+key);
+        } catch (Exception ex) {
+            Logger.getLogger(EvaluationTriple.class.getName()).log(Level.SEVERE, null, ex);
+        }
     }
 
     private String createKey(String predictionRule, String subject, String predicate, String object) throws Exception {
@@ -176,13 +196,6 @@ public class EvaluationTriple implements ThresoldConstants {
         }
         return false;
     }
-
-
-    @Override
-    public String toString() {
-        return "EvluationTriple{" + "type=" + type + ", id=" + id + ", predicate=" + predicate + ", object=" + object + ", key=" + key + ", predictionRule=" + predictionRule + '}';
-    }
-
    
     private String modifyObject(String object) {
         object = object.replace("\"", "");
@@ -274,6 +287,19 @@ public class EvaluationTriple implements ThresoldConstants {
         String line1 ="pair=\"2018-06-01\"^^http://www.w3.org/2001/XMLSchema#date";
         line1 = line1.replace("\"", "");
         System.out.println("line1: " + line1);
+    }
+
+    @Override
+    public String toString() {
+        return "EvaluationTriple{" + "type=" + type + ", id=" + id + ", predicate=" + predicate + ", subject=" + subject + ", object=" + object + ", key=" + key + ", predictionRule=" + predictionRule + ", word=" + word + ", LOGGER=" + LOGGER + '}';
+    }
+
+    private String preparePredicate(String string) {
+        if(string.contains(":")){
+            String []info=string.split(":");
+            return info[1];
+        }
+        return string;
     }
 
 

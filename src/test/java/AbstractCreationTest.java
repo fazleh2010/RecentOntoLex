@@ -6,8 +6,6 @@ import citec.correlation.wikipedia.dic.qald.Qald;
 import citec.correlation.wikipedia.element.DbpediaClass;
 import citec.correlation.wikipedia.element.PropertyNotation;
 import citec.correlation.wikipedia.evalution.Comparision;
-import citec.correlation.wikipedia.main.TableMain;
-import static citec.correlation.wikipedia.main.TableMain.makeClassDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.allPoliticianFile;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.input;
@@ -26,6 +24,10 @@ import static citec.correlation.wikipedia.parameters.MenuOptions.WRITE_PATTERNS;
 import citec.correlation.wikipedia.table.Tables;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.HashSet;
 import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
@@ -47,6 +49,25 @@ import java.util.logging.Logger;
  * @author elahi
  */
 public class AbstractCreationTest {
+
+    public static Boolean makeClassDir(String director) {
+        try {
+            Path path = Paths.get(director);
+            Files.createDirectories(path);
+            path = Paths.get(director + "rawFiles/");
+            Files.createDirectories(path);
+            path = Paths.get(director + "tables/" + "result/");
+            Files.createDirectories(path);
+            path = Paths.get(director + "tables/" + "selectedWords/");
+            Files.createDirectories(path);
+            return true;
+        } catch (IOException e) {
+            System.err.println("Failed to create directory!" + e.getMessage());
+            return false;
+
+        }
+    }
+
 
     private String dbpediaDir = "src/main/resources/dbpedia/";
     private DbpediaClass dbpediaClass = null;

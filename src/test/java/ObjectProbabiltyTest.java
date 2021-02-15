@@ -7,7 +7,6 @@ import citec.correlation.wikipedia.calculation.WordCalculation;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import citec.correlation.wikipedia.element.PropertyNotation;
 import citec.correlation.wikipedia.evalution.Comparision;
-import citec.correlation.wikipedia.main.TableMain;
 import citec.correlation.wikipedia.parameters.DirectoryLocation;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
@@ -54,11 +53,7 @@ public class ObjectProbabiltyTest implements PropertyNotation, DirectoryLocation
 
    
 
-    //with taking all properties (10823) it takes almost an hour to finish
-    @Ignore
-    public void A_PROPRTY_TABLE_GENERATION_TEST() throws IOException, Exception {
-        TableMain.generateClassPropertyTable(rawFiles, dbo_ClassName, propertyDir);
-    }
+    
     //takes very long. minimum two hours. the properties needs to be filter before running it.
    
    /*public static void main(String [] args) throws IOException, Exception {

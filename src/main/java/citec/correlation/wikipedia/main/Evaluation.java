@@ -118,9 +118,7 @@ public class Evaluation implements ThresoldConstants {
 
                 } else {
                     continue;
-                }
-                
-               
+                } 
               
                 LOGGER.log(Level.CONFIG, "RULE ::" + prediction);
                 LOGGER.log(Level.CONFIG, "INTERESTINGNESS::" + interestingness);
@@ -139,7 +137,7 @@ public class Evaluation implements ThresoldConstants {
                     if (!meanReciprocalsPos.isEmpty()) {
                         expeResult.put(experiment, meanReciprocalsPos);
                     }
-
+                 
                 }
 
                 ruleExpeResult.put(interestingness, expeResult);
@@ -162,9 +160,9 @@ public class Evaluation implements ThresoldConstants {
              String key = getInterestingnessThresold(experiment, interestiness) + "-" + posTag;
              MeanReciprocalCalculation meanReciprocalCalculation=null;
 
-            /*if (!posTag.contains("NN")) {
+            if (!posTag.contains("JJ")) {
                 continue;
-            }*/
+            }
 
             Pair<Boolean, File> pair = getFile(posTag, fileList);
             if (pair.getValue0()) {
@@ -183,7 +181,9 @@ public class Evaluation implements ThresoldConstants {
                 meanReciprocalCalculation = new MeanReciprocalCalculation(experiment, LOGGER);
             }
                     
-             meanReciprocals.put(key, meanReciprocalCalculation);     
+             meanReciprocals.put(key, meanReciprocalCalculation); 
+             
+             
                 /*if (posTag.contains("JJ")) {
                     adjectives.add(meanReciprocalCalculation);
                 }

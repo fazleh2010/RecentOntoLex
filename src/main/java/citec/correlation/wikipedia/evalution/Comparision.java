@@ -121,8 +121,8 @@ public class Comparision implements ThresoldConstants {
     }*/
     
     private void compersionsPattern(String experiment, String type)  {
-        List<Pair<String, Map<String, Double>>> lexicon = new ArrayList<Pair<String, Map<String, Double>>>();
-        List<Pair<String, Map<String, Boolean>>> qald_gold = new ArrayList<Pair<String, Map<String, Boolean>>>();
+        Map<String, Map<String, Double>> lexiconWordKbs = new TreeMap<String, Map<String, Double>>();
+        Map<String, Map<String, Boolean>> goldWordKbs = new TreeMap<String,Map<String, Boolean>>();
         if (csvFile.getRow().keySet().isEmpty()) {
             LOGGER.log(Level.WARNING, "qald file is empty!!::");
             return;
@@ -137,22 +137,31 @@ public class Comparision implements ThresoldConstants {
         } else {
             LOGGER.log(Level.WARNING, "NO linguistic pattern matched between lexicon and qald-9");
         }
+      
+        for (String word : lexiconDic.keySet()) {
+            LexiconUnit lexiconElement = lexiconDic.get(word);
+            Map<String, Double> predict = this.getPredictMap(word, lexiconElement);
+            Map<String, Boolean> goldRelevance = this.getGoldRelevance(word, predict, type);
+            lexiconWordKbs.put(word, predict);
+            goldWordKbs.put(word, goldRelevance); 
+        }
 
-        for (String word : this.csvFile.getRow().keySet()) {
+        /*for (String word : this.csvFile.getRow().keySet()) {
             Map<String, Double> predict =new HashMap<String,Double>();
             if (lexiconDic.containsKey(word)) {
                 LexiconUnit lexiconElement = lexiconDic.get(word);
                 predict = this.getPredictMap(word, lexiconElement);
             }
             Map<String, Boolean> goldRelevance = this.getGoldRelevance(word, predict, type);
+            System.out.println("goldRelevance:"+goldRelevance);
                 Pair<String, Map<String, Double>> predictPair = new Pair<String, Map<String, Double>>(word, predict);
                 Pair<String, Map<String, Boolean>> goldRelevancePair = new Pair<String, Map<String, Boolean>>(word, goldRelevance);
                 lexicon.add(predictPair);
                 qald_gold.add(goldRelevancePair);
 
-        }
+        }*/
 
-        this.meanReciprocalResult = new MeanReciprocalCalculation(experiment, lexicon, qald_gold, LOGGER, commonWords);
+        this.meanReciprocalResult = new MeanReciprocalCalculation(experiment, this.predicationRule,csvFile,lexiconWordKbs, goldWordKbs, LOGGER, commonWords);
         LOGGER.log(Level.INFO, "***** ***** ***** SUMMARY of RESULT ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****");
         LOGGER.log(Level.INFO, "***** RESULT of ANALYSIS of POS TAG::" + this.posTag);
         LOGGER.log(Level.INFO, "***** NUMBER OF PATTERN in LEXICON::" + this.meanReciprocalResult.getTotalPattern());
@@ -263,6 +272,7 @@ public class Comparision implements ThresoldConstants {
                 triple = new EvaluationTriple(LEXICON, this.predicationRule, rank.toString(), tripleString, word, LOGGER);
                 Double value = Double.parseDouble(pairs.get(valueIndex).split("=")[1]);
                 predict.put(triple.getKey(), value);
+                 LOGGER.log(Level.FINEST, "triple.getKey():"+triple.getKey()+" "+pairs.get(valueIndex).split("=")[0]+ " "+value);
             } catch (Exception ex) {
                 Logger.getLogger(Comparision.class.getName()).log(Level.SEVERE, null, ex);
                 LOGGER.log(Level.INFO, "fail to create triple::");

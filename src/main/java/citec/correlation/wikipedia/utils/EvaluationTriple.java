@@ -9,12 +9,16 @@ import citec.correlation.wikipedia.parameters.ThresoldConstants;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.javatuples.Pair;
 /**
  *
  * @author elahi
  */
 public class EvaluationTriple implements ThresoldConstants {
 
+    private static String predicate_object_pair_str = "predicate-object pair::";
+    private static String object_str = "object::";
+    private static String predicate_str = "predicate::";
     private String type = null;
     private String id = null;
     private String predicate = null;
@@ -32,7 +36,7 @@ public class EvaluationTriple implements ThresoldConstants {
         //this.object=this.modifyObject(object);
         this.subject=subject;
         this.predicate=predicate;
-        this.object=object;
+        this.object=this.setObject(object);
         this.LOGGER=LOGGER;
         try {
             this.key=this.createKey(this.predictionRule,this.subject,this.predicate,this.object);
@@ -55,7 +59,7 @@ public class EvaluationTriple implements ThresoldConstants {
         String info[]=tripleString.split(" ");
         this.subject = info[0];
         this.predicate = this.preparePredicate(info[1]);
-        this.object = info[2];
+        this.object = this.setObject(info[2]);
         this.LOGGER = LOGGER;
         try {
             this.key = this.createKey(this.predictionRule, this.subject, this.predicate, this.object);
@@ -83,36 +87,7 @@ public class EvaluationTriple implements ThresoldConstants {
         }
     }
     
-    private void parseKey(String predictionRule, String keyT) throws Exception {
-        if (predictionRule.contains(predict_l_for_s_given_po)) {
-            if (keyT.contains(" ")) {
-                String[] info = keyT.split(" ");
-                this.predicate = info[0];
-                this.object = info[1];
-            } else {
-                throw new Exception("can not parse key, check the KB!!");
-            }
-        } else if (predictionRule.contains(predict_l_for_s_given_o)) {
-            this.object = keyT;
-        } else if (predictionRule.contains(predict_l_for_o_given_s)) {
-            this.subject = keyT;
-        } else if (predictionRule.contains(predict_l_for_o_given_sp)) {
-            if (keyT.contains(" ")) {
-                String[] info = keyT.split(" ");
-                this.subject = info[0];
-                this.predicate = info[1];
-            } else {
-                throw new Exception("can not parse keyy, check the KB!!");
-            }
-        } else if (predictionRule.contains(predict_l_for_o_given_p)) {
-            this.predicate = keyT;
-        } else if (predictionRule.contains(predict_l_for_s_given_p)) {
-            this.predicate = keyT;
-        } else {
-            throw new Exception("can not parse keyy, check the KB!!");
-        }
-
-    }
+  
 
     
     public static boolean match(EvaluationTriple lexiconTriple, EvaluationTriple qaldTriple, String predicationRule) {
@@ -143,7 +118,9 @@ public class EvaluationTriple implements ThresoldConstants {
         }
         return false;
     }
-  
+    
+    
+   
 
     public String getPredicate() {
         return predicate;
@@ -231,49 +208,150 @@ public class EvaluationTriple implements ThresoldConstants {
             return key;
     }
     
-    
-    public static String getString(List<String> ranking,Integer rank) {
-        String str = "\n";
-        Integer index = 1;
-        
-        String line = null;
-        for (String key : ranking) {
-            if (key.contains(" ")) {
-                String[] info = key.split(" ");
-                String predicate = info[0];
-                String object = info[1];
-                line = index.toString() + " predicate-object pair: " + predicate + " " + object + "\n";
-            } else {
-                line = index.toString() + " object : " + key + "\n";
-            }
+      private void parseKey(String predictionRule, String keyT) throws Exception {
+        if (predictionRule.equals(predict_l_for_s_given_po)) {
+            if (keyT.contains(" ")) {
+                String[] info = keyT.split(" ");
+                if (info.length >= 2) {
+                    this.predicate = info[0];
+                    this.object = info[1];
+                } else if (info.length == 1) {
+                    this.predicate = info[0];
+                    this.object = "";
+                }
 
-            str += line;
-            if(index>rank)
-                break;
-            index = index + 1;
+            } else {
+                throw new Exception("can not parse key, check the KB!!");
+            }
+        } else if (predictionRule.equals(predict_l_for_s_given_o)) {
+            this.object = keyT;
+        } else if (predictionRule.equals(predict_l_for_o_given_s)) {
+            this.subject = keyT;
+        } else if (predictionRule.equals(predict_l_for_o_given_sp)) {
+            if (keyT.contains(" ")) {
+                String[] info = keyT.split(" ");
+                this.subject = info[0];
+                this.predicate = info[1];
+            } else {
+                throw new Exception("can not parse keyy, check the KB!!");
+            }
+        } else if (predictionRule.equals(predict_l_for_o_given_p)) {
+            this.predicate = keyT;
+        } else if (predictionRule.equals(predict_l_for_s_given_p)) {
+            this.predicate = keyT;
+        } else {
+            throw new Exception("can not parse keyy, check the KB!!");
         }
-        return str;
+
+    }
+      
+    public static Pair<String, String> getString(List<String> ranking, String predictionRule, Integer rank) {
+        String str = "\n", type = null;
+        Integer index = 1;
+
+        if (predictionRule.equals(predict_l_for_s_given_po)) {
+            type = predicate_object_pair_str;
+        } else if (predictionRule.equals(predict_l_for_s_given_o)) {
+            type = object_str;
+        } else if (predictionRule.equals(predict_l_for_o_given_p)) {
+            type = predicate_str;
+        }
+
+        for (String key : ranking) {
+            String line = null;
+            if (predictionRule.equals(predict_l_for_s_given_po)) {
+                String predicate = null, object = null;
+                String[] info = key.split(" ");
+                if (info.length >= 2) {
+                    predicate = info[0];
+                    object = info[1];
+                    line = index.toString() + " " + predicate + " " + object + "\n";
+                } else if (info.length == 1) {
+                    predicate = info[0];
+                    object = "";
+                    line = index.toString() + " " + predicate + " " + object + "\n";
+                }
+            } else if (predictionRule.equals(predict_l_for_s_given_o)) {
+                line = index.toString() + " " + key + "\n";
+            } else if (predictionRule.equals(predict_l_for_o_given_p)) {
+                line = index.toString() + " " + key + "\n";
+            }
+            str += line;
+            if (index > rank) {
+                break;
+            }
+            index = index + 1;
+
+        }
+
+        str = str.substring(0, str.length() - 1);
+        return new Pair<String, String>(type, str);
     }
     
-     public static String getString(List<String> ranking) {
+    public static Pair<String, String> getString(List<String> ranking, String predictionRule) {
         String str = "\n";
         Integer index = 1;
+        String type = null;
+
+        if (predictionRule.contains(predict_l_for_s_given_po)) {
+            type = predicate_object_pair_str;
+        } else if (predictionRule.contains(predict_l_for_s_given_o)) {
+            type = object_str;
+        } else if (predictionRule.contains(predict_l_for_o_given_p)) {
+            type = predicate_str;
+        }
         
-        String line = null;
         for (String key : ranking) {
-            if (key.contains(" ")) {
+            String line = null;
+            if (predictionRule.contains(predict_l_for_s_given_po)) {
+                String predicate = null, object = null;
                 String[] info = key.split(" ");
-                String predicate = info[0];
-                String object = info[1];
-                line = index.toString() + " predicate-object pair: " + predicate + " " + object + "\n";
-            } else {
-                line = index.toString() + " object : " + key + "\n";
+                if (info.length >= 2) {
+                    predicate = info[0];
+                    object = info[1];
+                    line = index.toString() + " " + predicate + " " + object + "\n";
+                } else if (info.length == 1) {
+                    predicate = info[0];
+                    object = "";
+                    line = index.toString() + " " + predicate + " " + object + "\n";
+                }
+            } else if (predictionRule.contains(predict_l_for_s_given_o)) {
+                line = index.toString() + " " + key + "\n";
+            } else if (predictionRule.contains(predict_l_for_o_given_p)) {
+                line = index.toString() + " " + key + "\n";
             }
 
             str += line;
             index = index + 1;
         }
-        return str;
+        str = str.substring(0, str.length() - 1);
+        return new Pair<String, String>(type, str);
+    }
+    
+    public static Pair<String, String> getString(String[] coulmns, String predictionRule) {
+        String str = "", type = null;
+        for (String kbLine : coulmns) {
+            String line = kbLine + " ";
+            str += line;
+        }
+        
+        if (predictionRule.contains(predict_l_for_s_given_po)) {
+            type = predicate_object_pair_str;
+        } else if (predictionRule.contains(predict_l_for_s_given_o)) {
+            type = object_str;
+        } else if (predictionRule.contains(predict_l_for_o_given_p)) {
+            type = predicate_str;
+        }
+
+        if (predictionRule.contains(predict_l_for_s_given_po)) {
+            str = coulmns[2] + " " + coulmns[3];
+        } else if (predictionRule.contains(predict_l_for_s_given_o)) {
+            str = coulmns[3];
+        } else if (predictionRule.contains(predict_l_for_o_given_p)) {
+            str = coulmns[2];
+        }
+
+        return new Pair<String, String>(type, str);
     }
 
     public String getSubject() {
@@ -300,6 +378,14 @@ public class EvaluationTriple implements ThresoldConstants {
             return info[1];
         }
         return string;
+    }
+
+    private String setObject(String object) {
+        if (object.contains("@")) {
+            String[] info = object.split("@");
+            object = info[0];
+        }
+        return object;
     }
 
 

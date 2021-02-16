@@ -18,9 +18,9 @@ public class ReciprocalResult {
     @JsonProperty("Predicate")
     private List<String> predicates=new ArrayList<String>();
     @JsonProperty("Rank")
-    private Integer rank;
+    private Integer rank=0;
     @JsonProperty("ReciprocalRank")
-    private Double reciprocalRank = null;
+    private Double reciprocalRank = 0.0;
 
     public ReciprocalResult() {
 

@@ -8,6 +8,12 @@ package citec.correlation.wikipedia.dic.lexicon;
 import citec.correlation.wikipedia.analyzer.Analyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
+import static citec.correlation.wikipedia.parameters.ThresoldConstants.predict_l_for_o_given_p;
+import static citec.correlation.wikipedia.parameters.ThresoldConstants.predict_l_for_o_given_s;
+import static citec.correlation.wikipedia.parameters.ThresoldConstants.predict_l_for_o_given_sp;
+import static citec.correlation.wikipedia.parameters.ThresoldConstants.predict_l_for_s_given_o;
+import static citec.correlation.wikipedia.parameters.ThresoldConstants.predict_l_for_s_given_p;
+import static citec.correlation.wikipedia.parameters.ThresoldConstants.predict_l_for_s_given_po;
 import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
@@ -40,7 +46,7 @@ public class Lexicon {
         this.lexiconDirectory = outputDir;
     }
     
-    public void preparePropertyLexicon(String directory,String key,String associationType, Map<String, List<LineInfo>> lineLexicon) throws IOException {
+    public void preparePropertyLexicon(String predictionRule,String directory,String key,String associationType, Map<String, List<LineInfo>> lineLexicon) throws IOException, Exception {
         Map<String, List<LexiconUnit>> posTaggedLex = new TreeMap<String, List<LexiconUnit>>();
         Integer count=0,countJJ=0,countVB=0;
         for (String word : lineLexicon.keySet()) {
@@ -75,7 +81,8 @@ public class Lexicon {
                 //System.out.println("pair="+lineInfo.getObject());
                 //System.out.println("associationType:"+associationType+" "+value);
                 //pairs.add("pair=" + lineInfo.getPredicate() + "_" + lineInfo.getObject());
-                pairs.add("pair=" + object);
+                String kb=this.getPair(lineInfo,predictionRule);
+                pairs.add("kb=" +kb);
                 pairs.add(associationType + "=" + value);
                 pairs.add("triple" + "=" + lineInfo.getSubject()+" "+lineInfo.getPredicate()+" "+lineInfo.getObject());
                 pairs.add("class" + "=" + lineInfo.getClassName());
@@ -279,5 +286,25 @@ public class Lexicon {
     public String toString() {
         return "Lexicon{" + "lexiconDirectory=" + lexiconDirectory + ", lexiconPosTaggged=" + lexiconPosTaggged + '}';
     }
+
+    private String getPair(LineInfo lineInfo, String predictionRule) throws Exception {
+        if (predictionRule.contains(predict_l_for_s_given_po)) {
+            return lineInfo.getPredicate() + " " + lineInfo.getObject();
+        } else if (predictionRule.contains(predict_l_for_s_given_o)) {
+            return lineInfo.getObject();
+        } else if (predictionRule.contains(predict_l_for_o_given_s)) {
+            return lineInfo.getSubject();
+        } else if (predictionRule.contains(predict_l_for_o_given_sp)) {
+            return  lineInfo.getSubject() + " " +  lineInfo.getPredicate();
+        } else if (predictionRule.contains(predict_l_for_o_given_p)) {
+            return lineInfo.getPredicate();
+        } else if (predictionRule.contains(predict_l_for_s_given_p)) {
+            return lineInfo.getPredicate();
+        } else {
+            throw new Exception("can not create key, check the KB!!");
+        }
+    }
+
+  
 
 }

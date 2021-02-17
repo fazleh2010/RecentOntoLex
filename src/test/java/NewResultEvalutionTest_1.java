@@ -254,7 +254,7 @@ public class NewResultEvalutionTest_1 implements ThresoldConstants {
             }
         }
         lexicon = new Lexicon(qald9Dir);
-        lexicon.preparePropertyLexicon(directory,experimentID, dbo_associationRule, lineLexicon);
+        lexicon.preparePropertyLexicon(null,directory,experimentID, dbo_associationRule, lineLexicon);
        /* System.out.println("-" + experimentID + "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
         System.out.println("JJ:" + lexicon.getLexiconPosTaggged().get(Analyzer.ADJECTIVE).size());
         System.out.println("NN:" + lexicon.getLexiconPosTaggged().get(Analyzer.NOUN).size());

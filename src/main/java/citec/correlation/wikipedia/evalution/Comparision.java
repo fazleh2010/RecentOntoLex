@@ -140,6 +140,7 @@ public class Comparision implements ThresoldConstants {
       
         for (String word : lexiconDic.keySet()) {
             LexiconUnit lexiconElement = lexiconDic.get(word);
+            //LOGGER.log(Level.WARNING, "word: "+word+" "+lexiconDic.get(word));
             Map<String, Double> predict = this.getPredictMap(word, lexiconElement);
             Map<String, Boolean> goldRelevance = this.getGoldRelevance(word, predict, type);
             lexiconWordKbs.put(word, predict);
@@ -162,11 +163,11 @@ public class Comparision implements ThresoldConstants {
         }*/
 
         this.meanReciprocalResult = new MeanReciprocalCalculation(experiment, this.predicationRule,csvFile,lexiconWordKbs, goldWordKbs, LOGGER, commonWords);
-        LOGGER.log(Level.INFO, "***** ***** ***** SUMMARY of RESULT ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****");
-        LOGGER.log(Level.INFO, "***** RESULT of ANALYSIS of POS TAG::" + this.posTag);
-        LOGGER.log(Level.INFO, "***** NUMBER OF PATTERN in LEXICON::" + this.meanReciprocalResult.getTotalPattern());
-        LOGGER.log(Level.INFO, "***** NUMBER OF PATTERN with NONZERO RANK::" + this.meanReciprocalResult.getPatternFound().size());
-        LOGGER.log(Level.INFO, "***** NUMBER OF PATTERN with ZERO RANK::::" + this.meanReciprocalResult.getPatternNotFound().size());
+        //LOGGER.log(Level.INFO, "***** ***** ***** SUMMARY of RESULT ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****");
+        //LOGGER.log(Level.INFO, "***** RESULT of ANALYSIS of POS TAG::" + this.posTag);
+        //LOGGER.log(Level.INFO, "***** NUMBER OF PATTERN in LEXICON::" + this.meanReciprocalResult.getTotalPattern());
+        //LOGGER.log(Level.INFO, "***** NUMBER OF PATTERN with NONZERO RANK::" + this.meanReciprocalResult.getPatternFound().size());
+        //LOGGER.log(Level.INFO, "***** NUMBER OF PATTERN with ZERO RANK::::" + this.meanReciprocalResult.getPatternNotFound().size());
         LOGGER.log(Level.INFO, "MEAN RECIPROCAL::" + this.meanReciprocalResult.getMeanReciprocalRankStr());
         LOGGER.log(Level.INFO, "***** ***** ***** ****** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****");
         
@@ -327,7 +328,7 @@ public class Comparision implements ThresoldConstants {
         }
         //LOGGER.log(Level.INFO, "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@lexiconTriple::" + lexiconTriple);
         List<EvaluationTriple> qaldPredicateObject = new ArrayList<EvaluationTriple>();
-        if (predicationRule.contains(this.predicationRule)) {
+        //if (predicationRule.contains(this.predicationRule)) {
             qaldPredicateObject = csvFile.getRowValues(word, this.predicationRule);
             for (EvaluationTriple qaldTriple : qaldPredicateObject) {
                 //LOGGER.log(Level.INFO, "$$$$$$$$$$$ qaldTriple::" + qaldTriple);
@@ -335,7 +336,7 @@ public class Comparision implements ThresoldConstants {
                     return true;
                 }
             }
-        }
+        //}
         return false;
 
     }

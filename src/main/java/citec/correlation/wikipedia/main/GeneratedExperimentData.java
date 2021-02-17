@@ -41,28 +41,34 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class ProcessFile implements ThresoldConstants {
+public class GeneratedExperimentData implements ThresoldConstants {
 
     private static Logger LOGGER = null;
+    //the files are ready at /opt/rulepatterns/results
+    //bzip2 -d filename.bz2
+    //bzip2 -d *.json.bz2
 
-    public ProcessFile(String baseDir, String qald9Dir, String givenPrediction, String givenInterestingness,Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER) throws Exception {
+
+    public GeneratedExperimentData(String baseDir, String qald9Dir, String givenPrediction, String givenInterestingness,Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER) throws Exception {
         this.setUpLog(givenLOGGER);
 
         for (String prediction : predictLinguisticGivenKB) {
-            String rawFileDir = baseDir + prediction + "/";
             String outputDir = qald9Dir + "/" + prediction + "/" + "dic";
             if (!prediction.equals(givenPrediction)) {
                 continue;
             }
             for (String rule : interestingness) {
+                String rawFileDir = baseDir + prediction + "/"+rule+"/";
                 if (!rule.contains(givenInterestingness)) {
                     continue;
                 }
-                Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(rawFileDir, rule, ".json");
+                Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(rawFileDir,".json");
                 if (pair.getValue0()) {
                     //NewResultsMR newResultsMR = readFromJsonFile(pair.getValue1());
                     createEvalutionFiles(outputDir, prediction, rule, pair.getValue1(), associationRulesExperiment);
                 }
+                else
+                    throw new Exception("NO files found for "+prediction+" "+rule);
             }
         }
     }
@@ -77,8 +83,8 @@ public class ProcessFile implements ThresoldConstants {
             ThresoldsExperiment.ThresoldELement element = thresoldsExperiment.getThresoldELements().get(experiment);
             String experimentID = index + "-" + experiment;
             lexicon = createLexicon(outputDir, prediction, associationRule, files, element, experimentID);
-            LOGGER.log(Level.INFO, outputDir + " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
-            System.out.println( outputDir + " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
+            LOGGER.log(Level.INFO, " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
+            //System.out.println( outputDir + " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
         }
     }
 
@@ -116,9 +122,11 @@ public class ProcessFile implements ThresoldConstants {
                 }
                 //System.out.println("lineInfo.getnGramNumber():" + lineInfo.getnGramNumber());
                 //System.out.println("thresoldELement.getN_gram():" + thresoldELement.getN_gram());
-                if (lineInfo.getnGramNumber() != thresoldELement.getN_gram()) {
+                /*if (lineInfo.getnGramNumber() != thresoldELement.getN_gram()) {
                     continue;
-                }
+                }*/
+                 LOGGER.log(Level.INFO, " lineInfo" + lineInfo.getnGramNumber() );
+
                 String word = lineInfo.getWord();
                 //System.out.println("@@@@@@@:" + lineInfo.getnGramNumber()+"@@@@@@@@@");
                 //System.out.println("word:" + word);
@@ -148,7 +156,7 @@ public class ProcessFile implements ThresoldConstants {
         }
 
         lexicon = new Lexicon(qald9Dir);
-        lexicon.preparePropertyLexicon(directory, experimentID, interestingness, lineLexicon);
+        lexicon.preparePropertyLexicon(dbo_prediction,directory, experimentID, interestingness, lineLexicon);
         return lexicon;
     }
     
@@ -190,90 +198,7 @@ public class ProcessFile implements ThresoldConstants {
         }
     }
 
-    public static void main(String[] args) throws Exception {
-        String rawFileDir = null;
-        String directory = qald9Dir + OBJECT + "/";
-        //rawFileDir = dbpediaDir + "results/" + "new/MR/";
-        String baseDir = "/home/elahi/dbpediaFiles/unlimited/unlimited/";
-        Logger LOGGER = Logger.getLogger(ProcessFile.class.getName());
-        String  prediction = null;
-        prediction = predict_l_for_s_given_po;
-        prediction = predict_l_for_s_given_o;
-        prediction = predict_l_for_o_given_s;
-        prediction = predict_l_for_o_given_sp;
-        prediction = predict_l_for_o_given_p;
-        
-        //predict_l_for_s_given_po
-        prediction = predict_l_for_s_given_p;
-
-        String outputDir = qald9Dir;
-        Map<String, ThresoldsExperiment> associationRulesExperiment = Evaluation.createExperiments();
-
-        //for(String associationRule:interestingness){
-        
-          List<String> predictLinguisticGivenKB = new ArrayList<String>(Arrays.asList(
-            predict_l_for_s_given_p
-            //predict_l_for_s_given_po
-             //predict_l_for_s_given_o
-            //predict_l_for_o_given_p,
-            //predict_l_for_o_given_s,
-            //predict_l_for_o_given_sp
-            ));
-          List<String> rulesT= new ArrayList<String>(); 
-          rulesT.add(ThresoldConstants.MaxConf);
-          rulesT.add(ThresoldConstants.Kulczynski);
-           rulesT.add(ThresoldConstants.IR);
-        
-        for (String predictionT : predictLinguisticGivenKB) {
-            for(String rule:rulesT){
-                   System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@ " + predictionT + " @@@@@@@@@@@@@@@@@@@@@@@@@@@");
-            ProcessFile ProcessFile = new ProcessFile(baseDir, outputDir, predictionT, rule, associationRulesExperiment, LOGGER);
-         
-            }
-        }
-        
-        
-                 List<String> predictLinguisticGivenKBL = new ArrayList<String>(Arrays.asList(
-                //predict_l_for_s_given_p
-                predict_l_for_s_given_po,
-                predict_l_for_s_given_o
-        //predict_l_for_o_given_p,
-        //predict_l_for_o_given_s,
-        //predict_l_for_o_given_sp
-        ));
-        List<String> rulesTL = new ArrayList<String>();
-        rulesT.add(ThresoldConstants.Kulczynski);
-        rulesT.add(ThresoldConstants.IR);
-
-        for (String predictionT : predictLinguisticGivenKBL) {
-            for (String rule : rulesTL) {
-                System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@@@ " + predictionT + " @@@@@@@@@@@@@@@@@@@@@@@@@@@");
-                ProcessFile ProcessFile = new ProcessFile(baseDir, outputDir, predictionT, rule, associationRulesExperiment, LOGGER);
-
-            }
-        }
-
-        //}
-
-        /*for (String prediction : predictionLinguisticRules) {
-            rawFileDir = baseDir + prediction + "/";
-            if (!prediction.contains(predict_l_for_s_given_po)) {
-                continue;
-            }
-            for (String rule : interestingness) {
-                if (!rule.contains(Coherence)) {
-                    continue;
-                }
-                rawFileDir = baseDir + prediction + "/";
-                Pair<Boolean, List<File>> pair = FileFolderUtils.getSpecificFiles(rawFileDir, rule, ".json");
-                if (pair.getValue0()) {
-                    NewResultsMR NewResultsMR = readFromJsonFile(pair.getValue1());
-                }
-
-            }
-
-        }*/
-    }
+   
     
     public static boolean isKBValid(String word) {
 
@@ -322,4 +247,32 @@ public class ProcessFile implements ThresoldConstants {
         //System.out.println(description+" "+local.size());
         return new NewResultsMR(description, classDistributions);
     }*/
+    
+    public static void main(String[] args) throws Exception {
+        String rawFileDir = null;
+        String directory = qald9Dir + OBJECT + "/";
+        //rawFileDir = dbpediaDir + "results/" + "new/MR/";
+        String baseDir = "/home/elahi/dbpediaFiles/unlimited/unlimited/";
+        Logger LOGGER = Logger.getLogger(GeneratedExperimentData.class.getName());
+        String outputDir = qald9Dir;
+        Map<String, ThresoldsExperiment> associationRulesExperiment = Evaluation.createExperiments();
+
+        List<String> predictLinguisticGivenKB = new ArrayList<String>(Arrays.asList(
+                predict_l_for_s_given_po
+        //predict_l_for_s_given_po
+        //predict_l_for_s_given_o
+        //predict_l_for_o_given_p,
+        //predict_l_for_o_given_s,
+        //predict_l_for_o_given_sp
+        ));
+        List<String> interestingness = new ArrayList<String>();
+        interestingness.add(ThresoldConstants.Cosine);
+
+        for (String prediction : predictLinguisticGivenKB) {
+            for (String rule : interestingness) {
+                GeneratedExperimentData ProcessFile = new GeneratedExperimentData(baseDir, outputDir, prediction, rule, associationRulesExperiment, LOGGER);
+
+            }
+        }
+    }
 }

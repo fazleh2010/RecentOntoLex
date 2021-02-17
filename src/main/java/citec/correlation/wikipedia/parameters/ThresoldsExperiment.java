@@ -50,20 +50,36 @@ public class ThresoldsExperiment implements ThresoldConstants {
     public static List<Integer> numberOfRules = Arrays.asList(4000, 8000);*/
     
     
-    private List<Double> supAList = Arrays.asList(10.0, 200.0);
-    private List<Double> supBList = Arrays.asList(20.0, 100.0);
-    private List<Double> confABList = Arrays.asList(0.1, 0.8);
-    private List<Double> confBAList = Arrays.asList(0.001, 0.8);
+    private List<Double> supAList = Arrays.asList(10.0);
+    private List<Double> supBList = Arrays.asList(10.0);
+    private List<Double> confABList = Arrays.asList(0.001, 0.05,0.1);
+    private List<Double> confBAList = Arrays.asList(0.001, 0.05,0.1);
 
-    public List<Double> CosineList = Arrays.asList(0.001, 0.045);
-    public List<Double> AllConfList = Arrays.asList(0.001, 0.045);
-    public List<Double> MaxConfList = Arrays.asList(0.001, 0.045);
-    public List<Double> IrList = Arrays.asList(0.001, 0.045);
-    public List<Double> KulczynskiList = Arrays.asList(0.001, 0.045);
-    public List<Double> CoherenceList = Arrays.asList(0.001, 0.045);
+    public List<Double> CosineList = Arrays.asList(0.5);
+    public List<Double> AllConfList = Arrays.asList(0.5);
+    public List<Double> MaxConfList = Arrays.asList(0.5);
+    public List<Double> IrList = Arrays.asList(0.5);
+    public List<Double> KulczynskiList = Arrays.asList(0.5);
+    public List<Double> CoherenceList = Arrays.asList(0.5);
     public Map<String, List<Double>> interestingness = new TreeMap<String, List<Double>>();
-    public static List<Integer> numberOfRules = Arrays.asList(1000,4000, 8000);
-    public static List<Integer> nGram = Arrays.asList(1);
+    public static List<Integer> numberOfRules = Arrays.asList(10000);
+    public static List<Integer> nGram = Arrays.asList(2);
+
+    
+    /*private List<Double> supAList = Arrays.asList(10.0, 100.0,500.0);
+    private List<Double> supBList = Arrays.asList(10.0, 100.0,500.0);
+    private List<Double> confABList = Arrays.asList(0.001, 0.05,0.1);
+    private List<Double> confBAList = Arrays.asList(0.001, 0.05,0.1);
+
+    public List<Double> CosineList = Arrays.asList(0.001, 0.045,0.1,0.5);
+    public List<Double> AllConfList = Arrays.asList(0.001, 0.045,0.1,0.5);
+    public List<Double> MaxConfList = Arrays.asList(0.001, 0.045,0.1,0.5);
+    public List<Double> IrList = Arrays.asList(0.001, 0.045,0.1,0.5);
+    public List<Double> KulczynskiList = Arrays.asList(0.001, 0.045,0.1,0.5);
+    public List<Double> CoherenceList = Arrays.asList(0.001, 0.045,0.1,0.5);
+    public Map<String, List<Double>> interestingness = new TreeMap<String, List<Double>>();
+    public static List<Integer> numberOfRules = Arrays.asList(1000,4000, 8000,10000);
+    public static List<Integer> nGram = Arrays.asList(1,2,3,4);*/
 
 
     private LinkedHashMap<String, ThresoldELement> thresoldELements = new LinkedHashMap<String, ThresoldELement>();
@@ -101,7 +117,7 @@ public class ThresoldsExperiment implements ThresoldConstants {
 
     public ThresoldsExperiment(String associationRule) {
         Integer index = 0;
-        for ( Integer n_gram:nGram) {
+        //for ( Integer n_gram:nGram) {
             for (Integer numberOfRule : numberOfRules) {
                 for (Double supA : supAList) {
                     for (Double supB : supBList) {
@@ -109,7 +125,7 @@ public class ThresoldsExperiment implements ThresoldConstants {
                             for (Double confBA : confBAList) {
                                 for (Double probabiltyValue : this.getInterestingList(associationRule)) {
                                     index = index + 1;
-                                    ThresoldELement thresoldELement = new ThresoldELement(supA, supB, confAB, confBA, associationRule, probabiltyValue, numberOfRule,n_gram);
+                                    ThresoldELement thresoldELement = new ThresoldELement(supA, supB, confAB, confBA, associationRule, probabiltyValue, numberOfRule);
                                     //String line=associationRule+index.toString()+"-"+ thresoldELement;
                                     String line = associationRule + "-" + thresoldELement;
                                     thresoldELements.put(line, thresoldELement);
@@ -119,7 +135,7 @@ public class ThresoldsExperiment implements ThresoldConstants {
                     }
                 }
             }
-        }
+        //}
 
     }
 
@@ -171,6 +187,15 @@ public class ThresoldsExperiment implements ThresoldConstants {
             this.rules = numberOfRules;
             this.n_gram=n_gram;
         }
+         public ThresoldELement(Double supA, Double supB, Double confAB, Double confBA, String type, Double probabiltyValue, Integer numberOfRules) {
+            this.givenThresolds.put(ThresoldConstants.supA, supA);
+            this.givenThresolds.put(ThresoldConstants.supB, supB);
+            this.givenThresolds.put(ThresoldConstants.condAB, confAB);
+            this.givenThresolds.put(ThresoldConstants.condBA, confBA);
+            this.type = type;
+            this.givenThresolds.put(type, probabiltyValue);
+            this.rules = numberOfRules;
+        }
 
         public Integer getNumberOfRules() {
             return rules;
@@ -186,8 +211,15 @@ public class ThresoldsExperiment implements ThresoldConstants {
 
         @Override
         public String toString() {
-            return nGram + "_" + this.n_gram + "-"
-                    + numRule + "_" + rules + "-"
+            String n_gramString=null;
+            if(this.n_gram==0)
+                n_gramString="1-4";
+            else
+                n_gramString=this.n_gram.toString();
+            
+            //nGram + "_" + n_gramString + "-"
+            
+            return  numRule + "_" + rules + "-"
                     + supA + "_" + givenThresolds.get(supA) + "-"
                     + supB + "_" + givenThresolds.get(supB) + "-"
                     + condAB + "_" + givenThresolds.get(condAB) + "-"

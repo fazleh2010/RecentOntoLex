@@ -112,9 +112,9 @@ public class Evaluation implements ThresoldConstants {
             Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult = new TreeMap<String, Map<String, Map<String, MeanReciprocalCalculation>>>();
             for (String interestingness : allThresoldInterestingness.keySet()) {
 
-                if (interestingness.contains(ThresoldConstants.Coherence)
-                        || interestingness.contains(ThresoldConstants.AllConf)
-                        || interestingness.contains(ThresoldConstants.MaxConf)) {
+                if (interestingness.contains(ThresoldConstants.Coherence))
+                        /*|| interestingness.contains(ThresoldConstants.AllConf)
+                        || interestingness.contains(ThresoldConstants.MaxConf))*/ {
 
                 } else {
                     continue;
@@ -137,7 +137,7 @@ public class Evaluation implements ThresoldConstants {
                     if (!meanReciprocalsPos.isEmpty()) {
                         expeResult.put(experiment, meanReciprocalsPos);
                     }
-                 
+                 break;
                 }
 
                 ruleExpeResult.put(interestingness, expeResult);
@@ -160,7 +160,7 @@ public class Evaluation implements ThresoldConstants {
              String key = getInterestingnessThresold(experiment, interestiness) + "-" + posTag;
              MeanReciprocalCalculation meanReciprocalCalculation=null;
 
-            if (!posTag.contains("JJ")) {
+            if (!posTag.contains("NN")) {
                 continue;
             }
 
@@ -301,8 +301,8 @@ public class Evaluation implements ThresoldConstants {
         Evaluation evaluationMainTest = new Evaluation();
 
         List<String> predictions = new ArrayList<String>();
-        predictions.add(predict_l_for_s_given_po);
-         //predictions.add(predict_l_for_o_given_p);
+        //predictions.add(predict_l_for_s_given_po);
+         predictions.add(predict_l_for_s_given_p);
 
         for (String prediction : predictions) {
             // prediction=predict_l_for_s_given_po;

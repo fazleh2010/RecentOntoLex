@@ -178,6 +178,26 @@ public class FileFolderUtils implements TextAnalyzer{
         return new Pair<Boolean, List<File>>(Boolean.TRUE, selectedFiles);
     }
     
+     public static Pair<Boolean, List<File>> getSpecificFiles(String fileDir,  String extension) {
+        List<File> selectedFiles = new ArrayList<File>();
+        Pair<Boolean, List<File>> pair = new Pair<Boolean, List<File>>(Boolean.FALSE, new ArrayList<File>());
+        try {
+            String[] files = new File(fileDir).list();
+            for (String fileName : files) {
+                if (fileName.contains(extension)) {
+                    selectedFiles.add(new File(fileDir + fileName));
+                }
+            }
+
+        } catch (Exception exp) {
+            System.out.println("file not found!!");
+            return new Pair<Boolean, List<File>>(Boolean.FALSE, new ArrayList<File>());
+        }
+
+        return new Pair<Boolean, List<File>>(Boolean.TRUE, selectedFiles);
+    }
+    
+    
      public static Pair<Boolean, List<File>> getSpecificFiles(String fileDir, String interestingness, String experiment, String extension) {
         List<File> selectedFiles = new ArrayList<File>();
         Pair<Boolean, List<File>> pair = new Pair<Boolean, List<File>>(Boolean.FALSE, new ArrayList<File>());

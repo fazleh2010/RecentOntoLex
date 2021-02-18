@@ -305,9 +305,12 @@ public class Evaluation implements ThresoldConstants {
         String directory = qald9Dir + OBJECT + "/";
         String inputDir = dbpediaDir + "results/" + "new/MR/";
         Evaluation evaluationMainTest = new Evaluation();
+        
+        
 
         List<String> predictions = new ArrayList<String>();
-        predictions.add(predict_l_for_s_given_po);
+        //predictions.add(predict_l_for_s_given_po);
+        predictions.add(ThresoldConstants.predict_l_for_s_given_o);
          //predictions.add(ThresoldConstants.predict_l_for_o_given_p);
 
         for (String prediction : predictions) {
@@ -326,7 +329,7 @@ public class Evaluation implements ThresoldConstants {
             }*/
            
             allThresoldInterestingness = createExperiments();
-            calculateMeanReciprocal(prediction, ThresoldConstants.Kulczynski, dic, meanR); 
+            calculateMeanReciprocal(prediction, ThresoldConstants.MaxConf, dic, meanR); 
            
                 /*for (String key : ThresoldConstants.interestingness) {
                     if(key.contains(ThresoldConstants.)){

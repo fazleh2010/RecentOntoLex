@@ -1,0 +1,12 @@
+[ {
+  "id" : 2,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Hardcover", "MaxConf=1.0", "triple=e dbo:mediaType Hardcover", "class=Book" ],
+    "1" : [ "pair=United States@en", "MaxConf=1.0", "triple=e dbp:country United States@en", "class=Book" ],
+    "2" : [ "pair=Print@en", "MaxConf=1.0", "triple=e dbp:mediaType Print@en", "class=Book" ],
+    "3" : [ "pair=First edition@en", "MaxConf=1.0", "triple=e dbp:caption First edition@en", "class=Book" ],
+    "4" : [ "pair=English@en", "MaxConf=1.0", "triple=e dbp:language English@en", "class=Book" ]
+  }
+} ]

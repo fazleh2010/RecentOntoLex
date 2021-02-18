@@ -1,6 +1,7 @@
 package citec.correlation.wikipedia.main;
 
 import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.Lemmatizer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.GOLD;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
 import citec.correlation.wikipedia.analyzer.logging.LogFilter;
@@ -14,9 +15,9 @@ import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.resourceDir;
-import citec.correlation.wikipedia.parameters.ThresoldConstants;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.interestingness;
-import citec.correlation.wikipedia.parameters.ThresoldsExperiment;
+import citec.correlation.wikipedia.experiments.ThresoldConstants;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.interestingness;
+import citec.correlation.wikipedia.experiments.ThresoldsExperiment;
 import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.results.NewResultsHR;
 import citec.correlation.wikipedia.results.Discription;
@@ -71,6 +72,7 @@ public class Evaluation implements ThresoldConstants {
     private static Map<String, ThresoldsExperiment> allThresoldInterestingness = new TreeMap<String, ThresoldsExperiment>();
 
     private static Logger LOGGER = Logger.getLogger(Evaluation.class.getName());
+    private static Lemmatizer lemmatizer=new Lemmatizer();
 
     public Evaluation() {
         classNames = getClassNames(inputDir);
@@ -99,7 +101,7 @@ public class Evaluation implements ThresoldConstants {
         }
     }
 
-    public static void calculateMeanReciprocal(String givenPrediction, String directory, String outputDir) throws IOException, Exception {
+    public static void calculateMeanReciprocal(String givenPrediction, String givenInterestingness,String directory, String outputDir) throws IOException, Exception {
         Handler fileHandler = new FileHandler(outputDir + givenPrediction + "-" + "logger.log");
         fileHandler.setFormatter(new LogFormatter());
         fileHandler.setFilter(new LogFilter());
@@ -112,13 +114,17 @@ public class Evaluation implements ThresoldConstants {
             Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult = new TreeMap<String, Map<String, Map<String, MeanReciprocalCalculation>>>();
             for (String interestingness : allThresoldInterestingness.keySet()) {
 
-                if (interestingness.contains(ThresoldConstants.Coherence))
-                        /*|| interestingness.contains(ThresoldConstants.AllConf)
-                        || interestingness.contains(ThresoldConstants.MaxConf))*/ {
+                if (!interestingness.contains(givenInterestingness)) {
+                    continue;
+                }
+            
+                /*if (interestingness.contains(ThresoldConstants.Coherence))
+                        || interestingness.contains(ThresoldConstants.AllConf)
+                        || interestingness.contains(ThresoldConstants.MaxConf)){
 
                 } else {
                     continue;
-                } 
+                } */
               
                 LOGGER.log(Level.CONFIG, "RULE ::" + prediction);
                 LOGGER.log(Level.CONFIG, "INTERESTINGNESS::" + interestingness);
@@ -137,7 +143,7 @@ public class Evaluation implements ThresoldConstants {
                     if (!meanReciprocalsPos.isEmpty()) {
                         expeResult.put(experiment, meanReciprocalsPos);
                     }
-                 break;
+                
                 }
 
                 ruleExpeResult.put(interestingness, expeResult);
@@ -175,7 +181,7 @@ public class Evaluation implements ThresoldConstants {
                 LOGGER.log(Level.INFO, "parts-of-speech:: " + posTag);
                 LOGGER.log(Level.INFO, posTag + " File that contains all patterns within this thresholds:" + conditionalFile.getName());
                 LOGGER.log(Level.INFO, "qald-9 file taken for evalution:" + csvFile.getFilename());
-                Comparision comparision = new Comparision(predictionRule, csvFile, conditionalFile, posTag, LOGGER, experiment, OBJECT);
+                Comparision comparision = new Comparision(lemmatizer,predictionRule, csvFile, conditionalFile, posTag, LOGGER, experiment, OBJECT);
                 meanReciprocalCalculation = comparision.getMeanReciprocalResult();
             } else {
                 meanReciprocalCalculation = new MeanReciprocalCalculation(experiment, LOGGER);
@@ -241,7 +247,7 @@ public class Evaluation implements ThresoldConstants {
 
     }
 
-    static Map<String, ThresoldsExperiment> createExperiments() throws Exception {
+   public static Map<String, ThresoldsExperiment> createExperiments() throws Exception {
         Map<String, ThresoldsExperiment> associationRulesExperiment = new TreeMap<String, ThresoldsExperiment>();
         for (String associationRule : interestingness) {
             ThresoldsExperiment thresold = new ThresoldsExperiment(associationRule);
@@ -301,8 +307,8 @@ public class Evaluation implements ThresoldConstants {
         Evaluation evaluationMainTest = new Evaluation();
 
         List<String> predictions = new ArrayList<String>();
-        //predictions.add(predict_l_for_s_given_po);
-         predictions.add(predict_l_for_s_given_p);
+        predictions.add(predict_l_for_s_given_po);
+         //predictions.add(ThresoldConstants.predict_l_for_o_given_p);
 
         for (String prediction : predictions) {
             // prediction=predict_l_for_s_given_po;
@@ -320,8 +326,12 @@ public class Evaluation implements ThresoldConstants {
             }*/
            
             allThresoldInterestingness = createExperiments();
-            calculateMeanReciprocal(prediction, dic, meanR);
-        }
+           
+                //for (String key : ThresoldConstants.interestingness) {
+                    calculateMeanReciprocal(prediction, ThresoldConstants.Coherence, dic, meanR);
+                //}
+            
+         }
 
     }
 }

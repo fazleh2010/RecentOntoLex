@@ -6,6 +6,7 @@
 package citec.correlation.wikipedia.main;
 
 import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.Lemmatizer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
 import citec.correlation.wikipedia.analyzer.logging.LogFilter;
 import citec.correlation.wikipedia.analyzer.logging.LogFormatter;
@@ -13,8 +14,8 @@ import citec.correlation.wikipedia.analyzer.logging.LogHandler;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.resourceDir;
-import citec.correlation.wikipedia.parameters.ThresoldConstants;
-import citec.correlation.wikipedia.parameters.ThresoldsExperiment;
+import citec.correlation.wikipedia.experiments.ThresoldConstants;
+import citec.correlation.wikipedia.experiments.ThresoldsExperiment;
 import citec.correlation.wikipedia.results.Discription;
 import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.results.NewResultsMR;
@@ -44,12 +45,14 @@ import org.javatuples.Pair;
 public class GeneratedExperimentData implements ThresoldConstants {
 
     private static Logger LOGGER = null;
+     private  static Lemmatizer lemmatizer=null;
     //the files are ready at /opt/rulepatterns/results
     //bzip2 -d filename.bz2
     //bzip2 -d *.json.bz2
 
 
-    public GeneratedExperimentData(String baseDir, String qald9Dir, String givenPrediction, String givenInterestingness,Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER) throws Exception {
+    public GeneratedExperimentData(Lemmatizer lemmatizer,String baseDir, String qald9Dir, String givenPrediction, String givenInterestingness,Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER) throws Exception {
+        this.lemmatizer=lemmatizer;
         this.setUpLog(givenLOGGER);
 
         for (String prediction : predictLinguisticGivenKB) {
@@ -102,12 +105,15 @@ public class GeneratedExperimentData implements ThresoldConstants {
             String[] parameters = findParameter(info);
             String key = parameters[0] + "-" + parameters[1] + "-" + parameters[2];
             //System.out.println("now processing class:::::" + file.getName());
+             //LOGGER.log(Level.INFO, "now processing class:::::" + file.getName() );
             ObjectMapper mapper = new ObjectMapper();
             mapper.configure(JsonParser.Feature.ALLOW_UNQUOTED_CONTROL_CHARS, true);
             NewResultsMR resultTemp = mapper.readValue(file, NewResultsMR.class);
             Discription description = resultTemp.getDescription();
             List<Rule> rules = resultTemp.getDistributions();
+            //LOGGER.log(Level.INFO, " rules.size()" + rules.size() );
             for (Rule line : rules) {
+              // LOGGER.log(Level.INFO, " line" + line );
                 index = index + 1;
                 if (index >= numberOfRules) {
                     break;
@@ -125,7 +131,7 @@ public class GeneratedExperimentData implements ThresoldConstants {
                 /*if (lineInfo.getnGramNumber() != thresoldELement.getN_gram()) {
                     continue;
                 }*/
-                 LOGGER.log(Level.INFO, " lineInfo" + lineInfo.getnGramNumber() );
+                //LOGGER.log(Level.INFO, " lineInfo" + lineInfo.getnGramNumber() );
 
                 String word = lineInfo.getWord();
                 //System.out.println("@@@@@@@:" + lineInfo.getnGramNumber()+"@@@@@@@@@");
@@ -137,7 +143,15 @@ public class GeneratedExperimentData implements ThresoldConstants {
                 if (isKBValid(lineInfo.getObject())) {
                     continue;
                 }
-                String nGram = lineInfo.getWord().toLowerCase().trim().strip();
+                String nGram = lineInfo.getWord();
+                
+                Pair<Boolean, String> pair = lemmatizer.getLemmaWithoutPos(nGram);
+                if (pair.getValue0()) {
+                    nGram = pair.getValue1();
+                    System.out.println(word+" nGram:"+nGram);
+                }
+                nGram = nGram.toLowerCase().trim().strip();
+                
                 //LOGGER.log(Level.INFO,  "index:" + index + " total::" + numberOfRules + " nGram:" + nGram);
                 //System.out.println( "index:" + index + " total::" + numberOfRules + " nGram:" + nGram);
                 List<LineInfo> results = new ArrayList<LineInfo>();
@@ -258,7 +272,7 @@ public class GeneratedExperimentData implements ThresoldConstants {
         Map<String, ThresoldsExperiment> associationRulesExperiment = Evaluation.createExperiments();
 
         List<String> predictLinguisticGivenKB = new ArrayList<String>(Arrays.asList(
-                predict_l_for_s_given_po
+        predict_l_for_o_given_p
         //predict_l_for_s_given_po
         //predict_l_for_s_given_o
         //predict_l_for_o_given_p,
@@ -267,10 +281,17 @@ public class GeneratedExperimentData implements ThresoldConstants {
         ));
         List<String> interestingness = new ArrayList<String>();
         interestingness.add(ThresoldConstants.Cosine);
+        /*interestingness.add(ThresoldConstants.Coherence);
+        interestingness.add(ThresoldConstants.AllConf);
+        interestingness.add(ThresoldConstants.MaxConf);
+        interestingness.add(ThresoldConstants.Kulczynski);
+        interestingness.add(ThresoldConstants.IR);
+        */
+        Lemmatizer lemmatizer=new Lemmatizer ();
 
         for (String prediction : predictLinguisticGivenKB) {
             for (String rule : interestingness) {
-                GeneratedExperimentData ProcessFile = new GeneratedExperimentData(baseDir, outputDir, prediction, rule, associationRulesExperiment, LOGGER);
+                GeneratedExperimentData ProcessFile = new GeneratedExperimentData(lemmatizer,baseDir, outputDir, prediction, rule, associationRulesExperiment, LOGGER);
 
             }
         }

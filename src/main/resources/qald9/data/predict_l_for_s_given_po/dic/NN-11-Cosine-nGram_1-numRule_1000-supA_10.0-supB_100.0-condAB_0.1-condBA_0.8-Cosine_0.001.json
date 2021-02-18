@@ -1,0 +1,94 @@
+[ {
+  "id" : 1,
+  "pattern" : "apache",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer The_Apache_Software_Foundation", "Cosine=0.863190615806084", "triple=e dbp:developer The_Apache_Software_Foundation", "class=Software" ],
+    "1" : [ "kb=dbo:developer Apache_Software_Foundation", "Cosine=0.851334624106077", "triple=e dbo:developer Apache_Software_Foundation", "class=Software" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "apple",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:developer Apple_Inc.", "Cosine=0.793761805246516", "triple=e dbo:developer Apple_Inc.", "class=Software" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "browser",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Web_browser", "Cosine=0.877058019307029", "triple=e dbp:genre Web_browser", "class=Software" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "development",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Integrated_development_environment", "Cosine=0.786245393106896", "triple=e dbp:genre Integrated_development_environment", "class=Software" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "google",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer Google", "Cosine=0.813115628181742", "triple=e dbp:developer Google", "class=Software" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "library",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Library_(computing)", "Cosine=0.769800358919501", "triple=e dbp:genre Library_(computing)", "class=Software" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "linux",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:kernelType Monolithic@en", "Cosine=0.785612818123533", "triple=e dbp:kernelType Monolithic@en", "class=Software" ],
+    "1" : [ "kb=dbp:family Unix-like", "Cosine=0.735646974158282", "triple=e dbp:family Unix-like", "class=Software" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "microsoft",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer Microsoft", "Cosine=0.82154949126113", "triple=e dbp:developer Microsoft", "class=Software" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "operating system",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:workingState Discontinued@en", "Cosine=0.747289474328094", "triple=e dbp:workingState Discontinued@en", "class=Software" ],
+    "1" : [ "kb=dbp:sourceModel Proprietary_software", "Cosine=0.739065956051933", "triple=e dbp:sourceModel Proprietary_software", "class=Software" ],
+    "2" : [ "kb=dbp:kernelType Monolithic_kernel", "Cosine=0.72129762946392", "triple=e dbp:kernelType Monolithic_kernel", "class=Software" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "system",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:workingState Discontinued@en", "Cosine=0.781274350269872", "triple=e dbp:workingState Discontinued@en", "class=Software" ],
+    "1" : [ "kb=dbp:sourceModel Proprietary_software", "Cosine=0.76696498884737", "triple=e dbp:sourceModel Proprietary_software", "class=Software" ],
+    "2" : [ "kb=dbp:kernelType Monolithic_kernel", "Cosine=0.762286744657862", "triple=e dbp:kernelType Monolithic_kernel", "class=Software" ],
+    "3" : [ "kb=dbp:workingState Current@en", "Cosine=0.746003846592251", "triple=e dbp:workingState Current@en", "class=Software" ],
+    "4" : [ "kb=dbp:family Unix-like", "Cosine=0.743600145555787", "triple=e dbp:family Unix-like", "class=Software" ],
+    "5" : [ "kb=dbp:sourceModel Open-source_software", "Cosine=0.726565204030687", "triple=e dbp:sourceModel Open-source_software", "class=Software" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "web browser",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Web_browser", "Cosine=0.862316498502576", "triple=e dbp:genre Web_browser", "class=Software" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "windows",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer Microsoft", "Cosine=0.737575798606994", "triple=e dbp:developer Microsoft", "class=Software" ]
+  }
+} ]

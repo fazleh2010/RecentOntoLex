@@ -8,7 +8,7 @@ package citec.correlation.wikipedia.results;
 import citec.correlation.wikipedia.analyzer.Analyzer;
 import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
-import citec.correlation.wikipedia.parameters.ThresoldConstants;
+import citec.correlation.wikipedia.experiments.ThresoldConstants;
 import com.google.common.collect.Sets;
 import java.util.Map;
 import java.util.Set;

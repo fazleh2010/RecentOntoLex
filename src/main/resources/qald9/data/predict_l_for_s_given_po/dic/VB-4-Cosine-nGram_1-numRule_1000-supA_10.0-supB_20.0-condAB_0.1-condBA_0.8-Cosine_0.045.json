@@ -1,0 +1,69 @@
+[ {
+  "id" : 13,
+  "pattern" : "based",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:ui KDE", "Cosine=0.768706114785807", "triple=e dbp:ui KDE", "class=Software" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "developed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:genre Mobile_browser", "Cosine=0.845154254728517", "triple=e dbo:genre Mobile_browser", "class=Software" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "learning",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:genre Machine_learning", "Cosine=0.784464540552736", "triple=e dbp:genre Machine_learning", "class=Software" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "messaging",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:genre Client_(computing)", "Cosine=0.82915619758885", "triple=e dbp:genre Client_(computing)", "class=Software" ],
+    "1" : [ "kb=dbp:genre Instant_messaging", "Cosine=0.786397515657049", "triple=e dbp:genre Instant_messaging", "class=Software" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "operating",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:family Real-time operating systems@en", "Cosine=0.929320377284585", "triple=e dbp:family Real-time operating systems@en", "class=Software" ],
+    "1" : [ "kb=dbp:kernelType Hybrid_kernel", "Cosine=0.90267093384844", "triple=e dbp:kernelType Hybrid_kernel", "class=Software" ],
+    "2" : [ "kb=dbp:kernelType Microkernel", "Cosine=0.897149958914611", "triple=e dbp:kernelType Microkernel", "class=Software" ],
+    "3" : [ "kb=dbp:supportedPlatforms MIPS_architecture", "Cosine=0.879049072991533", "triple=e dbp:supportedPlatforms MIPS_architecture", "class=Software" ],
+    "4" : [ "kb=dbp:supportedPlatforms PowerPC", "Cosine=0.875595035770913", "triple=e dbp:supportedPlatforms PowerPC", "class=Software" ],
+    "5" : [ "kb=dbp:kernelType Hybrid@en", "Cosine=0.875189948987367", "triple=e dbp:kernelType Hybrid@en", "class=Software" ],
+    "6" : [ "kb=dbp:programmedIn Assembly_language", "Cosine=0.858395075278952", "triple=e dbp:programmedIn Assembly_language", "class=Software" ],
+    "7" : [ "kb=dbp:programmedIn C_(programming_language)", "Cosine=0.850962943396763", "triple=e dbp:programmedIn C_(programming_language)", "class=Software" ],
+    "8" : [ "kb=dbp:ui Graphical_user_interface", "Cosine=0.845154254728517", "triple=e dbp:ui Graphical_user_interface", "class=Software" ],
+    "9" : [ "kb=dbp:programmedIn C++", "Cosine=0.843274042711568", "triple=e dbp:programmedIn C++", "class=Software" ],
+    "10" : [ "kb=dbp:workingState Historic@en", "Cosine=0.841625411530173", "triple=e dbp:workingState Historic@en", "class=Software" ],
+    "11" : [ "kb=dbp:supportedPlatforms X86", "Cosine=0.841244499353373", "triple=e dbp:supportedPlatforms X86", "class=Software" ],
+    "12" : [ "kb=dbo:status \"Historic\"", "Cosine=0.822478320829974", "triple=e dbo:status \"Historic\"", "class=Software" ],
+    "13" : [ "kb=dbp:sourceModel Proprietary_software", "Cosine=0.819920061690788", "triple=e dbp:sourceModel Proprietary_software", "class=Software" ],
+    "14" : [ "kb=dbp:ui Command-line_interface", "Cosine=0.790569415042095", "triple=e dbp:ui Command-line_interface", "class=Software" ],
+    "15" : [ "kb=dbp:family Unix", "Cosine=0.784464540552736", "triple=e dbp:family Unix", "class=Software" ],
+    "16" : [ "kb=dbp:workingState Discontinued@en", "Cosine=0.781274350269872", "triple=e dbp:workingState Discontinued@en", "class=Software" ],
+    "17" : [ "kb=dbp:supportedPlatforms ARM_architecture", "Cosine=0.758513326022308", "triple=e dbp:supportedPlatforms ARM_architecture", "class=Software" ],
+    "18" : [ "kb=dbp:kernelType Monolithic_kernel", "Cosine=0.753370803500884", "triple=e dbp:kernelType Monolithic_kernel", "class=Software" ],
+    "19" : [ "kb=dbp:operatingSystem Inferno_(operating_system)", "Cosine=0.743391941675028", "triple=e dbp:operatingSystem Inferno_(operating_system)", "class=Software" ],
+    "20" : [ "kb=dbp:packageManager Dpkg", "Cosine=0.740012869900955", "triple=e dbp:packageManager Dpkg", "class=Software" ],
+    "21" : [ "kb=dbp:operatingSystem Plan_9_from_Bell_Labs", "Cosine=0.735980072193987", "triple=e dbp:operatingSystem Plan_9_from_Bell_Labs", "class=Software" ],
+    "22" : [ "kb=dbp:workingState Current@en", "Cosine=0.725318520735366", "triple=e dbp:workingState Current@en", "class=Software" ],
+    "23" : [ "kb=dbp:supportedPlatforms IA-32", "Cosine=0.724285968340148", "triple=e dbp:supportedPlatforms IA-32", "class=Software" ],
+    "24" : [ "kb=dbo:developer Digital_Equipment_Corporation", "Cosine=0.723746864455746", "triple=e dbo:developer Digital_Equipment_Corporation", "class=Software" ],
+    "25" : [ "kb=dbp:developer Microsoft@en", "Cosine=0.721110255092798", "triple=e dbp:developer Microsoft@en", "class=Software" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "released",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:kernelType Hybrid@en", "Cosine=0.812141901446481", "triple=e dbp:kernelType Hybrid@en", "class=Software" ]
+  }
+} ]

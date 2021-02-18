@@ -1,0 +1,110 @@
+[ {
+  "id" : 1,
+  "pattern" : "building",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Redundant_church", "AllConf=0.88929889298893", "triple=e dbp:functionalStatus Redundant_church", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "church",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Redundant_church", "AllConf=0.867158671586716", "triple=e dbp:functionalStatus Redundant_church", "class=HistoricBuilding" ],
+    "1" : [ "pair=Sweden", "AllConf=0.856088560885609", "triple=e dbp:country Sweden", "class=HistoricBuilding" ],
+    "2" : [ "pair=Church_of_Sweden", "AllConf=0.852", "triple=e dbp:denomination Church_of_Sweden", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Norwegian_Water_Resources_and_Energy_Directorate", "AllConf=0.814070351758794", "triple=e dbp:reference Norwegian_Water_Resources_and_Energy_Directorate", "class=BodyOfWater" ],
+    "1" : [ "pair=\"NVE\"", "AllConf=0.81360201511335", "triple=e dbo:quote \"NVE\"", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "genus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Species@en", "AllConf=0.80439121756487", "triple=e dbp:subdivisionRanks Species@en", "class=Plant" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "grade",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Redundant_church", "AllConf=0.874538745387454", "triple=e dbp:functionalStatus Redundant_church", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "lake",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Norwegian_Water_Resources_and_Energy_Directorate", "AllConf=0.816582914572864", "triple=e dbp:reference Norwegian_Water_Resources_and_Energy_Directorate", "class=BodyOfWater" ],
+    "1" : [ "pair=\"NVE\"", "AllConf=0.816120906801008", "triple=e dbo:quote \"NVE\"", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "national",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United_States_Fish_and_Wildlife_Service", "AllConf=0.809417040358744", "triple=e dbp:governingBody United_States_Fish_and_Wildlife_Service", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Norwegian_Water_Resources_and_Energy_Directorate", "AllConf=0.811557788944724", "triple=e dbp:reference Norwegian_Water_Resources_and_Energy_Directorate", "class=BodyOfWater" ],
+    "1" : [ "pair=\"NVE\"", "AllConf=0.811083123425693", "triple=e dbo:quote \"NVE\"", "class=BodyOfWater" ],
+    "2" : [ "pair=Norway", "AllConf=0.80226904376013", "triple=e dbo:country Norway", "class=BodyOfWater" ],
+    "3" : [ "pair=Location of the church@en", "AllConf=0.853015075376884", "triple=e dbp:mapCaption Location of the church@en", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "party",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=European_Parliament", "AllConf=0.87012987012987", "triple=e dbp:seats2Title European_Parliament", "class=PoliticalParty" ],
+    "1" : [ "pair=Euroscepticism", "AllConf=0.865079365079365", "triple=e dbp:ideology Euroscepticism", "class=PoliticalParty" ],
+    "2" : [ "pair=White", "AllConf=0.854961832061069", "triple=e dbo:colour White", "class=PoliticalParty" ],
+    "3" : [ "pair=Social_conservatism", "AllConf=0.853717026378897", "triple=e dbp:ideology Social_conservatism", "class=PoliticalParty" ],
+    "4" : [ "pair=Canada@en", "AllConf=0.849264705882353", "triple=e dbp:country Canada@en", "class=PoliticalParty" ],
+    "5" : [ "pair=National_conservatism", "AllConf=0.846607669616519", "triple=e dbp:ideology National_conservatism", "class=PoliticalParty" ],
+    "6" : [ "pair=Economic_liberalism", "AllConf=0.837133550488599", "triple=e dbp:ideology Economic_liberalism", "class=PoliticalParty" ],
+    "7" : [ "pair=Right-wing_populism", "AllConf=0.834710743801653", "triple=e dbo:ideology Right-wing_populism", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "refuge",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United_States_Fish_and_Wildlife_Service", "AllConf=0.807174887892377", "triple=e dbp:governingBody United_States_Fish_and_Wildlife_Service", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "species",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Tillandsioideae", "AllConf=0.818181818181818", "triple=e dbo:family Tillandsioideae", "class=Plant" ],
+    "1" : [ "pair=Tillandsia@en", "AllConf=0.809701492537313", "triple=e dbp:genus Tillandsia@en", "class=Plant" ],
+    "2" : [ "pair=Tillandsia", "AllConf=0.809701492537313", "triple=e dbo:genus Tillandsia", "class=Plant" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "tillandsia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Tillandsia@en", "AllConf=0.828358208955224", "triple=e dbp:genus Tillandsia@en", "class=Plant" ],
+    "1" : [ "pair=Tillandsia", "AllConf=0.828358208955224", "triple=e dbo:genus Tillandsia", "class=Plant" ],
+    "2" : [ "pair=Tillandsioideae", "AllConf=0.825757575757576", "triple=e dbo:family Tillandsioideae", "class=Plant" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "wildlife",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United_States_Fish_and_Wildlife_Service", "AllConf=0.827354260089686", "triple=e dbp:governingBody United_States_Fish_and_Wildlife_Service", "class=ProtectedArea" ]
+  }
+} ]

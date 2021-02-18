@@ -1,0 +1,119 @@
+[ {
+  "id" : 1,
+  "pattern" : "adult",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Young_adult_fiction", "MaxConf=1.0", "triple=e dbo:literaryGenre Young_adult_fiction", "class=Book" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "australian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Australia@en", "MaxConf=1.0", "triple=e dbp:country Australia@en", "class=Book" ],
+    "1" : [ "pair=Australia", "MaxConf=1.0", "triple=e dbp:country Australia", "class=Book" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=United_Kingdom", "MaxConf=1.0", "triple=e dbp:country United_Kingdom", "class=Book" ],
+    "1" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "canadian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Canada@en", "MaxConf=1.0", "triple=e dbp:country Canada@en", "class=Book" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=France@en", "MaxConf=1.0", "triple=e dbp:country France@en", "class=Book" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "historical",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Historical_fiction", "MaxConf=1.0", "triple=e dbo:literaryGenre Historical_fiction", "class=Book" ],
+    "1" : [ "pair=Historical_novel", "MaxConf=1.0", "triple=e dbo:literaryGenre Historical_novel", "class=Book" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "long-running",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Alfred_A._Knopf", "MaxConf=1.0", "triple=e dbp:publisher Alfred_A._Knopf", "class=Book" ],
+    "1" : [ "pair=Viking_Press", "MaxConf=1.0", "triple=e dbp:publisher Viking_Press", "class=Book" ],
+    "2" : [ "pair=Simon_&_Schuster", "MaxConf=1.0", "triple=e dbp:publisher Simon_&_Schuster", "class=Book" ],
+    "3" : [ "pair=HarperCollins", "MaxConf=1.0", "triple=e dbp:publisher HarperCollins", "class=Book" ],
+    "4" : [ "pair=Random_House", "MaxConf=1.0", "triple=e dbp:publisher Random_House", "class=Book" ],
+    "5" : [ "pair=Tor_Books", "MaxConf=1.0", "triple=e dbp:publisher Tor_Books", "class=Book" ],
+    "6" : [ "pair=Macmillan_Publishers", "MaxConf=1.0", "triple=e dbp:publisher Macmillan_Publishers", "class=Book" ],
+    "7" : [ "pair=Doubleday_(publisher)", "MaxConf=1.0", "triple=e dbp:publisher Doubleday_(publisher)", "class=Book" ],
+    "8" : [ "pair=Little,_Brown_and_Company", "MaxConf=1.0", "triple=e dbp:publisher Little,_Brown_and_Company", "class=Book" ],
+    "9" : [ "pair=Hardcover", "MaxConf=1.0", "triple=e dbo:mediaType Hardcover", "class=Book" ],
+    "10" : [ "pair=Hardback", "MaxConf=1.0", "triple=e dbo:mediaType Hardback", "class=Book" ],
+    "11" : [ "pair=Paperback", "MaxConf=1.0", "triple=e dbo:mediaType Paperback", "class=Book" ],
+    "12" : [ "pair=\"400\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "MaxConf=1.0", "triple=e dbo:numberOfPages \"400\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "13" : [ "pair=\"352\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "MaxConf=1.0", "triple=e dbo:numberOfPages \"352\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "14" : [ "pair=\"224\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "MaxConf=1.0", "triple=e dbo:numberOfPages \"224\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "15" : [ "pair=\"320\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "MaxConf=1.0", "triple=e dbo:numberOfPages \"320\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "16" : [ "pair=\"304\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "MaxConf=1.0", "triple=e dbo:numberOfPages \"304\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "17" : [ "pair=\"288\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "MaxConf=1.0", "triple=e dbo:numberOfPages \"288\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "18" : [ "pair=\"384\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "MaxConf=1.0", "triple=e dbo:numberOfPages \"384\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "19" : [ "pair=Australia@en", "MaxConf=1.0", "triple=e dbp:country Australia@en", "class=Book" ],
+    "20" : [ "pair=France@en", "MaxConf=1.0", "triple=e dbp:country France@en", "class=Book" ],
+    "21" : [ "pair=United_Kingdom", "MaxConf=1.0", "triple=e dbp:country United_Kingdom", "class=Book" ],
+    "22" : [ "pair=India@en", "MaxConf=1.0", "triple=e dbp:country India@en", "class=Book" ],
+    "23" : [ "pair=United Kingdom@en", "MaxConf=1.0", "triple=e dbp:country United Kingdom@en", "class=Book" ],
+    "24" : [ "pair=Canada@en", "MaxConf=1.0", "triple=e dbp:country Canada@en", "class=Book" ],
+    "25" : [ "pair=United States@en", "MaxConf=1.0", "triple=e dbp:country United States@en", "class=Book" ],
+    "26" : [ "pair=England@en", "MaxConf=1.0", "triple=e dbp:country England@en", "class=Book" ],
+    "27" : [ "pair=United_States", "MaxConf=1.0", "triple=e dbp:country United_States", "class=Book" ],
+    "28" : [ "pair=English_language", "MaxConf=1.0", "triple=e dbo:language English_language", "class=Book" ],
+    "29" : [ "pair=Fiction", "MaxConf=1.0", "triple=e dbo:literaryGenre Fiction", "class=Book" ],
+    "30" : [ "pair=Historical_fiction", "MaxConf=1.0", "triple=e dbo:literaryGenre Historical_fiction", "class=Book" ],
+    "31" : [ "pair=Horror_fiction", "MaxConf=1.0", "triple=e dbo:literaryGenre Horror_fiction", "class=Book" ],
+    "32" : [ "pair=Crime_novel", "MaxConf=1.0", "triple=e dbo:literaryGenre Crime_novel", "class=Book" ],
+    "33" : [ "pair=Fantasy", "MaxConf=1.0", "triple=e dbo:literaryGenre Fantasy", "class=Book" ],
+    "34" : [ "pair=Fantasy_novel", "MaxConf=1.0", "triple=e dbo:literaryGenre Fantasy_novel", "class=Book" ],
+    "35" : [ "pair=Children's_literature", "MaxConf=1.0", "triple=e dbo:literaryGenre Children's_literature", "class=Book" ],
+    "36" : [ "pair=Mystery_fiction", "MaxConf=1.0", "triple=e dbo:literaryGenre Mystery_fiction", "class=Book" ],
+    "37" : [ "pair=Thriller_(genre)", "MaxConf=1.0", "triple=e dbo:literaryGenre Thriller_(genre)", "class=Book" ],
+    "38" : [ "pair=Detective_fiction", "MaxConf=1.0", "triple=e dbo:literaryGenre Detective_fiction", "class=Book" ],
+    "39" : [ "pair=Science_fiction", "MaxConf=1.0", "triple=e dbo:literaryGenre Science_fiction", "class=Book" ],
+    "40" : [ "pair=Novel", "MaxConf=1.0", "triple=e dbo:literaryGenre Novel", "class=Book" ],
+    "41" : [ "pair=Historical_novel", "MaxConf=1.0", "triple=e dbo:literaryGenre Historical_novel", "class=Book" ],
+    "42" : [ "pair=Mystery_novel", "MaxConf=1.0", "triple=e dbo:literaryGenre Mystery_novel", "class=Book" ],
+    "43" : [ "pair=Young_adult_fiction", "MaxConf=1.0", "triple=e dbo:literaryGenre Young_adult_fiction", "class=Book" ],
+    "44" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=Book" ],
+    "45" : [ "pair=Print@en", "MaxConf=1.0", "triple=e dbp:mediaType Print@en", "class=Book" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "original",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Doctor_Who", "MaxConf=1.0", "triple=e dbo:series Doctor_Who", "class=Book" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "young",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Young_adult_fiction", "MaxConf=1.0", "triple=e dbo:literaryGenre Young_adult_fiction", "class=Book" ]
+  }
+} ]

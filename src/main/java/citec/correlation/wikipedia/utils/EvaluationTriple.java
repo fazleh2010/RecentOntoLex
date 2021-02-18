@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.utils;
 
-import citec.correlation.wikipedia.parameters.ThresoldConstants;
+import citec.correlation.wikipedia.experiments.ThresoldConstants;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -23,6 +23,7 @@ public class EvaluationTriple implements ThresoldConstants {
     private static String predicate_str = "predicate::";
     private static String subject_str = "subject::";
 
+
     private String type = null;
     private String id = null;
     private String predicate = null;
@@ -30,8 +31,8 @@ public class EvaluationTriple implements ThresoldConstants {
     private String object = null;
     private String key = null;
     private String predictionRule = null;
-    private String word = null;
-    private Logger LOGGER=null;
+    //private String word = null;
+    private static Logger LOGGER=null;
 
     public EvaluationTriple(String type, String predictionRule, String id, String subject,String predicate, String object,String word,Logger LOGGER)  {
         this.type = type;
@@ -50,13 +51,11 @@ public class EvaluationTriple implements ThresoldConstants {
         
     }
 
-    public EvaluationTriple(String LEXICON, String predicationRule, String key,String word) throws Exception {
+    public EvaluationTriple(String LEXICON, String predicationRule, String key) throws Exception {
         this.type = LEXICON;
         this.predictionRule = predicationRule;
         this.key=key;
         this.parseKey(predicationRule,key);
-        this.word=word;
-
     }
 
     public EvaluationTriple(String LEXICON, String predicationRule, String toString, String tripleString, String word, Logger LOGGER) {
@@ -377,7 +376,7 @@ public class EvaluationTriple implements ThresoldConstants {
 
     @Override
     public String toString() {
-        return "EvaluationTriple{" + "type=" + type + ", id=" + id + ", predicate=" + predicate + ", subject=" + subject + ", object=" + object + ", key=" + key + ", predictionRule=" + predictionRule + ", word=" + word + ", LOGGER=" + LOGGER + '}';
+        return "EvaluationTriple{" + "type=" + type + ", id=" + id + ", predicate=" + predicate + ", subject=" + subject + ", object=" + object + ", key=" + key + ", predictionRule=" + predictionRule + ", LOGGER=" + LOGGER + '}';
     }
 
     private String preparePredicate(String string) {
@@ -415,6 +414,47 @@ public class EvaluationTriple implements ThresoldConstants {
         }
         return type;
     }
+    
+    public static Boolean isValidForEvaluation(String[] coulmns, String prediction) {
+        Boolean resultFlag = true;
+        if (prediction.equals(predict_l_for_o_given_p)) {
+            resultFlag = isValidForEvaluation(CsvFile.propertyIndex, coulmns);
+        } else if (prediction.equals(predict_l_for_o_given_s)) {
+            resultFlag = isValidForEvaluation(CsvFile.subjectIndex, coulmns);
+        } else if (prediction.equals(predict_l_for_o_given_sp)) {
+            resultFlag = isValidForEvaluation(CsvFile.subjectIndex, CsvFile.propertyIndex, coulmns);
+        } else if (prediction.equals(predict_l_for_s_given_p)) {
+            resultFlag = isValidForEvaluation(CsvFile.propertyIndex, coulmns);
+        } else if (prediction.equals(predict_l_for_s_given_o)) {
+            resultFlag = isValidForEvaluation(CsvFile.objectIndex, coulmns);
+        } else if (prediction.equals(predict_l_for_o_given_p)) {
+            resultFlag = isValidForEvaluation(CsvFile.propertyIndex, coulmns);
+        } else if (prediction.equals(predict_l_for_s_given_po)) {
+            resultFlag = isValidForEvaluation(CsvFile.propertyIndex, CsvFile.objectIndex, coulmns);
+            // LOGGER.log(Level.INFO, "prediction: " + prediction + " " +coulmns[CsvFile.propertyIndex]+ " " +coulmns[CsvFile.objectIndex]);
 
+        }
+
+       
+        return resultFlag;
+    }
+
+    private static Boolean isValidForEvaluation(Integer index, String[] coulmns) {
+        if (coulmns[index].contains("-") || coulmns[index].length() <= 1) {
+            return false;
+        }
+        return true;
+    }
+
+    private static Boolean isValidForEvaluation(Integer indexA, Integer indexB, String[] coulmns) {
+        if (coulmns[indexA].contains("-") || coulmns[indexA].length() <= 1) {
+            return false;
+        }
+        if (coulmns[indexB].contains("-") || coulmns[indexB].length() <= 1) {
+            return false;
+        }
+
+        return true;
+    }
 
 }

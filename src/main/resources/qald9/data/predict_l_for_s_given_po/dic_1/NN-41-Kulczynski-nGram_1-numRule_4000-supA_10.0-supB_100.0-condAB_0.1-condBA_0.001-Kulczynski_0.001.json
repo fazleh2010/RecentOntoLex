@@ -1,0 +1,323 @@
+[ {
+  "id" : 1,
+  "pattern" : "air force",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:battle European_Theater_of_Operations", "Kulczynski=0.752136752136752", "triple=e dbo:battle European_Theater_of_Operations", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbp:battles European_Theater_of_Operations,_United_States_Army", "Kulczynski=0.75", "triple=e dbp:battles European_Theater_of_Operations,_United_States_Army", "class=MilitaryUnit" ],
+    "2" : [ "kb=dbp:awardName Air_Force_Outstanding_Unit_Award", "Kulczynski=0.742857142857143", "triple=e dbp:awardName Air_Force_Outstanding_Unit_Award", "class=MilitaryUnit" ],
+    "3" : [ "kb=dbp:awardImage AF OUA@en", "Kulczynski=0.742424242424242", "triple=e dbp:awardImage AF OUA@en", "class=MilitaryUnit" ],
+    "4" : [ "kb=dbp:commandStructure Air_Combat_Command", "Kulczynski=0.730392156862745", "triple=e dbp:commandStructure Air_Combat_Command", "class=MilitaryUnit" ],
+    "5" : [ "kb=dbo:militaryBranch Royal_Australian_Air_Force", "Kulczynski=0.718446601941748", "triple=e dbo:militaryBranch Royal_Australian_Air_Force", "class=MilitaryUnit" ],
+    "6" : [ "kb=dbp:awardImage AF PUC@en", "Kulczynski=0.705426356589147", "triple=e dbp:awardImage AF PUC@en", "class=MilitaryUnit" ],
+    "7" : [ "kb=dbp:awardName Presidential_Unit_Citation_(United_States)", "Kulczynski=0.703125", "triple=e dbp:awardName Presidential_Unit_Citation_(United_States)", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "army",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:country Empire_of_Japan", "Kulczynski=0.752136752136752", "triple=e dbo:country Empire_of_Japan", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbo:battle First_World_War", "Kulczynski=0.743697478991597", "triple=e dbo:battle First_World_War", "class=MilitaryUnit" ],
+    "2" : [ "kb=dbp:identificationSymbolLabel Australian_Army_unit_colour_patches", "Kulczynski=0.734234234234234", "triple=e dbp:identificationSymbolLabel Australian_Army_unit_colour_patches", "class=MilitaryUnit" ],
+    "3" : [ "kb=dbp:branch Australian_Army", "Kulczynski=0.719879518072289", "triple=e dbp:branch Australian_Army", "class=MilitaryUnit" ],
+    "4" : [ "kb=dbp:country German_Empire", "Kulczynski=0.718446601941748", "triple=e dbp:country German_Empire", "class=MilitaryUnit" ],
+    "5" : [ "kb=dbo:militaryBranch Red_Army", "Kulczynski=0.716589861751152", "triple=e dbo:militaryBranch Red_Army", "class=MilitaryUnit" ],
+    "6" : [ "kb=dbo:country Russian_Empire", "Kulczynski=0.713675213675214", "triple=e dbo:country Russian_Empire", "class=MilitaryUnit" ],
+    "7" : [ "kb=dbp:identificationSymbolLabel Distinctive unit insignia@en", "Kulczynski=0.711363636363636", "triple=e dbp:identificationSymbolLabel Distinctive unit insignia@en", "class=MilitaryUnit" ],
+    "8" : [ "kb=dbo:activeYearsStartYear \"1914\"^^http://www.w3.org/2001/XMLSchema#gYear", "Kulczynski=0.704035874439462", "triple=e dbo:activeYearsStartYear \"1914\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "australian air",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:militaryBranch Royal_Australian_Air_Force", "Kulczynski=0.718446601941748", "triple=e dbo:militaryBranch Royal_Australian_Air_Force", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "australian air force",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:militaryBranch Royal_Australian_Air_Force", "Kulczynski=0.718446601941748", "triple=e dbo:militaryBranch Royal_Australian_Air_Force", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "australian army",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:identificationSymbolLabel Australian_Army_unit_colour_patches", "Kulczynski=0.72972972972973", "triple=e dbp:identificationSymbolLabel Australian_Army_unit_colour_patches", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbp:branch Australian_Army", "Kulczynski=0.713855421686747", "triple=e dbp:branch Australian_Army", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "base",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:commandStructure Air_Combat_Command", "Kulczynski=0.715686274509804", "triple=e dbp:commandStructure Air_Combat_Command", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbp:awardName Air_Force_Outstanding_Unit_Award", "Kulczynski=0.704761904761905", "triple=e dbp:awardName Air_Force_Outstanding_Unit_Award", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "brigade",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:size Brigade", "Kulczynski=0.722413793103448", "triple=e dbp:size Brigade", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbo:militaryUnitSize \"Brigade\"", "Kulczynski=0.712827988338192", "triple=e dbo:militaryUnitSize \"Brigade\"", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "corps",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:militaryBranch United_States_Marine_Corps", "Kulczynski=0.703463203463203", "triple=e dbo:militaryBranch United_States_Marine_Corps", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "division",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:size Division_(military)", "Kulczynski=0.734375", "triple=e dbp:size Division_(military)", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbo:militaryUnitSize \"Division\"", "Kulczynski=0.724517906336088", "triple=e dbo:militaryUnitSize \"Division\"", "class=MilitaryUnit" ],
+    "2" : [ "kb=dbp:type Division@en", "Kulczynski=0.719135802469136", "triple=e dbp:type Division@en", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "force",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:battle European_Theater_of_Operations", "Kulczynski=0.752136752136752", "triple=e dbo:battle European_Theater_of_Operations", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbp:battles European_Theater_of_Operations,_United_States_Army", "Kulczynski=0.75", "triple=e dbp:battles European_Theater_of_Operations,_United_States_Army", "class=MilitaryUnit" ],
+    "2" : [ "kb=dbp:awardName Air_Force_Outstanding_Unit_Award", "Kulczynski=0.742857142857143", "triple=e dbp:awardName Air_Force_Outstanding_Unit_Award", "class=MilitaryUnit" ],
+    "3" : [ "kb=dbp:awardImage AF OUA@en", "Kulczynski=0.742424242424242", "triple=e dbp:awardImage AF OUA@en", "class=MilitaryUnit" ],
+    "4" : [ "kb=dbp:commandStructure Air_Combat_Command", "Kulczynski=0.730392156862745", "triple=e dbp:commandStructure Air_Combat_Command", "class=MilitaryUnit" ],
+    "5" : [ "kb=dbo:militaryBranch Royal_Australian_Air_Force", "Kulczynski=0.718446601941748", "triple=e dbo:militaryBranch Royal_Australian_Air_Force", "class=MilitaryUnit" ],
+    "6" : [ "kb=dbp:awardImage AF PUC@en", "Kulczynski=0.705426356589147", "triple=e dbp:awardImage AF PUC@en", "class=MilitaryUnit" ],
+    "7" : [ "kb=dbp:awardName Presidential_Unit_Citation_(United_States)", "Kulczynski=0.703125", "triple=e dbp:awardName Presidential_Unit_Citation_(United_States)", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "german army",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:country German_Empire", "Kulczynski=0.713592233009709", "triple=e dbp:country German_Empire", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "imperial",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:country Empire_of_Japan", "Kulczynski=0.769230769230769", "triple=e dbo:country Empire_of_Japan", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbo:country Russian_Empire", "Kulczynski=0.713675213675214", "triple=e dbo:country Russian_Empire", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "imperial\u001Cjapanese",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:country Empire_of_Japan", "Kulczynski=0.705128205128205", "triple=e dbo:country Empire_of_Japan", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "imperial japanese",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:country Empire_of_Japan", "Kulczynski=0.764957264957265", "triple=e dbo:country Empire_of_Japan", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "imperial japanese\u001Carmy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:country Empire_of_Japan", "Kulczynski=0.743589743589744", "triple=e dbo:country Empire_of_Japan", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "imperial japanese army",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:country Empire_of_Japan", "Kulczynski=0.743589743589744", "triple=e dbo:country Empire_of_Japan", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "japanese army",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:country Empire_of_Japan", "Kulczynski=0.743589743589744", "triple=e dbo:country Empire_of_Japan", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "marine",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:militaryBranch United_States_Marine_Corps", "Kulczynski=0.712121212121212", "triple=e dbo:militaryBranch United_States_Marine_Corps", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "marine corps",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:militaryBranch United_States_Marine_Corps", "Kulczynski=0.703463203463203", "triple=e dbo:militaryBranch United_States_Marine_Corps", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "navy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:branch United_States_Navy", "Kulczynski=0.731884057971015", "triple=e dbp:branch United_States_Navy", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "raaf",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:militaryBranch Royal_Australian_Air_Force", "Kulczynski=0.70873786407767", "triple=e dbo:militaryBranch Royal_Australian_Air_Force", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "royal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:militaryBranch Royal_Australian_Air_Force", "Kulczynski=0.718446601941748", "triple=e dbo:militaryBranch Royal_Australian_Air_Force", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbp:branch Royal_Navy", "Kulczynski=0.718253968253968", "triple=e dbp:branch Royal_Navy", "class=MilitaryUnit" ],
+    "2" : [ "kb=dbp:country United_Kingdom", "Kulczynski=0.7109375", "triple=e dbp:country United_Kingdom", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "royal australian",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:militaryBranch Royal_Australian_Air_Force", "Kulczynski=0.718446601941748", "triple=e dbo:militaryBranch Royal_Australian_Air_Force", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "royal australian air",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:militaryBranch Royal_Australian_Air_Force", "Kulczynski=0.718446601941748", "triple=e dbo:militaryBranch Royal_Australian_Air_Force", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "royal australian air\u001Cforce",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:militaryBranch Royal_Australian_Air_Force", "Kulczynski=0.718446601941748", "triple=e dbo:militaryBranch Royal_Australian_Air_Force", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:country South_Africa", "Kulczynski=0.712053571428571", "triple=e dbo:country South_Africa", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "squadron",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:battle European_Theater_of_Operations", "Kulczynski=0.713675213675214", "triple=e dbo:battle European_Theater_of_Operations", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbp:battles European_Theater_of_Operations,_United_States_Army", "Kulczynski=0.711206896551724", "triple=e dbp:battles European_Theater_of_Operations,_United_States_Army", "class=MilitaryUnit" ],
+    "2" : [ "kb=dbp:branch Royal_Navy", "Kulczynski=0.706349206349206", "triple=e dbp:branch Royal_Navy", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:battles European_Theater_of_Operations,_United_States_Army", "Kulczynski=0.75", "triple=e dbp:battles European_Theater_of_Operations,_United_States_Army", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbo:battle European_Theater_of_Operations", "Kulczynski=0.747863247863248", "triple=e dbo:battle European_Theater_of_Operations", "class=MilitaryUnit" ],
+    "2" : [ "kb=dbo:militaryBranch United_States_Army_Air_Forces", "Kulczynski=0.742990654205608", "triple=e dbo:militaryBranch United_States_Army_Air_Forces", "class=MilitaryUnit" ],
+    "3" : [ "kb=dbp:commandStructure Air_Combat_Command", "Kulczynski=0.725490196078431", "triple=e dbp:commandStructure Air_Combat_Command", "class=MilitaryUnit" ],
+    "4" : [ "kb=dbp:awardImage AF OUA@en", "Kulczynski=0.723484848484849", "triple=e dbp:awardImage AF OUA@en", "class=MilitaryUnit" ],
+    "5" : [ "kb=dbp:awardName Air_Force_Outstanding_Unit_Award", "Kulczynski=0.719047619047619", "triple=e dbp:awardName Air_Force_Outstanding_Unit_Award", "class=MilitaryUnit" ],
+    "6" : [ "kb=dbp:awardImage AF PUC@en", "Kulczynski=0.713178294573643", "triple=e dbp:awardImage AF PUC@en", "class=MilitaryUnit" ],
+    "7" : [ "kb=dbp:awardName Presidential_Unit_Citation_(United_States)", "Kulczynski=0.7109375", "triple=e dbp:awardName Presidential_Unit_Citation_(United_States)", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "states air",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:commandStructure Air_Combat_Command", "Kulczynski=0.720588235294118", "triple=e dbp:commandStructure Air_Combat_Command", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbp:awardName Air_Force_Outstanding_Unit_Award", "Kulczynski=0.714285714285714", "triple=e dbp:awardName Air_Force_Outstanding_Unit_Award", "class=MilitaryUnit" ],
+    "2" : [ "kb=dbp:awardImage AF OUA@en", "Kulczynski=0.712121212121212", "triple=e dbp:awardImage AF OUA@en", "class=MilitaryUnit" ],
+    "3" : [ "kb=dbp:battles European_Theater_of_Operations,_United_States_Army", "Kulczynski=0.706896551724138", "triple=e dbp:battles European_Theater_of_Operations,_United_States_Army", "class=MilitaryUnit" ],
+    "4" : [ "kb=dbo:battle European_Theater_of_Operations", "Kulczynski=0.705128205128205", "triple=e dbo:battle European_Theater_of_Operations", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 36,
+  "pattern" : "unit",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:battles European_Theater_of_Operations,_United_States_Army", "Kulczynski=0.745689655172414", "triple=e dbp:battles European_Theater_of_Operations,_United_States_Army", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbo:battle European_Theater_of_Operations", "Kulczynski=0.743589743589744", "triple=e dbo:battle European_Theater_of_Operations", "class=MilitaryUnit" ],
+    "2" : [ "kb=dbp:awardName Air_Force_Outstanding_Unit_Award", "Kulczynski=0.719047619047619", "triple=e dbp:awardName Air_Force_Outstanding_Unit_Award", "class=MilitaryUnit" ],
+    "3" : [ "kb=dbo:militaryBranch United_States_Army_Air_Forces", "Kulczynski=0.714953271028037", "triple=e dbo:militaryBranch United_States_Army_Air_Forces", "class=MilitaryUnit" ],
+    "4" : [ "kb=dbp:commandStructure Air_Combat_Command", "Kulczynski=0.71078431372549", "triple=e dbp:commandStructure Air_Combat_Command", "class=MilitaryUnit" ],
+    "5" : [ "kb=dbp:awardImage AF OUA@en", "Kulczynski=0.708333333333333", "triple=e dbp:awardImage AF OUA@en", "class=MilitaryUnit" ],
+    "6" : [ "kb=dbp:awardImage AF PUC@en", "Kulczynski=0.705426356589147", "triple=e dbp:awardImage AF PUC@en", "class=MilitaryUnit" ],
+    "7" : [ "kb=dbp:awardName Presidential_Unit_Citation_(United_States)", "Kulczynski=0.703125", "triple=e dbp:awardName Presidential_Unit_Citation_(United_States)", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:battles European_Theater_of_Operations,_United_States_Army", "Kulczynski=0.75", "triple=e dbp:battles European_Theater_of_Operations,_United_States_Army", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbo:battle European_Theater_of_Operations", "Kulczynski=0.747863247863248", "triple=e dbo:battle European_Theater_of_Operations", "class=MilitaryUnit" ],
+    "2" : [ "kb=dbo:militaryBranch United_States_Army_Air_Forces", "Kulczynski=0.742990654205608", "triple=e dbo:militaryBranch United_States_Army_Air_Forces", "class=MilitaryUnit" ],
+    "3" : [ "kb=dbp:commandStructure Air_Combat_Command", "Kulczynski=0.725490196078431", "triple=e dbp:commandStructure Air_Combat_Command", "class=MilitaryUnit" ],
+    "4" : [ "kb=dbp:awardImage AF OUA@en", "Kulczynski=0.723484848484849", "triple=e dbp:awardImage AF OUA@en", "class=MilitaryUnit" ],
+    "5" : [ "kb=dbp:awardName Air_Force_Outstanding_Unit_Award", "Kulczynski=0.719047619047619", "triple=e dbp:awardName Air_Force_Outstanding_Unit_Award", "class=MilitaryUnit" ],
+    "6" : [ "kb=dbp:awardImage AF PUC@en", "Kulczynski=0.713178294573643", "triple=e dbp:awardImage AF PUC@en", "class=MilitaryUnit" ],
+    "7" : [ "kb=dbp:awardName Presidential_Unit_Citation_(United_States)", "Kulczynski=0.7109375", "triple=e dbp:awardName Presidential_Unit_Citation_(United_States)", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "united states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:battles European_Theater_of_Operations,_United_States_Army", "Kulczynski=0.75", "triple=e dbp:battles European_Theater_of_Operations,_United_States_Army", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbo:battle European_Theater_of_Operations", "Kulczynski=0.747863247863248", "triple=e dbo:battle European_Theater_of_Operations", "class=MilitaryUnit" ],
+    "2" : [ "kb=dbo:militaryBranch United_States_Army_Air_Forces", "Kulczynski=0.742990654205608", "triple=e dbo:militaryBranch United_States_Army_Air_Forces", "class=MilitaryUnit" ],
+    "3" : [ "kb=dbp:commandStructure Air_Combat_Command", "Kulczynski=0.725490196078431", "triple=e dbp:commandStructure Air_Combat_Command", "class=MilitaryUnit" ],
+    "4" : [ "kb=dbp:awardImage AF OUA@en", "Kulczynski=0.723484848484849", "triple=e dbp:awardImage AF OUA@en", "class=MilitaryUnit" ],
+    "5" : [ "kb=dbp:awardName Air_Force_Outstanding_Unit_Award", "Kulczynski=0.719047619047619", "triple=e dbp:awardName Air_Force_Outstanding_Unit_Award", "class=MilitaryUnit" ],
+    "6" : [ "kb=dbp:awardImage AF PUC@en", "Kulczynski=0.713178294573643", "triple=e dbp:awardImage AF PUC@en", "class=MilitaryUnit" ],
+    "7" : [ "kb=dbp:awardName Presidential_Unit_Citation_(United_States)", "Kulczynski=0.7109375", "triple=e dbp:awardName Presidential_Unit_Citation_(United_States)", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "united states air",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:commandStructure Air_Combat_Command", "Kulczynski=0.715686274509804", "triple=e dbp:commandStructure Air_Combat_Command", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbp:awardName Air_Force_Outstanding_Unit_Award", "Kulczynski=0.714285714285714", "triple=e dbp:awardName Air_Force_Outstanding_Unit_Award", "class=MilitaryUnit" ],
+    "2" : [ "kb=dbp:awardImage AF OUA@en", "Kulczynski=0.712121212121212", "triple=e dbp:awardImage AF OUA@en", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "war",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:country German_Empire", "Kulczynski=0.713592233009709", "triple=e dbp:country German_Empire", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "world",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:battle Western_Front_(World_War_I)", "Kulczynski=0.726890756302521", "triple=e dbo:battle Western_Front_(World_War_I)", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbp:country German_Empire", "Kulczynski=0.713592233009709", "triple=e dbp:country German_Empire", "class=MilitaryUnit" ],
+    "2" : [ "kb=dbp:identificationSymbolLabel Australian_Army_unit_colour_patches", "Kulczynski=0.711711711711712", "triple=e dbp:identificationSymbolLabel Australian_Army_unit_colour_patches", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "world war",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:battle Western_Front_(World_War_I)", "Kulczynski=0.722689075630252", "triple=e dbo:battle Western_Front_(World_War_I)", "class=MilitaryUnit" ],
+    "1" : [ "kb=dbp:country German_Empire", "Kulczynski=0.713592233009709", "triple=e dbp:country German_Empire", "class=MilitaryUnit" ],
+    "2" : [ "kb=dbp:identificationSymbolLabel Australian_Army_unit_colour_patches", "Kulczynski=0.707207207207207", "triple=e dbp:identificationSymbolLabel Australian_Army_unit_colour_patches", "class=MilitaryUnit" ]
+  }
+} ]

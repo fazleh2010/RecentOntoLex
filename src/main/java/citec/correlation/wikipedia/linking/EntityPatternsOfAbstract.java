@@ -6,7 +6,7 @@
 package citec.correlation.wikipedia.linking;
 
 import citec.correlation.wikipedia.analyzer.Analyzer;
-import citec.correlation.wikipedia.analyzer.LemmaAnalyzer;
+import citec.correlation.wikipedia.analyzer.Lemmatizer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_TEXT;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
 import java.util.ArrayList;
@@ -30,10 +30,10 @@ public class EntityPatternsOfAbstract implements PatternThresold{
     private Map<String,Pattern> allpatternsHash = new TreeMap<String,Pattern>();
     private List<Pattern> allpatternList = new ArrayList<Pattern>();
     private static Analyzer analyzer=null;
-    private static LemmaAnalyzer lemmaAnalyzer=null;
+    private static Lemmatizer lemmaAnalyzer=null;
 
 
-    public EntityPatternsOfAbstract(Analyzer analyzer,LemmaAnalyzer lemmaAnalyzer,Collection<String> patternsStr) throws Exception {
+    public EntityPatternsOfAbstract(Analyzer analyzer,Lemmatizer lemmaAnalyzer,Collection<String> patternsStr) throws Exception {
         this.analyzer = analyzer;
         this.lemmaAnalyzer=lemmaAnalyzer;
         for (String patternStr : patternsStr) {

@@ -5,7 +5,8 @@
  */
 package citec.correlation.wikipedia.parameters;
 
-import citec.correlation.wikipedia.analyzer.LemmaAnalyzer;
+import citec.correlation.wikipedia.analyzer.Lemmatizer;
+
 
 /**
  *
@@ -21,7 +22,7 @@ public interface PatternThresold {
     public static String TXT=".txt";
     public static String JSON=".json";
     public static final Integer contextLimit=2;
-    public static LemmaAnalyzer lemmaAnalyzer = new LemmaAnalyzer();
+    public static Lemmatizer lemmaAnalyzer = new Lemmatizer();
     public static Integer PREDICATE_CONTEXT_MinimumNumberOfEntities=1;
     public static Integer PREDICATE_CONTEXT_TopWords=10;
     public static String CONEXT_WORD_TYPE=ORIGINAL_CONTEXT;

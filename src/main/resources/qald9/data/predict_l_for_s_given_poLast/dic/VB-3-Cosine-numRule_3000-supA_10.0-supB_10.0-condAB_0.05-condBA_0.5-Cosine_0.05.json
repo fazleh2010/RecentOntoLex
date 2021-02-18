@@ -1,0 +1,324 @@
+[ {
+  "id" : 14,
+  "pattern" : "announced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:kernelType Hybrid@en", "Cosine=0.564932682866032", "triple=e dbp:kernelType Hybrid@en", "class=Software" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "based",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:ui KDE", "Cosine=0.768706114785807", "triple=e dbp:ui KDE", "class=Software" ],
+    "1" : [ "kb=dbp:ui GNOME", "Cosine=0.717137165600636", "triple=e dbp:ui GNOME", "class=Software" ],
+    "2" : [ "kb=dbp:packageManager Dpkg", "Cosine=0.707106781186548", "triple=e dbp:packageManager Dpkg", "class=Software" ],
+    "3" : [ "kb=dbp:family Unix-like@en", "Cosine=0.67700320038633", "triple=e dbp:family Unix-like@en", "class=Software" ],
+    "4" : [ "kb=dbp:ui Xfce", "Cosine=0.669534063411986", "triple=e dbp:ui Xfce", "class=Software" ],
+    "5" : [ "kb=dbp:userland GNU_Core_Utilities", "Cosine=0.656167322834318", "triple=e dbp:userland GNU_Core_Utilities", "class=Software" ],
+    "6" : [ "kb=dbp:family Unix-like", "Cosine=0.646256186681048", "triple=e dbp:family Unix-like", "class=Software" ],
+    "7" : [ "kb=dbp:kernelType Monolithic@en", "Cosine=0.643476883811688", "triple=e dbp:kernelType Monolithic@en", "class=Software" ],
+    "8" : [ "kb=dbp:family Linux@en", "Cosine=0.637377439199098", "triple=e dbp:family Linux@en", "class=Software" ],
+    "9" : [ "kb=dbp:sourceModel Open-source_software", "Cosine=0.628370738822015", "triple=e dbp:sourceModel Open-source_software", "class=Software" ],
+    "10" : [ "kb=dbp:ui Graphical_user_interface", "Cosine=0.626783170528009", "triple=e dbp:ui Graphical_user_interface", "class=Software" ],
+    "11" : [ "kb=dbp:family Linux", "Cosine=0.605530070819498", "triple=e dbp:family Linux", "class=Software" ],
+    "12" : [ "kb=dbp:supportedPlatforms X86-64", "Cosine=0.603560862122217", "triple=e dbp:supportedPlatforms X86-64", "class=Software" ],
+    "13" : [ "kb=dbo:status \"Current\"", "Cosine=0.603022689155527", "triple=e dbo:status \"Current\"", "class=Software" ],
+    "14" : [ "kb=dbp:license Free software licenses@en", "Cosine=0.600925212577332", "triple=e dbp:license Free software licenses@en", "class=Software" ],
+    "15" : [ "kb=dbp:license Various@en", "Cosine=0.598740817080092", "triple=e dbp:license Various@en", "class=Software" ],
+    "16" : [ "kb=dbp:workingState Current@en", "Cosine=0.597094413916622", "triple=e dbp:workingState Current@en", "class=Software" ],
+    "17" : [ "kb=dbp:workingState Active@en", "Cosine=0.568796458994521", "triple=e dbp:workingState Active@en", "class=Software" ],
+    "18" : [ "kb=dbp:kernelType Monolithic_kernel", "Cosine=0.563531336810623", "triple=e dbp:kernelType Monolithic_kernel", "class=Software" ],
+    "19" : [ "kb=dbp:supportedPlatforms ARM_architecture", "Cosine=0.548971641356545", "triple=e dbp:supportedPlatforms ARM_architecture", "class=Software" ],
+    "20" : [ "kb=dbp:supportedPlatforms IA-32", "Cosine=0.543214476255111", "triple=e dbp:supportedPlatforms IA-32", "class=Software" ],
+    "21" : [ "kb=dbp:supportedPlatforms X86", "Cosine=0.540654873563249", "triple=e dbp:supportedPlatforms X86", "class=Software" ],
+    "22" : [ "kb=dbo:license Free_software", "Cosine=0.520416499866533", "triple=e dbo:license Free_software", "class=Software" ],
+    "23" : [ "kb=dbp:operatingSystem Windows@en", "Cosine=0.518874521662771", "triple=e dbp:operatingSystem Windows@en", "class=Software" ],
+    "24" : [ "kb=dbp:license @en", "Cosine=0.512147519731584", "triple=e dbp:license @en", "class=Software" ],
+    "25" : [ "kb=dbo:genre Web_framework", "Cosine=0.505291152639911", "triple=e dbo:genre Web_framework", "class=Software" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "build",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:genre Build_automation", "Cosine=0.957427107756338", "triple=e dbp:genre Build_automation", "class=Software" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "designed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:programmedIn C++", "Cosine=0.516397779494322", "triple=e dbp:programmedIn C++", "class=Software" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "developed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:genre Mobile_browser", "Cosine=0.845154254728517", "triple=e dbo:genre Mobile_browser", "class=Software" ],
+    "1" : [ "kb=dbp:supportedPlatforms @en", "Cosine=0.794719414239026", "triple=e dbp:supportedPlatforms @en", "class=Software" ],
+    "2" : [ "kb=dbp:license Software_as_a_service", "Cosine=0.691564074808125", "triple=e dbp:license Software_as_a_service", "class=Software" ],
+    "3" : [ "kb=dbp:kernelType Microkernel", "Cosine=0.680745645705018", "triple=e dbp:kernelType Microkernel", "class=Software" ],
+    "4" : [ "kb=dbp:genre Email_client", "Cosine=0.657595949221429", "triple=e dbp:genre Email_client", "class=Software" ],
+    "5" : [ "kb=dbo:genre Antivirus_software", "Cosine=0.654653670707977", "triple=e dbo:genre Antivirus_software", "class=Software" ],
+    "6" : [ "kb=dbo:genre Programming_language", "Cosine=0.65133894727893", "triple=e dbo:genre Programming_language", "class=Software" ],
+    "7" : [ "kb=dbp:platform PlayStation_4", "Cosine=0.650443635587991", "triple=e dbp:platform PlayStation_4", "class=Software" ],
+    "8" : [ "kb=dbo:genre 3D_computer_graphics", "Cosine=0.638284738504225", "triple=e dbo:genre 3D_computer_graphics", "class=Software" ],
+    "9" : [ "kb=dbp:operatingSystem AmigaOS", "Cosine=0.632455532033676", "triple=e dbp:operatingSystem AmigaOS", "class=Software" ],
+    "10" : [ "kb=dbp:genre Computer-aided_design", "Cosine=0.632455532033676", "triple=e dbp:genre Computer-aided_design", "class=Software" ],
+    "11" : [ "kb=dbo:operatingSystem Classic_Mac_OS", "Cosine=0.628280862437543", "triple=e dbo:operatingSystem Classic_Mac_OS", "class=Software" ],
+    "12" : [ "kb=dbp:kernelType Hybrid@en", "Cosine=0.618852747755276", "triple=e dbp:kernelType Hybrid@en", "class=Software" ],
+    "13" : [ "kb=dbo:license Trialware", "Cosine=0.615281584781658", "triple=e dbo:license Trialware", "class=Software" ],
+    "14" : [ "kb=dbp:programmedIn C++", "Cosine=0.614636297152859", "triple=e dbp:programmedIn C++", "class=Software" ],
+    "15" : [ "kb=dbp:ui GNOME", "Cosine=0.609449400220044", "triple=e dbp:ui GNOME", "class=Software" ],
+    "16" : [ "kb=dbp:operatingSystem Windows_2000", "Cosine=0.606976978666884", "triple=e dbp:operatingSystem Windows_2000", "class=Software" ],
+    "17" : [ "kb=dbp:supportedPlatforms PowerPC", "Cosine=0.605530070819498", "triple=e dbp:supportedPlatforms PowerPC", "class=Software" ],
+    "18" : [ "kb=dbp:genre Game_engine", "Cosine=0.603022689155527", "triple=e dbp:genre Game_engine", "class=Software" ],
+    "19" : [ "kb=dbo:latestReleaseVersion \"4.0\"", "Cosine=0.599144689515278", "triple=e dbo:latestReleaseVersion \"4.0\"", "class=Software" ],
+    "20" : [ "kb=dbp:programmedIn C_(programming_language)", "Cosine=0.596926996441323", "triple=e dbp:programmedIn C_(programming_language)", "class=Software" ],
+    "21" : [ "kb=dbp:supportedPlatforms X86", "Cosine=0.594849690128653", "triple=e dbp:supportedPlatforms X86", "class=Software" ],
+    "22" : [ "kb=dbp:language Japanese_language", "Cosine=0.594088525786005", "triple=e dbp:language Japanese_language", "class=Software" ],
+    "23" : [ "kb=dbo:operatingSystem Windows_8", "Cosine=0.58878405775519", "triple=e dbo:operatingSystem Windows_8", "class=Software" ],
+    "24" : [ "kb=dbp:license Shareware", "Cosine=0.586515131944607", "triple=e dbp:license Shareware", "class=Software" ],
+    "25" : [ "kb=dbp:platform Android_(operating_system)", "Cosine=0.584348709790778", "triple=e dbp:platform Android_(operating_system)", "class=Software" ],
+    "26" : [ "kb=dbp:verLayout stacked@en", "Cosine=0.583333333333333", "triple=e dbp:verLayout stacked@en", "class=Software" ],
+    "27" : [ "kb=dbp:genre Web_browser", "Cosine=0.577350269189626", "triple=e dbp:genre Web_browser", "class=Software" ],
+    "28" : [ "kb=dbp:language Italian_language", "Cosine=0.577350269189626", "triple=e dbp:language Italian_language", "class=Software" ],
+    "29" : [ "kb=dbp:license End-user_license_agreement", "Cosine=0.567480306535024", "triple=e dbp:license End-user_license_agreement", "class=Software" ],
+    "30" : [ "kb=dbp:sourceModel Proprietary_software", "Cosine=0.565090905158132", "triple=e dbp:sourceModel Proprietary_software", "class=Software" ],
+    "31" : [ "kb=dbp:workingState Discontinued@en", "Cosine=0.564076074817766", "triple=e dbp:workingState Discontinued@en", "class=Software" ],
+    "32" : [ "kb=dbp:platform IOS", "Cosine=0.562543950463012", "triple=e dbp:platform IOS", "class=Software" ],
+    "33" : [ "kb=dbo:language Russian_language", "Cosine=0.562543950463012", "triple=e dbo:language Russian_language", "class=Software" ],
+    "34" : [ "kb=dbp:programmedIn Assembly_language", "Cosine=0.561951486949016", "triple=e dbp:programmedIn Assembly_language", "class=Software" ],
+    "35" : [ "kb=dbp:discontinued Yes@en", "Cosine=0.559690103582503", "triple=e dbp:discontinued Yes@en", "class=Software" ],
+    "36" : [ "kb=dbp:workingState Historic@en", "Cosine=0.559016994374947", "triple=e dbp:workingState Historic@en", "class=Software" ],
+    "37" : [ "kb=dbp:genre Project_management_software", "Cosine=0.556348640264187", "triple=e dbp:genre Project_management_software", "class=Software" ],
+    "38" : [ "kb=dbo:genre Collaborative_software", "Cosine=0.556348640264187", "triple=e dbo:genre Collaborative_software", "class=Software" ],
+    "39" : [ "kb=dbp:cs1Dates y@en", "Cosine=0.555959449142569", "triple=e dbp:cs1Dates y@en", "class=Software" ],
+    "40" : [ "kb=dbp:language French_language", "Cosine=0.555555555555556", "triple=e dbp:language French_language", "class=Software" ],
+    "41" : [ "kb=dbp:developer Google", "Cosine=0.552978411845293", "triple=e dbp:developer Google", "class=Software" ],
+    "42" : [ "kb=dbp:language Chinese_language", "Cosine=0.55097316501934", "triple=e dbp:language Chinese_language", "class=Software" ],
+    "43" : [ "kb=dbo:operatingSystem Windows_7", "Cosine=0.55048188256318", "triple=e dbo:operatingSystem Windows_7", "class=Software" ],
+    "44" : [ "kb=dbp:license Commercial@en", "Cosine=0.547722557505166", "triple=e dbp:license Commercial@en", "class=Software" ],
+    "45" : [ "kb=dbp:language Portuguese_language", "Cosine=0.543557306504609", "triple=e dbp:language Portuguese_language", "class=Software" ],
+    "46" : [ "kb=dbo:computingPlatform Windows", "Cosine=0.543557306504609", "triple=e dbo:computingPlatform Windows", "class=Software" ],
+    "47" : [ "kb=dbp:operatingSystem Macintosh_operating_systems", "Cosine=0.54139029200371", "triple=e dbp:operatingSystem Macintosh_operating_systems", "class=Software" ],
+    "48" : [ "kb=dbo:genre File_manager", "Cosine=0.53802758684897", "triple=e dbo:genre File_manager", "class=Software" ],
+    "49" : [ "kb=dbo:genre Compiler", "Cosine=0.537086155529575", "triple=e dbo:genre Compiler", "class=Software" ],
+    "50" : [ "kb=dbo:computingPlatform IA-32", "Cosine=0.535019021306581", "triple=e dbo:computingPlatform IA-32", "class=Software" ],
+    "51" : [ "kb=dbo:language German_language", "Cosine=0.534522483824849", "triple=e dbo:language German_language", "class=Software" ],
+    "52" : [ "kb=dbo:operatingSystem Windows_10", "Cosine=0.534522483824849", "triple=e dbo:operatingSystem Windows_10", "class=Software" ],
+    "53" : [ "kb=dbp:language Spanish_language", "Cosine=0.532870169256969", "triple=e dbp:language Spanish_language", "class=Software" ],
+    "54" : [ "kb=dbo:developer Apple_Inc.", "Cosine=0.532200144888794", "triple=e dbo:developer Apple_Inc.", "class=Software" ],
+    "55" : [ "kb=dbp:genre List_of_numerical-analysis_software", "Cosine=0.531995176598931", "triple=e dbp:genre List_of_numerical-analysis_software", "class=Software" ],
+    "56" : [ "kb=dbo:genre List_of_numerical_analysis_software", "Cosine=0.531995176598931", "triple=e dbo:genre List_of_numerical_analysis_software", "class=Software" ],
+    "57" : [ "kb=dbp:genre Relational_database", "Cosine=0.531085004543794", "triple=e dbp:genre Relational_database", "class=Software" ],
+    "58" : [ "kb=dbp:operatingSystem Windows_XP", "Cosine=0.529150262212918", "triple=e dbp:operatingSystem Windows_XP", "class=Software" ],
+    "59" : [ "kb=dbo:genre HTML_editor", "Cosine=0.524404424085076", "triple=e dbo:genre HTML_editor", "class=Software" ],
+    "60" : [ "kb=dbo:programmingLanguage Fortran", "Cosine=0.523936831995584", "triple=e dbo:programmingLanguage Fortran", "class=Software" ],
+    "61" : [ "kb=dbo:operatingSystem Windows_Vista", "Cosine=0.523053444363363", "triple=e dbo:operatingSystem Windows_Vista", "class=Software" ],
+    "62" : [ "kb=dbo:status \"Discontinued\"", "Cosine=0.521943722224375", "triple=e dbo:status \"Discontinued\"", "class=Software" ],
+    "63" : [ "kb=dbp:kernelType Monolithic_kernel", "Cosine=0.519875244910036", "triple=e dbp:kernelType Monolithic_kernel", "class=Software" ],
+    "64" : [ "kb=dbp:platform MacOS", "Cosine=0.514495755427527", "triple=e dbp:platform MacOS", "class=Software" ],
+    "65" : [ "kb=dbp:platform Microsoft_Windows", "Cosine=0.512415683212599", "triple=e dbp:platform Microsoft_Windows", "class=Software" ],
+    "66" : [ "kb=dbo:computingPlatform X86-64", "Cosine=0.506763592340058", "triple=e dbo:computingPlatform X86-64", "class=Software" ],
+    "67" : [ "kb=dbp:license Proprietary@en", "Cosine=0.506263292179478", "triple=e dbp:license Proprietary@en", "class=Software" ],
+    "68" : [ "kb=dbo:license Freeware", "Cosine=0.505429040799837", "triple=e dbo:license Freeware", "class=Software" ],
+    "69" : [ "kb=dbp:platform Linux", "Cosine=0.504524979109513", "triple=e dbp:platform Linux", "class=Software" ],
+    "70" : [ "kb=dbo:license Commercial_software", "Cosine=0.504524979109513", "triple=e dbo:license Commercial_software", "class=Software" ],
+    "71" : [ "kb=dbo:computingPlatform X64", "Cosine=0.503003030003569", "triple=e dbo:computingPlatform X64", "class=Software" ],
+    "72" : [ "kb=dbp:operatingSystem IBM_AIX", "Cosine=0.5", "triple=e dbp:operatingSystem IBM_AIX", "class=Software" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "discontinued",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:status \"Discontinued\"", "Cosine=0.549841414769158", "triple=e dbo:status \"Discontinued\"", "class=Software" ],
+    "1" : [ "kb=dbp:status Discontinued@en", "Cosine=0.545491499117774", "triple=e dbp:status Discontinued@en", "class=Software" ]
+  }
+}, {
+  "id" : 143,
+  "pattern" : "integrated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:genre Integrated_development_environment", "Cosine=0.6557438524302", "triple=e dbo:genre Integrated_development_environment", "class=Software" ]
+  }
+}, {
+  "id" : 156,
+  "pattern" : "learning",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:genre Machine_learning", "Cosine=0.784464540552736", "triple=e dbp:genre Machine_learning", "class=Software" ]
+  }
+}, {
+  "id" : 177,
+  "pattern" : "messaging",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:genre Client_(computing)", "Cosine=0.82915619758885", "triple=e dbp:genre Client_(computing)", "class=Software" ],
+    "1" : [ "kb=dbp:genre Instant_messaging", "Cosine=0.786397515657049", "triple=e dbp:genre Instant_messaging", "class=Software" ],
+    "2" : [ "kb=dbp:genre Voice_over_IP", "Cosine=0.511766315719159", "triple=e dbp:genre Voice_over_IP", "class=Software" ]
+  }
+}, {
+  "id" : 192,
+  "pattern" : "monitoring",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:genre Network_monitoring", "Cosine=0.840168050416806", "triple=e dbp:genre Network_monitoring", "class=Software" ]
+  }
+}, {
+  "id" : 198,
+  "pattern" : "networking",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:genre Social_networking_service", "Cosine=0.577350269189626", "triple=e dbp:genre Social_networking_service", "class=Software" ]
+  }
+}, {
+  "id" : 207,
+  "pattern" : "operating",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:family Real-time operating systems@en", "Cosine=0.929320377284585", "triple=e dbp:family Real-time operating systems@en", "class=Software" ],
+    "1" : [ "kb=dbp:supportStatus Unsupported@en", "Cosine=0.9198662110078", "triple=e dbp:supportStatus Unsupported@en", "class=Software" ],
+    "2" : [ "kb=dbp:supportedPlatforms PDP-11", "Cosine=0.9198662110078", "triple=e dbp:supportedPlatforms PDP-11", "class=Software" ],
+    "3" : [ "kb=dbp:sourceModel Closed, with open source components@en", "Cosine=0.917662935482247", "triple=e dbp:sourceModel Closed, with open source components@en", "class=Software" ],
+    "4" : [ "kb=dbp:kernelType Hybrid_kernel", "Cosine=0.90267093384844", "triple=e dbp:kernelType Hybrid_kernel", "class=Software" ],
+    "5" : [ "kb=dbp:kernelType Microkernel", "Cosine=0.897149958914611", "triple=e dbp:kernelType Microkernel", "class=Software" ],
+    "6" : [ "kb=dbp:versionOf Android_(operating_system)", "Cosine=0.894427190999916", "triple=e dbp:versionOf Android_(operating_system)", "class=Software" ],
+    "7" : [ "kb=dbp:kernelType Monolithic Kernel@en", "Cosine=0.886405260427918", "triple=e dbp:kernelType Monolithic Kernel@en", "class=Software" ],
+    "8" : [ "kb=dbp:versionOf MacOS", "Cosine=0.886405260427918", "triple=e dbp:versionOf MacOS", "class=Software" ],
+    "9" : [ "kb=dbp:marketingTarget Embedded systems@en", "Cosine=0.886405260427918", "triple=e dbp:marketingTarget Embedded systems@en", "class=Software" ],
+    "10" : [ "kb=dbp:supportedPlatforms MIPS_architecture", "Cosine=0.879049072991533", "triple=e dbp:supportedPlatforms MIPS_architecture", "class=Software" ],
+    "11" : [ "kb=dbp:supportedPlatforms PowerPC", "Cosine=0.875595035770913", "triple=e dbp:supportedPlatforms PowerPC", "class=Software" ],
+    "12" : [ "kb=dbp:kernelType Hybrid@en", "Cosine=0.875189948987367", "triple=e dbp:kernelType Hybrid@en", "class=Software" ],
+    "13" : [ "kb=dbp:programmedIn Assembly_language", "Cosine=0.858395075278952", "triple=e dbp:programmedIn Assembly_language", "class=Software" ],
+    "14" : [ "kb=dbp:supportedPlatforms SPARC", "Cosine=0.856348838577675", "triple=e dbp:supportedPlatforms SPARC", "class=Software" ],
+    "15" : [ "kb=dbp:programmedIn C_(programming_language)", "Cosine=0.850962943396763", "triple=e dbp:programmedIn C_(programming_language)", "class=Software" ],
+    "16" : [ "kb=dbp:versionOf Windows_NT", "Cosine=0.849836585598797", "triple=e dbp:versionOf Windows_NT", "class=Software" ],
+    "17" : [ "kb=dbp:ui Graphical_user_interface", "Cosine=0.845154254728517", "triple=e dbp:ui Graphical_user_interface", "class=Software" ],
+    "18" : [ "kb=dbp:programmedIn C++", "Cosine=0.843274042711568", "triple=e dbp:programmedIn C++", "class=Software" ],
+    "19" : [ "kb=dbp:workingState Historic@en", "Cosine=0.841625411530173", "triple=e dbp:workingState Historic@en", "class=Software" ],
+    "20" : [ "kb=dbp:supportedPlatforms X86", "Cosine=0.841244499353373", "triple=e dbp:supportedPlatforms X86", "class=Software" ],
+    "21" : [ "kb=dbp:date January 2009@en", "Cosine=0.836660026534076", "triple=e dbp:date January 2009@en", "class=Software" ],
+    "22" : [ "kb=dbp:supportedPlatforms @en", "Cosine=0.827170191868511", "triple=e dbp:supportedPlatforms @en", "class=Software" ],
+    "23" : [ "kb=dbo:status \"Historic\"", "Cosine=0.822478320829974", "triple=e dbo:status \"Historic\"", "class=Software" ],
+    "24" : [ "kb=dbp:sourceModel Proprietary_software", "Cosine=0.819920061690788", "triple=e dbp:sourceModel Proprietary_software", "class=Software" ],
+    "25" : [ "kb=dbo:license Apple_Public_Source_License", "Cosine=0.816496580927726", "triple=e dbo:license Apple_Public_Source_License", "class=Software" ],
+    "26" : [ "kb=dbp:ui Command-line_interface", "Cosine=0.790569415042095", "triple=e dbp:ui Command-line_interface", "class=Software" ],
+    "27" : [ "kb=dbp:family Unix", "Cosine=0.784464540552736", "triple=e dbp:family Unix", "class=Software" ],
+    "28" : [ "kb=dbp:workingState Discontinued@en", "Cosine=0.781274350269872", "triple=e dbp:workingState Discontinued@en", "class=Software" ],
+    "29" : [ "kb=dbp:supportedPlatforms ARM_architecture", "Cosine=0.758513326022308", "triple=e dbp:supportedPlatforms ARM_architecture", "class=Software" ],
+    "30" : [ "kb=dbp:kernelType Monolithic_kernel", "Cosine=0.753370803500884", "triple=e dbp:kernelType Monolithic_kernel", "class=Software" ],
+    "31" : [ "kb=dbp:operatingSystem Inferno_(operating_system)", "Cosine=0.743391941675028", "triple=e dbp:operatingSystem Inferno_(operating_system)", "class=Software" ],
+    "32" : [ "kb=dbp:packageManager Dpkg", "Cosine=0.740012869900955", "triple=e dbp:packageManager Dpkg", "class=Software" ],
+    "33" : [ "kb=dbp:operatingSystem Plan_9_from_Bell_Labs", "Cosine=0.735980072193987", "triple=e dbp:operatingSystem Plan_9_from_Bell_Labs", "class=Software" ],
+    "34" : [ "kb=dbp:workingState Current@en", "Cosine=0.725318520735366", "triple=e dbp:workingState Current@en", "class=Software" ],
+    "35" : [ "kb=dbp:supportedPlatforms IA-32", "Cosine=0.724285968340148", "triple=e dbp:supportedPlatforms IA-32", "class=Software" ],
+    "36" : [ "kb=dbo:developer Digital_Equipment_Corporation", "Cosine=0.723746864455746", "triple=e dbo:developer Digital_Equipment_Corporation", "class=Software" ],
+    "37" : [ "kb=dbp:developer Microsoft@en", "Cosine=0.721110255092798", "triple=e dbp:developer Microsoft@en", "class=Software" ],
+    "38" : [ "kb=dbp:family Unix-like@en", "Cosine=0.707106781186548", "triple=e dbp:family Unix-like@en", "class=Software" ],
+    "39" : [ "kb=dbp:family Unix-like", "Cosine=0.698738358842312", "triple=e dbp:family Unix-like", "class=Software" ],
+    "40" : [ "kb=dbp:developer Various open-source and commercial developers@en", "Cosine=0.692820323027551", "triple=e dbp:developer Various open-source and commercial developers@en", "class=Software" ],
+    "41" : [ "kb=dbo:operatingSystem MSX-DOS", "Cosine=0.691564074808125", "triple=e dbo:operatingSystem MSX-DOS", "class=Software" ],
+    "42" : [ "kb=dbo:operatingSystem ReactOS", "Cosine=0.690849279707757", "triple=e dbo:operatingSystem ReactOS", "class=Software" ],
+    "43" : [ "kb=dbp:sourceModel Open-source_software", "Cosine=0.687097521674941", "triple=e dbp:sourceModel Open-source_software", "class=Software" ],
+    "44" : [ "kb=dbo:developer Commercial_software", "Cosine=0.685994340570035", "triple=e dbo:developer Commercial_software", "class=Software" ],
+    "45" : [ "kb=dbp:developer Bell_Labs", "Cosine=0.685118789044674", "triple=e dbp:developer Bell_Labs", "class=Software" ],
+    "46" : [ "kb=dbp:family Linux", "Cosine=0.683130051063973", "triple=e dbp:family Linux", "class=Software" ],
+    "47" : [ "kb=dbo:developer AT&T_Bell_Laboratories", "Cosine=0.679366220486757", "triple=e dbo:developer AT&T_Bell_Laboratories", "class=Software" ],
+    "48" : [ "kb=dbo:status \"Current\"", "Cosine=0.674199862463242", "triple=e dbo:status \"Current\"", "class=Software" ],
+    "49" : [ "kb=dbp:license Free software licenses@en", "Cosine=0.666666666666667", "triple=e dbp:license Free software licenses@en", "class=Software" ],
+    "50" : [ "kb=dbo:license Coreutils", "Cosine=0.664211164155071", "triple=e dbo:license Coreutils", "class=Software" ],
+    "51" : [ "kb=dbp:license GNU_Core_Utilities", "Cosine=0.664211164155071", "triple=e dbp:license GNU_Core_Utilities", "class=Software" ],
+    "52" : [ "kb=dbp:workingState Active@en", "Cosine=0.664211164155071", "triple=e dbp:workingState Active@en", "class=Software" ],
+    "53" : [ "kb=dbp:supportedPlatforms X86-64", "Cosine=0.660086574408453", "triple=e dbp:supportedPlatforms X86-64", "class=Software" ],
+    "54" : [ "kb=dbp:kernelType Linux_kernel", "Cosine=0.654653670707977", "triple=e dbp:kernelType Linux_kernel", "class=Software" ],
+    "55" : [ "kb=dbo:genre Command_(computing)", "Cosine=0.644122361839175", "triple=e dbo:genre Command_(computing)", "class=Software" ],
+    "56" : [ "kb=dbp:kernelType Monolithic@en", "Cosine=0.643476883811688", "triple=e dbp:kernelType Monolithic@en", "class=Software" ],
+    "57" : [ "kb=dbp:operatingSystem Unix and Unix-like@en", "Cosine=0.632455532033676", "triple=e dbp:operatingSystem Unix and Unix-like@en", "class=Software" ],
+    "58" : [ "kb=dbp:ui GNOME", "Cosine=0.632455532033676", "triple=e dbp:ui GNOME", "class=Software" ],
+    "59" : [ "kb=dbo:developer Digital_Research", "Cosine=0.628280862437543", "triple=e dbo:developer Digital_Research", "class=Software" ],
+    "60" : [ "kb=dbo:developer Novell", "Cosine=0.618346942400842", "triple=e dbo:developer Novell", "class=Software" ],
+    "61" : [ "kb=dbo:developer Apple_Inc.", "Cosine=0.617659202289912", "triple=e dbo:developer Apple_Inc.", "class=Software" ],
+    "62" : [ "kb=dbo:genre Emulator", "Cosine=0.605530070819498", "triple=e dbo:genre Emulator", "class=Software" ],
+    "63" : [ "kb=dbp:cs1Dates y@en", "Cosine=0.603022689155527", "triple=e dbp:cs1Dates y@en", "class=Software" ],
+    "64" : [ "kb=dbp:family Linux@en", "Cosine=0.586301969977929", "triple=e dbp:family Linux@en", "class=Software" ],
+    "65" : [ "kb=dbo:operatingSystem IBM_i", "Cosine=0.58554004376912", "triple=e dbo:operatingSystem IBM_i", "class=Software" ],
+    "66" : [ "kb=dbo:license Free_software", "Cosine=0.559016994374947", "triple=e dbo:license Free_software", "class=Software" ],
+    "67" : [ "kb=dbo:developer IBM", "Cosine=0.554091638503641", "triple=e dbo:developer IBM", "class=Software" ],
+    "68" : [ "kb=dbp:license Various@en", "Cosine=0.549442255794756", "triple=e dbp:license Various@en", "class=Software" ],
+    "69" : [ "kb=dbo:operatingSystem OS/2", "Cosine=0.529150262212918", "triple=e dbo:operatingSystem OS/2", "class=Software" ],
+    "70" : [ "kb=dbo:operatingSystem DOS", "Cosine=0.507519218922552", "triple=e dbo:operatingSystem DOS", "class=Software" ]
+  }
+}, {
+  "id" : 239,
+  "pattern" : "provides",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:developer Red_Hat", "Cosine=0.524404424085076", "triple=e dbo:developer Red_Hat", "class=Software" ],
+    "1" : [ "kb=dbo:genre Library_(computing)", "Cosine=0.509647191437625", "triple=e dbo:genre Library_(computing)", "class=Software" ]
+  }
+}, {
+  "id" : 262,
+  "pattern" : "released",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:sourceModel Closed, with open source components@en", "Cosine=0.858395075278952", "triple=e dbp:sourceModel Closed, with open source components@en", "class=Software" ],
+    "1" : [ "kb=dbp:versionOf Windows_NT", "Cosine=0.849836585598797", "triple=e dbp:versionOf Windows_NT", "class=Software" ],
+    "2" : [ "kb=dbp:date January 2009@en", "Cosine=0.836660026534076", "triple=e dbp:date January 2009@en", "class=Software" ],
+    "3" : [ "kb=dbp:kernelType Hybrid@en", "Cosine=0.812141901446481", "triple=e dbp:kernelType Hybrid@en", "class=Software" ],
+    "4" : [ "kb=dbp:kernelType Hybrid_kernel", "Cosine=0.666666666666667", "triple=e dbp:kernelType Hybrid_kernel", "class=Software" ],
+    "5" : [ "kb=dbp:supportedPlatforms PowerPC", "Cosine=0.632455532033676", "triple=e dbp:supportedPlatforms PowerPC", "class=Software" ],
+    "6" : [ "kb=dbp:genre News_aggregator", "Cosine=0.58554004376912", "triple=e dbp:genre News_aggregator", "class=Software" ],
+    "7" : [ "kb=dbp:sourceModel Proprietary_software", "Cosine=0.55760592693039", "triple=e dbp:sourceModel Proprietary_software", "class=Software" ],
+    "8" : [ "kb=dbp:genre Voice_over_IP", "Cosine=0.534522483824849", "triple=e dbp:genre Voice_over_IP", "class=Software" ],
+    "9" : [ "kb=dbo:genre Web_browser", "Cosine=0.511548866669309", "triple=e dbo:genre Web_browser", "class=Software" ]
+  }
+}, {
+  "id" : 309,
+  "pattern" : "used",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:operatingSystem Inferno_(operating_system)", "Cosine=0.677834389404565", "triple=e dbo:operatingSystem Inferno_(operating_system)", "class=Software" ],
+    "1" : [ "kb=dbo:author AT&T_Bell_Laboratories", "Cosine=0.654653670707977", "triple=e dbo:author AT&T_Bell_Laboratories", "class=Software" ],
+    "2" : [ "kb=dbp:operatingSystem Plan_9_from_Bell_Labs", "Cosine=0.645497224367903", "triple=e dbp:operatingSystem Plan_9_from_Bell_Labs", "class=Software" ],
+    "3" : [ "kb=dbo:operatingSystem ReactOS", "Cosine=0.639602149066831", "triple=e dbo:operatingSystem ReactOS", "class=Software" ],
+    "4" : [ "kb=dbo:license Coreutils", "Cosine=0.618346942400842", "triple=e dbo:license Coreutils", "class=Software" ],
+    "5" : [ "kb=dbp:license GNU_Core_Utilities", "Cosine=0.618346942400842", "triple=e dbp:license GNU_Core_Utilities", "class=Software" ],
+    "6" : [ "kb=dbp:developer Various open-source and commercial developers@en", "Cosine=0.616441400296898", "triple=e dbp:developer Various open-source and commercial developers@en", "class=Software" ],
+    "7" : [ "kb=dbo:developer Commercial_software", "Cosine=0.610367937893074", "triple=e dbo:developer Commercial_software", "class=Software" ],
+    "8" : [ "kb=dbo:genre Command_(computing)", "Cosine=0.605822809570376", "triple=e dbo:genre Command_(computing)", "class=Software" ],
+    "9" : [ "kb=dbp:genre Programming_tool", "Cosine=0.605530070819498", "triple=e dbp:genre Programming_tool", "class=Software" ],
+    "10" : [ "kb=dbp:operatingSystem Unix and Unix-like@en", "Cosine=0.596284793999944", "triple=e dbp:operatingSystem Unix and Unix-like@en", "class=Software" ],
+    "11" : [ "kb=dbo:developer Open-source_software", "Cosine=0.59317101400174", "triple=e dbo:developer Open-source_software", "class=Software" ],
+    "12" : [ "kb=dbo:operatingSystem IBM_i", "Cosine=0.58554004376912", "triple=e dbo:operatingSystem IBM_i", "class=Software" ],
+    "13" : [ "kb=dbp:author @en", "Cosine=0.584897651865602", "triple=e dbp:author @en", "class=Software" ],
+    "14" : [ "kb=dbp:developer Bell_Labs", "Cosine=0.571428571428571", "triple=e dbp:developer Bell_Labs", "class=Software" ],
+    "15" : [ "kb=dbo:developer GNU_Project", "Cosine=0.563092506371473", "triple=e dbo:developer GNU_Project", "class=Software" ],
+    "16" : [ "kb=dbo:genre 3D_computer_graphics", "Cosine=0.561083607686782", "triple=e dbo:genre 3D_computer_graphics", "class=Software" ],
+    "17" : [ "kb=dbo:status \"Inactive\"", "Cosine=0.559016994374947", "triple=e dbo:status \"Inactive\"", "class=Software" ],
+    "18" : [ "kb=dbo:genre Library_(computing)", "Cosine=0.558290526239082", "triple=e dbo:genre Library_(computing)", "class=Software" ],
+    "19" : [ "kb=dbp:genre Geographic_information_system", "Cosine=0.554700196225229", "triple=e dbp:genre Geographic_information_system", "class=Software" ],
+    "20" : [ "kb=dbp:programmingLanguage Perl", "Cosine=0.541828369182877", "triple=e dbp:programmingLanguage Perl", "class=Software" ],
+    "21" : [ "kb=dbo:developer Digital_Research", "Cosine=0.53802758684897", "triple=e dbo:developer Digital_Research", "class=Software" ],
+    "22" : [ "kb=dbp:status Inactive@en", "Cosine=0.53748384988657", "triple=e dbp:status Inactive@en", "class=Software" ],
+    "23" : [ "kb=dbo:genre Computer-aided_design", "Cosine=0.536782631258072", "triple=e dbo:genre Computer-aided_design", "class=Software" ],
+    "24" : [ "kb=dbp:operatingSystem DOS", "Cosine=0.524749767832802", "triple=e dbp:operatingSystem DOS", "class=Software" ],
+    "25" : [ "kb=dbp:operatingSystem Windows@en", "Cosine=0.518874521662771", "triple=e dbp:operatingSystem Windows@en", "class=Software" ],
+    "26" : [ "kb=dbo:operatingSystem Unix", "Cosine=0.518593669397722", "triple=e dbo:operatingSystem Unix", "class=Software" ],
+    "27" : [ "kb=dbo:genre Bioinformatics", "Cosine=0.504524979109513", "triple=e dbo:genre Bioinformatics", "class=Software" ],
+    "28" : [ "kb=dbp:platform Cross-platform_software", "Cosine=0.502865352970744", "triple=e dbp:platform Cross-platform_software", "class=Software" ],
+    "29" : [ "kb=dbp:operatingSystem IBM_AIX", "Cosine=0.5", "triple=e dbp:operatingSystem IBM_AIX", "class=Software" ]
+  }
+}, {
+  "id" : 349,
+  "pattern" : "written",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:genre Content_management_system", "Cosine=0.618852747755276", "triple=e dbo:genre Content_management_system", "class=Software" ],
+    "1" : [ "kb=dbo:computingPlatform PHP", "Cosine=0.61588176205144", "triple=e dbo:computingPlatform PHP", "class=Software" ],
+    "2" : [ "kb=dbo:genre Web_framework", "Cosine=0.545776822909815", "triple=e dbo:genre Web_framework", "class=Software" ]
+  }
+} ]

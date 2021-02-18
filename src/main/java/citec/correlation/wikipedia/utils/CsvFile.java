@@ -11,7 +11,7 @@ import citec.correlation.wikipedia.dic.qald.Unit;
 import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
 import citec.correlation.wikipedia.main.CsvConstants;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
-import citec.correlation.wikipedia.parameters.ThresoldsExperiment;
+import citec.correlation.wikipedia.experiments.ThresoldsExperiment;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import com.opencsv.exceptions.CsvException;

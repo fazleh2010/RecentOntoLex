@@ -1,0 +1,1472 @@
+[ {
+  "id" : 10,
+  "pattern" : "according",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Korea", "AllConf=0.323529411764706", "triple=e dbp:country Korea", "class=Organisation" ],
+    "1" : [ "pair=\"1.57788E8\"^^http://dbpedia.org/datatype/second", "AllConf=0.290909090909091", "triple=e dbp:lowerAge \"1.57788E8\"^^http://dbpedia.org/datatype/second", "class=School" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "acquired",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=date unknown@en", "AllConf=0.357142857142857", "triple=e dbp:shipLaunched date unknown@en", "class=Ship" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "added",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=House@en", "AllConf=0.425", "triple=e dbp:designation1Free1value House@en", "class=HistoricPlace" ],
+    "1" : [ "pair=Heritage boundaries@en", "AllConf=0.424242424242424", "triple=e dbp:caption Heritage boundaries@en", "class=HistoricPlace" ],
+    "2" : [ "pair=\"2018-06-01\"^^http://www.w3.org/2001/XMLSchema#date", "AllConf=0.394736842105263", "triple=e dbp:accessdate \"2018-06-01\"^^http://www.w3.org/2001/XMLSchema#date", "class=HistoricPlace" ],
+    "3" : [ "pair=Residential buildings@en", "AllConf=0.385542168674699", "triple=e dbp:designation1Free2value Residential buildings@en", "class=HistoricPlace" ],
+    "4" : [ "pair=Commercial@en", "AllConf=0.382352941176471", "triple=e dbp:designation1Free2value Commercial@en", "class=HistoricPlace" ],
+    "5" : [ "pair=\"1860.0\"^^http://dbpedia.org/datatype/second", "AllConf=0.346938775510204", "triple=e dbp:beginningDate \"1860.0\"^^http://dbpedia.org/datatype/second", "class=HistoricPlace" ],
+    "6" : [ "pair=\"1999-04-02\"^^http://www.w3.org/2001/XMLSchema#date", "AllConf=0.34375", "triple=e dbp:designation1Date \"1999-04-02\"^^http://www.w3.org/2001/XMLSchema#date", "class=HistoricPlace" ],
+    "7" : [ "pair=Australia Sydney@en", "AllConf=0.33", "triple=e dbp:locmapin Australia Sydney@en", "class=HistoricPlace" ],
+    "8" : [ "pair=\"1890.0\"^^http://dbpedia.org/datatype/second", "AllConf=0.325", "triple=e dbp:beginningDate \"1890.0\"^^http://dbpedia.org/datatype/second", "class=HistoricPlace" ],
+    "9" : [ "pair=Queensland#Australia@en", "AllConf=0.318295739348371", "triple=e dbp:locmapin Queensland#Australia@en", "class=HistoricPlace" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "assigned",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=General Radar Surveillance@en", "AllConf=0.6", "triple=e dbp:type General Radar Surveillance@en", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "awarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=George_Cross", "AllConf=0.305555555555556", "triple=e dbo:award George_Cross", "class=MilitaryPerson" ],
+    "1" : [ "pair=Indian_nationality_law", "AllConf=0.259259259259259", "triple=e dbp:nationality Indian_nationality_law", "class=Scientist" ],
+    "2" : [ "pair=Indian_nationality", "AllConf=0.259259259259259", "triple=e dbo:nationality Indian_nationality", "class=Scientist" ]
+  }
+}, {
+  "id" : 103,
+  "pattern" : "based",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Doctor Who book:@en", "AllConf=0.21", "triple=e dbp:series Doctor Who book:@en", "class=Book" ],
+    "1" : [ "pair=Featuring:@en", "AllConf=0.182795698924731", "triple=e dbp:subject Featuring:@en", "class=Book" ],
+    "2" : [ "pair=Doctor_Who", "AllConf=0.15", "triple=e dbo:series Doctor_Who", "class=Book" ],
+    "3" : [ "pair=USA@en", "AllConf=0.110091743119266", "triple=e dbp:locationCountry USA@en", "class=Company" ],
+    "4" : [ "pair=Think_tank", "AllConf=0.182926829268293", "triple=e dbp:type Think_tank", "class=Organisation" ],
+    "5" : [ "pair=Catalonia, Spain@en", "AllConf=0.695652173913043", "triple=e dbp:ground Catalonia, Spain@en", "class=SoccerClub" ],
+    "6" : [ "pair=Catalonia", "AllConf=0.6", "triple=e dbo:ground Catalonia", "class=SoccerClub" ],
+    "7" : [ "pair=_bluelower@en", "AllConf=0.571428571428571", "triple=e dbp:patternRa _bluelower@en", "class=SoccerClub" ],
+    "8" : [ "pair=Cameroon@en", "AllConf=0.571428571428571", "triple=e dbp:nat Cameroon@en", "class=SoccerClub" ],
+    "9" : [ "pair=Cape_Verde", "AllConf=0.541666666666667", "triple=e dbp:ground Cape_Verde", "class=SoccerClub" ],
+    "10" : [ "pair=Indonesia", "AllConf=0.517241379310345", "triple=e dbo:ground Indonesia", "class=SoccerClub" ],
+    "11" : [ "pair=Thailand", "AllConf=0.508771929824561", "triple=e dbp:ground Thailand", "class=SoccerClub" ],
+    "12" : [ "pair=Thai_League_3", "AllConf=0.5", "triple=e dbp:league Thai_League_3", "class=SoccerClub" ],
+    "13" : [ "pair=2019_Liga_3", "AllConf=0.5", "triple=e dbo:season 2019_Liga_3", "class=SoccerClub" ],
+    "14" : [ "pair=Championnat_National_3", "AllConf=0.478260869565217", "triple=e dbo:league Championnat_National_3", "class=SoccerClub" ],
+    "15" : [ "pair=Portugal", "AllConf=0.472222222222222", "triple=e dbo:ground Portugal", "class=SoccerClub" ],
+    "16" : [ "pair=Liga_3_(Indonesia)", "AllConf=0.46875", "triple=e dbp:league Liga_3_(Indonesia)", "class=SoccerClub" ],
+    "17" : [ "pair=@en", "AllConf=0.464285714285714", "triple=e dbp:manager @en", "class=SoccerClub" ],
+    "18" : [ "pair=\"16000\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "AllConf=0.464285714285714", "triple=e dbo:capacity \"16000\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "class=SoccerClub" ],
+    "19" : [ "pair=Albania", "AllConf=0.458333333333333", "triple=e dbo:ground Albania", "class=SoccerClub" ],
+    "20" : [ "pair=Valencian_Community", "AllConf=0.458333333333333", "triple=e dbo:ground Valencian_Community", "class=SoccerClub" ],
+    "21" : [ "pair=_collar@en", "AllConf=0.457142857142857", "triple=e dbp:patternB _collar@en", "class=SoccerClub" ]
+  }
+}, {
+  "id" : 108,
+  "pattern" : "batted",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"--09-09\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "AllConf=0.576923076923077", "triple=e dbp:caption \"--09-09\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "class=BaseballPlayer" ],
+    "1" : [ "pair=at Baseball Hall of Fame and Museum@en", "AllConf=0.526315789473684", "triple=e dbp:highlights at Baseball Hall of Fame and Museum@en", "class=BaseballPlayer" ],
+    "2" : [ "pair=*Women in Baseball – AAGPBL Permanent Display at Baseball Hall of Fame and Museum@en", "AllConf=0.5", "triple=e dbp:highlights *Women in Baseball – AAGPBL Permanent Display at Baseball Hall of Fame and Museum@en", "class=BaseballPlayer" ]
+  }
+}, {
+  "id" : 144,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Grand_Rapids_Rampage", "AllConf=0.620689655172414", "triple=e dbo:formerTeam Grand_Rapids_Rampage", "class=AmericanFootballPlayer" ],
+    "1" : [ "pair=Baltimore_Brigade", "AllConf=0.617647058823529", "triple=e dbo:formerTeam Baltimore_Brigade", "class=AmericanFootballPlayer" ],
+    "2" : [ "pair=Long_Beach_Polytechnic_High_School", "AllConf=0.6", "triple=e dbo:highschool Long_Beach_Polytechnic_High_School", "class=AmericanFootballPlayer" ],
+    "3" : [ "pair=Houston_Roughnecks", "AllConf=0.576923076923077", "triple=e dbo:formerTeam Houston_Roughnecks", "class=AmericanFootballPlayer" ],
+    "4" : [ "pair=St._Louis_Rams", "AllConf=0.571428571428571", "triple=e dbo:team St._Louis_Rams", "class=AmericanFootballPlayer" ],
+    "5" : [ "pair=INTs@en", "AllConf=0.555555555555556", "triple=e dbp:statlabel INTs@en", "class=AmericanFootballPlayer" ],
+    "6" : [ "pair=\"98\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "AllConf=0.551724137931034", "triple=e dbo:number \"98\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "class=AmericanFootballPlayer" ],
+    "7" : [ "pair=Washington_Valor", "AllConf=0.548387096774194", "triple=e dbo:formerTeam Washington_Valor", "class=AmericanFootballPlayer" ],
+    "8" : [ "pair=W@en", "AllConf=0.545454545454545", "triple=e dbp:bowloutcome W@en", "class=AmericanFootballPlayer" ],
+    "9" : [ "pair=Sacramento_Mountain_Lions", "AllConf=0.525423728813559", "triple=e dbo:formerTeam Sacramento_Mountain_Lions", "class=AmericanFootballPlayer" ],
+    "10" : [ "pair=\"145\"", "AllConf=0.523809523809524", "triple=e dbo:draftPick \"145\"", "class=AmericanFootballPlayer" ],
+    "11" : [ "pair=Receiving TDs@en", "AllConf=0.52112676056338", "triple=e dbp:aflstatlabel Receiving TDs@en", "class=AmericanFootballPlayer" ],
+    "12" : [ "pair=Marshall_Thundering_Herd_football", "AllConf=0.52", "triple=e dbp:college Marshall_Thundering_Herd_football", "class=AmericanFootballPlayer" ],
+    "13" : [ "pair=St._Louis_BattleHawks", "AllConf=0.52", "triple=e dbo:formerTeam St._Louis_BattleHawks", "class=AmericanFootballPlayer" ],
+    "14" : [ "pair=Long_Beach,_California", "AllConf=0.52", "triple=e dbp:birthPlace Long_Beach,_California", "class=AmericanFootballPlayer" ],
+    "15" : [ "pair=\"1993\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.5", "triple=e dbo:undraftedYear \"1993\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=AmericanFootballPlayer" ],
+    "16" : [ "pair=\"1994\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.5", "triple=e dbo:undraftedYear \"1994\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=AmericanFootballPlayer" ],
+    "17" : [ "pair=\"22\"", "AllConf=0.5", "triple=e dbo:draftPick \"22\"", "class=AmericanFootballPlayer" ],
+    "18" : [ "pair=Rushing TDs@en", "AllConf=0.5", "triple=e dbp:aflstatlabel Rushing TDs@en", "class=AmericanFootballPlayer" ],
+    "19" : [ "pair=Houston Texans@en", "AllConf=0.5", "triple=e dbp:currentTeam Houston Texans@en", "class=AmericanFootballPlayer" ],
+    "20" : [ "pair=Tackle_(gridiron_football_position)", "AllConf=0.5", "triple=e dbp:statlabel Tackle_(gridiron_football_position)", "class=AmericanFootballPlayer" ],
+    "21" : [ "pair=Dallas_Cowboys", "AllConf=0.492307692307692", "triple=e dbo:team Dallas_Cowboys", "class=AmericanFootballPlayer" ],
+    "22" : [ "pair=Pop_art", "AllConf=0.535714285714286", "triple=e dbo:movement Pop_art", "class=Artist" ],
+    "23" : [ "pair=Contemporary_art", "AllConf=0.433333333333333", "triple=e dbo:field Contemporary_art", "class=Artist" ],
+    "24" : [ "pair=Los_Angeles", "AllConf=0.428571428571429", "triple=e dbp:birthPlace Los_Angeles", "class=Artist" ],
+    "25" : [ "pair=Minimalism", "AllConf=0.423076923076923", "triple=e dbo:movement Minimalism", "class=Artist" ],
+    "26" : [ "pair=Sculpture", "AllConf=0.384615384615385", "triple=e dbp:knownFor Sculpture", "class=Artist" ],
+    "27" : [ "pair=Film", "AllConf=0.378378378378378", "triple=e dbo:field Film", "class=Artist" ],
+    "28" : [ "pair=Video_art", "AllConf=0.36231884057971", "triple=e dbo:field Video_art", "class=Artist" ],
+    "29" : [ "pair=Israel", "AllConf=0.352941176470588", "triple=e dbo:birthPlace Israel", "class=Artist" ],
+    "30" : [ "pair=School_of_Visual_Arts", "AllConf=0.34375", "triple=e dbo:training School_of_Visual_Arts", "class=Artist" ],
+    "31" : [ "pair=Performance_art", "AllConf=0.328767123287671", "triple=e dbo:field Performance_art", "class=Artist" ],
+    "32" : [ "pair=Installation_art", "AllConf=0.323076923076923", "triple=e dbp:field Installation_art", "class=Artist" ],
+    "33" : [ "pair=Sculpture@en", "AllConf=0.315789473684211", "triple=e dbp:knownFor Sculpture@en", "class=Artist" ],
+    "34" : [ "pair=Poland", "AllConf=0.3125", "triple=e dbo:birthPlace Poland", "class=Artist" ],
+    "35" : [ "pair=National_Endowment_for_the_Arts", "AllConf=0.289473684210526", "triple=e dbo:award National_Endowment_for_the_Arts", "class=Artist" ],
+    "36" : [ "pair=New_York_City", "AllConf=0.287671232876712", "triple=e dbp:birthPlace New_York_City", "class=Artist" ],
+    "37" : [ "pair=Conceptual_art", "AllConf=0.282051282051282", "triple=e dbo:movement Conceptual_art", "class=Artist" ],
+    "38" : [ "pair=Guggenheim_Fellowship", "AllConf=0.27906976744186", "triple=e dbo:award Guggenheim_Fellowship", "class=Artist" ],
+    "39" : [ "pair=Australia", "AllConf=0.275", "triple=e dbp:birthPlace Australia", "class=Artist" ],
+    "40" : [ "pair=Printmaking", "AllConf=0.272", "triple=e dbp:field Printmaking", "class=Artist" ],
+    "41" : [ "pair=Photography@en", "AllConf=0.268817204301075", "triple=e dbp:field Photography@en", "class=Artist" ],
+    "42" : [ "pair=Biathlon", "AllConf=0.214285714285714", "triple=e dbp:sport Biathlon", "class=Athlete" ],
+    "43" : [ "pair=Handball", "AllConf=0.194029850746269", "triple=e dbp:sport Handball", "class=Athlete" ],
+    "44" : [ "pair=Track and field@en", "AllConf=0.172413793103448", "triple=e dbp:sport Track and field@en", "class=Athlete" ],
+    "45" : [ "pair=Brazilian@en", "AllConf=0.164556962025316", "triple=e dbp:nationality Brazilian@en", "class=Athlete" ],
+    "46" : [ "pair=Sailing_(sport)", "AllConf=0.147959183673469", "triple=e dbp:sport Sailing_(sport)", "class=Athlete" ],
+    "47" : [ "pair=Canadian@en", "AllConf=0.147286821705426", "triple=e dbp:nationality Canadian@en", "class=Athlete" ],
+    "48" : [ "pair=Bobsleigh", "AllConf=0.147058823529412", "triple=e dbp:sport Bobsleigh", "class=Athlete" ],
+    "49" : [ "pair=Romanian@en", "AllConf=0.142857142857143", "triple=e dbp:nationality Romanian@en", "class=Athlete" ],
+    "50" : [ "pair=Polish@en", "AllConf=0.132352941176471", "triple=e dbp:nationality Polish@en", "class=Athlete" ],
+    "51" : [ "pair=\"400.0\"^^http://dbpedia.org/datatype/metre", "AllConf=0.128440366972477", "triple=e dbp:event \"400.0\"^^http://dbpedia.org/datatype/metre", "class=Athlete" ],
+    "52" : [ "pair=United_States", "AllConf=0.127906976744186", "triple=e dbo:stateOfOrigin United_States", "class=Athlete" ],
+    "53" : [ "pair=Australian@en", "AllConf=0.127118644067797", "triple=e dbp:nationality Australian@en", "class=Athlete" ],
+    "54" : [ "pair=Chinese@en", "AllConf=0.126315789473684", "triple=e dbp:nationality Chinese@en", "class=Athlete" ],
+    "55" : [ "pair=Olympic_weightlifting", "AllConf=0.126182965299685", "triple=e dbp:sport Olympic_weightlifting", "class=Athlete" ],
+    "56" : [ "pair=@en", "AllConf=0.125", "triple=e dbp:pb @en", "class=Athlete" ],
+    "57" : [ "pair=Bulgarian@en", "AllConf=0.119565217391304", "triple=e dbp:nationality Bulgarian@en", "class=Athlete" ],
+    "58" : [ "pair=Judo", "AllConf=0.117370892018779", "triple=e dbp:sport Judo", "class=Athlete" ],
+    "59" : [ "pair=Equestrianism", "AllConf=0.116959064327485", "triple=e dbp:sport Equestrianism", "class=Athlete" ],
+    "60" : [ "pair=South Korean@en", "AllConf=0.113207547169811", "triple=e dbp:nationality South Korean@en", "class=Athlete" ],
+    "61" : [ "pair=Spanish@en", "AllConf=0.111111111111111", "triple=e dbp:nationality Spanish@en", "class=Athlete" ],
+    "62" : [ "pair=Field_hockey", "AllConf=0.111111111111111", "triple=e dbp:sport Field_hockey", "class=Athlete" ],
+    "63" : [ "pair=Wrestling", "AllConf=0.109540636042403", "triple=e dbp:sport Wrestling", "class=Athlete" ],
+    "64" : [ "pair=Track_and_field", "AllConf=0.107462686567164", "triple=e dbp:sport Track_and_field", "class=Athlete" ],
+    "65" : [ "pair=Sport_of_athletics", "AllConf=0.104761904761905", "triple=e dbp:sport Sport_of_athletics", "class=Athlete" ],
+    "66" : [ "pair=Middle-distance running@en", "AllConf=0.102803738317757", "triple=e dbp:sport Middle-distance running@en", "class=Athlete" ],
+    "67" : [ "pair=\"12\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "AllConf=0.851851851851852", "triple=e dbo:number \"12\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "class=AustralianRulesFootballPlayer" ],
+    "68" : [ "pair=Thebarton_Oval", "AllConf=0.851851851851852", "triple=e dbp:debutstadium Thebarton_Oval", "class=AustralianRulesFootballPlayer" ],
+    "69" : [ "pair=Batting_average_(baseball)", "AllConf=0.619047619047619", "triple=e dbp:stat21label Batting_average_(baseball)", "class=BaseballPlayer" ],
+    "70" : [ "pair=Los_Angeles_Angels", "AllConf=0.592592592592593", "triple=e dbp:debutteam Los_Angeles_Angels", "class=BaseballPlayer" ],
+    "71" : [ "pair=Run_batted_in", "AllConf=0.575757575757576", "triple=e dbp:stat23label Run_batted_in", "class=BaseballPlayer" ],
+    "72" : [ "pair=Hiroshima_Toyo_Carp", "AllConf=0.566666666666667", "triple=e dbo:team Hiroshima_Toyo_Carp", "class=BaseballPlayer" ],
+    "73" : [ "pair=San_Francisco_Giants", "AllConf=0.545454545454545", "triple=e dbo:team San_Francisco_Giants", "class=BaseballPlayer" ],
+    "74" : [ "pair=Tampa Bay Devil Rays@en", "AllConf=0.545454545454545", "triple=e dbp:finalteam Tampa Bay Devil Rays@en", "class=BaseballPlayer" ],
+    "75" : [ "pair=New_York_Mets", "AllConf=0.541666666666667", "triple=e dbp:finalteam New_York_Mets", "class=BaseballPlayer" ],
+    "76" : [ "pair=Hiroshima Toyo Carp@en", "AllConf=0.538461538461538", "triple=e dbp:team Hiroshima Toyo Carp@en", "class=BaseballPlayer" ],
+    "77" : [ "pair=Yokohama_DeNA_BayStars", "AllConf=0.533333333333333", "triple=e dbo:debutTeam Yokohama_DeNA_BayStars", "class=BaseballPlayer" ],
+    "78" : [ "pair=San Francisco Giants@en", "AllConf=0.525", "triple=e dbp:team San Francisco Giants@en", "class=BaseballPlayer" ],
+    "79" : [ "pair=Cleveland Indians@en", "AllConf=0.521739130434783", "triple=e dbp:team Cleveland Indians@en", "class=BaseballPlayer" ],
+    "80" : [ "pair=MLB@en", "AllConf=0.521739130434783", "triple=e dbp:debut2league MLB@en", "class=BaseballPlayer" ],
+    "81" : [ "pair=Los Angeles Angels of Anaheim@en", "AllConf=0.52", "triple=e dbp:debutteam Los Angeles Angels of Anaheim@en", "class=BaseballPlayer" ],
+    "82" : [ "pair=Save_(baseball)", "AllConf=0.515151515151515", "triple=e dbp:stat2label Save_(baseball)", "class=BaseballPlayer" ],
+    "83" : [ "pair=Miami Marlins@en", "AllConf=0.515151515151515", "triple=e dbp:team Miami Marlins@en", "class=BaseballPlayer" ],
+    "84" : [ "pair=New York Yankees@en", "AllConf=0.513513513513513", "triple=e dbp:team New York Yankees@en", "class=BaseballPlayer" ],
+    "85" : [ "pair=NPB@en", "AllConf=0.5", "triple=e dbp:stat2league NPB@en", "class=BaseballPlayer" ],
+    "86" : [ "pair=Yomiuri Giants@en", "AllConf=0.5", "triple=e dbp:debutteam Yomiuri Giants@en", "class=BaseballPlayer" ],
+    "87" : [ "pair=*New York Mets@en", "AllConf=0.5", "triple=e dbp:teams *New York Mets@en", "class=BaseballPlayer" ],
+    "88" : [ "pair=Arizona_Diamondbacks", "AllConf=0.5", "triple=e dbo:team Arizona_Diamondbacks", "class=BaseballPlayer" ],
+    "89" : [ "pair=Cleveland_Indians", "AllConf=0.5", "triple=e dbo:team Cleveland_Indians", "class=BaseballPlayer" ],
+    "90" : [ "pair=New_York_Yankees", "AllConf=0.5", "triple=e dbo:team New_York_Yankees", "class=BaseballPlayer" ],
+    "91" : [ "pair=Arizona Diamondbacks@en", "AllConf=0.5", "triple=e dbp:finalteam Arizona Diamondbacks@en", "class=BaseballPlayer" ],
+    "92" : [ "pair=Seattle Mariners@en", "AllConf=0.5", "triple=e dbp:finalteam Seattle Mariners@en", "class=BaseballPlayer" ],
+    "93" : [ "pair=San_Diego_Padres", "AllConf=0.5", "triple=e dbp:finalteam San_Diego_Padres", "class=BaseballPlayer" ],
+    "94" : [ "pair=Taiwan", "AllConf=0.5", "triple=e dbo:birthPlace Taiwan", "class=BaseballPlayer" ],
+    "95" : [ "pair=Caracas", "AllConf=0.5", "triple=e dbp:birthPlace Caracas", "class=BaseballPlayer" ],
+    "96" : [ "pair=Saves@en", "AllConf=0.484848484848485", "triple=e dbp:stat4label Saves@en", "class=BaseballPlayer" ],
+    "97" : [ "pair=* Chunichi Dragons@en", "AllConf=0.483870967741935", "triple=e dbp:teams * Chunichi Dragons@en", "class=BaseballPlayer" ],
+    "98" : [ "pair=\"--06-15\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "AllConf=0.482758620689655", "triple=e dbp:debutdate \"--06-15\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "class=BaseballPlayer" ],
+    "99" : [ "pair=Texas_Rangers_(baseball)", "AllConf=0.481481481481481", "triple=e dbp:debutteam Texas_Rangers_(baseball)", "class=BaseballPlayer" ],
+    "100" : [ "pair=Los_Angeles_Angels_of_Anaheim", "AllConf=0.481481481481481", "triple=e dbo:debutTeam Los_Angeles_Angels_of_Anaheim", "class=BaseballPlayer" ],
+    "101" : [ "pair=Hanshin_Tigers", "AllConf=0.481481481481481", "triple=e dbo:team Hanshin_Tigers", "class=BaseballPlayer" ],
+    "102" : [ "pair=Runs@en", "AllConf=0.48", "triple=e dbp:stat2label Runs@en", "class=BaseballPlayer" ],
+    "103" : [ "pair=Florida", "AllConf=0.478260869565217", "triple=e dbo:birthPlace Florida", "class=BaseballPlayer" ],
+    "104" : [ "pair=Shanxi_Loongs", "AllConf=0.869565217391304", "triple=e dbp:team Shanxi_Loongs", "class=BasketballPlayer" ],
+    "105" : [ "pair=Dutch_Basketball_Supercup", "AllConf=0.838709677419355", "triple=e dbo:award Dutch_Basketball_Supercup", "class=BasketballPlayer" ],
+    "106" : [ "pair=CSM_U_Oradea", "AllConf=0.80952380952381", "triple=e dbp:team CSM_U_Oradea", "class=BasketballPlayer" ],
+    "107" : [ "pair=Makedonikos_B.C.", "AllConf=0.793103448275862", "triple=e dbp:team Makedonikos_B.C.", "class=BasketballPlayer" ],
+    "108" : [ "pair=Cleveland Cavaliers@en", "AllConf=0.782608695652174", "triple=e dbp:team Cleveland Cavaliers@en", "class=BasketballPlayer" ],
+    "109" : [ "pair=Flyers_Wels", "AllConf=0.761904761904762", "triple=e dbp:team Flyers_Wels", "class=BasketballPlayer" ],
+    "110" : [ "pair=APOEL_B.C.", "AllConf=0.754716981132076", "triple=e dbp:team APOEL_B.C.", "class=BasketballPlayer" ],
+    "111" : [ "pair=BBL_All-Star", "AllConf=0.75", "triple=e dbo:award BBL_All-Star", "class=BasketballPlayer" ],
+    "112" : [ "pair=LKF_Cup", "AllConf=0.75", "triple=e dbo:award LKF_Cup", "class=BasketballPlayer" ],
+    "113" : [ "pair=Lugano_Tigers", "AllConf=0.75", "triple=e dbp:team Lugano_Tigers", "class=BasketballPlayer" ],
+    "114" : [ "pair=Obradoiro_CAB", "AllConf=0.74", "triple=e dbp:team Obradoiro_CAB", "class=BasketballPlayer" ],
+    "115" : [ "pair=German_Basketball_Cup", "AllConf=0.738095238095238", "triple=e dbo:award German_Basketball_Cup", "class=BasketballPlayer" ],
+    "116" : [ "pair=NBB_Cup", "AllConf=0.738095238095238", "triple=e dbo:award NBB_Cup", "class=BasketballPlayer" ],
+    "117" : [ "pair=Supercopa_de_España_de_Baloncesto", "AllConf=0.733333333333333", "triple=e dbo:award Supercopa_de_España_de_Baloncesto", "class=BasketballPlayer" ],
+    "118" : [ "pair=KK_FMP_(1991–2011)", "AllConf=0.733333333333333", "triple=e dbp:team KK_FMP_(1991–2011)", "class=BasketballPlayer" ],
+    "119" : [ "pair=Zagreb", "AllConf=0.72972972972973", "triple=e dbp:birthPlace Zagreb", "class=BasketballPlayer" ],
+    "120" : [ "pair=MBC_Dynamo_Moscow", "AllConf=0.729166666666667", "triple=e dbp:team MBC_Dynamo_Moscow", "class=BasketballPlayer" ],
+    "121" : [ "pair=Södertälje_Kings", "AllConf=0.727272727272727", "triple=e dbp:team Södertälje_Kings", "class=BasketballPlayer" ],
+    "122" : [ "pair=Denain_Voltaire_Basket", "AllConf=0.727272727272727", "triple=e dbp:team Denain_Voltaire_Basket", "class=BasketballPlayer" ],
+    "123" : [ "pair=Uşak_Sportif", "AllConf=0.727272727272727", "triple=e dbp:team Uşak_Sportif", "class=BasketballPlayer" ],
+    "124" : [ "pair=Houston_Cougars_men's_basketball", "AllConf=0.724137931034483", "triple=e dbo:college Houston_Cougars_men's_basketball", "class=BasketballPlayer" ],
+    "125" : [ "pair=BK_Barons", "AllConf=0.72", "triple=e dbp:team BK_Barons", "class=BasketballPlayer" ],
+    "126" : [ "pair=Busan_KT_Sonicboom", "AllConf=0.72", "triple=e dbp:team Busan_KT_Sonicboom", "class=BasketballPlayer" ],
+    "127" : [ "pair=BC_Kyiv", "AllConf=0.714285714285714", "triple=e dbp:team BC_Kyiv", "class=BasketballPlayer" ],
+    "128" : [ "pair=Atomerőmű_SE", "AllConf=0.714285714285714", "triple=e dbp:team Atomerőmű_SE", "class=BasketballPlayer" ],
+    "129" : [ "pair=Cangrejeros_de_Santurce_(basketball)", "AllConf=0.714285714285714", "triple=e dbp:team Cangrejeros_de_Santurce_(basketball)", "class=BasketballPlayer" ],
+    "130" : [ "pair=Stal_Ostrów_Wielkopolski", "AllConf=0.714285714285714", "triple=e dbp:team Stal_Ostrów_Wielkopolski", "class=BasketballPlayer" ],
+    "131" : [ "pair=Big_East_Conference_Men's_Basketball_Player_of_the_Year", "AllConf=0.708333333333333", "triple=e dbo:award Big_East_Conference_Men's_Basketball_Player_of_the_Year", "class=BasketballPlayer" ],
+    "132" : [ "pair=Aris_B.C.", "AllConf=0.708333333333333", "triple=e dbp:cteam Aris_B.C.", "class=BasketballPlayer" ],
+    "133" : [ "pair=Pallacanestro_Don_Bosco_Livorno", "AllConf=0.708333333333333", "triple=e dbp:team Pallacanestro_Don_Bosco_Livorno", "class=BasketballPlayer" ],
+    "134" : [ "pair=Netherlands", "AllConf=0.590909090909091", "triple=e dbo:country Netherlands", "class=Cricketer" ],
+    "135" : [ "pair=Tamil_Nadu", "AllConf=0.583333333333333", "triple=e dbo:birthPlace Tamil_Nadu", "class=Cricketer" ],
+    "136" : [ "pair=Trinidad_and_Tobago", "AllConf=0.571428571428571", "triple=e dbp:birthPlace Trinidad_and_Tobago", "class=Cricketer" ],
+    "137" : [ "pair=New Zealand@en", "AllConf=0.555555555555556", "triple=e dbp:lastt20iagainst New Zealand@en", "class=Cricketer" ],
+    "138" : [ "pair=Uganda@en", "AllConf=0.545454545454545", "triple=e dbp:country Uganda@en", "class=Cricketer" ],
+    "139" : [ "pair=West Indies@en", "AllConf=0.534883720930233", "triple=e dbp:t20idebutagainst West Indies@en", "class=Cricketer" ],
+    "140" : [ "pair=UAE@en", "AllConf=0.523809523809524", "triple=e dbp:lastt20iagainst UAE@en", "class=Cricketer" ],
+    "141" : [ "pair=Rhodesia", "AllConf=0.52", "triple=e dbp:birthPlace Rhodesia", "class=Cricketer" ],
+    "142" : [ "pair=\"--09-20\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "AllConf=0.516129032258065", "triple=e dbp:date \"--09-20\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "class=Cricketer" ],
+    "143" : [ "pair=South Africa@en", "AllConf=0.5", "triple=e dbp:t20idebutagainst South Africa@en", "class=Cricketer" ],
+    "144" : [ "pair=Bulawayo", "AllConf=0.5", "triple=e dbo:birthPlace Bulawayo", "class=Cricketer" ],
+    "145" : [ "pair=Leicester", "AllConf=0.5", "triple=e dbo:birthPlace Leicester", "class=Cricketer" ],
+    "146" : [ "pair=Cambridgeshire_County_Cricket_Club", "AllConf=0.5", "triple=e dbp:club Cambridgeshire_County_Cricket_Club", "class=Cricketer" ],
+    "147" : [ "pair=Dhaka_Platoon", "AllConf=0.5", "triple=e dbp:club Dhaka_Platoon", "class=Cricketer" ],
+    "148" : [ "pair=Mumbai_Indians", "AllConf=0.5", "triple=e dbp:club Mumbai_Indians", "class=Cricketer" ],
+    "149" : [ "pair=Rajasthan_Royals", "AllConf=0.5", "triple=e dbp:club Rajasthan_Royals", "class=Cricketer" ],
+    "150" : [ "pair=Sydney_Sixers", "AllConf=0.5", "triple=e dbp:club Sydney_Sixers", "class=Cricketer" ],
+    "151" : [ "pair=Sunrisers_Hyderabad", "AllConf=0.5", "triple=e dbp:club Sunrisers_Hyderabad", "class=Cricketer" ],
+    "152" : [ "pair=\"2015-12-22\"^^http://www.w3.org/2001/XMLSchema#date", "AllConf=0.482758620689655", "triple=e dbp:date \"2015-12-22\"^^http://www.w3.org/2001/XMLSchema#date", "class=Cricketer" ],
+    "153" : [ "pair=India@en", "AllConf=0.48", "triple=e dbp:t20idebutagainst India@en", "class=Cricketer" ],
+    "154" : [ "pair=Sri Lanka@en", "AllConf=0.478260869565217", "triple=e dbp:testdebutagainst Sri Lanka@en", "class=Cricketer" ],
+    "155" : [ "pair=Jamaica", "AllConf=0.472222222222222", "triple=e dbp:birthPlace Jamaica", "class=Cricketer" ],
+    "156" : [ "pair=Essex_County_Cricket_Club", "AllConf=0.470588235294118", "triple=e dbp:debutagainst Essex_County_Cricket_Club", "class=Cricketer" ],
+    "157" : [ "pair=Lincolnshire_County_Cricket_Club", "AllConf=0.470588235294118", "triple=e dbp:club Lincolnshire_County_Cricket_Club", "class=Cricketer" ],
+    "158" : [ "pair=Somerset@en", "AllConf=0.46875", "triple=e dbp:club Somerset@en", "class=Cricketer" ],
+    "159" : [ "pair=Cornwall", "AllConf=0.461538461538462", "triple=e dbo:birthPlace Cornwall", "class=Cricketer" ],
+    "160" : [ "pair=yes@en", "AllConf=0.461538461538462", "triple=e dbp:blp yes@en", "class=Cricketer" ],
+    "161" : [ "pair=Northerns_(cricket_team)", "AllConf=0.461538461538462", "triple=e dbp:club Northerns_(cricket_team)", "class=Cricketer" ],
+    "162" : [ "pair=Australia@en", "AllConf=0.46", "triple=e dbp:lastt20iagainst Australia@en", "class=Cricketer" ],
+    "163" : [ "pair=September 2017@en", "AllConf=0.459459459459459", "triple=e dbp:date September 2017@en", "class=Cricketer" ],
+    "164" : [ "pair=Women's_Twenty20_International", "AllConf=0.458333333333333", "triple=e dbp:column Women's_Twenty20_International", "class=Cricketer" ],
+    "165" : [ "pair=Oxford_University_Cricket_Club", "AllConf=0.458333333333333", "triple=e dbp:debutagainst Oxford_University_Cricket_Club", "class=Cricketer" ],
+    "166" : [ "pair=Royal_Challengers_Bangalore", "AllConf=0.454545454545455", "triple=e dbp:club Royal_Challengers_Bangalore", "class=Cricketer" ],
+    "167" : [ "pair=Ireland@en", "AllConf=0.451612903225806", "triple=e dbp:lastt20iagainst Ireland@en", "class=Cricketer" ],
+    "168" : [ "pair=Trinidad_and_Tobago_national_cricket_team", "AllConf=0.45", "triple=e dbp:club Trinidad_and_Tobago_national_cricket_team", "class=Cricketer" ],
+    "169" : [ "pair=\"--05-20\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "AllConf=0.448275862068966", "triple=e dbp:t20idebutdate \"--05-20\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "class=Cricketer" ],
+    "170" : [ "pair=\"Right armmedium\"", "AllConf=0.446808510638298", "triple=e dbo:bowlingSide \"Right armmedium\"", "class=Cricketer" ],
+    "171" : [ "pair=Bangladesh@en", "AllConf=0.444444444444444", "triple=e dbp:odidebutagainst Bangladesh@en", "class=Cricketer" ],
+    "172" : [ "pair=England@en", "AllConf=0.443478260869565", "triple=e dbp:odidebutagainst England@en", "class=Cricketer" ],
+    "173" : [ "pair=\"Left-armfast-medium\"", "AllConf=0.44", "triple=e dbo:bowlingSide \"Left-armfast-medium\"", "class=Cricketer" ],
+    "174" : [ "pair=Zimbabwe", "AllConf=0.439024390243902", "triple=e dbo:country Zimbabwe", "class=Cricketer" ],
+    "175" : [ "pair=\"--09-01\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "AllConf=0.433333333333333", "triple=e dbp:date \"--09-01\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "class=Cricketer" ],
+    "176" : [ "pair=Suffolk_County_Cricket_Club", "AllConf=0.432432432432432", "triple=e dbp:club Suffolk_County_Cricket_Club", "class=Cricketer" ],
+    "177" : [ "pair=Northern_Districts_cricket_team", "AllConf=0.432432432432432", "triple=e dbp:club Northern_Districts_cricket_team", "class=Cricketer" ],
+    "178" : [ "pair=Leicestershire", "AllConf=0.428571428571429", "triple=e dbp:birthPlace Leicestershire", "class=Cricketer" ],
+    "179" : [ "pair=KwaZulu-Natal_(cricket_team)", "AllConf=0.428571428571429", "triple=e dbp:club KwaZulu-Natal_(cricket_team)", "class=Cricketer" ],
+    "180" : [ "pair=Delhi_Capitals", "AllConf=0.428571428571429", "triple=e dbp:club Delhi_Capitals", "class=Cricketer" ],
+    "181" : [ "pair=Norfolk", "AllConf=0.423076923076923", "triple=e dbp:birthPlace Norfolk", "class=Cricketer" ],
+    "182" : [ "pair=West Indies squads@en", "AllConf=0.419354838709677", "triple=e dbp:title West Indies squads@en", "class=Cricketer" ],
+    "183" : [ "pair=Twenty20_International", "AllConf=0.416918429003021", "triple=e dbp:column Twenty20_International", "class=Cricketer" ],
+    "184" : [ "pair=Quebec", "AllConf=0.863636363636364", "triple=e dbo:birthPlace Quebec", "class=Cyclist" ],
+    "185" : [ "pair=\"68.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.862745098039216", "triple=e dbp:weight \"68.0\"^^http://dbpedia.org/datatype/kilogram", "class=Cyclist" ],
+    "186" : [ "pair=Venezuela", "AllConf=0.857142857142857", "triple=e dbp:birthPlace Venezuela", "class=Cyclist" ],
+    "187" : [ "pair=Cyclo-cross", "AllConf=0.836734693877551", "triple=e dbp:discipline Cyclo-cross", "class=Cyclist" ],
+    "188" : [ "pair=\"78.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.833333333333333", "triple=e dbp:weight \"78.0\"^^http://dbpedia.org/datatype/kilogram", "class=Cyclist" ],
+    "189" : [ "pair=1.87 m@en", "AllConf=0.818181818181818", "triple=e dbp:height 1.87 m@en", "class=Cyclist" ],
+    "190" : [ "pair=East_Germany", "AllConf=0.794871794871795", "triple=e dbp:birthPlace East_Germany", "class=Cyclist" ],
+    "191" : [ "pair=Japan", "AllConf=0.794117647058823", "triple=e dbo:birthPlace Japan", "class=Cyclist" ],
+    "192" : [ "pair=1.85 m@en", "AllConf=0.785714285714286", "triple=e dbp:height 1.85 m@en", "class=Cyclist" ],
+    "193" : [ "pair=Road_cycling", "AllConf=0.784810126582278", "triple=e dbp:discipline Road_cycling", "class=Cyclist" ],
+    "194" : [ "pair=Soviet_Union", "AllConf=0.78", "triple=e dbp:birthPlace Soviet_Union", "class=Cyclist" ],
+    "195" : [ "pair=1.84 m@en", "AllConf=0.774193548387097", "triple=e dbp:height 1.84 m@en", "class=Cyclist" ],
+    "196" : [ "pair=:National Time Trial Championships@en", "AllConf=0.769230769230769", "triple=e dbp:majorwins :National Time Trial Championships@en", "class=Cyclist" ],
+    "197" : [ "pair=Sprinter_(cycling)", "AllConf=0.767441860465116", "triple=e dbp:ridertype Sprinter_(cycling)", "class=Cyclist" ],
+    "198" : [ "pair=1.83 m@en", "AllConf=0.767441860465116", "triple=e dbp:height 1.83 m@en", "class=Cyclist" ],
+    "199" : [ "pair=sprinter@en", "AllConf=0.764705882352941", "triple=e dbp:ridertype sprinter@en", "class=Cyclist" ],
+    "200" : [ "pair=Time-trialist@en", "AllConf=0.761904761904762", "triple=e dbp:ridertype Time-trialist@en", "class=Cyclist" ],
+    "201" : [ "pair=\"73.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.758620689655172", "triple=e dbp:weight \"73.0\"^^http://dbpedia.org/datatype/kilogram", "class=Cyclist" ],
+    "202" : [ "pair=\"62.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.758620689655172", "triple=e dbp:weight \"62.0\"^^http://dbpedia.org/datatype/kilogram", "class=Cyclist" ],
+    "203" : [ "pair=Classics specialist@en", "AllConf=0.743589743589744", "triple=e dbp:ridertype Classics specialist@en", "class=Cyclist" ],
+    "204" : [ "pair=\"69.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.736842105263158", "triple=e dbp:weight \"69.0\"^^http://dbpedia.org/datatype/kilogram", "class=Cyclist" ],
+    "205" : [ "pair=no@en", "AllConf=0.729257641921397", "triple=e dbp:showMedals no@en", "class=Cyclist" ],
+    "206" : [ "pair=Slovenia", "AllConf=0.727272727272727", "triple=e dbo:birthPlace Slovenia", "class=Cyclist" ],
+    "207" : [ "pair=Road, track@en", "AllConf=0.725", "triple=e dbp:discipline Road, track@en", "class=Cyclist" ],
+    "208" : [ "pair=\"70.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.724137931034483", "triple=e dbp:weight \"70.0\"^^http://dbpedia.org/datatype/kilogram", "class=Cyclist" ],
+    "209" : [ "pair=Suspended@en", "AllConf=0.71875", "triple=e dbp:currentteam Suspended@en", "class=Cyclist" ],
+    "210" : [ "pair=1.80 m@en", "AllConf=0.71875", "triple=e dbp:height 1.80 m@en", "class=Cyclist" ],
+    "211" : [ "pair=Retired@en", "AllConf=0.715263518138262", "triple=e dbp:currentteam Retired@en", "class=Cyclist" ],
+    "212" : [ "pair=Vuelta a España, 1 stage@en", "AllConf=0.714285714285714", "triple=e dbp:majorwins Vuelta a España, 1 stage@en", "class=Cyclist" ],
+    "213" : [ "pair=England", "AllConf=0.714285714285714", "triple=e dbp:birthPlace England", "class=Cyclist" ],
+    "214" : [ "pair=\"71.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.714285714285714", "triple=e dbp:weight \"71.0\"^^http://dbpedia.org/datatype/kilogram", "class=Cyclist" ],
+    "215" : [ "pair=\"64.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.714285714285714", "triple=e dbp:weight \"64.0\"^^http://dbpedia.org/datatype/kilogram", "class=Cyclist" ],
+    "216" : [ "pair=Track & Road@en", "AllConf=0.703703703703704", "triple=e dbp:discipline Track & Road@en", "class=Cyclist" ],
+    "217" : [ "pair=1.76 m@en", "AllConf=0.7", "triple=e dbp:height 1.76 m@en", "class=Cyclist" ],
+    "218" : [ "pair=1.73 m@en", "AllConf=0.695652173913043", "triple=e dbp:height 1.73 m@en", "class=Cyclist" ],
+    "219" : [ "pair=\"67.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.694444444444444", "triple=e dbp:weight \"67.0\"^^http://dbpedia.org/datatype/kilogram", "class=Cyclist" ],
+    "220" : [ "pair=Track_cycling", "AllConf=0.688172043010753", "triple=e dbp:discipline Track_cycling", "class=Cyclist" ],
+    "221" : [ "pair=Hungary", "AllConf=0.6875", "triple=e dbp:birthPlace Hungary", "class=Cyclist" ],
+    "222" : [ "pair=1.79 m@en", "AllConf=0.6875", "triple=e dbp:height 1.79 m@en", "class=Cyclist" ],
+    "223" : [ "pair=Puncheur@en", "AllConf=0.685714285714286", "triple=e dbp:ridertype Puncheur@en", "class=Cyclist" ],
+    "224" : [ "pair=Endurance@en", "AllConf=0.684210526315789", "triple=e dbp:ridertype Endurance@en", "class=Cyclist" ],
+    "225" : [ "pair=1.74 m@en", "AllConf=0.681818181818182", "triple=e dbp:height 1.74 m@en", "class=Cyclist" ],
+    "226" : [ "pair=All-rounder@en", "AllConf=0.680203045685279", "triple=e dbp:ridertype All-rounder@en", "class=Cyclist" ],
+    "227" : [ "pair=Sprinter@en", "AllConf=0.679738562091503", "triple=e dbp:ridertype Sprinter@en", "class=Cyclist" ],
+    "228" : [ "pair=One-day races and Classics\\n:@en", "AllConf=0.679245283018868", "triple=e dbp:majorwins One-day races and Classics\\n:@en", "class=Cyclist" ],
+    "229" : [ "pair=\"66.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.678571428571429", "triple=e dbp:weight \"66.0\"^^http://dbpedia.org/datatype/kilogram", "class=Cyclist" ],
+    "230" : [ "pair=1.75 m@en", "AllConf=0.675675675675676", "triple=e dbp:height 1.75 m@en", "class=Cyclist" ],
+    "231" : [ "pair=Time trialist@en", "AllConf=0.666666666666667", "triple=e dbp:ridertype Time trialist@en", "class=Cyclist" ],
+    "232" : [ "pair=Ukraine", "AllConf=0.666666666666667", "triple=e dbp:birthPlace Ukraine", "class=Cyclist" ],
+    "233" : [ "pair=AVC Aix-en-Provence@en", "AllConf=0.666666666666667", "triple=e dbp:amateurteam AVC Aix-en-Provence@en", "class=Cyclist" ],
+    "234" : [ "pair=Czechoslovakia", "AllConf=0.666666666666667", "triple=e dbo:birthPlace Czechoslovakia", "class=Cyclist" ],
+    "235" : [ "pair=\"65.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.666666666666667", "triple=e dbp:weight \"65.0\"^^http://dbpedia.org/datatype/kilogram", "class=Cyclist" ],
+    "236" : [ "pair=1.78 m@en", "AllConf=0.659574468085106", "triple=e dbp:height 1.78 m@en", "class=Cyclist" ],
+    "237" : [ "pair=Spain", "AllConf=0.657587548638132", "triple=e dbp:birthPlace Spain", "class=Cyclist" ],
+    "238" : [ "pair=\"75.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.657142857142857", "triple=e dbp:weight \"75.0\"^^http://dbpedia.org/datatype/kilogram", "class=Cyclist" ],
+    "239" : [ "pair=Climbing_specialist", "AllConf=0.653846153846154", "triple=e dbp:ridertype Climbing_specialist", "class=Cyclist" ],
+    "240" : [ "pair=Vienna", "AllConf=0.653846153846154", "triple=e dbo:birthPlace Vienna", "class=Cyclist" ],
+    "241" : [ "pair=Climbing specialist@en", "AllConf=0.651162790697674", "triple=e dbp:ridertype Climbing specialist@en", "class=Cyclist" ],
+    "242" : [ "pair=Rouleur@en", "AllConf=0.642857142857143", "triple=e dbp:ridertype Rouleur@en", "class=Cyclist" ],
+    "243" : [ "pair=1.81 m@en", "AllConf=0.64", "triple=e dbp:height 1.81 m@en", "class=Cyclist" ],
+    "244" : [ "pair=New_Zealand", "AllConf=0.64", "triple=e dbo:birthPlace New_Zealand", "class=Cyclist" ],
+    "245" : [ "pair=Budapest", "AllConf=0.636363636363636", "triple=e dbo:birthPlace Budapest", "class=Cyclist" ],
+    "246" : [ "pair=Russia", "AllConf=0.631578947368421", "triple=e dbo:birthPlace Russia", "class=Cyclist" ],
+    "247" : [ "pair=\"72.0\"^^http://dbpedia.org/datatype/kilogram", "AllConf=0.628571428571429", "triple=e dbp:weight \"72.0\"^^http://dbpedia.org/datatype/kilogram", "class=Cyclist" ],
+    "248" : [ "pair=Racer@en", "AllConf=0.625", "triple=e dbp:role Racer@en", "class=Cyclist" ],
+    "249" : [ "pair=HC_Ambrì-Piotta", "AllConf=0.8", "triple=e dbp:playedFor HC_Ambrì-Piotta", "class=IceHockeyPlayer" ],
+    "250" : [ "pair=TPS_(ice_hockey)", "AllConf=0.8", "triple=e dbo:formerTeam TPS_(ice_hockey)", "class=IceHockeyPlayer" ],
+    "251" : [ "pair=St._Louis_Blues", "AllConf=0.783783783783784", "triple=e dbp:formerTeams St._Louis_Blues", "class=IceHockeyPlayer" ],
+    "252" : [ "pair=List_of_Toronto_Maple_Leafs_draft_picks", "AllConf=0.782608695652174", "triple=e dbp:title List_of_Toronto_Maple_Leafs_draft_picks", "class=IceHockeyPlayer" ],
+    "253" : [ "pair=Oulu", "AllConf=0.777777777777778", "triple=e dbo:birthPlace Oulu", "class=IceHockeyPlayer" ],
+    "254" : [ "pair=HC_TPS", "AllConf=0.767441860465116", "triple=e dbp:playedFor HC_TPS", "class=IceHockeyPlayer" ],
+    "255" : [ "pair=\"46th overall\"", "AllConf=0.761904761904762", "triple=e dbo:draft \"46th overall\"", "class=IceHockeyPlayer" ],
+    "256" : [ "pair=Flint_Generals", "AllConf=0.761904761904762", "triple=e dbo:formerTeam Flint_Generals", "class=IceHockeyPlayer" ],
+    "257" : [ "pair=EV_Zug", "AllConf=0.758620689655172", "triple=e dbp:playedFor EV_Zug", "class=IceHockeyPlayer" ],
+    "258" : [ "pair=\"51st overall\"", "AllConf=0.75", "triple=e dbo:draft \"51st overall\"", "class=IceHockeyPlayer" ],
+    "259" : [ "pair=Vålerenga_Ishockey", "AllConf=0.742857142857143", "triple=e dbo:formerTeam Vålerenga_Ishockey", "class=IceHockeyPlayer" ],
+    "260" : [ "pair=Oslo", "AllConf=0.741935483870968", "triple=e dbo:birthPlace Oslo", "class=IceHockeyPlayer" ],
+    "261" : [ "pair=List_of_Los_Angeles_Kings_draft_picks", "AllConf=0.740740740740741", "triple=e dbp:title List_of_Los_Angeles_Kings_draft_picks", "class=IceHockeyPlayer" ],
+    "262" : [ "pair=List_of_Edmonton_Oilers_draft_picks", "AllConf=0.740740740740741", "triple=e dbp:title List_of_Edmonton_Oilers_draft_picks", "class=IceHockeyPlayer" ],
+    "263" : [ "pair=Gothenburg", "AllConf=0.739130434782609", "triple=e dbo:birthPlace Gothenburg", "class=IceHockeyPlayer" ],
+    "264" : [ "pair=Scarborough, Ontario, Canada@en", "AllConf=0.739130434782609", "triple=e dbp:birthPlace Scarborough, Ontario, Canada@en", "class=IceHockeyPlayer" ],
+    "265" : [ "pair=Toronto_Marlies", "AllConf=0.733333333333333", "triple=e dbp:formerTeams Toronto_Marlies", "class=IceHockeyPlayer" ],
+    "266" : [ "pair=Brynäs_IF", "AllConf=0.730769230769231", "triple=e dbp:team Brynäs_IF", "class=IceHockeyPlayer" ],
+    "267" : [ "pair=Kazakhstan_Hockey_Championship", "AllConf=0.730769230769231", "triple=e dbo:league Kazakhstan_Hockey_Championship", "class=IceHockeyPlayer" ],
+    "268" : [ "pair=Kärpät", "AllConf=0.730769230769231", "triple=e dbo:formerTeam Kärpät", "class=IceHockeyPlayer" ],
+    "269" : [ "pair=France@en", "AllConf=0.72", "triple=e dbp:ntlTeam France@en", "class=IceHockeyPlayer" ],
+    "270" : [ "pair=HC_TWK_Innsbruck", "AllConf=0.714285714285714", "triple=e dbp:formerTeams HC_TWK_Innsbruck", "class=IceHockeyPlayer" ],
+    "271" : [ "pair=Minnesota_Wild", "AllConf=0.714285714285714", "triple=e dbo:team Minnesota_Wild", "class=IceHockeyPlayer" ],
+    "272" : [ "pair=Winnipeg_Jets", "AllConf=0.714285714285714", "triple=e dbo:draftTeam Winnipeg_Jets", "class=IceHockeyPlayer" ],
+    "273" : [ "pair=Bosnian_War", "AllConf=0.289473684210526", "triple=e dbo:battle Bosnian_War", "class=MilitaryPerson" ],
+    "274" : [ "pair=\"1977\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.289473684210526", "triple=e dbo:serviceStartYear \"1977\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MilitaryPerson" ],
+    "275" : [ "pair=Army Achievement Medal ribbon.svg@en", "AllConf=0.283018867924528", "triple=e dbp:ribbon Army Achievement Medal ribbon.svg@en", "class=MilitaryPerson" ],
+    "276" : [ "pair=\"1981\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.215189873417722", "triple=e dbo:activeYearsStartYear \"1981\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "277" : [ "pair=Yes@en", "AllConf=0.2", "triple=e dbp:landscape Yes@en", "class=MusicalArtist" ],
+    "278" : [ "pair=Norway", "AllConf=0.194444444444444", "triple=e dbo:hometown Norway", "class=MusicalArtist" ],
+    "279" : [ "pair=\"1979\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.193548387096774", "triple=e dbo:activeYearsStartYear \"1979\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "280" : [ "pair=Saxophone", "AllConf=0.192982456140351", "triple=e dbp:instrument Saxophone", "class=MusicalArtist" ],
+    "281" : [ "pair=J-pop", "AllConf=0.191780821917808", "triple=e dbo:genre J-pop", "class=MusicalArtist" ],
+    "282" : [ "pair=Epic_Records", "AllConf=0.186915887850467", "triple=e dbo:recordLabel Epic_Records", "class=MusicalArtist" ],
+    "283" : [ "pair=California", "AllConf=0.186046511627907", "triple=e dbo:birthPlace California", "class=MusicalArtist" ],
+    "284" : [ "pair=Experimental_music", "AllConf=0.181818181818182", "triple=e dbp:genre Experimental_music", "class=MusicalArtist" ],
+    "285" : [ "pair=\"2003\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.178807947019868", "triple=e dbo:activeYearsStartYear \"2003\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "286" : [ "pair=\"2013\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.175675675675676", "triple=e dbo:activeYearsStartYear \"2013\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "287" : [ "pair=Thrash_metal", "AllConf=0.169230769230769", "triple=e dbo:genre Thrash_metal", "class=MusicalArtist" ],
+    "288" : [ "pair=Film_score", "AllConf=0.168674698795181", "triple=e dbp:genre Film_score", "class=MusicalArtist" ],
+    "289" : [ "pair=Alternative_metal", "AllConf=0.166666666666667", "triple=e dbo:genre Alternative_metal", "class=MusicalArtist" ],
+    "290" : [ "pair=Rapper@en", "AllConf=0.165467625899281", "triple=e dbp:occupation Rapper@en", "class=MusicalArtist" ],
+    "291" : [ "pair=Dance_music", "AllConf=0.164705882352941", "triple=e dbp:genre Dance_music", "class=MusicalArtist" ],
+    "292" : [ "pair=\"2015\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.160493827160494", "triple=e dbo:activeYearsStartYear \"2015\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "293" : [ "pair=keyboards@en", "AllConf=0.16", "triple=e dbp:instrument keyboards@en", "class=MusicalArtist" ],
+    "294" : [ "pair=Synthpop", "AllConf=0.158536585365854", "triple=e dbo:genre Synthpop", "class=MusicalArtist" ],
+    "295" : [ "pair=EMI", "AllConf=0.158536585365854", "triple=e dbp:label EMI", "class=MusicalArtist" ],
+    "296" : [ "pair=\"1965\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.157894736842105", "triple=e dbo:activeYearsStartYear \"1965\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "297" : [ "pair=record producer@en", "AllConf=0.157657657657658", "triple=e dbp:occupation record producer@en", "class=MusicalArtist" ],
+    "298" : [ "pair=Rapping", "AllConf=0.155737704918033", "triple=e dbo:occupation Rapping", "class=MusicalArtist" ],
+    "299" : [ "pair=ja@en", "AllConf=0.153846153846154", "triple=e dbp:nativeNameLang ja@en", "class=MusicalArtist" ],
+    "300" : [ "pair=\"1982\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.152777777777778", "triple=e dbo:activeYearsStartYear \"1982\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "301" : [ "pair=Sony_Music", "AllConf=0.152777777777778", "triple=e dbo:recordLabel Sony_Music", "class=MusicalArtist" ],
+    "302" : [ "pair=Musician, composer@en", "AllConf=0.147058823529412", "triple=e dbp:occupation Musician, composer@en", "class=MusicalArtist" ],
+    "303" : [ "pair=Synth-pop", "AllConf=0.146341463414634", "triple=e dbp:genre Synth-pop", "class=MusicalArtist" ],
+    "304" : [ "pair=actor@en", "AllConf=0.146341463414634", "triple=e dbp:occupation actor@en", "class=MusicalArtist" ],
+    "305" : [ "pair=\"1988\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.145833333333333", "triple=e dbo:activeYearsStartYear \"1988\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "306" : [ "pair=New_wave_music", "AllConf=0.145454545454545", "triple=e dbp:genre New_wave_music", "class=MusicalArtist" ],
+    "307" : [ "pair=Contemporary_R&B", "AllConf=0.145228215767635", "triple=e dbp:genre Contemporary_R&B", "class=MusicalArtist" ],
+    "308" : [ "pair=\"2002\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.143884892086331", "triple=e dbo:activeYearsStartYear \"2002\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "309" : [ "pair=R&B", "AllConf=0.143712574850299", "triple=e dbo:genre R&B", "class=MusicalArtist" ],
+    "310" : [ "pair=Pop@en", "AllConf=0.142857142857143", "triple=e dbp:genre Pop@en", "class=MusicalArtist" ],
+    "311" : [ "pair=\"1999\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.141975308641975", "triple=e dbo:activeYearsStartYear \"1999\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "312" : [ "pair=Pop_rock", "AllConf=0.141732283464567", "triple=e dbo:genre Pop_rock", "class=MusicalArtist" ],
+    "313" : [ "pair=Heavy_metal_music", "AllConf=0.140845070422535", "triple=e dbp:genre Heavy_metal_music", "class=MusicalArtist" ],
+    "314" : [ "pair=\"2007\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.140127388535032", "triple=e dbo:activeYearsStartYear \"2007\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "315" : [ "pair=World_music", "AllConf=0.14", "triple=e dbp:genre World_music", "class=MusicalArtist" ],
+    "316" : [ "pair=\"1984\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.13953488372093", "triple=e dbo:activeYearsStartYear \"1984\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "317" : [ "pair=\"2000\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.138888888888889", "triple=e dbo:activeYearsStartYear \"2000\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "318" : [ "pair=Progressive_rock", "AllConf=0.138461538461538", "triple=e dbo:genre Progressive_rock", "class=MusicalArtist" ],
+    "319" : [ "pair=\"1997\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.138157894736842", "triple=e dbo:activeYearsStartYear \"1997\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "320" : [ "pair=Classical_music", "AllConf=0.136842105263158", "triple=e dbp:genre Classical_music", "class=MusicalArtist" ],
+    "321" : [ "pair=songwriter@en", "AllConf=0.13448275862069", "triple=e dbp:occupation songwriter@en", "class=MusicalArtist" ],
+    "322" : [ "pair=singer@en", "AllConf=0.13265306122449", "triple=e dbp:occupation singer@en", "class=MusicalArtist" ],
+    "323" : [ "pair=Vocals@en", "AllConf=0.13135593220339", "triple=e dbp:instrument Vocals@en", "class=MusicalArtist" ],
+    "324" : [ "pair=Universal_Music_Group", "AllConf=0.131313131313131", "triple=e dbo:recordLabel Universal_Music_Group", "class=MusicalArtist" ],
+    "325" : [ "pair=\"1995\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.13125", "triple=e dbo:activeYearsStartYear \"1995\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "326" : [ "pair=Alternative_rock", "AllConf=0.130434782608696", "triple=e dbo:genre Alternative_rock", "class=MusicalArtist" ],
+    "327" : [ "pair=Warner_Records", "AllConf=0.130434782608696", "triple=e dbp:label Warner_Records", "class=MusicalArtist" ],
+    "328" : [ "pair=\"1986\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.13", "triple=e dbo:activeYearsStartYear \"1986\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "329" : [ "pair=\"2008\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.12987012987013", "triple=e dbo:activeYearsStartYear \"2008\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "330" : [ "pair=Punk_rock", "AllConf=0.12972972972973", "triple=e dbp:genre Punk_rock", "class=MusicalArtist" ],
+    "331" : [ "pair=Singer-songwriter@en", "AllConf=0.128953771289538", "triple=e dbp:occupation Singer-songwriter@en", "class=MusicalArtist" ],
+    "332" : [ "pair=Hard_rock", "AllConf=0.128813559322034", "triple=e dbo:genre Hard_rock", "class=MusicalArtist" ],
+    "333" : [ "pair=\"2009\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.127659574468085", "triple=e dbo:activeYearsStartYear \"2009\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "334" : [ "pair=\"1992\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.126865671641791", "triple=e dbo:activeYearsStartYear \"1992\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "335" : [ "pair=Warner_Bros._Records", "AllConf=0.125925925925926", "triple=e dbo:recordLabel Warner_Bros._Records", "class=MusicalArtist" ],
+    "336" : [ "pair=musician@en", "AllConf=0.125786163522013", "triple=e dbp:occupation musician@en", "class=MusicalArtist" ],
+    "337" : [ "pair=Rock@en", "AllConf=0.125", "triple=e dbp:genre Rock@en", "class=MusicalArtist" ],
+    "338" : [ "pair=artist@en", "AllConf=0.125", "triple=e dbp:class artist@en", "class=MusicalArtist" ],
+    "339" : [ "pair=Electronica", "AllConf=0.12396694214876", "triple=e dbp:genre Electronica", "class=MusicalArtist" ],
+    "340" : [ "pair=piano@en", "AllConf=0.122699386503067", "triple=e dbp:instrument piano@en", "class=MusicalArtist" ],
+    "341" : [ "pair=\"1987\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.121495327102804", "triple=e dbo:activeYearsStartYear \"1987\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "342" : [ "pair=Mandolin", "AllConf=0.121212121212121", "triple=e dbo:instrument Mandolin", "class=MusicalArtist" ],
+    "343" : [ "pair=vocals@en", "AllConf=0.121019108280255", "triple=e dbp:instrument vocals@en", "class=MusicalArtist" ],
+    "344" : [ "pair=Vocals", "AllConf=0.120915032679739", "triple=e dbo:instrument Vocals", "class=MusicalArtist" ],
+    "345" : [ "pair=Contemporary_Christian_music", "AllConf=0.120879120879121", "triple=e dbo:genre Contemporary_Christian_music", "class=MusicalArtist" ],
+    "346" : [ "pair=Pop_music", "AllConf=0.120095124851367", "triple=e dbp:genre Pop_music", "class=MusicalArtist" ],
+    "347" : [ "pair=RCA_Records", "AllConf=0.11965811965812", "triple=e dbo:recordLabel RCA_Records", "class=MusicalArtist" ],
+    "348" : [ "pair=Soul_music", "AllConf=0.118987341772152", "triple=e dbo:genre Soul_music", "class=MusicalArtist" ],
+    "349" : [ "pair=Composer", "AllConf=0.11864406779661", "triple=e dbp:occupation Composer", "class=MusicalArtist" ],
+    "350" : [ "pair=Hip_hop_music", "AllConf=0.117744610281924", "triple=e dbp:genre Hip_hop_music", "class=MusicalArtist" ],
+    "351" : [ "pair=House_music", "AllConf=0.117647058823529", "triple=e dbp:genre House_music", "class=MusicalArtist" ],
+    "352" : [ "pair=Indie_pop", "AllConf=0.117021276595745", "triple=e dbo:genre Indie_pop", "class=MusicalArtist" ],
+    "353" : [ "pair=Blues", "AllConf=0.116731517509728", "triple=e dbp:genre Blues", "class=MusicalArtist" ],
+    "354" : [ "pair=Vocals, guitar@en", "AllConf=0.115384615384615", "triple=e dbp:instrument Vocals, guitar@en", "class=MusicalArtist" ],
+    "355" : [ "pair=Blues_rock", "AllConf=0.114583333333333", "triple=e dbo:genre Blues_rock", "class=MusicalArtist" ],
+    "356" : [ "pair=guitar@en", "AllConf=0.114391143911439", "triple=e dbp:instrument guitar@en", "class=MusicalArtist" ],
+    "357" : [ "pair=Singer@en", "AllConf=0.114169215086646", "triple=e dbp:occupation Singer@en", "class=MusicalArtist" ],
+    "358" : [ "pair=Folk_music", "AllConf=0.112271540469974", "triple=e dbp:genre Folk_music", "class=MusicalArtist" ],
+    "359" : [ "pair=solo_singer@en", "AllConf=0.111784511784512", "triple=e dbp:background solo_singer@en", "class=MusicalArtist" ],
+    "360" : [ "pair=\"solo_singer\"", "AllConf=0.111148197596796", "triple=e dbo:background \"solo_singer\"", "class=MusicalArtist" ],
+    "361" : [ "pair=\"1980\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.111111111111111", "triple=e dbo:activeYearsStartYear \"1980\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "362" : [ "pair=\"2011\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.110294117647059", "triple=e dbo:activeYearsStartYear \"2011\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "363" : [ "pair=\"1996\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.109756097560976", "triple=e dbo:activeYearsStartYear \"1996\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "364" : [ "pair=Reggae", "AllConf=0.109756097560976", "triple=e dbo:genre Reggae", "class=MusicalArtist" ],
+    "365" : [ "pair=Drum_kit", "AllConf=0.108843537414966", "triple=e dbo:instrument Drum_kit", "class=MusicalArtist" ],
+    "366" : [ "pair=Singer, songwriter@en", "AllConf=0.108225108225108", "triple=e dbp:occupation Singer, songwriter@en", "class=MusicalArtist" ],
+    "367" : [ "pair=Guitar@en", "AllConf=0.108108108108108", "triple=e dbp:instrument Guitar@en", "class=MusicalArtist" ],
+    "368" : [ "pair=Guitar", "AllConf=0.107086614173228", "triple=e dbo:instrument Guitar", "class=MusicalArtist" ],
+    "369" : [ "pair=Keyboard_instrument", "AllConf=0.105932203389831", "triple=e dbo:instrument Keyboard_instrument", "class=MusicalArtist" ],
+    "370" : [ "pair=\"1990\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.104972375690608", "triple=e dbo:activeYearsStartYear \"1990\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "371" : [ "pair=InternetArchiveBot@en", "AllConf=0.104347826086957", "triple=e dbp:bot InternetArchiveBot@en", "class=MusicalArtist" ],
+    "372" : [ "pair=\"1970\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.103030303030303", "triple=e dbo:activeYearsStartYear \"1970\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "373" : [ "pair=Rhythm_and_blues", "AllConf=0.102102102102102", "triple=e dbp:genre Rhythm_and_blues", "class=MusicalArtist" ],
+    "374" : [ "pair=Piano", "AllConf=0.102040816326531", "triple=e dbp:instrument Piano", "class=MusicalArtist" ],
+    "375" : [ "pair=\"1991\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.101851851851852", "triple=e dbo:activeYearsStartYear \"1991\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "376" : [ "pair=Songwriter", "AllConf=0.101851851851852", "triple=e dbp:occupation Songwriter", "class=MusicalArtist" ],
+    "377" : [ "pair=Gospel_music", "AllConf=0.101694915254237", "triple=e dbp:genre Gospel_music", "class=MusicalArtist" ],
+    "378" : [ "pair=Folk_rock", "AllConf=0.100840336134454", "triple=e dbo:genre Folk_rock", "class=MusicalArtist" ],
+    "379" : [ "pair=Hashemites", "AllConf=0.53125", "triple=e dbp:house Hashemites", "class=Royalty" ],
+    "380" : [ "pair=Succession_to_the_British_throne", "AllConf=0.523809523809524", "triple=e dbp:title Succession_to_the_British_throne", "class=Royalty" ],
+    "381" : [ "pair=--@en", "AllConf=0.695652173913043", "triple=e dbp:ruCurrentteam --@en", "class=RugbyPlayer" ],
+    "382" : [ "pair=Stade_Rochelais", "AllConf=0.695652173913043", "triple=e dbp:ruProclubs Stade_Rochelais", "class=RugbyPlayer" ],
+    "383" : [ "pair=Number_eight_(rugby_union)", "AllConf=0.658536585365854", "triple=e dbo:position Number_eight_(rugby_union)", "class=RugbyPlayer" ],
+    "384" : [ "pair=Cardiff_Blues", "AllConf=0.653846153846154", "triple=e dbp:ruCurrentteam Cardiff_Blues", "class=RugbyPlayer" ],
+    "385" : [ "pair=Georgia_national_rugby_union_team", "AllConf=0.62962962962963", "triple=e dbp:ruNationalteam Georgia_national_rugby_union_team", "class=RugbyPlayer" ],
+    "386" : [ "pair=Pretoria", "AllConf=0.625", "triple=e dbp:birthPlace Pretoria", "class=RugbyPlayer" ],
+    "387" : [ "pair=\"2019-08-25\"^^http://www.w3.org/2001/XMLSchema#date", "AllConf=0.617021276595745", "triple=e dbp:clubupdate \"2019-08-25\"^^http://www.w3.org/2001/XMLSchema#date", "class=RugbyPlayer" ],
+    "388" : [ "pair=Paarl_Boys'_High_School", "AllConf=0.608695652173913", "triple=e dbo:school Paarl_Boys'_High_School", "class=RugbyPlayer" ],
+    "389" : [ "pair=Stormers", "AllConf=0.608695652173913", "triple=e dbp:super Stormers", "class=RugbyPlayer" ],
+    "390" : [ "pair=Durban", "AllConf=0.6", "triple=e dbp:birthPlace Durban", "class=RugbyPlayer" ],
+    "391" : [ "pair=University_College_London", "AllConf=0.207547169811321", "triple=e dbo:almaMater University_College_London", "class=Scientist" ],
+    "392" : [ "pair=Moscow_State_University", "AllConf=0.193548387096774", "triple=e dbo:almaMater Moscow_State_University", "class=Scientist" ],
+    "393" : [ "pair=Electrical_engineering", "AllConf=0.186440677966102", "triple=e dbo:academicDiscipline Electrical_engineering", "class=Scientist" ],
+    "394" : [ "pair=Indian_nationality_law", "AllConf=0.185185185185185", "triple=e dbp:nationality Indian_nationality_law", "class=Scientist" ],
+    "395" : [ "pair=Indian_nationality", "AllConf=0.185185185185185", "triple=e dbo:nationality Indian_nationality", "class=Scientist" ],
+    "396" : [ "pair=Moscow", "AllConf=0.175675675675676", "triple=e dbp:birthPlace Moscow", "class=Scientist" ],
+    "397" : [ "pair=Stanford_University", "AllConf=0.169354838709677", "triple=e dbp:almaMater Stanford_University", "class=Scientist" ],
+    "398" : [ "pair=Physicist", "AllConf=0.160919540229885", "triple=e dbo:academicDiscipline Physicist", "class=Scientist" ],
+    "399" : [ "pair=University_of_Edinburgh", "AllConf=0.155844155844156", "triple=e dbo:almaMater University_of_Edinburgh", "class=Scientist" ],
+    "400" : [ "pair=Germany", "AllConf=0.155172413793103", "triple=e dbp:birthPlace Germany", "class=Scientist" ],
+    "401" : [ "pair=Princeton_University", "AllConf=0.151079136690647", "triple=e dbp:almaMater Princeton_University", "class=Scientist" ],
+    "402" : [ "pair=University_of_Oxford", "AllConf=0.149532710280374", "triple=e dbo:institution University_of_Oxford", "class=Scientist" ],
+    "403" : [ "pair=Neuroscience", "AllConf=0.139784946236559", "triple=e dbo:academicDiscipline Neuroscience", "class=Scientist" ],
+    "404" : [ "pair=University_of_Cambridge", "AllConf=0.138888888888889", "triple=e dbo:institution University_of_Cambridge", "class=Scientist" ],
+    "405" : [ "pair=CD_Logroñés", "AllConf=0.714285714285714", "triple=e dbo:team CD_Logroñés", "class=SoccerManager" ],
+    "406" : [ "pair=Chile_national_football_team", "AllConf=0.625", "triple=e dbp:nationalteam Chile_national_football_team", "class=SoccerManager" ],
+    "407" : [ "pair=RKC_Waalwijk", "AllConf=0.619047619047619", "triple=e dbo:team RKC_Waalwijk", "class=SoccerManager" ],
+    "408" : [ "pair=CA_Osasuna", "AllConf=0.615384615384615", "triple=e dbp:clubs CA_Osasuna", "class=SoccerManager" ],
+    "409" : [ "pair=FC_Gomel", "AllConf=0.608695652173913", "triple=e dbp:clubs FC_Gomel", "class=SoccerManager" ],
+    "410" : [ "pair=Scotland_national_under-21_football_team", "AllConf=0.590163934426229", "triple=e dbo:team Scotland_national_under-21_football_team", "class=SoccerManager" ],
+    "411" : [ "pair=FC_Red_Bull_Salzburg", "AllConf=0.583333333333333", "triple=e dbp:managerclubs FC_Red_Bull_Salzburg", "class=SoccerManager" ],
+    "412" : [ "pair=FC_Krylia_Sovetov_Samara", "AllConf=0.583333333333333", "triple=e dbo:team FC_Krylia_Sovetov_Samara", "class=SoccerManager" ],
+    "413" : [ "pair=Telford_United_F.C.", "AllConf=0.571428571428571", "triple=e dbp:clubs Telford_United_F.C.", "class=SoccerManager" ],
+    "414" : [ "pair=FC_Dynamo_Brest", "AllConf=0.571428571428571", "triple=e dbp:clubs FC_Dynamo_Brest", "class=SoccerManager" ],
+    "415" : [ "pair=PSV_Eindhoven", "AllConf=0.555555555555556", "triple=e dbp:clubs PSV_Eindhoven", "class=SoccerManager" ],
+    "416" : [ "pair=Pohang_Steelers", "AllConf=0.555555555555556", "triple=e dbo:team Pohang_Steelers", "class=SoccerManager" ],
+    "417" : [ "pair=#FBEC5D@en", "AllConf=0.545454545454545", "triple=e dbp:bg #FBEC5D@en", "class=SoccerManager" ],
+    "418" : [ "pair=Apollon_Smyrnis_F.C.", "AllConf=0.545454545454545", "triple=e dbp:clubs Apollon_Smyrnis_F.C.", "class=SoccerManager" ],
+    "419" : [ "pair=Samsunspor", "AllConf=0.545454545454545", "triple=e dbo:team Samsunspor", "class=SoccerManager" ],
+    "420" : [ "pair=Wales_national_under-21_football_team", "AllConf=0.541666666666667", "triple=e dbo:team Wales_national_under-21_football_team", "class=SoccerManager" ],
+    "421" : [ "pair=PFC_Krylia_Sovetov_Samara", "AllConf=0.536585365853659", "triple=e dbp:clubs PFC_Krylia_Sovetov_Samara", "class=SoccerManager" ],
+    "422" : [ "pair=silver@en", "AllConf=0.526315789473684", "triple=e dbp:bordercolor silver@en", "class=SoccerManager" ],
+    "423" : [ "pair=Madrid", "AllConf=0.525", "triple=e dbo:birthPlace Madrid", "class=SoccerManager" ],
+    "424" : [ "pair=Finland", "AllConf=0.523809523809524", "triple=e dbp:birthPlace Finland", "class=SoccerManager" ],
+    "425" : [ "pair=Gold@en", "AllConf=0.523809523809524", "triple=e dbp:bg Gold@en", "class=SoccerManager" ],
+    "426" : [ "pair=Aarhus_Gymnastikforening", "AllConf=0.523809523809524", "triple=e dbp:clubs Aarhus_Gymnastikforening", "class=SoccerManager" ],
+    "427" : [ "pair=San_Jose_Earthquakes", "AllConf=0.523809523809524", "triple=e dbo:team San_Jose_Earthquakes", "class=SoccerManager" ],
+    "428" : [ "pair=Hannover_96", "AllConf=0.521739130434783", "triple=e dbo:managerClub Hannover_96", "class=SoccerManager" ],
+    "429" : [ "pair=→ Birmingham City@en", "AllConf=0.521739130434783", "triple=e dbp:clubs → Birmingham City@en", "class=SoccerManager" ],
+    "430" : [ "pair=FC_Zirka_Kropyvnytskyi", "AllConf=0.521739130434783", "triple=e dbp:clubs FC_Zirka_Kropyvnytskyi", "class=SoccerManager" ],
+    "431" : [ "pair=FC_Twente", "AllConf=0.521739130434783", "triple=e dbo:team FC_Twente", "class=SoccerManager" ],
+    "432" : [ "pair=FC_Rostov", "AllConf=0.521739130434783", "triple=e dbo:team FC_Rostov", "class=SoccerManager" ],
+    "433" : [ "pair=Ukraine_national_football_team", "AllConf=0.520833333333333", "triple=e dbp:nationalteam Ukraine_national_football_team", "class=SoccerManager" ],
+    "434" : [ "pair=South Korea squads@en", "AllConf=0.518518518518518", "triple=e dbp:title South Korea squads@en", "class=SoccerManager" ],
+    "435" : [ "pair=FC_Metallurg_Lipetsk", "AllConf=0.518518518518518", "triple=e dbo:team FC_Metallurg_Lipetsk", "class=SoccerManager" ],
+    "436" : [ "pair=Scotland_national_football_B_team", "AllConf=0.517241379310345", "triple=e dbp:nationalteam Scotland_national_football_B_team", "class=SoccerManager" ],
+    "437" : [ "pair=Real_Oviedo", "AllConf=0.517241379310345", "triple=e dbo:team Real_Oviedo", "class=SoccerManager" ],
+    "438" : [ "pair=Parma_F.C.", "AllConf=0.515151515151515", "triple=e dbo:team Parma_F.C.", "class=SoccerManager" ],
+    "439" : [ "pair=Madrid, Spain@en", "AllConf=0.5", "triple=e dbp:birthPlace Madrid, Spain@en", "class=SoccerManager" ],
+    "440" : [ "pair=Birmingham, England@en", "AllConf=0.5", "triple=e dbp:birthPlace Birmingham, England@en", "class=SoccerManager" ],
+    "441" : [ "pair=FC_St._Pauli", "AllConf=0.5", "triple=e dbp:clubs FC_St._Pauli", "class=SoccerManager" ],
+    "442" : [ "pair=FC_Seoul", "AllConf=0.5", "triple=e dbp:clubs FC_Seoul", "class=SoccerManager" ],
+    "443" : [ "pair=FC_Saturn_Ramenskoye", "AllConf=0.5", "triple=e dbp:clubs FC_Saturn_Ramenskoye", "class=SoccerManager" ],
+    "444" : [ "pair=FC_Elista", "AllConf=0.5", "triple=e dbp:clubs FC_Elista", "class=SoccerManager" ],
+    "445" : [ "pair=FC_Spartak_Vladikavkaz", "AllConf=0.5", "triple=e dbp:clubs FC_Spartak_Vladikavkaz", "class=SoccerManager" ],
+    "446" : [ "pair=Lierse_S.K.", "AllConf=0.5", "triple=e dbp:clubs Lierse_S.K.", "class=SoccerManager" ],
+    "447" : [ "pair=Argentina squads@en", "AllConf=0.5", "triple=e dbp:title Argentina squads@en", "class=SoccerManager" ],
+    "448" : [ "pair=United States squads@en", "AllConf=0.5", "triple=e dbp:title United States squads@en", "class=SoccerManager" ],
+    "449" : [ "pair=#BF0A30@en", "AllConf=0.5", "triple=e dbp:bordercolor #BF0A30@en", "class=SoccerManager" ],
+    "450" : [ "pair=Villarreal_CF", "AllConf=0.5", "triple=e dbo:team Villarreal_CF", "class=SoccerManager" ],
+    "451" : [ "pair=Associação_Académica_de_Coimbra_–_O.A.F.", "AllConf=0.5", "triple=e dbo:team Associação_Académica_de_Coimbra_–_O.A.F.", "class=SoccerManager" ],
+    "452" : [ "pair=FC_Volgar-Gazprom_Astrakhan", "AllConf=0.5", "triple=e dbo:team FC_Volgar-Gazprom_Astrakhan", "class=SoccerManager" ],
+    "453" : [ "pair=Denmark_national_football_team", "AllConf=0.488888888888889", "triple=e dbo:team Denmark_national_football_team", "class=SoccerManager" ],
+    "454" : [ "pair=S.C._Braga", "AllConf=0.484848484848485", "triple=e dbp:clubs S.C._Braga", "class=SoccerManager" ],
+    "455" : [ "pair=SpVgg_Greuther_Fürth", "AllConf=0.483870967741935", "triple=e dbo:team SpVgg_Greuther_Fürth", "class=SoccerManager" ],
+    "456" : [ "pair=Bosnia_and_Herzegovina_national_football_team", "AllConf=0.482758620689655", "triple=e dbp:nationalteam Bosnia_and_Herzegovina_national_football_team", "class=SoccerManager" ],
+    "457" : [ "pair=U.S._Avellino_1912", "AllConf=0.482758620689655", "triple=e dbo:team U.S._Avellino_1912", "class=SoccerManager" ],
+    "458" : [ "pair=Tennis_Borussia_Berlin", "AllConf=0.482758620689655", "triple=e dbo:team Tennis_Borussia_Berlin", "class=SoccerManager" ],
+    "459" : [ "pair=U.C._Sampdoria", "AllConf=0.482142857142857", "triple=e dbo:team U.C._Sampdoria", "class=SoccerManager" ],
+    "460" : [ "pair=Hamburger_SV", "AllConf=0.481481481481481", "triple=e dbp:managerclubs Hamburger_SV", "class=SoccerManager" ],
+    "461" : [ "pair=Clube_de_Regatas_do_Flamengo", "AllConf=0.481481481481481", "triple=e dbp:managerclubs Clube_de_Regatas_do_Flamengo", "class=SoccerManager" ],
+    "462" : [ "pair=FC_Khimki", "AllConf=0.481481481481481", "triple=e dbo:team FC_Khimki", "class=SoccerManager" ],
+    "463" : [ "pair=FC_Rubin_Kazan", "AllConf=0.48", "triple=e dbo:team FC_Rubin_Kazan", "class=SoccerManager" ],
+    "464" : [ "pair=1._FC_Kaiserslautern", "AllConf=0.478260869565217", "triple=e dbo:managerClub 1._FC_Kaiserslautern", "class=SoccerManager" ],
+    "465" : [ "pair=ACF_Fiorentina", "AllConf=0.478260869565217", "triple=e dbp:managerclubs ACF_Fiorentina", "class=SoccerManager" ],
+    "466" : [ "pair=Wigan_Athletic_F.C.", "AllConf=0.471698113207547", "triple=e dbo:team Wigan_Athletic_F.C.", "class=SoccerManager" ],
+    "467" : [ "pair=Spain_national_under-18_football_team", "AllConf=0.470588235294118", "triple=e dbp:nationalteam Spain_national_under-18_football_team", "class=SoccerManager" ],
+    "468" : [ "pair=Elche_CF", "AllConf=0.46875", "triple=e dbo:team Elche_CF", "class=SoccerManager" ],
+    "469" : [ "pair=Wrexham_A.F.C.", "AllConf=0.466666666666667", "triple=e dbp:clubs Wrexham_A.F.C.", "class=SoccerManager" ],
+    "470" : [ "pair=?@en", "AllConf=0.466666666666667", "triple=e dbp:nationalcaps ?@en", "class=SoccerManager" ],
+    "471" : [ "pair=Grasshopper_Club_Zürich", "AllConf=0.466666666666667", "triple=e dbp:managerclubs Grasshopper_Club_Zürich", "class=SoccerManager" ],
+    "472" : [ "pair=Black@en", "AllConf=0.464285714285714", "triple=e dbp:bordercolor Black@en", "class=SoccerManager" ],
+    "473" : [ "pair=HNK_Rijeka", "AllConf=0.464285714285714", "triple=e dbo:team HNK_Rijeka", "class=SoccerManager" ],
+    "474" : [ "pair=Queen_of_the_South_F.C.", "AllConf=0.463414634146341", "triple=e dbp:clubs Queen_of_the_South_F.C.", "class=SoccerManager" ],
+    "475" : [ "pair=Lechia_Gdańsk", "AllConf=0.461538461538462", "triple=e dbo:managerClub Lechia_Gdańsk", "class=SoccerManager" ],
+    "476" : [ "pair=MSV_Duisburg", "AllConf=0.461538461538462", "triple=e dbp:clubs MSV_Duisburg", "class=SoccerManager" ],
+    "477" : [ "pair=PFC_Litex_Lovech", "AllConf=0.461538461538462", "triple=e dbo:team PFC_Litex_Lovech", "class=SoccerManager" ],
+    "478" : [ "pair=Macclesfield_Town_F.C.", "AllConf=0.461538461538462", "triple=e dbo:team Macclesfield_Town_F.C.", "class=SoccerManager" ],
+    "479" : [ "pair=Racing_de_Santander", "AllConf=0.461538461538462", "triple=e dbo:team Racing_de_Santander", "class=SoccerManager" ],
+    "480" : [ "pair=Clyde_F.C.", "AllConf=0.459459459459459", "triple=e dbo:team Clyde_F.C.", "class=SoccerManager" ],
+    "481" : [ "pair=Leeds_United_F.C.", "AllConf=0.458333333333333", "triple=e dbp:youthclubs Leeds_United_F.C.", "class=SoccerManager" ],
+    "482" : [ "pair=Atlético_Madrid_B", "AllConf=0.458333333333333", "triple=e dbp:clubs Atlético_Madrid_B", "class=SoccerManager" ],
+    "483" : [ "pair=SC_Heerenveen", "AllConf=0.458333333333333", "triple=e dbp:clubs SC_Heerenveen", "class=SoccerManager" ],
+    "484" : [ "pair=FC_KAMAZ_Naberezhnye_Chelny", "AllConf=0.458333333333333", "triple=e dbp:clubs FC_KAMAZ_Naberezhnye_Chelny", "class=SoccerManager" ],
+    "485" : [ "pair=Palermo_F.C.", "AllConf=0.458333333333333", "triple=e dbp:managerclubs Palermo_F.C.", "class=SoccerManager" ],
+    "486" : [ "pair=Columbus_Crew", "AllConf=0.458333333333333", "triple=e dbo:team Columbus_Crew", "class=SoccerManager" ],
+    "487" : [ "pair=Club_León", "AllConf=0.458333333333333", "triple=e dbo:team Club_León", "class=SoccerManager" ],
+    "488" : [ "pair=FC_Dnipro", "AllConf=0.458333333333333", "triple=e dbo:team FC_Dnipro", "class=SoccerManager" ],
+    "489" : [ "pair=TSV_1860_Munich", "AllConf=0.458333333333333", "triple=e dbo:team TSV_1860_Munich", "class=SoccerManager" ],
+    "490" : [ "pair=Recreativo_de_Huelva", "AllConf=0.458333333333333", "triple=e dbo:team Recreativo_de_Huelva", "class=SoccerManager" ],
+    "491" : [ "pair=1._FC_Nürnberg", "AllConf=0.456521739130435", "triple=e dbo:team 1._FC_Nürnberg", "class=SoccerManager" ],
+    "492" : [ "pair=FC_Hoverla_Uzhhorod", "AllConf=0.454545454545455", "triple=e dbp:clubs FC_Hoverla_Uzhhorod", "class=SoccerManager" ],
+    "493" : [ "pair=1.82 m@en", "AllConf=0.452380952380952", "triple=e dbp:height 1.82 m@en", "class=SoccerManager" ],
+    "494" : [ "pair=Manager_(association_football)", "AllConf=0.451612903225806", "triple=e dbo:position Manager_(association_football)", "class=SoccerManager" ],
+    "495" : [ "pair=AFC_Ajax", "AllConf=0.451612903225806", "triple=e dbo:managerClub AFC_Ajax", "class=SoccerManager" ],
+    "496" : [ "pair=Germany_national_under-21_football_team", "AllConf=0.450980392156863", "triple=e dbo:team Germany_national_under-21_football_team", "class=SoccerManager" ],
+    "497" : [ "pair=#008000@en", "AllConf=0.448275862068966", "triple=e dbp:fg #008000@en", "class=SoccerManager" ],
+    "498" : [ "pair=Dundalk_F.C.", "AllConf=0.448275862068966", "triple=e dbp:clubs Dundalk_F.C.", "class=SoccerManager" ],
+    "499" : [ "pair=Malaysia_national_football_team", "AllConf=0.448275862068966", "triple=e dbo:team Malaysia_national_football_team", "class=SoccerManager" ],
+    "500" : [ "pair=Karlsruher_SC", "AllConf=0.447368421052632", "triple=e dbp:clubs Karlsruher_SC", "class=SoccerManager" ],
+    "501" : [ "pair=West_Ham_United_F.C.", "AllConf=0.444444444444444", "triple=e dbp:youthclubs West_Ham_United_F.C.", "class=SoccerManager" ],
+    "502" : [ "pair=Moldavian_Soviet_Socialist_Republic", "AllConf=0.444444444444444", "triple=e dbp:birthPlace Moldavian_Soviet_Socialist_Republic", "class=SoccerManager" ],
+    "503" : [ "pair=FC_Utrecht", "AllConf=0.444444444444444", "triple=e dbp:clubs FC_Utrecht", "class=SoccerManager" ],
+    "504" : [ "pair=LA_Galaxy", "AllConf=0.444444444444444", "triple=e dbp:clubs LA_Galaxy", "class=SoccerManager" ],
+    "505" : [ "pair=Maccabi_Haifa_F.C.", "AllConf=0.444444444444444", "triple=e dbo:team Maccabi_Haifa_F.C.", "class=SoccerManager" ],
+    "506" : [ "pair=VfL_Wolfsburg", "AllConf=0.444444444444444", "triple=e dbo:team VfL_Wolfsburg", "class=SoccerManager" ],
+    "507" : [ "pair=Birmingham", "AllConf=0.441860465116279", "triple=e dbo:birthPlace Birmingham", "class=SoccerManager" ],
+    "508" : [ "pair=Deportivo_de_La_Coruña", "AllConf=0.441176470588235", "triple=e dbp:clubs Deportivo_de_La_Coruña", "class=SoccerManager" ],
+    "509" : [ "pair=FC_Dynamo_Stavropol", "AllConf=0.441176470588235", "triple=e dbo:team FC_Dynamo_Stavropol", "class=SoccerManager" ],
+    "510" : [ "pair=Oxford_United_F.C.", "AllConf=0.440677966101695", "triple=e dbo:team Oxford_United_F.C.", "class=SoccerManager" ],
+    "511" : [ "pair=FC_Karpaty_Lviv", "AllConf=0.44", "triple=e dbo:managerClub FC_Karpaty_Lviv", "class=SoccerManager" ],
+    "512" : [ "pair=FC_Universitatea_Cluj", "AllConf=0.44", "triple=e dbp:clubs FC_Universitatea_Cluj", "class=SoccerManager" ],
+    "513" : [ "pair=Tamworth_F.C.", "AllConf=0.44", "triple=e dbp:clubs Tamworth_F.C.", "class=SoccerManager" ],
+    "514" : [ "pair=Brazil squads@en", "AllConf=0.44", "triple=e dbp:title Brazil squads@en", "class=SoccerManager" ],
+    "515" : [ "pair=FC_Chornomorets_Odessa", "AllConf=0.44", "triple=e dbo:team FC_Chornomorets_Odessa", "class=SoccerManager" ],
+    "516" : [ "pair=Tiburones_Rojos_de_Veracruz", "AllConf=0.44", "triple=e dbo:team Tiburones_Rojos_de_Veracruz", "class=SoccerManager" ],
+    "517" : [ "pair=A.S._Livorno_Calcio", "AllConf=0.44", "triple=e dbo:team A.S._Livorno_Calcio", "class=SoccerManager" ],
+    "518" : [ "pair=#FFFFFF@en", "AllConf=0.439024390243902", "triple=e dbp:fg #FFFFFF@en", "class=SoccerManager" ],
+    "519" : [ "pair=Rayo_Vallecano", "AllConf=0.439024390243902", "triple=e dbo:team Rayo_Vallecano", "class=SoccerManager" ],
+    "520" : [ "pair=Alemannia_Aachen", "AllConf=0.4375", "triple=e dbp:clubs Alemannia_Aachen", "class=SoccerManager" ],
+    "521" : [ "pair=Spain_national_under-23_football_team", "AllConf=0.433333333333333", "triple=e dbp:nationalteam Spain_national_under-23_football_team", "class=SoccerManager" ],
+    "522" : [ "pair=Atlas_F.C.", "AllConf=0.433333333333333", "triple=e dbp:clubs Atlas_F.C.", "class=SoccerManager" ],
+    "523" : [ "pair=FC_Ural_Yekaterinburg", "AllConf=0.433333333333333", "triple=e dbp:clubs FC_Ural_Yekaterinburg", "class=SoccerManager" ],
+    "524" : [ "pair=Bulgaria_national_football_team", "AllConf=0.432835820895522", "triple=e dbp:nationalteam Bulgaria_national_football_team", "class=SoccerManager" ],
+    "525" : [ "pair=Stuttgarter_Kickers", "AllConf=0.432432432432432", "triple=e dbo:team Stuttgarter_Kickers", "class=SoccerManager" ],
+    "526" : [ "pair=South_Korea_national_football_team", "AllConf=0.431034482758621", "triple=e dbo:team South_Korea_national_football_team", "class=SoccerManager" ],
+    "527" : [ "pair=Parma_Calcio_1913", "AllConf=0.428571428571429", "triple=e dbp:clubs Parma_Calcio_1913", "class=SoccerManager" ],
+    "528" : [ "pair=Italy_national_under-21_football_team", "AllConf=0.428571428571429", "triple=e dbo:team Italy_national_under-21_football_team", "class=SoccerManager" ],
+    "529" : [ "pair=Monarcas_Morelia", "AllConf=0.428571428571429", "triple=e dbo:team Monarcas_Morelia", "class=SoccerManager" ],
+    "530" : [ "pair=Real_Madrid_Castilla", "AllConf=0.428571428571429", "triple=e dbo:team Real_Madrid_Castilla", "class=SoccerManager" ],
+    "531" : [ "pair=York_City_F.C.", "AllConf=0.428571428571429", "triple=e dbo:team York_City_F.C.", "class=SoccerManager" ],
+    "532" : [ "pair=Iraq_national_football_team", "AllConf=0.428571428571429", "triple=e dbo:team Iraq_national_football_team", "class=SoccerManager" ],
+    "533" : [ "pair=C.F._Os_Belenenses", "AllConf=0.428571428571429", "triple=e dbo:team C.F._Os_Belenenses", "class=SoccerManager" ],
+    "534" : [ "pair=SC_Tavriya_Simferopol", "AllConf=0.425531914893617", "triple=e dbo:team SC_Tavriya_Simferopol", "class=SoccerManager" ],
+    "535" : [ "pair=FC_Dynamo_Moscow", "AllConf=0.424242424242424", "triple=e dbo:managerClub FC_Dynamo_Moscow", "class=SoccerManager" ],
+    "536" : [ "pair=Servette_FC", "AllConf=0.424242424242424", "triple=e dbp:clubs Servette_FC", "class=SoccerManager" ],
+    "537" : [ "pair=United_States_women's_national_soccer_team", "AllConf=0.423076923076923", "triple=e dbp:nationalteam United_States_women's_national_soccer_team", "class=SoccerManager" ],
+    "538" : [ "pair=Real_Madrid_CF", "AllConf=0.423076923076923", "triple=e dbp:managerclubs Real_Madrid_CF", "class=SoccerManager" ],
+    "539" : [ "pair=C.F._Monterrey", "AllConf=0.423076923076923", "triple=e dbo:team C.F._Monterrey", "class=SoccerManager" ],
+    "540" : [ "pair=Cruz_Azul", "AllConf=0.423076923076923", "triple=e dbo:team Cruz_Azul", "class=SoccerManager" ],
+    "541" : [ "pair=RCD_Espanyol", "AllConf=0.42", "triple=e dbo:team RCD_Espanyol", "class=SoccerManager" ],
+    "542" : [ "pair=Fluminense_FC", "AllConf=0.419354838709677", "triple=e dbp:managerclubs Fluminense_FC", "class=SoccerManager" ],
+    "543" : [ "pair=PFC_CSKA_Moscow", "AllConf=0.418918918918919", "triple=e dbo:team PFC_CSKA_Moscow", "class=SoccerManager" ],
+    "544" : [ "pair=Hibernian_F.C.", "AllConf=0.418181818181818", "triple=e dbp:clubs Hibernian_F.C.", "class=SoccerManager" ],
+    "545" : [ "pair=\"14\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "AllConf=0.115789473684211", "triple=e dbo:number \"14\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "class=SoccerPlayer" ]
+  }
+}, {
+  "id" : 150,
+  "pattern" : "branded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Greater_Cleveland", "AllConf=0.590909090909091", "triple=e dbo:broadcastArea Greater_Cleveland", "class=RadioStation" ]
+  }
+}, {
+  "id" : 161,
+  "pattern" : "built",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Glider_(aircraft)", "AllConf=0.804878048780488", "triple=e dbp:type Glider_(aircraft)", "class=Aircraft" ],
+    "1" : [ "pair=Utah@en", "AllConf=0.298245614035088", "triple=e dbp:locmapin Utah@en", "class=Building" ],
+    "2" : [ "pair=\"1903\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.220338983050847", "triple=e dbo:yearOfConstruction \"1903\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=Building" ],
+    "3" : [ "pair=Alabama#USA@en", "AllConf=0.202898550724638", "triple=e dbp:locmapin Alabama#USA@en", "class=Building" ],
+    "4" : [ "pair=Georgian@en", "AllConf=0.194805194805195", "triple=e dbp:architecture Georgian@en", "class=Building" ],
+    "5" : [ "pair=\"1904\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.194444444444444", "triple=e dbo:yearOfConstruction \"1904\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=Building" ],
+    "6" : [ "pair=Nebraska#USA@en", "AllConf=0.189655172413793", "triple=e dbp:locmapin Nebraska#USA@en", "class=Building" ],
+    "7" : [ "pair=\"1894\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.188405797101449", "triple=e dbo:yearOfConstruction \"1894\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=Building" ],
+    "8" : [ "pair=\"1923\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.186440677966102", "triple=e dbo:yearOfConstruction \"1923\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=Building" ],
+    "9" : [ "pair=Colonial Revival@en", "AllConf=0.181034482758621", "triple=e dbp:architecture Colonial Revival@en", "class=Building" ],
+    "10" : [ "pair=Colonial_Revival_architecture", "AllConf=0.174311926605505", "triple=e dbo:architecturalStyle Colonial_Revival_architecture", "class=Building" ],
+    "11" : [ "pair=\"1860\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.173333333333333", "triple=e dbo:yearOfConstruction \"1860\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=Building" ],
+    "12" : [ "pair=Montana#USA@en", "AllConf=0.169014084507042", "triple=e dbp:locmapin Montana#USA@en", "class=Building" ],
+    "13" : [ "pair=\"1926\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.168539325842697", "triple=e dbo:yearOfConstruction \"1926\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=Building" ],
+    "14" : [ "pair=\"1921\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.333333333333333", "triple=e dbo:yearOfConstruction \"1921\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=HistoricPlace" ],
+    "15" : [ "pair=\"1927\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.333333333333333", "triple=e dbo:yearOfConstruction \"1927\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=HistoricPlace" ],
+    "16" : [ "pair=House@en", "AllConf=0.325", "triple=e dbp:designation1Free1value House@en", "class=HistoricPlace" ],
+    "17" : [ "pair=\"1890.0\"^^http://dbpedia.org/datatype/second", "AllConf=0.31875", "triple=e dbp:beginningDate \"1890.0\"^^http://dbpedia.org/datatype/second", "class=HistoricPlace" ],
+    "18" : [ "pair=Yarrow_boiler", "AllConf=0.358208955223881", "triple=e dbo:powerType Yarrow_boiler", "class=Ship" ]
+  }
+}, {
+  "id" : 239,
+  "pattern" : "commissioned",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=* \\n* \\n*@en", "AllConf=0.348837209302326", "triple=e dbp:shipPower * \\n* \\n*@en", "class=Ship" ],
+    "1" : [ "pair=Type_XXI_submarine", "AllConf=0.342857142857143", "triple=e dbo:class Type_XXI_submarine", "class=Ship" ],
+    "2" : [ "pair=\"1943-11-06\"^^http://www.w3.org/2001/XMLSchema#date", "AllConf=0.342857142857143", "triple=e dbp:shipOrdered \"1943-11-06\"^^http://www.w3.org/2001/XMLSchema#date", "class=Ship" ],
+    "3" : [ "pair=*Surfaced:\\n* \\n* \\n*Submerged:\\n* \\n*@en", "AllConf=0.342857142857143", "triple=e dbp:shipSpeed *Surfaced:\\n* \\n* \\n*Submerged:\\n* \\n*@en", "class=Ship" ],
+    "4" : [ "pair=*Type F432 D2 Radar Transmitter\\n*FuMB Ant 3 Bali Radar Detector@en", "AllConf=0.342857142857143", "triple=e dbp:shipSensors *Type F432 D2 Radar Transmitter\\n*FuMB Ant 3 Bali Radar Detector@en", "class=Ship" ]
+  }
+}, {
+  "id" : 246,
+  "pattern" : "competed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Biathlon", "AllConf=0.214285714285714", "triple=e dbp:sport Biathlon", "class=Athlete" ],
+    "1" : [ "pair=Handball", "AllConf=0.194029850746269", "triple=e dbp:sport Handball", "class=Athlete" ],
+    "2" : [ "pair=Romanian@en", "AllConf=0.168831168831169", "triple=e dbp:nationality Romanian@en", "class=Athlete" ],
+    "3" : [ "pair=Swedish@en", "AllConf=0.168674698795181", "triple=e dbp:nationality Swedish@en", "class=Athlete" ],
+    "4" : [ "pair=Bobsleigh", "AllConf=0.166666666666667", "triple=e dbp:sport Bobsleigh", "class=Athlete" ],
+    "5" : [ "pair=Track and field@en", "AllConf=0.160919540229885", "triple=e dbp:sport Track and field@en", "class=Athlete" ],
+    "6" : [ "pair=Sailing_(sport)", "AllConf=0.153061224489796", "triple=e dbp:sport Sailing_(sport)", "class=Athlete" ],
+    "7" : [ "pair=Equestrianism", "AllConf=0.140350877192982", "triple=e dbp:sport Equestrianism", "class=Athlete" ],
+    "8" : [ "pair=Polish@en", "AllConf=0.139705882352941", "triple=e dbp:nationality Polish@en", "class=Athlete" ],
+    "9" : [ "pair=Canadian@en", "AllConf=0.13953488372093", "triple=e dbp:nationality Canadian@en", "class=Athlete" ],
+    "10" : [ "pair=Brazilian@en", "AllConf=0.139240506329114", "triple=e dbp:nationality Brazilian@en", "class=Athlete" ],
+    "11" : [ "pair=Middle-distance running@en", "AllConf=0.130841121495327", "triple=e dbp:sport Middle-distance running@en", "class=Athlete" ],
+    "12" : [ "pair=Field_hockey", "AllConf=0.12280701754386", "triple=e dbp:sport Field_hockey", "class=Athlete" ],
+    "13" : [ "pair=Water_polo", "AllConf=0.12258064516129", "triple=e dbp:sport Water_polo", "class=Athlete" ],
+    "14" : [ "pair=German@en", "AllConf=0.121495327102804", "triple=e dbp:nationality German@en", "class=Athlete" ],
+    "15" : [ "pair=Spanish@en", "AllConf=0.11965811965812", "triple=e dbp:nationality Spanish@en", "class=Athlete" ],
+    "16" : [ "pair=Alpine_skiing", "AllConf=0.118012422360248", "triple=e dbp:sport Alpine_skiing", "class=Athlete" ],
+    "17" : [ "pair=French@en", "AllConf=0.117903930131004", "triple=e dbp:nationality French@en", "class=Athlete" ],
+    "18" : [ "pair=Hungarian@en", "AllConf=0.116504854368932", "triple=e dbp:nationality Hungarian@en", "class=Athlete" ],
+    "19" : [ "pair=Sprinting@en", "AllConf=0.114285714285714", "triple=e dbp:sport Sprinting@en", "class=Athlete" ],
+    "20" : [ "pair=Cross-country_skiing_(sport)", "AllConf=0.112244897959184", "triple=e dbp:sport Cross-country_skiing_(sport)", "class=Athlete" ],
+    "21" : [ "pair=Swiss@en", "AllConf=0.111111111111111", "triple=e dbp:nationality Swiss@en", "class=Athlete" ],
+    "22" : [ "pair=Australian@en", "AllConf=0.110169491525424", "triple=e dbp:nationality Australian@en", "class=Athlete" ],
+    "23" : [ "pair=\"400.0\"^^http://dbpedia.org/datatype/metre", "AllConf=0.110091743119266", "triple=e dbp:event \"400.0\"^^http://dbpedia.org/datatype/metre", "class=Athlete" ],
+    "24" : [ "pair=Olympic_weightlifting", "AllConf=0.107255520504732", "triple=e dbp:sport Olympic_weightlifting", "class=Athlete" ],
+    "25" : [ "pair=Basketball", "AllConf=0.104166666666667", "triple=e dbp:sport Basketball", "class=Athlete" ],
+    "26" : [ "pair=Wrestling", "AllConf=0.102473498233216", "triple=e dbp:sport Wrestling", "class=Athlete" ],
+    "27" : [ "pair=Shooting_sports", "AllConf=0.101511879049676", "triple=e dbp:sport Shooting_sports", "class=Athlete" ],
+    "28" : [ "pair=British@en", "AllConf=0.100840336134454", "triple=e dbp:nationality British@en", "class=Athlete" ],
+    "29" : [ "pair=Denmark", "AllConf=0.782608695652174", "triple=e dbo:deathPlace Denmark", "class=Cyclist" ],
+    "30" : [ "pair=Copenhagen", "AllConf=0.681818181818182", "triple=e dbp:birthPlace Copenhagen", "class=Cyclist" ],
+    "31" : [ "pair=sprinter@en", "AllConf=0.676470588235294", "triple=e dbp:ridertype sprinter@en", "class=Cyclist" ],
+    "32" : [ "pair=Hungary", "AllConf=0.65625", "triple=e dbp:birthPlace Hungary", "class=Cyclist" ],
+    "33" : [ "pair=Vienna", "AllConf=0.653846153846154", "triple=e dbo:birthPlace Vienna", "class=Cyclist" ],
+    "34" : [ "pair=Budapest", "AllConf=0.636363636363636", "triple=e dbo:birthPlace Budapest", "class=Cyclist" ],
+    "35" : [ "pair=Czechoslovakia", "AllConf=0.62962962962963", "triple=e dbo:birthPlace Czechoslovakia", "class=Cyclist" ]
+  }
+}, {
+  "id" : 247,
+  "pattern" : "competing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Ghana_Football_Leagues", "AllConf=0.458333333333333", "triple=e dbp:league Ghana_Football_Leagues", "class=SoccerClub" ]
+  }
+}, {
+  "id" : 250,
+  "pattern" : "composed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Senator@en", "AllConf=0.451612903225806", "triple=e dbp:leaderTitle Senator@en", "class=Organisation" ],
+    "1" : [ "pair=Upper_House", "AllConf=0.451612903225806", "triple=e dbo:type Upper_House", "class=Organisation" ],
+    "2" : [ "pair=District of the Upper House@en", "AllConf=0.451612903225806", "triple=e dbp:type District of the Upper House@en", "class=Organisation" ]
+  }
+}, {
+  "id" : 277,
+  "pattern" : "credited",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"Germany\"", "AllConf=0.269230769230769", "triple=e dbo:allegiance \"Germany\"", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 297,
+  "pattern" : "debuted",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Seoul, South Korea@en", "AllConf=0.216666666666667", "triple=e dbp:origin Seoul, South Korea@en", "class=Band" ],
+    "1" : [ "pair=Seoul", "AllConf=0.171717171717172", "triple=e dbo:hometown Seoul", "class=Band" ],
+    "2" : [ "pair=K-pop", "AllConf=0.162790697674419", "triple=e dbp:genre K-pop", "class=Band" ]
+  }
+}, {
+  "id" : 303,
+  "pattern" : "described",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Per_Olof_Christopher_Aurivillius", "AllConf=0.141025641025641", "triple=e dbo:binomialAuthority Per_Olof_Christopher_Aurivillius", "class=Insect" ],
+    "1" : [ "pair=Lecithoceridae", "AllConf=0.134146341463415", "triple=e dbp:familia Lecithoceridae", "class=Insect" ]
+  }
+}, {
+  "id" : 304,
+  "pattern" : "designed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Hirth_F-36", "AllConf=0.956521739130435", "triple=e dbp:eng1Name Hirth_F-36", "class=Aircraft" ],
+    "1" : [ "pair=Soaring@en", "AllConf=0.941176470588235", "triple=e dbp:ref Soaring@en", "class=Aircraft" ],
+    "2" : [ "pair=Paragliding", "AllConf=0.870967741935484", "triple=e dbp:type Paragliding", "class=Aircraft" ],
+    "3" : [ "pair=Paraglider", "AllConf=0.87027027027027", "triple=e dbo:type Paraglider", "class=Aircraft" ],
+    "4" : [ "pair=Paramotor", "AllConf=0.867469879518072", "triple=e dbo:type Paramotor", "class=Aircraft" ],
+    "5" : [ "pair=\"-2000.0\"^^http://dbpedia.org/datatype/second", "AllConf=0.865979381443299", "triple=e dbp:produced \"-2000.0\"^^http://dbpedia.org/datatype/second", "class=Aircraft" ],
+    "6" : [ "pair=twin cylinder, two-stroke, liquid-cooled aircraft engine@en", "AllConf=0.857142857142857", "triple=e dbp:eng1Type twin cylinder, two-stroke, liquid-cooled aircraft engine@en", "class=Aircraft" ],
+    "7" : [ "pair=Bertrand@en", "AllConf=0.855218855218855", "triple=e dbp:ref Bertrand@en", "class=Aircraft" ],
+    "8" : [ "pair=Bertrand and manufacturer@en", "AllConf=0.848484848484849", "triple=e dbp:ref Bertrand and manufacturer@en", "class=Aircraft" ],
+    "9" : [ "pair=Glider_(aircraft)", "AllConf=0.829268292682927", "triple=e dbp:type Glider_(aircraft)", "class=Aircraft" ],
+    "10" : [ "pair=Powered_parachute", "AllConf=0.828947368421053", "triple=e dbo:type Powered_parachute", "class=Aircraft" ],
+    "11" : [ "pair=Bayerl and Tacke@en", "AllConf=0.827586206896552", "triple=e dbp:ref Bayerl and Tacke@en", "class=Aircraft" ],
+    "12" : [ "pair=Hang_gliding", "AllConf=0.80952380952381", "triple=e dbp:type Hang_gliding", "class=Aircraft" ],
+    "13" : [ "pair=Hang_glider", "AllConf=0.806451612903226", "triple=e dbo:type Hang_glider", "class=Aircraft" ],
+    "14" : [ "pair=wooden, fixed pitch@en", "AllConf=0.796296296296296", "triple=e dbp:propName wooden, fixed pitch@en", "class=Aircraft" ],
+    "15" : [ "pair=AeroCrafter@en", "AllConf=0.794520547945205", "triple=e dbp:ref AeroCrafter@en", "class=Aircraft" ],
+    "16" : [ "pair=* List of gliders@en", "AllConf=0.792207792207792", "triple=e dbp:seeAlso * List of gliders@en", "class=Aircraft" ],
+    "17" : [ "pair=Purdy@en", "AllConf=0.789473684210526", "triple=e dbp:ref Purdy@en", "class=Aircraft" ],
+    "18" : [ "pair=Plans available@en", "AllConf=0.787878787878788", "triple=e dbp:status Plans available@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 310,
+  "pattern" : "developed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=UAV", "AllConf=0.788617886178862", "triple=e dbo:type UAV", "class=Aircraft" ]
+  }
+}, {
+  "id" : 315,
+  "pattern" : "directed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Track list@en", "AllConf=0.169230769230769", "triple=e dbp:headline Track list@en", "class=Film" ],
+    "1" : [ "pair=Malayalam@en", "AllConf=0.126865671641791", "triple=e dbp:language Malayalam@en", "class=Film" ],
+    "2" : [ "pair=Malayalam", "AllConf=0.104166666666667", "triple=e dbo:language Malayalam", "class=Film" ]
+  }
+}, {
+  "id" : 339,
+  "pattern" : "elected",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Indian_nationality_law", "AllConf=0.194444444444444", "triple=e dbp:nationality Indian_nationality_law", "class=Scientist" ],
+    "1" : [ "pair=Indian_nationality", "AllConf=0.194444444444444", "triple=e dbo:nationality Indian_nationality", "class=Scientist" ]
+  }
+}, {
+  "id" : 347,
+  "pattern" : "encoded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=left@en", "AllConf=0.75", "triple=e dbp:align left@en", "class=HumanGene" ],
+    "1" : [ "pair=Gene_(journal)", "AllConf=0.666666666666667", "triple=e dbp:journal Gene_(journal)", "class=HumanGene" ]
+  }
+}, {
+  "id" : 348,
+  "pattern" : "encompasses",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"1.57788E8\"^^http://dbpedia.org/datatype/second", "AllConf=0.290909090909091", "triple=e dbp:lowerAge \"1.57788E8\"^^http://dbpedia.org/datatype/second", "class=School" ]
+  }
+}, {
+  "id" : 358,
+  "pattern" : "established",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=CC BY-SA IGO 3.0@en", "AllConf=0.857142857142857", "triple=e dbp:licence CC BY-SA IGO 3.0@en", "class=ProtectedArea" ],
+    "1" : [ "pair=UNESCO@en", "AllConf=0.857142857142857", "triple=e dbp:author UNESCO@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 382,
+  "pattern" : "finished",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"2015-04-12\"^^http://www.w3.org/2001/XMLSchema#date", "AllConf=0.75", "triple=e dbp:date \"2015-04-12\"^^http://www.w3.org/2001/XMLSchema#date", "class=NCAATeamSeason" ]
+  }
+}, {
+  "id" : 393,
+  "pattern" : "flying",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Reconnaissance flying boat@en", "AllConf=0.884615384615385", "triple=e dbp:type Reconnaissance flying boat@en", "class=Aircraft" ],
+    "1" : [ "pair=Flying_boat", "AllConf=0.806122448979592", "triple=e dbo:type Flying_boat", "class=Aircraft" ],
+    "2" : [ "pair=Western Front@en", "AllConf=0.283582089552239", "triple=e dbp:battles Western Front@en", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 401,
+  "pattern" : "formed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Melbourne, Victoria, Australia@en", "AllConf=0.327586206896552", "triple=e dbp:origin Melbourne, Victoria, Australia@en", "class=Band" ],
+    "1" : [ "pair=Sony_BMG", "AllConf=0.255813953488372", "triple=e dbp:label Sony_BMG", "class=Band" ],
+    "2" : [ "pair=Seoul, South Korea@en", "AllConf=0.25", "triple=e dbp:origin Seoul, South Korea@en", "class=Band" ],
+    "3" : [ "pair=K-pop", "AllConf=0.244186046511628", "triple=e dbp:genre K-pop", "class=Band" ],
+    "4" : [ "pair=pop rock@en", "AllConf=0.234042553191489", "triple=e dbp:genre pop rock@en", "class=Band" ],
+    "5" : [ "pair=Seoul", "AllConf=0.222222222222222", "triple=e dbo:hometown Seoul", "class=Band" ],
+    "6" : [ "pair=Dream_pop", "AllConf=0.222222222222222", "triple=e dbp:genre Dream_pop", "class=Band" ],
+    "7" : [ "pair=Neo-psychedelia", "AllConf=0.211538461538462", "triple=e dbp:genre Neo-psychedelia", "class=Band" ],
+    "8" : [ "pair=Chicago, Illinois, United States@en", "AllConf=0.207547169811321", "triple=e dbp:origin Chicago, Illinois, United States@en", "class=Band" ],
+    "9" : [ "pair=Industrial_metal", "AllConf=0.189655172413793", "triple=e dbp:genre Industrial_metal", "class=Band" ],
+    "10" : [ "pair=Illinois", "AllConf=0.182795698924731", "triple=e dbo:hometown Illinois", "class=Band" ],
+    "11" : [ "pair=Polydor_Records", "AllConf=0.176470588235294", "triple=e dbp:label Polydor_Records", "class=Band" ],
+    "12" : [ "pair=Capitol_Records", "AllConf=0.175", "triple=e dbp:label Capitol_Records", "class=Band" ],
+    "13" : [ "pair=Alternative rock@en", "AllConf=0.174603174603175", "triple=e dbp:genre Alternative rock@en", "class=Band" ],
+    "14" : [ "pair=EMI", "AllConf=0.168539325842697", "triple=e dbp:label EMI", "class=Band" ],
+    "15" : [ "pair=Art_rock", "AllConf=0.168316831683168", "triple=e dbp:genre Art_rock", "class=Band" ],
+    "16" : [ "pair=alternative rock@en", "AllConf=0.166666666666667", "triple=e dbp:genre alternative rock@en", "class=Band" ],
+    "17" : [ "pair=Post-grunge", "AllConf=0.166666666666667", "triple=e dbp:genre Post-grunge", "class=Band" ],
+    "18" : [ "pair=\"2016\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.164705882352941", "triple=e dbo:activeYearsEndYear \"2016\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=Band" ],
+    "19" : [ "pair=Dance-pop", "AllConf=0.164556962025316", "triple=e dbp:genre Dance-pop", "class=Band" ],
+    "20" : [ "pair=@en", "AllConf=0.164556962025316", "triple=e dbp:alias @en", "class=Band" ],
+    "21" : [ "pair=Rock@en", "AllConf=0.164179104477612", "triple=e dbp:genre Rock@en", "class=Band" ],
+    "22" : [ "pair=France", "AllConf=0.161764705882353", "triple=e dbp:origin France", "class=Band" ],
+    "23" : [ "pair=Virgin_Records", "AllConf=0.16", "triple=e dbo:recordLabel Virgin_Records", "class=Band" ],
+    "24" : [ "pair=Gothic_rock", "AllConf=0.159574468085106", "triple=e dbo:genre Gothic_rock", "class=Band" ],
+    "25" : [ "pair=Blues_rock", "AllConf=0.159420289855072", "triple=e dbo:genre Blues_rock", "class=Band" ],
+    "26" : [ "pair=Union_of_South_Africa", "AllConf=0.523809523809524", "triple=e dbo:country Union_of_South_Africa", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 404,
+  "pattern" : "found",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"240.0\"^^http://dbpedia.org/datatype/second", "AllConf=0.5", "triple=e dbp:othernames \"240.0\"^^http://dbpedia.org/datatype/second", "class=ChemicalCompound" ],
+    "1" : [ "pair=yes@en", "AllConf=0.3", "triple=e dbp:containerOnly yes@en", "class=ChemicalCompound" ],
+    "2" : [ "pair=Lecithoceridae", "AllConf=0.158536585365854", "triple=e dbp:familia Lecithoceridae", "class=Insect" ],
+    "3" : [ "pair=Cosmopterigidae", "AllConf=0.102739726027397", "triple=e dbp:familia Cosmopterigidae", "class=Insect" ]
+  }
+}, {
+  "id" : 406,
+  "pattern" : "founded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Germany", "AllConf=0.155844155844156", "triple=e dbo:location Germany", "class=Organisation" ],
+    "1" : [ "pair=NGO", "AllConf=0.149532710280374", "triple=e dbo:type NGO", "class=Organisation" ],
+    "2" : [ "pair=Canada", "AllConf=0.141176470588235", "triple=e dbo:regionServed Canada", "class=Organisation" ],
+    "3" : [ "pair=President_(corporate_title)", "AllConf=0.138211382113821", "triple=e dbp:leaderTitle President_(corporate_title)", "class=Organisation" ],
+    "4" : [ "pair=Worldwide@en", "AllConf=0.130208333333333", "triple=e dbp:areaServed Worldwide@en", "class=Organisation" ],
+    "5" : [ "pair=@en", "AllConf=0.119718309859155", "triple=e dbp:keyPeople @en", "class=Organisation" ],
+    "6" : [ "pair=Washington,_D.C.", "AllConf=0.115384615384615", "triple=e dbp:location Washington,_D.C.", "class=Organisation" ],
+    "7" : [ "pair=Catalonia, Spain@en", "AllConf=0.695652173913043", "triple=e dbp:ground Catalonia, Spain@en", "class=SoccerClub" ],
+    "8" : [ "pair=Catalonia", "AllConf=0.6", "triple=e dbo:ground Catalonia", "class=SoccerClub" ],
+    "9" : [ "pair=Valencian_Community", "AllConf=0.458333333333333", "triple=e dbo:ground Valencian_Community", "class=SoccerClub" ]
+  }
+}, {
+  "id" : 437,
+  "pattern" : "governing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=List_of_international_sport_federations", "AllConf=0.203703703703704", "triple=e dbo:type List_of_international_sport_federations", "class=Organisation" ],
+    "1" : [ "pair=List_of_international_sports_federations", "AllConf=0.164179104477612", "triple=e dbp:type List_of_international_sports_federations", "class=Organisation" ]
+  }
+}, {
+  "id" : 457,
+  "pattern" : "hang",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Hang_gliding", "AllConf=0.825396825396825", "triple=e dbp:type Hang_gliding", "class=Aircraft" ],
+    "1" : [ "pair=Hang_glider", "AllConf=0.82258064516129", "triple=e dbo:type Hang_glider", "class=Aircraft" ]
+  }
+}, {
+  "id" : 465,
+  "pattern" : "held",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"2013-05-13\"^^http://www.w3.org/2001/XMLSchema#date", "AllConf=0.772727272727273", "triple=e dbp:electionDate \"2013-05-13\"^^http://www.w3.org/2001/XMLSchema#date", "class=Election" ],
+    "1" : [ "pair=Korea", "AllConf=0.176470588235294", "triple=e dbp:country Korea", "class=Organisation" ]
+  }
+}, {
+  "id" : 483,
+  "pattern" : "holding",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Catalonia, Spain@en", "AllConf=0.608695652173913", "triple=e dbp:ground Catalonia, Spain@en", "class=SoccerClub" ]
+  }
+}, {
+  "id" : 495,
+  "pattern" : "hurling",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Gaelic_Grounds", "AllConf=0.833333333333333", "triple=e dbp:stadium Gaelic_Grounds", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=O'Moore_Park", "AllConf=0.826086956521739", "triple=e dbp:stadium O'Moore_Park", "class=FootballLeagueSeason" ],
+    "2" : [ "pair=Limerick", "AllConf=0.821428571428571", "triple=e dbp:stadium Limerick", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 504,
+  "pattern" : "inactivated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=General Radar Surveillance@en", "AllConf=0.6", "triple=e dbp:type General Radar Surveillance@en", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 555,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=School_of_the_Art_Institute_of_Chicago", "AllConf=0.333333333333333", "triple=e dbo:training School_of_the_Art_Institute_of_Chicago", "class=Artist" ],
+    "1" : [ "pair=Chicago", "AllConf=0.323529411764706", "triple=e dbo:birthPlace Chicago", "class=Artist" ],
+    "2" : [ "pair=National_Endowment_for_the_Arts", "AllConf=0.289473684210526", "triple=e dbo:award National_Endowment_for_the_Arts", "class=Artist" ],
+    "3" : [ "pair=Académie_Julian", "AllConf=0.275", "triple=e dbo:training Académie_Julian", "class=Artist" ],
+    "4" : [ "pair=Performance_art", "AllConf=0.271186440677966", "triple=e dbp:field Performance_art", "class=Artist" ],
+    "5" : [ "pair=Ball-and-stick model@en", "AllConf=0.181102362204724", "triple=e dbp:imagename Ball-and-stick model@en", "class=ChemicalCompound" ],
+    "6" : [ "pair=left@en", "AllConf=0.375", "triple=e dbp:align left@en", "class=HumanGene" ],
+    "7" : [ "pair=Alternative_hip_hop", "AllConf=0.211538461538462", "triple=e dbp:genre Alternative_hip_hop", "class=MusicalArtist" ],
+    "8" : [ "pair=Rapper@en", "AllConf=0.179856115107914", "triple=e dbp:occupation Rapper@en", "class=MusicalArtist" ],
+    "9" : [ "pair=Rapping", "AllConf=0.163934426229508", "triple=e dbo:occupation Rapping", "class=MusicalArtist" ],
+    "10" : [ "pair=Rapper", "AllConf=0.141304347826087", "triple=e dbo:occupation Rapper", "class=MusicalArtist" ],
+    "11" : [ "pair=Hip_hop_music", "AllConf=0.127659574468085", "triple=e dbo:genre Hip_hop_music", "class=MusicalArtist" ],
+    "12" : [ "pair=@en", "AllConf=0.120689655172414", "triple=e dbp:alias @en", "class=MusicalArtist" ],
+    "13" : [ "pair=record producer@en", "AllConf=0.117117117117117", "triple=e dbp:occupation record producer@en", "class=MusicalArtist" ],
+    "14" : [ "pair=New_wave_music", "AllConf=0.109090909090909", "triple=e dbp:genre New_wave_music", "class=MusicalArtist" ],
+    "15" : [ "pair=songwriter@en", "AllConf=0.103448275862069", "triple=e dbp:occupation songwriter@en", "class=MusicalArtist" ],
+    "16" : [ "pair=\"2002\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.100719424460432", "triple=e dbo:activeYearsStartYear \"2002\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=MusicalArtist" ],
+    "17" : [ "pair=Indian_nationality_law", "AllConf=0.212962962962963", "triple=e dbp:nationality Indian_nationality_law", "class=Scientist" ],
+    "18" : [ "pair=Indian_nationality", "AllConf=0.212962962962963", "triple=e dbo:nationality Indian_nationality", "class=Scientist" ]
+  }
+}, {
+  "id" : 562,
+  "pattern" : "laid",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=* \\n* \\n*@en", "AllConf=0.348837209302326", "triple=e dbp:shipPower * \\n* \\n*@en", "class=Ship" ],
+    "1" : [ "pair=Type_XXI_submarine", "AllConf=0.342857142857143", "triple=e dbo:class Type_XXI_submarine", "class=Ship" ],
+    "2" : [ "pair=\"1943-11-06\"^^http://www.w3.org/2001/XMLSchema#date", "AllConf=0.342857142857143", "triple=e dbp:shipOrdered \"1943-11-06\"^^http://www.w3.org/2001/XMLSchema#date", "class=Ship" ],
+    "3" : [ "pair=*Surfaced:\\n* \\n* \\n*Submerged:\\n* \\n*@en", "AllConf=0.342857142857143", "triple=e dbp:shipSpeed *Surfaced:\\n* \\n* \\n*Submerged:\\n* \\n*@en", "class=Ship" ],
+    "4" : [ "pair=*Type F432 D2 Radar Transmitter\\n*FuMB Ant 3 Bali Radar Detector@en", "AllConf=0.342857142857143", "triple=e dbp:shipSensors *Type F432 D2 Radar Transmitter\\n*FuMB Ant 3 Bali Radar Detector@en", "class=Ship" ]
+  }
+}, {
+  "id" : 569,
+  "pattern" : "launched",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=* \\n* \\n*@en", "AllConf=0.348837209302326", "triple=e dbp:shipPower * \\n* \\n*@en", "class=Ship" ],
+    "1" : [ "pair=Deptford_Dockyard", "AllConf=0.34375", "triple=e dbo:builder Deptford_Dockyard", "class=Ship" ],
+    "2" : [ "pair=Type_XXI_submarine", "AllConf=0.342857142857143", "triple=e dbo:class Type_XXI_submarine", "class=Ship" ],
+    "3" : [ "pair=\"1943-11-06\"^^http://www.w3.org/2001/XMLSchema#date", "AllConf=0.342857142857143", "triple=e dbp:shipOrdered \"1943-11-06\"^^http://www.w3.org/2001/XMLSchema#date", "class=Ship" ],
+    "4" : [ "pair=*Surfaced:\\n* \\n* \\n*Submerged:\\n* \\n*@en", "AllConf=0.342857142857143", "triple=e dbp:shipSpeed *Surfaced:\\n* \\n* \\n*Submerged:\\n* \\n*@en", "class=Ship" ],
+    "5" : [ "pair=*Type F432 D2 Radar Transmitter\\n*FuMB Ant 3 Bali Radar Detector@en", "AllConf=0.342857142857143", "triple=e dbp:shipSensors *Type F432 D2 Radar Transmitter\\n*FuMB Ant 3 Bali Radar Detector@en", "class=Ship" ]
+  }
+}, {
+  "id" : 571,
+  "pattern" : "learned",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Learned_society", "AllConf=0.245283018867925", "triple=e dbp:type Learned_society", "class=Organisation" ]
+  }
+}, {
+  "id" : 572,
+  "pattern" : "leaves",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Knight's_Cross_of_the_Iron_Cross_with_Oak_Leaves", "AllConf=0.308411214953271", "triple=e dbo:award Knight's_Cross_of_the_Iron_Cross_with_Oak_Leaves", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 587,
+  "pattern" : "listed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"--09-09\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "AllConf=0.5", "triple=e dbp:caption \"--09-09\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "class=BaseballPlayer" ],
+    "1" : [ "pair=Utah@en", "AllConf=0.315789473684211", "triple=e dbp:locmapin Utah@en", "class=Building" ],
+    "2" : [ "pair=Less than one acre@en", "AllConf=0.19672131147541", "triple=e dbp:area Less than one acre@en", "class=Building" ],
+    "3" : [ "pair=Nebraska#USA@en", "AllConf=0.189655172413793", "triple=e dbp:locmapin Nebraska#USA@en", "class=Building" ],
+    "4" : [ "pair=Colonial Revival@en", "AllConf=0.181034482758621", "triple=e dbp:architecture Colonial Revival@en", "class=Building" ],
+    "5" : [ "pair=Portland,_Oregon", "AllConf=0.166666666666667", "triple=e dbp:location Portland,_Oregon", "class=Building" ],
+    "6" : [ "pair=Bassetlaw and Bawtry@en", "AllConf=0.962962962962963", "triple=e dbp:deanery Bassetlaw and Bawtry@en", "class=HistoricBuilding" ],
+    "7" : [ "pair=Greek Revival, Italianate@en", "AllConf=0.366666666666667", "triple=e dbp:architecture Greek Revival, Italianate@en", "class=HistoricPlace" ],
+    "8" : [ "pair=Federal_architecture", "AllConf=0.323529411764706", "triple=e dbp:architecture Federal_architecture", "class=HistoricPlace" ],
+    "9" : [ "pair=Michigan State Historic Site@en", "AllConf=0.317460317460317", "triple=e dbp:designatedOther Michigan State Historic Site@en", "class=HistoricPlace" ],
+    "10" : [ "pair=Grade I Listed Building@en", "AllConf=0.315789473684211", "triple=e dbp:designation Grade I Listed Building@en", "class=HistoricPlace" ]
+  }
+}, {
+  "id" : 590,
+  "pattern" : "lived",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Russia", "AllConf=0.521739130434783", "triple=e dbp:citizenship Russia", "class=Artist" ],
+    "1" : [ "pair=Realism_(visual_art)", "AllConf=0.421052631578947", "triple=e dbo:movement Realism_(visual_art)", "class=Artist" ],
+    "2" : [ "pair=Soviet_Union", "AllConf=0.418604651162791", "triple=e dbp:citizenship Soviet_Union", "class=Artist" ],
+    "3" : [ "pair=Repin_Institute_of_Arts", "AllConf=0.318181818181818", "triple=e dbo:training Repin_Institute_of_Arts", "class=Artist" ]
+  }
+}, {
+  "id" : 602,
+  "pattern" : "maintained",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=the Ministry of Transportation of Ontario@en", "AllConf=0.432432432432432", "triple=e dbp:maint the Ministry of Transportation of Ontario@en", "class=Road" ]
+  }
+}, {
+  "id" : 641,
+  "pattern" : "ming",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Ming_dynasty", "AllConf=0.625", "triple=e dbp:combatant Ming_dynasty", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"Ming dynasty\"", "AllConf=0.615384615384615", "triple=e dbo:combatant \"Ming dynasty\"", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 667,
+  "pattern" : "named",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Victoria_Land", "AllConf=0.477272727272727", "triple=e dbo:locatedInArea Victoria_Land", "class=Mountain" ]
+  }
+}, {
+  "id" : 688,
+  "pattern" : "nipissing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Nipissing_District", "AllConf=0.878787878787879", "triple=e dbp:location Nipissing_District", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 720,
+  "pattern" : "ordered",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=* \\n* \\n*@en", "AllConf=0.348837209302326", "triple=e dbp:shipPower * \\n* \\n*@en", "class=Ship" ]
+  }
+}, {
+  "id" : 731,
+  "pattern" : "owned",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"1470.0\"^^http://dbpedia.org/datatype/kilohertz", "AllConf=0.6875", "triple=e dbp:frequency \"1470.0\"^^http://dbpedia.org/datatype/kilohertz", "class=RadioStation" ],
+    "1" : [ "pair=Salem_Communications", "AllConf=0.645161290322581", "triple=e dbo:broadcastNetwork Salem_Communications", "class=RadioStation" ],
+    "2" : [ "pair=Salem_Media_Group", "AllConf=0.633333333333333", "triple=e dbp:affiliations Salem_Media_Group", "class=RadioStation" ],
+    "3" : [ "pair=Nebraska", "AllConf=0.583333333333333", "triple=e dbo:city Nebraska", "class=RadioStation" ],
+    "4" : [ "pair=\"1580.0\"^^http://dbpedia.org/datatype/kilohertz", "AllConf=0.576923076923077", "triple=e dbp:frequency \"1580.0\"^^http://dbpedia.org/datatype/kilohertz", "class=RadioStation" ],
+    "5" : [ "pair=Adult_Standards", "AllConf=0.5625", "triple=e dbo:programmeFormat Adult_Standards", "class=RadioStation" ],
+    "6" : [ "pair=Positive and Encouraging@en", "AllConf=0.56", "triple=e dbo:slogan Positive and Encouraging@en", "class=RadioStation" ],
+    "7" : [ "pair=\"1250.0\"^^http://dbpedia.org/datatype/kilohertz", "AllConf=0.56", "triple=e dbp:frequency \"1250.0\"^^http://dbpedia.org/datatype/kilohertz", "class=RadioStation" ],
+    "8" : [ "pair=\"1370.0\"^^http://dbpedia.org/datatype/kilohertz", "AllConf=0.545454545454545", "triple=e dbp:frequency \"1370.0\"^^http://dbpedia.org/datatype/kilohertz", "class=RadioStation" ],
+    "9" : [ "pair=Alpha_Media", "AllConf=0.544303797468354", "triple=e dbo:owner Alpha_Media", "class=RadioStation" ],
+    "10" : [ "pair=Oregon", "AllConf=0.541666666666667", "triple=e dbo:city Oregon", "class=RadioStation" ],
+    "11" : [ "pair=Wyoming", "AllConf=0.540540540540541", "triple=e dbo:city Wyoming", "class=RadioStation" ],
+    "12" : [ "pair=\"1380.0\"^^http://dbpedia.org/datatype/kilohertz", "AllConf=0.538461538461538", "triple=e dbp:frequency \"1380.0\"^^http://dbpedia.org/datatype/kilohertz", "class=RadioStation" ]
+  }
+}, {
+  "id" : 778,
+  "pattern" : "played",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Grambling_State_Tigers_football", "AllConf=0.666666666666667", "triple=e dbp:college Grambling_State_Tigers_football", "class=AmericanFootballPlayer" ],
+    "1" : [ "pair=Columbus,_Ohio", "AllConf=0.586206896551724", "triple=e dbp:birthPlace Columbus,_Ohio", "class=AmericanFootballPlayer" ],
+    "2" : [ "pair=Houston_Roughnecks", "AllConf=0.576923076923077", "triple=e dbo:formerTeam Houston_Roughnecks", "class=AmericanFootballPlayer" ],
+    "3" : [ "pair=Long_Beach_Polytechnic_High_School", "AllConf=0.56", "triple=e dbo:highschool Long_Beach_Polytechnic_High_School", "class=AmericanFootballPlayer" ],
+    "4" : [ "pair=Baltimore_Brigade", "AllConf=0.558823529411765", "triple=e dbo:formerTeam Baltimore_Brigade", "class=AmericanFootballPlayer" ],
+    "5" : [ "pair=INTs@en", "AllConf=0.555555555555556", "triple=e dbp:statlabel INTs@en", "class=AmericanFootballPlayer" ],
+    "6" : [ "pair=\"22\"", "AllConf=0.545454545454545", "triple=e dbo:draftPick \"22\"", "class=AmericanFootballPlayer" ],
+    "7" : [ "pair=Miami,_Florida", "AllConf=0.545454545454545", "triple=e dbo:highschool Miami,_Florida", "class=AmericanFootballPlayer" ],
+    "8" : [ "pair=\"145\"", "AllConf=0.523809523809524", "triple=e dbo:draftPick \"145\"", "class=AmericanFootballPlayer" ],
+    "9" : [ "pair=St._Louis_Cardinals_(NFL)", "AllConf=0.523809523809524", "triple=e dbo:team St._Louis_Cardinals_(NFL)", "class=AmericanFootballPlayer" ],
+    "10" : [ "pair=\"14\"", "AllConf=0.521739130434783", "triple=e dbo:draftPick \"14\"", "class=AmericanFootballPlayer" ],
+    "11" : [ "pair=St._Louis_BattleHawks", "AllConf=0.52", "triple=e dbo:formerTeam St._Louis_BattleHawks", "class=AmericanFootballPlayer" ],
+    "12" : [ "pair=\"1950\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.517241379310345", "triple=e dbo:draftYear \"1950\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=AmericanFootballPlayer" ],
+    "13" : [ "pair=\"1951\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.5", "triple=e dbo:draftYear \"1951\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=AmericanFootballPlayer" ],
+    "14" : [ "pair=\"21\"", "AllConf=0.5", "triple=e dbo:draftPick \"21\"", "class=AmericanFootballPlayer" ],
+    "15" : [ "pair=\"202\"", "AllConf=0.5", "triple=e dbo:draftPick \"202\"", "class=AmericanFootballPlayer" ],
+    "16" : [ "pair=Rushing TDs@en", "AllConf=0.5", "triple=e dbp:aflstatlabel Rushing TDs@en", "class=AmericanFootballPlayer" ],
+    "17" : [ "pair=* Los Angeles Rams@en", "AllConf=0.5", "triple=e dbp:pastteams * Los Angeles Rams@en", "class=AmericanFootballPlayer" ],
+    "18" : [ "pair=Shreveport,_Louisiana", "AllConf=0.5", "triple=e dbp:birthPlace Shreveport,_Louisiana", "class=AmericanFootballPlayer" ],
+    "19" : [ "pair=Atlanta Falcons@en", "AllConf=0.5", "triple=e dbp:currentTeam Atlanta Falcons@en", "class=AmericanFootballPlayer" ],
+    "20" : [ "pair=Houston Texans@en", "AllConf=0.5", "triple=e dbp:currentTeam Houston Texans@en", "class=AmericanFootballPlayer" ],
+    "21" : [ "pair=Tackle_(gridiron_football_position)", "AllConf=0.5", "triple=e dbp:statlabel Tackle_(gridiron_football_position)", "class=AmericanFootballPlayer" ],
+    "22" : [ "pair=Dallas_Cowboys", "AllConf=0.492307692307692", "triple=e dbo:team Dallas_Cowboys", "class=AmericanFootballPlayer" ],
+    "23" : [ "pair=Ballarat, Victoria@en", "AllConf=0.904761904761905", "triple=e dbp:deathPlace Ballarat, Victoria@en", "class=AustralianRulesFootballPlayer" ],
+    "24" : [ "pair=Clifton_Hill,_Victoria", "AllConf=0.88", "triple=e dbp:birthPlace Clifton_Hill,_Victoria", "class=AustralianRulesFootballPlayer" ],
+    "25" : [ "pair=Brighton@en", "AllConf=0.869565217391304", "triple=e dbp:originalteam Brighton@en", "class=AustralianRulesFootballPlayer" ],
+    "26" : [ "pair=\"--09-09\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "AllConf=0.576923076923077", "triple=e dbp:caption \"--09-09\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "class=BaseballPlayer" ],
+    "27" : [ "pair=Los_Angeles_Angels", "AllConf=0.555555555555556", "triple=e dbp:debutteam Los_Angeles_Angels", "class=BaseballPlayer" ],
+    "28" : [ "pair=at Baseball Hall of Fame and Museum@en", "AllConf=0.526315789473684", "triple=e dbp:highlights at Baseball Hall of Fame and Museum@en", "class=BaseballPlayer" ],
+    "29" : [ "pair=* New York Yankees@en", "AllConf=0.52", "triple=e dbp:teams * New York Yankees@en", "class=BaseballPlayer" ],
+    "30" : [ "pair=*All-Star@en", "AllConf=0.515151515151515", "triple=e dbp:highlights *All-Star@en", "class=BaseballPlayer" ],
+    "31" : [ "pair=On-base_percentage", "AllConf=0.5", "triple=e dbp:stat2label On-base_percentage", "class=BaseballPlayer" ],
+    "32" : [ "pair=San_Diego_Padres", "AllConf=0.5", "triple=e dbp:finalteam San_Diego_Padres", "class=BaseballPlayer" ],
+    "33" : [ "pair=\"--07-11\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "AllConf=0.5", "triple=e dbp:debutdate \"--07-11\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "class=BaseballPlayer" ],
+    "34" : [ "pair=\"--05-27\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "AllConf=0.5", "triple=e dbp:debutdate \"--05-27\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "class=BaseballPlayer" ],
+    "35" : [ "pair=Cleveland Naps@en", "AllConf=0.483870967741935", "triple=e dbp:finalteam Cleveland Naps@en", "class=BaseballPlayer" ],
+    "36" : [ "pair=Washington,_D.C.", "AllConf=0.482758620689655", "triple=e dbo:birthPlace Washington,_D.C.", "class=BaseballPlayer" ],
+    "37" : [ "pair=Runs@en", "AllConf=0.48", "triple=e dbp:stat2label Runs@en", "class=BaseballPlayer" ],
+    "38" : [ "pair=MLB@en", "AllConf=0.478260869565217", "triple=e dbp:debut2league MLB@en", "class=BaseballPlayer" ],
+    "39" : [ "pair=Batting_average_(baseball)", "AllConf=0.476190476190476", "triple=e dbp:stat21label Batting_average_(baseball)", "class=BaseballPlayer" ],
+    "40" : [ "pair=Shanxi_Loongs", "AllConf=0.739130434782609", "triple=e dbp:team Shanxi_Loongs", "class=BasketballPlayer" ],
+    "41" : [ "pair=Netherlands", "AllConf=0.590909090909091", "triple=e dbo:country Netherlands", "class=Cricketer" ],
+    "42" : [ "pair=Free_State_(cricket_team)", "AllConf=0.523809523809524", "triple=e dbp:club Free_State_(cricket_team)", "class=Cricketer" ],
+    "43" : [ "pair=\"2015-12-22\"^^http://www.w3.org/2001/XMLSchema#date", "AllConf=0.517241379310345", "triple=e dbp:date \"2015-12-22\"^^http://www.w3.org/2001/XMLSchema#date", "class=Cricketer" ],
+    "44" : [ "pair=Perth", "AllConf=0.478260869565217", "triple=e dbo:birthPlace Perth", "class=Cricketer" ],
+    "45" : [ "pair=Northern_Cape_(cricket_team)", "AllConf=0.478260869565217", "triple=e dbp:club Northern_Cape_(cricket_team)", "class=Cricketer" ],
+    "46" : [ "pair=Lincolnshire_County_Cricket_Club", "AllConf=0.470588235294118", "triple=e dbp:club Lincolnshire_County_Cricket_Club", "class=Cricketer" ],
+    "47" : [ "pair=Somerset@en", "AllConf=0.46875", "triple=e dbp:club Somerset@en", "class=Cricketer" ],
+    "48" : [ "pair=Kent@en", "AllConf=0.459459459459459", "triple=e dbp:debutfor Kent@en", "class=Cricketer" ],
+    "49" : [ "pair=-@en", "AllConf=0.454545454545455", "triple=e dbp:bowling -@en", "class=Cricketer" ],
+    "50" : [ "pair=\"-\"", "AllConf=0.454545454545455", "triple=e dbo:bowlingSide \"-\"", "class=Cricketer" ],
+    "51" : [ "pair=Derbyshire_County_Cricket_Club", "AllConf=0.452380952380952", "triple=e dbp:lastfor Derbyshire_County_Cricket_Club", "class=Cricketer" ],
+    "52" : [ "pair=English_cricket_team", "AllConf=0.45", "triple=e dbo:birthPlace English_cricket_team", "class=Cricketer" ],
+    "53" : [ "pair=Nottinghamshire_County_Cricket_Club", "AllConf=0.44", "triple=e dbp:lastagainst Nottinghamshire_County_Cricket_Club", "class=Cricketer" ],
+    "54" : [ "pair=Calcutta, India@en", "AllConf=0.428571428571429", "triple=e dbp:birthPlace Calcutta, India@en", "class=Cricketer" ],
+    "55" : [ "pair=Norfolk", "AllConf=0.423076923076923", "triple=e dbp:birthPlace Norfolk", "class=Cricketer" ],
+    "56" : [ "pair=Bulawayo", "AllConf=0.423076923076923", "triple=e dbo:birthPlace Bulawayo", "class=Cricketer" ],
+    "57" : [ "pair=England", "AllConf=0.422222222222222", "triple=e dbp:country England", "class=Cricketer" ],
+    "58" : [ "pair=Launceston,_Tasmania", "AllConf=0.421052631578947", "triple=e dbo:birthPlace Launceston,_Tasmania", "class=Cricketer" ],
+    "59" : [ "pair=Launceston, Tasmania, Australia@en", "AllConf=0.419354838709677", "triple=e dbp:birthPlace Launceston, Tasmania, Australia@en", "class=Cricketer" ],
+    "60" : [ "pair=Albertsons_Stadium", "AllConf=0.681818181818182", "triple=e dbp:stadium Albertsons_Stadium", "class=NCAATeamSeason" ],
+    "61" : [ "pair=--@en", "AllConf=0.695652173913043", "triple=e dbp:ruCurrentteam --@en", "class=RugbyPlayer" ],
+    "62" : [ "pair=Country_New_South_Wales_rugby_league_team", "AllConf=0.62962962962963", "triple=e dbp:teamb Country_New_South_Wales_rugby_league_team", "class=RugbyPlayer" ],
+    "63" : [ "pair=Amateur_Football_League", "AllConf=0.5", "triple=e dbo:league Amateur_Football_League", "class=SoccerClub" ],
+    "64" : [ "pair=CD_Logroñés", "AllConf=0.666666666666667", "triple=e dbo:team CD_Logroñés", "class=SoccerManager" ],
+    "65" : [ "pair=CA_Osasuna", "AllConf=0.538461538461538", "triple=e dbp:clubs CA_Osasuna", "class=SoccerManager" ],
+    "66" : [ "pair=Sporting_de_Gijón", "AllConf=0.523809523809524", "triple=e dbp:managerclubs Sporting_de_Gijón", "class=SoccerManager" ],
+    "67" : [ "pair=Leeds_United_F.C.", "AllConf=0.458333333333333", "triple=e dbp:youthclubs Leeds_United_F.C.", "class=SoccerManager" ],
+    "68" : [ "pair=S.C._Braga", "AllConf=0.454545454545455", "triple=e dbp:clubs S.C._Braga", "class=SoccerManager" ],
+    "69" : [ "pair=Scotland_national_football_B_team", "AllConf=0.448275862068966", "triple=e dbp:nationalteam Scotland_national_football_B_team", "class=SoccerManager" ],
+    "70" : [ "pair=Real_Madrid_Castilla", "AllConf=0.448275862068966", "triple=e dbp:clubs Real_Madrid_Castilla", "class=SoccerManager" ],
+    "71" : [ "pair=Real_Oviedo", "AllConf=0.448275862068966", "triple=e dbo:team Real_Oviedo", "class=SoccerManager" ],
+    "72" : [ "pair=Denmark_national_football_team", "AllConf=0.444444444444444", "triple=e dbo:team Denmark_national_football_team", "class=SoccerManager" ],
+    "73" : [ "pair=Tamworth_F.C.", "AllConf=0.44", "triple=e dbp:clubs Tamworth_F.C.", "class=SoccerManager" ],
+    "74" : [ "pair=Spain_national_under-18_football_team", "AllConf=0.431372549019608", "triple=e dbp:nationalteam Spain_national_under-18_football_team", "class=SoccerManager" ],
+    "75" : [ "pair=FC_Seoul", "AllConf=0.428571428571429", "triple=e dbp:clubs FC_Seoul", "class=SoccerManager" ],
+    "76" : [ "pair=Real_Madrid_C.F.", "AllConf=0.428571428571429", "triple=e dbo:team Real_Madrid_C.F.", "class=SoccerManager" ],
+    "77" : [ "pair=Scotland_national_under-21_football_team", "AllConf=0.426229508196721", "triple=e dbo:team Scotland_national_under-21_football_team", "class=SoccerManager" ],
+    "78" : [ "pair=Real_Madrid_CF", "AllConf=0.418604651162791", "triple=e dbp:clubs Real_Madrid_CF", "class=SoccerManager" ],
+    "79" : [ "pair=Sheffield_Wednesday_F.C.", "AllConf=0.417910447761194", "triple=e dbp:clubs Sheffield_Wednesday_F.C.", "class=SoccerManager" ]
+  }
+}, {
+  "id" : 794,
+  "pattern" : "powered",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Hirth_F-36", "AllConf=0.91304347826087", "triple=e dbp:eng1Name Hirth_F-36", "class=Aircraft" ],
+    "1" : [ "pair=Paramotor", "AllConf=0.855421686746988", "triple=e dbo:type Paramotor", "class=Aircraft" ],
+    "2" : [ "pair=Powered_parachute", "AllConf=0.815789473684211", "triple=e dbo:type Powered_parachute", "class=Aircraft" ]
+  }
+}, {
+  "id" : 802,
+  "pattern" : "produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Hirth_F-36", "AllConf=0.956521739130435", "triple=e dbp:eng1Name Hirth_F-36", "class=Aircraft" ],
+    "1" : [ "pair=Paragliding", "AllConf=0.870967741935484", "triple=e dbp:type Paragliding", "class=Aircraft" ],
+    "2" : [ "pair=Paraglider", "AllConf=0.87027027027027", "triple=e dbo:type Paraglider", "class=Aircraft" ],
+    "3" : [ "pair=Paramotor", "AllConf=0.867469879518072", "triple=e dbo:type Paramotor", "class=Aircraft" ],
+    "4" : [ "pair=\"-2000.0\"^^http://dbpedia.org/datatype/second", "AllConf=0.865979381443299", "triple=e dbp:produced \"-2000.0\"^^http://dbpedia.org/datatype/second", "class=Aircraft" ],
+    "5" : [ "pair=Bertrand@en", "AllConf=0.858585858585859", "triple=e dbp:ref Bertrand@en", "class=Aircraft" ],
+    "6" : [ "pair=twin cylinder, two-stroke, liquid-cooled aircraft engine@en", "AllConf=0.857142857142857", "triple=e dbp:eng1Type twin cylinder, two-stroke, liquid-cooled aircraft engine@en", "class=Aircraft" ],
+    "7" : [ "pair=Bertrand and manufacturer@en", "AllConf=0.848484848484849", "triple=e dbp:ref Bertrand and manufacturer@en", "class=Aircraft" ],
+    "8" : [ "pair=Powered_parachute", "AllConf=0.828947368421053", "triple=e dbo:type Powered_parachute", "class=Aircraft" ],
+    "9" : [ "pair=Hang_gliding", "AllConf=0.80952380952381", "triple=e dbp:type Hang_gliding", "class=Aircraft" ],
+    "10" : [ "pair=Hang_glider", "AllConf=0.806451612903226", "triple=e dbo:type Hang_glider", "class=Aircraft" ],
+    "11" : [ "pair=twin cylinder, two-stroke, air-cooled aircraft engine@en", "AllConf=0.806451612903226", "triple=e dbp:eng1Type twin cylinder, two-stroke, air-cooled aircraft engine@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 811,
+  "pattern" : "providing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=General Radar Surveillance@en", "AllConf=0.56", "triple=e dbp:type General Radar Surveillance@en", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 819,
+  "pattern" : "published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Harper_&_Brothers", "AllConf=0.44", "triple=e dbo:publisher Harper_&_Brothers", "class=Book" ],
+    "1" : [ "pair=Slovenia", "AllConf=0.352941176470588", "triple=e dbo:country Slovenia", "class=Book" ],
+    "2" : [ "pair=Slovene_language", "AllConf=0.314285714285714", "triple=e dbp:language Slovene_language", "class=Book" ],
+    "3" : [ "pair=Poetry", "AllConf=0.26530612244898", "triple=e dbp:genre Poetry", "class=Book" ],
+    "4" : [ "pair=Harper_(publisher)", "AllConf=0.227272727272727", "triple=e dbp:publisher Harper_(publisher)", "class=Book" ],
+    "5" : [ "pair=Canada", "AllConf=0.215686274509804", "triple=e dbo:country Canada", "class=Book" ],
+    "6" : [ "pair=Young_adult_novel", "AllConf=0.203125", "triple=e dbo:literaryGenre Young_adult_novel", "class=Book" ],
+    "7" : [ "pair=Role-playing_game", "AllConf=0.202380952380952", "triple=e dbo:literaryGenre Role-playing_game", "class=Book" ],
+    "8" : [ "pair=Sweden", "AllConf=0.197183098591549", "triple=e dbo:country Sweden", "class=Book" ],
+    "9" : [ "pair=TSR,_Inc.", "AllConf=0.193548387096774", "triple=e dbo:publisher TSR,_Inc.", "class=Book" ],
+    "10" : [ "pair=Canada@en", "AllConf=0.191176470588235", "triple=e dbp:country Canada@en", "class=Book" ],
+    "11" : [ "pair=Dust-jacket from the first edition@en", "AllConf=0.186046511627907", "triple=e dbp:caption Dust-jacket from the first edition@en", "class=Book" ],
+    "12" : [ "pair=Detective_fiction", "AllConf=0.181818181818182", "triple=e dbo:literaryGenre Detective_fiction", "class=Book" ],
+    "13" : [ "pair=Cover of first edition@en", "AllConf=0.177914110429448", "triple=e dbp:caption Cover of first edition@en", "class=Book" ],
+    "14" : [ "pair=Ballantine_Books", "AllConf=0.17741935483871", "triple=e dbp:publisher Ballantine_Books", "class=Book" ],
+    "15" : [ "pair=\"368\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "AllConf=0.177215189873418", "triple=e dbo:numberOfPages \"368\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "16" : [ "pair=E-book", "AllConf=0.166666666666667", "triple=e dbo:mediaType E-book", "class=Book" ],
+    "17" : [ "pair=right@en", "AllConf=0.162162162162162", "triple=e dbp:align right@en", "class=Book" ],
+    "18" : [ "pair=Macmillan_Publishers", "AllConf=0.162162162162162", "triple=e dbo:publisher Macmillan_Publishers", "class=Book" ],
+    "19" : [ "pair=Jonathan_Cape", "AllConf=0.161764705882353", "triple=e dbp:publisher Jonathan_Cape", "class=Book" ],
+    "20" : [ "pair=First US edition@en", "AllConf=0.158536585365854", "triple=e dbp:caption First US edition@en", "class=Book" ],
+    "21" : [ "pair=Adventure_fiction", "AllConf=0.155172413793103", "triple=e dbp:genre Adventure_fiction", "class=Book" ],
+    "22" : [ "pair=Mystery_fiction", "AllConf=0.154929577464789", "triple=e dbo:literaryGenre Mystery_fiction", "class=Book" ],
+    "23" : [ "pair=Children's_literature", "AllConf=0.152091254752852", "triple=e dbo:literaryGenre Children's_literature", "class=Book" ],
+    "24" : [ "pair=Short_story", "AllConf=0.149425287356322", "triple=e dbp:genre Short_story", "class=Book" ],
+    "25" : [ "pair=Science fiction@en", "AllConf=0.148148148148148", "triple=e dbp:genre Science fiction@en", "class=Book" ],
+    "26" : [ "pair=Ace_Books", "AllConf=0.147368421052632", "triple=e dbp:publisher Ace_Books", "class=Book" ],
+    "27" : [ "pair=French_language", "AllConf=0.146666666666667", "triple=e dbo:language French_language", "class=Book" ],
+    "28" : [ "pair=Thriller_(genre)", "AllConf=0.142857142857143", "triple=e dbo:literaryGenre Thriller_(genre)", "class=Book" ],
+    "29" : [ "pair=Biography", "AllConf=0.141304347826087", "triple=e dbo:literaryGenre Biography", "class=Book" ],
+    "30" : [ "pair=Adventure_novel", "AllConf=0.139240506329114", "triple=e dbo:literaryGenre Adventure_novel", "class=Book" ],
+    "31" : [ "pair=yes@en", "AllConf=0.138996138996139", "triple=e dbp:border yes@en", "class=Book" ],
+    "32" : [ "pair=Science_fiction", "AllConf=0.137880986937591", "triple=e dbp:genre Science_fiction", "class=Book" ],
+    "33" : [ "pair=Mystery_novel", "AllConf=0.137614678899083", "triple=e dbo:literaryGenre Mystery_novel", "class=Book" ],
+    "34" : [ "pair=Fantasy", "AllConf=0.136792452830189", "triple=e dbo:literaryGenre Fantasy", "class=Book" ],
+    "35" : [ "pair=India@en", "AllConf=0.135135135135135", "triple=e dbp:country India@en", "class=Book" ],
+    "36" : [ "pair=\"384\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "AllConf=0.134453781512605", "triple=e dbo:numberOfPages \"384\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "37" : [ "pair=Horror_fiction", "AllConf=0.131944444444444", "triple=e dbo:literaryGenre Horror_fiction", "class=Book" ],
+    "38" : [ "pair=Del_Rey_Books", "AllConf=0.13", "triple=e dbo:publisher Del_Rey_Books", "class=Book" ],
+    "39" : [ "pair=Romance_novel", "AllConf=0.129411764705882", "triple=e dbo:literaryGenre Romance_novel", "class=Book" ],
+    "40" : [ "pair=French@en", "AllConf=0.128888888888889", "triple=e dbp:language French@en", "class=Book" ],
+    "41" : [ "pair=United Kingdom@en", "AllConf=0.128735632183908", "triple=e dbp:country United Kingdom@en", "class=Book" ],
+    "42" : [ "pair=Fantasy_fiction", "AllConf=0.127906976744186", "triple=e dbo:literaryGenre Fantasy_fiction", "class=Book" ],
+    "43" : [ "pair=\"272\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "AllConf=0.126315789473684", "triple=e dbo:numberOfPages \"272\"^^http://www.w3.org/2001/XMLSchema#positiveInteger", "class=Book" ],
+    "44" : [ "pair=Simon_&_Schuster", "AllConf=0.12568306010929", "triple=e dbo:publisher Simon_&_Schuster", "class=Book" ],
+    "45" : [ "pair=France@en", "AllConf=0.1256038647343", "triple=e dbp:country France@en", "class=Book" ],
+    "46" : [ "pair=German@en", "AllConf=0.122641509433962", "triple=e dbp:language German@en", "class=Book" ],
+    "47" : [ "pair=Cover of the first edition@en", "AllConf=0.121019108280255", "triple=e dbp:caption Cover of the first edition@en", "class=Book" ],
+    "48" : [ "pair=Young_adult_fiction", "AllConf=0.120331950207469", "triple=e dbp:genre Young_adult_fiction", "class=Book" ],
+    "49" : [ "pair=Hardcover", "AllConf=0.119565217391304", "triple=e dbp:mediaType Hardcover", "class=Book" ],
+    "50" : [ "pair=Print@en", "AllConf=0.118468146027201", "triple=e dbp:mediaType Print@en", "class=Book" ],
+    "51" : [ "pair=HarperCollins", "AllConf=0.116731517509728", "triple=e dbp:publisher HarperCollins", "class=Book" ],
+    "52" : [ "pair=Novel", "AllConf=0.116666666666667", "triple=e dbo:literaryGenre Novel", "class=Book" ],
+    "53" : [ "pair=English@en", "AllConf=0.116314661769207", "triple=e dbp:language English@en", "class=Book" ],
+    "54" : [ "pair=Memoir", "AllConf=0.115789473684211", "triple=e dbo:literaryGenre Memoir", "class=Book" ],
+    "55" : [ "pair=\"813/.54 19\"", "AllConf=0.115789473684211", "triple=e dbo:dcc \"813/.54 19\"", "class=Book" ],
+    "56" : [ "pair=United States@en", "AllConf=0.115475255302435", "triple=e dbp:country United States@en", "class=Book" ],
+    "57" : [ "pair=England@en", "AllConf=0.115384615384615", "triple=e dbp:country England@en", "class=Book" ],
+    "58" : [ "pair=First edition@en", "AllConf=0.114104595879556", "triple=e dbp:caption First edition@en", "class=Book" ],
+    "59" : [ "pair=Historical_fiction", "AllConf=0.11304347826087", "triple=e dbo:literaryGenre Historical_fiction", "class=Book" ],
+    "60" : [ "pair=Doubleday_(publisher)", "AllConf=0.111675126903553", "triple=e dbp:publisher Doubleday_(publisher)", "class=Book" ],
+    "61" : [ "pair=First edition cover@en", "AllConf=0.111304347826087", "triple=e dbp:caption First edition cover@en", "class=Book" ]
+  }
+}, {
+  "id" : 835,
+  "pattern" : "rated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=UIL Class 3A@en", "AllConf=0.352941176470588", "triple=e dbp:conference UIL Class 3A@en", "class=School" ]
+  }
+}, {
+  "id" : 836,
+  "pattern" : "received",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Medal of Honor@en", "AllConf=0.274809160305344", "triple=e dbp:awards Medal of Honor@en", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 839,
+  "pattern" : "recorded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Arthur_Haygarth", "AllConf=0.478260869565217", "triple=e dbp:source Arthur_Haygarth", "class=Cricketer" ],
+    "1" : [ "pair=unknown hand@en", "AllConf=0.458333333333333", "triple=e dbp:batting unknown hand@en", "class=Cricketer" ],
+    "2" : [ "pair=\"unknown hand\"", "AllConf=0.44", "triple=e dbo:battingSide \"unknown hand\"", "class=Cricketer" ]
+  }
+}, {
+  "id" : 841,
+  "pattern" : "regarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Russia", "AllConf=0.478260869565217", "triple=e dbp:citizenship Russia", "class=Artist" ],
+    "1" : [ "pair=Realism_(visual_art)", "AllConf=0.421052631578947", "triple=e dbo:movement Realism_(visual_art)", "class=Artist" ],
+    "2" : [ "pair=Soviet_Union", "AllConf=0.372093023255814", "triple=e dbp:citizenship Soviet_Union", "class=Artist" ],
+    "3" : [ "pair=Repin_Institute_of_Arts", "AllConf=0.318181818181818", "triple=e dbo:training Repin_Institute_of_Arts", "class=Artist" ]
+  }
+}, {
+  "id" : 846,
+  "pattern" : "registered",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Charitable_organization", "AllConf=0.14018691588785", "triple=e dbo:type Charitable_organization", "class=Organisation" ]
+  }
+}, {
+  "id" : 848,
+  "pattern" : "released",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Sony_Music", "AllConf=0.138613861386139", "triple=e dbp:label Sony_Music", "class=Album" ],
+    "1" : [ "pair=France@en", "AllConf=0.117021276595745", "triple=e dbp:region France@en", "class=Album" ],
+    "2" : [ "pair=Los Angeles Times@en", "AllConf=0.104761904761905", "triple=e dbp:rev Los Angeles Times@en", "class=Album" ],
+    "3" : [ "pair=@en", "AllConf=0.104", "triple=e dbp:rev4score @en", "class=Album" ],
+    "4" : [ "pair=Melbourne, Victoria, Australia@en", "AllConf=0.189655172413793", "triple=e dbp:origin Melbourne, Victoria, Australia@en", "class=Band" ],
+    "5" : [ "pair=Dream_pop", "AllConf=0.181818181818182", "triple=e dbo:genre Dream_pop", "class=Band" ],
+    "6" : [ "pair=Electropop", "AllConf=0.177083333333333", "triple=e dbo:genre Electropop", "class=Band" ]
+  }
+}, {
+  "id" : 851,
+  "pattern" : "represented",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Albertsons_Stadium", "AllConf=0.727272727272727", "triple=e dbp:stadium Albertsons_Stadium", "class=NCAATeamSeason" ]
+  }
+}, {
+  "id" : 860,
+  "pattern" : "retired",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=CD_Logroñés", "AllConf=0.619047619047619", "triple=e dbo:team CD_Logroñés", "class=SoccerManager" ]
+  }
+}, {
+  "id" : 912,
+  "pattern" : "selects",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Beauty_pageant", "AllConf=0.137614678899083", "triple=e dbp:type Beauty_pageant", "class=Organisation" ]
+  }
+}, {
+  "id" : 921,
+  "pattern" : "served",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Vice_admiral_(United_States)", "AllConf=0.28", "triple=e dbp:rank Vice_admiral_(United_States)", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 922,
+  "pattern" : "serving",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Namibia@en", "AllConf=0.75", "triple=e dbp:pushpinMap Namibia@en", "class=Airport" ]
+  }
+}, {
+  "id" : 935,
+  "pattern" : "situated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Department_of_Apurímac", "AllConf=0.46875", "triple=e dbp:location Department_of_Apurímac", "class=Mountain" ]
+  }
+}, {
+  "id" : 974,
+  "pattern" : "stationed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=General Radar Surveillance@en", "AllConf=0.6", "triple=e dbp:type General Radar Surveillance@en", "class=MilitaryUnit" ]
+  }
+}, {
+  "id" : 982,
+  "pattern" : "succeeded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=List_of_Anuradhapura_monarchs", "AllConf=0.596153846153846", "triple=e dbp:title List_of_Anuradhapura_monarchs", "class=Royalty" ]
+  }
+}, {
+  "id" : 989,
+  "pattern" : "supplied",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=AeroCrafter@en", "AllConf=0.835616438356164", "triple=e dbp:ref AeroCrafter@en", "class=Aircraft" ],
+    "1" : [ "pair=twin cylinder, air-cooled, two stroke aircraft engine@en", "AllConf=0.805555555555556", "triple=e dbp:eng1Type twin cylinder, air-cooled, two stroke aircraft engine@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 1024,
+  "pattern" : "think",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Think_tank", "AllConf=0.231707317073171", "triple=e dbp:type Think_tank", "class=Organisation" ]
+  }
+}, {
+  "id" : 1025,
+  "pattern" : "threw",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=\"--09-09\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "AllConf=0.576923076923077", "triple=e dbp:caption \"--09-09\"^^http://www.w3.org/2001/XMLSchema#gMonthDay", "class=BaseballPlayer" ],
+    "1" : [ "pair=at Baseball Hall of Fame and Museum@en", "AllConf=0.552631578947368", "triple=e dbp:highlights at Baseball Hall of Fame and Museum@en", "class=BaseballPlayer" ],
+    "2" : [ "pair=*Women in Baseball – AAGPBL Permanent Display at Baseball Hall of Fame and Museum@en", "AllConf=0.5", "triple=e dbp:highlights *Women in Baseball – AAGPBL Permanent Display at Baseball Hall of Fame and Museum@en", "class=BaseballPlayer" ]
+  }
+}, {
+  "id" : 1033,
+  "pattern" : "took",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=the Great Northern War@en", "AllConf=0.56", "triple=e dbp:partof the Great Northern War@en", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 1035,
+  "pattern" : "totalling",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Arthur_Haygarth", "AllConf=0.478260869565217", "triple=e dbp:source Arthur_Haygarth", "class=Cricketer" ],
+    "1" : [ "pair=unknown hand@en", "AllConf=0.458333333333333", "triple=e dbp:batting unknown hand@en", "class=Cricketer" ],
+    "2" : [ "pair=\"unknown hand\"", "AllConf=0.44", "triple=e dbo:battingSide \"unknown hand\"", "class=Cricketer" ]
+  }
+}, {
+  "id" : 1061,
+  "pattern" : "used",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=yes@en", "AllConf=0.5", "triple=e dbp:fixAttempted yes@en", "class=ChemicalCompound" ],
+    "1" : [ "pair=InternetArchiveBot@en", "AllConf=0.4375", "triple=e dbp:bot InternetArchiveBot@en", "class=ChemicalCompound" ],
+    "2" : [ "pair=changed@en", "AllConf=0.393939393939394", "triple=e dbp:verifiedimages changed@en", "class=ChemicalCompound" ],
+    "3" : [ "pair=@en", "AllConf=0.375", "triple=e dbo:alternativeName @en", "class=ChemicalCompound" ],
+    "4" : [ "pair=Skeletal formula@en", "AllConf=0.329545454545455", "triple=e dbp:imagealt Skeletal formula@en", "class=ChemicalCompound" ],
+    "5" : [ "pair=Ball-and-stick model@en", "AllConf=0.296875", "triple=e dbp:imagealt Ball-and-stick model@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 1089,
+  "pattern" : "worked",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Russia", "AllConf=0.521739130434783", "triple=e dbp:citizenship Russia", "class=Artist" ],
+    "1" : [ "pair=Realism_(visual_art)", "AllConf=0.421052631578947", "triple=e dbo:movement Realism_(visual_art)", "class=Artist" ],
+    "2" : [ "pair=Soviet_Union", "AllConf=0.418604651162791", "triple=e dbp:citizenship Soviet_Union", "class=Artist" ],
+    "3" : [ "pair=Repin_Institute_of_Arts", "AllConf=0.318181818181818", "triple=e dbo:training Repin_Institute_of_Arts", "class=Artist" ]
+  }
+}, {
+  "id" : 1094,
+  "pattern" : "written",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Featuring:@en", "AllConf=0.161290322580645", "triple=e dbp:subject Featuring:@en", "class=Book" ],
+    "1" : [ "pair=Doctor Who book:@en", "AllConf=0.16", "triple=e dbp:series Doctor Who book:@en", "class=Book" ],
+    "2" : [ "pair=Scholastic_Corporation", "AllConf=0.152777777777778", "triple=e dbp:publisher Scholastic_Corporation", "class=Book" ],
+    "3" : [ "pair=India@en", "AllConf=0.117117117117117", "triple=e dbp:country India@en", "class=Book" ],
+    "4" : [ "pair=Memoir", "AllConf=0.115789473684211", "triple=e dbo:literaryGenre Memoir", "class=Book" ],
+    "5" : [ "pair=Doctor_Who", "AllConf=0.114285714285714", "triple=e dbo:series Doctor_Who", "class=Book" ],
+    "6" : [ "pair=Little,_Brown_and_Company", "AllConf=0.11214953271028", "triple=e dbp:publisher Little,_Brown_and_Company", "class=Book" ]
+  }
+} ]

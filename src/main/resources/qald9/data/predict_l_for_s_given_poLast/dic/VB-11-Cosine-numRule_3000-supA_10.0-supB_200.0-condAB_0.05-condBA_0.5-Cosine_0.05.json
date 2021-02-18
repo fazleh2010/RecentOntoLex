@@ -1,0 +1,47 @@
+[ {
+  "id" : 3,
+  "pattern" : "based",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:sourceModel Open-source_software", "Cosine=0.628370738822015", "triple=e dbp:sourceModel Open-source_software", "class=Software" ],
+    "1" : [ "kb=dbp:workingState Current@en", "Cosine=0.597094413916622", "triple=e dbp:workingState Current@en", "class=Software" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "developed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:license Shareware", "Cosine=0.586515131944607", "triple=e dbp:license Shareware", "class=Software" ],
+    "1" : [ "kb=dbp:license Proprietary_software", "Cosine=0.546090939092891", "triple=e dbp:license Proprietary_software", "class=Software" ],
+    "2" : [ "kb=dbo:computingPlatform IA-32", "Cosine=0.535019021306581", "triple=e dbo:computingPlatform IA-32", "class=Software" ],
+    "3" : [ "kb=dbo:status \"Discontinued\"", "Cosine=0.521943722224375", "triple=e dbo:status \"Discontinued\"", "class=Software" ],
+    "4" : [ "kb=dbo:computingPlatform X86-64", "Cosine=0.506763592340058", "triple=e dbo:computingPlatform X86-64", "class=Software" ],
+    "5" : [ "kb=dbp:license Proprietary@en", "Cosine=0.506263292179478", "triple=e dbp:license Proprietary@en", "class=Software" ],
+    "6" : [ "kb=dbo:license Freeware", "Cosine=0.505429040799837", "triple=e dbo:license Freeware", "class=Software" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "discontinued",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:status \"Discontinued\"", "Cosine=0.549841414769158", "triple=e dbo:status \"Discontinued\"", "class=Software" ],
+    "1" : [ "kb=dbp:status Discontinued@en", "Cosine=0.545491499117774", "triple=e dbp:status Discontinued@en", "class=Software" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "operating",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:workingState Current@en", "Cosine=0.725318520735366", "triple=e dbp:workingState Current@en", "class=Software" ],
+    "1" : [ "kb=dbp:sourceModel Open-source_software", "Cosine=0.687097521674941", "triple=e dbp:sourceModel Open-source_software", "class=Software" ],
+    "2" : [ "kb=dbo:operatingSystem Unix", "Cosine=0.522232967867094", "triple=e dbo:operatingSystem Unix", "class=Software" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "used",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:operatingSystem Unix", "Cosine=0.518593669397722", "triple=e dbo:operatingSystem Unix", "class=Software" ],
+    "1" : [ "kb=dbp:platform Cross-platform_software", "Cosine=0.502865352970744", "triple=e dbp:platform Cross-platform_software", "class=Software" ]
+  }
+} ]

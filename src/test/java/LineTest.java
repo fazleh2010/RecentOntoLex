@@ -1,5 +1,5 @@
 
-import citec.correlation.wikipedia.parameters.ThresoldConstants;
+import citec.correlation.wikipedia.experiments.ThresoldConstants;
 import citec.correlation.wikipedia.results.LineInfo;
 import java.util.Map;
 import java.util.TreeMap;

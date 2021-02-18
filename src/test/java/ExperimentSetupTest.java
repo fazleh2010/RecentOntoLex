@@ -1,7 +1,7 @@
 
-import citec.correlation.wikipedia.parameters.ThresoldConstants;
-import citec.correlation.wikipedia.parameters.ThresoldsExperiment;
-import citec.correlation.wikipedia.parameters.ThresoldsExperiment.ThresoldELement;
+import citec.correlation.wikipedia.experiments.ThresoldConstants;
+import citec.correlation.wikipedia.experiments.ThresoldsExperiment;
+import citec.correlation.wikipedia.experiments.ThresoldsExperiment.ThresoldELement;
 import java.util.Map;
 import java.util.TreeMap;
 

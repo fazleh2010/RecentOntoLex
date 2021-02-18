@@ -5,14 +5,15 @@
  */
 package citec.correlation.wikipedia.evalution;
 
+import citec.correlation.wikipedia.analyzer.Lemmatizer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
 import citec.correlation.wikipedia.analyzer.logging.LoggingExample;
 import citec.correlation.wikipedia.dic.lexicon.LexiconUnit;
 import citec.correlation.wikipedia.results.ReciprocalResult;
 import citec.correlation.wikipedia.evalution.ir.IrAbstract;
 import citec.correlation.wikipedia.dic.qald.Unit;
-import citec.correlation.wikipedia.parameters.ThresoldConstants;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.predict_l_for_s_given_po;
+import citec.correlation.wikipedia.experiments.ThresoldConstants;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_s_given_po;
 import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.utils.CsvFile;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -44,7 +45,9 @@ import org.javatuples.Pair;
  */
 public class Comparision implements ThresoldConstants {
 
+    //private Map<String, LexiconUnit> lexiconDic = new TreeMap<String, LexiconUnit>();
     private Map<String, LexiconUnit> lexiconDic = new TreeMap<String, LexiconUnit>();
+    private Map<String, String> lexiconLemma = new TreeMap<String, String>();
     private CsvFile csvFile = null;
     private File outputFileName = null;
     private String predicationRule = null;
@@ -52,18 +55,21 @@ public class Comparision implements ThresoldConstants {
     private String type = null;
     private MeanReciprocalCalculation meanReciprocalResult = null;
     private Logger LOGGER;
+    private Lemmatizer lemmatizer=null;
+    
 
     public Comparision(String postag, String qald9Dir, File qaldFileName, File methodFileName, File outputFileName, String experiment, String type) throws IOException {
-        this.lexiconDic = getLexicon(methodFileName);
+        this.getLexicon(methodFileName);
         //this.qaldDic = getQaldFromJson(qaldFileName);
         this.outputFileName = outputFileName;
     }
 
-    public Comparision(String predicationRule, CsvFile csv, File conditionalFilename, String posTag, Logger LOGGER, String experiment, String type) {
+    public Comparision(Lemmatizer lemmatizer,String predicationRule, CsvFile csv, File conditionalFilename, String posTag, Logger LOGGER, String experiment, String type) {
         this.LOGGER = LOGGER;
-        this.lexiconDic = getLexicon(conditionalFilename);
-        this.csvFile = csv;
+        this.lemmatizer=lemmatizer;
         this.posTag = posTag;
+        this.getLexicon(conditionalFilename);
+        this.csvFile = csv;
         this.type = type;
         this.predicationRule = predicationRule;
         this.compersionsPattern(experiment, type);
@@ -71,7 +77,7 @@ public class Comparision implements ThresoldConstants {
 
     public Comparision(File qaldFileName, File conditionalFilename, Boolean classSpecific, String className) throws IOException {
         if (!classSpecific) {
-            this.lexiconDic = getLexicon(conditionalFilename);
+            getLexicon(conditionalFilename);
         }
         //this.qaldDic = getQaldFromJson(qaldFileName);
     }
@@ -162,7 +168,7 @@ public class Comparision implements ThresoldConstants {
 
         }*/
 
-        this.meanReciprocalResult = new MeanReciprocalCalculation(experiment, this.predicationRule,csvFile,lexiconWordKbs, goldWordKbs, LOGGER, commonWords);
+        this.meanReciprocalResult = new MeanReciprocalCalculation(experiment, this.predicationRule,csvFile,lexiconWordKbs, this.lexiconLemma,goldWordKbs, LOGGER);
         //LOGGER.log(Level.INFO, "***** ***** ***** SUMMARY of RESULT ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****");
         //LOGGER.log(Level.INFO, "***** RESULT of ANALYSIS of POS TAG::" + this.posTag);
         //LOGGER.log(Level.INFO, "***** NUMBER OF PATTERN in LEXICON::" + this.meanReciprocalResult.getTotalPattern());
@@ -220,9 +226,8 @@ public class Comparision implements ThresoldConstants {
         }
         return null;
     }
-
-    private Map<String, LexiconUnit> getLexicon(File file) {
-        Map<String, LexiconUnit> lexicons = new TreeMap<String, LexiconUnit>();
+    
+    private void getLexicon(File file) {
         ObjectMapper mapper = new ObjectMapper();
 
         List<LexiconUnit> lexiconUnits = new ArrayList<LexiconUnit>();
@@ -230,15 +235,49 @@ public class Comparision implements ThresoldConstants {
             lexiconUnits = mapper.readValue(file, new TypeReference<List<LexiconUnit>>() {
             });
             for (LexiconUnit LexiconUnit : lexiconUnits) {
-                lexicons.put(LexiconUnit.getWord(), LexiconUnit);
+                 
+                String word=LexiconUnit.getWord();
+                lexiconDic.put(word, LexiconUnit);
+              
+                Pair<Boolean, String> pair = this.lemmatizer.getLemmaWithoutPos(word);
+                if (pair.getValue0()) {
+                    String lemma=pair.getValue1();
+                    this.lexiconLemma.put(lemma, word);
+                }
+               
             }
         } catch (IOException ex) {
             System.out.println("no file is found for lexicon!!" + ex.getMessage());
-            return lexicons;
+        }
+    }
+
+   /* private void getLexicon(File file) {
+        ObjectMapper mapper = new ObjectMapper();
+
+        List<LexiconUnit> lexiconUnits = new ArrayList<LexiconUnit>();
+        try {
+            lexiconUnits = mapper.readValue(file, new TypeReference<List<LexiconUnit>>() {
+            });
+            for (LexiconUnit LexiconUnit : lexiconUnits) {
+                 
+                String word=LexiconUnit.getWord();
+                lexiconDic.put(word, LexiconUnit);
+              
+                Pair<Boolean, String> pair = this.lemmatizer.getLemmaWithoutPos(word);
+                if (pair.getValue0()) {
+                    String lemma=pair.getValue1();
+                    this.lexiconLemma.put(lemma, word);
+                }
+               
+            }
+        } catch (IOException ex) {
+            System.out.println("no file is found for lexicon!!" + ex.getMessage());
         }
 
-        return lexicons;
-    }
+    }*/
+    
+    
+   
 
     private Map<String, Unit> getQaldFromJson(File qaldFile) throws IOException {
         Map<String, Unit> qald = new TreeMap<String, Unit>();
@@ -321,7 +360,7 @@ public class Comparision implements ThresoldConstants {
     private Boolean isFoundinGold(String word, String lexiconStr) {
         EvaluationTriple lexiconTriple = null;
         try {
-            lexiconTriple = new EvaluationTriple(LEXICON, this.predicationRule, lexiconStr, word);
+            lexiconTriple = new EvaluationTriple(LEXICON, this.predicationRule, lexiconStr);
         } catch (Exception ex) {
             Logger.getLogger(Comparision.class.getName()).log(Level.SEVERE, null, ex);
             LOGGER.log(Level.INFO, "lexiconTriple parse failed");

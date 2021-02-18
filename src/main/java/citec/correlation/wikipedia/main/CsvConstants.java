@@ -6,13 +6,13 @@
 package citec.correlation.wikipedia.main;
 
 import citec.correlation.wikipedia.analyzer.TextAnalyzer;
-import citec.correlation.wikipedia.parameters.ThresoldConstants;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.AllConf;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.Coherence;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.Cosine;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.IR;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.Kulczynski;
-import static citec.correlation.wikipedia.parameters.ThresoldConstants.MaxConf;
+import citec.correlation.wikipedia.experiments.ThresoldConstants;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.AllConf;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.Coherence;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.Cosine;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.IR;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.Kulczynski;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.MaxConf;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
@@ -43,6 +43,9 @@ public interface CsvConstants extends TextAnalyzer,ThresoldConstants {
     public static Integer idIndex = 1;
     public static Integer objectIndex = 3;
     public static Integer propertyIndex = 2;
+    
+    //currently unknown
+     public static Integer subjectIndex = -1;
     
     
     public static Integer CosineIndex = 1;

@@ -1,0 +1,51 @@
+[ {
+  "id" : 4,
+  "pattern" : "developed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:license Proprietary_software", "Cosine=0.546090939092891", "triple=e dbp:license Proprietary_software", "class=Software" ],
+    "1" : [ "kb=dbp:programmingLanguage C++", "Cosine=0.489369186450525", "triple=e dbp:programmingLanguage C++", "class=Software" ],
+    "2" : [ "kb=dbp:operatingSystem Microsoft_Windows", "Cosine=0.487530195933373", "triple=e dbp:operatingSystem Microsoft_Windows", "class=Software" ],
+    "3" : [ "kb=dbp:operatingSystem MacOS", "Cosine=0.471660649318917", "triple=e dbp:operatingSystem MacOS", "class=Software" ],
+    "4" : [ "kb=dbo:operatingSystem Linux", "Cosine=0.45003516037041", "triple=e dbo:operatingSystem Linux", "class=Software" ],
+    "5" : [ "kb=dbp:operatingSystem Cross-platform_software", "Cosine=0.418869678096799", "triple=e dbp:operatingSystem Cross-platform_software", "class=Software" ],
+    "6" : [ "kb=dbo:license GNU_General_Public_License", "Cosine=0.383560482933001", "triple=e dbo:license GNU_General_Public_License", "class=Software" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "operating",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:license Proprietary_software", "Cosine=0.377655720495064", "triple=e dbo:license Proprietary_software", "class=Software" ],
+    "1" : [ "kb=dbo:license GNU_General_Public_License", "Cosine=0.37280430636925", "triple=e dbo:license GNU_General_Public_License", "class=Software" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "released",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:license Proprietary_software", "Cosine=0.355377079744655", "triple=e dbo:license Proprietary_software", "class=Software" ],
+    "1" : [ "kb=dbp:operatingSystem Microsoft_Windows", "Cosine=0.336123325221002", "triple=e dbp:operatingSystem Microsoft_Windows", "class=Software" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "used",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:programmingLanguage C_(programming_language)", "Cosine=0.452619441931319", "triple=e dbo:programmingLanguage C_(programming_language)", "class=Software" ],
+    "1" : [ "kb=dbo:operatingSystem Microsoft_Windows", "Cosine=0.437579509314605", "triple=e dbo:operatingSystem Microsoft_Windows", "class=Software" ],
+    "2" : [ "kb=dbo:license GNU_General_Public_License", "Cosine=0.418228710441175", "triple=e dbo:license GNU_General_Public_License", "class=Software" ],
+    "3" : [ "kb=dbp:operatingSystem Linux", "Cosine=0.416103914450459", "triple=e dbp:operatingSystem Linux", "class=Software" ],
+    "4" : [ "kb=dbo:license Proprietary_software", "Cosine=0.414752452879182", "triple=e dbo:license Proprietary_software", "class=Software" ],
+    "5" : [ "kb=dbp:operatingSystem MacOS", "Cosine=0.414414201536075", "triple=e dbp:operatingSystem MacOS", "class=Software" ],
+    "6" : [ "kb=dbp:operatingSystem Cross-platform_software", "Cosine=0.4107002541942", "triple=e dbp:operatingSystem Cross-platform_software", "class=Software" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "written",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:operatingSystem Cross-platform_software", "Cosine=0.412529663044449", "triple=e dbp:operatingSystem Cross-platform_software", "class=Software" ],
+    "1" : [ "kb=dbp:license GNU_General_Public_License", "Cosine=0.380142960634853", "triple=e dbp:license GNU_General_Public_License", "class=Software" ]
+  }
+} ]

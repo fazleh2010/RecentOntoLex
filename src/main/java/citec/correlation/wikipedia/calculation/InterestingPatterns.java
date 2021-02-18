@@ -6,7 +6,7 @@
 package citec.correlation.wikipedia.calculation;
 
 import citec.correlation.wikipedia.analyzer.Analyzer;
-import citec.correlation.wikipedia.analyzer.LemmaAnalyzer;
+import citec.correlation.wikipedia.analyzer.Lemmatizer;
 import citec.correlation.wikipedia.element.DBpediaEntityPattern;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
 import citec.correlation.wikipedia.utils.SortUtils;
@@ -40,7 +40,7 @@ public class InterestingPatterns implements PatternThresold{
     //private String CONEXT_WORD_TYPE;
 
 
-    public InterestingPatterns(Analyzer analyzer, LemmaAnalyzer lemmaAnalyzer, String outputDir, List<DBpediaEntityPattern> allDBpediaPatterns) throws Exception {
+    public InterestingPatterns(Analyzer analyzer, Lemmatizer lemmaAnalyzerT, String outputDir, List<DBpediaEntityPattern> allDBpediaPatterns) throws Exception {
         this.analyzer = analyzer;
         this.outputDir = outputDir;
         this.findMatchBetweenTriplePattern(allDBpediaPatterns, outputDir + PREDICATE_CONTEXT,CONEXT_WORD_TYPE);

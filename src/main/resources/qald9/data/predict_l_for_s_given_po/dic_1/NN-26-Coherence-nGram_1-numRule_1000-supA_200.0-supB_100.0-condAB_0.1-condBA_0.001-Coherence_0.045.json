@@ -1,0 +1,116 @@
+[ {
+  "id" : 1,
+  "pattern" : "acid",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=changed@en", "Coherence=0.16157591854803", "triple=e dbp:verifiedfields changed@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "also",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=changed@en", "Coherence=0.190531368978646", "triple=e dbp:watchedfields changed@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=American@en", "Coherence=0.27390180878553", "triple=e dbp:nationality American@en", "class=Artist" ],
+    "1" : [ "pair=United_States", "Coherence=0.269191402251791", "triple=e dbo:nationality United_States", "class=Artist" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "band",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Indie_rock", "Coherence=0.207306711979609", "triple=e dbp:genre Indie_rock", "class=Band" ],
+    "1" : [ "pair=Alternative_rock", "Coherence=0.195411392405063", "triple=e dbp:genre Alternative_rock", "class=Band" ],
+    "2" : [ "pair=yes@en", "Coherence=0.165625", "triple=e dbp:landscape yes@en", "class=Band" ],
+    "3" : [ "pair=@en", "Coherence=0.161150298426479", "triple=e dbp:genre @en", "class=Band" ],
+    "4" : [ "pair=group_or_band@en", "Coherence=0.157995810055866", "triple=e dbp:background group_or_band@en", "class=Band" ],
+    "5" : [ "pair=\"group_or_band\"", "Coherence=0.157515829646977", "triple=e dbo:background \"group_or_band\"", "class=Band" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "book",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=United States@en", "Coherence=0.108127043437646", "triple=e dbp:country United States@en", "class=Book" ],
+    "1" : [ "pair=English@en", "Coherence=0.104318026045236", "triple=e dbp:language English@en", "class=Book" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "chemical",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=changed@en", "Coherence=0.191601917672343", "triple=e dbp:watchedfields changed@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "compound",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=changed@en", "Coherence=0.28965717606043", "triple=e dbp:watchedfields changed@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "cyclist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Track_cycling", "Coherence=0.428571428571429", "triple=e dbp:discipline Track_cycling", "class=Cyclist" ],
+    "1" : [ "pair=yes@en", "Coherence=0.390873015873016", "triple=e dbp:showMedals yes@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "fighter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fighter_aircraft", "Coherence=0.440456769983687", "triple=e dbp:type Fighter_aircraft", "class=Aircraft" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "formula",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=changed@en", "Coherence=0.244437577255871", "triple=e dbp:watchedfields changed@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "medal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Medal_of_Honor", "Coherence=0.229475766567755", "triple=e dbo:award Medal_of_Honor", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "painter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Painting", "Coherence=0.246563931695127", "triple=e dbp:field Painting", "class=Artist" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "rock",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Indie_rock", "Coherence=0.177973568281938", "triple=e dbp:genre Indie_rock", "class=Band" ],
+    "1" : [ "pair=Alternative_rock", "Coherence=0.167780252412769", "triple=e dbo:genre Alternative_rock", "class=Band" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "school",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Secondary_school", "Coherence=0.233333333333333", "triple=e dbp:type Secondary_school", "class=School" ],
+    "1" : [ "pair=USA@en", "Coherence=0.221333333333333", "triple=e dbp:country USA@en", "class=School" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "track",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Track_cycling", "Coherence=0.411392405063291", "triple=e dbp:discipline Track_cycling", "class=Cyclist" ]
+  }
+} ]

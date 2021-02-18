@@ -1,0 +1,51 @@
+[ {
+  "id" : 1,
+  "pattern" : "adobe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer Adobe_Inc.", "Cosine=0.911322376865767", "triple=e dbp:developer Adobe_Inc.", "class=Software" ],
+    "1" : [ "kb=dbo:developer Adobe_Systems", "Cosine=0.898341551894183", "triple=e dbo:developer Adobe_Systems", "class=Software" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "browser",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Mobile_browser", "Cosine=0.962250448649376", "triple=e dbp:genre Mobile_browser", "class=Software" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "game",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Single-player_video_game", "Cosine=0.906326967174966", "triple=e dbp:genre Single-player_video_game", "class=Software" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "gnome",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:name GNOME@en", "Cosine=0.9198662110078", "triple=e dbp:name GNOME@en", "class=Software" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "javascript",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre JavaScript_library", "Cosine=0.928476690885259", "triple=e dbp:genre JavaScript_library", "class=Software" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "operating system",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:family Real-time operating systems@en", "Cosine=0.904534033733291", "triple=e dbp:family Real-time operating systems@en", "class=Software" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "system",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:family Real-time operating systems@en", "Cosine=0.904534033733291", "triple=e dbp:family Real-time operating systems@en", "class=Software" ]
+  }
+} ]

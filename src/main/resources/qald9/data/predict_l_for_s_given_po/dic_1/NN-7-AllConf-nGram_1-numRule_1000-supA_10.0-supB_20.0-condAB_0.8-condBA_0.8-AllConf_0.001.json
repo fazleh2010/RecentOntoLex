@@ -1,0 +1,2103 @@
+[ {
+  "id" : 1,
+  "pattern" : "2009–10",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"2010-01-02\"^^http://www.w3.org/2001/XMLSchema#date", "AllConf=0.952380952380952", "triple=e dbp:date \"2010-01-02\"^^http://www.w3.org/2001/XMLSchema#date", "class=SoccerClubSeason" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "aero",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Aero_Vodochody", "AllConf=0.837837837837838", "triple=e dbo:manufacturer Aero_Vodochody", "class=Aircraft" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "afghanistan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Afghanistan@en", "AllConf=1.0", "triple=e dbp:country Afghanistan@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "aircraft",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bayerl and Tacke@en", "AllConf=0.931034482758621", "triple=e dbp:ref Bayerl and Tacke@en", "class=Aircraft" ],
+    "1" : [ "pair=Attack_aircraft", "AllConf=0.903225806451613", "triple=e dbp:type Attack_aircraft", "class=Aircraft" ],
+    "2" : [ "pair=Rotax_277", "AllConf=0.896551724137931", "triple=e dbp:eng1Name Rotax_277", "class=Aircraft" ],
+    "3" : [ "pair=Aircraft_engine", "AllConf=0.884615384615385", "triple=e dbp:eng1Type Aircraft_engine", "class=Aircraft" ],
+    "4" : [ "pair=Royal_Aircraft_Factory", "AllConf=0.869565217391304", "triple=e dbo:manufacturer Royal_Aircraft_Factory", "class=Aircraft" ],
+    "5" : [ "pair=+4/-2@en", "AllConf=0.847457627118644", "triple=e dbp:gLimits +4/-2@en", "class=Aircraft" ],
+    "6" : [ "pair=AeroCrafter@en", "AllConf=0.835616438356164", "triple=e dbp:ref AeroCrafter@en", "class=Aircraft" ],
+    "7" : [ "pair=four cylinder, air-cooled, four stroke aircraft engine@en", "AllConf=0.833333333333333", "triple=e dbp:eng1Type four cylinder, air-cooled, four stroke aircraft engine@en", "class=Aircraft" ],
+    "8" : [ "pair=Light aircraft@en", "AllConf=0.833333333333333", "triple=e dbp:type Light aircraft@en", "class=Aircraft" ],
+    "9" : [ "pair=wooden, fixed pitch@en", "AllConf=0.814814814814815", "triple=e dbp:propName wooden, fixed pitch@en", "class=Aircraft" ],
+    "10" : [ "pair=Military trainer@en", "AllConf=0.807692307692308", "triple=e dbp:type Military trainer@en", "class=Aircraft" ],
+    "11" : [ "pair=twin cylinder, air-cooled, two stroke aircraft engine@en", "AllConf=0.805555555555556", "triple=e dbp:eng1Type twin cylinder, air-cooled, two stroke aircraft engine@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "airport",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Burkina Faso@en", "AllConf=0.88", "triple=e dbp:pushpinMap Burkina Faso@en", "class=Airport" ],
+    "1" : [ "pair=Burkina_Faso", "AllConf=0.88", "triple=e dbo:location Burkina_Faso", "class=Airport" ],
+    "2" : [ "pair== Seasonal destination@en", "AllConf=0.851851851851852", "triple=e dbp:caption = Seasonal destination@en", "class=Airport" ],
+    "3" : [ "pair=Australia", "AllConf=0.848484848484849", "triple=e dbp:cityServed Australia", "class=Airport" ],
+    "4" : [ "pair=Location of airport in Colombia@en", "AllConf=0.833333333333333", "triple=e dbp:pushpinMapCaption Location of airport in Colombia@en", "class=Airport" ],
+    "5" : [ "pair=Location of airport in North Carolina@en", "AllConf=0.80952380952381", "triple=e dbp:pushpinMapCaption Location of airport in North Carolina@en", "class=Airport" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "alabama",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Location in Alabama@en", "AllConf=0.857142857142857", "triple=e dbp:mapCaption Location in Alabama@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "albania",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Tirana", "AllConf=0.961538461538462", "triple=e dbp:headquarters Tirana", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "alberta",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Alberta@en", "AllConf=0.952380952380952", "triple=e dbp:state Alberta@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "alpine",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Salmon_River_(Idaho)", "AllConf=0.863636363636364", "triple=e dbo:outflow Salmon_River_(Idaho)", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "american",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=North_American_Aviation", "AllConf=0.833333333333333", "triple=e dbo:manufacturer North_American_Aviation", "class=Aircraft" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "angola",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Angola@en", "AllConf=0.961538461538462", "triple=e dbp:country Angola@en", "class=PoliticalParty" ],
+    "1" : [ "pair=Angola", "AllConf=0.958333333333333", "triple=e dbo:country Angola", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "arado",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Arado_Flugzeugwerke", "AllConf=0.805555555555556", "triple=e dbp:manufacturer Arado_Flugzeugwerke", "class=Aircraft" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "area",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Salmon_River_(Idaho)", "AllConf=0.863636363636364", "triple=e dbo:outflow Salmon_River_(Idaho)", "class=BodyOfWater" ],
+    "1" : [ "pair=North_Rhine-Westphalia", "AllConf=0.857142857142857", "triple=e dbo:location North_Rhine-Westphalia", "class=BodyOfWater" ],
+    "2" : [ "pair=Idaho_Department_of_Parks_and_Recreation", "AllConf=0.909090909090909", "triple=e dbp:administrator Idaho_Department_of_Parks_and_Recreation", "class=ProtectedArea" ],
+    "3" : [ "pair=List_of_Idaho_state_parks", "AllConf=0.909090909090909", "triple=e dbp:designation List_of_Idaho_state_parks", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "arkansas",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Arkansas", "AllConf=0.9375", "triple=e dbo:location Arkansas", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "australia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Northern Territory@en", "AllConf=0.826086956521739", "triple=e dbp:pushpinMap Northern Territory@en", "class=Airport" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "avia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Miroslav_Hajn", "AllConf=0.818181818181818", "triple=e dbo:designer Miroslav_Hajn", "class=Aircraft" ],
+    "1" : [ "pair=Avia", "AllConf=0.8125", "triple=e dbo:manufacturer Avia", "class=Aircraft" ],
+    "2" : [ "pair=Pavel Beneš and Miroslav Hajn@en", "AllConf=0.80952380952381", "triple=e dbp:designer Pavel Beneš and Miroslav Hajn@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "avro",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Avro", "AllConf=0.857142857142857", "triple=e dbo:manufacturer Avro", "class=Aircraft" ],
+    "1" : [ "pair=Avro Aircraft since 1908@en", "AllConf=0.826086956521739", "triple=e dbp:ref Avro Aircraft since 1908@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "bangladesh",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bangladesh", "AllConf=0.964285714285714", "triple=e dbo:country Bangladesh", "class=PoliticalParty" ],
+    "1" : [ "pair=Dhaka", "AllConf=0.962962962962963", "triple=e dbo:headquarter Dhaka", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "basin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=James_Bay", "AllConf=0.869565217391304", "triple=e dbp:partOf James_Bay", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "basketball",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Shanxi_Loongs", "AllConf=0.869565217391304", "triple=e dbp:team Shanxi_Loongs", "class=BasketballPlayer" ],
+    "1" : [ "pair=Dutch_Basketball_Supercup", "AllConf=0.838709677419355", "triple=e dbo:award Dutch_Basketball_Supercup", "class=BasketballPlayer" ],
+    "2" : [ "pair=Cleveland Cavaliers@en", "AllConf=0.826086956521739", "triple=e dbp:team Cleveland Cavaliers@en", "class=BasketballPlayer" ],
+    "3" : [ "pair=West_Coast_Conference_Men's_Basketball_Player_of_the_Year", "AllConf=0.823529411764706", "triple=e dbo:award West_Coast_Conference_Men's_Basketball_Player_of_the_Year", "class=BasketballPlayer" ],
+    "4" : [ "pair=CSM_U_Oradea", "AllConf=0.80952380952381", "triple=e dbp:team CSM_U_Oradea", "class=BasketballPlayer" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "beechcraft",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Beechcraft", "AllConf=0.92", "triple=e dbo:manufacturer Beechcraft", "class=Aircraft" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "belarus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Belarus", "AllConf=1.0", "triple=e dbo:country Belarus", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "bell",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bell_Aircraft", "AllConf=1.0", "triple=e dbp:manufacturer Bell_Aircraft", "class=Aircraft" ],
+    "1" : [ "pair=Bell_Helicopter", "AllConf=0.939393939393939", "triple=e dbo:manufacturer Bell_Helicopter", "class=Aircraft" ],
+    "2" : [ "pair=Bell_Textron", "AllConf=0.918918918918919", "triple=e dbp:manufacturer Bell_Textron", "class=Aircraft" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "biosphere",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=UNESCO@en", "AllConf=0.931034482758621", "triple=e dbp:publisher UNESCO@en", "class=ProtectedArea" ],
+    "1" : [ "pair=http://www.unesco.org/new/en/natural-sciences/environment/ecological-sciences/biosphere-reserves/world-network-wnbr/wnbr/", "AllConf=0.931034482758621", "triple=e dbp:licenseStatementUrl http://www.unesco.org/new/en/natural-sciences/environment/ecological-sciences/biosphere-reserves/world-network-wnbr/wnbr/", "class=ProtectedArea" ],
+    "2" : [ "pair=UNESCO - MAB Biosphere Reserves Directory@en", "AllConf=0.931034482758621", "triple=e dbp:title UNESCO - MAB Biosphere Reserves Directory@en", "class=ProtectedArea" ],
+    "3" : [ "pair=CC BY-SA IGO 3.0@en", "AllConf=0.928571428571429", "triple=e dbp:licence CC BY-SA IGO 3.0@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "blackburn",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Blackburn_Aircraft", "AllConf=0.82051282051282", "triple=e dbo:manufacturer Blackburn_Aircraft", "class=Aircraft" ]
+  }
+}, {
+  "id" : 32,
+  "pattern" : "blohm",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Blohm_&_Voss_(aircraft)", "AllConf=0.958333333333333", "triple=e dbo:manufacturer Blohm_&_Voss_(aircraft)", "class=Aircraft" ],
+    "1" : [ "pair=Hamburger_Flugzeugbau", "AllConf=0.866666666666667", "triple=e dbp:manufacturer Hamburger_Flugzeugbau", "class=Aircraft" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "boat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Reconnaissance flying boat@en", "AllConf=0.884615384615385", "triple=e dbp:type Reconnaissance flying boat@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "boeing",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Boeing_Defense,_Space_&_Security", "AllConf=0.863636363636364", "triple=e dbp:manufacturer Boeing_Defense,_Space_&_Security", "class=Aircraft" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "bomber",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Heavy bomber@en", "AllConf=0.91304347826087", "triple=e dbp:type Heavy bomber@en", "class=Aircraft" ],
+    "1" : [ "pair=Strategic_bomber", "AllConf=0.892857142857143", "triple=e dbp:type Strategic_bomber", "class=Aircraft" ],
+    "2" : [ "pair=Bomber@en", "AllConf=0.872340425531915", "triple=e dbp:type Bomber@en", "class=Aircraft" ],
+    "3" : [ "pair=Heavy_bomber", "AllConf=0.844444444444444", "triple=e dbp:type Heavy_bomber", "class=Aircraft" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "breda",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Società_Italiana_Ernesto_Breda", "AllConf=0.818181818181818", "triple=e dbp:manufacturer Società_Italiana_Ernesto_Breda", "class=Aircraft" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "bristol",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Frank_Barnwell", "AllConf=0.857142857142857", "triple=e dbp:designer Frank_Barnwell", "class=Aircraft" ],
+    "1" : [ "pair=Bristol_Aeroplane_Company", "AllConf=0.814814814814815", "triple=e dbp:manufacturer Bristol_Aeroplane_Company", "class=Aircraft" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "burkina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Burkina Faso@en", "AllConf=0.88", "triple=e dbp:pushpinMap Burkina Faso@en", "class=Airport" ],
+    "1" : [ "pair=Burkina_Faso", "AllConf=0.88", "triple=e dbo:location Burkina_Faso", "class=Airport" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "burmese",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Myanmar", "AllConf=1.0", "triple=e dbo:headquarter Myanmar", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "california",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=California_Department_of_Parks_and_Recreation", "AllConf=0.854014598540146", "triple=e dbp:governingBody California_Department_of_Parks_and_Recreation", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "canada",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Location in Yukon@en", "AllConf=0.818181818181818", "triple=e dbp:pushpinMapCaption Location in Yukon@en", "class=Airport" ],
+    "1" : [ "pair=James_Bay", "AllConf=0.91304347826087", "triple=e dbp:partOf James_Bay", "class=BodyOfWater" ],
+    "2" : [ "pair=Hudson_Bay", "AllConf=0.884615384615385", "triple=e dbo:isPartOf Hudson_Bay", "class=BodyOfWater" ],
+    "3" : [ "pair=Nipissing_District", "AllConf=0.878787878787879", "triple=e dbp:location Nipissing_District", "class=BodyOfWater" ],
+    "4" : [ "pair=Canada", "AllConf=0.946666666666667", "triple=e dbo:country Canada", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "cant",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Cantieri_Aeronautici_e_Navali_Triestini", "AllConf=0.863636363636364", "triple=e dbp:manufacturer Cantieri_Aeronautici_e_Navali_Triestini", "class=Aircraft" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "caproni",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Caproni", "AllConf=0.888888888888889", "triple=e dbo:manufacturer Caproni", "class=Aircraft" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "carex",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Carex", "AllConf=0.871287128712871", "triple=e dbo:genus Carex", "class=Plant" ],
+    "1" : [ "pair=Carex@en", "AllConf=0.87", "triple=e dbp:genus Carex@en", "class=Plant" ],
+    "2" : [ "pair=Cyperaceae", "AllConf=0.854368932038835", "triple=e dbo:family Cyperaceae", "class=Plant" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "carinthia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Carinthia_(state)", "AllConf=0.88", "triple=e dbo:location Carinthia_(state)", "class=BodyOfWater" ],
+    "1" : [ "pair=Carinthia", "AllConf=0.870967741935484", "triple=e dbp:location Carinthia", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "carolina",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Location of airport in North Carolina@en", "AllConf=0.80952380952381", "triple=e dbp:pushpinMapCaption Location of airport in North Carolina@en", "class=Airport" ],
+    "1" : [ "pair=List_of_North_Carolina_state_parks", "AllConf=0.866666666666667", "triple=e dbp:governingBody List_of_North_Carolina_state_parks", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "cathedral",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Immaculate Conception Cathedral@en", "AllConf=0.958333333333333", "triple=e dbp:name Immaculate Conception Cathedral@en", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "catholic",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Roman_Catholic_Diocese_of_Arundel_and_Brighton", "AllConf=0.935483870967742", "triple=e dbp:diocese Roman_Catholic_Diocese_of_Arundel_and_Brighton", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "caudron",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Caudron", "AllConf=0.857142857142857", "triple=e dbp:manufacturer Caudron", "class=Aircraft" ]
+  }
+}, {
+  "id" : 53,
+  "pattern" : "centaurea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Centaurea", "AllConf=0.875", "triple=e dbo:genus Centaurea", "class=Plant" ],
+    "1" : [ "pair=Centaurea@en", "AllConf=0.870967741935484", "triple=e dbp:genus Centaurea@en", "class=Plant" ]
+  }
+}, {
+  "id" : 54,
+  "pattern" : "chatham",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Manurewa_AFC", "AllConf=1.0", "triple=e dbp:team Manurewa_AFC", "class=SoccerTournament" ],
+    "1" : [ "pair=Christchurch_Technical", "AllConf=1.0", "triple=e dbp:team Christchurch_Technical", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "church",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Diocese_of_Växjö", "AllConf=1.0", "triple=e dbp:diocese Diocese_of_Växjö", "class=HistoricBuilding" ],
+    "1" : [ "pair=Bassetlaw and Bawtry@en", "AllConf=1.0", "triple=e dbp:deanery Bassetlaw and Bawtry@en", "class=HistoricBuilding" ],
+    "2" : [ "pair=Open_evangelicalism", "AllConf=1.0", "triple=e dbp:churchmanship Open_evangelicalism", "class=HistoricBuilding" ],
+    "3" : [ "pair=Edward_Graham_Paley", "AllConf=0.972972972972973", "triple=e dbp:architect Edward_Graham_Paley", "class=HistoricBuilding" ],
+    "4" : [ "pair=Lincolnshire@en", "AllConf=0.958333333333333", "triple=e dbp:pushpinMap Lincolnshire@en", "class=HistoricBuilding" ],
+    "5" : [ "pair=Diocese_of_Rochester", "AllConf=0.954545454545455", "triple=e dbp:diocese Diocese_of_Rochester", "class=HistoricBuilding" ],
+    "6" : [ "pair=Anglican_Diocese_of_Peterborough", "AllConf=0.942857142857143", "triple=e dbp:diocese Anglican_Diocese_of_Peterborough", "class=HistoricBuilding" ],
+    "7" : [ "pair=Early_English_Period", "AllConf=0.939393939393939", "triple=e dbo:architecturalStyle Early_English_Period", "class=HistoricBuilding" ],
+    "8" : [ "pair=Norfolk@en", "AllConf=0.939393939393939", "triple=e dbp:pushpinMap Norfolk@en", "class=HistoricBuilding" ],
+    "9" : [ "pair=Roman_Catholic_Diocese_of_Arundel_and_Brighton", "AllConf=0.935483870967742", "triple=e dbp:diocese Roman_Catholic_Diocese_of_Arundel_and_Brighton", "class=HistoricBuilding" ],
+    "10" : [ "pair=Christian_Heinrich_Grosch", "AllConf=0.935483870967742", "triple=e dbp:architect Christian_Heinrich_Grosch", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 57,
+  "pattern" : "colombia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Location of airport in Colombia@en", "AllConf=0.833333333333333", "triple=e dbp:pushpinMapCaption Location of airport in Colombia@en", "class=Airport" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "columbia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Location in British Columbia@en", "AllConf=0.909090909090909", "triple=e dbp:pushpinMapCaption Location in British Columbia@en", "class=BodyOfWater" ],
+    "1" : [ "pair=British Columbia@en", "AllConf=0.96969696969697", "triple=e dbp:state British Columbia@en", "class=PoliticalParty" ],
+    "2" : [ "pair=List of British Columbia general elections@en", "AllConf=0.96875", "triple=e dbp:electionsDab List of British Columbia general elections@en", "class=PoliticalParty" ],
+    "3" : [ "pair=List of political parties in British Columbia@en", "AllConf=0.96875", "triple=e dbp:partiesDab List of political parties in British Columbia@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "commonly",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=David_L._Jones_(botanist)", "AllConf=0.888888888888889", "triple=e dbp:binomialAuthority David_L._Jones_(botanist)", "class=Plant" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "communist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Comintern", "AllConf=1.0", "triple=e dbo:internationalAffiliation Comintern", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "competition",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=eee@en", "AllConf=1.0", "triple=e dbp:bg eee@en", "class=SoccerTournament" ],
+    "1" : [ "pair=APIA_Leichhardt_FC", "AllConf=1.0", "triple=e dbp:team APIA_Leichhardt_FC", "class=SoccerTournament" ],
+    "2" : [ "pair=Manurewa_AFC", "AllConf=1.0", "triple=e dbp:team Manurewa_AFC", "class=SoccerTournament" ],
+    "3" : [ "pair=Christchurch_Technical", "AllConf=1.0", "triple=e dbp:team Christchurch_Technical", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "conception",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Immaculate Conception Cathedral@en", "AllConf=0.958333333333333", "triple=e dbp:name Immaculate Conception Cathedral@en", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "connecticut",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Connecticut Department of Energy and Environmental Protection@en", "AllConf=0.863636363636364", "triple=e dbp:governingBody Connecticut Department of Energy and Environmental Protection@en", "class=ProtectedArea" ],
+    "1" : [ "pair=Location in Connecticut@en", "AllConf=0.850467289719626", "triple=e dbp:mapCaption Location in Connecticut@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "conservation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Missouri_Department_of_Conservation", "AllConf=0.91304347826087", "triple=e dbp:governingBody Missouri_Department_of_Conservation", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "construction",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Plans no longer available@en", "AllConf=0.818181818181818", "triple=e dbp:status Plans no longer available@en", "class=Aircraft" ],
+    "1" : [ "pair=AeroCrafter@en", "AllConf=0.808219178082192", "triple=e dbp:ref AeroCrafter@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "convair",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Convair", "AllConf=0.869565217391304", "triple=e dbo:manufacturer Convair", "class=Aircraft" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "cornwall",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bodmin@en", "AllConf=0.966666666666667", "triple=e dbp:archdeaconry Bodmin@en", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "costa",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=National_System_of_Conservation_Areas", "AllConf=0.859154929577465", "triple=e dbp:governingBody National_System_of_Conservation_Areas", "class=ProtectedArea" ],
+    "1" : [ "pair=Costa_Rica", "AllConf=0.846774193548387", "triple=e dbp:location Costa_Rica", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "county",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Location of airport in North Carolina@en", "AllConf=0.80952380952381", "triple=e dbp:pushpinMapCaption Location of airport in North Carolina@en", "class=Airport" ],
+    "1" : [ "pair=Troms og Finnmark county, Norway@en", "AllConf=0.882352941176471", "triple=e dbp:location Troms og Finnmark county, Norway@en", "class=BodyOfWater" ],
+    "2" : [ "pair=Agder", "AllConf=0.875", "triple=e dbp:location Agder", "class=BodyOfWater" ],
+    "3" : [ "pair=Delaware_County,_New_York", "AllConf=0.872340425531915", "triple=e dbp:location Delaware_County,_New_York", "class=BodyOfWater" ],
+    "4" : [ "pair=Salmon_River_(Idaho)", "AllConf=0.863636363636364", "triple=e dbo:outflow Salmon_River_(Idaho)", "class=BodyOfWater" ],
+    "5" : [ "pair=View of the fjord@en", "AllConf=0.846938775510204", "triple=e dbp:caption View of the fjord@en", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "crocus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Crocus@en", "AllConf=0.923076923076923", "triple=e dbp:genus Crocus@en", "class=Plant" ],
+    "1" : [ "pair=Crocus", "AllConf=0.923076923076923", "triple=e dbo:genus Crocus", "class=Plant" ],
+    "2" : [ "pair=Crocoideae", "AllConf=0.91304347826087", "triple=e dbo:family Crocoideae", "class=Plant" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "cyclist",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Japan", "AllConf=0.852941176470588", "triple=e dbo:birthPlace Japan", "class=Cyclist" ],
+    "1" : [ "pair=United_Kingdom", "AllConf=0.851851851851852", "triple=e dbo:nationality United_Kingdom", "class=Cyclist" ],
+    "2" : [ "pair=Denmark", "AllConf=0.826086956521739", "triple=e dbo:deathPlace Denmark", "class=Cyclist" ],
+    "3" : [ "pair=1.87 m@en", "AllConf=0.818181818181818", "triple=e dbp:height 1.87 m@en", "class=Cyclist" ],
+    "4" : [ "pair=Cyclo-cross", "AllConf=0.816326530612245", "triple=e dbp:discipline Cyclo-cross", "class=Cyclist" ],
+    "5" : [ "pair=Hungary", "AllConf=0.8125", "triple=e dbp:birthPlace Hungary", "class=Cyclist" ],
+    "6" : [ "pair=Venezuela", "AllConf=0.80952380952381", "triple=e dbp:birthPlace Venezuela", "class=Cyclist" ],
+    "7" : [ "pair=Finland", "AllConf=0.807692307692308", "triple=e dbo:birthPlace Finland", "class=Cyclist" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "delaware",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Delaware_County,_New_York", "AllConf=0.914893617021277", "triple=e dbp:location Delaware_County,_New_York", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 75,
+  "pattern" : "district",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nipissing_District", "AllConf=0.878787878787879", "triple=e dbp:location Nipissing_District", "class=BodyOfWater" ],
+    "1" : [ "pair=James_Bay", "AllConf=0.869565217391304", "triple=e dbp:partOf James_Bay", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "división",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Venezuelan_Primera_División", "AllConf=0.826086956521739", "triple=e dbp:competition Venezuelan_Primera_División", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "dornier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Dornier_Flugzeugwerke", "AllConf=0.805555555555556", "triple=e dbo:manufacturer Dornier_Flugzeugwerke", "class=Aircraft" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "dracula",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Dracula@en", "AllConf=0.846153846153846", "triple=e dbp:genus Dracula@en", "class=Plant" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "drainage",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=James_Bay", "AllConf=0.869565217391304", "triple=e dbp:partOf James_Bay", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "ecological",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ecological_station_(Brazil)", "AllConf=0.851851851851852", "triple=e dbp:designation Ecological_station_(Brazil)", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "edition",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=eee@en", "AllConf=1.0", "triple=e dbp:bg eee@en", "class=SoccerTournament" ],
+    "1" : [ "pair=Gangneung_City_FC", "AllConf=1.0", "triple=e dbp:team Gangneung_City_FC", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "england",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bassetlaw and Bawtry@en", "AllConf=1.0", "triple=e dbp:deanery Bassetlaw and Bawtry@en", "class=HistoricBuilding" ],
+    "1" : [ "pair=Edward_Graham_Paley", "AllConf=0.945945945945946", "triple=e dbp:architect Edward_Graham_Paley", "class=HistoricBuilding" ],
+    "2" : [ "pair=Natural England@en", "AllConf=0.886363636363636", "triple=e dbp:governingBody Natural England@en", "class=ProtectedArea" ],
+    "3" : [ "pair=England", "AllConf=0.852631578947368", "triple=e dbo:location England", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : "factory",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Royal_Aircraft_Factory", "AllConf=0.869565217391304", "triple=e dbo:manufacturer Royal_Aircraft_Factory", "class=Aircraft" ]
+  }
+}, {
+  "id" : 86,
+  "pattern" : "fairey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fairey_Aviation_Company", "AllConf=0.84375", "triple=e dbp:manufacturer Fairey_Aviation_Company", "class=Aircraft" ]
+  }
+}, {
+  "id" : 87,
+  "pattern" : "family",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Benjamin_Lincoln_Robinson", "AllConf=0.952380952380952", "triple=e dbp:binomialAuthority Benjamin_Lincoln_Robinson", "class=Plant" ],
+    "1" : [ "pair=Augustin_Pyramus_de_Candolle", "AllConf=0.9", "triple=e dbp:typeSpeciesAuthority Augustin_Pyramus_de_Candolle", "class=Plant" ],
+    "2" : [ "pair=Hermann_Harms", "AllConf=0.892857142857143", "triple=e dbp:binomialAuthority Hermann_Harms", "class=Plant" ],
+    "3" : [ "pair=R.M.King & H.Rob.@en", "AllConf=0.883720930232558", "triple=e dbp:binomialAuthority R.M.King & H.Rob.@en", "class=Plant" ],
+    "4" : [ "pair=Palicourea@en", "AllConf=0.869565217391304", "triple=e dbp:genus Palicourea@en", "class=Plant" ],
+    "5" : [ "pair=Crocoideae", "AllConf=0.869565217391304", "triple=e dbo:family Crocoideae", "class=Plant" ],
+    "6" : [ "pair=Microseridinae", "AllConf=0.869565217391304", "triple=e dbo:family Microseridinae", "class=Plant" ],
+    "7" : [ "pair=Palicourea", "AllConf=0.863636363636364", "triple=e dbo:genus Palicourea", "class=Plant" ],
+    "8" : [ "pair=Ignatz_Urban", "AllConf=0.857142857142857", "triple=e dbp:binomialAuthority Ignatz_Urban", "class=Plant" ],
+    "9" : [ "pair=Christian_Friedrich_Lessing", "AllConf=0.857142857142857", "triple=e dbp:genusAuthority Christian_Friedrich_Lessing", "class=Plant" ],
+    "10" : [ "pair=Carl_Linnaeus", "AllConf=0.852941176470588", "triple=e dbp:typeSpeciesAuthority Carl_Linnaeus", "class=Plant" ],
+    "11" : [ "pair=Paul_Carpenter_Standley", "AllConf=0.848484848484849", "triple=e dbo:binomialAuthority Paul_Carpenter_Standley", "class=Plant" ],
+    "12" : [ "pair=Crocus@en", "AllConf=0.846153846153846", "triple=e dbp:genus Crocus@en", "class=Plant" ]
+  }
+}, {
+  "id" : 88,
+  "pattern" : "farman",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Farman_Aviation_Works", "AllConf=0.818181818181818", "triple=e dbo:manufacturer Farman_Aviation_Works", "class=Aircraft" ]
+  }
+}, {
+  "id" : 89,
+  "pattern" : "faso",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Burkina Faso@en", "AllConf=0.88", "triple=e dbp:pushpinMap Burkina Faso@en", "class=Airport" ],
+    "1" : [ "pair=Burkina_Faso", "AllConf=0.88", "triple=e dbo:location Burkina_Faso", "class=Airport" ]
+  }
+}, {
+  "id" : 90,
+  "pattern" : "fiat",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fiat_Aviazione", "AllConf=0.821428571428571", "triple=e dbo:manufacturer Fiat_Aviazione", "class=Aircraft" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "ficus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ficus@en", "AllConf=0.891891891891892", "triple=e dbp:genus Ficus@en", "class=Plant" ],
+    "1" : [ "pair=Ficus", "AllConf=0.891891891891892", "triple=e dbo:genus Ficus", "class=Plant" ]
+  }
+}, {
+  "id" : 92,
+  "pattern" : "finnmark",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms og Finnmark county, Norway@en", "AllConf=0.882352941176471", "triple=e dbp:location Troms og Finnmark county, Norway@en", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 93,
+  "pattern" : "flowering",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Benjamin_Lincoln_Robinson", "AllConf=0.952380952380952", "triple=e dbp:binomialAuthority Benjamin_Lincoln_Robinson", "class=Plant" ],
+    "1" : [ "pair=Crocoideae", "AllConf=0.869565217391304", "triple=e dbo:family Crocoideae", "class=Plant" ],
+    "2" : [ "pair=Crocus@en", "AllConf=0.846153846153846", "triple=e dbp:genus Crocus@en", "class=Plant" ]
+  }
+}, {
+  "id" : 94,
+  "pattern" : "flowers",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=David_L._Jones_(botanist)", "AllConf=0.851851851851852", "triple=e dbp:binomialAuthority David_L._Jones_(botanist)", "class=Plant" ]
+  }
+}, {
+  "id" : 95,
+  "pattern" : "flows",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Delaware_County,_New_York", "AllConf=0.914893617021277", "triple=e dbp:location Delaware_County,_New_York", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 97,
+  "pattern" : "focke-wulf",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Focke-Wulf", "AllConf=0.840909090909091", "triple=e dbo:manufacturer Focke-Wulf", "class=Aircraft" ]
+  }
+}, {
+  "id" : 98,
+  "pattern" : "football",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Full-forward", "AllConf=0.916666666666667", "triple=e dbo:position Full-forward", "class=AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=Brighton@en", "AllConf=0.91304347826087", "triple=e dbp:originalteam Brighton@en", "class=AustralianRulesFootballPlayer" ],
+    "2" : [ "pair=Ballarat, Victoria@en", "AllConf=0.904761904761905", "triple=e dbp:deathPlace Ballarat, Victoria@en", "class=AustralianRulesFootballPlayer" ],
+    "3" : [ "pair=Clifton_Hill,_Victoria", "AllConf=0.88", "triple=e dbp:birthPlace Clifton_Hill,_Victoria", "class=AustralianRulesFootballPlayer" ],
+    "4" : [ "pair=Back pocket@en", "AllConf=0.869565217391304", "triple=e dbp:position Back pocket@en", "class=AustralianRulesFootballPlayer" ],
+    "5" : [ "pair=Venezuelan_Primera_División", "AllConf=0.826086956521739", "triple=e dbp:competition Venezuelan_Primera_División", "class=FootballLeagueSeason" ],
+    "6" : [ "pair=New club in the league@en", "AllConf=0.826086956521739", "triple=e dbp:continentalcup New club in the league@en", "class=FootballLeagueSeason" ],
+    "7" : [ "pair=Meistriliiga", "AllConf=0.818181818181818", "triple=e dbp:competition Meistriliiga", "class=FootballLeagueSeason" ],
+    "8" : [ "pair=Liga_II", "AllConf=0.8125", "triple=e dbp:competition Liga_II", "class=FootballLeagueSeason" ],
+    "9" : [ "pair=Manurewa_AFC", "AllConf=1.0", "triple=e dbp:team Manurewa_AFC", "class=SoccerTournament" ],
+    "10" : [ "pair=Christchurch_Technical", "AllConf=1.0", "triple=e dbp:team Christchurch_Technical", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 99,
+  "pattern" : "footballer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"21\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "AllConf=0.92", "triple=e dbo:number \"21\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "class=AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=Brighton@en", "AllConf=0.91304347826087", "triple=e dbp:originalteam Brighton@en", "class=AustralianRulesFootballPlayer" ],
+    "2" : [ "pair=Clifton_Hill,_Victoria", "AllConf=0.88", "triple=e dbp:birthPlace Clifton_Hill,_Victoria", "class=AustralianRulesFootballPlayer" ],
+    "3" : [ "pair=Full-forward", "AllConf=0.875", "triple=e dbo:position Full-forward", "class=AustralianRulesFootballPlayer" ],
+    "4" : [ "pair=Back pocket@en", "AllConf=0.869565217391304", "triple=e dbp:position Back pocket@en", "class=AustralianRulesFootballPlayer" ],
+    "5" : [ "pair=Ballarat, Victoria@en", "AllConf=0.857142857142857", "triple=e dbp:deathPlace Ballarat, Victoria@en", "class=AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 100,
+  "pattern" : "gambia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Gambia", "AllConf=0.870967741935484", "triple=e dbo:location Gambia", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 101,
+  "pattern" : "genus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Augustin_Pyramus_de_Candolle", "AllConf=0.9", "triple=e dbp:typeSpeciesAuthority Augustin_Pyramus_de_Candolle", "class=Plant" ],
+    "1" : [ "pair=Detarioideae", "AllConf=0.890909090909091", "triple=e dbo:family Detarioideae", "class=Plant" ],
+    "2" : [ "pair=Anoplophytum", "AllConf=0.886363636363636", "triple=e dbo:genus Anoplophytum", "class=Plant" ],
+    "3" : [ "pair=Anoplophytum@en", "AllConf=0.886363636363636", "triple=e dbp:subgenus Anoplophytum@en", "class=Plant" ],
+    "4" : [ "pair=R.M.King & H.Rob.@en", "AllConf=0.864864864864865", "triple=e dbp:genusAuthority R.M.King & H.Rob.@en", "class=Plant" ],
+    "5" : [ "pair=Christian_Friedrich_Lessing", "AllConf=0.857142857142857", "triple=e dbp:genusAuthority Christian_Friedrich_Lessing", "class=Plant" ],
+    "6" : [ "pair=Carl_Linnaeus", "AllConf=0.852941176470588", "triple=e dbp:typeSpeciesAuthority Carl_Linnaeus", "class=Plant" ]
+  }
+}, {
+  "id" : 102,
+  "pattern" : "georgia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Georgia_(U.S._state)", "AllConf=0.884615384615385", "triple=e dbo:location Georgia_(U.S._state)", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 104,
+  "pattern" : "germany",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=North_Rhine-Westphalia", "AllConf=0.857142857142857", "triple=e dbo:location North_Rhine-Westphalia", "class=BodyOfWater" ],
+    "1" : [ "pair=Germany", "AllConf=0.948717948717949", "triple=e dbo:country Germany", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 105,
+  "pattern" : "glacier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Glacier_National_Park_(U.S.)", "AllConf=0.847457627118644", "triple=e dbp:location Glacier_National_Park_(U.S.)", "class=BodyOfWater" ],
+    "1" : [ "pair=Glacier_County,_Montana", "AllConf=0.846153846153846", "triple=e dbp:location Glacier_County,_Montana", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 106,
+  "pattern" : "glider",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Soaring@en", "AllConf=0.970588235294118", "triple=e dbp:ref Soaring@en", "class=Aircraft" ],
+    "1" : [ "pair=Primary_glider", "AllConf=0.88", "triple=e dbo:type Primary_glider", "class=Aircraft" ],
+    "2" : [ "pair=Glider_(aircraft)", "AllConf=0.878048780487805", "triple=e dbp:type Glider_(aircraft)", "class=Aircraft" ],
+    "3" : [ "pair=Glider_aircraft", "AllConf=0.847826086956522", "triple=e dbo:type Glider_aircraft", "class=Aircraft" ],
+    "4" : [ "pair=* List of gliders@en", "AllConf=0.805194805194805", "triple=e dbp:seeAlso * List of gliders@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 107,
+  "pattern" : "gloster",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Gloster_Aircraft_Company", "AllConf=0.826086956521739", "triple=e dbp:manufacturer Gloster_Aircraft_Company", "class=Aircraft" ]
+  }
+}, {
+  "id" : 108,
+  "pattern" : "grade",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bassetlaw and Bawtry@en", "AllConf=0.962962962962963", "triple=e dbp:deanery Bassetlaw and Bawtry@en", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 109,
+  "pattern" : "grand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Teton_County,_Wyoming", "AllConf=0.91304347826087", "triple=e dbp:location Teton_County,_Wyoming", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 110,
+  "pattern" : "greece",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Greece", "AllConf=0.945454545454545", "triple=e dbo:country Greece", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 112,
+  "pattern" : "grumman",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Grumman", "AllConf=0.868421052631579", "triple=e dbp:manufacturer Grumman", "class=Aircraft" ]
+  }
+}, {
+  "id" : 113,
+  "pattern" : "guatemala",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Seats in Congress@en", "AllConf=0.962962962962963", "triple=e dbp:seats1Title Seats in Congress@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 114,
+  "pattern" : "guinea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Papua New Guinea@en", "AllConf=0.96551724137931", "triple=e dbp:country Papua New Guinea@en", "class=PoliticalParty" ],
+    "1" : [ "pair=Papua_New_Guinea", "AllConf=0.96551724137931", "triple=e dbo:country Papua_New_Guinea", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 115,
+  "pattern" : "handley",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Handley_Page", "AllConf=0.878787878787879", "triple=e dbo:manufacturer Handley_Page", "class=Aircraft" ]
+  }
+}, {
+  "id" : 117,
+  "pattern" : "havilland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=De_Havilland", "AllConf=0.897435897435897", "triple=e dbp:manufacturer De_Havilland", "class=Aircraft" ]
+  }
+}, {
+  "id" : 118,
+  "pattern" : "hawker",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Hawker_Aircraft", "AllConf=0.961538461538462", "triple=e dbp:manufacturer Hawker_Aircraft", "class=Aircraft" ]
+  }
+}, {
+  "id" : 120,
+  "pattern" : "heinkel",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Heinkel", "AllConf=0.867924528301887", "triple=e dbp:manufacturer Heinkel", "class=Aircraft" ]
+  }
+}, {
+  "id" : 121,
+  "pattern" : "helicopter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bell_Helicopter", "AllConf=0.848484848484849", "triple=e dbo:manufacturer Bell_Helicopter", "class=Aircraft" ],
+    "1" : [ "pair=* List of rotorcraft@en", "AllConf=0.838709677419355", "triple=e dbp:lists * List of rotorcraft@en", "class=Aircraft" ],
+    "2" : [ "pair=Helicopter", "AllConf=0.826666666666667", "triple=e dbp:type Helicopter", "class=Aircraft" ],
+    "3" : [ "pair=Experimental helicopter@en", "AllConf=0.818181818181818", "triple=e dbp:type Experimental helicopter@en", "class=Aircraft" ],
+    "4" : [ "pair=Bell_Textron", "AllConf=0.810810810810811", "triple=e dbp:manufacturer Bell_Textron", "class=Aircraft" ]
+  }
+}, {
+  "id" : 123,
+  "pattern" : "hockey",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"1968\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.826086956521739", "triple=e dbo:activeYearsEndYear \"1968\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=IceHockeyPlayer" ]
+  }
+}, {
+  "id" : 127,
+  "pattern" : "iata",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair== Seasonal destination@en", "AllConf=0.851851851851852", "triple=e dbp:caption = Seasonal destination@en", "class=Airport" ],
+    "1" : [ "pair=Australia", "AllConf=0.848484848484849", "triple=e dbp:cityServed Australia", "class=Airport" ]
+  }
+}, {
+  "id" : 128,
+  "pattern" : "icao",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Burkina Faso@en", "AllConf=0.88", "triple=e dbp:pushpinMap Burkina Faso@en", "class=Airport" ],
+    "1" : [ "pair=Burkina_Faso", "AllConf=0.88", "triple=e dbo:location Burkina_Faso", "class=Airport" ],
+    "2" : [ "pair== Seasonal destination@en", "AllConf=0.851851851851852", "triple=e dbp:caption = Seasonal destination@en", "class=Airport" ],
+    "3" : [ "pair=Australia", "AllConf=0.848484848484849", "triple=e dbp:cityServed Australia", "class=Airport" ],
+    "4" : [ "pair=Location of airport in Colombia@en", "AllConf=0.833333333333333", "triple=e dbp:pushpinMapCaption Location of airport in Colombia@en", "class=Airport" ],
+    "5" : [ "pair=Namibia@en", "AllConf=0.833333333333333", "triple=e dbp:pushpinMap Namibia@en", "class=Airport" ]
+  }
+}, {
+  "id" : 129,
+  "pattern" : "idaho",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Salmon_River_(Idaho)", "AllConf=0.863636363636364", "triple=e dbo:outflow Salmon_River_(Idaho)", "class=BodyOfWater" ],
+    "1" : [ "pair=Idaho_Department_of_Parks_and_Recreation", "AllConf=0.954545454545455", "triple=e dbp:administrator Idaho_Department_of_Parks_and_Recreation", "class=ProtectedArea" ],
+    "2" : [ "pair=List_of_Idaho_state_parks", "AllConf=0.954545454545455", "triple=e dbp:designation List_of_Idaho_state_parks", "class=ProtectedArea" ],
+    "3" : [ "pair=Location in Idaho##Location in the United States@en", "AllConf=0.916666666666667", "triple=e dbp:mapCaption Location in Idaho##Location in the United States@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 130,
+  "pattern" : "illinois",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Illinois", "AllConf=0.885416666666667", "triple=e dbp:location Illinois", "class=ProtectedArea" ],
+    "1" : [ "pair=Illinois_Department_of_Natural_Resources", "AllConf=0.869158878504673", "triple=e dbp:governingBody Illinois_Department_of_Natural_Resources", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 131,
+  "pattern" : "ilyushin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ilyushin", "AllConf=0.869565217391304", "triple=e dbo:manufacturer Ilyushin", "class=Aircraft" ]
+  }
+}, {
+  "id" : 135,
+  "pattern" : "interest",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Natural England@en", "AllConf=0.886363636363636", "triple=e dbp:governingBody Natural England@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 136,
+  "pattern" : "iowa",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Iowa Department of Natural Resources@en", "AllConf=1.0", "triple=e dbp:governingBody Iowa Department of Natural Resources@en", "class=ProtectedArea" ],
+    "1" : [ "pair=Iowa", "AllConf=0.904761904761905", "triple=e dbo:location Iowa", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 138,
+  "pattern" : "iridaceae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Crocoideae", "AllConf=0.91304347826087", "triple=e dbo:family Crocoideae", "class=Plant" ],
+    "1" : [ "pair=Crocus@en", "AllConf=0.884615384615385", "triple=e dbp:genus Crocus@en", "class=Plant" ],
+    "2" : [ "pair=Crocus", "AllConf=0.884615384615385", "triple=e dbo:genus Crocus", "class=Plant" ]
+  }
+}, {
+  "id" : 139,
+  "pattern" : "israel",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Fewest MKs@en", "AllConf=0.944444444444444", "triple=e dbp:seats2Title Fewest MKs@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 141,
+  "pattern" : "italy",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Lombardy", "AllConf=0.903225806451613", "triple=e dbp:location Lombardy", "class=BodyOfWater" ],
+    "1" : [ "pair=Centre-left_coalition", "AllConf=0.954545454545455", "triple=e dbp:national Centre-left_coalition", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 142,
+  "pattern" : "james",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=James_Bay", "AllConf=0.869565217391304", "triple=e dbp:partOf James_Bay", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 143,
+  "pattern" : "janeiro",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Rio_de_Janeiro_(state)", "AllConf=0.863636363636364", "triple=e dbo:nearestCity Rio_de_Janeiro_(state)", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 144,
+  "pattern" : "japan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Map of Japan@en", "AllConf=0.863636363636364", "triple=e dbp:mapCaption Map of Japan@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 146,
+  "pattern" : "junkers",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Junkers", "AllConf=0.833333333333333", "triple=e dbo:manufacturer Junkers", "class=Aircraft" ]
+  }
+}, {
+  "id" : 147,
+  "pattern" : "junín",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Junín_Region", "AllConf=0.852941176470588", "triple=e dbo:location Junín_Region", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 148,
+  "pattern" : "kenya",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Kenya", "AllConf=0.958333333333333", "triple=e dbo:country Kenya", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 149,
+  "pattern" : "knockout",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=APIA_Leichhardt_FC", "AllConf=1.0", "triple=e dbp:team APIA_Leichhardt_FC", "class=SoccerTournament" ],
+    "1" : [ "pair=Manurewa_AFC", "AllConf=1.0", "triple=e dbp:team Manurewa_AFC", "class=SoccerTournament" ],
+    "2" : [ "pair=Christchurch_Technical", "AllConf=1.0", "triple=e dbp:team Christchurch_Technical", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 150,
+  "pattern" : "korea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Seoul", "AllConf=0.952380952380952", "triple=e dbo:headquarter Seoul", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 151,
+  "pattern" : "kosovo",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Kosovo@en", "AllConf=1.0", "triple=e dbp:country Kosovo@en", "class=PoliticalParty" ],
+    "1" : [ "pair=Kosovo", "AllConf=0.96", "triple=e dbo:country Kosovo", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 153,
+  "pattern" : "kyrgyzstan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Kyrgyzstan", "AllConf=0.925925925925926", "triple=e dbp:location Kyrgyzstan", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 154,
+  "pattern" : "lake",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Teton_County,_Wyoming", "AllConf=0.956521739130435", "triple=e dbp:location Teton_County,_Wyoming", "class=BodyOfWater" ],
+    "1" : [ "pair=Wyoming", "AllConf=0.931034482758621", "triple=e dbp:location Wyoming", "class=BodyOfWater" ],
+    "2" : [ "pair=Manitoba", "AllConf=0.928571428571429", "triple=e dbp:location Manitoba", "class=BodyOfWater" ],
+    "3" : [ "pair=Manitoba@en", "AllConf=0.923076923076923", "triple=e dbp:pushpinMap Manitoba@en", "class=BodyOfWater" ],
+    "4" : [ "pair=Carinthia_(state)", "AllConf=0.92", "triple=e dbo:location Carinthia_(state)", "class=BodyOfWater" ],
+    "5" : [ "pair=Delaware_County,_New_York", "AllConf=0.914893617021277", "triple=e dbp:location Delaware_County,_New_York", "class=BodyOfWater" ],
+    "6" : [ "pair=James_Bay", "AllConf=0.91304347826087", "triple=e dbp:partOf James_Bay", "class=BodyOfWater" ],
+    "7" : [ "pair=St._Lawrence_County,_New_York", "AllConf=0.904761904761905", "triple=e dbo:location St._Lawrence_County,_New_York", "class=BodyOfWater" ],
+    "8" : [ "pair=Innlandet#Norway@en", "AllConf=0.903846153846154", "triple=e dbp:pushpinMap Innlandet#Norway@en", "class=BodyOfWater" ],
+    "9" : [ "pair=Lombardy", "AllConf=0.903225806451613", "triple=e dbp:location Lombardy", "class=BodyOfWater" ],
+    "10" : [ "pair=Carinthia", "AllConf=0.903225806451613", "triple=e dbp:location Carinthia", "class=BodyOfWater" ],
+    "11" : [ "pair=Hudson_Bay", "AllConf=0.884615384615385", "triple=e dbo:isPartOf Hudson_Bay", "class=BodyOfWater" ],
+    "12" : [ "pair=Junín_Region", "AllConf=0.882352941176471", "triple=e dbo:location Junín_Region", "class=BodyOfWater" ],
+    "13" : [ "pair=Flathead_County,_Montana", "AllConf=0.88", "triple=e dbp:location Flathead_County,_Montana", "class=BodyOfWater" ],
+    "14" : [ "pair=Innlandet", "AllConf=0.875", "triple=e dbo:location Innlandet", "class=BodyOfWater" ],
+    "15" : [ "pair=Saskatchewan@en", "AllConf=0.875", "triple=e dbp:pushpinMap Saskatchewan@en", "class=BodyOfWater" ],
+    "16" : [ "pair=Otter_Tail_County,_Minnesota", "AllConf=0.869565217391304", "triple=e dbo:location Otter_Tail_County,_Minnesota", "class=BodyOfWater" ],
+    "17" : [ "pair=Sweden@en", "AllConf=0.864864864864865", "triple=e dbp:pushpinMap Sweden@en", "class=BodyOfWater" ],
+    "18" : [ "pair=Salmon_River_(Idaho)", "AllConf=0.863636363636364", "triple=e dbo:outflow Salmon_River_(Idaho)", "class=BodyOfWater" ],
+    "19" : [ "pair=Turkey@en", "AllConf=0.862068965517241", "triple=e dbp:basinCountries Turkey@en", "class=BodyOfWater" ],
+    "20" : [ "pair=North_Rhine-Westphalia", "AllConf=0.857142857142857", "triple=e dbo:location North_Rhine-Westphalia", "class=BodyOfWater" ],
+    "21" : [ "pair=Finland@en", "AllConf=0.853932584269663", "triple=e dbp:pushpinMap Finland@en", "class=BodyOfWater" ],
+    "22" : [ "pair=Finland", "AllConf=0.850299401197605", "triple=e dbp:basinCountries Finland", "class=BodyOfWater" ],
+    "23" : [ "pair=Nipissing_District", "AllConf=0.848484848484849", "triple=e dbp:location Nipissing_District", "class=BodyOfWater" ],
+    "24" : [ "pair=Glacier_National_Park_(U.S.)", "AllConf=0.847457627118644", "triple=e dbp:location Glacier_National_Park_(U.S.)", "class=BodyOfWater" ],
+    "25" : [ "pair=Glacier_County,_Montana", "AllConf=0.846153846153846", "triple=e dbp:location Glacier_County,_Montana", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 155,
+  "pattern" : "lathyrus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Lathyrus@en", "AllConf=0.909090909090909", "triple=e dbp:genus Lathyrus@en", "class=Plant" ],
+    "1" : [ "pair=Lathyrus", "AllConf=0.909090909090909", "triple=e dbo:genus Lathyrus", "class=Plant" ]
+  }
+}, {
+  "id" : 156,
+  "pattern" : "league",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Brighton@en", "AllConf=0.91304347826087", "triple=e dbp:originalteam Brighton@en", "class=AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=Clifton_Hill,_Victoria", "AllConf=0.88", "triple=e dbp:birthPlace Clifton_Hill,_Victoria", "class=AustralianRulesFootballPlayer" ],
+    "2" : [ "pair=Full-forward", "AllConf=0.875", "triple=e dbo:position Full-forward", "class=AustralianRulesFootballPlayer" ],
+    "3" : [ "pair=Back pocket@en", "AllConf=0.869565217391304", "triple=e dbp:position Back pocket@en", "class=AustralianRulesFootballPlayer" ],
+    "4" : [ "pair=Ballarat, Victoria@en", "AllConf=0.857142857142857", "triple=e dbp:deathPlace Ballarat, Victoria@en", "class=AustralianRulesFootballPlayer" ],
+    "5" : [ "pair=Iraqi_Premier_League", "AllConf=0.833333333333333", "triple=e dbp:competition Iraqi_Premier_League", "class=FootballLeagueSeason" ],
+    "6" : [ "pair=Gaelic_Grounds", "AllConf=0.833333333333333", "triple=e dbp:stadium Gaelic_Grounds", "class=FootballLeagueSeason" ],
+    "7" : [ "pair=New club in the league@en", "AllConf=0.826086956521739", "triple=e dbp:continentalcup New club in the league@en", "class=FootballLeagueSeason" ],
+    "8" : [ "pair=O'Moore_Park", "AllConf=0.826086956521739", "triple=e dbp:stadium O'Moore_Park", "class=FootballLeagueSeason" ],
+    "9" : [ "pair=Limerick", "AllConf=0.821428571428571", "triple=e dbp:stadium Limerick", "class=FootballLeagueSeason" ],
+    "10" : [ "pair=Liga_II", "AllConf=0.8125", "triple=e dbp:competition Liga_II", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 157,
+  "pattern" : "liga",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Honduran_Liga_Nacional_de_Ascenso", "AllConf=0.8125", "triple=e dbp:competition Honduran_Liga_Nacional_de_Ascenso", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 159,
+  "pattern" : "lithuania",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Vilnius", "AllConf=0.961538461538462", "triple=e dbo:headquarter Vilnius", "class=PoliticalParty" ],
+    "1" : [ "pair=Lithuania", "AllConf=0.96", "triple=e dbo:country Lithuania", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 162,
+  "pattern" : "lockheed",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Lockheed_Martin", "AllConf=0.814814814814815", "triple=e dbp:manufacturer Lockheed_Martin", "class=Aircraft" ]
+  }
+}, {
+  "id" : 163,
+  "pattern" : "louisiana",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Map of Louisiana, United States of America@en", "AllConf=0.916666666666667", "triple=e dbp:mapCaption Map of Louisiana, United States of America@en", "class=ProtectedArea" ],
+    "1" : [ "pair=Louisiana Office of State Parks@en", "AllConf=0.916666666666667", "triple=e dbp:governingBody Louisiana Office of State Parks@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 164,
+  "pattern" : "macchi",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Macchi", "AllConf=0.807692307692308", "triple=e dbo:manufacturer Macchi", "class=Aircraft" ]
+  }
+}, {
+  "id" : 165,
+  "pattern" : "malay",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sabah_State_Legislative_Assembly", "AllConf=0.952380952380952", "triple=e dbp:seats3Title Sabah_State_Legislative_Assembly", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 166,
+  "pattern" : "manitoba",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Manitoba", "AllConf=0.928571428571429", "triple=e dbp:location Manitoba", "class=BodyOfWater" ],
+    "1" : [ "pair=Manitoba@en", "AllConf=0.884615384615385", "triple=e dbp:pushpinMap Manitoba@en", "class=BodyOfWater" ],
+    "2" : [ "pair=Manitoba, Canada@en", "AllConf=0.857142857142857", "triple=e dbp:location Manitoba, Canada@en", "class=ProtectedArea" ],
+    "3" : [ "pair=Government of Manitoba@en", "AllConf=0.857142857142857", "triple=e dbp:governingBody Government of Manitoba@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 167,
+  "pattern" : "martin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Glenn_L._Martin_Company", "AllConf=0.882352941176471", "triple=e dbo:manufacturer Glenn_L._Martin_Company", "class=Aircraft" ]
+  }
+}, {
+  "id" : 168,
+  "pattern" : "maryland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Location in Maryland@en", "AllConf=0.86", "triple=e dbp:mapCaption Location in Maryland@en", "class=ProtectedArea" ],
+    "1" : [ "pair=List_of_Maryland_state_parks", "AllConf=0.857142857142857", "triple=e dbp:designation List_of_Maryland_state_parks", "class=ProtectedArea" ],
+    "2" : [ "pair=Maryland_Department_of_Natural_Resources", "AllConf=0.852941176470588", "triple=e dbp:administrator Maryland_Department_of_Natural_Resources", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 169,
+  "pattern" : "meistriliiga",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Meistriliiga", "AllConf=0.818181818181818", "triple=e dbp:competition Meistriliiga", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 170,
+  "pattern" : "messerschmitt",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Messerschmitt", "AllConf=0.846153846153846", "triple=e dbp:manufacturer Messerschmitt", "class=Aircraft" ]
+  }
+}, {
+  "id" : 171,
+  "pattern" : "michigan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=List_of_Michigan_state_parks", "AllConf=0.854166666666667", "triple=e dbp:designation List_of_Michigan_state_parks", "class=ProtectedArea" ],
+    "1" : [ "pair=Michigan_Department_of_Natural_Resources", "AllConf=0.847826086956522", "triple=e dbp:administrator Michigan_Department_of_Natural_Resources", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 172,
+  "pattern" : "millettia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Millettia@en", "AllConf=0.846153846153846", "triple=e dbp:genus Millettia@en", "class=Plant" ]
+  }
+}, {
+  "id" : 173,
+  "pattern" : "minnesota",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Otter_Tail_County,_Minnesota", "AllConf=0.869565217391304", "triple=e dbo:location Otter_Tail_County,_Minnesota", "class=BodyOfWater" ],
+    "1" : [ "pair=Minnesota", "AllConf=0.887096774193548", "triple=e dbo:location Minnesota", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 174,
+  "pattern" : "missouri",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Missouri_Department_of_Conservation", "AllConf=1.0", "triple=e dbp:governingBody Missouri_Department_of_Conservation", "class=ProtectedArea" ],
+    "1" : [ "pair=Missouri", "AllConf=0.923076923076923", "triple=e dbp:location Missouri", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 175,
+  "pattern" : "mitsubishi",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Mitsubishi", "AllConf=0.904761904761905", "triple=e dbo:manufacturer Mitsubishi", "class=Aircraft" ]
+  }
+}, {
+  "id" : 176,
+  "pattern" : "montana",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Flathead_County,_Montana", "AllConf=0.88", "triple=e dbp:location Flathead_County,_Montana", "class=BodyOfWater" ],
+    "1" : [ "pair=Glacier_County,_Montana", "AllConf=0.871794871794872", "triple=e dbp:location Glacier_County,_Montana", "class=BodyOfWater" ],
+    "2" : [ "pair=Glacier_National_Park_(U.S.)", "AllConf=0.864406779661017", "triple=e dbp:location Glacier_National_Park_(U.S.)", "class=BodyOfWater" ],
+    "3" : [ "pair=Montana", "AllConf=0.878787878787879", "triple=e dbo:location Montana", "class=ProtectedArea" ],
+    "4" : [ "pair=Montana_Department_of_Fish,_Wildlife_and_Parks", "AllConf=0.866666666666667", "triple=e dbp:administrator Montana_Department_of_Fish,_Wildlife_and_Parks", "class=ProtectedArea" ],
+    "5" : [ "pair=List_of_Montana_state_parks", "AllConf=0.866666666666667", "triple=e dbp:designation List_of_Montana_state_parks", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 177,
+  "pattern" : "morane-saulnier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Morane-Saulnier", "AllConf=0.885714285714286", "triple=e dbp:manufacturer Morane-Saulnier", "class=Aircraft" ]
+  }
+}, {
+  "id" : 178,
+  "pattern" : "motor",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Motor_glider", "AllConf=0.853333333333333", "triple=e dbo:type Motor_glider", "class=Aircraft" ]
+  }
+}, {
+  "id" : 179,
+  "pattern" : "myanmar",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Myanmar", "AllConf=0.958333333333333", "triple=e dbo:headquarter Myanmar", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 180,
+  "pattern" : "nacional",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Honduran_Liga_Nacional_de_Ascenso", "AllConf=0.8125", "triple=e dbp:competition Honduran_Liga_Nacional_de_Ascenso", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=National_park_(Brazil)", "AllConf=0.864406779661017", "triple=e dbp:designation National_park_(Brazil)", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 181,
+  "pattern" : "narcissus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Narcissus@en", "AllConf=0.884615384615385", "triple=e dbp:genus Narcissus@en", "class=Plant" ]
+  }
+}, {
+  "id" : 185,
+  "pattern" : "nordland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nordland county, Norway@en", "AllConf=0.848484848484849", "triple=e dbp:location Nordland county, Norway@en", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 186,
+  "pattern" : "norfolk",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Norfolk@en", "AllConf=0.939393939393939", "triple=e dbp:pushpinMap Norfolk@en", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 187,
+  "pattern" : "north",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=North_American_Aviation", "AllConf=0.833333333333333", "triple=e dbo:manufacturer North_American_Aviation", "class=Aircraft" ],
+    "1" : [ "pair=Location of airport in North Carolina@en", "AllConf=0.80952380952381", "triple=e dbp:pushpinMapCaption Location of airport in North Carolina@en", "class=Airport" ],
+    "2" : [ "pair=North_Rhine-Westphalia", "AllConf=0.857142857142857", "triple=e dbo:location North_Rhine-Westphalia", "class=BodyOfWater" ],
+    "3" : [ "pair=List_of_North_Carolina_state_parks", "AllConf=0.866666666666667", "triple=e dbp:governingBody List_of_North_Carolina_state_parks", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 188,
+  "pattern" : "northern",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Northern Territory@en", "AllConf=0.826086956521739", "triple=e dbp:pushpinMap Northern Territory@en", "class=Airport" ]
+  }
+}, {
+  "id" : 189,
+  "pattern" : "northrop",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Northrop_Corporation", "AllConf=0.838709677419355", "triple=e dbo:manufacturer Northrop_Corporation", "class=Aircraft" ]
+  }
+}, {
+  "id" : 190,
+  "pattern" : "norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms og Finnmark county, Norway@en", "AllConf=0.882352941176471", "triple=e dbp:location Troms og Finnmark county, Norway@en", "class=BodyOfWater" ],
+    "1" : [ "pair=Agder", "AllConf=0.875", "triple=e dbp:location Agder", "class=BodyOfWater" ],
+    "2" : [ "pair=Nordland county, Norway@en", "AllConf=0.848484848484849", "triple=e dbp:location Nordland county, Norway@en", "class=BodyOfWater" ],
+    "3" : [ "pair=View of the fjord@en", "AllConf=0.846938775510204", "triple=e dbp:caption View of the fjord@en", "class=BodyOfWater" ],
+    "4" : [ "pair=Christian_Heinrich_Grosch", "AllConf=0.935483870967742", "triple=e dbp:architect Christian_Heinrich_Grosch", "class=HistoricBuilding" ],
+    "5" : [ "pair=Norway", "AllConf=0.857142857142857", "triple=e dbp:location Norway", "class=ProtectedArea" ],
+    "6" : [ "pair=Norwegian_Directorate_for_Nature_Management", "AllConf=0.853658536585366", "triple=e dbp:governingBody Norwegian_Directorate_for_Nature_Management", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 192,
+  "pattern" : "nova",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Canada Nova Scotia@en", "AllConf=0.80952380952381", "triple=e dbp:pushpinMap Canada Nova Scotia@en", "class=Airport" ]
+  }
+}, {
+  "id" : 193,
+  "pattern" : "ohio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ohio", "AllConf=0.875", "triple=e dbo:location Ohio", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 194,
+  "pattern" : "oklahoma",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Oklahoma Tourism and Recreation Department@en", "AllConf=0.962962962962963", "triple=e dbp:governingBody Oklahoma Tourism and Recreation Department@en", "class=ProtectedArea" ],
+    "1" : [ "pair=Oklahoma", "AllConf=0.909090909090909", "triple=e dbo:location Oklahoma", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 196,
+  "pattern" : "olympics",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Denmark", "AllConf=0.826086956521739", "triple=e dbo:deathPlace Denmark", "class=Cyclist" ]
+  }
+}, {
+  "id" : 197,
+  "pattern" : "ontario",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Nipissing_District", "AllConf=0.878787878787879", "triple=e dbp:location Nipissing_District", "class=BodyOfWater" ],
+    "1" : [ "pair=James_Bay", "AllConf=0.869565217391304", "triple=e dbp:partOf James_Bay", "class=BodyOfWater" ],
+    "2" : [ "pair=List of Ontario general elections@en", "AllConf=0.958333333333333", "triple=e dbp:electionsDab List of Ontario general elections@en", "class=PoliticalParty" ],
+    "3" : [ "pair=Ontario@en", "AllConf=0.958333333333333", "triple=e dbp:state Ontario@en", "class=PoliticalParty" ],
+    "4" : [ "pair=List of political parties in Ontario@en", "AllConf=0.958333333333333", "triple=e dbp:partiesDab List of political parties in Ontario@en", "class=PoliticalParty" ],
+    "5" : [ "pair=Ontario, Canada@en", "AllConf=0.863636363636364", "triple=e dbp:location Ontario, Canada@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 198,
+  "pattern" : "operation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=US operational success@en", "AllConf=0.80952380952381", "triple=e dbp:result US operational success@en", "class=MilitaryConflict" ],
+    "1" : [ "pair=\"US operational success\"", "AllConf=0.80952380952381", "triple=e dbo:result \"US operational success\"", "class=MilitaryConflict" ]
+  }
+}, {
+  "id" : 200,
+  "pattern" : "otter",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Otter_Tail_County,_Minnesota", "AllConf=0.869565217391304", "triple=e dbo:location Otter_Tail_County,_Minnesota", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 201,
+  "pattern" : "page",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Handley_Page", "AllConf=0.878787878787879", "triple=e dbo:manufacturer Handley_Page", "class=Aircraft" ]
+  }
+}, {
+  "id" : 202,
+  "pattern" : "pakistan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=National_Assembly_of_Pakistan", "AllConf=0.954545454545455", "triple=e dbp:seats2Title National_Assembly_of_Pakistan", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 203,
+  "pattern" : "palicourea",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Palicourea@en", "AllConf=0.869565217391304", "triple=e dbp:genus Palicourea@en", "class=Plant" ],
+    "1" : [ "pair=Palicourea", "AllConf=0.863636363636364", "triple=e dbo:genus Palicourea", "class=Plant" ]
+  }
+}, {
+  "id" : 204,
+  "pattern" : "papua",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Papua New Guinea@en", "AllConf=0.96551724137931", "triple=e dbp:country Papua New Guinea@en", "class=PoliticalParty" ],
+    "1" : [ "pair=Papua_New_Guinea", "AllConf=0.96551724137931", "triple=e dbo:country Papua_New_Guinea", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 205,
+  "pattern" : "parachute",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Powered_parachute", "AllConf=0.811594202898551", "triple=e dbp:type Powered_parachute", "class=Aircraft" ]
+  }
+}, {
+  "id" : 206,
+  "pattern" : "paraglider",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Paraglider", "AllConf=0.805405405405405", "triple=e dbo:type Paraglider", "class=Aircraft" ],
+    "1" : [ "pair=Paragliding", "AllConf=0.801075268817204", "triple=e dbp:type Paragliding", "class=Aircraft" ]
+  }
+}, {
+  "id" : 207,
+  "pattern" : "paragliding",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Paramotor", "AllConf=0.855421686746988", "triple=e dbo:type Paramotor", "class=Aircraft" ],
+    "1" : [ "pair=Hirth_F-36", "AllConf=0.826086956521739", "triple=e dbp:eng1Name Hirth_F-36", "class=Aircraft" ]
+  }
+}, {
+  "id" : 208,
+  "pattern" : "paraná",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Paraná_(state)", "AllConf=0.954545454545455", "triple=e dbo:nearestCity Paraná_(state)", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 209,
+  "pattern" : "parish",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Bassetlaw and Bawtry@en", "AllConf=0.962962962962963", "triple=e dbp:deanery Bassetlaw and Bawtry@en", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 210,
+  "pattern" : "park",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Teton_County,_Wyoming", "AllConf=1.0", "triple=e dbp:location Teton_County,_Wyoming", "class=BodyOfWater" ],
+    "1" : [ "pair=Wyoming", "AllConf=0.862068965517241", "triple=e dbp:location Wyoming", "class=BodyOfWater" ],
+    "2" : [ "pair=Glacier_National_Park_(U.S.)", "AllConf=0.847457627118644", "triple=e dbp:location Glacier_National_Park_(U.S.)", "class=BodyOfWater" ],
+    "3" : [ "pair=Glacier_County,_Montana", "AllConf=0.846153846153846", "triple=e dbp:location Glacier_County,_Montana", "class=BodyOfWater" ],
+    "4" : [ "pair=Oklahoma Tourism and Recreation Department@en", "AllConf=0.962962962962963", "triple=e dbp:governingBody Oklahoma Tourism and Recreation Department@en", "class=ProtectedArea" ],
+    "5" : [ "pair=Ministry of the Environment@en", "AllConf=0.956521739130435", "triple=e dbp:governingBody Ministry of the Environment@en", "class=ProtectedArea" ],
+    "6" : [ "pair=Idaho_Department_of_Parks_and_Recreation", "AllConf=0.909090909090909", "triple=e dbp:administrator Idaho_Department_of_Parks_and_Recreation", "class=ProtectedArea" ],
+    "7" : [ "pair=List_of_Idaho_state_parks", "AllConf=0.909090909090909", "triple=e dbp:designation List_of_Idaho_state_parks", "class=ProtectedArea" ],
+    "8" : [ "pair=Manitoba", "AllConf=0.9", "triple=e dbo:location Manitoba", "class=ProtectedArea" ],
+    "9" : [ "pair=Montana_Department_of_Fish,_Wildlife_and_Parks", "AllConf=0.9", "triple=e dbp:administrator Montana_Department_of_Fish,_Wildlife_and_Parks", "class=ProtectedArea" ],
+    "10" : [ "pair=List_of_Montana_state_parks", "AllConf=0.9", "triple=e dbp:designation List_of_Montana_state_parks", "class=ProtectedArea" ],
+    "11" : [ "pair=National_park_(Brazil)", "AllConf=0.88135593220339", "triple=e dbp:designation National_park_(Brazil)", "class=ProtectedArea" ],
+    "12" : [ "pair=Location in Idaho##Location in the United States@en", "AllConf=0.875", "triple=e dbp:mapCaption Location in Idaho##Location in the United States@en", "class=ProtectedArea" ],
+    "13" : [ "pair=Location in Montana@en", "AllConf=0.875", "triple=e dbp:mapCaption Location in Montana@en", "class=ProtectedArea" ],
+    "14" : [ "pair=Iowa Department of Natural Resources@en", "AllConf=0.868421052631579", "triple=e dbp:governingBody Iowa Department of Natural Resources@en", "class=ProtectedArea" ],
+    "15" : [ "pair=List_of_North_Carolina_state_parks", "AllConf=0.866666666666667", "triple=e dbp:governingBody List_of_North_Carolina_state_parks", "class=ProtectedArea" ],
+    "16" : [ "pair=Map of Japan@en", "AllConf=0.863636363636364", "triple=e dbp:mapCaption Map of Japan@en", "class=ProtectedArea" ],
+    "17" : [ "pair=Ministry_of_Environment_and_Forestry_(Indonesia)", "AllConf=0.863636363636364", "triple=e dbp:governingBody Ministry_of_Environment_and_Forestry_(Indonesia)", "class=ProtectedArea" ],
+    "18" : [ "pair=Poland", "AllConf=0.857142857142857", "triple=e dbp:location Poland", "class=ProtectedArea" ],
+    "19" : [ "pair=Manitoba, Canada@en", "AllConf=0.857142857142857", "triple=e dbp:location Manitoba, Canada@en", "class=ProtectedArea" ],
+    "20" : [ "pair=Government of Manitoba@en", "AllConf=0.857142857142857", "triple=e dbp:governingBody Government of Manitoba@en", "class=ProtectedArea" ],
+    "21" : [ "pair=List_of_Michigan_state_parks", "AllConf=0.854166666666667", "triple=e dbp:designation List_of_Michigan_state_parks", "class=ProtectedArea" ],
+    "22" : [ "pair=Argentina", "AllConf=0.851851851851852", "triple=e dbo:location Argentina", "class=ProtectedArea" ],
+    "23" : [ "pair=Michigan_Department_of_Natural_Resources", "AllConf=0.847826086956522", "triple=e dbp:administrator Michigan_Department_of_Natural_Resources", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 211,
+  "pattern" : "parque",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=National_park_(Brazil)", "AllConf=0.88135593220339", "triple=e dbp:designation National_park_(Brazil)", "class=ProtectedArea" ],
+    "1" : [ "pair=Argentina", "AllConf=0.851851851851852", "triple=e dbo:location Argentina", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 212,
+  "pattern" : "party",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=COPPPAL", "AllConf=1.0", "triple=e dbp:regional COPPPAL", "class=PoliticalParty" ],
+    "1" : [ "pair=African_socialism", "AllConf=1.0", "triple=e dbo:ideology African_socialism", "class=PoliticalParty" ],
+    "2" : [ "pair=Slovenia@en", "AllConf=1.0", "triple=e dbp:country Slovenia@en", "class=PoliticalParty" ],
+    "3" : [ "pair=Comintern", "AllConf=1.0", "triple=e dbo:internationalAffiliation Comintern", "class=PoliticalParty" ],
+    "4" : [ "pair=United_States_House_of_Representatives", "AllConf=1.0", "triple=e dbp:seats2Title United_States_House_of_Representatives", "class=PoliticalParty" ],
+    "5" : [ "pair=United_States_Senate", "AllConf=1.0", "triple=e dbp:seats1Title United_States_Senate", "class=PoliticalParty" ],
+    "6" : [ "pair=Historical:@en", "AllConf=1.0", "triple=e dbp:position Historical:@en", "class=PoliticalParty" ],
+    "7" : [ "pair=@en", "AllConf=0.96969696969697", "triple=e dbp:merged @en", "class=PoliticalParty" ],
+    "8" : [ "pair=Municipal councils@en", "AllConf=0.96969696969697", "triple=e dbp:seats3Title Municipal councils@en", "class=PoliticalParty" ],
+    "9" : [ "pair=Continental affiliation@en", "AllConf=0.966666666666667", "triple=e dbp:affiliation1Title Continental affiliation@en", "class=PoliticalParty" ],
+    "10" : [ "pair=Papua New Guinea@en", "AllConf=0.96551724137931", "triple=e dbp:country Papua New Guinea@en", "class=PoliticalParty" ],
+    "11" : [ "pair=Papua_New_Guinea", "AllConf=0.96551724137931", "triple=e dbo:country Papua_New_Guinea", "class=PoliticalParty" ],
+    "12" : [ "pair=Progressivism_in_the_United_States", "AllConf=0.964285714285714", "triple=e dbp:ideology Progressivism_in_the_United_States", "class=PoliticalParty" ],
+    "13" : [ "pair=Bundestag", "AllConf=0.962962962962963", "triple=e dbp:seats1Title Bundestag", "class=PoliticalParty" ],
+    "14" : [ "pair=Seats in Congress@en", "AllConf=0.962962962962963", "triple=e dbp:seats1Title Seats in Congress@en", "class=PoliticalParty" ],
+    "15" : [ "pair=Indonesia@en", "AllConf=0.961538461538462", "triple=e dbp:country Indonesia@en", "class=PoliticalParty" ],
+    "16" : [ "pair=House_of_Commons_of_the_United_Kingdom", "AllConf=0.961538461538462", "triple=e dbp:seats1Title House_of_Commons_of_the_United_Kingdom", "class=PoliticalParty" ],
+    "17" : [ "pair=Serbian_nationalism", "AllConf=0.958333333333333", "triple=e dbp:ideology Serbian_nationalism", "class=PoliticalParty" ],
+    "18" : [ "pair=Japan", "AllConf=0.958333333333333", "triple=e dbo:headquarter Japan", "class=PoliticalParty" ],
+    "19" : [ "pair=Colombia@en", "AllConf=0.958333333333333", "triple=e dbp:country Colombia@en", "class=PoliticalParty" ],
+    "20" : [ "pair=Algeria", "AllConf=0.958333333333333", "triple=e dbo:country Algeria", "class=PoliticalParty" ],
+    "21" : [ "pair=Singapore@en", "AllConf=0.956521739130435", "triple=e dbp:country Singapore@en", "class=PoliticalParty" ],
+    "22" : [ "pair=Norway@en", "AllConf=0.956521739130435", "triple=e dbp:country Norway@en", "class=PoliticalParty" ],
+    "23" : [ "pair=Seimas", "AllConf=0.956521739130435", "triple=e dbp:seats1Title Seimas", "class=PoliticalParty" ],
+    "24" : [ "pair=\"1925\"^^http://www.w3.org/2001/XMLSchema#gYear", "AllConf=0.954545454545455", "triple=e dbo:formationYear \"1925\"^^http://www.w3.org/2001/XMLSchema#gYear", "class=PoliticalParty" ],
+    "25" : [ "pair=Nordic affiliation@en", "AllConf=0.954545454545455", "triple=e dbp:affiliation1Title Nordic affiliation@en", "class=PoliticalParty" ],
+    "26" : [ "pair=Socialist International@en", "AllConf=0.954545454545455", "triple=e dbp:international Socialist International@en", "class=PoliticalParty" ],
+    "27" : [ "pair=National_Assembly_of_Pakistan", "AllConf=0.954545454545455", "triple=e dbp:seats2Title National_Assembly_of_Pakistan", "class=PoliticalParty" ],
+    "28" : [ "pair=Colombia", "AllConf=0.954545454545455", "triple=e dbo:country Colombia", "class=PoliticalParty" ],
+    "29" : [ "pair=Alberta@en", "AllConf=0.952380952380952", "triple=e dbp:state Alberta@en", "class=PoliticalParty" ],
+    "30" : [ "pair=Purple@en", "AllConf=0.952380952380952", "triple=e dbp:colorcode Purple@en", "class=PoliticalParty" ],
+    "31" : [ "pair=Seoul", "AllConf=0.952380952380952", "triple=e dbo:headquarter Seoul", "class=PoliticalParty" ],
+    "32" : [ "pair=Global_Greens", "AllConf=0.949367088607595", "triple=e dbo:internationalAffiliation Global_Greens", "class=PoliticalParty" ],
+    "33" : [ "pair=Netherlands@en", "AllConf=0.948717948717949", "triple=e dbp:country Netherlands@en", "class=PoliticalParty" ],
+    "34" : [ "pair=President@en", "AllConf=0.948051948051948", "triple=e dbp:leader2Title President@en", "class=PoliticalParty" ],
+    "35" : [ "pair=Pirate_Party", "AllConf=0.941176470588235", "triple=e dbo:ideology Pirate_Party", "class=PoliticalParty" ],
+    "36" : [ "pair=Communist_International", "AllConf=0.941176470588235", "triple=e dbp:international Communist_International", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 213,
+  "pattern" : "persian",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Tehran", "AllConf=0.947368421052632", "triple=e dbp:headquarters Tehran", "class=PoliticalParty" ],
+    "1" : [ "pair=Iran", "AllConf=0.942857142857143", "triple=e dbo:headquarter Iran", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 214,
+  "pattern" : "peru",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Junín_Region", "AllConf=0.882352941176471", "triple=e dbo:location Junín_Region", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 215,
+  "pattern" : "plans",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Plans no longer available@en", "AllConf=0.818181818181818", "triple=e dbp:status Plans no longer available@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 216,
+  "pattern" : "plant",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Palicourea@en", "AllConf=0.869565217391304", "triple=e dbp:genus Palicourea@en", "class=Plant" ],
+    "1" : [ "pair=Crocoideae", "AllConf=0.869565217391304", "triple=e dbo:family Crocoideae", "class=Plant" ],
+    "2" : [ "pair=Palicourea", "AllConf=0.863636363636364", "triple=e dbo:genus Palicourea", "class=Plant" ],
+    "3" : [ "pair=Crocus@en", "AllConf=0.846153846153846", "triple=e dbp:genus Crocus@en", "class=Plant" ]
+  }
+}, {
+  "id" : 217,
+  "pattern" : "plants",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Augustin_Pyramus_de_Candolle", "AllConf=0.866666666666667", "triple=e dbp:typeSpeciesAuthority Augustin_Pyramus_de_Candolle", "class=Plant" ]
+  }
+}, {
+  "id" : 219,
+  "pattern" : "player",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Shanxi_Loongs", "AllConf=0.869565217391304", "triple=e dbp:team Shanxi_Loongs", "class=BasketballPlayer" ],
+    "1" : [ "pair=West_Coast_Conference_Men's_Basketball_Player_of_the_Year", "AllConf=0.823529411764706", "triple=e dbo:award West_Coast_Conference_Men's_Basketball_Player_of_the_Year", "class=BasketballPlayer" ],
+    "2" : [ "pair=CSM_U_Oradea", "AllConf=0.80952380952381", "triple=e dbp:team CSM_U_Oradea", "class=BasketballPlayer" ]
+  }
+}, {
+  "id" : 220,
+  "pattern" : "poland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Poland", "AllConf=0.857142857142857", "triple=e dbp:location Poland", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 222,
+  "pattern" : "portuguese",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Lisbon", "AllConf=0.952380952380952", "triple=e dbp:headquarters Lisbon", "class=PoliticalParty" ],
+    "1" : [ "pair=Paraná_(state)", "AllConf=0.954545454545455", "triple=e dbo:nearestCity Paraná_(state)", "class=ProtectedArea" ],
+    "2" : [ "pair=Location in Brazil@en", "AllConf=0.859375", "triple=e dbp:mapCaption Location in Brazil@en", "class=ProtectedArea" ],
+    "3" : [ "pair=Biological_reserve_(Brazil)", "AllConf=0.857142857142857", "triple=e dbp:designation Biological_reserve_(Brazil)", "class=ProtectedArea" ],
+    "4" : [ "pair=Ecological_station_(Brazil)", "AllConf=0.851851851851852", "triple=e dbp:designation Ecological_station_(Brazil)", "class=ProtectedArea" ],
+    "5" : [ "pair=National_park_(Brazil)", "AllConf=0.847457627118644", "triple=e dbp:designation National_park_(Brazil)", "class=ProtectedArea" ],
+    "6" : [ "pair=Chico_Mendes_Institute_for_Biodiversity_Conservation", "AllConf=0.847222222222222", "triple=e dbp:administrator Chico_Mendes_Institute_for_Biodiversity_Conservation", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 225,
+  "pattern" : "primera",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Venezuelan_Primera_División", "AllConf=0.826086956521739", "triple=e dbp:competition Venezuelan_Primera_División", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 227,
+  "pattern" : "production",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"-2000.0\"^^http://dbpedia.org/datatype/second", "AllConf=0.865979381443299", "triple=e dbp:produced \"-2000.0\"^^http://dbpedia.org/datatype/second", "class=Aircraft" ]
+  }
+}, {
+  "id" : 229,
+  "pattern" : "province",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Junín_Region", "AllConf=0.852941176470588", "triple=e dbo:location Junín_Region", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 231,
+  "pattern" : "psychotria",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Psychotria@en", "AllConf=0.859375", "triple=e dbp:genus Psychotria@en", "class=Plant" ],
+    "1" : [ "pair=Psychotria", "AllConf=0.859375", "triple=e dbo:genus Psychotria", "class=Plant" ]
+  }
+}, {
+  "id" : 232,
+  "pattern" : "public",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Burkina Faso@en", "AllConf=0.84", "triple=e dbp:pushpinMap Burkina Faso@en", "class=Airport" ],
+    "1" : [ "pair=Burkina_Faso", "AllConf=0.84", "triple=e dbo:location Burkina_Faso", "class=Airport" ],
+    "2" : [ "pair=Idaho_Department_of_Parks_and_Recreation", "AllConf=0.863636363636364", "triple=e dbp:administrator Idaho_Department_of_Parks_and_Recreation", "class=ProtectedArea" ],
+    "3" : [ "pair=List_of_Idaho_state_parks", "AllConf=0.863636363636364", "triple=e dbp:designation List_of_Idaho_state_parks", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 233,
+  "pattern" : "radio",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"1470.0\"^^http://dbpedia.org/datatype/kilohertz", "AllConf=0.8125", "triple=e dbp:frequency \"1470.0\"^^http://dbpedia.org/datatype/kilohertz", "class=RadioStation" ]
+  }
+}, {
+  "id" : 234,
+  "pattern" : "recreation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Salmon_River_(Idaho)", "AllConf=0.863636363636364", "triple=e dbo:outflow Salmon_River_(Idaho)", "class=BodyOfWater" ],
+    "1" : [ "pair=Idaho_Department_of_Parks_and_Recreation", "AllConf=0.863636363636364", "triple=e dbp:administrator Idaho_Department_of_Parks_and_Recreation", "class=ProtectedArea" ],
+    "2" : [ "pair=List_of_Idaho_state_parks", "AllConf=0.863636363636364", "triple=e dbp:designation List_of_Idaho_state_parks", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 235,
+  "pattern" : "republican",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Republican_Party_(United_States)", "AllConf=0.979166666666667", "triple=e dbp:national Republican_Party_(United_States)", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 236,
+  "pattern" : "reserva",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Biological_reserve_(Brazil)", "AllConf=0.857142857142857", "triple=e dbp:designation Biological_reserve_(Brazil)", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 237,
+  "pattern" : "reserve",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=UNESCO@en", "AllConf=0.931034482758621", "triple=e dbp:publisher UNESCO@en", "class=ProtectedArea" ],
+    "1" : [ "pair=http://www.unesco.org/new/en/natural-sciences/environment/ecological-sciences/biosphere-reserves/world-network-wnbr/wnbr/", "AllConf=0.931034482758621", "triple=e dbp:licenseStatementUrl http://www.unesco.org/new/en/natural-sciences/environment/ecological-sciences/biosphere-reserves/world-network-wnbr/wnbr/", "class=ProtectedArea" ],
+    "2" : [ "pair=UNESCO - MAB Biosphere Reserves Directory@en", "AllConf=0.931034482758621", "triple=e dbp:title UNESCO - MAB Biosphere Reserves Directory@en", "class=ProtectedArea" ],
+    "3" : [ "pair=CC BY-SA IGO 3.0@en", "AllConf=0.928571428571429", "triple=e dbp:licence CC BY-SA IGO 3.0@en", "class=ProtectedArea" ],
+    "4" : [ "pair=Biological_reserve_(Brazil)", "AllConf=0.877551020408163", "triple=e dbp:designation Biological_reserve_(Brazil)", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 238,
+  "pattern" : "rhine-westphalia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=North_Rhine-Westphalia", "AllConf=0.857142857142857", "triple=e dbo:location North_Rhine-Westphalia", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 239,
+  "pattern" : "rica",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=National_System_of_Conservation_Areas", "AllConf=0.859154929577465", "triple=e dbp:governingBody National_System_of_Conservation_Areas", "class=ProtectedArea" ],
+    "1" : [ "pair=Costa_Rica", "AllConf=0.846774193548387", "triple=e dbp:location Costa_Rica", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 240,
+  "pattern" : "roman",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Roman_Catholic_Diocese_of_Arundel_and_Brighton", "AllConf=0.935483870967742", "triple=e dbp:diocese Roman_Catholic_Diocese_of_Arundel_and_Brighton", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 242,
+  "pattern" : "royal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Royal_Aircraft_Factory", "AllConf=0.869565217391304", "triple=e dbo:manufacturer Royal_Aircraft_Factory", "class=Aircraft" ]
+  }
+}, {
+  "id" : 243,
+  "pattern" : "rules",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=\"21\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "AllConf=0.92", "triple=e dbo:number \"21\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "class=AustralianRulesFootballPlayer" ],
+    "1" : [ "pair=Full-forward", "AllConf=0.916666666666667", "triple=e dbo:position Full-forward", "class=AustralianRulesFootballPlayer" ],
+    "2" : [ "pair=Brighton@en", "AllConf=0.91304347826087", "triple=e dbp:originalteam Brighton@en", "class=AustralianRulesFootballPlayer" ],
+    "3" : [ "pair=Perth", "AllConf=0.909090909090909", "triple=e dbp:birthPlace Perth", "class=AustralianRulesFootballPlayer" ],
+    "4" : [ "pair=Ballarat, Victoria@en", "AllConf=0.904761904761905", "triple=e dbp:deathPlace Ballarat, Victoria@en", "class=AustralianRulesFootballPlayer" ],
+    "5" : [ "pair=Perth,_Western_Australia", "AllConf=0.885714285714286", "triple=e dbo:birthPlace Perth,_Western_Australia", "class=AustralianRulesFootballPlayer" ],
+    "6" : [ "pair=Clifton_Hill,_Victoria", "AllConf=0.88", "triple=e dbp:birthPlace Clifton_Hill,_Victoria", "class=AustralianRulesFootballPlayer" ],
+    "7" : [ "pair=\"15\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "AllConf=0.875", "triple=e dbo:number \"15\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "class=AustralianRulesFootballPlayer" ],
+    "8" : [ "pair=Back pocket@en", "AllConf=0.869565217391304", "triple=e dbp:position Back pocket@en", "class=AustralianRulesFootballPlayer" ],
+    "9" : [ "pair=\"12\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "AllConf=0.851851851851852", "triple=e dbo:number \"12\"^^http://www.w3.org/2001/XMLSchema#nonNegativeInteger", "class=AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 245,
+  "pattern" : "saskatchewan",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Saskatchewan@en", "AllConf=0.875", "triple=e dbp:pushpinMap Saskatchewan@en", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 246,
+  "pattern" : "savoia-marchetti",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Savoia-Marchetti", "AllConf=0.892857142857143", "triple=e dbo:manufacturer Savoia-Marchetti", "class=Aircraft" ]
+  }
+}, {
+  "id" : 247,
+  "pattern" : "sawtooth",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Salmon_River_(Idaho)", "AllConf=0.863636363636364", "triple=e dbo:outflow Salmon_River_(Idaho)", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 248,
+  "pattern" : "scientific",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Natural England@en", "AllConf=0.886363636363636", "triple=e dbp:governingBody Natural England@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 249,
+  "pattern" : "scotia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Canada Nova Scotia@en", "AllConf=0.80952380952381", "triple=e dbp:pushpinMap Canada Nova Scotia@en", "class=Airport" ]
+  }
+}, {
+  "id" : 251,
+  "pattern" : "seaplane",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Reconnaissance seaplane@en", "AllConf=0.80952380952381", "triple=e dbp:type Reconnaissance seaplane@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 252,
+  "pattern" : "season",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=2016–17_UEFA_Europa_League", "AllConf=0.882352941176471", "triple=e dbp:continentalcup 2016–17_UEFA_Europa_League", "class=FootballLeagueSeason" ],
+    "1" : [ "pair=2016–17_UEFA_Champions_League", "AllConf=0.878787878787879", "triple=e dbp:continentalcup 2016–17_UEFA_Champions_League", "class=FootballLeagueSeason" ],
+    "2" : [ "pair=Venezuelan_Primera_División", "AllConf=0.826086956521739", "triple=e dbp:competition Venezuelan_Primera_División", "class=FootballLeagueSeason" ],
+    "3" : [ "pair=New club in the league@en", "AllConf=0.826086956521739", "triple=e dbp:continentalcup New club in the league@en", "class=FootballLeagueSeason" ],
+    "4" : [ "pair=Meistriliiga", "AllConf=0.818181818181818", "triple=e dbp:competition Meistriliiga", "class=FootballLeagueSeason" ],
+    "5" : [ "pair=2020_AFC_Cup", "AllConf=0.818181818181818", "triple=e dbp:continentalcup 2020_AFC_Cup", "class=FootballLeagueSeason" ],
+    "6" : [ "pair=Liga_II", "AllConf=0.8125", "triple=e dbp:competition Liga_II", "class=FootballLeagueSeason" ],
+    "7" : [ "pair=Honduran_Liga_Nacional_de_Ascenso", "AllConf=0.8125", "triple=e dbp:competition Honduran_Liga_Nacional_de_Ascenso", "class=FootballLeagueSeason" ],
+    "8" : [ "pair=\"2010-01-02\"^^http://www.w3.org/2001/XMLSchema#date", "AllConf=0.952380952380952", "triple=e dbp:date \"2010-01-02\"^^http://www.w3.org/2001/XMLSchema#date", "class=SoccerClubSeason" ],
+    "9" : [ "pair=LDU Quito@en", "AllConf=0.952380952380952", "triple=e dbp:team LDU Quito@en", "class=SoccerClubSeason" ],
+    "10" : [ "pair=Estadio_Rodrigo_Paz_Delgado", "AllConf=0.928571428571429", "triple=e dbp:stadium Estadio_Rodrigo_Paz_Delgado", "class=SoccerClubSeason" ],
+    "11" : [ "pair=APIA_Leichhardt_FC", "AllConf=1.0", "triple=e dbp:team APIA_Leichhardt_FC", "class=SoccerTournament" ]
+  }
+}, {
+  "id" : 254,
+  "pattern" : "senegal",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Senegal@en", "AllConf=0.956521739130435", "triple=e dbp:country Senegal@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 255,
+  "pattern" : "series",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Liga_II", "AllConf=0.8125", "triple=e dbp:competition Liga_II", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 257,
+  "pattern" : "sikorsky",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Igor_Sikorsky", "AllConf=0.875", "triple=e dbo:designer Igor_Sikorsky", "class=Aircraft" ]
+  }
+}, {
+  "id" : 258,
+  "pattern" : "site",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Natural England@en", "AllConf=0.886363636363636", "triple=e dbp:governingBody Natural England@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 259,
+  "pattern" : "slovenia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Slovenia@en", "AllConf=0.954545454545455", "triple=e dbp:country Slovenia@en", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 261,
+  "pattern" : "sophora",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sophora", "AllConf=0.91304347826087", "triple=e dbo:genus Sophora", "class=Plant" ],
+    "1" : [ "pair=Sophora@en", "AllConf=0.869565217391304", "triple=e dbp:genus Sophora@en", "class=Plant" ]
+  }
+}, {
+  "id" : 262,
+  "pattern" : "sopwith",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sopwith_Aviation_Company", "AllConf=0.818181818181818", "triple=e dbp:manufacturer Sopwith_Aviation_Company", "class=Aircraft" ]
+  }
+}, {
+  "id" : 263,
+  "pattern" : "south",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=South_Africa", "AllConf=0.851851851851852", "triple=e dbo:origin South_Africa", "class=Aircraft" ],
+    "1" : [ "pair=South_Korea", "AllConf=0.955882352941177", "triple=e dbo:country South_Korea", "class=PoliticalParty" ]
+  }
+}, {
+  "id" : 264,
+  "pattern" : "spain",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Spain", "AllConf=0.88", "triple=e dbp:location Spain", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 267,
+  "pattern" : "species",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Anoplophytum", "AllConf=0.954545454545455", "triple=e dbo:genus Anoplophytum", "class=Plant" ],
+    "1" : [ "pair=Anoplophytum@en", "AllConf=0.954545454545455", "triple=e dbp:subgenus Anoplophytum@en", "class=Plant" ],
+    "2" : [ "pair=Benjamin_Lincoln_Robinson", "AllConf=0.952380952380952", "triple=e dbp:binomialAuthority Benjamin_Lincoln_Robinson", "class=Plant" ],
+    "3" : [ "pair=Luer@en", "AllConf=0.916666666666667", "triple=e dbp:binomialAuthority Luer@en", "class=Plant" ],
+    "4" : [ "pair=Hermann_Harms", "AllConf=0.892857142857143", "triple=e dbp:binomialAuthority Hermann_Harms", "class=Plant" ],
+    "5" : [ "pair=Thomas_Nuttall", "AllConf=0.875", "triple=e dbo:binomialAuthority Thomas_Nuttall", "class=Plant" ],
+    "6" : [ "pair=Palicourea@en", "AllConf=0.869565217391304", "triple=e dbp:genus Palicourea@en", "class=Plant" ],
+    "7" : [ "pair=Crocoideae", "AllConf=0.869565217391304", "triple=e dbo:family Crocoideae", "class=Plant" ],
+    "8" : [ "pair=Edward_Lee_Greene", "AllConf=0.866666666666667", "triple=e dbp:binomialAuthority Edward_Lee_Greene", "class=Plant" ],
+    "9" : [ "pair=Carlyle_A._Luer", "AllConf=0.866666666666667", "triple=e dbo:binomialAuthority Carlyle_A._Luer", "class=Plant" ],
+    "10" : [ "pair=Palicourea", "AllConf=0.863636363636364", "triple=e dbo:genus Palicourea", "class=Plant" ],
+    "11" : [ "pair=Ignatz_Urban", "AllConf=0.857142857142857", "triple=e dbp:binomialAuthority Ignatz_Urban", "class=Plant" ],
+    "12" : [ "pair=Solanales", "AllConf=0.857142857142857", "triple=e dbo:order Solanales", "class=Plant" ],
+    "13" : [ "pair=John_Gilbert_Baker", "AllConf=0.851851851851852", "triple=e dbp:binomialAuthority John_Gilbert_Baker", "class=Plant" ],
+    "14" : [ "pair=Paul_Carpenter_Standley", "AllConf=0.848484848484849", "triple=e dbo:binomialAuthority Paul_Carpenter_Standley", "class=Plant" ],
+    "15" : [ "pair=Dracula@en", "AllConf=0.846153846153846", "triple=e dbp:genus Dracula@en", "class=Plant" ],
+    "16" : [ "pair=Narcissus@en", "AllConf=0.846153846153846", "triple=e dbp:genus Narcissus@en", "class=Plant" ],
+    "17" : [ "pair=Crocus@en", "AllConf=0.846153846153846", "triple=e dbp:genus Crocus@en", "class=Plant" ]
+  }
+}, {
+  "id" : 268,
+  "pattern" : "state",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Teton_County,_Wyoming", "AllConf=0.869565217391304", "triple=e dbp:location Teton_County,_Wyoming", "class=BodyOfWater" ],
+    "1" : [ "pair=Glacier_County,_Montana", "AllConf=0.846153846153846", "triple=e dbp:location Glacier_County,_Montana", "class=BodyOfWater" ],
+    "2" : [ "pair=Iowa Department of Natural Resources@en", "AllConf=1.0", "triple=e dbp:governingBody Iowa Department of Natural Resources@en", "class=ProtectedArea" ],
+    "3" : [ "pair=Idaho_Department_of_Parks_and_Recreation", "AllConf=0.954545454545455", "triple=e dbp:administrator Idaho_Department_of_Parks_and_Recreation", "class=ProtectedArea" ],
+    "4" : [ "pair=List_of_Idaho_state_parks", "AllConf=0.954545454545455", "triple=e dbp:designation List_of_Idaho_state_parks", "class=ProtectedArea" ],
+    "5" : [ "pair=Oklahoma Tourism and Recreation Department@en", "AllConf=0.925925925925926", "triple=e dbp:governingBody Oklahoma Tourism and Recreation Department@en", "class=ProtectedArea" ],
+    "6" : [ "pair=Map of Louisiana, United States of America@en", "AllConf=0.916666666666667", "triple=e dbp:mapCaption Map of Louisiana, United States of America@en", "class=ProtectedArea" ],
+    "7" : [ "pair=Location in Idaho##Location in the United States@en", "AllConf=0.916666666666667", "triple=e dbp:mapCaption Location in Idaho##Location in the United States@en", "class=ProtectedArea" ],
+    "8" : [ "pair=Louisiana Office of State Parks@en", "AllConf=0.916666666666667", "triple=e dbp:governingBody Louisiana Office of State Parks@en", "class=ProtectedArea" ],
+    "9" : [ "pair=Paraná_(state)", "AllConf=0.909090909090909", "triple=e dbo:nearestCity Paraná_(state)", "class=ProtectedArea" ],
+    "10" : [ "pair=Montana_Department_of_Fish,_Wildlife_and_Parks", "AllConf=0.9", "triple=e dbp:administrator Montana_Department_of_Fish,_Wildlife_and_Parks", "class=ProtectedArea" ],
+    "11" : [ "pair=List_of_Montana_state_parks", "AllConf=0.9", "triple=e dbp:designation List_of_Montana_state_parks", "class=ProtectedArea" ],
+    "12" : [ "pair=Iowa", "AllConf=0.896551724137931", "triple=e dbp:location Iowa", "class=ProtectedArea" ],
+    "13" : [ "pair=Wisconsin_Department_of_Natural_Resources", "AllConf=0.88", "triple=e dbp:governingBody Wisconsin_Department_of_Natural_Resources", "class=ProtectedArea" ],
+    "14" : [ "pair=Location in Montana@en", "AllConf=0.875", "triple=e dbp:mapCaption Location in Montana@en", "class=ProtectedArea" ],
+    "15" : [ "pair=List_of_North_Carolina_state_parks", "AllConf=0.866666666666667", "triple=e dbp:governingBody List_of_North_Carolina_state_parks", "class=ProtectedArea" ],
+    "16" : [ "pair=Rio_de_Janeiro_(state)", "AllConf=0.863636363636364", "triple=e dbo:nearestCity Rio_de_Janeiro_(state)", "class=ProtectedArea" ],
+    "17" : [ "pair=Connecticut Department of Energy and Environmental Protection@en", "AllConf=0.863636363636364", "triple=e dbp:governingBody Connecticut Department of Energy and Environmental Protection@en", "class=ProtectedArea" ],
+    "18" : [ "pair=Location in Alabama@en", "AllConf=0.857142857142857", "triple=e dbp:mapCaption Location in Alabama@en", "class=ProtectedArea" ],
+    "19" : [ "pair=List_of_Michigan_state_parks", "AllConf=0.854166666666667", "triple=e dbp:designation List_of_Michigan_state_parks", "class=ProtectedArea" ],
+    "20" : [ "pair=Michigan_Department_of_Natural_Resources", "AllConf=0.847826086956522", "triple=e dbp:administrator Michigan_Department_of_Natural_Resources", "class=ProtectedArea" ],
+    "21" : [ "pair=California_Department_of_Parks_and_Recreation", "AllConf=0.846715328467153", "triple=e dbp:governingBody California_Department_of_Parks_and_Recreation", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 269,
+  "pattern" : "states",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Location of airport in North Carolina@en", "AllConf=0.80952380952381", "triple=e dbp:pushpinMapCaption Location of airport in North Carolina@en", "class=Airport" ]
+  }
+}, {
+  "id" : 270,
+  "pattern" : "station",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ecological_station_(Brazil)", "AllConf=0.851851851851852", "triple=e dbp:designation Ecological_station_(Brazil)", "class=ProtectedArea" ],
+    "1" : [ "pair=\"1470.0\"^^http://dbpedia.org/datatype/kilohertz", "AllConf=0.8125", "triple=e dbp:frequency \"1470.0\"^^http://dbpedia.org/datatype/kilohertz", "class=RadioStation" ]
+  }
+}, {
+  "id" : 271,
+  "pattern" : "sukhoi",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Sukhoi", "AllConf=0.833333333333333", "triple=e dbp:manufacturer Sukhoi", "class=Aircraft" ]
+  }
+}, {
+  "id" : 272,
+  "pattern" : "supermarine",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Supermarine", "AllConf=0.864864864864865", "triple=e dbo:manufacturer Supermarine", "class=Aircraft" ]
+  }
+}, {
+  "id" : 274,
+  "pattern" : "surface",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=North_Rhine-Westphalia", "AllConf=0.857142857142857", "triple=e dbo:location North_Rhine-Westphalia", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 275,
+  "pattern" : "swedish",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Diocese_of_Växjö", "AllConf=0.96551724137931", "triple=e dbp:diocese Diocese_of_Växjö", "class=HistoricBuilding" ]
+  }
+}, {
+  "id" : 276,
+  "pattern" : "switzerland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Switzerland", "AllConf=0.854961832061069", "triple=e dbo:country Switzerland", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 277,
+  "pattern" : "system",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Liga_II", "AllConf=0.8125", "triple=e dbp:competition Liga_II", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 278,
+  "pattern" : "tail",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Otter_Tail_County,_Minnesota", "AllConf=0.869565217391304", "triple=e dbo:location Otter_Tail_County,_Minnesota", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 279,
+  "pattern" : "territory",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Northern Territory@en", "AllConf=0.826086956521739", "triple=e dbp:pushpinMap Northern Territory@en", "class=Airport" ]
+  }
+}, {
+  "id" : 280,
+  "pattern" : "teton",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Teton_County,_Wyoming", "AllConf=0.91304347826087", "triple=e dbp:location Teton_County,_Wyoming", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 281,
+  "pattern" : "tier",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Liga_II", "AllConf=0.8125", "triple=e dbp:competition Liga_II", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 282,
+  "pattern" : "tillandsia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Anoplophytum", "AllConf=0.954545454545455", "triple=e dbo:genus Anoplophytum", "class=Plant" ],
+    "1" : [ "pair=Anoplophytum@en", "AllConf=0.954545454545455", "triple=e dbp:subgenus Anoplophytum@en", "class=Plant" ]
+  }
+}, {
+  "id" : 283,
+  "pattern" : "toto",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Toto_Cup", "AllConf=0.869565217391304", "triple=e dbp:competition Toto_Cup", "class=FootballLeagueSeason" ]
+  }
+}, {
+  "id" : 284,
+  "pattern" : "troms",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Troms og Finnmark county, Norway@en", "AllConf=0.882352941176471", "triple=e dbp:location Troms og Finnmark county, Norway@en", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 285,
+  "pattern" : "tupolev",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Tupolev", "AllConf=0.827586206896552", "triple=e dbo:manufacturer Tupolev", "class=Aircraft" ]
+  }
+}, {
+  "id" : 286,
+  "pattern" : "ukraine",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ukraine", "AllConf=0.871794871794872", "triple=e dbo:location Ukraine", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 288,
+  "pattern" : "ultralight",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Ultralight_trike", "AllConf=0.814285714285714", "triple=e dbo:type Ultralight_trike", "class=Aircraft" ]
+  }
+}, {
+  "id" : 289,
+  "pattern" : "unesco",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=CC BY-SA IGO 3.0@en", "AllConf=0.892857142857143", "triple=e dbp:licence CC BY-SA IGO 3.0@en", "class=ProtectedArea" ],
+    "1" : [ "pair=UNESCO@en", "AllConf=0.892857142857143", "triple=e dbp:author UNESCO@en", "class=ProtectedArea" ],
+    "2" : [ "pair=http://www.unesco.org/new/en/natural-sciences/environment/ecological-sciences/biosphere-reserves/world-network-wnbr/wnbr/", "AllConf=0.862068965517241", "triple=e dbp:licenseStatementUrl http://www.unesco.org/new/en/natural-sciences/environment/ecological-sciences/biosphere-reserves/world-network-wnbr/wnbr/", "class=ProtectedArea" ],
+    "3" : [ "pair=UNESCO - MAB Biosphere Reserves Directory@en", "AllConf=0.862068965517241", "triple=e dbp:title UNESCO - MAB Biosphere Reserves Directory@en", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 290,
+  "pattern" : "united",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Location of airport in North Carolina@en", "AllConf=0.80952380952381", "triple=e dbp:pushpinMapCaption Location of airport in North Carolina@en", "class=Airport" ]
+  }
+}, {
+  "id" : 291,
+  "pattern" : "utah",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Utah", "AllConf=0.891891891891892", "triple=e dbo:location Utah", "class=ProtectedArea" ],
+    "1" : [ "pair=Washington_County,_Utah", "AllConf=0.863636363636364", "triple=e dbo:location Washington_County,_Utah", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 293,
+  "pattern" : "virginia",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=West Virginia, United States@en", "AllConf=0.909090909090909", "triple=e dbp:location West Virginia, United States@en", "class=ProtectedArea" ],
+    "1" : [ "pair=West_Virginia", "AllConf=0.867647058823529", "triple=e dbo:location West_Virginia", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 294,
+  "pattern" : "voss",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Blohm_&_Voss_(aircraft)", "AllConf=0.958333333333333", "triple=e dbo:manufacturer Blohm_&_Voss_(aircraft)", "class=Aircraft" ],
+    "1" : [ "pair=Hamburger_Flugzeugbau", "AllConf=0.833333333333333", "triple=e dbp:manufacturer Hamburger_Flugzeugbau", "class=Aircraft" ]
+  }
+}, {
+  "id" : 295,
+  "pattern" : "west",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=West Virginia, United States@en", "AllConf=0.909090909090909", "triple=e dbp:location West Virginia, United States@en", "class=ProtectedArea" ],
+    "1" : [ "pair=West_Virginia", "AllConf=0.882352941176471", "triple=e dbo:location West_Virginia", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 296,
+  "pattern" : "westland",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Westland_Aircraft", "AllConf=0.869565217391304", "triple=e dbo:manufacturer Westland_Aircraft", "class=Aircraft" ]
+  }
+}, {
+  "id" : 297,
+  "pattern" : "wisconsin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Wisconsin", "AllConf=0.910112359550562", "triple=e dbo:location Wisconsin", "class=ProtectedArea" ],
+    "1" : [ "pair=Wisconsin_Department_of_Natural_Resources", "AllConf=0.9", "triple=e dbp:governingBody Wisconsin_Department_of_Natural_Resources", "class=ProtectedArea" ]
+  }
+}, {
+  "id" : 298,
+  "pattern" : "women's",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Thebarton_Oval", "AllConf=0.851851851851852", "triple=e dbp:debutstadium Thebarton_Oval", "class=AustralianRulesFootballPlayer" ]
+  }
+}, {
+  "id" : 299,
+  "pattern" : "wyoming",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Teton_County,_Wyoming", "AllConf=0.956521739130435", "triple=e dbp:location Teton_County,_Wyoming", "class=BodyOfWater" ],
+    "1" : [ "pair=Wyoming", "AllConf=0.862068965517241", "triple=e dbp:location Wyoming", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 300,
+  "pattern" : "yakovlev",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Yakovlev", "AllConf=0.863636363636364", "triple=e dbo:manufacturer Yakovlev", "class=Aircraft" ]
+  }
+}, {
+  "id" : 301,
+  "pattern" : "york",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Delaware_County,_New_York", "AllConf=0.872340425531915", "triple=e dbp:location Delaware_County,_New_York", "class=BodyOfWater" ],
+    "1" : [ "pair=New York@en", "AllConf=0.848101265822785", "triple=e dbp:pushpinMap New York@en", "class=BodyOfWater" ]
+  }
+}, {
+  "id" : 302,
+  "pattern" : "yukon",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=Location in Yukon@en", "AllConf=0.818181818181818", "triple=e dbp:pushpinMapCaption Location in Yukon@en", "class=Airport" ]
+  }
+}, {
+  "id" : 303,
+  "pattern" : "zealand",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "pair=New_Zealand", "AllConf=0.956521739130435", "triple=e dbo:location New_Zealand", "class=ProtectedArea" ],
+    "1" : [ "pair=Christchurch_Technical", "AllConf=1.0", "triple=e dbp:team Christchurch_Technical", "class=SoccerTournament" ]
+  }
+} ]

@@ -1,0 +1,737 @@
+[ {
+  "id" : 1,
+  "pattern" : ".net",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:programmingLanguage C_Sharp_(programming_language)", "Cosine=0.541288860566379", "triple=e dbp:programmingLanguage C_Sharp_(programming_language)", "class=Software" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "also",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:verLayout stacked@en", "Cosine=0.485912657903775", "triple=e dbp:verLayout stacked@en", "class=Software" ],
+    "1" : [ "kb=dbp:programmingLanguage C++@en", "Cosine=0.473602222778315", "triple=e dbp:programmingLanguage C++@en", "class=Software" ],
+    "2" : [ "kb=dbp:genre Library_(computing)", "Cosine=0.461479103495449", "triple=e dbp:genre Library_(computing)", "class=Software" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "android",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:operatingSystem Android_(operating_system)", "Cosine=0.563749736303429", "triple=e dbp:operatingSystem Android_(operating_system)", "class=Software" ],
+    "1" : [ "kb=dbo:developer Google", "Cosine=0.553687044336142", "triple=e dbo:developer Google", "class=Software" ],
+    "2" : [ "kb=dbp:verLayout stacked@en", "Cosine=0.513701166914081", "triple=e dbp:verLayout stacked@en", "class=Software" ],
+    "3" : [ "kb=dbp:operatingSystem IOS", "Cosine=0.481999203654147", "triple=e dbp:operatingSystem IOS", "class=Software" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "apache",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer The_Apache_Software_Foundation", "Cosine=0.863190615806084", "triple=e dbp:developer The_Apache_Software_Foundation", "class=Software" ],
+    "1" : [ "kb=dbo:developer Apache_Software_Foundation", "Cosine=0.851334624106077", "triple=e dbo:developer Apache_Software_Foundation", "class=Software" ],
+    "2" : [ "kb=dbo:license Apache_License_2.0", "Cosine=0.675052740555614", "triple=e dbo:license Apache_License_2.0", "class=Software" ],
+    "3" : [ "kb=dbp:license Apache_License", "Cosine=0.610600008141334", "triple=e dbp:license Apache_License", "class=Software" ],
+    "4" : [ "kb=dbp:license Apache License 2.0@en", "Cosine=0.471404520791032", "triple=e dbp:license Apache License 2.0@en", "class=Software" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "apache software",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer The_Apache_Software_Foundation", "Cosine=0.568796458994521", "triple=e dbp:developer The_Apache_Software_Foundation", "class=Software" ],
+    "1" : [ "kb=dbo:developer Apache_Software_Foundation", "Cosine=0.558503899274291", "triple=e dbo:developer Apache_Software_Foundation", "class=Software" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "apache software\u001Cfoundation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer The_Apache_Software_Foundation", "Cosine=0.514495755427527", "triple=e dbp:developer The_Apache_Software_Foundation", "class=Software" ],
+    "1" : [ "kb=dbo:developer Apache_Software_Foundation", "Cosine=0.506834029979198", "triple=e dbo:developer Apache_Software_Foundation", "class=Software" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "apache software foundation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer The_Apache_Software_Foundation", "Cosine=0.560112033611204", "triple=e dbp:developer The_Apache_Software_Foundation", "class=Software" ],
+    "1" : [ "kb=dbo:developer Apache_Software_Foundation", "Cosine=0.550229309995371", "triple=e dbo:developer Apache_Software_Foundation", "class=Software" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "apple",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:developer Apple_Inc.", "Cosine=0.793761805246516", "triple=e dbo:developer Apple_Inc.", "class=Software" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "apple inc",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:developer Apple_Inc.", "Cosine=0.515650999957554", "triple=e dbo:developer Apple_Inc.", "class=Software" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "application",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:language French_language", "Cosine=0.473602222778315", "triple=e dbo:language French_language", "class=Software" ],
+    "1" : [ "kb=dbo:language German_language", "Cosine=0.472455591261534", "triple=e dbo:language German_language", "class=Software" ],
+    "2" : [ "kb=dbo:language Spanish_language", "Cosine=0.4599331055039", "triple=e dbo:language Spanish_language", "class=Software" ],
+    "3" : [ "kb=dbp:operatingSystem Android_(operating_system)", "Cosine=0.456620218881619", "triple=e dbp:operatingSystem Android_(operating_system)", "class=Software" ],
+    "4" : [ "kb=dbp:operatingSystem IOS", "Cosine=0.456158753155969", "triple=e dbp:operatingSystem IOS", "class=Software" ],
+    "5" : [ "kb=dbp:programmingLanguage PHP", "Cosine=0.45358750731723", "triple=e dbp:programmingLanguage PHP", "class=Software" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "browser",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Web_browser", "Cosine=0.877058019307029", "triple=e dbp:genre Web_browser", "class=Software" ],
+    "1" : [ "kb=dbp:verLayout stacked@en", "Cosine=0.513701166914081", "triple=e dbp:verLayout stacked@en", "class=Software" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "code",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Integrated_development_environment", "Cosine=0.457264594180338", "triple=e dbp:genre Integrated_development_environment", "class=Software" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "command",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:genre Command_(computing)", "Cosine=0.676348141500099", "triple=e dbo:genre Command_(computing)", "class=Software" ],
+    "1" : [ "kb=dbo:operatingSystem Unix", "Cosine=0.4806876387641", "triple=e dbo:operatingSystem Unix", "class=Software" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "computer",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Command_(computing)", "Cosine=0.457905469889625", "triple=e dbp:genre Command_(computing)", "class=Software" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "computing",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Command_(computing)", "Cosine=0.508000508000762", "triple=e dbp:genre Command_(computing)", "class=Software" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "developed apple",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:developer Apple_Inc.", "Cosine=0.474798405653979", "triple=e dbo:developer Apple_Inc.", "class=Software" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "developed google",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer Google", "Cosine=0.506160396620911", "triple=e dbp:developer Google", "class=Software" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "development",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Integrated_development_environment", "Cosine=0.786245393106896", "triple=e dbp:genre Integrated_development_environment", "class=Software" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "development environment",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Integrated_development_environment", "Cosine=0.667423812471915", "triple=e dbp:genre Integrated_development_environment", "class=Software" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "development environment ide",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Integrated_development_environment", "Cosine=0.51345531805247", "triple=e dbp:genre Integrated_development_environment", "class=Software" ]
+  }
+}, {
+  "id" : 25,
+  "pattern" : "distribution",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:kernelType Monolithic@en", "Cosine=0.667317390751957", "triple=e dbp:kernelType Monolithic@en", "class=Software" ],
+    "1" : [ "kb=dbp:sourceModel Open-source_software", "Cosine=0.64522012745693", "triple=e dbp:sourceModel Open-source_software", "class=Software" ],
+    "2" : [ "kb=dbp:supportedPlatforms X86-64", "Cosine=0.626783170528009", "triple=e dbp:supportedPlatforms X86-64", "class=Software" ],
+    "3" : [ "kb=dbp:family Unix-like", "Cosine=0.608759587435071", "triple=e dbp:family Unix-like", "class=Software" ],
+    "4" : [ "kb=dbo:status \"Current\"", "Cosine=0.548360557206024", "triple=e dbo:status \"Current\"", "class=Software" ],
+    "5" : [ "kb=dbp:workingState Current@en", "Cosine=0.547722557505166", "triple=e dbp:workingState Current@en", "class=Software" ],
+    "6" : [ "kb=dbp:kernelType Monolithic_kernel", "Cosine=0.493196961916072", "triple=e dbp:kernelType Monolithic_kernel", "class=Software" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "environment",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Integrated_development_environment", "Cosine=0.687551650952329", "triple=e dbp:genre Integrated_development_environment", "class=Software" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "environment ide",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Integrated_development_environment", "Cosine=0.51345531805247", "triple=e dbp:genre Integrated_development_environment", "class=Software" ]
+  }
+}, {
+  "id" : 28,
+  "pattern" : "file",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Command_(computing)", "Cosine=0.48637345711392", "triple=e dbp:genre Command_(computing)", "class=Software" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "files",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Command_(computing)", "Cosine=0.491869376837965", "triple=e dbp:genre Command_(computing)", "class=Software" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "foundation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer The_Apache_Software_Foundation", "Cosine=0.577350269189626", "triple=e dbp:developer The_Apache_Software_Foundation", "class=Software" ],
+    "1" : [ "kb=dbo:developer Apache_Software_Foundation", "Cosine=0.566657672171826", "triple=e dbo:developer Apache_Software_Foundation", "class=Software" ]
+  }
+}, {
+  "id" : 31,
+  "pattern" : "framework",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:license Apache License 2.0@en", "Cosine=0.471404520791032", "triple=e dbp:license Apache License 2.0@en", "class=Software" ]
+  }
+}, {
+  "id" : 33,
+  "pattern" : "freeware",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:license Freeware", "Cosine=0.487591117678753", "triple=e dbp:license Freeware", "class=Software" ]
+  }
+}, {
+  "id" : 34,
+  "pattern" : "game",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:platform MacOS", "Cosine=0.560112033611204", "triple=e dbp:platform MacOS", "class=Software" ],
+    "1" : [ "kb=dbp:platform Linux", "Cosine=0.547722557505166", "triple=e dbp:platform Linux", "class=Software" ],
+    "2" : [ "kb=dbp:platform Microsoft_Windows", "Cosine=0.538983110399658", "triple=e dbp:platform Microsoft_Windows", "class=Software" ]
+  }
+}, {
+  "id" : 35,
+  "pattern" : "google",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer Google", "Cosine=0.813115628181742", "triple=e dbp:developer Google", "class=Software" ]
+  }
+}, {
+  "id" : 37,
+  "pattern" : "integrated development",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Integrated_development_environment", "Cosine=0.603022689155527", "triple=e dbp:genre Integrated_development_environment", "class=Software" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "integrated development environment",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Integrated_development_environment", "Cosine=0.595437196138648", "triple=e dbp:genre Integrated_development_environment", "class=Software" ]
+  }
+}, {
+  "id" : 39,
+  "pattern" : "integrated development environment\u001Cide",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Integrated_development_environment", "Cosine=0.486172434804398", "triple=e dbp:genre Integrated_development_environment", "class=Software" ]
+  }
+}, {
+  "id" : 40,
+  "pattern" : "internet",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Web_browser", "Cosine=0.480384461415261", "triple=e dbp:genre Web_browser", "class=Software" ]
+  }
+}, {
+  "id" : 41,
+  "pattern" : "java",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:programmingLanguage Java_(programming_language)", "Cosine=0.60147265298655", "triple=e dbp:programmingLanguage Java_(programming_language)", "class=Software" ],
+    "1" : [ "kb=dbp:developer The_Apache_Software_Foundation", "Cosine=0.551290820372923", "triple=e dbp:developer The_Apache_Software_Foundation", "class=Software" ],
+    "2" : [ "kb=dbo:developer Apache_Software_Foundation", "Cosine=0.541828369182877", "triple=e dbo:developer Apache_Software_Foundation", "class=Software" ],
+    "3" : [ "kb=dbp:license Apache License 2.0@en", "Cosine=0.5", "triple=e dbp:license Apache License 2.0@en", "class=Software" ]
+  }
+}, {
+  "id" : 42,
+  "pattern" : "javascript",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:programmingLanguage JavaScript", "Cosine=0.543358164784606", "triple=e dbp:programmingLanguage JavaScript", "class=Software" ]
+  }
+}, {
+  "id" : 43,
+  "pattern" : "language",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Integrated_development_environment", "Cosine=0.495433694306862", "triple=e dbp:genre Integrated_development_environment", "class=Software" ]
+  }
+}, {
+  "id" : 44,
+  "pattern" : "library",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Library_(computing)", "Cosine=0.769800358919501", "triple=e dbp:genre Library_(computing)", "class=Software" ]
+  }
+}, {
+  "id" : 45,
+  "pattern" : "linux",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:kernelType Monolithic@en", "Cosine=0.785612818123533", "triple=e dbp:kernelType Monolithic@en", "class=Software" ],
+    "1" : [ "kb=dbp:family Unix-like", "Cosine=0.735646974158282", "triple=e dbp:family Unix-like", "class=Software" ],
+    "2" : [ "kb=dbp:sourceModel Open-source_software", "Cosine=0.708622553089288", "triple=e dbp:sourceModel Open-source_software", "class=Software" ],
+    "3" : [ "kb=dbp:supportedPlatforms X86-64", "Cosine=0.686606562325595", "triple=e dbp:supportedPlatforms X86-64", "class=Software" ],
+    "4" : [ "kb=dbo:status \"Current\"", "Cosine=0.642329675935506", "triple=e dbo:status \"Current\"", "class=Software" ],
+    "5" : [ "kb=dbp:workingState Current@en", "Cosine=0.618553712827087", "triple=e dbp:workingState Current@en", "class=Software" ],
+    "6" : [ "kb=dbp:kernelType Monolithic_kernel", "Cosine=0.532713603903433", "triple=e dbp:kernelType Monolithic_kernel", "class=Software" ],
+    "7" : [ "kb=dbo:license GNU_GPL", "Cosine=0.522232967867094", "triple=e dbo:license GNU_GPL", "class=Software" ],
+    "8" : [ "kb=dbo:license GPL", "Cosine=0.506369683541833", "triple=e dbo:license GPL", "class=Software" ],
+    "9" : [ "kb=dbp:platform Linux", "Cosine=0.486172434804398", "triple=e dbp:platform Linux", "class=Software" ],
+    "10" : [ "kb=dbo:license GNU_General_Public_License", "Cosine=0.47299980291679", "triple=e dbo:license GNU_General_Public_License", "class=Software" ]
+  }
+}, {
+  "id" : 46,
+  "pattern" : "linux distribution",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:kernelType Monolithic@en", "Cosine=0.637377439199098", "triple=e dbp:kernelType Monolithic@en", "class=Software" ],
+    "1" : [ "kb=dbp:family Unix-like", "Cosine=0.594088525786005", "triple=e dbp:family Unix-like", "class=Software" ],
+    "2" : [ "kb=dbp:sourceModel Open-source_software", "Cosine=0.589609603872376", "triple=e dbp:sourceModel Open-source_software", "class=Software" ],
+    "3" : [ "kb=dbp:supportedPlatforms X86-64", "Cosine=0.566946709513841", "triple=e dbp:supportedPlatforms X86-64", "class=Software" ],
+    "4" : [ "kb=dbo:status \"Current\"", "Cosine=0.501745206004255", "triple=e dbo:status \"Current\"", "class=Software" ],
+    "5" : [ "kb=dbp:workingState Current@en", "Cosine=0.493435163795169", "triple=e dbp:workingState Current@en", "class=Software" ]
+  }
+}, {
+  "id" : 47,
+  "pattern" : "mac os",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer Apple_Inc.", "Cosine=0.543448974205276", "triple=e dbp:developer Apple_Inc.", "class=Software" ]
+  }
+}, {
+  "id" : 48,
+  "pattern" : "mac os x",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer Apple_Inc.", "Cosine=0.466493923123207", "triple=e dbp:developer Apple_Inc.", "class=Software" ]
+  }
+}, {
+  "id" : 49,
+  "pattern" : "macos",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:developer Apple_Inc.", "Cosine=0.542952749197637", "triple=e dbo:developer Apple_Inc.", "class=Software" ],
+    "1" : [ "kb=dbo:operatingSystem MacOS", "Cosine=0.452586572489689", "triple=e dbo:operatingSystem MacOS", "class=Software" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "management",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:programmingLanguage PHP", "Cosine=0.503575730894978", "triple=e dbp:programmingLanguage PHP", "class=Software" ]
+  }
+}, {
+  "id" : 51,
+  "pattern" : "microsoft",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer Microsoft", "Cosine=0.82154949126113", "triple=e dbp:developer Microsoft", "class=Software" ],
+    "1" : [ "kb=dbo:operatingSystem Windows_10", "Cosine=0.593616839704664", "triple=e dbo:operatingSystem Windows_10", "class=Software" ],
+    "2" : [ "kb=dbp:programmingLanguage C_Sharp_(programming_language)", "Cosine=0.586471691205967", "triple=e dbp:programmingLanguage C_Sharp_(programming_language)", "class=Software" ],
+    "3" : [ "kb=dbo:operatingSystem Windows_7", "Cosine=0.577350269189626", "triple=e dbo:operatingSystem Windows_7", "class=Software" ],
+    "4" : [ "kb=dbo:operatingSystem Windows_Vista", "Cosine=0.557961248400802", "triple=e dbo:operatingSystem Windows_Vista", "class=Software" ],
+    "5" : [ "kb=dbo:license Trialware", "Cosine=0.547722557505166", "triple=e dbo:license Trialware", "class=Software" ],
+    "6" : [ "kb=dbo:operatingSystem Windows_XP", "Cosine=0.536266444359896", "triple=e dbo:operatingSystem Windows_XP", "class=Software" ],
+    "7" : [ "kb=dbp:license Shareware", "Cosine=0.521536192416212", "triple=e dbp:license Shareware", "class=Software" ],
+    "8" : [ "kb=dbp:license Commercial_software", "Cosine=0.512822594068371", "triple=e dbp:license Commercial_software", "class=Software" ],
+    "9" : [ "kb=dbo:license Freeware", "Cosine=0.511867886885331", "triple=e dbo:license Freeware", "class=Software" ],
+    "10" : [ "kb=dbo:computingPlatform IA-32", "Cosine=0.506463795555199", "triple=e dbo:computingPlatform IA-32", "class=Software" ],
+    "11" : [ "kb=dbo:operatingSystem Microsoft_Windows", "Cosine=0.479211608690052", "triple=e dbo:operatingSystem Microsoft_Windows", "class=Software" ],
+    "12" : [ "kb=dbo:license Freemium", "Cosine=0.475830951430886", "triple=e dbo:license Freemium", "class=Software" ],
+    "13" : [ "kb=dbp:discontinued yes@en", "Cosine=0.468096378018693", "triple=e dbp:discontinued yes@en", "class=Software" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "microsoft windows",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:license Shareware", "Cosine=0.455420034042649", "triple=e dbo:license Shareware", "class=Software" ]
+  }
+}, {
+  "id" : 55,
+  "pattern" : "open source",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:developer Apache_Software_Foundation", "Cosine=0.515805240252132", "triple=e dbo:developer Apache_Software_Foundation", "class=Software" ],
+    "1" : [ "kb=dbp:license Apache License 2.0@en", "Cosine=0.509175077217316", "triple=e dbp:license Apache License 2.0@en", "class=Software" ],
+    "2" : [ "kb=dbp:developer The_Apache_Software_Foundation", "Cosine=0.504878164297401", "triple=e dbp:developer The_Apache_Software_Foundation", "class=Software" ]
+  }
+}, {
+  "id" : 56,
+  "pattern" : "open-source",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:programmingLanguage PHP", "Cosine=0.559539196258433", "triple=e dbo:programmingLanguage PHP", "class=Software" ],
+    "1" : [ "kb=dbp:programmingLanguage C_Sharp_(programming_language)", "Cosine=0.558660819127335", "triple=e dbp:programmingLanguage C_Sharp_(programming_language)", "class=Software" ],
+    "2" : [ "kb=dbo:programmingLanguage JavaScript", "Cosine=0.553126575476702", "triple=e dbo:programmingLanguage JavaScript", "class=Software" ],
+    "3" : [ "kb=dbp:license MIT_License", "Cosine=0.552004656931659", "triple=e dbp:license MIT_License", "class=Software" ],
+    "4" : [ "kb=dbo:license BSD_licenses", "Cosine=0.550058271971345", "triple=e dbo:license BSD_licenses", "class=Software" ],
+    "5" : [ "kb=dbp:license Apache_License", "Cosine=0.545607790699213", "triple=e dbp:license Apache_License", "class=Software" ],
+    "6" : [ "kb=dbo:license Apache_License_2.0", "Cosine=0.543469088163282", "triple=e dbo:license Apache_License_2.0", "class=Software" ],
+    "7" : [ "kb=dbp:programmingLanguage C++@en", "Cosine=0.502331014967353", "triple=e dbp:programmingLanguage C++@en", "class=Software" ],
+    "8" : [ "kb=dbp:license Apache License 2.0@en", "Cosine=0.5", "triple=e dbp:license Apache License 2.0@en", "class=Software" ],
+    "9" : [ "kb=dbo:operatingSystem FreeBSD", "Cosine=0.497468338163091", "triple=e dbo:operatingSystem FreeBSD", "class=Software" ],
+    "10" : [ "kb=dbo:programmingLanguage Python_(programming_language)", "Cosine=0.497232961600038", "triple=e dbo:programmingLanguage Python_(programming_language)", "class=Software" ],
+    "11" : [ "kb=dbo:license GNU_Lesser_General_Public_License", "Cosine=0.491518274398092", "triple=e dbo:license GNU_Lesser_General_Public_License", "class=Software" ],
+    "12" : [ "kb=dbp:programmingLanguage Java_(programming_language)", "Cosine=0.485167028778323", "triple=e dbp:programmingLanguage Java_(programming_language)", "class=Software" ],
+    "13" : [ "kb=dbo:developer Apache_Software_Foundation", "Cosine=0.478913142610576", "triple=e dbo:developer Apache_Software_Foundation", "class=Software" ],
+    "14" : [ "kb=dbp:platform Linux", "Cosine=0.476731294622796", "triple=e dbp:platform Linux", "class=Software" ],
+    "15" : [ "kb=dbp:developer The_Apache_Software_Foundation", "Cosine=0.474858079933817", "triple=e dbp:developer The_Apache_Software_Foundation", "class=Software" ],
+    "16" : [ "kb=dbp:platform MacOS", "Cosine=0.474858079933817", "triple=e dbp:platform MacOS", "class=Software" ],
+    "17" : [ "kb=dbp:programmingLanguage C++", "Cosine=0.474824670985949", "triple=e dbp:programmingLanguage C++", "class=Software" ],
+    "18" : [ "kb=dbp:license GNU_General_Public_License", "Cosine=0.461768959125746", "triple=e dbp:license GNU_General_Public_License", "class=Software" ],
+    "19" : [ "kb=dbo:operatingSystem Cross-platform", "Cosine=0.458458484505596", "triple=e dbo:operatingSystem Cross-platform", "class=Software" ]
+  }
+}, {
+  "id" : 58,
+  "pattern" : "operating system",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:workingState Discontinued@en", "Cosine=0.747289474328094", "triple=e dbp:workingState Discontinued@en", "class=Software" ],
+    "1" : [ "kb=dbp:sourceModel Proprietary_software", "Cosine=0.739065956051933", "triple=e dbp:sourceModel Proprietary_software", "class=Software" ],
+    "2" : [ "kb=dbp:kernelType Monolithic_kernel", "Cosine=0.72129762946392", "triple=e dbp:kernelType Monolithic_kernel", "class=Software" ],
+    "3" : [ "kb=dbp:workingState Current@en", "Cosine=0.694700435909014", "triple=e dbp:workingState Current@en", "class=Software" ],
+    "4" : [ "kb=dbp:family Unix-like", "Cosine=0.677365137434578", "triple=e dbp:family Unix-like", "class=Software" ],
+    "5" : [ "kb=dbp:sourceModel Open-source_software", "Cosine=0.661640567334975", "triple=e dbp:sourceModel Open-source_software", "class=Software" ],
+    "6" : [ "kb=dbp:supportedPlatforms X86-64", "Cosine=0.643650304346789", "triple=e dbp:supportedPlatforms X86-64", "class=Software" ],
+    "7" : [ "kb=dbo:status \"Current\"", "Cosine=0.642329675935506", "triple=e dbo:status \"Current\"", "class=Software" ],
+    "8" : [ "kb=dbp:kernelType Monolithic@en", "Cosine=0.637377439199098", "triple=e dbp:kernelType Monolithic@en", "class=Software" ],
+    "9" : [ "kb=dbo:developer Apple_Inc.", "Cosine=0.53760333057047", "triple=e dbo:developer Apple_Inc.", "class=Software" ]
+  }
+}, {
+  "id" : 59,
+  "pattern" : "operating systems",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Command_(computing)", "Cosine=0.577350269189626", "triple=e dbp:genre Command_(computing)", "class=Software" ],
+    "1" : [ "kb=dbo:operatingSystem Unix", "Cosine=0.48461168459756", "triple=e dbo:operatingSystem Unix", "class=Software" ]
+  }
+}, {
+  "id" : 60,
+  "pattern" : "os x",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer Apple_Inc.", "Cosine=0.508986598559288", "triple=e dbp:developer Apple_Inc.", "class=Software" ]
+  }
+}, {
+  "id" : 61,
+  "pattern" : "perl",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:programmingLanguage Perl", "Cosine=0.497701137248398", "triple=e dbp:programmingLanguage Perl", "class=Software" ]
+  }
+}, {
+  "id" : 62,
+  "pattern" : "program",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:operatingSystem Unix", "Cosine=0.452267016866645", "triple=e dbo:operatingSystem Unix", "class=Software" ],
+    "1" : [ "kb=dbp:license Shareware", "Cosine=0.451663591625449", "triple=e dbp:license Shareware", "class=Software" ]
+  }
+}, {
+  "id" : 63,
+  "pattern" : "programming",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Integrated_development_environment", "Cosine=0.572077553547355", "triple=e dbp:genre Integrated_development_environment", "class=Software" ]
+  }
+}, {
+  "id" : 64,
+  "pattern" : "project",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer The_Apache_Software_Foundation", "Cosine=0.577350269189626", "triple=e dbp:developer The_Apache_Software_Foundation", "class=Software" ],
+    "1" : [ "kb=dbo:developer Apache_Software_Foundation", "Cosine=0.574695771132691", "triple=e dbo:developer Apache_Software_Foundation", "class=Software" ],
+    "2" : [ "kb=dbo:license LGPL", "Cosine=0.480384461415261", "triple=e dbo:license LGPL", "class=Software" ],
+    "3" : [ "kb=dbo:license Apache_License_2.0", "Cosine=0.472893954267891", "triple=e dbo:license Apache_License_2.0", "class=Software" ]
+  }
+}, {
+  "id" : 65,
+  "pattern" : "python",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:programmingLanguage Python_(programming_language)", "Cosine=0.555050275273158", "triple=e dbp:programmingLanguage Python_(programming_language)", "class=Software" ]
+  }
+}, {
+  "id" : 67,
+  "pattern" : "service",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:computingPlatform IOS", "Cosine=0.461479103495449", "triple=e dbo:computingPlatform IOS", "class=Software" ],
+    "1" : [ "kb=dbp:developer Google", "Cosine=0.454545454545455", "triple=e dbp:developer Google", "class=Software" ],
+    "2" : [ "kb=dbo:computingPlatform Android_(operating_system)", "Cosine=0.452678730212593", "triple=e dbo:computingPlatform Android_(operating_system)", "class=Software" ]
+  }
+}, {
+  "id" : 68,
+  "pattern" : "shareware",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:license Shareware", "Cosine=0.479196858952174", "triple=e dbo:license Shareware", "class=Software" ]
+  }
+}, {
+  "id" : 69,
+  "pattern" : "software",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:operatingSystem Solaris_(operating_system)", "Cosine=0.653197264742181", "triple=e dbo:operatingSystem Solaris_(operating_system)", "class=Software" ],
+    "1" : [ "kb=dbp:genre Library_(computing)", "Cosine=0.638284738504225", "triple=e dbp:genre Library_(computing)", "class=Software" ],
+    "2" : [ "kb=dbo:license Shareware", "Cosine=0.638284738504225", "triple=e dbo:license Shareware", "class=Software" ],
+    "3" : [ "kb=dbp:platform Linux", "Cosine=0.625227231419978", "triple=e dbp:platform Linux", "class=Software" ],
+    "4" : [ "kb=dbp:operatingSystem Microsoft_Windows", "Cosine=0.617062576739343", "triple=e dbp:operatingSystem Microsoft_Windows", "class=Software" ],
+    "5" : [ "kb=dbp:operatingSystem Windows_7", "Cosine=0.614295116833951", "triple=e dbp:operatingSystem Windows_7", "class=Software" ],
+    "6" : [ "kb=dbp:programmingLanguage Python_(programming_language)", "Cosine=0.613402499393853", "triple=e dbp:programmingLanguage Python_(programming_language)", "class=Software" ],
+    "7" : [ "kb=dbp:programmingLanguage C++@en", "Cosine=0.611417840515743", "triple=e dbp:programmingLanguage C++@en", "class=Software" ],
+    "8" : [ "kb=dbp:license Proprietary_software", "Cosine=0.609368426407128", "triple=e dbp:license Proprietary_software", "class=Software" ],
+    "9" : [ "kb=dbp:license Commercial_software", "Cosine=0.608382996253076", "triple=e dbp:license Commercial_software", "class=Software" ],
+    "10" : [ "kb=dbp:programmingLanguage PHP", "Cosine=0.606976978666884", "triple=e dbp:programmingLanguage PHP", "class=Software" ],
+    "11" : [ "kb=dbp:operatingSystem MacOS", "Cosine=0.605530070819498", "triple=e dbp:operatingSystem MacOS", "class=Software" ],
+    "12" : [ "kb=dbo:computingPlatform X86-64", "Cosine=0.604779922669241", "triple=e dbo:computingPlatform X86-64", "class=Software" ],
+    "13" : [ "kb=dbo:license Trialware", "Cosine=0.603560862122217", "triple=e dbo:license Trialware", "class=Software" ],
+    "14" : [ "kb=dbo:operatingSystem Mac_OS_X", "Cosine=0.601477135082709", "triple=e dbo:operatingSystem Mac_OS_X", "class=Software" ],
+    "15" : [ "kb=dbp:license Proprietary@en", "Cosine=0.597614304667197", "triple=e dbp:license Proprietary@en", "class=Software" ],
+    "16" : [ "kb=dbo:license GNU_GPL", "Cosine=0.596708141439855", "triple=e dbo:license GNU_GPL", "class=Software" ],
+    "17" : [ "kb=dbp:programmingLanguage C++", "Cosine=0.59664650758735", "triple=e dbp:programmingLanguage C++", "class=Software" ],
+    "18" : [ "kb=dbo:language French_language", "Cosine=0.595936395025415", "triple=e dbo:language French_language", "class=Software" ],
+    "19" : [ "kb=dbo:license GNU_Lesser_General_Public_License", "Cosine=0.595600588617976", "triple=e dbo:license GNU_Lesser_General_Public_License", "class=Software" ],
+    "20" : [ "kb=dbp:license GNU_General_Public_License", "Cosine=0.594882910819515", "triple=e dbp:license GNU_General_Public_License", "class=Software" ],
+    "21" : [ "kb=dbp:status Active@en", "Cosine=0.591455035575282", "triple=e dbp:status Active@en", "class=Software" ],
+    "22" : [ "kb=dbo:language Japanese_language", "Cosine=0.591197566898576", "triple=e dbo:language Japanese_language", "class=Software" ],
+    "23" : [ "kb=dbo:language German_language", "Cosine=0.590096844352082", "triple=e dbo:language German_language", "class=Software" ],
+    "24" : [ "kb=dbp:bot InternetArchiveBot@en", "Cosine=0.589767824619589", "triple=e dbp:bot InternetArchiveBot@en", "class=Software" ],
+    "25" : [ "kb=dbo:language Spanish_language", "Cosine=0.588348405414552", "triple=e dbo:language Spanish_language", "class=Software" ],
+    "26" : [ "kb=dbo:operatingSystem Windows", "Cosine=0.588089961121206", "triple=e dbo:operatingSystem Windows", "class=Software" ],
+    "27" : [ "kb=dbo:license GPL", "Cosine=0.586165286919776", "triple=e dbo:license GPL", "class=Software" ],
+    "28" : [ "kb=dbo:programmingLanguage C_(programming_language)", "Cosine=0.58031313117588", "triple=e dbo:programmingLanguage C_(programming_language)", "class=Software" ],
+    "29" : [ "kb=dbp:developer The_Apache_Software_Foundation", "Cosine=0.577350269189626", "triple=e dbp:developer The_Apache_Software_Foundation", "class=Software" ],
+    "30" : [ "kb=dbp:operatingSystem FreeBSD", "Cosine=0.577350269189626", "triple=e dbp:operatingSystem FreeBSD", "class=Software" ],
+    "31" : [ "kb=dbo:operatingSystem Windows_XP", "Cosine=0.577350269189626", "triple=e dbo:operatingSystem Windows_XP", "class=Software" ],
+    "32" : [ "kb=dbo:status \"Active\"", "Cosine=0.575955701285424", "triple=e dbo:status \"Active\"", "class=Software" ],
+    "33" : [ "kb=dbp:platform IA-32", "Cosine=0.575698333703139", "triple=e dbp:platform IA-32", "class=Software" ],
+    "34" : [ "kb=dbp:programmingLanguage Perl", "Cosine=0.574695771132691", "triple=e dbp:programmingLanguage Perl", "class=Software" ],
+    "35" : [ "kb=dbo:operatingSystem Windows_Vista", "Cosine=0.574620465390229", "triple=e dbo:operatingSystem Windows_Vista", "class=Software" ],
+    "36" : [ "kb=dbo:latestReleaseVersion \"\"", "Cosine=0.57282196186948", "triple=e dbo:latestReleaseVersion \"\"", "class=Software" ],
+    "37" : [ "kb=dbo:operatingSystem OS_X", "Cosine=0.568535243614961", "triple=e dbo:operatingSystem OS_X", "class=Software" ],
+    "38" : [ "kb=dbo:developer Apache_Software_Foundation", "Cosine=0.566657672171826", "triple=e dbo:developer Apache_Software_Foundation", "class=Software" ],
+    "39" : [ "kb=dbp:fixAttempted yes@en", "Cosine=0.564076074817766", "triple=e dbp:fixAttempted yes@en", "class=Software" ],
+    "40" : [ "kb=dbp:programmingLanguage C_Sharp_(programming_language)", "Cosine=0.558660819127335", "triple=e dbp:programmingLanguage C_Sharp_(programming_language)", "class=Software" ],
+    "41" : [ "kb=dbp:language English@en", "Cosine=0.558004936397455", "triple=e dbp:language English@en", "class=Software" ],
+    "42" : [ "kb=dbo:license LGPL", "Cosine=0.554700196225229", "triple=e dbo:license LGPL", "class=Software" ],
+    "43" : [ "kb=dbp:operatingSystem Cross-platform_software", "Cosine=0.552240780383043", "triple=e dbp:operatingSystem Cross-platform_software", "class=Software" ],
+    "44" : [ "kb=dbp:kernelType Monolithic@en", "Cosine=0.55198505414549", "triple=e dbp:kernelType Monolithic@en", "class=Software" ],
+    "45" : [ "kb=dbo:operatingSystem Cross-platform", "Cosine=0.541855885499137", "triple=e dbo:operatingSystem Cross-platform", "class=Software" ],
+    "46" : [ "kb=dbp:operatingSystem @en", "Cosine=0.539757892649256", "triple=e dbp:operatingSystem @en", "class=Software" ],
+    "47" : [ "kb=dbp:genre Integrated_development_environment", "Cosine=0.539359889970594", "triple=e dbp:genre Integrated_development_environment", "class=Software" ],
+    "48" : [ "kb=dbp:programmingLanguage Java_(programming_language)", "Cosine=0.539146830554826", "triple=e dbp:programmingLanguage Java_(programming_language)", "class=Software" ],
+    "49" : [ "kb=dbo:computingPlatform X86", "Cosine=0.535616696809985", "triple=e dbo:computingPlatform X86", "class=Software" ],
+    "50" : [ "kb=dbo:operatingSystem Windows_10", "Cosine=0.534522483824849", "triple=e dbo:operatingSystem Windows_10", "class=Software" ],
+    "51" : [ "kb=dbo:license BSD_licenses", "Cosine=0.531085004543794", "triple=e dbo:license BSD_licenses", "class=Software" ],
+    "52" : [ "kb=dbp:operatingSystem Unix-like", "Cosine=0.529483900494625", "triple=e dbp:operatingSystem Unix-like", "class=Software" ],
+    "53" : [ "kb=dbp:language Multilingual@en", "Cosine=0.529436521504732", "triple=e dbp:language Multilingual@en", "class=Software" ],
+    "54" : [ "kb=dbp:language English_language", "Cosine=0.528829856332973", "triple=e dbp:language English_language", "class=Software" ],
+    "55" : [ "kb=dbp:operatingSystem Unix", "Cosine=0.525847079972069", "triple=e dbp:operatingSystem Unix", "class=Software" ],
+    "56" : [ "kb=dbo:license Freemium", "Cosine=0.523053444363363", "triple=e dbo:license Freemium", "class=Software" ],
+    "57" : [ "kb=dbo:license Apache_License", "Cosine=0.522912516583797", "triple=e dbo:license Apache_License", "class=Software" ],
+    "58" : [ "kb=dbp:license Apache License 2.0@en", "Cosine=0.509175077217316", "triple=e dbp:license Apache License 2.0@en", "class=Software" ],
+    "59" : [ "kb=dbo:license Freeware", "Cosine=0.501090513836341", "triple=e dbo:license Freeware", "class=Software" ],
+    "60" : [ "kb=dbo:computingPlatform Android_(operating_system)", "Cosine=0.495884703680465", "triple=e dbo:computingPlatform Android_(operating_system)", "class=Software" ],
+    "61" : [ "kb=dbo:license Apache_License_2.0", "Cosine=0.494697623196862", "triple=e dbo:license Apache_License_2.0", "class=Software" ],
+    "62" : [ "kb=dbp:workingState Current@en", "Cosine=0.489009646921826", "triple=e dbp:workingState Current@en", "class=Software" ],
+    "63" : [ "kb=dbp:license MIT_License", "Cosine=0.48237638894272", "triple=e dbp:license MIT_License", "class=Software" ],
+    "64" : [ "kb=dbp:sourceModel Open-source_software", "Cosine=0.481414225643946", "triple=e dbp:sourceModel Open-source_software", "class=Software" ],
+    "65" : [ "kb=dbp:programmingLanguage JavaScript", "Cosine=0.474759755451982", "triple=e dbp:programmingLanguage JavaScript", "class=Software" ],
+    "66" : [ "kb=dbp:status Discontinued@en", "Cosine=0.473698473612106", "triple=e dbp:status Discontinued@en", "class=Software" ],
+    "67" : [ "kb=dbo:status \"Current\"", "Cosine=0.473049916791266", "triple=e dbo:status \"Current\"", "class=Software" ],
+    "68" : [ "kb=dbo:status \"Discontinued\"", "Cosine=0.471795890323608", "triple=e dbo:status \"Discontinued\"", "class=Software" ],
+    "69" : [ "kb=dbo:computingPlatform IOS", "Cosine=0.471404520791032", "triple=e dbo:computingPlatform IOS", "class=Software" ],
+    "70" : [ "kb=dbp:developer Microsoft", "Cosine=0.465515079174727", "triple=e dbp:developer Microsoft", "class=Software" ]
+  }
+}, {
+  "id" : 70,
+  "pattern" : "software foundation",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer The_Apache_Software_Foundation", "Cosine=0.560112033611204", "triple=e dbp:developer The_Apache_Software_Foundation", "class=Software" ],
+    "1" : [ "kb=dbo:developer Apache_Software_Foundation", "Cosine=0.550229309995371", "triple=e dbo:developer Apache_Software_Foundation", "class=Software" ]
+  }
+}, {
+  "id" : 71,
+  "pattern" : "source",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:license Apache License 2.0@en", "Cosine=0.552770798392567", "triple=e dbp:license Apache License 2.0@en", "class=Software" ],
+    "1" : [ "kb=dbo:developer Apache_Software_Foundation", "Cosine=0.550229309995371", "triple=e dbo:developer Apache_Software_Foundation", "class=Software" ],
+    "2" : [ "kb=dbp:developer The_Apache_Software_Foundation", "Cosine=0.533210770230868", "triple=e dbp:developer The_Apache_Software_Foundation", "class=Software" ],
+    "3" : [ "kb=dbo:license Apache_License_2.0", "Cosine=0.494697623196862", "triple=e dbo:license Apache_License_2.0", "class=Software" ],
+    "4" : [ "kb=dbo:programmingLanguage PHP", "Cosine=0.488177997260575", "triple=e dbo:programmingLanguage PHP", "class=Software" ],
+    "5" : [ "kb=dbp:license Apache_License", "Cosine=0.477832292150672", "triple=e dbp:license Apache_License", "class=Software" ],
+    "6" : [ "kb=dbp:programmingLanguage Java_(programming_language)", "Cosine=0.461811803855309", "triple=e dbp:programmingLanguage Java_(programming_language)", "class=Software" ]
+  }
+}, {
+  "id" : 72,
+  "pattern" : "system",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:workingState Discontinued@en", "Cosine=0.781274350269872", "triple=e dbp:workingState Discontinued@en", "class=Software" ],
+    "1" : [ "kb=dbp:sourceModel Proprietary_software", "Cosine=0.76696498884737", "triple=e dbp:sourceModel Proprietary_software", "class=Software" ],
+    "2" : [ "kb=dbp:kernelType Monolithic_kernel", "Cosine=0.762286744657862", "triple=e dbp:kernelType Monolithic_kernel", "class=Software" ],
+    "3" : [ "kb=dbp:workingState Current@en", "Cosine=0.746003846592251", "triple=e dbp:workingState Current@en", "class=Software" ],
+    "4" : [ "kb=dbp:family Unix-like", "Cosine=0.743600145555787", "triple=e dbp:family Unix-like", "class=Software" ],
+    "5" : [ "kb=dbp:sourceModel Open-source_software", "Cosine=0.726565204030687", "triple=e dbp:sourceModel Open-source_software", "class=Software" ],
+    "6" : [ "kb=dbo:status \"Current\"", "Cosine=0.709574875186899", "triple=e dbo:status \"Current\"", "class=Software" ],
+    "7" : [ "kb=dbp:supportedPlatforms X86-64", "Cosine=0.691788572160186", "triple=e dbp:supportedPlatforms X86-64", "class=Software" ],
+    "8" : [ "kb=dbp:kernelType Monolithic@en", "Cosine=0.690335063574204", "triple=e dbp:kernelType Monolithic@en", "class=Software" ],
+    "9" : [ "kb=dbo:developer Apple_Inc.", "Cosine=0.574003282905357", "triple=e dbo:developer Apple_Inc.", "class=Software" ],
+    "10" : [ "kb=dbo:developer IBM", "Cosine=0.54611868127275", "triple=e dbo:developer IBM", "class=Software" ],
+    "11" : [ "kb=dbp:programmingLanguage PHP", "Cosine=0.526794041084832", "triple=e dbp:programmingLanguage PHP", "class=Software" ],
+    "12" : [ "kb=dbo:license GPL", "Cosine=0.516397779494322", "triple=e dbo:license GPL", "class=Software" ],
+    "13" : [ "kb=dbp:language English_language", "Cosine=0.510483320333763", "triple=e dbp:language English_language", "class=Software" ],
+    "14" : [ "kb=dbo:developer Google", "Cosine=0.498171840313914", "triple=e dbo:developer Google", "class=Software" ],
+    "15" : [ "kb=dbo:status \"Discontinued\"", "Cosine=0.478785839805931", "triple=e dbo:status \"Discontinued\"", "class=Software" ],
+    "16" : [ "kb=dbo:license BSD_licenses", "Cosine=0.475016868796284", "triple=e dbo:license BSD_licenses", "class=Software" ],
+    "17" : [ "kb=dbp:programmingLanguage Perl", "Cosine=0.469237132203465", "triple=e dbp:programmingLanguage Perl", "class=Software" ],
+    "18" : [ "kb=dbo:latestReleaseVersion \"\"", "Cosine=0.467707173346743", "triple=e dbo:latestReleaseVersion \"\"", "class=Software" ],
+    "19" : [ "kb=dbp:language Multilingual@en", "Cosine=0.460566186471838", "triple=e dbp:language Multilingual@en", "class=Software" ]
+  }
+}, {
+  "id" : 73,
+  "pattern" : "systems",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Command_(computing)", "Cosine=0.639219954739864", "triple=e dbp:genre Command_(computing)", "class=Software" ],
+    "1" : [ "kb=dbo:operatingSystem Unix", "Cosine=0.570751763692041", "triple=e dbo:operatingSystem Unix", "class=Software" ],
+    "2" : [ "kb=dbo:operatingSystem Unix-like", "Cosine=0.528451303610346", "triple=e dbo:operatingSystem Unix-like", "class=Software" ],
+    "3" : [ "kb=dbp:sourceModel Proprietary_software", "Cosine=0.502096445253434", "triple=e dbp:sourceModel Proprietary_software", "class=Software" ],
+    "4" : [ "kb=dbo:developer IBM", "Cosine=0.468292905790847", "triple=e dbo:developer IBM", "class=Software" ],
+    "5" : [ "kb=dbp:workingState Discontinued@en", "Cosine=0.462910049886276", "triple=e dbp:workingState Discontinued@en", "class=Software" ]
+  }
+}, {
+  "id" : 74,
+  "pattern" : "unix",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Command_(computing)", "Cosine=0.647576125802733", "triple=e dbp:genre Command_(computing)", "class=Software" ],
+    "1" : [ "kb=dbo:operatingSystem Unix", "Cosine=0.603022689155527", "triple=e dbo:operatingSystem Unix", "class=Software" ],
+    "2" : [ "kb=dbo:operatingSystem Unix-like", "Cosine=0.457652253589563", "triple=e dbo:operatingSystem Unix-like", "class=Software" ]
+  }
+}, {
+  "id" : 76,
+  "pattern" : "unix-like operating",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Command_(computing)", "Cosine=0.463738895760168", "triple=e dbp:genre Command_(computing)", "class=Software" ]
+  }
+}, {
+  "id" : 77,
+  "pattern" : "unix-like operating systems",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Command_(computing)", "Cosine=0.457905469889625", "triple=e dbp:genre Command_(computing)", "class=Software" ]
+  }
+}, {
+  "id" : 79,
+  "pattern" : "users",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:operatingSystem IOS", "Cosine=0.509467706596195", "triple=e dbo:operatingSystem IOS", "class=Software" ],
+    "1" : [ "kb=dbp:operatingSystem Android_(operating_system)", "Cosine=0.503027272865959", "triple=e dbp:operatingSystem Android_(operating_system)", "class=Software" ],
+    "2" : [ "kb=dbp:verLayout stacked@en", "Cosine=0.485912657903775", "triple=e dbp:verLayout stacked@en", "class=Software" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "utility",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbo:genre Command_(computing)", "Cosine=0.489246054790082", "triple=e dbo:genre Command_(computing)", "class=Software" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "version",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:sourceModel Proprietary_software", "Cosine=0.510396122321352", "triple=e dbp:sourceModel Proprietary_software", "class=Software" ],
+    "1" : [ "kb=dbo:genre Web_browser", "Cosine=0.492940822214602", "triple=e dbo:genre Web_browser", "class=Software" ],
+    "2" : [ "kb=dbo:developer Apple_Inc.", "Cosine=0.462463871421263", "triple=e dbo:developer Apple_Inc.", "class=Software" ]
+  }
+}, {
+  "id" : 82,
+  "pattern" : "video",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:platform MacOS", "Cosine=0.514495755427527", "triple=e dbp:platform MacOS", "class=Software" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "web browser",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:genre Web_browser", "Cosine=0.862316498502576", "triple=e dbp:genre Web_browser", "class=Software" ],
+    "1" : [ "kb=dbp:verLayout stacked@en", "Cosine=0.5", "triple=e dbp:verLayout stacked@en", "class=Software" ]
+  }
+}, {
+  "id" : 84,
+  "pattern" : "windows",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:developer Microsoft", "Cosine=0.737575798606994", "triple=e dbp:developer Microsoft", "class=Software" ],
+    "1" : [ "kb=dbo:operatingSystem Windows_10", "Cosine=0.703731550548997", "triple=e dbo:operatingSystem Windows_10", "class=Software" ],
+    "2" : [ "kb=dbo:operatingSystem Windows_7", "Cosine=0.683130051063973", "triple=e dbo:operatingSystem Windows_7", "class=Software" ],
+    "3" : [ "kb=dbo:operatingSystem Windows_XP", "Cosine=0.681213833962361", "triple=e dbo:operatingSystem Windows_XP", "class=Software" ],
+    "4" : [ "kb=dbo:operatingSystem Windows_Vista", "Cosine=0.651558364144604", "triple=e dbo:operatingSystem Windows_Vista", "class=Software" ],
+    "5" : [ "kb=dbo:license Trialware", "Cosine=0.621059003408119", "triple=e dbo:license Trialware", "class=Software" ],
+    "6" : [ "kb=dbp:license Shareware", "Cosine=0.606630035524124", "triple=e dbp:license Shareware", "class=Software" ],
+    "7" : [ "kb=dbo:license Freemium", "Cosine=0.606567826629378", "triple=e dbo:license Freemium", "class=Software" ],
+    "8" : [ "kb=dbo:computingPlatform IA-32", "Cosine=0.603582858982918", "triple=e dbo:computingPlatform IA-32", "class=Software" ],
+    "9" : [ "kb=dbp:license Freeware", "Cosine=0.592022124652813", "triple=e dbp:license Freeware", "class=Software" ],
+    "10" : [ "kb=dbo:license Commercial_software", "Cosine=0.572077553547355", "triple=e dbo:license Commercial_software", "class=Software" ],
+    "11" : [ "kb=dbp:operatingSystem @en", "Cosine=0.568185397268613", "triple=e dbp:operatingSystem @en", "class=Software" ],
+    "12" : [ "kb=dbo:genre Web_browser", "Cosine=0.546868741619731", "triple=e dbo:genre Web_browser", "class=Software" ],
+    "13" : [ "kb=dbp:operatingSystem Microsoft_Windows", "Cosine=0.542559307387532", "triple=e dbp:operatingSystem Microsoft_Windows", "class=Software" ],
+    "14" : [ "kb=dbp:genre Integrated_development_environment", "Cosine=0.530865502569325", "triple=e dbp:genre Integrated_development_environment", "class=Software" ],
+    "15" : [ "kb=dbp:programmingLanguage C++@en", "Cosine=0.502331014967353", "triple=e dbp:programmingLanguage C++@en", "class=Software" ],
+    "16" : [ "kb=dbo:operatingSystem Windows", "Cosine=0.497026732804715", "triple=e dbo:operatingSystem Windows", "class=Software" ],
+    "17" : [ "kb=dbo:computingPlatform X86-64", "Cosine=0.495112297131093", "triple=e dbo:computingPlatform X86-64", "class=Software" ],
+    "18" : [ "kb=dbp:verLayout stacked@en", "Cosine=0.493006648591635", "triple=e dbp:verLayout stacked@en", "class=Software" ],
+    "19" : [ "kb=dbp:platform X86", "Cosine=0.490990253030983", "triple=e dbp:platform X86", "class=Software" ],
+    "20" : [ "kb=dbp:programmingLanguage C_Sharp_(programming_language)", "Cosine=0.472154568235586", "triple=e dbp:programmingLanguage C_Sharp_(programming_language)", "class=Software" ],
+    "21" : [ "kb=dbp:license Proprietary@en", "Cosine=0.471899433810057", "triple=e dbp:license Proprietary@en", "class=Software" ],
+    "22" : [ "kb=dbo:programmingLanguage C++", "Cosine=0.46849757927343", "triple=e dbo:programmingLanguage C++", "class=Software" ],
+    "23" : [ "kb=dbp:license Proprietary_software", "Cosine=0.466493923123207", "triple=e dbp:license Proprietary_software", "class=Software" ],
+    "24" : [ "kb=dbo:language French_language", "Cosine=0.463630532890186", "triple=e dbo:language French_language", "class=Software" ],
+    "25" : [ "kb=dbo:language Spanish_language", "Cosine=0.4599331055039", "triple=e dbo:language Spanish_language", "class=Software" ],
+    "26" : [ "kb=dbo:operatingSystem MacOS", "Cosine=0.45678375572156", "triple=e dbo:operatingSystem MacOS", "class=Software" ],
+    "27" : [ "kb=dbp:discontinued yes@en", "Cosine=0.45547690112585", "triple=e dbp:discontinued yes@en", "class=Software" ]
+  }
+} ]

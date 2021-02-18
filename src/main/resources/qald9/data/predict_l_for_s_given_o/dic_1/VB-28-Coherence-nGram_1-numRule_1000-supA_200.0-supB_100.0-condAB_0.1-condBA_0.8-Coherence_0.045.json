@@ -1,0 +1,57 @@
+[ {
+  "id" : 10,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=NPB@en", "Coherence=0.298523206751055", "triple=e p NPB@en", "class=BaseballPlayer" ],
+    "1" : [ "pair=Retired@en", "Coherence=0.416302186878728", "triple=e p Retired@en", "class=Cyclist" ],
+    "2" : [ "pair=Track_cycling", "Coherence=0.407582938388626", "triple=e p Track_cycling", "class=Cyclist" ],
+    "3" : [ "pair=Sprinter@en", "Coherence=0.404942965779468", "triple=e p Sprinter@en", "class=Cyclist" ],
+    "4" : [ "pair=Road_bicycle_racing", "Coherence=0.373737373737374", "triple=e p Road_bicycle_racing", "class=Cyclist" ],
+    "5" : [ "pair=Road@en", "Coherence=0.372939448343398", "triple=e p Road@en", "class=Cyclist" ],
+    "6" : [ "pair=@en", "Coherence=0.114381833473507", "triple=e p @en", "class=MusicalArtist" ],
+    "7" : [ "pair=solo_singer@en", "Coherence=0.100545124167171", "triple=e p solo_singer@en", "class=MusicalArtist" ],
+    "8" : [ "pair=\"solo_singer\"", "Coherence=0.100030039050766", "triple=e p \"solo_singer\"", "class=MusicalArtist" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "designed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Bertrand@en", "Coherence=0.460980036297641", "triple=e p Bertrand@en", "class=Aircraft" ],
+    "1" : [ "pair=Production completed@en", "Coherence=0.433978132884777", "triple=e p Production completed@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 23,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=changed@en", "Coherence=0.131345688960516", "triple=e p changed@en", "class=ChemicalCompound" ]
+  }
+}, {
+  "id" : 29,
+  "pattern" : "produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Bertrand@en", "Coherence=0.46195652173913", "triple=e p Bertrand@en", "class=Aircraft" ],
+    "1" : [ "pair=Production completed@en", "Coherence=0.425767918088737", "triple=e p Production completed@en", "class=Aircraft" ]
+  }
+}, {
+  "id" : 30,
+  "pattern" : "published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=Print@en", "Coherence=0.105852254557083", "triple=e p Print@en", "class=Book" ],
+    "1" : [ "pair=English@en", "Coherence=0.104275143875034", "triple=e p English@en", "class=Book" ],
+    "2" : [ "pair=United States@en", "Coherence=0.103424015009381", "triple=e p United States@en", "class=Book" ],
+    "3" : [ "pair=Hardcover", "Coherence=0.102423411065386", "triple=e p Hardcover", "class=Book" ],
+    "4" : [ "pair=First edition@en", "Coherence=0.10054844606947", "triple=e p First edition@en", "class=Book" ]
+  }
+}, {
+  "id" : 38,
+  "pattern" : "used",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "pair=changed@en", "Coherence=0.222782984859409", "triple=e p changed@en", "class=ChemicalCompound" ]
+  }
+} ]

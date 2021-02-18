@@ -1,0 +1,54 @@
+[ {
+  "id" : 8,
+  "pattern" : "belgian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Belgium", "AllConf=0.640949554896142", "triple=e p Belgium", "class=Cyclist" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "british",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=British_Army", "AllConf=0.267073170731707", "triple=e p British_Army", "class=MilitaryPerson" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "former",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Retired@en", "AllConf=0.581062670299727", "triple=e p Retired@en", "class=Cyclist" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "french",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=France", "AllConf=0.660531697341513", "triple=e p France", "class=Cyclist" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "italian",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=Italy", "AllConf=0.664596273291925", "triple=e p Italy", "class=Cyclist" ]
+  }
+}, {
+  "id" : 26,
+  "pattern" : "novel",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=First edition@en", "AllConf=0.176321138211382", "triple=e p First edition@en", "class=Book" ],
+    "1" : [ "pair=Hardcover", "AllConf=0.143148242485991", "triple=e p Hardcover", "class=Book" ],
+    "2" : [ "pair=Print@en", "AllConf=0.136802575107296", "triple=e p Print@en", "class=Book" ],
+    "3" : [ "pair=English@en", "AllConf=0.125745754933456", "triple=e p English@en", "class=Book" ],
+    "4" : [ "pair=United States@en", "AllConf=0.11561600837039", "triple=e p United States@en", "class=Book" ]
+  }
+}, {
+  "id" : 27,
+  "pattern" : "organic",
+  "partsOfSpeech" : "JJ",
+  "index" : {
+    "0" : [ "pair=changed@en", "AllConf=0.185528756957328", "triple=e p changed@en", "class=ChemicalCompound" ]
+  }
+} ]

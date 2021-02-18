@@ -19,7 +19,6 @@ import citec.correlation.wikipedia.element.DBpediaProperty;
 import citec.correlation.wikipedia.element.DbpediaClass;
 import citec.correlation.wikipedia.element.PropertyNotation;
 import citec.correlation.wikipedia.evalution.Comparision;
-import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
 import citec.correlation.wikipedia.linking.EntityAnnotation;
 import citec.correlation.wikipedia.linking.EntityLinker;
 import citec.correlation.wikipedia.parameters.DirectoryLocation;

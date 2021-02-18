@@ -310,8 +310,8 @@ public class Evaluation implements ThresoldConstants {
 
         List<String> predictions = new ArrayList<String>();
         //predictions.add(predict_l_for_s_given_po);
-        predictions.add(ThresoldConstants.predict_l_for_s_given_o);
-         //predictions.add(ThresoldConstants.predict_l_for_o_given_p);
+        //predictions.add(ThresoldConstants.predict_l_for_s_given_o);
+         predictions.add(ThresoldConstants.predict_l_for_o_given_p);
 
         for (String prediction : predictions) {
             // prediction=predict_l_for_s_given_po;

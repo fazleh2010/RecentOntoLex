@@ -166,9 +166,9 @@ public class Evaluation implements ThresoldConstants {
              String key = getInterestingnessThresold(experiment, interestiness) + "-" + posTag;
              MeanReciprocalCalculation meanReciprocalCalculation=null;
 
-            if (!posTag.contains("NN")) {
+            /*if (!posTag.contains("NN")) {
                 continue;
-            }
+            }*/
 
             Pair<Boolean, File> pair = getFile(posTag, fileList);
             if (pair.getValue0()) {
@@ -326,10 +326,14 @@ public class Evaluation implements ThresoldConstants {
             }*/
            
             allThresoldInterestingness = createExperiments();
+            calculateMeanReciprocal(prediction, ThresoldConstants.Kulczynski, dic, meanR); 
            
-                //for (String key : ThresoldConstants.interestingness) {
-                    calculateMeanReciprocal(prediction, ThresoldConstants.Coherence, dic, meanR);
-                //}
+                /*for (String key : ThresoldConstants.interestingness) {
+                    if(key.contains(ThresoldConstants.)){
+                       continue;                       
+                    }
+                    calculateMeanReciprocal(prediction, key, dic, meanR); 
+                 //}*/
             
          }
 

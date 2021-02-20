@@ -101,6 +101,10 @@ public class MeanReciprocalCalculation implements Comparator {
                 Map<String, Double> rankedList = lexiconWordKbs.get(word);
                 Map<String, Boolean> gold = goldWordKbs.get(word);
                 Pair<String, String> pair = EvaluationTriple.getString(coulmns, predictionRule);
+                
+                LOGGER.log(Level.WARNING, "word: "+word);
+                LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs.keySet());
+                LOGGER.log(Level.WARNING, "goldWordKbs: "+goldWordKbs.keySet());
 
                 if (lexiconWordKbs.containsKey(word)) {
                     validFlag = true;
@@ -124,29 +128,32 @@ public class MeanReciprocalCalculation implements Comparator {
                     } else {
                         this.patternNotFound.put(word, reciprocalResult);
                     }
-                    mrr += reciprocalResult.getReciprocalRank();
-                    count += 1;
+                    //mrr += reciprocalResult.getReciprocalRank();
+                    //count += 1;
 
-                } /*else {
+                }else {
                     LOGGER.log(Level.INFO, ">> now checking QUERY::" + word + " >> Pattern NOT FOUND in our LEXICON");
                     reciprocalResult = new ReciprocalResult();
                     //LOGGER.log(Level.INFO, ">> lexiconWordKbs::"+lexiconWordKbs);
                     LOGGER.log(Level.INFO, ">> RANK::" + reciprocalResult.getRank() + " >> RECIPROCAL RANK::" + reciprocalResult.getRank() + "\n" + "\n");
-                }*/
-                //mrr += reciprocalResult.getReciprocalRank();
+                }
+                mrr += reciprocalResult.getReciprocalRank();
+                count += 1;
                 // not all lexicon count += 1;
 
             }
         }
+        double size = count;
+            mrr = mrr / size;
 
-        if (matchFlag) {
+       /* if (matchFlag) {
             double size = count;
             mrr = mrr / size;
             LOGGER.log(Level.INFO, "#### #### #### #### Mean Reciprocal Value::" + "(" + mrr + "/" + size + ")" + "=" + mrr);
         } else {
             mrr = 0.0;
             LOGGER.log(Level.INFO, "#### #### #### #### not a linguistic pattern MATCHED in our lexicon #### #### ignore the experiment!");
-        }
+        }*/
 
         this.meanReciprocalRank = mrr;
         this.meanReciprocalRank = DoubleUtils.formatDouble(mrr);

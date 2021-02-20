@@ -31,7 +31,7 @@ public class Lemmatizer implements TextAnalyzer {
     public Lemmatizer() {
         prepareLemmaMap();
     }
-
+    
     private void prepareLemmaMap() {
         try {
             InputStream posModelIn = new FileInputStream(modelDir + posTagFile);
@@ -44,18 +44,18 @@ public class Lemmatizer implements TextAnalyzer {
                 List<String> posTags = lemmatizer.getDictMap().get(lemmaPair);
                 String posTag = posTags.get(0);
                 String key = lemmaPair.get(0) + "/" + posTag;
-                key = key.strip();
                 String value = lemmaPair.get(1);
 
-                String plainToken = lemmaPair.get(0).strip();
-                lemmasMap.put(key, value);
-                withOutPosTag.put(plainToken, value);
-
-                if (posTag.contains("VBN")) {
-                    key = lemmaPair.get(0) + "/" + "VBD";
-                    key = key.strip();
-                    lemmasMap.put(key, value);
+                if (posTag.contains("VB")) {
+                    posTag = "VB";
+                } else if (posTag.contains("NN")) {
+                    posTag = "NN";
+                } else if (posTag.contains("JJ")) {
+                    posTag = "JJ";
                 }
+                key = lemmaPair.get(0) + "/" + posTag;
+                key = key.strip();
+                lemmasMap.put(key, value);
             }
 
         } catch (FileNotFoundException e) {
@@ -63,6 +63,17 @@ public class Lemmatizer implements TextAnalyzer {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+   
+    
+     public String getLemma(String word, String posTag) {
+         String key=word + "/" + posTag;
+         if (this.lemmasMap.containsKey(key)) {
+             return lemmasMap.get(key);
+         }
+         return word;
+        
     }
 
     public String getLemma(String taggedText) {
@@ -129,9 +140,9 @@ public class Lemmatizer implements TextAnalyzer {
         text5 = "produced/VBD";
 
         Lemmatizer lemmaAnalyzer = new Lemmatizer();
-        for (String token : withOutPosTag.keySet()) {
+        /*for (String token : withOutPosTag.keySet()) {
             System.out.println(token + " " + withOutPosTag.get(token));
-        }
+        }*/
         
         Pair<Boolean, String> pair=lemmaAnalyzer.getLemmaWithoutPos("attended");
         if(pair.getValue0()){
@@ -181,4 +192,6 @@ public class Lemmatizer implements TextAnalyzer {
             e.printStackTrace();
         }
     }*/
+
+   
 }

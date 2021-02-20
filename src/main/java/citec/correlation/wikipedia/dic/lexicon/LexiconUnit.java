@@ -34,6 +34,25 @@ public class LexiconUnit {
 
     }
     
+    public LexiconUnit(LexiconUnit existLexiconUnit, LexiconUnit givenLexiconUnit) {
+        Integer newIndex = 0;
+        LinkedHashMap<Integer, List<String>> entityInfos = new LinkedHashMap<Integer, List<String>>();
+        for (Integer index : existLexiconUnit.getEntityInfos().keySet()) {
+            List<String> pairs = existLexiconUnit.getEntityInfos().get(index);
+            entityInfos.put(newIndex, pairs);
+            newIndex = newIndex + 1;
+        }
+        for (Integer index : givenLexiconUnit.getEntityInfos().keySet()) {
+            List<String> pairs = givenLexiconUnit.getEntityInfos().get(index);
+            entityInfos.put(newIndex, pairs);
+            newIndex = newIndex + 1;
+        }
+        this.id = existLexiconUnit.getId();
+        this.partsOfSpeech = existLexiconUnit.getPartsOfSpeech();
+        this.word = existLexiconUnit.getWord();
+        this.entityInfos = entityInfos;
+    }
+    
       public LexiconUnit(Integer id,String word, String partsOfSpeech, LinkedHashMap<Integer, List<String>> entityInfos) {
         this.id=id;
         this.partsOfSpeech = partsOfSpeech;

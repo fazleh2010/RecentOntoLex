@@ -68,7 +68,12 @@ public class Comparision implements ThresoldConstants {
         this.LOGGER = LOGGER;
         this.lemmatizer=lemmatizer;
         this.posTag = posTag;
-        this.getLexicon(conditionalFilename);
+        try {
+            this.getLexicon(conditionalFilename);
+        } catch (IOException ex) {
+            Logger.getLogger(Comparision.class.getName()).log(Level.SEVERE, null, ex);
+            System.err.println("Lexicon file not found!");
+        }
         this.csvFile = csv;
         this.type = type;
         this.predicationRule = predicationRule;
@@ -146,7 +151,6 @@ public class Comparision implements ThresoldConstants {
       
         for (String word : lexiconDic.keySet()) {
             LexiconUnit lexiconElement = lexiconDic.get(word);
-            //LOGGER.log(Level.WARNING, "word: "+word+" "+lexiconDic.get(word));
             Map<String, Double> predict = this.getPredictMap(word, lexiconElement);
             Map<String, Boolean> goldRelevance = this.getGoldRelevance(word, predict, type);
             lexiconWordKbs.put(word, predict);
@@ -227,7 +231,30 @@ public class Comparision implements ThresoldConstants {
         return null;
     }
     
-    private void getLexicon(File file) {
+    private void getLexicon(File file) throws IOException {
+        ObjectMapper mapper = new ObjectMapper();
+        List<LexiconUnit> lexiconUnits = new ArrayList<LexiconUnit>();
+
+        lexiconUnits = mapper.readValue(file, new TypeReference<List<LexiconUnit>>() {
+        });
+        for (LexiconUnit lexiconUnit : lexiconUnits) {
+            List<LexiconUnit> modifyLexiconUnits = new ArrayList<LexiconUnit>();
+            String word = lexiconUnit.getWord();
+            word = this.lemmatizer.getLemma(word, this.posTag);
+            if (lexiconDic.containsKey(word)) {
+                LexiconUnit existLexiconUnit = lexiconDic.get(word);
+                LexiconUnit newLexiconUnit = new LexiconUnit(existLexiconUnit, lexiconUnit);
+                lexiconDic.put(word, newLexiconUnit);
+
+            } else {
+                lexiconDic.put(word, lexiconUnit);
+            }
+
+        }
+
+    }
+    
+    /*private void getLexicon(File file) {
         ObjectMapper mapper = new ObjectMapper();
 
         List<LexiconUnit> lexiconUnits = new ArrayList<LexiconUnit>();
@@ -249,7 +276,7 @@ public class Comparision implements ThresoldConstants {
         } catch (IOException ex) {
             System.out.println("no file is found for lexicon!!" + ex.getMessage());
         }
-    }
+    }*/
 
    /* private void getLexicon(File file) {
         ObjectMapper mapper = new ObjectMapper();
@@ -387,5 +414,7 @@ public class Comparision implements ThresoldConstants {
     public MeanReciprocalCalculation getMeanReciprocalResult() {
         return meanReciprocalResult;
     }
+
+  
 
 }

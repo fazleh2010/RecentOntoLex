@@ -27,12 +27,15 @@ public class Lemmatizer implements TextAnalyzer {
 
     private static Map<String, String> lemmasMap = new TreeMap<String, String>();
     private static Map<String, String> withOutPosTag = new TreeMap<String, String>();
+    private static Map<String, String> generalizeLemma = new TreeMap<String, String>();
 
     public Lemmatizer() {
-        prepareLemmaMap();
+        this.lemmasMap = this.preparePosTagLemmaMap();
+        this.generalizeLemma = prepareGeneralizePosTagLemmaMap();
     }
-    
-    private void prepareLemmaMap() {
+
+    private Map<String, String> prepareGeneralizePosTagLemmaMap() {
+        Map<String, String> lemmasMap = new TreeMap<String, String>();
         try {
             InputStream posModelIn = new FileInputStream(modelDir + posTagFile);
             POSModel posModel = new POSModel(posModelIn);
@@ -46,12 +49,12 @@ public class Lemmatizer implements TextAnalyzer {
                 String key = lemmaPair.get(0) + "/" + posTag;
                 String value = lemmaPair.get(1);
 
-                if (posTag.contains("VB")) {
-                    posTag = "VB";
-                } else if (posTag.contains("NN")) {
-                    posTag = "NN";
-                } else if (posTag.contains("JJ")) {
-                    posTag = "JJ";
+                if (posTag.contains(TextAnalyzer.VERB)) {
+                    posTag = TextAnalyzer.VERB;
+                } else if (posTag.contains(TextAnalyzer.NOUN)) {
+                    posTag = TextAnalyzer.NOUN;
+                } else if (posTag.contains(TextAnalyzer.ADJECTIVE)) {
+                    posTag = TextAnalyzer.ADJECTIVE;
                 }
                 key = lemmaPair.get(0) + "/" + posTag;
                 key = key.strip();
@@ -63,17 +66,42 @@ public class Lemmatizer implements TextAnalyzer {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        return lemmasMap;
     }
 
-   
-    
-     public String getLemma(String word, String posTag) {
-         String key=word + "/" + posTag;
-         if (this.lemmasMap.containsKey(key)) {
-             return lemmasMap.get(key);
-         }
-         return word;
-        
+    private Map<String, String> preparePosTagLemmaMap() {
+        Map<String, String> lemmasMap = new TreeMap<String, String>();
+        try {
+            InputStream posModelIn = new FileInputStream(modelDir + posTagFile);
+            POSModel posModel = new POSModel(posModelIn);
+            POSTaggerME posTagger = new POSTaggerME(posModel);
+            InputStream dictLemmatizer = new FileInputStream(modelDir + lemmaDictionary);
+            DictionaryLemmatizer lemmatizer = new DictionaryLemmatizer(dictLemmatizer);
+
+            for (List<String> lemmaPair : lemmatizer.getDictMap().keySet()) {
+                List<String> posTags = lemmatizer.getDictMap().get(lemmaPair);
+                String posTag = posTags.get(0);
+                String key = lemmaPair.get(0) + "/" + posTag;
+                key = key.strip();
+                String value = lemmaPair.get(1);
+
+                String plainToken = lemmaPair.get(0).strip();
+                lemmasMap.put(key, value);
+                withOutPosTag.put(plainToken, value);
+
+                if (posTag.contains("VBN")) {
+                    key = lemmaPair.get(0) + "/" + "VBD";
+                    key = key.strip();
+                    lemmasMap.put(key, value);
+                }
+            }
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return lemmasMap;
     }
 
     public String getLemma(String taggedText) {
@@ -92,7 +120,6 @@ public class Lemmatizer implements TextAnalyzer {
 
             tSentence.add(lemma);
         }
-        System.out.println(lemmasMap);
 
         return joinString(tSentence);
     }
@@ -114,8 +141,7 @@ public class Lemmatizer implements TextAnalyzer {
     public Map<String, String> getWithOutPosTag() {
         return withOutPosTag;
     }
-    
-    
+
     public Pair<Boolean, String> getLemmaWithoutPos(String word) {
         word = word.strip().trim();
         if (!word.contains(" ")) {
@@ -132,66 +158,43 @@ public class Lemmatizer implements TextAnalyzer {
 
     }
 
+    public String getGeneralizedPosTagLemma(String word, String posTag) {
+        String key = word + "/" + posTag;
+        if (this.lemmasMap.containsKey(key)) {
+            return lemmasMap.get(key);
+        }
+        return word;
+
+    }
+
     public static void main(String[] args) {
         String text = "abashes/VBZ";
         String text3 = "abasements/NNS abashes/VBZ";
         String text4 = "attended/JJ";
         String text5 = "attended/VBD";
         text5 = "produced/VBD";
+        String lemma=null;
 
         Lemmatizer lemmaAnalyzer = new Lemmatizer();
         /*for (String token : withOutPosTag.keySet()) {
             System.out.println(token + " " + withOutPosTag.get(token));
-        }*/
-        
-        Pair<Boolean, String> pair=lemmaAnalyzer.getLemmaWithoutPos("attended");
-        if(pair.getValue0()){
+        }
+
+        Pair<Boolean, String> pair = lemmaAnalyzer.getLemmaWithoutPos("attended");
+        if (pair.getValue0()) {
             System.out.println(pair.getValue1());
         }
-        //String lemma=lemmaAnalyzer.getLemma(text5);
-        //System.out.println(lemma);
+        String lemma=lemmaAnalyzer.getLemma(text5);
+        System.out.println("text5:"+lemma);*/
+        
+        String text10 = "attended";
+        String posTag = "VB";
 
-        /*for(String key:lemmaAnalyzer.getLemmasMap().keySet()){
-               String value=lemmaAnalyzer.getLemmasMap().get(key);
-               if(key.contains("attended"))
-                  System.out.println(key+" "+value);
-           }*/
+        lemma=lemmaAnalyzer.getGeneralizedPosTagLemma(text10, posTag);
+        System.out.println(lemma);
+
     }
 
-    /*public static void main(String[] args){
-        try{
-            InputStream posModelIn = new FileInputStream(modelDir+posTagFile);
-            POSModel posModel = new POSModel(posModelIn);
-            POSTaggerME posTagger = new POSTaggerME(posModel);
-            InputStream dictLemmatizer = new FileInputStream(modelDir+lemmaDictionary);
-            DictionaryLemmatizer lemmatizer = new DictionaryLemmatizer(dictLemmatizer);
-            
-            for (List<String> lemmaPair : lemmatizer.getDictMap().keySet()) {
-                List<String> posTags = lemmatizer.getDictMap().get(lemmaPair);
-                String key = lemmaPair.get(0) + "/" + posTags.get(0);
-                key=key.strip();
-                String value = lemmaPair.get(1);
-                System.out.println(key + " " + value);
-                lemmasMap.put(key, value);
-            }
- 
-            // finding the lemmas
-                             
-           String[] lemmas = lemmatizer.lemmatize(tokens, tags);
- 
-            // printing the results
-            System.out.println("\nPrinting lemmas for the given sentence...");
-            System.out.println("WORD -POSTAG : LEMMA");
-            for(int i=0;i< tokens.length;i++){
-                System.out.println(tokens[i]+" -"+tags[i]+" : "+lemmas[i]);
-            }
- 
-        } catch (FileNotFoundException e){
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }*/
+  
 
-   
 }

@@ -240,7 +240,7 @@ public class Comparision implements ThresoldConstants {
         for (LexiconUnit lexiconUnit : lexiconUnits) {
             List<LexiconUnit> modifyLexiconUnits = new ArrayList<LexiconUnit>();
             String word = lexiconUnit.getWord();
-            word = this.lemmatizer.getLemma(word, this.posTag);
+            word = this.lemmatizer.getGeneralizedPosTagLemma(word, this.posTag);
             if (lexiconDic.containsKey(word)) {
                 LexiconUnit existLexiconUnit = lexiconDic.get(word);
                 LexiconUnit newLexiconUnit = new LexiconUnit(existLexiconUnit, lexiconUnit);

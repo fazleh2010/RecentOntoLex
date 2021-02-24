@@ -73,19 +73,21 @@ public class LineInfo implements ThresoldConstants{
         this.line =row[propertyCSV.getStringIndex()];
         this.className = setClassName(row[propertyCSV.getClassNameIndex()]);
 
-        if (prediction.contains(predict_l_for_s_given_po)) {
+        if (prediction.equals(predict_l_for_s_given_po)) {
             //this.predicate = this.setProperty(rule);
             //this.object = this.setObject(rule);
-        } else if (prediction.contains(predict_l_for_s_given_o)) {
+        } else if (prediction.equals(predict_l_for_s_given_o)) {
            // this.object = this.setObject(rule);
-        } else if (prediction.contains(predict_l_for_o_given_s)) {
+        } else if (prediction.equals(predict_l_for_o_given_s)) {
             //this.subject = this.setSubject(rule);
-        } else if (prediction.contains(predict_l_for_o_given_sp)) {
+        } else if (prediction.equals(predict_l_for_o_given_sp)) {
             //this.subject = this.setSubject(rule);
             //this.predicate = this.setProperty(rule);
-        } else if (prediction.contains(predict_l_for_o_given_p)) {
+        } else if (prediction.equals(predict_l_for_o_given_p)) {
             this.predicate =this.setProperty(row[propertyCSV.getPredicateIndex()]); 
-        } else if (prediction.contains(predict_l_for_s_given_p)) {
+        } else if (prediction.equals(predict_l_for_s_given_p)) {
+            this.predicate =this.setProperty(row[propertyCSV.getPredicateIndex()]); 
+        }else if (prediction.equals(predict_localized_l_for_s_given_p)) {
             this.predicate =this.setProperty(row[propertyCSV.getPredicateIndex()]); 
         }
 
@@ -121,25 +123,30 @@ public class LineInfo implements ThresoldConstants{
 
     }
     
-    private void setProbabilityValue(Integer index,String interestingness, String[] row,PropertyCSV propertyCSV) {
-      //Integer condABIndex=7,condBAIndex=8,supAIndex=9,supBIndex=10,supABIndex=11,AllConfInex=12,CoherenceIndex=13,CosineIndex=14,IRIndex=15,KulczynskiIndex=16,MaxConfINdex=17;
+    private void setProbabilityValue(Integer index, String interestingness, String[] row, PropertyCSV propertyCSV) {
+        Double givenSupA, givenSupB, givenCondAB, givenCondBA, givenAllConf, givenCoherence, givenCosine, givenIR, givenKulczynski, givenMaxConf;
 
-        Double givenSupA = Double.parseDouble(row[propertyCSV.getSupAIndex()]);
-        Double givenSupB = Double.parseDouble(row[propertyCSV.getSupBIndex()]);
-        Double givenCondAB = Double.parseDouble(row[propertyCSV.getCondABIndex()]);
-        Double givenCondBA = Double.parseDouble(row[propertyCSV.getCondBAIndex()]);
-        Double givenAllConf = Double.parseDouble(row[propertyCSV.getAllConfIndex()]);
-        Double givenCoherence = Double.parseDouble(row[propertyCSV.getCoherenceIndex()]);
-        Double givenCosine = Double.parseDouble(row[propertyCSV.getCosineIndex()]);
-        Double givenIR = Double.parseDouble(row[propertyCSV.getIRIndex()]);
-        Double givenKulczynski = Double.parseDouble(row[propertyCSV.getKulczynskiIndex()]);
-        Double givenMaxConf = Double.parseDouble(row[propertyCSV.getMaxConfIndex()]);
-       
+        try {
+            givenSupA = Double.parseDouble(row[propertyCSV.getSupAIndex()]);
+            givenSupB = Double.parseDouble(row[propertyCSV.getSupBIndex()]);
+            givenCondAB = Double.parseDouble(row[propertyCSV.getCondABIndex()]);
+            givenCondBA = Double.parseDouble(row[propertyCSV.getCondBAIndex()]);
+            givenAllConf = Double.parseDouble(row[propertyCSV.getAllConfIndex()]);
+            givenCoherence = Double.parseDouble(row[propertyCSV.getCoherenceIndex()]);
+            givenCosine = Double.parseDouble(row[propertyCSV.getCosineIndex()]);
+            givenIR = Double.parseDouble(row[propertyCSV.getIRIndex()]);
+            givenKulczynski = Double.parseDouble(row[propertyCSV.getKulczynskiIndex()]);
+            givenMaxConf = Double.parseDouble(row[propertyCSV.getMaxConfIndex()]);
+        } catch (Exception ex) {
+            this.validFlag = false;
+            return;
+        }
+
         this.probabilityValue.put(supA, givenSupA);
         this.probabilityValue.put(supB, givenSupB);
         this.probabilityValue.put(condAB, givenCondAB);
         this.probabilityValue.put(condBA, givenCondBA);
-       if (interestingness.contains(AllConf)) {
+        if (interestingness.contains(AllConf)) {
             this.probabilityValue.put(AllConf, givenAllConf);
         } else if (interestingness.contains(Cosine)) {
             this.probabilityValue.put(Cosine, givenCosine);
@@ -152,7 +159,7 @@ public class LineInfo implements ThresoldConstants{
         } else if (interestingness.contains(IR)) {
             this.probabilityValue.put(IR, givenIR);
         }
-        LOGGER.log(Level.INFO, "index:" +index +" class:" + this.className +" predicate:" + this.predicate+" probabilityValue:" + this.probabilityValue);
+        //LOGGER.log(Level.INFO, "index:" + index + " class:" + this.className + " predicate:" + this.predicate + " probabilityValue:" + this.probabilityValue);
 
     }
 

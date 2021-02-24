@@ -1,0 +1,29 @@
+[ {
+  "id" : 1,
+  "pattern" : "berlin",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "AllConf=0.105514705882353", "triple=e dbp:birthPlace o", "class=Bacteria" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "book",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:author", "AllConf=0.0941176470588235", "triple=e dbp:author o", "class=Bacteria" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "bridge",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:crosses", "AllConf=0.0974264705882353", "triple=e dbp:crosses o", "class=Bacteria" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "one known species",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:familia", "AllConf=0.0716911764705882", "triple=e dbp:familia o", "class=Bacteria" ]
+  }
+} ]

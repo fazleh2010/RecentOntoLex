@@ -70,7 +70,8 @@ public interface ThresoldConstants {
             predict_l_for_o_given_sp,
             predict_l_for_s_given_o,
             predict_l_for_s_given_p,
-            predict_l_for_s_given_po
+            predict_l_for_s_given_po,
+            predict_localized_l_for_s_given_p
             ));
      
      

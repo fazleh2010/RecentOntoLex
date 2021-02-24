@@ -179,31 +179,31 @@ public class CsvFile implements CsvConstants {
         }
     }
 
-    public void readPropertyCsv(File filename,String predict,String interestingness,PropertyCSV propertyCSV) throws FileNotFoundException, IOException, CsvException, Exception {
+    public List<LineInfo> readPropertyCsv(File filename, String predict, String interestingness, PropertyCSV propertyCSV) throws FileNotFoundException, IOException, CsvException, Exception {
         List<String[]> rows = new ArrayList<String[]>();
         List<LineInfo> lineInfos = new ArrayList<LineInfo>();
         Map<String, Unit> qald = new TreeMap<String, Unit>();
         Stack<String> stack = new Stack<String>();
-        CSVReader reader;
-        reader = new CSVReader(new FileReader(filename));
+        CSVReader reader = new CSVReader(new FileReader(filename));
         rows = reader.readAll();
         Integer index = 0;
         String lastWord = null;
         String word = null;
-        
+
         for (String[] row : rows) {
+            LineInfo lineInfo =null;
             if (index == 0) {
                 //this.qaldHeader = row;
             } else {
-                LineInfo lineInfo = new LineInfo(index,row,predict,interestingness,propertyCSV,LOGGER);
-                if(lineInfo.getValidFlag())
-                  lineInfos.add(lineInfo);
+                lineInfo = new LineInfo(index, row, predict, interestingness, propertyCSV, LOGGER);
+                if (lineInfo.getValidFlag()) {
+                    lineInfos.add(lineInfo);
+                }
             }
 
             index = index + 1;
         }
-        
-        System.out.println(lineInfos.size());
+        return lineInfos;
 
     }
 
@@ -401,7 +401,7 @@ public class CsvFile implements CsvConstants {
                 if (file.getName().contains(PropertyCSV.localized)) {
                     propertyCSV = new PropertyCSV(PropertyCSV.localized);
                     CsvFile csvFile = new CsvFile(predictDir + file.getName(), LOGGER);
-                    csvFile.readPropertyCsv(file, prediction,Cosine,propertyCSV);
+                    List<LineInfo> lineInfos=csvFile.readPropertyCsv(file, prediction,Cosine,propertyCSV);
                 } else {
 
                 }

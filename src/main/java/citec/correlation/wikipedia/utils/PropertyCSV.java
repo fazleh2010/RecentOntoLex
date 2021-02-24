@@ -34,6 +34,7 @@ public class PropertyCSV {
     private String MaxConfIndex = "MaxConfIndex";
     private String stringIndex = "stringIndex";
     public static String localized="localized";
+    public static String general="general";
     private Map<String,Integer> indexMap=new TreeMap<String,Integer> ();
     
     public PropertyCSV(String type) {

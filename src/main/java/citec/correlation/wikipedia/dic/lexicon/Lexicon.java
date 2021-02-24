@@ -14,6 +14,7 @@ import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_
 import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_s_given_o;
 import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_s_given_p;
 import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_s_given_po;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_localized_l_for_s_given_p;
 import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
@@ -295,10 +296,12 @@ public class Lexicon {
         } else if (predictionRule.contains(predict_l_for_o_given_s)) {
             return lineInfo.getSubject();
         } else if (predictionRule.contains(predict_l_for_o_given_sp)) {
-            return  lineInfo.getSubject() + " " +  lineInfo.getPredicate();
+            return lineInfo.getSubject() + " " + lineInfo.getPredicate();
         } else if (predictionRule.contains(predict_l_for_o_given_p)) {
             return lineInfo.getPredicate();
         } else if (predictionRule.contains(predict_l_for_s_given_p)) {
+            return lineInfo.getPredicate();
+        } else if (predictionRule.contains(predict_localized_l_for_s_given_p)) {
             return lineInfo.getPredicate();
         } else {
             throw new Exception("can not create key, check the KB!!");

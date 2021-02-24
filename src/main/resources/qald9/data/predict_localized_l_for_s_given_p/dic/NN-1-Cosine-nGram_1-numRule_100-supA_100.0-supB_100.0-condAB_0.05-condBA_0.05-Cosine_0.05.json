@@ -1,0 +1,29 @@
+[ {
+  "id" : 1,
+  "pattern" : "bacteria",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:familia", "Cosine=0.324830272422927", "triple=e dbp:familia o", "class=Bacteria" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "bacteria family",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:familia", "Cosine=0.306785995538948", "triple=e dbp:familia o", "class=Bacteria" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "genus bacteria",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:familia", "Cosine=0.312132136423399", "triple=e dbp:familia o", "class=Bacteria" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "one known species",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=dbp:familia", "Cosine=0.267752080235781", "triple=e dbp:familia o", "class=Bacteria" ]
+  }
+} ]

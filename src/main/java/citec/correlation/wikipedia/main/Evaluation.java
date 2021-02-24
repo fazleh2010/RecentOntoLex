@@ -124,6 +124,11 @@ public class Evaluation implements ThresoldConstants {
                 verbs = new ArrayList<MeanReciprocalCalculation>();
                 nouns = new ArrayList<MeanReciprocalCalculation>();*/
                 for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
+                    
+                if(!experiment.contains("numRule_100-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.05")){
+                        continue;
+                }
+                        
                     List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, interestingness, experiment, ".json").getValue1();
                     Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(prediction, interestingness, experiment, directory, expFileList);
                     if (!meanReciprocalsPos.isEmpty()) {
@@ -293,14 +298,15 @@ public class Evaluation implements ThresoldConstants {
 
         //predictionType.put(predict_l_for_s_given_o, ThresoldConstants.OBJECT);
         //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
-        predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
+        //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
+         predictionType.put(ThresoldConstants.predict_localized_l_for_s_given_p, ThresoldConstants.PREDICATE);
 
         for (String prediction : predictionType.keySet()) {
             String type = predictionType.get(prediction);
             String dic = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/dic/";
             String meanR = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/meanR/";
             allThresoldInterestingness = createExperiments(type);
-            calculateMeanReciprocal(type, prediction, null, dic, meanR);
+            calculateMeanReciprocal(type, prediction, ThresoldConstants.AllConf, dic, meanR);
         }
 
     }

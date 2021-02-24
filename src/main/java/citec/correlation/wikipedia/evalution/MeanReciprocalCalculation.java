@@ -94,6 +94,8 @@ public class MeanReciprocalCalculation implements Comparator {
         Boolean matchFlag = false;
         
            //LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs);
+           
+           LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs);
 
         for (String word : this.csvFile.getRow().keySet()) {
             for (String[] coulmns : this.csvFile.getRow().get(word)) {

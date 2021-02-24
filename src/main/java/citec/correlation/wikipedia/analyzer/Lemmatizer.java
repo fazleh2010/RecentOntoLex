@@ -160,8 +160,8 @@ public class Lemmatizer implements TextAnalyzer {
 
     public String getGeneralizedPosTagLemma(String word, String posTag) {
         String key = word + "/" + posTag;
-        if (this.lemmasMap.containsKey(key)) {
-            return lemmasMap.get(key);
+        if (this.generalizeLemma.containsKey(key)) {
+            return generalizeLemma.get(key);
         }
         return word;
 

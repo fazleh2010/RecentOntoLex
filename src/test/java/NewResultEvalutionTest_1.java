@@ -69,7 +69,7 @@ public class NewResultEvalutionTest_1 implements ThresoldConstants {
     }
      private static void readExperiments(Map<String, ThresoldsExperiment> associationRulesExperiment) throws Exception {
         for (String associationRule : associationRulesExperiment.keySet()) {
-            ThresoldsExperiment thresold = new ThresoldsExperiment(associationRule);
+            ThresoldsExperiment thresold = new ThresoldsExperiment("OBJECT");
             for(String key:thresold.getThresoldELements().keySet()){
                 System.out.println(thresold.getThresoldELements().get(key));thresold.getThresoldELements().get(key);
             }

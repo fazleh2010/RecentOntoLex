@@ -12,9 +12,11 @@ import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
 import citec.correlation.wikipedia.main.CsvConstants;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import citec.correlation.wikipedia.experiments.ThresoldsExperiment;
+import citec.correlation.wikipedia.results.LineInfo;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import com.opencsv.exceptions.CsvException;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
@@ -81,9 +83,9 @@ public class CsvFile implements CsvConstants {
         return csvData;
     }
 
-    public void createCsvExperimentData(Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult) {
+    public void createCsvExperimentData(String type,Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult) {
 
-        ThresoldsExperiment thresoldsExperiment = new ThresoldsExperiment();
+        ThresoldsExperiment thresoldsExperiment = new ThresoldsExperiment(type);
         List<String[]> csvData = new ArrayList<String[]>();
         Integer coulmnSize = (thresoldsExperiment.interestingness.size() * thresoldsExperiment.AllConfList.size() * POSTAGS.size()) + 1;
         csvData = this.setHeader(coulmnSize, thresoldsExperiment);
@@ -95,13 +97,12 @@ public class CsvFile implements CsvConstants {
 
             Map<String, Map<String, MeanReciprocalCalculation>> ruleResult = ruleExpeResult.get(rule);
             for (String experiment : ruleResult.keySet()) {
-                System.out.println("experiment:"+experiment);
                 //LOGGER.log(Level.INFO,"experiment:"+experiment);
                 Map<String, MeanReciprocalCalculation> parts_of_speech = ruleResult.get(experiment);
                 experiment = getExperiment(experiment, rule);
                 Map<String, String> posResults = new TreeMap<String, String>();
                 for (String postag : parts_of_speech.keySet()) {
-                    String mean = parts_of_speech.get(postag).getMeanReciprocalRankStr();
+                     String mean = parts_of_speech.get(postag).getMeanReciprocalRankStr();
                     posResults.put(postag, mean);
                     //LOGGER.log(Level.INFO,"postag:"+postag+" mean:"+mean);
                 }
@@ -168,7 +169,32 @@ public class CsvFile implements CsvConstants {
         }
     }
 
-    public void readQaldCsv(String filename) {
+    public void readPropertyCsv(String filename,String predict) throws FileNotFoundException, IOException, CsvException, Exception {
+        List<String[]> rows = new ArrayList<String[]>();
+        List<LineInfo> lineInfos = new ArrayList<LineInfo>();
+        Map<String, Unit> qald = new TreeMap<String, Unit>();
+        Stack<String> stack = new Stack<String>();
+        CSVReader reader;
+        reader = new CSVReader(new FileReader(filename));
+        rows = reader.readAll();
+        Integer index = 0;
+        String lastWord = null;
+        String word = null;
+        
+        for (String[] row : rows) {
+            if (index == 0) {
+                //this.qaldHeader = row;
+            } else {
+                LineInfo lineInfo = new LineInfo(row,predict);
+                lineInfos.add(lineInfo);
+            }
+
+            index = index + 1;
+        }
+
+    }
+
+    public void readQaldCsv(String predictFile) {
         List<String[]> rows = new ArrayList<String[]>();
         Map<String, Unit> qald = new TreeMap<String, Unit>();
         Stack<String> stack = new Stack<String>();
@@ -214,7 +240,6 @@ public class CsvFile implements CsvConstants {
 
             index = index + 1;
         }
-
     }
 
     public List<EvaluationTriple> getRowValues(String word,String predictionRule) {
@@ -314,26 +339,26 @@ public class CsvFile implements CsvConstants {
         return csvData;
     }
 
-    public static void main(String[] args) throws IOException, FileNotFoundException, CsvException {
-        String qaldFile = "";
+    public static void main(String[] args) throws IOException, FileNotFoundException, CsvException, Exception {
+        /*String qaldFile = "";
         qaldFile = qald9Dir + GOLD + "NN-object-qald9.csv";
         CsvFile csvFile = new CsvFile(qaldFile);
-        csvFile.readQaldCsv(qaldFile);
-        // "Coherence-numRule_1000-supA_10.0-supB_20.0-condAB_0.1-condBA_0.001-Coherence_0.001";
-        /*String experiment = "Cosine-numRule_1000-supA_10.0-supB_100.0-condAB_0.1-condBA_0.8-Cosine_0.9";
-        String interestingness = "Cosine";
-        String []info=experiment.split("-");
-        String str=null;
-        str=experiment.replace(interestingness+"-", "");
-        str=str.replace("-"+interestingness, ">");
-        System.out.println(str.substring(0, str.indexOf(">")));*/
- /*for(Integer index=0; info.length>index;index++){
-          System.out.println("index:"+info[index]);
-          str=info[index];
-        }
-         str=str+ "-" + "JJ";
-         System.out.println("experiment:"+experiment);
-         System.out.println("str:"+str);*/
+        csvFile.readQaldCsv(qaldFile);*/
+        Set<String> classNames = new HashSet<String>();
+        classNames.add("Book");
+
+        String rawDir = "raw";
+        String predictFile = qald9Dir + "/" + predict_l_for_o_given_p + "/" + rawDir + "/" + "rules-Book-predict_l_for_s_given_p-100-10000-4-5-5-5-5.csv";
+        CsvFile csvFile = new CsvFile(predictFile);
+        File tmpDir = new File(predictFile);
+        System.out.println(predictFile);
+        boolean exists = tmpDir.exists();
+        System.out.println(exists);
+        
+         csvFile.readPropertyCsv(predictFile,predict_l_for_o_given_p);
+
     }
+
+   
 
 }

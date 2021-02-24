@@ -12,6 +12,7 @@ import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.TreeMap;
 import org.javatuples.Pair;
 
@@ -21,76 +22,59 @@ import org.javatuples.Pair;
  */
 public class ThresoldsExperiment implements ThresoldConstants {
 
-    /*private List<Double> supList = Arrays.asList(100.0, 500.0);
-    private List<Double> supBList = Arrays.asList(100.0, 500.0);
-    private List<Double> confABList = Arrays.asList(0.045, 0.5);
-    private List<Double> confBAList = Arrays.asList(0.045, 0.5);
-    private List<Double> AllConfList = Arrays.asList(0.001, 0.045);
-    private List<Double> MaxConfList = Arrays.asList(0.001, 0.045);
-    private List<Double> IrList = Arrays.asList(0.001, 0.045);
-    private List<Double> KulczynskiList = Arrays.asList(0.001, 0.045);
-    private List<Double> CosineList = Arrays.asList(0.001, 0.045);
-    private List<Double> CoherenceList = Arrays.asList(0.001, 0.045);
-    private List<Integer> numberOfRules = Arrays.asList(200, 1000);*/
-    
-    
-    
-    
-    ///////////////////Main Thresold For po and o rules////////////////////////
-    private List<Double> supAList = Arrays.asList(10.0, 200.0);
-    private List<Double> supBList = Arrays.asList(20.0, 100.0);
-    private List<Double> confABList = Arrays.asList(0.1, 0.8);
-    private List<Double> confBAList = Arrays.asList(0.001, 0.8);
-
-    public List<Double> CosineList = Arrays.asList(0.001, 0.045);
-    public List<Double> AllConfList = Arrays.asList(0.001, 0.045);
-    public List<Double> MaxConfList = Arrays.asList(0.001, 0.045);
-    public List<Double> IrList = Arrays.asList(0.001, 0.045);
-    public List<Double> KulczynskiList = Arrays.asList(0.001, 0.045);
-    public List<Double> CoherenceList = Arrays.asList(0.001, 0.045);
-    public Map<String, List<Double>> interestingness = new TreeMap<String, List<Double>>();
-    public static List<Integer> numberOfRules = Arrays.asList(1000,4000, 8000);
-    public static List<Integer> nGram = Arrays.asList(1);
-    ///////////////////Main Thresold For po and o rules////////////////////////
-    
-    
-    ///////////////////Main Thresold For p////////////////////////
-    /*private List<Double> supAList = Arrays.asList(1.0,10.0,50.0);
-    private List<Double> supBList = Arrays.asList(1.0,10.0,50.0);
-    private List<Double> confABList = Arrays.asList(0.001,0.05);
-    private List<Double> confBAList = Arrays.asList(0.001,0.05);
-
-    public List<Double> CosineList = Arrays.asList(0.001,0.045);
-    public List<Double> AllConfList = Arrays.asList(0.001,0.045);
-    public List<Double> MaxConfList = Arrays.asList(0.001,0.045);
-    public List<Double> IrList = Arrays.asList(0.001,0.045);
-    public List<Double> KulczynskiList = Arrays.asList(0.001,0.045);
-    public List<Double> CoherenceList = Arrays.asList(0.001,0.045);
-    public Map<String, List<Double>> interestingness = new TreeMap<String, List<Double>>();
-    public static List<Integer> numberOfRules = Arrays.asList(10000);
-    public static List<Integer> nGram = Arrays.asList(1);*/
-    
-    
-    /*private List<Double> supAList = Arrays.asList(10.0, 200.0);
-    private List<Double> supBList = Arrays.asList(10.0, 200.0);
-    private List<Double> confABList = Arrays.asList(0.05, 0.5);
-    private List<Double> confBAList = Arrays.asList(0.05, 0.5);
-    
-    public List<Double> CosineList = Arrays.asList(0.05, 0.5);
-    public List<Double> AllConfList = Arrays.asList(0.05, 0.5);
-    public List<Double> MaxConfList = Arrays.asList(0.05, 0.5);
-    public List<Double> IrList = Arrays.asList(0.05, 0.5);
-    public List<Double> KulczynskiList = Arrays.asList(0.05, 0.5);
-    public List<Double> CoherenceList = Arrays.asList(0.05, 0.5);
-    public Map<String, List<Double>> interestingness = new TreeMap<String, List<Double>>();
-    public static List<Integer> numberOfRules = Arrays.asList(3000, 10000);
-    */
-    //public static List<Integer> nGram = Arrays.asList(1,2,3,4);
-
-
     private LinkedHashMap<String, ThresoldELement> thresoldELements = new LinkedHashMap<String, ThresoldELement>();
+    public Map<String, List<Double>> interestingness = new TreeMap<String, List<Double>>();
 
-    public ThresoldsExperiment() {
+    public List<Double> supAList = new ArrayList<Double>();
+    public List<Double> supBList = new ArrayList<Double>();
+    public List<Double> confABList = new ArrayList<Double>();
+    public List<Double> confBAList = new ArrayList<Double>();
+    public List<Double> CosineList = new ArrayList<Double>();
+    public List<Double> AllConfList = new ArrayList<Double>();
+    public List<Double> MaxConfList = new ArrayList<Double>();
+    public List<Double> IrList = new ArrayList<Double>();
+    public List<Double> KulczynskiList = new ArrayList<Double>();
+    public List<Double> CoherenceList = new ArrayList<Double>();
+    public static List<Integer> numberOfRules = new ArrayList<Integer>();
+    public static List<Integer> nGram = new ArrayList<Integer>();
+
+    public ThresoldsExperiment(String type, String associationRule) {
+        setParameters(type);
+        createExperiment(associationRule);
+    }
+
+    public ThresoldsExperiment(String type) {
+        setParameters(type);
+    }
+
+    public void setParameters(String type) {
+        if (type.contains(ThresoldConstants.OBJECT)) {
+            supAList = new ArrayList<Double>(ObjectParamters.supAList);
+            supBList = new ArrayList<Double>(ObjectParamters.supBList);
+            confABList = new ArrayList<Double>(ObjectParamters.confABList);
+            confBAList = new ArrayList<Double>(ObjectParamters.confBAList);
+            CosineList = new ArrayList<Double>(ObjectParamters.probabiltyThresold);
+            AllConfList = new ArrayList<Double>(ObjectParamters.probabiltyThresold);
+            MaxConfList = new ArrayList<Double>(ObjectParamters.probabiltyThresold);
+            IrList = new ArrayList<Double>(ObjectParamters.probabiltyThresold);
+            KulczynskiList = new ArrayList<Double>(ObjectParamters.probabiltyThresold);
+            CoherenceList = new ArrayList<Double>(ObjectParamters.probabiltyThresold);
+            numberOfRules = new ArrayList<Integer>(ObjectParamters.numberOfRules);
+            nGram = new ArrayList<Integer>(ObjectParamters.nGram);
+        } else if (type.contains(ThresoldConstants.PREDICATE)) {
+            supAList = new ArrayList<Double>(PredicateParamters.supAList);
+            supBList = new ArrayList<Double>(PredicateParamters.supBList);
+            confABList = new ArrayList<Double>(PredicateParamters.confABList);
+            confBAList = new ArrayList<Double>(PredicateParamters.confBAList);
+            CosineList = new ArrayList<Double>(PredicateParamters.probabiltyThresold);
+            AllConfList = new ArrayList<Double>(PredicateParamters.probabiltyThresold);
+            MaxConfList = new ArrayList<Double>(PredicateParamters.probabiltyThresold);
+            IrList = new ArrayList<Double>(PredicateParamters.probabiltyThresold);
+            KulczynskiList = new ArrayList<Double>(PredicateParamters.probabiltyThresold);
+            CoherenceList = new ArrayList<Double>(PredicateParamters.probabiltyThresold);
+            numberOfRules = new ArrayList<Integer>(PredicateParamters.numberOfRules);
+            nGram = new ArrayList<Integer>(PredicateParamters.nGram);
+        }
         interestingness.put(ThresoldConstants.Cosine, CosineList);
         interestingness.put(ThresoldConstants.AllConf, AllConfList);
         interestingness.put(ThresoldConstants.MaxConf, MaxConfList);
@@ -120,10 +104,9 @@ public class ThresoldsExperiment implements ThresoldConstants {
         }
 
     }*/
-
-    public ThresoldsExperiment(String associationRule) {
+    private void createExperiment(String associationRule) {
         Integer index = 0;
-        for ( Integer n_gram:nGram) {
+        for (Integer n_gram : nGram) {
             for (Integer numberOfRule : numberOfRules) {
                 for (Double supA : supAList) {
                     for (Double supB : supBList) {
@@ -131,7 +114,7 @@ public class ThresoldsExperiment implements ThresoldConstants {
                             for (Double confBA : confBAList) {
                                 for (Double probabiltyValue : this.getInterestingList(associationRule)) {
                                     index = index + 1;
-                                    ThresoldELement thresoldELement = new ThresoldELement(supA, supB, confAB, confBA, associationRule, probabiltyValue, numberOfRule,n_gram);
+                                    ThresoldELement thresoldELement = new ThresoldELement(supA, supB, confAB, confBA, associationRule, probabiltyValue, numberOfRule, n_gram);
                                     //String line=associationRule+index.toString()+"-"+ thresoldELement;
                                     String line = associationRule + "-" + thresoldELement;
                                     thresoldELements.put(line, thresoldELement);
@@ -143,6 +126,15 @@ public class ThresoldsExperiment implements ThresoldConstants {
             }
         }
 
+    }
+
+    public static Map<String, ThresoldsExperiment> createExperiments(String type, Set<String> interestingness) throws Exception {
+        Map<String, ThresoldsExperiment> associationRulesExperiment = new TreeMap<String, ThresoldsExperiment>();
+        for (String associationRule : interestingness) {
+            ThresoldsExperiment thresold = new ThresoldsExperiment(type);
+            associationRulesExperiment.put(associationRule, thresold);
+        }
+        return associationRulesExperiment;
     }
 
     public LinkedHashMap<String, ThresoldELement> getThresoldELements() {
@@ -183,7 +175,7 @@ public class ThresoldsExperiment implements ThresoldConstants {
         private String type = null;
         private LinkedHashMap<String, Double> givenThresolds = new LinkedHashMap<String, Double>();
 
-        public ThresoldELement(Double supA, Double supB, Double confAB, Double confBA, String type, Double probabiltyValue, Integer numberOfRules,Integer n_gram) {
+        public ThresoldELement(Double supA, Double supB, Double confAB, Double confBA, String type, Double probabiltyValue, Integer numberOfRules, Integer n_gram) {
             this.givenThresolds.put(ThresoldConstants.supA, supA);
             this.givenThresolds.put(ThresoldConstants.supB, supB);
             this.givenThresolds.put(ThresoldConstants.condAB, confAB);
@@ -191,9 +183,10 @@ public class ThresoldsExperiment implements ThresoldConstants {
             this.type = type;
             this.givenThresolds.put(type, probabiltyValue);
             this.rules = numberOfRules;
-            this.n_gram=n_gram;
+            this.n_gram = n_gram;
         }
-         public ThresoldELement(Double supA, Double supB, Double confAB, Double confBA, String type, Double probabiltyValue, Integer numberOfRules) {
+
+        public ThresoldELement(Double supA, Double supB, Double confAB, Double confBA, String type, Double probabiltyValue, Integer numberOfRules) {
             this.givenThresolds.put(ThresoldConstants.supA, supA);
             this.givenThresolds.put(ThresoldConstants.supB, supB);
             this.givenThresolds.put(ThresoldConstants.condAB, confAB);
@@ -217,16 +210,16 @@ public class ThresoldsExperiment implements ThresoldConstants {
 
         @Override
         public String toString() {
-            String n_gramString=null;
-            if(this.n_gram==0)
-                n_gramString="1-4";
-            else
-                n_gramString=this.n_gram.toString();
-            
+            String n_gramString = null;
+            if (this.n_gram == 0) {
+                n_gramString = "1-4";
+            } else {
+                n_gramString = this.n_gram.toString();
+            }
+
             //nGram + "_" + n_gramString + "-"
-            
-            return   nGram + "_" + n_gramString + "-"
-                    +numRule + "_" + rules + "-"
+            return nGram + "_" + n_gramString + "-"
+                    + numRule + "_" + rules + "-"
                     + supA + "_" + givenThresolds.get(supA) + "-"
                     + supB + "_" + givenThresolds.get(supB) + "-"
                     + condAB + "_" + givenThresolds.get(condAB) + "-"

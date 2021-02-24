@@ -3,82 +3,189 @@
   "pattern" : "coleophora",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
-    "1" : [ "pair=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
+    "0" : [ "kb=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
+    "1" : [ "kb=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
   }
 }, {
   "id" : 2,
   "pattern" : "coleophoridae",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
-    "1" : [ "pair=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
+    "0" : [ "kb=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
+    "1" : [ "kb=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
   }
 }, {
   "id" : 3,
   "pattern" : "cosmopterigidae",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
+    "0" : [ "kb=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
   }
 }, {
   "id" : 4,
   "pattern" : "family",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=Tephritoidea", "MaxConf=1.0", "triple=e p Tephritoidea", "class=Insect" ],
-    "1" : [ "pair=Hesperiidae", "MaxConf=1.0", "triple=e p Hesperiidae", "class=Insect" ],
-    "2" : [ "pair=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ],
-    "3" : [ "pair=Acalyptratae", "MaxConf=1.0", "triple=e p Acalyptratae", "class=Insect" ],
-    "4" : [ "pair=Coleoptera", "MaxConf=1.0", "triple=e p Coleoptera", "class=Insect" ],
-    "5" : [ "pair=Noctuidae", "MaxConf=1.0", "triple=e p Noctuidae", "class=Insect" ],
-    "6" : [ "pair=Skipper_(butterfly)", "MaxConf=1.0", "triple=e p Skipper_(butterfly)", "class=Insect" ],
-    "7" : [ "pair=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
-    "8" : [ "pair=Schizophora", "MaxConf=1.0", "triple=e p Schizophora", "class=Insect" ],
-    "9" : [ "pair=Subspecies@en", "MaxConf=1.0", "triple=e p Subspecies@en", "class=Insect" ],
-    "10" : [ "pair=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
+    "0" : [ "kb=Tephritoidea", "MaxConf=1.0", "triple=e p Tephritoidea", "class=Insect" ],
+    "1" : [ "kb=Hesperiidae", "MaxConf=1.0", "triple=e p Hesperiidae", "class=Insect" ],
+    "2" : [ "kb=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ],
+    "3" : [ "kb=Acalyptratae", "MaxConf=1.0", "triple=e p Acalyptratae", "class=Insect" ],
+    "4" : [ "kb=Coleoptera", "MaxConf=1.0", "triple=e p Coleoptera", "class=Insect" ],
+    "5" : [ "kb=Noctuidae", "MaxConf=1.0", "triple=e p Noctuidae", "class=Insect" ],
+    "6" : [ "kb=Skipper_(butterfly)", "MaxConf=1.0", "triple=e p Skipper_(butterfly)", "class=Insect" ],
+    "7" : [ "kb=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
+    "8" : [ "kb=Schizophora", "MaxConf=1.0", "triple=e p Schizophora", "class=Insect" ],
+    "9" : [ "kb=Subspecies@en", "MaxConf=1.0", "triple=e p Subspecies@en", "class=Insect" ],
+    "10" : [ "kb=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "family\u001Ccoleophoridae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
+    "1" : [ "kb=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
   }
 }, {
   "id" : 6,
-  "pattern" : "genus",
+  "pattern" : "family coleophoridae",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=Tephritoidea", "MaxConf=1.0", "triple=e p Tephritoidea", "class=Insect" ],
-    "1" : [ "pair=Acalyptratae", "MaxConf=1.0", "triple=e p Acalyptratae", "class=Insect" ],
-    "2" : [ "pair=Species", "MaxConf=1.0", "triple=e p Species", "class=Insect" ],
-    "3" : [ "pair=Schizophora", "MaxConf=1.0", "triple=e p Schizophora", "class=Insect" ]
+    "0" : [ "kb=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
+    "1" : [ "kb=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
   }
 }, {
   "id" : 7,
-  "pattern" : "hesperiidae",
+  "pattern" : "family cosmopterigidae",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=Hesperiidae", "MaxConf=1.0", "triple=e p Hesperiidae", "class=Insect" ],
-    "1" : [ "pair=Skipper_(butterfly)", "MaxConf=1.0", "triple=e p Skipper_(butterfly)", "class=Insect" ]
+    "0" : [ "kb=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
   }
 }, {
   "id" : 8,
-  "pattern" : "moth",
+  "pattern" : "family cosmopterigidae\u001Cit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ],
-    "1" : [ "pair=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
-    "2" : [ "pair=George_Hampson", "MaxConf=1.0", "triple=e p George_Hampson", "class=Insect" ],
-    "3" : [ "pair=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
+    "0" : [ "kb=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
   }
 }, {
   "id" : 9,
-  "pattern" : "noctuidae",
+  "pattern" : "family hesperiidae",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=Noctuidae", "MaxConf=1.0", "triple=e p Noctuidae", "class=Insect" ]
+    "0" : [ "kb=Hesperiidae", "MaxConf=1.0", "triple=e p Hesperiidae", "class=Insect" ],
+    "1" : [ "kb=Skipper_(butterfly)", "MaxConf=1.0", "triple=e p Skipper_(butterfly)", "class=Insect" ]
   }
 }, {
   "id" : 10,
+  "pattern" : "family noctuidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Noctuidae", "MaxConf=1.0", "triple=e p Noctuidae", "class=Insect" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "genus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Tephritoidea", "MaxConf=1.0", "triple=e p Tephritoidea", "class=Insect" ],
+    "1" : [ "kb=Acalyptratae", "MaxConf=1.0", "triple=e p Acalyptratae", "class=Insect" ],
+    "2" : [ "kb=Species", "MaxConf=1.0", "triple=e p Species", "class=Insect" ],
+    "3" : [ "kb=Schizophora", "MaxConf=1.0", "triple=e p Schizophora", "class=Insect" ]
+  }
+}, {
+  "id" : 13,
+  "pattern" : "genus\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Species", "MaxConf=1.0", "triple=e p Species", "class=Insect" ]
+  }
+}, {
+  "id" : 14,
+  "pattern" : "hesperiidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Hesperiidae", "MaxConf=1.0", "triple=e p Hesperiidae", "class=Insect" ],
+    "1" : [ "kb=Skipper_(butterfly)", "MaxConf=1.0", "triple=e p Skipper_(butterfly)", "class=Insect" ]
+  }
+}, {
+  "id" : 15,
+  "pattern" : "moth",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ],
+    "1" : [ "kb=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
+    "2" : [ "kb=George_Hampson", "MaxConf=1.0", "triple=e p George_Hampson", "class=Insect" ],
+    "3" : [ "kb=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
+  }
+}, {
+  "id" : 16,
+  "pattern" : "moth\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
+    "1" : [ "kb=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
+  }
+}, {
+  "id" : 17,
+  "pattern" : "moth\u001Cof\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
+    "1" : [ "kb=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "moth of\u001Cthe",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
+    "1" : [ "kb=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
+  }
+}, {
+  "id" : 19,
+  "pattern" : "moth of\u001Cthe\u001Cfamily",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
+    "1" : [ "kb=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
+  }
+}, {
+  "id" : 20,
+  "pattern" : "moth the\u001Cfamily",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
+    "1" : [ "kb=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
+  }
+}, {
+  "id" : 21,
+  "pattern" : "moth the\u001Cfamily\u001Ccoleophoridae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Coleophora", "MaxConf=1.0", "triple=e p Coleophora", "class=Insect" ],
+    "1" : [ "kb=Coleophora@en", "MaxConf=1.0", "triple=e p Coleophora@en", "class=Insect" ]
+  }
+}, {
+  "id" : 22,
+  "pattern" : "noctuidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Noctuidae", "MaxConf=1.0", "triple=e p Noctuidae", "class=Insect" ]
+  }
+}, {
+  "id" : 23,
   "pattern" : "species",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=Coleoptera", "MaxConf=1.0", "triple=e p Coleoptera", "class=Insect" ],
-    "1" : [ "pair=Subspecies@en", "MaxConf=1.0", "triple=e p Subspecies@en", "class=Insect" ]
+    "0" : [ "kb=Coleoptera", "MaxConf=1.0", "triple=e p Coleoptera", "class=Insect" ],
+    "1" : [ "kb=Subspecies@en", "MaxConf=1.0", "triple=e p Subspecies@en", "class=Insect" ]
+  }
+}, {
+  "id" : 24,
+  "pattern" : "species\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Subspecies@en", "MaxConf=1.0", "triple=e p Subspecies@en", "class=Insect" ]
   }
 } ]

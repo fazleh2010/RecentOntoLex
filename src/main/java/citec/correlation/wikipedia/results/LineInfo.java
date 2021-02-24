@@ -10,6 +10,8 @@ import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
 import citec.correlation.wikipedia.experiments.ThresoldConstants;
 import com.google.common.collect.Sets;
+import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 import java.util.StringTokenizer;
@@ -53,6 +55,93 @@ public class LineInfo implements ThresoldConstants{
     public LineInfo(){
         
     }
+    
+    public LineInfo(String[] row,String prediction) throws Exception {
+        Integer classIndex=0,ruletypeIndex=1,linguisticPatternIndex=2,patterntypeIndex=3;
+        Integer subjectIndex=4,predicateIndex=5,objectIndex=6,stringIndex=18;
+       
+        System.out.println("stringIndex:"+row[stringIndex]);
+        System.out.println("classIndex:"+row[classIndex]);
+        System.out.println("predicateIndex:"+row[predicateIndex]);
+        
+        this.line =row[stringIndex];
+        this.className = row[classIndex];
+
+        if (prediction.contains(predict_l_for_s_given_po)) {
+            //this.predicate = this.setProperty(rule);
+            //this.object = this.setObject(rule);
+        } else if (prediction.contains(predict_l_for_s_given_o)) {
+           // this.object = this.setObject(rule);
+        } else if (prediction.contains(predict_l_for_o_given_s)) {
+            //this.subject = this.setSubject(rule);
+        } else if (prediction.contains(predict_l_for_o_given_sp)) {
+            //this.subject = this.setSubject(rule);
+            //this.predicate = this.setProperty(rule);
+        } else if (prediction.contains(predict_l_for_o_given_p)) {
+            this.predicate =row[predicateIndex]; 
+        } else if (prediction.contains(predict_l_for_s_given_p)) {
+            this.predicate =row[predicateIndex]; 
+        }
+
+        this.wordOriginal = row[linguisticPatternIndex];
+        if (wordOriginal != null) {
+            this.validFlag = true;
+        }
+        String []info=row[patterntypeIndex].split("-");
+        this.nGramNumber = Integer.parseInt(info[0]);
+        
+       
+       
+        if (this.validFlag) {
+            String str = this.processWords(this.wordOriginal);
+            this.getPosTag(str);
+            this.setRule();
+            this.setProbabilityValue(interestingness,row);
+        }
+    }
+    
+    private void setProbabilityValue(LinkedHashSet<String> interestingness, String[] row) {
+        Integer condABIndex=7,condBAIndex=8,supAIndex=9,supBIndex=10,supABIndex=11,AllConfIndex=12,CoherenceIndex=13,CosineIndex=14,IRIndex=15,KulczynskiIndex=16,MaxConfIndex=17;
+        Double givenSupA = Double.parseDouble(row[supAIndex]);
+        Double givenSupB = Double.parseDouble(row[supBIndex]);
+        Double givenCondAB = Double.parseDouble(row[condABIndex]);
+        Double givenCondBA = Double.parseDouble(row[condBAIndex]);
+        Double givenAllConf = Double.parseDouble(row[AllConfIndex]);
+        Double givenCoherence = Double.parseDouble(row[CoherenceIndex]);
+        Double givenCosine = Double.parseDouble(row[CosineIndex]);
+        Double givenIR = Double.parseDouble(row[IRIndex]);
+        Double givenKulczynski = Double.parseDouble(row[KulczynskiIndex]);
+        Double givenMaxConf = Double.parseDouble(row[MaxConfIndex]);
+        System.out.println("supAIndex:"+row[supAIndex]);
+        System.out.println("supBIndex:"+row[supBIndex]);
+        System.out.println("condABIndex:"+row[condABIndex]);
+        System.out.println("condBAIndex:"+row[condBAIndex]);
+        System.out.println("CosineIndex:"+row[CosineIndex]);
+        System.out.println("AllConfIndex:"+row[AllConfIndex]);
+        System.out.println("CoherenceIndex:"+row[CoherenceIndex]);
+        System.out.println("CosineIndex:"+row[CosineIndex]);
+        System.out.println("KulczynskiIndex:"+row[KulczynskiIndex]);
+        System.out.println("IRIndex:"+row[IRIndex]);
+
+        /*this.probabilityValue.put(supA, givenSupA);
+        this.probabilityValue.put(supB, givenSupB);
+        this.probabilityValue.put(condAB, givenCondAB);
+        this.probabilityValue.put(condBA, givenCondBA);
+        if (interestingness.contains(AllConf)) {
+            this.probabilityValue.put(AllConf, givenAllConf);
+        } else if (interestingness.contains(Cosine)) {
+            this.probabilityValue.put(Cosine, givenCosine);
+        } else if (interestingness.contains(Coherence)) {
+            this.probabilityValue.put(Coherence, givenCoherence);
+        } else if (interestingness.contains(Kulczynski)) {
+            this.probabilityValue.put(Kulczynski, givenKulczynski);
+        } else if (interestingness.contains(MaxConf)) {
+            this.probabilityValue.put(MaxConf, givenMaxConf);
+        } else if (interestingness.contains(IR)) {
+            this.probabilityValue.put(IR, givenIR);
+        }*/
+    }
+
     
     public LineInfo(LineInfo lineInfo, String associationRule, String associationValue) {
         this.line = lineInfo.getLine();
@@ -153,6 +242,7 @@ public class LineInfo implements ThresoldConstants{
         return thresoldValid;
     }
 
+   
 
    
     
@@ -423,6 +513,8 @@ public class LineInfo implements ThresoldConstants{
     public String getCheckedAssociationRuleValue() {
         return checkedAssociationRuleValue;
     }
+
+   
 
    
 

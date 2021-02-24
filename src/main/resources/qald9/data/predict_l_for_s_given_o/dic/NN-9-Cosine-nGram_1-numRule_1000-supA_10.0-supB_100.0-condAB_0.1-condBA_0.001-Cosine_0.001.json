@@ -1,0 +1,91 @@
+[ {
+  "id" : 1,
+  "pattern" : "alps",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Bernese_Alps", "Cosine=0.669774686623137", "triple=e p Bernese_Alps", "class=Mountain" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "andes",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Department_of_Cuzco", "Cosine=0.667366579370367", "triple=e p Department_of_Cuzco", "class=Mountain" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "andes\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Department_of_Cuzco", "Cosine=0.667366579370367", "triple=e p Department_of_Cuzco", "class=Mountain" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "andes\u001Cof\u001Cperu",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Department_of_Cuzco", "Cosine=0.667366579370367", "triple=e p Department_of_Cuzco", "class=Mountain" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "andes of\u001Cperu",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Department_of_Cuzco", "Cosine=0.667366579370367", "triple=e p Department_of_Cuzco", "class=Mountain" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "andes peru",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Department_of_Cuzco", "Cosine=0.667366579370367", "triple=e p Department_of_Cuzco", "class=Mountain" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "colorado",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Colorado@en", "Cosine=0.690065559342354", "triple=e p Colorado@en", "class=Mountain" ],
+    "1" : [ "kb=Colorado", "Cosine=0.684024786288392", "triple=e p Colorado", "class=Mountain" ],
+    "2" : [ "kb=\"450.0\"^^http://dbpedia.org/datatype/second", "Cosine=0.676715542331965", "triple=e p \"450.0\"^^http://dbpedia.org/datatype/second", "class=Mountain" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "cusco",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Cusco_Region", "Cosine=0.673633069708608", "triple=e p Cusco_Region", "class=Mountain" ],
+    "1" : [ "kb=Department_of_Cuzco", "Cosine=0.673633069708608", "triple=e p Department_of_Cuzco", "class=Mountain" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "mountain",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Department_of_Cuzco", "Cosine=0.679841800678349", "triple=e p Department_of_Cuzco", "class=Mountain" ],
+    "1" : [ "kb=Cusco_Region", "Cosine=0.673633069708608", "triple=e p Cusco_Region", "class=Mountain" ],
+    "2" : [ "kb=Norway", "Cosine=0.66521328218955", "triple=e p Norway", "class=Mountain" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "mountains",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Colorado@en", "Cosine=0.669043382464133", "triple=e p Colorado@en", "class=Mountain" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "norway",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Norway", "Cosine=0.685844935288819", "triple=e p Norway", "class=Mountain" ]
+  }
+}, {
+  "id" : 12,
+  "pattern" : "peru",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Department_of_Cuzco", "Cosine=0.679841800678349", "triple=e p Department_of_Cuzco", "class=Mountain" ],
+    "1" : [ "kb=Cusco_Region", "Cosine=0.673633069708608", "triple=e p Cusco_Region", "class=Mountain" ]
+  }
+} ]

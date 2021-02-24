@@ -3,36 +3,57 @@
   "pattern" : "cosmopterigidae",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
+    "0" : [ "kb=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
   }
 }, {
   "id" : 2,
   "pattern" : "family",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=Tephritoidea", "MaxConf=1.0", "triple=e p Tephritoidea", "class=Insect" ],
-    "1" : [ "pair=Hesperiidae", "MaxConf=1.0", "triple=e p Hesperiidae", "class=Insect" ],
-    "2" : [ "pair=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
+    "0" : [ "kb=Tephritoidea", "MaxConf=1.0", "triple=e p Tephritoidea", "class=Insect" ],
+    "1" : [ "kb=Hesperiidae", "MaxConf=1.0", "triple=e p Hesperiidae", "class=Insect" ],
+    "2" : [ "kb=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "family cosmopterigidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
   }
 }, {
   "id" : 4,
-  "pattern" : "genus",
+  "pattern" : "family cosmopterigidae\u001Cit",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=Tephritoidea", "MaxConf=1.0", "triple=e p Tephritoidea", "class=Insect" ]
+    "0" : [ "kb=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
   }
 }, {
   "id" : 5,
+  "pattern" : "family hesperiidae",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Hesperiidae", "MaxConf=1.0", "triple=e p Hesperiidae", "class=Insect" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "genus",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Tephritoidea", "MaxConf=1.0", "triple=e p Tephritoidea", "class=Insect" ]
+  }
+}, {
+  "id" : 8,
   "pattern" : "hesperiidae",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=Hesperiidae", "MaxConf=1.0", "triple=e p Hesperiidae", "class=Insect" ]
+    "0" : [ "kb=Hesperiidae", "MaxConf=1.0", "triple=e p Hesperiidae", "class=Insect" ]
   }
 }, {
-  "id" : 6,
+  "id" : 9,
   "pattern" : "moth",
   "partsOfSpeech" : "NN",
   "index" : {
-    "0" : [ "pair=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
+    "0" : [ "kb=Cosmopterigidae", "MaxConf=1.0", "triple=e p Cosmopterigidae", "class=Insect" ]
   }
 } ]

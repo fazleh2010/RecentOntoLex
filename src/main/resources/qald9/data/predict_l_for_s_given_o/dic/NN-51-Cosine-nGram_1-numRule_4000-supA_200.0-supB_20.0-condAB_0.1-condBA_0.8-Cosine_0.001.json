@@ -1,0 +1,93 @@
+[ {
+  "id" : 1,
+  "pattern" : "alps",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Switzerland", "Cosine=0.592605351277057", "triple=e p Switzerland", "class=Mountain" ]
+  }
+}, {
+  "id" : 2,
+  "pattern" : "andes",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Peru@en", "Cosine=0.641989927743015", "triple=e p Peru@en", "class=Mountain" ],
+    "1" : [ "kb=Peru", "Cosine=0.639602149066831", "triple=e p Peru", "class=Mountain" ],
+    "2" : [ "kb=Andes", "Cosine=0.606936646630648", "triple=e p Andes", "class=Mountain" ]
+  }
+}, {
+  "id" : 3,
+  "pattern" : "andes\u001Cof",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Peru@en", "Cosine=0.630375080567378", "triple=e p Peru@en", "class=Mountain" ],
+    "1" : [ "kb=Peru", "Cosine=0.625978857295168", "triple=e p Peru", "class=Mountain" ]
+  }
+}, {
+  "id" : 4,
+  "pattern" : "andes\u001Cof\u001Cperu",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Peru@en", "Cosine=0.610526166784362", "triple=e p Peru@en", "class=Mountain" ],
+    "1" : [ "kb=Peru", "Cosine=0.606909019535655", "triple=e p Peru", "class=Mountain" ]
+  }
+}, {
+  "id" : 5,
+  "pattern" : "andes of\u001Cperu",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Peru@en", "Cosine=0.611869460304403", "triple=e p Peru@en", "class=Mountain" ],
+    "1" : [ "kb=Peru", "Cosine=0.608198944518036", "triple=e p Peru", "class=Mountain" ]
+  }
+}, {
+  "id" : 6,
+  "pattern" : "andes peru",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Peru@en", "Cosine=0.611869460304403", "triple=e p Peru@en", "class=Mountain" ],
+    "1" : [ "kb=Peru", "Cosine=0.608198944518036", "triple=e p Peru", "class=Mountain" ]
+  }
+}, {
+  "id" : 7,
+  "pattern" : "district",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Peru", "Cosine=0.566847964113891", "triple=e p Peru", "class=Mountain" ]
+  }
+}, {
+  "id" : 8,
+  "pattern" : "mountain",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Peru@en", "Cosine=0.6496177984571", "triple=e p Peru@en", "class=Mountain" ],
+    "1" : [ "kb=Peru", "Cosine=0.648122438991866", "triple=e p Peru", "class=Mountain" ],
+    "2" : [ "kb=Switzerland", "Cosine=0.622415917858107", "triple=e p Switzerland", "class=Mountain" ],
+    "3" : [ "kb=Andes", "Cosine=0.613794905523426", "triple=e p Andes", "class=Mountain" ],
+    "4" : [ "kb=left@en", "Cosine=0.579132218702081", "triple=e p left@en", "class=Mountain" ],
+    "5" : [ "kb=right@en", "Cosine=0.561668672896404", "triple=e p right@en", "class=Mountain" ]
+  }
+}, {
+  "id" : 9,
+  "pattern" : "peru",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Peru", "Cosine=0.642048055311402", "triple=e p Peru", "class=Mountain" ],
+    "1" : [ "kb=Peru@en", "Cosine=0.641989927743015", "triple=e p Peru@en", "class=Mountain" ]
+  }
+}, {
+  "id" : 10,
+  "pattern" : "province",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Peru@en", "Cosine=0.638141801599846", "triple=e p Peru@en", "class=Mountain" ],
+    "1" : [ "kb=Peru", "Cosine=0.634682059471055", "triple=e p Peru", "class=Mountain" ],
+    "2" : [ "kb=Andes", "Cosine=0.599224304782325", "triple=e p Andes", "class=Mountain" ]
+  }
+}, {
+  "id" : 11,
+  "pattern" : "region",
+  "partsOfSpeech" : "NN",
+  "index" : {
+    "0" : [ "kb=Peru@en", "Cosine=0.635563440342117", "triple=e p Peru@en", "class=Mountain" ],
+    "1" : [ "kb=Peru", "Cosine=0.630966815495913", "triple=e p Peru", "class=Mountain" ]
+  }
+} ]

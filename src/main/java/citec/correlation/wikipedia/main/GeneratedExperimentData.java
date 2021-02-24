@@ -28,6 +28,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -45,14 +46,14 @@ import org.javatuples.Pair;
 public class GeneratedExperimentData implements ThresoldConstants {
 
     private static Logger LOGGER = null;
-     private  static Lemmatizer lemmatizer=null;
+    // private  static Lemmatizer lemmatizer=null;
     //the files are ready at /opt/rulepatterns/results
     //bzip2 -d filename.bz2
     //bzip2 -d *.json.bz2
 
 
-    public GeneratedExperimentData(Lemmatizer lemmatizer,String baseDir, String qald9Dir, String givenPrediction, String givenInterestingness,Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER) throws Exception {
-        this.lemmatizer=lemmatizer;
+    public GeneratedExperimentData(String baseDir, String qald9Dir, String givenPrediction, String givenInterestingness,Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER) throws Exception {
+       // this.lemmatizer=lemmatizer;
         this.setUpLog(givenLOGGER);
 
         for (String prediction : predictLinguisticGivenKB) {
@@ -71,7 +72,7 @@ public class GeneratedExperimentData implements ThresoldConstants {
                     createEvalutionFiles(outputDir, prediction, rule, pair.getValue1(), associationRulesExperiment);
                 }
                 else
-                    throw new Exception("NO files found for "+prediction+" "+rule);
+                    throw new Exception("NO files found for "+prediction+" "+rawFileDir);
             }
         }
     }
@@ -145,13 +146,12 @@ public class GeneratedExperimentData implements ThresoldConstants {
                 }
                 String nGram = lineInfo.getWord();
                 
-                Pair<Boolean, String> pair = lemmatizer.getLemmaWithoutPos(nGram);
+                /*Pair<Boolean, String> pair = lemmatizer.getLemmaWithoutPos(nGram);
                 if (pair.getValue0()) {
                     nGram = pair.getValue1();
                     System.out.println(word+" nGram:"+nGram);
-                }
+                }*/
                 nGram = nGram.toLowerCase().trim().strip();
-                
                 //LOGGER.log(Level.INFO,  "index:" + index + " total::" + numberOfRules + " nGram:" + nGram);
                 //System.out.println( "index:" + index + " total::" + numberOfRules + " nGram:" + nGram);
                 List<LineInfo> results = new ArrayList<LineInfo>();
@@ -221,46 +221,6 @@ public class GeneratedExperimentData implements ThresoldConstants {
         }
         return false;
     }
-
-    /*public static void readMR(List<File> files) throws IOException, Exception {
-        for (File file : files) {
-            String fileName = file.getName();
-            String[] info = fileName.split("-");
-            String[] parameters = findParameter(info);
-            String key = parameters[0] + "-" + parameters[1] + "-" + parameters[2];
-            System.out.println("parameters[0]:" + parameters[0]);
-
-            ObjectMapper mapper = new ObjectMapper();
-            MR resultTemp = mapper.readValue(file, MR.class);
-            break;
-        }
-    }*/
-    
-     /* private static NewResultsMR readFromJsonFile(List<File> files) throws IOException, Exception {
-        Map<String, List<Rule>> classDistributions = new TreeMap<String, List<Rule>>();
-        Discription description = null;
-        Integer totalFiles = files.size();
-        Integer index = 0;
-        for (File file : files) {
-            index = index + 1;
-            String fileName = file.getName();
-            String[] info = fileName.split("-");
-            String[] parameters = findParameter(info);
-            String key = parameters[0] + "-" + parameters[1] + "-" + parameters[2];
-
-            //LOGGER.log(Level.INFO, "now processing index:" + index + " total:" + totalFiles + "  file:" + fileName);
-            ObjectMapper mapper = new ObjectMapper();
-            mapper.configure(JsonParser.Feature.ALLOW_UNQUOTED_CONTROL_CHARS, true);
-            NewResultsMR resultTemp = mapper.readValue(file, NewResultsMR.class);
-            description = resultTemp.getDescription();
-            List<Rule> local = resultTemp.getDistributions();
-            System.out.println("@@@@@@@@@@@@ "+description.getClassName()+" "+local.size());
-            
-            //classDistributions.put(parameters[0], local);
-        }
-        //System.out.println(description+" "+local.size());
-        return new NewResultsMR(description, classDistributions);
-    }*/
     
     public static void main(String[] args) throws Exception {
         String rawFileDir = null;
@@ -269,29 +229,39 @@ public class GeneratedExperimentData implements ThresoldConstants {
         String baseDir = "/home/elahi/dbpediaFiles/unlimited/unlimited/";
         Logger LOGGER = Logger.getLogger(GeneratedExperimentData.class.getName());
         String outputDir = qald9Dir;
-        Map<String, ThresoldsExperiment> associationRulesExperiment = Evaluation.createExperiments();
+        String type=null;
+        Map<String, ThresoldsExperiment> associationRulesExperiment =new HashMap<String, ThresoldsExperiment>();
 
         List<String> predictLinguisticGivenKB = new ArrayList<String>(Arrays.asList(
-        predict_l_for_o_given_p
+        //predict_l_for_o_given_p
         //predict_l_for_s_given_po
-        //predict_l_for_s_given_o
+        predict_l_for_s_given_o
         //predict_l_for_o_given_p,
         //predict_l_for_o_given_s,
         //predict_l_for_o_given_sp
         ));
         List<String> interestingness = new ArrayList<String>();
         interestingness.add(ThresoldConstants.Cosine);
-        /*interestingness.add(ThresoldConstants.Coherence);
+        interestingness.add(ThresoldConstants.Coherence);
         interestingness.add(ThresoldConstants.AllConf);
         interestingness.add(ThresoldConstants.MaxConf);
         interestingness.add(ThresoldConstants.Kulczynski);
         interestingness.add(ThresoldConstants.IR);
-        */
-        Lemmatizer lemmatizer=new Lemmatizer ();
+        
+        
+       
+          
 
         for (String prediction : predictLinguisticGivenKB) {
+              if (prediction.equals(predict_l_for_s_given_po)
+                    || prediction.equals(predict_l_for_s_given_o)) {
+                type = ThresoldConstants.OBJECT;
+            }else if(prediction.contains(predict_l_for_o_given_p)){
+                  type = ThresoldConstants.PREDICATE;
+            }
+            associationRulesExperiment = Evaluation.createExperiments(type);
             for (String rule : interestingness) {
-                GeneratedExperimentData ProcessFile = new GeneratedExperimentData(lemmatizer,baseDir, outputDir, prediction, rule, associationRulesExperiment, LOGGER);
+                GeneratedExperimentData ProcessFile = new GeneratedExperimentData(baseDir, outputDir, prediction, rule, associationRulesExperiment, LOGGER);
 
             }
         }

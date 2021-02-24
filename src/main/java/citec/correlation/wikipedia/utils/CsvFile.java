@@ -5,6 +5,7 @@
  */
 package citec.correlation.wikipedia.utils;
 
+import antlr.ByteBuffer;
 import citec.correlation.wikipedia.analyzer.Analyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
 import citec.correlation.wikipedia.analyzer.logging.LogFilter;
@@ -26,6 +27,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
@@ -177,7 +179,7 @@ public class CsvFile implements CsvConstants {
         }
     }
 
-    public void readPropertyCsv(String filename,String predict) throws FileNotFoundException, IOException, CsvException, Exception {
+    public void readPropertyCsv(File filename,String predict,String interestingness,PropertyCSV propertyCSV) throws FileNotFoundException, IOException, CsvException, Exception {
         List<String[]> rows = new ArrayList<String[]>();
         List<LineInfo> lineInfos = new ArrayList<LineInfo>();
         Map<String, Unit> qald = new TreeMap<String, Unit>();
@@ -193,7 +195,7 @@ public class CsvFile implements CsvConstants {
             if (index == 0) {
                 //this.qaldHeader = row;
             } else {
-                LineInfo lineInfo = new LineInfo(index,row,predict,LOGGER);
+                LineInfo lineInfo = new LineInfo(index,row,predict,interestingness,propertyCSV,LOGGER);
                 if(lineInfo.getValidFlag())
                   lineInfos.add(lineInfo);
             }
@@ -355,6 +357,10 @@ public class CsvFile implements CsvConstants {
         qaldFile = qald9Dir + GOLD + "NN-object-qald9.csv";
         CsvFile csvFile = new CsvFile(qaldFile);
         csvFile.readQaldCsv(qaldFile);*/
+        
+         String baseDir = "/home/elahi/dbpediaFiles/unlimited/unlimited/";
+
+
         LOGGER = Logger.getLogger(CsvFile.class.getName());
         LOGGER.setLevel(Level.FINE);
         LOGGER.setLevel(Level.SEVERE);
@@ -375,23 +381,44 @@ public class CsvFile implements CsvConstants {
         }
         Set<String> classNames = new HashSet<String>();
         classNames.add("Book");
+        
+        Set<String> predictLinguisticLocal=new HashSet<String>();
+        predictLinguisticLocal.add(predict_localized_l_for_s_given_p);
+        
+    
       
-        for (String prediction : predictLinguisticGivenKB) {
-            if (!prediction.contains(predict_l_for_o_given_p)) {
+        for (String prediction : predictLinguisticLocal) {
+            if (!prediction.contains(predict_localized_l_for_s_given_p)) {
                 continue;
             }
-            for (String className : classNames) {
+            ///for (String className : classNames) {
                 String rawDir = "raw";
-                String predictFile = qald9Dir + "/" + prediction + "/" + rawDir + "/" + "rules-" + className + "-predict_l_for_s_given_p-100-10000-4-5-5-5-5.csv";
-                CsvFile csvFile = new CsvFile(predictFile,LOGGER);
+                //String predictFile = qald9Dir + "/" + prediction + "/" + rawDir + "/" + "rules-" + className + "-predict_l_for_s_given_p-100-10000-4-5-5-5-5.csv";
+                String predictDir = baseDir + "/" +predict_localized_l_for_s_given_p + "/";
+                List<File> files = FileFolderUtils.getFiles(predictDir, ".csv");
+               for (File file : files) {
+                PropertyCSV propertyCSV = null;
+                if (file.getName().contains(PropertyCSV.localized)) {
+                    propertyCSV = new PropertyCSV(PropertyCSV.localized);
+                    CsvFile csvFile = new CsvFile(predictDir + file.getName(), LOGGER);
+                    csvFile.readPropertyCsv(file, prediction,Cosine,propertyCSV);
+                } else {
+
+                }
+
+                break;
+            }
+                /*CsvFile csvFile = new CsvFile(predictFile,LOGGER);
                 File tmpDir = new File(predictFile);
                 System.out.println(predictFile);
                 boolean exists = tmpDir.exists();
                 System.out.println(exists);
-                csvFile.readPropertyCsv(predictFile, prediction);
-            }
+                csvFile.readPropertyCsv(predictFile, prediction);*/
+            //}
 
         }
+        
+        
 
     }
 

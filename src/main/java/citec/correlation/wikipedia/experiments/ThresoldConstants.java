@@ -49,6 +49,8 @@ public interface ThresoldConstants {
     public static final String predict_l_for_s_given_po = "predict_l_for_s_given_po";
     public static final String predict_l_for_o_given_s ="predict_l_for_o_given_s";
     public static final String predict_l_for_o_given_sp="predict_l_for_o_given_sp";
+    
+    public static final String predict_localized_l_for_s_given_p="predict_localized_l_for_s_given_p";
 
 
     public static final String predict_p_for_s_given_l = "predict_p_for_s_given_l";

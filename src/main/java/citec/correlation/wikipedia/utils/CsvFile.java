@@ -7,11 +7,16 @@ package citec.correlation.wikipedia.utils;
 
 import citec.correlation.wikipedia.analyzer.Analyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
+import citec.correlation.wikipedia.analyzer.logging.LogFilter;
+import citec.correlation.wikipedia.analyzer.logging.LogFormatter;
+import citec.correlation.wikipedia.analyzer.logging.LogHandler;
 import citec.correlation.wikipedia.dic.qald.Unit;
 import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
 import citec.correlation.wikipedia.main.CsvConstants;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import citec.correlation.wikipedia.experiments.ThresoldsExperiment;
+import citec.correlation.wikipedia.main.Evaluation;
+import static citec.correlation.wikipedia.parameters.DirectoryLocation.resourceDir;
 import citec.correlation.wikipedia.results.LineInfo;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
@@ -29,6 +34,9 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Stack;
 import java.util.TreeMap;
+import java.util.logging.ConsoleHandler;
+import java.util.logging.FileHandler;
+import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -44,7 +52,7 @@ public class CsvFile implements CsvConstants {
     private Map<String, Integer> interestingnessIndexes = new HashMap<String, Integer>();
 
     private List<String[]> rows = new ArrayList<String[]>();
-    private Logger LOGGER = null;
+    private static Logger LOGGER = null;
 
     public CsvFile(String filename, Logger LOGGER) {
         this.filename = filename;
@@ -185,12 +193,15 @@ public class CsvFile implements CsvConstants {
             if (index == 0) {
                 //this.qaldHeader = row;
             } else {
-                LineInfo lineInfo = new LineInfo(row,predict);
-                lineInfos.add(lineInfo);
+                LineInfo lineInfo = new LineInfo(index,row,predict,LOGGER);
+                if(lineInfo.getValidFlag())
+                  lineInfos.add(lineInfo);
             }
 
             index = index + 1;
         }
+        
+        System.out.println(lineInfos.size());
 
     }
 
@@ -344,18 +355,43 @@ public class CsvFile implements CsvConstants {
         qaldFile = qald9Dir + GOLD + "NN-object-qald9.csv";
         CsvFile csvFile = new CsvFile(qaldFile);
         csvFile.readQaldCsv(qaldFile);*/
+        LOGGER = Logger.getLogger(CsvFile.class.getName());
+        LOGGER.setLevel(Level.FINE);
+        LOGGER.setLevel(Level.SEVERE);
+        LOGGER.setLevel(Level.CONFIG);
+        LOGGER.setLevel(Level.FINE);
+        LOGGER.addHandler(new ConsoleHandler());
+        LOGGER.addHandler(new LogHandler());
+
+        //LOGGER.log(Level.INFO, "generate experiments given thresolds");
+        try {
+            //Handler fileHandler = new FileHandler(resourceDir + "logger.log", 2000, 1000);
+            Handler fileHandler = new FileHandler(resourceDir + "logger.log");
+            fileHandler.setFormatter(new LogFormatter());
+            fileHandler.setFilter(new LogFilter());
+            LOGGER.addHandler(fileHandler);
+        } catch (SecurityException | IOException e) {
+            e.printStackTrace();
+        }
         Set<String> classNames = new HashSet<String>();
         classNames.add("Book");
+      
+        for (String prediction : predictLinguisticGivenKB) {
+            if (!prediction.contains(predict_l_for_o_given_p)) {
+                continue;
+            }
+            for (String className : classNames) {
+                String rawDir = "raw";
+                String predictFile = qald9Dir + "/" + prediction + "/" + rawDir + "/" + "rules-" + className + "-predict_l_for_s_given_p-100-10000-4-5-5-5-5.csv";
+                CsvFile csvFile = new CsvFile(predictFile,LOGGER);
+                File tmpDir = new File(predictFile);
+                System.out.println(predictFile);
+                boolean exists = tmpDir.exists();
+                System.out.println(exists);
+                csvFile.readPropertyCsv(predictFile, prediction);
+            }
 
-        String rawDir = "raw";
-        String predictFile = qald9Dir + "/" + predict_l_for_o_given_p + "/" + rawDir + "/" + "rules-Book-predict_l_for_s_given_p-100-10000-4-5-5-5-5.csv";
-        CsvFile csvFile = new CsvFile(predictFile);
-        File tmpDir = new File(predictFile);
-        System.out.println(predictFile);
-        boolean exists = tmpDir.exists();
-        System.out.println(exists);
-        
-         csvFile.readPropertyCsv(predictFile,predict_l_for_o_given_p);
+        }
 
     }
 

@@ -43,6 +43,8 @@ public class LineInfo implements ThresoldConstants{
     private  static String PROPERTY = "property";
     private   String checkedAssociationRule = null;
     private   String checkedAssociationRuleValue = null;
+    private  Logger LOGGER = null;
+
 
 
     private Map<String, Double> probabilityValue = new TreeMap<String, Double>();
@@ -56,16 +58,20 @@ public class LineInfo implements ThresoldConstants{
         
     }
     
-    public LineInfo(String[] row,String prediction) throws Exception {
+    public LineInfo(Integer index,String[] row,String prediction,Logger logger) throws Exception {
+        this.LOGGER=logger;
         Integer classIndex=0,ruletypeIndex=1,linguisticPatternIndex=2,patterntypeIndex=3;
         Integer subjectIndex=4,predicateIndex=5,objectIndex=6,stringIndex=18;
-       
-        System.out.println("stringIndex:"+row[stringIndex]);
-        System.out.println("classIndex:"+row[classIndex]);
-        System.out.println("predicateIndex:"+row[predicateIndex]);
         
+        if (row.length <= 18) {
+            this.validFlag = false;
+            LOGGER.log(Level.INFO, "line No ::" + index + " line does not work!!!!!!!!!!");
+            return;
+        }
+         
+
         this.line =row[stringIndex];
-        this.className = row[classIndex];
+        this.className = setClassName(row[classIndex]);
 
         if (prediction.contains(predict_l_for_s_given_po)) {
             //this.predicate = this.setProperty(rule);
@@ -78,9 +84,9 @@ public class LineInfo implements ThresoldConstants{
             //this.subject = this.setSubject(rule);
             //this.predicate = this.setProperty(rule);
         } else if (prediction.contains(predict_l_for_o_given_p)) {
-            this.predicate =row[predicateIndex]; 
+            this.predicate =this.setProperty(row[predicateIndex]); 
         } else if (prediction.contains(predict_l_for_s_given_p)) {
-            this.predicate =row[predicateIndex]; 
+            this.predicate =this.setProperty(row[predicateIndex]); 
         }
 
         this.wordOriginal = row[linguisticPatternIndex];
@@ -96,11 +102,11 @@ public class LineInfo implements ThresoldConstants{
             String str = this.processWords(this.wordOriginal);
             this.getPosTag(str);
             this.setRule();
-            this.setProbabilityValue(interestingness,row);
+            this.setProbabilityValue(index,interestingness,row);
         }
     }
     
-    private void setProbabilityValue(LinkedHashSet<String> interestingness, String[] row) {
+    private void setProbabilityValue(Integer index,LinkedHashSet<String> interestingness, String[] row) {
         Integer condABIndex=7,condBAIndex=8,supAIndex=9,supBIndex=10,supABIndex=11,AllConfIndex=12,CoherenceIndex=13,CosineIndex=14,IRIndex=15,KulczynskiIndex=16,MaxConfIndex=17;
         Double givenSupA = Double.parseDouble(row[supAIndex]);
         Double givenSupB = Double.parseDouble(row[supBIndex]);
@@ -112,18 +118,10 @@ public class LineInfo implements ThresoldConstants{
         Double givenIR = Double.parseDouble(row[IRIndex]);
         Double givenKulczynski = Double.parseDouble(row[KulczynskiIndex]);
         Double givenMaxConf = Double.parseDouble(row[MaxConfIndex]);
-        System.out.println("supAIndex:"+row[supAIndex]);
-        System.out.println("supBIndex:"+row[supBIndex]);
-        System.out.println("condABIndex:"+row[condABIndex]);
-        System.out.println("condBAIndex:"+row[condBAIndex]);
-        System.out.println("CosineIndex:"+row[CosineIndex]);
-        System.out.println("AllConfIndex:"+row[AllConfIndex]);
-        System.out.println("CoherenceIndex:"+row[CoherenceIndex]);
-        System.out.println("CosineIndex:"+row[CosineIndex]);
-        System.out.println("KulczynskiIndex:"+row[KulczynskiIndex]);
-        System.out.println("IRIndex:"+row[IRIndex]);
+       
+        LOGGER.log(Level.INFO, "index:" +index +" class:" + this.className +" predicate:" + this.predicate+ " supA:"+row[supAIndex]+" supB:"+row[supBIndex]+" condAB:"+row[condABIndex]+" condBA:"+row[condBAIndex]+" Cosine:"+row[CosineIndex]+" "+"AllConf:"+row[AllConfIndex]+" Coherence:"+row[CoherenceIndex]+" Kulczynski:"+row[KulczynskiIndex]+" IR:"+row[IRIndex]);
 
-        /*this.probabilityValue.put(supA, givenSupA);
+        this.probabilityValue.put(supA, givenSupA);
         this.probabilityValue.put(supB, givenSupB);
         this.probabilityValue.put(condAB, givenCondAB);
         this.probabilityValue.put(condBA, givenCondBA);
@@ -139,7 +137,7 @@ public class LineInfo implements ThresoldConstants{
             this.probabilityValue.put(MaxConf, givenMaxConf);
         } else if (interestingness.contains(IR)) {
             this.probabilityValue.put(IR, givenIR);
-        }*/
+        }
     }
 
     
@@ -504,6 +502,31 @@ public class LineInfo implements ThresoldConstants{
 
         }
         return property;
+    }
+    
+    private String setProperty(String property) {
+        String prefix = null;
+        if (property.contains("http:")) {
+            if (property.contains("http://dbpedia.org/ontology/")) {
+                property=property.replace("http://dbpedia.org/ontology/", "");
+                prefix = "dbo:";
+            } else if (property.contains("http://dbpedia.org/property/")) {
+                property=property.replace("http://dbpedia.org/property/", "");
+                prefix = "dbp:";
+            }
+
+            property = prefix + property;
+
+        }
+        return property;
+    }
+    private String setClassName(String className) {
+        String prefix = null;
+        if (className.contains("/")) {
+            className = className.replace("http://dbpedia.org/ontology/", "");
+        }
+
+        return className;
     }
 
     public String getCheckedAssociationRule() {

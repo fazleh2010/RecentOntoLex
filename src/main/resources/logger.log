@@ -1,106 +1,455 @@
-INFO::****************************Experiment START ************************************************************************
-INFO::thresholds:: AllConf-nGram_1-numRule_100-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.05
-INFO::parts-of-speech:: NN
-INFO::NN File that contains all patterns within this thresholds:NN-1-AllConf-nGram_1-numRule_100-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.05.json
-INFO::qald-9 file taken for evalution:src/main/resources/qald9/data/gold//NN-object-qald9.csv
-WARNING::lexiconWordKbs: {berlin={birthPlace=0.105514705882353}, book={author=0.0941176470588235}, bridge={crosses=0.0974264705882353}, one known species={familia=0.0716911764705882}}
-INFO::>> checking qald pattern::berlin  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> >>>> Proposed results:predicate:: 
-1 birthPlace
-INFO::>>>> >>>>  QALD KB :birthPlace >>>> >>>> FOUND : >>>> >>>> RANK::1 RECIPROCAL RANK:1.0
-
-
-INFO::>> checking qald pattern::berlin  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate:: 
-1 birthPlace
-INFO::>>>>  QALD KB :deathPlace >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> checking qald pattern::berlin  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate:: 
-1 birthPlace
-INFO::>>>>  QALD KB :targetAirport >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> checking qald pattern::book  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> >>>> Proposed results:predicate:: 
-1 author
-INFO::>>>> >>>>  QALD KB :author >>>> >>>> FOUND : >>>> >>>> RANK::1 RECIPROCAL RANK:1.0
-
-
-INFO::>> checking qald pattern::book  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> >>>> Proposed results:predicate:: 
-1 author
-INFO::>>>> >>>>  QALD KB :author >>>> >>>> FOUND : >>>> >>>> RANK::1 RECIPROCAL RANK:1.0
-
-
-INFO::>> checking qald pattern::book  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate:: 
-1 author
-INFO::>>>>  QALD KB :type >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> checking qald pattern::book  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate:: 
-1 author
-INFO::>>>>  QALD KB :type >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> checking qald pattern::book  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> >>>> Proposed results:predicate:: 
-1 author
-INFO::>>>> >>>>  QALD KB :author >>>> >>>> FOUND : >>>> >>>> RANK::1 RECIPROCAL RANK:1.0
-
-
-INFO::>> checking qald pattern::book  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> >>>> Proposed results:predicate:: 
-1 author
-INFO::>>>> >>>>  QALD KB :author >>>> >>>> FOUND : >>>> >>>> RANK::1 RECIPROCAL RANK:1.0
-
-
-INFO::>> checking qald pattern::book  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate:: 
-1 author
-INFO::>>>>  QALD KB :type >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> checking qald pattern::book  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate:: 
-1 author
-INFO::>>>>  QALD KB :type >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> checking qald pattern::book  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate:: 
-1 author
-INFO::>>>>  QALD KB :type >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> checking qald pattern::book  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate:: 
-1 author
-INFO::>>>>  QALD KB :   >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> checking qald pattern::bridge  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> >>>> Proposed results:predicate:: 
-1 crosses
-INFO::>>>> >>>>  QALD KB :crosses >>>> >>>> FOUND : >>>> >>>> RANK::1 RECIPROCAL RANK:1.0
-
-
-INFO::>> checking qald pattern::bridge  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> >>>> Proposed results:predicate:: 
-1 crosses
-INFO::>>>> >>>>  QALD KB :crosses >>>> >>>> FOUND : >>>> >>>> RANK::1 RECIPROCAL RANK:1.0
-
-
-INFO::>> checking qald pattern::bridge  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate:: 
-1 crosses
-INFO::>>>>  QALD KB :architect >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::#### #### #### #### Mean Reciprocal Value::(0.4375/16.0)=0.4375
-INFO::MEAN RECIPROCAL::0.437500000000
-INFO::***** ***** ***** ****** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
-INFO::**********************************************************************************************************************
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::Economist
+INFO::Holiday
+INFO::Chef
+INFO::Glacier
+INFO::Dam
+INFO::HockeyTeam
+INFO::DartsPlayer
+INFO::Planet
+INFO::Castle
+INFO::Painter
+INFO::GrandPrix
+INFO::GreenAlga
+INFO::Device
+INFO::Cave
+INFO::Diocese
+INFO::CanadianFootballTeam
+INFO::Drug
+INFO::Photographer
+INFO::Cheese
+INFO::Film
+INFO::Magazine
+INFO::Philosopher
+INFO::Grape
+INFO::FictionalCharacter
+INFO::HandballTeam
+INFO::Cardinal
+INFO::Journalist
+INFO::Bacteria
+INFO::Person
+INFO::Fashion
+INFO::BadmintonPlayer
+INFO::HistoricBuilding
+INFO::FigureSkater
+INFO::Gymnast
+INFO::Actor
+INFO::GaelicGamesPlayer
+INFO::GivenName
+INFO::Fish
+INFO::Garden
+INFO::Canal
+INFO::GovernmentAgency
+INFO::HistoricPlace
+INFO::Disease
+INFO::Governor
+INFO::Place
+INFO::Earthquake
+INFO::Galaxy
+INFO::FashionDesigner
+INFO::GolfTournament
+INFO::HandballPlayer
+INFO::Canoeist
+INFO::Historian
+INFO::HollywoodCartoon
+INFO::Game
+INFO::LacrossePlayer
+INFO::EducationalInstitution
+INFO::Plant
+INFO::Guitarist
+INFO::FilmFestival
+INFO::Park
+INFO::Mammal
+INFO::Lake
+INFO::Food
+INFO::GolfCourse
+INFO::Jockey
+INFO:: index1 experiment size::1 Cosine-nGram_5-numRule_10-supA_1.0-supB_1.0-condAB_0.001-condBA_0.001-Cosine_0.001
+INFO::generate experiments given thresolds
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::Economist
+INFO::Holiday
+INFO::Chef
+INFO::Glacier
+INFO::Dam
+INFO::HockeyTeam
+INFO::DartsPlayer
+INFO::Planet
+INFO::Castle
+INFO::Painter
+INFO::GrandPrix
+INFO::GreenAlga
+INFO::Device
+INFO::Cave
+INFO::Diocese
+INFO::CanadianFootballTeam
+INFO::Drug
+INFO::Photographer
+INFO::Cheese
+INFO::Film
+INFO::Magazine
+INFO::Philosopher
+INFO::Grape
+INFO::FictionalCharacter
+INFO::HandballTeam
+INFO::Cardinal
+INFO::Journalist
+INFO::Bacteria
+INFO::Person
+INFO::Fashion
+INFO::BadmintonPlayer
+INFO::HistoricBuilding
+INFO::FigureSkater
+INFO::Gymnast
+INFO::Actor
+INFO::GaelicGamesPlayer
+INFO::GivenName
+INFO::Fish
+INFO::Garden
+INFO::Canal
+INFO::GovernmentAgency
+INFO::HistoricPlace
+INFO::Disease
+INFO::Governor
+INFO::Place
+INFO::Earthquake
+INFO::Galaxy
+INFO::FashionDesigner
+INFO::GolfTournament
+INFO::HandballPlayer
+INFO::Canoeist
+INFO::Historian
+INFO::HollywoodCartoon
+INFO::Game
+INFO::LacrossePlayer
+INFO::EducationalInstitution
+INFO::Plant
+INFO::Guitarist
+INFO::FilmFestival
+INFO::Park
+INFO::Mammal
+INFO::Lake
+INFO::Food
+INFO::GolfCourse
+INFO::Jockey
+INFO:: index1 experiment size::1 Coherence-nGram_5-numRule_10-supA_1.0-supB_1.0-condAB_0.001-condBA_0.001-Coherence_0.001
+INFO::generate experiments given thresolds
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::Economist
+INFO::Holiday
+INFO::Chef
+INFO::Glacier
+INFO::Dam
+INFO::HockeyTeam
+INFO::DartsPlayer
+INFO::Planet
+INFO::Castle
+INFO::Painter
+INFO::GrandPrix
+INFO::GreenAlga
+INFO::Device
+INFO::Cave
+INFO::Diocese
+INFO::CanadianFootballTeam
+INFO::Drug
+INFO::Photographer
+INFO::Cheese
+INFO::Film
+INFO::Magazine
+INFO::Philosopher
+INFO::Grape
+INFO::FictionalCharacter
+INFO::HandballTeam
+INFO::Cardinal
+INFO::Journalist
+INFO::Bacteria
+INFO::Person
+INFO::Fashion
+INFO::BadmintonPlayer
+INFO::HistoricBuilding
+INFO::FigureSkater
+INFO::Gymnast
+INFO::Actor
+INFO::GaelicGamesPlayer
+INFO::GivenName
+INFO::Fish
+INFO::Garden
+INFO::Canal
+INFO::GovernmentAgency
+INFO::HistoricPlace
+INFO::Disease
+INFO::Governor
+INFO::Place
+INFO::Earthquake
+INFO::Galaxy
+INFO::FashionDesigner
+INFO::GolfTournament
+INFO::HandballPlayer
+INFO::Canoeist
+INFO::Historian
+INFO::HollywoodCartoon
+INFO::Game
+INFO::LacrossePlayer
+INFO::EducationalInstitution
+INFO::Plant
+INFO::Guitarist
+INFO::FilmFestival
+INFO::Park
+INFO::Mammal
+INFO::Lake
+INFO::Food
+INFO::GolfCourse
+INFO::Jockey
+INFO:: index1 experiment size::1 AllConf-nGram_5-numRule_10-supA_1.0-supB_1.0-condAB_0.001-condBA_0.001-AllConf_0.001
+INFO::generate experiments given thresolds
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::Economist
+INFO::Holiday
+INFO::Chef
+INFO::Glacier
+INFO::Dam
+INFO::HockeyTeam
+INFO::DartsPlayer
+INFO::Planet
+INFO::Castle
+INFO::Painter
+INFO::GrandPrix
+INFO::GreenAlga
+INFO::Device
+INFO::Cave
+INFO::Diocese
+INFO::CanadianFootballTeam
+INFO::Drug
+INFO::Photographer
+INFO::Cheese
+INFO::Film
+INFO::Magazine
+INFO::Philosopher
+INFO::Grape
+INFO::FictionalCharacter
+INFO::HandballTeam
+INFO::Cardinal
+INFO::Journalist
+INFO::Bacteria
+INFO::Person
+INFO::Fashion
+INFO::BadmintonPlayer
+INFO::HistoricBuilding
+INFO::FigureSkater
+INFO::Gymnast
+INFO::Actor
+INFO::GaelicGamesPlayer
+INFO::GivenName
+INFO::Fish
+INFO::Garden
+INFO::Canal
+INFO::GovernmentAgency
+INFO::HistoricPlace
+INFO::Disease
+INFO::Governor
+INFO::Place
+INFO::Earthquake
+INFO::Galaxy
+INFO::FashionDesigner
+INFO::GolfTournament
+INFO::HandballPlayer
+INFO::Canoeist
+INFO::Historian
+INFO::HollywoodCartoon
+INFO::Game
+INFO::LacrossePlayer
+INFO::EducationalInstitution
+INFO::Plant
+INFO::Guitarist
+INFO::FilmFestival
+INFO::Park
+INFO::Mammal
+INFO::Lake
+INFO::Food
+INFO::GolfCourse
+INFO::Jockey
+INFO:: index1 experiment size::1 MaxConf-nGram_5-numRule_10-supA_1.0-supB_1.0-condAB_0.001-condBA_0.001-MaxConf_0.001
+INFO::generate experiments given thresolds
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::Economist
+INFO::Holiday
+INFO::Chef
+INFO::Glacier
+INFO::Dam
+INFO::HockeyTeam
+INFO::DartsPlayer
+INFO::Planet
+INFO::Castle
+INFO::Painter
+INFO::GrandPrix
+INFO::GreenAlga
+INFO::Device
+INFO::Cave
+INFO::Diocese
+INFO::CanadianFootballTeam
+INFO::Drug
+INFO::Photographer
+INFO::Cheese
+INFO::Film
+INFO::Magazine
+INFO::Philosopher
+INFO::Grape
+INFO::FictionalCharacter
+INFO::HandballTeam
+INFO::Cardinal
+INFO::Journalist
+INFO::Bacteria
+INFO::Person
+INFO::Fashion
+INFO::BadmintonPlayer
+INFO::HistoricBuilding
+INFO::FigureSkater
+INFO::Gymnast
+INFO::Actor
+INFO::GaelicGamesPlayer
+INFO::GivenName
+INFO::Fish
+INFO::Garden
+INFO::Canal
+INFO::GovernmentAgency
+INFO::HistoricPlace
+INFO::Disease
+INFO::Governor
+INFO::Place
+INFO::Earthquake
+INFO::Galaxy
+INFO::FashionDesigner
+INFO::GolfTournament
+INFO::HandballPlayer
+INFO::Canoeist
+INFO::Historian
+INFO::HollywoodCartoon
+INFO::Game
+INFO::LacrossePlayer
+INFO::EducationalInstitution
+INFO::Plant
+INFO::Guitarist
+INFO::FilmFestival
+INFO::Park
+INFO::Mammal
+INFO::Lake
+INFO::Food
+INFO::GolfCourse
+INFO::Jockey
+INFO:: index1 experiment size::1 Kulczynski-nGram_5-numRule_10-supA_1.0-supB_1.0-condAB_0.001-condBA_0.001-Kulczynski_0.001
+INFO::generate experiments given thresolds
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::GolfPlayer
+INFO::Economist
+INFO::Holiday
+INFO::Chef
+INFO::Glacier
+INFO::Dam
+INFO::HockeyTeam
+INFO::DartsPlayer
+INFO::Planet
+INFO::Castle
+INFO::Painter
+INFO::GrandPrix
+INFO::GreenAlga
+INFO::Device
+INFO::Cave
+INFO::Diocese
+INFO::CanadianFootballTeam
+INFO::Drug
+INFO::Photographer
+INFO::Cheese
+INFO::Film
+INFO::Magazine
+INFO::Philosopher
+INFO::Grape
+INFO::FictionalCharacter
+INFO::HandballTeam
+INFO::Cardinal
+INFO::Journalist
+INFO::Bacteria
+INFO::Person
+INFO::Fashion
+INFO::BadmintonPlayer
+INFO::HistoricBuilding
+INFO::FigureSkater
+INFO::Gymnast
+INFO::Actor
+INFO::GaelicGamesPlayer
+INFO::GivenName
+INFO::Fish
+INFO::Garden
+INFO::Canal
+INFO::GovernmentAgency
+INFO::HistoricPlace
+INFO::Disease
+INFO::Governor
+INFO::Place
+INFO::Earthquake
+INFO::Galaxy
+INFO::FashionDesigner
+INFO::GolfTournament
+INFO::HandballPlayer
+INFO::Canoeist
+INFO::Historian
+INFO::HollywoodCartoon
+INFO::Game
+INFO::LacrossePlayer
+INFO::EducationalInstitution
+INFO::Plant
+INFO::Guitarist
+INFO::FilmFestival
+INFO::Park
+INFO::Mammal
+INFO::Lake
+INFO::Food
+INFO::GolfCourse
+INFO::Jockey
+INFO:: index1 experiment size::1 IR-nGram_5-numRule_10-supA_1.0-supB_1.0-condAB_0.001-condBA_0.001-IR_0.001

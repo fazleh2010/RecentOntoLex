@@ -105,7 +105,8 @@ public class GeneratedExperimentData implements ThresoldConstants {
 
             }
             LOGGER.log(Level.INFO, " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
-            //System.out.println( outputDir + " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
+           break; 
+           //System.out.println( outputDir + " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
         }
     }
 
@@ -138,12 +139,16 @@ public class GeneratedExperimentData implements ThresoldConstants {
                 }
                 LineInfo lineInfo = new LineInfo(dbo_prediction, interestingness, line);
 
-                if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
+                
+                //temporarily close...
+                /*if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
                     continue;
                 }
                 if (!lineInfo.getValidFlag()) {
                     continue;
-                }
+                }*/
+                
+                
                 //System.out.println("lineInfo.getnGramNumber():" + lineInfo.getnGramNumber());
                 //System.out.println("thresoldELement.getN_gram():" + thresoldELement.getN_gram());
                 /*if (lineInfo.getnGramNumber() != thresoldELement.getN_gram()) {
@@ -154,13 +159,19 @@ public class GeneratedExperimentData implements ThresoldConstants {
                 String word = lineInfo.getWord();
                 //System.out.println("@@@@@@@:" + lineInfo.getnGramNumber()+"@@@@@@@@@");
                 //System.out.println("word:" + word);
+                
+                /*if(lineInfo.getWord().contains("born")){
+                    LOGGER.log(Level.INFO, " lineInfo" + lineInfo.getWord() );
+                }
 
                 if (FormatAndMatch.isNumeric(lineInfo.getWord())) {
+                    LOGGER.log(Level.INFO, " number" + lineInfo.getWord() );
                     continue;
                 }
                 if (isKBValid(lineInfo.getObject())) {
+                     LOGGER.log(Level.INFO, " invalidKB" + lineInfo.getWord() );
                     continue;
-                }
+                }*/
                 String nGram = lineInfo.getWord();
                 
                 /*Pair<Boolean, String> pair = lemmatizer.getLemmaWithoutPos(nGram);
@@ -168,7 +179,10 @@ public class GeneratedExperimentData implements ThresoldConstants {
                     nGram = pair.getValue1();
                     System.out.println(word+" nGram:"+nGram);
                 }*/
+                /*nGram = nGram.replaceAll("\\d", "");
+                nGram = nGram.replaceAll("[^a-zA-Z0-9]", "");*
                 nGram = nGram.toLowerCase().trim().strip();
+                nGram = nGram.replaceAll(" ", "_");*/
                 //LOGGER.log(Level.INFO,  "index:" + index + " total::" + numberOfRules + " nGram:" + nGram);
                 //System.out.println( "index:" + index + " total::" + numberOfRules + " nGram:" + nGram);
                 List<LineInfo> results = new ArrayList<LineInfo>();
@@ -202,10 +216,11 @@ public class GeneratedExperimentData implements ThresoldConstants {
             String fileName = file.getName();
             String[] info = fileName.split("-");
             String[] parameters = findParameter(info);
-            String key = parameters[0] + "-" + parameters[1] + "-" + parameters[2];
             CSVReader reader = new CSVReader(new FileReader(file));
             List<String[]> rows = reader.readAll();
             PropertyCSV propertyCSV = null;
+            String className=parameters[2].replace("http%3A%2F%2Fdbpedia.org%2Fontology%2F", "");
+
             //LOGGER.log(Level.INFO, "file.getName()::" + file.getName() );
 
 
@@ -222,15 +237,18 @@ public class GeneratedExperimentData implements ThresoldConstants {
                     continue;
                 } else {
                     index=index+1;
-                    lineInfo = new LineInfo(index, row, dbo_prediction, interestingness, propertyCSV, LOGGER);
+                    lineInfo = new LineInfo(className,index, row, dbo_prediction, interestingness, propertyCSV, LOGGER);
                 }
 
-                //LOGGER.log(Level.INFO, " !!!!!!!!!!!!!!!!!!!index::" + index );
+                LOGGER.log(Level.INFO, lineInfo.getClassName() );
                 if (index >= numberOfRules) {
                     break;
                 }
+                if (!lineInfo.getValidFlag()) {
+                    continue;
+                }
 
-                if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
+                /*if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
                     continue;
                 }
                 if (!lineInfo.getValidFlag()) {
@@ -242,9 +260,13 @@ public class GeneratedExperimentData implements ThresoldConstants {
                 }
                 if (isKBValid(lineInfo.getObject())) {
                     continue;
-                }
+                }*/
                 String nGram = lineInfo.getWord();
+
+                //nGram = nGram.replaceAll("\\d", " ");
+                //nGram = nGram.replaceAll("[^a-zA-Z0-9]", " ");
                 nGram = nGram.toLowerCase().trim().strip();
+                nGram = nGram.replaceAll(" ", "_");
 
                 List<LineInfo> results = new ArrayList<LineInfo>();
                 if (lineLexicon.containsKey(nGram)) {
@@ -256,7 +278,7 @@ public class GeneratedExperimentData implements ThresoldConstants {
                     lineLexicon.put(nGram, results);
                 }
             }
-
+         
         }
 
         lexicon = new Lexicon(qald9Dir);

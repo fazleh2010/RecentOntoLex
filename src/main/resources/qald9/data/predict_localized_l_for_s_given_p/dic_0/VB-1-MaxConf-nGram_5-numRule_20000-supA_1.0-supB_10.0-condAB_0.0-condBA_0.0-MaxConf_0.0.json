@@ -1,0 +1,1534 @@
+[ {
+  "id" : 28,
+  "pattern" : "(born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthname", "MaxConf=1.0", "triple=e dbp:birthname o", "class=Person" ]
+  }
+}, {
+  "id" : 50,
+  "pattern" : "(born_c.",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthYear", "MaxConf=1.0", "triple=e dbo:birthYear o", "class=Person" ]
+  }
+}, {
+  "id" : 66,
+  "pattern" : "(died",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:deathDate", "MaxConf=1.0", "triple=e dbp:deathDate o", "class=Person" ]
+  }
+}, {
+  "id" : 78,
+  "pattern" : "(simplified",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 80,
+  "pattern" : "),_also_known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthYear", "MaxConf=1.0", "triple=e dbo:birthYear o", "class=Person" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "),_better_known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 83,
+  "pattern" : "),_known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:deathDate", "MaxConf=1.0", "triple=e dbo:deathDate o", "class=Person" ]
+  }
+}, {
+  "id" : 85,
+  "pattern" : ");_born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthYear", "MaxConf=1.0", "triple=e dbo:birthYear o", "class=Person" ]
+  }
+}, {
+  "id" : 103,
+  "pattern" : ",_better_known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthName", "MaxConf=1.0", "triple=e dbo:birthName o", "class=Person" ]
+  }
+}, {
+  "id" : 115,
+  "pattern" : "-born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 782,
+  "pattern" : ";_born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:nativeName", "MaxConf=1.0", "triple=e dbp:nativeName o", "class=Person" ]
+  }
+}, {
+  "id" : 791,
+  "pattern" : "acted",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 792,
+  "pattern" : "acting",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 840,
+  "pattern" : "affiliated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 852,
+  "pattern" : "aired",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 860,
+  "pattern" : "also_acted",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 861,
+  "pattern" : "also_appeared",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 862,
+  "pattern" : "also_known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 863,
+  "pattern" : "also_starred",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 864,
+  "pattern" : "also_worked",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 865,
+  "pattern" : "also_wrote",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 917,
+  "pattern" : "announced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 923,
+  "pattern" : "appeared",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 924,
+  "pattern" : "appeared_thirty",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:yearsActive", "MaxConf=1.0", "triple=e dbp:yearsActive o", "class=Person" ]
+  }
+}, {
+  "id" : 925,
+  "pattern" : "appearing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 926,
+  "pattern" : "appears",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 927,
+  "pattern" : "appointed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:nationality", "MaxConf=1.0", "triple=e dbp:nationality o", "class=Person" ]
+  }
+}, {
+  "id" : 968,
+  "pattern" : "arrested",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 974,
+  "pattern" : "assassinated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:deathDate", "MaxConf=1.0", "triple=e dbo:deathDate o", "class=Person" ]
+  }
+}, {
+  "id" : 977,
+  "pattern" : "associated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:occupation", "MaxConf=1.0", "triple=e dbp:occupation o", "class=Person" ]
+  }
+}, {
+  "id" : 981,
+  "pattern" : "attended",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 982,
+  "pattern" : "attending",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1021,
+  "pattern" : "awarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1037,
+  "pattern" : "based",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1042,
+  "pattern" : "became",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1043,
+  "pattern" : "become",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1044,
+  "pattern" : "becoming",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1045,
+  "pattern" : "began",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1047,
+  "pattern" : "began_working",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1048,
+  "pattern" : "beginning",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1050,
+  "pattern" : "believed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1055,
+  "pattern" : "best_known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1060,
+  "pattern" : "better_known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthname", "MaxConf=1.0", "triple=e dbp:birthname o", "class=Person" ]
+  }
+}, {
+  "id" : 1071,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:citizenship", "MaxConf=1.0", "triple=e dbo:citizenship o", "class=Person" ]
+  }
+}, {
+  "id" : 1072,
+  "pattern" : "born_1",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1073,
+  "pattern" : "born_10",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1075,
+  "pattern" : "born_11",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1076,
+  "pattern" : "born_12",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1078,
+  "pattern" : "born_13",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1079,
+  "pattern" : "born_14",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1081,
+  "pattern" : "born_15",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1083,
+  "pattern" : "born_16",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1087,
+  "pattern" : "born_17",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1090,
+  "pattern" : "born_18",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1091,
+  "pattern" : "born_19",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1092,
+  "pattern" : "born_1944",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1093,
+  "pattern" : "born_1947",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1094,
+  "pattern" : "born_1950",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1095,
+  "pattern" : "born_1952",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:nationality", "MaxConf=1.0", "triple=e dbp:nationality o", "class=Person" ]
+  }
+}, {
+  "id" : 1096,
+  "pattern" : "born_1954",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1097,
+  "pattern" : "born_1959",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1098,
+  "pattern" : "born_1960",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1099,
+  "pattern" : "born_1962",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:nationality", "MaxConf=1.0", "triple=e dbp:nationality o", "class=Person" ]
+  }
+}, {
+  "id" : 1100,
+  "pattern" : "born_1963",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:occupation", "MaxConf=1.0", "triple=e dbp:occupation o", "class=Person" ]
+  }
+}, {
+  "id" : 1101,
+  "pattern" : "born_1964",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1102,
+  "pattern" : "born_1965",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1103,
+  "pattern" : "born_1967",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1104,
+  "pattern" : "born_1970",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1105,
+  "pattern" : "born_1971",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1106,
+  "pattern" : "born_1972",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1107,
+  "pattern" : "born_1975",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1108,
+  "pattern" : "born_1976",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1113,
+  "pattern" : "born_2",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1114,
+  "pattern" : "born_20",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1117,
+  "pattern" : "born_21",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1121,
+  "pattern" : "born_22",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1123,
+  "pattern" : "born_23",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1127,
+  "pattern" : "born_24",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1130,
+  "pattern" : "born_25",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1133,
+  "pattern" : "born_26",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1135,
+  "pattern" : "born_27",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1137,
+  "pattern" : "born_28",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1139,
+  "pattern" : "born_29",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1143,
+  "pattern" : "born_3",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1144,
+  "pattern" : "born_30",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1147,
+  "pattern" : "born_31",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1151,
+  "pattern" : "born_4",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1154,
+  "pattern" : "born_5",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1155,
+  "pattern" : "born_6",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1158,
+  "pattern" : "born_7",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1159,
+  "pattern" : "born_8",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1160,
+  "pattern" : "born_9",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1172,
+  "pattern" : "born_died",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:deathPlace", "MaxConf=1.0", "triple=e dbo:deathPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1207,
+  "pattern" : "born_raised",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1220,
+  "pattern" : "brought",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1225,
+  "pattern" : "buried",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:deathPlace", "MaxConf=1.0", "triple=e dbo:deathPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1233,
+  "pattern" : "c.â",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthYear", "MaxConf=1.0", "triple=e dbo:birthYear o", "class=Person" ]
+  }
+}, {
+  "id" : 1235,
+  "pattern" : "called",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1237,
+  "pattern" : "came",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1263,
+  "pattern" : "changed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1298,
+  "pattern" : "co-founded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:knownFor", "MaxConf=1.0", "triple=e dbo:knownFor o", "class=Person" ]
+  }
+}, {
+  "id" : 1312,
+  "pattern" : "commonly_known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:deathDate", "MaxConf=1.0", "triple=e dbo:deathDate o", "class=Person" ]
+  }
+}, {
+  "id" : 1323,
+  "pattern" : "considered",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1324,
+  "pattern" : "considered_one",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1327,
+  "pattern" : "continued",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1334,
+  "pattern" : "created",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:knownFor", "MaxConf=1.0", "triple=e dbo:knownFor o", "class=Person" ]
+  }
+}, {
+  "id" : 1335,
+  "pattern" : "creating",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1338,
+  "pattern" : "credited",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1347,
+  "pattern" : "currently_serves",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1361,
+  "pattern" : "debuted",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1391,
+  "pattern" : "decided",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1413,
+  "pattern" : "developed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1416,
+  "pattern" : "died",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1418,
+  "pattern" : "directed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1419,
+  "pattern" : "directing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:occupation", "MaxConf=1.0", "triple=e dbp:occupation o", "class=Person" ]
+  }
+}, {
+  "id" : 1432,
+  "pattern" : "discovered",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1441,
+  "pattern" : "earned",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1445,
+  "pattern" : "educated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1452,
+  "pattern" : "elected",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1454,
+  "pattern" : "emigrated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:deathPlace", "MaxConf=1.0", "triple=e dbo:deathPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1457,
+  "pattern" : "employed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1468,
+  "pattern" : "entered",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:occupation", "MaxConf=1.0", "triple=e dbp:occupation o", "class=Person" ]
+  }
+}, {
+  "id" : 1480,
+  "pattern" : "established",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:occupation", "MaxConf=1.0", "triple=e dbp:occupation o", "class=Person" ]
+  }
+}, {
+  "id" : 1498,
+  "pattern" : "featured",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1575,
+  "pattern" : "followed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1576,
+  "pattern" : "following",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1581,
+  "pattern" : "found",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1583,
+  "pattern" : "founded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1597,
+  "pattern" : "gained",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1617,
+  "pattern" : "graduated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1627,
+  "pattern" : "grew",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1634,
+  "pattern" : "held",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1635,
+  "pattern" : "helped",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1641,
+  "pattern" : "hired",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1645,
+  "pattern" : "holds",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1653,
+  "pattern" : "hosted",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1667,
+  "pattern" : "identified",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1671,
+  "pattern" : "include",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1672,
+  "pattern" : "included",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1673,
+  "pattern" : "including",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1704,
+  "pattern" : "involved",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1765,
+  "pattern" : "joined",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1821,
+  "pattern" : "killed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:deathDate", "MaxConf=1.0", "triple=e dbo:deathDate o", "class=Person" ]
+  }
+}, {
+  "id" : 1824,
+  "pattern" : "known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:citizenship", "MaxConf=1.0", "triple=e dbo:citizenship o", "class=Person" ]
+  }
+}, {
+  "id" : 1826,
+  "pattern" : "known_professionally",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:deathDate", "MaxConf=1.0", "triple=e dbo:deathDate o", "class=Person" ]
+  }
+}, {
+  "id" : 1855,
+  "pattern" : "leading",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1875,
+  "pattern" : "live",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1876,
+  "pattern" : "lived",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1878,
+  "pattern" : "living",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1888,
+  "pattern" : "lost",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1903,
+  "pattern" : "made",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1904,
+  "pattern" : "made_acting",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:activeYearsStartYear", "MaxConf=1.0", "triple=e dbo:activeYearsStartYear o", "class=Person" ]
+  }
+}, {
+  "id" : 1912,
+  "pattern" : "make",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 1914,
+  "pattern" : "making",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 1951,
+  "pattern" : "married",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2020,
+  "pattern" : "moved",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2057,
+  "pattern" : "named",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2079,
+  "pattern" : "nominated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2087,
+  "pattern" : "noted",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2171,
+  "pattern" : "participated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2188,
+  "pattern" : "performed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2190,
+  "pattern" : "performing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2208,
+  "pattern" : "played",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2210,
+  "pattern" : "playing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2239,
+  "pattern" : "popularly_known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthYear", "MaxConf=1.0", "triple=e dbo:birthYear o", "class=Person" ]
+  }
+}, {
+  "id" : 2251,
+  "pattern" : "presented",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2266,
+  "pattern" : "produced",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:deathDate", "MaxConf=1.0", "triple=e dbo:deathDate o", "class=Person" ]
+  }
+}, {
+  "id" : 2279,
+  "pattern" : "professionally_known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthYear", "MaxConf=1.0", "triple=e dbo:birthYear o", "class=Person" ]
+  }
+}, {
+  "id" : 2290,
+  "pattern" : "published",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2301,
+  "pattern" : "raised",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2304,
+  "pattern" : "received",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2309,
+  "pattern" : "referred",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:nationality", "MaxConf=1.0", "triple=e dbp:nationality o", "class=Person" ]
+  }
+}, {
+  "id" : 2311,
+  "pattern" : "regarded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2314,
+  "pattern" : "released",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2316,
+  "pattern" : "remained",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2317,
+  "pattern" : "renowned",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2319,
+  "pattern" : "represented",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2320,
+  "pattern" : "representing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2325,
+  "pattern" : "resides",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2326,
+  "pattern" : "retired",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2328,
+  "pattern" : "returned",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2346,
+  "pattern" : "rose",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2376,
+  "pattern" : "seen",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2410,
+  "pattern" : "serve",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2411,
+  "pattern" : "served",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:citizenship", "MaxConf=1.0", "triple=e dbo:citizenship o", "class=Person" ]
+  }
+}, {
+  "id" : 2422,
+  "pattern" : "serves",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2425,
+  "pattern" : "serving",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2427,
+  "pattern" : "settled",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2431,
+  "pattern" : "shared",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2438,
+  "pattern" : "signed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2443,
+  "pattern" : "simplified",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2472,
+  "pattern" : "sometimes_credited",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2497,
+  "pattern" : "specialized",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2498,
+  "pattern" : "specializing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2499,
+  "pattern" : "spelled",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthYear", "MaxConf=1.0", "triple=e dbo:birthYear o", "class=Person" ]
+  }
+}, {
+  "id" : 2500,
+  "pattern" : "spent",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2519,
+  "pattern" : "starred",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2520,
+  "pattern" : "starring",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:occupation", "MaxConf=1.0", "triple=e dbp:occupation o", "class=Person" ]
+  }
+}, {
+  "id" : 2521,
+  "pattern" : "started",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2530,
+  "pattern" : "studied",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2533,
+  "pattern" : "studying",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2535,
+  "pattern" : "succeeded",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2538,
+  "pattern" : "supporting",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:occupation", "MaxConf=1.0", "triple=e dbp:occupation o", "class=Person" ]
+  }
+}, {
+  "id" : 2546,
+  "pattern" : "taking",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2550,
+  "pattern" : "taught",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2592,
+  "pattern" : "took",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2597,
+  "pattern" : "trained",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2621,
+  "pattern" : "used",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2645,
+  "pattern" : "well_known",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2647,
+  "pattern" : "went",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2653,
+  "pattern" : "winning",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2658,
+  "pattern" : "won",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2661,
+  "pattern" : "worked",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2663,
+  "pattern" : "working",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2672,
+  "pattern" : "writes",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=foaf:name", "MaxConf=1.0", "triple=e foaf:name o", "class=Person" ]
+  }
+}, {
+  "id" : 2673,
+  "pattern" : "writing",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthPlace", "MaxConf=1.0", "triple=e dbo:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2674,
+  "pattern" : "written",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:occupation", "MaxConf=1.0", "triple=e dbp:occupation o", "class=Person" ]
+  }
+}, {
+  "id" : 2675,
+  "pattern" : "wrote",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:birthPlace", "MaxConf=1.0", "triple=e dbp:birthPlace o", "class=Person" ]
+  }
+}, {
+  "id" : 2771,
+  "pattern" : "â_died",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:deathDate", "MaxConf=1.0", "triple=e dbo:deathDate o", "class=Person" ]
+  }
+} ]

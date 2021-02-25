@@ -7,6 +7,7 @@ package citec.correlation.wikipedia.evalution;
 
 import citec.correlation.wikipedia.results.ReciprocalResult;
 import citec.correlation.wikipedia.evalution.ir.IrAbstract;
+import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.utils.CsvFile;
 import citec.correlation.wikipedia.utils.DoubleUtils;
 import citec.correlation.wikipedia.utils.EvalutionUtil;
@@ -95,7 +96,9 @@ public class MeanReciprocalCalculation implements Comparator {
         
            //LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs);
            
-           LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs);
+           //LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs);
+           //lexiconWordKbs=this.filter(lexiconWordKbs);
+          // LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs);
 
         for (String word : this.csvFile.getRow().keySet()) {
             for (String[] coulmns : this.csvFile.getRow().get(word)) {
@@ -108,11 +111,9 @@ public class MeanReciprocalCalculation implements Comparator {
                 
                 //LOGGER.log(Level.WARNING, "word: "+word);
              
-             
+                validFlag=this.isWordMatched(lexiconWordKbs.keySet(),word);
 
-                if (lexiconWordKbs.containsKey(word)) {
-                    validFlag = true;
-                }
+               
                 /*else if (lexiconLemma.containsKey(word)) {
                     word = lexiconLemma.get(word);
                     rankedList = lexiconWordKbs.get(word);
@@ -121,7 +122,9 @@ public class MeanReciprocalCalculation implements Comparator {
                 //isValid(predictionRule, word, lexiconWordKbs, coulmns)
 
                 //lexiconWordKbs.containsKey(word)
+               
                 //LOGGER.log(Level.INFO,"lexiconLemma.keySet(): "+lexiconLemma.keySet());
+     
                 if (validFlag && isValid(predictionRule, coulmns)) {
                     matchFlag = true;
                     LOGGER.log(Level.INFO, ">> checking qald pattern::" + word + " " + " >>>> Pattern FOUND in our LEXICON");
@@ -132,32 +135,37 @@ public class MeanReciprocalCalculation implements Comparator {
                     } else {
                         this.patternNotFound.put(word, reciprocalResult);
                     }
-                    mrr += reciprocalResult.getReciprocalRank();
-                    count += 1;
+                    //mrr += reciprocalResult.getReciprocalRank();
+                    //count += 1;
 
-                }/*else {
-                    LOGGER.log(Level.INFO, ">> now checking QUERY::" + word + " >> Pattern NOT FOUND in our LEXICON");
+                }else {
+                    //LOGGER.log(Level.INFO, ">> now checking QUERY::" + word + " >> Pattern NOT FOUND in our LEXICON");
                     reciprocalResult = new ReciprocalResult();
                     //LOGGER.log(Level.INFO, ">> lexiconWordKbs::"+lexiconWordKbs);
-                    LOGGER.log(Level.INFO, ">> RANK::" + reciprocalResult.getRank() + " >> RECIPROCAL RANK::" + reciprocalResult.getRank() + "\n" + "\n");
-                }*/
+                    //LOGGER.log(Level.INFO, ">> RANK::" + reciprocalResult.getRank() + " >> RECIPROCAL RANK::" + reciprocalResult.getRank() + "\n" + "\n");
+                }
              
                 // not all lexicon count += 1;
+                mrr += reciprocalResult.getReciprocalRank();
+                count += 1;
 
             }
         }
         
-        //double size = count;
-        //    mrr = mrr / size;
+       double size = count;
+        mrr = mrr / size;
+        
+        LOGGER.log(Level.INFO, "#### #### #### #### Mean Reciprocal Value::" + "(" + mrr + "/" + size + ")" + "=" + mrr);
 
-       if (matchFlag) {
+
+       /*if (matchFlag) {
             double size = count;
             mrr = mrr / size;
             LOGGER.log(Level.INFO, "#### #### #### #### Mean Reciprocal Value::" + "(" + mrr + "/" + size + ")" + "=" + mrr);
         } else {
             mrr = 0.0;
             LOGGER.log(Level.INFO, "#### #### #### #### not a linguistic pattern MATCHED in our lexicon #### #### ignore the experiment!");
-        }
+        }*/
 
         this.meanReciprocalRank = mrr;
         this.meanReciprocalRank = DoubleUtils.formatDouble(mrr);
@@ -223,8 +231,8 @@ public class MeanReciprocalCalculation implements Comparator {
         ReciprocalResult reciprocalElement = new ReciprocalResult(ranking, 0, 0.0);
 
         double reciprocalRank = 0;
-        EvalutionUtil.ifFalseCrash(IrAbstract.GoldContainsAllinRanking(ranking, gold),
-                "I cannot compute MRR");
+//        EvalutionUtil.ifFalseCrash(IrAbstract.GoldContainsAllinRanking(ranking, gold),
+//                "I cannot compute MRR");
         String qaldKB = qaldKb.getValue1();
 
         if (gold.containsKey(qaldKB)) {
@@ -327,6 +335,43 @@ public class MeanReciprocalCalculation implements Comparator {
 
     private boolean isValid(String prediction, String[] coulmns) {
         return EvaluationTriple.isValidForEvaluation(coulmns, prediction);
+    }
+
+    private Boolean isWordMatched(Set<String> lexiconWords, String word) {
+        if (lexiconWords.contains(word)) {
+            return true;
+        } /*else {
+            for (String nGram : lexiconWords) {
+                 //nGram = nGram.replaceAll("\\d", " ");
+                 //nGram = nGram.replaceAll("[^a-zA-Z0-9]", " ");
+                 if(nGram.contains(word))
+                     return true;
+            }
+        }*/
+        return false;
+    }
+
+    private Map<String, Map<String, Double>> filter(Map<String, Map<String, Double>> lexiconWordKbs) {
+        Map<String, Map<String, Double>> filtered=new TreeMap<String, Map<String, Double>>();
+        for (String nGram : lexiconWordKbs.keySet()) {
+            Map<String, Double> kb=lexiconWordKbs.get(nGram);
+              nGram = nGram.replaceAll("\\d", " ");
+              nGram = nGram.replaceAll("[^a-zA-Z0-9]", " ");
+              nGram=nGram.strip().trim();
+              
+              Map<String, Double> results = new HashMap<String,Double>();
+                if (filtered.containsKey(nGram)) {
+                    results = filtered.get(nGram);
+                    results.putAll(kb);
+                    filtered.put(nGram, results);
+                } else {
+                    results.putAll(kb);
+                    filtered.put(nGram, results);
+                }
+              
+              filtered.put(nGram, kb); 
+            }
+        return filtered;
     }
 
 }

@@ -59,7 +59,7 @@ public class LineInfo implements ThresoldConstants{
         
     }
     
-    public LineInfo(Integer index,String[] row,String prediction,String interestingness,PropertyCSV propertyCSV,Logger logger) throws Exception {
+    public LineInfo(String givenClassName,Integer index,String[] row,String prediction,String interestingness,PropertyCSV propertyCSV,Logger logger) throws Exception {
         this.LOGGER=logger;
         //Integer classIndex=0, ruletypeIndex=1,linguisticPatternIndex=2,patterntypeIndex=3,subjectIndex=4,predicateIndex=5, objectIndex=6,stringIndex=18;
       
@@ -71,7 +71,8 @@ public class LineInfo implements ThresoldConstants{
          
 
         this.line =row[propertyCSV.getStringIndex()];
-        this.className = setClassName(row[propertyCSV.getClassNameIndex()]);
+        this.className =givenClassName;
+        //this.className = setClassName(row[propertyCSV.getClassNameIndex()]);
 
         if (prediction.equals(predict_l_for_s_given_po)) {
             //this.predicate = this.setProperty(rule);
@@ -137,30 +138,29 @@ public class LineInfo implements ThresoldConstants{
             givenIR = Double.parseDouble(row[propertyCSV.getIRIndex()]);
             givenKulczynski = Double.parseDouble(row[propertyCSV.getKulczynskiIndex()]);
             givenMaxConf = Double.parseDouble(row[propertyCSV.getMaxConfIndex()]);
+            this.probabilityValue.put(supA, givenSupA);
+            this.probabilityValue.put(supB, givenSupB);
+            this.probabilityValue.put(condAB, givenCondAB);
+            this.probabilityValue.put(condBA, givenCondBA);
+            if (interestingness.contains(AllConf)) {
+                this.probabilityValue.put(AllConf, givenAllConf);
+            } else if (interestingness.contains(Cosine)) {
+                this.probabilityValue.put(Cosine, givenCosine);
+            } else if (interestingness.contains(Coherence)) {
+                this.probabilityValue.put(Coherence, givenCoherence);
+            } else if (interestingness.contains(Kulczynski)) {
+                this.probabilityValue.put(Kulczynski, givenKulczynski);
+            } else if (interestingness.contains(MaxConf)) {
+                this.probabilityValue.put(MaxConf, givenMaxConf);
+            } else if (interestingness.contains(IR)) {
+                this.probabilityValue.put(IR, givenIR);
+            }
         } catch (Exception ex) {
             this.validFlag = false;
             return;
         }
 
-        this.probabilityValue.put(supA, givenSupA);
-        this.probabilityValue.put(supB, givenSupB);
-        this.probabilityValue.put(condAB, givenCondAB);
-        this.probabilityValue.put(condBA, givenCondBA);
-        if (interestingness.contains(AllConf)) {
-            this.probabilityValue.put(AllConf, givenAllConf);
-        } else if (interestingness.contains(Cosine)) {
-            this.probabilityValue.put(Cosine, givenCosine);
-        } else if (interestingness.contains(Coherence)) {
-            this.probabilityValue.put(Coherence, givenCoherence);
-        } else if (interestingness.contains(Kulczynski)) {
-            this.probabilityValue.put(Kulczynski, givenKulczynski);
-        } else if (interestingness.contains(MaxConf)) {
-            this.probabilityValue.put(MaxConf, givenMaxConf);
-        } else if (interestingness.contains(IR)) {
-            this.probabilityValue.put(IR, givenIR);
-        }
         //LOGGER.log(Level.INFO, "index:" + index + " class:" + this.className + " predicate:" + this.predicate + " probabilityValue:" + this.probabilityValue);
-
     }
 
     
@@ -506,7 +506,7 @@ public class LineInfo implements ThresoldConstants{
     @Override
     public String toString() {
         String line = this.line + "\n";
-        return "LineInfo{" + subject + ", predicate=" + predicate + ", object=" + object + ", word=" + word + ", probabilityValue=" + probabilityValue + '}';
+        return "LineInfo{"+this.className+" ," + subject + ", predicate=" + predicate + ", object=" + object + ", word=" + word + ", probabilityValue=" + probabilityValue + '}';
     }
 
     private String setProperty(Rule rule) {
@@ -528,7 +528,7 @@ public class LineInfo implements ThresoldConstants{
     }
     
     private String setProperty(String property) {
-        String prefix = null;
+        String prefix = "prefix:";
         if (property.contains("http:")) {
             if (property.contains("http://dbpedia.org/ontology/")) {
                 property=property.replace("http://dbpedia.org/ontology/", "");
@@ -537,6 +537,11 @@ public class LineInfo implements ThresoldConstants{
                 property=property.replace("http://dbpedia.org/property/", "");
                 prefix = "dbp:";
             }
+            else if (property.contains("http://xmlns.com/foaf/0.1/")) {
+                property=property.replace("http://xmlns.com/foaf/0.1/", "");
+                prefix = "foaf:";
+            }
+            
 
             property = prefix + property;
 

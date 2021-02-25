@@ -60,6 +60,7 @@ public class Comparision implements ThresoldConstants {
 
     public Comparision(String postag, String qald9Dir, File qaldFileName, File methodFileName, File outputFileName, String experiment, String type) throws IOException {
         this.getLexicon(methodFileName);
+        this.lexiconDic=getFilterLexicon(lexiconDic);
         //this.qaldDic = getQaldFromJson(qaldFileName);
         this.outputFileName = outputFileName;
     }
@@ -70,6 +71,7 @@ public class Comparision implements ThresoldConstants {
         this.posTag = posTag;
         try {
             this.getLexicon(conditionalFilename);
+             //this.lexiconDic=getFilterLexicon(lexiconDic);
         } catch (IOException ex) {
             Logger.getLogger(Comparision.class.getName()).log(Level.SEVERE, null, ex);
             System.err.println("Lexicon file not found!");
@@ -240,7 +242,15 @@ public class Comparision implements ThresoldConstants {
         for (LexiconUnit lexiconUnit : lexiconUnits) {
             List<LexiconUnit> modifyLexiconUnits = new ArrayList<LexiconUnit>();
             String word = lexiconUnit.getWord();
+            /*word = word.replaceAll("\\d", " ");
+            word = word.replaceAll("[^a-zA-Z0-9]", " ");
+            word = word.strip().trim();*/
             word = this.lemmatizer.getGeneralizedPosTagLemma(word, this.posTag);
+            word = word.replaceAll("\\d", " ");
+              word = word.replaceAll("[^a-zA-Z0-9]", " ");
+              word=word.strip().trim();
+                word=word.replaceAll(" ", "_");
+            
             if (lexiconDic.containsKey(word)) {
                 LexiconUnit existLexiconUnit = lexiconDic.get(word);
                 LexiconUnit newLexiconUnit = new LexiconUnit(existLexiconUnit, lexiconUnit);
@@ -252,6 +262,21 @@ public class Comparision implements ThresoldConstants {
 
         }
 
+    }
+    
+    private Map<String, LexiconUnit> getFilterLexicon(Map<String, LexiconUnit> lexiconDic) throws IOException {
+        Map<String, LexiconUnit> lexiconFilterDic = new TreeMap<String, LexiconUnit>();
+        
+        for (String nGram : lexiconDic.keySet()) {
+            LexiconUnit LexiconUnit=lexiconDic.get(nGram);
+              nGram = nGram.replaceAll("\\d", " ");
+              nGram = nGram.replaceAll("[^a-zA-Z0-9]", " ");
+              nGram=nGram.strip().trim();
+              nGram=nGram.replaceAll(" ", "_");
+              lexiconFilterDic.put(nGram, LexiconUnit); 
+            }
+
+        return lexiconFilterDic;
     }
     
     /*private void getLexicon(File file) {

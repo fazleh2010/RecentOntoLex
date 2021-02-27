@@ -157,9 +157,12 @@ public class Evaluation implements ThresoldConstants {
             String key = getInterestingnessThresold(experiment, interestiness) + "-" + posTag;
             MeanReciprocalCalculation meanReciprocalCalculation = null;
 
-            if (!posTag.contains("NN")) {
+            /*if (!posTag.contains("NN")) {
                 continue;
-            }
+            }*/
+            
+            
+            
             Pair<Boolean, File> pair = getFile(posTag, fileList);
             if (pair.getValue0()) {
                 File file = pair.getValue1();

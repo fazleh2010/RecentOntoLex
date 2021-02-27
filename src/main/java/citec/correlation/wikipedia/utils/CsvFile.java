@@ -195,7 +195,7 @@ public class CsvFile implements CsvConstants {
             if (index == 0) {
                 //this.qaldHeader = row;
             } else {
-                lineInfo = new LineInfo("className",index, row, predict, interestingness, propertyCSV, LOGGER);
+                lineInfo = new LineInfo(index, row, predict, interestingness, propertyCSV, LOGGER);
                 if (lineInfo.getValidFlag()) {
                     lineInfos.add(lineInfo);
                 }

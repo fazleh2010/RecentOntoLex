@@ -45,12 +45,21 @@ public interface PredicateParamters {
     public  List<Integer> numberOfRules = Arrays.asList(30000);
     public  List<Integer> nGram = Arrays.asList(5);*/
     
-    public List<Double> supAList = Arrays.asList(1.0);
+    /*public List<Double> supAList = Arrays.asList(1.0);
     public List<Double> supBList = Arrays.asList(1.0);
     public List<Double> confABList = Arrays.asList(0.001);
     public List<Double> confBAList = Arrays.asList(0.001);
     public List<Double> probabiltyThresold = Arrays.asList(0.001);
     public  List<Integer> numberOfRules = Arrays.asList(10);
+    public  List<Integer> nGram = Arrays.asList(5);*/
+    
+    
+    public List<Double> supAList = Arrays.asList(1.0);
+    public List<Double> supBList = Arrays.asList(10.0);
+    public List<Double> confABList = Arrays.asList(0.0);
+    public List<Double> confBAList = Arrays.asList(0.0);
+    public List<Double> probabiltyThresold = Arrays.asList(0.0);
+    public  List<Integer> numberOfRules = Arrays.asList(20000);
     public  List<Integer> nGram = Arrays.asList(5);
     
 }

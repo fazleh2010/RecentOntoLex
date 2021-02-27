@@ -59,9 +59,8 @@ public class LineInfo implements ThresoldConstants{
         
     }
     
-    public LineInfo(String givenClassName,Integer index,String[] row,String prediction,String interestingness,PropertyCSV propertyCSV,Logger logger) throws Exception {
+    public LineInfo(Integer index,String[] row,String prediction,String interestingness,PropertyCSV propertyCSV,Logger logger) throws Exception {
         this.LOGGER=logger;
-        //Integer classIndex=0, ruletypeIndex=1,linguisticPatternIndex=2,patterntypeIndex=3,subjectIndex=4,predicateIndex=5, objectIndex=6,stringIndex=18;
       
         if (row.length < propertyCSV.getStringIndex()) {
             this.validFlag = false;
@@ -71,8 +70,7 @@ public class LineInfo implements ThresoldConstants{
          
 
         this.line =row[propertyCSV.getStringIndex()];
-        this.className =givenClassName;
-        //this.className = setClassName(row[propertyCSV.getClassNameIndex()]);
+        this.className = setClassName(row[propertyCSV.getClassNameIndex()]);
 
         if (prediction.equals(predict_l_for_s_given_po)) {
             //this.predicate = this.setProperty(rule);

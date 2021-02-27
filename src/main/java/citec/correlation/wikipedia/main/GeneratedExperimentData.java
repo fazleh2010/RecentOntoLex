@@ -56,9 +56,8 @@ public class GeneratedExperimentData implements ThresoldConstants {
     //bzip2 -d filename.bz2
     //bzip2 -d *.json.bz2
 
-
-    public GeneratedExperimentData(String baseDir, String qald9Dir, String givenPrediction, String givenInterestingness,Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER,String fileType) throws Exception {
-       // this.lemmatizer=lemmatizer;
+    public GeneratedExperimentData(String baseDir, String qald9Dir, String givenPrediction, String givenInterestingness, Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER, String fileType) throws Exception {
+        // this.lemmatizer=lemmatizer;
         this.setUpLog(givenLOGGER);
 
         for (String prediction : predictLinguisticGivenKB) {
@@ -67,180 +66,67 @@ public class GeneratedExperimentData implements ThresoldConstants {
                 continue;
             }
             for (String rule : interestingness) {
-                String rawFileDir =null;
-                Pair<Boolean, List<File>> pair =new  Pair<Boolean, List<File>>(Boolean.TRUE,new ArrayList<File>());
+                String rawFileDir = null;
+                Pair<Boolean, List<File>> pair = new Pair<Boolean, List<File>>(Boolean.TRUE, new ArrayList<File>());
                 if (!rule.contains(givenInterestingness)) {
                     continue;
                 }
-                
-                if (fileType.contains(".json")) {
-                    rawFileDir = baseDir + prediction + "/" + rule + "/";
-                    pair = FileFolderUtils.getSpecificFiles(rawFileDir, ".json");
-                } else {
-                    rawFileDir = baseDir + prediction + "/";
-                    pair = FileFolderUtils.getSpecificFiles(rawFileDir, ".csv");
-                }               
+                rawFileDir = baseDir + prediction + "/";
+                pair = FileFolderUtils.getSpecificFiles(rawFileDir, ".csv");
+
                 if (pair.getValue0()) {
-                    createEvalutionFiles(outputDir, prediction, rule, pair.getValue1(), associationRulesExperiment,fileType);
+                    createEvalutionFiles(outputDir, prediction, rule, pair.getValue1(), associationRulesExperiment, fileType);
+                } else {
+                    throw new Exception("NO files found for " + prediction + " " + rawFileDir);
                 }
-                else
-                    throw new Exception("NO files found for "+prediction+" "+rawFileDir);
             }
         }
     }
 
     private static void createEvalutionFiles(String outputDir, String prediction, String associationRule, List<File> files, Map<String, ThresoldsExperiment> associationRulesExperiment, String fileType) throws Exception {
-        Map<String, Lexicon> associationRuleLex = new TreeMap<String, Lexicon>();
-        Lexicon lexicon = null;
         ThresoldsExperiment thresoldsExperiment = associationRulesExperiment.get(associationRule);
         Integer index = 0;
         for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
             index = index + 1;
             ThresoldsExperiment.ThresoldELement element = thresoldsExperiment.getThresoldELements().get(experiment);
             String experimentID = index + "-" + experiment;
-            if (fileType.contains(".json")) {
-                lexicon = createLexiconJson(outputDir, prediction, associationRule, files, element, experimentID);
-            } else if (fileType.contains(".csv")) {
-                lexicon = createLexiconCsv(outputDir, prediction, associationRule, files, element, experimentID);
-
-            }
-            LOGGER.log(Level.INFO, " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
-           break; 
-           //System.out.println( outputDir + " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
+            //LOGGER.log(Level.INFO, " element::" + element );
+            Lexicon lexicon = createLexiconCsv(outputDir, prediction, associationRule, files, element, experimentID);
+            //LOGGER.log(Level.INFO, " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
+            //System.out.println( outputDir + " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
+            //break;
         }
     }
 
-
-    private static Lexicon createLexiconJson(String directory, String dbo_prediction, String interestingness, List<File> files, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
-        Analyzer analyzer = null;
-        Lexicon lexicon = null;
-        Integer index = 0;
+    private static Lexicon createLexiconCsv(String directory, String dbo_prediction, String interestingness, List<File> classFiles, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
+       
         Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
         Integer numberOfRules = thresoldELement.getNumberOfRules();
+        
+        
 
-        for (File file : files) {
-            String fileName = file.getName();
-            String[] info = fileName.split("-");
-            String[] parameters = findParameter(info);
-            String key = parameters[0] + "-" + parameters[1] + "-" + parameters[2];
-            //System.out.println("now processing class:::::" + file.getName());
-             //LOGGER.log(Level.INFO, "now processing class:::::" + file.getName() );
-            ObjectMapper mapper = new ObjectMapper();
-            mapper.configure(JsonParser.Feature.ALLOW_UNQUOTED_CONTROL_CHARS, true);
-            NewResultsMR resultTemp = mapper.readValue(file, NewResultsMR.class);
-            Discription description = resultTemp.getDescription();
-            List<Rule> rules = resultTemp.getDistributions();
-            //LOGGER.log(Level.INFO, " rules.size()" + rules.size() );
-            for (Rule line : rules) {
-              // LOGGER.log(Level.INFO, " line" + line );
-                index = index + 1;
-                if (index >= numberOfRules) {
-                    break;
-                }
-                LineInfo lineInfo = new LineInfo(dbo_prediction, interestingness, line);
-
-                
-                //temporarily close...
-                /*if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
-                    continue;
-                }
-                if (!lineInfo.getValidFlag()) {
-                    continue;
-                }*/
-                
-                
-                //System.out.println("lineInfo.getnGramNumber():" + lineInfo.getnGramNumber());
-                //System.out.println("thresoldELement.getN_gram():" + thresoldELement.getN_gram());
-                /*if (lineInfo.getnGramNumber() != thresoldELement.getN_gram()) {
-                    continue;
-                }*/
-                //LOGGER.log(Level.INFO, " lineInfo" + lineInfo.getnGramNumber() );
-
-                String word = lineInfo.getWord();
-                //System.out.println("@@@@@@@:" + lineInfo.getnGramNumber()+"@@@@@@@@@");
-                //System.out.println("word:" + word);
-                
-                /*if(lineInfo.getWord().contains("born")){
-                    LOGGER.log(Level.INFO, " lineInfo" + lineInfo.getWord() );
-                }
-
-                if (FormatAndMatch.isNumeric(lineInfo.getWord())) {
-                    LOGGER.log(Level.INFO, " number" + lineInfo.getWord() );
-                    continue;
-                }
-                if (isKBValid(lineInfo.getObject())) {
-                     LOGGER.log(Level.INFO, " invalidKB" + lineInfo.getWord() );
-                    continue;
-                }*/
-                String nGram = lineInfo.getWord();
-                
-                /*Pair<Boolean, String> pair = lemmatizer.getLemmaWithoutPos(nGram);
-                if (pair.getValue0()) {
-                    nGram = pair.getValue1();
-                    System.out.println(word+" nGram:"+nGram);
-                }*/
-                /*nGram = nGram.replaceAll("\\d", "");
-                nGram = nGram.replaceAll("[^a-zA-Z0-9]", "");*
-                nGram = nGram.toLowerCase().trim().strip();
-                nGram = nGram.replaceAll(" ", "_");*/
-                //LOGGER.log(Level.INFO,  "index:" + index + " total::" + numberOfRules + " nGram:" + nGram);
-                //System.out.println( "index:" + index + " total::" + numberOfRules + " nGram:" + nGram);
-                List<LineInfo> results = new ArrayList<LineInfo>();
-                if (lineLexicon.containsKey(nGram)) {
-                    results = lineLexicon.get(nGram);
-                    results.add(lineInfo);
-                    lineLexicon.put(nGram, results);
-                } else {
-                    results.add(lineInfo);
-                    lineLexicon.put(nGram, results);
-                }
-                //System.out.println("className:"+line.getC());
-
-            }
-
-        }
-
-        lexicon = new Lexicon(qald9Dir);
-        lexicon.preparePropertyLexicon(dbo_prediction,directory, experimentID, interestingness, lineLexicon);
-        return lexicon;
-    }
-    
-    private static Lexicon createLexiconCsv(String directory, String dbo_prediction, String interestingness, List<File> files, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
-        Analyzer analyzer = null;
-        Lexicon lexicon = null;
-        Integer index = 0;
-        Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
-        Integer numberOfRules = thresoldELement.getNumberOfRules();
-
-        for (File file : files) {
-            String fileName = file.getName();
-            String[] info = fileName.split("-");
-            String[] parameters = findParameter(info);
-            CSVReader reader = new CSVReader(new FileReader(file));
+        for (File classFile : classFiles) {
+            String fileName = classFile.getName();
+            CSVReader reader = new CSVReader(new FileReader(classFile));
             List<String[]> rows = reader.readAll();
             PropertyCSV propertyCSV = null;
-            String className=parameters[2].replace("http%3A%2F%2Fdbpedia.org%2Fontology%2F", "");
-
-            //LOGGER.log(Level.INFO, "file.getName()::" + file.getName() );
-
-
-            if (file.getName().contains(PropertyCSV.localized)) {
+            LOGGER.log(Level.INFO, "file.getName()::" + classFile.getName());
+            if (classFile.getName().contains(PropertyCSV.localized)) {
                 propertyCSV = new PropertyCSV(PropertyCSV.localized);
             } else {
                 propertyCSV = new PropertyCSV(PropertyCSV.general);
             }
-
+            Integer index = 0,rowCount=0;
             for (String[] row : rows) {
-                LineInfo lineInfo = null;
-                if (index == 0) {
-                    index=index+1;
+                if (rowCount == 0) {
+                    rowCount = rowCount + 1;
                     continue;
-                } else {
-                    index=index+1;
-                    lineInfo = new LineInfo(className,index, row, dbo_prediction, interestingness, propertyCSV, LOGGER);
-                }
+                } 
+                
+               LineInfo lineInfo = new LineInfo(index, row, dbo_prediction, interestingness, propertyCSV, LOGGER);
+               LOGGER.log(Level.INFO, " lineInfo::" + lineInfo );
 
-                LOGGER.log(Level.INFO, lineInfo.getClassName() );
+      
                 if (index >= numberOfRules) {
                     break;
                 }
@@ -248,23 +134,7 @@ public class GeneratedExperimentData implements ThresoldConstants {
                     continue;
                 }
 
-                /*if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
-                    continue;
-                }
-                if (!lineInfo.getValidFlag()) {
-                    continue;
-                }
-                String word = lineInfo.getWord();
-                if (FormatAndMatch.isNumeric(lineInfo.getWord())) {
-                    continue;
-                }
-                if (isKBValid(lineInfo.getObject())) {
-                    continue;
-                }*/
                 String nGram = lineInfo.getWord();
-
-                //nGram = nGram.replaceAll("\\d", " ");
-                //nGram = nGram.replaceAll("[^a-zA-Z0-9]", " ");
                 nGram = nGram.toLowerCase().trim().strip();
                 nGram = nGram.replaceAll(" ", "_");
 
@@ -277,17 +147,16 @@ public class GeneratedExperimentData implements ThresoldConstants {
                     results.add(lineInfo);
                     lineLexicon.put(nGram, results);
                 }
+               index = index + 1;
+
             }
-         
+           
         }
 
-        lexicon = new Lexicon(qald9Dir);
+        Lexicon lexicon = new Lexicon(qald9Dir);
         lexicon.preparePropertyLexicon(dbo_prediction, directory, experimentID, interestingness, lineLexicon);
         return lexicon;
     }
-
-
-    
 
     private static String[] findParameter(String[] info) {
         String[] parameters = new String[3];
@@ -325,8 +194,6 @@ public class GeneratedExperimentData implements ThresoldConstants {
         }
     }
 
-   
-    
     public static boolean isKBValid(String word) {
 
         if (word.contains("#integer") || word.contains("#double")) {
@@ -334,12 +201,11 @@ public class GeneratedExperimentData implements ThresoldConstants {
         }
         return false;
     }
-    
+
     public static void main(String[] args) throws Exception {
         String rawFileDir = null;
         String directory = qald9Dir + OBJECT + "/";
-        //rawFileDir = dbpediaDir + "results/" + "new/MR/";
-        String baseDir = "/home/elahi/dbpediaFiles/unlimited/unlimited/";
+        String baseDir = "/home/elahi/new/dbpediaFiles/unlimited/unlimited/";
         Logger LOGGER = Logger.getLogger(GeneratedExperimentData.class.getName());
         String outputDir = qald9Dir;
         String type = null;
@@ -349,9 +215,9 @@ public class GeneratedExperimentData implements ThresoldConstants {
                 //predict_l_for_o_given_p
                 //predict_l_for_s_given_po
                 //predict_l_for_s_given_o
-        //predict_l_for_o_given_p,
-        //predict_l_for_o_given_s,
-        //predict_l_for_o_given_sp
+                //predict_l_for_o_given_p,
+                //predict_l_for_o_given_s,
+                //predict_l_for_o_given_sp
                 predict_localized_l_for_s_given_p
         ));
         List<String> interestingness = new ArrayList<String>();
@@ -366,14 +232,28 @@ public class GeneratedExperimentData implements ThresoldConstants {
             if (prediction.equals(predict_l_for_s_given_po)
                     || prediction.equals(predict_l_for_s_given_o)) {
                 type = ThresoldConstants.OBJECT;
-            } else if (prediction.contains(predict_l_for_o_given_p)||prediction.contains(predict_localized_l_for_s_given_p)) {
+            } else if (prediction.contains(predict_l_for_o_given_p) || prediction.contains(predict_localized_l_for_s_given_p)) {
                 type = ThresoldConstants.PREDICATE;
             }
             associationRulesExperiment = Evaluation.createExperiments(type);
-            for (String rule : interestingness) {
-                GeneratedExperimentData ProcessFile = new GeneratedExperimentData(baseDir, outputDir, prediction, rule, associationRulesExperiment, LOGGER, ".csv");
+            //or (String rule : interestingness) {
+            GeneratedExperimentData ProcessFile = new GeneratedExperimentData(baseDir, outputDir, prediction, Coherence, associationRulesExperiment, LOGGER, ".csv");
 
-            }
+            //}
         }
     }
+
+    /*if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
+                    continue;
+                }
+                if (!lineInfo.getValidFlag()) {
+                    continue;
+                }
+                String word = lineInfo.getWord();
+                if (FormatAndMatch.isNumeric(lineInfo.getWord())) {
+                    continue;
+                }
+                if (isKBValid(lineInfo.getObject())) {
+                    continue;
+                }*/
 }

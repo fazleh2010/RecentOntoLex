@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.dic.qald;
 
-import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import citec.correlation.wikipedia.dic.qald.DataUnit;
 import citec.correlation.wikipedia.dic.qald.JsonReader;
 import citec.correlation.wikipedia.dic.qald.Question;
@@ -58,7 +58,7 @@ public class Qald {
         for (DataUnit dataUnit : jsonReader.getDataUnit()) {
             for (Question question : dataUnit.getQuestion()) {
                 if (question.getLanguage().contains(english)) {
-                    Analyzer analyzer = new Analyzer(question.getString(), POS_TAGGER_WORDS, 5);
+                    PosAnalyzer analyzer = new PosAnalyzer(question.getString(), POS_TAGGER_WORDS, 5);
                     String sparql = dataUnit.getQuery().get("sparql");
                     QaldPosTagger resultQald9 = new QaldPosTagger(dataUnit.getId(), question.getString(), sparql, analyzer.getNouns(), analyzer.getAdjectives(), analyzer.getVerbs());
                     resultQald9s.add(resultQald9);
@@ -78,11 +78,11 @@ public class Qald {
         String fileName = qald9Dir + postagType + "-qald9"+".json";
         for (QaldPosTagger resultQald9 : resultQald9s) {
             Set<String> words = new HashSet<String>();
-            if (postagType.contains(Analyzer.ADJECTIVE)) {
+            if (postagType.contains(PosAnalyzer.ADJECTIVE)) {
                 words = resultQald9.getAdjectives();
-            } else if (postagType.contains(Analyzer.NOUN)) {
+            } else if (postagType.contains(PosAnalyzer.NOUN)) {
                 words = resultQald9.getNouns();
-            } else if (postagType.contains(Analyzer.VERB)) {
+            } else if (postagType.contains(PosAnalyzer.VERB)) {
                 words = resultQald9.getVerbs();
             }
             for (String word : words) {

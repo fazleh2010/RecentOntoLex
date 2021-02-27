@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.element;
 
-import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
 import citec.correlation.wikipedia.utils.StringMatcherUtil;
 import citec.correlation.wikipedia.element.DBpediaProperty;
@@ -76,7 +76,7 @@ public class DBpediaEntity {
         this.entityIndex = PREFIX +(index);
         this.text = this.getText(properties, DBpediaProperty.dbo_abstract);
         if (this.text != null) {
-            Analyzer analyzer = new Analyzer(this.text, POS_TAGGER_WORDS, 5);
+            PosAnalyzer analyzer = new PosAnalyzer(this.text, POS_TAGGER_WORDS, 5);
             this.words = analyzer.getWords();
             this.nouns=analyzer.getNouns();
             this.adjectives=analyzer.getAdjectives();

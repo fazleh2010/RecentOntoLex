@@ -2,7 +2,7 @@
 package citec.correlation.wikipedia.linking;
 
 
-import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import citec.correlation.wikipedia.element.CurlSparqlQuery;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import static citec.correlation.wikipedia.utils.FileFolderUtils.getAlphabetInfo;
@@ -67,7 +67,7 @@ public class EntityLinker  {
         Integer index=0;
         for (String sentenceLine : sentenceLines) {
             index=index+1;
-            Analyzer analyzer = new Analyzer(sentenceLine, POS_TAGGER_WORDS, 5);
+            PosAnalyzer analyzer = new PosAnalyzer(sentenceLine, POS_TAGGER_WORDS, 5);
             EntityAnnotation entityAnnotation = new EntityAnnotationImp(entity,index,sentenceLine, analyzer, windowSize, nGram, alphabetInfo, propertyValues);
             if(entityAnnotation.getPatterns()!=null)
               annotatedSentences.add(entityAnnotation);

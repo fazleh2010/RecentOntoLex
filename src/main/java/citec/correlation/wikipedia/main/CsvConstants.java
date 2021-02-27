@@ -13,6 +13,7 @@ import static citec.correlation.wikipedia.experiments.ThresoldConstants.Cosine;
 import static citec.correlation.wikipedia.experiments.ThresoldConstants.IR;
 import static citec.correlation.wikipedia.experiments.ThresoldConstants.Kulczynski;
 import static citec.correlation.wikipedia.experiments.ThresoldConstants.MaxConf;
+import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashSet;
@@ -41,8 +42,11 @@ public interface CsvConstants extends TextAnalyzer,ThresoldConstants {
 
     public static Integer Wordindex = 0;
     public static Integer idIndex = 1;
-    public static Integer objectIndex = 3;
     public static Integer propertyIndex = 2;
+    public static Integer objectIndex = 3;
+    public static Integer sparqlIndex = 4;
+    public static Integer questionIndex = 5;
+
     
     //currently unknown
      public static Integer subjectIndex = -1;
@@ -75,7 +79,7 @@ public interface CsvConstants extends TextAnalyzer,ThresoldConstants {
             entry(Kulczynski, KulczynskiIndex)
     );
 
-    public String getFilename();
+    public File getFilename();
 
     public String[] getQaldHeader();
 

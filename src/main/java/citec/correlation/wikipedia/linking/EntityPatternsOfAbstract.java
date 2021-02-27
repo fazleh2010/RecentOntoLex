@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.linking;
 
-import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import citec.correlation.wikipedia.analyzer.Lemmatizer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_TEXT;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
@@ -29,11 +29,11 @@ public class EntityPatternsOfAbstract implements PatternThresold{
     private Map<String,List<Pattern>> objectPatternsMap = new TreeMap<String,List<Pattern>>();
     private Map<String,Pattern> allpatternsHash = new TreeMap<String,Pattern>();
     private List<Pattern> allpatternList = new ArrayList<Pattern>();
-    private static Analyzer analyzer=null;
+    private static PosAnalyzer analyzer=null;
     private static Lemmatizer lemmaAnalyzer=null;
 
 
-    public EntityPatternsOfAbstract(Analyzer analyzer,Lemmatizer lemmaAnalyzer,Collection<String> patternsStr) throws Exception {
+    public EntityPatternsOfAbstract(PosAnalyzer analyzer,Lemmatizer lemmaAnalyzer,Collection<String> patternsStr) throws Exception {
         this.analyzer = analyzer;
         this.lemmaAnalyzer=lemmaAnalyzer;
         for (String patternStr : patternsStr) {

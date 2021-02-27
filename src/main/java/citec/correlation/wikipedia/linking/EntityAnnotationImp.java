@@ -2,7 +2,7 @@ package citec.correlation.wikipedia.linking;
 
 import citec.correlation.wikipedia.utils.NLPTools;
 import citec.correlation.wikipedia.utils.Ngram;
-import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.PRONOUNS;
 import citec.correlation.wikipedia.element.CurlSparqlQuery;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
@@ -46,12 +46,12 @@ public class EntityAnnotationImp implements EntityAnnotation {
     private String sentenceOriginal = null;
     private String sentenceAnnotated = null;
     private Map<String,  Pair<String,String>> annotatedNgram = new HashMap<String,  Pair<String,String>>();
-    private Analyzer analyzer = null;
+    private PosAnalyzer analyzer = null;
     private Integer sentenceNumber = null;
     private String subjectLink = null;
     private String patterns=null;
 
-    public EntityAnnotationImp(String subjectLink, Integer sentenceNumber, String sentenceOriginal, Analyzer analyzer, Integer windowSize, Integer ngramSize, Map<String, TreeMap<String, List<String>>> alphabetInfo, Set<String> propertyValues) throws Exception {
+    public EntityAnnotationImp(String subjectLink, Integer sentenceNumber, String sentenceOriginal, PosAnalyzer analyzer, Integer windowSize, Integer ngramSize, Map<String, TreeMap<String, List<String>>> alphabetInfo, Set<String> propertyValues) throws Exception {
         this.sentenceNumber = sentenceNumber;
         this.subjectLink = subjectLink;
         this.sentenceOriginal = sentenceOriginal;
@@ -111,7 +111,7 @@ public class EntityAnnotationImp implements EntityAnnotation {
                 //this.display(sentenceAlphabetTerms);
                 Set<String> commonTerms = FormatAndMatch.intersection(sentenceAlphabetTerms, allAlphabetterms);
                 for (String common : commonTerms) {
-                    if(Analyzer.ENGLISH_STOPWORDS.contains(common)){
+                    if(PosAnalyzer.ENGLISH_STOPWORDS.contains(common)){
                        continue; 
                     }
                     //System.out.println("common:"+common);

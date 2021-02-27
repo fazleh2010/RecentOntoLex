@@ -6,7 +6,7 @@
 package citec.correlation.wikipedia.utils;
 
 import antlr.ByteBuffer;
-import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
 import citec.correlation.wikipedia.analyzer.logging.LogFilter;
 import citec.correlation.wikipedia.analyzer.logging.LogFormatter;
@@ -48,7 +48,7 @@ import java.util.logging.Logger;
  */
 public class CsvFile implements CsvConstants {
 
-    private String filename = null;
+    private File filename = null;
     public String[] qaldHeader = null;
     private Map<String, List<String[]>> wordRows = new TreeMap<String, List<String[]>>();
     private Map<String, Integer> interestingnessIndexes = new HashMap<String, Integer>();
@@ -56,12 +56,12 @@ public class CsvFile implements CsvConstants {
     private List<String[]> rows = new ArrayList<String[]>();
     private static Logger LOGGER = null;
 
-    public CsvFile(String filename, Logger LOGGER) {
+    public CsvFile(File filename, Logger LOGGER) {
         this.filename = filename;
         this.LOGGER = LOGGER;
     }
 
-    public CsvFile(String filename) {
+    public CsvFile(File filename) {
         this.filename = filename;
 
     }
@@ -235,6 +235,7 @@ public class CsvFile implements CsvConstants {
             } else {
 
                 word = row[0].trim().strip();
+                System.out.println("word:"+word);
 
                 if (!word.isEmpty()) {
                     lastWord = word;
@@ -254,6 +255,49 @@ public class CsvFile implements CsvConstants {
             index = index + 1;
         }
     }
+    
+    public void readQaldCsvNgram(File predictFile,Integer nGram, String PosTag) throws Exception {
+        List<String[]> rows = new ArrayList<String[]>();
+        Map<String, Unit> qald = new TreeMap<String, Unit>();
+        Stack<String> stack = new Stack<String>();
+        CSVReader reader;
+        try {
+            reader = new CSVReader(new FileReader(filename));
+            rows = reader.readAll();
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, "CSV File not found:!!!" + ex.getMessage());
+        } catch (IOException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, "CSV File not found:!!!" + ex.getMessage());
+        } catch (CsvException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, "CSV problems:!!!" + ex.getMessage());
+        }
+
+        Integer index = 0;
+        String lastWord = null;
+        String word = null;
+        for (String[] row : rows) {
+            if (index == 0) {
+                this.qaldHeader = row;
+            } else {
+
+                word = row[0].trim().strip();
+                //System.out.println("id:"+row[idIndex]+" question:"+row[questionIndex]);
+                String question=row[questionIndex];
+                System.out.println("question::"+question);
+                Ngram Ngram=new Ngram(question,nGram);
+                Ngram.processNgram();
+                Map<String, String> taggesNgram=Ngram.getnGramPos(nGram,PosTag);
+                System.out.println("taggesNgram:"+taggesNgram);
+
+            }
+
+            index = index + 1;
+        }
+    }
+
 
     public List<EvaluationTriple> getRowValues(String word,String predictionRule) {
         List<EvaluationTriple> triples = new ArrayList<EvaluationTriple>();
@@ -272,7 +316,7 @@ public class CsvFile implements CsvConstants {
         return triples;
     }
 
-    public String getFilename() {
+    public File getFilename() {
         return filename;
     }
 
@@ -291,7 +335,7 @@ public class CsvFile implements CsvConstants {
         Integer index = 1;
         Map<String, Integer> interestingnessIndexes = new HashMap<String, Integer>();
         for (String rule : interestingness) {
-            for (String posTag : Analyzer.POSTAGS) {
+            for (String posTag : PosAnalyzer.POSTAGS) {
                 String key = rule + "-" + posTag;
                 qaldHeader[index] = rule + "-" + posTag;
                 interestingnessIndexes.put(key, index);
@@ -334,7 +378,7 @@ public class CsvFile implements CsvConstants {
         for (String rule : interestingness) {
             List<Double> thresoldsRule = thresoldsExperiment.getInterestingness().get(rule);
             for (Double value : thresoldsRule) {
-                for (String posTag : Analyzer.POSTAGS) {
+                for (String posTag : PosAnalyzer.POSTAGS) {
                     String coulmnStr = rule + "_" + value.toString() + "-" + posTag;
                     header[index] = coulmnStr;
                     firstRowShow[index] = rule;
@@ -352,12 +396,8 @@ public class CsvFile implements CsvConstants {
         return csvData;
     }
 
-    public static void main(String[] args) throws IOException, FileNotFoundException, CsvException, Exception {
-        /*String qaldFile = "";
-        qaldFile = qald9Dir + GOLD + "NN-object-qald9.csv";
-        CsvFile csvFile = new CsvFile(qaldFile);
-        csvFile.readQaldCsv(qaldFile);*/
-        
+    /*public static void main(String[] args) throws IOException, FileNotFoundException, CsvException, Exception {
+       
          String baseDir = "/home/elahi/dbpediaFiles/unlimited/unlimited/";
 
 
@@ -405,21 +445,16 @@ public class CsvFile implements CsvConstants {
                 } else {
 
                 }
-
                 break;
-            }
-                /*CsvFile csvFile = new CsvFile(predictFile,LOGGER);
-                File tmpDir = new File(predictFile);
-                System.out.println(predictFile);
-                boolean exists = tmpDir.exists();
-                System.out.println(exists);
-                csvFile.readPropertyCsv(predictFile, prediction);*/
-            //}
+            }       
 
         }
-        
-        
-
+    }*/
+    
+    public static void main(String[] args) throws IOException, FileNotFoundException, CsvException, Exception {
+        File qaldFile = new File(qald9Dir + GOLD + "NN-object-qald9.csv");
+        CsvFile csvFile = new CsvFile(qaldFile);
+        csvFile.readQaldCsvNgram(qaldFile,2,"NN");
     }
 
    

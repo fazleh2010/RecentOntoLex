@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.calculation;
 
-import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import citec.correlation.wikipedia.analyzer.Lemmatizer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_TEXT;
 import citec.correlation.wikipedia.element.DBpediaEntityPattern;
@@ -48,7 +48,7 @@ public class PatternCalculation implements PatternThresold{
 
     private Double wordGivenObjectThresold;
     private Double objectGivenWordThresold;
-    private Analyzer analyzer = new Analyzer(POS_TAGGER_TEXT, 5);
+    private PosAnalyzer analyzer = new PosAnalyzer(POS_TAGGER_TEXT, 5);
     private Lemmatizer lemmaAnalyzer = new Lemmatizer();
     private List<DBpediaEntityPattern> allDBpediaPatterns = new ArrayList<DBpediaEntityPattern>();
     private Map<String, EntityTriple.Triple> allTriplesMap = new TreeMap<String, EntityTriple.Triple>();

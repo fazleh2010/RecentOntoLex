@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.calculation;
 
-import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import citec.correlation.wikipedia.analyzer.Lemmatizer;
 import citec.correlation.wikipedia.element.DBpediaEntityPattern;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
@@ -35,12 +35,12 @@ public class InterestingPatterns implements PatternThresold{
     private Map<String, List<EntityPatternsOfAbstract.Pattern>> predicateContextWordsMap = new TreeMap<String, List<EntityPatternsOfAbstract.Pattern>>();
     private Map<String, List<EntityTriple.Triple>> ContextWordsPredicateMap = new TreeMap<String, List<EntityTriple.Triple>>();
     private Map<String, Map<Integer, String>> contexWordSortedPredicateMap = new TreeMap<String, Map<Integer, String>>();
-    private final Analyzer analyzer;
+    private final PosAnalyzer analyzer;
     private final String outputDir;
     //private String CONEXT_WORD_TYPE;
 
 
-    public InterestingPatterns(Analyzer analyzer, Lemmatizer lemmaAnalyzerT, String outputDir, List<DBpediaEntityPattern> allDBpediaPatterns) throws Exception {
+    public InterestingPatterns(PosAnalyzer analyzer, Lemmatizer lemmaAnalyzerT, String outputDir, List<DBpediaEntityPattern> allDBpediaPatterns) throws Exception {
         this.analyzer = analyzer;
         this.outputDir = outputDir;
         this.findMatchBetweenTriplePattern(allDBpediaPatterns, outputDir + PREDICATE_CONTEXT,CONEXT_WORD_TYPE);

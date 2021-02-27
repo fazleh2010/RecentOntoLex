@@ -6,7 +6,7 @@
 package citec.correlation.wikipedia.calculation;
 
 import citec.correlation.wikipedia.parameters.Parameters;
-import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import citec.correlation.wikipedia.element.DBpediaEntity;
 import citec.correlation.wikipedia.parameters.LingPattern;
@@ -271,7 +271,7 @@ public class InterestedWords implements MenuOptions {
         return propertyInterestedWords;
     }*/
 
-    private Pair<Boolean, String> findPosTag(String word, Analyzer analyzer) {
+    private Pair<Boolean, String> findPosTag(String word, PosAnalyzer analyzer) {
         if (analyzer.getNouns().contains(word)) {
             return new Pair<Boolean, String>(Boolean.TRUE, TextAnalyzer.NOUN);
         } else if (analyzer.getAdjectives().contains(word)) {

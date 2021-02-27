@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.main;
 
-import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import citec.correlation.wikipedia.analyzer.Lemmatizer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
 import citec.correlation.wikipedia.analyzer.logging.LogFilter;

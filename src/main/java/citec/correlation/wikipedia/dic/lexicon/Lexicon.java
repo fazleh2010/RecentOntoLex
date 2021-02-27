@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.dic.lexicon;
 
-import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_o_given_p;

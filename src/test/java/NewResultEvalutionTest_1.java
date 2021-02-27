@@ -1,5 +1,5 @@
 
-import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.GOLD;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
 import citec.correlation.wikipedia.dic.lexicon.Lexicon;
@@ -217,7 +217,7 @@ public class NewResultEvalutionTest_1 implements ThresoldConstants {
 
     private static Lexicon createLexicon(String directory,String dbo_className, String dbo_prediction, String dbo_associationRule, NewResultsHR result, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
         String key = dbo_className + "-" + dbo_prediction + "-" + dbo_associationRule;
-        Analyzer analyzer = null;
+        PosAnalyzer analyzer = null;
         Lexicon lexicon = null;
 
         Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
@@ -340,7 +340,7 @@ public class NewResultEvalutionTest_1 implements ThresoldConstants {
 
     private static Map<String, MeanReciprocalCalculation> meanReciprocalValues(String experiment, String directory, List<File> fileList,Boolean classSpecific,String className) throws IOException {
         Map<String, MeanReciprocalCalculation> meanReciprocals = new TreeMap<String, MeanReciprocalCalculation>();
-        for (String posTag : Analyzer.POSTAGS) {
+        for (String posTag : PosAnalyzer.POSTAGS) {
             try {
                 
                 File file = getFile(posTag, fileList);

@@ -1,6 +1,6 @@
 package citec.correlation.wikipedia.main;
 
-import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import citec.correlation.wikipedia.analyzer.Lemmatizer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.GOLD;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
@@ -139,7 +139,7 @@ public class Evaluation implements ThresoldConstants {
 
             }
             String outputFileName = outputDir + "VB-NN-JJ-" + prediction + "MeanR" + ".csv";
-            CsvFile csvFile = new CsvFile(outputFileName, LOGGER);
+            CsvFile csvFile = new CsvFile(new File(outputFileName), LOGGER);
             csvFile.createCsvExperimentData(type, ruleExpeResult);
             //FileFolderUtils.writeExperMeanResultsToJsonFile(expeResult, outputFileName);
 
@@ -151,7 +151,7 @@ public class Evaluation implements ThresoldConstants {
         LOGGER.log(Level.INFO, "thresholds:: " + experiment);
 
         Map<String, MeanReciprocalCalculation> meanReciprocals = new TreeMap<String, MeanReciprocalCalculation>();
-        for (String posTag : Analyzer.POSTAGS) {
+        for (String posTag : PosAnalyzer.POSTAGS) {
             String key = getInterestingnessThresold(experiment, interestiness) + "-" + posTag;
             MeanReciprocalCalculation meanReciprocalCalculation = null;
 
@@ -166,7 +166,7 @@ public class Evaluation implements ThresoldConstants {
                 File file = pair.getValue1();
                 String fileName = file.getName().replace(".json", "");
                 String qaldFile = FileFolderUtils.getQaldCsvFile(qald9Dir + GOLD, OBJECT, posTag);
-                CsvFile csvFile = new CsvFile(qaldFile);
+                CsvFile csvFile = new CsvFile(new File(qaldFile));
                 csvFile.readQaldCsv(qaldFile);
                 File conditionalFile = new File(directory + fileName + ".json");
                 LOGGER.log(Level.INFO, "parts-of-speech:: " + posTag);
@@ -287,28 +287,4 @@ public class Evaluation implements ThresoldConstants {
         return info[0].trim().strip();
     }
 
-    public static void main(String[] args) throws Exception {
-        String directory = qald9Dir + OBJECT + "/";
-        String inputDir = dbpediaDir + "results/" + "new/MR/";
-        Evaluation evaluationMainTest = new Evaluation();
-
-        //predictions.add(ThresoldConstants.predict_l_for_s_given_o);
-        //predictions.add(ThresoldConstants.predict_l_for_o_given_p);
-        Map<String, String> predictionType = new HashMap<String, String>();
-        //predictionType.put(predict_l_for_o_given_p, ThresoldConstants.PREDICATE);
-
-        //predictionType.put(predict_l_for_s_given_o, ThresoldConstants.OBJECT);
-        //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
-        //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
-         predictionType.put(ThresoldConstants.predict_localized_l_for_s_given_p, ThresoldConstants.PREDICATE);
-
-        for (String prediction : predictionType.keySet()) {
-            String type = predictionType.get(prediction);
-            String dicDir = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/dic/";
-            String meanRDir = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/meanR/";
-            Map<String, ThresoldsExperiment> allThresoldInterestingness  = createExperiments(type);
-            calculateMeanReciprocal(type, prediction,null, dicDir, meanRDir,allThresoldInterestingness);
-        }
-
-    }
 }

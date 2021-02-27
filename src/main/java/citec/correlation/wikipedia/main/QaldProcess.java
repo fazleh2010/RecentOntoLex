@@ -5,8 +5,7 @@
  */
 package citec.correlation.wikipedia.main;
 
-import citec.correlation.wikipedia.analyzer.Analyzer;
-import citec.correlation.wikipedia.analyzer.TextAnalyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.GOLD;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
 import citec.correlation.wikipedia.calculation.PatternCalculation;
@@ -22,22 +21,7 @@ import citec.correlation.wikipedia.evalution.Comparision;
 import citec.correlation.wikipedia.linking.EntityAnnotation;
 import citec.correlation.wikipedia.linking.EntityLinker;
 import citec.correlation.wikipedia.parameters.DirectoryLocation;
-import static citec.correlation.wikipedia.parameters.DirectoryLocation.allPoliticianFile;
-import static citec.correlation.wikipedia.parameters.DirectoryLocation.anchors;
-import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
-import static citec.correlation.wikipedia.parameters.DirectoryLocation.patternDir;
-import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
-import static citec.correlation.wikipedia.parameters.DirectoryLocation.trainingJson;
 import citec.correlation.wikipedia.parameters.MenuOptions;
-import static citec.correlation.wikipedia.parameters.MenuOptions.MEAN_RECIPROCAL_PATTERN;
-import static citec.correlation.wikipedia.parameters.MenuOptions.MEAN_RECIPROCAL_WORD;
-import static citec.correlation.wikipedia.parameters.MenuOptions.PATTERN_CALCULATION;
-import static citec.correlation.wikipedia.parameters.MenuOptions.POSTAGS;
-import static citec.correlation.wikipedia.parameters.MenuOptions.PROPERTY_GENERATION;
-import static citec.correlation.wikipedia.parameters.MenuOptions.QALD;
-import static citec.correlation.wikipedia.parameters.MenuOptions.WORD_CALCULATION;
-import static citec.correlation.wikipedia.parameters.MenuOptions.WRITE;
-import static citec.correlation.wikipedia.parameters.MenuOptions.WRITE_PATTERNS;
 import citec.correlation.wikipedia.table.Tables;
 import citec.correlation.wikipedia.utils.CsvFile;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
@@ -76,7 +60,7 @@ public class QaldProcess implements PropertyNotation, DirectoryLocation, MenuOpt
 
     private static Map<String, CsvFile> qald(String directory) throws IOException {
         Map<String, CsvFile> posCsv = new TreeMap<String, CsvFile>();
-        for (String posTag : Analyzer.POSTAGS) {
+        for (String posTag : PosAnalyzer.POSTAGS) {
             try {
                 File jsonQaldFile = FileFolderUtils.getQaldJsonFile(qald9Dir + GOLD, OBJECT, posTag);
                 Map<String, Unit> qaldDic = FileFolderUtils.getQald(jsonQaldFile);
@@ -84,7 +68,7 @@ public class QaldProcess implements PropertyNotation, DirectoryLocation, MenuOpt
                 String fileName = FileFolderUtils.getQaldFile(directory, OBJECT, posTag);
                 fileName = fileName.replace(".json", "") + ".csv";
                 System.out.println("fileName:" + fileName);
-                CsvFile csv = new CsvFile(fileName);
+                CsvFile csv = new CsvFile(new File(fileName));
                 csv.writeToCSV(csvData);
                 posCsv.put(posTag, csv);
             } catch (Exception exp) {
@@ -95,7 +79,7 @@ public class QaldProcess implements PropertyNotation, DirectoryLocation, MenuOpt
     }
 
     @Override
-    public String getFilename() {
+    public File getFilename() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 

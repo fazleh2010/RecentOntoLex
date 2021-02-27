@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.results;
 
-import citec.correlation.wikipedia.analyzer.Analyzer;
+import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
 import citec.correlation.wikipedia.experiments.ThresoldConstants;
@@ -49,7 +49,7 @@ public class LineInfo implements ThresoldConstants{
 
 
     private Map<String, Double> probabilityValue = new TreeMap<String, Double>();
-    private Analyzer analyzer = null;
+    private PosAnalyzer analyzer = null;
     public static String CHECK_THRESOLD_VALUE="CHECK_THRESOLD_VALUE";
     
     //supA=93, supB=115, supAB=93, condBA=1, condAB=0.808, AllConf=0.808, Coherence=0.447, Cosine=0.899, Kulczynski=0.904, MaxConf=1, IR=0.191
@@ -421,15 +421,15 @@ public class LineInfo implements ThresoldConstants{
     }
 
     private void getPosTag(String word) throws Exception {
-        analyzer = new Analyzer(word, POS_TAGGER_WORDS, 5);
+        analyzer = new PosAnalyzer(word, POS_TAGGER_WORDS, 5);
         if (!analyzer.getNouns().isEmpty()) {
-            this.posTag = Analyzer.NOUN;
+            this.posTag = PosAnalyzer.NOUN;
         } else if (!analyzer.getAdjectives().isEmpty()) {
-            this.posTag = Analyzer.ADJECTIVE;
+            this.posTag = PosAnalyzer.ADJECTIVE;
         } else if (!analyzer.getVerbs().isEmpty()) {
-            this.posTag = Analyzer.VERB;
+            this.posTag = PosAnalyzer.VERB;
         } else {
-            this.posTag = Analyzer.NOUN;
+            this.posTag = PosAnalyzer.NOUN;
         }
         this.word = word.trim().strip();
     }
@@ -448,7 +448,7 @@ public class LineInfo implements ThresoldConstants{
         return nGramNumber;
     }
 
-    public Analyzer getAnalyzer() {
+    public PosAnalyzer getAnalyzer() {
         return analyzer;
     }
 

@@ -68,9 +68,12 @@ public class GeneratedExperimentData implements ThresoldConstants {
             for (String rule : interestingness) {
                 String rawFileDir = null;
                 Pair<Boolean, List<File>> pair = new Pair<Boolean, List<File>>(Boolean.TRUE, new ArrayList<File>());
-                if (!rule.contains(givenInterestingness)) {
-                    continue;
+                if (givenInterestingness != null) {
+                    if (!rule.contains(givenInterestingness)) {
+                        continue;
+                    }
                 }
+              
                 rawFileDir = baseDir + prediction + "/";
                 pair = FileFolderUtils.getSpecificFiles(rawFileDir, ".csv");
 
@@ -92,7 +95,7 @@ public class GeneratedExperimentData implements ThresoldConstants {
             String experimentID = index + "-" + experiment;
             //LOGGER.log(Level.INFO, " element::" + element );
             Lexicon lexicon = createLexiconCsv(outputDir, prediction, associationRule, files, element, experimentID);
-            //LOGGER.log(Level.INFO, " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
+            LOGGER.log(Level.INFO, " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
             //System.out.println( outputDir + " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment);
             //break;
         }
@@ -102,15 +105,13 @@ public class GeneratedExperimentData implements ThresoldConstants {
        
         Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
         Integer numberOfRules = thresoldELement.getNumberOfRules();
-        
-        
-
+       
         for (File classFile : classFiles) {
             String fileName = classFile.getName();
             CSVReader reader = new CSVReader(new FileReader(classFile));
             List<String[]> rows = reader.readAll();
             PropertyCSV propertyCSV = null;
-            LOGGER.log(Level.INFO, "file.getName()::" + classFile.getName());
+            //LOGGER.log(Level.INFO, "file.getName()::" + classFile.getName());
             if (classFile.getName().contains(PropertyCSV.localized)) {
                 propertyCSV = new PropertyCSV(PropertyCSV.localized);
             } else {
@@ -124,7 +125,7 @@ public class GeneratedExperimentData implements ThresoldConstants {
                 } 
                 
                LineInfo lineInfo = new LineInfo(index, row, dbo_prediction, interestingness, propertyCSV, LOGGER);
-               LOGGER.log(Level.INFO, " lineInfo::" + lineInfo );
+              // LOGGER.log(Level.INFO, " lineInfo::" + lineInfo );
 
       
                 if (index >= numberOfRules) {
@@ -202,46 +203,7 @@ public class GeneratedExperimentData implements ThresoldConstants {
         return false;
     }
 
-    public static void main(String[] args) throws Exception {
-        String rawFileDir = null;
-        String directory = qald9Dir + OBJECT + "/";
-        String baseDir = "/home/elahi/new/dbpediaFiles/unlimited/unlimited/";
-        Logger LOGGER = Logger.getLogger(GeneratedExperimentData.class.getName());
-        String outputDir = qald9Dir;
-        String type = null;
-        Map<String, ThresoldsExperiment> associationRulesExperiment = new HashMap<String, ThresoldsExperiment>();
-
-        List<String> predictLinguisticGivenKB = new ArrayList<String>(Arrays.asList(
-                //predict_l_for_o_given_p
-                //predict_l_for_s_given_po
-                //predict_l_for_s_given_o
-                //predict_l_for_o_given_p,
-                //predict_l_for_o_given_s,
-                //predict_l_for_o_given_sp
-                predict_localized_l_for_s_given_p
-        ));
-        List<String> interestingness = new ArrayList<String>();
-        interestingness.add(ThresoldConstants.Cosine);
-        interestingness.add(ThresoldConstants.Coherence);
-        interestingness.add(ThresoldConstants.AllConf);
-        interestingness.add(ThresoldConstants.MaxConf);
-        interestingness.add(ThresoldConstants.Kulczynski);
-        interestingness.add(ThresoldConstants.IR);
-
-        for (String prediction : predictLinguisticGivenKB) {
-            if (prediction.equals(predict_l_for_s_given_po)
-                    || prediction.equals(predict_l_for_s_given_o)) {
-                type = ThresoldConstants.OBJECT;
-            } else if (prediction.contains(predict_l_for_o_given_p) || prediction.contains(predict_localized_l_for_s_given_p)) {
-                type = ThresoldConstants.PREDICATE;
-            }
-            associationRulesExperiment = Evaluation.createExperiments(type);
-            //or (String rule : interestingness) {
-            GeneratedExperimentData ProcessFile = new GeneratedExperimentData(baseDir, outputDir, prediction, Coherence, associationRulesExperiment, LOGGER, ".csv");
-
-            //}
-        }
-    }
+    
 
     /*if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
                     continue;

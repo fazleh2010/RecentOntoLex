@@ -67,9 +67,7 @@ public class Evaluation implements ThresoldConstants {
 
     private static Set<String> classFileNames = new HashSet<String>();
     private static String resources = "src/main/resources/";
-    private static String stanfordModelFile = resources + "stanford-postagger-2015-12-09/models/english-left3words-distsim.tagger";
-    private static MaxentTagger taggerModel = new MaxentTagger(stanfordModelFile);
-    private static Map<String, ThresoldsExperiment> allThresoldInterestingness = new TreeMap<String, ThresoldsExperiment>();
+    //private static Map<String, ThresoldsExperiment> allThresoldInterestingness = new TreeMap<String, ThresoldsExperiment>();
 
     private static Logger LOGGER = Logger.getLogger(Evaluation.class.getName());
     private static Lemmatizer lemmatizer = new Lemmatizer();
@@ -96,7 +94,7 @@ public class Evaluation implements ThresoldConstants {
 
     }
 
-    public static void calculateMeanReciprocal(String type, String givenPrediction, String givenInterestingness, String directory, String outputDir) throws IOException, Exception {
+    public static void calculateMeanReciprocal(String type, String givenPrediction, String givenInterestingness, String directory, String outputDir,Map<String, ThresoldsExperiment> allThresoldInterestingness) throws IOException, Exception {
         Handler fileHandler = new FileHandler(outputDir + givenPrediction + "-" + "logger.log");
         fileHandler.setFormatter(new LogFormatter());
         fileHandler.setFilter(new LogFilter());
@@ -306,10 +304,10 @@ public class Evaluation implements ThresoldConstants {
 
         for (String prediction : predictionType.keySet()) {
             String type = predictionType.get(prediction);
-            String dic = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/dic/";
-            String meanR = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/meanR/";
-            allThresoldInterestingness = createExperiments(type);
-            calculateMeanReciprocal(type, prediction,null, dic, meanR);
+            String dicDir = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/dic/";
+            String meanRDir = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/meanR/";
+            Map<String, ThresoldsExperiment> allThresoldInterestingness  = createExperiments(type);
+            calculateMeanReciprocal(type, prediction,null, dicDir, meanRDir,allThresoldInterestingness);
         }
 
     }

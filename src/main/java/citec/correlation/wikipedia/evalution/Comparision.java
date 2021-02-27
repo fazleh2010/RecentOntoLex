@@ -159,21 +159,6 @@ public class Comparision implements ThresoldConstants {
             goldWordKbs.put(word, goldRelevance); 
         }
 
-        /*for (String word : this.csvFile.getRow().keySet()) {
-            Map<String, Double> predict =new HashMap<String,Double>();
-            if (lexiconDic.containsKey(word)) {
-                LexiconUnit lexiconElement = lexiconDic.get(word);
-                predict = this.getPredictMap(word, lexiconElement);
-            }
-            Map<String, Boolean> goldRelevance = this.getGoldRelevance(word, predict, type);
-            System.out.println("goldRelevance:"+goldRelevance);
-                Pair<String, Map<String, Double>> predictPair = new Pair<String, Map<String, Double>>(word, predict);
-                Pair<String, Map<String, Boolean>> goldRelevancePair = new Pair<String, Map<String, Boolean>>(word, goldRelevance);
-                lexicon.add(predictPair);
-                qald_gold.add(goldRelevancePair);
-
-        }*/
-
         this.meanReciprocalResult = new MeanReciprocalCalculation(experiment, this.predicationRule,csvFile,lexiconWordKbs, this.lexiconLemma,goldWordKbs, LOGGER);
         //LOGGER.log(Level.INFO, "***** ***** ***** SUMMARY of RESULT ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****");
         //LOGGER.log(Level.INFO, "***** RESULT of ANALYSIS of POS TAG::" + this.posTag);

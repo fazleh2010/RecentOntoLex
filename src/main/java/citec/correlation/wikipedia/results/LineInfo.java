@@ -61,10 +61,17 @@ public class LineInfo implements ThresoldConstants{
     
     public LineInfo(Integer index,String[] row,String prediction,String interestingness,PropertyCSV propertyCSV,Logger logger) throws Exception {
         this.LOGGER=logger;
+        
+        /*String rowStr="";
+        for(String test:row){
+            rowStr+=test+" ";        }
+        
+        LOGGER.log(Level.INFO, "rowStr ::" +rowStr);   */
+
       
         if (row.length < propertyCSV.getStringIndex()) {
             this.validFlag = false;
-            LOGGER.log(Level.INFO, "line No ::" + index + " line does not work!!!!!!!!!!");
+            //LOGGER.log(Level.INFO, "line No ::" + index + " line does not work!!!!!!!!!!");
             return;
         }
          

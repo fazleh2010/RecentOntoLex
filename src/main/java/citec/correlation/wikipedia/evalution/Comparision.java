@@ -232,9 +232,9 @@ public class Comparision implements ThresoldConstants {
             word = word.strip().trim();*/
             word = this.lemmatizer.getGeneralizedPosTagLemma(word, this.posTag);
             word = word.replaceAll("\\d", " ");
-              word = word.replaceAll("[^a-zA-Z0-9]", " ");
-              word=word.strip().trim();
-                word=word.replaceAll(" ", "_");
+            word = word.replaceAll("[^a-zA-Z0-9]", " ");
+            word = word.strip().trim();
+            word = word.replaceAll(" ", "_");
             
             if (lexiconDic.containsKey(word)) {
                 LexiconUnit existLexiconUnit = lexiconDic.get(word);

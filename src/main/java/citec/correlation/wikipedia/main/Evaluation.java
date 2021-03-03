@@ -94,7 +94,7 @@ public class Evaluation implements ThresoldConstants {
 
     }
 
-    public static void calculateMeanReciprocal(String type, String givenPrediction, String givenInterestingness, String directory, String outputDir,Map<String, ThresoldsExperiment> allThresoldInterestingness) throws IOException, Exception {
+    public static void calculateMeanReciprocal(String type, String givenPrediction, String givenInterestingness, String directory, String outputDir, Map<String, ThresoldsExperiment> allThresoldInterestingness) throws IOException, Exception {
         Handler fileHandler = new FileHandler(outputDir + givenPrediction + "-" + "logger.log");
         fileHandler.setFormatter(new LogFormatter());
         fileHandler.setFilter(new LogFilter());
@@ -122,11 +122,10 @@ public class Evaluation implements ThresoldConstants {
                 verbs = new ArrayList<MeanReciprocalCalculation>();
                 nouns = new ArrayList<MeanReciprocalCalculation>();*/
                 for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
-                    
-                /*if(!experiment.contains("numRule_10000-supA_100.0-supB_100.0-condAB_0.001-condBA_0.001-AllConf_0.001")){
+
+                    /*if(!experiment.contains("numRule_10000-supA_100.0-supB_100.0-condAB_0.001-condBA_0.001-AllConf_0.001")){
                         continue;
                 }*/
-                        
                     List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, interestingness, experiment, ".json").getValue1();
                     Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(prediction, interestingness, experiment, directory, expFileList);
                     if (!meanReciprocalsPos.isEmpty()) {
@@ -158,9 +157,6 @@ public class Evaluation implements ThresoldConstants {
             /*if (!posTag.contains("NN")) {
                 continue;
             }*/
-            
-            
-            
             Pair<Boolean, File> pair = getFile(posTag, fileList);
             if (pair.getValue0()) {
                 File file = pair.getValue1();
@@ -285,6 +281,35 @@ public class Evaluation implements ThresoldConstants {
         name = name.replace("HR_", "");
         String[] info = name.split("-");
         return info[0].trim().strip();
+    }
+
+    public static void doEvalution() throws Exception {
+        Evaluation evaluationMainTest = new Evaluation();
+
+        //predictions.add(ThresoldConstants.predict_l_for_s_given_o);
+        //predictions.add(ThresoldConstants.predict_l_for_o_given_p);
+        Map<String, String> predictionType = new HashMap<String, String>();
+        //predictionType.put(predict_l_for_o_given_p, ThresoldConstants.PREDICATE);
+
+        //predictionType.put(predict_l_for_s_given_o, ThresoldConstants.OBJECT);
+        //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
+        //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
+        predictionType.put(ThresoldConstants.predict_localized_l_for_s_given_p, ThresoldConstants.PREDICATE);
+
+        for (String prediction : predictionType.keySet()) {
+            String type = predictionType.get(prediction);
+            String dicDir = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/dic/";
+            String meanRDir = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/meanR/";
+            Map<String, ThresoldsExperiment> allThresoldInterestingness = Evaluation.createExperiments(type);
+            Evaluation.calculateMeanReciprocal(type, prediction, null, dicDir, meanRDir, allThresoldInterestingness);
+        }
+    }
+
+    public static void main(String[] args) throws Exception {
+        //create experiments
+        //createExperiments();
+        doEvalution();
+
     }
 
 }

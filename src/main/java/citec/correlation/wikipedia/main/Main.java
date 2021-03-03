@@ -33,7 +33,7 @@ public class Main implements ThresoldConstants{
     public static void main(String[] args) throws Exception {
       //create experiments
       //createExperiments();
-      doEvalution();
+      //doEvalution();
       
     }
     
@@ -78,29 +78,7 @@ public class Main implements ThresoldConstants{
         }
     }
       
-    public static void doEvalution() throws Exception {
-        String directory = qald9Dir + OBJECT + "/";
-        String inputDir = dbpediaDir + "results/" + "new/MR/";
-        Evaluation evaluationMainTest = new Evaluation();
-
-        //predictions.add(ThresoldConstants.predict_l_for_s_given_o);
-        //predictions.add(ThresoldConstants.predict_l_for_o_given_p);
-        Map<String, String> predictionType = new HashMap<String, String>();
-        //predictionType.put(predict_l_for_o_given_p, ThresoldConstants.PREDICATE);
-
-        //predictionType.put(predict_l_for_s_given_o, ThresoldConstants.OBJECT);
-        //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
-        //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
-        predictionType.put(ThresoldConstants.predict_localized_l_for_s_given_p, ThresoldConstants.PREDICATE);
-
-        for (String prediction : predictionType.keySet()) {
-            String type = predictionType.get(prediction);
-            String dicDir = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/dic/";
-            String meanRDir = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/meanR/";
-            Map<String, ThresoldsExperiment> allThresoldInterestingness = Evaluation.createExperiments(type);
-            Evaluation.calculateMeanReciprocal(type, prediction, null, dicDir, meanRDir, allThresoldInterestingness);
-        }
-    }
+    
 
 
 }

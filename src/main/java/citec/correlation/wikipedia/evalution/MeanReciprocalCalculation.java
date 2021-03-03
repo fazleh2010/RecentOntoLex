@@ -18,9 +18,12 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
@@ -59,9 +62,18 @@ public class MeanReciprocalCalculation implements Comparator {
     //@JsonProperty("Detail")
     @Ignore
     private Map<String, ReciprocalResult> patternFound = new TreeMap<String, ReciprocalResult>();
-    
+
     @Ignore
     private Map<String, Double> hitsValue = new TreeMap<String, Double>();
+    
+    
+    @Ignore
+    private static String Hits = "Hits";
+    private static String MRR = "MRR";
+    
+
+    @Ignore
+    private static LinkedHashSet<String> hitsString = new LinkedHashSet<String>(Arrays.asList(MRR,Hits+1, Hits+2, Hits+4));
     //@JsonProperty("PatterrnFoundZeroRank")
     @JsonIgnore
     private Map<String, ReciprocalResult> patternNotFound = new TreeMap<String, ReciprocalResult>();
@@ -72,8 +84,8 @@ public class MeanReciprocalCalculation implements Comparator {
     private CsvFile csvFile = null;
     @JsonIgnore
     private static String predictionRule = null;
-    
-    
+
+
 
     public MeanReciprocalCalculation() {
 
@@ -114,23 +126,18 @@ public class MeanReciprocalCalculation implements Comparator {
                 Map<String, Double> rankedList = lexiconWordKbs.get(word);
                 Map<String, Boolean> gold = goldWordKbs.get(word);
                 Pair<String, String> pair = EvaluationTriple.getString(coulmns, predictionRule);
-                
-                //LOGGER.log(Level.WARNING, "word: "+word);
-             
-                validFlag=this.isWordMatched(lexiconWordKbs.keySet(),word);
 
-               
+                //LOGGER.log(Level.WARNING, "word: "+word);
+                validFlag = this.isWordMatched(lexiconWordKbs.keySet(), word);
+
                 /*else if (lexiconLemma.containsKey(word)) {
                     word = lexiconLemma.get(word);
                     rankedList = lexiconWordKbs.get(word);
                     gold.put(word, true);
                 }*/
                 //isValid(predictionRule, word, lexiconWordKbs, coulmns)
-
                 //lexiconWordKbs.containsKey(word)
-               
                 //LOGGER.log(Level.INFO,"lexiconLemma.keySet(): "+lexiconLemma.keySet());
-     
                 if (validFlag && isValid(predictionRule, coulmns)) {
                     matchFlag = true;
                     LOGGER.log(Level.INFO, ">> now checking qald pattern::" + word + " " + " >>>> Pattern FOUND in our LEXICON");
@@ -144,18 +151,18 @@ public class MeanReciprocalCalculation implements Comparator {
                     //mrr += reciprocalResult.getReciprocalRank();
                     //count += 1;
 
-                }else {
+                } else {
                     LOGGER.log(Level.INFO, ">> now checking QUERY::" + word + " >> Pattern NOT FOUND in our LEXICON");
                     reciprocalResult = new ReciprocalResult();
                     //LOGGER.log(Level.INFO, ">> lexiconWordKbs::"+lexiconWordKbs);
                     //LOGGER.log(Level.INFO, ">> RANK::" + reciprocalResult.getRank() + " >> RECIPROCAL RANK::" + reciprocalResult.getRank() + "\n" + "\n");
                 }
-             
+
                 // not all lexicon count += 1;
-                Integer rank=reciprocalResult.getRank();
+                Integer rank = reciprocalResult.getRank();
                 mrr += reciprocalResult.getReciprocalRank();
-              
-                            if (rank > 0) {
+
+                if (rank > 0) {
                     Integer hitRank = 1;
                     if (hits.containsKey(rank) && rank > 0) {
                         hitRank = hits.get(rank) + 1;
@@ -163,24 +170,32 @@ public class MeanReciprocalCalculation implements Comparator {
                     hits.put(rank, hitRank);
                 }
 
-                    
                 count += 1;
 
             }
         }
         
        double size = count;
-        mrr = mrr / size;
+       mrr = mrr / size;
+       System.out.println(hits);
+       this.hitsValue.put(MRR, mrr);
+       LOGGER.log(Level.INFO, "#### #### #### #### Mean Reciprocal Value::" + "(" + mrr + "/" + size + ")" + "=" + mrr);
+
         LOGGER.log(Level.INFO, "#### #### #### #### calculating Hits::"   );
         for(Integer index: hits.keySet()){
             Integer rankTotal=hits.get(index);
             Double value=(rankTotal/size);
-            String key="@Hits"+index;
-            this.hitsValue.put(key, value);
-            LOGGER.log(Level.INFO, key+"::" + "(" + rankTotal + "/" + size + "):" + value  );
-            
+            String key=Hits+index;
+            if(hitsString.contains(key)){
+              this.hitsValue.put(key, value);
+              LOGGER.log(Level.INFO, key+"::" + "(" + rankTotal + "/" + size + "):" + value  );
+            }
         }
-        LOGGER.log(Level.INFO, "#### #### #### #### Mean Reciprocal Value::" + "(" + mrr + "/" + size + ")" + "=" + mrr);
+        for(String key: hitsString){
+            if(!hitsValue.containsKey(key)){
+              this.hitsValue.put(key, 0.0);
+            }
+        }
 
 
        /*if (matchFlag) {
@@ -218,8 +233,8 @@ public class MeanReciprocalCalculation implements Comparator {
                     reciprocalRank = 1.0 / (i + 1);
                     Integer rank = (i + 1);
                     Pair<String, String> rankedPair = EvaluationTriple.getRankedString(ranking, predictionRule, rank);
-                    LOGGER.log(Level.INFO, ">>>> >>>>  >>>> >>>> >>>> >>>> Proposed results:" + rankedPair.getValue0() + " " + rankedPair.getValue1());
-                    LOGGER.log(Level.INFO, ">>>> >>>>  >>>> >>>> >>>> >>>> QALD KB :" + qaldKB + " >>>> >>>> FOUND :" + " >>>> >>>>" + " RANK::" + rank + " RECIPROCAL RANK:" + reciprocalRank + "\n" + "\n");
+                    LOGGER.log(Level.INFO, ">>>> >>>>  >>>> >>>> >>>>  >>>> >>>> >>>> >>>> Proposed results:" + rankedPair.getValue0() + " " + rankedPair.getValue1());
+                    LOGGER.log(Level.INFO, ">>>> >>>>  >>>> >>>> >>>>  >>>> >>>> >>>> >>>> QALD KB :" + qaldKB + " >>>> >>>> FOUND :" + " >>>> >>>>" + " RANK::" + rank + " RECIPROCAL RANK:" + reciprocalRank + "\n" + "\n");
                     ReciprocalResult reciprocalResult = new ReciprocalResult(predicate, rank, reciprocalRank);
                     //LOGGER.log(Level.INFO, ">>>> >>>> >>>> >>>> FOUND :" + qaldKb.getValue1() + " RANK::" + rank + " RECIPROCAL RANK:" + reciprocalRank);
                     return new ReciprocalResult(predicate, rank, reciprocalRank);
@@ -349,6 +364,14 @@ public class MeanReciprocalCalculation implements Comparator {
         return filtered;
     }
 
-   
+    public static Set<String> getHitsString() {
+        return hitsString;
+    }
+
+    public Map<String, Double> getHitsValue() {
+        return hitsValue;
+    }
+
+  
 
 }

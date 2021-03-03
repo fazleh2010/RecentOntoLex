@@ -93,7 +93,7 @@ public class CsvFile implements CsvConstants {
         return csvData;
     }
 
-    public void createCsvExperimentData(String type,Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult) {
+    /*public void createCsvExperimentData(String type,Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult) {
 
         ThresoldsExperiment thresoldsExperiment = new ThresoldsExperiment(type);
         List<String[]> csvData = new ArrayList<String[]>();
@@ -113,6 +113,7 @@ public class CsvFile implements CsvConstants {
                 Map<String, String> posResults = new TreeMap<String, String>();
                 for (String postag : parts_of_speech.keySet()) {
                      String mean = parts_of_speech.get(postag).getMeanReciprocalRankStr();
+                     mean =postag;
                     posResults.put(postag, mean);
                     //LOGGER.log(Level.INFO,"postag:"+postag+" mean:"+mean);
                 }
@@ -147,23 +148,72 @@ public class CsvFile implements CsvConstants {
             csvData.add(record);
         }
 
+        writeToCSV(csvData);
+    }*/
+    
+    public void createCsvExperimentData(String type,Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult) {
 
-        /*for (String experiment : experimentPosResults.keySet()) {
+        ThresoldsExperiment thresoldsExperiment = new ThresoldsExperiment(type);
+        List<String[]> csvData = new ArrayList<String[]>();
+        Integer coulmnSize = (thresoldsExperiment.interestingness.size() * thresoldsExperiment.AllConfList.size() * POSTAGS.size()*MeanReciprocalCalculation.getHitsString().size()) + 1;
+        csvData = this.setHeader(coulmnSize, thresoldsExperiment);
+
+        Map<String, Map<String, String>> experimentPosResults = new TreeMap<String, Map<String, String>>();
+        for (String rule : ruleExpeResult.keySet()) {
+            Map<String, Map<String, MeanReciprocalCalculation>> ruleResult = ruleExpeResult.get(rule);
+            for (String experiment : ruleResult.keySet()) {
+                //LOGGER.log(Level.INFO,"experiment:"+experiment);
+                Map<String, MeanReciprocalCalculation> posEvaluation = ruleResult.get(experiment);
+                experiment = getExperiment(experiment, rule);
+                Map<String, String> posResults = new TreeMap<String, String>();
+                for (String postag : posEvaluation.keySet()) {
+                    String key = null;
+                    MeanReciprocalCalculation meanReciprocalCalculation = posEvaluation.get(postag);
+                    for (String evalStr : MeanReciprocalCalculation.getHitsString()) {
+                        String mean = null;
+                        if (meanReciprocalCalculation.getHitsValue().containsKey(evalStr)) {
+                            key = postag + "-" + evalStr;
+                            mean =meanReciprocalCalculation.getHitsValue().get(evalStr).toString();
+                            //mean = key;
+                            posResults.put(key, mean);
+                        }
+                      
+
+                    }
+
+                    //LOGGER.log(Level.INFO,"postag:"+postag+" mean:"+mean);
+                }
+                Map<String, String> temp = new HashMap<String, String>();
+                if (experimentPosResults.containsKey(experiment)) {
+                    temp = experimentPosResults.get(experiment);
+                    temp.putAll(posResults);
+                    experimentPosResults.put(experiment, temp);
+                } else {
+                    experimentPosResults.put(experiment, posResults);
+                }
+            }
+
+        }
+
+        for (String experiment : experimentPosResults.keySet()) {
+            //System.out.println("experiment:" + experiment);
             String[] record = new String[coulmnSize];
             record[0] = experiment;
-            record[coulmnSize] = "result";
+            //record[coulmnSize+1] = "result";
             Map<String, String> parts_of_speech = experimentPosResults.get(experiment);
-            System.out.println("parts_of_speech:"+parts_of_speech);
+            //System.out.println("parts_of_speech:" + parts_of_speech);
             for (String element : parts_of_speech.keySet()) {
                 String value = parts_of_speech.get(element);
-                System.out.println("element:"+element+" value:"+value);
                 if (interestingnessIndexes.containsKey(element)) {
                     Integer elmentIndex = interestingnessIndexes.get(element);
                     record[elmentIndex] = value;
+                    //System.out.println("element:" + element + " value:" + value);
+
                 }
             }
             csvData.add(record);
-        }*/
+        }
+
         writeToCSV(csvData);
     }
 
@@ -362,8 +412,49 @@ public class CsvFile implements CsvConstants {
 
         return str;
     }
-
+    
     private List<String[]> setHeader(Integer coulmnSize, ThresoldsExperiment thresoldsExperiment) {
+        List<String[]> csvData = new ArrayList<String[]>();
+        String[] header = new String[coulmnSize];
+        String[] firstRowShow = new String[coulmnSize];
+        String[] secondRowShow = new String[coulmnSize];
+        String[] thirdRowShow = new String[coulmnSize];
+        String[] fourthRowShow = new String[coulmnSize];
+        header[0] = EXPERIMENT;
+        firstRowShow[0] = "Interestingness";
+        secondRowShow[0] = "Thresold";
+        thirdRowShow[0] = "Parts-of-speech";
+        fourthRowShow[0] = "Evaluation";
+        Integer index = 1;
+
+        for (String rule : interestingness) {
+            List<Double> thresoldsRule = thresoldsExperiment.getInterestingness().get(rule);
+            for (Double value : thresoldsRule) {
+                for (String posTag : PosAnalyzer.POSTAGS) {
+                    //thirdRowShow[index] = posTag;
+                    for (String hitStr : MeanReciprocalCalculation.getHitsString()) {
+                        String coulmnStr = this.getColumnKey(rule,value,posTag,hitStr);
+                        header[index] = coulmnStr;
+                        firstRowShow[index] = rule;
+                        secondRowShow[index] = value.toString();
+                        thirdRowShow[index] = posTag;
+                        fourthRowShow[index] = hitStr;
+                        interestingnessIndexes.put(coulmnStr, index);
+                        index = index + 1;
+                    }
+
+                }
+            }
+        }
+
+        csvData.add(firstRowShow);
+        csvData.add(secondRowShow);
+        csvData.add(thirdRowShow);
+        csvData.add(fourthRowShow);
+        return csvData;
+    }
+
+    /*private List<String[]> setHeader(Integer coulmnSize, ThresoldsExperiment thresoldsExperiment) {
         List<String[]> csvData = new ArrayList<String[]>();
         String[] header = new String[coulmnSize];
         String[] firstRowShow = new String[coulmnSize];
@@ -394,7 +485,7 @@ public class CsvFile implements CsvConstants {
         csvData.add(secondRowShow);
         csvData.add(thirdRowShow);
         return csvData;
-    }
+    }*/
 
     /*public static void main(String[] args) throws IOException, FileNotFoundException, CsvException, Exception {
        
@@ -455,6 +546,10 @@ public class CsvFile implements CsvConstants {
         File qaldFile = new File(qald9Dir + GOLD + "NN-object-qald9.csv");
         CsvFile csvFile = new CsvFile(qaldFile);
         csvFile.readQaldCsvNgram(qaldFile,2,"NN");
+    }
+
+    private String getColumnKey(String interestingness, Double thresoldValue, String posTag, String hitStr) {
+        return interestingness + "_" + thresoldValue.toString() + "-" + posTag + "-" + hitStr;
     }
 
    

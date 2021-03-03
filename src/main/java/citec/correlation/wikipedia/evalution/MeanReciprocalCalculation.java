@@ -117,6 +117,7 @@ public class MeanReciprocalCalculation implements Comparator {
            //lexiconWordKbs=this.filter(lexiconWordKbs);
           // LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs);
         Map<Integer, Integer> hits = new TreeMap<Integer, Integer>();
+        //LOGGER.log(Level.WARNING, "lexiconWordKbs.keySet(): "+lexiconWordKbs.keySet());
 
         for (String word : this.csvFile.getRow().keySet()) {
             for (String[] coulmns : this.csvFile.getRow().get(word)) {

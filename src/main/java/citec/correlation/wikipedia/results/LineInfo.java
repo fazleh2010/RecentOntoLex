@@ -249,7 +249,7 @@ public class LineInfo implements ThresoldConstants{
     public static Boolean isThresoldValid(Map<String, Double> lineProbabiltyValue, Map<String, Double> givenThresold) throws Exception {
         boolean thresoldValid = true;
         Set<String> commonAtt=Sets.intersection(lineProbabiltyValue.keySet(), givenThresold.keySet());
-        //System.out.println("lineProbabiltyValue:"+lineProbabiltyValue);
+        //System.out.println("commonAtt:"+commonAtt);
         //System.out.println("givenThresold:"+givenThresold);
          //System.out.println("commonAtt:"+commonAtt);
         

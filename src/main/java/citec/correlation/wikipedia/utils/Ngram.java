@@ -38,10 +38,15 @@ public class Ngram {
 
     public List<String> ngrams(int n, String str) {
         List<String> ngrams = new ArrayList<String>();
-        String[] words = str.split(" ");
-        for (int i = 0; i < words.length - n + 1; i++) {
-            ngrams.add(concat(words, i, i + n));
+        try {
+            String[] words = str.split(" ");
+            for (int i = 0; i < words.length - n + 1; i++) {
+                ngrams.add(concat(words, i, i + n));
+            }
+        } catch (Exception ex) {
+            System.err.println(str + " " + ex.getMessage());
         }
+
         return ngrams;
     }
 

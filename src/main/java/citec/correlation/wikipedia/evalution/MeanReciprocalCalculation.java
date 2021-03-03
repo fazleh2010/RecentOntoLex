@@ -177,7 +177,6 @@ public class MeanReciprocalCalculation implements Comparator {
         
        double size = count;
        mrr = mrr / size;
-       System.out.println(hits);
        this.hitsValue.put(MRR, mrr);
        LOGGER.log(Level.INFO, "#### #### #### #### Mean Reciprocal Value::" + "(" + mrr + "/" + size + ")" + "=" + mrr);
 

@@ -54,12 +54,25 @@ public interface PredicateParamters {
     public  List<Integer> nGram = Arrays.asList(5);*/
     
     
+    
+    ////creation thresold....
+    /*public List<Double> supAList = Arrays.asList(20.0,50.0);
+    public List<Double> supBList = Arrays.asList(20.0,100.0);
+    public List<Double> confABList = Arrays.asList(0.05, 0.1);
+    public List<Double> confBAList = Arrays.asList(0.5,0.1);
+    public List<Double> probabiltyThresold = Arrays.asList(0.05,0.1);
+    public  List<Integer> numberOfRules = Arrays.asList(1000,20000);
+    public  List<Integer> nGram = Arrays.asList(5);*/
+    ////
+    
+    ////evalution thresold....
     public List<Double> supAList = Arrays.asList(20.0,50.0);
     public List<Double> supBList = Arrays.asList(20.0,100.0);
     public List<Double> confABList = Arrays.asList(0.05, 0.1);
     public List<Double> confBAList = Arrays.asList(0.5,0.1);
     public List<Double> probabiltyThresold = Arrays.asList(0.05,0.1);
     public  List<Integer> numberOfRules = Arrays.asList(1000,20000);
-    public  List<Integer> nGram = Arrays.asList(5);
+    public  List<Integer> nGram = Arrays.asList(1,2,3,4,5);
+    
     
 }

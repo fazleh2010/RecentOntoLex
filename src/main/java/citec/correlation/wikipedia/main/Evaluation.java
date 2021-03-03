@@ -126,7 +126,9 @@ public class Evaluation implements ThresoldConstants {
                     /*if(!experiment.contains("numRule_10000-supA_100.0-supB_100.0-condAB_0.001-condBA_0.001-AllConf_0.001")){
                         continue;
                 }*/
-                    List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, interestingness, experiment, ".json").getValue1();
+                    String searchFileMatch=experiment.replace("nGram_1", "nGram_5");
+                    List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, interestingness, searchFileMatch, ".json").getValue1();
+                    //System.out.println(experiment+"   expFileList:"+expFileList.size());
                     Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(prediction, interestingness, experiment, directory, expFileList);
                     if (!meanReciprocalsPos.isEmpty()) {
                         expeResult.put(experiment, meanReciprocalsPos);
@@ -159,9 +161,11 @@ public class Evaluation implements ThresoldConstants {
             }*/
             Pair<Boolean, File> pair = getFile(posTag, fileList);
             if (pair.getValue0()) {
+                String qaldFile =null;
                 File file = pair.getValue1();
                 String fileName = file.getName().replace(".json", "");
-                String qaldFile = FileFolderUtils.getQaldCsvFile(qald9Dir + GOLD, OBJECT, posTag);
+                String nGram=gerNGram(experiment);
+                qaldFile = FileFolderUtils.getQaldCsvFile(qald9Dir + GOLD, OBJECT, posTag,nGram);  
                 CsvFile csvFile = new CsvFile(new File(qaldFile));
                 csvFile.readQaldCsv(qaldFile);
                 File conditionalFile = new File(directory + fileName + ".json");
@@ -301,7 +305,7 @@ public class Evaluation implements ThresoldConstants {
             String dicDir = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/dic/";
             String meanRDir = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/meanR/";
             Map<String, ThresoldsExperiment> allThresoldInterestingness = Evaluation.createExperiments(type);
-            Evaluation.calculateMeanReciprocal(type, prediction, null, dicDir, meanRDir, allThresoldInterestingness);
+            Evaluation.calculateMeanReciprocal(type, prediction, Cosine, dicDir, meanRDir, allThresoldInterestingness);
         }
     }
 
@@ -311,5 +315,11 @@ public class Evaluation implements ThresoldConstants {
         doEvalution();
 
     }
+
+    private static String gerNGram(String experiment) {
+        return experiment.split("-")[1];
+    }
+
+   
 
 }

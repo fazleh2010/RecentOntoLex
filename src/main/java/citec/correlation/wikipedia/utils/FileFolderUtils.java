@@ -860,8 +860,8 @@ public class FileFolderUtils implements TextAnalyzer{
         return new File(directory + File.separator + postag + "-" + type + "-" + QLAD9 + ".json");
     }
     
-    public static String  getQaldCsvFile(String directory,String type, String postag) {
-        return directory + File.separator + postag + "-" + type + "-" + QLAD9 + ".csv";
+    public static String  getQaldCsvFile(String directory,String type, String postag,String nGram) {
+        return directory + File.separator + postag + "-" + type + "-" + QLAD9 +"-"+nGram+ ".csv";
     }
 
     public static String getMeanReciprocalFile(String directory, String type,String postag) {

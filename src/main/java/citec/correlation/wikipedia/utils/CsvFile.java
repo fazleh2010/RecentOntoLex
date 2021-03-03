@@ -13,6 +13,7 @@ import citec.correlation.wikipedia.analyzer.logging.LogFormatter;
 import citec.correlation.wikipedia.analyzer.logging.LogHandler;
 import citec.correlation.wikipedia.dic.qald.Unit;
 import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
+import citec.correlation.wikipedia.experiments.ThresoldConstants;
 import citec.correlation.wikipedia.main.CsvConstants;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import citec.correlation.wikipedia.experiments.ThresoldsExperiment;
@@ -41,6 +42,7 @@ import java.util.logging.FileHandler;
 import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+import org.javatuples.Pair;
 
 /**
  *
@@ -150,12 +152,11 @@ public class CsvFile implements CsvConstants {
 
         writeToCSV(csvData);
     }*/
-    
-    public void createCsvExperimentData(String type,Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult) {
+    public void createCsvExperimentData(String type, Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult) {
 
         ThresoldsExperiment thresoldsExperiment = new ThresoldsExperiment(type);
         List<String[]> csvData = new ArrayList<String[]>();
-        Integer coulmnSize = (thresoldsExperiment.interestingness.size() * thresoldsExperiment.AllConfList.size() * POSTAGS.size()*MeanReciprocalCalculation.getHitsString().size()) + 1;
+        Integer coulmnSize = (thresoldsExperiment.interestingness.size() * thresoldsExperiment.AllConfList.size() * POSTAGS.size() * MeanReciprocalCalculation.getHitsString().size()) + 1;
         csvData = this.setHeader(coulmnSize, thresoldsExperiment);
 
         Map<String, Map<String, String>> experimentPosResults = new TreeMap<String, Map<String, String>>();
@@ -173,11 +174,10 @@ public class CsvFile implements CsvConstants {
                         String mean = null;
                         if (meanReciprocalCalculation.getHitsValue().containsKey(evalStr)) {
                             key = postag + "-" + evalStr;
-                            mean =meanReciprocalCalculation.getHitsValue().get(evalStr).toString();
+                            mean = meanReciprocalCalculation.getHitsValue().get(evalStr).toString();
                             //mean = key;
                             posResults.put(key, mean);
                         }
-                      
 
                     }
 
@@ -228,6 +228,18 @@ public class CsvFile implements CsvConstants {
             System.out.println("writing csv file failed!!!" + ex.getMessage());
         }
     }
+    
+     public void writeToCSV(File newQaldFile,List<String[]> csvData) {
+        if (csvData.isEmpty()) {
+            System.out.println("writing csv file failed!!!");
+            return;
+        }
+        try ( CSVWriter writer = new CSVWriter(new FileWriter(newQaldFile))) {
+            writer.writeAll(csvData);
+        } catch (IOException ex) {
+            System.out.println("writing csv file failed!!!" + ex.getMessage());
+        }
+    }
 
     public List<LineInfo> readPropertyCsv(File filename, String predict, String interestingness, PropertyCSV propertyCSV) throws FileNotFoundException, IOException, CsvException, Exception {
         List<String[]> rows = new ArrayList<String[]>();
@@ -241,7 +253,7 @@ public class CsvFile implements CsvConstants {
         String word = null;
 
         for (String[] row : rows) {
-            LineInfo lineInfo =null;
+            LineInfo lineInfo = null;
             if (index == 0) {
                 //this.qaldHeader = row;
             } else {
@@ -285,7 +297,7 @@ public class CsvFile implements CsvConstants {
             } else {
 
                 word = row[0].trim().strip();
-                System.out.println("word:"+word);
+                System.out.println("word:" + word);
 
                 if (!word.isEmpty()) {
                     lastWord = word;
@@ -305,51 +317,8 @@ public class CsvFile implements CsvConstants {
             index = index + 1;
         }
     }
-    
-    public void readQaldCsvNgram(File predictFile,Integer nGram, String PosTag) throws Exception {
-        List<String[]> rows = new ArrayList<String[]>();
-        Map<String, Unit> qald = new TreeMap<String, Unit>();
-        Stack<String> stack = new Stack<String>();
-        CSVReader reader;
-        try {
-            reader = new CSVReader(new FileReader(filename));
-            rows = reader.readAll();
-        } catch (FileNotFoundException ex) {
-            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
-            LOGGER.log(Level.SEVERE, "CSV File not found:!!!" + ex.getMessage());
-        } catch (IOException ex) {
-            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
-            LOGGER.log(Level.SEVERE, "CSV File not found:!!!" + ex.getMessage());
-        } catch (CsvException ex) {
-            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
-            LOGGER.log(Level.SEVERE, "CSV problems:!!!" + ex.getMessage());
-        }
 
-        Integer index = 0;
-        String lastWord = null;
-        String word = null;
-        for (String[] row : rows) {
-            if (index == 0) {
-                this.qaldHeader = row;
-            } else {
-
-                word = row[0].trim().strip();
-                //System.out.println("id:"+row[idIndex]+" question:"+row[questionIndex]);
-                String question=row[questionIndex];
-                System.out.println("question::"+question);
-                Ngram Ngram=new Ngram(question,nGram);
-                Ngram.processNgram();
-                Map<String, String> taggesNgram=Ngram.getnGramPos(nGram,PosTag);
-                System.out.println("taggesNgram:"+taggesNgram);
-
-            }
-
-            index = index + 1;
-        }
-    }
-
-
-    public List<EvaluationTriple> getRowValues(String word,String predictionRule) {
+    public List<EvaluationTriple> getRowValues(String word, String predictionRule) {
         List<EvaluationTriple> triples = new ArrayList<EvaluationTriple>();
         List<String[]> rows = wordRows.get(word);
         for (String[] row : rows) {
@@ -357,7 +326,7 @@ public class CsvFile implements CsvConstants {
                 String id = row[CsvConstants.idIndex];
                 String predicate = row[CsvConstants.propertyIndex];
                 String object = row[CsvConstants.objectIndex];
-                EvaluationTriple qaldTriple = new EvaluationTriple(QALD,predictionRule,id,null,predicate, object,word,LOGGER);
+                EvaluationTriple qaldTriple = new EvaluationTriple(QALD, predictionRule, id, null, predicate, object, word, LOGGER);
                 triples.add(qaldTriple);
             } catch (Exception ex) {
                 Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
@@ -412,7 +381,7 @@ public class CsvFile implements CsvConstants {
 
         return str;
     }
-    
+
     private List<String[]> setHeader(Integer coulmnSize, ThresoldsExperiment thresoldsExperiment) {
         List<String[]> csvData = new ArrayList<String[]>();
         String[] header = new String[coulmnSize];
@@ -433,7 +402,7 @@ public class CsvFile implements CsvConstants {
                 for (String posTag : PosAnalyzer.POSTAGS) {
                     //thirdRowShow[index] = posTag;
                     for (String hitStr : MeanReciprocalCalculation.getHitsString()) {
-                        String coulmnStr = this.getColumnKey(rule,value,posTag,hitStr);
+                        String coulmnStr = this.getColumnKey(rule, value, posTag, hitStr);
                         header[index] = coulmnStr;
                         firstRowShow[index] = rule;
                         secondRowShow[index] = value.toString();
@@ -487,7 +456,7 @@ public class CsvFile implements CsvConstants {
         return csvData;
     }*/
 
-    /*public static void main(String[] args) throws IOException, FileNotFoundException, CsvException, Exception {
+ /*public static void main(String[] args) throws IOException, FileNotFoundException, CsvException, Exception {
        
          String baseDir = "/home/elahi/dbpediaFiles/unlimited/unlimited/";
 
@@ -541,17 +510,134 @@ public class CsvFile implements CsvConstants {
 
         }
     }*/
-    
-    public static void main(String[] args) throws IOException, FileNotFoundException, CsvException, Exception {
-        File qaldFile = new File(qald9Dir + GOLD + "NN-object-qald9.csv");
-        CsvFile csvFile = new CsvFile(qaldFile);
-        csvFile.readQaldCsvNgram(qaldFile,2,"NN");
-    }
-
     private String getColumnKey(String interestingness, Double thresoldValue, String posTag, String hitStr) {
         return interestingness + "_" + thresoldValue.toString() + "-" + posTag + "-" + hitStr;
     }
+    
+    public  List<String[]>  getQald(File qaldFile) throws Exception {
+        List<String[]> rows = new ArrayList<String[]>();
+        Map<String, List<Pair<String, String[]>>> nGramQalds = new TreeMap<String, List<Pair<String, String[]>>>();
 
-   
+        Stack<String> stack = new Stack<String>();
+        CSVReader reader;
+        try {
+            reader = new CSVReader(new FileReader(filename));
+            rows = reader.readAll();
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, "CSV File not found:!!!" + ex.getMessage());
+        } catch (IOException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, "CSV File not found:!!!" + ex.getMessage());
+        } catch (CsvException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, "CSV problems:!!!" + ex.getMessage());
+        }
+
+       return rows;
+    }
+    public List<String[]>  addNgramToQald(List<String[]> rows, Integer nGram, String PosTag) throws Exception {
+        
+        Map<String, List<Pair<String, String[]>>> nGramQalds = new TreeMap<String, List<Pair<String, String[]>>>();
+        CSVReader reader;
+        Integer index = 0;
+        String word = null;
+        for (String[] row : rows) {
+            if (index == 0) {
+                this.qaldHeader = row;
+            } else {
+
+                word = row[0].trim().strip();
+                //System.out.println("id:"+row[idIndex]+" question:"+row[questionIndex]);
+                String question = row[questionIndex];
+                Ngram Ngram = new Ngram(question, nGram);
+                Ngram.processNgram();
+                Map<String, String> taggesNgram = Ngram.getnGramPos(nGram, PosTag);
+                nGramQalds = this.populate(row, taggesNgram, nGramQalds);
+
+            }
+
+            index = index + 1;
+        }
+        List<String[]> ngramRows=new ArrayList<String[]>();
+        for (String key : nGramQalds.keySet()) {
+            List<Pair<String, String[]>> temp = nGramQalds.get(key);
+            Integer newRowIndex = 0;
+            for (Pair<String, String[]> pair : temp) {
+                String[] newRow = new String[9];
+                Integer j = 0;
+                for (String line : pair.getValue1()) {
+                    if (j == 0) {
+                        newRow[0] = key;
+                    }/* else if (newRowIndex > 1) {
+                        newRow[0] = "";
+                    } */else {
+                        newRow[j] = line;
+                    }
+                    j = j + 1;
+                }
+                //System.out.println(key);
+                for(String date:newRow){
+                    System.out.print(date+" ");
+                }
+                  System.out.println();
+                  ngramRows.add(newRow);
+                newRowIndex = newRowIndex + 1;
+            }
+        }
+        return ngramRows;
+    }
+
+    private Map<String, List<Pair<String, String[]>>> populate(String[] row, Map<String, String> taggesNgram, Map<String, List<Pair<String, String[]>>> nGramQalds) {
+        for (String key : taggesNgram.keySet()) {
+            String posTag = taggesNgram.get(key);
+            List<Pair<String, String[]>> temp = new ArrayList<Pair<String, String[]>>();
+            if (nGramQalds.containsKey(key)) {
+                temp = nGramQalds.get(key);
+            }
+            Pair<String, String[]> pair = new Pair<String, String[]>(posTag, row);
+            temp.add(pair);
+            nGramQalds.put(key, temp);
+        }
+        return nGramQalds;
+    }
+
+    public static void main(String[] args) throws IOException, FileNotFoundException, CsvException, Exception {
+       
+         
+         List<Integer>nGram=new ArrayList<Integer>();
+         nGram.add(2);
+         nGram.add(3);
+         nGram.add(4);
+         nGram.add(5);
+         
+        for (String posTag : POSTAGS) {
+            File qaldFile = new File(qald9Dir + GOLD + posTag + "-object-qald9-" + ThresoldConstants.nGram + "_" + 1 + ".csv");
+            CsvFile csvFile = new CsvFile(qaldFile);
+            List<String[]> rows = csvFile.getQald(qaldFile);
+            System.out.println(rows.size());
+            for (Integer ngram : nGram) {
+                String nGramFileNameNotation = ThresoldConstants.nGram + "_" + ngram;
+                File newQaldFile = new File(qald9Dir + GOLD + posTag+"-object-qald9-" + nGramFileNameNotation + ".csv");
+                List<String[]> ngramRows = csvFile.addNgramToQald(rows, ngram, posTag);
+                System.out.println(ngramRows.size());
+                csvFile.writeToCSV(newQaldFile, ngramRows);
+            }
+
+        }
+         
+        /*for (Integer ngram : nGram) {
+            String nGramFileNameNotation = ThresoldConstants.nGram+"_" + ngram;
+            File newQaldFile = new File(qald9Dir + GOLD + "NN-object-qald9-" + nGramFileNameNotation + ".csv");
+            List<String[]> ngramRows = csvFile.addNgramToQald(rows, ngram, "NN");
+            System.out.println(ngramRows.size());
+            csvFile.writeToCSV(newQaldFile, ngramRows);
+        }*/
+       
+         /* for(String[] row:editedrows){
+            System.out.println(row[0]);
+         }*/
+        
+    }
 
 }

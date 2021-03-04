@@ -110,6 +110,7 @@ public class MeanReciprocalCalculation implements Comparator {
         double mrr = 0;
         double count = 0.0;
         Boolean matchFlag = false;
+        hitsValue = new TreeMap<String, Double>();
         
            //LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs);
            
@@ -177,9 +178,18 @@ public class MeanReciprocalCalculation implements Comparator {
         }
         
        double size = count;
-       mrr = mrr / size;
-       this.hitsValue.put(MRR, mrr);
-       LOGGER.log(Level.INFO, "#### #### #### #### Mean Reciprocal Value::" + "(" + mrr + "/" + size + ")" + "=" + mrr);
+        double totalMrr=mrr;
+        mrr = (mrr / size);
+        this.meanReciprocalRank = DoubleUtils.formatDouble(mrr);
+        this.meanReciprocalRankStr = FormatAndMatch.doubleFormat(meanReciprocalRank);
+        this.numberOfPatterrnFoundNonZeroRank = patternFound.size();
+        this.numberOfPatterrnFoundZeroRank = patternNotFound.size();
+        this.totalPattern = patternFound.size() + patternNotFound.size();
+       
+       
+       
+       this.hitsValue.put(MRR, this.meanReciprocalRank);
+       LOGGER.log(Level.INFO, "#### #### #### #### Mean Reciprocal Value::" + "(" + totalMrr + "/" + size + ")" + "=" + this.meanReciprocalRank);
 
         LOGGER.log(Level.INFO, "#### #### #### #### calculating Hits::"   );
         for(Integer index: hits.keySet()){
@@ -207,12 +217,7 @@ public class MeanReciprocalCalculation implements Comparator {
             LOGGER.log(Level.INFO, "#### #### #### #### not a linguistic pattern MATCHED in our lexicon #### #### ignore the experiment!");
         }*/
 
-        this.meanReciprocalRank = mrr;
-        this.meanReciprocalRank = DoubleUtils.formatDouble(mrr);
-        this.meanReciprocalRankStr = FormatAndMatch.doubleFormat(meanReciprocalRank);
-        this.numberOfPatterrnFoundNonZeroRank = patternFound.size();
-        this.numberOfPatterrnFoundZeroRank = patternNotFound.size();
-        this.totalPattern = patternFound.size() + patternNotFound.size();
+     
 
     }
 

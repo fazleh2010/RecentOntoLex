@@ -134,6 +134,7 @@ public class Evaluation implements ThresoldConstants {
                     if (!meanReciprocalsPos.isEmpty()) {
                         expeResult.put(experiment, meanReciprocalsPos);
                     }
+         
 
                 }
 
@@ -166,6 +167,7 @@ public class Evaluation implements ThresoldConstants {
                 File file = pair.getValue1();
                 String fileName = file.getName().replace(".json", "");
                 String nGram = gerNGram(experiment);
+                nGram ="nGram_1"; 
                 qaldFile = FileFolderUtils.getQaldCsvFile(qald9Dir + GOLD, OBJECT, posTag, nGram);
                 CsvFile csvFile = new CsvFile(new File(qaldFile));
                 csvFile.readQaldCsv(qaldFile);
@@ -294,12 +296,12 @@ public class Evaluation implements ThresoldConstants {
         //predictions.add(ThresoldConstants.predict_l_for_s_given_o);
         //predictions.add(ThresoldConstants.predict_l_for_o_given_p);
         Map<String, String> predictionType = new HashMap<String, String>();
-        //predictionType.put(predict_l_for_o_given_p, ThresoldConstants.PREDICATE);
+        predictionType.put(predict_l_for_o_given_p, ThresoldConstants.PREDICATE);
 
         //predictionType.put(predict_l_for_s_given_o, ThresoldConstants.OBJECT);
         //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
         //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
-        predictionType.put(ThresoldConstants.predict_localized_l_for_s_given_p, ThresoldConstants.PREDICATE);
+        //predictionType.put(ThresoldConstants.predict_localized_l_for_s_given_p, ThresoldConstants.PREDICATE);
 
         for (String prediction : predictionType.keySet()) {
             String type = predictionType.get(prediction);

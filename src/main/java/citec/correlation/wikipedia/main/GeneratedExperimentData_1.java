@@ -221,12 +221,12 @@ public class GeneratedExperimentData_1 implements ThresoldConstants {
 
         List<String> predictLinguisticGivenKB = new ArrayList<String>(Arrays.asList(
                 //predict_l_for_o_given_p
-                //predict_l_for_s_given_po
+                predict_l_for_s_given_po
                 //predict_l_for_s_given_o
                 //predict_l_for_o_given_p,
                 //predict_l_for_o_given_s,
                 //predict_l_for_o_given_sp
-                predict_localized_l_for_s_given_p
+               // predict_localized_l_for_s_given_p
         ));
         List<String> interestingness = new ArrayList<String>();
         interestingness.add(ThresoldConstants.Cosine);
@@ -245,7 +245,7 @@ public class GeneratedExperimentData_1 implements ThresoldConstants {
             }
             associationRulesExperiment = Evaluation.createExperiments(type);
             //or (String rule : interestingness) {
-            GeneratedExperimentData ProcessFile = new GeneratedExperimentData(baseDir, outputDir, prediction, null, associationRulesExperiment, LOGGER, ".csv");
+            GeneratedExperimentData ProcessFile = new GeneratedExperimentData(baseDir, outputDir, prediction, Cosine, associationRulesExperiment, LOGGER, ".csv");
 
             //}
         }

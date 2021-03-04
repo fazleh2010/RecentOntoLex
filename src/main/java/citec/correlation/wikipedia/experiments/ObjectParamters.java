@@ -15,13 +15,7 @@ import java.util.TreeMap;
  * @author elahi
  */
 public interface ObjectParamters {
-    public List<Double> supAList = Arrays.asList(10.0, 200.0);
-    public List<Double> supBList = Arrays.asList(20.0, 100.0);
-    public List<Double> confABList = Arrays.asList(0.1, 0.8);
-    public List<Double> confBAList = Arrays.asList(0.001, 0.8);
-    public List<Double> probabiltyThresold = Arrays.asList(0.001, 0.045);
-    public static List<Integer> numberOfRules = Arrays.asList(1000, 4000, 8000);
-    public static List<Integer> nGram = Arrays.asList(1);
+   
     
       /*private List<Double> supList = Arrays.asList(100.0, 500.0);
     private List<Double> supBList = Arrays.asList(100.0, 500.0);
@@ -73,6 +67,24 @@ public interface ObjectParamters {
     public static List<Integer> numberOfRules = Arrays.asList(3000, 10000);
     */
     //public static List<Integer> nGram = Arrays.asList(1,2,3,4);
+    
+    
+    ///object parameters...
+    /*public List<Double> supAList = Arrays.asList(20.0, 50.0,100.0);
+    public List<Double> supBList = Arrays.asList(20.0, 50.0,100.0);
+    public List<Double> confABList = Arrays.asList(0.001,0.05, 0.1);
+    public List<Double> confBAList = Arrays.asList(0.001,0.05, 0.1);
+    public List<Double> probabiltyThresold = Arrays.asList(0.05, 0.1, 0.6);
+    public static List<Integer> numberOfRules = Arrays.asList(1000, 10000);
+    public static List<Integer> nGram = Arrays.asList(5);*/
+    
+    public List<Double> supAList = Arrays.asList(20.0);
+    public List<Double> supBList = Arrays.asList(20.0);
+    public List<Double> confABList = Arrays.asList(0.05);
+    public List<Double> confBAList = Arrays.asList(0.05);
+    public List<Double> probabiltyThresold = Arrays.asList(0.05, 0.5);
+    public static List<Integer> numberOfRules = Arrays.asList(10000);
+    public static List<Integer> nGram = Arrays.asList(5);
 
 
     

@@ -87,6 +87,7 @@ public class Lexicon {
                 pairs.add(associationType + "=" + value);
                 pairs.add("triple" + "=" + lineInfo.getSubject()+" "+lineInfo.getPredicate()+" "+lineInfo.getObject());
                 pairs.add("class" + "=" + lineInfo.getClassName());
+                pairs.add("line" + "=" +lineInfo.toString().replace("=", " ") );
                 kbList.put(index, pairs);
                 index = index + 1;
                 duplicateCheck.add(object);

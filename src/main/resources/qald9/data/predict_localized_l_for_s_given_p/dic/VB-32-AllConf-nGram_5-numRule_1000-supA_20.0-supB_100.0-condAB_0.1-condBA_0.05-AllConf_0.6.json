@@ -1,0 +1,71 @@
+[ {
+  "id" : 15,
+  "pattern" : "born",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbo:birthDate", "AllConf=0.667386609071274", "triple=e dbo:birthDate o", "class=TennisPlayer", "line=LineInfo{TennisPlayer ,e, predicate dbo:birthDate, object o, word born, probabilityValue {AllConf 0.667386609071274, condAB 0.667386609071274, condBA 1.0, supA 7408.0, supB 4944.0}}" ]
+  }
+}, {
+  "id" : 18,
+  "pattern" : "built",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:designation1Free3value", "AllConf=0.600638977635783", "triple=e dbp:designation1Free3value o", "class=HistoricPlace", "line=LineInfo{HistoricPlace ,e, predicate dbp:designation1Free3value, object o, word built, probabilityValue {AllConf 0.600638977635783, condAB 0.600638977635783, condBA 1.0, supA 313.0, supB 188.0}}" ]
+  }
+}, {
+  "id" : 52,
+  "pattern" : "discovered",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:discovered", "AllConf=0.614169570267131", "triple=e dbp:discovered o", "class=Planet", "line=LineInfo{Planet ,e, predicate dbp:discovered, object o, word discovered, probabilityValue {AllConf 0.614169570267131, condAB 0.614169570267131, condBA 1.0, supA 4305.0, supB 2644.0}}" ]
+  }
+}, {
+  "id" : 81,
+  "pattern" : "held",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:text", "AllConf=0.912698412698413", "triple=e dbp:text o", "class=Election", "line=LineInfo{Election ,e, predicate dbp:text, object o, word held, probabilityValue {AllConf 0.912698412698413, condAB 0.912698412698413, condBA 1.0, supA 126.0, supB 115.0}}" ]
+  }
+}, {
+  "id" : 91,
+  "pattern" : "managed",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:manager", "AllConf=0.776141384388807", "triple=e dbp:manager o", "class=Park", "line=LineInfo{Park ,e, predicate dbp:manager, object o, word managed, probabilityValue {AllConf 0.776141384388807, condAB 0.776141384388807, condBA 1.0, supA 679.0, supB 527.0}}" ]
+  }
+}, {
+  "id" : 114,
+  "pattern" : "played",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:ruTeama", "AllConf=0.632850241545894", "triple=e dbp:ruTeama o", "class=RugbyPlayer", "line=LineInfo{RugbyPlayer ,e, predicate dbp:ruTeama, object o, word played, probabilityValue {AllConf 0.632850241545894, condAB 0.632850241545894, condBA 1.0, supA 207.0, supB 131.0}}" ]
+  }
+}, {
+  "id" : 135,
+  "pattern" : "represented",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:dab", "AllConf=0.647577092511013", "triple=e dbp:dab o", "class=NCAATeamSeason", "line=LineInfo{NCAATeamSeason ,e, predicate dbp:dab, object o, word represented, probabilityValue {AllConf 0.647577092511013, condAB 0.647577092511013, condBA 1.0, supA 454.0, supB 294.0}}" ]
+  }
+}, {
+  "id" : 145,
+  "pattern" : "situated",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:pushpinLabel", "AllConf=0.608247422680412", "triple=e dbp:pushpinLabel o", "class=PopulatedPlace", "line=LineInfo{PopulatedPlace ,e, predicate dbp:pushpinLabel, object o, word situated, probabilityValue {AllConf 0.608247422680412, condAB 0.608247422680412, condBA 1.0, supA 388.0, supB 236.0}}" ]
+  }
+}, {
+  "id" : 165,
+  "pattern" : "took",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:homestate", "AllConf=0.601809954751131", "triple=e dbp:homestate o", "class=Election", "line=LineInfo{Election ,e, predicate dbp:homestate, object o, word took, probabilityValue {AllConf 0.601809954751131, condAB 0.601809954751131, condBA 1.0, supA 221.0, supB 133.0}}" ]
+  }
+}, {
+  "id" : 185,
+  "pattern" : "wrestling",
+  "partsOfSpeech" : "VB",
+  "index" : {
+    "0" : [ "kb=dbp:promotion", "AllConf=0.707997065297139", "triple=e dbp:promotion o", "class=WrestlingEvent", "line=LineInfo{WrestlingEvent ,e, predicate dbp:promotion, object o, word wrestling, probabilityValue {AllConf 0.707997065297139, condAB 0.707997065297139, condBA 1.0, supA 1363.0, supB 965.0}}" ]
+  }
+} ]

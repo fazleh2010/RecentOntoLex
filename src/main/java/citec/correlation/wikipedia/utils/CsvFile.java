@@ -30,6 +30,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -536,6 +537,51 @@ public class CsvFile implements CsvConstants {
 
        return rows;
     }
+    
+    public List<String[]> cvsModifier(File qaldFile) throws Exception {
+        List<String[]> modifyrows = new ArrayList<String[]>();
+        Map<String, List<String[]>> sort = new TreeMap<String, List<String[]>>();
+        List<String[]> rows = getQald(qaldFile);
+        String[] header = null;
+        Integer j = 0;
+        for (String[] row : rows) {
+            if (j == 0) {
+                header = row;
+                
+                j=j+1;
+                continue;
+            }
+          
+            String key = null;
+            String[] newRow = new String[row.length];
+            for (Integer index = 0; index < row.length; index++) {
+                //String query = " \" " + row[index].replace("$", ",") + " \" ";
+                String query = row[index].replace("$", ",");
+                if (index == 0) {
+                    key = row[index];
+                    newRow[index] = query;
+                }
+                newRow[index] = query;
+
+            }
+            List<String[]> list = new ArrayList<String[]>();
+            if (sort.containsKey(key)) {
+                list = sort.get(key);
+            }
+            list.add(newRow);
+            sort.put(key, list);
+        }
+
+        modifyrows.add(header);
+        for (String key : sort.keySet()) {
+            List<String[]> list = sort.get(key);
+            for (String[] row : list) {
+                modifyrows.add(row);
+            }
+        }
+        return modifyrows;
+    }
+
     public List<String[]>  addNgramToQald(List<String[]> rows, Integer nGram, String PosTag) throws Exception {
         
         Map<String, List<Pair<String, String[]>>> nGramQalds = new TreeMap<String, List<Pair<String, String[]>>>();
@@ -605,7 +651,7 @@ public class CsvFile implements CsvConstants {
     public static void main(String[] args) throws IOException, FileNotFoundException, CsvException, Exception {
        
          
-         List<Integer>nGram=new ArrayList<Integer>();
+         /*List<Integer>nGram=new ArrayList<Integer>();
          nGram.add(2);
          nGram.add(3);
          nGram.add(4);
@@ -624,7 +670,7 @@ public class CsvFile implements CsvConstants {
                 csvFile.writeToCSV(newQaldFile, ngramRows);
             }
 
-        }
+        }*/
          
         /*for (Integer ngram : nGram) {
             String nGramFileNameNotation = ThresoldConstants.nGram+"_" + ngram;
@@ -637,6 +683,21 @@ public class CsvFile implements CsvConstants {
          /* for(String[] row:editedrows){
             System.out.println(row[0]);
          }*/
+         
+        // gold creationg 
+         //JJ-property-qald9.csv
+        for (String posTag : POSTAGS) {
+            if (!posTag.contains("JJ")) {
+                continue;
+            }
+            File qaldFile = new File(qald9Dir + GOLD + posTag + "-" + PROPERTY + "-" + OBJECT + "-" + "qald9" + ".csv");
+            File newQaldFile = new File(qald9Dir + GOLD + posTag + "-" + PROPERTY + "-" + OBJECT + "-" + "qald9-modify" + ".csv");
+            CsvFile csvFile = new CsvFile(qaldFile);
+            List<String[]> rows =csvFile.cvsModifier(qaldFile);
+            System.out.println(rows.size());
+            csvFile.writeToCSV(newQaldFile, rows);
+        }
+
         
     }
 

@@ -37,7 +37,7 @@ public class Main implements ThresoldConstants{
       
     }
     
-      public static void createExperiments() throws Exception {
+      /*public static void createExperiments() throws Exception {
         String rawFileDir = null;
         String directory = qald9Dir + OBJECT + "/";
         String baseDir = "/home/elahi/new/dbpediaFiles/unlimited/unlimited/";
@@ -76,7 +76,7 @@ public class Main implements ThresoldConstants{
 
             //}
         }
-    }
+    }*/
       
     
 

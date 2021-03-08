@@ -515,7 +515,7 @@ public class CsvFile implements CsvConstants {
         return interestingness + "_" + thresoldValue.toString() + "-" + posTag + "-" + hitStr;
     }
     
-    public  List<String[]>  getQald(File qaldFile) throws Exception {
+    public  List<String[]>  getRows(File qaldFile)  {
         List<String[]> rows = new ArrayList<String[]>();
         Map<String, List<Pair<String, String[]>>> nGramQalds = new TreeMap<String, List<Pair<String, String[]>>>();
 
@@ -541,7 +541,7 @@ public class CsvFile implements CsvConstants {
     public List<String[]> cvsModifier(File qaldFile) throws Exception {
         List<String[]> modifyrows = new ArrayList<String[]>();
         Map<String, List<String[]>> sort = new TreeMap<String, List<String[]>>();
-        List<String[]> rows = getQald(qaldFile);
+        List<String[]> rows = getRows(qaldFile);
         String[] header = null;
         Integer j = 0;
         for (String[] row : rows) {

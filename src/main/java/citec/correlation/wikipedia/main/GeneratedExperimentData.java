@@ -52,12 +52,14 @@ import org.javatuples.Pair;
 public class GeneratedExperimentData implements ThresoldConstants {
 
     private static Logger LOGGER = null;
+    private static String createLexicon = "createLexicon";
+    private static String createExperimentLine = "createExperimentLine";
     // private  static Lemmatizer lemmatizer=null;
     //the files are ready at /opt/rulepatterns/results
     //bzip2 -d filename.bz2
     //bzip2 -d *.json.bz2
 
-    public GeneratedExperimentData(String baseDir, String qald9Dir, String givenPrediction, String givenInterestingness, Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER, String fileType) throws Exception {
+    public GeneratedExperimentData(String baseDir, String qald9Dir, String givenPrediction, String givenInterestingness, Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER, String fileType, String creationType) throws Exception {
         // this.lemmatizer=lemmatizer;
         this.setUpLog(givenLOGGER);
 
@@ -74,20 +76,28 @@ public class GeneratedExperimentData implements ThresoldConstants {
                         continue;
                     }
                 }
-              
-                rawFileDir = baseDir + prediction + "/";
-                pair = FileFolderUtils.getSpecificFiles(rawFileDir, ".csv");
 
-                if (pair.getValue0()) {
-                    createEvalutionFiles(outputDir, prediction, rule, pair.getValue1(), associationRulesExperiment, fileType);
-                } else {
-                    throw new Exception("NO files found for " + prediction + " " + rawFileDir);
+                ThresoldsExperiment thresoldsExperiment = associationRulesExperiment.get(rule);
+
+                if (creationType.contains(createLexicon)) {
+                    createLexicon(outputDir, prediction, rule, thresoldsExperiment);
+
+                } else if (pair.getValue0() && creationType.contains(createExperimentLine)) {
+                    rawFileDir = baseDir + prediction + "/";
+                    pair = FileFolderUtils.getSpecificFiles(rawFileDir, ".csv");
+                    if (pair.getValue0()) {
+                        List<File> files = pair.getValue1();
+                        createExperimentLinesCsv(outputDir, prediction, rule, files, thresoldsExperiment, creationType);
+                    } else {
+                        throw new Exception("NO files found for " + prediction + " " + rawFileDir);
+                    }
+
                 }
             }
         }
     }
 
-   /* private static void createEvalutionFiles(String outputDir, String prediction, String associationRule, List<File> files, Map<String, ThresoldsExperiment> associationRulesExperiment, String fileType) throws Exception {
+    /* private static void createEvalutionFiles(String outputDir, String prediction, String associationRule, List<File> files, Map<String, ThresoldsExperiment> associationRulesExperiment, String fileType) throws Exception {
         ThresoldsExperiment thresoldsExperiment = associationRulesExperiment.get(associationRule);
         Integer index = 0;
         for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
@@ -101,40 +111,44 @@ public class GeneratedExperimentData implements ThresoldConstants {
             //break;
         }
     }*/
-    
-    private static void createEvalutionFiles(String outputDir, String prediction, String associationRule, List<File> files, Map<String, ThresoldsExperiment> associationRulesExperiment, String fileType) throws Exception {
-        ThresoldsExperiment thresoldsExperiment = associationRulesExperiment.get(associationRule);
+    //outputDir, prediction, rule, pair.getValue1(), associationRulesExperiment, fileType,creationType
+    private static void createEvalutionFiles(String outputDir, String prediction, String rule, List<File> files, Map<String, ThresoldsExperiment> associationRulesExperiment, String fileType,String creationType) throws Exception {
+        ThresoldsExperiment thresoldsExperiment = associationRulesExperiment.get(rule);
         Integer index = 0;
         //createLexiconCsv(outputDir, prediction, associationRule, files);
 
-       
-       createLexiconCsv(outputDir, prediction, associationRule, files, thresoldsExperiment);
+        createExperimentLinesCsv(outputDir, prediction, rule, files, thresoldsExperiment,creationType);
 
     }
 
+    private static void createExperimentLinesCsv(String directory, String dbo_prediction, String interestingness, List<File> classFiles, ThresoldsExperiment thresoldsExperiment,String creationType) throws Exception {
 
-    private static void createLexiconCsv(String directory, String dbo_prediction, String interestingness, List<File> classFiles, ThresoldsExperiment thresoldsExperiment) throws Exception {
-       
-        Map<String, List<LineInfo>> experimentLines = new TreeMap<String, List<LineInfo>>();
-        Map<String, ThresoldsExperiment.ThresoldELement> experimentThresolds = new TreeMap<String,ThresoldsExperiment.ThresoldELement>();
+        Map<String, ThresoldsExperiment.ThresoldELement> experimentThresolds = new TreeMap<String, ThresoldsExperiment.ThresoldELement>();
 
-        Integer numberOfClass=0;
-        Integer maximumNumberOflines=20000;
+        Integer numberOfClass = 0;
+        Integer maximumNumberOflines = 20000;
        
+
         for (File classFile : classFiles) {
+            List<String[]> csvData = new ArrayList<String[]>();
+             String []header=null;
+            Map<String, List<String[]>> experimentLines = new TreeMap<String,List<String[]>>();
+
             String fileName = classFile.getName();
             CSVReader reader = new CSVReader(new FileReader(classFile));
             List<String[]> rows = reader.readAll();
             PropertyCSV propertyCSV = null;
-            numberOfClass=numberOfClass+1;
+            numberOfClass = numberOfClass + 1;
+            /*if(numberOfClass>=10)
+                    break;*/
             /*if(numberOfClass>100)
                 break;*/
-            String className=classFile.getName().replace("rules-predict_localized_l_for_s_given_p-http%3A%2F%2Fdbpedia.org%2Fontology%2F", "");
-            
+            String className = classFile.getName().replace("rules-predict_localized_l_for_s_given_p-http%3A%2F%2Fdbpedia.org%2Fontology%2F", "");
+
             /*if(!className.contains("Politician"))
                 continue;*/
-            LOGGER.log(Level.INFO, numberOfClass+"  className:" + className);
-                
+            LOGGER.log(Level.INFO, numberOfClass + "  className:" + className);
+
             if (classFile.getName().contains(PropertyCSV.localized)) {
                 propertyCSV = new PropertyCSV(PropertyCSV.localized);
             } else {
@@ -143,59 +157,149 @@ public class GeneratedExperimentData implements ThresoldConstants {
             Integer index = 0, rowCount = 0;
             for (String[] row : rows) {
                 if (rowCount == 0) {
+                    header=new String [row.length];
                     rowCount = rowCount + 1;
+                    header=row;
                     continue;
+                } else {
+                    rowCount = rowCount + 1;
                 }
-                else
-                    rowCount=rowCount+1;
 
                 LineInfo lineInfo = new LineInfo(index, row, dbo_prediction, interestingness, propertyCSV, LOGGER);
-                
+                if (rowCount > maximumNumberOflines) {
+                    break;
+                }
 
                 for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
                     ThresoldsExperiment.ThresoldELement thresoldELement = thresoldsExperiment.getThresoldELements().get(experiment);
                     experimentThresolds.put(experiment, thresoldELement);
-                    
+
                     if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
-                       continue;
-                    }
-                      if (!lineInfo.getValidFlag()) {
                         continue;
                     }
-                    //LOGGER.log(Level.INFO, " lineInfo::" + lineInfo);
+                    if (!lineInfo.getValidFlag()) {
+                        continue;
+                    }
 
-                        List<LineInfo> lines = new ArrayList<LineInfo>();
+                    // LOGGER.log(Level.INFO, " lineInfo::" + lineInfo);
+                    List<String[]> lines = new ArrayList<String[]>();
                         if (experimentLines.containsKey(experiment)) {
                             lines=experimentLines.get(experiment);
                         }
-                        lines.add(lineInfo);
+                        lines.add(row);
                         experimentLines.put(experiment, lines);
-                   
                 }
-                
-                if(rowCount>maximumNumberOflines){
-                    break;
-                }
-               
 
             }
-            
-        }
-        Integer index=0;
+            for (String experiment : experimentLines.keySet()) {
+                ThresoldsExperiment.ThresoldELement thresoldELement = experimentThresolds.get(experiment);
+                List<String[]> exRows = new ArrayList<String[]>();
+                List<String[]> lines = experimentLines.get(experiment);
+                //String experimentID = experiment + "-" + className + ".csv";
+                String experimentID = experiment+ ".csv";
+                File file = new File(directory + "/" + experimentID);
+                CsvFile CsvFile = new CsvFile(file);
+                if (!file.exists()) {
+                    exRows.add(header);
+                    exRows.addAll(lines);
+                    CsvFile.writeToCSV(exRows);
+                } else {
+                    List<String[]> previous = CsvFile.getRows(file);
+                    previous.addAll(lines);
+                    CsvFile.writeToCSV(previous);
+                }
+            }
         
-        for (String experiment : experimentLines.keySet()) {
+        }
+       
+
+        /*for (String experiment : experimentLines.keySet()) {
             ThresoldsExperiment.ThresoldELement thresoldELement = experimentThresolds.get(experiment);
             Integer numOfRules = thresoldELement.getNumberOfRules();
             List<LineInfo> lineInfos = experimentLines.get(experiment);
             String experimentID = index + "-" + experiment;
             Lexicon lexicon = createLexicon(directory, dbo_prediction, interestingness, lineInfos, experimentID, numOfRules);
-            LOGGER.log(Level.INFO, " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment+" numberOfRules:"+thresoldELement.getNumberOfRules());
-            index=index+1;
-        }
+            LOGGER.log(Level.INFO, " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment + " numberOfRules:" + thresoldELement.getNumberOfRules());
+            index = index + 1;
+        }*/
 
     }
     
-    private static Lexicon createLexicon(String directory, String dbo_prediction, String interestingness, List<LineInfo> lineInfos, String experimentID, Integer numberOfRules) throws Exception {
+    private static void createLexicon(String directory, String dbo_prediction, String interestingness, ThresoldsExperiment thresoldsExperiment) throws Exception {
+
+        Map<String, ThresoldsExperiment.ThresoldELement> experimentThresolds = new TreeMap<String, ThresoldsExperiment.ThresoldELement>();
+
+        for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
+            ThresoldsExperiment.ThresoldELement thresoldELement = thresoldsExperiment.getThresoldELements().get(experiment);
+            experimentThresolds.put(experiment, thresoldELement);
+        }
+        Integer index=0;
+        for (String experiment : experimentThresolds.keySet()) {
+            ThresoldsExperiment.ThresoldELement thresoldELement = experimentThresolds.get(experiment);
+            Integer numOfRules = thresoldELement.getNumberOfRules();
+            String experimentID = experiment + ".csv";
+            Lexicon lexicon = createLexicon(directory, dbo_prediction, interestingness, experimentID, numOfRules);
+            LOGGER.log(Level.INFO, " index" + index + " experiment size::" + thresoldsExperiment.getThresoldELements().size() + " " + experiment + " numberOfRules:" + thresoldELement.getNumberOfRules());
+            index = index + 1;
+        }
+    }
+    
+    private static Lexicon createLexicon(String directory, String dbo_prediction, String interestingness, String experimentID, Integer numberOfRules) throws Exception {
+        Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
+         List<String[]> rows = new ArrayList<String[]>();
+           PropertyCSV propertyCSV =null;
+         if (dbo_prediction.contains(PropertyCSV.localized)) {
+                propertyCSV = new PropertyCSV(PropertyCSV.localized);
+            } else {
+                propertyCSV = new PropertyCSV(PropertyCSV.general);
+            }
+
+        File file = new File(directory + "/" + experimentID);
+        CsvFile csvFile=new  CsvFile(file);
+        rows =csvFile.getRows(file);
+        
+        Integer index = 0,rowCount=0;
+        for (String[] row : rows) {
+             if (rowCount == 0) {
+                    rowCount = rowCount + 1;
+                    continue;
+                } else {
+                    rowCount = rowCount + 1;
+                }
+            LineInfo lineInfo = new LineInfo(index, row, dbo_prediction, interestingness, propertyCSV, LOGGER);
+            LOGGER.log(Level.INFO, "index:::" +index+ " total lines:::"+rows.size()+" line:"+lineInfo.getPredicate());
+
+
+            
+            if (index >= numberOfRules) {
+                break;
+            }
+            if (!lineInfo.getValidFlag()) {
+                continue;
+            }
+            String nGram = lineInfo.getWord();
+            nGram = nGram.replaceAll("[^a-zA-Z0-9]", " ");
+            nGram = nGram.toLowerCase().trim().strip();
+            nGram = nGram.replaceAll(" ", "_");
+
+            List<LineInfo> results = new ArrayList<LineInfo>();
+            if (lineLexicon.containsKey(nGram)) {
+                results = lineLexicon.get(nGram);
+                results.add(lineInfo);
+                lineLexicon.put(nGram, results);
+            } else {
+                results.add(lineInfo);
+                lineLexicon.put(nGram, results);
+
+            }
+            index=index+1;
+        }
+        Lexicon lexicon = new Lexicon(qald9Dir);
+        lexicon.preparePropertyLexicon(dbo_prediction, directory, experimentID, interestingness, lineLexicon);
+        return lexicon;
+    }
+
+    /*private static Lexicon createLexicon(String directory, String dbo_prediction, String interestingness, List<LineInfo> lineInfos, String experimentID, Integer numberOfRules) throws Exception {
         Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
 
         Integer index = 0;
@@ -225,9 +329,9 @@ public class GeneratedExperimentData implements ThresoldConstants {
         Lexicon lexicon = new Lexicon(qald9Dir);
         lexicon.preparePropertyLexicon(dbo_prediction, directory, experimentID, interestingness, lineLexicon);
         return lexicon;
-    }
-    
-       /*private static Lexicon createLexiconCsv(String directory, String dbo_prediction, String interestingness, List<File> classFiles, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
+    }*/
+
+    /*private static Lexicon createLexiconCsv(String directory, String dbo_prediction, String interestingness, List<File> classFiles, ThresoldsExperiment.ThresoldELement thresoldELement, String experimentID) throws Exception {
        
         Map<String, List<LineInfo>> lineLexicon = new TreeMap<String, List<LineInfo>>();
         Integer numberOfRules = thresoldELement.getNumberOfRules();
@@ -285,7 +389,6 @@ public class GeneratedExperimentData implements ThresoldConstants {
         lexicon.preparePropertyLexicon(dbo_prediction, directory, experimentID, interestingness, lineLexicon);
         return lexicon;
     }*/
-
     private static String[] findParameter(String[] info) {
         String[] parameters = new String[3];
         for (Integer index = 0; index < info.length; index++) {
@@ -331,12 +434,12 @@ public class GeneratedExperimentData implements ThresoldConstants {
     }
 
     public static void main(String[] args) throws Exception {
-      //create experiments
-      createExperiments();
-      
+        //create experiments
+        createExperiments();
+
     }
-    
-      public static void createExperiments() throws Exception {
+
+    public static void createExperiments() throws Exception {
         String rawFileDir = null;
         String directory = qald9Dir + OBJECT + "/";
         String baseDir = "/home/elahi/new/dbpediaFiles/unlimited/unlimited/";
@@ -347,39 +450,41 @@ public class GeneratedExperimentData implements ThresoldConstants {
 
         List<String> predictLinguisticGivenKB = new ArrayList<String>(Arrays.asList(
                 //predict_l_for_o_given_p
-                //predict_l_for_s_given_po
-                // predict_l_for_s_given_o
-                //predict_l_for_o_given_p,
-                //predict_l_for_o_given_s,
-                predict_l_for_s_given_p
-                //predict_l_for_o_given_sp
-               // predict_localized_l_for_s_given_p
+                predict_l_for_s_given_po
+        // predict_l_for_s_given_o
+        //predict_l_for_o_given_p,
+        //predict_l_for_o_given_s,
+        //predict_l_for_s_given_p
+        //predict_l_for_o_given_sp
+        // predict_localized_l_for_s_given_p
         ));
         List<String> interestingness = new ArrayList<String>();
         interestingness.add(ThresoldConstants.Cosine);
-        interestingness.add(ThresoldConstants.Coherence);
+        //interestingness.add(ThresoldConstants.Coherence);
         interestingness.add(ThresoldConstants.AllConf);
         interestingness.add(ThresoldConstants.MaxConf);
-        interestingness.add(ThresoldConstants.Kulczynski);
-        interestingness.add(ThresoldConstants.IR);
+        //interestingness.add(ThresoldConstants.Kulczynski);
+        //interestingness.add(ThresoldConstants.IR);
+        String creationType = GeneratedExperimentData.createLexicon;
 
         for (String prediction : predictLinguisticGivenKB) {
             if (prediction.equals(predict_l_for_s_given_po)
                     || prediction.equals(predict_l_for_s_given_o)) {
                 type = ThresoldConstants.OBJECT;
-            } else if (prediction.contains(predict_l_for_o_given_p) 
+            } else if (prediction.contains(predict_l_for_o_given_p)
                     || prediction.contains(predict_l_for_s_given_p)
                     || prediction.contains(predict_localized_l_for_s_given_p)) {
                 type = ThresoldConstants.PREDICATE;
             }
             associationRulesExperiment = Evaluation.createExperiments(type);
             //or (String rule : interestingness) {
-            GeneratedExperimentData ProcessFile = new GeneratedExperimentData(baseDir, outputDir, prediction, null, associationRulesExperiment, LOGGER, ".csv");
+            GeneratedExperimentData ProcessFile = new GeneratedExperimentData(baseDir, outputDir, prediction, Cosine, associationRulesExperiment, LOGGER, ".csv", creationType);
 
             //}
         }
+
     }
-    
+
 
     /*if (!LineInfo.isThresoldValid(lineInfo.getProbabilityValue(), thresoldELement.getGivenThresolds())) {
                     continue;

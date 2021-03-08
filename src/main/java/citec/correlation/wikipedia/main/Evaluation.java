@@ -158,9 +158,9 @@ public class Evaluation implements ThresoldConstants {
             String key = getInterestingnessThresold(experiment, interestiness) + "-" + posTag;
             MeanReciprocalCalculation meanReciprocalCalculation = null;
 
-            /*if (!posTag.contains("NN")) {
+            if (!posTag.contains("JJ")) {
                 continue;
-            }*/
+            }
             Pair<Boolean, File> pair = getFile(posTag, fileList);
             if (pair.getValue0()) {
                 String qaldFile = null;
@@ -168,7 +168,14 @@ public class Evaluation implements ThresoldConstants {
                 String fileName = file.getName().replace(".json", "");
                 String nGram = gerNGram(experiment);
                 nGram ="nGram_1"; 
-                qaldFile = FileFolderUtils.getQaldCsvFile(qald9Dir + GOLD, OBJECT, posTag, nGram);
+                String fileType=null;
+                if(predictionRule.contains("_po")){
+                   fileType= PREDICATE+"-"+OBJECT;
+                }
+                else
+                    fileType= PREDICATE;
+                    
+                qaldFile = FileFolderUtils.getQaldCsvFile(qald9Dir + GOLD, fileType, posTag);
                 CsvFile csvFile = new CsvFile(new File(qaldFile));
                 csvFile.readQaldCsv(qaldFile);
                 File conditionalFile = new File(directory + fileName + ".json");
@@ -296,11 +303,11 @@ public class Evaluation implements ThresoldConstants {
         //predictions.add(ThresoldConstants.predict_l_for_s_given_o);
         //predictions.add(ThresoldConstants.predict_l_for_o_given_p);
         Map<String, String> predictionType = new HashMap<String, String>();
-        predictionType.put(predict_l_for_o_given_p, ThresoldConstants.PREDICATE);
+        //predictionType.put(predict_l_for_o_given_p, ThresoldConstants.PREDICATE);
 
         //predictionType.put(predict_l_for_s_given_o, ThresoldConstants.OBJECT);
         //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
-        //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
+         predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
         //predictionType.put(ThresoldConstants.predict_localized_l_for_s_given_p, ThresoldConstants.PREDICATE);
 
         for (String prediction : predictionType.keySet()) {

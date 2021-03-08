@@ -80,10 +80,10 @@ public class LineInfo implements ThresoldConstants{
         this.className = setClassName(row[propertyCSV.getClassNameIndex()]);
 
         if (prediction.equals(predict_l_for_s_given_po)) {
-            //this.predicate = this.setProperty(rule);
-            //this.object = this.setObject(rule);
+            this.predicate =this.setProperty(row[propertyCSV.getPredicateIndex()]); 
+            this.object = this.setObject(row[propertyCSV.getObjectIndex()]);
         } else if (prediction.equals(predict_l_for_s_given_o)) {
-           // this.object = this.setObject(rule);
+           this.object = this.setObject(row[propertyCSV.getObjectIndex()]);
         } else if (prediction.equals(predict_l_for_o_given_s)) {
             //this.subject = this.setSubject(rule);
         } else if (prediction.equals(predict_l_for_o_given_sp)) {
@@ -366,15 +366,19 @@ public class LineInfo implements ThresoldConstants{
     }
     
     private String setObject(String object) {
-        if(object.contains(":")){
-            String []info=object.split(":");
-            return info[1];
+        if (object.contains("http:")) {
+            if (object.contains("http://dbpedia.org/resource/")) {
+                object = object.replace("http://dbpedia.org/resource/", "");
+            }
+        } else if (object.contains("\"\"")) {
+            object = object.replace("\"\"", "");
         }
-        else
-            return object;
-      
+        object = object.replace("\"", "");
+
+        return object;
+
     }
-    
+
       private String setSubject(Rule rule) {
         String object = rule.getS();
         if (object.contains("http")) {

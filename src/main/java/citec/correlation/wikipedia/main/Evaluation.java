@@ -16,6 +16,12 @@ import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDi
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.resourceDir;
 import citec.correlation.wikipedia.experiments.ThresoldConstants;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.AllConf;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.Coherence;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.Cosine;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.IR;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.Kulczynski;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.MaxConf;
 import static citec.correlation.wikipedia.experiments.ThresoldConstants.interestingness;
 import citec.correlation.wikipedia.experiments.ThresoldsExperiment;
 import citec.correlation.wikipedia.results.LineInfo;
@@ -30,9 +36,11 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -64,6 +72,7 @@ public class Evaluation implements ThresoldConstants {
     private static List<MeanReciprocalCalculation> adjectives = new ArrayList<MeanReciprocalCalculation>();
     private static List<MeanReciprocalCalculation> verbs = new ArrayList<MeanReciprocalCalculation>();
     private static List<MeanReciprocalCalculation> nouns = new ArrayList<MeanReciprocalCalculation>();
+
 
     private static Set<String> classFileNames = new HashSet<String>();
     private static String resources = "src/main/resources/";
@@ -129,6 +138,8 @@ public class Evaluation implements ThresoldConstants {
                     String nGram = gerNGram(experiment);
                     String searchFileMatch = experiment.replace(nGram, "nGram_5");
                     List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, interestingness, searchFileMatch, ".json").getValue1();
+                    if(expFileList.size()==0)
+                        throw new Exception("No file is available for evaluation!!!");
                     //System.out.println(experiment+"   expFileList:"+expFileList.size());
                     Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(prediction, interestingness, experiment, directory, expFileList);
                     if (!meanReciprocalsPos.isEmpty()) {
@@ -307,15 +318,15 @@ public class Evaluation implements ThresoldConstants {
 
         //predictionType.put(predict_l_for_s_given_o, ThresoldConstants.OBJECT);
         //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
-         predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
-        //predictionType.put(ThresoldConstants.predict_localized_l_for_s_given_p, ThresoldConstants.PREDICATE);
+         //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
+        predictionType.put(ThresoldConstants.predict_localized_l_for_s_given_p, ThresoldConstants.PREDICATE);
 
         for (String prediction : predictionType.keySet()) {
             String type = predictionType.get(prediction);
             String dicDir = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/dic/";
             String meanRDir = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/meanR/";
             Map<String, ThresoldsExperiment> allThresoldInterestingness = Evaluation.createExperiments(type);
-            Evaluation.calculateMeanReciprocal(type, prediction, null, dicDir, meanRDir, allThresoldInterestingness);
+            Evaluation.calculateMeanReciprocal(type, prediction, Cosine, dicDir, meanRDir, allThresoldInterestingness);
         }
     }
 

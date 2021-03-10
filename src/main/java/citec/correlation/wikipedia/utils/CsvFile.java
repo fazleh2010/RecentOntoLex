@@ -23,6 +23,7 @@ import citec.correlation.wikipedia.results.LineInfo;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import com.opencsv.exceptions.CsvException;
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -515,15 +516,20 @@ public class CsvFile implements CsvConstants {
         return interestingness + "_" + thresoldValue.toString() + "-" + posTag + "-" + hitStr;
     }
     
-    public  List<String[]>  getRows(File qaldFile)  {
+    public  List<String[]>  getRows(File qaldFile,Double limit)  {
         List<String[]> rows = new ArrayList<String[]>();
         Map<String, List<Pair<String, String[]>>> nGramQalds = new TreeMap<String, List<Pair<String, String[]>>>();
-
+        
         Stack<String> stack = new Stack<String>();
         CSVReader reader;
         try {
-            reader = new CSVReader(new FileReader(filename));
-            rows = reader.readAll();
+            if (!FileFolderUtils.isFileBig(qaldFile, limit)) {
+                rows = generateLinebyLine(qaldFile);
+                //System.out.println("@@@@@@@@@@@@@@@@@@@@@@" + qaldFile.getName()+" size:"+rows.size());
+            } else {
+                reader = new CSVReader(new FileReader(qaldFile));
+                rows = reader.readAll();
+            }
         } catch (FileNotFoundException ex) {
             Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
             LOGGER.log(Level.SEVERE, "CSV File not found:!!!" + ex.getMessage());
@@ -534,7 +540,41 @@ public class CsvFile implements CsvConstants {
             Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
             LOGGER.log(Level.SEVERE, "CSV problems:!!!" + ex.getMessage());
         }
+  
+       return rows;
+    }
+    
+    public  List<String[]>  getRows(File qaldFile)  {
+        List<String[]> rows = new ArrayList<String[]>();
+        Map<String, List<Pair<String, String[]>>> nGramQalds = new TreeMap<String, List<Pair<String, String[]>>>();
 
+        /*if (FileFolderUtils.isFileSizeManageable(qaldFile, 40.0)) {
+            System.out.println("..........." + qaldFile.getName());
+            return rows;
+        }*/
+        
+        
+        Stack<String> stack = new Stack<String>();
+        CSVReader reader;
+        try {
+            /*if (!FileFolderUtils.isFileBig(qaldFile, 100.0)) {
+                rows = generateLinebyLine(qaldFile);
+                 System.out.println("@@@@@@@@@@@@@@@@@@@@@@" + qaldFile.getName()+" size:"+rows.size());
+            } else*/ {
+                reader = new CSVReader(new FileReader(qaldFile));
+                rows = reader.readAll();
+            }
+        } catch (FileNotFoundException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, "CSV File not found:!!!" + ex.getMessage());
+        } catch (IOException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, "CSV File not found:!!!" + ex.getMessage());
+        } catch (CsvException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+            LOGGER.log(Level.SEVERE, "CSV problems:!!!" + ex.getMessage());
+        }
+  
        return rows;
     }
     
@@ -699,6 +739,19 @@ public class CsvFile implements CsvConstants {
         }
 
         
+    }
+
+    private List<String[]> generateLinebyLine(File pathToCsv) throws FileNotFoundException, IOException {
+        List<String[]> rows = new ArrayList<String[]>();
+        BufferedReader csvReader = new BufferedReader(new FileReader(pathToCsv));
+        String line = null;
+        while ((line = csvReader.readLine()) != null) {
+            String[] data = line.split(",");
+            rows.add(data);
+            // do something with the data
+        }
+        csvReader.close();
+        return rows;
     }
 
 }

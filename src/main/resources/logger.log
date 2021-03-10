@@ -1,269 +1,565 @@
-INFO::****************************Experiment START ************************************************************************
-INFO::thresholds:: AllConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.05
-INFO::**********************************************************************************************************************
-INFO::****************************Experiment START ************************************************************************
-INFO::thresholds:: AllConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.5
-INFO::**********************************************************************************************************************
-INFO::****************************Experiment START ************************************************************************
-INFO::thresholds:: Coherence-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Coherence_0.05
-INFO::**********************************************************************************************************************
-INFO::****************************Experiment START ************************************************************************
-INFO::thresholds:: Coherence-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Coherence_0.5
-INFO::**********************************************************************************************************************
-INFO::****************************Experiment START ************************************************************************
-INFO::thresholds:: Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.05
-INFO::parts-of-speech:: JJ
-INFO::JJ File that contains all patterns within this thresholds:JJ-Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.05.csv.json
-INFO::qald-9 file taken for evalution:src/main/resources/qald9/data/gold/JJ-predicate-object-qald9.csv
-INFO::>> now checking qald pattern::australian  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 nationality Australian
-2 birthPlace Australia
-3 nationality Australia
-4 strokes Freestyle_swimming
-5 headercolor green
-6 birthPlace Sydney
-7 strokes Butterfly_stroke
-8 strokes Backstroke
-9 strokes Medley_swimming
-10 sport Rowing
-11 strokes Breaststroke
-INFO::>>>>  QALD KB :country Australia >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking qald pattern::australian  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 nationality Australian
-2 birthPlace Australia
-3 nationality Australia
-4 strokes Freestyle_swimming
-5 headercolor green
-6 birthPlace Sydney
-7 strokes Butterfly_stroke
-8 strokes Backstroke
-9 strokes Medley_swimming
-10 sport Rowing
-11 strokes Breaststroke
-INFO::>>>>  QALD KB :country Australia >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking qald pattern::canadian  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> >>>>  >>>> >>>> >>>>  >>>> >>>> >>>> >>>> Proposed results:predicate-object pair:: 
-1 country Canada
-2 nationality Canadian
-INFO::>>>> >>>>  >>>> >>>> >>>>  >>>> >>>> >>>> >>>> QALD KB :country Canada >>>> >>>> FOUND : >>>> >>>> RANK::1 RECIPROCAL RANK:1.0
-
-
-INFO::>> now checking qald pattern::danish  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> >>>>  >>>> >>>> >>>>  >>>> >>>> >>>> >>>> Proposed results:predicate-object pair:: 
-1 nationality Danish
-2 country Denmark
-INFO::>>>> >>>>  >>>> >>>> >>>>  >>>> >>>> >>>> >>>> QALD KB :country Denmark >>>> >>>> FOUND : >>>> >>>> RANK::2 RECIPROCAL RANK:0.5
-
-
-INFO::>> now checking qald pattern::danish  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> >>>>  >>>> >>>> >>>>  >>>> >>>> >>>> >>>> Proposed results:predicate-object pair:: 
-1 nationality Danish
-2 country Denmark
-INFO::>>>> >>>>  >>>> >>>> >>>>  >>>> >>>> >>>> >>>> QALD KB :country Denmark >>>> >>>> FOUND : >>>> >>>> RANK::2 RECIPROCAL RANK:0.5
-
-
-INFO::>> now checking QUERY::first >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking QUERY::first >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking qald pattern::german  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 nationality German
-2 birthPlace East_Germany
-3 birthPlace Berlin
-4 birthPlace Germany
-5 sport Rowing
-6 sport Athletics
-7 headercolor lightsteelblue
-INFO::>>>>  QALD KB :country Germany >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking qald pattern::german  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 nationality German
-2 birthPlace East_Germany
-3 birthPlace Berlin
-4 birthPlace Germany
-5 sport Rowing
-6 sport Athletics
-7 headercolor lightsteelblue
-INFO::>>>>  QALD KB :country Germany >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking qald pattern::greek  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 nationality Greek
-INFO::>>>>  QALD KB :country Greece >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking qald pattern::indian  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 nationality Indian
-2 birthPlace India
-INFO::>>>>  QALD KB :location India >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking QUERY::methodist >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking QUERY::non-profit organization >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking QUERY::non-profit organization >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking QUERY::pro-european >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking qald pattern::spanish  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 nationality Spanish
-2 birthPlace Barcelona
-3 birthPlace Barcelona,
-4 birthPlace Spain
-5 birthPlace Madrid
-6 sport Field_hockey
-INFO::>>>>  QALD KB :country Spain >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking QUERY::swedish >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking QUERY::swedish >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking qald pattern::swiss  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 nationality Swiss
-2 sport Rowing
-INFO::>>>>  QALD KB :location Switzerland >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::#### #### #### #### Mean Reciprocal Value::(2.0/19.0)=0.10526316
-INFO::#### #### #### #### calculating Hits::
-INFO::Hits1::(1/19.0):0.05263157894736842
-INFO::Hits2::(2/19.0):0.10526315789473684
-INFO::MEAN RECIPROCAL::0.105263160000
-INFO::***** ***** ***** ****** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
-INFO::**********************************************************************************************************************
-INFO::****************************Experiment START ************************************************************************
-INFO::thresholds:: Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.5
-INFO::parts-of-speech:: JJ
-INFO::JJ File that contains all patterns within this thresholds:JJ-Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.5.csv.json
-INFO::qald-9 file taken for evalution:src/main/resources/qald9/data/gold/JJ-predicate-object-qald9.csv
-INFO::>> now checking qald pattern::australian  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 type Government_department
-2 jurisdiction Government_of_Australia
-3 headquarters Canberra
-4 minister1Pfo Minister
-5 nationality Australian
-INFO::>>>>  QALD KB :country Australia >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking qald pattern::australian  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 type Government_department
-2 jurisdiction Government_of_Australia
-3 headquarters Canberra
-4 minister1Pfo Minister
-5 nationality Australian
-INFO::>>>>  QALD KB :country Australia >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking qald pattern::canadian  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 headquarters Toronto
-2 headquarters Ontario
-3 nationality Canadian
-INFO::>>>>  QALD KB :country Canada >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking qald pattern::danish  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> >>>>  >>>> >>>> >>>>  >>>> >>>> >>>> >>>> Proposed results:predicate-object pair:: 
-1 country Denmark
-2 nationality Danish
-INFO::>>>> >>>>  >>>> >>>> >>>>  >>>> >>>> >>>> >>>> QALD KB :country Denmark >>>> >>>> FOUND : >>>> >>>> RANK::1 RECIPROCAL RANK:1.0
-
-
-INFO::>> now checking qald pattern::danish  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> >>>>  >>>> >>>> >>>>  >>>> >>>> >>>> >>>> Proposed results:predicate-object pair:: 
-1 country Denmark
-2 nationality Danish
-INFO::>>>> >>>>  >>>> >>>> >>>>  >>>> >>>> >>>> >>>> QALD KB :country Denmark >>>> >>>> FOUND : >>>> >>>> RANK::1 RECIPROCAL RANK:1.0
-
-
-INFO::>> now checking QUERY::first >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking QUERY::first >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking qald pattern::german  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 nationality German
-2 headquarters Germany
-3 nativeNameLang de
-INFO::>>>>  QALD KB :country Germany >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking qald pattern::german  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 nationality German
-2 headquarters Germany
-3 nativeNameLang de
-INFO::>>>>  QALD KB :country Germany >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking qald pattern::greek  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 type List_of_universities_in_Greece
-2 type Higher_education
-3 origLang Ancient_Greek
-4 nationality Greek
-5 place Classical_Athens
-6 author Euripides
-INFO::>>>>  QALD KB :country Greece >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking qald pattern::indian  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 nationality Indian
-2 owner Indian_Railways
-3 birthPlace India
-INFO::>>>>  QALD KB :location India >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking QUERY::methodist >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking QUERY::non-profit organization >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking QUERY::non-profit organization >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking QUERY::pro-european >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking qald pattern::spanish  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 nationality Spanish
-INFO::>>>>  QALD KB :country Spain >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::>> now checking QUERY::swedish >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking QUERY::swedish >> Pattern NOT FOUND in our LEXICON
-INFO::>> now checking qald pattern::swiss  >>>> Pattern FOUND in our LEXICON
-INFO::>>>> Proposed results:predicate-object pair:: 
-1 jurisdiction Federal_administration_of_Switzerland
-2 minister1Pfo Federal_Council_(Switzerland)
-3 nationality Swiss
-4 imageSize 300^^<http://www.w3.org/2001/XMLSchema#integer>
-INFO::>>>>  QALD KB :location Switzerland >>>> NOT FOUND  RANK::0 RECIPROCAL RANK::0
-
-
-INFO::#### #### #### #### Mean Reciprocal Value::(2.0/19.0)=0.10526316
-INFO::#### #### #### #### calculating Hits::
-INFO::Hits1::(2/19.0):0.10526315789473684
-INFO::MEAN RECIPROCAL::0.105263160000
-INFO::***** ***** ***** ****** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****
-INFO::**********************************************************************************************************************
-INFO::****************************Experiment START ************************************************************************
-INFO::thresholds:: IR-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-IR_0.05
-INFO::**********************************************************************************************************************
-INFO::****************************Experiment START ************************************************************************
-INFO::thresholds:: IR-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-IR_0.5
-INFO::**********************************************************************************************************************
-INFO::****************************Experiment START ************************************************************************
-INFO::thresholds:: Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.05
-INFO::**********************************************************************************************************************
-INFO::****************************Experiment START ************************************************************************
-INFO::thresholds:: Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.5
-INFO::**********************************************************************************************************************
-INFO::****************************Experiment START ************************************************************************
-INFO::thresholds:: MaxConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.05
-INFO::**********************************************************************************************************************
-INFO::****************************Experiment START ************************************************************************
-INFO::thresholds:: MaxConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.5
-INFO::**********************************************************************************************************************
+INFO:: index0 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.05 numberOfRules:1000
+INFO:: index1 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.1 numberOfRules:1000
+INFO:: index2 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.6 numberOfRules:1000
+INFO:: index3 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.05 numberOfRules:1000
+INFO:: index4 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.1 numberOfRules:1000
+INFO:: index5 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.6 numberOfRules:1000
+INFO:: index6 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.05 numberOfRules:1000
+INFO:: index7 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.1 numberOfRules:1000
+INFO:: index8 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.6 numberOfRules:1000
+INFO:: index9 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.05 numberOfRules:1000
+INFO:: index10 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.1 numberOfRules:1000
+INFO:: index11 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.6 numberOfRules:1000
+INFO:: index12 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.05 numberOfRules:1000
+INFO:: index13 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.1 numberOfRules:1000
+INFO:: index14 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.6 numberOfRules:1000
+INFO:: index15 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.05 numberOfRules:1000
+INFO:: index16 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.1 numberOfRules:1000
+INFO:: index17 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.6 numberOfRules:1000
+INFO:: index18 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.05 numberOfRules:1000
+INFO:: index19 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.1 numberOfRules:1000
+INFO:: index20 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.6 numberOfRules:1000
+INFO:: index21 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.05 numberOfRules:1000
+INFO:: index22 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.1 numberOfRules:1000
+INFO:: index23 experiment size::144 Cosine-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.6 numberOfRules:1000
+INFO:: index24 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.05 numberOfRules:1000
+INFO:: index25 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.1 numberOfRules:1000
+INFO:: index26 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.6 numberOfRules:1000
+INFO:: index27 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.05 numberOfRules:1000
+INFO:: index28 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.1 numberOfRules:1000
+INFO:: index29 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.6 numberOfRules:1000
+INFO:: index30 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.05 numberOfRules:1000
+INFO:: index31 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.1 numberOfRules:1000
+INFO:: index32 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.6 numberOfRules:1000
+INFO:: index33 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.05 numberOfRules:1000
+INFO:: index34 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.1 numberOfRules:1000
+INFO:: index35 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.6 numberOfRules:1000
+INFO:: index36 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.05 numberOfRules:1000
+INFO:: index37 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.1 numberOfRules:1000
+INFO:: index38 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.6 numberOfRules:1000
+INFO:: index39 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.05 numberOfRules:1000
+INFO:: index40 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.1 numberOfRules:1000
+INFO:: index41 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.6 numberOfRules:1000
+INFO:: index42 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.05 numberOfRules:1000
+INFO:: index43 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.1 numberOfRules:1000
+INFO:: index44 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.6 numberOfRules:1000
+INFO:: index45 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.05 numberOfRules:1000
+INFO:: index46 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.1 numberOfRules:1000
+INFO:: index47 experiment size::144 Cosine-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.6 numberOfRules:1000
+INFO:: index48 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.05 numberOfRules:10000
+INFO:: index49 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.1 numberOfRules:10000
+INFO:: index50 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.6 numberOfRules:10000
+INFO:: index51 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.05 numberOfRules:10000
+INFO:: index52 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.1 numberOfRules:10000
+INFO:: index53 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.6 numberOfRules:10000
+INFO:: index54 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.05 numberOfRules:10000
+INFO:: index55 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.1 numberOfRules:10000
+INFO:: index56 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.6 numberOfRules:10000
+INFO:: index57 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.05 numberOfRules:10000
+INFO:: index58 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.1 numberOfRules:10000
+INFO:: index59 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.6 numberOfRules:10000
+INFO:: index60 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.05 numberOfRules:10000
+INFO:: index61 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.1 numberOfRules:10000
+INFO:: index62 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.6 numberOfRules:10000
+INFO:: index63 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.05 numberOfRules:10000
+INFO:: index64 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.1 numberOfRules:10000
+INFO:: index65 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.6 numberOfRules:10000
+INFO:: index66 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.05 numberOfRules:10000
+INFO:: index67 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.1 numberOfRules:10000
+INFO:: index68 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.6 numberOfRules:10000
+INFO:: index69 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.05 numberOfRules:10000
+INFO:: index70 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.1 numberOfRules:10000
+INFO:: index71 experiment size::144 Cosine-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.6 numberOfRules:10000
+INFO:: index72 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.05 numberOfRules:10000
+INFO:: index73 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.1 numberOfRules:10000
+INFO:: index74 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.6 numberOfRules:10000
+INFO:: index75 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.05 numberOfRules:10000
+INFO:: index76 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.1 numberOfRules:10000
+INFO:: index77 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.6 numberOfRules:10000
+INFO:: index78 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.05 numberOfRules:10000
+INFO:: index79 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.1 numberOfRules:10000
+INFO:: index80 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.6 numberOfRules:10000
+INFO:: index81 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.05 numberOfRules:10000
+INFO:: index82 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.1 numberOfRules:10000
+INFO:: index83 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.6 numberOfRules:10000
+INFO:: index84 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.05 numberOfRules:10000
+INFO:: index85 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.1 numberOfRules:10000
+INFO:: index86 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.6 numberOfRules:10000
+INFO:: index87 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.05 numberOfRules:10000
+INFO:: index88 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.1 numberOfRules:10000
+INFO:: index89 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.6 numberOfRules:10000
+INFO:: index90 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.05 numberOfRules:10000
+INFO:: index91 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.1 numberOfRules:10000
+INFO:: index92 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.6 numberOfRules:10000
+INFO:: index93 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.05 numberOfRules:10000
+INFO:: index94 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.1 numberOfRules:10000
+INFO:: index95 experiment size::144 Cosine-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.6 numberOfRules:10000
+INFO:: index96 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.05 numberOfRules:20000
+INFO:: index97 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.1 numberOfRules:20000
+INFO:: index98 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.6 numberOfRules:20000
+INFO:: index99 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.05 numberOfRules:20000
+INFO:: index100 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.1 numberOfRules:20000
+INFO:: index101 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.6 numberOfRules:20000
+INFO:: index102 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.05 numberOfRules:20000
+INFO:: index103 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.1 numberOfRules:20000
+INFO:: index104 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.6 numberOfRules:20000
+INFO:: index105 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.05 numberOfRules:20000
+INFO:: index106 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.1 numberOfRules:20000
+INFO:: index107 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.6 numberOfRules:20000
+INFO:: index108 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.05 numberOfRules:20000
+INFO:: index109 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.1 numberOfRules:20000
+INFO:: index110 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.6 numberOfRules:20000
+INFO:: index111 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.05 numberOfRules:20000
+INFO:: index112 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.1 numberOfRules:20000
+INFO:: index113 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.6 numberOfRules:20000
+INFO:: index114 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.05 numberOfRules:20000
+INFO:: index115 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.1 numberOfRules:20000
+INFO:: index116 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.6 numberOfRules:20000
+INFO:: index117 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.05 numberOfRules:20000
+INFO:: index118 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.1 numberOfRules:20000
+INFO:: index119 experiment size::144 Cosine-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.6 numberOfRules:20000
+INFO:: index120 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.05 numberOfRules:20000
+INFO:: index121 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.1 numberOfRules:20000
+INFO:: index122 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Cosine_0.6 numberOfRules:20000
+INFO:: index123 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.05 numberOfRules:20000
+INFO:: index124 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.1 numberOfRules:20000
+INFO:: index125 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Cosine_0.6 numberOfRules:20000
+INFO:: index126 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.05 numberOfRules:20000
+INFO:: index127 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.1 numberOfRules:20000
+INFO:: index128 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Cosine_0.6 numberOfRules:20000
+INFO:: index129 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.05 numberOfRules:20000
+INFO:: index130 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.1 numberOfRules:20000
+INFO:: index131 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Cosine_0.6 numberOfRules:20000
+INFO:: index132 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.05 numberOfRules:20000
+INFO:: index133 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.1 numberOfRules:20000
+INFO:: index134 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Cosine_0.6 numberOfRules:20000
+INFO:: index135 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.05 numberOfRules:20000
+INFO:: index136 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.1 numberOfRules:20000
+INFO:: index137 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Cosine_0.6 numberOfRules:20000
+INFO:: index138 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.05 numberOfRules:20000
+INFO:: index139 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.1 numberOfRules:20000
+INFO:: index140 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Cosine_0.6 numberOfRules:20000
+INFO:: index141 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.05 numberOfRules:20000
+INFO:: index142 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.1 numberOfRules:20000
+INFO:: index143 experiment size::144 Cosine-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Cosine_0.6 numberOfRules:20000
+INFO:: index0 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.05 numberOfRules:1000
+INFO:: index1 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.1 numberOfRules:1000
+INFO:: index2 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.6 numberOfRules:1000
+INFO:: index3 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.05 numberOfRules:1000
+INFO:: index4 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.1 numberOfRules:1000
+INFO:: index5 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.6 numberOfRules:1000
+INFO:: index6 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.05 numberOfRules:1000
+INFO:: index7 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.1 numberOfRules:1000
+INFO:: index8 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.6 numberOfRules:1000
+INFO:: index9 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.05 numberOfRules:1000
+INFO:: index10 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.1 numberOfRules:1000
+INFO:: index11 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.6 numberOfRules:1000
+INFO:: index12 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.05 numberOfRules:1000
+INFO:: index13 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.1 numberOfRules:1000
+INFO:: index14 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.6 numberOfRules:1000
+INFO:: index15 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.05 numberOfRules:1000
+INFO:: index16 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.1 numberOfRules:1000
+INFO:: index17 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.6 numberOfRules:1000
+INFO:: index18 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.05 numberOfRules:1000
+INFO:: index19 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.1 numberOfRules:1000
+INFO:: index20 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.6 numberOfRules:1000
+INFO:: index21 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.05 numberOfRules:1000
+INFO:: index22 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.1 numberOfRules:1000
+INFO:: index23 experiment size::144 AllConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.6 numberOfRules:1000
+INFO:: index24 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.05 numberOfRules:1000
+INFO:: index25 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.1 numberOfRules:1000
+INFO:: index26 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.6 numberOfRules:1000
+INFO:: index27 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.05 numberOfRules:1000
+INFO:: index28 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.1 numberOfRules:1000
+INFO:: index29 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.6 numberOfRules:1000
+INFO:: index30 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.05 numberOfRules:1000
+INFO:: index31 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.1 numberOfRules:1000
+INFO:: index32 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.6 numberOfRules:1000
+INFO:: index33 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.05 numberOfRules:1000
+INFO:: index34 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.1 numberOfRules:1000
+INFO:: index35 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.6 numberOfRules:1000
+INFO:: index36 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.05 numberOfRules:1000
+INFO:: index37 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.1 numberOfRules:1000
+INFO:: index38 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.6 numberOfRules:1000
+INFO:: index39 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.05 numberOfRules:1000
+INFO:: index40 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.1 numberOfRules:1000
+INFO:: index41 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.6 numberOfRules:1000
+INFO:: index42 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.05 numberOfRules:1000
+INFO:: index43 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.1 numberOfRules:1000
+INFO:: index44 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.6 numberOfRules:1000
+INFO:: index45 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.05 numberOfRules:1000
+INFO:: index46 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.1 numberOfRules:1000
+INFO:: index47 experiment size::144 AllConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.6 numberOfRules:1000
+INFO:: index48 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.05 numberOfRules:10000
+INFO:: index49 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.1 numberOfRules:10000
+INFO:: index50 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.6 numberOfRules:10000
+INFO:: index51 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.05 numberOfRules:10000
+INFO:: index52 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.1 numberOfRules:10000
+INFO:: index53 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.6 numberOfRules:10000
+INFO:: index54 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.05 numberOfRules:10000
+INFO:: index55 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.1 numberOfRules:10000
+INFO:: index56 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.6 numberOfRules:10000
+INFO:: index57 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.05 numberOfRules:10000
+INFO:: index58 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.1 numberOfRules:10000
+INFO:: index59 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.6 numberOfRules:10000
+INFO:: index60 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.05 numberOfRules:10000
+INFO:: index61 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.1 numberOfRules:10000
+INFO:: index62 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.6 numberOfRules:10000
+INFO:: index63 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.05 numberOfRules:10000
+INFO:: index64 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.1 numberOfRules:10000
+INFO:: index65 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.6 numberOfRules:10000
+INFO:: index66 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.05 numberOfRules:10000
+INFO:: index67 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.1 numberOfRules:10000
+INFO:: index68 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.6 numberOfRules:10000
+INFO:: index69 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.05 numberOfRules:10000
+INFO:: index70 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.1 numberOfRules:10000
+INFO:: index71 experiment size::144 AllConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.6 numberOfRules:10000
+INFO:: index72 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.05 numberOfRules:10000
+INFO:: index73 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.1 numberOfRules:10000
+INFO:: index74 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.6 numberOfRules:10000
+INFO:: index75 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.05 numberOfRules:10000
+INFO:: index76 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.1 numberOfRules:10000
+INFO:: index77 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.6 numberOfRules:10000
+INFO:: index78 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.05 numberOfRules:10000
+INFO:: index79 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.1 numberOfRules:10000
+INFO:: index80 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.6 numberOfRules:10000
+INFO:: index81 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.05 numberOfRules:10000
+INFO:: index82 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.1 numberOfRules:10000
+INFO:: index83 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.6 numberOfRules:10000
+INFO:: index84 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.05 numberOfRules:10000
+INFO:: index85 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.1 numberOfRules:10000
+INFO:: index86 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.6 numberOfRules:10000
+INFO:: index87 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.05 numberOfRules:10000
+INFO:: index88 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.1 numberOfRules:10000
+INFO:: index89 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.6 numberOfRules:10000
+INFO:: index90 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.05 numberOfRules:10000
+INFO:: index91 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.1 numberOfRules:10000
+INFO:: index92 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.6 numberOfRules:10000
+INFO:: index93 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.05 numberOfRules:10000
+INFO:: index94 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.1 numberOfRules:10000
+INFO:: index95 experiment size::144 AllConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.6 numberOfRules:10000
+INFO:: index96 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.05 numberOfRules:20000
+INFO:: index97 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.1 numberOfRules:20000
+INFO:: index98 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.6 numberOfRules:20000
+INFO:: index99 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.05 numberOfRules:20000
+INFO:: index100 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.1 numberOfRules:20000
+INFO:: index101 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.6 numberOfRules:20000
+INFO:: index102 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.05 numberOfRules:20000
+INFO:: index103 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.1 numberOfRules:20000
+INFO:: index104 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.6 numberOfRules:20000
+INFO:: index105 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.05 numberOfRules:20000
+INFO:: index106 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.1 numberOfRules:20000
+INFO:: index107 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.6 numberOfRules:20000
+INFO:: index108 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.05 numberOfRules:20000
+INFO:: index109 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.1 numberOfRules:20000
+INFO:: index110 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.6 numberOfRules:20000
+INFO:: index111 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.05 numberOfRules:20000
+INFO:: index112 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.1 numberOfRules:20000
+INFO:: index113 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.6 numberOfRules:20000
+INFO:: index114 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.05 numberOfRules:20000
+INFO:: index115 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.1 numberOfRules:20000
+INFO:: index116 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.6 numberOfRules:20000
+INFO:: index117 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.05 numberOfRules:20000
+INFO:: index118 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.1 numberOfRules:20000
+INFO:: index119 experiment size::144 AllConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.6 numberOfRules:20000
+INFO:: index120 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.05 numberOfRules:20000
+INFO:: index121 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.1 numberOfRules:20000
+INFO:: index122 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-AllConf_0.6 numberOfRules:20000
+INFO:: index123 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.05 numberOfRules:20000
+INFO:: index124 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.1 numberOfRules:20000
+INFO:: index125 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-AllConf_0.6 numberOfRules:20000
+INFO:: index126 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.05 numberOfRules:20000
+INFO:: index127 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.1 numberOfRules:20000
+INFO:: index128 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-AllConf_0.6 numberOfRules:20000
+INFO:: index129 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.05 numberOfRules:20000
+INFO:: index130 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.1 numberOfRules:20000
+INFO:: index131 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-AllConf_0.6 numberOfRules:20000
+INFO:: index132 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.05 numberOfRules:20000
+INFO:: index133 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.1 numberOfRules:20000
+INFO:: index134 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-AllConf_0.6 numberOfRules:20000
+INFO:: index135 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.05 numberOfRules:20000
+INFO:: index136 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.1 numberOfRules:20000
+INFO:: index137 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-AllConf_0.6 numberOfRules:20000
+INFO:: index138 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.05 numberOfRules:20000
+INFO:: index139 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.1 numberOfRules:20000
+INFO:: index140 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-AllConf_0.6 numberOfRules:20000
+INFO:: index141 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.05 numberOfRules:20000
+INFO:: index142 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.1 numberOfRules:20000
+INFO:: index143 experiment size::144 AllConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-AllConf_0.6 numberOfRules:20000
+INFO:: index0 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.05 numberOfRules:1000
+INFO:: index1 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.1 numberOfRules:1000
+INFO:: index2 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.6 numberOfRules:1000
+INFO:: index3 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.05 numberOfRules:1000
+INFO:: index4 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.1 numberOfRules:1000
+INFO:: index5 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.6 numberOfRules:1000
+INFO:: index6 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.05 numberOfRules:1000
+INFO:: index7 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.1 numberOfRules:1000
+INFO:: index8 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.6 numberOfRules:1000
+INFO:: index9 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.05 numberOfRules:1000
+INFO:: index10 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.1 numberOfRules:1000
+INFO:: index11 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.6 numberOfRules:1000
+INFO:: index12 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.05 numberOfRules:1000
+INFO:: index13 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.1 numberOfRules:1000
+INFO:: index14 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.6 numberOfRules:1000
+INFO:: index15 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.05 numberOfRules:1000
+INFO:: index16 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.1 numberOfRules:1000
+INFO:: index17 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.6 numberOfRules:1000
+INFO:: index18 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.05 numberOfRules:1000
+INFO:: index19 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.1 numberOfRules:1000
+INFO:: index20 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.6 numberOfRules:1000
+INFO:: index21 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.05 numberOfRules:1000
+INFO:: index22 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.1 numberOfRules:1000
+INFO:: index23 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.6 numberOfRules:1000
+INFO:: index24 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.05 numberOfRules:1000
+INFO:: index25 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.1 numberOfRules:1000
+INFO:: index26 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.6 numberOfRules:1000
+INFO:: index27 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.05 numberOfRules:1000
+INFO:: index28 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.1 numberOfRules:1000
+INFO:: index29 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.6 numberOfRules:1000
+INFO:: index30 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.05 numberOfRules:1000
+INFO:: index31 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.1 numberOfRules:1000
+INFO:: index32 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.6 numberOfRules:1000
+INFO:: index33 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.05 numberOfRules:1000
+INFO:: index34 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.1 numberOfRules:1000
+INFO:: index35 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.6 numberOfRules:1000
+INFO:: index36 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.05 numberOfRules:1000
+INFO:: index37 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.1 numberOfRules:1000
+INFO:: index38 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.6 numberOfRules:1000
+INFO:: index39 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.05 numberOfRules:1000
+INFO:: index40 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.1 numberOfRules:1000
+INFO:: index41 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.6 numberOfRules:1000
+INFO:: index42 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.05 numberOfRules:1000
+INFO:: index43 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.1 numberOfRules:1000
+INFO:: index44 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.6 numberOfRules:1000
+INFO:: index45 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.05 numberOfRules:1000
+INFO:: index46 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.1 numberOfRules:1000
+INFO:: index47 experiment size::144 MaxConf-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.6 numberOfRules:1000
+INFO:: index48 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.05 numberOfRules:10000
+INFO:: index49 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.1 numberOfRules:10000
+INFO:: index50 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.6 numberOfRules:10000
+INFO:: index51 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.05 numberOfRules:10000
+INFO:: index52 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.1 numberOfRules:10000
+INFO:: index53 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.6 numberOfRules:10000
+INFO:: index54 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.05 numberOfRules:10000
+INFO:: index55 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.1 numberOfRules:10000
+INFO:: index56 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.6 numberOfRules:10000
+INFO:: index57 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.05 numberOfRules:10000
+INFO:: index58 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.1 numberOfRules:10000
+INFO:: index59 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.6 numberOfRules:10000
+INFO:: index60 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.05 numberOfRules:10000
+INFO:: index61 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.1 numberOfRules:10000
+INFO:: index62 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.6 numberOfRules:10000
+INFO:: index63 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.05 numberOfRules:10000
+INFO:: index64 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.1 numberOfRules:10000
+INFO:: index65 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.6 numberOfRules:10000
+INFO:: index66 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.05 numberOfRules:10000
+INFO:: index67 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.1 numberOfRules:10000
+INFO:: index68 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.6 numberOfRules:10000
+INFO:: index69 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.05 numberOfRules:10000
+INFO:: index70 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.1 numberOfRules:10000
+INFO:: index71 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.6 numberOfRules:10000
+INFO:: index72 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.05 numberOfRules:10000
+INFO:: index73 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.1 numberOfRules:10000
+INFO:: index74 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.6 numberOfRules:10000
+INFO:: index75 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.05 numberOfRules:10000
+INFO:: index76 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.1 numberOfRules:10000
+INFO:: index77 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.6 numberOfRules:10000
+INFO:: index78 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.05 numberOfRules:10000
+INFO:: index79 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.1 numberOfRules:10000
+INFO:: index80 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.6 numberOfRules:10000
+INFO:: index81 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.05 numberOfRules:10000
+INFO:: index82 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.1 numberOfRules:10000
+INFO:: index83 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.6 numberOfRules:10000
+INFO:: index84 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.05 numberOfRules:10000
+INFO:: index85 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.1 numberOfRules:10000
+INFO:: index86 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.6 numberOfRules:10000
+INFO:: index87 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.05 numberOfRules:10000
+INFO:: index88 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.1 numberOfRules:10000
+INFO:: index89 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.6 numberOfRules:10000
+INFO:: index90 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.05 numberOfRules:10000
+INFO:: index91 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.1 numberOfRules:10000
+INFO:: index92 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.6 numberOfRules:10000
+INFO:: index93 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.05 numberOfRules:10000
+INFO:: index94 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.1 numberOfRules:10000
+INFO:: index95 experiment size::144 MaxConf-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.6 numberOfRules:10000
+INFO:: index96 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.05 numberOfRules:20000
+INFO:: index97 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.1 numberOfRules:20000
+INFO:: index98 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.6 numberOfRules:20000
+INFO:: index99 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.05 numberOfRules:20000
+INFO:: index100 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.1 numberOfRules:20000
+INFO:: index101 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.6 numberOfRules:20000
+INFO:: index102 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.05 numberOfRules:20000
+INFO:: index103 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.1 numberOfRules:20000
+INFO:: index104 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.6 numberOfRules:20000
+INFO:: index105 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.05 numberOfRules:20000
+INFO:: index106 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.1 numberOfRules:20000
+INFO:: index107 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.6 numberOfRules:20000
+INFO:: index108 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.05 numberOfRules:20000
+INFO:: index109 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.1 numberOfRules:20000
+INFO:: index110 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.6 numberOfRules:20000
+INFO:: index111 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.05 numberOfRules:20000
+INFO:: index112 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.1 numberOfRules:20000
+INFO:: index113 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.6 numberOfRules:20000
+INFO:: index114 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.05 numberOfRules:20000
+INFO:: index115 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.1 numberOfRules:20000
+INFO:: index116 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.6 numberOfRules:20000
+INFO:: index117 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.05 numberOfRules:20000
+INFO:: index118 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.1 numberOfRules:20000
+INFO:: index119 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.6 numberOfRules:20000
+INFO:: index120 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.05 numberOfRules:20000
+INFO:: index121 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.1 numberOfRules:20000
+INFO:: index122 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-MaxConf_0.6 numberOfRules:20000
+INFO:: index123 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.05 numberOfRules:20000
+INFO:: index124 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.1 numberOfRules:20000
+INFO:: index125 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-MaxConf_0.6 numberOfRules:20000
+INFO:: index126 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.05 numberOfRules:20000
+INFO:: index127 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.1 numberOfRules:20000
+INFO:: index128 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-MaxConf_0.6 numberOfRules:20000
+INFO:: index129 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.05 numberOfRules:20000
+INFO:: index130 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.1 numberOfRules:20000
+INFO:: index131 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-MaxConf_0.6 numberOfRules:20000
+INFO:: index132 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.05 numberOfRules:20000
+INFO:: index133 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.1 numberOfRules:20000
+INFO:: index134 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-MaxConf_0.6 numberOfRules:20000
+INFO:: index135 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.05 numberOfRules:20000
+INFO:: index136 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.1 numberOfRules:20000
+INFO:: index137 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-MaxConf_0.6 numberOfRules:20000
+INFO:: index138 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.05 numberOfRules:20000
+INFO:: index139 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.1 numberOfRules:20000
+INFO:: index140 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-MaxConf_0.6 numberOfRules:20000
+INFO:: index141 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.05 numberOfRules:20000
+INFO:: index142 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.1 numberOfRules:20000
+INFO:: index143 experiment size::144 MaxConf-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-MaxConf_0.6 numberOfRules:20000
+INFO:: index0 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.05 numberOfRules:1000
+INFO:: index1 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.1 numberOfRules:1000
+INFO:: index2 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.6 numberOfRules:1000
+INFO:: index3 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.05 numberOfRules:1000
+INFO:: index4 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.1 numberOfRules:1000
+INFO:: index5 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.6 numberOfRules:1000
+INFO:: index6 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.05 numberOfRules:1000
+INFO:: index7 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.1 numberOfRules:1000
+INFO:: index8 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.6 numberOfRules:1000
+INFO:: index9 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.05 numberOfRules:1000
+INFO:: index10 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.1 numberOfRules:1000
+INFO:: index11 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.6 numberOfRules:1000
+INFO:: index12 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.05 numberOfRules:1000
+INFO:: index13 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.1 numberOfRules:1000
+INFO:: index14 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.6 numberOfRules:1000
+INFO:: index15 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.05 numberOfRules:1000
+INFO:: index16 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.1 numberOfRules:1000
+INFO:: index17 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.6 numberOfRules:1000
+INFO:: index18 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.05 numberOfRules:1000
+INFO:: index19 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.1 numberOfRules:1000
+INFO:: index20 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.6 numberOfRules:1000
+INFO:: index21 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.05 numberOfRules:1000
+INFO:: index22 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.1 numberOfRules:1000
+INFO:: index23 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.6 numberOfRules:1000
+INFO:: index24 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.05 numberOfRules:1000
+INFO:: index25 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.1 numberOfRules:1000
+INFO:: index26 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.6 numberOfRules:1000
+INFO:: index27 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.05 numberOfRules:1000
+INFO:: index28 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.1 numberOfRules:1000
+INFO:: index29 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.6 numberOfRules:1000
+INFO:: index30 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.05 numberOfRules:1000
+INFO:: index31 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.1 numberOfRules:1000
+INFO:: index32 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.6 numberOfRules:1000
+INFO:: index33 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.05 numberOfRules:1000
+INFO:: index34 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.1 numberOfRules:1000
+INFO:: index35 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.6 numberOfRules:1000
+INFO:: index36 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.05 numberOfRules:1000
+INFO:: index37 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.1 numberOfRules:1000
+INFO:: index38 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.6 numberOfRules:1000
+INFO:: index39 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.05 numberOfRules:1000
+INFO:: index40 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.1 numberOfRules:1000
+INFO:: index41 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.6 numberOfRules:1000
+INFO:: index42 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.05 numberOfRules:1000
+INFO:: index43 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.1 numberOfRules:1000
+INFO:: index44 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.6 numberOfRules:1000
+INFO:: index45 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.05 numberOfRules:1000
+INFO:: index46 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.1 numberOfRules:1000
+INFO:: index47 experiment size::144 Kulczynski-nGram_5-numRule_1000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.6 numberOfRules:1000
+INFO:: index48 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.05 numberOfRules:10000
+INFO:: index49 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.1 numberOfRules:10000
+INFO:: index50 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.6 numberOfRules:10000
+INFO:: index51 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.05 numberOfRules:10000
+INFO:: index52 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.1 numberOfRules:10000
+INFO:: index53 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.6 numberOfRules:10000
+INFO:: index54 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.05 numberOfRules:10000
+INFO:: index55 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.1 numberOfRules:10000
+INFO:: index56 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.6 numberOfRules:10000
+INFO:: index57 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.05 numberOfRules:10000
+INFO:: index58 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.1 numberOfRules:10000
+INFO:: index59 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.6 numberOfRules:10000
+INFO:: index60 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.05 numberOfRules:10000
+INFO:: index61 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.1 numberOfRules:10000
+INFO:: index62 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.6 numberOfRules:10000
+INFO:: index63 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.05 numberOfRules:10000
+INFO:: index64 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.1 numberOfRules:10000
+INFO:: index65 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.6 numberOfRules:10000
+INFO:: index66 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.05 numberOfRules:10000
+INFO:: index67 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.1 numberOfRules:10000
+INFO:: index68 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.6 numberOfRules:10000
+INFO:: index69 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.05 numberOfRules:10000
+INFO:: index70 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.1 numberOfRules:10000
+INFO:: index71 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.6 numberOfRules:10000
+INFO:: index72 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.05 numberOfRules:10000
+INFO:: index73 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.1 numberOfRules:10000
+INFO:: index74 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.6 numberOfRules:10000
+INFO:: index75 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.05 numberOfRules:10000
+INFO:: index76 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.1 numberOfRules:10000
+INFO:: index77 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.6 numberOfRules:10000
+INFO:: index78 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.05 numberOfRules:10000
+INFO:: index79 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.1 numberOfRules:10000
+INFO:: index80 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.6 numberOfRules:10000
+INFO:: index81 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.05 numberOfRules:10000
+INFO:: index82 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.1 numberOfRules:10000
+INFO:: index83 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.6 numberOfRules:10000
+INFO:: index84 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.05 numberOfRules:10000
+INFO:: index85 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.1 numberOfRules:10000
+INFO:: index86 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.6 numberOfRules:10000
+INFO:: index87 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.05 numberOfRules:10000
+INFO:: index88 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.1 numberOfRules:10000
+INFO:: index89 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.6 numberOfRules:10000
+INFO:: index90 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.05 numberOfRules:10000
+INFO:: index91 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.1 numberOfRules:10000
+INFO:: index92 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.6 numberOfRules:10000
+INFO:: index93 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.05 numberOfRules:10000
+INFO:: index94 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.1 numberOfRules:10000
+INFO:: index95 experiment size::144 Kulczynski-nGram_5-numRule_10000-supA_20.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.6 numberOfRules:10000
+INFO:: index96 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.05 numberOfRules:20000
+INFO:: index97 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.1 numberOfRules:20000
+INFO:: index98 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.6 numberOfRules:20000
+INFO:: index99 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.05 numberOfRules:20000
+INFO:: index100 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.1 numberOfRules:20000
+INFO:: index101 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.6 numberOfRules:20000
+INFO:: index102 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.05 numberOfRules:20000
+INFO:: index103 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.1 numberOfRules:20000
+INFO:: index104 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.6 numberOfRules:20000
+INFO:: index105 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.05 numberOfRules:20000
+INFO:: index106 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.1 numberOfRules:20000
+INFO:: index107 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.6 numberOfRules:20000
+INFO:: index108 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.05 numberOfRules:20000
+INFO:: index109 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.1 numberOfRules:20000
+INFO:: index110 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.6 numberOfRules:20000
+INFO:: index111 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.05 numberOfRules:20000
+INFO:: index112 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.1 numberOfRules:20000
+INFO:: index113 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.05-condBA_0.1-Kulczynski_0.6 numberOfRules:20000
+INFO:: index114 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.05 numberOfRules:20000
+INFO:: index115 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.1 numberOfRules:20000
+INFO:: index116 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.05-Kulczynski_0.6 numberOfRules:20000
+INFO:: index117 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.05 numberOfRules:20000
+INFO:: index118 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.1 numberOfRules:20000
+INFO:: index119 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_100.0-supB_20.0-condAB_0.1-condBA_0.1-Kulczynski_0.6 numberOfRules:20000
+INFO:: index120 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.05 numberOfRules:20000
+INFO:: index121 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.1 numberOfRules:20000
+INFO:: index122 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.05-Kulczynski_0.6 numberOfRules:20000
+INFO:: index123 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.05 numberOfRules:20000
+INFO:: index124 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.1 numberOfRules:20000
+INFO:: index125 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.05-condBA_0.1-Kulczynski_0.6 numberOfRules:20000
+INFO:: index126 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.05 numberOfRules:20000
+INFO:: index127 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.1 numberOfRules:20000
+INFO:: index128 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.05-Kulczynski_0.6 numberOfRules:20000
+INFO:: index129 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.05 numberOfRules:20000
+INFO:: index130 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.1 numberOfRules:20000
+INFO:: index131 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_20.0-supB_100.0-condAB_0.1-condBA_0.1-Kulczynski_0.6 numberOfRules:20000
+INFO:: index132 experiment size::144 Kulczynski-nGram_5-numRule_20000-supA_20.0-supB_20.0-condAB_0.05-condBA_0.05-Kulczynski_0.05 numberOfRules:20000

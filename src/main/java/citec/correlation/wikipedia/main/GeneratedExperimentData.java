@@ -15,7 +15,12 @@ import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.resourceDir;
 import citec.correlation.wikipedia.experiments.ThresoldConstants;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.AllConf;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.Coherence;
 import static citec.correlation.wikipedia.experiments.ThresoldConstants.Cosine;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.IR;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.Kulczynski;
+import static citec.correlation.wikipedia.experiments.ThresoldConstants.MaxConf;
 import citec.correlation.wikipedia.experiments.ThresoldsExperiment;
 import citec.correlation.wikipedia.results.Discription;
 import citec.correlation.wikipedia.results.LineInfo;
@@ -35,6 +40,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.TreeMap;
@@ -58,6 +64,8 @@ public class GeneratedExperimentData implements ThresoldConstants {
     //the files are ready at /opt/rulepatterns/results
     //bzip2 -d filename.bz2
     //bzip2 -d *.json.bz2
+     public static final LinkedHashSet<String> interestingness = new LinkedHashSet(new ArrayList<String>(Arrays.asList(Cosine,AllConf,MaxConf, Kulczynski)));
+
 
     public GeneratedExperimentData(String baseDir, String qald9Dir, String givenPrediction, String givenInterestingness, Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER, String fileType, String creationType) throws Exception {
         // this.lemmatizer=lemmatizer;
@@ -124,7 +132,7 @@ public class GeneratedExperimentData implements ThresoldConstants {
     private static void createExperimentLinesCsv(String directory, String dbo_prediction, String interestingness, List<File> classFiles, ThresoldsExperiment thresoldsExperiment,String creationType) throws Exception {
 
         Map<String, ThresoldsExperiment.ThresoldELement> experimentThresolds = new TreeMap<String, ThresoldsExperiment.ThresoldELement>();
-
+     List<String[]> rows =new ArrayList<String[]>();
         Integer numberOfClass = 0;
         Integer maximumNumberOflines = 20000;
        
@@ -135,8 +143,20 @@ public class GeneratedExperimentData implements ThresoldConstants {
             Map<String, List<String[]>> experimentLines = new TreeMap<String,List<String[]>>();
 
             String fileName = classFile.getName();
+           /* CsvFile experimentCsvFile=new CsvFile(classFile);
+            rows =experimentCsvFile.getRows(classFile);*/
+            CsvFile csvFile=new  CsvFile(classFile);
+            rows =csvFile.getRows(classFile,100.0);
+            
+            /*if(FileFolderUtils.isFileSizeManageable(classFile,40.0)){
+                System.out.println( "..........."+classFile.getName());
+            }
+            else{
             CSVReader reader = new CSVReader(new FileReader(classFile));
-            List<String[]> rows = reader.readAll();
+            rows = reader.readAll(); 
+            }*/
+                
+           
             PropertyCSV propertyCSV = null;
             numberOfClass = numberOfClass + 1;
             /*if(numberOfClass>=10)
@@ -166,9 +186,16 @@ public class GeneratedExperimentData implements ThresoldConstants {
                 }
 
                 LineInfo lineInfo = new LineInfo(index, row, dbo_prediction, interestingness, propertyCSV, LOGGER);
+                if (lineInfo.getLine() != null) {
+                    if (lineInfo.getLine().contains("XMLSchema#integer")) {
+                        continue;
+                    }
+
+                }
                 if (rowCount > maximumNumberOflines) {
                     break;
                 }
+                
 
                 for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
                     ThresoldsExperiment.ThresoldELement thresoldELement = thresoldsExperiment.getThresoldELements().get(experiment);
@@ -267,8 +294,7 @@ public class GeneratedExperimentData implements ThresoldConstants {
                     rowCount = rowCount + 1;
                 }
             LineInfo lineInfo = new LineInfo(index, row, dbo_prediction, interestingness, propertyCSV, LOGGER);
-            LOGGER.log(Level.INFO, "index:::" +index+ " total lines:::"+rows.size()+" line:"+lineInfo.getPredicate());
-
+            index=index+1;
 
             
             if (index >= numberOfRules) {
@@ -277,6 +303,8 @@ public class GeneratedExperimentData implements ThresoldConstants {
             if (!lineInfo.getValidFlag()) {
                 continue;
             }
+            //LOGGER.log(Level.INFO, "index:::" +index+ " total lines:::"+rows.size()+" line:"+lineInfo.getPredicate());
+
             String nGram = lineInfo.getWord();
             nGram = nGram.replaceAll("[^a-zA-Z0-9]", " ");
             nGram = nGram.toLowerCase().trim().strip();
@@ -292,7 +320,7 @@ public class GeneratedExperimentData implements ThresoldConstants {
                 lineLexicon.put(nGram, results);
 
             }
-            index=index+1;
+            
         }
         Lexicon lexicon = new Lexicon(qald9Dir);
         lexicon.preparePropertyLexicon(dbo_prediction, directory, experimentID, interestingness, lineLexicon);
@@ -446,26 +474,29 @@ public class GeneratedExperimentData implements ThresoldConstants {
         Logger LOGGER = Logger.getLogger(GeneratedExperimentData.class.getName());
         String outputDir = qald9Dir;
         String type = null;
+        String creationType = GeneratedExperimentData.createLexicon;
+
         Map<String, ThresoldsExperiment> associationRulesExperiment = new HashMap<String, ThresoldsExperiment>();
 
         List<String> predictLinguisticGivenKB = new ArrayList<String>(Arrays.asList(
                 //predict_l_for_o_given_p
-                predict_l_for_s_given_po
-        // predict_l_for_s_given_o
+               // predict_l_for_s_given_po
+         //predict_l_for_s_given_o
         //predict_l_for_o_given_p,
         //predict_l_for_o_given_s,
-        //predict_l_for_s_given_p
+       
+        //predict_l_for_s_given_p,
+        //predict_localized_l_for_o_given_p
         //predict_l_for_o_given_sp
-        // predict_localized_l_for_s_given_p
+        predict_localized_l_for_s_given_p       
         ));
         List<String> interestingness = new ArrayList<String>();
         interestingness.add(ThresoldConstants.Cosine);
-        //interestingness.add(ThresoldConstants.Coherence);
+        interestingness.add(ThresoldConstants.Coherence);
         interestingness.add(ThresoldConstants.AllConf);
         interestingness.add(ThresoldConstants.MaxConf);
-        //interestingness.add(ThresoldConstants.Kulczynski);
-        //interestingness.add(ThresoldConstants.IR);
-        String creationType = GeneratedExperimentData.createLexicon;
+        interestingness.add(ThresoldConstants.Kulczynski);
+        interestingness.add(ThresoldConstants.IR);
 
         for (String prediction : predictLinguisticGivenKB) {
             if (prediction.equals(predict_l_for_s_given_po)
@@ -473,14 +504,12 @@ public class GeneratedExperimentData implements ThresoldConstants {
                 type = ThresoldConstants.OBJECT;
             } else if (prediction.contains(predict_l_for_o_given_p)
                     || prediction.contains(predict_l_for_s_given_p)
-                    || prediction.contains(predict_localized_l_for_s_given_p)) {
+                    || prediction.contains(predict_localized_l_for_s_given_p)
+                    ||prediction.contains(predict_localized_l_for_o_given_p)) {
                 type = ThresoldConstants.PREDICATE;
             }
             associationRulesExperiment = Evaluation.createExperiments(type);
-            //or (String rule : interestingness) {
-            GeneratedExperimentData ProcessFile = new GeneratedExperimentData(baseDir, outputDir, prediction, Cosine, associationRulesExperiment, LOGGER, ".csv", creationType);
-
-            //}
+            GeneratedExperimentData ProcessFile = new GeneratedExperimentData(baseDir, outputDir, prediction, null, associationRulesExperiment, LOGGER, ".csv", creationType);
         }
 
     }

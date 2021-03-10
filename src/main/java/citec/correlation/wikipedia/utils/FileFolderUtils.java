@@ -19,6 +19,8 @@ import static citec.correlation.wikipedia.parameters.MenuOptions.FILE_ENTITY_NOT
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvException;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -70,63 +72,16 @@ import org.jsoup.nodes.TextNode;
  *
  * @author elahi
  */
-public class FileFolderUtils implements TextAnalyzer{
+public class FileFolderUtils implements TextAnalyzer {
 
     private static String anchors = "src/main/resources/dbpedia/anchors/";
-     private static String input = "input/";
+    private static String input = "input/";
     private static String achorFileTsv = "anchors_sorted_by_frequency.tsv";
 
-   
-  
     private String inputFile = allPoliticianFile;
-  
+
     //private static Set<String> alphabetSets = Stream.of("a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z").collect(Collectors.toCollection(HashSet::new));
-
-    public static void main(String a[]) throws IOException {
-        String fileName = anchors+input+achorFileTsv;
-        //generate terms
-        //getAlphabetic(fileName, alphabetSets);
-      
-        /* 
-         StringTokenizer st;
-        BufferedReader TSVFile = new BufferedReader(new FileReader(anchors + File.separator + achorFileTsv));
-        String dataRow = TSVFile.readLine(); // Read first line.
-         
-         
-         while (dataRow != null) {
-            st = new StringTokenizer(dataRow, "\t");
-            List<String> dataArray = new ArrayList<String>();
-            while (st.hasMoreElements()) {
-                dataArray.add(st.nextElement().toString());
-            }
-            for (String item : dataArray) {
-                System.out.print("item:"+item + "  ");
-            }
-            System.out.println(); // Print the data line.
-            dataRow = TSVFile.readLine(); // Read next line of data.
-        }
-        // Close the file once all data has been read.
-        TSVFile.close();
-
-        // End the printout with a blank line.
-        System.out.println();
-
-        /*FileFolderUtils mfe = new FileFolderUtils();
-        mfe.printFileList(anchors);*/
- /*String HTMLSTring = "<!DOCTYPE html>"
-                + "<html>"
-                + "<head>"
-                + "<title>JSoup Example</title>"
-                + "</head>"
-                + "<body>"
-                + "<table><tr><td>"
-                + "<h1>HelloWorld</h1></tr>"
-                + "</table>"
-                + "</body>"
-                + "</html>";*/
-    }
-    
-    public static  Map<String, TreeMap<String, List<String>>> getAlphabetInfo(String anchors,String fileExtension) throws IOException, Exception {
+    public static Map<String, TreeMap<String, List<String>>> getAlphabetInfo(String anchors, String fileExtension) throws IOException, Exception {
         List<File> alphabetFiles = getFiles(anchors, fileExtension);
         Map<String, TreeMap<String, List<String>>> alphabetInfo = new TreeMap<String, TreeMap<String, List<String>>>();
         for (File file : alphabetFiles) {
@@ -154,7 +109,7 @@ public class FileFolderUtils implements TextAnalyzer{
             File[] files = dir.listFiles(fileFilter);
             return List.of(files);
         } catch (Exception exp) {
-           throw new Exception("No file is found in the directory:"+fileDir);
+            throw new Exception("No file is found in the directory:" + fileDir);
         }
 
     }
@@ -177,8 +132,8 @@ public class FileFolderUtils implements TextAnalyzer{
 
         return new Pair<Boolean, List<File>>(Boolean.TRUE, selectedFiles);
     }
-    
-     public static Pair<Boolean, List<File>> getSpecificFiles(String fileDir,  String extension) {
+
+    public static Pair<Boolean, List<File>> getSpecificFiles(String fileDir, String extension) {
         List<File> selectedFiles = new ArrayList<File>();
         Pair<Boolean, List<File>> pair = new Pair<Boolean, List<File>>(Boolean.FALSE, new ArrayList<File>());
         try {
@@ -196,9 +151,8 @@ public class FileFolderUtils implements TextAnalyzer{
 
         return new Pair<Boolean, List<File>>(Boolean.TRUE, selectedFiles);
     }
-    
-    
-     public static Pair<Boolean, List<File>> getSpecificFiles(String fileDir, String interestingness, String experiment, String extension) {
+
+    public static Pair<Boolean, List<File>> getSpecificFiles(String fileDir, String interestingness, String experiment, String extension) {
         List<File> selectedFiles = new ArrayList<File>();
         Pair<Boolean, List<File>> pair = new Pair<Boolean, List<File>>(Boolean.FALSE, new ArrayList<File>());
         try {
@@ -210,13 +164,13 @@ public class FileFolderUtils implements TextAnalyzer{
             }
 
         } catch (Exception exp) {
-            System.err.println("file not found!!"+exp.getMessage());
+            System.err.println("file not found!!" + exp.getMessage());
             return new Pair<Boolean, List<File>>(Boolean.FALSE, new ArrayList<File>());
         }
 
         return new Pair<Boolean, List<File>>(Boolean.TRUE, selectedFiles);
     }
-    
+
     /*public static String getFile(String fileDir, String category, String extension) {
         String[] files = new File(fileDir).list();
         for (String fileName : files) {
@@ -226,7 +180,6 @@ public class FileFolderUtils implements TextAnalyzer{
         }
         return null;
     }*/
-    
     public static Pair<Boolean, String> getSelectedFile(String fileDir, String category, String extension) {
         Pair<Boolean, String> pair = new Pair<Boolean, String>(Boolean.FALSE, null);
         try {
@@ -238,7 +191,7 @@ public class FileFolderUtils implements TextAnalyzer{
             }
         } catch (Exception exp) {
             System.out.println("file not found!!");
-             return pair;
+            return pair;
         }
 
         return pair;
@@ -270,7 +223,7 @@ public class FileFolderUtils implements TextAnalyzer{
         }
         return lists;
     }
-    
+
     public static TreeMap<String, List<String>> fileToHash(String fileName) throws FileNotFoundException, IOException {
         TreeMap<String, List<String>> hash = new TreeMap<String, List<String>>();
         BufferedReader reader;
@@ -303,8 +256,8 @@ public class FileFolderUtils implements TextAnalyzer{
         }
         return hash;
     }
-    
-     public static LinkedHashMap<String, String> fileToHashOrg(String fileName) throws FileNotFoundException, IOException {
+
+    public static LinkedHashMap<String, String> fileToHashOrg(String fileName) throws FileNotFoundException, IOException {
         LinkedHashMap<String, String> hash = new LinkedHashMap<String, String>();
         BufferedReader reader;
         String line = "";
@@ -317,7 +270,7 @@ public class FileFolderUtils implements TextAnalyzer{
                     if (line.contains(" ")) {
                         String[] info = line.split(" ");
                         String key = info[0];
-                        String value = info[1];  
+                        String value = info[1];
                         hash.put(key, value);
                     }
 
@@ -330,7 +283,7 @@ public class FileFolderUtils implements TextAnalyzer{
         }
         return hash;
     }
-    
+
     public static Set<String> fileToSet(String fileName) throws FileNotFoundException, IOException {
         Set<String> set = new TreeSet<String>();
         BufferedReader reader;
@@ -374,9 +327,9 @@ public class FileFolderUtils implements TextAnalyzer{
         }
         return entities;
     }
-    
-    public static LinkedHashMap<String,String> getListString(String fileName)  {
-       LinkedHashMap<String,String> selectedWords= new LinkedHashMap<String,String>();
+
+    public static LinkedHashMap<String, String> getListString(String fileName) {
+        LinkedHashMap<String, String> selectedWords = new LinkedHashMap<String, String>();
 
         BufferedReader reader;
         String line = "";
@@ -388,20 +341,17 @@ public class FileFolderUtils implements TextAnalyzer{
                 //System.out.println(line);
                 if (line != null) {
                     String url = line.trim();
-                    String []info=url.split(" ");
-                    selectedWords.put(info[1],info[2]);
+                    String[] info = url.split(" ");
+                    selectedWords.put(info[1], info[2]);
                 }
             }
             reader.close();
         } catch (IOException e) {
-            System.out.println("the file "+fileName+" does not exist"+e.getMessage());
+            System.out.println("the file " + fileName + " does not exist" + e.getMessage());
             e.printStackTrace();
         }
         return selectedWords;
     }
-    
-    
-     
 
     public static List<String> getSortedList(String fileName, Integer thresold, Integer listSize) throws FileNotFoundException, IOException {
         List<String> words = new ArrayList<String>();
@@ -444,8 +394,8 @@ public class FileFolderUtils implements TextAnalyzer{
             }
             size = size + 1;
         }
-        System.out.println("finalWords:"+finalWords.size());
-        System.out.println("finalWords:"+finalWords);
+        System.out.println("finalWords:" + finalWords.size());
+        System.out.println("finalWords:" + finalWords);
 
         return finalWords;
     }
@@ -503,7 +453,7 @@ public class FileFolderUtils implements TextAnalyzer{
         try {
             reader = new BufferedReader(new FileReader(fileName));
             line = reader.readLine();
-            Integer index=0;
+            Integer index = 0;
             while (line != null) {
                 line = reader.readLine();
                 if (line != null) {
@@ -511,43 +461,42 @@ public class FileFolderUtils implements TextAnalyzer{
                         String[] info = line.split("\t");
                         String anchor = info[1];
                         anchor = anchor.replace("\"", "");
-                     
+
                         String kb = info[0];
                         Character ch = null;
                         String str = null;
-                        String alphabetFileName=null;
+                        String alphabetFileName = null;
                         if (anchor.length() >= 1) {
                             ch = anchor.charAt(0);
                             str = String.valueOf(ch).toLowerCase().trim();
-                            
+
                             /*if(!str.endsWith("a"))
                                 continue;
-                            */
-                            if(alphabetSets.contains(str))
-                               alphabetFileName=anchors+str+".txt";  
-                            else
-                              alphabetFileName=anchors+"other"+".txt";
+                             */
+                            if (alphabetSets.contains(str)) {
+                                alphabetFileName = anchors + str + ".txt";
+                            } else {
+                                alphabetFileName = anchors + "other" + ".txt";
+                            }
 
-                            index=index+1;
-                            System.out.println(index+"line= "+line);
-                             //anchor=anchor.toLowerCase().replaceAll(" ", "_").strip();
-                             //kb=kb.strip();
-                             anchor=anchor.stripLeading();
-                             line=anchor+" = "+kb;
-                             appendToFile(alphabetFileName,line);
+                            index = index + 1;
+                            System.out.println(index + "line= " + line);
+                            //anchor=anchor.toLowerCase().replaceAll(" ", "_").strip();
+                            //kb=kb.strip();
+                            anchor = anchor.stripLeading();
+                            line = anchor + " = " + kb;
+                            appendToFile(alphabetFileName, line);
                         }
                     }
                 }
             }
-            System.out.println("total= "+index);
+            System.out.println("total= " + index);
             reader.close();
         } catch (IOException e) {
             e.printStackTrace();
         }
         return alphabeticAnchors;
     }
-
-   
 
     public static void writeToJsonFile(List<ObjectWordResults> entityResults, String entityDir, String tableName) throws IOException {
         String filename = entityDir + "result/" + tableName.replaceAll(".json", "_probability.json");
@@ -557,27 +506,28 @@ public class FileFolderUtils implements TextAnalyzer{
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename).toFile(), entityResults);
     }
-    
+
     public static void writeMeanResultsToJsonFile(MeanReciprocalCalculation results, String filename) throws IOException {
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename).toFile(), results);
     }
-    
-     public static void writeExperMeanResultsToJsonFile(Map<String,Map<String, MeanReciprocalCalculation>> expeResult, String filename) throws IOException, Exception {
-        if(expeResult.isEmpty())
-             throw new Exception("no data found to write in the file!!");
-        
+
+    public static void writeExperMeanResultsToJsonFile(Map<String, Map<String, MeanReciprocalCalculation>> expeResult, String filename) throws IOException, Exception {
+        if (expeResult.isEmpty()) {
+            throw new Exception("no data found to write in the file!!");
+        }
+
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename).toFile(), expeResult);
     }
-     
-     public static void writeExperMeanResultsToCsvFile(Map<String,Map<String, MeanReciprocalCalculation>> expeResult, String filename) throws IOException, Exception {
-        if(expeResult.isEmpty())
-             throw new Exception("no data found to write in the file!!");
-        
-        
+
+    public static void writeExperMeanResultsToCsvFile(Map<String, Map<String, MeanReciprocalCalculation>> expeResult, String filename) throws IOException, Exception {
+        if (expeResult.isEmpty()) {
+            throw new Exception("no data found to write in the file!!");
+        }
+
     }
-     
+
     public static void writeMeanSortToJsonFile(List<MeanReciprocalCalculation> results, String filename) throws IOException, Exception {
         if (results.isEmpty()) {
             throw new Exception("no data found to write in the file!!");
@@ -587,14 +537,10 @@ public class FileFolderUtils implements TextAnalyzer{
         mapper.writeValue(Paths.get(filename).toFile(), results);
     }
 
-     
-    
-    public static void writeMeanResultsToJsonFile(Map<String,MeanReciprocalCalculation>meanReciprocals, String filename) throws IOException {
+    public static void writeMeanResultsToJsonFile(Map<String, MeanReciprocalCalculation> meanReciprocals, String filename) throws IOException {
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename).toFile(), meanReciprocals);
     }
-    
-    
 
     public static void writeToJsonFile(List<Unit> units, String filename) throws IOException, Exception {
         if (units.isEmpty()) {
@@ -603,42 +549,43 @@ public class FileFolderUtils implements TextAnalyzer{
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename).toFile(), units);
     }
-    
-    public static void writeInterestingEntityToJsonFile( Map<String, List<String>> interestingEntitities, String filename) throws IOException, Exception {
+
+    public static void writeInterestingEntityToJsonFile(Map<String, List<String>> interestingEntitities, String filename) throws IOException, Exception {
         if (interestingEntitities.isEmpty()) {
             throw new Exception("no data found to write in the file!!");
         }
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename).toFile(), interestingEntitities);
     }
+
     public static void writeInterestingEntityEachToJsonFile(Map<String, List<String>> interestingEntitities, String location) throws IOException, Exception {
         if (interestingEntitities.isEmpty()) {
             throw new Exception("no data found to write in the file!!");
         }
-        location=location.replace(".json", "");
-        String str="";
+        location = location.replace(".json", "");
+        String str = "";
         FileFolderUtils.createDirectory(location);
         for (String word : interestingEntitities.keySet()) {
-            String finalFileName=location+ word+".json";
-            System.out.println("finalFileName:"+finalFileName);
-            List<String> entityList=interestingEntitities.get(word);
+            String finalFileName = location + word + ".json";
+            System.out.println("finalFileName:" + finalFileName);
+            List<String> entityList = interestingEntitities.get(word);
             ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
             mapper.writeValue(Paths.get(finalFileName).toFile(), entityList);
-            String line=word+" "+word+".json"+"\n";
-            str+=line;
+            String line = word + " " + word + ".json" + "\n";
+            str += line;
         }
-         FileFolderUtils.stringToFiles(str, location+"AAClass.txt");
+        FileFolderUtils.stringToFiles(str, location + "AAClass.txt");
 
     }
-    
-     public static List<String>  readInterestingEntityEachToJsonFile(File file) throws IOException, Exception {
+
+    public static List<String> readInterestingEntityEachToJsonFile(File file) throws IOException, Exception {
         ObjectMapper mapper = new ObjectMapper();
         List<String> entityList = mapper.readValue(file, new TypeReference<List<String>>() {
         });
         return entityList;
     }
-     
-      public static LinkedHashMap<String, List<String>>  readInterestingFromJsonFile(File file) throws IOException, Exception {
+
+    public static LinkedHashMap<String, List<String>> readInterestingFromJsonFile(File file) throws IOException, Exception {
         ObjectMapper mapper = new ObjectMapper();
         LinkedHashMap<String, List<String>> entityList = mapper.readValue(file, new TypeReference<List<String>>() {
         });
@@ -646,14 +593,14 @@ public class FileFolderUtils implements TextAnalyzer{
     }
 
     public static void writeDictionaryToJsonFile(Map<String, Map<Integer, String>> units, String fileName) throws Exception {
-     if (units.isEmpty()) {
+        if (units.isEmpty()) {
             throw new Exception("no data found to write in the json file!!");
         }
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(fileName).toFile(), units);
     }
 
-    public static List<File> mergeFiles(String inputDir, String dbo_Class,List<File> fileList) throws IOException, Exception {
+    public static List<File> mergeFiles(String inputDir, String dbo_Class, List<File> fileList) throws IOException, Exception {
         Map<String, List<File>> alphabetFiles = new TreeMap<String, List<File>>();
         List<File> mergeFiles = new ArrayList<File>();
 
@@ -667,13 +614,12 @@ public class FileFolderUtils implements TextAnalyzer{
             list.add(file);
             alphabetFiles.put(alphabetFileName, list);
         }
-        
-     
+
         return joinFiles(alphabetFiles);
     }
 
     private static List<File> joinFiles(Map<String, List<File>> alphabetFiles) throws IOException, Exception {
-        List<File> mergerFiles=new ArrayList<File>();
+        List<File> mergerFiles = new ArrayList<File>();
         for (String alphabetFileName : alphabetFiles.keySet()) {
             List<File> list = alphabetFiles.get(alphabetFileName);
             List<DBpediaEntity> allDbpediaEntitys = new ArrayList<DBpediaEntity>();
@@ -686,19 +632,17 @@ public class FileFolderUtils implements TextAnalyzer{
         }
         return mergerFiles;
     }
-    
+
     public static List<DBpediaEntity> readFromJsonFile(File file) throws IOException, Exception {
         ObjectMapper mapper = new ObjectMapper();
         List<DBpediaEntity> dbpediaEntitys = mapper.readValue(file, new TypeReference<List<DBpediaEntity>>() {
         });
         return dbpediaEntitys;
     }
-    
-    
-  
-    public static Map<String, List<WordObjectResults>> readWordObjectFromJsonFile(File file)  {
+
+    public static Map<String, List<WordObjectResults>> readWordObjectFromJsonFile(File file) {
         ObjectMapper mapper = new ObjectMapper();
-        Map<String, List<WordObjectResults>> wordObjectResults=new TreeMap<String, List<WordObjectResults>>();
+        Map<String, List<WordObjectResults>> wordObjectResults = new TreeMap<String, List<WordObjectResults>>();
         try {
             wordObjectResults = mapper.readValue(file, new TypeReference<Map<String, List<WordObjectResults>>>() {
             });
@@ -717,7 +661,7 @@ public class FileFolderUtils implements TextAnalyzer{
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename).toFile(), units);
     }
-    
+
     public static void deleteFiles(List<File> files) {
         for (File file : files) {
             if (file.delete()) {
@@ -739,15 +683,14 @@ public class FileFolderUtils implements TextAnalyzer{
     }
 
     public static void writeEntityResults(Map<String, List<ObjectWordResults>> units, String filename) throws Exception {
-         if (units.isEmpty()) {
-             return;
+        if (units.isEmpty()) {
+            return;
             //throw new Exception("no data found to write in the file!!");
         }
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename).toFile(), units);
     }
 
-    
     public void writeDictionaryToJsonFile(List<InterestingPatterns.Property> units, String filename) throws IOException, Exception {
         if (units.isEmpty()) {
             throw new Exception("no data found to write in the file!!");
@@ -755,10 +698,6 @@ public class FileFolderUtils implements TextAnalyzer{
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename).toFile(), units);
     }
-
-   
-
-
 
     /*public static void writeToTextFile(List<EntityResults> entityResults, String entityDir, String tableName) throws IOException {
         String filename = entityDir + "result/" + tableName.replaceAll(".json", "_probability.txt");
@@ -804,7 +743,6 @@ public class FileFolderUtils implements TextAnalyzer{
         return null;
     }
 
-  
     public static void appendToFile(String fileName, String line) {
         File file = new File(fileName);
         boolean b;
@@ -822,7 +760,7 @@ public class FileFolderUtils implements TextAnalyzer{
             stringToFiles(line, fileName);
         }
     }
-    
+
     public static void convertToJson(List<DBpediaEntity> dbpediaEntities, String filename) throws Exception {
         if (dbpediaEntities.isEmpty()) {
             throw new Exception("the list is empty!!!");
@@ -831,7 +769,7 @@ public class FileFolderUtils implements TextAnalyzer{
         try {
             mapper.writeValue(Paths.get(filename + ".json").toFile(), dbpediaEntities);
         } catch (IOException ex) {
-           System.out.println("can not write following file!!");
+            System.out.println("can not write following file!!");
         }
     }
 
@@ -843,32 +781,32 @@ public class FileFolderUtils implements TextAnalyzer{
         ObjectMapper mapper = new ObjectMapper().enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(Paths.get(filename + ".json").toFile(), correctedEntities);
     }
-    
-      public static String getClassDir(String dbo_Politician) {
+
+    public static String getClassDir(String dbo_Politician) {
         return dbo_Politician.split(":")[1];
     }
-   
-    public static String getLexiconFile(String directory, String type,String postag) {
-        return directory + File.separator +type +"-"+ postag + "-" +   ONTO_LEX + ".json";
+
+    public static String getLexiconFile(String directory, String type, String postag) {
+        return directory + File.separator + type + "-" + postag + "-" + ONTO_LEX + ".json";
     }
 
-    public static String getQaldFile(String directory,String type, String postag) {
+    public static String getQaldFile(String directory, String type, String postag) {
         return directory + File.separator + postag + "-" + type + "-" + QLAD9 + ".json";
     }
-    
-    public static File getQaldJsonFile(String directory,String type, String postag) {
+
+    public static File getQaldJsonFile(String directory, String type, String postag) {
         return new File(directory + File.separator + postag + "-" + type + "-" + QLAD9 + ".json");
     }
-    
-    public static String  getQaldCsvFile(String directory,String type, String postag) {
-        return directory + File.separator + postag + "-" + type + "-" + QLAD9+ ".csv";
+
+    public static String getQaldCsvFile(String directory, String type, String postag) {
+        return directory + File.separator + postag + "-" + type + "-" + QLAD9 + ".csv";
     }
 
-    public static String getMeanReciprocalFile(String directory, String type,String postag) {
-        return directory + File.separator +type +"-"+ postag + "-" + MEAN_RECIPROCAL + ".json";
+    public static String getMeanReciprocalFile(String directory, String type, String postag) {
+        return directory + File.separator + type + "-" + postag + "-" + MEAN_RECIPROCAL + ".json";
     }
-    
-     public static Map<String, Unit> getQald(File qaldFile) throws IOException {
+
+    public static Map<String, Unit> getQald(File qaldFile) throws IOException {
         Map<String, Unit> qald = new TreeMap<String, Unit>();
         ObjectMapper mapper = new ObjectMapper();
         List<Unit> units = mapper.readValue(qaldFile, new TypeReference<List<Unit>>() {
@@ -879,6 +817,105 @@ public class FileFolderUtils implements TextAnalyzer{
         return qald;
     }
 
+    public static String getFileSizeMegaBytes(File file) {
+        return (double) file.length() / (1024 * 1024) + " mb";
+    }
+
+    public static String getFileSizeKiloBytes(File file) {
+        return (double) file.length() / 1024 + "  kb";
+    }
+
+    public static String getFileSizeBytes(File file) {
+        return file.length() + " bytes";
+    }
     
+    public static Boolean isFileBig(File file, Double limit) {
+        String fileSize = getFileSizeMegaBytes(file);
+        String fileType = null;
+        if (fileSize.contains(" ")) {
+            String info[] = fileSize.split(" ");
+            fileType = info[1];
+            if (fileType.contains("mb")) {
+                Double fileSizeNumber = Double.parseDouble(info[0]);
+                if (fileSizeNumber > limit) {
+                    System.out.println("fileSize:::::::"+fileSize);
+                    return true;
+                }
+            }
+            else return false;
+        }
+
+        return false;
+    }
+
+    public static void main(String a[]) throws IOException {
+        try {
+            //String fileName = anchors + input + achorFileTsv;
+            String dir="/home/elahi/new/dbpediaFiles/unlimited/unlimited/predict_l_for_s_given_o/";
+            String fileName="rules-predict_l_for_s_given_o-http%3A%2F%2Fdbpedia.org%2Fontology%2FCountry-100-10000-4-5-5-5-5.csv";
+            File file=new File(dir+fileName);
+            
+            if (!file.exists() || !file.isFile()) return;
+            
+            System.out.println(getFileSizeBytes(file));
+            System.out.println(getFileSizeKiloBytes(file));
+            System.out.println(getFileSizeMegaBytes(file));
+            String fileSize=getFileSizeMegaBytes(file);
+            Double fileSizeNumber=Double.parseDouble(fileSize.split(" ")[0]);
+            
+            Double limit=40.0;
+            
+            if(fileSizeNumber>limit)
+                System.out.print(file.getName());
+                ;
+            
+            CSVReader reader = new CSVReader(new FileReader(file));
+            List<String[]> rows = reader.readAll();
+            
+            
+            //generate terms
+            //getAlphabetic(fileName, alphabetSets);
+            
+            /*
+            StringTokenizer st;
+            BufferedReader TSVFile = new BufferedReader(new FileReader(anchors + File.separator + achorFileTsv));
+            String dataRow = TSVFile.readLine(); // Read first line.
+            
+            
+            while (dataRow != null) {
+            st = new StringTokenizer(dataRow, "\t");
+            List<String> dataArray = new ArrayList<String>();
+            while (st.hasMoreElements()) {
+            dataArray.add(st.nextElement().toString());
+            }
+            for (String item : dataArray) {
+            System.out.print("item:"+item + "  ");
+            }
+            System.out.println(); // Print the data line.
+            dataRow = TSVFile.readLine(); // Read next line of data.
+            }
+            // Close the file once all data has been read.
+            TSVFile.close();
+            
+            // End the printout with a blank line.
+            System.out.println();
+            
+            /*FileFolderUtils mfe = new FileFolderUtils();
+            mfe.printFileList(anchors);*/
+            /*String HTMLSTring = "<!DOCTYPE html>"
+            + "<html>"
+            + "<head>"
+            + "<title>JSoup Example</title>"
+            + "</head>"
+            + "<body>"
+            + "<table><tr><td>"
+            + "<h1>HelloWorld</h1></tr>"
+            + "</table>"
+            + "</body>"
+            + "</html>";*/
+        } catch (CsvException ex) {
+            Logger.getLogger(FileFolderUtils.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
 
 }

@@ -831,6 +831,7 @@ public class FileFolderUtils implements TextAnalyzer {
     
     public static Boolean isFileBig(File file, Double limit) {
         String fileSize = getFileSizeMegaBytes(file);
+
         String fileType = null;
         if (fileSize.contains(" ")) {
             String info[] = fileSize.split(" ");

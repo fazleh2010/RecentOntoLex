@@ -41,6 +41,7 @@ public interface ThresoldConstants {
     public static final String kbRule = "linguisticRule";
     
     public static final String PREDICATE = "predicate";
+
      public static final String OBJECT = "object";
 
     public static final String predict_l_for_s_given_p = "predict_l_for_s_given_p";

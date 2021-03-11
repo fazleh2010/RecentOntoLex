@@ -20,6 +20,7 @@ import citec.correlation.wikipedia.experiments.ThresoldsExperiment;
 import citec.correlation.wikipedia.main.Evaluation;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.resourceDir;
 import citec.correlation.wikipedia.results.LineInfo;
+import static citec.correlation.wikipedia.utils.FileFolderUtils.getFileSizeMegaBytes;
 import com.opencsv.CSVReader;
 import com.opencsv.CSVWriter;
 import com.opencsv.exceptions.CsvException;
@@ -516,16 +517,24 @@ public class CsvFile implements CsvConstants {
         return interestingness + "_" + thresoldValue.toString() + "-" + posTag + "-" + hitStr;
     }
     
-    public  List<String[]>  getRows(File qaldFile,Double limit)  {
+    public  List<String[]>  getRows(File qaldFile,Double limit,Integer lineLimit)  {
         List<String[]> rows = new ArrayList<String[]>();
         Map<String, List<Pair<String, String[]>>> nGramQalds = new TreeMap<String, List<Pair<String, String[]>>>();
         
         Stack<String> stack = new Stack<String>();
         CSVReader reader;
         try {
-            if (!FileFolderUtils.isFileBig(qaldFile, limit)) {
-                rows = generateLinebyLine(qaldFile);
-                //System.out.println("@@@@@@@@@@@@@@@@@@@@@@" + qaldFile.getName()+" size:"+rows.size());
+            rows = generateLinebyLine(qaldFile,lineLimit);
+        } catch (IOException ex) {
+            Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        
+        /*try {
+            
+            if (FileFolderUtils.isFileBig(qaldFile, limit)) {
+                rows = generateLinebyLine(qaldFile,lineLimit);
+                System.out.println("@@@@@@@@@@@@@@@@@@@@@@" + qaldFile.getName()+" size:"+rows.size());
             } else {
                 reader = new CSVReader(new FileReader(qaldFile));
                 rows = reader.readAll();
@@ -536,10 +545,17 @@ public class CsvFile implements CsvConstants {
         } catch (IOException ex) {
             Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
             LOGGER.log(Level.SEVERE, "CSV File not found:!!!" + ex.getMessage());
-        } catch (CsvException ex) {
+        }  catch (CsvException ex) {
             Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex);
             LOGGER.log(Level.SEVERE, "CSV problems:!!!" + ex.getMessage());
         }
+         catch (Exception ex) {
+            try {
+                rows = generateLinebyLine(qaldFile,lineLimit);
+            } catch (IOException ex1) {
+                Logger.getLogger(CsvFile.class.getName()).log(Level.SEVERE, null, ex1);
+            }
+        }*/
   
        return rows;
     }
@@ -599,6 +615,8 @@ public class CsvFile implements CsvConstants {
                 String query = row[index].replace("$", ",");
                 if (index == 0) {
                     key = row[index];
+                    key=key.toLowerCase();
+                    key=key.replace(" ", "_").strip().trim();
                     newRow[index] = query;
                 }
                 newRow[index] = query;
@@ -608,6 +626,7 @@ public class CsvFile implements CsvConstants {
             if (sort.containsKey(key)) {
                 list = sort.get(key);
             }
+            
             list.add(newRow);
             sort.put(key, list);
         }
@@ -687,6 +706,29 @@ public class CsvFile implements CsvConstants {
         }
         return nGramQalds;
     }
+    
+     private List<String[]> generateLinebyLine(File pathToCsv,Integer lineLimit) throws FileNotFoundException, IOException {
+        List<String[]> rows = new ArrayList<String[]>();
+        BufferedReader csvReader = new BufferedReader(new FileReader(pathToCsv));
+        String line = null;
+        Integer index=0;
+        while ((line = csvReader.readLine()) != null) {
+            try {
+             String[] data = line.split(",");
+            rows.add(data);
+            
+            }
+            catch(Exception ex) {
+                ;
+            }
+            index=index+1;  
+            if(index>lineLimit)
+                break;
+            // do something with the data
+        }
+        csvReader.close();
+        return rows;
+    }
 
     public static void main(String[] args) throws IOException, FileNotFoundException, CsvException, Exception {
        
@@ -727,11 +769,15 @@ public class CsvFile implements CsvConstants {
         // gold creationg 
          //JJ-property-qald9.csv
         for (String posTag : POSTAGS) {
-            if (!posTag.contains("JJ")) {
+            if (!posTag.contains("VB")) {
                 continue;
             }
-            File qaldFile = new File(qald9Dir + GOLD + posTag + "-" + PROPERTY + "-" + OBJECT + "-" + "qald9" + ".csv");
-            File newQaldFile = new File(qald9Dir + GOLD + posTag + "-" + PROPERTY + "-" + OBJECT + "-" + "qald9-modify" + ".csv");
+            //File qaldFile = new File(qald9Dir + GOLD + posTag + "-" + PREDICATE + "-" + OBJECT + "-" + "qald9" + ".csv");
+            //File newQaldFile = new File(qald9Dir + GOLD + posTag + "-" + PREDICATE + "-" + OBJECT + "-" + "qald9-modify" + ".csv");
+            
+           File qaldFile = new File(qald9Dir + GOLD + posTag + "-" + PREDICATE + "-" +"qald9" + ".csv");
+           File newQaldFile = new File(qald9Dir + GOLD + posTag + "-" + PREDICATE + "-" + "qald9-modify" + ".csv");
+            
             CsvFile csvFile = new CsvFile(qaldFile);
             List<String[]> rows =csvFile.cvsModifier(qaldFile);
             System.out.println(rows.size());
@@ -741,17 +787,5 @@ public class CsvFile implements CsvConstants {
         
     }
 
-    private List<String[]> generateLinebyLine(File pathToCsv) throws FileNotFoundException, IOException {
-        List<String[]> rows = new ArrayList<String[]>();
-        BufferedReader csvReader = new BufferedReader(new FileReader(pathToCsv));
-        String line = null;
-        while ((line = csvReader.readLine()) != null) {
-            String[] data = line.split(",");
-            rows.add(data);
-            // do something with the data
-        }
-        csvReader.close();
-        return rows;
-    }
 
 }

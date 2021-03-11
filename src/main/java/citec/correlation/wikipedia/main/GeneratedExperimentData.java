@@ -54,6 +54,7 @@ import org.javatuples.Pair;
 /**
  *
  * @author elahi
+ * //BusinessPerson malformed CSV o
  */
 public class GeneratedExperimentData implements ThresoldConstants {
 
@@ -64,7 +65,7 @@ public class GeneratedExperimentData implements ThresoldConstants {
     //the files are ready at /opt/rulepatterns/results
     //bzip2 -d filename.bz2
     //bzip2 -d *.json.bz2
-     public static final LinkedHashSet<String> interestingness = new LinkedHashSet(new ArrayList<String>(Arrays.asList(Cosine,AllConf,MaxConf, Kulczynski)));
+     public static final LinkedHashSet<String> interestingness = new LinkedHashSet(new ArrayList<String>(Arrays.asList(Cosine,Coherence,AllConf,MaxConf, Kulczynski,IR)));
 
 
     public GeneratedExperimentData(String baseDir, String qald9Dir, String givenPrediction, String givenInterestingness, Map<String, ThresoldsExperiment> associationRulesExperiment, Logger givenLOGGER, String fileType, String creationType) throws Exception {
@@ -143,10 +144,15 @@ public class GeneratedExperimentData implements ThresoldConstants {
             Map<String, List<String[]>> experimentLines = new TreeMap<String,List<String[]>>();
 
             String fileName = classFile.getName();
+            //System.out.println("className:"+fileName);
            /* CsvFile experimentCsvFile=new CsvFile(classFile);
             rows =experimentCsvFile.getRows(classFile);*/
+           
+            /*if(!fileName.contains("TennisTournament"))
+                continue;
+            */
             CsvFile csvFile=new  CsvFile(classFile);
-            rows =csvFile.getRows(classFile,100.0);
+            rows =csvFile.getRows(classFile,1000.0,300000);
             
             /*if(FileFolderUtils.isFileSizeManageable(classFile,40.0)){
                 System.out.println( "..........."+classFile.getName());
@@ -163,11 +169,11 @@ public class GeneratedExperimentData implements ThresoldConstants {
                     break;*/
             /*if(numberOfClass>100)
                 break;*/
-            String className = classFile.getName().replace("rules-predict_localized_l_for_s_given_p-http%3A%2F%2Fdbpedia.org%2Fontology%2F", "");
+            String className = classFile.getName().replace("http%3A%2F%2Fdbpedia.org%2Fontology%2F", "");
+            LOGGER.log(Level.INFO, "interestingness:"+interestingness+" "+numberOfClass + "  className:" + className+" totalClasses:"+classFiles.size());
 
             /*if(!className.contains("Politician"))
                 continue;*/
-            LOGGER.log(Level.INFO, numberOfClass + "  className:" + className);
 
             if (classFile.getName().contains(PropertyCSV.localized)) {
                 propertyCSV = new PropertyCSV(PropertyCSV.localized);
@@ -186,6 +192,8 @@ public class GeneratedExperimentData implements ThresoldConstants {
                 }
 
                 LineInfo lineInfo = new LineInfo(index, row, dbo_prediction, interestingness, propertyCSV, LOGGER);
+
+                
                 if (lineInfo.getLine() != null) {
                     if (lineInfo.getLine().contains("XMLSchema#integer")) {
                         continue;
@@ -474,21 +482,21 @@ public class GeneratedExperimentData implements ThresoldConstants {
         Logger LOGGER = Logger.getLogger(GeneratedExperimentData.class.getName());
         String outputDir = qald9Dir;
         String type = null;
-        String creationType = GeneratedExperimentData.createLexicon;
+        String creationType = GeneratedExperimentData.createExperimentLine;
 
         Map<String, ThresoldsExperiment> associationRulesExperiment = new HashMap<String, ThresoldsExperiment>();
 
         List<String> predictLinguisticGivenKB = new ArrayList<String>(Arrays.asList(
                 //predict_l_for_o_given_p
-               // predict_l_for_s_given_po
-         //predict_l_for_s_given_o
+        //predict_l_for_s_given_po
+         predict_l_for_s_given_o
         //predict_l_for_o_given_p,
         //predict_l_for_o_given_s,
        
         //predict_l_for_s_given_p,
         //predict_localized_l_for_o_given_p
         //predict_l_for_o_given_sp
-        predict_localized_l_for_s_given_p       
+        //predict_localized_l_for_s_given_p       
         ));
         List<String> interestingness = new ArrayList<String>();
         interestingness.add(ThresoldConstants.Cosine);

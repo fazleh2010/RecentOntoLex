@@ -112,7 +112,7 @@ public class MeanReciprocalCalculation implements Comparator {
         Boolean matchFlag = false;
         hitsValue = new TreeMap<String, Double>();
         
-           //LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs);
+          //LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs.keySet());
            
            //LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs);
            //lexiconWordKbs=this.filter(lexiconWordKbs);

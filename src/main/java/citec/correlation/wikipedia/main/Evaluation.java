@@ -138,8 +138,8 @@ public class Evaluation implements ThresoldConstants {
                     String nGram = gerNGram(experiment);
                     String searchFileMatch = experiment.replace(nGram, "nGram_5");
                     List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, interestingness, searchFileMatch, ".json").getValue1();
-                    if(expFileList.size()==0)
-                        throw new Exception("No file is available for evaluation!!!");
+                    /*if(expFileList.size()==0)
+                        throw new Exception("No file is available for evaluation!!!");*/
                     //System.out.println(experiment+"   expFileList:"+expFileList.size());
                     Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(prediction, interestingness, experiment, directory, expFileList);
                     if (!meanReciprocalsPos.isEmpty()) {
@@ -319,7 +319,7 @@ public class Evaluation implements ThresoldConstants {
         //predictionType.put(predict_l_for_s_given_o, ThresoldConstants.OBJECT);
         //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
          //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
-        predictionType.put(ThresoldConstants.predict_localized_l_for_s_given_p, ThresoldConstants.PREDICATE);
+        predictionType.put(ThresoldConstants.predict_localized_l_for_s_given_p, PREDICATE);
 
         for (String prediction : predictionType.keySet()) {
             String type = predictionType.get(prediction);

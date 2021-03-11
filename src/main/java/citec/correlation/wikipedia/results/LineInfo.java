@@ -107,7 +107,7 @@ public class LineInfo implements ThresoldConstants{
     
     private Integer setNGram(String[] row, Integer patterntypeIndex) {
         String patternType = row[patterntypeIndex];
-        if (patternType.contains("-")) {
+        /*if (patternType.contains("-")) {
             String[] info = row[patterntypeIndex].split("-");
             return Integer.parseInt(info[0]);
         } else if (patternType.contains("one")) {
@@ -118,7 +118,7 @@ public class LineInfo implements ThresoldConstants{
             return 3;
         } else if (patternType.contains("four")) {
             return 4;
-        }
+        }*/
         return 5;
 
     }

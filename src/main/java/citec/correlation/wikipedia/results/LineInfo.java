@@ -8,7 +8,9 @@ package citec.correlation.wikipedia.results;
 import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import citec.correlation.wikipedia.analyzer.TextAnalyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.POS_TAGGER_WORDS;
-import citec.correlation.wikipedia.experiments.ThresoldConstants;
+import citec.correlation.wikipedia.experiments.NullInterestingness;
+import citec.correlation.wikipedia.main.Generated_6;
+import citec.correlation.wikipedia.utils.FormatAndMatch;
 import citec.correlation.wikipedia.utils.PropertyCSV;
 import com.google.common.collect.Sets;
 import java.util.LinkedHashSet;
@@ -21,12 +23,13 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.apache.commons.lang3.StringUtils;
 import org.javatuples.Pair;
+import citec.correlation.wikipedia.experiments.PredictionRules;
 
 /**
  *
  * @author elahi
  */
-public class LineInfo implements ThresoldConstants{
+public class LineInfo implements NullInterestingness,PredictionRules{
 
     private String line = null;
     private String subject = "e";
@@ -73,29 +76,44 @@ public class LineInfo implements ThresoldConstants{
             line="http://www.w3.org/2001/XMLSchema#integer";
         this.className = setClassName(row[propertyCSV.getClassNameIndex()]);
 
-        if (prediction.equals(predict_l_for_s_given_po)) {
-            this.predicate =this.setProperty(row[propertyCSV.getPredicateIndex()]); 
+        if (isPredict_l_for_s_given_po(prediction)
+                || isPredict_po_for_s_given_l(prediction)
+                || isPredict_po_for_s_given_localized_l(prediction)) {
+            this.predicate = this.setProperty(row[propertyCSV.getPredicateIndex()]);
             this.object = this.setObject(row[propertyCSV.getObjectIndex()]);
-        } else if (prediction.equals(predict_l_for_s_given_o)) {
-           this.object = this.setObject(row[propertyCSV.getObjectIndex()]);
-        } else if (prediction.equals(predict_l_for_o_given_s)) {
+        } else if (isPredict_l_for_s_given_o(prediction)) {
+            this.object = this.setObject(row[propertyCSV.getObjectIndex()]);
+        } else if (isPredict_l_for_o_given_s(prediction)) {
             //this.subject = this.setSubject(rule);
-        } else if (prediction.equals(predict_l_for_o_given_sp)) {
+        } else if (isPredict_l_for_o_given_sp(prediction)) {
             //this.subject = this.setSubject(rule);
             //this.predicate = this.setProperty(rule);
-        } else if (prediction.equals(predict_l_for_o_given_p)) {
-            this.predicate =this.setProperty(row[propertyCSV.getPredicateIndex()]); 
-        } else if (prediction.equals(predict_l_for_s_given_p)) {
-            this.predicate =this.setProperty(row[propertyCSV.getPredicateIndex()]); 
-        }else if (prediction.equals(predict_localized_l_for_s_given_p)) {
-            this.predicate =this.setProperty(row[propertyCSV.getPredicateIndex()]); 
+        } else if (isPredict_l_for_o_given_p(prediction)
+                || isPredict_l_for_s_given_p(prediction)
+                || isPredict_p_for_s_given_localized_l(prediction)
+                || isPredict_p_for_o_given_localized_l(prediction)) {
+            this.predicate = this.setProperty(row[propertyCSV.getPredicateIndex()]);
+        } else if (isPredict_localized_l_for_s_given_p(prediction)) {
+            this.predicate = this.setProperty(row[propertyCSV.getPredicateIndex()]);
         }
 
+
+        if(!isKBValid()){
+            this.validFlag=false;
+            return; 
+        }
+            
+        
+
         this.wordOriginal = row[propertyCSV.getLinguisticPatternIndex()];
+        /*if(this.wordOriginal.contains("ustralian"))
+            System.out.println("@@@@@@@@@@@@@@@22:"+wordOriginal);*/
+        
         if (wordOriginal != null) {
             this.validFlag = true;
         }
         this.nGramNumber=this.setNGram(row,propertyCSV.getPatterntypeIndex());
+       
        
         if (this.validFlag) {
             String str = this.processWords(this.wordOriginal);
@@ -505,6 +523,9 @@ public class LineInfo implements ThresoldConstants{
         }
         return false;
     }
+    
+    
+  
 
     @Override
     public String toString() {
@@ -567,8 +588,77 @@ public class LineInfo implements ThresoldConstants{
     public String getCheckedAssociationRuleValue() {
         return checkedAssociationRuleValue;
     }
+    
+     private boolean isKBValid() {
+        if (this.object != null) {
+            if (this.object.strip().trim().contains("http://www.w3.org/2001/XMLSchema#date")) {
+                return false;
+            }
+        }
+        if (this.predicate != null) {
+            if (this.predicate.strip().trim().contains("date")) {
+                return false;
+            }
+        }
+        return true;
+    }
 
-   
+    @Override
+    public Boolean isPredict_l_for_s_given_po(String predictionRule) {
+        return predictionRule.equals(predict_l_for_s_given_po);
+    }
+
+    @Override
+    public Boolean isPredict_l_for_s_given_o(String predictionRule) {
+        return predictionRule.equals(predict_l_for_s_given_o);
+    }
+
+    @Override
+    public Boolean isPredict_l_for_o_given_s(String predictionRule) {
+         return predictionRule.equals(predict_l_for_o_given_s);
+    }
+
+    @Override
+    public Boolean isPredict_l_for_o_given_sp(String predictionRule) {
+         return predictionRule.equals(predict_l_for_o_given_sp);
+    }
+
+    @Override
+    public Boolean isPredict_l_for_o_given_p(String predictionRule) {
+         return predictionRule.equals(predict_l_for_o_given_p);
+    }
+
+    @Override
+    public Boolean isPredict_l_for_s_given_p(String predictionRule) {
+         return predictionRule.equals(predict_l_for_s_given_p);
+    }
+
+    @Override
+    public Boolean isPredict_localized_l_for_s_given_p(String predictionRule) {
+         return predictionRule.equals(predict_localized_l_for_s_given_p);
+    }
+
+    @Override
+    public Boolean isPredict_po_for_s_given_l(String predictionRule) {
+         return predictionRule.equals(predict_po_for_s_given_l);
+    }
+
+    @Override
+    public Boolean isPredict_po_for_s_given_localized_l(String predictionRule) {
+        return predictionRule.equals(predict_po_for_s_given_localized_l);
+    }
+
+    @Override
+    public Boolean isPredict_p_for_s_given_localized_l(String predictionRule) {
+        return predictionRule.equals(predict_p_for_s_given_localized_l);
+    }
+
+    @Override
+    public Boolean isPredict_p_for_o_given_localized_l(String predictionRule) {
+       return predictionRule.equals(predict_p_for_o_given_localized_l);
+    }
+
+  
 
    
 

@@ -5,17 +5,17 @@
  */
 package citec.correlation.wikipedia.utils;
 
-import citec.correlation.wikipedia.experiments.ThresoldConstants;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.javatuples.Pair;
+import citec.correlation.wikipedia.experiments.PredictionRules;
 
 /**
  *
  * @author elahi
  */
-public class EvaluationTriple implements ThresoldConstants {
+public class EvaluationTriple implements PredictionRules {
 
     private static String predicate_object_pair_str = "predicate-object pair::";
     private static String subject_predicate_pair_str = "subject-predicate pair::";
@@ -75,19 +75,23 @@ public class EvaluationTriple implements ThresoldConstants {
     }
 
     private String createKey(String predictionRule, String subject, String predicate, String object) throws Exception {
-        if (predictionRule.contains(predict_l_for_s_given_po)) {
+        if (isPredict_l_for_s_given_po(predictionRule)
+                || isPredict_po_for_s_given_l(predictionRule)
+                || isPredict_po_for_s_given_localized_l(predictionRule)) {
             return predicate + " " + object;
-        } else if (predictionRule.contains(predict_l_for_s_given_o)) {
+        } else if (isPredict_l_for_s_given_o(predictionRule)) {
             return object;
-        } else if (predictionRule.contains(predict_l_for_o_given_s)) {
+        } else if (isPredict_l_for_o_given_s(predictionRule)) {
             return subject;
-        } else if (predictionRule.contains(predict_l_for_o_given_sp)) {
+        } else if (isPredict_l_for_o_given_sp(predictionRule)) {
             return subject + " " + predicate;
-        } else if (predictionRule.contains(predict_l_for_o_given_p)) {
+        } else if (isPredict_l_for_o_given_p(predictionRule)) {
             return predicate;
-        } else if (predictionRule.contains(predict_l_for_s_given_p)) {
+        } else if (isPredict_l_for_s_given_p(predictionRule)) {
             return predicate;
-        } else if (predictionRule.contains(ThresoldConstants.predict_localized_l_for_s_given_p)) {
+        } else if (isPredict_localized_l_for_s_given_p(predictionRule)
+                  ||isPredict_p_for_s_given_localized_l(predictionRule)
+                  ||isPredict_p_for_o_given_localized_l(predictionRule)) {
             return predicate;
         } else {
             throw new Exception("can not create key, check the KB!!");
@@ -95,7 +99,9 @@ public class EvaluationTriple implements ThresoldConstants {
     }
 
     public static boolean match(EvaluationTriple lexiconTriple, EvaluationTriple qaldTriple, String predicationRule) {
-        if (predicationRule.contains(predict_l_for_s_given_po)) {
+        if (predicationRule.equals(predict_l_for_s_given_po)
+                || predicationRule.contains(predict_po_for_s_given_l)
+                || predicationRule.contains(predict_po_for_s_given_localized_l)) {
             if (matchPredicate(lexiconTriple, qaldTriple) && matchObject(lexiconTriple, qaldTriple)) {
                 return true;
             }
@@ -111,15 +117,13 @@ public class EvaluationTriple implements ThresoldConstants {
             if (matchSubject(lexiconTriple, qaldTriple) && matchPredicate(lexiconTriple, qaldTriple)) {
                 return true;
             }
-        } else if (predicationRule.contains(predict_l_for_o_given_p)) {
-            if (matchPredicate(lexiconTriple, qaldTriple)) {
-                return true;
-            }
-        } else if (predicationRule.contains(predict_l_for_s_given_p)) {
-            if (matchPredicate(lexiconTriple, qaldTriple)) {
-                return true;
-            }
-        } else if (predicationRule.contains(ThresoldConstants.predict_localized_l_for_s_given_p)) {
+        } else if (predicationRule.contains(predict_l_for_o_given_p)
+                || predicationRule.contains(predict_l_for_s_given_p)
+                || predicationRule.contains(predict_localized_l_for_s_given_p)
+                || predicationRule.contains(predict_localized_l_for_s_given_p)
+                || predicationRule.contains(predict_localized_l_for_s_given_p)
+                || predicationRule.contains(predict_p_for_s_given_localized_l)
+                || predicationRule.contains(predict_p_for_o_given_localized_l)) {
             if (matchPredicate(lexiconTriple, qaldTriple)) {
                 return true;
             }
@@ -128,7 +132,9 @@ public class EvaluationTriple implements ThresoldConstants {
     }
 
     private void parseKey(String predictionRule, String keyT) throws Exception {
-        if (predictionRule.equals(predict_l_for_s_given_po)) {
+        if (predictionRule.equals(predict_l_for_s_given_po)
+                || predictionRule.contains(predict_po_for_s_given_l)
+                || predictionRule.contains(predict_po_for_s_given_localized_l)) {
             if (keyT.contains(" ")) {
                 String[] info = keyT.split(" ");
                 if (info.length >= 2) {
@@ -154,11 +160,11 @@ public class EvaluationTriple implements ThresoldConstants {
             } else {
                 throw new Exception("can not parse keyy, check the KB!!");
             }
-        } else if (predictionRule.equals(predict_l_for_o_given_p)) {
-            this.predicate = keyT;
-        } else if (predictionRule.equals(predict_l_for_s_given_p)) {
-            this.predicate = keyT;
-        } else if (predictionRule.equals(predict_localized_l_for_s_given_p)) {
+        } else if (predictionRule.equals(predict_localized_l_for_s_given_p)
+                || predictionRule.equals(predict_l_for_o_given_p)
+                || predictionRule.equals(predict_l_for_s_given_p)
+                || predictionRule.contains(predict_p_for_s_given_localized_l)
+                || predictionRule.contains(predict_p_for_o_given_localized_l)) {
             this.predicate = keyT;
         } else {
             throw new Exception("can not parse keyy, check the KB!!");
@@ -173,7 +179,9 @@ public class EvaluationTriple implements ThresoldConstants {
 
         for (String key : ranking) {
             String line = null;
-            if (predictionRule.equals(predict_l_for_s_given_po)) {
+            if (predictionRule.equals(predict_l_for_s_given_po)
+                    || predictionRule.contains(predict_po_for_s_given_l)
+                    || predictionRule.contains(predict_po_for_s_given_localized_l)) {
                 String predicate = null, object = null;
                 String[] info = key.split(" ");
                 if (info.length >= 2) {
@@ -191,7 +199,9 @@ public class EvaluationTriple implements ThresoldConstants {
                 line = index.toString() + " " + key + "\n";
             } else if (predictionRule.equals(predict_l_for_s_given_p)) {
                 line = index.toString() + " " + key + "\n";
-            } else if (predictionRule.equals(predict_localized_l_for_s_given_p)) {
+            } else if (predictionRule.equals(predict_localized_l_for_s_given_p)
+                    || predictionRule.contains(predict_p_for_s_given_localized_l)
+                    || predictionRule.contains(predict_p_for_o_given_localized_l)) {
                 line = index.toString() + " " + key + "\n";
             } else if (predictionRule.equals(predict_l_for_o_given_sp)) {
                 String subject = null, predicate = null;
@@ -252,29 +262,35 @@ public class EvaluationTriple implements ThresoldConstants {
         str = str.substring(0, str.length() - 1);
         return new Pair<String, String>(type, str);
     }*/
-    public static Pair<String, String> getString(String[] coulmns, String predictionRule) {
+    public static Pair<String, String> getString(String[] coulmns, String prediction) {
         String str = "", type = null;
         for (String kbLine : coulmns) {
             String line = kbLine + " ";
             str += line;
         }
 
-        if (predictionRule.contains(predict_l_for_s_given_po)) {
+        if (prediction.contains(predict_l_for_s_given_po)
+                || prediction.contains(predict_po_for_s_given_l)
+                || prediction.contains(predict_po_for_s_given_localized_l)) {
             type = predicate_object_pair_str;
-        } else if (predictionRule.contains(predict_l_for_s_given_o)) {
+        } else if (prediction.contains(predict_l_for_s_given_o)) {
             type = object_str;
-        } else if (predictionRule.contains(predict_l_for_o_given_p)) {
+        } else if (prediction.contains(predict_l_for_o_given_p)
+                || prediction.contains(predict_p_for_s_given_localized_l)
+                || prediction.contains(predict_p_for_o_given_localized_l)) {
             type = predicate_str;
         }
 
-        if (predictionRule.contains(predict_l_for_s_given_po)) {
+        if (prediction.contains(predict_l_for_s_given_po)
+                || prediction.contains(predict_po_for_s_given_l)
+                || prediction.contains(predict_po_for_s_given_localized_l)) {
             str = coulmns[2] + " " + coulmns[3];
-        } else if (predictionRule.contains(predict_l_for_s_given_o)) {
+        } else if (prediction.contains(predict_l_for_s_given_o)) {
             str = coulmns[3];
-        } else if (predictionRule.contains(predict_l_for_o_given_p)) {
-            str = coulmns[2];
-        }
-        else if (predictionRule.contains(predict_localized_l_for_s_given_p)) {
+        } else if (prediction.contains(predict_l_for_o_given_p)
+                  ||prediction.contains(predict_localized_l_for_s_given_p)
+                  || prediction.contains(predict_p_for_s_given_localized_l)
+                  || prediction.contains(predict_p_for_o_given_localized_l)) {
             str = coulmns[2];
         }
 
@@ -401,23 +417,27 @@ public class EvaluationTriple implements ThresoldConstants {
         return object;
     }
 
-    private static String getType(String predictionRule) {
+    private static String getType(String prediction) {
         String type = null;
-        if (predictionRule.equals(predict_l_for_o_given_p)) {
+        if (prediction.equals(predict_l_for_o_given_p)) {
             type = predicate_str;
-        } else if (predictionRule.equals(predict_l_for_o_given_s)) {
+        } else if (prediction.equals(predict_l_for_o_given_s)) {
             type = subject_str;
-        } else if (predictionRule.equals(predict_l_for_o_given_sp)) {
+        } else if (prediction.equals(predict_l_for_o_given_sp)) {
             type = subject_predicate_pair_str;
-        } else if (predictionRule.equals(predict_l_for_s_given_p)) {
+        } else if (prediction.equals(predict_l_for_s_given_p)) {
             type = predicate_str;
-        } else if (predictionRule.equals(predict_l_for_s_given_o)) {
+        } else if (prediction.equals(predict_l_for_s_given_o)) {
             type = object_str;
-        } else if (predictionRule.equals(predict_l_for_o_given_p)) {
+        } else if (prediction.equals(predict_l_for_o_given_p)) {
             type = predicate_str;
-        } else if (predictionRule.equals(predict_l_for_s_given_po)) {
+        } else if (prediction.equals(predict_l_for_s_given_po)
+                || prediction.contains(predict_po_for_s_given_l)
+                || prediction.contains(predict_po_for_s_given_localized_l)) {
             type = predicate_object_pair_str;
-        }else if (predictionRule.equals(predict_localized_l_for_s_given_p)) {
+        } else if (prediction.equals(predict_localized_l_for_s_given_p)
+                || prediction.contains(predict_p_for_s_given_localized_l)
+                || prediction.contains(predict_p_for_o_given_localized_l)) {
             type = predicate_str;
         }
         return type;
@@ -437,9 +457,13 @@ public class EvaluationTriple implements ThresoldConstants {
             resultFlag = isValidForEvaluation(CsvFile.objectIndex, coulmns);
         } else if (prediction.equals(predict_l_for_o_given_p)) {
             resultFlag = isValidForEvaluation(CsvFile.propertyIndex, coulmns);
-        } else if (prediction.equals(predict_localized_l_for_s_given_p)) {
+        } else if (prediction.equals(predict_localized_l_for_s_given_p)
+                    || prediction.contains(predict_p_for_s_given_localized_l)
+                    || prediction.contains(predict_p_for_o_given_localized_l)) {
             resultFlag = isValidForEvaluation(CsvFile.propertyIndex, coulmns);
-        } else if (prediction.equals(predict_l_for_s_given_po)) {
+        } else if (prediction.equals(predict_l_for_s_given_po)
+                || prediction.equals(predict_po_for_s_given_l)
+                || prediction.equals(predict_po_for_s_given_localized_l)) {
             resultFlag = isValidForEvaluation(CsvFile.propertyIndex, CsvFile.objectIndex, coulmns);
             // LOGGER.log(Level.INFO, "prediction: " + prediction + " " +coulmns[CsvFile.propertyIndex]+ " " +coulmns[CsvFile.objectIndex]);
 
@@ -464,6 +488,61 @@ public class EvaluationTriple implements ThresoldConstants {
         }
 
         return true;
+    }
+
+    @Override
+    public Boolean isPredict_l_for_s_given_po(String predictionRule) {
+        return predictionRule.contains(predict_l_for_s_given_po);
+    }
+
+    @Override
+    public Boolean isPredict_l_for_s_given_o(String predictionRule) {
+        return predictionRule.contains(predict_l_for_s_given_o);
+    }
+
+    @Override
+    public Boolean isPredict_l_for_o_given_s(String predictionRule) {
+        return predictionRule.contains(predict_l_for_o_given_s);
+    }
+
+    @Override
+    public Boolean isPredict_l_for_o_given_sp(String predictionRule) {
+        return predictionRule.contains(predict_l_for_o_given_sp);
+    }
+
+    @Override
+    public Boolean isPredict_l_for_o_given_p(String predictionRule) {
+        return predictionRule.contains(predict_l_for_o_given_p);
+    }
+
+    @Override
+    public Boolean isPredict_l_for_s_given_p(String predictionRule) {
+        return predictionRule.contains(predict_l_for_s_given_p);
+    }
+
+    @Override
+    public Boolean isPredict_localized_l_for_s_given_p(String predictionRule) {
+        return predictionRule.contains(predict_localized_l_for_s_given_p);
+    }
+
+    @Override
+    public Boolean isPredict_po_for_s_given_l(String predictionRule) {
+        return predictionRule.contains(predict_po_for_s_given_l);
+    }
+
+    @Override
+    public Boolean isPredict_po_for_s_given_localized_l(String predictionRule) {
+        return predictionRule.contains(predict_po_for_s_given_localized_l);
+    }
+
+    @Override
+    public Boolean isPredict_p_for_s_given_localized_l(String predictionRule) {
+        return predictionRule.contains(predict_p_for_s_given_localized_l);
+    }
+
+    @Override
+    public Boolean isPredict_p_for_o_given_localized_l(String predictionRule) {
+         return predictionRule.contains(predict_p_for_o_given_localized_l);
     }
 
 }

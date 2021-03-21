@@ -6,10 +6,9 @@ import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import citec.correlation.wikipedia.dic.lexicon.WordObjectResults;
 import citec.correlation.wikipedia.evalution.Comparision;
 import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
+import citec.correlation.wikipedia.experiments.NullInterestingness;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
-import citec.correlation.wikipedia.experiments.ThresoldConstants;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.interestingness;
 import citec.correlation.wikipedia.experiments.ThresoldsExperiment;
 import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.results.NewResultsHR;
@@ -36,6 +35,7 @@ import java.util.TreeMap;
 import java.util.TreeSet;
 import org.apache.commons.lang3.StringUtils;
 import org.javatuples.Pair;
+import citec.correlation.wikipedia.experiments.PredictionRules;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -46,7 +46,7 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class NewResultEvalutionTest_1 implements ThresoldConstants {
+public class NewResultEvalutionTest_1 implements PredictionRules, NullInterestingness {
 
     private static String inputDir = dbpediaDir + "results/" + "new/";
     private static Set<String> classNames = new TreeSet<String>();
@@ -504,4 +504,59 @@ public class NewResultEvalutionTest_1 implements ThresoldConstants {
         lexicon.preparePropertyLexicon(key, dbo_associationRule, lineLexicon);
         return lexicon;
     }*/
+
+    @Override
+    public Boolean isPredict_l_for_s_given_po(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_l_for_s_given_o(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_l_for_o_given_s(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_l_for_o_given_sp(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_l_for_o_given_p(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_l_for_s_given_p(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_localized_l_for_s_given_p(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_po_for_s_given_l(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_po_for_s_given_localized_l(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_p_for_s_given_localized_l(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_p_for_o_given_localized_l(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

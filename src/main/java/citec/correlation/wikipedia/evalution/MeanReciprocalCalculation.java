@@ -73,7 +73,11 @@ public class MeanReciprocalCalculation implements Comparator {
     
 
     @Ignore
-    private static LinkedHashSet<String> hitsString = new LinkedHashSet<String>(Arrays.asList(MRR,Hits+1, Hits+2, Hits+4));
+    //private static LinkedHashSet<String> hitsString = new LinkedHashSet<String>(Arrays.asList(MRR,Hits+1, Hits+2, Hits+4));    
+     private static LinkedHashSet<String> hitsString = new LinkedHashSet<String>(Arrays.asList(MRR,Hits+5, Hits+15, Hits+30));
+    
+    //private static LinkedHashSet<String> hitsString = new LinkedHashSet<String>(Arrays.asList(MRR,Hits+1, Hits+2, Hits+4));    
+
     //@JsonProperty("PatterrnFoundZeroRank")
     @JsonIgnore
     private Map<String, ReciprocalResult> patternNotFound = new TreeMap<String, ReciprocalResult>();
@@ -112,12 +116,12 @@ public class MeanReciprocalCalculation implements Comparator {
         Boolean matchFlag = false;
         hitsValue = new TreeMap<String, Double>();
         
-          //LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs.keySet());
+         //LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs.keySet());
            
            //LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs);
            //lexiconWordKbs=this.filter(lexiconWordKbs);
           // LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs);
-        Map<Integer, Integer> hits = new TreeMap<Integer, Integer>();
+         Map<String, Integer> hits=new HashMap<String, Integer>(); 
         //LOGGER.log(Level.WARNING, "lexiconWordKbs.keySet(): "+lexiconWordKbs.keySet());
 
         for (String word : this.csvFile.getRow().keySet()) {
@@ -165,13 +169,30 @@ public class MeanReciprocalCalculation implements Comparator {
                 mrr += reciprocalResult.getReciprocalRank();
 
                 if (rank > 0) {
-                    Integer hitRank = 1;
-                    if (hits.containsKey(rank) && rank > 0) {
-                        hitRank = hits.get(rank) + 1;
+                    for (String key : hitsString) {
+                        if(!key.contains(Hits))
+                            continue;
+                        String temp=key.replace(Hits, "");
+                        int rankType = Integer.parseInt(temp);
+                        Integer hitrank = 0;
+                        if (rank <= rankType) {
+                            hitrank = 1;
+                            if(hits.containsKey(key)){
+                                Integer hitrankList = hits.get(key) + hitrank; 
+                                hits.put(key, hitrankList);
+                            }
+                            else 
+                               hits.put(key, hitrank);                                
+                            
+                        }
                     }
-                    hits.put(rank, hitRank);
-                }
 
+                }
+                   
+               
+
+                //temporary code to show 0 rank
+               
                 count += 1;
 
             }
@@ -186,13 +207,18 @@ public class MeanReciprocalCalculation implements Comparator {
         this.numberOfPatterrnFoundZeroRank = patternNotFound.size();
         this.totalPattern = patternFound.size() + patternNotFound.size();
        
-       
+        for (String key : hits.keySet()) {
+            Integer rankTotal = hits.get(key);
+            Double value = (rankTotal / size);
+            this.hitsValue.put(key, value);
+            LOGGER.log(Level.INFO, key + "::" + "(" + rankTotal + "/" + size + "):" + value);
+        }
        
        this.hitsValue.put(MRR, this.meanReciprocalRank);
        LOGGER.log(Level.INFO, "#### #### #### #### Mean Reciprocal Value::" + "(" + totalMrr + "/" + size + ")" + "=" + this.meanReciprocalRank);
 
         LOGGER.log(Level.INFO, "#### #### #### #### calculating Hits::"   );
-        for(Integer index: hits.keySet()){
+        /*for(Integer index: hits.keySet()){
             Integer rankTotal=hits.get(index);
             Double value=(rankTotal/size);
             String key=Hits+index;
@@ -205,7 +231,9 @@ public class MeanReciprocalCalculation implements Comparator {
             if(!hitsValue.containsKey(key)){
               this.hitsValue.put(key, 0.0);
             }
-        }
+        }*/
+        
+     
 
 
        /*if (matchFlag) {
@@ -369,13 +397,23 @@ public class MeanReciprocalCalculation implements Comparator {
         return filtered;
     }
 
-    public static Set<String> getHitsString() {
+    public static  Set<String> getHitsString() {
         return hitsString;
     }
 
     public Map<String, Double> getHitsValue() {
         return hitsValue;
     }
+   
+
+
+       /*if (rank > 0) {
+                    Integer hitRank = 1;
+                    if (hits.containsKey(rank) && rank > 0) {
+                        hitRank = hits.get(rank) + 1;
+                    }
+                    hits.put(rank, hitRank);
+                }*/
 
   
 

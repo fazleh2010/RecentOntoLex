@@ -6,13 +6,8 @@
 package citec.correlation.wikipedia.main;
 
 import citec.correlation.wikipedia.analyzer.TextAnalyzer;
-import citec.correlation.wikipedia.experiments.ThresoldConstants;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.AllConf;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.Coherence;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.Cosine;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.IR;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.Kulczynski;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.MaxConf;
+import citec.correlation.wikipedia.experiments.NullInterestingness;
+
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -20,12 +15,13 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import static java.util.Map.entry;
+import citec.correlation.wikipedia.experiments.PredictionRules;
 
 /**
  *
  * @author elahi
  */
-public interface CsvConstants extends TextAnalyzer,ThresoldConstants {
+public interface CsvConstants extends TextAnalyzer,NullInterestingness{
 
     public static String WORD = "word";
     public static String ID = "id";

@@ -7,14 +7,17 @@ package citec.correlation.wikipedia.dic.lexicon;
 
 import citec.correlation.wikipedia.analyzer.PosAnalyzer;
 import static citec.correlation.wikipedia.analyzer.TextAnalyzer.OBJECT;
+import citec.correlation.wikipedia.experiments.PredictionRules;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_o_given_p;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_o_given_s;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_o_given_sp;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_s_given_o;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_s_given_p;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_s_given_po;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_localized_l_for_s_given_p;
+import static citec.correlation.wikipedia.experiments.PredictionRules.predict_l_for_o_given_p;
+import static citec.correlation.wikipedia.experiments.PredictionRules.predict_l_for_o_given_s;
+import static citec.correlation.wikipedia.experiments.PredictionRules.predict_l_for_o_given_sp;
+import static citec.correlation.wikipedia.experiments.PredictionRules.predict_l_for_s_given_o;
+import static citec.correlation.wikipedia.experiments.PredictionRules.predict_l_for_s_given_p;
+import static citec.correlation.wikipedia.experiments.PredictionRules.predict_l_for_s_given_po;
+import static citec.correlation.wikipedia.experiments.PredictionRules.predict_localized_l_for_s_given_p;
+import static citec.correlation.wikipedia.experiments.PredictionRules.predict_po_for_s_given_l;
+import static citec.correlation.wikipedia.experiments.PredictionRules.predict_po_for_s_given_localized_l;
 import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.utils.FileFolderUtils;
 import citec.correlation.wikipedia.utils.FormatAndMatch;
@@ -37,7 +40,7 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class Lexicon {
+public class Lexicon implements PredictionRules{
    
     private String lexiconDirectory = null;
     private  Map<String, List<LexiconUnit>>lexiconPosTaggged = new TreeMap<String, List<LexiconUnit>>();
@@ -290,23 +293,82 @@ public class Lexicon {
     }
 
     private String getPair(LineInfo lineInfo, String predictionRule) throws Exception {
-        if (predictionRule.contains(predict_l_for_s_given_po)) {
+        if (predictionRule.equals(predict_l_for_s_given_po)
+                ||predictionRule.equals(predict_po_for_s_given_l)
+                ||predictionRule.equals(predict_po_for_s_given_localized_l)) {
             return lineInfo.getPredicate() + " " + lineInfo.getObject();
-        } else if (predictionRule.contains(predict_l_for_s_given_o)) {
+        } else if (predictionRule.equals(predict_l_for_s_given_o)) {
             return lineInfo.getObject();
-        } else if (predictionRule.contains(predict_l_for_o_given_s)) {
+        } else if (predictionRule.equals(predict_l_for_o_given_s)) {
             return lineInfo.getSubject();
-        } else if (predictionRule.contains(predict_l_for_o_given_sp)) {
+        } else if (predictionRule.equals(predict_l_for_o_given_sp)) {
             return lineInfo.getSubject() + " " + lineInfo.getPredicate();
-        } else if (predictionRule.contains(predict_l_for_o_given_p)) {
+        } else if (predictionRule.equals(predict_l_for_o_given_p)) {
             return lineInfo.getPredicate();
-        } else if (predictionRule.contains(predict_l_for_s_given_p)) {
+        } else if (predictionRule.equals(predict_l_for_s_given_p)) {
             return lineInfo.getPredicate();
-        } else if (predictionRule.contains(predict_localized_l_for_s_given_p)) {
+        } else if (predictionRule.equals(predict_localized_l_for_s_given_p)
+                ||predictionRule.equals(PredictionRules.predict_p_for_s_given_localized_l)
+                ||predictionRule.equals(PredictionRules.predict_p_for_o_given_localized_l)) {
             return lineInfo.getPredicate();
         } else {
             throw new Exception("can not create key, check the KB!!");
         }
+    }
+
+    @Override
+    public Boolean isPredict_l_for_s_given_po(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_l_for_s_given_o(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_l_for_o_given_s(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_l_for_o_given_sp(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_l_for_o_given_p(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_l_for_s_given_p(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_localized_l_for_s_given_p(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_po_for_s_given_l(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_po_for_s_given_localized_l(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_p_for_s_given_localized_l(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Boolean isPredict_p_for_o_given_localized_l(String predictionRule) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
   

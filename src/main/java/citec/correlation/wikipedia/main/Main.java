@@ -4,31 +4,11 @@
  * and open the template in the editor.
  */
 package citec.correlation.wikipedia.main;
-
-import citec.correlation.wikipedia.experiments.ThresoldConstants;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.Coherence;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.OBJECT;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_o_given_p;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_s_given_o;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_s_given_po;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_localized_l_for_s_given_p;
-import citec.correlation.wikipedia.experiments.ThresoldsExperiment;
-import static citec.correlation.wikipedia.main.Evaluation.calculateMeanReciprocal;
-import static citec.correlation.wikipedia.main.Evaluation.createExperiments;
-import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
-import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.logging.Logger;
-
 /**
  *
  * @author elahi
  */
-public class Main implements ThresoldConstants{
+public class Main {
     
     public static void main(String[] args) throws Exception {
       //create experiments
@@ -77,8 +57,6 @@ public class Main implements ThresoldConstants{
             //}
         }
     }*/
-      
-    
 
-
+   
 }

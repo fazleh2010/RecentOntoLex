@@ -12,17 +12,10 @@ import citec.correlation.wikipedia.dic.lexicon.Lexicon;
 import citec.correlation.wikipedia.dic.lexicon.WordObjectResults;
 import citec.correlation.wikipedia.evalution.Comparision;
 import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
+import citec.correlation.wikipedia.experiments.NullInterestingness;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.dbpediaDir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.resourceDir;
-import citec.correlation.wikipedia.experiments.ThresoldConstants;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.AllConf;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.Coherence;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.Cosine;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.IR;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.Kulczynski;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.MaxConf;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.interestingness;
 import citec.correlation.wikipedia.experiments.ThresoldsExperiment;
 import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.results.NewResultsHR;
@@ -52,6 +45,7 @@ import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.javatuples.Pair;
+import citec.correlation.wikipedia.experiments.PredictionRules;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -62,7 +56,7 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class Evaluation implements ThresoldConstants {
+public class Evaluation  implements NullInterestingness{
 
     private static String inputDir = dbpediaDir + "results/" + "new/";
     private static Set<String> classNames = new TreeSet<String>();
@@ -72,6 +66,8 @@ public class Evaluation implements ThresoldConstants {
     private static List<MeanReciprocalCalculation> adjectives = new ArrayList<MeanReciprocalCalculation>();
     private static List<MeanReciprocalCalculation> verbs = new ArrayList<MeanReciprocalCalculation>();
     private static List<MeanReciprocalCalculation> nouns = new ArrayList<MeanReciprocalCalculation>();
+
+    //public static final LinkedHashSet<String> interestingness = new LinkedHashSet(new ArrayList<String>(Arrays.asList(Cosine,Coherence,MaxConf,NullInterestingness.AllConf,NullInterestingness.Kulczynski,NullInterestingness.IR)));
 
 
     private static Set<String> classFileNames = new HashSet<String>();
@@ -109,17 +105,25 @@ public class Evaluation implements ThresoldConstants {
         fileHandler.setFilter(new LogFilter());
         LOGGER.addHandler(fileHandler);
 
-        for (String prediction : predictLinguisticGivenKB) {
+        for (String prediction : PredictionRules.predictKBGivenLInguistic) {
             if (!prediction.contains(givenPrediction)) {
                 continue;
             }
             Map<String, Map<String, Map<String, MeanReciprocalCalculation>>> ruleExpeResult = new TreeMap<String, Map<String, Map<String, MeanReciprocalCalculation>>>();
             for (String interestingness : allThresoldInterestingness.keySet()) {
-                if (givenInterestingness != null) {
+                /*if (givenInterestingness != null) {
                     if (!interestingness.contains(givenInterestingness)) {
                         continue;
                     }
-                }
+                }*/
+                
+                /*if (givenInterestingness != null) {
+                    if (interestingness.contains(givenInterestingness)) {
+                        continue;
+                    }
+                }*/
+                
+              
 
                 LOGGER.log(Level.CONFIG, "RULE ::" + prediction);
                 LOGGER.log(Level.CONFIG, "INTERESTINGNESS::" + interestingness);
@@ -132,14 +136,18 @@ public class Evaluation implements ThresoldConstants {
                 nouns = new ArrayList<MeanReciprocalCalculation>();*/
                 for (String experiment : thresoldsExperiment.getThresoldELements().keySet()) {
 
-                    /*if(!experiment.contains("numRule_10000-supA_100.0-supB_100.0-condAB_0.001-condBA_0.001-AllConf_0.001")){
+                    /*if(!experiment.contains("Cosine-nGram_5-numRule_300000-supA_50.0-supB_50.0-condAB_0.05-condBA_0.05-Cosine_0.05")){
                         continue;
-                }*/
-                    String nGram = gerNGram(experiment);
-                    String searchFileMatch = experiment.replace(nGram, "nGram_5");
+                    }*/
+                    System.out.println("experiment:"+experiment);
+                    if(experiment.contains("-MaxConf_0.6."))
+                        continue;
+                   // String nGram = gerNGram(experiment);
+                    //String searchFileMatch = experiment.replace(nGram, "nGram_5");
+                    String searchFileMatch =experiment;
                     List<File> expFileList = FileFolderUtils.getSpecificFiles(directory, interestingness, searchFileMatch, ".json").getValue1();
-                    /*if(expFileList.size()==0)
-                        throw new Exception("No file is available for evaluation!!!");*/
+                     if(expFileList.size()==0)
+                        throw new Exception("No Json file "+interestingness+" for parts of speech type is found!!!");
                     //System.out.println(experiment+"   expFileList:"+expFileList.size());
                     Map<String, MeanReciprocalCalculation> meanReciprocalsPos = meanReciprocalValues(prediction, interestingness, experiment, directory, expFileList);
                     if (!meanReciprocalsPos.isEmpty()) {
@@ -155,7 +163,6 @@ public class Evaluation implements ThresoldConstants {
             String outputFileName = outputDir + "VB-NN-JJ-" + prediction + "MeanR" + ".csv";
             CsvFile csvFile = new CsvFile(new File(outputFileName), LOGGER);
             csvFile.createCsvExperimentData(type, ruleExpeResult);
-            //FileFolderUtils.writeExperMeanResultsToJsonFile(expeResult, outputFileName);
 
         }
     }
@@ -183,7 +190,7 @@ public class Evaluation implements ThresoldConstants {
                 if(predictionRule.contains("_po")){
                    fileType= PREDICATE+"-"+OBJECT;
                 }
-                else
+                else 
                     fileType= PREDICATE;
                     
                 qaldFile = FileFolderUtils.getQaldCsvFile(qald9Dir + GOLD, fileType, posTag);
@@ -319,7 +326,8 @@ public class Evaluation implements ThresoldConstants {
         //predictionType.put(predict_l_for_s_given_o, ThresoldConstants.OBJECT);
         //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
          //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
-        predictionType.put(ThresoldConstants.predict_localized_l_for_s_given_p, PREDICATE);
+        //predictionType.put(PredictionRules.predict_p_for_s_given_localized_l, PREDICATE);
+         predictionType.put(PredictionRules.predict_po_for_s_given_localized_l, PREDICATE);
 
         for (String prediction : predictionType.keySet()) {
             String type = predictionType.get(prediction);
@@ -341,4 +349,5 @@ public class Evaluation implements ThresoldConstants {
         return experiment.split("-")[1];
     }
 
+  
 }

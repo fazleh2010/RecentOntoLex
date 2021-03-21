@@ -13,7 +13,6 @@ import citec.correlation.wikipedia.analyzer.logging.LogFormatter;
 import citec.correlation.wikipedia.analyzer.logging.LogHandler;
 import citec.correlation.wikipedia.dic.qald.Unit;
 import citec.correlation.wikipedia.evalution.MeanReciprocalCalculation;
-import citec.correlation.wikipedia.experiments.ThresoldConstants;
 import citec.correlation.wikipedia.main.CsvConstants;
 import static citec.correlation.wikipedia.parameters.DirectoryLocation.qald9Dir;
 import citec.correlation.wikipedia.experiments.ThresoldsExperiment;
@@ -46,6 +45,7 @@ import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.javatuples.Pair;
+import citec.correlation.wikipedia.experiments.PredictionRules;
 
 /**
  *
@@ -786,6 +786,5 @@ public class CsvFile implements CsvConstants {
 
         
     }
-
 
 }

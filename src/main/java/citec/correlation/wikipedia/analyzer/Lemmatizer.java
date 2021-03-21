@@ -5,7 +5,6 @@
  */
 package citec.correlation.wikipedia.analyzer;
 
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.IR;
 import edu.stanford.nlp.ling.TaggedWord;
 import opennlp.tools.langdetect.*;
 import opennlp.tools.lemmatizer.DictionaryLemmatizer;

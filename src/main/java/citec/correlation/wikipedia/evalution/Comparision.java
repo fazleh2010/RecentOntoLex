@@ -12,8 +12,7 @@ import citec.correlation.wikipedia.dic.lexicon.LexiconUnit;
 import citec.correlation.wikipedia.results.ReciprocalResult;
 import citec.correlation.wikipedia.evalution.ir.IrAbstract;
 import citec.correlation.wikipedia.dic.qald.Unit;
-import citec.correlation.wikipedia.experiments.ThresoldConstants;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_s_given_po;
+import static citec.correlation.wikipedia.experiments.PredictionRules.predict_l_for_s_given_po;
 import citec.correlation.wikipedia.results.LineInfo;
 import citec.correlation.wikipedia.utils.CsvFile;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -38,12 +37,13 @@ import java.util.LinkedHashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import org.javatuples.Pair;
+import citec.correlation.wikipedia.experiments.PredictionRules;
 
 /**
  *
  * @author elahi
  */
-public class Comparision implements ThresoldConstants {
+public class Comparision {
 
     //private Map<String, LexiconUnit> lexiconDic = new TreeMap<String, LexiconUnit>();
     private Map<String, LexiconUnit> lexiconDic = new TreeMap<String, LexiconUnit>();
@@ -56,6 +56,7 @@ public class Comparision implements ThresoldConstants {
     private MeanReciprocalCalculation meanReciprocalResult = null;
     private Logger LOGGER;
     private Lemmatizer lemmatizer=null;
+    public static final String LEXICON = "lexicon";
     
 
     public Comparision(String postag, String qald9Dir, File qaldFileName, File methodFileName, File outputFileName, String experiment, String type) throws IOException {
@@ -424,7 +425,5 @@ public class Comparision implements ThresoldConstants {
     public MeanReciprocalCalculation getMeanReciprocalResult() {
         return meanReciprocalResult;
     }
-
-  
 
 }

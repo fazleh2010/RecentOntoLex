@@ -5,7 +5,7 @@
  */
 package citec.correlation.wikipedia.utils;
 
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.predict_l_for_s_given_po;
+import static citec.correlation.wikipedia.experiments.PredictionRules.predict_l_for_s_given_po;
 
 /**
  *

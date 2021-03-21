@@ -5,8 +5,7 @@
  */
 package citec.correlation.wikipedia.experiments;
 
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.supA;
-import static citec.correlation.wikipedia.experiments.ThresoldConstants.supB;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
@@ -20,7 +19,7 @@ import org.javatuples.Pair;
  *
  * @author elahi
  */
-public class ThresoldsExperiment implements ThresoldConstants {
+public class ThresoldsExperiment implements NullInterestingness{
 
     private LinkedHashMap<String, ThresoldELement> thresoldELements = new LinkedHashMap<String, ThresoldELement>();
     public Map<String, List<Double>> interestingness = new TreeMap<String, List<Double>>();
@@ -48,7 +47,7 @@ public class ThresoldsExperiment implements ThresoldConstants {
     }
 
     public void setParameters(String type) {
-        if (type.contains(ThresoldConstants.OBJECT)) {
+        if (type.contains(OBJECT)) {
             supAList = new ArrayList<Double>(ObjectParamters.supAList);
             supBList = new ArrayList<Double>(ObjectParamters.supBList);
             confABList = new ArrayList<Double>(ObjectParamters.confABList);
@@ -61,7 +60,7 @@ public class ThresoldsExperiment implements ThresoldConstants {
             CoherenceList = new ArrayList<Double>(ObjectParamters.probabiltyThresold);
             numberOfRules = new ArrayList<Integer>(ObjectParamters.numberOfRules);
             nGram = new ArrayList<Integer>(ObjectParamters.nGram);
-        } else if (type.contains(ThresoldConstants.PREDICATE)) {
+        } else if (type.contains(PREDICATE)) {
             supAList = new ArrayList<Double>(PredicateParamters.supAList);
             supBList = new ArrayList<Double>(PredicateParamters.supBList);
             confABList = new ArrayList<Double>(PredicateParamters.confABList);
@@ -75,12 +74,12 @@ public class ThresoldsExperiment implements ThresoldConstants {
             numberOfRules = new ArrayList<Integer>(PredicateParamters.numberOfRules);
             nGram = new ArrayList<Integer>(PredicateParamters.nGram);
         }
-        interestingness.put(ThresoldConstants.Cosine, CosineList);
-        interestingness.put(ThresoldConstants.AllConf, AllConfList);
-        interestingness.put(ThresoldConstants.MaxConf, MaxConfList);
-        interestingness.put(ThresoldConstants.IR, IrList);
-        interestingness.put(ThresoldConstants.Kulczynski, KulczynskiList);
-        interestingness.put(ThresoldConstants.Coherence, CoherenceList);
+        interestingness.put(NullInterestingness.Cosine, CosineList);
+        interestingness.put(NullInterestingness.AllConf, AllConfList);
+        interestingness.put(NullInterestingness.MaxConf, MaxConfList);
+        interestingness.put(NullInterestingness.IR, IrList);
+        interestingness.put(NullInterestingness.Kulczynski, KulczynskiList);
+        interestingness.put(NullInterestingness.Coherence, CoherenceList);
     }
 
     /*public ThresoldsExperiment(String associationRule) {
@@ -168,7 +167,8 @@ public class ThresoldsExperiment implements ThresoldConstants {
         return "ThresoldsExperiment{" + "thresoldELements=" + thresoldELements + '}';
     }
 
-    public class ThresoldELement implements ThresoldConstants {
+
+    public class ThresoldELement {
 
         private Integer rules = 0;
         private Integer n_gram = 0;
@@ -176,10 +176,10 @@ public class ThresoldsExperiment implements ThresoldConstants {
         private LinkedHashMap<String, Double> givenThresolds = new LinkedHashMap<String, Double>();
 
         public ThresoldELement(Double supA, Double supB, Double confAB, Double confBA, String type, Double probabiltyValue, Integer numberOfRules, Integer n_gram) {
-            this.givenThresolds.put(ThresoldConstants.supA, supA);
-            this.givenThresolds.put(ThresoldConstants.supB, supB);
-            this.givenThresolds.put(ThresoldConstants.condAB, confAB);
-            this.givenThresolds.put(ThresoldConstants.condBA, confBA);
+            this.givenThresolds.put(NullInterestingness.supA, supA);
+            this.givenThresolds.put(NullInterestingness.supB, supB);
+            this.givenThresolds.put(NullInterestingness.condAB, confAB);
+            this.givenThresolds.put(NullInterestingness.condBA, confBA);
             this.type = type;
             this.givenThresolds.put(type, probabiltyValue);
             this.rules = numberOfRules;
@@ -187,10 +187,10 @@ public class ThresoldsExperiment implements ThresoldConstants {
         }
 
         public ThresoldELement(Double supA, Double supB, Double confAB, Double confBA, String type, Double probabiltyValue, Integer numberOfRules) {
-            this.givenThresolds.put(ThresoldConstants.supA, supA);
-            this.givenThresolds.put(ThresoldConstants.supB, supB);
-            this.givenThresolds.put(ThresoldConstants.condAB, confAB);
-            this.givenThresolds.put(ThresoldConstants.condBA, confBA);
+            this.givenThresolds.put(NullInterestingness.supA, supA);
+            this.givenThresolds.put(NullInterestingness.supB, supB);
+            this.givenThresolds.put(NullInterestingness.condAB, confAB);
+            this.givenThresolds.put(NullInterestingness.condBA, confBA);
             this.type = type;
             this.givenThresolds.put(type, probabiltyValue);
             this.rules = numberOfRules;

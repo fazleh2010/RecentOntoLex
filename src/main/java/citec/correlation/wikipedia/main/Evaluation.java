@@ -123,6 +123,10 @@ public class Evaluation  implements NullInterestingness{
                     }
                 }*/
                 
+                  /*if (interestingness.contains(Coherence)) {
+                        continue;
+                    }*/
+                
               
 
                 LOGGER.log(Level.CONFIG, "RULE ::" + prediction);
@@ -140,8 +144,8 @@ public class Evaluation  implements NullInterestingness{
                         continue;
                     }*/
                     System.out.println("experiment:"+experiment);
-                    if(experiment.contains("-MaxConf_0.6."))
-                        continue;
+                    /*if(experiment.contains("_0.6."))
+                        continue;*/
                    // String nGram = gerNGram(experiment);
                     //String searchFileMatch = experiment.replace(nGram, "nGram_5");
                     String searchFileMatch =experiment;
@@ -176,7 +180,7 @@ public class Evaluation  implements NullInterestingness{
             String key = getInterestingnessThresold(experiment, interestiness) + "-" + posTag;
             MeanReciprocalCalculation meanReciprocalCalculation = null;
 
-            if (!posTag.contains("JJ")) {
+            if (!posTag.contains("NN")) {
                 continue;
             }
             Pair<Boolean, File> pair = getFile(posTag, fileList);
@@ -326,15 +330,15 @@ public class Evaluation  implements NullInterestingness{
         //predictionType.put(predict_l_for_s_given_o, ThresoldConstants.OBJECT);
         //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
          //predictionType.put(predict_l_for_s_given_po, ThresoldConstants.OBJECT);
-        //predictionType.put(PredictionRules.predict_p_for_s_given_localized_l, PREDICATE);
-         predictionType.put(PredictionRules.predict_po_for_s_given_localized_l, PREDICATE);
+        predictionType.put(PredictionRules.predict_p_for_s_given_localized_l, PREDICATE);
+         //predictionType.put(PredictionRules.predict_po_for_s_given_localized_l, PREDICATE);
 
         for (String prediction : predictionType.keySet()) {
             String type = predictionType.get(prediction);
             String dicDir = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/dic/";
             String meanRDir = "/home/elahi/new/RecentOntoLex/src/main/resources/qald9/data/" + prediction + "/meanR/";
             Map<String, ThresoldsExperiment> allThresoldInterestingness = Evaluation.createExperiments(type);
-            Evaluation.calculateMeanReciprocal(type, prediction, Cosine, dicDir, meanRDir, allThresoldInterestingness);
+            Evaluation.calculateMeanReciprocal(type, prediction, null, dicDir, meanRDir, allThresoldInterestingness);
         }
     }
 

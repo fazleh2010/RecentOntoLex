@@ -74,7 +74,7 @@ public class MeanReciprocalCalculation implements Comparator {
 
     @Ignore
     //private static LinkedHashSet<String> hitsString = new LinkedHashSet<String>(Arrays.asList(MRR,Hits+1, Hits+2, Hits+4));    
-     private static LinkedHashSet<String> hitsString = new LinkedHashSet<String>(Arrays.asList(MRR,Hits+5, Hits+15, Hits+30));
+     private static LinkedHashSet<String> hitsString = new LinkedHashSet<String>(Arrays.asList(MRR,Hits+1, Hits+5, Hits+10));
     
     //private static LinkedHashSet<String> hitsString = new LinkedHashSet<String>(Arrays.asList(MRR,Hits+1, Hits+2, Hits+4));    
 
@@ -118,7 +118,7 @@ public class MeanReciprocalCalculation implements Comparator {
         
          //LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs.keySet());
            
-           //LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs);
+          
            //lexiconWordKbs=this.filter(lexiconWordKbs);
           // LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs);
          Map<String, Integer> hits=new HashMap<String, Integer>(); 

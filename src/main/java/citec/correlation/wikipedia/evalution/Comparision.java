@@ -160,6 +160,7 @@ public class Comparision {
             goldWordKbs.put(word, goldRelevance); 
         }
 
+         //LOGGER.log(Level.WARNING, "lexiconWordKbs: "+lexiconWordKbs.keySet());
         this.meanReciprocalResult = new MeanReciprocalCalculation(experiment, this.predicationRule,csvFile,lexiconWordKbs, this.lexiconLemma,goldWordKbs, LOGGER);
         //LOGGER.log(Level.INFO, "***** ***** ***** SUMMARY of RESULT ***** ***** ***** ***** ***** ***** ***** ***** ***** ***** *****");
         //LOGGER.log(Level.INFO, "***** RESULT of ANALYSIS of POS TAG::" + this.posTag);

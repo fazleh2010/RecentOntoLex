@@ -121,15 +121,6 @@ public interface PredicateParamters {
     public List<Integer> nGram = Arrays.asList(5);*/
     
     
-      //For noun
-    public List<Double> supAList = Arrays.asList(5.0, 50.0);
-    public List<Double> supBList = Arrays.asList(5.0, 50.0);
-    public List<Double> confABList = Arrays.asList(0.05, 0.1);
-    public List<Double> confBAList = Arrays.asList(0.05, 0.1);
-    public List<Double> probabiltyThresold = Arrays.asList(0.02);
-    public List<Integer> numberOfRules = Arrays.asList(300000);
-    public List<Integer> nGram = Arrays.asList(5);
-    
     
      //For por po
     /*public List<Double> supAList = Arrays.asList(5.0, 50.0);
@@ -149,6 +140,25 @@ public interface PredicateParamters {
     public List<Double> probabiltyThresold = Arrays.asList(0.6);
     public List<Integer> numberOfRules = Arrays.asList(300000);
     public List<Integer> nGram = Arrays.asList(5);*/
+    
+    
+      //For for po
+    /*public List<Double> supAList = Arrays.asList(5.0, 50.0);
+    public List<Double> supBList = Arrays.asList(5.0, 50.0);
+    public List<Double> confABList = Arrays.asList(0.05, 0.1);
+    public List<Double> confBAList = Arrays.asList(0.05, 0.1);
+    public List<Double> probabiltyThresold = Arrays.asList(0.02);
+    public List<Integer> numberOfRules = Arrays.asList(300000);
+    public List<Integer> nGram = Arrays.asList(5);*/
+    
+          //For for po
+    public List<Double> supAList = Arrays.asList(5.0, 50.0);
+    public List<Double> supBList = Arrays.asList(5.0, 50.0);
+    public List<Double> confABList = Arrays.asList(0.05, 0.1);
+    public List<Double> confBAList = Arrays.asList(0.05, 0.1);
+    public List<Double> probabiltyThresold = Arrays.asList(0.02);
+    public List<Integer> numberOfRules = Arrays.asList(300000);
+    public List<Integer> nGram = Arrays.asList(5);
     
     
 }

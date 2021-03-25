@@ -344,12 +344,15 @@ public class LexiconCreation implements NullInterestingness {
             if (!lineInfo.getValidFlag()) {
                 continue;
             }
+            
+           
 
             String nGram = lineInfo.getWord();
             nGram = nGram.replace("\"", "");
             nGram = nGram.toLowerCase().trim().strip();
             nGram = nGram.replaceAll(" ", "_");
             nGram = StopWordRemoval.deleteStopWord(nGram);
+    
 
             List<LineInfo> results = new ArrayList<LineInfo>();
             if (lineLexicon.containsKey(nGram)) {
@@ -528,13 +531,13 @@ public class LexiconCreation implements NullInterestingness {
                 //predict_localized_l_for_o_given_p
                 //predict_l_for_o_given_sp
                 //predict_localized_l_for_s_given_p 
-                PredictionRules.predict_po_for_s_given_localized_l
-                //PredictionRules.predict_p_for_s_given_localized_l
+                //PredictionRules.predict_po_for_s_given_localized_l
+                 PredictionRules.predict_p_for_s_given_localized_l
                 //PredictionRules.predict_p_for_o_given_localized_l
         ));
         List<String> interestingness = new ArrayList<String>();
-           interestingness.add(Cosine);
-         //interestingness.add(AllConf);
+           //interestingness.add(Cosine);
+          interestingness.add(Coherence);
            //interestingness.add(IR);
            //interestingness.add(Kulczynski);
          //interestingness.add(AllConf);
